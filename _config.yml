@@ -1,5 +1,5 @@
----
-title: Nvdaes.Github.Io
+﻿---
+title: BlindHelp.Github.Io
 timezone: UTC
 collections:
   posts:
@@ -8,30 +8,23 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Comunidad hispanohablante de NVDA
-description: NVDA es un lector de pantalla para Windows, de código abierto y gratuito,
-  desarrollado por NV Access con la participación de la amplia comunidad de personas
-  que lo disfrutan. En este espacio colaborativo compartiremos información generada
-  por la comunidad hispanohablante de NVDA. Esperamos que resulte ameno y útil para
-  profundizar en el conocimiento y construcción de nuestro lector de pantalla.
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+name: BlindHelp description: ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET) avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
   email: 
   facebook: 
   flickr: 
-  github: nvdaes
+  github: BlindHelp
   instagram: 
   linkedin: 
   pinterest: 
-  rss: https://nvdaes.github.io/feed.xml
+  rss: https://BlindHelp.github.io/feed.xml
   twitter: 
   stackoverflow: 
   youtube: 
   googleplus: 
-disqus: nvdaes-github-io
-google_analytics: UA-71732871-2
-url: 
+disqus: BlindHelp-github-io
+google_analytics: url: 
 baseurl: ''
 permalink: "/:title/"
 version: v1.2.0
@@ -51,11 +44,7 @@ exclude:
 - README.md
 - CNAME
 authors:
-  Noelia:
-    name: Noelia
-    display_name: Noelia
-    web: https://nvdaes.github.io/noelia
-  Chris:
-    name: Chris
-    display_name: Chris
-    web: https://nvdaes.github.io/chris
+  BlindHelp:
+    name: BlindHelp
+    display_name: BlindHelp
+    web: https://github.com/BlindHelp/BlindHelp.github.io
