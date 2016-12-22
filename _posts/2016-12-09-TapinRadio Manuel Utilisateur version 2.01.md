@@ -1,5 +1,6 @@
 ﻿
 ## TapinRadio Manuel Utilisateur version 2.01
+
 [By BlindHelp](mailto:remyruiz@gmail.com)
 
 Date de publication le  Mercredi 7 Décembre 2016
@@ -22,6 +23,7 @@ Note: Tout au long de ce tutoriel, je vais utiliser aussi le descriptif utilisan
 * Tester avec la dernière version de NVDA 2016.3.     
 
 # TapinRadio!!! Le nouveau programme d'écoute des radio via le Web accessible! #
+
 Bonjour!     
 Il y a deux façons d'écouter la radio sur Internet. Vous pouvez visiter la page d'accueil de la radio, trouver la section pertinente et commencer à jouer. La station fonctionne dans le lecteur par défaut, ou pire, dans Flash Player. De façon plus confortable, écouter la radio sur Internet à l'aide d'une application externe. cette practique est également fait par Tapinradio. Le programme est appelé TapinRadio! et il y a une version free, puis une version pro.
 En tout cas, sa fait quelques années déjà que j'utilise le programme, est c'est moi qui ai fait connaitre le programme TapinRadio à la communauté aveugle dans plusieurs listes francophones.      
@@ -4191,10 +4193,10 @@ Nous espérons vous revoir bientôt sur le
 [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)
 
 
-------------------------------------------------------------------------
+-------------------------------------------------------------------
 
 
-</main>
+
 <footer>
 Dernière mise à jour : 07/12/2016.
 </footer>
