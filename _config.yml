@@ -47,6 +47,6 @@ exclude:
 - CNAME
 authors:
   BlindHelp:
-    name: BlindHelp
-    display_name: BlindHelp
-    web: https://github.com/BlindHelp/BlindHelp.github.io
+    name: blindhelp
+    display_name: blindhelp
+    web: https://github.com/BlindHelp/BlindHelp.github.io/blindhelp
