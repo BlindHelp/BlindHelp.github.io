@@ -1,27 +1,26 @@
 ---
-title: Aide et téléchargement
-permalink: "/aide/"
+title: Ayuda y descarga
+permalink: "/ayuda/"
 layout: page
 ---
 
-### Documentation sur NVDA 2016.4 ###
+### Documentación sobre NVDA 2016.4 ###
 
-A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
+A continuación podrás encontrar documentos disponibles en el menú Ayuda de NVDA, al que puedes acceder pulsando la combinación de teclas <kbd>NVDA+n</kbd> o haciendo clic con el botón derecho del ratón sobre el icono correspondiente en la bandeja del sistema:
 
-* [Guide de l'utilisateur](/nvda/userGuide.html)
-* [Quoi de Neuf?](/nvda/changes.html)
-* [Résumé des commandes](/nvda/keyCommands.html)
+* [Guía del usuario](/nvda/userGuide.html)
+* [¿Qué hay de nuevo?](/nvda/changes.html)
 
-### Télécharger la dernière version ###
+### Descargar última versión ###
 
-Pour télécharger la dernière version stable de NVDA :
+Para descargar la última versión estable de NVDA:
 
-1. Aller à la [page de téléchargement sur le site de NV Access](http://www.nvaccess.org/download/).
-2. Choisissez le montant que vous voulez faire comme don à NV Access, ou, pas faire un don pour cette fois, "Skip donation this time", entre les boutons radio disponibles.
-3. Entrez votre adresse email dans la zone d'édition "Email address:".
-4. Appuyez sur le bouton "DOWNLOAD".
+1. Accede a la [página de descarga en el sitio de NV Access](http://www.nvaccess.org/download/).
+2. Elige la cantidad que quieras donar a NV Access, o, para no donar esta vez, "Skip donation this time", entre los botones de opción disponibles.
+3. Indica tu dirección de correo electrónico en el cuadro de edición "Email address:".
+4. Pulsa el botón "DOWNLOAD".
 
-#### Notes ####
+#### Notas ####
 
-* Si vous ne souhaitez pas recevoir de nouvelles de NV Access, décochez la case "Keep me up to date with the latest news from NV Access".
-* Comme indiqué dans la [page sur la confidentialité de NV Access](http://www.nvaccess.org/privacy/) (en anglais), parfois même des sites externes offrent des téléchargements de NVDA, et NV Access il est pas responsable du contenu ou des pratiques de confidentialité de ces sites.
+* Si no quieres recibir las noticias de NV Access, desmarca la casilla "Keep me up to date with the latest news from NV Access".
+* Como se indica en la [página sobre privacidad de NV Access](http://www.nvaccess.org/privacy/) (en inglés), a veces sitios externos incluso ofrecen descargas de NVDA, y NV Access no es responsable del contenido o prácticas de privacidad de esos sitios.
