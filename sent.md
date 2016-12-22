@@ -1,12 +1,12 @@
 ---
-title: Formulario de contacto enviado
+title: Formulaire de contact envoyé
 layout: page
 ---
 
-Gracias por ponerte en contacto con nvdaes.github.io.
-Tu mensaje ha sido enviado.
-Te responderemos lo antes posible.
+Merci  pour vous  être mis en contact avec BlindHelp.github.io.
+Votre message a été envoyé.
+Nous vous répondrons dans les plus brefs délais.
 
-Saludos,
+Amitiés,
 
-El equipo de nvdaes.github.io
+L'équipe de BlindHelp.github.io
