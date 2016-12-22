@@ -2,7 +2,7 @@
 title: BlindHelp.Github.Io
 timezone: UTC
 collections:
-  posts:
+posts:
     title: Posts
     output: true
   uploads:
