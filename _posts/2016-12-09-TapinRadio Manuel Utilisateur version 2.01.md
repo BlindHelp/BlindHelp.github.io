@@ -3,14 +3,11 @@ title: TapinRadio Manuel Utilisateur version 2.01
 layout: post
 ---
 
-## TapinRadio Manuel Utilisateur version 2.01
-
 [By BlindHelp](mailto:remyruiz@gmail.com)
 
 Date de publication le  Mercredi 7 Décembre 2016
 
 <audio  autoplay=autoplay  preload="auto">
-
  <source src="http://lasonotheque.org/UPLOAD/mp3/0313.mp3" type="audio/mp3" />
 </audio>
 
