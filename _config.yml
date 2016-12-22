@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-name:BlindHelp.github.io
+name: BlindHelp.github.io
 description:  ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
