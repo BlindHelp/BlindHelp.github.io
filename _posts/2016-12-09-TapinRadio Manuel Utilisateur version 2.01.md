@@ -1,4 +1,5 @@
 ﻿---
+title: TapinRadio Manuel Utilisateur version 2.01
 layout: post
 ---
 
@@ -11,8 +12,6 @@ Date de publication le  Mercredi 7 Décembre 2016
 
  <source src="http://lasonotheque.org/UPLOAD/mp3/0313.mp3" type="audio/mp3" />
 </audio>
-
-<main>
 
 Dernière mise à jour le Mercredi 7 Décembre 2016
 
