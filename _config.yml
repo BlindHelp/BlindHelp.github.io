@@ -6,9 +6,11 @@ collections:
     title: Posts
     output: true
   uploads:
-    title: Uploads
+        title: Uploads
     output: true
-name: BlindHelp description: ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET) avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+name: BlindHelp
+description: ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET)
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
   email: 
