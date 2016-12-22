@@ -1,32 +1,33 @@
 ---
-title: BlindHelp.GitHub.IO
+title: BlindHelp.github.io
 timezone: UTC
 collections:
-posts:
+  posts:
     title: Posts
     output: true
   uploads:
-        title: Uploads
+    title: Uploads
     output: true
-name: BlindHelp
-description: ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET)
+name:BlindHelp.github.io 
+description:  ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
   email: 
   facebook: 
   flickr: 
-  github: BlindHelp
+  github: nvdaes
   instagram: 
   linkedin: 
   pinterest: 
-  rss: https://BlindHelp.github.io/feed.xml
+  rss: https://nvdaes.github.io/feed.xml
   twitter: 
   stackoverflow: 
   youtube: 
   googleplus: 
-disqus: BlindHelp-github-io
-google_analytics: url: 
+disqus: blindhelp-github-io-1
+google_analytics: 
+url: 
 baseurl: ''
 permalink: "/:title/"
 version: v1.2.0
@@ -46,7 +47,8 @@ exclude:
 - README.md
 - CNAME
 authors:
-  BlindHelp:
-    name: blindhelp
-    display_name: blindhelp
-    web: https://github.com/BlindHelp/BlindHelp.github.io/blindhelp
+  BlinHelp:
+    name: BlindHelp
+    display_name: BlindHelp
+    web: https://blindhelp.github.io/blindhelp
+    
