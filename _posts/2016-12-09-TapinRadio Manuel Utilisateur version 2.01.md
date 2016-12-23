@@ -7,10 +7,13 @@ layout: post
 
 Date de publication le  Mercredi 7 Décembre 2016
 
-<audio  autoplay=autoplay  preload="auto">
- <source src="http://lasonotheque.org/UPLOAD/mp3/0313.mp3" type="audio/mp3" />
+<div>
+<audio  controls >
+ <source src="http://lasonotheque.org/UPLOAD/mp3/0313.mp3" type="audio/mp3" type="audio/mpeg">
+ 
+ Not supported
 </audio>
-
+</div>
 Dernière mise à jour le Mercredi 7 Décembre 2016
 
 
