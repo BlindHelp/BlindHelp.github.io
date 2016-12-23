@@ -8,12 +8,12 @@ layout: post
 Date de publication le  Mercredi 7 Décembre 2016
 
 <div>
-<audio  controls >
+<audio autoplay >
  <source src="http://lasonotheque.org/UPLOAD/mp3/0313.mp3" type="audio/mp3" type="audio/mpeg">
- 
- Not supported
+  Not supported
 </audio>
 </div>
+
 Dernière mise à jour le Mercredi 7 Décembre 2016
 
 
