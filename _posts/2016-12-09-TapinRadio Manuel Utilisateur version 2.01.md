@@ -14,10 +14,10 @@ Date de publication le  Mercredi 7 Décembre 2016
 </audio>
 </div>
 
-Dernière mise à jour le Mercredi 7 Décembre 2016
+Dernière mise à jour le Mercredi 21 Décembre 2016
 
 
-### TapinRadio Manuel Utilisateur version 2.01 #
+### TapinRadio Manuel Utilisateur version 2.01 ###
 
 * Cette présente documentation à été mise à jour par mes soins en utilisant la version TapinRadio Free v2.01    
 * Tester   avec la version d'essai TapinRadio Pro v2.01 pendant 7 jours                  
@@ -478,7 +478,14 @@ La même astuce mais pour un Windows XP:
 Toujours panneau de configuration, mais cette fois, Barre des tâches et menu démarrer, onglet "barre des tâches":          
 les cases "masquer les icônes inactives" et "grouper les boutons similaires de la barre des tâches" ne doivent pas être cochées.       Ceci est pour Windows XP.     
 Merci à notre amie Isabelle Delarue pour l'astuce!. ;)        
-Une fois fait cela appuyez sur Win+T, utilisez les touches fléchées pour retrouvez l'icône nommé: TapinRadio dans la zone de       notifications.        
+La même astuce mais pour un Windows 10:                  
+Toujours panneau de configuration, mais cette fois, Apparence et personnalisation, Barre des tâches et navigation, Sélectionner les icônes à afficher dans la barre des tâches                    
+une fois ici nous avons le bouton nommé;               
+Toujours afficher toutes les icônes dans la zone de notification                  
+il faut appuyer sur ce bouton (NVDA nous dis enfoncé).                
+Ensuite fermer la fenêtre par Alt+f4.                    
+Une fois cette opération faite, tu poura voir l'icône TapinRadio lorsque il est réduit dans la zone de notification!            
+Maintenant appuyez sur Win+T, utilisez les touches fléchées pour retrouvez l'icône nommé: TapinRadio dans la zone de       notifications.        
 Appuyez sur entrée pour l'ouvrir.        
 Une fois afficher la fenêtre principal de TapinRadio vous trouverez les six menu que je vais décrire ci-dessous.         
 Remarque:         
@@ -4149,7 +4156,12 @@ C'est tout ce que je peux dire au sujet du programme TapinRadio! (rofl)
 * Spécial Merci à:                             
 Je tenais à remercier tout particulièrement a mes amis Abdel et Daniel Poiraud pour leurs aide et conseils donnés en privé afin d'améliorer le module complémentaire pour TapinRadio: ;)           
   Encore Merci a eux deux !                   
-Sur ce, je vous souhaite une bonne écoute radial avec le nouveau petit bijou TapinRadio!                          
+  Je profite de cette occasion aussi pour remercier mon ami Noelia, pour son immense contribution et la mise en place, la correction d'erreurs, ses conseils pour créer mon espace viaGitHub                
+  [BlindHelp.github.io](https://blindhelp.github.io)                    
+  où il est hébergé cet article.                       
+  [TapinRadio Manuel Utilisateur version 2.01](https://blindhelp.github.io/TapinRadio-Manuel-Utilisateur-version-2.01/)                      
+Mille Merci encore à elle! ;)
+  Sur ce, je vous souhaite une bonne écoute radial avec le nouveau petit bijou TapinRadio!                          
 Amusez-vous bien!                       
 Arobamicalement.                 
 BlindHelp!               
@@ -4194,13 +4206,14 @@ BlindHelp!
 
 
 Nous espérons vous revoir bientôt sur le      
-[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)
-
+[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)               
+ou sur  votre nouveau espace via GitHub:                     
+[BlindHelp.github.io](https://blindhelp.github.io)                    
 
 -------------------------------------------------------------------
 
 
 
 <footer>
-Dernière mise à jour : 07/12/2016.
+Dernière mise à jour : 21/12/2016.
 </footer>
