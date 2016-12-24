@@ -1,9 +1,11 @@
 ---
 title: TapinRadio Manuel Utilisateur version 2.01
 layout: post
-author: BlindHelp
 ---
 
+[By BlindHelp](mailto:remyruiz@gmail.com)
+
+Date de publication le  Mercredi 7 Décembre 2016
 
 <div>
 <audio autoplay >
@@ -12,7 +14,7 @@ author: BlindHelp
 </audio>
 </div>
 
-<footer>Mercredi 21 décembre  2016</footer>
+Dernière mise à jour le Mercredi 21 Décembre 2016
 
 
 ### TapinRadio Manuel Utilisateur version 2.01 ###
@@ -4212,3 +4214,6 @@ ou sur  votre nouveau espace via GitHub:
 
 
 
+<footer>
+Dernière mise à jour : 21/12/2016.
+</footer>
