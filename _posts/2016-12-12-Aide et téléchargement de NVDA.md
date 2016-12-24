@@ -1,7 +1,11 @@
 ---
 											title: Aide et téléchargement de NVDA
+											date: 2016-12-12 00:00:00 Z
 layout: poste
+author: BlindHelp
 ---
+
+<footer>Lundi    12 décembre  2016</footer>
 
 ### Documentation sur NVDA 2016.4 ###
 
