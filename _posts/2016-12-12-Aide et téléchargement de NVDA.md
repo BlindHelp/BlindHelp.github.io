@@ -1,6 +1,6 @@
 ---
 											title: Aide et téléchargement de NVDA
-											date: 2016-12-12 00:00:00 Z
+date: 2016-12-12 00:00:00 Z
 layout: post
 author: BlindHelp
 ---
