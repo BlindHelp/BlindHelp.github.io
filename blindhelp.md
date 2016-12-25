@@ -5,6 +5,6 @@ layout: page
 ---
 
 ### Information de contact ###
-* [GitHub](https://github.com/BlindHelp)
+* [GitHub](https://nvdaes.github.io/blindhelp)
 * [Courriel](mailto:remyruiz@gmail.com)
 

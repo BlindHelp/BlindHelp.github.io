@@ -5,7 +5,8 @@ layout: post
 
 [By BlindHelp](mailto:remyruiz@gmail.com)
 
-Date de publication le  Mercredi 7 Décembre 2016
+Date de publication le  Vendredi 9 Décembre 2016
+
 
 <div>
 <audio autoplay >
@@ -13,8 +14,6 @@ Date de publication le  Mercredi 7 Décembre 2016
   Not supported
 </audio>
 </div>
-
-Dernière mise à jour le Mercredi 21 Décembre 2016
 
 
 ### TapinRadio Manuel Utilisateur version 2.01 ###
@@ -191,9 +190,165 @@ Si tu pense que les station de radio qui difuse sur le Web son de mauvaisse qual
 Dans la version TapinRadio Free v2.01 il existe une autre façon de le faire, il me semble.        
 Il est inclus la langue française!         
 
-Note: En espérant que l'auteur intègre la nouvelle traduction  du patch pour la langue française / espagnol avec la Dernière mise à jour dans une version future de TapinRadio, cela a été
-revue et corrigée par mes soins et envoyé à l'auteur du programme.         
+Note: En espérant que l'auteur intègre  bientôt le nouveau patch de   la nouvelle traduction pour la langue française / espagnol avec la Dernière mise à jour dans une version future de TapinRadio,         
+ cela a été revue et corrigée par mes soins et envoyé à l'auteur du programme,                 
+ mais ci-dessous, vous trouverez le lien de téléchargement pour le nouveau patch comportant la nouvelle traduction  en langue française / espagnol by BlindHelp compatible TapinRadio v1.58.1 et version supérieure.       
 
+# Télécharger le patch de la nouvelle traduction pour la langue française / espagnol by BlindHelp compatible TapinRadio v1.58.1 et version supérieure: #
+
+[Télécharger le patch  de la nouvelle traduction pour la langue française / espagnol by BlindHelp en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip)             
+Nom du fichier:                      
+TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip                  
+En décompressant le fichier nommé:                  
+TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip                   
+Vous trouverez un dossier nommé:        
+TapinRadio           
+Faire entrée        
+Vous trouverez un autre dossier nommé:                
+Languages                 
+Faire entrée           
+on trouvera les 4 fichiers suivants:                 
+
+* French.ex.lng     
+* French.lng                 
+* Spanish.ex.lng              
+* Spanish.lng                         
+
+1. Installation manuel du nouveau patch comportant la nouvelle traduction  en langue française / espagnol by BlindHelp compatible TapinRadio v1.58.1 et version supérieure.         
+Une fois décompressé le fichier et avoir sélectionné tous les fichiers, vous devez les copier pour les coller ensuite dans le chemin indiqué dans la procédure qui suit :          
+Note: Avant de procéder à ces modifications, vous devez fermer le programme TapinRadio si il est en cours d'utilisation ou il est ouvert depuis  la zone de notification.                    
+Pour installer les fichiers manuellement aller sur:        
+`C:\Program Files (x86)\TapinRadio\Languages`                 
+C'est-à-dire où vous avez installer le programme TapinRadio.                
+Remplacez les fichiers existants par ceux-ci.       
+Et bingo! (highfive)
+Maintenant, votre traduction en langue française  / espagnol pour le programme TapinRadio est à jour! :)
+Il se peut que il manque encore des petit mots à traduir mais impossible d'avoir les sources des messages en complet . :(        
+Mais c'est vachement mieux que avant!!! :)                          
+
+# Téléchargement et Installation des script  Jaws #
+Les présents scripts v.1.2.0, pour l'application TapinRadio Free v.1.58.1, sont uniquement compatibles pour les versions de Jaws 10 à 14.       
+Testé sous windows XP et W7.       
+Merci a mon ami Paul B, de la liste JawsScript (france).        
+Remarque par Paul:        
+Voici la dernière version compilée sous Jaws 10 et testée aussi avec Jaws 14.         
+Voici Ce qu'apporte les scripts:         
+
+1. Ce script n'apporte aucun raccourci. Il est là uniquement pour améliorer la vocalisation de Jaws sans action supplémentaire.         
+Scripts 1.2.0, TapinRadio Free v.1.58.2, pour Jaws 10 à 14.           
+[Télécharger  le fichier tpr-1.58.2-jawsscript-1.2.0-10a14.zip en cliquant ici](https://blindhelp.github.io/tpr-1.58.2-jawsscript-1.2.0-10a14.zip)                     
+En décompressant le fichier nommé:
+tpr-1.58.2-jawsscript-1.2.0-10a14.zip,             
+on trouvera les 10 fichiers suivants:               
+
+* TapinRadio.JBS,                         
+* TapinRadio.JCF,                       
+* TapinRadio.JDF,                               
+* TapinRadio.JKM,                                
+* TapinRadio.jsb,                            
+* TapinRadio.jsd,                       
+* TapinRadio.JSH,                       
+* TapinRadio.JSM,                        
+* TapinRadio.JSS,              
+* et  un fichier TapinRadio.htm (correspondant à la première mouture du fichier htm fait le 25.09.2013),         
+aux fins d'y revenir directement depuis le logiciel en cas de besoin, en frappant Insert+F1!.          
+Pour vous faciliter la tâche vous trouvez un fichier exécutable qui va installer les scripts pour vous!. Il s'agit de l'installateur de scripts JoAd de Lavakri!.           
+Nom du fichier exécutable:                 
+tpr-1.58.2-jawsscript-1.2.0-10a14.Exe            
+Il contient les mêmes scripts énumérés ci-dessus             
+Procèdure pour l'installation des scripts pour TapinRadio Free v.1.58.2, compatible seulment avec JAWS 10 à 14!.         
+
+1. Installation manuel des scripts:            
+Une fois décompressé le fichier et avoir sélectionné tous les scripts, vous devez les copier pour les coller ensuite dans le chemin indiqué dans la procédure qui suit :          
+Pour installer les scripts manuellement aller sur:        
+Menu démarrer|Programmes|JAWS 10.0ou 11.0 ou 13.0 etc.|Explorer JAWS|Explorer mes paramètres » ou quelque chose d'approchant selon la version de votre Jaws installer.          
+Pour les personnes ayants un Windows 7faire Windows+R            
+Une boîte de dialogue s'ouvre:            
+Exécuter              
+Entrez le nom d’un programme, dossier, document ou ressource Internet, et Windows l’ouvrira pour vous.           
+Taper:          
+`%AppData%`               
+Puis faire entrée.                 
+Chercher le dossier nommé:                
+Freedom Scientific                
+Faire entrée.                     
+Vous trouverais le dossier nommé:              
+JAWS             
+Faire entrée.       
+Ici vous y trouverez plusieurs dossiers avec le numéro de la version de votre Jaws installée           
+par exemple: 10.0/11.0/13.0/14.0.           
+Sélectionnez le dossier et appuyez sur entrée          
+Ensuite vous trouverez un dossier nommé:           
+Settings             
+Faire entrée.       
+dans le cas qui nous intéresse, il faut choisir le dossier nommé:        
+fra           
+Faire entrée.         
+Une fois ouvert vous devez coller les 10 fichiers .                
+Une fois fait, fermez le dossier fra, en appuyant sur Alt + f4!.              
+2. Pour installer les scripts à l'aide de l'installateur de scripts JoAd de Lavakri:           
+Vous y trouverez un fichier exécutable, faites entrée sur lui, puis suivez les instructions à l'écran.           
+S'aider avec la touche tabulation puis les flèches pour se déplacer.                       
+Dans la première fenêtre il faut appuyez sur le bouton Suivant.                        
+Faire tabulation.                 
+Dans la fenêtre suivante qu'il apparaît il faut sélecctionez Installer les fichiers.                     
+JoAd pour TapinRadio               
+Sélectioner une action à réaliser :                   
+Installer les fichiers.                     
+C'est la première option.                       
+Faire tabulation:                            
+Redémarer Jaws en fin d'opération              
+Cette case n'est pas coché par défaut.                       
+Aide Annuler Précédent Suivant                 
+Faire tabulation:                   
+Appuyez sur le bouton Suivant.                         
+Dans la fenêtre suivante il faut Sélectionner le dossier d'installation :                        
+Ici vous retrouvez les version de JAWS installer sur votre ordinateur. Utiliser les flèches pour faire votre choix dans la zone de liste déroulante.            
+JoAd pour TapinRadio                
+Sélectionner le dossier d'installation :                         
+Mes paramètres de jaws 13.0 en fonctionnement                            
+Note: Si on fait flèche bas on retrouve l'élément nommé: Choix du dossier:                        
+Si on a choisie cette option, si on fait tabulation on retrouve le chemin où nous avons lancez l'installateur de scripts JoAd de Lavakri.                     
+Dans le cas contraire si vous voulez installer les scripts ailleurs vous devez faire tabulation puis appuyez sur le bouton Parcourir, pour choisir un autre dossier d'installation!.                    
+Pas recommandable!                  
+Donc vous devez choisir un des dossier dans la zone de liste déroulante pour procèder a l'installation des scripts pour la version de Jaws.                 
+Faire tabulation.                
+Sélectionner la langue de jaws              
+Français              
+C'est par défaut.                
+Note: un moment donné lorsque on fait MAJ+TAB plusieurs fois on retrouve l'option:           
+Ajouter les dossier des "paramètres partagés" à la liste                    
+Cette case n'est pas coché par défaut.                 
+Faire tabulation.               
+Ici vous retrouvez une liste où se trouve tout les scripts a être installer.                
+Vous pouvez la consulter à l'aide des flèches.            
+Il sont tous coché par défaut.             
+JoAd pour TapinRadio Groupe de fichiers scripts, de Jaws 13, à installer            
+Résumé               
+Vous avez la liste des scripts! il sont 10!           
+Faire tabulation.           
+Alias c'est vide.               
+Aide Annuler Précédent Suivant           
+Faire tabulation.            
+Appuyez sur le bouton Suivant.             
+Ici vous pouvez vérifier les bonnes informations avant l'installation des scripts.             
+Joindre curseur Jaws à PC.                      
+Revenir au curseur PC.                 
+Aide Annuler Précédent Installer                  
+Une fois fait, appuyez sur le bouton Installer.               
+Attendre quelques instants!             
+Après l'installation des scripts, un message apparaît:                 
+Info             
+Toutes les opérations ont été éffectué avec succés !                   
+OK                   
+Appuyez sur le bouton OK pour fermer cette boîte de dialogue.                   
+Ensuite ici nous avons le rapport comme quoi toutes les actions ils ont été bien faites.           
+Donc, vous pouvez vérifier les bonnes informations après l'installation des scripts.             
+Joindre curseur Jaws à PC.               
+Revenir au curseur PC.             
+Ensuite il apparaît le bouton Fermer.            
+Appuyez sur le bouton Fermer pour fermer cette boîte de dialogue!             
+C'est fini l'installation des scripts pour TapinRadio! (cool)
 Voici encore quelques caractéristique de plus de TapinRadio:        
 
 1. Il y a Beaucoup de stations à choisir.        
@@ -517,7 +672,7 @@ C'est par défaut.
 ou:          
 Réduire dans la zone de notification via le bouton fermer Case à coché Non Coché        
 C'est par défaut.       
-Toujours avec un W7!.        
+Toujours avec un W7/10!.        
 Pour y remédier, utiliser l'astuce décrites ci-dessus pour voir afficher l'icône de TapinRadio dans la zone de notification!       
 Lorsque vous avez fait entrée sur l'icône qui se trouve sur le bureau nommé: TapinRadio vous trouvez les 6 menus comme sui:        
 
@@ -4137,10 +4292,17 @@ Raccourci:
 * Une simple frappe de NVDA+Maj+T annonce la station sélectionnée, le temps écoulé et la quantité de données utilisées pour la station. Ces informations sont copiées dans le presse-papier.                       
 * Une double frappe de NVDA+Maj+T maximise la fenêtre du programme. Cette action est vocalisée. Avec une double frappe, il y a bien sûr copie des infos dans le presse-papier.                         
 
-Télécharger le nouveau module complémentaire depuis le référentiel ou dépôt (repository en anglais)  en GitHub:                                
+Télécharger le nouveau module complémentaire TapinRadioStatusAnnouncer-2.0.nvda-addon depuis le référentiel ou dépôt (repository en anglais)  en GitHub:                                
 [TapinRadioStatusAnnouncer-2.0.nvda-addon](https://github.com/BlindHelp/TapinRadioStatusAnnouncer/releases/download/2.0/TapinRadioStatusAnnouncer-2.0.nvda-addon)                    
 Voir le référentiel ou dépôt (repository en anglais) dédié au nouveau module complémentaire TapinRadioStatusAnnouncer en GitHub:                       
 [BlindHelpTapinRadioStatusAnnouncer ](https://github.com/BlindHelp/TapinRadioStatusAnnouncer)                    
+Remarque par BlindHelp: Le module TapinRadioStatusAnnouncer utilise la même commande que le module complémentaire Instant Translate par défaut.       
+Note : La commande ci-dessus peut être changé depuis le menu NVDA, sous-menu Préférences, dans la boîte de dialogue Gestes de commandes, dans la catégorie Configuration.       
+Gestes de commandes         
+Dans ce dialogue, vous pouvez configurer les gestes de commandes (raccourcis clavier, boutons d'un afficheur braille etc) pour les commandes NVDA.          
+Seules les commandes qui sont applicables immédiatement avant l'ouverture du dialogue sont affichées. Par exemple, si vous souhaitez personnaliser des commandes liées au mode navigation, vous devez ouvrir le dialogue des gestes de commandes lorsque vous êtes en mode navigation. L'arborescence de ce dialogue répertorie toutes les commandes NVDA applicables regroupées par catégories.          
+Vous pouvez les filtrer en entrant un ou plusieurs mots du nom de la commande dans la zone d'édition Filtrer par dans n'importe quel ordre. Tous les gestes associés à une commande sont énumérés au niveau suivant la commande. Pour ajouter un geste à une commande, sélectionnez la commande et appuyez sur le bouton "Ajouter". Ensuite, effectuez le geste de commande que vous souhaitez associer, par exemple appuyez sur une touche du clavier ou un bouton sur l'afficheur braille. Parfois, un geste peut être interprété de plusieurs façons. Par exemple, si vous avez appuyé sur une touche du clavier, vous voudrez peut-être qu'elle soit spécifique à la configuration actuelle du clavier (par exemple,         
+ordinateur de bureau ou ordinateur portable) ou vous voudrez peut-être l'appliquer pour toutes les configurations. Dans ce cas, un menu apparaît, vous permettant de sélectionner l'option désirée. Pour supprimer un geste d'une commande, sélectionnez le geste et appuyez sur le bouton "Supprimer". Lorsque vous avez terminé vos modifications, appuyez sur le bouton "OK" pour les sauvegarder ou sur le bouton "Annuler" pour les ignorer.           
 
 # Note finale, conclusions par BlindHelp et spécial Merci à: #
 
@@ -4156,6 +4318,8 @@ C'est tout ce que je peux dire au sujet du programme TapinRadio! (rofl)
 * Spécial Merci à:                             
 Je tenais à remercier tout particulièrement a mes amis Abdel et Daniel Poiraud pour leurs aide et conseils donnés en privé afin d'améliorer le module complémentaire pour TapinRadio: ;)           
   Encore Merci a eux deux !                   
+  * Je tenais à remercier tout particulièrement aussi a mon ami Paul B, qui a fait le script pour TapinRadio pour le rendre plus accessible avec notre lecteur d'écran JAWS, et a mon ami Jean-Claude Armingaud, pour les conseils données sur la liste JawsScript (france). ;)           
+Encore Merci a eux deux !                   
   Je profite de cette occasion aussi pour remercier mon ami Noelia, pour son immense contribution et la mise en place, la correction d'erreurs, ses conseils pour créer mon espace viaGitHub                
   [BlindHelp.github.io](https://blindhelp.github.io)                    
   où il est hébergé cet article.                       
@@ -4215,5 +4379,5 @@ ou sur  votre nouveau espace via GitHub:
 
 
 <footer>
-Dernière mise à jour : 21/12/2016.
+Dernière mise à jour  25 Décembre, 2016.
 </footer>
