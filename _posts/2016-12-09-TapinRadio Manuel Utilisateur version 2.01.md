@@ -350,7 +350,8 @@ Revenir au curseur PC.
 Ensuite il apparaît le bouton Fermer.            
 Appuyez sur le bouton Fermer pour fermer cette boîte de dialogue!             
 C'est fini l'installation des scripts pour TapinRadio! (cool)          
-Voici encore quelques caractéristique de plus de TapinRadio:        
+
+# Voici encore quelques caractéristique de plus de TapinRadio: #
 
 1. Il y a Beaucoup de stations à choisir.        
 2. Supporte la plupart des formats de radio Internet - mp3, wma, ogg vorbis, aac et ainsi de suite.        

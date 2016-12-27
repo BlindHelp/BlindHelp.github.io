@@ -31,7 +31,6 @@ Pour télécharger la dernière version stable de NVDA :
 [page sur la confidentialité de NV Access](http://www.nvaccess.org/privacy/)           
 (en anglais), parfois même des sites externes offrent des téléchargements de NVDA, et NV Access il est pas responsable du contenu ou des pratiques de confidentialité de ces sites.         
 
-Sur ce...
-Je vous souhaite une très bonne utilisation DE votre lecteur d'écran NVDA! :)        
+Sur ce, je vous souhaite une très bonne utilisation DE votre lecteur d'écran NVDA! :)        
 @+                     
 BlindHelp!                           
