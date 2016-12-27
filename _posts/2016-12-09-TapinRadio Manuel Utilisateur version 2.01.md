@@ -221,8 +221,8 @@ Pour installer les fichiers manuellement aller sur:
 `C:\Program Files (x86)\TapinRadio\Languages`                 
 C'est-à-dire où vous avez installer le programme TapinRadio.                
 Remplacez les fichiers existants par ceux-ci.       
-Et bingo! (highfive)
-Maintenant, votre traduction en langue française  / espagnol pour le programme TapinRadio est à jour! :)
+Et bingo! (highfive)         
+Maintenant, votre traduction en langue française  / espagnol pour le programme TapinRadio est à jour! :)        
 Il se peut que il manque encore des petit mots à traduir mais impossible d'avoir les sources des messages en complet . :(        
 Mais c'est vachement mieux que avant!!! :)                          
 
@@ -237,7 +237,7 @@ Voici Ce qu'apporte les scripts:
 1. Ce script n'apporte aucun raccourci. Il est là uniquement pour améliorer la vocalisation de Jaws sans action supplémentaire.         
 Scripts 1.2.0, TapinRadio Free v.1.58.2, pour Jaws 10 à 14.           
 [Télécharger  le fichier tpr-1.58.2-jawsscript-1.2.0-10a14.zip en cliquant ici](https://blindhelp.github.io/tpr-1.58.2-jawsscript-1.2.0-10a14.zip)                     
-En décompressant le fichier nommé:
+En décompressant le fichier nommé:        
 tpr-1.58.2-jawsscript-1.2.0-10a14.zip,             
 on trouvera les 10 fichiers suivants:               
 
@@ -307,7 +307,8 @@ Ici vous retrouvez les version de JAWS installer sur votre ordinateur. Utiliser 
 JoAd pour TapinRadio                
 Sélectionner le dossier d'installation :                         
 Mes paramètres de jaws 13.0 en fonctionnement                            
-Note: Si on fait flèche bas on retrouve l'élément nommé: Choix du dossier:                        
+Note: Si on fait flèche bas on retrouve l'élément nommé:                
+Choix du dossier:                        
 Si on a choisie cette option, si on fait tabulation on retrouve le chemin où nous avons lancez l'installateur de scripts JoAd de Lavakri.                     
 Dans le cas contraire si vous voulez installer les scripts ailleurs vous devez faire tabulation puis appuyez sur le bouton Parcourir, pour choisir un autre dossier d'installation!.                    
 Pas recommandable!                  
@@ -348,7 +349,7 @@ Joindre curseur Jaws à PC.
 Revenir au curseur PC.             
 Ensuite il apparaît le bouton Fermer.            
 Appuyez sur le bouton Fermer pour fermer cette boîte de dialogue!             
-C'est fini l'installation des scripts pour TapinRadio! (cool)
+C'est fini l'installation des scripts pour TapinRadio! (cool)          
 Voici encore quelques caractéristique de plus de TapinRadio:        
 
 1. Il y a Beaucoup de stations à choisir.        
@@ -4318,13 +4319,13 @@ C'est tout ce que je peux dire au sujet du programme TapinRadio! (rofl)
 * Spécial Merci à:                             
 Je tenais à remercier tout particulièrement a mes amis Abdel et Daniel Poiraud pour leurs aide et conseils donnés en privé afin d'améliorer le module complémentaire pour TapinRadio: ;)           
   Encore Merci a eux deux !                   
-  * Je tenais à remercier tout particulièrement aussi a mon ami Paul B, qui a fait le script pour TapinRadio pour le rendre plus accessible avec notre lecteur d'écran JAWS, et a mon ami Jean-Claude Armingaud, pour les conseils données sur la liste JawsScript (france). ;)           
+* Je tenais à remercier tout particulièrement aussi a mon ami Paul B, qui a fait le script pour TapinRadio pour le rendre plus accessible avec notre lecteur d'écran JAWS, et a mon ami Jean-Claude Armingaud, pour les conseils données sur la liste JawsScript (france). ;)           
 Encore Merci a eux deux !                   
-  Je profite de cette occasion aussi pour remercier mon ami Noelia, pour son immense contribution et la mise en place, la correction d'erreurs, ses conseils pour créer mon espace viaGitHub                
+* Je profite de cette occasion aussi pour remercier mon ami Noelia, pour son immense contribution et la mise en place, la correction d'erreurs, ses conseils pour créer mon espace viaGitHub                
   [BlindHelp.github.io](https://blindhelp.github.io)                    
   où il est hébergé cet article.                       
   [TapinRadio Manuel Utilisateur version 2.01](https://blindhelp.github.io/TapinRadio-Manuel-Utilisateur-version-2.01/)                      
-Mille Merci encore à elle! ;)
+Mille Merci encore à elle! ;)        
   Sur ce, je vous souhaite une bonne écoute radial avec le nouveau petit bijou TapinRadio!                          
 Amusez-vous bien!                       
 Arobamicalement.                 
@@ -4356,15 +4357,14 @@ Skype.ui({
 
 ------------------------------------------------------------------------
 
-Voilà, c'est fini comme dirait l'autre!\
-J'espère que cet article vous aura plu! (Oui, j'espère vraiment, car j'y
-ai passé un temps de dingue!\
+Voilà, c'est fini comme dirait l'autre!          
+J'espère que cet article vous aura plu! (Oui, j'espère vraiment, car j'y ai passé un temps de dingue!           
 Mais malgré tout le travail accompli, je suis très heureux  :) d'avoir
-partagé ce manuel avec tous les amis du Blog de BlindHelp!\
-Donc, profitez d'écoutez une très bonne musique à travers de TapinRadio !
- Amusez-vous bien!\
-A+!\
-BlindHelp!
+partagé ce manuel avec tous les amis du Blog de BlindHelp!             
+Donc, profitez d'écoutez une très bonne musique à travers de TapinRadio !         
+ Amusez-vous bien!          
+A+!          
+BlindHelp!          
 
 ------------------------------------------------------------------------
 
