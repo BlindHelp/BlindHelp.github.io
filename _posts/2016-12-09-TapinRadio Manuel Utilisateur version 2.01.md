@@ -226,14 +226,14 @@ Maintenant, votre traduction en langue française  / espagnol pour le programme 
 Il se peut que il manque encore des petit mots à traduir mais impossible d'avoir les sources des messages en complet . :(        
 Mais c'est vachement mieux que avant!!! :)                          
 2. Installation du nouveau patch comportant la nouvelle traduction  en langue française / espagnol en utilisant le fichier copierFichier.exe  by BlindHelp compatible TapinRadio v1.58.1 et version supérieure.         
-Tout d'abord, je voulais remercier à mon fidel  ami Abdel pour nous avoir concocter le petit programme nommé: copierFichier.exe;             
+Tout d'abord, je voulais remercier à mon fidel  ami Abdel, pour nous avoir concocter le petit programme nommé: copierFichier.exe;             
 qui nous facilitera la copie de ces fichiers lng dans TapinRadio ! (cool)                    
 Et aussi pour nous avoir donné ces présentes instructions pour utiliser le fichier copierFichier.exe. ;)                   
 Ce programme concocter  par notre ami Abdel est seulement utilisable pour copier les fichiers lng dans TapinRadio, dont, inutile de l'utiliser à d'autres fins! .                                  
-[Télécharger le fichier copierFichier.exe en cliquant ici](https://blindhelp.github.io/copierFichier.exe)             
+[Télécharger le fichier copierFichier.exe en cliquant ici](https://blindhelp.github.io/copierFichier.zip)             
 Nom du fichier:                      
-copierFichier.exe                    
-Une fois téléchargé le fichier copierFichier.exe vous devez suivre la suivante procédure :           
+copierFichier.zip                    
+Une fois téléchargé le fichier copierFichier.zip vous devez suivre la suivante procédure :           
 [Télécharger le fichier TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip)             
 Si vous ne l'avez pas encore fait !                     
 Après avoir décompressé l'archive, vous trouver un dossier nommé TapinRadio, avec son sous-dossier nommé Languages, avec dedans, mes 4 fichiers .lng.                     
@@ -241,6 +241,7 @@ French.ex.lng
 French.lng                
 Spanish.ex.lng                 
 Spanish.lng                
+Après avoir décompressé l'archive copierFichier.zip, vous trouver un  fichier nommé copierFichier.zip.exe.                     
 Placer le fichier copierFichier.exe où se trouve ces 4 fichiers .lng.              
 ces fichiers seront affichés comme sui:                   
 copierFichiers.exe                 
