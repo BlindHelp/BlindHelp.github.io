@@ -221,63 +221,66 @@ Pour installer les fichiers manuellement aller sur:
 `C:\Program Files (x86)\TapinRadio\Languages`                 
 C'est-à-dire où vous avez installer le programme TapinRadio.                
 Remplacez les fichiers existants par ceux-ci.       
+Une fois fait ces changements exécutez à nouveau le programme TapinRadio depuis l'icône situé sur le bureau.                        
 Et bingo! (highfive)         
 Maintenant, votre traduction en langue française  / espagnol pour le programme TapinRadio est à jour! :)        
 Il se peut que il manque encore des petit mots à traduir mais impossible d'avoir les sources des messages en complet . :(        
 Mais c'est vachement mieux que avant!!! :)                          
-2. Installation du nouveau patch comportant la nouvelle traduction  en langue française / espagnol en utilisant le fichier copierFichier.exe  by BlindHelp compatible TapinRadio v1.58.1 et version supérieure.         
-Tout d'abord, je voulais remercier à mon fidel  ami Abdel, pour nous avoir concocter le petit programme nommé: copierFichier.exe;             
+2. Installation du nouveau patch comportant la nouvelle traduction  en langue française / espagnol compatible TapinRadio v1.58.1 et version supérieure          by BlindHelp en utilisant le  petit programme copierFichiers.exe by Abdel  
+Tout d'abord, je voulais remercier à mon fidel  ami Abdel, pour nous avoir concocter le petit programme nommé: copierFichiers.exe;             
 qui nous facilitera la copie de ces fichiers lng dans TapinRadio ! (cool)                    
-Et aussi pour nous avoir donné ces présentes instructions pour utiliser le fichier copierFichier.exe. ;)                   
+Et aussi pour nous avoir donné ces présentes instructions pour utiliser le fichier copierFichiers.exe. ;)                   
 Ce programme concocter  par notre ami Abdel est seulement utilisable pour copier les fichiers lng dans TapinRadio, dont, inutile de l'utiliser à d'autres fins! .                                  
-[Télécharger le fichier copierFichier.exe en cliquant ici](https://blindhelp.github.io/copierFichier.zip)             
+[Télécharger l'archive zip comportant le programme copierFichiers.exe en cliquant ici](https://blindhelp.github.io/copierFichiers.zip)             
 Nom du fichier:                      
-copierFichier.zip                    
-Une fois téléchargé le fichier copierFichier.zip vous devez suivre la suivante procédure :           
-[Télécharger le fichier TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip)             
+copierFichiers.zip                    
+Une fois téléchargé l'archive copierFichiers.zip vous devez suivre la suivante procédure :           
+[Télécharger l'archive zip TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip)             
 Si vous ne l'avez pas encore fait !                     
-Après avoir décompressé l'archive, vous trouver un dossier nommé TapinRadio, avec son sous-dossier nommé Languages, avec dedans, mes 4 fichiers .lng.                     
+Après avoir décompressé l'archive, vous trouver un dossier nommé TapinRadio, avec son sous-dossier nommé Languages, avec dedans, mes 4 fichiers .lng:                     
 French.ex.lng                 
 French.lng                
 Spanish.ex.lng                 
 Spanish.lng                
-Après avoir décompressé l'archive copierFichier.zip, vous trouver un  fichier nommé copierFichier.zip.exe.                     
-Placer le fichier copierFichier.exe où se trouve ces 4 fichiers .lng.              
+Après avoir décompressé l'archive copierFichiers.zip, vous trouver un  fichier nommé copierFichiers.exe.                     
+Placer le fichier copierFichiers.exe où se trouve ces 4 fichiers .lng.              
 ces fichiers seront affichés comme sui:                   
 copierFichiers.exe                 
 French.ex.lng                   
 French.lng                       
 Spanish.ex.lng                       
 Spanish.lng               
-Le fichier copierFichier.exe ne doit être exécuté qu'une seule fois à partir du menu contextuel, item E"xécuter en tant qu'administrateur", il copiera alors tous les fichiers lng présent dans le dossier, sans exception, dès la première fois, il n'est donc pas nécessaire de le refaire à nouveau.                  
+Note: Avant de procéder à ces modifications, vous devez fermer le programme TapinRadio si il est en cours d'utilisation ou il est ouvert depuis  la zone de notification.                    
+Le fichier copierFichiers.exe ne doit être exécuté qu'une seule fois à partir du menu contextuel, item E"xécuter en tant qu'administrateur", il copiera alors tous les fichiers lng présent dans le dossier, sans exception, dès la première fois, il n'est donc pas nécessaire de le refaire à nouveau.                  
 (sauf d'une future modification de ces fichiers de ma part).                   
 Si vous avez suivi ces étapes et tout va bien, vous verrez un dialogue comme message :                      
 Confirmation                  
 Vos fichiers de langue ont bien été copiés                       
 OK                          
 Appuyer sur le bouton OK pour fermer la dite boîte de dialogue !                
+Une fois fait ces changements exécutez à nouveau le programme TapinRadio depuis l'icône situé sur le bureau.                        
 Et bingo! (highfive)         
 Maintenant, votre traduction en langue française  / espagnol pour le programme TapinRadio est à jour! :)        
 Il se peut que il manque encore des petit mots à traduir mais impossible d'avoir les sources des messages en complet . :(        
 Mais c'est vachement mieux que avant!!! :)                          
 Remarques Très Importante :                         
-Si votre antivirus vous bloque le fichier copierFichier.exe (par exemple sous un Windows 10;, (Windows Defender) il faut l'autoriser à s'exécuté.                       
-N'oubliez pas que Le fichier copierFichier.exe  devra être exécuté en utilisant la commande du menu contextuel "Exécuter en tant qu’administrateur".                         
-Ne pas appuyer sur la touche Entrée sur le fichier copierFichier.exe !                         
+Si votre antivirus vous bloque le fichier copierFichiers.exe (par exemple sous un Windows 10;, (Windows Defender) il faut l'autoriser à s'exécuté.                       
+N'oubliez pas que Le fichier copierFichiers.exe  devra être exécuté en utilisant la commande du menu contextuel "Exécuter en tant qu’administrateur".                         
+Ne pas appuyer sur la touche Entrée sur le fichier copierFichiers.exe !                         
 Dans le cas contraire vous verrez un dialogue comme message d'erreur :                     
 Vos fichiers .lng n'ont pas pu être copiés, vérifiez qu'ils sont bien               
 présent dans le dossier courant.                
 OK               
 Appuyer sur le bouton OK pour fermer la dite boîte de dialogue !                  
 Note by BlindHelp !                       
-Vous devez exécuter le fichier copierFichier.exe à partir du dossier où vous avez trouvé mes 4 fichiers .lng,. pour que le remplacement des fichiers correspondant dans :                         
+Vous devez exécuter le fichier copierFichiers.exe à partir du dossier où vous avez trouvé mes 4 fichiers .lng,. pour que le remplacement des fichiers correspondant dans :                         
 `C:\Program files (x86)\TapinRadio\Languages`                             
 ou :                        
 `C:\Program files\TapinRadio\Languages`                   
 selon la version 64 ou 32 bits du Windows utilisé, soit réalisé avec bien sûr, un message de confirmation comme indiqué plus haut.                        
-Le fichier copierFichier.exe ne doit être exécuté qu'une seule fois à partir du menu contextuel, item exécuter en tant qu'administrateur, il copiera alors tous les fichiers lng présent dans le dossier, sans exception, dès la première fois, il n'est donc pas nécessaire de le refaire à nouveau.                                 
+Le fichier copierFichiers.exe ne doit être exécuté qu'une seule fois à partir du menu contextuel, item exécuter en tant qu'administrateur, il copiera alors tous les fichiers lng présent dans le dossier, sans exception, dès la première fois, il n'est donc pas nécessaire de le refaire à nouveau.                                 
 (sauf d'une future modification de ces fichiers de ma part).                        
-Une fois exécuté le fichier copierFichier.exe comme indiqué plus haut, il remplacera les 4 fichiers .lng présent dans :                                
+Une fois exécuté le fichier copierFichiers.exe comme indiqué plus haut, il remplacera les 4 fichiers .lng présent dans :                                
 `C:\Program files (x86)\TapinRadio\Languages`                   
 ou:                             
 `C:\Program files\TapinRadio\Languages`                         
@@ -290,12 +293,14 @@ ou :
 selon la version 64 ou 32 bits du Windows utilisé.                              
 Donc, si vous avez un dossier différent à celui d'origine,  vous devrez déplacer manuellement mes 4 fichiers .lng afin de remplacer les 4 fichiers .lng présent dans votre dossier Languages.                       
 Ensuite vous pouvez supprimer complètement ce nouveau dossier récemment créé.                               
-Le fichier copierFichier.exe ne doit être exécuté si vous avez mis le dossier TapinRadio à la racine du lecteur C.                     
+Le fichier copierFichiers.exe ne doit être exécuté si vous avez mis le dossier TapinRadio à la racine du lecteur C; par exemple:                     
 `C:\TapinRadio\Languages`                        
 Vous devrez copier manuellement mes 4 fichiers .lng afin de remplacer les 4 fichiers .lng présent dans votre dossier Languages, comme indiqué plus haut,                            
-en utilisant le fichier TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip que vous avez préalablement téléchargé puis décompressé.                        
-Je remercie encore une fois à mon ami Abdel pour son petit programme copierFichier.exe (handshake)               
-Profiter donc!                                    
+en utilisant l'archive   zip nommé:                 
+TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip                   
+que vous avez  téléchargé puis décompressé préalablement. (voir les explications ci-dessus).                        
+Je remercie encore une fois à mon ami Abdel, pour son petit programme copierFichiers.exe (handshake)               
+Profiter donc! (happy)                                    
 
 # Téléchargement et Installation des script  Jaws #
 Les présents scripts v.1.2.0, pour l'application TapinRadio Free v.1.58.1, sont uniquement compatibles pour les versions de Jaws 10 à 14.       
