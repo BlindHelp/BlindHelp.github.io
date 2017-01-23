@@ -1,5 +1,5 @@
 ﻿---
-title: TW Blue - Nouveau client Twitter accessible
+title: TW Blue Nouveau client Twitter accessible
 layout: post
 author: BlindHelp
 ---
