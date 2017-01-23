@@ -18,7 +18,7 @@ ou depuis la mise à jour automatique.
 Important! Si vous mettez à jour à partir de la version 0.87, fermez et rouvrez toute les chronologie que vous aviez ouverte xd lol :)                        
 Une fois télécharger puis installer cette nouvelle version de TWBlue 0.89...               
 Pour savoir les changements aller sur le Menu Aide puis faire entrée sur l'élément nommé:                                
-Quoi de neuf dans cette version ?
+Quoi de neuf dans cette version ?              
 Pour avoir l'aide aller sur ce même menu, puis faire entrée sur l'élément nommé:                     
 Documentation            
 
