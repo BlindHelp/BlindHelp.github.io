@@ -4,9 +4,9 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Lundi 12 janvier 2015</footer>
+<footer>Lundi    12 janvier 2015</footer>
 
-### TW Blue - Nouveau client Twitter accessible ###
+### TW Blue Nouveau client Twitter accessible ###
 Coucou mes amis du blog de BlindHelp !  
 Aujourd'hui je vous apporte quelque chose de nouveau ! il s'agit d'un nouveau client Twitter ! nous savons bien qu'il existe le client  
 [The Qube,](http://www.quartzprojects.co.uk/)
