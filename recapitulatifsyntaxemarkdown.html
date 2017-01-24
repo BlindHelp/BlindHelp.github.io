@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Auteur: BlindHelp" />
+  <title>Récapitulatif Syntaxe Markdown by BlindHelp</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Récapitulatif Syntaxe Markdown by BlindHelp</h1>
+<h2 class="author">Auteur: BlindHelp</h2>
+<h3 class="date">Dernière mise à jour le 13 Avril 2016.</h3>
+</div>
+<hr />
+<h1 id="recapitulatif-syntaxe-markdown-by-blindhelp" class="unnumbered">Récapitulatif Syntaxe Markdown by BlindHelp</h1>
+<h2 id="contenus" class="unnumbered">Contenus</h2>
+<ul>
+<li><a href="#mark3">Les titres</a></li>
+<li><a href="#mark4">Les paragraphes</a></li>
+<li><a href="#mark5">Les sauts de ligne simple</a></li>
+<li><a href="#mark6">L’emphase</a></li>
+<li><a href="#mark7">Les citations</a></li>
+<li><a href="#mark8">Les listes non ordonnée</a></li>
+<li><a href="#mark9">Les listes ordonnées</a></li>
+<li><a href="#mark10">Le bloc de code</a></li>
+<li><a href="#mark11">Le code dans la ligne</a></li>
+<li><a href="#mark12">Les filets ou barres de séparation</a></li>
+<li><a href="#mark13">Les liens</a></li>
+<li><a href="#mark14">Les images</a></li>
+<li><a href="#mark15">Les tableaux</a></li>
+<li><a href="#mark16">Échappement des caractères</a></li>
+<li><a href="#mark17">Séparer des blocs</a></li>
+</ul>
+<hr />
+<ul>
+<li><a href="#telechargerrecapitulatifsyntaxemarkdown">Télécharger le Récapitulatif des Syntaxe Markdown en format MD</a></li>
+</ul>
+<hr />
+<h2 id="recapitulatif-des-syntaxe-markdown" class="unnumbered">Récapitulatif des Syntaxe Markdown</h2>
+<h1 id="mark3"><span class="header-section-number">1</span> Les titres</h1>
+<!-- je triche ici en fabriquant le résultat afin que ces titres n'apparaissent pas dans la TOC -->
+<p>Les titres HTML se produisent en plaçant un certain nombre de dièses(signe) <code>#</code> avant le texte correspondant au niveau du titre souhaité (HTML offre jusqu'à six niveaux).</p>
+<p>Vous tapez:</p>
+<p><code>#</code> Ceci est un H1<br /><code>##</code> Ceci est un H2<br /><code>###</code> Ceci est un H3<br /><code>####</code> Ceci est un H4<br /><code>#####</code> Ceci est un H5<br /><code>######</code> Ceci est un H6</p>
+<p>(mais n’allez pas au delà de 7).</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<h1 id="ceci-est-un-H1" class="unnumbered">Ceci est un H1</h1>
+<h2 id="ceci-est-un-H2" class="unnumbered">Ceci est un H2</h2>
+<h3 id="ceci-est-un-H3" class="unnumbered">Ceci est un H3</h3>
+<h4 id="ceci-est-un-H4" class="unnumbered">Ceci est un H4</h4>
+<h5 id="ceci-est-un-H5" class="unnumbered">Ceci est un H5</h5>
+<h6 id="ceci-est-un-H6" class="unnumbered">Ceci est un H6</h6>
+<p>(mais n’allez pas au delà de 7).</p>
+<p>Vous pouvez enfermer chaque titre entre dièses (signe) <strong>#</strong>, pour des raisons purement esthétiques, parce qu'il n'est pas nécessaire du tout de le faire, c'est-à-dire, vous pouvez faire ceci:</p>
+<p><code>###</code> Ceci est un H3 <code>###</code></p>
+<h3 id="ceci-est-un-H3" class="unnumbered">Ceci est un H3</h3>
+<p>Pour les titres des deux premiers niveaux il existe également une autre façon de faire la même chose, qui serait la suivante:</p>
+<p>Ceci est un H1<br /><code>=============</code></p>
+<h1 id="ceci-est-un-H1" class="unnumbered">Ceci est un H1</h1>
+<p>Ceci est un H2<br /><code>-------------</code></p>
+<h2 id="ceci-est-un-H2" class="unnumbered">Ceci est un H2</h2>
+<p>C'est-à-dire, pour les titres principaux vous souligner le texte avec le signe égal. Pour les titres de deuxième niveau vous utilisés les tirets pour souligner. C'est indifférent le nombre de signes égal ou tirets que vous utilisé, avec un c'est suffisant.</p>
+<p>Note: Vous pouvez aussi dans un titre inclure un lien:</p>
+<p>Vous taper:</p>
+<pre><code>### Titre de niveau 3 incluant [un lien](#)       </code></pre>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<h3 id="Titre-de-niveau-3-incluant-un-lien" class="unnumbered">Titre de niveau 3 incluant <a href=#>un lien</a></h3>
+<hr />
+<h1 id="mark4"><span class="header-section-number">2</span> Les paragraphes</h1>
+<p>Les paragraphes sont indiqués avec une ou plusieurs lignes de séparation (en appuyant sur la touche entrée).<br />Pour afficher un paragraphe, sautez deux ligne et taper votre texte. Un seul saut de ligne correspond à un retour chariot et pas à un changement de paragraphe.</p>
+<hr />
+<h1 id="mark5"><span class="header-section-number">3</span> Les sauts de ligne simple</h1>
+<p>Effectuer un saut de ligne simple dans votre texte markdown n’aura aucun effet quand vous l'exporter en HTML.<br />Sauf si vous terminez votre ligne par un double espace (ou plus que ça).<br />Un retour chariot sera alors exporté.</p>
+<p>Vous taper:</p>
+<pre><code>Ligne sans espace à la fin
+Ligne avec 2 espaces à la fin  
+Troisième ligne</code></pre>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Ligne sans espace à la fin Ligne avec 2 espaces à la fin<br />Troisième ligne</p>
+<p>Terminer une ligne avec deux ou plusieurs espaces:<br />La première ligne se termine par trois espace après la virgule, la deuxième ligne fini par un point final.</p>
+<p>Par exemple vous taper:</p>
+<pre><code>Les roses sont rouges,   
+les violettes sont bleues.</code></pre>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Les roses sont rouges,<br />les violettes sont bleues.</p>
+<p>En résumer:<br />Pour effectuer un saut de ligne à l'intérieur d'un paragraphe il faut introduire 2 ou davantage de caractères espaces à la fin de la ligne (avant le saut à la ligne).</p>
+<hr />
+<h1 id="mark6"><span class="header-section-number">4</span> L’emphase</h1>
+<p>Pour formater une partie de votre texte comme emphase, entourez le par des astérisques ou des souligné.<br />Entourer par un seule signe astérisque il indique italique (emphase faible : *;)<br />et par un double signe astérisque il indique gras (emphase forte: **;).<br />Il est possible de combiner les deux. Pour indiquer les deux sont utilisés 3 astérisques. Peuvent également être utilisés les soulignés, de la même manière, mais les deux ne doivent pas être mélangés. Un double tildes vous permettent de barrer le texte.</p>
+<p>Texte <em>dont</em> certains <strong>éléments</strong> sont formatés <strong>pour <em>être</em></strong> en <em>italique</em>, en <strong>gras</strong> ou <del>barrés</del>.</p>
+<p>Par exemple, vous taper:<br /><code>*Ceci est un texte en italique*</code><br /><code>**et ceci est en gras**</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><em>Ceci est un texte en italique</em><br /><strong>et ceci est en gras</strong></p>
+<hr />
+<h1 id="mark7"><span class="header-section-number">5</span> Les citations</h1>
+<p>Pour afficher un bloc de citation, commencez le paragraphe par un signe supérieur. Si votre bloc contient plusieurs lignes, vous pouvez faire des sauts de lignes à la main et toutes les ouvrir par un signe supérieur, mais ce n’est pas nécessaire. Ces bloc peuvent contenir d’autres éléments markdown comme des titres ou des listes.</p>
+<p>Par exemple vous taper:</p>
+<p><code>&gt; ####</code> En-têtes dans les blocs de citation<br /><code>&gt;</code><br /><code>&gt; *</code> Vous pouvez citer une liste.<br /><code>&gt; *</code> Etc.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<h4 id="En-têtes-dans-les-blocs-de-citation" class="unnumbered">En-têtes dans les blocs de citation</h4>
+<ul>
+<li>Vous pouvez citer une liste.<br /></li>
+<li>Etc.</li>
+</ul>
+</blockquote>
+<p>Exemple d'une citation:</p>
+<p>Vous taper:</p>
+<p><code>&gt;</code> une citation est un paragraphe ouvert par un signe supérieur</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<p>une citation est un paragraphe ouvert par un signe supérieur</p>
+</blockquote>
+<p>utilisez le caractère supérieur &gt; avant le bloc de texte.</p>
+<p>Vous taper:</p>
+<p>Ceci est une ligne normale</p>
+<p><code>&gt;</code> Ceci fait partie d'un bloc de citation.<br /><code>&gt;</code> Ceci fait partie du même bloc de citation.</p>
+<p>Ceci continue le bloc, même s'il n'y a pas de symbole 'supérieur'.</p>
+<p>La ligne vide termine le bloc.</p>
+<p>Ceci est une ligne normale</p>
+<p><code>&gt;</code> Ceci fait partie d'un bloc de citation.<br /><code>&gt;</code> Ceci fait partie du même bloc de citation.<br /><code>&gt;</code><br /><code>&gt;</code> <code>&gt;</code> Ceci est un autre bloc de citation imbriqué.<br /><code>&gt;</code> <code>&gt;</code> Ceci fait partie du bloc imbriqué.<br /><code>&gt;</code><br /><code>&gt;</code> Ceci fait partie du bloc de citation de premier niveau.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Ceci est une ligne normale</p>
+<blockquote>
+<p>Ceci fait partie d'un bloc de citation.<br />Ceci fait partie du même bloc de citation.</p>
+</blockquote>
+<p>Ceci continue le bloc, même s'il n'y a pas de symbole 'supérieur'.</p>
+<p>La ligne vide termine le bloc.</p>
+<p>Ceci est une ligne normale</p>
+<blockquote>
+<p>Ceci fait partie d'un bloc de citation.<br />Ceci fait partie du même bloc de citation.</p>
+<blockquote>
+<p>Ceci est un autre bloc de citation imbriqué.<br />Ceci fait partie du bloc imbriqué.</p>
+</blockquote>
+<p>Ceci fait partie du bloc de citation de premier niveau.</p>
+</blockquote>
+<hr />
+<h1 id="mark8"><span class="header-section-number">6</span> Les listes non ordonnée</h1>
+<p>Pour afficher une liste, commencez la ligne par un astérisque signe &quot;*&quot;, un tiret signe &quot;-&quot; ou un plus signe &quot;+&quot;.</p>
+<p>Vous taper:</p>
+<p><code>*</code> élément1<br /><code>*</code> élément 2<br /><code>*</code> élément 3</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ul>
+<li>élément 1</li>
+<li>élément 2</li>
+<li>élément 3</li>
+</ul>
+<p>Vous taper:</p>
+<p><code>+</code> élément a<br /><code>+</code> élément b<br /><code>+</code> élément c</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ul>
+<li>élément a</li>
+<li>élément b</li>
+<li>élément c</li>
+</ul>
+<p>Vous taper:</p>
+<p><code>-</code> premier élément<br /><code>-</code> deuxième élément<br /><code>-</code> troisième élément</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ul>
+<li>premier élément</li>
+<li>deuxième élément</li>
+<li>troisième élément</li>
+</ul>
+<p>Voici une liste non ordonnée, avec paragraphes:</p>
+<ul>
+<li><p>Un élément de liste.</p>
+<p>Avec plusieurs paragraphes.</p></li>
+<li><p>Barre</p></li>
+</ul>
+<p>Vous pouvez les imbriquer:</p>
+<ul>
+<li>Boulier
+<ul>
+<li>réponse</li>
+</ul></li>
+<li>Bulles
+<ol style="list-style-type: decimal">
+<li>superposés</li>
+<li>rien
+<ul>
+<li>SANS IMPORTANCE</li>
+</ul></li>
+<li>renvoi</li>
+</ol></li>
+<li>Astuce</li>
+</ul>
+<hr />
+<h1 id="mark9"><span class="header-section-number">7</span> Les listes ordonnées</h1>
+<p>Pour afficher une liste ordonnée, sans paragraphes commencez la ligne par un nombre suivit d’un point. Pour que votre markdown soit plus lisible, je vous conseille d’ordonner proprement votre liste. Mais ce n’est pas nécessaire pour le rendu HTML.<br />C’est le navigateur qui se charge d’ajouter les nombre pour ordonner la liste.</p>
+<p>Par exemple, vous taper:</p>
+<p><code>1. Élément A</code><br /><code>1234. Élément B</code><br /><code>3. Élément C</code><br /><code>4. Élément D</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ol style="list-style-type: decimal">
+<li>Élément A</li>
+<li>Élément B</li>
+<li>Élément C</li>
+<li>ÉlémentD</li>
+</ol>
+<p>Voici une autre liste pour le fun!</p>
+<p>Vous taper:</p>
+<p><code>1.  Foo</code><br />2. Bar`</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ol style="list-style-type: decimal">
+<li>Foo</li>
+<li>Bar</li>
+</ol>
+<hr />
+<h1 id="mark10"><span class="header-section-number">8</span> Le bloc de code</h1>
+<p>Pour afficher un bloc de code préformaté, sautez deux lignes comme pour un paragraphe, puis indentez chaque ligne par au moins 4 espaces ou une tabulation. Dans le navigateur, la touche tabulation vous fait changer de champ et il n’est généralement pas possible de l’utiliser. Le bloc se terminera dès qu’il arrivera sur une ligne non indentée.</p>
+<p>Ceci est un paragraphe normal.</p>
+<p>bloc de code.</p>
+<pre><code>Ceci est un paragraphe préformaté
+bloc de code.</code></pre>
+<hr />
+<h1 id="mark11"><span class="header-section-number">9</span> Le code dans la ligne</h1>
+<p>Pour afficher du code dans une ligne, il faut l’entourer par des guillemets simples inversés : accent grave (`).</p>
+<p>`code`</p>
+<p>`&lt;code&gt;` enveloppant tout le contenu de ce que l'on veut ajouter sont délimitées par des guillemets simples inversés.</p>
+<p>Vous pouvez inclure des guillemets simples inversés littéraux<br />comme `` `ceci` ``.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Vous pouvez inclure des guillemets simples inversés littéraux<br />comme <code>`ceci`</code>.</p>
+<hr />
+<h1 id="mark12"><span class="header-section-number">10</span> Les filets ou barres de séparation</h1>
+<p>Aussi appelé séparateur.<br />Pour afficher un filet de séparation, entrez <code>&lt;hr/&gt;</code>; dans votre texte ou au moins 3 astérisques &quot;*&quot; ou tirets &quot;-&quot; ou souligné &quot;_&quot; sur une ligne entourée de sauts de lignes. Il est possible de les séparer par des espaces pour des raisons purement esthétiques.</p>
+<p>Donc, n'oubliez pas de taper trois ou plusieurs tirets ou astérisques ou soulignés.<br />Vous pouvez également les séparer par des espaces (un espace entre chaque tiret / astérisque / souligné ou 4 espaces entre chaque tiret / astérisque / souligné) pour des raisons purement esthétiques, par exemple.</p>
+<p>Vous taper:<br /><code>***</code><br /><code>---</code><br /><code>___</code> <code>* * *</code><br /><code>- - -</code><br /><code>_ _ _</code> <code>*    *    *</code><br /><code>-    -    -</code><br /><code>_    _    _</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<p>Remarque: Toutes ces méthodes ci-dessus donneront exactement le même résultat.</p>
+<hr />
+<h1 id="mark13"><span class="header-section-number">11</span> Les liens</h1>
+<p>Il y a deux façons d'indiquer un lien. Le premier s'il fait partie d'un texte, et lorsque vous voulez faire une référence.</p>
+<p>Dans le premier cas, le texte à afficher est alors indiqué entre crochets suivit de l’adresse du lien entre parenthèses. Dans les parenthèses, à la suite du lien, on peut indiquer un titre entre guillemets. Ce titre sera affiché lors du survol du lien dans le navigateur. Il sera également lu par les lecteurs d'écrans utilisé par les déficients visuels.</p>
+<p>Exemple:</p>
+<p>Vous tapez:<br /><code>[Télécharger le Récapitulatif des Syntaxe Markdown en format MD](https://cld.pt/dl/download/8eac8395-c40d-4c3a-91bf-0d2f48ba31b2/recapitulatifsyntaxemarkdown.md?download=true &quot;Ouvrir le téléchargement dans une nouvelle fenêtre&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><a href="https://cld.pt/dl/download/8eac8395-c40d-4c3a-91bf-0d2f48ba31b2/recapitulatifsyntaxemarkdown.md?download=true" title="Ouvrir le téléchargement dans une nouvelle fenêtre">Télécharger le Récapitulatif des Syntaxe Markdown en format MD</a></p>
+<p>Voici un autre exemple:</p>
+<p>Vous tapez:</p>
+<p><code>[Google](http://www.google.com &quot;Lien vers Google&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://www.google.com" title="Lien vers Google">Google</a></p>
+<p>Dans le second cas, l’adresse du lien se trouve à la fin du document ou où vous avez besoins de le placer et sera précédé d'un texte où vous écrivez une balise (étiquette) entre crochets, celle-ci (contient le numéro de lien de référence comme valeur <code>[1]</code> <code>[2]</code> et ainsi de suite), cette même balise (étiquette) est suivi par &quot;:&quot; deux points suivi d'un espace, ensuite il vient l’adresse du lien déjà mentionné au début, le tout en une même ligne.<br />Logiquement, vous devez placer cette même balise (étiquette) qui est entre crochets au début du document ou où dans un endroit de votre convenance, cette même balise (étiquette), sera précédé d'un texte où vous écrivez une autre balise (étiquette) , encore une fois entre crochets, mais cette fois, vous écrirez le nom auquel se réfère le lien, les deux balises (étiquettes) seront placés ensemble sur une même ligne, n'oubliez pas que cette ligne sera toujours placé au début du document contrairement à la deuxième ligne que nous avons mentionné ci-dessus, elle sera toujours placée à la fin du document, mais pas avant la première ligne.</p>
+<p>Exemple:</p>
+<p>Vous tapez:</p>
+<p><code>[Le blog de BlindHelp][1]</code></p>
+<p><code>[1]: http://blindhelp.blogspot.fr/ &quot;Le blog de BlindHelp&quot;</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://blindhelp.blogspot.fr/" title="Le blog de BlindHelp">Le blog de BlindHelp</a></p>
+<p>Vous pouvez le faire aussi de manière automatique en encadrant un lien par les signe inférieur et supérieur:</p>
+<p>Vous tapez:</p>
+<p><code>&lt;http://www.google.com&gt;</code></p>
+<p>Il est alors cliquable et affiche l’url indiquée entre le signe inférieur et supérieur.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://www.google.com" class="uri">http://www.google.com</a></p>
+<p>pour définir des adresses emails cliquables, il n'est pas nécessaire de les préfixer par <code>mailto:</code></p>
+<p>Remarque: si vous examinez le code HTML, vous constaterez que les liens de type <code>&lt;adresse_email&gt;</code> sont automatiquement encodés (et même associés par Pandoc à du JavaScript) et sont de ce fait relativement résistant aux robots de spam !</p>
+<p>En résumer, pour définir un lien<br />Inline (technique HTML classique du lien &quot;au fil du texte&quot;):</p>
+<p>Vous Taper:</p>
+<p><code>Par [exemple](http://url.com/ &quot;Titre&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Par <a href="http://url.com/" title="Titre">exemple</a></p>
+<p>En résumer, pour les liens avec des<br />Étiquettes de style de référence (les titres sont facultatifs):</p>
+<p>Vous Taper:</p>
+<p><code>Par [exemple][ID]. Ensuite, n'importe où</code><br />sinon dans la doc, définissez le lien:</p>
+<p><code>[ID]: http://exemple.com/  &quot;Titre&quot;</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Par <a href="http://exemple.com/" title="Titre">exemple</a>. Ensuite, n'importe où<br />sinon dans la doc, définissez le lien:</p>
+<hr />
+<h1 id="mark14"><span class="header-section-number">12</span> Les images</h1>
+<p>Les images sont indiquées de façon similaire aux liens seulement qu'ils sont précédés du symbole &quot;!&quot; point d'exclamation!<br />Donc, pour afficher une image, commencez par un point d’exclamation. Puis indiquez le texte alternatif entre crochets. Ce dernier sera affiché si l’image n’est pas chargé et lu par les moteurs de recherche. Terminez par l’URL de l’image entre parenthèses. Cette URL peut être un lien vers le web ou un chemin local de ce type : <code>/dossier_images/nom_de_mon_image.jpg</code>. Après le lien vers l’image, il est possible d’ajouter un titre lu par les navigateurs et il sera affiché au survol de l’image par les lecteurs d'écrans utilisé par les déficients visuels.</p>
+<p>Exemple d'image par référence Inline (les titres sont facultatifs)<br />Vous taper:</p>
+<p><code>![Google logo](https://www.google.fr/images/srpr/logo11w.png &quot;google logo&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<div class="figure">
+<img src="https://www.google.fr/images/srpr/logo11w.png" title="google logo" alt="Google logo" />
+<p class="caption">Google logo</p>
+</div>
+<p>Voici encore quelques exemples:<br />Vous tapez:<br /><code>![Logo canne blanche (multi-coloris)](http://www.eclipse72.org/medias/ecard/aveugle1-jpg &quot;Logo canne blanche (multi-coloris)&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><img src="http://www.eclipse72.org/medias/ecard/aveugle1-jpg" title="Logo canne blanche (multi-coloris)" alt="Logo canne blanche (multi-coloris)" /></p>
+<p>Vous tapez:<br /><code>![Image d'une personne marchant avec une canne](http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100 &quot;Image d'une personne marchant avec une canne&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><embed src="http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100" title="Image d&#39;une personne marchant avec une canne" /></p>
+<p>Vous tapez:<br /><code>![Image d'une canne longue dépliée.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Long_cane.jpg/138px-Long_cane.jpg &quot;Image d'une canne longue dépliée.&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Long_cane.jpg/138px-Long_cane.jpg" title="Image d&#39;une canne longue dépliée." alt="Image d&#39;une canne longue dépliée." /></p>
+<p>Exemple d'image référencée:</p>
+<p>Vous tapez:<br /><code>![Google logo][Google]</code> ensuite</p>
+<p><code>[Google]: https://www.google.fr/images/srpr/logo11w.png &quot;Google logo&quot;</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><img src="https://www.google.fr/images/srpr/logo11w.png" title="Google logo" alt="Google logo" /></p>
+<p>Exemple d'images associées vers des liens</p>
+<p>Vous taper:</p>
+<p><code>[![image_dimensions.php (Image JPEG, 100 × 130 pixels)](http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100)](http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100"><embed src="http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100" /></a></p>
+<p>En résumer, pour les images<br />par référence Inline (les titres sont facultatifs) :</p>
+<p>Vous taper:</p>
+<p><code>![texte alternatif](/chemin/img.jpg &quot;Titre&quot;)</code></p>
+<p>En résumer, pour les images<br />de style de référence:</p>
+<p>Vous taper:</p>
+<p><code>![texte alternatif][ID]</code></p>
+<p><code>[ID]: /url/vers/img.jpg &quot;Titre&quot;</code></p>
+<p>N'oubliez pas que :</p>
+<ul>
+<li>les labels (<code>urlId</code>, <code>imgId</code>) ne sont pas case-sensitive et peuvent contenir des <em>espaces</em><br /></li>
+<li>dans les définition de références, l'<code>URL</code> peut optionnellement être définie entre <code>&lt; &gt;</code><br /></li>
+<li>le <code>titre optionnel</code> des liens et des images peut être défini entre guillemets, apostrophes ou parenthèses</li>
+</ul>
+<hr />
+<h1 id="mark15"><span class="header-section-number">13</span> Les tableaux</h1>
+<p>Les tableaux n’existent pas dans la spécification Markdown originale, mais ils sont présent dans la plupart des implémentations récentes. Et il ont vraiment une utilité très forte dans certains cas.<br />L’idée globale est de “dessiner” des colonnes en les entourant avec des barres verticales (|). Le nombre de colonnes est défini dans la première ligne du tableau et vous devez pour chaque ligne avoir le même nombre de colonnes, même si certaines sont vides.<br />La première ligne sera votre en-tête. La seconde ligne sépare cet en-tête du corps du tableau et définit l’alignement du texte dans les colonnes. Elle ne contient que des tirets (-) et des deux points (:) sont utilisés pour définir cet alignement. Pas de deux points (:) ou juste un à gauche signifie que le texte sera aligné à gauche. Si la ligne de tiret (-) est entourée de 2 points (:), le texte sera centré et si un seul deux points (:) est présent à droite de la ligne, le texte sera aligné à droite.</p>
+<p>Par exemple, vous taper:</p>
+<p>| Entête 1 | En-tête 2 | En-tête 3 |<br />| ------------- |:-------------: | --------: |<br />| Ligne 1 | 1 | Valeur |<br />| Ligne 2 | 2 | Valeur |<br />| Ligne 3 | 3 | Valeur |</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Entête 1</th>
+<th align="center">En-tête 2</th>
+<th align="right">En-tête 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ligne 1</td>
+<td align="center">1</td>
+<td align="right">Valeur</td>
+</tr>
+<tr class="even">
+<td align="left">Ligne 2</td>
+<td align="center">2</td>
+<td align="right">Valeur</td>
+</tr>
+<tr class="odd">
+<td align="left">Ligne 3</td>
+<td align="center">3</td>
+<td align="right">Valeur</td>
+</tr>
+</tbody>
+</table>
+<p>Vous pouvez avoir un tableau très propre comme dans l’exemple précédent pour mieux lire en mode édition. Mais ce n’est pas obligatoire. Les bares verticales (|) en début et en fin de ligne sont optionnels. Il est possible d’imbriquer des éléments d’emphase ou de code dans les tableaux. Il n’y a besoin que d’un seul tiret (-) par colonne pour la séparation entre l’en-tête et le corps du tableau.</p>
+<p>Vous taper:</p>
+<p>En-tête 1 | En-tête 2 | En-tête 3<br />- |:-: | -:<br />Ligne <code>1</code> | <strong>1</strong> | <strong><em>Valeur</em></strong><br />Ligne 2 | 2 | <em>Valeur</em></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">En-tête 1</th>
+<th align="center">En-tête 2</th>
+<th align="right">En-tête 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ligne <code>1</code></td>
+<td align="center"><strong>1</strong></td>
+<td align="right"><strong><em>Valeur</em></strong></td>
+</tr>
+<tr class="even">
+<td align="left">Ligne 2</td>
+<td align="center">2</td>
+<td align="right"><em>Valeur</em></td>
+</tr>
+</tbody>
+</table>
+<p>Comme on le voit, ça fonctionne encore une fois exporté, mais toute la lisibilité est perdue dans le Markdown.</p>
+<p>Voici un autre exemple d'un tableau:</p>
+<p>Par exemple, vous taper:</p>
+<p>Cellule d'en-tête A | Cellule d'en-tête B<br />- | -<br />Cellule 1 | Cellule 2<br />Cellule 3 | Cellule 4</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Cellule d'en-tête A</th>
+<th align="left">Cellule d'en-tête B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Cellule 1</td>
+<td align="left">Cellule 2</td>
+</tr>
+<tr class="even">
+<td align="left">Cellule 3</td>
+<td align="left">Cellule 4</td>
+</tr>
+</tbody>
+</table>
+<p>Remarque, si vous devez utiliser les symboles employer par Markdown, vous devez échapper ces symboles en les précédant avec le caractère &quot;&quot; barre oblique inversée.</p>
+<hr />
+<h1 id="mark16"><span class="header-section-number">14</span> Échappement des caractères</h1>
+<p>Les caractères spéciaux ayant un sens en HTML et en Markdown doivent être échappés. Pour les esperluètes c'est-à-dire &quot;et comercial&quot; (&amp;), le signe (&lt;) ou le signe (&gt;) et autres caractères HTML, Markdown se charge de les convertir en entités HTML lors de l’export. Mais si vous souhaitez utiliser dans votre texte des astérisques, accolades, dièses… à une position indiquant à Markdown que vous désirer un formatage particulier, vous devez les échapper en les faisant précéder d’un antislash c'est-à-dire une barre oblique inversé (). Sinon Markdown les masquera et appliquera le formatage correspondant. Les caractères suivants sont à échapper :<br /><code>\</code> * ` - _ [] () {} # + . ! &lt; &gt; @ ~</p>
+<p>Voici les mêmes signes écrit En toutes lettres pour faciliter la lecture à mes amis DV :<br />barre oblique inversé, astérisque, accent grave, tiret, souligné, crochet gauche, crochet droit, parenthèse gauche, parenthèse droite, accolade gauche, accolade droite, dièse, plus, point,<br />point d'exclamation, inférieur, supérieur, arobase, tilde</p>
+<hr />
+<h1 id="mark17"><span class="header-section-number">15</span> Séparer des blocs</h1>
+<p>Une petite chose peut se révéler agaçante : deux blocs consécutifs se verront fusionnés. Ce sera le cas de deux blocs de citation ou de code par exemple. Et ce quel que soit le nombre de lignes que vous sauterez. Une solution simple est d’ajouter des commentaires html entre deux blocs. La syntaxe des commentaire est la suivante : <!-- texte en commentaire -->;. Le texte sera ignoré par le navigateur. Votre commentaire peut tout à fait être vide.</p>
+<p>Vous taper:</p>
+<p>&gt; Citation 1</p>
+<p>&gt; Citation 2</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<p>Citation 1</p>
+</blockquote>
+<blockquote>
+<p>Citation 2</p>
+</blockquote>
+<p>Vous taper:</p>
+<p>&gt; Citation 1<br />&lt;!-- --&gt;<br />&gt; Citation 2</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<p>Citation 1 <!-- --> Citation 2</p>
+</blockquote>
+<hr />
+<h1 id="telechargerrecapitulatifsyntaxemarkdown" class="unnumbered">Télécharger le Récapitulatif des Syntaxe Markdown en format MD</h1>
+<p><a href="https://blindhelp.github.io/recapitulatifsyntaxemarkdown.md" title="Ouvrir le téléchargement dans une nouvelle fenêtre">En cliquant ici</a></p>
+<hr />
+<p>Sur ce, je vous souhaite une bonne découverte du langage Markdown!<br />Amusez-vous bien!<br />Nous espérons vous revoir bientôt sur le<br /><a href="http://blindhelp.blogspot.fr/">Blog de BlindHelp!</a></p>
+</body>
+</html>

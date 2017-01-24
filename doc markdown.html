@@ -1,0 +1,1260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Markdown</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Markdown</h1>
+</div>
+<html lang="fr">
+<p>Dernière mise à jour le 13.04.2016.</p>
+<hr />
+<h1 id="markdown-pygments-lexers">Markdown &amp; Pygments Lexers</h1>
+<p>Ceci est un guide qui me servent pour me souvenir de toutes les possibilités qui offre markdown et Pygments pour éditer et formater du texte et que j'emploi pour créer des articles sur ce blog. Il est rédigé de telle sorte que non seulement il me servent de guide à moi, sinon a toute personne qui s'approche pour la première fois au langage markdown ou Pygments.</p>
+<hr />
+<p>Ce qui suit est une liste détaillée de toutes les fonctionnalités qui peuvent être utilisés dans Markdown et Markdown Extra (utilisant <em>Python Markdown</em>) et les lexers plus commun de Pygments pour la Coloration du Code Source.</p>
+<ul>
+<li><a href="#markdown">Markdown</a>
+<ul>
+<li><a href="#mark1">Qu'est-ce que c'est Markdown?</a></li>
+</ul></li>
+<li><a href="#mark2">Sintaxe Markdown</a>
+<ul>
+<li><a href="#mark3">Titres</a></li>
+<li><a href="#mark4">Liens</a></li>
+<li><a href="#mark5">Paragraphes</a></li>
+<li><a href="#mark6">Format</a></li>
+<li><a href="#mark7">Citations</a></li>
+<li><a href="#mark8">Listes</a></li>
+<li><a href="#mark9">Listes de définitions</a></li>
+<li><a href="#mark10">Images</a></li>
+<li><a href="#mark11">Tableaux</a></li>
+<li><a href="#mark12">Code</a></li>
+<li><a href="#mark13">Lignes Horizontales</a></li>
+<li><a href="#mark14">Échappement des caractères</a></li>
+<li><a href="#mark15">Notes de bas de page</a></li>
+<li><a href="#mark16">Abréviations</a></li>
+<li><a href="#mark17">Identificateurs d'En-tête</a></li>
+</ul></li>
+<li><a href="#header2">Pygments</a>
+<ul>
+<li><a href="#syntax0">Lexers de Pygments plus commun pour la coloration de sintaxe</a></li>
+</ul></li>
+</ul>
+<p>Remarque Très Importante: Lorsque je parle de coloration tout au long de cet article, je veux dire que le code source est mis en surbrillance graçe a l'utilisation de Lexers de Pygments plus commun pour la surbrillance de sintaxe.</p>
+<h2 id="markdown">Markdown</h2>
+<p>Ceci est le langage de balisage utilisé pour créer les articles de ce blog, qui permet le formatage du texte facilement sans avoir besoin d'utiliser le plus empoisonnant HTML ou utilisez un éditeur visuel.</p>
+<p>Je l'utilise plus de trois ans sur le blog de BlindHelp!<p>
+<h3 id="mark1">Qu'est-ce que c'est Markdown?</h3>
+<p><a href="http://fr.wikipedia.org/wiki/Markdown">Markdown</a><br />
+ est un langage de balisage léger semblable qui est utilisé dans de nombreux wikis et initialement issu des conventions existantes de balisage des courriels électroniques. Il utilise le texte brut, veillant à ce qu'il soi lisible mais arrivant à être converti en XHTML correctement formatés. Une grande partie des articles publiés sur ce blog sont préparés utilisant markdown, sans utilisez aucun type d'éditeur visuel WYSIWYG, ce qui facilite la création de documents XHTML propre et facilement éditables dans l'avenir. Ils sont un bon exemple des capacités de Markdown. Bien que celui-ci n'est pas bien connu, il commence à être très populaire et à être utilisé entre les programmeurs.</p>
+<p>Pour en savoir plus sur markdown, vous pouvez lire les<br />
+
+ <a href="#articlesexternesmarkdown">articles externes</a><br />
+ rélatif à Markdown qui expliquent pourquoi c'est le plus appropriée pour créer le contenu d'un blog, un document markdown, etc, etc.</p>
+<hr />
+<h2 id="mark2">Sintaxe Markdown</h2>
+<h3 id="mark3">Titres</h3>
+<p>Les titres HTML se produisent en plaçant un certain nombre de dièses(signe) <strong>#</strong> avant le texte correspondant au niveau du titre souhaité (HTML offre jusqu'à six niveaux). Vous pouvez voir les titres possibles dans le tableau suivant:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Vous tapez</th>
+<th align="left">| Vous obtenez</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code># Ceci est un H1</code></pre></td>
+<td align="left"><h1 id="ceci-est-un-h1">Ceci est un H1</h1></td>
+</tr>
+<tr class="even">
+<td align="left"><pre class="no_mrkdwn"><code>## Ceci est un H2</code></pre></td>
+<td align="left"><h2 id="ceci-est-un-h2">Ceci est un H2</h2></td>
+</tr>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code>### Ceci est un H3</code></pre></td>
+<td align="left"><h3 id="ceci-est-un-h3">Ceci est un H3</h3></td>
+</tr>
+<tr class="even">
+<td align="left"><pre class="no_mrkdwn"><code>#### Ceci est un H4</code></pre></td>
+<td align="left"><h4 id="ceci-est-un-h4">Ceci est un H4</h4></td>
+</tr>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code>##### Ceci est un H5</code></pre></td>
+<td align="left"><h5 id="ceci-est-un-h5">Ceci est un H5</h5></td>
+</tr>
+<tr class="even">
+<td align="left"><pre class="no_mrkdwn"><code>###### Ceci est un H6</code></pre></td>
+<td align="left"><h6 id="ceci-est-un-h6">Ceci est un H6</h6></td>
+</tr>
+</tbody>
+</table>
+<p>Vous pouvez enfermer chaque titre entre dièses (signe) <strong>#</strong>, pour des raisons purement esthétiques, parce qu'il n'est pas nécessaire du tout de le faire, c'est-à-dire, vous pouvez faire ceci:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Vous tapez</th>
+<th align="left">| Vous obtenez</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code>### Ceci est un H3 ###</code></pre></td>
+<td align="left"><h3 id="ceci-est-un-h3-1">Ceci est un H3</h3></td>
+</tr>
+</tbody>
+</table>
+<p>Pour les titres des deux premiers niveaux il existe également une autre façon de faire la même chose, qui serait la suivante:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Vous tapez</th>
+<th align="left">| Vous obtenez</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code>Ceci est un H1
+=============</code></pre></td>
+<td align="left"><h1 id="ceci-est-un-h1-1">Ceci est un H1</h1></td>
+</tr>
+<tr class="even">
+<td align="left"><pre class="no_mrkdwn"><code>Ceci est un H2
+-------------</code></pre></td>
+<td align="left"><h2 id="ceci-est-un-h2-1">Ceci est un H2</h2></td>
+</tr>
+</tbody>
+</table>
+<p>C'est-à-dire, pour les titres principaux vous souligner le texte avec le signe égal. Pour les titres de deuxième niveau vous utilisés les tirets pour souligner. C'est indifférent le nombre de signes égal ou tirets que vous utilisé, avec un c'est suffisant.</p>
+<hr />
+<h3 id="mark4">Liens</h3>
+<p>il existe également deux façon de créer des liens, vous pouvez les voir dans le tableau suivant:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Vous tapez</th>
+<th align="left">| Vous obtenez</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code>[Avec titre](www.winaide.net &quot;titre&quot;)</code></pre></td>
+<td align="left"><a href="#mark3" title="titre">Avec titre</a></td>
+</tr>
+<tr class="even">
+<td align="left"><pre class="no_mrkdwn"><code>[Sans titre](www.winaide.net)</code></pre></td>
+<td align="left"><a href="#mark3">Sans titre</a></td>
+</tr>
+<tr>
+    <td><pre class="no_mrkdwn">
+[Lien 1][1], [Lien 2][2], [Lien 3][3]
+
+&nbsp;[1]: http://blindhelp.blogspot.fr/
+&nbsp;[2]: https://www.blogger.com/profile/15309682764063057542 "AFFICHER MON PROFIL COMPLET"
+&nbsp;[3]: http://www.winaide.net/</pre></td>
+     <td><a href="http://blindhelp.blogspot.fr/">Lien 1</a>, <a href="https://www.blogger.com/profile/15309682764063057542" title="AFFICHER MON PROFIL COMPLET">Lien 2</a>, <a href="http://www.winaide.net">Lien 3</a></td>
+  </tr>
+</tbody></table>
+
+<p>Il existe un moyen supplémentaire de créer des liens automatiques pour les adresses URL, 
+simplement les enfermer entre les caractères inférieur <strong>&lt;</strong> et supérieur <strong>&gt;</strong>:</p>
+<table>
+  <thead><tr><th style="width: 65%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody>
+   <tr>
+    <td>
+    <pre class="no_mrkdwn">
+&lt;http://blindhelp.blogspot.fr/&gt;</pre>
+    </td>
+    <td><a href="#mark4">http://blindhelp.blogspot.fr/</a></td>
+   </tr>
+  </tbody>
+</table>
+
+<hr />
+<h3 id="mark5">Paragraphes</h3>
+<p>Pour créer des paragraphes, il faut laissé une ligne vide. De cette façon.</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+C'est le premier paragraphe.
+
+C'est le deuxième paragraphe.</pre></td>
+     <td><p>C'est le premier paragraphe.</p><p>C'est le deuxième paragraphe</p></td>
+  </tr>
+</table>
+
+<p>Pour créer un sault de ligne dans un paragraphe, il faut simplement laissés deux 
+espaces à la fin du dernier mot de cette ligne, de cette façon:</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Ceci est la première ligne 
+et ceci est le saut de ligne.</pre></td>
+     <td>Ceci est la première ligne<br>et ceci est le sault de ligne.</td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark6">Format</h3>
+<p>Le format de base du texte, c'est-à-dire, en gras et en italique, ils peuvent être réaliser de 
+plusieurs façons:</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+**Ceci est en gras**</pre></td>
+     <td><strong>Ceci est en gras</strong></td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+__Ceci est aussi en gras__</pre></td>
+     <td><strong>Ceci est aussi en gras</strong></td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+*Ceci est en italique*</pre></td>
+     <td><em>Ceci est en italique</em></td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+_Ceci est aussi en italique_</pre></td>
+     <td><em>Ceci est aussi en italique</em></td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+***Ceci est en gras et en italique***</pre></td>
+     <td><strong><em>Ceci est en gras et en italique</em></strong></td>
+  </tr>  
+  <tr>
+    <td><pre class="no_mrkdwn">
+___Ceci est aussi en gras et en italique___</pre></td>
+     <td><strong><em>Ceci est aussi en gras et en italique</em></strong></td>
+  </tr>  
+</table>
+
+<p>Vous pouvez utiliser indistinctement soit l'astérisque <strong>*</strong> comme le souligné 
+<strong>_</strong> toujours et  lorsqu'ils sont pas mélangés, et ce qui détermine le format c'est le nombre d'entre eux avant et après le bloc de texte à formater. Un est en italique, deux est 
+en gras, et trois  tous les deux à la fois, ainsi de simple.</p>
+<hr />
+<h3 id="mark7">Citations</h3>
+<p>Pour créer des blocs de citation, utilisez le caractère supérieur <code>&gt;</code> avant le bloc de texte. Dans le tableau ci-dessous vous pouvez voir les options pour les créer.</p>
+<table>
+  <thead><tr><th style="width: 54%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Ceci est une ligne normale
+
+> Ceci fait partie d'un bloc de citation.
+> Ceci fait partie du même bloc de citation.</pre></td>
+     <td>
+<p>Ceci est une ligne normale</p>
+
+<blockquote>
+  <p>Ceci fait partie d'un bloc de citation.
+  Ceci fait partie du même bloc de citation.</p>
+</blockquote>
+     </td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+> Ceci fait partie d'un bloc de citation.
+Ceci continue le bloc, même s'il n'y a pas de symbole 'supérieur'.
+
+La ligne vide termine le bloc.</pre></td>
+     <td>
+<blockquote>
+  <p>Ceci fait partie d'un bloc de citation.
+  Ceci continue le bloc, même s'il n'y a pas de symbole 'supérieur'.</p>
+</blockquote>
+
+<p>La ligne vide termine le bloc.</p>
+     </td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+Ceci est une ligne normale
+
+> Ceci fait partie d'un bloc de citation.
+> Ceci fait partie du même bloc de citation.
+>
+> > Ceci est un autre bloc de citation imbriqué.
+> > Ceci fait partie du bloc imbriqué.
+>
+> Ceci fait partie du bloc de citation de premier niveau.</pre></td>
+     <td>
+<p>Ceci est une ligne normale</p>
+
+<blockquote>
+  <p>Ceci fait partie d'un bloc de citation.
+  Ceci fait partie du même bloc de citation.</p>
+
+<blockquote>
+    <p>Ceci est un autre bloc de citation imbriqué.
+    Ceci fait partie du bloc imbriqué.</p>
+  </blockquote>
+
+<p>Ceci fait partie du bloc de citation de premier niveau.</p>
+</blockquote>
+     </td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark8">Listes</h3>
+<p>Markdown vous permet de créer deux types de listes, ordonnées et désordonnées, c'est-à-dire
+numérotées ou listes à puce. Pour distinguer les types, et comment ils sont créés, rien de mieux que les voir avec des exemples:</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Liste numérotée (ordonnée)
+
+1. Ceci est le premier élément
+2. Ceci est le deuxième élément
+3. Ceci est le troisième élément
+</pre></td>
+     <td>
+<p>Liste numérotée (ordonnée)</p>
+
+<ol><li>Ceci est le premier élément</li>
+<li>Ceci est le deuxième élément</li>
+<li>Ceci est le troisième élément</li>
+</ol>
+</td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+Liste à puces (désordonnée)
+
+* Un élément de la liste
+* Un autre élément de la liste
+* Le troisième élément de la liste
+</pre></td>
+     <td>
+<p>Liste à puces (désordonnée)</p>
+
+<ul><li>Un élément de la liste</li>
+<li>Un autre élément de la liste</li>
+<li>Le troisième élément de la liste</li>
+</ul>
+</td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+Vous pouvez également utiliser + (plus) et - (tiret) au lieu de *
+
+* Un élément de la liste
++ Un autre élément de la liste
+- Le troisième élément de la liste
+</pre></td>
+     <td>
+<p>Vous pouvez également utiliser <code>+</code> et <code>-</code> au lieu de <code>*</code></p>
+
+<ul><li>Un élément de la liste</li>
+<li>Un autre élément de la liste</li>
+<li>Le troisième élément de la liste</li>
+</ul>
+</td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+Vous pouvez mélanger différents types de listes et imbriqués les unes à l'intérieur des autres.
+
+1. Ceci est une liste ordonnée
+2. Deuxième élément de la liste ordonnée
+    1. Ceci est une liste ordonnée imbriqué  à l'intérieur d'une autre
+        * Liste désordonnée imbriquée au troisième niveau
+        * Deuxième élément de cette liste
+    2. Ceci est le deuxième élément de la liste ordonnée imbriquée
+</pre></td>
+     <td>
+<p>Vous pouvez mélanger différents types de listes et imbriqués  les unes à l'intérieur  des autres.</p>
+
+<ol>
+<li>Ceci est une liste ordonnée</li>
+<li>Deuxième élément de la liste ordonnée<ol>
+
+<li>Ceci est une liste ordonnée imbriqué à l'intérieur d'une autre<ul>
+<li>Liste désordonnée imbriqué au troisième niveau</li>
+<li>Deuxième élément de cette liste</li>
+</ul>
+</li>
+<li>Ceci est le deuxième élément de la liste ordonnée imbriquée</li>
+</ol>
+</li>
+</ol>
+</td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark9">Listes de définitions</h3>
+<p>Vous pouvez créer une liste de définitions, qui sont composés de termes et les 
+définitions de les mêmes, comme s'il s'agissait d'un dictionnaire. Sa création est très simple:</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Premier terme
+ : Première définition
+
+Deuxième terme
+ : Deuxième définition</pre></td>
+     <td>
+<dl>
+  <dt>Premier terme</dt>
+    <dd>Première définition</dd>
+  <dt>Deuxième terme</dt>
+    <dd>Deuxième définition</dd>
+</dl>
+</td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+Vous pouvez appliquer plus d'une définition a un terme
+
+Premier terme
+ : Première définition
+ : Deuxième définition
+
+Deuxième terme
+ : Deuxième définition</pre></td>
+     <td>
+<p>Vous pouvez appliquer plus d'une définition a un terme</p>
+<dl>
+  <dt>Premier terme</dt>
+    <dd>Première définition</dd>
+    <dd>Deuxième définition</dd>
+  <dt>Deuxième terme</dt>
+    <dd>Deuxième définition</dd>
+</dl>
+</td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+Vous pouvez appliquer plus d'une définition a un terme
+
+Premier terme
+Deuxième terme
+ : Première définition
+
+Troisième terme
+ : Deuxième définition</pre></td>
+     <td>
+<p>Vous pouvez appliquer plus d'une définition a un terme</p>
+<dl>
+  <dt>Premier terme</dt>
+  <dt>Deuxième terme</dt>
+    <dd>Première définition</dd>
+  <dt>Troisième terme</dt>
+    <dd>Deuxième définition</dd>
+</dl>
+</td>
+  </tr>
+ <tr>
+    <td><pre class="no_mrkdwn">
+Si nous laissons une ligne vide entre le terme et la définition, se créera un paragraphe pour la définition.
+
+Premier terme
+
+: Première définition
+
+Deuxième terme
+ : Deuxième définition</pre></td>
+     <td>
+<p>Si nous laissons une ligne vide entre le terme et la définition, se créera un paragraphe pour la définition.</p>
+
+<dl><dt>Premier terme</dt>
+
+<dd>
+<p>Première définition</p>
+</dd>
+
+<dt>Deuxième terme</dt>
+<dd>Deuxième définition</dd>
+</dl>
+</td>
+  </tr>
+<tr>
+    <td><pre class="no_mrkdwn">
+Une définition peut être composer de plusieurs paragraphes.
+
+Premier terme
+ : Première définition
+
+Deuxième paragraphe de la première définition
+
+Deuxième terme
+ : Deuxième définition</pre></td>
+     <td>
+<p>Une définition peut être composer de plusieurs paragraphes.<p>
+<dl>
+  <dt>Premier terme</dt>
+    <dd><p>Première définition</p>
+<p>Deuxième paragraphe de la première définition</p></dd>
+  <dt>Deuxième terme</dt>
+    <dd>Deuxième définition</dd>
+</dl>
+</td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark10">Images</h3>
+<p>La façon de relier des images est fondamentalement la même utiliser pour créer des liens, avec une différence unique, vous ajouté le caractère  exclamation <strong>!</strong> au début de la paire de crochets qui définissent le nom du lien. Exemples:</p>
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Vous tapez</th>
+<th align="left">Vous obtenez</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code>![Avec titre](pictures/avatar.png &quot;titre&quot;)</code></pre></td>
+<td align="left"><img src="../static/pictures/avatar.png" title="img:avatar" /></td>
+</tr>
+<tr class="even">
+<td align="left"><pre class="no_mrkdwn"><code>![Sans titre](pictures/avatar.png)</code></pre></td>
+<td align="left"><img src="../static/pictures/avatar.png" title="img:" /></td>
+</tr>
+<tr class="odd">
+<td align="left"><pre class="no_mrkdwn"><code>![Image 1][1]  ![Image 2][2]
+&nbsp;
+ [1]: pictures/avatar.png
+ [2]: pictures/scaphandre.png "scaphandre"</pre></td><td align="left"><img src="../static/pictures/avatar.png" title="img:" /> <img src="../static/pictures/scaphandre.png" title="img:scaphandre" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="mark11">Tableaux</h3>
+<p>Créer des tableaux est très facil, simplement il faut indiquer quels sont les 
+éléments d'en-tête et séparer les champs avec le symbole (barre verticale) <strong>|</strong></p>
+<table>
+    <thead>
+        <tr>
+            <th>Vous tapez</th>
+            <th>Vous obtenez</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <pre class="no_mrkdwn">
+En-tête A | En-tête B
+-- | --
+Champ A0 | Champ B0
+Champ A1 | Champ B1</pre>
+            </td>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>En-tête A</th>
+                            <th>En-tête B</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Champ A0</td>
+                            <td>Champ B0</td>
+                        </tr>
+                        <tr>
+                            <td>Champ A1</td>
+                            <td>Champ B1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Si vous le souhaitez, pour l'esthétique, vous pouvez aligner les colonnes et même de commencer et 
+de terminer les lignes avec le symbole (barre verticale) <strong>|</strong>, mais il n'est pas du tout nécessaire.</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+| En-tête A | En-tête B |
+| ---------- | ---------- |
+| Champ A0   | Champ B0   |
+| Champ A1   | Champ B1   |
+</pre></td>
+     <td>
+<table>
+  <thead><tr><th>En-tête A</th><th>En-tête B</th></tr></thead>
+  <tbody>
+    <tr><td>Champ A0</td><td>Champ B0</td></tr>
+    <tr><td>Champ A1</td><td>Champ B1</td></tr>
+  </tbody>
+</table>
+</td>
+  </tr>
+</tbody></table>
+
+<p>Vous pouvez spécifier l'alignement de chaque colonne en ajoutant deux 
+points à les lignes de séparation. Deux points à la gauche de la ligne de 
+separation fera que la colonne est aligné à la gauche, deux points à la 
+droite de la ligne de separation fera que la colonne est aligné à la droite, deux points 
+à les deux côtés signifie que la colonne est aligné au centre.</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+| Élément | Quantité | Prix |
+| :------- | :------: | -----: |
+| Item 1   | 15       | 150€   |
+| Item 2   | 3250     | 23,65€ |
+</pre></td>
+     <td>
+<table>
+<thead>
+<tr>
+  <th style="text-align:left;">Élément</th>
+  <th style="text-align:center;">Quantité</th>
+  <th style="text-align:right;">Prix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:left;">Item 1</td>
+  <td style="text-align:center;">15</td>
+  <td style="text-align:right;">150€</td>
+</tr>
+<tr>
+  <td style="text-align:left;">Item 2</td>
+  <td style="text-align:center;">3250</td>
+  <td style="text-align:right;">23,65€</td>
+</tr>
+</tbody></table>
+     </td>
+  </tr>
+</tbody></table>
+
+<hr />
+<h3 id="mark12">Code</h3>
+<p>Vous pouvez créer des blocs de code pour héberger des extraits de code source d'un
+lenguaje de programmation ou pour reproduire littéralement n'importe quel type de texte
+sans qui soit interprété par Markdown. La seule chose nécessaire est que chaque ligne de ce bloc commence par au moins 4 espaces ou 1 tab.</p>
+<p><strong>De toute façon, est hautement recommandé pour ces tâches Utilisez la coloration de code qui est spécifiée sur<br /> <a href="#header2">Cette section</a>.</strong></p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+   <td>
+<pre class="no_mrkdwn">
+Ceci est un paragraphe normal.  
+</pre><pre class="no_mrkdwn">
+    Ceci est un paragraphe de code.
+</pre> 
+   </td>
+   <td><p>Ceci est un paragraphe normal.</p><div class="codehilite"><pre><code>Ceci est un paragraphe de code.</code></pre></div>
+</td>
+  </tr>
+</table>
+
+<p>Existe un autre moyen de créer un bloc de code, est de l'enfermer entre deux lignes formées par trois ou plusieurs caractères tilde <strong>~</strong></p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Ceci est un paragraphe normal
+
+~~~
+Ceci est un paragraphe de code.
+~~~</pre></td>
+     <td><p>Ceci est un paragraphe normal.</p><div class="codehilite"><pre><code>Ceci est un paragraphe de code.</code></pre></div>
+</td>
+  </tr>
+</table>
+
+<p>Enfin, il y a une option pour mettre en  coloration des petits morceaux de code à l'intérieurdes 
+paragraphes de texte normal. Pour y parvenir, nous devons enfermer le code entre deux 
+accents graves <strong>`</strong></p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Ceci est un paragraphe normal, avec un morceau de code, `import this` inséré au milieu de celui-ci.
+</pre></td>
+     <td><p>Ceci est un paragraphe normal, avec un morceau de code, <code>import this</code> inséré au milieu de celui-ci.</p>
+</td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark13">Lignes Horizontales</h3>
+<p>Pour créer des lignes horizontales, vous devez créer une ligne vides et composé par 3 ou plusieurs symboles, qui peuvent être des tirets, astérisques ou 
+des soulignés. Vous pouvez créer des espaces entre ces caractères si vous le souhaitez 
+par esthétique.</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+
+***
+
+</pre></td>
+     <td><hr /></td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+
+- - -
+
+</pre></td>
+     <td><hr /></td>
+  </tr>
+  <tr>
+    <td><pre class="no_mrkdwn">
+
+___
+
+</pre></td>
+     <td><hr /></td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark14">Échappement des caractères</h3>
+<p>Qu'est-ce qui se
+passe-t-il lorsque nous voulons afficher un caractère que Markdown utilise pour le balisage? C'est possible que selon d'où  et de comment, c'est employer ce symbole, 
+qui est interprété par Markdown et nous modifie le format ddu texte. Dans ce cas ce qui est nécessaire c'est <em>échapper</em> le caractère avec le symbole backslash ou barre oblique inversée <strong>\</strong>
+Ce tableau montre les symboles qui peuvent être échappé par Markdown.</p>
+<table>
+  <thead><tr><th style="width: 60%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">\\ \` \* \_  \{\} \[\] \(\) \# \+ \- \. \! \: \|</pre></td>
+     <td><h3>\ ` * _  {} [] () # + - . ! : |</h3></td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark15">Notes de bas de page</h3>
+<p>Les notes de page sont créés d'une manière très simple en Markdown. Chaque notes de bas de  page est composé de deux éléments: un marqueur à côté du texte qui devient un exposant et une définition qui peut être placée dans une 
+liste de notes de bas à la fin du document. Exemple:</p>
+<table>
+  <thead><tr><th style="width: 51%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Ceci est un texte avec note de bas [^1]
+
+[^1]: Ceci est une note de bas de page.
+</pre></td>
+     <td>
+<p>Ceci est un texte avec note de bas <sup id="fnref:1"><a href="#fn:1" >1</a></sup></p>
+<div class="footnotes">
+<hr /><ol><li id="fn:1">
+<p>Ceci est une note de bas de page. <a href="#fnref:1" >↩</a></p>
+</li>
+</ol>
+</div>
+</td>
+  </tr>
+</table>
+
+<p>Les définitions de note de bas ils peuvent être trouvés n'importe où dans le document, mais les notes seront toujours affichés dans l'ordre dans lequel ils sont liés
+dans le texte. Il faut garder à l'esprit que vous ne pouvez pas faire deux liens vers la même note de bas: si vous essayez la référence de la deuxième note elle restera sous forme de texte sans format.</p>
+<p>Chaque marqueur de note doit avoir un nom différent. Ce nom est utilisé pour lier la note à laquelle elle fait référence à des définitions de note, mais il n'a aucun effet sur la numérotation des notes de bas. Les noms peuvent contenir n'importe quel caractère valide qui sert à l'Identification d'un attribut HTML (c'est à dire, qui soit conforme à  l'expression régulière 
+<code>[A-Za-z][-A-Za-z0-9_:.]*</code>), ils ne doit pas nécessairement êtres des nombres. 
+Exemple:</p>
+<table>
+  <thead><tr><th style="width: 55%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+Ceci est un texte avec note de bas [^note1] et ceci est une autre note [^note2]
+
+[^note1]: Ceci est une note de bas de page.
+[^note2]: Ceci est la deuxième note de bas.
+</pre></td>
+     <td>
+<p>Ceci est un texte avec note de bas <sup id="fnref:note1"><a href="#fn:note1" >1</a></sup> et ceci est une autre note <sup id="fnref:note2"><a href="#fn:note2" >2</a></sup></p>
+
+<div class="footnotes">
+<hr /><ol><li id="fn:note1">
+<p>Ceci est une note de bas de page. <a href="#fnref:note1" >↩</a></p>
+</li>
+
+<li id="fn:note2">
+<p>Ceci est la deuxième note de bas. <a href="#fnref:note2" >↩</a></p>
+</li>
+</ol>
+</div>
+</td>
+  </tr>
+</table>
+
+<hr />
+<h3 id="mark16">Abréviations</h3>
+<p>Pour créer des abréviations HTML la seule chose nécessaire est de créer une liste d'eux 
+(généralement à la fin du texte) et n'importe où dans le texte qui apparaît 
+l'abréviation s'appliquera automatiquement. Les listes des abréviations sont créés comme des listes de liens, mais précédés d'un astérisque.</p>
+<table>
+  <thead><tr><th style="width: 60%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+La spécification HTML est maintenue par le W3C.
+
+*[HTML]: Hyper Text Markup Language
+ *[W3C]:  World Wide Web Consortium
+</pre></td>
+     <td>
+<p>La spécification <abbr title="Hyper Text Markup Language">HTML</abbr> est maintenue par le <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+</td>
+  </tr>
+</table>
+
+<p>Les abréviations sont sensibles à la casse, alors il doit être pris en compte. Vous pouvez créer des abréviations de plus d'un mot.</p>
+<hr />
+<h3 id="mark17">Identificateurs d'En-tête</h3>
+<p>Les identificateurs  d'en-tête nous permettent d'établir un Identificateur à des en-têtes pour ensuite être en mesure de les relier dans n'importe quelle endroit que soient placé  le texte. C'est ce qui me permet de créer l'index de cette page. Cela fonctionnerait comme un <em>anchor</em> HTML
+(ancre) mais qui ne peut s'appliquer à des en-têtes.</p>
+<table>
+  <thead><tr><th style="width: 60%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+    <td><pre class="no_mrkdwn">
+### Ceci est un en-tête avec un  ID {#en-tête1}
+
+[Lien vers cet en-tête](#en-tête1)
+</pre></td>
+     <td>
+
+<h3 id="en-tête1">Ceci est un en-tête avec un ID</h3>
+<p><a href="#en-tête1">Lien vers cet en-tête</a></p>
+</td>
+  </tr>
+</table>
+
+<p>Dans Markdown Python tous les en-têtes sont par défaut associé à un ID qui dépend du même texte, bien que  l'emporte toujours celui que nous établissons.</p>
+<hr />
+<br />
+
+<h2 id="header2">Pygments: Coloration de Syntaxe pour le Code Source</h2>
+<p>Pour introduire des exemples de code source sur ce site, activer la coloration (ou coloré) les syntaxe améliore  la présentation et la lisibilité des 
+mêmes. Existe différents moteurs qui nous permettent de réaliser cette fonction et 
+Pygments est un des meilleurs. Il est réalisée en Python, donc, il s'intègre parfaitement avec le logiciel qui génère ce site et avec Python Markdown. </p>
+<p>La coloration de code avec Markdown et Pygments est vraiment simple, il suffit de faire la même chose que nous ferions avec Markdown, mais en ajoutant un <strong>lexer</strong> de 
+Pygments dans la première ligne. Un <a href="http://pygments.org/docs/lexers">lexer</a> est un identificateur du langage 
+que nous tenons à coloré pour que la coloration soient faite correctement. Les lexers sont construits à l'aide de 2 caractères <code>:</code> suivi du nom du lexer, par exemple, 
+<code>:::python</code> il serait le lexer pour identifier un fragment de code en langage Python.</p>
+<p>On peut le voir mieux avec un exemple:</p>
+<table>
+  <thead><tr><th style="width: 50%;">Vous tapez</th><th>Vous obtenez</th></tr></thead>
+  <tbody><tr>
+   <td>
+    <pre class="no_mrkdwn">
+&nbsp;&nbsp;&nbsp;&nbsp;:::python
+&nbsp;&nbsp;&nbsp;&nbsp;import lifetime
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;for each_day in lifetime.days():
+&nbsp;&nbsp;&nbsp;&nbsp;    carpe_diem()</pre>
+  </td>
+  <td>
+<div class="codehilite"><pre><span class="kn">import</span> <span class="nn">lifetime</span>
+
+<span class="k">for</span> <span class="n">each_day</span> <span class="ow">in</span> <span class="n">lifetime</span><span class="o">.</span><span class="n">days</span><span class="p">():</span>
+    <span class="n">carpe_diem</span><span class="p">()</span>
+</pre></div>
+  </td>
+  </tr>
+</tbody></table>
+
+<h2 id="syntax0">Lexers de Pygments plus commun pour la coloration de sintaxe</h2>
+<p>Juste après je montre une relation des lexers plus commun utilisé pour la coloration de code source. Trouvé sur le net.</p>
+<ul>
+<li>
+<h4 id="apache_-_configuraci+n_apache"><code>apache</code> - configuration Apache</h4>
+<div class="codehilite"><pre><span class="nt">&lt;VirtualHost</span> <span class="s">*:80</span><span class="nt">&gt;</span>
+<span class="nb">DocumentRoot</span> <span class="sx">/www/example1</span>
+<span class="nb">ServerName</span> www.example1.com
+
+<span class="c"># Other directives here</span>
+
+<span class="nt">&lt;/VirtualHost&gt;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="bash_et__console_-_bash_et_shell"><code>bash</code> et  <code>console</code> - Bash et Shell</h4>
+<div class="codehilite"><pre> <span class="c">#!/bin/bash</span>
+ <span class="nb">echo</span> <span class="s2">&quot;Salut tout le monde&quot;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="bat_-_fichier_batch_doswindows"><code>bat</code> - Fichier Batch DOS/Windows</h4>
+<div class="codehilite"><pre><span class="p">@</span><span class="k">echo</span> Salut<span class="p">,</span> tout le monde!
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="boo_-_boo"><code>boo</code> - Boo</h4>
+<div class="codehilite"><pre><span class="nb">print</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="c_-_c"><code>c</code> - C</h4>
+<div class="codehilite"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Salut tout le monde!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="cpp_-_c"><code>cpp</code> - C++</h4>
+<div class="codehilite"><pre><span class="cp">#include &lt;iostream.h&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Salut tout le monde!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="csharp_-_c"><code>csharp</code> - C</h4>
+<div class="codehilite"><pre><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">MainClass</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">System</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Salut tout le monde!&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="css_-_cascade_style_sheet_css"><code>css</code> - Cascade Style Sheet (CSS)</h4>
+<div class="codehilite"><pre><span class="o">&lt;/</span><span class="nt">pre</span><span class="o">&gt;</span>
+   <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+   <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;get&quot;</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nt">css</span><span class="o">&gt;</span>
+<span class="nt">body</span> <span class="p">{</span>
+    <span class="k">font</span><span class="o">:</span> <span class="m">75</span><span class="o">%</span> <span class="n">georgia</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
+    <span class="k">color</span><span class="o">:</span> <span class="m">#555753</span><span class="p">;</span>
+    <span class="k">background</span><span class="o">:</span> <span class="m">#fff</span><span class="p">;</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">padding</span><span class="o">:</span> <span class="m">5px</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="diff_+__udiff_-_diff"><code>diff</code> ou  <code>udiff</code> - Diff</h4>
+<div class="codehilite"><pre><span class="gd">--- /path/to/original &#39;&#39;timestamp&#39;&#39;</span>
+<span class="gi">+++ /path/to/new      &#39;&#39;timestamp&#39;&#39;</span>
+<span class="gu">@@ -1,3 +1,9 @@</span>
+<span class="gi">+This is an important</span>
+<span class="gi">+notice! It should</span>
+<span class="gi">+therefore be located at</span>
+<span class="gi">+the beginning of this</span>
+<span class="gi">+document!</span>
+<span class="gi">+</span>
+ This part of the
+ document has stayed the
+ same from version to
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="erlang_-_erlang"><code>erlang</code> - Erlang</h4>
+<div class="codehilite"><pre><span class="p">-</span><span class="ni">module</span> <span class="p">(</span><span class="n">salut</span><span class="p">).</span>
+<span class="p">-</span><span class="ni">export</span><span class="p">([</span><span class="n">salut_tout_le_monde</span><span class="o">/</span><span class="mi">0</span><span class="p">]).</span>
+
+<span class="nf">salut_tout_le_monde</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nn">io</span><span class="p">:</span><span class="n">fwrite</span><span class="p">(</span><span class="s">&quot;Salut tout le monde!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">).</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="go_-_go"><code>go</code> - Go</h4>
+<div class="codehilite"><pre><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="s">&quot;fmt&quot;</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">fmt</span><span class="p">.</span><span class="n">Println</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="haskell_-_haskell"><code>haskell</code> - Haskell</h4>
+<div class="codehilite"><pre><span class="nf">salut tout le monde</span> <span class="ow">::</span> <span class="kt">IO</span> <span class="nb">()</span>
+<span class="nf">salut tout le monde</span> <span class="ow">=</span> <span class="n">putStrLn</span> <span class="s">&quot;Salut tout le monde!&quot;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="html_-_html"><code>html</code> - HTML</h4>
+<div class="codehilite"><pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Salut tout le monde<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+
+Salut tout le monde!
+   <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="java_-_java"><code>java</code> - Java</h4>
+<div class="codehilite"><pre><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Salut tout le monde</span> <span class="o">{</span>
+       <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+          <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Salut tout le monde!&quot;</span><span class="o">);</span>
+       <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="js_-_javascript"><code>js</code> - javascript</h4>
+<div class="codehilite"><pre><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s2">&quot;Salut tout le monde!&quot;</span><span class="p">);</span>
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="latex_-_latex"><code>latex</code> - LaTeX</h4>
+<div class="codehilite"><pre><span class="k">\documentclass</span><span class="na">[12pt]</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>lingmacros<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>tree-dvips<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+
+<span class="k">\section*</span><span class="nb">{</span>Notes for My Paper<span class="nb">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="cl_-_common_lisp"><code>cl</code> - Common Lisp</h4>
+<div class="codehilite"><pre><span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">&quot;Salut tout le monde!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="lua_-_lua"><code>lua</code> - Lua</h4>
+<div class="codehilite"><pre><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="s">Salut tout le monde!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="mysql_-_mysql"><code>mysql</code> - MySQL</h4>
+<div class="codehilite"><pre><span class="k">SELECT</span> <span class="s1">&#39;Salut tout le monde&#39;</span><span class="p">;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="pascal_et__delphi_-_pascal_y_delphi"><code>pascal</code> et  <code>delphi</code> - Pascal et Delphi</h4>
+<div class="codehilite"><pre><span class="k">Program</span> <span class="n">Salut tout le monde</span><span class="o">;</span>
+<span class="k">Begin</span>
+    <span class="nb">Write</span><span class="p">(</span><span class="s">&#39;Salut tout le monde!&#39;</span><span class="p">)</span><span class="o">;</span>
+<span class="k">End</span><span class="o">.</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="perl_-_perl"><code>perl</code> - Perl</h4>
+<div class="codehilite"><pre><span class="k">print</span> <span class="s">&quot;Salut tout le monde\n&quot;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="php_-_php"><code>php</code> - PHP</h4>
+<div class="codehilite"><pre><span class="cp">&lt;?php</span> <span class="k">print</span> <span class="s2">&quot;Salut tout le monde!&quot;</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="python_+__py_+__pycon_+__pytb_+__python3_+__cython_-_python"><code>python</code> ou  <code>py</code> ou  <code>pycon</code> ou  <code>pytb</code> ou  <code>python3</code> ou  <code>cython</code> - Python</h4>
+<div class="codehilite"><pre><span class="k">print</span> <span class="s">&quot;Salut tout le monde!&quot;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="ruby_-_ruby"><code>ruby</code> - Ruby</h4>
+<div class="codehilite"><pre><span class="nb">puts</span> <span class="s2">&quot;Salut tout le monde&quot;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="scala_-_scala"><code>scala</code> - Scala</h4>
+<div class="codehilite"><pre><span class="k">object</span> <span class="nc">HelloWorld</span> <span class="k">extends</span> <span class="nc">Application</span> <span class="o">{</span>
+  <span class="n">println</span><span class="o">(</span><span class="s">&quot;Hello world!&quot;</span><span class="o">)</span>
+<span class="o">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="scheme_-__scheme"><code>scheme</code> -  Scheme</h4>
+<div class="codehilite"><pre><span class="p">(</span><span class="nb">display </span><span class="s">&quot;Hello World&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="smalltalk_-_smalltalk"><code>smalltalk</code> - Smalltalk</h4>
+<div class="codehilite"><pre><span class="nc">Transcript</span> <span class="nf">show:</span> <span class="s">&#39;Salut tout le monde!&#39;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="sql_-_sql"><code>sql</code> - SQL</h4>
+<div class="codehilite"><pre><span class="k">SELECT</span> <span class="s1">&#39;Salut tout le monde&#39;</span>
+<span class="k">FROM</span> <span class="n">DUAL</span><span class="p">;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="sqlite3_-_sqlite3"><code>sqlite3</code> - sqlite3</h4>
+<div class="codehilite"><pre><span class="gp">sqlite&gt; </span><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">tbl2</span> <span class="p">(</span>
+<span class="gp">   ...&gt; </span>  <span class="n">f1</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span> <span class="k">primary</span> <span class="k">key</span><span class="p">,</span>
+<span class="gp">   ...&gt; </span>  <span class="n">f2</span> <span class="nb">text</span><span class="p">,</span>
+<span class="gp">   ...&gt; </span>  <span class="n">f3</span> <span class="nb">real</span>
+<span class="gp">   ...&gt; </span><span class="p">);</span>
+<span class="go">sqlite&gt;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="text_-_texto_simple_monoespaciado"><code>text</code> - Texte simple espacement non proportionnel</h4>
+<div class="codehilite"><pre>Salut tout le monde
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="vala_-_vala"><code>vala</code> - Vala</h4>
+<div class="codehilite"><pre><span class="kd">class</span> <span class="nc">Demo</span><span class="p">.</span><span class="n">HelloWorld</span> <span class="o">:</span> <span class="n">GLib</span><span class="p">.</span><span class="n">Object</span> <span class="p">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">stdout</span><span class="p">.</span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello, World</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="vbnet_-_visual_basic_net"><code>vbnet</code> - Visual Basic .NET</h4>
+<div class="codehilite"><pre><span class="k">Private</span> <span class="k">Sub</span> <span class="nf">Form_Load</span><span class="p">()</span>
+   <span class="n">Msgbox</span> <span class="s">&quot;Salut tout le monde&quot;</span>
+ <span class="k">End</span> <span class="k">Sub</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="vim_-_vim_script"><code>vim</code> - Vim Script</h4>
+<div class="codehilite"><pre><span class="k">function</span><span class="p">!</span> ToggleSyntax<span class="p">()</span>
+   <span class="k">if</span> exists<span class="p">(</span><span class="s2">&quot;g:syntax_on&quot;</span><span class="p">)</span>
+      <span class="nb">syntax</span> off
+   <span class="k">else</span>
+      <span class="nb">syntax</span> enable
+   <span class="k">endif</span>
+<span class="k">endfunction</span>
+
+nmap <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  ;<span class="k">s</span>  :<span class="k">call</span> ToggleSyntax<span class="p">()&lt;</span>CR<span class="p">&gt;</span>
+</pre></div>
+
+
+</li>
+<li>
+<h4 id="xml_-_xml"><code>xml</code> - XML</h4>
+<div class="codehilite"><pre><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot;?&gt;</span>
+ - <span class="nt">&lt;note&gt;</span>
+       <span class="nt">&lt;to&gt;</span>Tove<span class="nt">&lt;/to&gt;</span>
+       <span class="nt">&lt;from&gt;</span>Jani<span class="nt">&lt;/from&gt;</span>
+       <span class="nt">&lt;heading&gt;</span>Reminder<span class="nt">&lt;/heading&gt;</span>
+       <span class="nt">&lt;body&gt;</span>Don&#39;t forget me this weekend!<span class="nt">&lt;/body&gt;</span>
+   <span class="nt">&lt;/note&gt;</span>
+</pre></div>
+
+
+</li>
+</ul>
+
+
+<hr />
+<h1 id="articlesexternesmarkdown">Articles externes</h1>
+<p>Voici quelques liens externes rélatif à Markdown que vous pouvez consulter:</p>
+<p>Pour plus d'informations sur le langage Markdown Voici quelques pages en anglais à visitez):</p>
+
+<p><a href="http://daringfireball.net/">Daring Firebal.</a><br />
+
+<p><a href="http://daringfireball.net/projects/markdown/dingus">Daring Fireball: Markdown Web Dingus.</a><br />
+
+<p><a href="http://daringfireball.net/projects/markdown/syntax">Daring Fireball: Markdown Syntax Documentation.</a><br />
+
+<hr />
+<p>Sur ce, je vous souhaite une bonne découverte du langage Markdown!<br />Amusez-vous bien!<br />Nous espérons vous revoir bientôt sur le <br />
+<a href="http://blindhelp.blogspot.fr/">Blog de BlindHelp!</a></p>
+</body>
+</html>

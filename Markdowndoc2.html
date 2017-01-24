@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Auteur: BlindHelp" />
+  <title>Markdown: Une façon simple et accessible pour réaliser la mise en forme d'un contenu Web</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Markdown: Une façon simple et accessible pour réaliser la mise en forme d'un contenu Web</h1>
+<h2 class="author">Auteur: BlindHelp</h2>
+<h3 class="date">Dernière mise à jour le 27 Avril 2016.</h3>
+</div>
+<hr />
+<h1 id="markdown-une-facon-simple-et-accessible-pour-realiser-la-mise-en-forme-d-un-contenu-web" class="unnumbered">Markdown: Une façon simple et accessible pour réaliser la mise en forme d'un contenu Web</h1>
+<p>Coucou mes amis du blog de BlindHelp!<br />Ceux qui travaillent dans l'accessibilité, nous savons l'importance qu'ont les contenu généré de manière accessible et avec une structure sémantique correcte. Ils apprécient également ce type de contenu, les utilisateurs qui utilisent certain produits d'assistance technique ou qui pour une raison quelconque ont des besoins spéciaux pour accéder au contenu Web.</p>
+<p>Avec l'accroissement rapide des informations publiées sur le Web à l'aide d'outils tels que les gestionnaires de contenu, Il est nécessaire de sauver l'idée centrale qui a motivé cet article: Générer du contenu Web, correctement mis en forme.</p>
+<h1 id="pourquoi-est-important-la-mise-en-forme-dans-le-contenu-web" class="unnumbered">Pourquoi est important la mise en forme dans le contenu Web ?</h1>
+<p>Un contenu correctement mis en forme permettra aux utilisateurs des produits d'assistance technique ou avec des besoins en particulier d'avoir l'accès à l'information pour qu'ils puissent comprendre et y accéder avec le moindre effort possible. Si bien que dans les textes imprimés à l'encre et papier Nous cherchons à donner des styles et structure pour faciliter la compréhension, même si vous n'avez pas un handicap, de même cela devrait être aussi fait sur le web.</p>
+<p>Dans les textes imprimés, l'affichage de différents styles (titres, sous-titres, puces ou numérotation de listes, etc.) donne sens à ce qui est lu. Sur le web, l'utilisation d'une mise en fforme approprié (titres, listes, liens, etc.) ont la même fonction.</p>
+<h1 id="pourquoi-insister-sur-la-mise-en-forme-et-pas-le-laisser-tout-simplement-avec-le-style" class="unnumbered">Pourquoi insister sur la mise en forme et pas le laisser tout simplement avec le style ?</h1>
+<p>L'évidence est déterminée parce que beaucoup de produits d'assistance technique y compris les lecteurs d'écran, identifient ces étiquettes et c'est grâce à eux que l'utilisateur parvient à identifier Quel type de contenu représente le texte.</p>
+<p>Si seulement les styles sont utilisés indiquant certaines caractéristiques grâce à la couleur, l'emphase, l'italique ou le souligné, un utilisateur aveugle, par exemple, il n'aurait pas une notion précise où il commence un paragraphe et où il termine l'autre. La même chose pourrait arriver à une personne âgée ou à une personne avec déficit de l'attention ou un trouble d'apprentissage et même une personne sans handicap, habitués à des textes qui possèdent la structure et pour quelque raison devrait accéder à ce contenu en utilisant un navigateur qui affiche uniquement le texte.</p>
+<h1 id="comment-realiser-correctement-la-mise-en-forme-d-un-contenu-sur-le-web" class="unnumbered">Comment réaliser correctement la mise en forme d'un contenu sur le Web ?</h1>
+<p>La bonne chose, en vertu de l'avis de qui écrit, consiste à utiliser l'HTML (Hypertext markup language) qui est le langage de balisage hypertexte sur le Web. Toutefois, pas tous les personnes qui créent des contenus sur le Web connaissent ce langage et plus normalement, ils utilisent des gestionnaires de contenu pour publier, est il est moins probable qu'ils apprennent la mise en forme quand il l'utilisent.</p>
+<p>Certaines personnes qui ont lu probablement pensent que il n'y a pas besoin de l'apprendre, parce que beaucoup de ces gestionnaires comprennent des fonctions qui vous permettent de générer le contenu mis en forme. Ceci est une demi-vérité, parce que s'il est vrai que des nombreux gestionnaires de contenu incluent ces fonctions, le HTML généré à la fin n'est guère optimale ni approprié dans la majorité des cas.</p>
+<h1 id="alors-que-faire" class="unnumbered">Alors, que faire ?</h1>
+<p>Une alternative pour générer un contenue Web correctement mis en forme sans connaître l'HTML consiste à utiliser MarkDown.</p>
+<h1 id="qu-est-ce-que-markdown" class="unnumbered">Qu'est-ce que Markdown ?</h1>
+<p>Markdown, est un langage de balisage léger et standardisée, développé par<br /><a href="http://fr.wikipedia.org/wiki/John_Gruber">John Gruber</a><br />en 2004 avec la collaboration de<br /><a href="http://fr.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a><br />Ce langage est très souple et facile d'éditer avec n'importe quel éditeur de texte Même si certains ont été créés spécifiquement pour ce langage.</p>
+<p>Ce langage n'a pas évolué depuis. Même si de nombreuses extensions et “extras” sont venues se greffer au projet originel. Le projet initial avec sa documentation est sur<br /><a href="http://daringfireball.net/projects/markdown">Daring Fireball.</a></p>
+<p>Les fichiers sont généralement enregistrés avec l’extension .md (ou .markdown ) pour indiquer aux interpréteur la nature du texte qu’il vont lire ; mais ça n’a rien d’obligatoire. Comme le résultat sera exporté en HTML, vous pouvez tout à fait introduire directement des balises HTML dans votre texte ; mais celui-ci deviendra moins lisible et ne pourra plus être édité par quelqu’un ne maîtrisant pas le HTML. Attention, le formatage markdown ne sera pas appliqué à l’intérieur de ces balises.</p>
+<p>Pour exporté le fichier MD en HTML, vous pouvez utiliser le<br /><a href="#comvertisseur_pandoc">convertisseur Pandoc</a></p>
+<h1 id="quel-est-l-avantage-d-utiliser-markdown" class="unnumbered">Quel est l'avantage d'utiliser markdown ?</h1>
+<p>Le principal avantage est qu'il a une courbe d'apprentissage très petite, En plus de que le contnu qui est générés est très facile à lire, la plupart des gestionnaires de contenu prennent en charge Markdown, soit par des plug-ins ou par des fonctions spécifiques Par exemple En wordpress cela s'active dans la configuración d'écriture selon des amis.</p>
+<p>Il y a aussi comme cela a déjà été mentionné des éditeurs spécifiques pour ce langage. Certains permettent d'exporter le contenu généré au format HTML, PDF et même Certains permettent d'ajouter des CSS.</p>
+<p>malheureusement bon nombre de ces éditeurs ne sont pas entièrement accessibles au moins quand vous êtes un utilisateur de lecteur d'écran.</p>
+<h1 id="editeurs-hors-ligne" class="unnumbered">Éditeurs hors ligne</h1>
+<p>Il existe de nombreux éditeurs hors ligne.<br />Pour les plates-formes Windows, un éditeur qu'il soit accessible est<br /><a href="http://hibara.org/software/markdownsharpeditor/">&quot;MarkDown# Editor&quot;.</a><br />Ce tutoriel est rédigé avec celuici!<br />Il y a aussi l'application:<br /><a href="http://writemonkey.com/">&quot;Write Monkey&quot;,</a><br />un peu austère à mon goût, mais très fonctionnel et gratuit.<br />Il est aussi accessible mais Je préfère le premier c'est une question de goût ! lol!<br />Pour Windows également il y a,<br /><a href="http://markdownpad.com/">&quot;Markdown Pad&quot;, gratuit.</a><br />Pas tester si celui-ci est accessible!</p>
+<p>Pour les plates-formes Mac OSx il existe<br /><a href="http://mouapp.com/">&quot;Mou&quot;.</a></p>
+<p>Pour les plates-formes Linux, il existe<br /><a href="http://sourceforge.net/p/retext/home/ReText">&quot;ReText&quot;.</a><br />J'ignore si celui-ci est accessible pour les DV sous Linux!</p>
+<p>Il reste possible d’ouvrir et d’éditer des fichiers markdown avec n’importe quel éditeur de code ou éditeur textuel (le notepad (Bloc-notes de Windows ) ou le TextEdit livré avec votre système d’exploitation). Mais vous êtes alors privé de la coloration syntaxique et de la prévisualisation en temps réel de ce que vous êtes en train d’écrire.<br />J'ai oublié aussi vous pouvez utiliser l'application:<br /><a href="https://notepad-plus-plus.org/fr/">&quot;Notepad++&quot; pour Windows.</a><br />avec un<br /><a href="https://github.com/jjchiw/markdown_npp">thème nommé markdown_npp dans sa version modifiée</a><br />basé sur le thème original de Thomas Smits.</p>
+<h1 id="theme-markdown-npp-pour-le-notepaplusplus" class="unnumbered">Thème markdown_npp pour le Notepad++</h1>
+<h2 id="vue-d-ensemble-du-theme-markdown-npp" class="unnumbered">Vue d'ensemble du thème markdown_npp</h2>
+<p>Ce projet fournit un fichier userDefineLang.xml très simple pour Notepad++ qui effectue quelques coloration syntaxique de base pour les textes de markdown. Il s'agit d'une version d'un thème markdown pour Notepad++ fait par un gars dans sa version modifiée, si vous souhaitez télécharger cette version au format zip, cliquez sur le lien ci-dessus.<br />Si vous souhaitez enregistrer uniquement le fichier cliquez sur le lien ci-dessous.</p>
+<h2 id="installation--du-theme-markdown-npp" class="unnumbered">Installation du thème markdown_npp</h2>
+<p>Instructions d'installation (tiré du site Web de<br /><a href="https://notepad-plus-plus.org/fr/">Notepad++</a>):</p>
+<ol style="list-style-type: decimal">
+<li>Télécharger le fichier nommé userDefineLang.xml sur votre ordinateur<br /></li>
+</ol>
+<ul>
+<li>Faites un clic droit sur<br /><a href="https://github.com/jjchiw/markdown_npp/raw/master/userDefineLang.xml">userDefineLang.xml (format de fichier RAW)</a><br />et choisissez &quot;Enregistrer sous&quot;</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Dans Notepad++:
+<ol style="list-style-type: decimal">
+<li>Choisissez &gt; <code>Définissez votre langage...</code> dans le menu <code>Langage</code><br /></li>
+<li>Cliquez sur le bouton <code>Importer</code><br /></li>
+<li>Dans la boîte de dialogue qui s'ouvre, Recherchez et sélectionnez votre fichier <em>userDefineLang.xml</em> que vous avez téléchargé, et cliquez sur le bouton <code>Ouvrir</code>.<br /></li>
+<li>Attendez que la boîte de dialogue &quot;Import successful&quot; soient afficher<br /></li>
+<li>Ouvrir un fichier Markdown dans Notepad++ (l'extension du fichier doit être <em>.md</em> ou <em>.markdown</em>)<br /></li>
+</ol></li>
+</ol>
+<ul>
+<li>Dans Notepad++ le format du fichier <em>devrait</em> être avec le style de langage Markdown<br /></li>
+<li>Pour choisir manuellement le style Markdown, sélectionnez &gt; <code>Markdown</code> dans le menu <code>Langage</code></li>
+</ul>
+<h1 id="copyright-et-licence-pour-le-theme-markdown-npp" class="unnumbered">Copyright et licence pour le thème markdown_npp</h1>
+<p>Note: traduit de l'anglais, vous pouvez consulter le fichier README.md qui se trouve dans le fichier zip.<br />Licence originale du projet de Thomas Smits:</p>
+<p>Copyright (c) 2010 Thomas Smits</p>
+<p>Permission est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et les fichiers de documentation associée (le &quot;logiciel&quot;), pour faire face dans le logiciel sans restriction, y compris sans limitation, les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, concéder en sous-licence, et/ou vendre des copies du logiciel et de permettre aux personnes à qui le logiciel est fourni pour ce faire, les conditions suivantes:</p>
+<p>L'avis de copyright ci-dessus et cette notification de permission doivent figurer dans toutes les copies ou les parties importantes du logiciel.<br />LE LOGICIEL EST FOURNI « TEL QUEL », SANS GARANTIE D'AUCUNE SORTE,<br />EXPRESSE OU IMPLICITE,<br />Y COMPRIS MAIS NON LIMITÉ AUX GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION POUR UN USAGE PARTICULIER ET DE NON-CONTREFAÇON.</p>
+<p>EN AUCUN CAS LES AUTEURS OU LES TITULAIRES DE DROITS D'AUTEUR EST RESPONSABLE POUR TOUTE RÉCLAMATION, DOMMAGE OU AUTRE RESPONSABILITÉ, SI DANS UNE ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, RÉSULTANT D'OU EN RELATION AVEC LE LOGICIEL OU L'UTILISATION OU AUTRES TRANSACTIONS DANS LE LOGICIEL.</p>
+<hr />
+<h1 id="editeurs-en-ligne" class="unnumbered">Éditeurs en ligne</h1>
+<pre><code>Pour découvrir markdown et voir un peu ce qu’il peut faire, vous pouvez essayer un des nombreux éditeurs en ligne comme     </code></pre>
+<p><a href="http://markable.in/editor">&quot;Markable&quot;,</a><br />l’éditeur original de Gruber,<br /><a href="http://daringfireball.net/projects/markdown/dingus">&quot;Dingus&quot;</a><br />ou encore le très puissant<br /><a href="https://stackedit.io/">&quot;StackEdit&quot;</a><br />que vous pouvez synchroniser avec Google docs.</p>
+<p>Ci-dessous j'indique comment générer le contenu mis en forme en utilisant la syntaxe de Markdown.</p>
+<hr />
+<h1 id="la-syntaxe-de-markdown" class="unnumbered">La syntaxe de Markdown</h1>
+<h2 id="contenus" class="unnumbered">Contenus</h2>
+<ul>
+<li><a href="#mark3">Les titres</a></li>
+<li><a href="#mark4">Les paragraphes</a></li>
+<li><a href="#mark5">Les sauts de ligne simple</a></li>
+<li><a href="#mark6">L’emphase</a></li>
+<li><a href="#mark7">Les citations</a></li>
+<li><a href="#mark8">Les listes non ordonnée</a></li>
+<li><a href="#mark9">Les listes ordonnées</a></li>
+<li><a href="#mark10">Le bloc de code</a></li>
+<li><a href="#mark11">Le code dans la ligne</a></li>
+<li><a href="#mark12">Les filets ou barres de séparation</a></li>
+<li><a href="#mark13">Les liens</a></li>
+<li><a href="#mark14">Les images</a></li>
+<li><a href="#mark15">Les tableaux</a></li>
+<li><a href="#mark16">Échappement des caractères</a></li>
+<li><a href="#mark17">Séparer des blocs</a></li>
+</ul>
+<hr />
+<h2 id="la-syntaxe-de-markdown" class="unnumbered">La syntaxe de Markdown</h2>
+<h1 id="mark3"><span class="header-section-number">1</span> Les titres</h1>
+<!-- je triche ici en fabriquant le résultat afin que ces titres n'apparaissent pas dans la TOC -->
+<p>Les titres HTML se produisent en plaçant un certain nombre de dièses(signe) <code>#</code> avant le texte correspondant au niveau du titre souhaité (HTML offre jusqu'à six niveaux).</p>
+<p>Vous tapez:</p>
+<p><code>#</code> Ceci est un H1<br /><code>##</code> Ceci est un H2<br /><code>###</code> Ceci est un H3<br /><code>####</code> Ceci est un H4<br /><code>#####</code> Ceci est un H5<br /><code>######</code> Ceci est un H6</p>
+<p>(mais n’allez pas au delà de 7).</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<h1 id="ceci-est-un-H1" class="unnumbered">Ceci est un H1</h1>
+<h2 id="ceci-est-un-H2" class="unnumbered">Ceci est un H2</h2>
+<h3 id="ceci-est-un-H3" class="unnumbered">Ceci est un H3</h3>
+<h4 id="ceci-est-un-H4" class="unnumbered">Ceci est un H4</h4>
+<h5 id="ceci-est-un-H5" class="unnumbered">Ceci est un H5</h5>
+<h6 id="ceci-est-un-H6" class="unnumbered">Ceci est un H6</h6>
+<p>(mais n’allez pas au delà de 7).</p>
+<p>Vous pouvez enfermer chaque titre entre dièses (signe) <strong>#</strong>, pour des raisons purement esthétiques, parce qu'il n'est pas nécessaire du tout de le faire, c'est-à-dire, vous pouvez faire</p>
+<p>ceci:</p>
+<p><code>###</code> Ceci est un H3 <code>###</code></p>
+<h3 id="ceci-est-un-H3" class="unnumbered">Ceci est un H3</h3>
+<p>Pour les titres des deux premiers niveaux il existe également une autre façon de faire la même chose, qui serait la suivante:</p>
+<p>Ceci est un H1<br /><code>=============</code></p>
+<h1 id="ceci-est-un-H1" class="unnumbered">Ceci est un H1</h1>
+<p>Ceci est un H2<br /><code>-------------</code></p>
+<h2 id="ceci-est-un-H2" class="unnumbered">Ceci est un H2</h2>
+<p>C'est-à-dire, pour les titres principaux vous souligner le texte avec le signe égal. Pour les titres de deuxième niveau vous utilisés les tirets pour souligner. C'est indifférent le nombre de signes égal ou tirets que vous utilisé, avec un c'est suffisant.</p>
+<p>Note: Vous pouvez aussi dans un titre inclure un lien:</p>
+<p>Vous taper:</p>
+<pre><code>### Titre de niveau 3 incluant [un lien](#)</code></pre>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<h3 id="Titre-de-niveau-3-incluant-un-lien" class="unnumbered">Titre de niveau 3 incluant <a href=#>un lien</a></h3>
+<hr />
+<h1 id="mark4"><span class="header-section-number">2</span> Les paragraphes</h1>
+<p>Les paragraphes sont indiqués avec une ou plusieurs lignes de séparation (en appuyant sur la touche entrée).<br />Pour afficher un paragraphe, sautez deux ligne et taper votre texte. Un seul saut de ligne correspond à un retour chariot et pas à un changement de paragraphe.</p>
+<hr />
+<h1 id="mark5"><span class="header-section-number">3</span> Les sauts de ligne simple</h1>
+<p>Effectuer un saut de ligne simple dans votre texte markdown n’aura aucun effet quand vous l'exporter en HTML.<br />Sauf si vous terminez votre ligne par un double espace (ou plus que ça).<br />Un retour chariot sera alors exporté.</p>
+<p>Vous taper:</p>
+<pre><code>Ligne sans espace à la fin
+Ligne avec 2 espaces à la fin  
+Troisième ligne</code></pre>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Ligne sans espace à la fin Ligne avec 2 espaces à la fin<br />Troisième ligne</p>
+<p>Terminer une ligne avec deux ou plusieurs espaces:<br />La première ligne se termine par trois espace après la virgule, la deuxième ligne fini par un point final.</p>
+<p>Par exemple vous taper:</p>
+<pre><code>Les roses sont rouges,   
+les violettes sont bleues.</code></pre>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Les roses sont rouges,<br />les violettes sont bleues.</p>
+<p>En résumer:<br />Pour effectuer un saut de ligne à l'intérieur d'un paragraphe il faut introduire 2 ou davantage de caractères espaces à la fin de la ligne (avant le saut à la ligne).</p>
+<hr />
+<h1 id="mark6"><span class="header-section-number">4</span> L’emphase</h1>
+<p>Pour formater une partie de votre texte comme emphase, entourez le par des astérisques ou des souligné.<br />Entourer par un seule signe astérisque il indique italique (emphase faible : *;)<br />et par un double signe astérisque il indique gras (emphase forte: **;).<br />Il est possible de combiner les deux. Pour indiquer les deux sont utilisés 3 astérisques. Peuvent également être utilisés les soulignés, de la même manière, mais les deux ne doivent pas être mélangés. Un double tildes vous permettent de barrer le texte.</p>
+<p>Texte <em>dont</em> certains <strong>éléments</strong> sont formatés <strong>pour <em>être</em></strong> en <em>italique</em>, en <strong>gras</strong> ou <del>barrés</del>.</p>
+<p>Par exemple, vous taper:<br /><code>*Ceci est un texte en italique*</code><br /><code>**et ceci est en gras**</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><em>Ceci est un texte en italique</em><br /><strong>et ceci est en gras</strong></p>
+<hr />
+<h1 id="mark7"><span class="header-section-number">5</span> Les citations</h1>
+<p>Pour afficher un bloc de citation, commencez le paragraphe par un signe supérieur. Si votre bloc contient plusieurs lignes, vous pouvez faire des sauts de lignes à la main et toutes les ouvrir par un signe supérieur, mais ce n’est pas nécessaire. Ces bloc peuvent contenir d’autres éléments markdown comme des titres ou des listes.</p>
+<p>Par exemple vous taper:</p>
+<p><code>&gt; ####</code> En-têtes dans les blocs de citation<br /><code>&gt;</code><br /><code>&gt; *</code> Vous pouvez citer une liste.<br /><code>&gt; *</code> Etc.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<h4 id="En-têtes-dans-les-blocs-de-citation" class="unnumbered">En-têtes dans les blocs de citation</h4>
+<ul>
+<li>Vous pouvez citer une liste.<br /></li>
+<li>Etc.</li>
+</ul>
+</blockquote>
+<p>Exemple d'une citation:</p>
+<p>Vous taper:</p>
+<p><code>&gt;</code> une citation est un paragraphe ouvert par un signe supérieur</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<p>une citation est un paragraphe ouvert par un signe supérieur</p>
+</blockquote>
+<p>utilisez le caractère supérieur &gt; avant le bloc de texte.</p>
+<p>Vous taper:</p>
+<p>Ceci est une ligne normale</p>
+<p><code>&gt;</code> Ceci fait partie d'un bloc de citation.<br /><code>&gt;</code> Ceci fait partie du même bloc de citation.</p>
+<p>Ceci continue le bloc, même s'il n'y a pas de symbole 'supérieur'.</p>
+<p>La ligne vide termine le bloc.</p>
+<p>Ceci est une ligne normale</p>
+<p><code>&gt;</code> Ceci fait partie d'un bloc de citation.<br /><code>&gt;</code> Ceci fait partie du même bloc de citation.<br /><code>&gt;</code><br /><code>&gt;</code> <code>&gt;</code> Ceci est un autre bloc de citation imbriqué.<br /><code>&gt;</code> <code>&gt;</code> Ceci fait partie du bloc imbriqué.<br /><code>&gt;</code><br /><code>&gt;</code> Ceci fait partie du bloc de citation de premier niveau.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Ceci est une ligne normale</p>
+<blockquote>
+<p>Ceci fait partie d'un bloc de citation.<br />Ceci fait partie du même bloc de citation.</p>
+</blockquote>
+<p>Ceci continue le bloc, même s'il n'y a pas de symbole 'supérieur'.</p>
+<p>La ligne vide termine le bloc.</p>
+<p>Ceci est une ligne normale</p>
+<blockquote>
+<p>Ceci fait partie d'un bloc de citation.<br />Ceci fait partie du même bloc de citation.</p>
+<blockquote>
+<p>Ceci est un autre bloc de citation imbriqué.<br />Ceci fait partie du bloc imbriqué.</p>
+</blockquote>
+<p>Ceci fait partie du bloc de citation de premier niveau.</p>
+</blockquote>
+<hr />
+<h1 id="mark8"><span class="header-section-number">6</span> Les listes non ordonnée</h1>
+<p>Pour afficher une liste, commencez la ligne par un astérisque signe &quot;*&quot;, un tiret signe &quot;-&quot; ou un plus signe &quot;+&quot;.</p>
+<p>Vous taper:</p>
+<p><code>*</code> élément1<br /><code>*</code> élément 2<br /><code>*</code> élément 3</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ul>
+<li>élément 1</li>
+<li>élément 2</li>
+<li>élément 3</li>
+</ul>
+<p>Vous taper:</p>
+<p><code>+</code> élément a<br /><code>+</code> élément b<br /><code>+</code> élément c</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ul>
+<li>élément a</li>
+<li>élément b</li>
+<li>élément c</li>
+</ul>
+<p>Vous taper:</p>
+<p><code>-</code> premier élément<br /><code>-</code> deuxième élément<br /><code>-</code> troisième élément</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ul>
+<li>premier élément</li>
+<li>deuxième élément</li>
+<li>troisième élément</li>
+</ul>
+<p>Voici une liste non ordonnée, avec paragraphes:</p>
+<ul>
+<li><p>Un élément de liste.</p>
+<p>Avec plusieurs paragraphes.</p></li>
+<li><p>Barre</p></li>
+</ul>
+<p>Vous pouvez les imbriquer:</p>
+<ul>
+<li>Boulier
+<ul>
+<li>réponse</li>
+</ul></li>
+<li>Bulles
+<ol style="list-style-type: decimal">
+<li>superposés</li>
+<li>rien
+<ul>
+<li>SANS IMPORTANCE</li>
+</ul></li>
+<li>renvoi</li>
+</ol></li>
+<li>Astuce</li>
+</ul>
+<hr />
+<h1 id="mark9"><span class="header-section-number">7</span> Les listes ordonnées</h1>
+<p>Pour afficher une liste ordonnée, sans paragraphes commencez la ligne par un nombre suivit d’un point. Pour que votre markdown soit plus lisible, je vous conseille d’ordonner proprement votre liste. Mais ce n’est pas nécessaire pour le rendu HTML.<br />C’est le navigateur qui se charge d’ajouter les nombre pour ordonner la liste.</p>
+<p>Par exemple, vous taper:</p>
+<p><code>1. Élément A</code><br /><code>1234. Élément B</code><br /><code>3. Élément C</code><br /><code>4. Élément D</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ol style="list-style-type: decimal">
+<li>Élément A</li>
+<li>Élément B</li>
+<li>Élément C</li>
+<li>ÉlémentD</li>
+</ol>
+<p>Voici une autre liste pour le fun!</p>
+<p>Vous taper:</p>
+<p><code>1.  Foo</code><br />2. Bar`</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<ol style="list-style-type: decimal">
+<li>Foo</li>
+<li>Bar</li>
+</ol>
+<hr />
+<h1 id="mark10"><span class="header-section-number">8</span> Le bloc de code</h1>
+<p>Pour afficher un bloc de code préformaté, sautez deux lignes comme pour un paragraphe, puis indentez chaque ligne par au moins 4 espaces ou une tabulation. Dans le navigateur, la touche tabulation vous fait changer de champ et il n’est généralement pas possible de l’utiliser. Le bloc se terminera dès qu’il arrivera sur une ligne non indentée.</p>
+<p>Ceci est un paragraphe normal.</p>
+<p>bloc de code.</p>
+<pre><code>Ceci est un paragraphe préformaté
+bloc de code.</code></pre>
+<hr />
+<h1 id="mark11"><span class="header-section-number">9</span> Le code dans la ligne</h1>
+<p>Pour afficher du code dans une ligne, il faut l’entourer par des guillemets simples inversés : accent grave (`).</p>
+<p>`code`</p>
+<p>`&lt;code&gt;` enveloppant tout le contenu de ce que l'on veut ajouter sont délimitées par des guillemets simples inversés.</p>
+<p>Vous pouvez inclure des guillemets simples inversés littéraux<br />comme `` `ceci` ``.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Vous pouvez inclure des guillemets simples inversés littéraux<br />comme <code>`ceci`</code>.</p>
+<hr />
+<h1 id="mark12"><span class="header-section-number">10</span> Les filets ou barres de séparation</h1>
+<p>Aussi appelé séparateur.<br />Pour afficher un filet de séparation, entrez <code>&lt;hr/&gt;</code>; dans votre texte ou au moins 3 astérisques &quot;*&quot; ou tirets &quot;-&quot; ou souligné &quot;_&quot; sur une ligne entourée de sauts de lignes. Il est possible de les séparer par des espaces pour des raisons purement esthétiques.</p>
+<p>Donc, n'oubliez pas de taper trois ou plusieurs tirets ou astérisques ou soulignés.<br />Vous pouvez également les séparer par des espaces (un espace entre chaque tiret / astérisque / souligné ou 4 espaces entre chaque tiret / astérisque / souligné) pour des raisons purement esthétiques, par exemple.</p>
+<p>Vous taper:<br /><code>***</code><br /><code>---</code><br /><code>___</code> <code>* * *</code><br /><code>- - -</code><br /><code>_ _ _</code> <code>*    *    *</code><br /><code>-    -    -</code><br /><code>_    _    _</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<p>Remarque: Toutes ces méthodes ci-dessus donneront exactement le même résultat.</p>
+<hr />
+<h1 id="mark13"><span class="header-section-number">11</span> Les liens</h1>
+<p>Il y a deux façons d'indiquer un lien. Le premier s'il fait partie d'un texte, et lorsque vous voulez faire une référence.</p>
+<p>Dans le premier cas, le texte à afficher est alors indiqué entre crochets suivit de l’adresse du lien entre parenthèses. Dans les parenthèses, à la suite du lien, on peut indiquer un titre entre guillemets. Ce titre sera affiché lors du survol du lien dans le navigateur. Il sera également lu par les lecteurs d'écrans utilisé par les déficients visuels.</p>
+<p>Exemple:</p>
+<p>Vous tapez:<br /><code>[Télécharger le Récapitulatif des Syntaxe Markdown en format MD](https://cld.pt/dl/download/8eac8395-c40d-4c3a-91bf-0d2f48ba31b2/recapitulatifsyntaxemarkdown.md?download=true &quot;Ouvrir le téléchargement dans une nouvelle fenêtre&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><a href="https://cld.pt/dl/download/8eac8395-c40d-4c3a-91bf-0d2f48ba31b2/recapitulatifsyntaxemarkdown.md?download=true" title="Ouvrir le téléchargement dans une nouvelle fenêtre">Télécharger le Récapitulatif des Syntaxe Markdown en format MD</a></p>
+<p>Voici un autre exemple:</p>
+<p>Vous tapez:</p>
+<p><code>[Google](http://www.google.com &quot;Lien vers Google&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://www.google.com" title="Lien vers Google">Google</a></p>
+<p>Dans le second cas, l’adresse du lien se trouve à la fin du document ou où vous avez besoins de le placer et sera précédé d'un texte où vous écrivez une balise (étiquette) entre crochets,</p>
+<p>celle-ci (contient le numéro de lien de référence comme valeur <code>[1]</code> <code>[2]</code> et ainsi de suite), cette même balise (étiquette) est suivi par &quot;:&quot; deux points suivi d'un espace, ensuite il vient</p>
+<p>l’adresse du lien déjà mentionné au début, le tout en une même ligne.<br />Logiquement, vous devez placer cette même balise (étiquette) qui est entre crochets au début du document ou où dans un endroit de votre convenance, cette même balise (étiquette),</p>
+<p>sera précédé d'un texte où vous écrivez une autre balise (étiquette) , encore une fois entre crochets, mais cette fois, vous écrirez le nom auquel se réfère le lien, les deux balises</p>
+<p>(étiquettes) seront placés ensemble sur une même ligne, n'oubliez pas que cette ligne sera toujours placé au début du document contrairement à la deuxième ligne que nous avons</p>
+<p>mentionné ci-dessus, elle sera toujours placée à la fin du document, mais pas avant la première ligne.</p>
+<p>Exemple:</p>
+<p>Vous tapez:</p>
+<p><code>[Le blog de BlindHelp][1]</code></p>
+<p><code>[1]: http://blindhelp.blogspot.fr/ &quot;Le blog de BlindHelp&quot;</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://blindhelp.blogspot.fr/" title="Le blog de BlindHelp">Le blog de BlindHelp</a></p>
+<p>Vous pouvez le faire aussi de manière automatique en encadrant un lien par les signe inférieur et supérieur:</p>
+<p>Vous tapez:</p>
+<p><code>&lt;http://www.google.com&gt;</code></p>
+<p>Il est alors cliquable et affiche l’url indiquée entre le signe inférieur et supérieur.</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://www.google.com" class="uri">http://www.google.com</a></p>
+<p>pour définir des adresses emails cliquables, il n'est pas nécessaire de les préfixer par <code>mailto:</code></p>
+<p>Remarque: si vous examinez le code HTML, vous constaterez que les liens de type <code>&lt;adresse_email&gt;</code> sont automatiquement encodés (et même associés par Pandoc à du JavaScript) et sont de ce fait relativement résistant aux robots de spam !</p>
+<p>En résumer, pour définir un lien<br />Inline (technique HTML classique du lien &quot;au fil du texte&quot;):</p>
+<p>Vous Taper:</p>
+<p><code>Par [exemple](http://url.com/ &quot;Titre&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Par <a href="http://url.com/" title="Titre">exemple</a></p>
+<p>En résumer, pour les liens avec des<br />Étiquettes de style de référence (les titres sont facultatifs):</p>
+<p>Vous Taper:</p>
+<p><code>Par [exemple][ID]. Ensuite, n'importe où</code><br />sinon dans la doc, définissez le lien:</p>
+<p><code>[ID]: http://exemple.com/  &quot;Titre&quot;</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p>Par <a href="http://exemple.com/" title="Titre">exemple</a>. Ensuite, n'importe où<br />sinon dans la doc, définissez le lien:</p>
+<p>Lorsque je parle d'étiquette il s'agit de label de type <code>urlId</code><br />L'<code>URL</code> peut optionnellement être écrite entre <code>&lt; &gt;</code><br />sachez aussi que le label <code>urlId</code> n'est pas case-sensitive et peut contenir des espaces !</p>
+<hr />
+<h1 id="mark14"><span class="header-section-number">12</span> Les images</h1>
+<p>Les images sont indiquées de façon similaire aux liens seulement qu'ils sont précédés du symbole &quot;!&quot; point d'exclamation!<br />Donc, pour afficher une image, commencez par un point d’exclamation. Puis indiquez le texte alternatif entre crochets. Ce dernier sera affiché si l’image n’est pas chargé et lu par les moteurs de recherche. Terminez par l’URL de l’image entre parenthèses. Cette URL peut être un lien vers le web ou un chemin local de ce type :</p>
+<p><code>/dossier_images/nom_de_mon_image.jpg</code>. Après le lien vers l’image, il est possible d’ajouter un titre lu par les navigateurs et il sera affiché au survol de l’image par les lecteurs d'écrans utilisé par les déficients visuels.</p>
+<p>Exemple d'image par référence Inline (les titres sont facultatifs)<br />Vous taper:</p>
+<p><code>![Google logo](https://www.google.fr/images/srpr/logo11w.png &quot;google logo&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<div class="figure">
+<img src="https://www.google.fr/images/srpr/logo11w.png" title="google logo" alt="Google logo" />
+<p class="caption">Google logo</p>
+</div>
+<p>Voici encore quelques exemples:<br />Vous tapez:<br /><code>![Logo canne blanche (multi-coloris)](http://www.eclipse72.org/medias/ecard/aveugle1-jpg &quot;Logo canne blanche (multi-coloris)&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><img src="http://www.eclipse72.org/medias/ecard/aveugle1-jpg" title="Logo canne blanche (multi-coloris)" alt="Logo canne blanche (multi-coloris)" /></p>
+<p>Vous tapez:<br /><code>![Image d'une personne marchant avec une canne](http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100 &quot;Image d'une personne marchant avec une canne&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><embed src="http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100" title="Image d&#39;une personne marchant avec une canne" /></p>
+<p>Vous tapez:<br /><code>![Image d'une canne longue dépliée.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Long_cane.jpg/138px-Long_cane.jpg &quot;Image d'une canne longue dépliée.&quot;)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Long_cane.jpg/138px-Long_cane.jpg" title="Image d&#39;une canne longue dépliée." alt="Image d&#39;une canne longue dépliée." /></p>
+<p>Exemple d'image référencée:</p>
+<p>Vous tapez:<br /><code>![Google logo][Google]</code> ensuite</p>
+<p><code>[Google]: https://www.google.fr/images/srpr/logo11w.png &quot;Google logo&quot;</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:<br /><img src="https://www.google.fr/images/srpr/logo11w.png" title="Google logo" alt="Google logo" /></p>
+<p>Exemple d'images associées vers des liens</p>
+<p>Vous taper:</p>
+<p><code>[![image_dimensions.php (Image JPEG, 100 × 130 pixels)](http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100)](http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100)</code></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<p><a href="http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100"><embed src="http://www.mabmackay.ca/librairies/images/image_dimensions.php?i=1696&amp;x=100" /></a></p>
+<p>En résumer, pour les images<br />par référence Inline (les titres sont facultatifs) :</p>
+<p>Vous taper:</p>
+<p><code>![texte alternatif](/chemin/img.jpg &quot;Titre&quot;)</code></p>
+<p>En résumer, pour les images<br />de style de référence:</p>
+<p>Vous taper:</p>
+<p><code>![texte alternatif][ID]</code></p>
+<p><code>[ID]: /url/vers/img.jpg &quot;Titre&quot;</code></p>
+<p>N'oubliez pas que :</p>
+<ul>
+<li>les labels (<code>urlId</code>, <code>imgId</code>) ne sont pas case-sensitive et peuvent contenir des <em>espaces</em><br /></li>
+<li>dans les définition de références, l'<code>URL</code> peut optionnellement être définie entre <code>&lt; &gt;</code><br /></li>
+<li>le <code>titre optionnel</code> des liens et des images peut être défini entre guillemets, apostrophes ou parenthèses</li>
+</ul>
+<hr />
+<h1 id="mark15"><span class="header-section-number">13</span> Les tableaux</h1>
+<p>Les tableaux n’existent pas dans la spécification Markdown originale, mais ils sont présent dans la plupart des implémentations récentes. Et il ont vraiment une utilité très forte dans certains cas.<br />L’idée globale est de “dessiner” des colonnes en les entourant avec des barres verticales (|). Le nombre de colonnes est défini dans la première ligne du tableau et vous devez pour chaque ligne avoir le même nombre de colonnes, même si certaines sont vides.<br />La première ligne sera votre en-tête. La seconde ligne sépare cet en-tête du corps du tableau et définit l’alignement du texte dans les colonnes. Elle ne contient que des tirets (-) et des deux points (:) sont utilisés pour définir cet alignement. Pas de deux points (:) ou juste un à gauche signifie que le texte sera aligné à gauche. Si la ligne de tiret (-) est entourée de 2 points (:), le texte sera centré et si un seul deux points (:) est présent à droite de la ligne, le texte sera aligné à droite.</p>
+<p>Par exemple, vous taper:</p>
+<p>| Entête 1 | En-tête 2 | En-tête 3 |<br />| ------------- |:-------------: | --------: |<br />| Ligne 1 | 1 | Valeur |<br />| Ligne 2 | 2 | Valeur |<br />| Ligne 3 | 3 | Valeur |</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Entête 1</th>
+<th align="center">En-tête 2</th>
+<th align="right">En-tête 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ligne 1</td>
+<td align="center">1</td>
+<td align="right">Valeur</td>
+</tr>
+<tr class="even">
+<td align="left">Ligne 2</td>
+<td align="center">2</td>
+<td align="right">Valeur</td>
+</tr>
+<tr class="odd">
+<td align="left">Ligne 3</td>
+<td align="center">3</td>
+<td align="right">Valeur</td>
+</tr>
+</tbody>
+</table>
+<p>Vous pouvez avoir un tableau très propre comme dans l’exemple précédent pour mieux lire en mode édition. Mais ce n’est pas obligatoire. Les bares verticales (|) en début et en fin de ligne sont optionnels. Il est possible d’imbriquer des éléments d’emphase ou de code dans les tableaux. Il n’y a besoin que d’un seul tiret (-) par colonne pour la séparation entre l’en-tête et le corps du tableau.</p>
+<p>Vous taper:</p>
+<p>En-tête 1 | En-tête 2 | En-tête 3<br />- |:-: | -:<br />Ligne <code>1</code> | <strong>1</strong> | <strong><em>Valeur</em></strong><br />Ligne 2 | 2 | <em>Valeur</em></p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">En-tête 1</th>
+<th align="center">En-tête 2</th>
+<th align="right">En-tête 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ligne <code>1</code></td>
+<td align="center"><strong>1</strong></td>
+<td align="right"><strong><em>Valeur</em></strong></td>
+</tr>
+<tr class="even">
+<td align="left">Ligne 2</td>
+<td align="center">2</td>
+<td align="right"><em>Valeur</em></td>
+</tr>
+</tbody>
+</table>
+<p>Comme on le voit, ça fonctionne encore une fois exporté, mais toute la lisibilité est perdue dans le Markdown.</p>
+<p>Voici un autre exemple d'un tableau:</p>
+<p>Par exemple, vous taper:</p>
+<p>Cellule d'en-tête A | Cellule d'en-tête B<br />- | -<br />Cellule 1 | Cellule 2<br />Cellule 3 | Cellule 4</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Cellule d'en-tête A</th>
+<th align="left">Cellule d'en-tête B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Cellule 1</td>
+<td align="left">Cellule 2</td>
+</tr>
+<tr class="even">
+<td align="left">Cellule 3</td>
+<td align="left">Cellule 4</td>
+</tr>
+</tbody>
+</table>
+<p>Remarque, si vous devez utiliser les symboles employer par Markdown, vous devez échapper ces symboles en les précédant avec le caractère &quot;&quot; barre oblique inversée.</p>
+<hr />
+<h1 id="mark16"><span class="header-section-number">14</span> Échappement des caractères</h1>
+<p>Les caractères spéciaux ayant un sens en HTML et en Markdown doivent être échappés. Pour les esperluètes c'est-à-dire &quot;et comercial&quot; (&amp;), le signe (&lt;) ou le signe (&gt;) et autres caractères HTML, Markdown se charge de les convertir en entités HTML lors de l’export. Mais si vous souhaitez utiliser dans votre texte des astérisques, accolades, dièses… à une position indiquant à Markdown que vous désirer un formatage particulier, vous devez les échapper en les faisant précéder d’un antislash c'est-à-dire une barre oblique inversé (). Sinon Markdown les masquera et appliquera le formatage correspondant. Les caractères suivants sont à échapper :<br /><code>\</code> * ` - _ [] () {} # + . ! &lt; &gt; @ ~</p>
+<p>Voici les mêmes signes écrit En toutes lettres pour faciliter la lecture à mes amis DV :<br />barre oblique inversé, astérisque, accent grave, tiret, souligné, crochet gauche, crochet droit, parenthèse gauche, parenthèse droite, accolade gauche, accolade droite, dièse, plus, point,<br />point d'exclamation, inférieur, supérieur, arobase, tilde</p>
+<hr />
+<h1 id="mark17"><span class="header-section-number">15</span> Séparer des blocs</h1>
+<p>Une petite chose peut se révéler agaçante : deux blocs consécutifs se verront fusionnés. Ce sera le cas de deux blocs de citation ou de code par exemple. Et ce quel que soit le nombre de lignes que vous sauterez. Une solution simple est d’ajouter des commentaires html entre deux blocs. La syntaxe des commentaire est la suivante : <!-- texte en commentaire -->;. Le texte sera ignoré par le navigateur. Votre commentaire peut tout à fait être vide.</p>
+<p>Vous taper:</p>
+<p>&gt; Citation 1</p>
+<p>&gt; Citation 2</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<p>Citation 1</p>
+</blockquote>
+<blockquote>
+<p>Citation 2</p>
+</blockquote>
+<p>Vous taper:</p>
+<p>&gt; Citation 1<br />&lt;!-- --&gt;<br />&gt; Citation 2</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<blockquote>
+<p>Citation 1 <!-- --> Citation 2</p>
+</blockquote>
+<hr />
+<h1 id="outils-accessibles-pour-editer-un-fichier-markdown" class="unnumbered">Outils accessibles pour éditer un fichier Markdown</h1>
+<p>Comme indiqué plus haut il y a un logiciel appelé &quot;MarkDown# Editor&quot; qui est accessible avec nos lecteurs d'écran.<br />Voici les informations à ce sujet.</p>
+<h1 id="markdown-editor" class="unnumbered">MarkDown# Editor</h1>
+<p>Lien pour son téléchargement:<br /><a href="http://hibara.org/software/markdownsharpeditor/download/?f=mked1230.exe">MarkDownSharpEditor setup</a><br />Nom du fichier:<br />mked1230.exe.</p>
+<p>Auteur:<br />Hibara, Mitsuhiro<br />Tokyo, Japan</p>
+<h1 id="installation-du-programme-markdown-editor" class="unnumbered">Installation du programme MarkDown# Editor:</h1>
+<p>Une fois lancé le fichier d'installation, la langue sera en anglais par défaut<br />mais la langue de l'interface du programme sera en japonais.</p>
+<p>Pas de panique !</p>
+<h1 id="configurer-markdown-editor-du-japonais-vers-l-anglais" class="unnumbered">Configurer MarkDown# Editor du japonais vers l'anglais:</h1>
+<p>Une fois ouvert le programme par défaut la langue qui s'affiche est le Japonais</p>
+<p>Pour le changer en anglais c'est très simple:<br />Allez sur le bureau et cliquez sur le raccourci appelé :<br />MarkDown# Editor</p>
+<p>Une fois ouvert le programme<br />Faire trois fois flèche vers la droite pour être dans le troisième menu il s'affiche la lettre V.<br />Faire deux flèches vers le haut pour être dans le premier sous-menu<br />Faire une flèche vers la droite, la première langue est le Japonais (ceci n'est pas verbaliser) lorsque cette langue est changée en anglais ceci est affiché comme Japanese.<br />Faire une flèche vers le haut, Vous y trouverez la langue English (ceci est verbaliser).<br />Cliquez sur Entrée pour cocher.<br />Une fois fait cela il s'affiche une boîte de dialogue, cliquez sur le bouton OUI pour effectuer les modifications.<br />Relancer le programme MarkDown# Editor depuis son raccourci sur le bureau.<br />Maintenant, le programme sera en anglais !</p>
+<p>Lorsque vous cliquez sur un fichier (Markdown extension.md) le programme MarkDown# Editor il s'ouvre par défaut.<br />Profites-en!</p>
+<p>Note: Il me semble qu'il existe un référentiel (repository) en<br /><a href="https://github.com/hibara">GitHub:</a></p>
+<hr />
+<h1 id="installation-et-utilisation-du-convertisseur-pandoc" class="unnumbered">Installation et utilisation du convertisseur Pandoc</h1>
+<p>Nous vous recommandons plutôt d'utiliser le<br /><a href="http://johnmacfarlane.net/pandoc/">convertisseur Pandoc</a><br />qui offre bien plus de possibilités que le convertisseur Markdown original,.</p>
+<p>Si vous tenez cependant à tester le convertisseur Markdown original, sachez qu'il s'agit d'un simple script Perl sous license BSD téléchargeable via un lien au haut de la<br /><a href="http://daringfireball.net/projects/markdown/">home-page</a> du site Markdown. Il est donc nécessaire de disposer d'un interpréteur<br /><a href="http://www.perl.com/">Perl</a><br />sur votre machine (ce qui est par défaut le cas sous Linux et Mac OS X, mais pas sous Windows où vous pouvez utiliser le<br /><a href="http://strawberryperl.com/">Strawberry Perl</a><br />ou<br />l'<a href="http://www.activestate.com/activeperl">ActivePerl).</a><br />La conversion d'un fichier Markdown en HTML s'effectue alors avec la commande :<br /><code>perl Markdown.pl fichier.md &gt; fichier.html</code></p>
+<h1 id="comvertisseur_pandoc" class="unnumbered">Le convertisseur Pandoc</h1>
+<p>L'utilisation du convertisseur Pandoc est très bien expliquer en français<br /><a href="http://enacit1.epfl.ch/markdown-pandoc/#le-convertisseur-pandoc">sur cette page:</a><br />Les explications originales relatives à l'installation de Pandoc sont accessibles sur le site Pandoc<br /><a href="http://johnmacfarlane.net/pandoc/installing.html">Installation de Pandoc page en anglais:</a></p>
+<p>Téléchargez la dernière version de l'installeur <code>pandoc-&lt;version&gt;-windows.msi</code> depuis<br /><a href="https://github.com/jgm/pandoc/releases">ce lien</a>.</p>
+<pre><code>    Au moment où je vous écris ce tutoriel, la dernière version disponible de Pandoc pour Windows est :     </code></pre>
+<p><a href="https://github.com/jgm/pandoc/releases/download/1.17.0.2/pandoc-1.17.0.2-windows.msi">pandoc-1.17.0.2-windows.msi</a></p>
+<p>Source du téléchargement- Page en anglais:<br /><a href="https://github.com/jgm/pandoc/releases/tag/1.17.0.2">Release pandoc 1.17.0.2 jgm/pandoc · GitHub</a></p>
+<p>et exécutez-le avec des droits d'administration. L'installation s'effectue automatiquement dans le compte de l'utilisateur courant (dossier <code>C:\Users\&lt;username&gt;\AppData\Local\Pandoc</code>). La variable <code>PATH</code> de l'utilisateur est complétée de façon que la commande <code>pandoc</code> soit accessible depuis n'importe quel répertoire (dans une fenêtre &quot;Invite de commande&quot;). Finalement le menu Démarrer de l'utilisateur est complété par un raccourci vers le &quot;Pandoc User's Guide&quot;.</p>
+<p>A tout moment vous pouvez consulter la documentation en anglais de Pandoc nommée:<br />Pandoc User’s Guide<br />sous Windows.</p>
+<p>A savoir au préalable que Pandoc est un outil qui s'utilise en ligne de commande, donc a priori plutôt dans une fenêtre terminal !</p>
+<p>Sinon, Si vous souhaitez ouvrir une ligne de commande directement dans le répertoire où se trouve votre fichier, vous pouvez installer le magique petit logiciel ContextPlus que Vous pouvez le trouver<br /><a href="http://crteknologies.fr/logiciels/cr-contextplus.exe">par ici:</a></p>
+<p>Comment ça marche t-il?</p>
+<blockquote>
+<p>Une fois installé celuici...<br />Avec l'explorateur, Nous nous positionnons sur le fichier que on veux traiter, et<br />dans le menu contextuel ContextPlus nous fournit une option<br />ouvrir une invite de commande.<br />Il permet aussi quelques autres trucs, en voici le descriptif:<br />ContextPlus ajoute quatre options au menu contextuel : ouverture de tout<br />fichier avec le Bloc-Notes, copie dans le presse-papiers du chemin du<br />fichier, suppression définitive de fichier pour en effacer toute trace,<br />et ouverture d'une invite de commandes avec le dossier comme racine.<br />Bref, une fois qu'on l'a installé, on ne peut plus s'en passer!</p>
+<p>J'oubliez Pour fermer l'invite de commande, vous pouvez aussi taper exit puis presser<br />entrer.</p>
+</blockquote>
+<p>Mille merci à notre ami Michel Such pour sa trouvaille!!!</p>
+<h1 id="comment-convertir-nos-fichiers-markdown-une-fois-termines-en-format-html" class="unnumbered">Comment convertir nos fichiers Markdown une fois terminés en format HTML?</h1>
+<p>J'imagine que vous avez installés Pandoc et ContextPlus.<br />Maintenant suivez le petit guide rapide fait par notre ami Daniel P:</p>
+<blockquote>
+<p>J'ai installé Pandoc et ContextPlus.</p>
+<ol style="list-style-type: decimal">
+<li>J'ai récupéré un fichier readme.md dans un module. Je le copie là où j'en aurai besoin, et je le modifie.<br /></li>
+<li>Je sélectionne le fichier, menu contextuel. Grâce à ContextPlus, j'ai la ligne &quot;Invite de commande&quot;, que j'active.<br /></li>
+<li>Je tape la ligne &quot;pandoc -s readme.md -o readme.html. Entrée. Le fichier readme.html est créé dans le même dossier que readme.md.</li>
+</ol>
+<p>Note ne pas ajouter le guillemets du début ni le point final lors de la frappe.<br />Attention, la fenêtre d'invite de commandes ne se ferme pas par Alt +F4.<br />On peux faire Alt + espace, puis F.</p>
+</blockquote>
+<h1 id="encodage-de-fichiers-en-utf-8" class="unnumbered">Encodage de fichiers en UTF-8</h1>
+<h1 id="encodage_utf8" class="unnumbered">C'est quoi UTF-8?</h1>
+<p>Pour UTF (Anglais: UCS Transformation Formats)<br />Format de conversion des normes ISO 10646 et Unicode permettant de convertir les codes Unicode 16 bits en un nombre variable de mots de 8 bits.</p>
+<p>Autre définition d'UTF-8:<br />UTF-8, qui signifie &quot;UCS transformation format 8 bits&quot; est un codage de caractères informatiques permettant de coder l'ensemble des caractères internationaux, comme par exemple les accents, les majuscules, etc.</p>
+<p>UTF-8<br />Informations en anglais:<br /><a href="https://en.wikipedia.org/wiki/UTF-8">UTF-8 - Wikipédia</a></p>
+<p>Informations en français:<br /><a href="https://fr.wikipedia.org/wiki/UTF-8">UTF-8 - Wikipédia</a></p>
+<p>Pandoc travaille exclusivement avec l'encodage de caractères <a href="#encodage_utf8">UTF-8!</a></p>
+<p><strong>Important</strong> : Pandoc utilise exclusivement l'encodage de caractères <strong>UTF-8</strong> en entrée et sortie. Si vous obtenez des erreurs lors d'une conversion, le plus vraisemblable est que votre fichier Markdown d'entrée est encodé en ISO-8859-* (ISO-Latin). Commencez donc par le re-sauvegarder en UTF-8.</p>
+<h1 id="astuce-avec-notepadplusplus" class="unnumbered">Astuce avec Notepad++</h1>
+<p>Aller dans le menu Encodage<br />Vous pouvez choisir entre:<br />Encoder en <a href="#encodage_utf8">UTF-8</a><br />Il doit être cocher.<br />ou:<br />Encoder en UTF-8 (sans <a href="#encodage_bom">BOM)</a><br />Il doit être cocher.</p>
+<p>Vous pouvez choisir entre:<br />Convertir en <a href="#encodage_utf8">UTF-8</a><br />ou:<br />Convertir en UTF-8 (sans <a href="#encodage_bom">BOM)</a></p>
+<h1 id="encodage_bom" class="unnumbered">C'est quoi BOM?</h1>
+<p>L'indicateur d'ordre des octets ou BOM (pour l'anglais byte order mark) est une donnée qui indique l'utilisation d'un encodage unicode ainsi que l'ordre des octets, généralement situé au début de certains fichiers texte.</p>
+<p>Byte order mark ou Indicateur d'ordre des octets<br />Informations en anglais:<br /><a href="http://en.wikipedia.org/wiki/Byte-order_mark">Byte order mark - Wikipédia</a></p>
+<p>Informations en français:<br /><a href="http://fr.wikipedia.org/wiki/Byte-order_mark">Indicateur d'ordre des octets - Wikipédia</a></p>
+<p>Autre définition de BOM:<br />Le BOM c'est un caractère unicode placé tout au début de votre fichier (invisible bien entendu), qui indique que votre fichier est encodé en UTF-X (8,16 ou 32).<br />Pour plus d'informations consulter cette page:<br /><a href="https://fr.wikipedia.org/wiki/Indicateur_d&#39;ordre_des_octets">Indicateur d'ordre des octets — Wikipédia</a></p>
+<hr />
+<h3 id="options-de-pandoc" class="unnumbered">Options de Pandoc</h3>
+<p>En premier lieu Pandoc permet, au moyen des options <code>-N</code> et <code>--toc</code> présentées plus bas, de numéroter automatiquement les titres du document ainsi que collecter ceux-ci pour établir une table des matières avec liens hypertextes vers les chapitres.<br />Il est possible d'associer aux titres des attributs de type classes ou identifiants (ID) ainsi que des paires clé=valeur. On définit ces propriétés entre <code>{accolade gauche accolade droite}</code> directement à la suite du titre (sur la même ligne) ainsi:<br /><code>## Texte du titre { #myId .myClass attribut=&quot;valeur&quot; }</code></p>
+<p>S'agissant d'une conversion en HTML, l'identifiant <code>#myId</code> ajoute un <code>id=&quot;myId&quot;</code> à la balise <code>&lt;h*&gt;</code> du titre, ce qui donne la possibilité de définir ailleurs dans le document un <strong>lien</strong><br />vers ce titre avec <code>[lien]#myId</code> (générant <code>&lt;a href=&quot;#myId&quot;&gt;lien&lt;/a&gt;</code>).</p>
+<p>Si l'on fait numéroter les titres avec l'option <code>pandoc -N</code>, on peut ajouter l'attribut tiret <code>-</code> ou la classe <code>.unnumbered</code> aux titres que l'on ne souhaite pas faire numéroter.</p>
+<pre><code>### Titre avec Id et non numéroté {.unnumbered #premTitre}
+
+### Titre _stylé_ non numéroté {style=&quot;background: #eee;&quot; -}
+
+Lien vers le [premier](#premTitre) de ces 2 titres</code></pre>
+<!-- je triche ici en fabriquant le résultat afin que ces titres n'apparaissent pas dans la TOC -->
+<h3 id="premTitre" style="margin-top: 4px;">
+Titre avec Id et non numéroté
+</h3>
+<h3 style="background: #eee; margin-top: 4px;">
+Titre <i>stylé</i> non numéroté
+</h3>
+<p>Lien vers le <a href="#premTitre">premier</a> de ces 2 titres</p>
+<p>Notez finalement que Pandoc exige que chaque titre soit précédé d'une ligne vide, ce qui n'est pas obligatoire dans la syntaxe de base Markdown.</p>
+<hr />
+<h3 id="utilisation-du-script-MATHJAX" class="unnumbered">Utilisation du script MathJax</h3>
+<p>Voici une des extensions offertes par Pandoc, appelé:<br /><code>-s --mathjax</code></p>
+<p>Pandoc utilise en ligne le script <a href="http://www.mathjax.org/">MathJax</a> en insérant un lien dans le header HTML.</p>
+<p>Note: Pour utiliser ce script par Pandoc (dont il faut utiliser une version ≥ 1.11.1).</p>
+<p>Le présent article a été convertie en HTML avec la commande :<br /><code>pandoc -s --number-sections --toc-depth=6 --mathjax -o readme.html readme.md</code></p>
+<p>Remarque:<br />Cet article ne contient pas une table des matières, parce que certains des titres sont affectés dans des exemples.<br />Si vous souhaitez que ceux-ci soient inclus dans une table des matières avec la Numérotation des titres...<br />taper la commande:<br /><code>pandoc -s -N --toc --mathjax -o readme.html readme.md</code></p>
+<p>Cette table des matières s'affichera après la balise <code>&lt;body&gt;</code></p>
+<hr />
+<h4 id="num_titres_tdm" class="unnumbered">Numérotation des titres, table des matières</h4>
+<p><code>-N</code> ou <code>--number-sections</code><br />Numérote automatiquement les titres et sous-titres <code>&lt;h*&gt;</code>.</p>
+<p>Utiliser l'option:<br /><code>--number-offset=numero(s)</code><br />pour faire débuter la numérotation au(x) <code>numero(s)</code> +1 spécifié(s)</p>
+<p><code>--toc</code> ou <code>--table-of-contents</code><br />Incorpore une table des matières des titres.<br />Sont collectés les titres du nombre de niveaux<br /><code>levels</code><br />spécifié par l'option supplémentaire <code>--toc-depth=levels</code>.<br />En l'absence de cette option, seuls les titres des 3 premiers niveaux sont collectés (en HTML: <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>). Dans le cas d'une conversion en HTML, la table des matières est placée juste après la balise <code>&lt;body&gt;</code>. Cette option n'a pas d'effet si l'on produit des docbooks ou des slide shows.</p>
+<p>Rappelons encore (ce qui est dis à-propos des commandes ci-dessus lors de la conversion de Markdown vers HTML à l'aide de Pandoc:<br />1. Numérotation des titres, table des matières<br />Utiliser la commande:<br /><code>-N ou --number-sections</code><br />Numérote automatiquement les titres et sous-titres <h*>.<br />Vous tapper:<br /><code>pandoc -s -N --toc -o readme.html readme.md</code><br />ou:<br /><code>pandoc -s --number-sections --toc -o readme.html readme.md</code></p>
+<p>Utiliser l'option:<br /><code>--number-offset=</code><br />Après le signe égal il faut taper des numéro(s)<br />pour fair débuter la numérotation au(x) numéro(s) +1 spécifié(s)<br />Par exemple si vous taper <code>=1</code><br />Le titre comense par le numéro 2 et ainsi de suite...<br />Par exemple si vous taper<code>=6</code><br />Le titre comense par le numéro 7 et ainsi de suite...<br />Si vous taper <code>=0</code> les titres sont numérotés corrélativement,<br />c'est à dire ils vont commencer par le titre un et ainsi de suite<br />pour échapper à la numérotation des titres, aprés le <code>{#</code> nom du titre <code>#</code><br />Vous devriez mettre après le titre suivi d'un espace la classe suivante:<br /><code>{.unnumbered #titre-non-numéroté}</code><br />entre accolades après le signe dièse comme référence, j'ai mis le nom du titre affecté<br />Vous taper:<br /><code>#</code> Titre non numéroté <code>{.unnumbered</code>#titre-non-numéroté}</p>
+<p>Au lieu d'utiliser la classe .unnumbered Vous pouvez utiliser un tiret &quot;-&quot;,<br />Le tiret il peut être coller juste avant la dernière accolade, auparavant, vous tapez un espace.</p>
+<p>Entre accolades après le signe dièse comme référence, j'ai mis le nom du titre affecté<br />Vous taper:</p>
+<p><code>#</code> Titre non numéroté {#titre-non-numéroté -}</p>
+<p>Vous obtenez le Résultat affiché dans le navigateur comme sui:</p>
+<h1 id="titre-non-numéroté" class="unnumbered">Titre non numéroté</h1>
+<h1 id="Sintaxe-Markdown-pour-attribuer-le-nom-du-titre-nom-del-auteur-la-date" class="unnumbered">Sintaxe Markdown pour attribuer le nom du titre, nom de l'auteur, la date au fichier:</h1>
+<p>au début du fichier vous pouvez placer les suivantes sintaxe:<br />Copier au-dessous de cette ligne les codes suivants:<br /><code>---</code><br /><code>author: BlindHelp &lt;remyruiz@gmail.com&gt;</code><br /><code>title: Sintaxe Markdown</code><br /><code>date: 22/04/2016</code><br /><code>lang: french</code><br /><code>...</code><br />Fin des codes.</p>
+<p>Au début du fichier vous pouvez aussi placer les suivantes sintaxe:<br />Copier au-dessous de cette ligne les codes suivants:<br /><code>% Syntaxe Markdown</code><br /><code>% Auteur: BlindHelp &lt;remyruiz@gmail.com&gt;</code><br /><code>% Dernière mise à jour le 22 Avril 2016.</code></p>
+<p><code>---</code></p>
+<p>Fin des codes.</p>
+<h1 id="Avertissement" class="unnumbered">Avertissement</h1>
+<p>Les sintaxe figurant dans la première partie lorsque le fichier est converti en HTML ils sont annoncés par le lecteur d'écran at pour le signe<code>@</code>, arrobas ; et la séparation de la date par slash barre oblique, symbole <code>/</code><br />Vous pouvez le trouver au début du document Une fois converti en HTML sous forme de titre:<br />Titre niveau 1<br />pour le titre.<br />Titre niveau 2<br />pour l'auteur.<br />Titre niveau 3<br />pour la date.</p>
+<p>Les sintaxe figurant dans la deuxième partie lorsque le fichier est converti en HTML ils sont annoncés normalement par le lecteur d'écran.<br />Vous pouvez le trouver au début du document Une fois converti en HTML sous forme de titre:<br />Titre niveau 1<br />pour le titre.<br />Titre niveau 2<br />pour l'auteur.<br />Titre niveau 3<br />pour la date.</p>
+<hr />
+<h1 id="liens-d-interet" class="unnumbered">Liens d'intérêt:</h1>
+<p><a href="http://daringfireball.net/projects/markdown/">Home Page Markdown</a><br />(page en anglais).<br /><a href="http://daringfireball.net/projects/markdown/syntax">Syntaxe Markdown de base</a><br />(page en anglais).<br />Vous pouvez aussi consulter une page dédié à la syntaxe de Markdown en<br /><a href="http://michelf.ca/projets/php-markdown/syntaxe/">français</a>)<br />faite par Michel Fortin.<br />Sur Wikipedia:<br />vous pouvez aussi consulter un article dédié à<br /><a href="http://en.wikipedia.org/wiki/Markdown">Markdown</a><br />(page en anglais).<br />avec brève description de la syntaxe<br /><a href="http://en.wikipedia.org/wiki/Markdown#Extensions">extensions</a><br />à Markdown<br />(page en anglais).<br />puis vous pouvez lire un autre article sur:<br /><a href="http://en.wikipedia.org/wiki/Lightweight_markup_languages">Wikipedia</a><br />qui parle du Langage de balisage léger<br />(page en anglais).<br />Voici un autre article sur Markdown par Nicolas Borboën dans la revue<br /><a href="http://flashinformatique.epfl.ch/spip.php?article2629">Flash Informatique EPFL 1/2013</a><br />(page en français).<br />Voici un autre article sur Pandoc par Jean-Daniel Bonjour dans la revue<br /><a href="http://flashinformatique.epfl.ch/spip.php?article2658">Flash Informatique EPFL 4/2013</a><br />(page en français).<br /><a href="http://mashable.com/2013/06/24/markdown-tools/">78 tools for writing and previewing markdown</a><br />(page en anglais).<br /><a href="http://enacit1.epfl.ch/markdown-pandoc/" title="Élaboration et conversion de documents avec Markdown et Pandoc">Élaboration et conversion de documents avec Markdown et Pandoc</a><br />faite par Jean-Daniel Bonjour<br />(page en français).<br />Le tuto est très bien expliqué sur ce site.</p>
+<p>Pandoc User’s Guide (Online ):<br />Voici la page de:<br /><a href="http://johnmacfarlane.net/pandoc/README.html#philosophy">John MacFarlane</a><br />le développeur de &quot;Pandoc&quot; qui explique tout sur Pandoc<br />(page en anglais).<br />Site officiel Pandoc<br /><a href="http://johnmacfarlane.net/pandoc/">Home Page Pandoc</a><br />(page en anglais).<br />puis les<br /><a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">extensions</a><br />apportées au langage Markdown .<br />(page en anglais).<br /><a href="http://johnmacfarlane.net/pandoc/demos.html">Exemples</a> de fichiers et conversions<br />(page en anglais).<br />ConvertisseurPandoc<br /><a href="http://johnmacfarlane.net/pandoc/try/">en ligne</a><br />(limité à 1000 caractères)<br />(page en anglais).</p>
+<p>Voici quelques éditeurs en ligne:<br /><a href="http://markable.in/editor">Markable</a><br />(page en anglais).<br /><a href="http://daringfireball.net/projects/markdown/dingus">Daring Fireball: Markdown Web Dingus</a><br />(page en anglais).<br />(ou en<br /><a href="http://michelf.ca/projets/php-markdown/banc-d%27essai/">français</a><br />faite par Michel Fortin).<br /><a href="https://stackedit.io/">StackEdit</a><br />que vous pouvez synchroniser avec Google docs.<br />(page en anglais).<br /><a href="http://dillinger.io/">Dillinger</a><br />(page en anglais).<br /><a href="http://hashify.me">Hashify</a> |<br />(page en anglais).<br /> <a href="http://jrham.es/instantmark/">InstantMark</a> |<br />(page en anglais).<br /> <a href="http://joncom.be/experiments/markdown-editor/edit/">JonCombe</a> |<br />(page en anglais).<br /> <a href="http://markdown.pioul.fr/">Pioul</a> |<br />(page en anglais).<br /> <a href="http://softwaremaniacs.org/playground/showdown-highlight/">Showdown</a><br />(page en anglais).</p>
+<p>Voici quelques éditeurs hors ligne:<br />Pour Windows:<br /><a href="http://hibara.org/software/markdownsharpeditor/">Télécharger MarkDown# Editor</a><br />(page en japonais).<br /><a href="http://writemonkey.com/">Télécharger Write Monkey</a><br />(page en anglais).<br /><a href="http://markdownpad.com/">Télécharger Markdown Pad</a><br />(page en anglais).<br /><a href="http://mouapp.com/">Télécharger Mou, pour Mac OS, gratuit.</a><br />(page en anglais).<br /><a href="http://sourceforge.net/p/retext/home/ReText">Télécharger ReText pour Linux</a><br />(page en anglais).<br /><a href="https://notepad-plus-plus.org/fr/">Télécharger Notepad++</a><br />Pour Windows.<br />(page en français).<br />Sans oubliez le<br /><a href="#theme-markdown-npp-pour-le-notepaplusplus">thème nommé markdown_npp dans sa version modifiée</a><br />basé sur le thème original de Thomas Smits.</p>
+<hr />
+<h1 id="forum-de-discussion-sur-Pandoc" class="unnumbered">Forum de discussion sur Pandoc:</h1>
+<p>vous le trouverez sur le:<br /><a href="http://groups.google.com/group/pandoc-discuss">groups.google</a></p>
+<hr />
+<h1 id="A-propos-du-langage-de-balisage-léger-Markdown" class="unnumbered">A propos du langage de balisage léger Markdown</h1>
+<p>Le langage de balisage léger Markdown a été conçue pour être aussi facile à lire et à écrire que possible. D'importants outils (IPython Notebook...) et de nombreux sites Internet<br /><a href="https://github.com/">GitHub</a>,<br /><a href="http://stackexchange.com/">StackExchange</a>,<br /><a href="https://www.reddit.com">Reddit</a>,<br /><a href="https://www.tumblr.com">Tumblr</a>...)<br />l'utilisent comme syntaxe d'édition. Mais en raison du caractère non formel de la définition originale de cette syntaxe par Gruber, de certaines ambiguïtés et du besoin d'évolution de ce format, un projet de standardisation débute en 2014 sous la dénomination<br />Projet <strong>CommonMark</strong> de standardisation de la syntaxe Markdown:<br /><a href="http://commonmark.org/">Site Web</a><br />(page en anglais).<br /><a href="http://spec.commonmark.org/">spécification</a><br />(page en anglais).</p>
+<hr />
+<p>Voici une documentation fait par mes soins à télécharger:<br /><a href="https://cld.pt/dl/download/8eac8395-c40d-4c3a-91bf-0d2f48ba31b2/recapitulatifsyntaxemarkdown.md?download=true" title="Ouvrir le téléchargement dans une nouvelle fenêtre">Télécharger le Récapitulatif des Syntaxe Markdown en format MD</a></p>
+<hr />
+<p>Sur ce, je vous souhaite une bonne découverte du langage Markdown!<br />Amusez-vous bien!<br />Nous espérons vous revoir bientôt sur le<br /><a href="http://blindhelp.blogspot.fr/">Blog de BlindHelp!</a></p>
+</body>
+</html>
