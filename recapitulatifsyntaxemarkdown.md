@@ -696,7 +696,7 @@ Vous obtenez le Résultat affiché dans le navigateur comme sui:
 
 # Télécharger le Récapitulatif des Syntaxe Markdown en format MD {.unnumbered #telechargerrecapitulatifsyntaxemarkdown}
 
-[En cliquant ici](https://cld.pt/dl/download/8eac8395-c40d-4c3a-91bf-0d2f48ba31b2/recapitulatifsyntaxemarkdown.mddownload=true "Ouvrir le téléchargement dans une nouvelle fenêtre")
+[En cliquant ici](https://blindhelp.github.io/recapitulatifsyntaxemarkdown.md)
 
 ***
 
