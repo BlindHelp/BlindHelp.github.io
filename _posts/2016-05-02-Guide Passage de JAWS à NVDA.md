@@ -1,17 +1,17 @@
-﻿---
+---
 title: Guide Passage de  JAWS à NVDA
 layout: post
 author: BlindHelp
 ---
 
-
 <footer>Lundi, 2 mai 2016</footer>
 
 ### Passage de  JAWS à NVDA ###
 Traduit en Français Par Rémy Ruíz(BlindHelp). Si vous le souhaitez, vous pouvez consulter la version originale en anglais  
-[Switching From JAWS To NVDA.](http://community.nvda-project.org/wiki/SwitchingFromJawsToNVDA#SwitchingFromJAWSToNVDA)
+[Switching From JAWS To NVDA.](http://community.nvda-project.org/wiki/SwitchingFromJawsToNVDA#SwitchingFromJAWSToNVDA)         
 
 # Passage de  JAWS à NVDA #
+
 # Introduction. #
 Le propos de ce guide  est d'aider à la personne   utilisateur de JAWS (Job AccessWith Speech), une solution comercial de lecture d'écran proportionnée par Freedom Scientific, pour  passer avec facilité au revue d'écran gratuite et open-source NVDA (Non Visual Desktop Access). Le guide présuppose des connaissances préalable de JAWS et que vous êtes   capable de l'utiliser efficacement.  
 Ceci ne propose pas de remplacer le Guide utilisateur intégré, mais plutôt que NVDA ne puise pas intimider tant.  
