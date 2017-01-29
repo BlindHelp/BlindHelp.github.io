@@ -22,8 +22,9 @@ Maintenant lisez attentivement ce petit mode d'emploi:
 Télécharger le logiciel; l'exécuter ; l'installer de la façon normale connue par tous.         
 Une fois, tout ceci réalisé;            
 STP redémarrer l'ordinateur pour prendre en comptes les changements lors de l'installation de ShareByLink avant tout envoi.             
+
 Remarque Très Importante:                 
-faire ceci si vous ne avez pas l'élément Share file(s) online with IQ ShareByLink)                   
+Faire ceci si vous ne avez pas l'élément Share file(s) online with IQ ShareByLink)                   
 Pour le savoir :            
 Clic droit sur le fichier à envoyer puis Share File.                   
 ou touche d'application sur le fichier à envoyer jusq'a trouver l'élément:                 
@@ -47,12 +48,13 @@ Lors du transfère du dossier ou du fichier à partager, la progression entre, 9
 Remarque by BlindHelp: 
 Les liens de partage ShareByLink ont une durée limitée à 30 jours...       
 Je n'utilise pas souvent ShareByLink, car j'ai remarqué que parfois, il ajoutait des numéros aléatoirement dans les noms des fichiers téléchargés.        
-Ce qui me gène le plus deShareByLink:          😒
+
+Ce qui me gène le plus deShareByLink: 😒          
 J’ai observé que les fonctions tel que couper, copier et coller sont inopérantes lorsqu’il y a un transfert de fichier avec ShareByLink.          
 C'est-à-dire  qu'il monopolise le presse papier pendant tout l'upload.               
 J'ai remarqué que sa vitesse est assez variable suivant les heures., ça doit dépendre de son occupation globale.                   
 Mais je trouve que le téléchargement vers le serveur est un peu long, mais ça reste raisonnable.           
-néanmoins... 😀
+Néanmoins... 😀          
 C'est un petit utilitaire simplicimes d'emploi, 100 % accessible, qui permet de déposer pour 1 mois des fichiers jusqu'à 5 Go et sans liitation de download ensuite, et , bien sûr, gratuit!
 
 Pour les personnes qui télécharge un fichier via ShareByLink :                
