@@ -9,7 +9,7 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp !  
 Beaucoup d'entre nous, éprouvent d'énormes difficultés à partager ce qu'ils possèdent par manque de serveurs accessibles.      
 Voici donc un logiciel grâce auquel, ils pourront envoyer leurs partages très simple d'utilisation.       
-Merci à mon ami Piere-Louis qui m'a fait connaître celogiciel nommé ShareByLink              
+Merci à mon ami Pierre-Louis qui m'a fait connaître celogiciel nommé ShareByLink              
 ainsi que pour ses notes explicative, que j'ai greffée à cet article consacré à ShareByLink... ;)
 
 ### Lien officiel et permanent de ShareByLink accessible ###
@@ -58,12 +58,12 @@ Mais je trouve que le téléchargement vers le serveur est un peu long, mais ça
 Néanmoins... 😀          
 C'est un petit utilitaire simplicimes d'emploi, 100 % accessible, qui permet de déposer pour 1 mois des fichiers jusqu'à 5 Go et sans limitation de download ensuite, et , bien sûr, gratuit!
 
-Pour les personnes qui télécharge un fichier via ShareByLink :                
+Pour les personnes qui télécharge un fichier via un lien ShareByLink :                
 C'est la fenêtre classique  d'enregistrement d'un fichier qui s'ouvre.                   
 il faut savoir qu'il rest ouverte la fenêtre de ShareByLink Lorsque le téléchargement du fichier est terminé, il faut la fermer par Alt+F4.         
 
 Sur ceux je vous souhaite une bonne découverte de ShareByLink !😀                
-Encore Merci à mon ami Piere-Louis pour les informations rélatif à ShareByLink. ;)         
+Encore Merci à mon ami Pierre-Louis, pour les informations rélatif à ShareByLink. ;)         
 Bonne utilisation.            
 Arobamicalement à vous.  
 BlindHelp!             
