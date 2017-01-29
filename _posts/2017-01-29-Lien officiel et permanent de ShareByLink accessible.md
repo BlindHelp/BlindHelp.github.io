@@ -30,7 +30,8 @@ Clic droit sur le fichier à envoyer puis Share File.
 ou touche d'application sur le fichier à envoyer jusq'a trouver l'élément:                 
 Share file(s) online with IQ ShareByLink                      
 si vous avez ces deux éléments est inutile de redémarrer votre PC.                  
-Quand on souhaite envoyer un partage: voici comment faire:              
+
+Quand on souhaite envoyer un partage, voici comment faire:              
 Compresser le dossier ou le fichier en question;                   
 Clic droit sur le fichier à envoyer puis Share File.                
 ou touche d'application sur le fichier à envoyer jusq'a trouver l'élément:                   
@@ -45,9 +46,9 @@ Dès que vous entendez 100%, le lien de votre partage est copié automatiquement
 Une petite observation:           
 Lors du transfère du dossier ou du fichier à partager, la progression entre, 99 et 100%, met un peu plus de temps pour s'accomplir; donc, ne vous inquiétez pas si, elle stagne un peu dans cette phase.                 
 
-Remarque by BlindHelp: 
+Remarque by BlindHelp:                     
 Les liens de partage ShareByLink ont une durée limitée à 30 jours...       
-Je n'utilise pas souvent ShareByLink, car j'ai remarqué que parfois, il ajoutait des numéros aléatoirement dans les noms des fichiers téléchargés.        
+Je n'utilise pas souvent ShareByLink, car j'ai remarqué que parfois, il ajoutait des numéros aléatoirement dans les noms des fichiers téléchargés. :^)       
 
 Ce qui me gène le plus deShareByLink: 😒          
 J’ai observé que les fonctions tel que couper, copier et coller sont inopérantes lorsqu’il y a un transfert de fichier avec ShareByLink.          
@@ -55,7 +56,7 @@ C'est-à-dire  qu'il monopolise le presse papier pendant tout l'upload.
 J'ai remarqué que sa vitesse est assez variable suivant les heures., ça doit dépendre de son occupation globale.                   
 Mais je trouve que le téléchargement vers le serveur est un peu long, mais ça reste raisonnable.           
 Néanmoins... 😀          
-C'est un petit utilitaire simplicimes d'emploi, 100 % accessible, qui permet de déposer pour 1 mois des fichiers jusqu'à 5 Go et sans liitation de download ensuite, et , bien sûr, gratuit!
+C'est un petit utilitaire simplicimes d'emploi, 100 % accessible, qui permet de déposer pour 1 mois des fichiers jusqu'à 5 Go et sans limitation de download ensuite, et , bien sûr, gratuit!
 
 Pour les personnes qui télécharge un fichier via ShareByLink :                
 C'est la fenêtre classique  d'enregistrement d'un fichier qui s'ouvre.                   
