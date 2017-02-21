@@ -1,231 +1,231 @@
-<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.01//EN
+ï»¿<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.01//EN
 http://www.w3.org/TR/html4.01/strict.dtd>
 <html>
 <head>
 <META http-equiv=Content-Type content=text/html; charset=iso-8859-1>
-<meta name=Description content=Création d'un fichier pot avec Poedit>
-<meta name=Keywords content=Création d'un fichier pot avec Poedit>
-<title>Création d'un fichier pot avec Poedit</title>
+<meta name=Description content=CrÃ©ation d'un fichier pot avec Poedit>
+<meta name=Keywords content=CrÃ©ation d'un fichier pot avec Poedit>
+<title>CrÃ©ation d'un fichier pot avec Poedit</title>
 <meta name=Language Content=Frenchs>
 </head>
 <body>
 <p>
-Dernière mise à jour le 28.01.2015.<br>
+DerniÃ¨re mise Ã  jour le 28.01.2015.<br>
 <p>
-<h1>Création d'un fichier pot avec Poedit</h1>
-Comme j'ai déjà dit dans une autre tuto,  certains modules complémentaire n'apportent pas le fichier nvda.po, est alors impossible de modifier les messages dans notre propre langue, seulement on va trouver le fichier nvda.mo qui sert à ce module complémentaire mais nous ne pouvons pas le modifier.<br>
-Dans certains cas le module complémentaire ne comporte pas  même pas le fichier.mo.<br>
- Pour créer un fichier pot, j'écris deux lignes :<br>
-par curiosité, je précise que le fichier.pot est un Fichier .po sans traductions, contenant seulement les messages d'origine en anglais (dans la plus part des cas).<br>
+<h1>CrÃ©ation d'un fichier pot avec Poedit</h1>
+Comme j'ai dÃ©jÃ  dit dans une autre tuto,  certains modules complÃ©mentaire n'apportent pas le fichier nvda.po, est alors impossible de modifier les messages dans notre propre langue, seulement on va trouver le fichier nvda.mo qui sert Ã  ce module complÃ©mentaire mais nous ne pouvons pas le modifier.<br>
+Dans certains cas le module complÃ©mentaire ne comporte pas  mÃªme pas le fichier.mo.<br>
+ Pour crÃ©er un fichier pot, j'Ã©cris deux lignes :<br>
+par curiositÃ©, je prÃ©cise que le fichier.pot est un Fichier .po sans traductions, contenant seulement les messages d'origine en anglais (dans la plus part des cas).<br>
 Si vous avez un code i18n:<br>
 Vous vous demandez ce qui est cette barbarisme?<br>
-le code i18n, c'est tout simplement le code source c'est-à-dire le fichier.py. Tout le code de NVDA est écrit<br>
+le code i18n, c'est tout simplement le code source c'est-Ã -dire le fichier.py. Tout le code de NVDA est Ã©crit<br>
 en langage python donc le fichier comporte l'extension en .py.<br>
-I18n est la sigle d'internationalisation, cela signifie qu'il peut être traduit.<br>
-Dans notre exemple, nous prendrons comme base un module complémentaire qui a le code source fakeClipboardAnouncement.py.<br>
-En un mot, vous devez avoir le code source du module complémentaire avec l'extension.py.<br>
-Cela dans la grande majorité des cas se trouve dans le dossier nommé :<br>
+I18n est la sigle d'internationalisation, cela signifie qu'il peut Ãªtre traduit.<br>
+Dans notre exemple, nous prendrons comme base un module complÃ©mentaire qui a le code source fakeClipboardAnouncement.py.<br>
+En un mot, vous devez avoir le code source du module complÃ©mentaire avec l'extension.py.<br>
+Cela dans la grande majoritÃ© des cas se trouve dans le dossier nommÃ© :<br>
 globalPlugins<br>
-Bon alors voici la procédure :<br>
-:1. avec Poedit créer un nouveau catalogue et enregistrez-le dans le même dossier que le code.<br>
-Le dossier prendra le nom du module complémentaire pour une meilleure concordance.<br>
+Bon alors voici la procÃ©dure :<br>
+:1. avec Poedit crÃ©er un nouveau catalogue et enregistrez-le dans le mÃªme dossier que le code.<br>
+Le dossier prendra le nom du module complÃ©mentaire pour une meilleure concordance.<br>
 N'oubliez pas d'enregistrer le code dans ce nouveau dossier.<br>
-2. Ouvrir Poedit et dans les Préférences qui se trouve dans le menu Catalogue faites entrée, une boîte de dialogue s'ouvre, il nous dis:<br>
-Propriétés du catalogue, ceci est le premier onglet, aller dans le deuxième onglet "Chemins des sources"  dans Poedit, Entrez l'adresse du code source.<br>
-Vous pouvez aussi écrire un seule point si vous avez seulment  enregistré le catalogue dans le même chemin du code.<br>
-3. pour être sûr, vérifiez si vous avez les  Mots-clés corrects, cela se trouve dans le troisième onglet "Mots-clés source". Ce sont les symboles qui contiennent les messages à traduire. par<br>
+2. Ouvrir Poedit et dans les PrÃ©fÃ©rences qui se trouve dans le menu Catalogue faites entrÃ©e, une boÃ®te de dialogue s'ouvre, il nous dis:<br>
+PropriÃ©tÃ©s du catalogue, ceci est le premier onglet, aller dans le deuxiÃ¨me onglet "Chemins des sources"  dans Poedit, Entrez l'adresse du code source.<br>
+Vous pouvez aussi Ã©crire un seule point si vous avez seulment  enregistrÃ© le catalogue dans le mÃªme chemin du code.<br>
+3. pour Ãªtre sÃ»r, vÃ©rifiez si vous avez les  Mots-clÃ©s corrects, cela se trouve dans le troisiÃ¨me onglet "Mots-clÃ©s source". Ce sont les symboles qui contiennent les messages Ã  traduire. par<br>
 exemple:<br>
 _<br>
 __<br>
 _e;<br>
-Dans Poedit ils sont déjà là. Mais contrôler est une bonne chose.<br>
-4. dans le menu de Poedit sélectionnez "Mise à jour depuis les sources" <br>
-et appuyez sur entrée.<br>
-Poedit vous fait le résumé des chaine trouver puis des chaine obsolète.<br>
-Ensuite faire plusieurs fois tab jusq'à le bouton "OK"<br>
-et appuyez sur entrée.<br>
-Vous pouvez maintenant traduire et ajoutez vos données et les données rélatif au module complémentaire, tel que le nom et version du module complémentaire, la langue utiliser, le nom du pays, ci disponible la codification <br>utiliser (par défaut c'est codifiquer en UTF-8 Etc. 
+Dans Poedit ils sont dÃ©jÃ  lÃ . Mais contrÃ´ler est une bonne chose.<br>
+4. dans le menu de Poedit sÃ©lectionnez "Mise Ã  jour depuis les sources" <br>
+et appuyez sur entrÃ©e.<br>
+Poedit vous fait le rÃ©sumÃ© des chaine trouver puis des chaine obsolÃ¨te.<br>
+Ensuite faire plusieurs fois tab jusq'Ã  le bouton "OK"<br>
+et appuyez sur entrÃ©e.<br>
+Vous pouvez maintenant traduire et ajoutez vos donnÃ©es et les donnÃ©es rÃ©latif au module complÃ©mentaire, tel que le nom et version du module complÃ©mentaire, la langue utiliser, le nom du pays, ci disponible la codification <br>utiliser (par dÃ©faut c'est codifiquer en UTF-8 Etc. 
 Pour cela il faut aller au premier onglet:<br>
-aller dans les préférences qui se trouve dans le menu Catalogue, puis faire entrée.<br>
-une boîte de dialogue s'ouvre...<br>
+aller dans les prÃ©fÃ©rences qui se trouve dans le menu Catalogue, puis faire entrÃ©e.<br>
+une boÃ®te de dialogue s'ouvre...<br>
 Il nous dis:<br>
-Propriétés du catalogue <br>
+PropriÃ©tÃ©s du catalogue <br>
 Ceci est le premier onglet.<br>
-Utiliser Tab ou Maj+Tab pour se déplacer.<br>
+Utiliser Tab ou Maj+Tab pour se dÃ©placer.<br>
 Dans le premier champ il se trouve le nom et la version du projet dans ce cas, taper le nom du module suivi de la version.<br>
-Par défaut, il est vide:<br>
+Par dÃ©faut, il est vide:<br>
 Nous allons le remplire, Si ce n'est pas le cas, poedit vous donne un message d'erreur, lors de l'enregistrement.<br>
-Refaire Tab à nouveau.<br>
-Ici se trouve le nom de l'équipe des traducteurs.<br>
-Par défaut, il est vide:<br>
-Vous devez mettre le nom de l'équipe des traducteurs ou votre nom.<br>
+Refaire Tab Ã  nouveau.<br>
+Ici se trouve le nom de l'Ã©quipe des traducteurs.<br>
+Par dÃ©faut, il est vide:<br>
+Vous devez mettre le nom de l'Ã©quipe des traducteurs ou votre nom.<br>
 Nous allons le remplire, Si ce n'est pas le cas, poedit vous donne un message d'erreur, lors de l'enregistrement.<br>
-Refaire Tab à nouveau.<br>
-Ici vous trouverais le champ pour écrire une adresse email.<br>
+Refaire Tab Ã  nouveau.<br>
+Ici vous trouverais le champ pour Ã©crire une adresse email.<br>
 Vous pouvez laissez le champ vide ; Si vous souhaitez vous pouvez mettre  votre adresse email c'est mieux!.<br>
-Refaire Tab à nouveau.<br>
+Refaire Tab Ã  nouveau.<br>
 Voici le champ pour la langue, ce champ est vide.<br>
-Utilisez les touches fléchées pour le Rechercher dans la liste<br>
-Déplacez-vous avec les flèches pour aller à la langue souhaitée.<br>
-Vous pouvez taper l'initiale et descendre avec la flèche.<br>
-Vous pouvez ttaper la lettre f pour avoir le français<br>
-C'est une zone de liste déroulante.<br>
-Faire entré pour que la langue soit sélectionné!!!<br>
-Dans certaines version de Poedit il n'apparaît pas cette zone de liste déroulante.<br>
-Je pense que vous devez éditer manuellement la langue.<br>
-Dans notre cas pour notre langue écrire:<br>
+Utilisez les touches flÃ©chÃ©es pour le Rechercher dans la liste<br>
+DÃ©placez-vous avec les flÃ¨ches pour aller Ã  la langue souhaitÃ©e.<br>
+Vous pouvez taper l'initiale et descendre avec la flÃ¨che.<br>
+Vous pouvez ttaper la lettre f pour avoir le franÃ§ais<br>
+C'est une zone de liste dÃ©roulante.<br>
+Faire entrÃ© pour que la langue soit sÃ©lectionnÃ©!!!<br>
+Dans certaines version de Poedit il n'apparaÃ®t pas cette zone de liste dÃ©roulante.<br>
+Je pense que vous devez Ã©diter manuellement la langue.<br>
+Dans notre cas pour notre langue Ã©crire:<br>
 fr_fr<br>
 Faire Tab.<br>
-Dans les anciennes versions de Poedit, il y a une zone de liste déroulante, pour choisir le pays.<br>
-Utilisez les touches fléchées pour le Rechercher dans la liste.<br>
-Déplacez-vous avec  les flèches pour choisir le pays désiré.<br>
-Vous pouvez taper l'initiale et descendre avec la flèche.<br>
+Dans les anciennes versions de Poedit, il y a une zone de liste dÃ©roulante, pour choisir le pays.<br>
+Utilisez les touches flÃ©chÃ©es pour le Rechercher dans la liste.<br>
+DÃ©placez-vous avec  les flÃ¨ches pour choisir le pays dÃ©sirÃ©.<br>
+Vous pouvez taper l'initiale et descendre avec la flÃ¨che.<br>
 Vous pouvez ttaper la lettre f pour avoir le nom du pays: france.<br>
-Faire entré pour que le nom du pays soit sélectionné!!!<br>
-Faire à nouveau Tab.<br>
-Jeu de caractères : UTF-8 (recommandé)<br>
+Faire entrÃ© pour que le nom du pays soit sÃ©lectionnÃ©!!!<br>
+Faire Ã  nouveau Tab.<br>
+Jeu de caractÃ¨res : UTF-8 (recommandÃ©)<br>
 Ici, vous devez choisir UTF-8 comme codification.<br>
-C'est le premier dans la liste (c'est par défaut).<br>
-C'est une zone de liste déroulante.<br>
-Faire à nouveau Tab.<br>
-Jeu de caractères du code source : UTF-8 (recommandé) <br>
+C'est le premier dans la liste (c'est par dÃ©faut).<br>
+C'est une zone de liste dÃ©roulante.<br>
+Faire Ã  nouveau Tab.<br>
+Jeu de caractÃ¨res du code source : UTF-8 (recommandÃ©) <br>
 Ici, vous devez choisir UTF-8 comme codification.<br>
-C'est le premier dans la liste (c'est par défaut).<br>
-C'est une zone de liste déroulante.<br>
-Faire à nouveau Tab.<br>
-Nous trouvons  le champ rélatif nommé:<br>
+C'est le premier dans la liste (c'est par dÃ©faut).<br>
+C'est une zone de liste dÃ©roulante.<br>
+Faire Ã  nouveau Tab.<br>
+Nous trouvons  le champ rÃ©latif nommÃ©:<br>
 Formes plurielles : <br>
-il y a aussi deux bouton radio coché:<br>
-Utiliser les règles par défaut de cette langue c'est le premier bouton radio coché par défaut.<br>
-Utiliser une expression personnalisée c'est le deuxième bouton radio coché.<br>
-Si l'auteur du module a choisi cette deuxième option:<br>
-il se peut qui contienne des informations, parfois non, tou dépend<br>
+il y a aussi deux bouton radio cochÃ©:<br>
+Utiliser les rÃ¨gles par dÃ©faut de cette langue c'est le premier bouton radio cochÃ© par dÃ©faut.<br>
+Utiliser une expression personnalisÃ©e c'est le deuxiÃ¨me bouton radio cochÃ©.<br>
+Si l'auteur du module a choisi cette deuxiÃ¨me option:<br>
+il se peut qui contienne des informations, parfois non, tou dÃ©pend<br>
 Ce champ est parfois vide, le laissez ainsi<br>
-Si vous avez choisi la première option par défaut<br>
-Faire à nouveau Tab.<br>
-vous trouverais le lien nommé:<br>
+Si vous avez choisi la premiÃ¨re option par dÃ©faut<br>
+Faire Ã  nouveau Tab.<br>
+vous trouverais le lien nommÃ©:<br>
 En savoir plus sur les formes plurielles <br>
-Faire à nouveau Tab.<br>
-Ici se trouve le bouton OK, si vous pensez que vous avez mis correctement les informations concernant le module complémentaire, vous pouvez faire entrer sur lui!.<br>
+Faire Ã  nouveau Tab.<br>
+Ici se trouve le bouton OK, si vous pensez que vous avez mis correctement les informations concernant le module complÃ©mentaire, vous pouvez faire entrer sur lui!.<br>
 N'oubliez pas d'enregistrer les informations avec Ctrl+S!. <br>
 <p>
 Pour que sa fonctionne, vous devez coller le fichier.mo dans le chemin suivant.<br>
-Nom du Module Complémentaire/locale/xx/LC_MESSAGES/<br>
+Nom du Module ComplÃ©mentaire/locale/xx/LC_MESSAGES/<br>
 remplacer xx par la sigle de votre langue.<br>
-dans notre cas il faut écrire:<br>
+dans notre cas il faut Ã©crire:<br>
 fr<br>
 Parfois le fichier .po n'est pas inclus, seulement le fichier .mo.<br>
-Tout dépand si l'auteur souhaite partager se fichier.<br>
-A nous les traducteurs il nous sert le fichier .po ou .pot ou également le code source du programme. Pas toujours il est présent, par exemple en NVDA il est introuvable, il existe seulement le fichiers compilés .mo. Vous devez <br>télécharger le code source pour le traduire.
+Tout dÃ©pand si l'auteur souhaite partager se fichier.<br>
+A nous les traducteurs il nous sert le fichier .po ou .pot ou Ã©galement le code source du programme. Pas toujours il est prÃ©sent, par exemple en NVDA il est introuvable, il existe seulement le fichiers compilÃ©s .mo. Vous devez <br>tÃ©lÃ©charger le code source pour le traduire.
 <p>
-Remarque Très Importante!!!<br>
-Parfois on trouve l'élément nommé :<br>
-Mise à jour depuis les sources non disponible<br>
+Remarque TrÃ¨s Importante!!!<br>
+Parfois on trouve l'Ã©lÃ©ment nommÃ© :<br>
+Mise Ã  jour depuis les sources non disponible<br>
 <p>
 Voici la solution, pour qui soit disponible...<br>
 <p>
-Aller dans les Propriétés du catalogue<br>
-Je pense que vous devez indiquer le bon chemin de base pour le nouveau catalogue. cela se trouve après le premier onglet nommé:<br>
-Propriétés de traduction <br>
-Le deuxième onglet est nommé:<br>
+Aller dans les PropriÃ©tÃ©s du catalogue<br>
+Je pense que vous devez indiquer le bon chemin de base pour le nouveau catalogue. cela se trouve aprÃ¨s le premier onglet nommÃ©:<br>
+PropriÃ©tÃ©s de traduction <br>
+Le deuxiÃ¨me onglet est nommÃ©:<br>
 Chemins des sources <br>
-A titre d'information le troisième onglet est nommé:<br>
-Mots-clés source <br>
+A titre d'information le troisiÃ¨me onglet est nommÃ©:<br>
+Mots-clÃ©s source <br>
 <p>
-Donc lorsque vous êtes dans le deuxième onglet nommé:<br>
+Donc lorsque vous Ãªtes dans le deuxiÃ¨me onglet nommÃ©:<br>
 Chemins des sources <br>
 Faire Tab.<br>
-Extraire le texte des répertoires suivants :<br>
+Extraire le texte des rÃ©pertoires suivants :<br>
 Chemin de base :<br>
-Ici c'est un champ d'édition.<br>
+Ici c'est un champ d'Ã©dition.<br>
 Faire Tab<br>
 Chemins <br>
-Chercher le bouton élément<br>
-NVDA ne lit pas se bouton comme élément, mais il y a un seule bouton.<br>
-Si il y a plusieurs boutons, c'est le deuxième bouton.<br>
-Dans le champ dédition Chemin de base :<br>
-écrire le chemin où se trouve les fichiers sources.<br>
-Dans le cas contraire Si vous avez gardé le code dans le même chemin écrivez un point<br>
-Appuyez sur entrée pour ajouter le chemin contenant le point<br>
+Chercher le bouton Ã©lÃ©ment<br>
+NVDA ne lit pas se bouton comme Ã©lÃ©ment, mais il y a un seule bouton.<br>
+Si il y a plusieurs boutons, c'est le deuxiÃ¨me bouton.<br>
+Dans le champ dÃ©dition Chemin de base :<br>
+Ã©crire le chemin oÃ¹ se trouve les fichiers sources.<br>
+Dans le cas contraire Si vous avez gardÃ© le code dans le mÃªme chemin Ã©crivez un point<br>
+Appuyez sur entrÃ©e pour ajouter le chemin contenant le point<br>
 et appuyez sur le bouton Ok pour valider.<br>
-Maintenant, vous pouvez cliquer sur :Mise à jour depuis les sources, puis attendre quelques instants et le catalogue se met à jour.<br>
-Faire OK dans cette nouvelle boîte de dialogue.<br>
+Maintenant, vous pouvez cliquer sur :Mise Ã  jour depuis les sources, puis attendre quelques instants et le catalogue se met Ã  jour.<br>
+Faire OK dans cette nouvelle boÃ®te de dialogue.<br>
 <p>
 Note:<br>
-Donc maintenant vous aurais deux chemins, l'une pour le code du programme un pour le nouveau catalogue. Vous pouvez également ajouter plusieurs  chemins, si nous avons d'autres codes, tels que par exemple le module <br>complémentaire pour Dropbox.
+Donc maintenant vous aurais deux chemins, l'une pour le code du programme un pour le nouveau catalogue. Vous pouvez Ã©galement ajouter plusieurs  chemins, si nous avons d'autres codes, tels que par exemple le module <br>complÃ©mentaire pour Dropbox.
 <p>
-Donc, voici une autre méthode rapide...<br>
-avec poedit il faut crée un nouveau catalogue, puis donner le chemin<br>
-des sources a traduir, par exemple le chemin ou se trouve votre module complémentaire:<br>
-c:\users\votre nom d'utilisateur\appdata\roaming\nvda\addons\le nom du module complémentaire<br>
-cela dans les propriètés de poedit<br>
-dans le deuxième onglet:<br>
+Donc, voici une autre mÃ©thode rapide...<br>
+avec poedit il faut crÃ©e un nouveau catalogue, puis donner le chemin<br>
+des sources a traduir, par exemple le chemin ou se trouve votre module complÃ©mentaire:<br>
+c:\users\votre nom d'utilisateur\appdata\roaming\nvda\addons\le nom du module complÃ©mentaire<br>
+cela dans les propriÃ¨tÃ©s de poedit<br>
+dans le deuxiÃ¨me onglet:<br>
 Chemins des sources<br>
 Faire Tab.<br>
 il faut mettre le chemin de base <br>
-c:\users\votre nom d'utilisateur\appdata\roaming\nvda\addons\le nom du module complémentaire<br>
-dans le troisième onglet <br>
-Mots-clés source<br>
-on écrit le nom du dossier ou se trouve les fichiers sources par exemple:<br>
+c:\users\votre nom d'utilisateur\appdata\roaming\nvda\addons\le nom du module complÃ©mentaire<br>
+dans le troisiÃ¨me onglet <br>
+Mots-clÃ©s source<br>
+on Ã©crit le nom du dossier ou se trouve les fichiers sources par exemple:<br>
 appModules<br>
 globalPlugins<br>
 Ensuite on va rechercher dans le menu catalogue <br>
-Mise à jour depuis les sources <br>
-Faire entrée.<br>
+Mise Ã  jour depuis les sources <br>
+Faire entrÃ©e.<br>
 Poedit recherche ensuite les sources depuis se chemin.<br>
-biensure le fichier .py doit être la.<br>
-Il me semble qu'il faut crée les dossier pour les langues manuelment au préalable.<br>
+biensure le fichier .py doit Ãªtre la.<br>
+Il me semble qu'il faut crÃ©e les dossier pour les langues manuelment au prÃ©alable.<br>
 locale<br>
 fr<br>
 LC_MESSAGES<br>
 on valide il se peut qu'il donne un message d'erreur possiblement j'ignore, faire ok<br>
 ensuite il apparait las listes des chaines a traduir.<br>
-la première parti ces les messages en anglais, la deuxième partie<br>
+la premiÃ¨re parti ces les messages en anglais, la deuxiÃ¨me partie<br>
 c'est la traduction.<br>
-enregistrer le catalogue comme nvda.po automatiquement il va crée le fichier nvda.mo<br>
+enregistrer le catalogue comme nvda.po automatiquement il va crÃ©e le fichier nvda.mo<br>
 N'oubliez pas...<br>
-Dans les préférences de Poedi on peut choisir mettre le nom du module, votre nom, email, la langue, puis on fait oK<br>
+Dans les prÃ©fÃ©rences de Poedi on peut choisir mettre le nom du module, votre nom, email, la langue, puis on fait oK<br>
 Cela se trouve dans le premier onglet:<br>
-Propriétés de traduction <br>
+PropriÃ©tÃ©s de traduction <br>
 N'oubliez pas aussi de...<br>
-traduir le manifest.ini en français puis le codifiquer en utf8 sans bom.<br>
+traduir le manifest.ini en franÃ§ais puis le codifiquer en utf8 sans bom.<br>
 Ce fichier est placez dans le dossier:<br>
 fr<br>
-Au même niveau que le dossier:<br>
+Au mÃªme niveau que le dossier:<br>
 LC_MESSAGES<br>
 <p>
-Sinon pour les plus chevronné je vous donne l'astuce donner par notre ami Patrick ZAJDA de la liste ALLOS:<br>
+Sinon pour les plus chevronnÃ© je vous donne l'astuce donner par notre ami Patrick ZAJDA de la liste ALLOS:<br>
 <BLOCKQUOTE>
-Pour la création du fichier, il y a une autre méthode, utiliser<br>
-le template de module complémentaire :<br>
+Pour la crÃ©ation du fichier, il y a une autre mÃ©thode, utiliser<br>
+le template de module complÃ©mentaire :<br>
 <p>
 <a href="https://bitbucket.org/nvdaaddonteam/addontemplate" target ="_blank">https://bitbucket.org/nvdaaddonteam/addontemplate</a>
 <p>
 Il utilise scons, plus le port de gettext pour Windows.<br>
 <p>
-Une fois tout installer et le fichier buildVars.py bien configuré, il<br>
-n'y a qu'à se mettre en invite de commande dans le répertoire du module<br>
+Une fois tout installer et le fichier buildVars.py bien configurÃ©, il<br>
+n'y a qu'Ã  se mettre en invite de commande dans le rÃ©pertoire du module<br>
 et faire<br>
 <p>
 scons pot
 <p>
-Puis dans poedit il faut créer un nouveau fichier po, et fusionner<br>
-depuis le fichier .pot généré.<br>
-Je ne sais plus si on peut le faire directement à la création du<br>
+Puis dans poedit il faut crÃ©er un nouveau fichier po, et fusionner<br>
+depuis le fichier .pot gÃ©nÃ©rÃ©.<br>
+Je ne sais plus si on peut le faire directement Ã  la crÃ©ation du<br>
 fichier, mais on peut le faire depuis le menu catalogue, si je ne me<br>
-trompe pas le menu s'appelle "Mettre à jour depuis un fichier POT..."<br>
+trompe pas le menu s'appelle "Mettre Ã  jour depuis un fichier POT..."<br>
 <p>
-Mes explications sont quelque peu succinctes, mais ça devrait être<br>
-compréhensible. Mais je complèterais s'il le faut, et quand poedit aura
-décidé d'arrêter de bouder depuis la mise à jour <br>
+Mes explications sont quelque peu succinctes, mais Ã§a devrait Ãªtre<br>
+comprÃ©hensible. Mais je complÃ¨terais s'il le faut, et quand poedit aura
+dÃ©cidÃ© d'arrÃªter de bouder depuis la mise Ã  jour <br>
 <p>
 le menu est bien dans<br>
-catalogue, et l'intitulé exact est "Mettre à jour depuis un fichier POT..."<br>
+catalogue, et l'intitulÃ© exact est "Mettre Ã  jour depuis un fichier POT..."<br>
 <p>
-Le fichier .mo est créé par Poedit dès qu'on sauvegarde le fichier po en<br>
-cours d'édition.<br>
-Mais on n'a pas à s'en occuper, de toute façon il sera généré par scons<br>
-à la compilation du module complémentaire, puisque le template cré le<br>
+Le fichier .mo est crÃ©Ã© par Poedit dÃ¨s qu'on sauvegarde le fichier po en<br>
+cours d'Ã©dition.<br>
+Mais on n'a pas Ã  s'en occuper, de toute faÃ§on il sera gÃ©nÃ©rÃ© par scons<br>
+Ã  la compilation du module complÃ©mentaire, puisque le template crÃ© le<br>
 fichier .nvda-addon.<br>
 <p>
 Et j'ai dis scons, et pas c'con ! OK je sort... Bonne nuit <br>
@@ -233,34 +233,34 @@ Et j'ai dis scons, et pas c'con ! OK je sort... Bonne nuit <br>
 Patrick<br>
 </BLOCKQUOTE>
 <p>
-Remarque dans le fichier .py Tout d'abord, il est nécessaire d'encadrer les chaines que on souhaite traduire par cette instruction:<br>
+Remarque dans le fichier .py Tout d'abord, il est nÃ©cessaire d'encadrer les chaines que on souhaite traduire par cette instruction:<br>
  _(" et ").<br>
 <p>
-<h1>Tutoriels à lire:</h1>
-Vous pouvez aussi consulter la tuto nommé:<br>
+<h1>Tutoriels Ã  lire:</h1>
+Vous pouvez aussi consulter la tuto nommÃ©:<br>
 <a href="https://blindhelp.github.io/Comment traduire un module pour NVDA.html" target ="_blank">Comment traduire un module pour NVDA?</a><br>
 Vous pouvez aller consulter aussi:<br>
-<a href="https://blindhelp.github.io/A propos de la traduction des modules complementaire.html" target ="_blank">A propos de la traduction des modules complémentaire et comment faire pour le transférer à la Communauté (pour développeurs et traducteurs).</a><br>
-Ici vous trouverais des informations très intéressant à  se sujet.<br>
+<a href="https://blindhelp.github.io/A propos de la traduction des modules complementaire.html" target ="_blank">A propos de la traduction des modules complÃ©mentaire et comment faire pour le transfÃ©rer Ã  la CommunautÃ© (pour dÃ©veloppeurs et traducteurs).</a><br>
+Ici vous trouverais des informations trÃ¨s intÃ©ressant Ã   se sujet.<br>
 <p>
-Vous pouvez aussi lire un excellent article fait récemment par notre ami Daniel par ici:<br>
+Vous pouvez aussi lire un excellent article fait rÃ©cemment par notre ami Daniel par ici:<br>
 <a href="http://angouleme.avh.asso.fr/fichesinfo/fiches_nvda/logiciels_divers/poedit.htm" target ="_blank">Traduction d'un module NVDA avec Poedit</a>
-Dans cette même page vous trouverez un lien de téléchargement vers le module PoeditMadeEasy signalé par mes soins sur la liste ALLOS.<br>
-Cet article décrit plus largement certains détails qui n'ont pas été décrits dans mes tutoriels<br>
+Dans cette mÃªme page vous trouverez un lien de tÃ©lÃ©chargement vers le module PoeditMadeEasy signalÃ© par mes soins sur la liste ALLOS.<br>
+Cet article dÃ©crit plus largement certains dÃ©tails qui n'ont pas Ã©tÃ© dÃ©crits dans mes tutoriels<br>
 <p>
-Voici la page en anglais où on peut trouver le module complémentaire poeditMadeEasy, ainsi que les informations rélatif au module complémentaire décrit par l'auteur et aussi le code source:<br>
+Voici la page en anglais oÃ¹ on peut trouver le module complÃ©mentaire poeditMadeEasy, ainsi que les informations rÃ©latif au module complÃ©mentaire dÃ©crit par l'auteur et aussi le code source:<br>
 <a href="https://github.com/dhankuta/poeditMadeEasy" target ="_blank">https://github.com/dhankuta/poeditMadeEasy</a>
 <p>
 <h1>Remerciement:</h1>
-Mille merci à nos amis Patrick ZAJDA, Michel SUCH, Paul B, Daniel Poiraud  et tous les autres amis pour les informations qu'ils m'ont donné soit en perso ou via la liste ALLOS, qui ma servi de base pour réaliser ce tutoriel.<br>
+Mille merci Ã  nos amis Patrick ZAJDA, Michel SUCH, Paul B, Daniel Poiraud  et tous les autres amis pour les informations qu'ils m'ont donnÃ© soit en perso ou via la liste ALLOS, qui ma servi de base pour rÃ©aliser ce tutoriel.<br>
 <p>
 Voila!<br>
-J'espère que cette tuto vous serve!.<br>
-Vous pouvez partager cette tuto sur les listes dédier à NVDA!!!<br>
+J'espÃ¨re que cette tuto vous serve!.<br>
+Vous pouvez partager cette tuto sur les listes dÃ©dier Ã  NVDA!!!<br>
 Via Dropbox o Wuala ou un autre!.<br>
 Enjoy!<br>
 @+!<br>
-Rémy Ruiz (BlindHelp).<br>
+RÃ©my Ruiz (BlindHelp).<br>
 </body>
 <html>
 

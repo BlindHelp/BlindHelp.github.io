@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.01//EN
+ï»¿<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.01//EN
 http://www.w3.org/TR/html4.01/strict.dtd>
 <html>
 <head>
@@ -10,271 +10,271 @@ http://www.w3.org/TR/html4.01/strict.dtd>
 </head>
 <body>
 <p>
-Dernière mise à jour le 30.01.2015.<br>
+DerniÃ¨re mise Ã  jour le 30.01.2015.<br>
 <p>
 <h1>Comment traduire un module pour NVDA?</h1>
-Ce manuel explique comment traduire les fichiers nvda .po qui se trouve dans les modules complémentaires avec la nouvelle extention .nvda-addon.<br>
-Il est possible que certains modules complémentaires ne contiennent pas le fichier nvda.po
-qui se trouve dans le dossier locale, dedans le dossier correspondant a votre langue dans un dossier nommé:<br>
+Ce manuel explique comment traduire les fichiers nvda .po qui se trouve dans les modules complÃ©mentaires avec la nouvelle extention .nvda-addon.<br>
+Il est possible que certains modules complÃ©mentaires ne contiennent pas le fichier nvda.po
+qui se trouve dans le dossier locale, dedans le dossier correspondant a votre langue dans un dossier nommÃ©:<br>
 LC_MESSAGES<br>
-Il est également possible que l'auteur n'a pas mis le dossier local dans son complément.<br>
-Mais cela on va le traiter plus tard car c'est plus compliqué de le faire.<br>
+Il est Ã©galement possible que l'auteur n'a pas mis le dossier local dans son complÃ©ment.<br>
+Mais cela on va le traiter plus tard car c'est plus compliquÃ© de le faire.<br>
 <p>
-Eh bien je vais vous expliquer les principes de base à cette occasion ; On peut dire que c'est facile, mais il faut avoir beaucoup de persévérance  et de l'ordre pour faire la traduction des modules complémentaires pour NVDA.<br>
+Eh bien je vais vous expliquer les principes de base Ã  cette occasion ; On peut dire que c'est facile, mais il faut avoir beaucoup de persÃ©vÃ©rance  et de l'ordre pour faire la traduction des modules complÃ©mentaires pour NVDA.<br>
 <p>
-Ici, je vous explique ce que je sais, je n'espère pas me tromper dans l'ensemble de la procédure.<br>
-01.- Tout d'abord il faut télécharger le logiciel appelé Poedit qui est gratuit depuis la page web en anglais:
+Ici, je vous explique ce que je sais, je n'espÃ¨re pas me tromper dans l'ensemble de la procÃ©dure.<br>
+01.- Tout d'abord il faut tÃ©lÃ©charger le logiciel appelÃ© Poedit qui est gratuit depuis la page web en anglais:
 <a href="http://www.poedit.net/download.php">Poedit: Download</a>
 chercher le titre:<br>
 Windows version<br>
-Faire une flèche bas pour retrouver le lien correspondant a la version actuelle de Poedit, puis faire entrée sur le lien!<br>
+Faire une flÃ¨che bas pour retrouver le lien correspondant a la version actuelle de Poedit, puis faire entrÃ©e sur le lien!<br>
 Par exemple voici le lien d'une ancienne version de Poedit:<br>
 <a href="http://sourceforge.net/projects/poedit/files/poedit/1.5/poedit-1.5.2-setup.exe/download" target ="_blank">poedit-1.5.2-setup.exe</a>
 Cette version est accessible, en tout cas avec NVDA.<br>
-Pas comme les nouvelles versions qui on perdu en accessibilité, grand dommage.<br>
-Sauf si vous utiliser le module complémentaire nommé:<br>
+Pas comme les nouvelles versions qui on perdu en accessibilitÃ©, grand dommage.<br>
+Sauf si vous utiliser le module complÃ©mentaire nommÃ©:<br>
 poeditMadeEasy<br>
-Voir le lien du module complémentaire ci-dessous<br>
+Voir le lien du module complÃ©mentaire ci-dessous<br>
 <a href="https://github.com/dhankuta/poeditMadeEasy" target ="_blank">https://github.com/dhankuta/poeditMadeEasy</a>
 <p>
-02.- Installer le logiciel, en appuyant sur le fichier nommé:<br>
+02.- Installer le logiciel, en appuyant sur le fichier nommÃ©:<br>
 poedit-1.5.2-setup.exe<br>
-Suivez les instructions, utiliser Tab ou Maj + tab et les flèches pour vous déplacer.<br>
-Laissez tout par défaut.<br>
-N'oubliez pas d'accepter la licence avec flèche haut.<br>
+Suivez les instructions, utiliser Tab ou Maj + tab et les flÃ¨ches pour vous dÃ©placer.<br>
+Laissez tout par dÃ©faut.<br>
+N'oubliez pas d'accepter la licence avec flÃ¨che haut.<br>
 Faire Tab, et valider sur le bouton Next plusieurs fois, et valider sur le bouton Instal, et enfin valider sur le bouton Finish. <br>
-Lorsque je parle de valider, Je voulez dire qu'il faut faire cette action en cliquant sur la touche entrée.<br>
-Dans le cas que la fenêtre du logiciel s'ouvre il faut la fermer avec ALT + F4. <br>
+Lorsque je parle de valider, Je voulez dire qu'il faut faire cette action en cliquant sur la touche entrÃ©e.<br>
+Dans le cas que la fenÃªtre du logiciel s'ouvre il faut la fermer avec ALT + F4. <br>
 Une fois que nous avons fini d'installer le logiciel, le reste est facile...<br>
-Il n'est pas nécessaire de lancer l'application.<br>
-03.- Maintenant, recherchez le module qui vous intéressent traduire.<br>
-J'ai mis le nom de se module complémentaire uniquement a titre d'information.<br>
+Il n'est pas nÃ©cessaire de lancer l'application.<br>
+03.- Maintenant, recherchez le module qui vous intÃ©ressent traduire.<br>
+J'ai mis le nom de se module complÃ©mentaire uniquement a titre d'information.<br>
 Prenons comme exemple le module :<br>
 virtualRevision-1.2.nvda-addon<br>
-Nous ajoutons l'extension  .zip à la fin.<br>
+Nous ajoutons l'extension  .zip Ã  la fin.<br>
 exemple:<br>
 virtualRevision-1.2.nvda-addon.zip<br>
 Nous allons extraire son contenu ::<br>
-En principe celui-ci doit disposer des éléments suivants:<br>
+En principe celui-ci doit disposer des Ã©lÃ©ments suivants:<br>
 globalPlugins (c'est un dossier qui contient le fichier.py).<br>
-Vous trouverez également un fichier nommé :<br>
+Vous trouverez Ã©galement un fichier nommÃ© :<br>
 manifest.ini<br>
-(celui-ci contient des données relatives au module complémentaire cela encodé en UTF8).<br>
-Ici, vous trouverez également un dossier nommé<br>
+(celui-ci contient des donnÃ©es relatives au module complÃ©mentaire cela encodÃ© en UTF8).<br>
+Ici, vous trouverez Ã©galement un dossier nommÃ©<br>
 locale<br>
-et dans celui-ci, il y a un autre dossier appelé :<br>
+et dans celui-ci, il y a un autre dossier appelÃ© :<br>
 pt (concernant la langue en portugais).<br>
-et dans celui-ci, il y a un autre dossier appelé :<br>
+et dans celui-ci, il y a un autre dossier appelÃ© :<br>
 LC_MESSAGES<br>
 qui contient deux fichiers existant qui sont :<br>
 		nvda.mo <br>
 et<br>
 nvda.po<br>
-Celui-ci c'est le fichier qui nous intéresse !<br>
+Celui-ci c'est le fichier qui nous intÃ©resse !<br>
 Faites une copie de ce fichier et le mettre dans mes documents, par exemple:<br>
 nvda.po<br>
 Et faites entrer et Poedit s'ouvre !<br>
-La première chose que vous devez faire dans ce cas est d'allez dans les préférences qui se trouve dans le menu Catalogue , faire entrée.<br>
-une boîte de dialogue s'ouvre...<br>
+La premiÃ¨re chose que vous devez faire dans ce cas est d'allez dans les prÃ©fÃ©rences qui se trouve dans le menu Catalogue , faire entrÃ©e.<br>
+une boÃ®te de dialogue s'ouvre...<br>
 Il nous dis:<br>
-Propriétés du catalogue <br>
-Propriétés de traduction<br>
+PropriÃ©tÃ©s du catalogue <br>
+PropriÃ©tÃ©s de traduction<br>
 Ceci est le premier onglet.<br>
-Utiliser Tab ou Maj+Tab pour se déplacer.<br>
+Utiliser Tab ou Maj+Tab pour se dÃ©placer.<br>
 Dans le premier champ il se trouve le nom et la version du projet dans ce cas, taper le nom du module suivi de la version.<br>
-Par défaut, il est écrit :<br>
+Par dÃ©faut, il est Ã©crit :<br>
 PACKAGE VERSION<br>
 Nous allons le remplacer!! Si ce n'est pas le cas, poedit vous donne un message d'erreur, lors de l'enregistrement.<br>
-Refaire Tab à nouveau.<br>
-Ici se trouve le nom de l'équipe des traducteurs.<br>
-Par défaut, il est écrit:<br>
+Refaire Tab Ã  nouveau.<br>
+Ici se trouve le nom de l'Ã©quipe des traducteurs.<br>
+Par dÃ©faut, il est Ã©crit:<br>
 LANGUAGE<br>
 Nous allons le remplacer!! Si ce n'est pas le cas, poedit vous donne un message d'erreur lors de l'enregistrement.<br>
-Vous devez mettre le nom de l'équipe des traducteurs ou votre nom.<br>
-Refaire Tab à nouveau.<br>
+Vous devez mettre le nom de l'Ã©quipe des traducteurs ou votre nom.<br>
+Refaire Tab Ã  nouveau.<br>
 Ici vous trouverais le champ qui contient une adresse email qui est fictif, en tout cas je pense.<br>
 LL@li.org<br>
-Vous pouvez le supprimer et laissez le champ vide ; Si se n'est pas le cas, vous pouvez mettre la vôtre.<br>
-Refaire Tab à nouveau.<br>
+Vous pouvez le supprimer et laissez le champ vide ; Si se n'est pas le cas, vous pouvez mettre la vÃ´tre.<br>
+Refaire Tab Ã  nouveau.<br>
 Voici le champ pour la langue, ce champ est vide.<br>
-Utilisez les touches fléchées pour le Rechercher dans la liste<br>
-Déplacez-vous avec les flèches pour aller à la langue souhaitée.<br>
-Vous pouvez taper l'initiale et descendre avec la flèche.<br>
-Vous pouvez ttaper la lettre f pour avoir le français<br>
-C'est une zone de liste déroulante.<br>
-Faire entré pour que la langue soit sélectionné!!!<br>
-Dans certaines version de Poedit il n'apparaît pas cette zone de liste déroulante.<br>
-Je pense que vous devez éditer manuellement la langue.<br>
-Dans notre cas pour notre langue écrire:<br>
+Utilisez les touches flÃ©chÃ©es pour le Rechercher dans la liste<br>
+DÃ©placez-vous avec les flÃ¨ches pour aller Ã  la langue souhaitÃ©e.<br>
+Vous pouvez taper l'initiale et descendre avec la flÃ¨che.<br>
+Vous pouvez ttaper la lettre f pour avoir le franÃ§ais<br>
+C'est une zone de liste dÃ©roulante.<br>
+Faire entrÃ© pour que la langue soit sÃ©lectionnÃ©!!!<br>
+Dans certaines version de Poedit il n'apparaÃ®t pas cette zone de liste dÃ©roulante.<br>
+Je pense que vous devez Ã©diter manuellement la langue.<br>
+Dans notre cas pour notre langue Ã©crire:<br>
 fr_fr<br>
 Faire Tab.<br>
-Dans les anciennes versions de Poedit, il y a une zone de liste déroulante, pour choisir le pays.<br>
-Utilisez les touches fléchées pour le Rechercher dans la liste.<br>
-Déplacez-vous avec  les flèches pour choisir le pays désiré.<br>
-Vous pouvez taper l'initiale et descendre avec la flèche.<br>
+Dans les anciennes versions de Poedit, il y a une zone de liste dÃ©roulante, pour choisir le pays.<br>
+Utilisez les touches flÃ©chÃ©es pour le Rechercher dans la liste.<br>
+DÃ©placez-vous avec  les flÃ¨ches pour choisir le pays dÃ©sirÃ©.<br>
+Vous pouvez taper l'initiale et descendre avec la flÃ¨che.<br>
 Vous pouvez ttaper la lettre f pour avoir le nom du pays: france.<br>
-Faire entré pour que le nom du pays soit sélectionné!!!<br>
-Faire à nouveau Tab.<br>
-Jeu de caractères : UTF-8 (recommandé)<br>
+Faire entrÃ© pour que le nom du pays soit sÃ©lectionnÃ©!!!<br>
+Faire Ã  nouveau Tab.<br>
+Jeu de caractÃ¨res : UTF-8 (recommandÃ©)<br>
 Ici, vous devez choisir UTF-8 comme codification.<br>
-C'est le premier dans la liste (c'est par défaut).<br>
-C'est une zone de liste déroulante.<br>
-Faire à nouveau Tab.<br>
-Jeu de caractères du code source : UTF-8 (recommandé) <br>
+C'est le premier dans la liste (c'est par dÃ©faut).<br>
+C'est une zone de liste dÃ©roulante.<br>
+Faire Ã  nouveau Tab.<br>
+Jeu de caractÃ¨res du code source : UTF-8 (recommandÃ©) <br>
 Ici, vous devez choisir UTF-8 comme codification.<br>
-C'est le premier dans la liste (c'est par défaut).<br>
-C'est une zone de liste déroulante.<br>
-Faire à nouveau Tab.<br>
-Nous trouvons  le champ rélatif nommé:<br>
+C'est le premier dans la liste (c'est par dÃ©faut).<br>
+C'est une zone de liste dÃ©roulante.<br>
+Faire Ã  nouveau Tab.<br>
+Nous trouvons  le champ rÃ©latif nommÃ©:<br>
 Formes plurielles : <br>
-il y a aussi deux bouton radio coché:<br>
-Utiliser les règles par défaut de cette langue c'est le premier bouton radio coché par défaut.<br>
-Utiliser une expression personnalisée c'est le deuxième bouton radio coché.<br>
-Si l'auteur du module a choisi cette deuxième option:<br>
-il se peut qui contienne des informations, parfois non, tou dépend<br>
+il y a aussi deux bouton radio cochÃ©:<br>
+Utiliser les rÃ¨gles par dÃ©faut de cette langue c'est le premier bouton radio cochÃ© par dÃ©faut.<br>
+Utiliser une expression personnalisÃ©e c'est le deuxiÃ¨me bouton radio cochÃ©.<br>
+Si l'auteur du module a choisi cette deuxiÃ¨me option:<br>
+il se peut qui contienne des informations, parfois non, tou dÃ©pend<br>
 Ce champ est parfois vide, le laissez ainsi<br>
-Si vous avez choisi la première option par défaut<br>
-Faire à nouveau Tab.<br>
-vous trouverais le lien nommé:<br>
+Si vous avez choisi la premiÃ¨re option par dÃ©faut<br>
+Faire Ã  nouveau Tab.<br>
+vous trouverais le lien nommÃ©:<br>
 En savoir plus sur les formes plurielles <br>
-Faire à nouveau Tab.<br>
-Ici se trouve le bouton OK, si vous pensez que vous avez mis correctement les informations concernant le module complémentaire, vous pouvez faire entrer sur lui!.<br>
+Faire Ã  nouveau Tab.<br>
+Ici se trouve le bouton OK, si vous pensez que vous avez mis correctement les informations concernant le module complÃ©mentaire, vous pouvez faire entrer sur lui!.<br>
 N'oubliez pas d'enregistrer les informations avec Ctrl+S!. <br>
 Maintenant, on retourne a nos moutons!<br>
-Déplacez-vous avec les flèches pour aller à la ligne souhaitez.<br>
-Généralment la première ligne du message est annoncer en anglais par notre lecteur d'écran, suivi du deuxième message traduit par Poedit.<br>
-Comme notre curseur est placez dans la première ligne, si on fait tab, il s'ouvre une zone d'édition avec le message traduit en portugais par exemple.<br>
-Cette zone d'édition on peut la modifier par la langue souhaitez, dans notre cas la langue du message sera en français.<br>
-Concernant les messages figurant dans la partie en anglais, si au début le message comence par une lettre en majuscule dans la partie à traduire il doît figurer pareil et si ce même message <br>est suivi d'un autre mot qui commence par une majuscule, vous devez le mettre aussi, dans le cas contraire lors de l'exécution du message par le module complémentaire , cette action ne <br>sera pas  annoncer parfois dans la langue traduite.<br>
-Par exemple, s'il s'agit d'annoncer l'action  de un raccourci qui contient par exemple le message:  Select All vous le devez traduire comportant les lettres en majuscules: Sélectionner Tout<br>
-si le mot tout est écrit en minuscule au début, ce message n'est pas annoncer dans la langue que nous sommes entrain de traduire.<br>
-Cela m'est arrivé lorsque  j'ai traduit le module  complémentaire nommé:<br>
+DÃ©placez-vous avec les flÃ¨ches pour aller Ã  la ligne souhaitez.<br>
+GÃ©nÃ©ralment la premiÃ¨re ligne du message est annoncer en anglais par notre lecteur d'Ã©cran, suivi du deuxiÃ¨me message traduit par Poedit.<br>
+Comme notre curseur est placez dans la premiÃ¨re ligne, si on fait tab, il s'ouvre une zone d'Ã©dition avec le message traduit en portugais par exemple.<br>
+Cette zone d'Ã©dition on peut la modifier par la langue souhaitez, dans notre cas la langue du message sera en franÃ§ais.<br>
+Concernant les messages figurant dans la partie en anglais, si au dÃ©but le message comence par une lettre en majuscule dans la partie Ã  traduire il doÃ®t figurer pareil et si ce mÃªme message <br>est suivi d'un autre mot qui commence par une majuscule, vous devez le mettre aussi, dans le cas contraire lors de l'exÃ©cution du message par le module complÃ©mentaire , cette action ne <br>sera pas  annoncer parfois dans la langue traduite.<br>
+Par exemple, s'il s'agit d'annoncer l'action  de un raccourci qui contient par exemple le message:  Select All vous le devez traduire comportant les lettres en majuscules: SÃ©lectionner Tout<br>
+si le mot tout est Ã©crit en minuscule au dÃ©but, ce message n'est pas annoncer dans la langue que nous sommes entrain de traduire.<br>
+Cela m'est arrivÃ© lorsque  j'ai traduit le module  complÃ©mentaire nommÃ©:<br>
 fakeClipboardAnouncement.nvda-addon<br>
 Heureusement, je me suis rendu compte...<br>
 N'oubliez pas que le message en anglais peut aussi comporter:  $d ou  $s etc.<br>
-Donc a l'heur de traduir il faut les placez selon le contexte du message traduit, sinon le module complémentaire reste inopérant!.<br>
-Faire une attention particulière à cela !<br>
-Si le message comporte au début ou a la fin un espace il faut que dans la traduction du message il figure aussi.<br>
+Donc a l'heur de traduir il faut les placez selon le contexte du message traduit, sinon le module complÃ©mentaire reste inopÃ©rant!.<br>
+Faire une attention particuliÃ¨re Ã  cela !<br>
+Si le message comporte au dÃ©but ou a la fin un espace il faut que dans la traduction du message il figure aussi.<br>
 Faire aussi attention avec les messages qui comportent des crochet ouvert ou fermer.<br>
-N'oubliez pas que La chaine traduite doit être semblable dans sa  structure à la chaine à traduire.<br>
+N'oubliez pas que La chaine traduite doit Ãªtre semblable dans sa  structure Ã  la chaine Ã  traduire.<br>
 <p>
 Astuce pour mieux traduire les messages:<br>
-Si vous voulez la version originale du message en anglais pour le mettre dans un logiciel de traduction par exemple,  vous devez faire Tab à nouveau.<br>
-Une fois fermer la zone d'édition<br>
+Si vous voulez la version originale du message en anglais pour le mettre dans un logiciel de traduction par exemple,  vous devez faire Tab Ã  nouveau.<br>
+Une fois fermer la zone d'Ã©dition<br>
 Vous devez appuyer sur le menu contextuelle ou touche Application<br>
-et chercher  l'élément:<br>
+et chercher  l'Ã©lÃ©ment:<br>
 Copiez depuis l'original.<br>
-Puis appuyez sur entrée.<br>
-Et le texte original en anglais apparaît:<br>
-par exemple le message  de la première ligne est:<br>
+Puis appuyez sur entrÃ©e.<br>
+Et le texte original en anglais apparaÃ®t:<br>
+par exemple le message  de la premiÃ¨re ligne est:<br>
 Opens a dialog containing the text of the currently focused window for easy review.<br>
-Il sera placez dans lazone où se trouve le message à traduire.<br>
-Le message de la deuxième ligne est:<br>
+Il sera placez dans lazone oÃ¹ se trouve le message Ã  traduire.<br>
+Le message de la deuxiÃ¨me ligne est:<br>
 Virtual Revision<br>
 Une fois que vous avez bien faites la traduction vous pouvez supprimer le texte du message en anglais dans cette zone puis vous mettez le message que vous venez juste de traduire dans <br>votre langue.<br>
 Remarque:<br>
-Dans les nouvelles versions de poedit cela n'est pas possible, car il est inaccessible la manipulation avec le menu contextuelle ou touche Application, pour copier le message original en <br>anglais dans la zone du message à traduire.<br>
-Donc, il vous reste que copiez le message original en anglais puis le coller dans la zone où se trouve le message a traduire, puis le coller aussi dans votre logiciel de traduction par <br>exemple.<br>
+Dans les nouvelles versions de poedit cela n'est pas possible, car il est inaccessible la manipulation avec le menu contextuelle ou touche Application, pour copier le message original en <br>anglais dans la zone du message Ã  traduire.<br>
+Donc, il vous reste que copiez le message original en anglais puis le coller dans la zone oÃ¹ se trouve le message a traduire, puis le coller aussi dans votre logiciel de traduction par <br>exemple.<br>
 Note:<br>
-Respecter les signes de ponctuation s'il y a un, à la fin du message par exemple sa peut-être un point final.<br>
+Respecter les signes de ponctuation s'il y a un, Ã  la fin du message par exemple sa peut-Ãªtre un point final.<br>
 Faire Tab, puis, vous entendrez le message original en anglais, suivi par le message traduit dans votre langue.<br>
-Faire la même procédure avec les autres lignes à traduire.<br>
-N'oubliez pas d'enregistrer votre travail par Contrôle+S!.<br>
+Faire la mÃªme procÃ©dure avec les autres lignes Ã  traduire.<br>
+N'oubliez pas d'enregistrer votre travail par ContrÃ´le+S!.<br>
 Si tout est bien fait, vous aurez dans mes documents les deux fichiers<br>
 nvda.mo<br>
 et<br>
 nvda.po<br>
-04.- Maintenant, nous créons le dossier de notre langue, exemple es (Espagnol), fr (Français), it (Italien), etc...<br>
-À l'intérieur de ce dossier, vous devez avoir créé un autre dossier nommé :<br>
+04.- Maintenant, nous crÃ©ons le dossier de notre langue, exemple es (Espagnol), fr (FranÃ§ais), it (Italien), etc...<br>
+Ã€ l'intÃ©rieur de ce dossier, vous devez avoir crÃ©Ã© un autre dossier nommÃ© :<br>
 LC_MESSAGES<br>
 qui contiendra vos fichiers traduits :<br>
 nvda.mo<br>
 nvda.po<br>
-Au même niveau du dossier:<br>
+Au mÃªme niveau du dossier:<br>
 LC_MESSAGES<br>
-où vous êtiez pour la première fois il se trouve le fichier <br>
+oÃ¹ vous Ãªtiez pour la premiÃ¨re fois il se trouve le fichier <br>
 manifest.ini.<br>
-Se fichier contient la traduction de la description du module complémentaire en Portugais.<br>
+Se fichier contient la traduction de la description du module complÃ©mentaire en Portugais.<br>
 N'oubliez pas de le traduire !<br>
-Vous pouvez le copier dans mes documents, par exemple et faire entrée sur lui, il s'ouvre avec le bloc-notes de Windows.<br>
+Vous pouvez le copier dans mes documents, par exemple et faire entrÃ©e sur lui, il s'ouvre avec le bloc-notes de Windows.<br>
 exemple:<br>
-summary = Revisão virtual<br>
-description = Revisão simples do texto da janela actual. Pressione nvda+control+w.<br>
+summary = RevisÃ£o virtual<br>
+description = RevisÃ£o simples do texto da janela actual. Pressione nvda+control+w.<br>
  <p>
-Ne pas traduire les instructions du début! <br>
+Ne pas traduire les instructions du dÃ©but! <br>
 <p>
 summary = <br>
 description = <br>
  <p>
-Respecter les signes de ponctuation s'il y a un à la fin du message par exemple sa peut-être un point final.<br>
+Respecter les signes de ponctuation s'il y a un Ã  la fin du message par exemple sa peut-Ãªtre un point final.<br>
 Note:<br>
-Je pense que comme c'est une copie cela doit être déjà codé sous forme UTF-8.<br>
-Il faut que se fichier soit codé sous forme UTF-8!!!!.<br>
-Maintenant que cela est traduit, vous devez coller votre fichier manifest.iniau même niveau où se trouve le dossier :<br>
+Je pense que comme c'est une copie cela doit Ãªtre dÃ©jÃ  codÃ© sous forme UTF-8.<br>
+Il faut que se fichier soit codÃ© sous forme UTF-8!!!!.<br>
+Maintenant que cela est traduit, vous devez coller votre fichier manifest.iniau mÃªme niveau oÃ¹ se trouve le dossier :<br>
 LC_MESSAGES<br>
-Vous avez maintenant votre dossier de votre langue presque prêt !<br>
-05.- Maintenant vous devez copier votre dossier de langue, que vous venez de créer, dans notre cas le dossier est nommé:<br>
+Vous avez maintenant votre dossier de votre langue presque prÃªt !<br>
+05.- Maintenant vous devez copier votre dossier de langue, que vous venez de crÃ©er, dans notre cas le dossier est nommÃ©:<br>
 fr<br>
-Mais avant cela, vous devez aller dans votre fichier qui contient le module complémentaire.<br>
+Mais avant cela, vous devez aller dans votre fichier qui contient le module complÃ©mentaire.<br>
 Exemple:<br>
 virtualRevision-1.2.nvda-addon.zip<br>
-Par précaution, faire une copie et gardez-le ailleurs par mesure de sécurité.<br>
-Trouver le dossier nommé :<br>
+Par prÃ©caution, faire une copie et gardez-le ailleurs par mesure de sÃ©curitÃ©.<br>
+Trouver le dossier nommÃ© :<br>
 locale<br>
-Faire entrée.<br>
-Maintenant vous pouvez copier votre dossier de langue que vous venez de créer, dedans se fichier.zip<br>
-Une fois que vous avez ajouté tout simplement le dossier correspondant à votre langue vous pouvez le renommer votre fichier :<br>
+Faire entrÃ©e.<br>
+Maintenant vous pouvez copier votre dossier de langue que vous venez de crÃ©er, dedans se fichier.zip<br>
+Une fois que vous avez ajoutÃ© tout simplement le dossier correspondant Ã  votre langue vous pouvez le renommer votre fichier :<br>
 virtualRevision-1.2.nvda-addon.zip<br>
 en:<br>
 virtualRevision-1.2.nvda-addon<br>
-06.- Pour vérifier votre traduction, vous pouvez l'installer dans nvda avec l'outil Gestionnaire de modules complémentaires...<br>
-Le Gestionnaire de modules complémentaires, accessible en sélectionnant "Gestion des Modules Complémentaires" dans le menu "Outils" du menu NVDA (NVDA+N).<br>
-Une fois ouverte cette boîte de dialogue rechercher le bouton "Ajouter" puis rechercher le module complémentaire sur votre ordinateur, puis une fois fait cela, appuyez sur le bouton <br>"Ouvrir", L'installation du module  complémentaire démarre.<br>
-Suivez les instructions à l'écran, ensuite NVDA doit redémarrer pour que le module complémentaire puisse être actif.<br>
-Vous pouvez aussi faire entrée sur le module complémentaire  comportant l'extention  .nvda-addon ceci dans les nouvelles versions de NVDA.<br>
-N'oubliez pas que pour installer un module complémentaire vous devez avoir votre lecteur d'écran NVDA en cours d'exécution!<br>
- 07.- Si tout s'est très bien passé graçe à mes explications vous pouvez partager cette tuto sur les listes dédier à NVDA!!!<br>
+06.- Pour vÃ©rifier votre traduction, vous pouvez l'installer dans nvda avec l'outil Gestionnaire de modules complÃ©mentaires...<br>
+Le Gestionnaire de modules complÃ©mentaires, accessible en sÃ©lectionnant "Gestion des Modules ComplÃ©mentaires" dans le menu "Outils" du menu NVDA (NVDA+N).<br>
+Une fois ouverte cette boÃ®te de dialogue rechercher le bouton "Ajouter" puis rechercher le module complÃ©mentaire sur votre ordinateur, puis une fois fait cela, appuyez sur le bouton <br>"Ouvrir", L'installation du module  complÃ©mentaire dÃ©marre.<br>
+Suivez les instructions Ã  l'Ã©cran, ensuite NVDA doit redÃ©marrer pour que le module complÃ©mentaire puisse Ãªtre actif.<br>
+Vous pouvez aussi faire entrÃ©e sur le module complÃ©mentaire  comportant l'extention  .nvda-addon ceci dans les nouvelles versions de NVDA.<br>
+N'oubliez pas que pour installer un module complÃ©mentaire vous devez avoir votre lecteur d'Ã©cran NVDA en cours d'exÃ©cution!<br>
+ 07.- Si tout s'est trÃ¨s bien passÃ© graÃ§e Ã  mes explications vous pouvez partager cette tuto sur les listes dÃ©dier Ã  NVDA!!!<br>
 Via Dropbox o Wuala ou un autre!.<br>
 <p>
-<h1>Liens utiles rélatif à Poedit donné par notre ami Richard:</h1>
+<h1>Liens utiles rÃ©latif Ã  Poedit donnÃ© par notre ami Richard:</h1>
 <BLOCKQUOTE>
-Voici quelques réponses, dont une marche à suivre de "Comment ça marche".<br>
-Propos wikipédien:<br>
+Voici quelques rÃ©ponses, dont une marche Ã  suivre de "Comment Ã§a marche".<br>
+Propos wikipÃ©dien:<br>
 <a href="http://fr.wikipedia.org/wiki/PoEdit" target ="_blank">http://fr.wikipedia.org/wiki/PoEdit</a>
-Pour télécharger l'application:<<br>
+Pour tÃ©lÃ©charger l'application:<<br>
 <a href="http://wpchannel.com/poedit-outil-traduction-themes-plugins-wordpress/" target ="_blank">http://wpchannel.com/poedit-outil-traduction-themes-plugins-wordpress/</a>
 Petit tuto rapide:<br>
 <a href="http://quick-tutoriel.com/traduire-facilement-theme-wordpress-poedit/" target ="_blank">http://quick-tutoriel.com/traduire-facilement-theme-wordpress-poedit/</a>
 <a href="http://wpchannel.com/poedit-outil-traduction-themes-plugins-wordpress/" target ="_blank">http://wpchannel.com/poedit-outil-traduction-themes-plugins-wordpress/</a>
 <a href="http://www.guillaumevoisin.fr/tutoriels/comment-traduire-un-theme-ou-plugin-wordpress-avec-poedit" target ="_blank">http://www.guillaumevoisin.fr/tutoriels/comment-traduire-un-theme-ou-plugin-wordpress-avec-poedit</a>
 <a href="http://www.commentcamarche.net/faq/6326-traduire-un-logiciel-open-source-poedit" target ="_blank">http://www.commentcamarche.net/faq/6326-traduire-un-logiciel-open-source-poedit</a>
-Avec ça, tu devrais pouvoir t'essayer à la traduction d'applications, mais une tuto complet ne semble pas exister.
+Avec Ã§a, tu devrais pouvoir t'essayer Ã  la traduction d'applications, mais une tuto complet ne semble pas exister.
 </BLOCKQUOTE>
 <p>
-<h1>Tutoriels à lire:</h1>
-Vous pouvez aussi consulter la tuto nommé:<br>
-<a href="https://blindhelp.github.io/Creation d'un fichier pot avec Poedit.html" target ="_blank">Création d'un fichier pot avec Poedit</a><br>
+<h1>Tutoriels Ã  lire:</h1>
+Vous pouvez aussi consulter la tuto nommÃ©:<br>
+<a href="https://blindhelp.github.io/Creation d'un fichier pot avec Poedit.html" target ="_blank">CrÃ©ation d'un fichier pot avec Poedit</a><br>
 Vous pouvez aller consulter aussi:<br>
-<a href="https://blindhelp.github.io/A propos de la traduction des modules complementaire.html" target ="_blank">A propos de la traduction des modules complémentaire et comment faire pour le transférer à la Communauté (pour développeurs et traducteurs).</a><br>
-Ici vous trouverais des informations très intéressant à  se sujet.<br>
+<a href="https://blindhelp.github.io/A propos de la traduction des modules complementaire.html" target ="_blank">A propos de la traduction des modules complÃ©mentaire et comment faire pour le transfÃ©rer Ã  la CommunautÃ© (pour dÃ©veloppeurs et traducteurs).</a><br>
+Ici vous trouverais des informations trÃ¨s intÃ©ressant Ã   se sujet.<br>
 <p>
-Vous pouvez aussi lire un excellent article fait récemment par notre ami Daniel par ici:<br>
+Vous pouvez aussi lire un excellent article fait rÃ©cemment par notre ami Daniel par ici:<br>
 <a href="http://angouleme.avh.asso.fr/fichesinfo/fiches_nvda/logiciels_divers/poedit.htm" target ="_blank">Traduction d'un module NVDA avec Poedit</a>
-Dans cette même page vous trouverez un lien de téléchargement vers le module PoeditMadeEasy signalé par mes soins sur la liste ALLOS.<br>
-Cet article décrit plus largement certains détails qui n'ont pas été décrits dans mes tutoriels<br>
+Dans cette mÃªme page vous trouverez un lien de tÃ©lÃ©chargement vers le module PoeditMadeEasy signalÃ© par mes soins sur la liste ALLOS.<br>
+Cet article dÃ©crit plus largement certains dÃ©tails qui n'ont pas Ã©tÃ© dÃ©crits dans mes tutoriels<br>
 <p>
-Voici la page en anglais où on peut trouver le module complémentaire poeditMadeEasy, ainsi que les informations rélatif au module complémentaire décrit par l'auteur et aussi le code source:<br>
+Voici la page en anglais oÃ¹ on peut trouver le module complÃ©mentaire poeditMadeEasy, ainsi que les informations rÃ©latif au module complÃ©mentaire dÃ©crit par l'auteur et aussi le code source:<br>
 <a href="https://github.com/dhankuta/poeditMadeEasy" target ="_blank">https://github.com/dhankuta/poeditMadeEasy</a>
 <p>
 <h1>Remerciement:</h1>
-Mille merci à nos amis Patrick ZAJDA, Michel SUCH, Paul B, Daniel Poiraud  et tous les autres amis pour les informations qu'ils m'ont donné soit en perso ou via la liste ALLOS, qui ma servi de base pour réaliser ce tutoriel.<br>
+Mille merci Ã  nos amis Patrick ZAJDA, Michel SUCH, Paul B, Daniel Poiraud  et tous les autres amis pour les informations qu'ils m'ont donnÃ© soit en perso ou via la liste ALLOS, qui ma servi de base pour rÃ©aliser ce tutoriel.<br>
 <p>
 Voila!<br>
-J'espère que cette tuto vous serve!.<br>
-Vous pouvez partager cette tuto sur les listes dédier à NVDA!!!<br>
+J'espÃ¨re que cette tuto vous serve!.<br>
+Vous pouvez partager cette tuto sur les listes dÃ©dier Ã  NVDA!!!<br>
 Via Dropbox o Wuala ou un autre!.<br>
 Enjoy!<br>
 @+!<br>
-Rémy Ruiz (BlindHelp).<br>
+RÃ©my Ruiz (BlindHelp).<br>
 </body>
 <html>

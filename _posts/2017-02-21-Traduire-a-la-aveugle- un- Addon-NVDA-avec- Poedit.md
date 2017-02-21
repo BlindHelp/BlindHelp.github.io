@@ -22,12 +22,12 @@ Je vous souhaite une bonne lecture ainsi qu'un bon apprentissage.
 
 ### Remerciement:
 
-Mille merci à nos amis Patrick ZAJDA, Michel SUCH, Paul B, Daniel Poiraud  et tous les autres amis pour les informations qu'ils m'ont donné soit en perso ou via la liste ALLOS, qui ma servi de base pour réaliser ce tutoriel.
+Mille merci à nos amis Patrick ZAJDA, Michel SUCH, Paul B, Daniel Poiraud  et tous les autres amis pour les informations qu'ils m'ont donné soit en perso ou via la liste ALLOS, qui ma servi de base pour réaliser ce tutoriel. 😉              
 
-Voila!
-J'espère que cette tuto vous serve!.
-Vous pouvez partager cette tuto sur les listes dédier à NVDA!!!
-Via Dropbox o Wuala ou un autre!.
-Enjoy!
+Voila!             
+J'espère que cette tuto vous serve!. 😀             
+Vous pouvez partager cette tuto sur les listes dédier à NVDA!!!            
+Via Dropbox o Wuala ou un autre!.               
+Enjoy!          :)
 Arobamicalement à vous.  
 BlindHelp!            
