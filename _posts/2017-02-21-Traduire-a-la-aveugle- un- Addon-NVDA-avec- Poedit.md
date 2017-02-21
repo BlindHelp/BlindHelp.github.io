@@ -28,6 +28,6 @@ Voila!
 J'espère que cette tuto vous serve!. 😀             
 Vous pouvez partager cette tuto sur les listes dédier à NVDA!!!            
 Via Dropbox o Wuala ou un autre!.               
-Enjoy!          :)
-Arobamicalement à vous.  
+Enjoy!          :)              
+Arobamicalement à vous.          
 BlindHelp!            
