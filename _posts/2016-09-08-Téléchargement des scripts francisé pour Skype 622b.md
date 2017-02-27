@@ -7,11 +7,13 @@ author: BlindHelp
 <footer>Dernière mise à jour le 08.09.2016.</footer>
 
 
+### Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp ###
 * Scripts Skype 622b Révision 969  Dernière mise à jour le 8 septembre 2016
 * Scripts traduit en français pour le programme de téléphonie Skype par internet  
 Les présents scripts on été tester avec:  
-* JAWS 13.0 et 15.0).  
+* JAWS 13.0, 15.0 et 16.0).  
 Puis les suivantes versions de Skype™:  
+* Skype™ Version 7.31.0.104
 * Skype™   Version 7.16.0.102
 * Skype™ Version 7.4.80.102
 * Skype™ Version 7.0.0.102 
@@ -20,7 +22,7 @@ Puis les suivantes versions de Skype™:
 * Skype™ Version 6.22.81.104
 * Script compatible avec JAWS 12.0 et ultérieur (inclus JAWS 15.0,  16.0, 17.0 et 18.0)
 
-### Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp ###
+# Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp #
 Coucou mes amis du blog de BlindHelp!  
 voici les derniers scripts en date traduits et adaptés en Français par Daniel Poiraud et moi-même.  
 
@@ -166,8 +168,8 @@ Les autres5 fichiers wav:
 Ils ont été déplacés à la racine où se trouvent les autres scripts                  qui sont déjà intégrés puis  francisé pour Skype 622b révision 969 du 8 septembre 2016.                   
 Voir les informations à ce sujet ci-dessous.                        
 
-*   Et enfin nous avons compilé tous les scripts et apparemment ils fonctionne bien avec Skype™ Version 7.16.0.102  
-et versions ultérieures.  
+*   Et enfin nous avons compilé tous les scripts et apparemment ils fonctionne bien avec Skype™ Version 7.31.0.104   
+et peut-être dans des versions ultérieures.  
 
     Fin des changements pour les scripts francisé pour Skype 622b révision 969 du 8 septembre 2016.  
 
@@ -175,10 +177,11 @@ A savoir que dans le site anglophone il y a la même révision 969 datant du 8 s
 pour une utilisation avec la version anglaise de JAWS 12 à 18 (et peut-être ultérieure).  
 Ceci fonctionne uniquement avec  les suivantes versions de Skype™:  
 
-* Skype™   Version 7.16.0.102
+* Skype™ Version 7.31.0.104 
+* Skype™ Version 7.16.0.102
 * Skype™ Version 7.4.80.102
 * Skype™ Version 7.0.0.102 
-* Skype™   Version 6.22.0.107
+* Skype™ Version 6.22.0.107
 * Skype™ Version 6.22.81.105
 * Skype™ Version 6.22.81.104
 * Script compatible avec JAWS 12.0 et ultérieur (inclus JAWS 15.0, 16.0, 17.0 et 18.0)  
@@ -188,6 +191,7 @@ Pour les versions de Skype™ Version 6.18.0.106 ou ultérieures s'il vous plaî
 [JAWS Scripts For Skype 6.x (page en anglais):](http://www.dlee.org/skype/)                           
 
 # Les nouveau scripts sont seulement compatibles avec: #
+* Skype™   Version 7.31.0.104
 * Skype™   Version 7.16.0.102
 * Skype™ Version 7.4.80.102
 * Skype™ Version 7.0.0.102 
@@ -204,17 +208,34 @@ Attention!!! Pour connaître la version de Skype™ installé sur votre ordinate
 deux fois rapidement vous aurais les même informations et vous pouvez le lire mieux à l'aide des flèches gauche ou droite, appuyez sur ECHAP pour quitter  
 cette fenêtre.
 
-# Installation des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp #
-Une fois que vous avez télécharger puis décompresser le fichier nommé:  
-skype-6.22b-j12a18-jawsscript-Fr.zip  
-Celui-ci contient tout les scripts à placer manuelment dans votre version de JAWS installer (12 à 18).  
-dans vos paramètres personnels  
-NON dans vos paramètres partagés!!!  
-Les scripts ils faut les placez dans unsous-dossier de nom FRA, de votre dossier Utilisateur.  
-Pour cela copiez l'ensemble de ces fichiers dans le presse-papier.  
-Ouvrez le dossier des paramètres personnels pour votre version de Jaws. Collez les fichiers. Les scripts seront désormais utilisables par Jaws, lorsque  
-vous ouvrez le programme   
+# Installation scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp via l'installateur de scripts JoAd de Lavakri #
+Comme d'hab notre ami Daniel Poiraud nous à concocter l'installation des présents Scripts Skype version 622b révision 969 francisé MAJ 8 septembre 2016 sous
+forme installable.             
+Merci à lui!!!                
+Une fois que vous avez télécharger puis décompresser le fichier nommé:              
+skype-7-j12a18-jawsscript-622b.zip                   
+Vous y trouverez un fichier exécutable, faites entrée sur lui, puis suivez les instructions à l'écran.                        
+S'aider avec la touche tab pour se déplacer.                             
+Nom de l'installateur:                     
+skype-7-j12a18-jawsscript-622b.exe                           
+Celui-ci  va à installer tout les scripts    dans votre version de JAWS installer (12 à 18).             
+dans vos paramètres personnels                    
+Ne pas oublier que  celui-ci est seulement compatible pour les personnes ayant installer un Jaws 12.0 à 18.0.                  
+Les scripts seront désormais utilisables par Jaws, lorsque  vous ouvrez le programme      
+Voir le lien de téléchargement ci-dessous.                  
 
+# Installation manuelle des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp #
+Une fois que vous avez télécharger puis décompresser le fichier nommé:                     
+skype-6.22b-j12a18-jawsscript-Fr.zip                
+Celui-ci contient tout les scripts à placer manuelment dans votre version de JAWS installer (12 à 18).                         
+dans vos paramètres personnels            
+NON dans vos paramètres partagés!!!                
+Les scripts ils faut les placez dans unsous-dossier de nom FRA, de votre dossier Utilisateur.                
+Pour cela copiez l'ensemble de ces fichiers dans le presse-papier.                
+Ouvrez le dossier des paramètres personnels pour votre version de Jaws. Collez les fichiers. Les scripts seront désormais utilisables par Jaws, lorsque vous ouvrez le programme               
+Voir le lien de téléchargement ci-dessous.                  
+
+* Skype™ Version 7.31.0.104
 * Skype™   Version 7.16.0.102
 * Skype™ Version 7.4.80.102
 * Skype™ Version 7.0.0.102 
@@ -231,9 +252,6 @@ Sous XP:
 
 Vous pouvez utiliser les chemins d'accès dans l'explorateur de fichiers, mais il est plus simple d'ouvrir le menu Démarrer, puis de sélectionner successivement  
 "Tous les programmes", "Jaws x.y", "Explorer Jaws", "Explorer mes paramètres".  
-
-Remarques Très Importante par BlindHelp!                  
-À savoir, qu'il n'y a pas d'installateur pour installer les présents scripts francisé pour Skype 622b révision 969 du 8 septembre 2016, car il y a eu de nombreux problèmes détectés lors de l'installation  de ces scripts via un programme d'installation de scripts.                        
 
 # A propos des mises à jour de Skype #
 Dans le menu Outils/options, on peux trouver une rubrique relative aux mises à jour automatiques.  
@@ -342,12 +360,48 @@ Si vous utiliser l'installateur de scripts américain,  il va modifier le fichie
 
 # Pour télécharger les Scripts Skype 622b Revision 969 francisé MAJ  8 septembre  2016 #
 Voici donc la nouvelle mouture conçue pour les versions actuelles de Skype et compatibles de JAWS 12 à 18, lien permanent pointant vers mon espace GitHub dont   je vous fait profiter. 😊                    
+
+# Scripts avec installateur #
+[Les Scripts avec installateur, Depuis l'espace de BlindHelp via GitHub, c'est par la!](https://blindhelp.github.io/skype-7-j12a18-jawsscript-622b.zip)                         
 Le tout tout zippé par précaution pour les anti-virus.                   
+Nom du fichier:  
+skype-7-j12a18-jawsscript-622b.zip                        
+
+Remarques Très Importante by BlindHelp!                   
+C'est probable que votre Antivirus vous indique que le présent archive zip que vous essayez de télécharger, ou que l'installateur de scripts de notre ami Lavakri lorsque vous l'exécuter, contient un virus !                
+Cela se produit si l'on utilise par exemple l'antivirus appelé:                  
+Microsoft Security Essentials(MSE)                          
+ou si vous utilisez   tout autre antivirus qui vous donne une fausse alerte!!!               
+En disant qu'il s'agit d'un virus!!! Mais bien sûr que non, celui-ci n'est pas un Virus!!!                      
+C'est tout simplement un faux positif!!!!!                   
+Définition : un faux positif est une erreur de jugement d'un programme de détection, qui va réagir et renvoyer une alerte alors qu'il n'y a pas lieu de le faire.                   
+A savoir que les présents scripts en archive zip ou que l'installateur en .exe ne contient pas de virus!                    
+Je persiste et signe que c'est un faux positif!!!!!                       
+- Allons ! vous devez autoriser son exécution indubitablement!!!!                  
+Sur tout qui vient d'une source fiable!!!                  
+Alors ! qi commmande ici !
+
+# Scripts sans installateur #
 [Les Scripts sans installateur, Depuis l'espace de BlindHelp via GitHub, c'est par la!](https://blindhelp.github.io/skype-6.22b-j12a18-jawsscript-Fr.zip)                         
+Le tout tout zippé par précaution pour les anti-virus.                   
 Nom du fichier:  
 skype-6.22b-j12a18-jawsscript-Fr.zip  
 
-S'il vous plaît utilisez toujours  le même liens pour télécharger les Scripts dans leur dernière version. Merci.                   
+Remarques Très Importante by BlindHelp!                   
+C'est probable que votre Antivirus vous indique que le présent archive zip que vous essayez de télécharger, ou que l'installateur de scripts de notre ami Lavakri lorsque vous l'exécuter, contient un virus !                
+Cela se produit si l'on utilise par exemple l'antivirus appelé:                  
+Microsoft Security Essentials(MSE)                          
+ou si vous utilisez   tout autre antivirus qui vous donne une fausse alerte!!!                     
+En disant qu'il s'agit d'un virus!!! Mais bien sûr que non, celui-ci n'est pas un Virus!!!                      
+C'est tout simplement un faux positif!!!!!                   
+Définition : un faux positif est une erreur de jugement d'un programme de détection, qui va réagir et renvoyer une alerte alors qu'il n'y a pas lieu de le faire.                   
+A savoir que les présents scripts en archive zip ou que l'installateur en .exe ne contient pas de virus!                    
+Je persiste et signe que c'est un faux positif!!!!!                       
+- Allons ! vous devez autoriser son exécution indubitablement!!!!                  
+Sur tout qui vient d'une source fiable!!!                  
+Alors ! qi commmande ici !
+
+S'il vous plaît utilisez toujours  les mêmes liens pour télécharger les Scripts dans leur dernière version. Merci.                   
 
 Remarque très Importante par BlindHelp!                     
 Si vous avez installé une version antérieure de ces scripts, vous devez au préalable supprimer manuellement de vos paramètres utilisateur de JAWS (Explorer
@@ -361,10 +415,23 @@ Vous pouvez  supprimer  aussi Les autres5 fichiers wav:
 "SkypeTyping3.wav"            
 "SkypeTyping4.wav"           
 "SkypeTyping5.wav"              
-Pour éviter d'avoir ces fichiers en doubles dans les paramètres utilisateur de JAWS lors de l'installation   manuelle de ces scripts.                       
+Pour éviter d'avoir ces scripts/fichiers en doubles dans les paramètres utilisateur de JAWS lors de l'installation si vous utiliser l'installateur des scripts de Lavakri ou si vous le faites manuellement.
 
 # Module SkypeWatch #
 Si vous avez installé le module SkypeWatch et s'il fonctionne bien, sauter cette étape!                   
+Voir le lien de téléchargement de l'installateur de SkypeWatch ci-dessous                   
+
+# L'installateur de SkypeWatch #
+C'est une version personnalisée par Seb, de l'installateur de scripts JoAd de Lavakri. Dans la deuxième fenêtre, vous pourrez choisir, au moyen d'une liste        
+déroulante, d'installer les fichiers avec ou sans sauvegarde des anciens fichiers, de copier les fichiers dans un dossier, mais aussi de désinstaller SkypeWatch          
+avec l'option "Retirer l'association du default.jss".                   
+
+Si aucune modification n'a été faite précédemment sur le fichier default.jss, il modifie le fichier default.jss original, qu'il sauvegarde dans les paramètres            
+personnels.                  
+
+Si vous avez déjà modifié le ficher default.jss, la version modifiée se trouve dans les paramètres personnels. C'est cette version personnalisée que l'installateur                   
+modifiera. Ainsi, vous ne perdrez pas les modifications antérieures.                       
+
 Pour les personnes qui souhaite avoir SkypeWatch le plus simple est d'utiliser l'installeur de Seb que l'on trouve en téléchargement dans les fiches de Daniel.                    
 [Installateur du module SkypeWatch:](http://angouleme.avh.asso.fr/fichesinfo/fiches_jaws/divers_data/skypewatch.zip)                    
 Nom du fichier à télécharger:              
@@ -373,16 +440,201 @@ Vous devez décompresser le fichier et recherchez le fichier appelé
 SkypeWatch.exe                
 puis l'exécuter et de suivre la procédure d'installation en
 conservant les choix par défaut.                 
+Donc, ne pas oublier que:                 
 Si un jour vous souhaitez désinstaller le SkypeWatch.jsb vous exécutez à
 nouveau ce fichier et au deuxième écran vous sélectionnez "Retirer
 l'association du Default.JSS".                      
 Merci a notre ami Seb!          
 
-Remarques Très Importante par BlindHelp!                  
-À savoir, qu'il n'y a pas d'installateur pour installer les présents scripts francisé pour Skype 622b révision 969 du 8 septembre 2016, car il y a eu de nombreux problèmes détectés lors de l'installation  de ces scripts via un programme d'installation de scripts.                        
+# Vous ne désirez pas utiliser SkypeWatch. #
+Il vous suffit alors d'installer seulement le script qui est compatible avec les versions de Jaws 12.0 à 18.0.           
+
+# Vous désirez utiliser SkypeWatch. #
+Installez d'abord le script correspondant à votre version de Jaws soit pour la version 12.0 ou ultérieur, puis suivez la procédure décrite ci-dessus.                  
+
+# Installation de SkypeWatch avec l'installateur. #
+Activez le fichier skypewatch.exe, et suivez les indications fournies dans les fenêtres de l'Assistant. Si l'installation s'est bien déroulée, vous pourrez              
+vérifier le bon fonctionnement de SkypeWatch, en frappant Alt +Maj +F9. Vous devrez entendre un message concernant SkypeWatch.                    
+
+Attention. Le plus souvent s'il s'agit d'une première modification du fichier default.jss, vous pouvez être averti d'une erreur de compilation. Si c'est                 
+le cas, procédez ainsi:                
+
+1. Ouvrez l'éditeur de script par le menu Utilitaires, item "Éditeur de script", de la fenêtre de Jaws. Le fichier ouvert est default.jss. Frappez Ctrl+S                 
+pour sauvegarder et compiler le fichier.                       
+2. Une boite de message vous avertit d'une erreur de compilation. Frappez Entrée pour fermer la boite de message. Le curseur se place au début de la ligne                         
+comportant l'erreur. Cette ligne est:                        
+`let nIndex = DlgSelectItemInList(sList, WordListDlgTitle, FALSE, 1,WordListCustomButtons,iButton)`                       
+Modifiez cette ligne en frappant parenthèse fermé, espace et point virgule, après le chiffre 1. Le point virgule permet de désactiver le reste de la ligne.                                
+La ligne est devenue:                    
+`let nIndex = DlgSelectItemInList(sList, WordListDlgTitle, FALSE, 1) ;,WordListCustomButtons,iButton)`                    
+3. Frappez Ctrl +S pour sauvegarder et compiler le fichier. Vérifiez en frappant Alt +Maj +F9, que SkypeWatch fonctionne.                          
+
+# Installation manuelle de SkypeWatch. #
+1. Ouvrez l'éditeur de script par le menu Utilitaires, item "Éditeur de script", de la fenêtre de Jaws. Le fichier ouvert est default.jss.                       
+2. Frappez une trentaine de fois Flèche bas, jusqu'à la dernière ligne commençant par "use". Frappez Flèche fin, puis Entrée pour créer une nouvelle ligne,                
+où vous taperez ou collerez la ligne:                    
+`use "skypewatch.jsb"`                        
+Frappez Ctrl +S pour sauvegarder et compiler le fichier.                          
+3. Si vous obtenez une erreur de compilation, modifiez la ligne                  
+`let nIndex = DlgSelectItemInList(sList, WordListDlgTitle, FALSE, 1,WordListCustomButtons,iButton)`                     
+en:                           
+`let nIndex = DlgSelectItemInList(sList, WordListDlgTitle, FALSE, 1) ;,WordListCustomButtons,iButton)`                 
+comme indiqué ci-dessus.                  
+4. Frappez Ctrl +S pour sauvegarder et compiler le fichier. Vérifiez en frappant Alt +Maj +F9, que SkypeWatch fonctionne.                         
+
+Voici à peu près la même procédure indiquer ci-dessus pour l'installation manuelle de SkypeWatch.                       
+
+# Configuration manuel de SkypeWatch: #
+1. Vous cliquez depuis n'importe quelle fenêtre sur les touches Insert + 0 puis les touches Ctrl + Maj D pour ouvrir le fichier par défaut des scripts                       
+de Jaws                 
+2. Rechercher avec flèche bas n'importe quel des lignes contenant au début use, par exemple:                          
+`use "HomeRowMSAA.jsb"`          
+Astuce: Pour trouver les lignes plus rapidement, vous pouvez utiliser la boîte de dialogue pour rechercher du texte en apuyant sur Ctrl + F.                         
+3. Tappez ensuite le mot                       
+use                       
+et puis appuyez sur entrée une fois                    
+et enfin appuyez sur ECHAP pour fermer la boîte de dialogue rechercher du texte.                          
+4. Placez le curseur sur la première ligne qui a été trouver pendant la recherche.                    
+5. Puis appuyez sur la touche Origine, et appuyez sur entrée pour créer une ligne vide.                              
+6. Appuyez ensuite une fois sur flèche haut pour placer le curseur sur cette ligne et vous ajoutez ou collez là ce qui suit:                             
+`use "skypewatch.jsb"`                  
+7. Ensuite appuyez sur Ctrl + S, pour compiler le fichier par défaut.                 
+8. Appuyez sur Alt + F4 pour fermer le fichier.                          
+
+# Instructions pour activer skypewatch dans skype 7.xx #
+Autres procèdures pour installer SkypeWatch manuellement:                        
+Si le module SkypeWatch ne fonctionne pas malgret qu'il est actif...                
+Même s'il est installer avec l'installateur SkypeWatch.                           
+Utiliser cette procèdure si vous êtes familier avec la manipulation des scripts de Jaws!!!                     
+
+1. Prendre le fichier default.jsb qui se trouve dans les paramètres partagés, c'est-à-dire du Menu demmarer, Programes sous-menu, Jaws xxx sous menu, explorer                
+JAWS sous menu, Explorer les paramètres partagés.                    
+2. Ensuite le copier dans Explorer mes paramètres puis le renommé par default_fs.jsb                       
+3. ensuite, depuis n'importe quelle fenêtre appuyer insert+0 pour ouvrir le gestionnaire des scripts, ici on appui sur CTRL+n, pour créer un nouveau script.                        
+4. Sélectionner fichier source "jss", et appuyer sur entrer.                      
+5. Copier le code exactement comme il est écrit ici, inclus les guillemet:               
+`use "default_fs.jsb"`                    
+`void function _filler()`                  
+`return`                     
+`endFunction`                    
+6. Ensuite appuyer Ctrl+S pour enregistrer, et nommé le fichier par default.jss                     
+7. finalement, en bas de la ligne qui commence avec use, on écrit:                 
+`use "SkypeWatch.jsb"`              
+8. Et on appui une autre fois sur Ctrl+S. Ensuite Jaws nous dit que le script à été bien compiler . Maintenant on ferme le gestionnaire avec Alt+F4.                         
+9. Prêt, Skype Watch est activée!, s'il ne s'exécute pas automatiquement, cochez les options de skype avec insert + v.                           
+
+# Voici une deuxième procèdure par notre ami Daniel Poiraud. #
+Installation du module SkypeWatch.               
+Ce module permet de faire dire par Jaws quel contact se connecte, quelle que soit l'application active. Il faut donc modifier le fichier default.JSS.                       
+
+Principe de la méthode utilisée. Le fichier default.JSS est primordial pour le bon fonctionnement de Jaws. Par sécurité, si vous le compilez par Ctrl +S,                      
+même si vous le l'avez pas modifié, Jaws en fait une copie dans vos fichiers personnels, et c'est cette copie qui est utilisée. Si vous supprimez la copie,                
+Jaws utilise à nouveau le fichier default.JSS dans les fichiers partagés.                          
+
+1. Frappez Insert +a accent grave pour ouvrir l'éditeur de scripts, puis Ctrl +Maj +D. Ceci ouvre le fichier default.JSS. S'il n'a jamais été modifié, c'est celui qui se trouve dans les fichiers partagés, sinon, c'est celui de vos fichiers personnels.                 
+2. Faites une recherche sur l'expression "Const", à partir du début du fichier. A la première occurrence, le curseur se trouve sur une ligne contenant                      
+seulement le mot Const. Frappez Flèche haut. Jaws annonce "Vide". Vous pourriez vérifier que la ligne au-dessus commence par "use". Faites un copier-coller de la                       
+ligne suivante:                   
+`use "skypewatch.jsb"`               
+3. Frappez Entrée pour créer une ligne vide avant la ligne Const.                
+4. Déplacez-vous maintenant à la fin du fichier par Ctrl +Fin. Frappez Entrée pour créer une ligne. 
+Faites un copier-coller des 3 lignes suivantes:                 
+`void function _filler()`              
+`return`                         
+`endFunction`                                      
+5. Compilez le fichier par Ctrl +S. Fermez l'éditeur de scripts. L'installation est terminée. Vous pourrez vérifier que le dossier fra des fichiers personnels                    
+contient bien les fichiers default.JSS et default.JSB.                
+Mais on ne sais jamais il se peut que on peut fair une mauvaise manipulation, et Jaws cesse de fonctionner!!!                      
+Voir la procèdure décrite ci-dessous!                                  
+
+# Jaws version 12.0 ou peut-être ultérieur et la procédure de récupération ci-dessous. #
+La procédure suivante a bien fonctionnée, testée et signalée par Roy Nickelson sur la liste des scripts anglophone pour les scripts de Skype.                         
+Merci beaucoup à Roy pour cela. Cette procédure s'applique si Jaws cesse de fonctionner en raison d'une erreur dans la procédure d'installation du module               
+Skypewatch dans la version de Jaws 12.0 ou version ultérieure suite a l'installation décrit ci-dessus.                    
+Note importante! Cette procédure a été appliquée dans les version de JAWS en anglais et dans un systèmes d'exploitation sous XP, en utilisant la voix de                 
+SAM (Narrator) en anglais.                      
+
+1. Tapez Windows+U pour exécuter Microsoft Narrator, donc vous aurez la voix au cours de cette procédure. Si Windows+U ne fonctionne pas sur votre système                     
+(rare mais possible problème), plutôt Tapez Windows+R, puis le mot Narrator, puis entrez.                         
+Pour ma part je conseil plutot de Tapez Windows+R, puis le mot Narrator, puis entrez.                         
+Cette commande Sa fonctionne aussi dans W7.                         
+2. Tapez Windows+R, puis le mot JAWS12 ou JAWS15 si vous avez une version en anglais de JAWS ou la commande appropriée pour votre version de JAWS, puis                
+entrez.                    
+Pour les personnes ayant un JAWS en français, Tapez Windows+R, puis le mot JAWS12 ou JAWS13 ou JAWS14                       
+selon la version de votre JAWS qui a été en cours d'exécution jusqu'à ce qui a cessé de fonctionner puis entrez.                           
+Parce que Jaws est déjà en cours d'exécution, il sera afficher le menu contextuel pour Jaws plutôt que de l'exécuter à nouveau.                      
+3. Appuyez sur Alt+Maj+F4. Cela fera apparaître la boîte de dialogue "Quitter JAWS?". "maj" cette partie de la commande s'obtient a travers d'un possible                    
+script attaché par un simple Alt+F4.                              
+4. Appuyez sur entrée pour fermer Jaws. Le clavier sera désormais pleinement utilisable.                         
+5. Lancer le dossier paramètres de l'utilisateur en allant dans le menu Démarrer, puis tous les programmes, puis votre version de JAWS, puis explorer Jaws                 
+et enfin Explorer mes paramètres.                   
+Veillez à utiliser Explorer mes paramètres, pas les paramètres partagés!!!.                         
+6. Dans le dossier qui vient de s'ouvrir, il faut supprimer le fichier default.jsb. Cela rétablira le comportement par défaut de JAWS.                        
+7. Pour fermez le Narrator faire Alt+Tab jusqu'à la fenêtre de celui-ci et en appuyant sur Alt + F4.                            
+Sous un W7 faire Tab jusq'à trouver le bouton "Quitter" puis entrée.                          
+Une boite de dialogue s'affiche comme message:                   
+Arrêt du Narrateur                    
+Voulez-vous vraiment quitter le Narrateur ?               
+Nous avons deux boutons: Oui Non            
+Tab jusq'au bouton Oui puis entrée.                     
+8. Redémarrer JAWS dans votre mode normal.                             
+
+# Désinstallation du script SkypeWatch. #
+1. Désinstallation de SkypeWatch. Si vous avez utilisé l'installateur de SkypeWatch, ré-utilisez le, et sélectionnez dans la deuxième fenêtre "Retirer                               
+l'association du default.jss".                                 
+2. Si non, ouvrez le fichier default.jss dans l'éditeur de scripts, et supprimez la ligne                          
+`use "skypewatch.jsb"`                       
+
+#Désinstallation du reste du script. #
+1. Ouvrez le dossier des paramètres personnels, et supprimez tous les fichiers commençant par "skype". quelque soit l'extension. Il y en a plus d'une vingtaine.                               
+Si vous ne voulez pas réinstaller ce script, vous supprimerez également les 5 fichiers sons, qui se trouvent dans le dossier "Sounds" de ce dossier des paramètres personnels. Ce sont: Skypetyping1.wav, Skypetyping2.wav, Skypetyping3.wav, Skypetyping4.wav et Skypetyping5.wav.                               
+Dans le cas où vous aurais ces fichiers wav installés dans ce dossier lors d'une précédente installation (y compris le fichier MkcsExit.wav).                              
+
+# Liste des scripts installer en utilisant l'installateur de scripts de notre ami Lavakri ou si vous les avez incorporés manuellement. #
+Voicie la liste des Scripts et fichiers wav dans le dossier fra ; fichier installer avec l'installateur des scripts ou mis manuellement):                      
+- Skype.Jcf             
+- Skype.Jdf                      
+- Skype.Jgf                         
+- Skype.Jkm                        
+- Skype.Jsb                       
+- Skype.- Jsd                   
+- Skype.Js- h                  
+- Skype.Jsm                       
+- Skype.Jss                  
+- Skype_compat.Jsb                        
+- Skype_compat.Jsd                   
+- Skype_compat.Jss                  
+- Skype_jcpdict.Jsb                      
+- Skype_jcpdict.Jsd                   
+- Skype_jcpdict.Jsm                      
+- Skype_jcpdict.Jss                            
+- Skypecomp.Bat                   
+- Skypetyping1.Wav            
+- Skypetyping2.Wav           
+- Skypetyping3.Wav                  
+- Skypetyping4.Wav                 
+- Skypetyping5.Wav          
+- Skypewatch.Jsb                
+- Skypewatch.Jsd                 
+- Skypewatch.Jsh                
+- Skypewatch.Jsm                   
+- Skypewatch.Jss                    
+
+# Script SkypeWatch dans le dossier fra ; fichier installer en utilisant l'installateur de scripts de notre ami Lavakri #
+Si vous avez utilisé l'installateur de SkypeWatch               
+Vous avez le script suivant:                     
+- Skypewatch.Joadmerge.Jss (fichier crée avec l'installateur de SkypeWatch)               
+
+Ah? j'oubliez!                           
+A savoir lorsque vous démarrez Skype avec les scripts français pour la première fois le fichier skype.ini est créer puis placez ou son installer               
+vos scripts de Skype!                          
+Ce fichier contient la sauvegarde des paramètres tels que la touche utilisée par Skype par exemple: "$" etc.                     
+
+BlindHelp n'est pas responsable de toute mauvaise manipulations qui son occasionner avec les présents Scripts de skype                    
+622b révision 969 francisé MAJ 8 septembre 2016!!!                      
 
 # Quelques conseils en vrac by BlindHelp #
-Vous devez mettre à jour votre version de skype vers Skype™ Version 7.16.0.102
+Vous devez mettre à jour votre version de skype vers Skype™ Version 7.31.0.104            
 ou une version ultérieure compatible avec ces nouveau scripts!  
 [Mais si vous ne l'avez pas, cliquez ici pour le télécharger](http://www.skype.com/go/getskype-full)                         
  Et n'oubliez pas de lire la nouvelle documentation pour utiliser convenablement les nouveaux scripts !  
