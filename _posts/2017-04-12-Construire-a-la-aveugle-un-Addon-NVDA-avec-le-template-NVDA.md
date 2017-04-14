@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Mercredi 12 avril 2017</footer>
 
 Coucou mes amis du blog de BlindHelp !  
-Voici une nouvelle tuto fait par mes soins, il est complémentaire  a les  trois autres tuto suivantes que nous avons vu la dernière fois dans l'article précédent:                 
+"Voici un nouveau tuto fait par mes soins, il est complémentaire aux trois autres tutos que nous avons vu la dernière fois dans l’article précédent:                 
 [Traduire-a-la-aveugle- un- Addon-NVDA-avec- Poedit – BlindHelp.github.io](https://blindhelp.github.io/Traduire-a-la-aveugle-un-Addon-NVDA-avec-Poedit/)                 
 laquelle elles ont été divisées en trois parties:                    
 
