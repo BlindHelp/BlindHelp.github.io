@@ -9,6 +9,102 @@
 <FONT SIZE="4">
 </FONT></CENTER>
 
+<H2>2017.3</H2>
+<P>
+Les points forts de cette version incluent la saisie de braille abrégé, le support des nouvelles voix OneCore Voices disponibles sous Windows 10, le support intégré de la reconnaissance de caractères de Windows 10, et beaucoup d'améliorations significatives concernant le braille et le web.
+</P>
+<H3>Nouvelles Fonctionnalités</H3>
+<UL>
+<LI>Un paramètre Braille a été ajouté pour "afficher les messages indéfiniment". (<A HREF="https://github.com/nvaccess/nvda/issues/6669" target="_blank">#6669</A>)
+<LI>Dans les listes de messages sous Microsoft Outlook, NVDA signale maintenant si un message est marqué. (<A HREF="https://github.com/nvaccess/nvda/issues/6374" target="_blank">#6374</A>)
+<LI>Sous Microsoft Powerpoint, le type exact d'une forme est maintenant annoncé quand on édite une diapositive (Exemples : triangle, cercle, vidéo, flèche), plutôt que juste "forme". (<A HREF="https://github.com/nvaccess/nvda/issues/7111" target="_blank">#7111</A>)
+<LI>Le contenu mathématique (fourni par MathML) est maintenant supporté sous Google Chrome. (<A HREF="https://github.com/nvaccess/nvda/issues/7184" target="_blank">#7184</A>)
+<LI>NVDA peut maintenant parler en utilisant les nouvelles voix Windows OneCore (aussi connues sous le nom  mobile voices) incluses dans Windows 10. Vous y avez accès en sélectionnant voix Windows OneCore dans le dialogue Synthétiseurs de NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/6159" target="_blank">#6159</A>)
+<LI>Les fichiers de configuration utilisateur de NVDA peuvent maintenant être enregistrés dans le dossier local application data de l'utilisateur. Ceci est activé via un paramètre dans le registre. Veuillez consulter 'paramètres système' dans le guide de l'utilisateur pour plus de détails. (<A HREF="https://github.com/nvaccess/nvda/issues/6812" target="_blank">#6812</A>)
+<LI>Dans les navigateurs internet, NVDA signale maintenant les valeurs d'espaces réservés pour les champs (en particulier, aria-placeholder est maintenant supporté). (<A HREF="https://github.com/nvaccess/nvda/issues/7004" target="_blank">#7004</A>)
+<LI>En mode navigation sous Microsoft Word, il est maintenant possible d'atteindre les fautes d'orthographe en utilisant les touches de navigation rapide (w et maj+w) (<A HREF="https://github.com/nvaccess/nvda/issues/6942" target="_blank">#6942</A>)
+<LI>Ajout du support du contrôle de sélection de date qu'on trouve dans les dialogues de rendez-vous de Microsoft Outlook. (<A HREF="https://github.com/nvaccess/nvda/issues/7217" target="_blank">#7217</A>)
+<LI>Dans l'application Courrier de Windows 10, la suggestion sélectionnée est maintenant annoncée pour les champs à/cc, et il en va de même pour le champ de recherche des paramètres de Windows 10. (<A HREF="https://github.com/nvaccess/nvda/issues/6241" target="_blank">#6241</A>)
+<LI>Un son est maintenant émis pour indiquer l'apparition d'une suggestion dans certains champs de recherche de Windows 10 (ex : écran de démarrage, recherche de paramètres, champs à/cc de Windows 10 courrier). (<A HREF="https://github.com/nvaccess/nvda/issues/6241" target="_blank">#6241</A>)
+<LI>Annonce automatique des notifications sous Skype for Business Desktop, par exemple quand quelqu'un démarre une conversation avec vous.  (<A HREF="https://github.com/nvaccess/nvda/issues/7281" target="_blank">#7281</A>)
+<LI>Annonce automatique des messages de discussion instantannée dans une conversation sous Skype for Business. (<A HREF="https://github.com/nvaccess/nvda/issues/7286" target="_blank">#7286</A>)
+<LI>Annonce automatique des notifications sous Microsoft Edge, par exemple lorsqu'un téléchargement démarre.  (<A HREF="https://github.com/nvaccess/nvda/issues/7281" target="_blank">#7281</A>)
+<LI>Vous pouvez maintenant taper en braille intégral ou abrégé depuis un terminal braille avec un clavier braille. Veuillez consulter la section Saisie en Braille du Guide de l'Utilisateur pour les détails. (<A HREF="https://github.com/nvaccess/nvda/issues/2439" target="_blank">#2439</A>)
+<LI>Vous pouvez maintenant entrer des caractères braille unicode depuis le clavier braille d'un terminal braille en sélectionnant Braille Unicode comme table de saisie dans les Paramètres Braille. (<A HREF="https://github.com/nvaccess/nvda/issues/6449" target="_blank">#6449</A>)
+<LI>Ajout du support du terminal braille  SuperBraille  utilisé à Taiwan. (<A HREF="https://github.com/nvaccess/nvda/issues/7352" target="_blank">#7352</A>)
+<LI>Nouvelles tables de traduction braille : Danois braille informatique 8 points, Lithuanien, Perse braille informatique 8 points, Perse intégral, Slovène braille informatique 8 points. (<A HREF="https://github.com/nvaccess/nvda/issues/6188" target="_blank">#6188</A>, <A HREF="https://github.com/nvaccess/nvda/issues/6550" target="_blank">#6550</A>, <A HREF="https://github.com/nvaccess/nvda/issues/6773" target="_blank">#6773</A>, <A HREF="https://github.com/nvaccess/nvda/issues/7367" target="_blank">#7367</A>)
+<LI>Amélioration de la table Anglaise (U.S.) braille informatique 8 points , incluant le support des puces, du signe euro et des lettres accentuées. (<A HREF="https://github.com/nvaccess/nvda/issues/6836" target="_blank">#6836</A>)
+<LI>NVDA peut maintenant utiliser la fonctionnalité de reconnaissance de caractères incluse dans Windows 10 pour reconnaître le texte d'images ou d'applications inaccessibles. (<A HREF="https://github.com/nvaccess/nvda/issues/7361" target="_blank">#7361</A>)
+ <UL>
+ <LI>La langue peut être définie dans le nouveau dialogue Reconnaissance de Caractères de Windows 10 dans les Préférences de NVDA.
+ <LI>Pour reconnaître le contenu de l'objet navigateur courant, pressez NVDA+r.
+ <LI>Veuillez consulter la section Reconnaissance de Contenu du Guide de l'Utilisateur pour plus de détails.
+ </UL>
+<LI>Vous pouvez maintenant choisir les informations contextuelles affichées sur un terminal braille quand un objet prend le focus en utilisant le nouveau paramètre "Présentation contextuelle du focus" dans le dialogue Paramètres Braille. (<A HREF="https://github.com/nvaccess/nvda/issues/217" target="_blank">#217</A>)
+ <UL>
+ <LI>Par exemple, les options "Afficher lors des changements contextuels" ou "Seulement lors d'un défilement arrière" peuvent rendre le travail avec les menus et les listes plus efficace, puisque les éléments ne changeront pas continuellement de position sur l'afficheur.
+ <LI>Veuillez consulter la section concernant le paramètre de "présentation contextuelle du focus"  du Guide de l'Utilisateur pour plus de détails et des exemples.
+ </UL>
+<LI>Sous Firefox et Chrome, NVDA supporte maintenant les tableaux dynamiques complexes tels que les feuilles de calcul quand seule une partie du contenu est chargée ou affichée (spécifiquement, les attributs aria-rowcount, aria-colcount, aria-rowindex et aria-colindex introduits avec ARIA 1.1). (<A HREF="https://github.com/nvaccess/nvda/issues/7410" target="_blank">#7410</A>)
+</UL>
+
+<H3>Changements</H3>
+<UL>
+<LI>Une commande non affecté a été ajoutée pour redémarrer NVDA à la demande. Vous la trouverez dans la catégorie Divers du dialogue Gestes de commandes. (<A HREF="https://github.com/nvaccess/nvda/issues/6396" target="_blank">#6396</A>)
+<LI>La configuration clavier peut maintenant être choisie dans le dialogue de bienvenue à NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/6863" target="_blank">#6863</A>)
+<LI>Beaucou plus de contrôles et d'états ont été abrégés pour le braille. Les rpères ont aussi été abrégés. Veuillez consulter "Abbréviations de Contrôles, États et Repères" sous Braille dans le Guide de l'Utilisateur pour une liste complète. (<A HREF="https://github.com/nvaccess/nvda/issues/7188" target="_blank">#7188</A>)
+<LI>Mise à jour de Espeak-ng à la version 1.49.1 (<A HREF="https://github.com/nvaccess/nvda/issues/7280" target="_blank">#7280</A>).
+<LI>Les tables d'affichage et de saisie sont maintenant triées dans l'ordre alphabétique dans le dialogue Paramètres Braille. (<A HREF="https://github.com/nvaccess/nvda/issues/6113" target="_blank">#6113</A>)
+<LI>Mise à jour du convertisseur braille Liblouis à la version 3.2.0. (<A HREF="https://github.com/nvaccess/nvda/issues/6935" target="_blank">#6935</A>)
+<LI>La table braille par défaut est maintenant le code Anglais unifié intégral. (<A HREF="https://github.com/nvaccess/nvda/issues/6952" target="_blank">#6952</A>)
+<LI>Par défaut, NVDA n'affiche maintenant que la partie de l'information contextuelle qui a changé quand un objet prend le focus. (<A HREF="https://github.com/nvaccess/nvda/issues/217" target="_blank">#217</A>)
+ <UL>
+ <LI>Précédemment, il affichait toujours autant d'information que possible, sans se préoccuper de savoir si vous aviez déjà vu ces mêmes informations avant.
+ <LI>Vous pouvez retrouver l'ancien comportement en modifiant le nouveau paramètre "Présentation contextuelle du focus" dans le dialogue Paramètres Braille à "Toujours afficher".
+ </UL>
+<LI>En Braille, le curseur peut être configuré pour avoir une forme différente quand on suit le focus ou la revue. (<A HREF="https://github.com/nvaccess/nvda/issues/7112" target="_blank">#7112</A>)
+<LI>Le logo de NVDA a été modernisé. Le nouveau logo DE NVDA est un mélange stylisé des lettres NVDA en blanc, sur un fond violet unié. Cela assure qu'il sera visible sur n'importe quelle couleur de fond, et il utilise le violet du logo NVAccess. (<A HREF="https://github.com/nvaccess/nvda/issues/7446" target="_blank">#7446</A>)
+</UL>
+
+<H3>Corrections de Bogues</H3>
+<UL>
+<LI>Les éléments div éditables sous Chrome n'ont plus leur étiquette annoncée comme leur valeur en mode navigation. (<A HREF="https://github.com/nvaccess/nvda/issues/7153" target="_blank">#7153</A>)
+<LI>L'appui sur fin en mode navigation dans un document Microsoft Word vide ne provoque plus une erreur d'exécution. (<A HREF="https://github.com/nvaccess/nvda/issues/7009" target="_blank">#7009</A>)
+<LI>Le mode navigation est maintenant correctement supporté sous Microsoft Edge dans le cas où un document a reçu un rôle ARIA spécifique de Document. (<A HREF="https://github.com/nvaccess/nvda/issues/6998" target="_blank">#6998</A>)
+<LI>En mode navigation, vous pouvez maintenant sélectionner ou désélectionner jusqu'à la fin de la ligne en utilisant maj+fin même si le curseur est sur le dernier caractère de la ligne. (<A HREF="https://github.com/nvaccess/nvda/issues/7157" target="_blank">#7157</A>)
+<LI>Si un dialogue contient une barre de progression, le texte du dialogue est maintenant mis à jour quand la barre de progression évolue. Cela signifie, par exemple, que le temps restant peut maintenant être lu dans le dialogue de téléchargement de mise à jour de NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/6862" target="_blank">#6862</A>)
+<LI>NVDA annonce maintenant les changements de sélection pour certaines listes déroulantes de Windows 10 telles que Lecture automatique dans les Paramètres. (<A HREF="https://github.com/nvaccess/nvda/issues/6337" target="_blank">#6337</A>).
+<LI>Les informations sans objet ne sont plus annoncées quand on entre dans les dialogues de création de réunions ou rendez-vous de Microsoft Outlook. (<A HREF="https://github.com/nvaccess/nvda/issues/7216" target="_blank">#7216</A>)
+<LI>Les bips indiquant les barres de progression indéterminées (ex : dialogue de vérification des mises à jour) ne sont émis que si le suivi des barres de progression est configuré pour émettre des bips. (<A HREF="https://github.com/nvaccess/nvda/issues/6759" target="_blank">#6759</A>)
+<LI>Sous Microsoft Excel 2003 et 2007, les cellules sont de nouveau annoncées quand on se déplace avec les flèches dans une feuille de calcul. (<A HREF="https://github.com/nvaccess/nvda/issues/8243" target="_blank">#8243</A>)
+<LI>Sous Windows 10 Creators update et au-delà, on s'assure que le mode navigation est activé automatiquement quand on lit des courriels sous l'application Courrier de Windows 10. (<A HREF="https://github.com/nvaccess/nvda/issues/7289" target="_blank">#7289</A>)
+<LI>Sur la plupart des afficheurs braille possédant un clavier braille, le point 7 efface maintenant le dernier caractère entré, et le point 8 presse la touche entrer. (<A HREF="https://github.com/nvaccess/nvda/issues/6054" target="_blank">#6054</A>)
+<LI>Dans un texte éditable, quand on déplace le curseur (ex : avec les touches de manipulation du curseur ou avec retour arrière), le retour parlé de NVDA est maintenant plus précis dans beaucoup de cas, en particulier sous Chrome et les applications en mode terminal. (<A HREF="https://github.com/nvaccess/nvda/issues/6424" target="_blank">#6424</A>)
+<LI>Le contenu de l'Éditeur de Signature sous Microsoft Outlook 2016 peut maintenant être lu. (<A HREF="https://github.com/nvaccess/nvda/issues/7253" target="_blank">#7253</A>)
+<LI>Dans les applications Java Swing, NVDA ne provoque plus de plantages quand on navigue dans les tableaux. (<A HREF="https://github.com/nvaccess/nvda/issues/6992" target="_blank">#6992</A>)
+<LI>Sous Windows 10 Creators Update, NVDA n'annonce plus les notifications plusieurs fois. (<A HREF="https://github.com/nvaccess/nvda/issues/7128" target="_blank">#7128</A>)
+<LI>Dans le menu Démarrer sous Windows 10, l'appui sur Entrer pour fermer le menu après une recherche ne provoque plus l'annonce du texte recherché par NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/7370" target="_blank">#7370</A>)
+<LI>La recherche des titres en navigation rapide sous Microsoft Edge est maintenant nettement plus rapide. (<A HREF="https://github.com/nvaccess/nvda/issues/7343" target="_blank">#7343</A>)
+<LI>Sous Microsoft Edge, la navigation en mode navigation ne saute plus de grandes parties de certaines pages telles que le thème Wordpress 2015. (<A HREF="https://github.com/nvaccess/nvda/issues/7143" target="_blank">#7143</A>)
+<LI>Sous Microsoft Edge, les régions sont correctement nommées dans les langues autres que l'Anglais. (<A HREF="https://github.com/nvaccess/nvda/issues/7328" target="_blank">#7328</A>)
+<LI>Le braille suit maintenant correctement la sélection quand on sélectionne du texte au-delà de la largeur de l'écran. Par exemple, si vous sélectionnez plusieurs lignes avec maj+flècheBas, le braille montre maintenant la dernière ligne que vous avez sélectionnée. (<A HREF="https://github.com/nvaccess/nvda/issues/5770" target="_blank">#5770</A>)
+<LI>Sous Firefox, NVDA n'annonce plus par erreur "section" plusieurs fois quand on ouvre les détails d'un tweet sur twitter.com. (<A HREF="https://github.com/nvaccess/nvda/issues/5741" target="_blank">#5741</A>)
+<LI>En Mode Navigation, les commandes de navigation de tableaux ne sont plus disponibles pour les tables de visualisation sauf si l'annonce des tables de visualisation est activée. (<A HREF="https://github.com/nvaccess/nvda/issues/7382" target="_blank">#7382</A>)
+<LI>Sous Firefox et Chrome, les commandes de navigation de tableaux sautent maintenant les cellules cachées. (<A HREF="https://github.com/nvaccess/nvda/issues/6652" target="_blank">#6652</A>, <A HREF="https://github.com/nvaccess/nvda/issues/5655" target="_blank">#5655</A>)
+</UL>
+
+<H3>Changement pour les Développeurs</H3>
+<UL>
+<LI>Dans le journal, les timestamps incluent maintenant les millisecondes. (<A HREF="https://github.com/nvaccess/nvda/issues/7163" target="_blank">#7163</A>)
+<LI>NVDA doit maintenant être construit avec Visual Studio Community 2015. Visual Studio Express n'est plus supporté. (<A HREF="https://github.com/nvaccess/nvda/issues/7110" target="_blank">#7110</A>)
+ <UL>
+ <LI>Windows 10 Tools et SDK sont aussi requis, ce qui peut être activé à l'installation de Visual Studio.
+ <LI>Consultez la section Dépendances Installées du fichier readme pour plus de détails.
+ </UL>
+<LI>Le support de reconnaisseurs de contenu tels que les OCR et les descripteurs d'image peuvent être facilement implémentés en utilisant le nouveau package contentRecog. (<A HREF="https://github.com/nvaccess/nvda/issues/7361" target="_blank">#7361</A>)
+<LI>Le package Python json est maintenant inclus dans les constructions binaires de NVDAs. (<A HREF="https://github.com/nvaccess/nvda/issues/3050" target="_blank">#3050</A>)
+</UL>
+
 <H2>2017.2</H2>
 <P>
 Les points forts de cette versions incluent le support intégral de l'atténuation audio sous Windows 10 Creators Update; la correction de plusieurs problèmes de sélection en mode navigation, incluant les problèmes pour sélectionner tout; des améliorations significatives dans le support de Microsoft Edge; et des améliorations sur le web tels que l'indication des éléments marqués comme en cours (en utilisant aria-current).
