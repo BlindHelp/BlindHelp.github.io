@@ -148,7 +148,7 @@ Ce dernier est un sous - menu, une fois ouvert comprend les éléments suivants:
 Copier vers le presse-papiers Alt+C           
 Enregistrer sous... Alt+E      
 Rafraîchir Alt+R        
-       8. Ajouter à la liste de souhaits d'enregistrement Alt+j          
+8. Ajouter à la liste de souhaits d'enregistrement Alt+j          
 	   Ceci est disponible uniquement dans la version pro.           
     9. Ouvrir le site Web de la station Alt+O   
 	Note: Si vous avez déjà TapinRadio Pro v2.07.2 (y compris TapinRadio pro 2.01) ou vous avez la version d'essai le raccourci mentionnées ci - dessus  à changer en:              
@@ -514,8 +514,8 @@ TapinRadio License
 `======================`      
 TapinRadio is distributed as freeware.     
 This means:     
-- Anyone may use this software for as long as they like.     
-- TapinRadio may be freely distributed, if the distribution package is not modified.    
+`-` Anyone may use this software for as long as they like.     
+`-` TapinRadio may be freely distributed, if the distribution package is not modified.    
 No person or company may charge a fee for the distribution of TapinRadio without written permission from the copyright holder.    
 Je comprends et j'accepte les termes du contrat de licence    
 
@@ -690,9 +690,9 @@ Note: A titre d'information le dossier TapinRadio contient 44 ou 45  éléments 
 
 Si vous avez télécharger la version TapinRadio Pro v2.07.2 (Shareware)              
 Vous devez appuyer sur le bouton Oui ou Nom à la question en anglais:                        
-This software is no longer free. Are you sure you wish to continue?
+This software is no longer free. Are you sure you wish to continue?                     
 Traduction:                  
-Ce logiciel n'est plus gratuit. Êtes-vous sûr de vouloir continuer?
+Ce logiciel n'est plus gratuit. Êtes-vous sûr de vouloir continuer ?               
 Suivez les instructions sur l'écran si vous avez appuyé sur le bouton Oui pour continuer avec l'installation. Cliquez sur le bouton Non si vous souhaitez quitter l'installation.
 
 # Premier Lancement:: #
@@ -862,6 +862,8 @@ Il se peut que une autre adresse peut se terminer par l'extension asx, pls Etc..
 Une fois que vous avez copié un de ces flux vers le presse-papiers, cette adresse est automatiquement placé dans la zone d'édition, donc il n'est plus nécessaire de coller depuis le presse-papiers !      
 La seule chose qui reste à faire est appuyez sur Entrée et la radio commence à jouer ! C'est fabuleux ! et si vous aimez cette radio vous pouvez l'ajouter à vos favoris !      
 Ajouter aux favoris... Alt+J        (seulement dans TapinRadio Free v2.01 et peut-être dans les versions supérieures)        
+ou:                
+Ajouter aux favoris...	F5 Alt+j (seulement dans TapinRadio Pro v2.07.2 et peut-être dans les versions supérieures)        
 ou:          
 Ajouter aux favoris... Alt+A (seulement dans TapinRadio Free v1.58.1 et versions supérieures)      
 Voici les infos de cette station de radio une fois que la boîte de dialogue Ajouter aux favoris s'ouvre:     
@@ -883,20 +885,23 @@ Etat: c'est vide.
 Faire tabulation.         
 Source: `http://listen.abacus.fm/smoothjazz.m3u`       
 Il s'ajoute automatiquement.        
-Note: la source n's'affiche pas maintenant dans la version TapinRadio Free v1.58.1  ni dans la version TapinRadio Free v2.01     
-Peut-être que j'ai bvu mal, mais je vous écris ce tutoriel alors que je teste ces deux versions en même temps. 8-)           
+Note: la source n's'affiche pas maintenant dans la version TapinRadio Free v1.58.1  ni dans la version TapinRadio Free v2.01/TapinRadio Pro v2.07.2     
+Peut-être que j'ai bvu mal, mais je vous écris ce tutoriel alors que je teste ces trois versions en même temps. 8-)           
 Faire tabulation.     
 Save track history case à coché Non coché      
 = Enregistrer l'historique de morceau        
 C'est par défaut.     
+Cette option n'existe pas dans TapinRadio Pro v2.07.2     
 Faire tabulation.     
 Commentaires:        
 Il faut l'ajouter manuellement.       
 Faire tabulation.       
 Groupe: c'est vide.         
+Cette option n'existe pas dans TapinRadio Pro v2.07.2     
 Faire tabulation.       
 Bouton rotative: 0,00        
 C'est par défaut.       
+Cette option n'existe pas dans TapinRadio Pro v2.07.2     
 Faire tabulation.        
 Bouton OK       
 Appuyez sur le bouton OK pour confirmer l'action.       
@@ -919,9 +924,9 @@ Remarque importante: Comme je l'ai déjà expliqué plus haut, si vous avez copi
 * Ouvrir les favoris... Alt+u                         
 Cette option est disponible sous TapinRadio Pro v2.07.2                                                                       
 C'est  pour rechercher   un types de fichiers :             
-xml files (*.xml)              
+xml files (`*`.xml)              
 Une boîte de dialogue s'ouvre pour une recherche classique de Windows.            
-Une fois trouvvé votre fichier (*.xml) appuyer sur entrée ou sur le bouton Ouvrir.
+Une fois trouvvé votre fichier (`*`.xml) appuyer sur entrée ou sur le bouton Ouvrir.
 * U = Ouvrir le dossier de données Alt+u      
 ou:                          
 Ouvrir le dossier de données Alt+v                        
@@ -946,7 +951,7 @@ history_bak.xml
 Fichier contenant    la sauvegarde de l'historique des stations écoutés      
 presets.trd     
 Fichier contenant les prédéfinis de TapinRadio            
-Outre les fichiers mentionnés ci-dessus dans la nouvelle version TapinRadio Free v2.01 nous avons les fichiers suivants:      
+Outre les fichiers mentionnés ci-dessus dans la nouvelle version TapinRadio Free v2.01 (y compris TapinRadio Pro v2.07.2) nous avons les fichiers suivants:      
 connect_log.txt    
 Fichier   journal de connexion de TapinRadio (fichier facultatif)            
 Pour configurer cette option il faut aller sur Paramètres Alt+P:                 
@@ -980,7 +985,8 @@ Nouveau, Nouvelles stations
 S'aider avec les flèches haut ou bas pour sélectionnez.        
 Choisissez une des nouvelles stations qui sont afficher, puis faites entrée pour débuter la lecture de la station de radio choisie.                    
 * V = Ouvrir le dossier d'enregistrement Alt+v     
-Cette option  pour TapinRadio Pro v2.07.2 vous le trouverez dans le Menu Enregistrer Alt+E; Ouvrir le dossier d'enregistrement Alt+O                                                     
+Cette option  pour TapinRadio Pro v2.07.2 vous le trouverez dans le Menu Enregistrer Alt+E          
+Ouvrir le dossier d'enregistrement Alt+O                                                     
 Il ouvre l'emplacement suivant:    
 `C:\Users\Rémy Ruiz\Music\TapinRadio`      
 Sous W7.       
@@ -1051,7 +1057,7 @@ C'est par défaut.
 ou:          
 Réduire dans la zone de notification via le bouton de fermeture Case à coché Non Coché       
 C'est par défaut.       
-(uniquement pour la version TapinRadio Free v2.01 et versions peut-être supérieures)      
+(uniquement pour la version TapinRadio Free v2.01/TapinRadio Pro v2.07.2 et versions peut-être supérieures)      
 Allez au menu Paramètres Alt+P     
 Touche fléchée pour accéder à l'élément:       
 Basic Alt+B ou ou De base Alt+D     
@@ -1065,7 +1071,7 @@ ou:
 Réduire dans la zone de notification via le bouton fermer Case à coché Non Coché        
 C'est par défaut.       
 N'oubliez pas que c'est deux case ne sont pas coché par défaut.      
-Si vous n'avez pas l'élément "TapinRadio Free v1.58.1" / "TapinRadio Free v2.01" dans la zone de notification lorsque vous faites Insert+F12 ou Win+T, vous pouvez appuyez à nouveau sur l'icône qui se trouve sur le bureau nommé TapinRadio.         
+Si vous n'avez pas l'élément "TapinRadio Free v1.58.1" / "TapinRadio Free v2.01"/"TapinRadio Pro v2.07.2" dans la zone de notification lorsque vous faites Insert+F12 ou Win+T, vous pouvez appuyez à nouveau sur l'icône qui se trouve sur le bureau nommé TapinRadio.         
 Dans le cas contraire vous pouvez suivre la procédure décrite ci-dessus pour afficher l'icône TapinRadio dans la zone de notifications.         
 Un appui sur celui-ci depuis le bureau ou depuis la zone de notifications il s'affiche à nouveau la fenêtre principale de TapinRadio.          
 Note: Parfois il peut-aussi apparaître les options du programme, lorsque on appui sur l'icône "TapinRadio Free v1.58.1" / "TapinRadio Free v2.01" depuis la zone de notifications.       
@@ -1488,6 +1494,7 @@ Ici vous trouverez les treize options suivantes (seulment pour TapinRadio Free v
 * L = Langage Alt+L         
 ou:       
 L = Langue Alt+L        
+Cet élément n'a pas changé de place dans la nouvelle version de TapinRadio Free v2.01 y compris TapinRadio Pro v2.07.2   
 C'est un sous-menu, une fois rentrer vous trouverais les langues du programme.           
 Vous trouvez Français coché            
 * T = Toujours sur le dessus Alt+T         
@@ -1516,7 +1523,6 @@ Appuyez sur se bouton pour confirmer le raccourci attribué
 Annuler       
 Appuyez sur se bouton pour annuler l'action.         
 Note: Cette élément est disponible ailleurs dans la versionTapinRadio Free v2.01 (Voir Paramètres Alt+P/Avancé Alt+A, sous-menu, Raccourcis clavier        
-C'est option n'existe pas dans ce même endroit sous TapinRadio Pro v2.07.2.                
 Dans ce sous-menu il y a deux éléments:       
 Réduire dans la zone de notification with a hotkey (pas défini)...      
 with a hotkey          
@@ -1524,6 +1530,7 @@ with a hotkey
 Afficher le menú des favoris with a hotkey (Ctrl+Shift+A)...       
 with a hotkey          
 = avec un racccourci              
+C'est option n'existe pas dans ce même endroit sous TapinRadio Pro v2.07.2.                
 * S = Scrobbler vers LastFM          
 Note: Cette élément est disponible ailleurs dans la versionTapinRadio Free v2.01 y compris TapinRadio Pro v2.07.2 (Voir Paramètres Alt+P/Avancé Alt+A, sous-menu, Scrobbler vers LastFM       
 Lorsque vous avez fait entrée sur cette option une boîte de dialogue s'affiche:        
@@ -2271,7 +2278,7 @@ Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y
 Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y compris TapinRadio Free v2.01/TapinRadio Pro v2.07.2).                  
 * n = Envoyer la clé de licence... Alt+n               
 Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y compris TapinRadio Free v2.01/TapinRadio Pro v2.07.2).                  
-* A = A propos de TapinRadio Alt+p             
+* À propos TapinRadio Alt+À
 Cette boîte de dialogue comporte deux onglets:                                 
 Onglet À propos                        
 Onglet Qt                 
@@ -2434,7 +2441,7 @@ Voila! ;)
 Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y compris TapinRadio Free v2.01).           
 * n = Envoyer la clé de licence... Alt+n               
 Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y compris TapinRadio Free v2.01).           
-  * A = A propos de TapinRadio Alt+p             
+* A = A propos de TapinRadio Alt+p             
   Note: Cet élément A propos de TapinRadio Alt+p a été expliqué sans le vouloir plus haut(valable pour TapinRadio v2.01)             
   Voir l'élément nommé: C = Commencer le période d'essai de la version pro Alt+C          
   Par contre  le même élément nommé: A propos de TapinRadio Alt+p est expliquer en détail pour la version de TapinRadio Free v1.58.1 ci-dessous.
@@ -2687,10 +2694,10 @@ TapinRadio v1.58.1 et peut-être versions supérieures.
 Donc, Merci d'écouter attentivement ces explications au pied de la lettre.
 
 Pour la version TapinRadio Pro v2.07.2 et peut-être versions supérieures                      
-A savoir qu'il y a seulement quatre boutons   en lieu des  quatre boutons   existants pour TapinRadio Free v1.58.1 et versions supérieures:                   
+A savoir qu'il y a seulement quatre boutons comme sui:   
 Avancé Alt+A                 
-Enregistrer Alt+E                
 Divers Alt+D              
+Enregistrer Alt+E                
 Clavier Alt+C                                       
 
 Pour la version TapinRadio Free v2.01 et peut-être versions supérieures                      
@@ -2721,8 +2728,13 @@ Faire Ctrl+Tab pour naviguer entre les quatre boutons.
 	Avancé Alt+A                 
 	Enregistrer Alt+E                     
 Divers Alt+D             
-Pour TapinRadio Pro v2.07.2 il y a un bouton de plus appelé:
-Clavier
+Pour TapinRadio Pro v2.07.2 il y a un bouton de plus appelé:                   
+Clavier Alt+C               
+Maintenant il y a quatre boutons comme sui:               
+Avancé Alt+A              
+Divers Alt+D              
+Enregistrer Alt+E                 
+Clavier Alt+C           
 Pas de panique mes amis! :D!                     
 De toute façon je vous donne la description puis l'équivalences des éléments  que j'ai trouvés sur  le premier bouton Général (TapinRadio Free v1.58.1) ainsi que  les éléments que j'ai trouvés sur le premier bouton Avancé (TapinRadio Free v2.01).                
 Lorsque vous êtes sur le premier bouton Général                 
@@ -3115,7 +3127,7 @@ Faire tabulation.
 Sauvegarder les favoris Case à coché Non Coché            
 Si cette case est coché on peut sauvegarder notre liste de favoris.         
 Note: Cette case à cocher n'existe pas dans TapinRadio Pro v2.07.2.                                         
-Note: seulement dans la version TapinRadio Free v2.01                          
+Seulement dans la version TapinRadio Free v2.01                          
 Lorsque vous êtes  sur le premier bouton Avancé Alt+A              
 Vous  trouver un boutonrotatif nommé:                              
 Nombre de fichiers de sauvegarde 3                               
@@ -3439,8 +3451,8 @@ C'est un bouton
 Le bouton OK c'est pour confirmer les changements, le bouton Annuler c'est pour annuler l'action.        
 Dans les deux cas de figure vous vous retrouver à nouveau sur la fenêtre principal de TapinRadio.                
 4. Le quatrième bouton est Avancé             
-	Dans TapinRadio Free v2.01 le  troisième bouton est DiversAlt+D                                     
-	Dans TapinRadio Pro v2.07.2 le deuxième bouton est DiversAlt+D                                     
+	Dans TapinRadio Free v2.01 le  troisième bouton est Divers Alt+D                                     
+Dans TapinRadio Pro v2.07.2 le deuxième bouton est Divers Alt+D                                     
 Description du    quatrième bouton Avancé (seulement pour TapinRadio Free v1.58.1 et versions supérieures)                                 
 Faire tabulation pour se déplacez au champ suivant.              
 Faire Maj+Tab pour revenir au champ précédent.                
@@ -3580,7 +3592,7 @@ Description du quatrième bouton Clavier Alt+C (seulement pour TapinRadio Pro v2
 Faire tabulation pour se déplacez au champ suivant.              
 Faire Maj+Tab pour revenir au champ précédent.                
 Lorsqu'ont fait Tabulation, nous avons une liste sous forme d'Arborescence des raccourcis suivant:                      
-Vous pouvez sélectionner avec les flèches verticales.
+Vous pouvez sélectionner avec les flèches verticales.                       
 Arborescence  Shortcuts = Raccourcis:                            
 Afficher l'aide F1 - Barre d'espace pour changer           
 Afficher l'aide en ligne Ctrl+F1 - Barre d'espace pour changer              
@@ -3625,7 +3637,7 @@ Volume plus bas par un Shift+F8 - Barre d'espace pour changer
 Volume plus haut F9 - Barre d'espace pour changer           
 Volume plus haut par un Shift+F9 - Barre d'espace pour changer          
 Lorsqu'ont fait à nouveau Tabulation, nous avons une liste sous forme d'Arborescence des raccourcis clavier suivant:                      
-Vous pouvez sélectionner avec les flèches verticales.
+Vous pouvez sélectionner avec les flèches verticales.                 
 Arborescence  Hotkeys = Raccourcis clavier:                            
 Afficher le menú des favoris - Barre d'espace pour changer                         
 Afficher les paroles de chansons émergente - Barre d'espace pour changer              
@@ -3636,16 +3648,16 @@ Diminuer le volume - Barre d'espace pour changer
 Explorer les prédéfinis - Barre d'espace pour changer              
 Quitter l'application - Barre d'espace pour changer              
 Réduire dans la zone de notification - Barre d'espace pour changer              
-Si ont fait Tab:
-ici nous trouverons l'élément nommé:
-Raccourci clavier pour:
-suivi du nom de l'élément et de son raccourci respectif.
-Si ont fait Tab:
-Changer le Raccourci... Alt+h  (c'est un bouton)
-Pas testé.
-Si ont fait Tab:
-Changer le Raccourci clavier... Alt+C (c'est un bouton)
-Pas testé.
+Si ont fait à nouveau Tab:                           
+ici nous trouverons l'élément nommé:                       
+Raccourci clavier pour:                 
+suivi du nom de l'élément et de son raccourci respectif.                      
+Si ont fait à nouveau Tab:                     
+Changer le Raccourci... Alt+h  (c'est un bouton)                   
+Pas testé.                  
+Si ont fait à nouveau Tab:               
+Changer le Raccourci clavier... Alt+C (c'est un bouton)                      
+Pas testé.                   
 Si ont fait tabulation il y a deux boutons:         
 OK           
 C'est un bouton.          
@@ -5056,7 +5068,7 @@ Encore Merci a eux deux !
 * Je profite de cette occasion aussi pour remercier mon ami Noelia, pour son immense contribution et la mise en place, la correction d'erreurs, ses conseils pour créer mon espace viaGitHub                
   [BlindHelp.github.io](https://blindhelp.github.io)                    
   où il est hébergé cet article.                       
-  [TapinRadio Manuel Utilisateur version 2.01](https://blindhelp.github.io/TapinRadio-Manuel-Utilisateur-version-2.01/)                      
+  [TapinRadio Pro Manuel Utilisateur version 2.07.2](https://blindhelp.github.io/TapinRadio-Pro-Manuel-Utilisateur-version-2.07.2/)   )                      
 Mille Merci encore à elle! ;)        
   Sur ce, je vous souhaite une bonne écoute radial avec le nouveau petit bijou TapinRadio!                          
 Amusez-vous bien!                       
@@ -5065,7 +5077,7 @@ BlindHelp!
 
 # Références: #
 Visiter la page de Tapin Radio (page en anglais):                           
-[Raimersoft - TapinRadio](http://www.tapinradio.com/)                          
+[Raimersoft - TapinRadio](http://www.raimersoft.com/)                          
 Retrouver TapinRadio Via Les Réseaux Sociaux:                      
 [Facebook](http://facebook.com/tapinradio)                
 [Twitter](http://twitter.com/tapin_radio)                 
