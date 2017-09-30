@@ -448,9 +448,9 @@ Voir le lien de téléchargement ci-dessous !
 
 # Télécharger TapinRadio: #
 Donc sans plus de bavardaje Voici le lien directe pour télécharger le programme TapinRadio Free v2.01 ou version supérieure !        
-[tapinradio_setup.exe](http://www.tapinradio.com/downloads/tapinradio_setup.exe)      
+[tapinradio_setup.exe](http://www.raimersoft.com/downloads/tapinradio_setup.exe)      
 Tapinradio peut être téléchargé aussi depuis sont      
-[site Web:](http://www.tapinradio.com/)     
+[site Web:](http://www.raimersoft.com/)     
 Consulter cette même page en anglais pour plus d'informations.   
 [Source de la page en anglais pour sont téléchargement:](http://www.raimersoft.com/downloads.aspx)      
 
@@ -4410,7 +4410,7 @@ BlindHelp!
 
 # Références: #
 Visiter la page de Tapin Radio (page en anglais):                           
-[Raimersoft - TapinRadio](http://www.tapinradio.com/)                          
+[Raimersoft - TapinRadio](http://www.raimersoft.com/)                          
 Retrouver TapinRadio Via Les Réseaux Sociaux:                      
 [Facebook](http://facebook.com/tapinradio)                
 [Twitter](http://twitter.com/tapin_radio)                 
