@@ -4962,7 +4962,52 @@ ou:
 Paramètres Alt+P/ M = Minuteur de mise en veille... Alt+M ceci dans TapinRadio Free v2.01 et supérieures.                    
  Dans la première zone de liste déroulante, sélectionnez l'intervalle de temps, après quoi TapinRadio exécutera les actions prévues. Ce que vous deviez aussi faire dans la deuxième zone de liste déroulante, une fois que vous avez déterminé ceci, TapinRadio va exécuter les actions prévues. Voir les explications ci-dessus.                      
 
-# A propos du  période d'essai de la version pro #
+ # A propos du  période d'essai de la version pro v2.07.2 #
+ J'ai installé  TapinRadio Pro v2.07.2                
+Version Shareware.                      
+Le: jeudi    21 septembre 2017                 
+Il à été créer un fichier nommé:                
+tapinradio.pro                     
+La licence cours jusqu'à14 jours d'installé c'est-à-dire le: jeudi   5 octobre   2017.                   
+Voir le Menu Aide puis le submenu:                      
+À propos                              
+
+TapinRadio: v2.07.2 x64                          
+
+Operating System: Windows 64 bit                       
+
+Dossier de Données: C:\TapinRadio                        
+
+Screen Reader: NVDA                    
+
+License: Expiré                     
+
+Copyright du logiciel Raimersoft                    
+
+Bass library (2.4.c.1) Copyright Un4seen                               
+
+Tous droits réservés.                              
+
+Une fois la licence expiré (version Pro Shareware), il devient comme avant:                          
+TapinRadio Free v2.07.2                      
+Mais il dure très peu de temps, c'est-à-dire environ moins de deux heures, puis une fenêtre apparaît avec le message en anglais comme suit:                             
+TapinRadio Free v2.07.2                      
+Qu'est-ce que c'est ça ?  dialogue                         
+Your trial period has expired. I'm afraid to continue using this software you need to purchase a license.                             
+= Votre période d'essai a expiré. J'ai peur que pour continuer à utiliser ce logiciel, vous devez acheter une licence.                                  
+OK                          
+Quand on clique sur le bouton "OK"                       
+Il nous renvoi sur la page:                                         
+[http://www.raimersoft.com/tapinradio.aspx](http://www.raimersoft.com/tapinradio.aspx)                            
+pour acheter la licence ...                         
+Puis tout de suite le programme se ferme après avoir appuyé sur le bouton "OK".                              
+Toutefois, ont peut le relancer à nouveau!                     
+Mais cette fenêtre apparaît à nouveau avec le même message...                             
+Après avoir écouté une station de radio, pour une courte période.                      
+Soit vous devez acheter une licence ou arrêter d'utiliser ce programme.                              
+Quel dommage que nous n'ayons plus la version "gratuite" 😒                     
+
+# A propos du  période d'essai de la version pro v2.01 #
 Lorsque  la période d'essai est arrivée à la fin vous retrouver à nouveau votre version Free de TapinRadio! (cool)                       
 
 1. Lors du prochain démarrage de TapinRadio le titre de la fenêtre principale  change de:                     
@@ -5123,5 +5168,5 @@ ou sur  votre nouveau espace via GitHub:
 
 
 <footer>
-Dernière mise à jour  25 Décembre, 2016.
+Dernière mise à jour  25 Octobre, 2017.
 </footer>
