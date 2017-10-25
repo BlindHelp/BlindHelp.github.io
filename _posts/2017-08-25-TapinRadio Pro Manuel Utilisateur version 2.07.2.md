@@ -4962,7 +4962,7 @@ ou:
 Paramètres Alt+P/ M = Minuteur de mise en veille... Alt+M ceci dans TapinRadio Free v2.01 et supérieures.                    
  Dans la première zone de liste déroulante, sélectionnez l'intervalle de temps, après quoi TapinRadio exécutera les actions prévues. Ce que vous deviez aussi faire dans la deuxième zone de liste déroulante, une fois que vous avez déterminé ceci, TapinRadio va exécuter les actions prévues. Voir les explications ci-dessus.                      
 
- # A propos du  période d'essai de la version pro v2.07.2 #
+# A propos du  période d'essai de la version pro v2.07.2 #
  J'ai installé  TapinRadio Pro v2.07.2                
 Version Shareware.                      
 Le: jeudi    21 septembre 2017                 
@@ -4976,7 +4976,7 @@ TapinRadio: v2.07.2 x64
 
 Operating System: Windows 64 bit                       
 
-Dossier de Données: C:\TapinRadio                        
+Dossier de Données: `C:\TapinRadio`                        
 
 Screen Reader: NVDA                    
 
