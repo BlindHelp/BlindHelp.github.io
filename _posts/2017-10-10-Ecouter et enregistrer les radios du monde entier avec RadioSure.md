@@ -567,7 +567,1816 @@ Stations  liste
 Ici vous aurez la liste des radios en fonction du nom que vous avez tapé.                          
 Faire flèche haut ou bas pourtrouver la radio que vous voulez écouter, ensuite faire Entrée pour la lire.                                            
 Si vous l'aimez, vous pouvez l'ajouter à vos favoris pour le trouver plus vite! (cool)                         
-Note: certains flux de radios ne fonctionnent pas.                      
+Note: certains flux de radios ne fonctionnent pas, soit parce que le flux n'est pas à jour ou que la radio n'existe plus.                     👿                               
+Mais ci-dessous, je vais vous donner quelques liens pour consulter quelques anuaires pour chercher des flux radio.                                   
+Un grand merci à notre ami Paul pour cette trouvaille!  😊                      
+
+# Anuaires pour rechercher des flux radio #
+
+Il y a certains  anuaires  plutôt  complète  et  à  jour  comme:                           
+[www.radio.fr](www.radio.fr)                            
+ou encore                            
+[www.tunein.com](www.tunein.com)                                      
+ou  encore                                 
+[http://fr.streema.com/](http://fr.streema.com/)                                
+
+	Vous trouverez ci-dessous comment utiliser la fonction de recherche avec RadioSure.                                
+
+# Fonction de recherche avec RadioSure #
+
+Ci-dessous, j'explique comment rechercher une station de radio, par Pays, en combinant par Genre et par Pays, en combinant des mots clés, par nom  de l'artiste, par  le nom d'un groupe musical, par Genre, en utilisant  des termes de recherche par Pays, par Région ou Pays supplémentaire, par régions, par ttype de station, par Langages. (whew)                        
+Vous trouverais aussi une Liste des genres musicaux répertorié par Wikipédia, et une Liste des genres musicaux répertoriés par le service Yellowpages de SHOUTcast.                                     
+Remarque Importante:                       
+Je le mets juste au cas où, je ne sais pas si ça peut servir, mais ça vous donnera des idées pour les termes de recherche ! 😔                    
+
+Je vais vous donner quelques exemples, dans certains cas ça peut marcher, dans d'autres non. Ne désespèrez pas! car,  on  ne  peut  pas  tout  lui  demandés à RadioSure! 😢              
+
+# Rechercher  par Pays #
+
+Comment faire une recherche par pays ?                               
+Il suffit de saisir le nom d'un pays dans la zone de recherche.                                      
+Par exemple:                            
+canada                          
+Puis faire  Entrée.                        
+Faire Tabulation.                     
+Nous avons une boîte de dialogue:                         
+Stations  dialogue                        
+Stations  liste                                
+Dans cette liste, vous trouverez toutes les stations du Canada ou celles diffusant à l'étranger, y compris le terme de recherche canada.                                      
+Par exemple, j'ai trouvé la station de radio:                               
+104.3 CKWS Kingston, ON; Pays: Canada; Genre: Oldies; Langue: English                         
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                                
+
+Si vous tapez par exemple:                    
+france                            
+Dans cette liste, vous trouverez toutes les stations de France ou celles diffusant à l'étranger, y compris le terme de recherche france.                                 
+Par exemple, j'ai trouvé la station de radio:                           
+180 la radio 100% années 80; Pays: France; Genre: 70s/80s; Langue: French                              
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                               
+
+# Rechercher en combinant par Genre et par Pays #
+
+Vous pouvez également taper le nom du genre et du pays, par exemple:                                      
+jazz france                                          
+Dans cette liste, vous trouverez toutes les stations  de radio diffusant le genre Jazz en France ou à l'étranger, y compris le terme de recherche jazz france.                                              
+Par exemple, j'ai trouvé la station de radio:                            
+TSF 89.9; Pays: France; Genre: Jazz; Langue: French                                
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                                  
+
+# Rechercher en combinant des mots clés #
+
+Vous pouvez faire une recherche en combinant des mots clés.                                 
+En d'autres termes, il  faut  raffiner  sa recherche  en  écrivant  par  example :                                    
+classical, ou france, ou france bleu; mais  c'est  beaucoup moins  commode, je  le  concède.                             
+
+Vous pouvez également taper le nom du genre et du pays, par exemple:                                      
+classical france                        
+Dans cette liste, vous trouverez toutes les stations  de radio diffusant le genre classical en France ou à l'étranger, y compris le terme de recherche classical france.                                              
+Par exemple, j'ai trouvé la station de radio:                            
+Radio Classique; Pays: France; Genre: Classical; Langue: French                      
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                                  
+
+Par exemple, j'ai trouvé la station de radio:                            
+A CLASSIC FM WEB Radio (LVDA); Pays: France; Genre: Classical; Langue: French                     
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                                  
+
+Dans le cas de la recherche avec les termes:                    
+france bleu              
+Une fois dans la liste, nous verrons les résultats mais aucun flux radio fonctionne pour les radios france bleu. quel dommâge! 😒
+ 
+ Par contre comme le terme bleu a été pris en compte, nous avons trouvé la radio:                
+Bleudream-80; Pays: France; Genre: 70s/80s; Langue: French               
+ Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                                  
+ 
+# Rechercher par nom  d'l'artiste #
+
+Vous pouvez également taper le nom de votre artiste préféré!            	           
+Par exemple, Madonna, Michael Jackson, Donna Summer, etc, etc.                                    
+
+Si je tape en utilisant le nom de Maddona               
+Dans cette liste, vous trouverez toutes les stations  de radio diffusant les chanson de Madonna y compris le terme de recherche Madonna.                                      
+Par exemple, j'ai trouvé la station de radio:                                  
+100% madonna; Pays: France; Genre: Pop; Langue: French                           
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                            
+
+Si je tape en utilisant le nom de Michael Jackson                 
+Dans cette liste, vous trouverez toutes les stations  de radio diffusant les chanson de Michael Jackson y compris le terme de recherche Michael Jackson.                    
+Par exemple, j'ai trouvé la station de radio:                    
+OPEN.FM - 100% Michael Jackson; Pays: Poland; Genre: Pop; Langue: Polish                          
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!                            
+
+Dans le cas de la recherche en utilisant le nom  Donna Summer celui-ci n'a rien donné mais avec le terme de recherche Summer celui-ci m'a donné plusieurs résultats, puisque le terme Summer de l'anglais au français signifie été, plus concrètement quand  nous associons aux chansons de l'Été 80 = Summer 80.                                 
+Je met comme exemple l'Été 80 mais pourrait être une autre année.                     
+Dans cette liste, vous trouverez toutes les stations  de radio diffusant les chanson de l'Été = Summer) y compris le terme de recherche Summer.                        
+Par exemple, j'ai trouvé la station de radio:                             
+Nostalgie Summer 80; Pays: France; Genre: 70s/80s; Langue: French                       
+Si vous aimez, appuyez simplement sur Entrée pour l'écouter!          
+
+# Rechercher par  le nom d'un groupe musical #
+
+Peut-être que nous pourrions taper un terme de recherche par le nom d'un groupe musical!                             
+Si je tape en utilisant le nom du groupe musical Beatles                          
+Dans cette liste, vous trouverez toutes les stations  de radio diffusant les chanson du groupe musical  Beatles y compris le terme de recherche Beatles.                         
+Par exemple, j'ai trouvé la station de radio:                         
+181.fm - Beatles; Pays: USA; Genre: Oldies; Langue: English                         
+
+# Rechercher par Genre #
+
+Peut-être que nous pourrions également taper un terme de recherche par genre!                                  
+Par exemple, certains genres de stations de radio qui pourraient être tapés dans la zone de recherch :                         
+
+20s, 40s,  60s, 70s, 80s, 90s, Accordeon, Baroque, Blues, Christian, Classical, Disco, Gospel, Humor, Information, Instrumental, Jazz, Latin, New Age, Pop, Rock, Salsa, Techno, World etc, etc.                                     
+
+En bref, la recherche est comme une loterie, peut-être que vous gagnez ou perdez du temps ... ou peut-être que vous trouverez votre bonheur!                         
+
+Il existe un grand nombre de genres et de styles musicaux à travers le monde, tout les goûts sont dans la nature ... Les plus importants sont regroupés ci-après...                                    
+
+# Liste des genres musicaux répertorié par Wikipédia #
+
+Voici une Liste des genres musicaux répertorié par Wikipédia en ordre alphabétique ; (voir la liste ci-dessous):                                         
+Remarque Importante:                                 
+Je le mets juste au cas où, je ne sais pas si ça peut servir, mais ça vous donnera des idées pour les termes de recherche !                            
+
+Source :                             
+[Liste des genres musicaux — Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_genres_musicaux)                   
+
+## A ##
+
+
+* A cappella
+* Acid blues
+* Acid breaks
+ * Acid house
+* Acid jazz
+* Acid rock
+* Acid techno
+* Acid trance
+* Acidcore
+* Adult contemporary
+* Afrobeat
+* Afropop
+* Allaoui
+* Ambient
+* Ambient house
+* Ambient jungle
+* Ambient techno
+* Americana
+* Anarcho-punk
+* Anti-folk
+* Arena rock
+* Art punk
+* Art rock
+* Austropop
+* Avant-garde jazz
+* Avanthop
+* Axé
+
+
+## B ##
+
+
+* Bachata
+* Bachatango
+* Baggy
+* Baile funk
+* Bakersfield sound
+* Balearic beat
+* Balearic trance
+* Ballade
+* Ballet
+* Baltimore club
+* Bass music
+* Bassline
+* Bay Area thrash metal
+* Beat
+* Bebop
+* Berceuse
+* Big band
+* Big beat
+* Big room house
+* Biguine
+* Black metal
+* Black metal norvégien
+* Black metal symphonique
+* Bluegrass
+* Blues
+* Blues africain
+* Blues électrique
+* Blues rock
+* Blues touareg
+* Blues traditionnel
+* Boléro
+* Boogaloo
+* Boogie-woogie
+* Bossa nova
+* Bounce music
+* Brass band
+* Breakbeat
+* Breakbeat hardcore
+* Breakcore
+* Britpop
+* Broken beat
+* Brutal death metal
+* Bubblegum pop
+* Bubblegum dance
+
+
+## C ##
+
+
+* C86
+* C-pop
+* Calypso
+* Cantopop
+* Cello rock
+* Cha-cha-cha
+* Chaâbi algérien
+* Chaâbi marocain
+* Changüí
+* Chanson française
+* Chant grégorien
+* Chicago blues
+* Chicago house
+* Chill-out
+* Chillstep
+* Chillwave
+* Chiptune (ou musique 8-bit)
+* Classic rag
+* Cloud rap
+* Cold wave
+* College rock
+* Complextro
+* Concerto
+* Contradanza
+* Cool jazz
+* Country
+* Country alternative
+* Country folk
+* Country néo traditionnelle
+* Country pop
+* Country rap
+* Country rock
+* Country soul
+* Coupé-décalé
+* Cowpunk
+* Crossover
+* Crossover thrash
+* Crunk
+* Crunk'n'b
+* Crunkcore
+* Crust punk
+* Cumbia
+
+
+## D ##
+
+
+* D-beat
+* Dance
+* Dance-pop
+* Dance-punk
+* Dance-rock
+* Dancehall
+* Dangdut
+* Danzón
+* Dark ambient
+* Dark metal
+* Dark psytrance
+* Dark wave
+* Dark wave néo-classique
+* Darkcore (ou darkside)
+* Darkcore (ou doomcore)
+* Darkstep
+* Death-doom
+* Death metal
+* Death metal mélodique
+* Death metal technique
+* Death 'n' roll
+* Death rock
+* Deathcore
+* Deathcountry
+* Deathgrind
+* Deep house
+* Deepkho
+* Delta blues
+* Detroit blues
+* Digital hardcore
+* Dirty South
+* Disco
+* Disco house
+* Disco polo
+* Diva house
+* Dixieland
+* Djent
+* Doo-wop
+* Doom metal
+* Downtempo
+* Dream pop
+* Dream trance
+* Drill
+* Drill and bass
+* Drone
+* Drum and bass
+* Drumfunk
+* Drumstep
+* Dub
+* Dub poetry
+* Dub techno
+* Dubstep
+* Dubstyle
+* Dunedin sound
+* Dutch house
+
+
+## E ##
+
+
+* Early hardcore
+* Easycore
+* Electro
+* Electro house
+* Electro swing
+* Electroclash
+* Electronic body music (EBM)
+* Electronica
+* Electronicore
+* Emo
+* Emo pop
+* Éthio-jazz
+* Ethno-jazz
+* Euro disco
+* Eurobeat
+* Eurodance
+* Europop
+* Extratone
+
+
+## F ##
+
+
+* Fado
+* Fanfare
+* Fidget house
+* Filin
+* Flamenco
+* Folk
+* Folk metal
+* Folk progressif
+* Folk psychédélique
+* Folk rock
+* Freakbeat
+* Free jazz
+* Freeform hardcore
+* Freestyle
+* French touch
+* Frenchcore
+* Fun-punk
+* Funk
+* Funk rock
+* Funk metal
+* Funktronica
+* Funky house
+* Future garage
+* Future house
+
+
+## G ##
+
+
+* G-funk
+* Gabber
+* Gaelic punk
+* Gangsta rap
+* Garage house
+* Garage punk
+* Garage rock
+* Geek rock
+* Ghetto house
+* Ghettotech
+* Glam metal
+* Glam punk
+* Glam rock
+* Glitch
+* Glitch-hop
+* Goregrind
+* Gospel
+* Gospel blues
+* Gothabilly
+* Grebo
+* Grime
+* Grindcore
+* Grindie
+* Groove metal
+* Grunge
+* Guajira
+* Guaracha
+* Gypsy punk
+
+
+## H ##
+
+
+* Handsup
+* Happy gabber
+* Happy hardcore
+* Hard bop
+* Hard house
+* Hard rock
+* Hard trance
+* Hardbag
+* Hardcore chrétien
+* Hardcore mélodique
+* Hardstep
+* Hardstyle
+* Hardtechno
+* Heartland rock
+* Heavy metal
+* Heavy metal traditionnel
+* Hi-NRG
+* Hip-hop
+* Hip-hop alternatif
+* Hip-hop chrétien
+* Hip-hop expérimental
+* Hip-hop old-school
+* Hip-hop orchestral
+* Hip-hop psychédélique
+* Hip-hop sud-coréen
+* Hip-house
+* Hiplife
+* Hipster-hop
+* Honky tonk
+* Horror punk
+* Horrorcore
+* House
+* House progressive
+
+
+## I ##
+
+
+* Illbient
+* Indie dance
+* Indie folk
+* Indie pop
+* Industrial hardcore
+* Intelligent dance music (IDM)
+* Italo dance
+* Italo disco
+* Italo house
+
+
+## J ##
+
+
+* J-core
+* J-pop
+* J-rock
+* Jangle pop
+* Jazz
+* Jazz afro-cubain
+* Jazz blues
+* Jazz-funk
+* Jazz fusion (ou jazz-rock)
+* Jazz manouche
+* Jazz modal
+* Jazz Nouvelle-Orléans
+* Jazz punk
+* Jazz rap
+* Jazz vocal
+* Jazz West Coast
+* Jazzstep
+* Jump blues
+* Jump-up
+* Jumpstyle
+* Jungle
+
+
+## K ##
+
+
+* K-pop
+* Kaneka
+* Kansas City blues
+* Kizomba
+* Klezmer
+* Kompa
+* Krautrock
+* Kuduro
+* Kwaito
+
+
+## L ##
+
+
+* Latin house
+* Latin jazz
+* Latin metal
+* Lento violento
+* Liquid funk
+* Livetronica
+* Lo-fi
+* Logobi
+* Louisiana blues
+* Lounge
+* Luk thung
+
+
+## M ##
+
+
+* Madchester
+* Mainstream
+* Mainstream hardcore
+* Makina
+* Maloya
+* Mambo
+* Mandopop
+* Mangue beat
+* Marche
+* Mashup
+* Math rock
+* Mathcore
+* Mbalax
+* Medieval rock
+* Memphis blues
+* Merengue
+* Merenhouse
+* Metal alternatif
+* Metal avant-gardiste
+* Metal celtique
+* Metal chrétien
+* Metal extrême
+* Metal gothique
+* Metal industriel
+* Metal néo-classique
+* Metal oriental
+* Metal progressif
+* Metal symphonique
+* Metalcore
+* Metalcore mélodique
+* Miami bass
+* Microhouse
+* Midwest rap
+* Milonga
+* Minneapolis Sound
+* Moombahcore
+* Moombahton
+* Mozambique
+* Murga
+* Musette
+* Música popular brasileira (MPB)
+* Musique acoustique
+* Musique aléatoire
+* Musique alternative
+* Musique arabo-andalouse
+* Musique bretonne
+* Musique bruitiste (ou noise music)
+* Musique cadienne (ou musique Cajun)
+* Musique celtique
+* Musique chrétienne contemporaine (ou CCM)
+* Musique classique
+* Musique concrète
+* Musique cubaine
+* Musique de jeu vidéo
+* Musique de variétés
+* Musiques du monde
+* Musique électroacoustique
+* Musique électronique
+* Musique émergente
+* Musique expérimentale
+* Musique gothique
+* Musique industrielle
+* Musique instrumentale
+* Musique irlandaise
+* Musique latine
+* Musique minimaliste
+* Musique post-industrielle
+* Musique progressive
+* Musique romantique
+* Musique spectrale
+
+
+## N ##
+
+
+* Nardcore
+* Nashville sound
+* National socialist black metal (NSBM)
+* Nazi punk
+* Nederpop
+* Negro spiritual
+* Néo-bop
+* Néo-classicisme
+* Neo-psychedelia
+* Neo soul
+* Néo-trad
+* Néofolk
+* Nerdcore
+* Neue Deutsche Härte
+* Neue Deutsche Welle
+* Neurofunk
+* New age
+* New beat
+* New jack swing
+* New prog
+* New wave
+* New wave of American heavy metal (NWOAHM)
+* New wave of British heavy metal (NWOBHM)
+* New York blues
+* New York hardcore
+* Nightcore
+* Nintendocore
+* Nocturne
+* No wave
+* Noise pop
+* Noise rock
+* Northern soul
+* Nu-disco
+* Nu-NRG
+* Nu jazz
+* Nu metal
+* Nueva trova
+
+
+## O ##
+
+
+* Oi!
+* Old-time
+* Opéra
+* Opéra-rock
+* Oratorio
+* Outlaw country
+
+
+## P ##
+
+
+* Pachanga
+* Paisley Underground
+* Paso doble
+* Piano blues
+* Piano rock
+* Piano stride
+* Piedmont blues
+* Pirate metal
+* Polonaise
+* Pop
+* Pop baroque
+* Pop latino
+* Pop metal
+* Pop progressive
+* Pop psychédélique
+* Pop punk
+* Pop-rap
+* Pop rock
+* Pornogrind
+* Post-bop
+* Post-disco
+* Post-grunge
+* Post-hardcore
+* Post-metal
+* Post-punk
+ * Post-rock
+* Power ballad
+* Power metal
+* Power pop
+* Powerviolence
+* Prélude
+* Progressive psytrance
+* Protopunk
+* Psychobilly
+* Pub rock
+* Punk blues
+* Punk celtique
+* Punk chrétien
+* Punk folk
+* Punk hardcore (ou hardcore)
+* Punk rock
+* Punta rock
+* Punto guajiro
+
+
+## Q ##
+
+
+* Queercore
+* Quiet storm
+
+
+## R ##
+
+
+* Rabiz
+* Raga rock
+* Ragga
+* Ragtime
+* Raï
+* Raï'n'B
+* Rap East Coast
+* Rap hardcore
+* Rap metal
+* Rap politique
+* Rap rock
+* Rap West Coast
+* Rapcore
+* Rave
+* Rawstyle
+* Rebetiko
+* Red dirt
+* Reggae
+* Reggae fusion
+* Reggaecrunk
+* Reggaetón
+* Rhapsodie
+* Rhythm and blues
+* Riot grrrl
+* RnB contemporain
+* Rock
+* Rock alternatif
+* Rock alternatif latino
+* Rock anticommuniste (RAC)
+* Rock brésilien
+* Rock canadien
+* Rock celtique
+* Rock chilien
+* Rock chinois
+* Rock chrétien
+* Rock communiste
+* Rock électronique
+* Rock en espagnol
+* Rock expérimental
+* Rock gothique
+* Rock in opposition
+* Rock indépendant
+* Rock industriel
+* Rock instrumental
+* Rock 'n' roll
+* Rock néo-progressif
+* Rock progressif
+* Rock progressif espagnol
+* Rock progressif français
+* Rock progressif italien
+* Rock psychédélique
+* Rock sudiste
+* Rock suédois
+* Rock symphonique
+* Rock turc
+* Rock wagnérien
+* Rockabilly
+* Rocksteady
+* Rondo
+* Roots rock
+* Rumba
+* Rumba catalane
+* Rumba congolaise
+* Rumba flamenca
+
+
+## S ##
+
+
+* Sadcore
+* Saint Louis blues
+* Salegy
+* Salsa
+* Salsa-ragga
+* Salsaton
+* Samba
+* Samba rock
+* Sambass
+* Scherzo
+* Schlager
+* Schranz
+* Screamo
+* Séga
+* Seggae
+* Semba
+* Shibuya-kei
+* Shock rock
+* Shoegazing
+* Ska
+* Ska-jazz
+* Ska punk
+* Skate punk
+* Skiffle
+* Slam
+* Slow
+* Slow fox (ou foxtrot)
+* Slowcore
+* Sludge metal
+* Smooth jazz
+* Snap
+* Soca
+* Soft rock
+* Son cubain
+* Sonate
+* Songo
+* Sophisti-pop
+* Soukous
+* Soul
+* Soul blues
+* Soul jazz
+* Soul psychédélique
+* Southern gospel
+* Space rock
+* Speed garage
+* Speed metal
+* Speedcore
+* Splittercore
+* Stoner rock
+* Street punk
+* Subground
+* Sunshine pop
+* Surf
+* Swamp blues
+* Swamp pop
+* Swing
+* Symphonie
+* Synthpop (ou electropop ou technopop)
+* Synthpunk (ou electropunk)
+* Synthwave
+
+
+## T ##
+
+
+* T-pop
+* Tango
+* Taqwacore
+* Tarentelle
+* Tech house
+* Tech trance
+* Techno
+* Techno de Détroit
+* Techno hardcore
+* Techno minimale
+* Techstep
+* Tecno-brega
+* Teen pop
+* Terrorcore
+* Texas blues
+* Thrash metal
+* Thrash metal allemand
+* Thrashcore
+* Timba
+* Toccata
+* Trallpunk
+* Trance
+* Trance Goa
+* Trance psychédélique
+* Trance vocale
+* Trap
+* Tribal house
+* Tribe
+* Trip hop
+* Tropical house
+* Tropipop
+* Tumba francesa
+* Twee pop
+
+
+## U ##
+
+
+* UK garage
+* UK hardcore
+* Unblack metal
+* Uplifting trance
+
+
+## V ##
+
+
+* Vaporwave
+* Viking metal
+* Visual kei
+* Vocal house
+
+
+## W ##
+
+
+* West Coast blues
+* Western Swing
+* Witch house
+* Wizard rock
+* Wonky
+* Wonky pop
+* World music
+
+
+## Y ##
+
+
+* Yéla
+* Yéyé
+* Youth crew
+
+
+## Z ##
+
+
+* Zarico (ou zydeco)
+* Zeuhl
+* Ziglibithy
+* Zouglou
+* Zouk
+* Zumba
+
+
+## 0-9 ##
+
+
+* 2-step garage
+* 2 tone
+
+
+# Liste des genres musicaux répertoriés par le service Yellowpages de SHOUTcast #
+
+Voici une Liste de genres musicaux répertoriés par le service Yellowpages de SHOUTcast (voir la liste ci-dessous):                          
+Remarque Importante:                 
+Je le mets juste au cas où, je ne sais pas si ça peut servir, mais ça vous donnera des idées pour les termes de recherche !                        
+
+Source:                            
+[Liste de genres musicaux référencés sur SHOUTcast - Doc](http://www.musiquecontemporaine.fr/doc/index.php/Liste_de_genres_musicaux_r%C3%A9f%C3%A9renc%C3%A9s_sur_SHOUTcast)                                 
+
+1.1.  Alternative
+
+1.2.  Blues
+
+1.3.  Classical
+
+1.4.  Country
+
+1.5.  Easy Listening
+
+1.6.  Electronic
+
+1.7.  Folk
+
+1.8.  Themes
+
+1.9.  Rap
+
+1.10.  Inspirational
+
+1.11.  International
+
+1.12.  Jazz
+
+1.13.  Latin
+
+1.14.  Metal
+
+1.15.  New Age
+
+1.16.  Decades
+
+1.17.  Pop
+
+1.18.  R&B/Urban
+
+1.19.  Reggae
+
+1.20.  Rock
+
+1.21.  Seasonal/Holiday
+
+1.22.  Soundtracks
+
+1.23.  Talk
+
+1.24.  Misc
+
+## 1.1. Al		ternative ##
+
+
+* Alternative 
+* Adult Alternative 
+* Britpop 
+* Classic Alternative 
+* College 
+* Dancepunk 
+* Dream Pop 
+* Emo 
+* Goth 
+* Grunge 
+* Indie Pop 
+* Indie Rock 
+* Industrial 
+* Lo-Fi 
+* Modern Rock 
+* New Wave 
+* Noise Pop 
+* Post-Punk 
+* Power Pop 
+* Punk 
+* Ska 
+* Xtreme 
+
+
+## 1.2. Blues ##
+
+
+* Blues 
+* Acoustic Blues 
+* Chicago Blues 
+* Contemporary Blues 
+* Country Blues 
+* Delta Blues 
+* Electric Blues 
+* Cajun/Zydeco 
+
+
+## 1.3. Classical ##
+
+
+* Classical 
+* Baroque 
+* Chamber 
+* Choral 
+* Classical Period 
+* Early Classical 
+* Impressionist 
+* Modern 
+* Opera 
+* Piano 
+* Romantic 
+* Symphony 
+
+
+## 1.4. Country ##
+
+
+* Country 
+* Alt-Country 
+* Americana 
+* Bluegrass 
+* Classic Country 
+* Contemporary Bluegrass 
+* Contemporary Country 
+* Honky Tonk 
+* Hot Country Hits 
+* Western 
+
+
+## 1.5. Easy Listening ##
+
+
+* Easy Listening 
+* Exotica 
+* Light Rock 
+* Lounge 
+* Orchestral Pop 
+* Polka 
+* Space Age Pop 
+
+## 1.6. Electronic ##
+
+
+* Electronic 
+* Acid House 
+* Ambient 
+* Big Beat 
+* Breakbeat 
+* Dance 
+* Demo 
+* Disco 
+* Downtempo 
+* Drum and Bass 
+* Electro 
+* Garage 
+* Hard House 
+* House 
+* IDM 
+* Remixes 
+* Jungle 
+* Progressive 
+* Techno 
+* Trance 
+* Tribal 
+* Trip Hop 
+
+
+## 1.7. Folk ##
+
+
+* Folk 
+* Alternative Folk 
+* Contemporary Folk 
+* Folk Rock 
+* New Acoustic 
+* Traditional Folk 
+* World Folk 
+
+
+## 1.8. Themes ##
+
+
+* Themes 
+* Adult 
+* Best Of 
+* Chill 
+* Experimental 
+* Female 
+* Heartache 
+* LGBT 
+* Love/Romance 
+* Party Mix 
+* Patriotic 
+* Rainy Day Mix 
+* Reality 
+* Sexy 
+* Shuffle 
+* Travel Mix 
+* Tribute 
+* Trippy 
+* Work Mix 
+
+
+## 1.9. Rap ##
+
+
+* Rap 
+* Alternative Rap 
+* Dirty South 
+* East Coast Rap 
+* Freestyle 
+* Hip Hop 
+* Gangsta Rap 
+* Mixtapes 
+* Old School 
+* Turntablism 
+* Underground Hip-Hop 
+* West Coast Rap 
+
+
+## 1.10. Inspirational ##
+
+
+* Inspirational 
+* Christian 
+* Christian Metal 
+* Christian Rap 
+* Christian Rock 
+* Classic Christian 
+* Contemporary Gospel 
+* Gospel 
+* Praise/Worship 
+* Sermons/Services 
+* Southern Gospel 
+* Traditional Gospel 
+
+
+## 1.11. International ##
+
+
+* International 
+* African 
+* Afrikaans 
+* Arabic 
+* Asian 
+* Brazilian 
+* Caribbean 
+* Celtic 
+* European 
+* Filipino 
+* Greek 
+* Hawaiian/Pacific 
+* Hindi 
+* Indian 
+* Japanese 
+* Jewish 
+* Klezmer 
+* Mediterranean 
+* Middle Eastern 
+* North American 
+* Polskie 
+* Polska 
+* Soca 
+* South American 
+* Tamil 
+* Worldbeat 
+* Zouk 
+
+
+## 1.12. Jazz ##
+
+
+* Jazz 
+* Acid Jazz 
+* Avant Garde 
+* Big Band 
+* Bop 
+* Classic Jazz 
+* Cool Jazz 
+* Fusion 
+* Hard Bop 
+* Latin Jazz 
+* Smooth Jazz 
+* Swing 
+* Vocal Jazz 
+* World Fusion 
+
+
+## 1.13. Latin ##
+
+
+* Latin 
+* Bachata 
+* Banda 
+* Bossa Nova 
+* Cumbia 
+* Latin Dance 
+* Latin Pop 
+* Latin Rap/Hip-Hop 
+* Latin Rock 
+* Mariachi 
+* Merengue 
+* Ranchera 
+* Reggaeton 
+* Regional Mexican 
+* Salsa 
+* Tango 
+* Tejano 
+* Tropicalia 
+
+
+## 1.14. Metal ##
+
+
+* Metal 
+* Black Metal 
+* Classic Metal 
+* Extreme Metal 
+* Grindcore 
+* Hair Metal 
+* Heavy Metal 
+* Metalcore 
+* Power Metal 
+* Progressive Metal 
+* Rap Metal 
+
+
+## 1.15. New Age ##
+
+
+* New Age 
+* Environmental 
+* Ethnic Fusion 
+* Healing 
+* Meditation 
+* Spiritual 
+
+
+## 1.16. Decades ##
+
+
+* Decades 
+* 30s 
+* 40s 
+* 50s 
+* 60s 
+* 70s 
+* 80s 
+* 90s 
+
+
+## 1.17. Pop ##
+
+
+* Pop 
+* Adult Contemporary 
+* Barbershop 
+* Bubblegum Pop 
+* Dance Pop 
+* Idols 
+* Oldies 
+* JPOP 
+* Soft Rock 
+* Teen Pop 
+* Top 40 
+* World Pop 
+
+
+## 1.18. R&B/Urban ##
+
+
+* R&B/Urban 
+* Classic R&B 
+* Contemporary R&B 
+* Doo Wop 
+* Funk 
+* Motown 
+* Neo-Soul 
+* Quiet Storm 
+* Soul 
+* Urban Contemporary 
+
+
+## 1.19. Reggae ##
+
+
+* Reggae 
+* Contemporary Reggae 
+* Dancehall 
+* Dub 
+* Pop-Reggae 
+* Ragga 
+* Rock Steady 
+* Reggae Roots 
+
+
+## 1.20. Rock ##
+
+
+* Rock 
+* Adult Album Alternative 
+* British Invasion 
+* Classic Rock 
+* Garage Rock 
+* Glam 
+* Hard Rock 
+* Jam Bands 
+* Piano Rock 
+* Prog Rock 
+* Psychedelic 
+* Rock & Roll 
+* Rockabilly 
+* Singer/Songwriter 
+* Surf 
+
+
+## 1.21. Seasonal/Holiday ##
+
+
+* Seasonal/Holiday 
+* Anniversary 
+* Birthday 
+* Christmas 
+* Halloween 
+* Hanukkah 
+* Honeymoon 
+* Valentine 
+* Wedding 
+* Winter 
+
+
+## 1.22. Soundtracks ##
+
+
+* Soundtracks 
+* Anime 
+* Bollywood 
+* Kids 
+* Original Score 
+* Showtunes 
+* Video Game Music 
+
+
+## 1.23. Talk ##
+
+
+* Talk 
+* Comedy 
+* Community 
+* Educational 
+* Government 
+* News 
+* Old Time Radio 
+* Other Talk 
+* Political 
+* Public Radio 
+* Scanner 
+* Spoken Word 
+* Sports 
+* Technology 
+* Hardcore 
+* Eclectic 
+* Instrumental 
+
+
+## 1.24. Misc ##
+
+
+* Misc 
+
+
+## Terme de recherche par Pays ##
+
+
+Utilisez le nom du pays en anglais qui se trouve vers la gauche,                            
+(à droite, se trouve la traduction en français):                                 
+
+
+## Countries (Pays) ##
+
+
+* Afghanistan / Afghanistan
+* Albania / Albanie
+* Algeria / Algérie
+* American Samoa / Samoa américaines
+* Andorra / Andorre
+* Angola / Angola
+* Anguilla / Anguilla
+* Antarctica / Antarctique
+* Antigua and Barbuda / Antigua et Barbuda
+* Argentina / Argentine
+* Armenia / Arménie
+* Aruba / Aruba
+* Australia / Australie
+* Austria / Autriche
+* Azerbaijan / Azerbaïdjan
+* Bahamas / Bahamas
+* Bahrain / Bahreïn
+* Bangladesh / Bangladesh
+* Barbados / Barbade
+* Belarus / Biélorussie
+* Belgium / Belgique
+* Belize / Belize
+* Benin / Bénin
+* Bermuda / Bermuda
+* Bhutan / Bhutan
+* Bolivia / Bolivie
+* Bosnia and Herzegovina / Bosnie et Herzégovine
+* Botswana / Botswana
+* Brasil / Brésil
+* Brazil / Brésil
+* British Indian Ocean Territory / Territoire britannique de l'océan indien
+* Brunei / Brunei
+* Bulgaria / Bulgarie
+* Burkina Faso / Burkina Faso
+* Burundi / Burundi
+* Cambodia / Cambodge
+* Cameroon / Cameroun
+* Canada / Canada
+* Cape Verde / Cap Vert
+* Cayman Islands / Iles Caïman
+* Central African Republic / République centre-africaine
+* Chad / Tchad
+* Chile / Chili
+* China / Chine
+* Colombia / Colombie
+* Comoros / Comores
+* Congo, Democratic republic of the / Congo, République démocratique du
+* Cook Islands / Îles Cook
+* Costa Rica / Costa Rica
+* Croatia / Croatie
+* Cuba / Cuba
+* Cyprus / Chypre
+* Czech Republic / République Tchèque 
+* Denmark / Danemark
+* Djibouti / Djibouti
+* Dominica / Dominique
+* Dominican Republic / République Dominicaine
+* East Timor / Timor Oriental
+* Ecuador / Équateur
+* Egypt / Egypte
+* El Salvador / El Salvador
+* Equatorial Guinea / Guinée Équatoriale
+* Eritrea / Érythrée
+* Estonia / Estonie
+* Ethiopia / Ethiopie
+* Falkland Islands / Îles Falkland
+* Faroe Islands / Îles Féroé
+* Fiji / Fiji
+* Finland / Finlande
+* France / France
+* French Guiana / Guyane française
+* French Polynesia / Polynésie Française 
+* Gabon / Gabon
+* Georgia / Georgie
+* Germany / Allemagne
+* Ghana / Ghana
+* Gibraltar / Gibraltar
+* Greece / Grèce
+* Greenland / Groenland
+* Grenada / Grenade
+* Guadeloupe / Guadeloupe
+* Guam / Guam
+* Guatemala / Guatemala
+* Guinea / Guinée
+* Guinea Bissau / Guinée Bissoa
+* Guyana / Guyane
+* Haiti / Haïti
+* Honduras / Honduras
+* Hong Kong / Hong Kong
+* Hungary / Hongrie
+* Iceland / Islande
+* India / Inde
+* Indonesia / Indonésie
+* Iran / Iran
+* Iraq / Iraq
+* Ireland / Irlande
+* Israel / Israël
+* Italy / Italie
+* Ivory Coast / Côte d'Ivoire
+* Jamaica / Jamaïque
+* Japan / Japon
+* Jordan / Jordanie
+* Kazachstan / Kazakhstan
+* Kenya / Kenya
+* Kiribati / Kiribati
+* Kuwait / Koweit
+* Kyrgyzstan / Kyrgyzstan
+* Laos / Laos
+* Latvia / Latvia
+* Lebanon / Liban
+* Lesotho / Lesotho
+* Liberia / Liberia
+* Libya / Libye
+* Liechtenstein / Liechtenstein
+* Lithuania / Lithuanie
+* Luxembourg / Luxembourg
+* Macedonia / Republique de Macédonie
+* Madagascar / Madagascar
+* Malawi / Malawi
+* Malaysia / Malaysie
+* Maldives / Maldives
+* Mali / Mali
+* Malta / Malte
+* Marshall Islands                |                Îles Marshall
+* Martinique / Martinique
+* Mauritania / Mauritanie
+* Mauritius / Maurice
+* Mayotte / Mayotte
+* Mexico / Mexique
+* Micronesia / Micronésie
+* Moldova / Moldavie
+* Monaco / Monaco
+* Mongolia / Mongolie
+* Montenegro / Montenegro
+* Montserrat / Montserrat
+* Morocco / Maroc
+* Mozambique / Mozambique
+* Myanmar / Myanmar
+* Namibia / Namibie
+* Nauru / Nauru
+* Nepal / Népal
+* Netherlands / Pays Bas
+* Netherlands Antilles / Antilles néerlandaises
+* New Caledonia / Nouvelle Calédonie 
+* New Zealand / Nouvelle Zélande
+* Nicaragua / Nicaragua
+* Niger / Niger
+* Nigeria / Nigeria
+* Niue / Niue
+* Norfolk Island / Île Norfolk
+* North Korea / Corée du Nord
+* Northern Mariana Islands / Îles Mariannes du Nord
+* Norway / Norvège
+* Oman / Oman
+* Pakistan / Pakistan
+* Palestine / Palestine
+* Panama / Panama
+* Papua New Guinea / Papouasie Nouvelle Guinée
+* Paraguay / Paraguay
+* Peru / Pérou
+* Philippines / Philippines
+* Pitcairn Islands / Îles Pitcairn
+* Poland / Pologne
+* Portugal / Portugal
+* Puerto Rico / Porto Rico
+* Qatar / Qatar
+* Reunion / Réunion
+* Romania / Roumanie
+* Russia / Russie
+* Rwanda / Rwanda
+* Saint Helena / Sainte Hélène
+* Saint Kitts and Nevis / Saint Kitts et Nevis
+* Saint Lucia / Sainte Lucie
+* Saint Pierre and Miquelon / Saint Pierre et Miquelon
+* Saint Vincent and the Grenadines / Saint Vincent et les Grenadines
+* San Marino / San Marin
+* Sao Tome and Principe / Sao Tome et Principe
+* Saudi Arabia / Arabie Saoudite
+* Senegal / Sénégal
+* Serbia / Serbie
+* Seychelles / Seychelles
+* Sierra Leone / Sierra Leone
+* Singapore / Singapour
+* Slovakia / Slovaquie
+* Slovenia / Slovénie
+* Solomon Islands / Îles Salomon
+* Somalia / Somalie
+* South Africa / Afrique du Sud
+* South Korea / Corée du Sud
+* Spain / Espagne
+* Sri Lanka / Sri Lanka
+* Sudan / Soudan
+* Suriname / Surinam
+* Swaziland / Swaziland
+* Sweden / Suède
+* Switzerland / Suisse
+* Syria / Syrie
+* Taiwan / Taiwan
+* Tajikistan / Tajikistan
+* Tanzania / Tanzanie
+* Thailand / Thailande
+* Togo / Togo
+* Tonga / Tonga
+* Trinidad and Tobago / Trinidad et Tobago
+* Tunisia / Tunisie
+* Turkey / Turquie
+* Turkmenistan / Turkmenistan
+* Turks and Caicos Islands / Îles Turques et Caïques
+* Tuvalu / Tuvalu
+* Uganda / Ouganda
+* UK / Royaume Uni
+* United Kingdom / Royaume Uni
+* Ukraine / Ukraine
+* United Arab Emirats / Arabes Unis
+* Uruguay / Uruguay
+* USA / Etats-Unis
+* Uzbekistan / Uzbekistan
+* Vanuatu / Vanuatu
+* Vatican / Vatican
+* Venezuela / Vénézuela
+* Vietnam / Vietnam
+* Virgin Islands UK / Îles Vierges britanniques
+* Virgin Islands US / Îles Vierges US
+* Wallis and Futuna / Îles Wallis et Futuna 
+* Western Sahara / Sahara occidental
+* Yemen / Yemen
+* Zambia / Zambie
+* Zimbabwe / Zimbabwe
+
+
+## Unsorted - Africa / Non trié - Afrique  ##
+
+
+* Cape Verdes / Cap Vert
+* Congo	* Congo Kinshasa / Congo Kinshasa
+* Congo Brazzaville/ Congo Brazzaville
+* Gambia / Gambie
+* Réunion / Réunion
+* St. Helena / St. Hélène
+* Surinam / Surinam
+* Caribbean Islands / Iles Caraïbes
+* St. Pierre-Miquelon / St. Pierre et Miquelon
+* Macau / Macao
+* Azores / Açores
+* Kosovo / Kosovo
+* Madeira / Madère
+
+
+# Terme de recherche par Région ou Pays supplémentaire #
+
+Utilisez la Région ou le Pays supplémentaire en anglais qui se trouve vers la gauche,                   
+(à droite, se trouve la traduction en français):                      
+
+## Extra regions/countries (Régions/pays supplémentaires) ##
+
+
+* Aland Islands / Îles Aland
+* Christmas Island / Île Christmas
+* Cocos Islands / Îles Cocos
+* Donetsk People's Republic / République Populaire Donetsk
+* Federated States of Micronesia / États Fédérés de Micronésie
+* Northern Marianas / Mariannes du Nord
+* Wallis-Futuna / Islands / Îles Wallis-et-Futuna
+
+
+## Unsorted - Canada/ Non trié - Canada ##
+
+
+* Alberta / Alberta
+* British Columbia / Colombie Britannique
+* Manitoba / Manitoba
+* New Brunswick / Nouveau Brunswick
+* Newfoundland and Labrador / Terre-Neuve et Labrador
+* Nova Scotia / Nouvelle Ecosse
+* Ontario / Ontario
+* Prince Edward Island / Île du Prince Edouard
+* Quebec / Québec
+* Saskatchewan / Saskatchewan
+* Nunavut / Nunavut
+* Yukon Territory / Territoire du Yukon
+
+
+## Unsorted - USA / Non trié - États-Unis ##
+
+
+* California / Californie
+* North Carolina / Caroline du Nord
+* South Carolina / Caroline du Sud
+* North Dacota / Dakota du Nord
+* South Dacota / Dakota du Sud
+* District of Columbia / District de Colombie
+* Florida / Floride
+* Hawaii / Hawaï
+* Louisiana / Louisiane
+* New Mexico / Nouveau Mexique
+* Pennsylvania / Pennsylvanie
+* Virginia / Virginie
+* West Virginia / Virginie Occidentale
+
+
+## Unsorted / Non trié ##
+
+
+* NOAA Weather Radio / Radio Météo de la NOAA
+* Canadian Streams / Flux Canadiens
+* Central Zone Streams / Flux de la Zone Centrale
+* Eastern Zone Streams / Flux de la Zone de l'Est
+* Feather River Canyon Area / Secteur de Feather River Canyon
+* Mountain Zone Streams / Flux de la Zone de Montagne
+* Virginia Area Streams / Flux du Secteur de Virginie
+* International Streams / Flux Internationaux
+* Western Zone Streams / Flux de la zone Ouest
+* West Sacramento, CA / Sacramento Ouest, CA
+
+
+# Terme de recherche par régions #
+
+Autrement dit, par continent.                        
+
+Utilisez la région en anglais qui se trouve vers la gauche,                    
+(à droite, se trouve la traduction en français):                
+
+## Regions (Régions) ##
+
+
+* Africa / Afrique
+* America / Amérique
+* North America / Amérique du nord
+* Central America / Amérique centrale
+* South America / Amérique du sud
+* Asia / Asie
+* Europe / Europe
+* Australasia / Asie australe
+* Middle East / Moyen Orient
+* Pacific / Pacifique
+* Antarctica / Antarctique
+* Caribbean / Caraïbes
+* Atlantic / Atlantique
+* Indian Ocean / Océan indien 
+* Australia/Oceania/ Australie/Océanie
+
+
+# Terme de recherche par ttype de station #
+
+Utilisez le type de station en anglais qui se trouve vers la gauche,                   
+(à droite, se trouve la traduction en français):                         
+
+
+* Worldwide / Monde
+* Information stations / Stations d'information
+* Air Traffic Control Stations / Stations de Contrôle du Trafic Aérien
+* Railroad Stations / Stations de Chemins de Fer
+* Weather Stations / Stations de Météo
+* Amateur Radio Repeaters / Répéteurs de Radio Amateur
+* Public Safety Stations / Stations de Sécurité Publique
+
+
+# Terme de recherche par Langages #
+
+Autrement dit, la langue dans laquelle la station de radio transmet.                        
+Utilisez la langue en anglais qui se trouve vers la gauche,                              
+(à droite, se trouve la traduction en français):                       
+
+## Langages (Languages) ##
+
+
+* Arabic / Arabique
+* Armenian / Arménien
+* Bulgarian / Bulgare
+* Catalan / Catalan
+* Chinese (Simplified) / Chinois (Simplifié)
+* Chinese (Traditional) / Chinois (Traditionnel)
+* Croatian / Croate
+* Czech / Tchèque
+* Dutch / Hollandais
+* English / Anglais
+* Estonian / Estonien
+* Finnish / Finnois
+* French / Français
+* German / Allemand
+* Hebrew / Hébreu
+* Hungarian /  Hongrois
+* Italian / Italien
+* Japanese / Japonais
+* Korean/ Coréen
+* Lithuanian / Lituanien
+* Malay / Malaisien
+* Polish / Polonais
+* Portuguese (Brazilian ) / Portugais (Brésilien)
+* Portuguese / Portugais
+* Romanian / Roumain
+* Russian / Russe
+* Serbian (Latin) / Serbe (Latin)
+* Serbian / Serbe
+* Slovak / Slovaque
+* Slovenian / Slovène
+* Spanish / Espagnol
+* Swedish / Suédois
+* Turkish / Turc
+* Ukrainian / Ukrainien
+
+
+Il  faut  s'inventer  des astuces  de  recherches , merci à nos amis Seb et Paul pour nous avoir fait partagée leurs expériences de recherche avec RadioSure, en attendant que cela fonctionne...                  
+Je vous souhaite une bonne recherche avec RadioSure! c'est Sure de sure:!
 
 # Utiliser touche Applications ou menu contextuel depuis la fenêtre principale de Radio sure #
 
