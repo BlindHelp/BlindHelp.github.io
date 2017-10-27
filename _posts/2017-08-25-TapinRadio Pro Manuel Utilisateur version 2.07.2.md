@@ -5067,6 +5067,17 @@ Afficher les nouvelles stations Ctrl+N
 11. Si vous êtes vraiment satisfait de la version d’essai de TapinRadio pro, et que vous voulez  passer  a la version pro vous pouvez consulter le lien ci-dessous (page en anglais):                        
 [Mettre à jour en version Pro](http://www.raimersoft.com/buy_tapin.aspx)
 
+## Prix de la Licence de Tapin Radio ##
+La licence valable pour tous vos ordinateurs coûte 20$ (soit 17 à 18 euros)                              
+
+Acheter en ligne                               
+* Tous nos produits peuvent être commandés en ligne sur Internet en utilisant une carte de crédit ou paypal.          
+Mise à niveau                                 
+* Les mises à niveau mineures sont gratuites                                          
+Avantages               
+* Licence valable pour tous vos ordinateurs                
+[Pour l'achetez c'est par ici, (page en anglais)](http://www.raimersoft.com/Buy_Tapin.aspx)
+
 # Nouveau module complémentaire TapinRadioStatusAnnouncer #
 TapinRadioStatusAnnouncer                       
 Tapin Radio Information Announcer                       
@@ -5168,5 +5179,5 @@ ou sur  votre nouveau espace via GitHub:
 
 
 <footer>
-Dernière mise à jour  25 Octobre, 2017.
+Dernière mise à jour  27 Octobre, 2017.
 </footer>
