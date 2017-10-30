@@ -42,13 +42,13 @@ NVDA a un installateur parlant.  Exécutez le fichier comme vous le feriez pour 
 
 Exécuter Narrator.  Ensuite, exécutez le programme d'installation de NVDA.  Lorsque l'installateur s'exécute, il y aura une pause et après un peu de musique sera jouée.  Peu de temps après, l'installateur parlera.  Décharger Narrator à ce moment-là.  Retournez à la boîte de dialogue d'installation.           
 
-Tabulation à travers les options.  Acceptez le contrat de licence, puis Tab jusqu'à Installer.  Vous obtiendrez d'autres options, mais Installer  est celui que vous souhaitez.           
+Tabulation à travers les options.  Acceptez le contrat de licence, puis Tab jusqu'à Installer.  Vous obtiendrez d'autres options, mais Installer  est celui que vous voulez.           
 
 ### À propos des voix
 
 N'arrêtez pas d'utiliser NVDA à cause de la voix.  Beaucoup de gens n'essaient pas NVDA à cause de la voix. Dès que vous l'aurez configuré, je vous dirai comment changer le synthétiseur utilisé.                    
  
-## Boîte de dialogue d'Accueil
+## La boîte de dialogue Accueil
 
 Lorsque NVDA est installé et en cours d'exécution, une boîte de dialogue est fournie avec un texte explicatif et la possibilité de définir une ou deux options.  Bien que je sache que beaucoup de gens n'aiment pas vraiment la voix par défaut, cela vaut la peine d'écouter la boîte de dialogue et de regarder les options en faisons Tab à travers eux.                
 
@@ -71,13 +71,13 @@ Considérez les exemples suivants :
 * L'ouverture des menus était et est toujours alt.  C'est une commande de Windows pour ouvrir les menus dans les programmes.  C'est la même chose quel que soit le lecteur d'écran que vous utilisez.     
 * Contrôle o ouvrir ne change pas.       
 * En utilisant les touches fléchées pour se déplacer dans un document ne change pas.       
-* Tabulation à travers des boîtes de dialogue ne change pas.  Non plus comment-vous vous déplacez  dans une liste ou dans une vue en arborescence ou lorsque vous travaillez avec une zone de liste déroulante, et la liste continue.      
+* Tabulation à travers des boîtes de dialogue ne change pas.  Ni comment vous vous déplacez dans une liste ou dans une vue en arborescence ou lorsque vous travaillez avec une zone de liste déroulante, et la liste continue.      
 
-Commandes clavier du lecteur d'écran, la plupart d'entre eux peuvent changer, comme lire la barre de titre, fournir un accès à des informations que vous ne pouvez pas obtenir ou que vous ne pouvez pas facilement obtenir en utilisant Windows ou par les commandes clavier du programme.                    
+Les commandes clavier du lecteur d'écran, dont beaucoup peuvent changer, comme lire la barre de titre, donnent accès à des informations que vous ne pouvez pas obtenir ou que vous ne pouvez pas facilement obtenir en utilisant Windows ou par les commandes clavier du programme.                    
 
-Par exemple, lire la barre de titre.  Dans Window-eyes, la commande clavier est contrôle shift t.  Dans NVDA, est insert t.  La barre de titre est quelque chose qu'une personne voyante regarde.  Vous ne pouvez pas vous déplacer vers elle avec le curseur pc ou le curseur de l'application, comme vous voulez l'appeler, car elle n'est pas nécessaire.  Une personne voyante peut simplement la voir.  Alors, le lecteur d'écran a une commande clavier, lire la barre de titre.  Cette commande clavier n'est pas une commande clavier de Windows ni une commande clavier du programme.                   
+Par exemple, lire la barre de titre.  Dans Window-eyes, la commande clavier est contrôle shift t.  Dans NVDA, est insert t.  La barre de titre est quelque chose qu'une personne voyante regarde.  Vous ne pouvez pas y accéder avec le curseur pc ou le curseur de l'application, comme vous voulez l'appeler, car  cela n'est pas nécessaire.  Une personne voyante peut juste le voir.  Donc, le lecteur d'écran a une commande clavier, lire la barre de titre.  Cette commande n'est pas une commande Windows ni une commande du programme.                   
 
-Voici les commandes clavier du lecteur d'écran dont vous aurez besoin de savoir pour vous permettre de faire beaucoup de ce que vous avez fait avant avec Window-Eyes :            
+Voici les commandes du lecteur d'écran que vous devrez connaître pour vous permettre de faire ce que vous avez déjà fait avec Window-Eyes :            
 
 * Pour quitter NVDA, insert q puis  entrée.         
 * Lire la barre de titre, insert t.     
@@ -89,7 +89,7 @@ Voici les commandes clavier du lecteur d'écran dont vous aurez besoin de savoir
  
 ## Revue de l'écran
 
-Je suis sur le point de discuter des commandes pour le mode Revue de l'écran.  Ceux qui vous permettent d'examiner l'écran sans changer la position du curseur lors de la modification d'un document, ou de changer où vous êtes dans une boîte de dialogue ou ailleurs.  Mais d'abord, je ferai remarquer que les commandes telles que flèche gauche, flèche droite, contrôle début, contrôle fin, contrôle flèche gauche, et contrôle flèche droite sont des commandes de déplacement de Windows pour se déplacer dans n'importe quel champ d'édition standard, y compris les champs d'édition du traitement de texte.  Aucun d'entre eux ne changera.                             
+Je suis sur le point de discuter des commandes pour le mode Revue de l'écran.  ceux-ci vous permettent d'examiner l'écran sans changer la position du curseur lors de l'édition d'un document, ou de changer où vous êtes dans une boîte de dialogue ou n'importe où ailleurs.  Mais d'abord, je ferai remarquer que les commandes telles que flèche gauche, flèche droite, contrôle début, contrôle fin, contrôle flèche gauche, et contrôle flèche droite sont des commandes de déplacement de Windows pour se déplacer dans n'importe quel champ d'édition standard, y compris les champs d'édition du traitement de texte.  Aucun d'entre eux ne changera.                             
  
 ### Commandes clavier pour le mode Revue de l'écran
 
@@ -99,7 +99,7 @@ Tenir compte du modèle pendant que je vous donne ces commendes :
 * Lire ligne courante, pavnum8.         
 * Lire ligne suivante, pavnum9.         
 
-Vous vous déplacer  dans le mode Revue de l'écran à la ligne précédente ou suivante lorsque vous invoquez ces commandes.  Vous pouvez continuer à vous déplacer et à lire jusqu'à ce que vous atteigniez la  partie supérieure ou la  partie inférieure de l'écran.           
+Vous vous déplacer  dans le mode Revue de l'écran à la ligne précédente ou suivante lorsque vous invoquez ces commandes.  Vous pouvez continuer à vous déplacer et à lire jusqu'à ce que vous atteigniez en haut ou en bas de l'écran.           
 
 * Lire mot précédent, pavnum4.            
 * Lire mot courant, pavnum5.             
@@ -114,7 +114,7 @@ Tenir compte du modèle :
 * Déplacer et lire précédent est la touche à gauche.                 
 * Déplacer et lire suivant est la touche à droite.        
 
-Plus le nombre est petit, plus l'unité de mouvement est petite.  1 2 et 3  déplacer par caractère.      
+Plus les nombres sont petits, plus l'unité de mouvement est petite.  1 2 et 3  déplacer par caractère.      
 4 5 et 6 déplacer par mot, etc.                
 
 Maintenant, voici les commandes de revue dans la disposition ordinateur portable (Laptop):                   
@@ -131,27 +131,27 @@ Maintenant, voici les commandes de revue dans la disposition ordinateur portable
 
 Après un peu plus de discussion, je vais vous dire comment changer la disposition clavier pour ordinateur portable (Laptop.                    
 
-Pour en revenir aux touches de revue dans la disposition ordinateur portable (Laptop), il y a une espèce de modèles dans la disposition ordinateur portable (Laptop), mais pas le type de modèle uniforme comme dans la disposition ordinateur de bureau (Desktop). Si j'avais un ordinateur portable sans pavé numérique, j'achèterais un pavé numérique USB et je ne jouerais pas avec la disposition ordinateur portable (Laptop).  Mais vous pouvez décider cela pour vous-même.  Mais à part des  touches prévisibles, comme ce point qui est actuellement utilisé, et que les flèches gauche et droite étant utilisées comme leurs touches modificatrices, vous ne pouvez pas généraliser davantage.  De tels modèles ne sont pas suivis dans chaque élément précédent et suivant.  Dans l'un des éléments précédents et suivants, les flèches haut et bas sont utilisées.  
+Pour en revenir aux touches de revue dans la disposition ordinateur portable (Laptop), il y a une espèce de modèles dans la disposition ordinateur portable (Laptop), mais pas le type de modèle uniforme comme dans la disposition ordinateur de bureau (Desktop). Si j'avais un ordinateur portable sans pavé numérique, j'achèterais un pavé numérique USB et je ne m'amuserais pas avec la disposition ordinateur portable (Laptop).  Mais vous pouvez décider cela pour vous-même.  Mais à part des  touches prévisibles, comme ce point qui est actuellement utilisé, et que les flèches gauche et droite étant utilisées avec  des modificatrices, vous ne pouvez pas généraliser davantage.  De tels modèles ne sont pas suivis dans chaque élément précédent et suivant.  Dans l'un des éléments précédents et suivants, les flèches haut et bas sont utilisées.  
 
 ## Plus de commandes de revue et Modes de revue
 
-Voici deux commandes plus importantes :                 
+Voici deux autres commandes importantes :                 
 
-* Sauter à la partie supérieure de la fenêtre, maj pavnum7. Commande disposition ordinateur portable (Laptop): contrôle touche NVDA début.         
-* Sauter à la fin de la fenêtre, maj pavnum9. Commande disposition ordinateur portable (Laptop): contrôle touche NVDA fin.                     
+* Aller en haut de la fenêtre, maj pavnum7. Commande disposition ordinateur portable (Laptop): contrôle touche NVDA début.         
+* Aller au bas de la fenêtre, maj pavnum9. Commande disposition ordinateur portable (Laptop): contrôle touche NVDA fin.                     
  
-J'ai dit la partie supérieure et la partie inférieure de la fenêtre mais c'est simpliste.  Cela dépend du type de mode de revue que vous utilisez.  Je n'entrerai pas là-dedans jusqu'à un certain point dans ce bref tutoriel.                     
+J'ai dit en haut et au bas de la fenêtre mais c'est trop simpliste.  Cela dépend du type de mode de revue que vous utilisez.  Je n'entrerai pas dans ce détail dans ce très court tutoriel.                     
  
 ### Une brève introduction aux modes de revue.
 
-Si vous examinez du matériel dans un traitement de texte, utilisez les commandes de revue que je vous ai fournies. Si vous êtes dans une boîte de dialogue ou d'autres structures, pour voir ce qui est à l'écran, vous passez en mode  Revue de l'écran. Pour ce faire, utilisez la commande insert du pavé numérique pavnum7 dans la disposition ordinateur de bureau (Desktop).  Dans la disposition ordinateur portable (Laptop), la commande est touche NVDA page précédente.  Invoquez la commande et répétez si nécessaire jusqu'à ce que vous entendiez Revue de l'écran. Ensuite, vous pouvez utiliser les commandes  de revue comme pavnum7, 8, 9, etc. pour examiner ce qui est sur l'écran.                   
+Si vous examinez du matériel dans un traitement de texte, utilisez les commandes de revue que que j'ai données. Si vous êtes dans une boîte de dialogue ou d'autres structures, pour voir ce qui est à l'écran, vous passez en mode  Revue de l'écran. Pour ce faire, utilisez la commande insert du pavé numérique pavnum7 dans la disposition ordinateur de bureau (Desktop).  Dans la disposition ordinateur portable (Laptop), la commande est touche NVDA page précédente.  Invoquez la commande et répétez si nécessaire jusqu'à ce que vous entendiez Revue de l'écran. Ensuite, vous pouvez utiliser les commandes  de revue comme pavnum7, 8, 9, etc. pour examiner ce qui est sur l'écran.                   
 
 Une fois que vous avez fini de travailler en mode   Revue de l'écran, il est très important de revenir en mode  Revue de l'objet.  Invoquez la commande insert du pavé numérique pavnum1 dans la disposition ordinateur de bureau (Desktop).  Dans la disposition ordinateur portable (Laptop), la commande est touche NVDA page suivante.  Répétez la commande si nécessaire jusqu'à ce que vous entendiez Revue de l'objet.  Si vous ne le faites pas, vous entendrez souvent des informations incorrectes sur  où que vous soyez lorsque vous effectuez plusieurs choses dans NVDA.                          
 
 ## Changement de la disposition clavier
 
 Maintenant, je vais vous expliquer comment changer la disposition à partir de l'ordinateur de bureau (Desktop) vers la disposition de l'ordinateur portable (Laptop) 
-et je discute que fait que le verrouillage majuscules pour être utiliser comme une touche NVDA.  Si vous ajoutez verrouillage majuscules, vous pouvez toujours utiliser insert ; il y a des moments où le verrouillage majuscules est très pratique.                 
+et discuter de l'utilisation du verrouillage majuscules comme une touche NVDA.  Si vous ajoutez verrouillage majuscules, vous pouvez toujours utiliser insert ; il y a des moments où le verrouillage majuscules est très pratique.                 
  
 Pour ouvrir les Paramètres du Clavier, invoquez la commande  contrôle insert k. Vous êtes maintenant dans une liste  de dispositions clavier. La disposition du clavier ordinateur de bureau (Desktop) est celle qui est par défaut et est la première dans la liste. Si vous souhaitez passer à la disposition ordinateur portable (Laptop), faire flèche bas une fois, puis Tab et activer le bouton OK.          
 
@@ -161,33 +161,33 @@ J'utilise souvent verrouillage majuscules  comme touche NVDA et j'utilise la dis
 
 Si vous voulez basculer entre activé et désactivé la touche verrouillage majuscules lorsque vous tapez, vous devrez appuyer deux fois rapidement sur la touche.  Si vous appuyez une fois sur cette touche et vous la maintenez enfoncée, elle sert comme touche NVDA.  Si vous l'appuyez deux fois rapidement, basculera la touche verrouillage majuscules entre activé et désactivé.                    
  
-## Commandes clavier liées à la Souris  et Modes de revue
+## Commandes clavier liées à la Souris et Modes de revue
 
 Pour cliquer avec le bouton gauche de la souris, amènez  la souris  à la position  en mode revue avec la commande insert du pavé numérique pavnumDiviser.  C'est la même commande quand vous faites un clic avec le bouton gauche de la souris dans Window-eyes.  Si vous voulez cliquer avec le bouton droit de la souris, amènez  la souris avec la même commande (insert du pavé numérique pavnumDiviser), puis utilisez pavnumMultiplier, la touche située immédiatement à droite de pavnumDiviser.  En d'autres termes, vous faites un clic droit avec la même touche que vous utilisez dans Window-eyes.                     
 
-La revue de l'écran, bien que les commandes soient différentes, elle est similaire dans le concept lors de l'utilisation du pointeur de la souris  dans Window-eyes.  La Navigation par objet est différente de n'importe quelle mode de revue dans Window-eyes.  Je ne vais pas vous apprendre son utilisation ici, mais vous trouverez une discussion à ce sujet dans un tutoriel, donc je vais vous donner une adresse ultérieurement dans ce tutoriel. Selon la façon dont vous utilisez votre ordinateur, vous pouvez le trouver très utile.      
+La revue de l'écran, bien que les commandes soient différentes, elle est similaire dans le concept lors de l'utilisation du pointeur de la souris  dans Window-eyes.  La Navigation par objet est différente de n'importe quel mode de revue dans Window-eyes.  Je ne vais pas vous apprendre son utilisation ici, mais vous trouverez une discussion à ce sujet dans un tutoriel, donc je vais vous donner une adresse ultérieurement dans ce tutoriel. Selon la façon dont vous utilisez votre ordinateur, vous pouvez le trouver très utile.      
  
 C'est tout ce que je vais enseigner dans ce bref tutoriel sur la revue de l'écran et la souris.  Comme je l'ai dit, son but est de vous permettre de faire une grande partie de ce que vous faites avec Window-eyes rapidement et facilement.  Mais je vais vous dire quelques autres choses.                 
  
-## Navigation par Internet :
+## La navigation sur Internet :
 
 Lorsque vous êtes sur une page Web, les commandes de navigation rapide sont presque identiques, que vous utilisiez NVDA ou Window-eyes :                   
 
 * Déplacer par titres est h.            
-* Sauter des blocs de liens est n.              
+* Ignorer les blocs de liens est n.              
 * Déplacer au bouton suivant est b.            
 * La zone de liste déroulante suivante est c.               
 * La case à cocher suivante est x.               
 
 ## Mode aide à la saisie
 
-NVDA a un mode aide à la saisie  ce qui est similaire à ce qui est dans Window-eyes.  Insert et 1 sur le clavier principal l'active. Lorsque vous appuyez sur une touche ou une combinaison de touches qui pourrait être une commande, vous entendrez quelle sont les touches et s'il y a des commandes qui sont exécutées.  Cela varie en fonction de l'endroit où vous êtes.                  
+NVDA dispose d'un mode aide à la saisie similaire à celui de Window-eyes.  Insert et 1 sur le clavier principal l'active. Lorsque vous appuyez sur une touche ou une combinaison de touches qui pourrait être une commande, vous entendrez quelle sont les touches et quelles sont les commandes exécutées.  Cela varie en fonction de l'endroit où vous êtes.                  
 
-Lorsque vous naviguez dans un navigateur qui prend en charge le Mode navigation, taper plusieurs lettres individuelles vous donnera des informations sur ce que font les touches dans le Mode navigation.  J'ai déjà donné beaucoup de ces informations ci-dessus, mais vous pouvez appuyer sur plusieurs touches en utilisant le mode aide à la saisie dans un navigateur. Pour désactiver le mode aide à la saisie utilisez la même commande que vous avez utilisée pour l'activer, insert 1.                
+Lorsque vous naviguez dans un navigateur qui prend en charge le mode navigation, en tapant plusieurs lettres individuelles ceci vous donnera des informations sur ce que font les touches en mode navigation.  J'ai déjà donné beaucoup de ces informations ci-dessus, mais vous pouvez appuyer sur plusieurs touches en utilisant le mode aide à la saisie dans un navigateur. Pour désactiver le mode aide à la saisie utilisez la même commande que vous avez utilisée pour l'activer, insert 1.                
  
 ## Informations complémentaires
 
-Pour plus d'informations sur NVDA, un tutoriel populaire est disponible à :
+Pour en savoir plus sur NVDA, un tutoriel populaire est disponible à :
 
 [http://www.josephsl.net/tutorials](http://www.josephsl.net/tutorials)                              
 
@@ -197,6 +197,6 @@ Il existe également une liste de diffusion pour les utilisateurs de NVDA.  Pour
 
 [nvda+subscribe@nvda.groups.io](mailto:nvda+subscribe@nvda.groups.io)            
  
-J'espère que ce tutoriel a éliminé une grande partie de votre appréhension à l'idée de passer à NVDA.  Maintenant, comme vous le souhaitez ou avez besoin, vous pouvez consulter le tutoriel auquel j'ai donné un lien. NVDA est un lecteur d'écran puissant et répondra à de nombreux besoins des utilisateurs ainsi qu'à ceux de JAWS ou de Window-eyes.  J'espère que ce bref tutoriel vous fournira une bonne base pour établir la confiance que la transition devrait être beaucoup plus facile que vous pensiez et cela aidera à le rendre beaucoup plus agréable.
+J'espère que ce tutoriel a éliminé une grande partie de votre appréhension à l'idée de passer à NVDA.  Maintenant, comme vous le souhaitez ou avez besoin, vous pouvez consulter le tutoriel auquel j'ai donné un lien. NVDA est un lecteur d'écran puissant et répondra à de nombreux besoins des utilisateurs ainsi qu'à ceux de JAWS ou de Window-eyes.  J'espère que ce bref tutoriel vous donne une bonne base sur laquelle bâtir la confiance que la transition devrait être beaucoup plus facile que vous pourriez l'avoir pensé et que cela vous aidera à le rendre beaucoup plus agréable.
 
 Fin
