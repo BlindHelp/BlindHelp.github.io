@@ -29,9 +29,10 @@ Cette version permet encore l’utilisation de l’eID pour se connecter et sign
 
 N’utilisez plus de version de Firefox à partir de la v52.0 ou ultérieure, mais passez à la version ESR.
 Dans cette version, Firefox continuera de permettre l’utilisation de l’eID. Entretemps, DogID travaille à une modification de l’application de telle sorte qu’elle devienne indépendante des versions des navigateurs.
-Si vous avez déjà installé la version v52.0 (ou que Firefox l’a installée automatiquement) et que ce n’est pas la version ESR, veuillez suivre la procédure suivante :
+Si vous avez déjà installé la version v52.0 (ou que Firefox l’a installée automatiquement) et que ce n’est pas la version ESR, veuillez suivre la procédure suivante:
 
-Désinstallez Firefox de votre pc .
+Désinstallez Firefox de votre pc.
+
 Mozilla a une procédure de désinstallation de Firefox, disponible via le lien suivant:
 [Désinstaller Firefox de votre ordinateur | Assistance de Firefox](https://support.mozilla.org/fr/kb/desinstaller-firefox-ordinateur)
 
@@ -98,4 +99,5 @@ Il est recommandé que le "Controlled folder access" reste désactivé lors de l
 Nous espérons que cette information est utile pour continuer à profiter de NVDA.
 
 @+
+
 BlindHelp!
