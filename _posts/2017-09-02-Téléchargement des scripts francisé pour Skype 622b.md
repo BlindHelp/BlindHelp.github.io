@@ -4,15 +4,17 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le 08.09.2016.</footer>
+<footer>Dernière mise à jour le 02.09.2017.</footer>
 
 
-### Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp ###
-* Scripts Skype 622b Révision 969  Dernière mise à jour le 8 septembre 2016
+### Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp ###
+* Scripts Skype 622b Révision 983 Dernière mise à jour le 2 septembre 2017           
 * Scripts traduit en français pour le programme de téléphonie Skype par internet  
 Les présents scripts on été tester avec:  
-* JAWS 13.0, 15.0 et 16.0).  
-Puis les suivantes versions de Skype™:  
+* JAWS 13.0, 15.0, 16.0 et 18.0).  
+Puis les suivantes versions de Skype™, dont tout d'abord les plus récentes:  
+* Skype™ Version 7.40.0.151
+* Skype™ Version 7.33.0.105
 * Skype™ Version 7.31.0.104
 * Skype™   Version 7.16.0.102
 * Skype™ Version 7.4.80.102
@@ -22,37 +24,39 @@ Puis les suivantes versions de Skype™:
 * Skype™ Version 6.22.81.104
 * Script compatible avec JAWS 12.0 et ultérieur (inclus JAWS 15.0,  16.0, 17.0 et 18.0)
 
-# Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp #
+# Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp #
 Coucou mes amis du blog de BlindHelp!  
 voici les derniers scripts en date traduits et adaptés en Français par Daniel Poiraud et moi-même.  
 
-# Dernières modifications des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 #
-Voici les changements une fois placez les derniers scripts américain Skype 622b révision 969 du 8 septembre 2016 afin de faire la traduction en français puis rendre les présents scripts compatible sur un clavier AZERTY (clavier français).
+# Dernières modifications des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 #
+Voici les changements une fois placez les derniers scripts américain Skype 622b révision 983 du 2 septembre 2017 afin de faire la traduction en français puis rendre les présents scripts compatible sur un clavier AZERTY (clavier français).
 
 *   Script Skype.JCF
 
     Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script Skype.JDF
 
-    Celui-ci a été traduit en français dans l'ancienne mouture puis a été remplacez dans la nouvelle mouture.
-
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci a été traduit en français dans l'ancienne mouture puis  les entrées sont maintenant Corrigées en lettres minuscules dans la nouvelle mouture du script skype.jdf utilisé dans la révision 983 du 2 septembre 2017.                
+Je parle de quelques codes utilisés dans le script skype.jdf pour indiquer les émoticônes et les drapeaux qui étaient avant en lettres majuscules, maintenant ils ont été corrigées en lettre minuscules.                
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
  *   Script Skype.JGF
 
-    Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.\
+    Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.              
 
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.                 
 
 *   Script Skype.JKM
 
-    Celui-ci a été adapté avec les derniers changements incorporés pour le faire fonctionner sur un clavier AZERTY (clavier français)\
-pour Jaws 12.0 et ultérieure.
-    changement de la lettre "m" utiliser par défaut dans la commande miscellaneous, y compris les commandes séquentielles utilisant la lettre "m" dans un clavier qwerty,par la lettre "d" pour designer la commande divers, y compris les commandes séquentielles utilisant la lettre "d" dans un clavier azerty.\
+    Celui-ci a été adapté avec les derniers changements incorporés pour le faire fonctionner sur un clavier AZERTY (clavier français)                 
+pour Jaws 12.0 et ultérieure.                
+    changement de la lettre "m" utiliser par défaut dans la commande miscellaneous, y compris les commandes séquentielles utilisant la lettre "m" dans un clavier qwerty,par la lettre "d" pour designer la commande divers, y compris les commandes séquentielles utilisant la lettre "d" dans un clavier azerty.              
+    changement de la touche accent grave "\`" utiliser par défaut dans un clavier qwerty, par la touche "²" utiliser dans un clavier azerty.           
+    changement de la touche crochet gauche `"["` utiliser par défaut dans un clavier qwerty, par la touche `"$"` utiliser dans un clavier azerty.          
 
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.\
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.                
 
 *   Script Skype.JSB
 
@@ -60,25 +64,25 @@ pour Jaws 12.0 et ultérieure.
 
 *   Script Skype.JSD
 
-    Celui-ci a été traduit en français dans la nouvelle mouture.
+    Celui-ci a été traduit en français dans la nouvelle mouture.                    
 
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.              
 
 *   Script Skype.JSH
 
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script Skype.JSM
 
-    Celui-ci a été traduit en français dans la nouvelle mouture.
+                     Celui-ci a été traduit en français dans la nouvelle mouture.           
 
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+                  Celui-ci  a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.            
 
 *   Script Skype.JSS
 
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+            Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
-    Se script a été modifier par la touche $
+              Se script a été modifier par la touche $
 
 *   Script Skype_compat.JSB
 
@@ -86,15 +90,13 @@ pour Jaws 12.0 et ultérieure.
 
 *   Script Skype_compat.JSD
 
-    Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.
+    Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.         
 
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script Skype_compat.JSS
 
-       Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.
-
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+           Celui-ci  a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script Skype_jcpdict.JSB
 
@@ -102,31 +104,29 @@ pour Jaws 12.0 et ultérieure.
 
 *   Script Skype_jcpdict.JSD
 
-    Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.
-
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+        Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script Skype_jcpdict.JSM
 
-    Celui-ci a été traduit en français dans la nouvelle mouture.
+    Celui-ci a été traduit en français dans la nouvelle mouture.          
 
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.         
 
 *   Script Skype_jcpdict.JSS
 
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Fichier SkypeComp.bat
 
-    Celui-ci a été traduit en français dans la nouvelle mouture
+    Celui-ci a été traduit en français dans la nouvelle mouture.          
 
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script SkypeMSAA.JSH
 
-    Ce script a été supprimé depuis la Révision 954 du 2 avril 2016.
+    Ce script a été supprimé depuis la Révision 954 du 2 avril 2016.            
 
-    Le script "SkypeMSAA.jsh" n'existe pas dans les scripts-skype-622b révision 969 du 8 septembre 2016.
+    Le script "SkypeMSAA.jsh" n'existe pas dans les scripts-skype-622b révision 983 du 2 septembre 2017.         
 
 *   Script skypewatch.jsb
 
@@ -134,29 +134,27 @@ pour Jaws 12.0 et ultérieure.
 
 *   Script skypewatch.JSD
 
-    Celui-ci a été traduit en français dans la nouvelle mouture.
+    Celui-ci a été traduit en français dans la nouvelle mouture.      
 
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.          
 
 *   Script skypewatch.jsh
 
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.         
 
 *   Script skypewatch.JSM
 
-    Celui-ci a été retraduit en français dans la nouvelle mouture.
-
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
-
+    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.       
+	
 *   Script skypewatch.JSS
 
-    Celui-ci a été changé dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.       
 
-*   Note: le fichier Skype_emoticons.ini a été supprimée depuis la Revision 813 du 31 mai 2014.
+*   Note: le fichier Skype_emoticons.ini a été supprimée depuis la Revision 813 du 31 mai 2014.      
 
 *   le dossier:                 
 "Sounds"                   
-il a été supprimé de la nouvelle version dans les scripts américains Skype 622b révision 969 du 8 septembre 2016.                 
+il a été supprimé  à partir de l'ancienne  version des scripts américains Skype 622b révision 969 du 8 septembre 2016.                 
 y compris le fichier wav:                   
 "mkcsExit.wav"                   
 Les autres5 fichiers wav:                        
@@ -165,18 +163,21 @@ Les autres5 fichiers wav:
 "SkypeTyping3.wav"                
 "SkypeTyping4.wav"                   
 "SkypeTyping5.wav"                        
-Ils ont été déplacés à la racine où se trouvent les autres scripts                  qui sont déjà intégrés puis  francisé pour Skype 622b révision 969 du 8 septembre 2016.                   
+Ils ont été déplacés à la racine où se trouvent les autres scripts                  qui sont déjà intégrés puis  francisé pour Skype 622b révision 983 du 2 septembre 2017.                   
 Voir les informations à ce sujet ci-dessous.                        
 
-*   Et enfin nous avons compilé tous les scripts et apparemment ils fonctionne bien avec Skype™ Version 7.31.0.104   
+*   Et enfin nous avons compilé tous les scripts et apparemment ils fonctionne bien avec Skype™ Version 7.40.0.151   
 et peut-être dans des versions ultérieures.  
 
-    Fin des changements pour les scripts francisé pour Skype 622b révision 969 du 8 septembre 2016.  
+    Fin des changements pour les scripts francisé pour Skype 622b révision 983 du 2 septembre 2017.  
 
-A savoir que dans le site anglophone il y a la même révision 969 datant du 8 septembre 2016.  
+A savoir que dans le site anglophone il y a la même révision 983 datant du 2 septembre 2017.  
 pour une utilisation avec la version anglaise de JAWS 12 à 18 (et peut-être ultérieure).  
-Ceci fonctionne uniquement avec  les suivantes versions de Skype™:  
+Ceci fonctionne uniquement avec  les suivantes versions de Skype™ dont tout d'abord les plus récentes:  
 
+
+* Skype™ Version 7.40.0.151
+* Skype™ Version 7.33.0.105
 * Skype™ Version 7.31.0.104 
 * Skype™ Version 7.16.0.102
 * Skype™ Version 7.4.80.102
@@ -191,6 +192,8 @@ Pour les versions de Skype™ Version 6.18.0.106 ou ultérieures s'il vous plaî
 [JAWS Scripts For Skype 6.x (page en anglais):](http://www.dlee.org/skype/)                           
 
 # Les nouveau scripts sont seulement compatibles avec: #
+* Skype™ Version 7.40.0.151
+* Skype™ Version 7.33.0.105
 * Skype™   Version 7.31.0.104
 * Skype™   Version 7.16.0.102
 * Skype™ Version 7.4.80.102
@@ -208,8 +211,8 @@ Attention!!! Pour connaître la version de Skype™ installé sur votre ordinate
 deux fois rapidement vous aurais les même informations et vous pouvez le lire mieux à l'aide des flèches gauche ou droite, appuyez sur ECHAP pour quitter  
 cette fenêtre.
 
-# Installation scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp via l'installateur de scripts JoAd de Lavakri #
-Comme d'hab notre ami Daniel Poiraud nous à concocter l'installation des présents Scripts Skype version 622b révision 969 francisé MAJ 8 septembre 2016 sous
+# Installation scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp via l'installateur de scripts JoAd de Lavakri #
+Comme d'hab notre ami Daniel Poiraud nous à concocter l'installation des présents Scripts Skype version 622b révision 983 francisé MAJ 2 septembre 2017 sous
 forme installable.             
 Merci à lui!!!                
 Une fois que vous avez télécharger puis décompresser le fichier nommé:              
@@ -224,7 +227,7 @@ Ne pas oublier que  celui-ci est seulement compatible pour les personnes ayant i
 Les scripts seront désormais utilisables par Jaws, lorsque  vous ouvrez le programme      
 Voir le lien de téléchargement ci-dessous.                  
 
-# Installation manuelle des scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 by BlindHelp #
+# Installation manuelle des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp #
 Une fois que vous avez télécharger puis décompresser le fichier nommé:                     
 skype-6.22b-j12a18-jawsscript-Fr.zip                
 Celui-ci contient tout les scripts à placer manuelment dans votre version de JAWS installer (12 à 18).                         
@@ -235,6 +238,8 @@ Pour cela copiez l'ensemble de ces fichiers dans le presse-papier.
 Ouvrez le dossier des paramètres personnels pour votre version de Jaws. Collez les fichiers. Les scripts seront désormais utilisables par Jaws, lorsque vous ouvrez le programme               
 Voir le lien de téléchargement ci-dessous.                  
 
+* Skype™ Version 7.40.0.151
+* Skype™ Version 7.33.0.105
 * Skype™ Version 7.31.0.104
 * Skype™   Version 7.16.0.102
 * Skype™ Version 7.4.80.102
@@ -261,8 +266,8 @@ Appuyez sur se bouton pour éviter les mises à jour automatiques.
 Et n'oubliez pas de faire entrée sur le bouton:  
 Enregistrer  
 
-# Compatibilité des présents scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 #
-Les présents scripts francisé pour Skype 622b révision 969 du 8 septembre 2016 doivent être utilisés uniquement avec les versions de JAWS 12 à 18!  
+# Compatibilité des présents scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 #
+Les présents scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 doivent être utilisés uniquement avec les versions de JAWS 12 à 18!  
 Il faut les utiliser uniquement avec Skype 6.22 et versions ultérieures !  
 
 # A propos des dernièrs modifications des scripts américain pour Skype: #
@@ -281,7 +286,74 @@ Consulter cette page pour plus de détails sur ce changement.
 
 Voici les changements dans la version 6.22b, plus récent d'abord.  
 
-6.22 à au moins 7.10                
+Scripts JAWS Pour Skype:                    
+6.22 à au moins 7.33                
+
+# Révision 983, sortie le 2 septembre 2017 #
+Mises à jour de l'installateur             
+
+* Correction d'un problème avec le précédent installateur, causé par un changement dans le fonctionnement de la commande NSIS SetRegView, qui empêchait l'installateur de trouver des versions de JAWS sur Windows 32 bits.            
+* Le fait de ne trouver aucune version de JAWS entraîne un affichage du journal (log).             
+
+Merci à Nermin de nous aider à tester les builds de l'installateur pour cette mise à jour.                  
+
+# Révision 981, sortie le 31 août 2017 #
+* L'installateur des scripts gère correctement la version bêta de JAWS 2018 publiée le jeudi 31 août 2017. Ce support devrait être reporté à la version finale de JAWS 2018 et à ses mises à jour. Merci à Freedom Scientific / VFO pour leur collaboration proactive afin d'assurer une prise en charge rapide des installateurs de scripts tiers.              
+* Cet installateur est le premier à être généré avec NSIS 3.02.1 (31 juillet 2017). Ceci est une mise à niveau importante de la plate-forme d'installation utilisée.                 
+* Le support braille sur les versions actuelles de JAWS peut être légèrement plus rapide en raison de l'utilisation d'une fonction intégrée ajoutée récemment à JAWS à la place d'une boucle de code de script.                       
+* Certains boutons qui affichaient précédemment et de façon erronée un indicateur de case à cocher indéterminé en braille ne devraient plus le faire.             
+* Les utilisateurs qui souhaitent modifier la touche de Commande utilisée comme préfixe pour de nombreuses commandes, par défaut étant la touche crochet gauche ([), peuvent taper la Commande JAWSKey+C pour la modifier. Le changement survit grâce au script Skype et aux mises à jour de JAWS.             
+* La touche en couche pour quitter le son est beaucoup plus silencieux.              
+* La commande Ctrl+8 pour aller à la page d'accueil Skype n'est plus prise en charge. Utilisez la commande native Skype pour cela; par exemple, Ctrl+H pour les installations en anglais Skype.               
+
+# Révision 975, sortie le 21 mars 2017 #
+* Certaines commandes sont supprimées des scripts pour éviter les conflits de clavier avec Skype ou parce qu'ils sont obsolètes. Chacun d'entre eux dispose déjà d'une séquence de touches ou d'une séquence alternative encore disponible. Voir le tableau ci-dessous cette liste d'amélioration.              
+* Alt+Entrée répète le dernier message lu avec Alt+flèches, pour ceux pour lesquels Alt+NumPad5 (clavier numérique) est un problème (par exemple, à partir de claviers portables et Bluetooth).             
+* Correction pour les versions de script traduites: Les parties gauches des entrées du skype.jdf sont en lettres minuscules pour les faire appliquer avant les versions en lettres minuscules  dans le skype.jdf par défaut de JAWS. Cela devrait faire en sorte que les entrées traduites fonctionnent dans JAWS 16 et plus, où elles ne sont pas automatiquement retraduites dans la langue appropriée après avoir été tracées incorrectement à partir du fichier skype.jdf par défaut.                    
+* Divers mises à jour de l'installateur, y compris de meilleurs messages lorsque vous rencontrez des scripts par défaut sans code source qui empêchent l'enchaînement des scripts requis par SkypeWatch.         
+
+Voici les commandes supprimées, leur fonction actuelle au moins Skype en anglais, la combinaison de touches ou la séquence alternative restante, et l'utilisation de l'ancien script:               
+
+<table border=1 cellpadding=0 cellspacing=0
+summary="Les commandes par frappes successives (commandes séquentielles) du script ont été supprimées dans la révision 975 du script">
+
+<tr>
+<th scope=col>Frappe Supprimé</th>
+<th scope=col>Fonction Skype</th>
+<th scope=col>Séquence de Touches Restante</th>
+<th scope=col>Fonction du Script</th>
+</tr>
+
+<tr>
+<td><kbd>Ctrl+Maj+A</kbd></td>
+<td>Ajouter des participants à une conversation (chat)</td>
+<td><kbd>[ c a</kbd></td>
+<td>Dire qui participe à la conférence active.
+</tr>
+
+<tr>
+<td><kbd>Ctrl+Maj+C</kbd></td>
+<td>Aucune fonction</td>
+<td><kbd>[ m c</kbd></td>
+<td>Compiler les scripts Skype (maintenant se fait pendant l'installation du script)</td>
+</tr>
+
+<tr>
+<td><kbd>Ctrl+Maj+S</kbd></td>
+<td>Ajouter un numéro de téléphone à un profil Skype</td>
+<td><kbd>[ c s</kbd></td>
+<td>Dire qui parle dans une conférence</td>
+</tr>
+
+<tr>
+<td><kbd>F6</kbd> et <kbd>Maj+F6</kbd></td>
+<td>Se déplacer parmi les groupes de contrôle</td>
+<td><kbd>Ctrl+`</kbd> et <kbd>Ctrl+Maj+`</kbd></td>
+<td>Se déplacer parmi les groupes de contrôle identifiés par les scripts.</td>
+</tr>
+</table>
+
+Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts.         
 
 # Révision 969, sortie le 8 septembre 2016 #
 Le but principal de cette mise à jour est de résoudre un problème bizarre avec SkypeWatch qui a commencé à coïncider avec la disponibilité de JAWS 16, bien que JAWS 16 ne l'ait probablement pas causé.                   
@@ -358,7 +430,7 @@ L'installateur des scripts américain contient  le module SkypeWatch, qui permet
 
 Si vous utiliser l'installateur de scripts américain,  il va modifier le fichier default.jss.
 
-# Pour télécharger les Scripts Skype 622b Revision 969 francisé MAJ  8 septembre  2016 #
+# Pour télécharger les Scripts Skype 622b Révision 983 francisé MAJ  2 septembre 2017 #
 Voici donc la nouvelle mouture conçue pour les versions actuelles de Skype et compatibles de JAWS 12 à 18, lien permanent pointant vers mon espace GitHub dont   je vous fait profiter. 😊                    
 
 # Scripts avec installateur #
@@ -631,17 +703,17 @@ vos scripts de Skype!
 Ce fichier contient la sauvegarde des paramètres tels que la touche utilisée par Skype par exemple: "$" etc.                     
 
 BlindHelp n'est pas responsable de toute mauvaise manipulations qui son occasionner avec les présents Scripts de skype                    
-622b révision 969 francisé MAJ 8 septembre 2016!!!                      
+622b révision 983 francisé MAJ 2 septembre 2017!!!                      
 
 # Quelques conseils en vrac by BlindHelp #
-Vous devez mettre à jour votre version de skype vers Skype™ Version 7.31.0.104            
+Vous devez mettre à jour votre version de skype vers Skype™ Version 7.40.0.151            
 ou une version ultérieure compatible avec ces nouveau scripts!  
 [Mais si vous ne l'avez pas, cliquez ici pour le télécharger](http://www.skype.com/go/getskype-full)                         
  Et n'oubliez pas de lire la nouvelle documentation pour utiliser convenablement les nouveaux scripts !  
 Lorsque vous êtes dans la fenêtre principale de Skype en appuyant sur les touches insert+H!  
-Vous aurez l'aide, contenu  dans cette documentation pour cette version de scripts pour Skype 622b Révision 969 du 8 septembre 2016 afin d'utiliser Au mieux Skype.
+Vous aurez l'aide, contenu  dans cette documentation pour cette version de scripts pour Skype 622b Révision 983 du 2 septembre 2017 afin d'utiliser Au mieux Skype.
 
-# Documentation pour les scripts Skype 622b révision 969 du 8 septembre 2016 #
+# Documentation pour les scripts Skype 622b révision 983 du 2 septembre 2017 #
 A tout fin utile voici l'aperçu de la documentation:  
 
 Bienvenue dans les scripts de JAWS pour Skype, traduit par Rémy Ruiz (BlindHelp).  
@@ -675,7 +747,6 @@ Frappez Ctrl+3 ou $ t 3, pour basculer vers la liste de la conversation actuelle
 Dans une conversation, appuyez sur Ctrl+4 pour la zone de texte, Ctrl+5 pour la liste des messages, et Ctrl+6 pour la zone de profil du contact. Les commandes  
 $ t 4, $ t 5 et $ t 6 fonctionnent également.  
 Ctrl+Maj+E et $ d e aussi met en focus la zone de saisie du texte de chat tout comme dans les scripts de JAWS 15 et plus de Freedom Scientific.  
-Appuyez sur Ctrl+8 ou $ t 8, pour basculer vers l'onglet "Skype Home".  
 Pour vous déplacer entre les zones de l'écran, frappez F6 ou Maj+F6 ou de manière équivalente, Ctrl+² ou Ctrl+Maj+². Parfois, cela permettra d'accéder plus  
 rapide à un contrôle qu'en frappant Tab ou Maj+Tab.  
 
@@ -734,6 +805,10 @@ Vous pouvez consulter un de mes article précédent sur mon blog a titre d'infor
 pour l'installation des scripts, pour l'installation du module SkypeWatch, pour la configuration de Skype, etc, etc...                       
 [blindhelp: Scripts traduit en français pour le programme de téléphonie Skype par internet version 6.9.0.106 by BlindHelp](http://blindhelp.blogspot.fr/2013/10/scripts-traduit-en-francais-pour-le.html)                         
 [Visit the web site of Doug Lee (page en anglais):](http://www.dlee.org/)                          
+Compte Twitter à faible trafic de l'auteur du script en anglais pour les annonces de projets (y compris les scripts) et le support technique limité. (Si vous voulez lui écrire via son compte Twitter, faites-le en anglais).             
+[@dlee_code sur Twitter](https://twitter.com/dlee_code)                
+Liste de diffusion de Skype (en anglais).                
+[SkypeEnglish Mailing List](https://groups.io/g/skypeenglish)            
 Et pour une aide de Skype en français c'est par la!          
 [Nouveau sur Skype ? - Assistance Skype](http://www.skype.com/intl/fr/help/guides/#windows)                           
 Le lien relatif à l'installation et configuration de Skype 6.0 par Daniel Poiraud               
