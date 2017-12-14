@@ -3,9 +3,9 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>NVDA 2017.3 Résumé des commandes</TITLE>
+<TITLE>NVDA 2017.4 Résumé des commandes</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>NVDA 2017.3 Résumé des commandes</H1>
+<P ALIGN="center"><CENTER><H1>NVDA 2017.4 Résumé des commandes</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -138,7 +138,7 @@ Pour basculer entre les modes, faites une tape avec trois doigts.
 <TD>Annonce de la barre d'état</TD>
 <TD>NVDA+fin</TD>
 <TD>NVDA+maj+fin</TD>
-<TD>Lit la barre d'état si NVDA en trouve une. Déplace aussi l'objet navigateur à la barre d'état. Un double appui épelle l'information</TD>
+<TD>Lit la barre d'état si NVDA en trouve une. Déplace aussi l'objet navigateur à la barre d'état. Un double appui épelle l'information. Un triple appui la copie dans le presse-papiers</TD>
 </TR>
 </TABLE>
 
@@ -561,7 +561,7 @@ Les touches suivantes permettent d'aller à l'élément suivant. En les combinan
 <LI>m : cadre
 <LI>g : graphique
 <LI>d : région
-<LI>o : objet embarqué
+<LI>o : objet embarqué (lecteur audio et vidéo, application, dialogue etc.)
 <LI>1 ... 6 : Titres 1 ... 6.
 <LI>a: annotation (commentaire, révision de l'éditeur, etc.)
 <LI>w: fautes d'orthographe
@@ -619,6 +619,7 @@ Pour activer ou désactiver la navigation rapide pour le document courant, press
 </TR>
 </TABLE>
 
+<A NAME="ReadingMath"></A>
 <H2>Lecture de Contenu Mathématique</H2>
 <H3>Navigation Interactive</H3>
 <TABLE BORDER="1" CELLPADDING="4">
@@ -798,6 +799,28 @@ Vous pouvez aller manuellement à la page suivante en pressant la touche PageSui
 <P>
 Une fois que vous avez sélectionné le texte, pressez la touche applications ou maj+f10 pour afficher les options disponibles pour travailler avec la sélection.
 </P>
+<H3>Azardi</H3>
+<P>
+Quand vous êtes dans le tableau des livres ajoutés :
+</P>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Entrer</TD>
+<TD>entrer</TD>
+<TD>Ouvre le livre sélectionné.</TD>
+</TR>
+<TR>
+<TD>Menu contextuel</TD>
+<TD>applications</TD>
+<TD>Ouvre le menu contextuel pour le livre sélectionné.</TD>
+</TR>
+</TABLE>
+
 <H2>Configurer NVDA</H2>
 <H3>Préférences</H3>
 <H4>Choix du synthétiseur (NVDA+contrôle+s)</H4>
@@ -1328,11 +1351,11 @@ Pour le Focus 80 seulement :
 </TR>
 <TR>
 <TD>Défilement arrière de l'affichage braille</TD>
-<TD>left, up</TD>
+<TD>left, up, b3</TD>
 </TR>
 <TR>
 <TD>Défilement avant de l'affichage braille</TD>
-<TD>right, down</TD>
+<TD>right, down, b6</TD>
 </TR>
 <TR>
 <TD>Amener l'affichage braille à la ligne précédente</TD>
@@ -1348,7 +1371,7 @@ Pour le Focus 80 seulement :
 </TR>
 <TR>
 <TD>Touche maj+tab</TD>
-<TD>esc</TD>
+<TD>esc, touche triple action gauche haut+bas</TD>
 </TR>
 <TR>
 <TD>Touche alt</TD>
@@ -1360,27 +1383,47 @@ Pour le Focus 80 seulement :
 </TR>
 <TR>
 <TD>Touche tab</TD>
-<TD>enter</TD>
+<TD>enter, touche triple action droite haut+bas</TD>
 </TR>
 <TR>
 <TD>Touche entrée</TD>
-<TD>esc+enter</TD>
+<TD>esc+enter, touche triple action gauche+droite haut+bas, JoystickAction</TD>
 </TR>
 <TR>
 <TD>Flèche haut</TD>
-<TD>espace gauche</TD>
+<TD>joystick haut</TD>
 </TR>
 <TR>
 <TD>Flèche bas</TD>
-<TD>espace droit</TD>
+<TD>joystick bas</TD>
+</TR>
+<TR>
+<TD>Flèche gauche</TD>
+<TD>joystick gauche</TD>
+</TR>
+<TR>
+<TD>Flèche droite</TD>
+<TD>joystick droit</TD>
 </TR>
 <TR>
 <TD>Menu NVDA</TD>
 <TD>b2+b4+b5+b6</TD>
 </TR>
 <TR>
-<TD>Configuration Handy Tech</TD>
-<TD>b4+b8</TD>
+<TD>Bascule braille suit</TD>
+<TD>b2</TD>
+</TR>
+<TR>
+<TD>Bascule du curseur braille</TD>
+<TD>b1</TD>
+</TR>
+<TR>
+<TD>Bascule de présentation du contexte du focus</TD>
+<TD>b7</TD>
+</TR>
+<TR>
+<TD>Bascule de la saisie braille</TD>
+<TD>space+b1+b3+b4 (space+capital B)</TD>
 </TR>
 </TABLE>
 

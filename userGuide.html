@@ -3,9 +3,9 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Guide de l'utilisateur de NVDA 2017.3</TITLE>
+<TITLE>Guide de l'utilisateur de NVDA 2017.4</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2017.3</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2017.4</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -73,7 +73,7 @@
     <LI><A HREF="#toc42">6.2. La liste d'éléments</A>
     <LI><A HREF="#toc43">6.3. Les objets embarqués</A>
     </UL>
-  <LI><A HREF="#toc44">7. Lecture de Contenu Mathématique</A>
+  <LI><A HREF="#ReadingMath">7. Lecture de Contenu Mathématique</A>
     <UL>
     <LI><A HREF="#toc45">7.1. Navigation Interactive</A>
     </UL>
@@ -112,84 +112,85 @@
       <LI><A HREF="#toc68">10.8.1. Sélection de Texte</A>
       <LI><A HREF="#toc69">10.8.2. Notes de l'Utilisateur</A>
       </UL>
+    <LI><A HREF="#toc70">10.9. Azardi</A>
     </UL>
-  <LI><A HREF="#toc70">11. Configurer NVDA</A>
+  <LI><A HREF="#toc71">11. Configurer NVDA</A>
     <UL>
-    <LI><A HREF="#toc71">11.1. Préférences</A>
+    <LI><A HREF="#toc72">11.1. Préférences</A>
       <UL>
-      <LI><A HREF="#toc72">11.1.1. Paramètres généraux (NVDA+contrôle+g)</A>
-      <LI><A HREF="#toc73">11.1.2. Choix du synthétiseur (NVDA+contrôle+s)</A>
+      <LI><A HREF="#toc73">11.1.1. Paramètres généraux (NVDA+contrôle+g)</A>
+      <LI><A HREF="#toc74">11.1.2. Choix du synthétiseur (NVDA+contrôle+s)</A>
       <LI><A HREF="#VoiceSettings">11.1.3. Paramètres de la Voix (NVDA+contrôle+v)</A>
       <LI><A HREF="#SynthSettingsRing">11.1.4. Boucle des paramètres synthétiseur</A>
       <LI><A HREF="#BrailleSettings">11.1.5. Paramètres Braille</A>
-      <LI><A HREF="#toc77">11.1.6. Paramètres du Clavier (NVDA+contrôle+k)</A>
-      <LI><A HREF="#toc78">11.1.7. Paramètres de la Souris (NVDA+contrôle+m)</A>
-      <LI><A HREF="#toc79">11.1.8. Paramètres du curseur de revue</A>
-      <LI><A HREF="#toc80">11.1.9. Paramètres de présentation des objets</A>
-      <LI><A HREF="#toc81">11.1.10. Paramètres de Saisie</A>
-      <LI><A HREF="#toc82">11.1.11. Paramètres du mode navigation (NVDA+contrôle+b)</A>
+      <LI><A HREF="#toc78">11.1.6. Paramètres du Clavier (NVDA+contrôle+k)</A>
+      <LI><A HREF="#toc79">11.1.7. Paramètres de la Souris (NVDA+contrôle+m)</A>
+      <LI><A HREF="#toc80">11.1.8. Paramètres du curseur de revue</A>
+      <LI><A HREF="#toc81">11.1.9. Paramètres de présentation des objets</A>
+      <LI><A HREF="#toc82">11.1.10. Paramètres de Saisie</A>
+      <LI><A HREF="#toc83">11.1.11. Paramètres du mode navigation (NVDA+contrôle+b)</A>
       <LI><A HREF="#DocumentFormattingSettings">11.1.12. Mise en forme des documents (NVDA+contrôle+d)</A>
       <LI><A HREF="#Win10OcrSettings">11.1.13. Reconnaissance Optique de Caractères de Windows 10</A>
-      <LI><A HREF="#toc85">11.1.14. Dictionnaires de prononciation</A>
+      <LI><A HREF="#toc86">11.1.14. Dictionnaires de prononciation</A>
       <LI><A HREF="#SymbolPronunciation">11.1.15. Prononciation des ponctuations et symboles</A>
       <LI><A HREF="#InputGestures">11.1.16. Gestes de commandes</A>
       </UL>
-    <LI><A HREF="#toc88">11.2. Sauvegarder et recharger la configuration</A>
-    <LI><A HREF="#toc89">11.3. Profils de configuration</A>
+    <LI><A HREF="#toc89">11.2. Sauvegarder et recharger la configuration</A>
+    <LI><A HREF="#toc90">11.3. Profils de configuration</A>
       <UL>
-      <LI><A HREF="#toc90">11.3.1. Gestion basique</A>
-      <LI><A HREF="#toc91">11.3.2. Création d'un profil</A>
+      <LI><A HREF="#toc91">11.3.1. Gestion basique</A>
+      <LI><A HREF="#toc92">11.3.2. Création d'un profil</A>
       <LI><A HREF="#ConfigProfileManual">11.3.3. Activation manuelle</A>
       <LI><A HREF="#ConfigProfileTriggers">11.3.4. Déclencheurs</A>
-      <LI><A HREF="#toc94">11.3.5. Éditer un profil</A>
-      <LI><A HREF="#toc95">11.3.6. Désactiver temporairement tous les déclencheurs</A>
+      <LI><A HREF="#toc95">11.3.5. Éditer un profil</A>
+      <LI><A HREF="#toc96">11.3.6. Désactiver temporairement tous les déclencheurs</A>
       </UL>
-    <LI><A HREF="#toc96">11.4. Emplacement des fichiers de configuration</A>
+    <LI><A HREF="#toc97">11.4. Emplacement des fichiers de configuration</A>
     </UL>
-  <LI><A HREF="#toc97">12. Outils additionnels</A>
+  <LI><A HREF="#toc98">12. Outils additionnels</A>
     <UL>
-    <LI><A HREF="#toc98">12.1. Visionneuse du journal</A>
-    <LI><A HREF="#toc99">12.2. Visionneuse de parole</A>
-    <LI><A HREF="#toc100">12.3. Gestionnaire de modules complémentaires</A>
-    <LI><A HREF="#toc101">12.4. Console Python</A>
-    <LI><A HREF="#toc102">12.5. Rechargement des modules complémentaires</A>
+    <LI><A HREF="#toc99">12.1. Visionneuse du journal</A>
+    <LI><A HREF="#toc100">12.2. Visionneuse de parole</A>
+    <LI><A HREF="#toc101">12.3. Gestionnaire de modules complémentaires</A>
+    <LI><A HREF="#toc102">12.4. Console Python</A>
+    <LI><A HREF="#toc103">12.5. Rechargement des modules complémentaires</A>
     </UL>
   <LI><A HREF="#SupportedSpeechSynths">13. Synthétiseurs de parole pris en charge</A>
     <UL>
-    <LI><A HREF="#toc104">13.1. eSpeak NG</A>
-    <LI><A HREF="#toc105">13.2. Microsoft Speech API version 4 (SAPI 4)</A>
-    <LI><A HREF="#toc106">13.3. Microsoft Speech API version 5 (SAPI 5)</A>
-    <LI><A HREF="#toc107">13.4. La plate-forme Microsoft Speech</A>
-    <LI><A HREF="#toc108">13.5. Voix Windows OneCore</A>
-    <LI><A HREF="#toc109">13.6. AudioLogic TTS3</A>
-    <LI><A HREF="#toc110">13.7. Nuance Vocalizer pour NVDA</A>
+    <LI><A HREF="#toc105">13.1. eSpeak NG</A>
+    <LI><A HREF="#toc106">13.2. Microsoft Speech API version 4 (SAPI 4)</A>
+    <LI><A HREF="#toc107">13.3. Microsoft Speech API version 5 (SAPI 5)</A>
+    <LI><A HREF="#toc108">13.4. La plate-forme Microsoft Speech</A>
+    <LI><A HREF="#toc109">13.5. Voix Windows OneCore</A>
+    <LI><A HREF="#toc110">13.6. AudioLogic TTS3</A>
+    <LI><A HREF="#toc111">13.7. Nuance Vocalizer pour NVDA</A>
     </UL>
   <LI><A HREF="#SupportedbrailleDisplays">14. Terminaux braille pris en charge</A>
     <UL>
-    <LI><A HREF="#toc112">14.1. Les terminaux Focus et PAC Mate de chez Freedom Scientific</A>
-    <LI><A HREF="#toc113">14.2. Les terminaux Optelec ALVA BC640/680</A>
-    <LI><A HREF="#toc114">14.3. Les terminaux Handy Tech</A>
-    <LI><A HREF="#toc115">14.4. Le terminal MDV Lilli</A>
-    <LI><A HREF="#toc116">14.5. Les terminaux Baum/Humanware/APH/Orbit</A>
-    <LI><A HREF="#toc117">14.6. Hedo ProfiLine USB</A>
-    <LI><A HREF="#toc118">14.7. Hedo MobilLine USB</A>
-    <LI><A HREF="#toc119">14.8. HumanWare Séries Brailliant BI/B</A>
-    <LI><A HREF="#toc120">14.9. HIMS Braille Sense/Braille EDGE/Smart Beetle Series</A>
-    <LI><A HREF="#toc121">14.10. HIMS Syncbraille</A>
-    <LI><A HREF="#toc122">14.11. Seika braille Displays</A>
-    <LI><A HREF="#toc123">14.12. Nouveaux modèles de Papenmeier brailleX</A>
-    <LI><A HREF="#toc124">14.13. Papenmeier braille brailleX modèles anciens</A>
-    <LI><A HREF="#toc125">14.14. BrailleNote de HumanWare</A>
-    <LI><A HREF="#toc126">14.15. EcoBraille</A>
-    <LI><A HREF="#toc127">14.16. SuperBraille</A>
-    <LI><A HREF="#toc128">14.17. BRLTTY</A>
+    <LI><A HREF="#toc113">14.1. Les terminaux Focus et PAC Mate de chez Freedom Scientific</A>
+    <LI><A HREF="#toc114">14.2. Les terminaux Optelec ALVA BC640/680</A>
+    <LI><A HREF="#toc115">14.3. Les terminaux Handy Tech</A>
+    <LI><A HREF="#toc116">14.4. Le terminal MDV Lilli</A>
+    <LI><A HREF="#toc117">14.5. Les terminaux Baum/Humanware/APH/Orbit</A>
+    <LI><A HREF="#toc118">14.6. Hedo ProfiLine USB</A>
+    <LI><A HREF="#toc119">14.7. Hedo MobilLine USB</A>
+    <LI><A HREF="#toc120">14.8. HumanWare Séries Brailliant BI/B</A>
+    <LI><A HREF="#toc121">14.9. HIMS Braille Sense/Braille EDGE/Smart Beetle Series</A>
+    <LI><A HREF="#toc122">14.10. HIMS Syncbraille</A>
+    <LI><A HREF="#toc123">14.11. Seika braille Displays</A>
+    <LI><A HREF="#toc124">14.12. Nouveaux modèles de Papenmeier brailleX</A>
+    <LI><A HREF="#toc125">14.13. Papenmeier braille brailleX modèles anciens</A>
+    <LI><A HREF="#toc126">14.14. BrailleNote de HumanWare</A>
+    <LI><A HREF="#toc127">14.15. EcoBraille</A>
+    <LI><A HREF="#toc128">14.16. SuperBraille</A>
+    <LI><A HREF="#toc129">14.17. BRLTTY</A>
     </UL>
-  <LI><A HREF="#toc129">15. Fonctions avancées</A>
+  <LI><A HREF="#toc130">15. Fonctions avancées</A>
     <UL>
     <LI><A HREF="#CommandLineOptions">15.1. Options de ligne de commande</A>
     <LI><A HREF="#SystemWideParameters">15.2. Paramètres Système</A>
     </UL>
-  <LI><A HREF="#toc132">16. Informations complémentaires</A>
+  <LI><A HREF="#toc133">16. Informations complémentaires</A>
   </UL>
 
 <P></P>
@@ -219,7 +220,7 @@ Ses points forts sont :
 <LI>La prise en charge de nombreux afficheurs braille, incluant la saisie du braille informatique pour les afficheurs disposant d'un clavier braille ;
 <LI>La possibilité de s'exécuter entièrement depuis une clé USB ou tout autre média portable sans avoir à installer ;
 <LI>Un installateur parlant facile à utiliser ;
-<LI>Une traduction dans 50 langues ;
+<LI>Une traduction dans 51 langues ;
 <LI>La prise en charge des environnements Windows modernes, incluant les versions 32 et 64 bits ;
 <LI>L'accès à l'écran de connexion à Windows et aux autres écrans sécurisés ;
 <LI>La prise en charge des interfaces d'accessibilité communes telles que, Microsoft Active Accessibility, Java Access Bridge, IAccessible2 et UI Automation (UI Automation n'est supporté qu'à partir de Windows 7) ;
@@ -231,7 +232,7 @@ Ses points forts sont :
 <H3>1.2. Internationalisation</H3>
 <P>
 Il est important que chacun, partout dans le monde, quelle que soit sa langue, ait le même accès aux technologies. 
-À ce jour, NVDA a été traduit en 50 langues : l'afrikaans, l'albanais, l'Amharique, l'allemand, l'arabe, l'aragonais, le Birman, le bulgare, le catalan, le chinois traditionnel et simplifié, le coréen, le croate, le danois, l'espagnol, l'espagnol colombien, l'éthiopien, le farsi, le finnois, le français, le galicien, le grec, le géorgien, l'hébreu, le hongrois, l'hindi, l'irlandais, l'islandais, l'italien, le japonais, le lithuanien, le néerlandais, le népalais, le norvégien, le polonais, le portugais, le portugais brésilien, le punjabi, le roumain, le russe, le serbe, le slovaque, le slovène, le suédois, le tamoul, le tchèque, le thaï, le turc, l'ukrainien et le vietnamien.
+À ce jour, NVDA a été traduit en 51 langues : l'afrikaans, l'albanais, l'Amharique, l'allemand, l'arabe, l'aragonais, le Birman, le bulgare, le catalan, le chinois traditionnel et simplifié, le coréen, le croate, le danois, l'espagnol, l'espagnol colombien, l'éthiopien, le farsi, le finnois, le français, le galicien, le grec, le géorgien, l'hébreu, le hongrois, l'hindi, l'irlandais, l'islandais, l'italien, le japonais, le lithuanien, le macédonien, le néerlandais, le népalais, le norvégien, le polonais, le portugais, le portugais brésilien, le punjabi, le roumain, le russe, le serbe, le slovaque, le slovène, le suédois, le tamoul, le tchèque, le thaï, le turc, l'ukrainien et le vietnamien.
 </P>
 <A NAME="toc5"></A>
 <H3>1.3. Support des synthèses vocales</H3>
@@ -268,12 +269,10 @@ Pour plus de détails, vous pouvez <A HREF="http://www.gnu.org/licenses/gpl.html
 <A NAME="toc8"></A>
 <H2>2. Configuration système requise</H2>
 <UL>
-<LI>Systèmes d'exploitation : toutes les variantes, 32 ou 64 bits, de Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1 et Windows 10 (y compris les versions serveur).
+<LI>Systèmes d'exploitation : toutes les variantes, 32 ou 64 bits, de Windows 7, Windows 8, Windows 8.1 et Windows 10 (y compris les versions serveur).
  <UL>
- <LI>Pour Windows XP 32 bits, NVDA requiert le service pack 2 ou plus récent.
- <LI>Pour Windows Server 2003, NVDA requiert le service pack 1 ou plus récent.
- <LI>Pour Windows Vista, NVDA requiert le Service Pack 2 et la mise à jour <A HREF="https://support.microsoft.com/en-us/kb/2763674">KB2763674</A>.
- Les deux devraient être installés si toutes les mises à jours disponibles ont été appliquées via Windows Update.
+ <LI>Pour Windows 7, NVDA requiert le Service Pack 1 ou au-delà.
+ <LI>Pour Windows Server 2008 R2, NVDA requiert le Service Pack 1 ou au-delà.
  </UL>
 <LI>Mémoire : 256 Mo de RAM ou plus.
 <LI>Vitesse processeur : 1.0 GHz ou plus.
@@ -654,7 +653,7 @@ Quelques touches de commandes utiles pour naviguer avec le focus :
 <TD>Annonce de la barre d'état</TD>
 <TD>NVDA+fin</TD>
 <TD>NVDA+maj+fin</TD>
-<TD>Lit la barre d'état si NVDA en trouve une. Déplace aussi l'objet navigateur à la barre d'état. Un double appui épelle l'information</TD>
+<TD>Lit la barre d'état si NVDA en trouve une. Déplace aussi l'objet navigateur à la barre d'état. Un double appui épelle l'information. Un triple appui la copie dans le presse-papiers</TD>
 </TR>
 </TABLE>
 
@@ -1251,7 +1250,7 @@ Les touches suivantes permettent d'aller à l'élément suivant. En les combinan
 <LI>m : cadre
 <LI>g : graphique
 <LI>d : région
-<LI>o : objet embarqué
+<LI>o : objet embarqué (lecteur audio et vidéo, application, dialogue etc.)
 <LI>1 ... 6 : Titres 1 ... 6.
 <LI>a: annotation (commentaire, révision de l'éditeur, etc.)
 <LI>w: fautes d'orthographe
@@ -1287,7 +1286,7 @@ Pour activer ou désactiver la navigation rapide pour le document courant, press
 <H3>6.2. La liste d'éléments</H3>
 <P>
 La liste d'éléments donne accès à une liste de différents types d'éléments dans le document, de manière appropriée à l'application.
-Par exemple, dans les navigateurs web, la liste d'éléments peut afficher des liens, des titres ou des régions.
+Par exemple, dans les navigateurs web, la liste d'éléments peut afficher les liens, les titres, les champs de formulaire, les boutons ou les régions.
 Des boutons radio vous permettent de choisir entre les différents types d'éléments. 
 Une zone d'édition est également présente dans le dialogue, elle vous permet de filtrer la liste pour faciliter la recherche d'un élément particulier dans la page. 
 Quand vous avez choisi un élément, des boutons vous permettent de vous y rendre ou de l'activer.
@@ -1308,9 +1307,10 @@ Quand vous avez choisi un élément, des boutons vous permettent de vous y rendr
 <A NAME="toc43"></A>
 <H3>6.3. Les objets embarqués</H3>
 <P>
-Certaines pages peuvent inclure du contenu riche utilisant des technologies comme Adobe Flash ou Sun Java, tout comme des applications ou des dialogues.
+Certaines pages peuvent inclure du contenu riche utilisant des technologies comme Adobe Flash, Oracle Java et HTML5, tout comme des applications ou des dialogues.
 Quand il en rencontre dans un document, NVDA annonce "objet embarqué", "application", ou "dialogue" respectivement.
-Vous pouvez actionner "entrée" sur ces objets pour interagir avec eux. 
+Vous pouvez vous y rendre rapidement en utilisant les touches de navigation rapide pour objets embarqués o et maj+o.
+Pour interagir avec ces objets, vous pouvez presser Entrer sur eux.
 Si l'objet est accessible, vous pourrez interagir avec lui comme n'importe quelle autre application. 
 Une touche de commande permet de retourner à la page contenant l'objet embarqué.
 </P>
@@ -1327,7 +1327,7 @@ Une touche de commande permet de retourner à la page contenant l'objet embarqu�
 </TR>
 </TABLE>
 
-<A NAME="toc44"></A>
+<A NAME="ReadingMath"></A>
 <H2>7. Lecture de Contenu Mathématique</H2>
 <P>
 En utilisant MathPlayer 4 de Design Science, NVDA peut lire et naviguer interactivement dans le contenu mathématique supporté.
@@ -1339,8 +1339,11 @@ NVDA supporte les types de contenu mathématiques suivants :
 </P>
 <UL>
 <LI>MathML sous Mozilla Firefox, Microsoft Internet Explorer et Google Chrome.
-<LI>Design Science MathType sous Microsoft Word et PowerPoint. MathType doit être installé pour que cela fonctionne. La version de démonstration est suffisante.
-<LI>MathML sous Adobe Reader. Notez que ceci n'est pas un standard officiel, ce qui fait qu'actuellement, il n'existe pas de logiciels grand public pouvant produire ce contenu.
+<LI>Design Science MathType sous Microsoft Word et PowerPoint. 
+MathType doit être installé pour que cela fonctionne. La version de démonstration est suffisante.
+<LI>MathML sous Adobe Reader. 
+Notez que ceci n'est pas un standard officiel, ce qui fait qu'actuellement, il n'existe pas de logiciels grand public pouvant produire ce contenu.
+<LI>Math sous Kindle for PC pour les livres avec du contenu mathématique accessible.
 </UL>
 
 <P></P>
@@ -1382,7 +1385,7 @@ Par défaut, le curseur de revue suit le curseur système, vous pouvez donc gén
 <P>
 Arrivé là, vous pouvez utiliser les commandes MathPlayer telles que les flèches pour explorer l'expression.
 Par exemple, vous pouvez vous déplacer dans l'expression avec les flèches gauche et droite puis zoomer sur une partie de l'expression telle qu'une fraction en utilisant la flèche basse.
-Veuillez consulter la documentation de MathPlayer pour plus d'information.
+Veuillez consulter <A HREF="https://www.dessci.com/en/products/mathplayer/navigation_commands.htm">la documentation de MathPlayer sur les commandes de navigation</A> pour plus d'informations.
 </P>
 <P>
 Quand vous voulez retourner au document, pressez simplement la touche échap.
@@ -2019,6 +2022,10 @@ Vous pouvez aller manuellement à la page suivante en pressant la touche PageSui
 La navigation par simple lettre est supportée pour les liens et les graphiques, mais seulement dans la page en cours.
 La navigation par liens inclut également les notes de bas de page.
 </P>
+<P>
+NVDA fournit une ébauche de support pour la lecture et la navigation interactive de contenu mathématique pour les livres avec du contenu mathématique accessible.
+Veuillez consulter la section <A HREF="#ReadingMath">Lecture de Contenu Mathématique</A> pour plus d'informations.
+</P>
 <A NAME="toc68"></A>
 <H4>10.8.1. Sélection de Texte</H4>
 <P>
@@ -2048,8 +2055,31 @@ Pour afficher, éditer ou effacer une note.
 
 <P></P>
 <A NAME="toc70"></A>
-<H2>11. Configurer NVDA</H2>
+<H3>10.9. Azardi</H3>
+<P>
+Quand vous êtes dans le tableau des livres ajoutés :
+</P>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Entrer</TD>
+<TD>entrer</TD>
+<TD>Ouvre le livre sélectionné.</TD>
+</TR>
+<TR>
+<TD>Menu contextuel</TD>
+<TD>applications</TD>
+<TD>Ouvre le menu contextuel pour le livre sélectionné.</TD>
+</TR>
+</TABLE>
+
 <A NAME="toc71"></A>
+<H2>11. Configurer NVDA</H2>
+<A NAME="toc72"></A>
 <H3>11.1. Préférences</H3>
 <P>
 La plupart des paramètres de NVDA peuvent être modifiés en utilisant les dialogues accessibles par le sous-menu "Préférences" du menu NVDA.
@@ -2061,7 +2091,7 @@ Certains paramètres peuvent aussi être modifiés en utilisant des raccourcis c
 Notez que par défaut, tous les dialogues des préférences ne peuvent pas être atteints par des gestes de commandes (raccourcis clavier, gestes tactiles, etc.).
 Si vous voulez atteindre des dialogues qui n'ont pas de raccourci clavier, utilisez le <A HREF="#InputGestures">dialogue Gestes de Commandes</A> pour ajouter un geste personnalisé pour ce dialogue.
 </P>
-<A NAME="toc72"></A>
+<A NAME="toc73"></A>
 <H4>11.1.1. Paramètres généraux (NVDA+contrôle+g)</H4>
 <P>
 Le dialogue "Paramètres généraux" se trouve dans le menu "Préférences".
@@ -2119,7 +2149,7 @@ Cette option n'existe que dans les versions installées de NVDA.
 Si activé, NVDA recherchera automatiquement la dernière version de NVDA et vous informera si une mise à jour est disponible.
 Vous pouvez également vérifier manuellement les mises à jour en sélectionnant "Recherche d'une Mise à Jour..." dans le menu "Aide" du menu NVDA.
 </P>
-<A NAME="toc73"></A>
+<A NAME="toc74"></A>
 <H4>11.1.2. Choix du synthétiseur (NVDA+contrôle+s)</H4>
 <P>
 Le dialogue "Synthétiseur", situé sous "Synthétiseur" dans le menu "Préférences", permet de choisir le synthétiseur de parole qui sera utilisé par NVDA.
@@ -2441,7 +2471,7 @@ Cependant, si vous voulez lire le contexte (ex : que vous êtes dans une liste e
 <P>
 Pour modifier l'option "Afficher le contexte du focus" de n'importe où, veuillez assigner un geste de commande personnalisé en utilisant <A HREF="#InputGestures">le dialogue Gestes de Commandes</A>.
 </P>
-<A NAME="toc77"></A>
+<A NAME="toc78"></A>
 <H4>11.1.6. Paramètres du Clavier (NVDA+contrôle+k)</H4>
 <P>
 Ce dialogue se trouve dans le menu "Préférences", sous "Clavier...". 
@@ -2517,7 +2547,7 @@ Cette option n'est disponible que si l'annonce des fautes d'orthographe est acti
 Cette option permet à l'utilisateur de choisir si les combinaisons de touches générées par des applications telles que les claviers à l'écran et les logiciels de reconnaissance vocale doivent être traitées par NVDA.
 Cette option est activée par défaut, mais certains utilisateurs peuvent souhaiter désactiver cette fonction, comme ceux tapant en vietnamien avec le logiciel de dactylographie Unikey, car cela causerait la saisie de caractères incorrects.
 </P>
-<A NAME="toc78"></A>
+<A NAME="toc79"></A>
 <H4>11.1.7. Paramètres de la Souris (NVDA+contrôle+m)</H4>
 <P>
 Le dialogue "souris" se trouve dans le menu "Préférences", option "Souris...".
@@ -2555,7 +2585,7 @@ Plus la souris est à gauche ou à droite sur l'écran, plus le son sera émis �
 Si la case "Sonoriser les coordonnées quand la souris se déplace" est cochée, le volume des bips variera en fonction de la brillance de la zone sous le pointeur de la souris. 
 Cette case est décochée par défaut.
 </P>
-<A NAME="toc79"></A>
+<A NAME="toc80"></A>
 <H4>11.1.8. Paramètres du curseur de revue</H4>
 <P>
 Situé dans le menu "Préférences" sous "Curseur de revue..."
@@ -2586,7 +2616,7 @@ Quand l'option est activée, NVDA filtre la hiérarchie des objets que l'on peut
 <P>
 Pour activer ou désactiver le mode de revue simple depuis n'importe où, veuillez lui assigner un geste de commande personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
 </P>
-<A NAME="toc80"></A>
+<A NAME="toc81"></A>
 <H4>11.1.9. Paramètres de présentation des objets</H4>
 <P>
 Ce dialogue se trouve dans le menu "Préférences" sous "Présentation des Objets...". 
@@ -2660,7 +2690,7 @@ Par exemple, quand vous entrez du texte dans la boîte de recherche du menu dém
 Pour certains champs d'édition comme le champ de recherche dans diverses applications Windows 10, NVDA peut vous signaler qu'une liste de suggestions est apparue quand vous tapez du texte.
 La liste de suggestions se ferme quand vous quittez le champ d'édition, et pour certains champs, NVDA peut vous en avertir quand ça arrive.
 </P>
-<A NAME="toc81"></A>
+<A NAME="toc82"></A>
 <H4>11.1.10. Paramètres de Saisie</H4>
 <P>
 Le dialogue "Saisie" se trouve dans le menu "Préférences".
@@ -2698,7 +2728,7 @@ Après que les données de lecture ou de précomposition ont été combinées en
 Cette option permet de choisir si oui ou non NVDA doit annoncer tous les symboles quand ils apparaissent dans la chaîne de composition.
 Cette option est activée par défaut.
 </P>
-<A NAME="toc82"></A>
+<A NAME="toc83"></A>
 <H4>11.1.11. Paramètres du mode navigation (NVDA+contrôle+b)</H4>
 <P>
 Le dialogue des paramètres du mode navigation se trouve dans le menu des "Préférences", sous "Mode Navigation...".
@@ -2726,13 +2756,16 @@ Cette option vous permet d'indiquer si vous voulez que les objets tels que les l
 Cette case à cocher active ou désactive la lecture automatique des pages après leur chargement en mode navigation.
 Cette option est activée par défaut.
 </P>
-<H5>Annoncer les tables de visualisation</H5>
+<H5>Annoncer les tables de disposition</H5>
 <P>
 Cette option définit ce que NVDA doit faire des tableaux qui ne servent qu'à la présentation.
-Lorsque désactivée, cette option fait que NVDA ne rapporte que les tableaux contenant des données tabulaires (quand il tombe sous le sens qu'il s'agit d'un tableau).
+Si désactivée, NVDA ne rapporte que les tableaux contenant des données tabulaires (quand il tombe sous le sens qu'il s'agit d'un tableau).
 Les autres tableaux sont affichés sous forme de texte normal.
-Si activée, cette option fera que NVDA annoncera vraiment tous les tableaux, y compris ceux servant uniquement à la présentation.
+Si activée, NVDA annonce vraiment tous les tableaux, y compris ceux servant uniquement à la présentation.
 Cette option est désactivée par défaut.
+</P>
+<P>
+Pour activer/désactiver l'inclusion des tables de disposition de n'importe où, veuillez assigner un geste personnalisé en utilisant <A HREF="#InputGestures">le dialogue Gestes de commandes</A>.
 </P>
 <H5>Configurer l'annonce de champs tels que liens et titres</H5>
 <P>
@@ -2852,7 +2885,7 @@ Ce dialogue peut être atteint depuis le menu Préférences de NVDA et vous perm
 <P>
 Cette liste déroulante vous permet de choisir la langue à utiliser pour la reconnaissance de texte.
 </P>
-<A NAME="toc85"></A>
+<A NAME="toc86"></A>
 <H4>11.1.14. Dictionnaires de prononciation</H4>
 <P>
 Le menu "Dictionnaires de prononciation" du menu "Préférences" contient des dialogues qui vous permettent de gérer la manière dont NVDA prononce certains mots ou phrases. 
@@ -2964,7 +2997,7 @@ Pour supprimer un geste d'une commande, sélectionnez le geste et appuyez sur le
 <P>
 Lorsque vous avez terminé vos modifications, appuyez sur le bouton "OK" pour les sauvegarder ou sur le bouton "Annuler" pour les ignorer.
 </P>
-<A NAME="toc88"></A>
+<A NAME="toc89"></A>
 <H3>11.2. Sauvegarder et recharger la configuration</H3>
 <P>
 Par défaut NVDA sauvegarde automatiquement vos paramètres.
@@ -2999,7 +3032,7 @@ Les touches de commandes suivantes sont également utiles :
 </TR>
 </TABLE>
 
-<A NAME="toc89"></A>
+<A NAME="toc90"></A>
 <H3>11.3. Profils de configuration</H3>
 <P>
 Parfois, vous souhaiteriez avoir des paramètres différents pour des situations différentes.
@@ -3014,7 +3047,7 @@ La plupart des paramètres peuvent être modifiés dans les profils de configura
 Les profils de configuration peuvent être activés manuellement.
 Ils peuvent également être activés automatiquement grâce à des déclencheurs tels que le passage à une application particulière.
 </P>
-<A NAME="toc90"></A>
+<A NAME="toc91"></A>
 <H4>11.3.1. Gestion basique</H4>
 <P>
 Vous pouvez gérer les profils de configuration en sélectionnant "Profils de configuration" dans le menu NVDA.
@@ -3036,7 +3069,7 @@ Pour renommer ou supprimer un profil, appuyez sur le bouton "Renommer" ou "Suppr
 <P>
 Appuyez sur le bouton "Fermer" pour fermer le dialogue.
 </P>
-<A NAME="toc91"></A>
+<A NAME="toc92"></A>
 <H4>11.3.2. Création d'un profil</H4>
 <P>
 Pour créer un profil, appuyez sur le bouton "Nouveau".
@@ -3083,7 +3116,7 @@ Vous pouvez sélectionner "Configuration normale" si vous ne voulez pas utiliser
 <P>
 Cliquez sur le bouton "Fermer" pour revenir au dialogue "Profils de configuration".
 </P>
-<A NAME="toc94"></A>
+<A NAME="toc95"></A>
 <H4>11.3.5. Éditer un profil</H4>
 <P>
 Si vous avez activé manuellement un profil, les paramètres modifiés seront sauvegardés dans ce profil.
@@ -3094,14 +3127,14 @@ Enfin, s'il n'y a ni profil activé manuellement, ni profil déclenché, tous le
 <P>
 Pour éditer le profil utilisé dans "Dire Tout", vous devez <A HREF="#ConfigProfileManual">activer manuellement</A> ce profil.
 </P>
-<A NAME="toc95"></A>
+<A NAME="toc96"></A>
 <H4>11.3.6. Désactiver temporairement tous les déclencheurs</H4>
 <P>
 Parfois, il peut être utile de désactiver temporairement les déclencheurs.
 Par exemple, vous voudrez peut-être modifier un profil activé manuellement ou votre configuration normale sans profils déclenchés interférents.
 Vous pouvez le faire en cochant la case "Désactiver temporairement tous les déclencheurs" dans le dialogue "Profils de configuration".
 </P>
-<A NAME="toc96"></A>
+<A NAME="toc97"></A>
 <H3>11.4. Emplacement des fichiers de configuration</H3>
 <P>
 Les versions portables de NVDA enregistrent tous les paramètres et modules complémentaires dans un répertoire nommé "userConfig" situé dans le répertoire de votre copie portable de NVDA.
@@ -3116,9 +3149,9 @@ Les paramètres qu'utilise NVDA quand il s'exécute sur l'écran de connexion ou
 En général, cette configuration n'a pas à être modifiée.
 Pour modifier cette configuration, configurez NVDA à votre convenance, sauvegardez la configuration puis cliquez sur le bouton "Utiliser les paramètres NVDA actuellement sauvegardés pour l'écran de connexion à Windows (nécessite des privilèges administrateur)" dans le dialogue "Paramètres généraux".
 </P>
-<A NAME="toc97"></A>
-<H2>12. Outils additionnels</H2>
 <A NAME="toc98"></A>
+<H2>12. Outils additionnels</H2>
+<A NAME="toc99"></A>
 <H3>12.1. Visionneuse du journal</H3>
 <P>
 La visionneuse du journal, située dans "Outils" du menu NVDA, vous permet de consulter tous les événements enregistrés depuis votre dernier démarrage de NVDA.
@@ -3127,7 +3160,7 @@ La visionneuse du journal, située dans "Outils" du menu NVDA, vous permet de co
 En plus de lire le contenu, vous pouvez également sauvegarder une copie du journal ou réactualiser la visionneuse de manière à voir les événements les plus récents. 
 Ces actions sont disponibles dans le menu de la visionneuse.
 </P>
-<A NAME="toc99"></A>
+<A NAME="toc100"></A>
 <H3>12.2. Visionneuse de parole</H3>
 <P>
 Pour les développeurs voyants ou les personnes présentant NVDA à un public voyant, une fenêtre flottante est disponible, affichant tout ce que dit NVDA.
@@ -3148,7 +3181,7 @@ Cependant, si vous cliquez ou mettez le focus sur la visionneuse, NVDA arrêtera
 <P>
 Pour activer la visionneuse de parole de n'importe où, Veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
 </P>
-<A NAME="toc100"></A>
+<A NAME="toc101"></A>
 <H3>12.3. Gestionnaire de modules complémentaires</H3>
 <P>
 Le Gestionnaire de modules complémentaires, accessible en sélectionnant "Gestion des Modules Complémentaires" dans le menu "Outils" du menu NVDA, permet d'installer, désinstaller, activer ou désactiver des paquets de modules complémentaires pour NVDA.
@@ -3161,7 +3194,7 @@ Si une aide est disponible pour le module sélectionné, vous pouvez y accéder 
 </P>
 <P>
 Pour télécharger des modules complémentaires mis à disposition par la communauté, cliquez sur le bouton "Obtenir des modules complémentaires".
-Ce bouton ouvre la <A HREF="http://addons.nvda-project.org/">page des modules complémentaires NVDA</A>.
+Ce bouton ouvre la <A HREF="https://addons.nvda-project.org/">page des modules complémentaires NVDA</A>.
 Si NVDA est installé sur votre système et en cours d'exécution, vous pourrez ouvrir le module complémentaire directement depuis votre navigateur afin de démarrer le processus d'installation décrit plus loin.
 Autrement, enregistrez le fichier du module complémentaire et suivez les instructions ci-dessous.
 </P>
@@ -3201,13 +3234,13 @@ Il est recommandé de supprimer ces fichiers de votre répertoire de configurati
 <P>
 Pour activer le gestionnaire de modules complémentaires de n'importe où, Veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
 </P>
-<A NAME="toc101"></A>
+<A NAME="toc102"></A>
 <H3>12.4. Console Python</H3>
 <P>
 La console Python NVDA, située dans "Outils" du menu NVDA, est un outil de développement utile pour dépanner, inspecter le code ou inspecter la hiérarchie d'accessibilité d'une application.
-Pour plus d'informations, veuillez consulter le "Guide du Développeur" disponible dans <A HREF="http://community.nvda-project.org/wiki/Development">la section développement du site Web de NVDA</A>.
+Pour plus d'informations, veuillez consulter le "Guide du Développeur" disponible dans <A HREF="https://community.nvda-project.org/wiki/Development">la section développement du site Web de NVDA</A>.
 </P>
-<A NAME="toc102"></A>
+<A NAME="toc103"></A>
 <H3>12.5. Rechargement des modules complémentaires</H3>
 <P>
 Cet élément, quand on l'active, recharge les modules d'applications et les modules complémentaires généraux sans avoir à redémarrer NVDA, ce qui peut être utile pour les développeurs.
@@ -3216,9 +3249,9 @@ Cet élément, quand on l'active, recharge les modules d'applications et les mod
 <H2>13. Synthétiseurs de parole pris en charge</H2>
 <P>
 Cette section contient des informations concernant les synthétiseurs de parole pris en charge par NVDA.
-Pour une liste encore plus importante de synthétiseurs gratuits ou du commerce que vous pouvez acheter et télécharger pour utilisation avec NVDA, veuillez consulter la page <A HREF="http://www.nvda-project.org/wiki/ExtraVoices">http://www.nvda-project.org/wiki/ExtraVoices</A>.
+Pour une liste encore plus importante de synthétiseurs gratuits ou du commerce que vous pouvez acheter et télécharger pour utilisation avec NVDA, veuillez consulter la page <A HREF="https://www.nvda-project.org/wiki/ExtraVoices">http://www.nvda-project.org/wiki/ExtraVoices</A>.
 </P>
-<A NAME="toc104"></A>
+<A NAME="toc105"></A>
 <H3>13.1. eSpeak NG</H3>
 <P>
 Le synthétiseur <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak nG</A> est intégré dans NVDA et ne dépend d'aucun pilote ou programme additionnel pour être installé.
@@ -3232,7 +3265,7 @@ eSpeak NG prend en charge plus de 43 langues.
 <P>
 Vous disposez également d'un grand choix de variantes, permettant de modifier considérablement le son de la voix.
 </P>
-<A NAME="toc105"></A>
+<A NAME="toc106"></A>
 <H3>13.2. Microsoft Speech API version 4 (SAPI 4)</H3>
 <P>
 SAPI 4 est un ancien standard Microsoft pour les synthétiseurs de parole logiciels.
@@ -3242,14 +3275,14 @@ Cependant, Microsoft ne le supporte plus et les composants nécessaires ne sont 
 <P>
 Quand vous utilisez ce synthétiseur avec NVDA, la liste des voix disponibles (accessibles via <A HREF="#VoiceSettings">le dialogue "Voix"</A>, ou <A HREF="#SynthSettingsRing">la boucle des paramètres synthétiseur</A>) contient toutes les voix de tous les synthétiseurs SAPI 4 installés sur votre système.
 </P>
-<A NAME="toc106"></A>
+<A NAME="toc107"></A>
 <H3>13.3. Microsoft Speech API version 5 (SAPI 5)</H3>
 <P>
 SAPI 5 est un standard Microsoft pour les synthétiseurs de parole logiciels.
 Beaucoup de synthétiseurs de parole compatibles avec ce standard peuvent être achetés ou téléchargés gratuitement auprès de différentes sociétés ou sites web, mais il est probable que votre système possède déjà une voix SAPI 5 préinstallée.
 Quand vous utilisez ce synthétiseur avec NVDA, la liste des voix disponibles (accessibles via <A HREF="#VoiceSettings">le dialogue "Voix"</A>, ou <A HREF="#SynthSettingsRing">la boucle des paramètres synthétiseur</A>) contient toutes les voix de tous les synthétiseurs SAPI 5 installés sur votre système.
 </P>
-<A NAME="toc107"></A>
+<A NAME="toc108"></A>
 <H3>13.4. La plate-forme Microsoft Speech</H3>
 <P>
 La plate-forme Microsoft Speech fournit des voix pour beaucoup de langues, normalement utilisées dans le développement de serveurs vocaux.
@@ -3269,7 +3302,7 @@ Pour utiliser ces voix, vous devrez installer deux composants :
 </UL>
 
 <P></P>
-<A NAME="toc108"></A>
+<A NAME="toc109"></A>
 <H3>13.5. Voix Windows OneCore</H3>
 <P>
 Windows 10 inclut de nouvelles voix appelées "OneCore" ou voix "mobile".
@@ -3284,7 +3317,7 @@ De plus, la vitesse que vous choisissez dans les paramètres de Windows affecte 
 Ce sont des problèmes que nous ne pouvons pas résoudre sans des modifications de Windows.
 Nous espérons qu'ils seront pris en compte dans de futures mises à jour de Windows.
 </P>
-<A NAME="toc109"></A>
+<A NAME="toc110"></A>
 <H3>13.6. AudioLogic TTS3</H3>
 <P>
 C'est un synthétiseur de parole du commerce, spécifique à la langue italienne.
@@ -3294,7 +3327,7 @@ Pour plus d'informations, veuillez visiter le site Audiologic à <A HREF="http:/
 <P>
 Ce synthétiseur ne supporte pas la <A HREF="#VoiceSpellingFunctionality">fonction d'épellation</A>.
 </P>
-<A NAME="toc110"></A>
+<A NAME="toc111"></A>
 <H3>13.7. Nuance Vocalizer pour NVDA</H3>
 <P>
 Nuance Vocalizer est une synthèse vocale commerciale de haute qualité développée par Nuance Communications, Inc., et mise en module complémentaire NVDA par Tiflotecnia, Lda.
@@ -3310,7 +3343,7 @@ Un pourcentage des ventes de ce produit est donné à NVAccess, pour financer le
 <P>
 Cette section contient des informations sur les terminaux braille pris en charge par NVDA.
 </P>
-<A NAME="toc112"></A>
+<A NAME="toc113"></A>
 <H3>14.1. Les terminaux Focus et PAC Mate de chez Freedom Scientific</H3>
 <P>
 Tous les terminaux Focus et PAC Mate de chez <A HREF="http://www.freedomscientific.com/">Freedom Scientific</A> sont pris en charge quand ils sont connectés en USB ou Bluetooth.
@@ -3499,7 +3532,7 @@ Pour le Focus 80 seulement :
 </TR>
 </TABLE>
 
-<A NAME="toc113"></A>
+<A NAME="toc114"></A>
 <H3>14.2. Les terminaux Optelec ALVA BC640/680</H3>
 <P>
 Les terminaux BC640 et BC680 de chez <A HREF="http://www.optelec.com/">Optelec</A> sont pris en charge quand ils sont connectés en USB ou Bluetooth.
@@ -3641,15 +3674,21 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc114"></A>
+<A NAME="toc115"></A>
 <H3>14.3. Les terminaux Handy Tech</H3>
 <P>
-NVDA prend en charge tous les terminaux de chez <A HREF="http://www.handytech.de/">Handy Tech</A> en USB ou Bluetooth.
+NVDA prend en charge la plupart des terminaux de chez <A HREF="http://www.handytech.de/">Handy Tech</A> en USB ou Bluetooth.
 Pour les terminaux USB les plus anciens, vous devrez installer le pilote USB Handy Tech sur votre système.
 </P>
 <P>
-La saisie du braille n'est pas encore supportée.
+Les terminaux suivants ne sont pas nativement supportés, mais peuvent être utilisé via <A HREF="https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers">le pilote universel Handy Tech</A> and NVDA add-on:
 </P>
+<UL>
+<LI>Braillino
+<LI>Bookworm
+<LI>Les afficheurs modulaires avec le microprogramme version 1.13 ou inférieure. Veuillez noter que le microprogramme de ces afficheurs peut être mis à jour.
+</UL>
+
 <P>
 Voici les assignations de touches pour ces terminaux avec NVDA.
 Veuillez consulter la documentation du terminal pour savoir où se situent ces touches.
@@ -3661,11 +3700,11 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 <TR>
 <TD>Défilement arrière de l'affichage braille</TD>
-<TD>left, up</TD>
+<TD>left, up, b3</TD>
 </TR>
 <TR>
 <TD>Défilement avant de l'affichage braille</TD>
-<TD>right, down</TD>
+<TD>right, down, b6</TD>
 </TR>
 <TR>
 <TD>Amener l'affichage braille à la ligne précédente</TD>
@@ -3681,7 +3720,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 <TR>
 <TD>Touche maj+tab</TD>
-<TD>esc</TD>
+<TD>esc, touche triple action gauche haut+bas</TD>
 </TR>
 <TR>
 <TD>Touche alt</TD>
@@ -3693,31 +3732,51 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 <TR>
 <TD>Touche tab</TD>
-<TD>enter</TD>
+<TD>enter, touche triple action droite haut+bas</TD>
 </TR>
 <TR>
 <TD>Touche entrée</TD>
-<TD>esc+enter</TD>
+<TD>esc+enter, touche triple action gauche+droite haut+bas, JoystickAction</TD>
 </TR>
 <TR>
 <TD>Flèche haut</TD>
-<TD>espace gauche</TD>
+<TD>joystick haut</TD>
 </TR>
 <TR>
 <TD>Flèche bas</TD>
-<TD>espace droit</TD>
+<TD>joystick bas</TD>
+</TR>
+<TR>
+<TD>Flèche gauche</TD>
+<TD>joystick gauche</TD>
+</TR>
+<TR>
+<TD>Flèche droite</TD>
+<TD>joystick droit</TD>
 </TR>
 <TR>
 <TD>Menu NVDA</TD>
 <TD>b2+b4+b5+b6</TD>
 </TR>
 <TR>
-<TD>Configuration Handy Tech</TD>
-<TD>b4+b8</TD>
+<TD>Bascule braille suit</TD>
+<TD>b2</TD>
+</TR>
+<TR>
+<TD>Bascule du curseur braille</TD>
+<TD>b1</TD>
+</TR>
+<TR>
+<TD>Bascule de présentation du contexte du focus</TD>
+<TD>b7</TD>
+</TR>
+<TR>
+<TD>Bascule de la saisie braille</TD>
+<TD>space+b1+b3+b4 (space+capital B)</TD>
 </TR>
 </TABLE>
 
-<A NAME="toc115"></A>
+<A NAME="toc116"></A>
 <H3>14.4. Le terminal MDV Lilli</H3>
 <P>
 Le terminal braille Lilli distribué par <A HREF="http://www.mdvbologna.it/">MDV</A> est supporté.
@@ -3771,7 +3830,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc116"></A>
+<A NAME="toc117"></A>
 <H3>14.5. Les terminaux Baum/Humanware/APH/Orbit</H3>
 <P>
 Plusieurs terminaux <A HREF="http://www.baum.de/cms/en/">Baum</A>, <A HREF="http://www.humanware.com/">HumanWare</A>, <A HREF="http://www.aph.org/">APH</A> et <A HREF="http://www.orbitresearch.com/">Orbit</A> sont pris en charge quand ils sont connectés via USB, Bluetooth ou série.
@@ -3857,7 +3916,7 @@ Pour les terminaux possédant un joystick:
 </TR>
 </TABLE>
 
-<A NAME="toc117"></A>
+<A NAME="toc118"></A>
 <H3>14.6. Hedo ProfiLine USB</H3>
 <P>
 Le terminal Hedo ProfiLine USB de <A HREF="http://www.hedo.de/">Hedo Reha-Technik</A> est supporté.
@@ -3902,7 +3961,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc118"></A>
+<A NAME="toc119"></A>
 <H3>14.7. Hedo MobilLine USB</H3>
 <P>
 Le terminal Hedo MobilLine USB de <A HREF="http://www.hedo.de/">Hedo Reha-Technik</A> est supporté.
@@ -3947,7 +4006,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc119"></A>
+<A NAME="toc120"></A>
 <H3>14.8. HumanWare Séries Brailliant BI/B</H3>
 <P>
 Les terminaux des séries Brailliant BI &amp; B de <A HREF="http://www.humanware.com/">HumanWare</A>, incluant le BI 32, BI40 et B 80 sont supportés quand ils sont connectés via USB ou Bluetooth.
@@ -4045,7 +4104,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc120"></A>
+<A NAME="toc121"></A>
 <H3>14.9. HIMS Braille Sense/Braille EDGE/Smart Beetle Series</H3>
 <P>
 NVDA supporte les afficheurs braille Braille Sense, Braille EDGE et Smart Beetle de <A HREF="http://www.hims-inc.com/">Hims</A> quand ils sont connectés via USB ou Bluetooth. 
@@ -4255,7 +4314,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc121"></A>
+<A NAME="toc122"></A>
 <H3>14.10. HIMS Syncbraille</H3>
 <P>
 NVDA supporte l'afficheur braille Syncbraille de <A HREF="http://www.hims-inc.com/">HIMS</A>.
@@ -4284,7 +4343,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc122"></A>
+<A NAME="toc123"></A>
 <H3>14.11. Seika braille Displays</H3>
 <P>
 Les afficheurs braille Seika Version 3, 4 et 5 (40 caractères) et Seika80 (80 caractères) de <A HREF="http://www.nippontelesoft.com/">Nippon Telesoft</A> sont pris en charge.
@@ -4346,7 +4405,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc123"></A>
+<A NAME="toc124"></A>
 <H3>14.12. Nouveaux modèles de Papenmeier brailleX</H3>
 <P>
 Les afficheurs braille suivant sont supportés :
@@ -4563,7 +4622,7 @@ Les touches intérieures font toutes les deux espace.
 </TR>
 </TABLE>
 
-<A NAME="toc124"></A>
+<A NAME="toc125"></A>
 <H3>14.13. Papenmeier braille brailleX modèles anciens</H3>
 <P>
 Les afficheurs braille suivants sont supportés :
@@ -4835,7 +4894,7 @@ brailleX 2D Screen:
 </TR>
 </TABLE>
 
-<A NAME="toc125"></A>
+<A NAME="toc126"></A>
 <H3>14.14. BrailleNote de HumanWare</H3>
 <P>
 NVDA supporte les bloc-notes BrailleNote de <A HREF="http://www.humanware.com">HumanWare</A> lorsque ceux-ci agissent comme afficheurs braille pour un lecteur d'écran.
@@ -4966,7 +5025,7 @@ Consultez la documentation de votre BrailleNote pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc126"></A>
+<A NAME="toc127"></A>
 <H3>14.15. EcoBraille</H3>
 <P>
 NVDA supporte Les afficheurs EcoBraille de <A HREF="http://www.once.es/">ONCE</A>.
@@ -5062,7 +5121,7 @@ Veuillez consulter <A HREF="ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braill
 </TR>
 </TABLE>
 
-<A NAME="toc127"></A>
+<A NAME="toc128"></A>
 <H3>14.16. SuperBraille</H3>
 <P>
 L'afficheur SuperBraille, principalement disponible à Taiwan, peut être connecté en USB ou en série.
@@ -5084,7 +5143,7 @@ Pour cette raison, et pour maintenir la compatibilité avec d'autres revues d'é
 </TR>
 </TABLE>
 
-<A NAME="toc128"></A>
+<A NAME="toc129"></A>
 <H3>14.17. BRLTTY</H3>
 <P>
 <A HREF="http://www.brltty.com/">BRLTTY</A> est un programme séparé qui permet de prendre en charge beaucoup plus de terminaux braille.
@@ -5127,7 +5186,7 @@ Veuillez consulter la <A HREF="http://mielke.cc/brltty/doc/KeyTables/">documenta
 </TR>
 </TABLE>
 
-<A NAME="toc129"></A>
+<A NAME="toc130"></A>
 <H2>15. Fonctions avancées</H2>
 <A NAME="CommandLineOptions"></A>
 <H3>15.1. Options de ligne de commande</H3>
@@ -5259,6 +5318,21 @@ Voici les options de ligne de commande de NVDA :
 <TD>--install-silent</TD>
 <TD>Installe NVDA silencieusement (sans démarrer la copie nouvellement installée)</TD>
 </TR>
+<TR>
+<TD>Aucune</TD>
+<TD>--create-portable</TD>
+<TD>Crée une copie portable de NVDA (puis démarre la copie nouvellement créée). --portable-path doit être spécifié</TD>
+</TR>
+<TR>
+<TD>Aucune</TD>
+<TD>--create-portable-silent</TD>
+<TD>Crée une copie portable de NVDA (sans démarrer la copie nouvellement créée). --portable-path doit être spécifié</TD>
+</TR>
+<TR>
+<TD>Aucune</TD>
+<TD>--portable-path=PORTABLEPATH</TD>
+<TD>L'emplacement où la copie portable sera créée</TD>
+</TR>
 </TABLE>
 
 <A NAME="SystemWideParameters"></A>
@@ -5297,7 +5371,7 @@ Les valeurs suivantes peuvent être définies dans ces clés de registre :
 </TR>
 </TABLE>
 
-<A NAME="toc132"></A>
+<A NAME="toc133"></A>
 <H2>16. Informations complémentaires</H2>
 <P>
 Si vous avez besoin d'informations complémentaires ou d'aide concernant l'utilisation de NVDA, veuillez visiter le site NVDA à <A HREF="http://www.nvaccess.org/">http://www.nvaccess.org/</A>.
