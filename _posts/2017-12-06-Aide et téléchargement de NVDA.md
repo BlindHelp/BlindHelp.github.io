@@ -4,9 +4,9 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Jeudi 24 août 2017</footer>
+<footer>Mercredi 6 Décembre 2017</footer>
 
-### Documentation sur NVDA 2017.3 ###
+### Documentation sur NVDA 2017.4 ###
 
 A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
 
