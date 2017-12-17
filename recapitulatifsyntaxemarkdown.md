@@ -649,13 +649,13 @@ Cellule d'en-tête A | Cellule d'en-tête B
 Cellule 1 | Cellule 2
 Cellule 3 | Cellule 4
 
-Remarque, si vous devez utiliser les symboles employer par Markdown, vous devez échapper ces symboles  en les précédant avec le caractère "\" barre oblique inversée.
+Remarque, si vous devez utiliser les symboles employer par Markdown, vous devez échapper ces symboles  en les précédant avec le caractère "\`" barre oblique inversée.
 
 ***
 
 # Échappement des caractères # {#mark16}
 
-Les caractères spéciaux ayant un sens en HTML et en Markdown doivent être échappés. Pour les esperluètes c'est-à-dire "et comercial" (&),  le signe (<) ou le signe (>)  et autres caractères HTML, Markdown se charge de les convertir en entités HTML lors de l’export. Mais si vous souhaitez utiliser dans votre texte des astérisques, accolades, dièses… à une position indiquant à Markdown que vous désirer un formatage particulier, vous devez les échapper en les faisant précéder d’un antislash c'est-à-dire une barre oblique inversé (\). Sinon Markdown les masquera et appliquera le formatage correspondant. Les caractères suivants sont à échapper :     
+Les caractères spéciaux ayant un sens en HTML et en Markdown doivent être échappés. Pour les esperluètes c'est-à-dire "et comercial" (&),  le signe (<) ou le signe (>)  et autres caractères HTML, Markdown se charge de les convertir en entités HTML lors de l’export. Mais si vous souhaitez utiliser dans votre texte des astérisques, accolades, dièses… à une position indiquant à Markdown que vous désirer un formatage particulier, vous devez les échapper en les faisant précéder d’un antislash c'est-à-dire une barre oblique inversé (\`). Sinon Markdown les masquera et appliquera le formatage correspondant. Les caractères suivants sont à échapper :     
 `\` * ` - _ [] () {} # + . ! < >  @ ~ 
 
 Voici les mêmes signes écrit En toutes lettres pour faciliter la lecture à mes amis DV :     

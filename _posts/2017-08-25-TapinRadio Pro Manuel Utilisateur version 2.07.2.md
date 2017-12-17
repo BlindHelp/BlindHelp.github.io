@@ -214,11 +214,11 @@ Note: En espérant que l'auteur intègre  bientôt le nouveau patch de   la nouv
 
 # Télécharger le patch de la nouvelle traduction pour la langue française / espagnol by BlindHelp compatible TapinRadio v1.58.1 et version supérieure (Y compris TapinRadio Pro v2.07.2: #
 
-[Télécharger le patch  de la nouvelle traduction pour la langue française / espagnol by BlindHelp en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip)             
+[Télécharger le patch  de la nouvelle traduction pour la langue française / espagnol by BlindHelp en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1 et + MAJ pack langue es-fr.zip)             
 Nom du fichier:                      
-TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip                  
+TapinRadio Free v1.58.1 et + MAJ pack langue es-fr.zip                  
 En décompressant le fichier nommé:                  
-TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip                   
+TapinRadio Free v1.58.1 et + MAJ pack langue es-fr.zip                   
 Vous trouverez un dossier nommé:        
 TapinRadio           
 Faire entrée        
@@ -253,7 +253,7 @@ Ce programme concocter  par notre ami Abdel est seulement utilisable pour copier
 Nom du fichier:                      
 copierFichiers.zip                    
 Une fois téléchargé l'archive copierFichiers.zip vous devez suivre la suivante procédure :           
-[Télécharger l'archive zip TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip)             
+[Télécharger l'archive zip TapinRadio Free v1.58.1 et + MAJ pack langue es-fr.zip en cliquant ici](https://blindhelp.github.io/TapinRadio Free v1.58.1 et + MAJ pack langue es-fr.zip)             
 Si vous ne l'avez pas encore fait !                     
 Après avoir décompressé l'archive, vous trouver un dossier nommé TapinRadio, avec son sous-dossier nommé Languages, avec dedans, mes 4 fichiers .lng:                     
 French.ex.lng                 
@@ -315,7 +315,7 @@ Le fichier copierFichiers.exe ne doit être exécuté si vous avez mis le dossie
 `C:\TapinRadio\Languages`                        
 Vous devrez copier manuellement mes 4 fichiers .lng afin de remplacer les 4 fichiers .lng présent dans votre dossier Languages, comme indiqué plus haut,                            
 en utilisant l'archive   zip nommé:                 
-TapinRadio Free v1.58.1  et + MAJ pack langue es-fr.zip                   
+TapinRadio Free v1.58.1 et + MAJ pack langue es-fr.zip                   
 que vous avez  téléchargé puis décompressé préalablement. (voir les explications ci-dessus).                        
 Je remercie encore une fois à mon ami Abdel, pour son petit programme copierFichiers.exe (handshake)               
 Profiter donc! (happy)                                    
@@ -2278,15 +2278,15 @@ Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y
 Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y compris TapinRadio Free v2.01/TapinRadio Pro v2.07.2).                  
 * n = Envoyer la clé de licence... Alt+n               
 Ceci est expliquer en détail ci-dessous (valable pour TapinRadio Free v1.58.1 y compris TapinRadio Free v2.01/TapinRadio Pro v2.07.2).                  
-* À propos TapinRadio Alt+À
+* À propos de TapinRadio Alt+À
 Cette boîte de dialogue comporte deux onglets:                                 
-Onglet À propos                        
+Onglet À propos de                        
 Onglet Qt                 
 
-Onglet À propos                  
-Une fois sur l'onglet À propos                    
+Onglet À propos de                   
+Une fois sur l'onglet À propos de                   
 Faire Tab pour avoir la ligne avec les information sur le temps restant en jours que vous     avez pour continuer à exécuter la période d'essai de TapinRadio (License), numéero de version, Nom du Système Opératif, emplacement du Dossier de Données, Copyright du logiciel, nom du lecteur d'écrran utilisé.                   
-À propos dialogue                              
+À propos de dialogue                              
 TapinRadio: v2.07.2 x64                  
 Operating System: Windows 64 bit                     
 Dossier de Données: `C:\TapinRadio`                                 
@@ -2312,7 +2312,7 @@ Vous pouvez si vous le souhaitez copier cette information, pour cela placez votr
  Copier	Ctrl+C Alt+C             
 Ensuite vous pouvez ouvrir votre éditeur de texte préféré (par exemple; le Bloc-notes de Windows, le Notepad++, etc) puis faire Ctrl+V afin de pouvoir coller cette information. ;)              
 Retourner à nouveau au premier onglet nommé:          
-À propos                   
+À propos de                   
 Faire Tab pour aller au bouton:          
 OK          
 Puis faire entrée sur le bouton OK pour quitter cette boîte de dialogue.       
@@ -2368,7 +2368,7 @@ TapinRadio Pro v2.01
  Au lieu de:          
  TapinRadio Free v2.01          
  Pour savoir combien de jours d'essai vous reste Aller dans le Menu Aide Alt+i, puis faire entrée sur le bouton A propos de TapinRadio Alt+p.                   
-   Il s'ouvre la boîte de dialogue A propos               
+   Il s'ouvre la boîte de dialogue A propos de               
  Choisir le première onglet nommé:             
  A propos de            
  Une fenêtre s'ouvre, faire Tab, ensuite vous pouvez voir cette information sous forme de texte.           
@@ -5179,5 +5179,5 @@ ou sur  votre nouveau espace via GitHub:
 
 
 <footer>
-Dernière mise à jour  27 Octobre, 2017.
+Dernière mise à jour  27 Octobre 2017.
 </footer>
