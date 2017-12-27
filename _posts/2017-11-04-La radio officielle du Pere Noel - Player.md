@@ -2,13 +2,12 @@
 title: La radio officielle du Pere Noel - Player
 layout: post
 author: BlindHelp
+---
 
 <audio  autoplay=autoplay  preload="auto">
 
  <source src="http://lasonotheque.org/UPLOAD/mp3/0313.mp3" type="audio/mp3" />
 </audio>
-
----
 
 <footer>Dernière mise à jour: le Samedi 4 novembre 2017.</footer>
 
