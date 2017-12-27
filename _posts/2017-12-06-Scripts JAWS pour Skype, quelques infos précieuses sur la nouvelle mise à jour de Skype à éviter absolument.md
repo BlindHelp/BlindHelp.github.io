@@ -27,7 +27,7 @@ Donc, veuillez utiliser les derniers scripts Révision 983 francisé du2 septemb
 N'oubliez pas que les scripts son compatibles pour JAWS, de la version 12 à la version 18.                          
 [Téléchargement des scripts francisé pour Skype 622b – BlindHelp.github.io](https://blindhelp.github.io/Téléchargement-des-scripts-francisé-pour-Skype-622b/)             
 Cette page est conçue pour une navigation facile via JAWS:                
-Utilisez h pour sauter d'une section à l'autre.            
+Utilisez t pour sauter d'une section à l'autre.            
 Utilisez Tab pour vous déplacer parmi les liens.               
 INSERT+F7 devrait également fournir une liste de ces liens.                
 
