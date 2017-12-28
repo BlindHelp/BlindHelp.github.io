@@ -19,7 +19,7 @@ author: BlindHelp
 ### La radio officielle du Pere Noel - Player ###
 Salut les lutins du blog de BlindHelp!               
  Le mois de novembre est la avec ses bonnes nouvelles !                    
-Des le 11 novembre elle revient, la radio du père noël sera parmi nous sur la FM dans l’Est parisien sur le 107.9 et sur `laradioduperenoel.com`.                       
+Des le 11 novembre elle revient, la radio du père noël sera parmi nous sur la FM dans l’Est parisien sur le 107.9 et sur laradioduperenoel.com.                       
 <a target="_blank" href="http://www.laradioduperenoel.com/">"La radio du Pere Noel"</a>     
 Bien entendu, ami des nouvelles technologies, le père noël a tout fait pour qu’on puisse écouter sa radio partout grâce aux applis gratuites ANDROID et APPLE. Bien sur les nouveaux objets ne sont pas oubliés comme GOOGLE HOME.La nouvelle enceinte connectée de GOOGLE a qui vous pourrez dire, « ok Google mets moi la radio du père noël !!! » et hop le tour est joué !                      
  Dans cette grande hotte musicale vous retrouverez des jeux, des cadeaux, les contes de Mamidoux tous les soirs dès 20h, Génération Loustic en semaine de 16 h à 20 h avec Guillaume et Agnès MIGNONAC, un réveil  « bon boulon et bonne huile » tous les matins avec Bobo le petit robot, Jazz à Christmas, La boum du Père Noel avec lutin MJ …. !!                  
