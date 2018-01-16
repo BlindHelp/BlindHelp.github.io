@@ -7,7 +7,55 @@ author: BlindHelp
 <footer>Dernière mise à jour le 02.09.2017.</footer>
 
 
-### Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp ###
+Sommaire <a id="Sommaire"></a>
+-------------
+
+- [Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp](#mark2)
+- [Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp](#mark3)
+- [Dernières modifications des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017](#mark4)
+- [Les nouveau scripts sont seulement compatibles avec:](#mark5)
+- [Installation scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp via l'installateur de scripts JoAd de Lavakri](#mark6)
+- [Installation manuelle des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp](#mark7)
+- [A propos des mises à jour de Skype](#mark8)
+- [Compatibilité des présents scripts francisé pour Skype 622b révision 983 du 2 septembre 2017](#mark9)
+- [A propos des dernièrs modifications des scripts américain pour Skype:](#mark10)
+- [Révision 983, sortie le 2 septembre 2017](#mark11)
+- [Révision 981, sortie le 31 août 2017](#mark12)
+- [Révision 975, sortie le 21 mars 2017](#mark13)
+- [Révision 969, sortie le 8 septembre 2016](#mark14)
+- [Révision 954, sortie le 2 avril 2016](#mark15)
+- [Révision 945, sortie le 11 décembre 2015](#mark16)
+- [Révision 943, sortie le 10 décembre 2015](#mark17)
+- [Révision 942, sortie le 4 décembre 2015](#mark18)
+- [Révision 934, sortie le 13 octobre 2015](#mark19) 
+- [Révision 933, sortie le 30 septembre 2015](#mark20) 
+- [Révision 932, sortie le 16 septembre 2015](#mark21)  
+- [A savoir avant de commencer.](#mark22)  
+- [Pour télécharger les Scripts Skype 622b Révision 983 francisé MAJ  2 septembre 2017](#mark23)  
+- [Scripts avec installateur](#mark24)  
+- [Scripts sans installateur](#mark25)  
+- [Module SkypeWatch](#mark26)  
+- [L'installateur de SkypeWatch](#mark27)  
+- [Vous ne désirez pas utiliser SkypeWatch.](#mark28)  
+- [Vous désirez utiliser SkypeWatch.](#mark29)  
+- [Installation de SkypeWatch avec l'installateur.](#mark30)  
+- [Installation manuelle de SkypeWatch.](#mark31)  
+- [Configuration manuel de SkypeWatch](#mark32)  
+- [Instructions pour activer skypewatch dans skype 7.xx](#mark33)  
+- [Voici une deuxième procèdure par notre ami Daniel Poiraud.](#mark34)  
+- [Jaws version 12.0 ou peut-être ultérieur et la procédure de récupération ci-dessous.](#mark35)  
+- [Désinstallation du script SkypeWatch.](#mark36)  
+- [Désinstallation du reste du script.](#mark37)  
+- [Liste des scripts installer en utilisant l'installateur de scripts de notre ami Lavakri ou si vous les avez incorporés manuellement.](#mark38)  
+- [Script SkypeWatch dans le dossier fra ; fichier installer en utilisant l'installateur de scripts de notre ami Lavakri.](#mark39)  
+- [Quelques conseils en vrac by BlindHelp](#mark40)  
+- [Documentation pour les scripts Skype 622b révision 983 du 2 septembre 2017](#mark41)  
+- [Liens utils](#mark42)  
+- [Spécial Merci à:](#mark43)  
+
+### Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp <a id="mark2"></a>
+
+
 * Scripts Skype 622b Révision 983 Dernière mise à jour le 2 septembre 2017           
 * Scripts traduit en français pour le programme de téléphonie Skype par internet  
 Les présents scripts on été tester avec:  
@@ -24,11 +72,15 @@ Puis les suivantes versions de Skype™, dont tout d'abord les plus récentes:
 * Skype™ Version 6.22.81.104
 * Script compatible avec JAWS 12.0 et ultérieur (inclus JAWS 15.0,  16.0, 17.0 et 18.0)
 
-# Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp #
+[Retour au sommaire](#Sommaire)
+
+# Téléchargement de la MAJ des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp <a id="mark3"></a>
 Coucou mes amis du blog de BlindHelp!  
 voici les derniers scripts en date traduits et adaptés en Français par Daniel Poiraud et moi-même.  
 
-# Dernières modifications des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 #
+[Retour au sommaire](#Sommaire)
+
+# Dernières modifications des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 <a id="mark4"></a>
 Voici les changements une fois placez les derniers scripts américain Skype 622b révision 983 du 2 septembre 2017 afin de faire la traduction en français puis rendre les présents scripts compatible sur un clavier AZERTY (clavier français).
 
 *   Script Skype.JCF
@@ -191,7 +243,9 @@ Pour les versions de Skype™ Version 6.18.0.106 ou ultérieures s'il vous plaî
 
 [JAWS Scripts For Skype 6.x (page en anglais):](http://www.dlee.org/skype/)                           
 
-# Les nouveau scripts sont seulement compatibles avec: #
+[Retour au sommaire](#Sommaire)
+
+# Les nouveau scripts sont seulement compatibles avec: <a id="mark5"></a> 
 * Skype™ Version 7.40.0.151
 * Skype™ Version 7.33.0.105
 * Skype™   Version 7.31.0.104
@@ -211,7 +265,9 @@ Attention!!! Pour connaître la version de Skype™ installé sur votre ordinate
 deux fois rapidement vous aurais les même informations et vous pouvez le lire mieux à l'aide des flèches gauche ou droite, appuyez sur ECHAP pour quitter  
 cette fenêtre.
 
-# Installation scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp via l'installateur de scripts JoAd de Lavakri #
+[Retour au sommaire](#Sommaire)
+
+# Installation scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp via l'installateur de scripts JoAd de Lavakri <a id="mark6"></a> 
 Comme d'hab notre ami Daniel Poiraud nous à concocter l'installation des présents Scripts Skype version 622b révision 983 francisé MAJ 2 septembre 2017 sous
 forme installable.             
 Merci à lui!!!                
@@ -227,7 +283,9 @@ Ne pas oublier que  celui-ci est seulement compatible pour les personnes ayant i
 Les scripts seront désormais utilisables par Jaws, lorsque  vous ouvrez le programme      
 Voir le lien de téléchargement ci-dessous.                  
 
-# Installation manuelle des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp #
+[Retour au sommaire](#Sommaire)
+
+# Installation manuelle des scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 by BlindHelp <a id="mark7"></a> 
 Une fois que vous avez télécharger puis décompresser le fichier nommé:                     
 skype-6.22b-j12a18-jawsscript-Fr.zip                
 Celui-ci contient tout les scripts à placer manuelment dans votre version de JAWS installer (12 à 18).                         
@@ -258,7 +316,9 @@ Sous XP:
 Vous pouvez utiliser les chemins d'accès dans l'explorateur de fichiers, mais il est plus simple d'ouvrir le menu Démarrer, puis de sélectionner successivement  
 "Tous les programmes", "Jaws x.y", "Explorer Jaws", "Explorer mes paramètres".  
 
-# A propos des mises à jour de Skype #
+[Retour au sommaire](#Sommaire)
+
+# A propos des mises à jour de Skype <a id="mark8"></a> 
 Dans le menu Outils/options, on peux trouver une rubrique relative aux mises à jour automatiques.  
 Il y a le bouton  
 Désactiver les mises à jour automatiques  
@@ -266,11 +326,15 @@ Appuyez sur se bouton pour éviter les mises à jour automatiques.
 Et n'oubliez pas de faire entrée sur le bouton:  
 Enregistrer  
 
-# Compatibilité des présents scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 #
+[Retour au sommaire](#Sommaire)
+
+# Compatibilité des présents scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 <a id="mark9"></a> 
 Les présents scripts francisé pour Skype 622b révision 983 du 2 septembre 2017 doivent être utilisés uniquement avec les versions de JAWS 12 à 18!  
 Il faut les utiliser uniquement avec Skype 6.22 et versions ultérieures !  
 
-# A propos des dernièrs modifications des scripts américain pour Skype: #
+[Retour au sommaire](#Sommaire)
+
+# A propos des dernièrs modifications des scripts américain pour Skype: <a id="mark10"></a>  
 Voici a titre d'information les dernièrs modifications effectuées dans les scripts américain pour Skype:  
 Traduit de l'anglais  
 
@@ -289,7 +353,9 @@ Voici les changements dans la version 6.22b, plus récent d'abord.
 Scripts JAWS Pour Skype:                    
 6.22 à au moins 7.33                
 
-# Révision 983, sortie le 2 septembre 2017 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 983, sortie le 2 septembre 2017 <a id="mark11"></a>  
 Mises à jour de l'installateur             
 
 * Correction d'un problème avec le précédent installateur, causé par un changement dans le fonctionnement de la commande NSIS SetRegView, qui empêchait l'installateur de trouver des versions de JAWS sur Windows 32 bits.            
@@ -297,7 +363,9 @@ Mises à jour de l'installateur
 
 Merci à Nermin de nous aider à tester les builds de l'installateur pour cette mise à jour.                  
 
-# Révision 981, sortie le 31 août 2017 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 981, sortie le 31 août 2017 <a id="mark12"></a>  
 * L'installateur des scripts gère correctement la version bêta de JAWS 2018 publiée le jeudi 31 août 2017. Ce support devrait être reporté à la version finale de JAWS 2018 et à ses mises à jour. Merci à Freedom Scientific / VFO pour leur collaboration proactive afin d'assurer une prise en charge rapide des installateurs de scripts tiers.              
 * Cet installateur est le premier à être généré avec NSIS 3.02.1 (31 juillet 2017). Ceci est une mise à niveau importante de la plate-forme d'installation utilisée.                 
 * Le support braille sur les versions actuelles de JAWS peut être légèrement plus rapide en raison de l'utilisation d'une fonction intégrée ajoutée récemment à JAWS à la place d'une boucle de code de script.                       
@@ -306,7 +374,9 @@ Merci à Nermin de nous aider à tester les builds de l'installateur pour cette 
 * La touche en couche pour quitter le son est beaucoup plus silencieux.              
 * La commande Ctrl+8 pour aller à la page d'accueil Skype n'est plus prise en charge. Utilisez la commande native Skype pour cela; par exemple, Ctrl+H pour les installations en anglais Skype.               
 
-# Révision 975, sortie le 21 mars 2017 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 975, sortie le 21 mars 2017 <a id="mark13"></a>  
 * Certaines commandes sont supprimées des scripts pour éviter les conflits de clavier avec Skype ou parce qu'ils sont obsolètes. Chacun d'entre eux dispose déjà d'une séquence de touches ou d'une séquence alternative encore disponible. Voir le tableau ci-dessous cette liste d'amélioration.              
 * Alt+Entrée répète le dernier message lu avec Alt+flèches, pour ceux pour lesquels Alt+NumPad5 (clavier numérique) est un problème (par exemple, à partir de claviers portables et Bluetooth).             
 * Correction pour les versions de script traduites: Les parties gauches des entrées du skype.jdf sont en lettres minuscules pour les faire appliquer avant les versions en lettres minuscules  dans le skype.jdf par défaut de JAWS. Cela devrait faire en sorte que les entrées traduites fonctionnent dans JAWS 16 et plus, où elles ne sont pas automatiquement retraduites dans la langue appropriée après avoir été tracées incorrectement à partir du fichier skype.jdf par défaut.                    
@@ -355,7 +425,9 @@ summary="Les commandes par frappes successives (commandes séquentielles) du scr
 
 Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts.         
 
-# Révision 969, sortie le 8 septembre 2016 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 969, sortie le 8 septembre 2016 <a id="mark14"></a>
 Le but principal de cette mise à jour est de résoudre un problème bizarre avec SkypeWatch qui a commencé à coïncider avec la disponibilité de JAWS 16, bien que JAWS 16 ne l'ait probablement pas causé.                   
 [Lisez l'explication complète de ce problème skype.ini et sa solution ici (page en anglais)](Http://www.dlee.org/skype/inisplit_issue.php)                         
 pour obtenir une explication du problème et d'un message annoncé qui est très probable de se produire peu de temps après cette mise à jour lorsqu'il  est installé.                 
@@ -366,36 +438,50 @@ Autres modifications apportées à cette mise à jour:
 * MKCSExit.wav n'est plus inclus ou requis par les scripts. Ce fichier était une fois utilisé comme le son de sortie pour les commandes séquentielles en couches, mais les scripts ont utilisé un son JAWS par défaut depuis un certain temps maintenant.                       
 * Les fichiers Wav utilisés par les scripts sont de nouveau maintenus dans le dossier aux côtés des scripts eux-mêmes, au lieu d'aller dans le  dossier Sounds de  JAWS. Il y a deux raisons à cela: la simplification de la création de l'installateur multiprojet et la possibilité d'une réorganisation de la structure des fichiers JAWS au-delà de ce qui a été établi par JAWS 17. Tous ces fichiers commencent par "Skype" et ne devraient donc pas entrer en conflit avec d'autres projets de script.                               
 
-# Révision 954, sortie le 2 avril 2016 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 954, sortie le 2 avril 2016 <a id="mark15"></a>
 * SkypeWatch devrait annoncer les notifications lorsqu’ils se produisent même lorsque la function de JAWS nommé WindowCreatedEvent ne parvient pas à fonctionner comme prévu. Cette situation a été vu dans JAWS 17 sous Windows 8.1 et probablement un ou deux autres  versions de JAWS et Windows. L’événement généralement fonctionne normalement pendant un certain temps après chaque redémarrage de JAWS mais peut soudainement cesser de se déclencher alors qu’elle devrait pour des raisons inconnues. Le rechargement de JAWS était la meilleure solution pour ce problème avant cette révision du script. Cette révision de script provoquera la verbalisation des notifications de Skype même lorsque l’événement ne  se déclenche pas mais avec un retard de deux secondes par rapport à quand l’événement fonctionne correctement.
 * La licence BSD, précédemment seulement montré au cours de l’installation du script via l'installateur de script, est maintenant incluse dans tous les fichiers jss distribués. Cela se fait normalement dans les projets de logiciels et évite la confusion sur ce qui peut être fait par d’autres avec le code. Ce changement ne représente pas un changement dans les termes de la licence qui s’appliquent aux scripts de Skype ; elle permet simplement qu'elles apparaissent bien en vue.
 * La syntaxe utilisée pour une grande partie du code de script est mise à jour aux normes actuelles de JAWS (cela a été un effort permanent). Ceci affecte seulement la facilité de compréhension du code et la mise à jour mais il n'y a pas vraiment.  de fonctionnalités du script. Il n'y a aucun changement aux messages traduisible causée par cet effort.  
 
-# Révision 945, sortie le 11 décembre 2015 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 945, sortie le 11 décembre 2015 <a id="mark16"></a>
 La commande Ctrl+Maj+M pour insérer des émoticônes et Mojis dans une fenêtre de conversation devrait fonctionner pour  plusieurs utilisateurs, y compris ceux qui n'utilisent pas Skype en anglais.  
 En outre, si le bouton pour que cette fonctionnalité est désactivé dans Skype lui-même, JAWS indiquera "indisponible" si vous  essayez d'utiliser la commande Ctrl+Maj+M.  
 
 Notez que même lorsque la commande Ctrl+Maj+M ne fonctionne pas, vous pouvez encore  faire plusieurs fois Tab depuis la  zone de saisie de chat pour trouver le bouton "Envoyer émoticône ou Moji" et appuyez sur espace pour accomplir la même  chose.  
 
-# Révision 943, sortie le 10 décembre 2015 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 943, sortie le 10 décembre 2015 <a id="mark17"></a>
 Cette mise à jour corrige un bug de l'installateur qui fait que les installations échouent sur JAWS 17 lorsque la langue de JAWS  n'était pas en Anglais.  
 
-# Révision 942, sortie le 4 décembre 2015 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 942, sortie le 4 décembre 2015 <a id="mark18"></a>
 * Les traduction devrait fonctionner sous JAWS 17 comme il l'a fait dans les versions antérieures de JAWS en raison de l'ajout  de chaque fichier source pertinente de la ligne recommandée par Freedom Scientific sur cette demande:  
 ;`#`pragma usePoFile 0   
 * Ctrl+Maj+M fonctionne dans Skype 7.16.
 * Supprimé la pause entre le nom de l'expéditeur du message et le texte du message durant SayAll dans une liste de message de chat.
 * Si le default.jss commence par une marque d'ordre d'occlusion (BOM) elle devrait être préservée par l'installateur de script.
 
-# Révision 934, sortie le 13 octobre 2015 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 934, sortie le 13 octobre 2015 <a id="mark19"></a>
 Cette révision devrait être compiler à nouveau avec succès sous JAWS 13 et des versions plus anciennes. La précédente mise  à jour inclus un correctif pour la manipulation du tutoriel texte et cette difficulté a tenté d'utiliser une constante (Product_MAGic)  qui n'est pas disponible jusqu'a JAWS 14.
 
-# Révision 933, sortie le 30 septembre 2015 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 933, sortie le 30 septembre 2015 <a id="mark20"></a>
 Le principal changement dans cette révision, c'est que l'installateur fonctionne dans la version public beta 2 de JAWS 17. Le  changement est nécessaire en raison d'une évolution dans les codes du compilateur de script entre les versions  public betas 1 et 2 de JAWS 17.  
 
 N'annoncer que les messages personnalisés parlent aussi lorsque l'option "Messages tuteur" de JAWS est définie sur  "N'annoncer que les messages personnalisés" comme il se doit pas seulement quand l'option est définie sur  "Annoncer l'aide des menus et des commandes."
 
-# Révision 932, sortie le 16 septembre 2015 #
+[Retour au sommaire](#Sommaire)
+
+# Révision 932, sortie le 16 septembre 2015 <a id="mark21"></a>
 L'installateur fonctionne avec la version public beta de JAWS 17 publié par Freedom Scientific le 16 septembre 2015. Les  installateurs précédentes échoue en générant un message d'erreur lorsque vous tentez d'installer dans JAWS 17, en raison  d'une importante réorganisation des fichiers de script dans cette version de JAWS.  
 
 Cette révision de script inclut également les modifications suivantes:  
@@ -421,7 +507,9 @@ Source:
 [Pour plus d'info voici la page des scripts en anglais de Doug Lee:](http://www.dlee.org/skype/)                           
  Dans cette page il nous donne les infos des derniers changements des scripts américain...
 
-# A savoir avant de commencer. #
+ [Retour au sommaire](#Sommaire)
+
+# A savoir avant de commencer. <a id="mark22"></a>
 Ces scripts existent en une seule versions pour les lecteur d'écran JAWS versions 12.0 a 18.0 et peut-être des versions ultérieurs. En effet, les raccourcis-clavier  
 sont basés sur le clavier installé sur l'ordinateur de l'utilisateur pour les versions 12.0 et suivantes.  
 
@@ -430,10 +518,14 @@ L'installateur des scripts américain contient  le module SkypeWatch, qui permet
 
 Si vous utiliser l'installateur de scripts américain,  il va modifier le fichier default.jss.
 
-# Pour télécharger les Scripts Skype 622b Révision 983 francisé MAJ  2 septembre 2017 #
+[Retour au sommaire](#Sommaire)
+
+# Pour télécharger les Scripts Skype 622b Révision 983 francisé MAJ  2 septembre 2017 <a id="mark23"></a>
 Voici donc la nouvelle mouture conçue pour les versions actuelles de Skype et compatibles de JAWS 12 à 18, lien permanent pointant vers mon espace GitHub dont   je vous fait profiter. 😊                    
 
-# Scripts avec installateur #
+[Retour au sommaire](#Sommaire)
+
+# Scripts avec installateur <a id="mark24"></a>
 [Les Scripts avec installateur, Depuis l'espace de BlindHelp via GitHub, c'est par la!](https://blindhelp.github.io/skype-7-j12a18-jawsscript-622b.zip)                         
 Le tout tout zippé par précaution pour les anti-virus.                   
 Nom du fichier:  
@@ -453,7 +545,9 @@ Je persiste et signe que c'est un faux positif!!!!!
 Sur tout qui vient d'une source fiable!!!                  
 Alors ! qi commmande ici !
 
-# Scripts sans installateur #
+[Retour au sommaire](#Sommaire)
+
+# Scripts sans installateur <a id="mark25"></a>
 [Les Scripts sans installateur, Depuis l'espace de BlindHelp via GitHub, c'est par la!](https://blindhelp.github.io/skype-6.22b-j12a18-jawsscript-Fr.zip)                         
 Le tout tout zippé par précaution pour les anti-virus.                   
 Nom du fichier:  
@@ -489,11 +583,15 @@ Vous pouvez  supprimer  aussi Les autres5 fichiers wav:
 "SkypeTyping5.wav"              
 Pour éviter d'avoir ces scripts/fichiers en doubles dans les paramètres utilisateur de JAWS lors de l'installation si vous utiliser l'installateur des scripts de Lavakri ou si vous le faites manuellement.
 
-# Module SkypeWatch #
+[Retour au sommaire](#Sommaire)
+
+# Module SkypeWatch <a id="mark26"></a>
 Si vous avez installé le module SkypeWatch et s'il fonctionne bien, sauter cette étape!                   
 Voir le lien de téléchargement de l'installateur de SkypeWatch ci-dessous                   
 
-# L'installateur de SkypeWatch #
+[Retour au sommaire](#Sommaire)
+
+# L'installateur de SkypeWatch <a id="mark27"></a>
 C'est une version personnalisée par Seb, de l'installateur de scripts JoAd de Lavakri. Dans la deuxième fenêtre, vous pourrez choisir, au moyen d'une liste        
 déroulante, d'installer les fichiers avec ou sans sauvegarde des anciens fichiers, de copier les fichiers dans un dossier, mais aussi de désinstaller SkypeWatch          
 avec l'option "Retirer l'association du default.jss".                   
@@ -518,13 +616,19 @@ nouveau ce fichier et au deuxième écran vous sélectionnez "Retirer
 l'association du Default.JSS".                      
 Merci a notre ami Seb!          
 
-# Vous ne désirez pas utiliser SkypeWatch. #
+[Retour au sommaire](#Sommaire)
+
+# Vous ne désirez pas utiliser SkypeWatch. <a id="mark28"></a>
 Il vous suffit alors d'installer seulement le script qui est compatible avec les versions de Jaws 12.0 à 18.0.           
 
-# Vous désirez utiliser SkypeWatch. #
+[Retour au sommaire](#Sommaire)
+
+# Vous désirez utiliser SkypeWatch. <a id="mark29"></a>
 Installez d'abord le script correspondant à votre version de Jaws soit pour la version 12.0 ou ultérieur, puis suivez la procédure décrite ci-dessus.                  
 
-# Installation de SkypeWatch avec l'installateur. #
+[Retour au sommaire](#Sommaire)
+
+# Installation de SkypeWatch avec l'installateur. <a id="mark30"></a>
 Activez le fichier skypewatch.exe, et suivez les indications fournies dans les fenêtres de l'Assistant. Si l'installation s'est bien déroulée, vous pourrez              
 vérifier le bon fonctionnement de SkypeWatch, en frappant Alt +Maj +F9. Vous devrez entendre un message concernant SkypeWatch.                    
 
@@ -541,7 +645,10 @@ La ligne est devenue:
 `let nIndex = DlgSelectItemInList(sList, WordListDlgTitle, FALSE, 1) ;,WordListCustomButtons,iButton)`                    
 3. Frappez Ctrl +S pour sauvegarder et compiler le fichier. Vérifiez en frappant Alt +Maj +F9, que SkypeWatch fonctionne.                          
 
-# Installation manuelle de SkypeWatch. #
+
+[Retour au sommaire](#Sommaire)
+
+# Installation manuelle de SkypeWatch. <a id="mark31"></a>
 1. Ouvrez l'éditeur de script par le menu Utilitaires, item "Éditeur de script", de la fenêtre de Jaws. Le fichier ouvert est default.jss.                       
 2. Frappez une trentaine de fois Flèche bas, jusqu'à la dernière ligne commençant par "use". Frappez Flèche fin, puis Entrée pour créer une nouvelle ligne,                
 où vous taperez ou collerez la ligne:                    
@@ -556,7 +663,9 @@ comme indiqué ci-dessus.
 
 Voici à peu près la même procédure indiquer ci-dessus pour l'installation manuelle de SkypeWatch.                       
 
-# Configuration manuel de SkypeWatch: #
+[Retour au sommaire](#Sommaire)
+
+# Configuration manuel de SkypeWatch: <a id="mark32"></a> 
 1. Vous cliquez depuis n'importe quelle fenêtre sur les touches Insert + 0 puis les touches Ctrl + Maj D pour ouvrir le fichier par défaut des scripts                       
 de Jaws                 
 2. Rechercher avec flèche bas n'importe quel des lignes contenant au début use, par exemple:                          
@@ -573,7 +682,9 @@ et enfin appuyez sur ECHAP pour fermer la boîte de dialogue rechercher du texte
 7. Ensuite appuyez sur Ctrl + S, pour compiler le fichier par défaut.                 
 8. Appuyez sur Alt + F4 pour fermer le fichier.                          
 
-# Instructions pour activer skypewatch dans skype 7.xx #
+[Retour au sommaire](#Sommaire)
+
+# Instructions pour activer skypewatch dans skype 7.xx <a id="mark33"></a>
 Autres procèdures pour installer SkypeWatch manuellement:                        
 Si le module SkypeWatch ne fonctionne pas malgret qu'il est actif...                
 Même s'il est installer avec l'installateur SkypeWatch.                           
@@ -595,7 +706,9 @@ JAWS sous menu, Explorer les paramètres partagés.
 8. Et on appui une autre fois sur Ctrl+S. Ensuite Jaws nous dit que le script à été bien compiler . Maintenant on ferme le gestionnaire avec Alt+F4.                         
 9. Prêt, Skype Watch est activée!, s'il ne s'exécute pas automatiquement, cochez les options de skype avec insert + v.                           
 
-# Voici une deuxième procèdure par notre ami Daniel Poiraud. #
+[Retour au sommaire](#Sommaire)
+
+# Voici une deuxième procèdure par notre ami Daniel Poiraud. <a id="mark34"></a>
 Installation du module SkypeWatch.               
 Ce module permet de faire dire par Jaws quel contact se connecte, quelle que soit l'application active. Il faut donc modifier le fichier default.JSS.                       
 
@@ -619,7 +732,9 @@ contient bien les fichiers default.JSS et default.JSB.
 Mais on ne sais jamais il se peut que on peut fair une mauvaise manipulation, et Jaws cesse de fonctionner!!!                      
 Voir la procèdure décrite ci-dessous!                                  
 
-# Jaws version 12.0 ou peut-être ultérieur et la procédure de récupération ci-dessous. #
+[Retour au sommaire](#Sommaire)
+
+# Jaws version 12.0 ou peut-être ultérieur et la procédure de récupération ci-dessous. <a id="mark35"></a>
 La procédure suivante a bien fonctionnée, testée et signalée par Roy Nickelson sur la liste des scripts anglophone pour les scripts de Skype.                         
 Merci beaucoup à Roy pour cela. Cette procédure s'applique si Jaws cesse de fonctionner en raison d'une erreur dans la procédure d'installation du module               
 Skypewatch dans la version de Jaws 12.0 ou version ultérieure suite a l'installation décrit ci-dessus.                    
@@ -651,18 +766,26 @@ Nous avons deux boutons: Oui Non
 Tab jusq'au bouton Oui puis entrée.                     
 8. Redémarrer JAWS dans votre mode normal.                             
 
-# Désinstallation du script SkypeWatch. #
+
+[Retour au sommaire](#Sommaire)
+
+# Désinstallation du script SkypeWatch. <a id="mark36"></a>
 1. Désinstallation de SkypeWatch. Si vous avez utilisé l'installateur de SkypeWatch, ré-utilisez le, et sélectionnez dans la deuxième fenêtre "Retirer                               
 l'association du default.jss".                                 
 2. Si non, ouvrez le fichier default.jss dans l'éditeur de scripts, et supprimez la ligne                          
 `use "skypewatch.jsb"`                       
 
-#Désinstallation du reste du script. #
+
+[Retour au sommaire](#Sommaire)
+
+#Désinstallation du reste du script. <a id="mark37"></a>
 1. Ouvrez le dossier des paramètres personnels, et supprimez tous les fichiers commençant par "skype". quelque soit l'extension. Il y en a plus d'une vingtaine.                               
 Si vous ne voulez pas réinstaller ce script, vous supprimerez également les 5 fichiers sons, qui se trouvent dans le dossier "Sounds" de ce dossier des paramètres personnels. Ce sont: Skypetyping1.wav, Skypetyping2.wav, Skypetyping3.wav, Skypetyping4.wav et Skypetyping5.wav.                               
 Dans le cas où vous aurais ces fichiers wav installés dans ce dossier lors d'une précédente installation (y compris le fichier MkcsExit.wav).                              
 
-# Liste des scripts installer en utilisant l'installateur de scripts de notre ami Lavakri ou si vous les avez incorporés manuellement. #
+[Retour au sommaire](#Sommaire)
+
+# Liste des scripts installer en utilisant l'installateur de scripts de notre ami Lavakri ou si vous les avez incorporés manuellement. <a id="mark38"></a>
 Voicie la liste des Scripts et fichiers wav dans le dossier fra ; fichier installer avec l'installateur des scripts ou mis manuellement):                      
 - Skype.Jcf             
 - Skype.Jdf                      
@@ -692,7 +815,10 @@ Voicie la liste des Scripts et fichiers wav dans le dossier fra ; fichier instal
 - Skypewatch.Jsm                   
 - Skypewatch.Jss                    
 
-# Script SkypeWatch dans le dossier fra ; fichier installer en utilisant l'installateur de scripts de notre ami Lavakri #
+
+[Retour au sommaire](#Sommaire)
+
+# Script SkypeWatch dans le dossier fra ; fichier installer en utilisant l'installateur de scripts de notre ami Lavakri. <a id="mark39"></a> 
 Si vous avez utilisé l'installateur de SkypeWatch               
 Vous avez le script suivant:                     
 - Skypewatch.Joadmerge.Jss (fichier crée avec l'installateur de SkypeWatch)               
@@ -705,7 +831,9 @@ Ce fichier contient la sauvegarde des paramètres tels que la touche utilisée p
 BlindHelp n'est pas responsable de toute mauvaise manipulations qui son occasionner avec les présents Scripts de skype                    
 622b révision 983 francisé MAJ 2 septembre 2017!!!                      
 
-# Quelques conseils en vrac by BlindHelp #
+[Retour au sommaire](#Sommaire)
+
+# Quelques conseils en vrac by BlindHelp <a id="mark40"></a>
 Vous devez mettre à jour votre version de skype vers Skype™ Version 7.40.0.151            
 ou une version ultérieure compatible avec ces nouveau scripts!  
 [Mais si vous ne l'avez pas, cliquez ici pour le télécharger](http://www.skype.com/go/getskype-full)                         
@@ -713,7 +841,9 @@ ou une version ultérieure compatible avec ces nouveau scripts!
 Lorsque vous êtes dans la fenêtre principale de Skype en appuyant sur les touches insert+H!  
 Vous aurez l'aide, contenu  dans cette documentation pour cette version de scripts pour Skype 622b Révision 983 du 2 septembre 2017 afin d'utiliser Au mieux Skype.
 
-# Documentation pour les scripts Skype 622b révision 983 du 2 septembre 2017 #
+[Retour au sommaire](#Sommaire)
+
+# Documentation pour les scripts Skype 622b révision 983 du 2 septembre 2017 <a id="mark41"></a>
 A tout fin utile voici l'aperçu de la documentation:  
 
 Bienvenue dans les scripts de JAWS pour Skype, traduit par Rémy Ruiz (BlindHelp).  
@@ -797,7 +927,10 @@ Cette commande enregistre également votre version de Skype, celles du script et
 pour déterminer quelles sont les configurations utilisées.  
 Utiliser Ctrl+Maj+W de temps à autre vous aidera à vous assurer que votre configuration a bien la dernière mise à jour disponible.  
 
-# Liens utils: #
+
+[Retour au sommaire](#Sommaire)
+
+# Liens utils: <a id="mark42"></a>
 Pour les versions de Skype™ Version 6.18.0.106 ou ultérieures s'il vous plaît vous devez installer les scripts francisé compatibles pour Skype 618a révision 860 du 14 septembre 2014, en   cliquant sur le lien ci-dessous  
 [blindhelp: Téléchargement de la MAJ des scripts francisé pour Skype 618a révision 860 du 14 septembre 2014 by BlindHelp](http://blindhelp.blogspot.fr/2014/10/telechargement-de-la-maj-des-scripts.html)                     
 Vous pouvez consulter un de mes article précédent sur mon blog a titre d'information                  
@@ -818,7 +951,9 @@ Mille merci encore a mon ami Daniel Poiraud pour les info donnée sur son site!!
 Et voici la page principal de sont site:                        
 [Fiches d'aide pour l'apprentissage de l'informatique adaptée avec Jaws](http://angouleme.avh.asso.fr/fichesinfo/fiches_jaws/index.htm)                      
 
-# Spécial Merci à: #
+[Retour au sommaire](#Sommaire)
+
+# Spécial Merci à: <a id="mark43"></a> 
 Nous remercions  du fond du cœur à notre scripteur Daniel Poiraud pour ce magnifique travail de scriptage!!! bravo!!! :)                 
 Et Je tiens à remercier vivement aussi à mon amie Isabelle Delarue pour l'aide très précieuse qu'elle m'apporté en coulisse!!!              
 Voila un clin d'œil!                             
@@ -827,3 +962,14 @@ sur ce, je vous souhaite un bon chat avec Skype!
 Amusez-vous bien!                   
 @+            
 BlindHelp!                     
+
+[Retour au sommaire](#Sommaire)
+
+---
+
+Nous espérons vous revoir bientôt sur le      
+[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
+ou sur  votre nouveau espace via GitHub:                     
+[BlindHelp.github.io](https://blindhelp.github.io)                    
+
+---
