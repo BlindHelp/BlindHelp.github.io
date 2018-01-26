@@ -15,7 +15,7 @@
 <audio autoplay="autoplay" preload="auto">
 <source src="https://blindhelp.github.io/sweep.wav" type="audio/wav" />
 </audio>
-<p>Derni&#232;re mise &#224; jour le Jeudi 25.01.2018.</p>
+<p>Derni&#232;re mise &#224; jour le Vendredi 26.01.2018.</p>
 <hr />
 <h1 id="le-coffre-des-modules-compl&#233;mentaires-pour-nvda">Le coffre des Modules Compl&#233;mentaires pour NVDA</h1>
 <p><br />
@@ -132,6 +132,7 @@ Vous pouvez installer un module compl&#233;mentaire en proc&#233;dant comme suit
 <li><a href="#modifyLockAnnouncement.nvda-addon">modifyLockAnnouncement</a></li>
 <li><a href="#mp3DirectCut-3.6.nvda-addon">Mp3DirectCut</a></li>
 <li><a href="#noBeepsSpeechMode-2.3.nvda-addon">noBeepsSpeechMode</a></li>
+<li><a href="#NotepadPlusPlus-1.2-dev.nvda-addon">NotepadPlusPlus</a></li>
 <li><a href="#NVDAExtensionGlobalPlugin6.5.nvda-addon">NVDAExtensionGlobalPlugin</a></li>
 <li><a href="#OBJSounds%20(KevanGC%20Version).nvda-addon">OBJSounds (KevanGC Version)</a></li>
 <li><a href="#objsounds.nvda-addon">objsounds</a></li>
@@ -143,6 +144,7 @@ Vous pouvez installer un module compl&#233;mentaire en proc&#233;dant comme suit
 <li><a href="#radiosure%201.4.nvda-addon">RadioSure</a></li>
 <li><a href="#readFeeds-4.0.nvda-addon">Read Feeds</a></li>
 <li><a href="#reportPasswords-1.3-dev.nvda-addon">reportPasswords</a></li>
+<li><a href="#reportSymbols-3.3.nvda-addon">Report Symbols</a></li>
 <li><a href="#savelog-4.0.nvda-addon">SaveLog</a></li>
 <li><a href="#ShortLink-2.0.nvda-addon">ShortLink</a></li>
 <li><a href="#SpecificSearch%20mod.nvda-addon">SpecificSearch mod</a></li>
@@ -805,6 +807,46 @@ Auteur: Alberto Buffolino
 Traduit en fran&#231;ais par: R&#233;my Ruiz </code></pre>
 <p><a href="https://addons.nvda-project.org/files/get.php?file=nb">T&#233;l&#233;charger le module compl&#233;mentaire noBeepsSpeechMode-2.3.nvda-addon par ici:</a></p>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
+<h1 id="notepadplusplus">NotepadPlusPlus <a id="NotepadPlusPlus-1.2-dev.nvda-addon"></a></h1>
+<p>Type: Extensions<br />
+Description: App Module pour Notepad++.<br />
+Ce module compl&#233;mentaire am&#233;liore l'accessibilit&#233; de Notepad ++. Pour en savoir plus, appuyez sur le bouton Aide de ce module compl&#233;mentaire.<br />
+Version: 1.2-dev<br />
+Auteurs: Derek Riemer, Tuukka Ojala.<br />
+Modifi&#233; par: Robert<br />
+Langues: Allemand, Anglais, Fran&#231;ais, et Espagnol<br />
+Traduit en Fran&#231;ais et Espagnol par: R&#233;my Ruiz<br />
+Traduit en Allemand par: Robert<br />
+<a href="https://blindhelp.github.io/NotepadPlusPlus-1.2-dev.nvda-addon">T&#233;l&#233;charger le module compl&#233;mentaire NotepadPlusPlus-1.2-dev.nvda-addon par ici:</a></p>
+<pre><code>Changer la touche  NVDA+Maj+Barre oblique invers&#233; dans le module Notepad++    
+Ouvrir le programme notepad++ pour avoir le focus.    </code></pre>
+<p>Pour cela , lorsque notepad++ a le focus, faire insert +n /pr&#233;f&#233;rences /Gestes de commandes.../ Notepad++<br />
+Notepad++ est r&#233;duit, une foisfait fl&#232;che droite il est d&#233;velopp&#233;e<br />
+Faire fl&#232;che bas puis,<br />
+chercher l'arborescence<br />
+annonce l'&#233;l&#233;ment information de ligne sur la barre d'&#233;tat<br />
+Cela est r&#233;duit, une foisfait fl&#232;che droite il est d&#233;velopp&#233;e<br />
+Appuyer sur le bouton:<br />
+Ajouter<br />
+Donc, n'oubliez pas que pour ajouter un geste &#224; une commande, s&#233;lectionnez la commande et appuyez sur le bouton &quot;Ajouter&quot;.<br />
+puis taper la commande:<br />
+NVDA+Maj+souligner<br />
+Ensuite tab pour ataindre le bouton:<br />
+OK<br />
+Donc, n'oubliez pas que lorsque vous avez termin&#233; vos modifications, appuyez sur le bouton &quot;OK&quot; pour les sauvegarder ou sur le bouton &quot;Annuler&quot; pour les ignorer.</p>
+<p>Pour supprimer un geste d'une commande, s&#233;lectionnez le geste et appuyez sur le bouton &quot;Supprimer&quot;.<br />
+Mais j'ignore si vraiment c'est utile de le faire, car peut-&#234;tre vous pourais utiliser ce addon sur un clavier qwerty.</p>
+<p>Donc la commande ajout&#233; sa donne:<br />
+NVDA+majuscule+8 (clavier, toutes les dispositions)</p>
+<p>En somme vous aurais deux commandes:<br />
+NVDA+majuscule+8 (clavier, toutes les dispositions)<br />
+C'est par d&#233;faut.<br />
+NVDA+majuscule+&#160;(clavier, toutes les dispositions)<br />
+C'est la commande d'avant.</p>
+<p>Je viens de tester les Gestes de commandes. J'ai pu ajouter NVDA+Maj+souligner comme alternative &#224; la touche NVDA+Maj+Barre oblique invers&#233;. Cela fonctionne !</p>
+<p>Remarque: red&#233;marrer NVDA si il n'a pas le focus sur l'application.</p>
+<p>Voila pour l'astuce.</p>
+<p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
 <h1 id="nvdaextensionglobalplugin">NVDAExtensionGlobalPlugin <a id="NVDAExtensionGlobalPlugin6.5.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
 Extension des commandes de base de NVDA
@@ -1152,6 +1194,20 @@ J'ai oubli&#233;, la traduction en Fran&#231;ais et Espagnol n&#8217;est pas inc
 Auteur: Noelia Ruiz Mart&#237;nez<br />
 Traduit en Fran&#231;ais et Espagnol par: R&#233;my Ruiz<br />
 <a href="https://blindhelp.github.io/reportPasswords-1.3-dev.nvda-addon">T&#233;l&#233;charger le module compl&#233;mentaire reportPasswords-1.3-dev.nvda-addon par ici:</a></p>
+<p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
+<h1 id="report-symbols">Report Symbols <a id="reportSymbols-3.3.nvda-addon"></a></h1>
+<pre><code>Type: Extensions</code></pre>
+<p>Ce module compl&#233;mentaire permet d'&#233;couter les symboles &#233;crit (caract&#232;res non alphanum&#233;riques ou caract&#232;res en blanc), m&#234;me si la verbalisation des caract&#232;res &#233;crit est d&#233;sactiv&#233; dans NVDA.<br />
+Il est bas&#233; sur l'ancien module compl&#233;mentaire ReportSymbols, d&#233;velopp&#233; par le m&#234;me auteur. Vous devez d&#233;sinstaller celui-ci pour utiliser cette nouvelle version.<br />
+Menu Pr&#233;f&#233;rences</p>
+<ul>
+<li>Param&#232;tres Report Symbols : Permet de d&#233;finir les pr&#233;f&#233;rences pour la verbalisation des symboles &#233;crit.</li>
+</ul>
+<p>Note : Un geste pour ouvrir cette bo&#238;te de dialogue peut &#234;tre assign&#233; en allant dans le menu NVDA, sous-menu Pr&#233;f&#233;rences, dans le dialogue Gestes de commandes, dans la cat&#233;gorie Configuration.</p>
+<pre><code>Auteur: Noelia Ruiz Mart&#237;nez     
+Traduit en Fran&#231;ais par: R&#233;my Ruiz     </code></pre>
+<p>Version: 3.3<br />
+<a href="http://addons.nvda-project.org/files/get.php?file=rsy">T&#233;l&#233;charger le module compl&#233;mentaire reportSymbols-3.3.nvda-addon par ici:</a></p>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
 <h1 id="savelog">SaveLog <a id="savelog-4.0.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
@@ -1921,7 +1977,7 @@ Sur ce, je vous dit &#224; tr&#232;s bient&#244;t, donc!!!<br />
 BlindHelp !!!</p>
 <hr />
 </div>
-<p>Derni&#232;re mise &#224; jour : 25/01/2018</p>
+<p>Derni&#232;re mise &#224; jour : 26/01/2018</p>
 </div>
 </body>
 </html>
