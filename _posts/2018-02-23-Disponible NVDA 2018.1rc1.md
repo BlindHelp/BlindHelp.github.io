@@ -4,9 +4,9 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Vendredi 23 Février 2017</footer>
+<footer>Vendredi 23 Février 2018</footer>
 
-Comme expliqué dans ce [article de NV Access sur NVDA 2018.1rc1](https://www.nvaccess.org/post/nvda-2018-1rc1-released-for-testing/) (en anglais), a été publié cette Version candidate de NVDA.    
+Comme expliqué dans cet [article de NV Access sur NVDA 2018.1rc1](https://www.nvaccess.org/post/nvda-2018-1rc1-released-for-testing/) (en anglais), a été publié cette Version candidate de NVDA.    
 
 Les versions "release candidate" (rc) sont publiées afin que les utilisateurs de NVDA puissent collaborer en signalant les erreurs qui doivent être corrigées avant la publication de la prochaine version stable. C'est pourquoi il est important de tester les versions rc de NVDA.    
 
