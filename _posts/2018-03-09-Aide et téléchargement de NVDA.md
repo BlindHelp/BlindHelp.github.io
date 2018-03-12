@@ -4,14 +4,14 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Mercredi 6 Décembre 2017</footer>
+<footer>Vendredi 9 Mars 2018</footer>
 
-### Documentation sur NVDA 2017.4 ###
+### Documentation sur NVDA 2018.1 ###
 
 A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
 
 * [Guide de l'utilisateur](https://blindhelp.github.io/userGuide.html)
-* [Quoi de Neuf](https://blindhelp.github.io/changes.html)
+* [Quoi de neuf](https://blindhelp.github.io/changes.html)
 * [Résumé des commandes](https://blindhelp.github.io/keyCommands.html)
 
 ### Télécharger la dernière version ###
