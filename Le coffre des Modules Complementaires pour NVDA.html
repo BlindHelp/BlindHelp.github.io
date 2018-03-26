@@ -16,7 +16,7 @@
 <source src="https://blindhelp.github.io/sweep.wav" type="audio/wav" />
 </audio>
 <footer>
-Derni&#232;re mise &#224; jour le Dimanche 11 Mars 2018
+Derni&#232;re mise &#224; jour le Dimanche 25 Mars 2018
 </footer>
 <hr />
 <h1 id="le-coffre-des-modules-compl&#233;mentaires-pour-nvda">Le coffre des Modules Compl&#233;mentaires pour NVDA</h1>
@@ -119,7 +119,7 @@ Vous pouvez installer un module compl&#233;mentaire en proc&#233;dant comme suit
 <li><a href="#clipContentsDesigner-6.4.nvda-addon">Clip Contents Designer (EX AppendText)</a></li>
 <li><a href="#controlUsageAssistant-2.4.nvda-addon">controlUsageAssistant</a></li>
 <li><a href="#DragonNaturallySpeaking%201.0.nvda-addon">DragonNaturallySpeaking</a></li>
-<li><a href="#dropbox-4.0.nvda-addon">Dropbox</a></li>
+<li><a href="#dropbox-4.3.nvda-addon">Dropbox</a></li>
 <li><a href="#eloquence-autoLanguageSwitching.nvda-addon">eloquence-autoLanguageSwitching</a></li>
 <li><a href="#emoticons-6.2.nvda-addon">Emoticons</a></li>
 <li><a href="#Erbnvda2017-06-20.nvda-addon">Pilote pour les Terminaux Braille (Eurobraille)</a></li>
@@ -145,7 +145,7 @@ Vous pouvez installer un module compl&#233;mentaire en proc&#233;dant comme suit
 <li><a href="#ocr_0.20120529.01.nvda-addon">OCR</a></li>
 <li><a href="#percentage%20checker.nvda-addon">percentage checker</a></li>
 <li><a href="#perky-1.0.nvda-addon">Perky</a></li>
-<li><a href="#placeMarkers-8.5.nvda-addon">placeMarkers</a></li>
+<li><a href="#placeMarkers-8.6.nvda-addon">placeMarkers</a></li>
 <li><a href="#poeditMadeEasy-3.1.nvda-addon">poeditMadeEasy</a></li>
 <li><a href="#QTranslate-1.0-dev.nvda-addon">QTranslate</a></li>
 <li><a href="#radiosure%201.4.nvda-addon">RadioSure</a></li>
@@ -209,10 +209,17 @@ suivantes :
 un script pour annoncer la position du curseur audio,
 un script pour annoncer le d&#233;but et fin de s&#233;lection,
 un script pour connaitre l&#39;&#233;tat des boutons &quot;Lecture&quot; et &quot;Pause&quot;,
-l&#39;annonce automatique de la position audio,
-l&#39;annonce automatique de la s&#233;lection,
+l&#39;annonce automatique des changements de la position audio,
+l&#39;annonce automatique des changements de la s&#233;lection (d&#233;sactivable),
 l&#39;utilisation possible de la barre d&#39;espace pour appuyer sur un
-bouton.
+bouton,
+le support vocal pour les zones  d&#39;&#233;dition  d&#233;finissant un temps ou une dur&#233;e dans la Barre d&#39;outils S&#233;lection Audacity,
+un  script pour lire le niveau courant des vu-m&#232;tres de cr&#232;te  en lecture ou enregistrement,
+un  script pour lire le niveau courant des potentiom&#232;tres de lecture ou d&#39;enregistrement,
+un  script pour lire  la vitesse de lecture,
+un  script pour afficher le manuel utilisateur du module,
+un script pour afficher le guide d&#39;audacity &#233;crit par  David Bailes.
+Cette version du module a &#233;t&#233; test&#233;e avec NVDA 2017.4, NVDA 2017.3 et audacity v2.2.1, v2.2.0.  Les pr&#233;c&#233;dentes versions d&#39;Audacity ne sont pas support&#233;es.
 Langues: Fran&#231;ais.
 Version : 3.1
 Derni&#232;re mise &#224; jour: 12 Janvier 2018
@@ -382,36 +389,32 @@ Version : 1.0<br />
 Derni&#232;re mise &#224; jour: 30 Septembre 2014<br />
 <a href="https://blindhelp.github.io/DragonNaturallySpeaking%201.0.nvda-addon">T&#233;l&#233;charger le module compl&#233;mentaire DragonNaturallySpeaking 1.0.nvda-addon par ici:</a></p>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
-<h1 id="dropbox">Dropbox <a id="dropbox-4.0.nvda-addon"></a></h1>
+<h1 id="dropbox">Dropbox <a id="dropbox-4.3.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
-Ce module compl&#233;mentaire ajoute un raccourci permettant d&#39;annoncer
-le statut ou la version de Dropbox, mais aussi d&#39;ouvrire le menu
-contextuel de l&#39;ic&#244;ne Dropbox dans la zone de notification. Il rends
-&#233;galement possible d&#39;utiliser les onglets de la bo&#238;te de dialogue
-pr&#233;f&#233;rences avec Ctrl+tab / Ctrl+Maj+Tab et Ctrl+PagePr&#233;c/Suiv. Pour
-conclure, ajoute &#233;chapp pour activer le bouton Annuler.
-Raccourci : NVDA+Alt+D
-Ctrl+Alt+T annonce l&#39;onglet actif.
-Probl&#232;mes connus
-Quand on change d&#39;onglet en utilisant les raccourcis ajout&#233;s, NVDA
-sera incapable de savoir quand la fen&#234;tre sera ferm&#233;e. Lorsque vous
-la fermerez, que ce soit en faisant &#233;chappe, en cliquand sur
-OK/Annuler/le symbole de fermeture, NVDA vous fera croire que la
-fen&#234;tre est toujours l&#224;, mais il n&#39;en est rien. Faites Alt+Tab et
-tout devrait rentrer dans l&#39;ordre. Ce souci est connu dans NVDA, il
-est probablement du &#224; Windows et ne peut donc pas &#234;tre corrig&#233;.
-Langue: Anglais, Espagnol, Fran&#231;ais, Italien et 27 autres langues
-ajout&#233;s dans la version 4.0
-Traduit en fran&#231;ais par R&#233;my Ruiz.
-Version: 4.0 (version stable)
-Derni&#232;re mise &#224; jour: 5 F&#233;vrier 2016
-Auteur: Patrick ZAJDA, </code></pre>
-<p><script type="text/javascript">
+Ce module compl&#233;mentaire ajoute un raccourci permettant d&#39;annoncer le statut ou la version de Dropbox, mais aussi d&#39;ouvrire le menu contextuel de l&#39;ic&#244;ne Dropbox dans la zone de notification.  Il rends &#233;galement possible d&#39;utiliser les onglets de la bo&#238;te de dialogue pr&#233;f&#233;rences avec Ctrl+tab / Ctrl+Maj+Tab et Ctrl+PagePr&#233;c/Suiv.  Pour conclure, ajoute &#233;chapp pour activer le bouton Annuler.</code></pre>
+<ul>
+<li>Raccourci : NVDA+Alt+D<br />
+</li>
+<li>Ctrl+Alt+T annonce l'onglet actif.<br />
+Probl&#232;mes connus<br />
+</li>
+<li>Si vous changez entre les onglets en utilisant les raccourcis, lorsque vous fermerez la fen&#234;tre des pr&#233;f&#233;rences, NVDA ne pourra pas savoir que les fen&#234;tres n'existent plus.<br />
+Ce souci est connu dans NVDA, il est probablement du &#224; Windows et ne peut donc pas &#234;tre corrig&#233;.<br />
+Langue: Anglais, Espagnol, Fran&#231;ais, Italien et 27 autres langues<br />
+ajout&#233;s dans la version 4.3<br />
+Ce module compl&#233;mentaire est mis &#224; jour avec les nouvelles sources puis retraduit en fran&#231;ais et en espagnol par R&#233;my Ruiz.<br />
+Version: 4.3 (version stable non officielle)<br />
+Derni&#232;re mise &#224; jour: 15 Mars 2018<br />
+Auteur: Patrick ZAJDA,<br />
+<script type="text/javascript">
 <!--
 h='&#122;&#x61;&#106;&#100;&#x61;&#46;&#102;&#114;';a='&#64;';n='&#112;&#x61;&#116;&#114;&#x69;&#x63;&#x6b;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#80;&#x61;&#116;&#114;&#x69;&#x63;&#x6b;&#32;&#90;&#x41;&#74;&#68;&#x41;'+'<\/'+'a'+'>');
 // -->
-</script><noscript>&#80;&#x61;&#116;&#114;&#x69;&#x63;&#x6b;&#32;&#90;&#x41;&#74;&#68;&#x41;&#32;&#40;&#112;&#x61;&#116;&#114;&#x69;&#x63;&#x6b;&#32;&#x61;&#116;&#32;&#122;&#x61;&#106;&#100;&#x61;&#32;&#100;&#x6f;&#116;&#32;&#102;&#114;&#x29;</noscript> Filaos et d'autres contributeurs <a href="https://blindhelp.github.io/dropbox-4.0.nvda-addon">T&#233;l&#233;charger le module compl&#233;mentaire dropbox-4.0.nvda-addon (version stable) par ici:</a></p>
+</script><noscript>&#80;&#x61;&#116;&#114;&#x69;&#x63;&#x6b;&#32;&#90;&#x41;&#74;&#68;&#x41;&#32;&#40;&#112;&#x61;&#116;&#114;&#x69;&#x63;&#x6b;&#32;&#x61;&#116;&#32;&#122;&#x61;&#106;&#100;&#x61;&#32;&#100;&#x6f;&#116;&#32;&#102;&#114;&#x29;</noscript><br />
+Filaos et d'autres contributeurs<br />
+<a href="https://blindhelp.github.io/dropbox-4.3.nvda-addon">T&#233;l&#233;charger le module compl&#233;mentaire dropbox-4.3.nvda-addon (version stable) par ici:</a></li>
+</ul>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
 <h1 id="eloquence-autolanguageswitching">eloquence-autoLanguageSwitching <a id="eloquence-autoLanguageSwitching.nvda-addon"></a></h1>
 <pre><code>Type: Synth&#233;tiseurs Vocaux
@@ -1087,7 +1090,7 @@ dans la langue actuel de NVDA si disponible, ou en anglais par
 d&#233;faut. </code></pre>
 <p><a href="https://blindhelp.github.io/perky-1.0.nvda-addon">T&#233;l&#233;charger le module compl&#233;mentaire perky-1.0.nvda-addon par ici:</a> <a href="http://www.duxburysystems.org/downloads/perky1102.msi">T&#233;l&#233;charger le programme gratuit Perky Duck par ici: [lien externe]</a></p>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
-<h1 id="placemarkers">placeMarkers <a id="placeMarkers-8.5.nvda-addon"></a></h1>
+<h1 id="placemarkers">placeMarkers <a id="placeMarkers-8.6.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
 Ce module compl&#233;mentaire sert &#224; sauvegarder et rechercher des cha&#238;nes de</code></pre>
 <p>caract&#232;res ou des marqueurs sp&#233;cifiques sur des pages web ou des documents en Mode navigation de NVDA. Ce module compl&#233;mentaire peut &#233;galement &#234;tre utilis&#233; pour sauvegarder et rechercher des cha&#238;nes de caract&#232;res Dans des contr&#244;leurs multilignes; dans ce cas, s'il n'est pas possible de mettre &#224; jour le point d'insertion, la cha&#238;ne correspondante sera copi&#233;e dans le Presse-papiers, afin de pouvoir la rechercher &#224; l'aide d'autres outils. Le module compl&#233;mentaire sauvegarde les textes et les marqueurs sp&#233;cifi&#233;s dans des fichiers. Le nom des fichiers est bas&#233; sur le titre et l'url du document en cours. Ce module compl&#233;mentaire est bas&#233; sur les modules compl&#233;mentaires SpecificSearch et Bookmark&amp;Search, d&#233;velopp&#233; par le m&#234;me auteur. Vous devriez les d&#233;sinstaller pour utiliser celui-ci, car ils ont des raccourcis et des caract&#233;ristiques communes.</p>
@@ -1110,13 +1113,13 @@ Ce module compl&#233;mentaire sert &#224; sauvegarder et rechercher des cha&#238
 <li>Restorer des marqueurs : Vous pouvez restorer vos marqueurs &#224; partir d'un dossier de marqueurs pr&#233;c&#233;demment sauvegard&#233;.</li>
 </ul>
 <p>Note : la position du marqueur est bas&#233; sur le nombre de caract&#232;res. Dans les pages au contenu dynamique, il vaut mieux utiliser la recherche de texte sp&#233;cifique pour marquer une position particuli&#232;re, pas les marqueurs.</p>
-<pre><code>Version: 8.5
+<pre><code>Version: 8.6
 Langues: Anglais, Fran&#231;ais, Italien, Espagnol et 27 autres
 langues.
 Auteurs : Noelia, Chris.
 Traduit en fran&#231;ais par: R&#233;my Ruiz 
-Derni&#232;re mise &#224; jour: 4 F&#233;vrier 2018          </code></pre>
-<p><a href="http://addons.nvda-project.org/files/get.php?file=pm">T&#233;l&#233;charger le module compl&#233;mentaire placeMarkers-8.5.nvda-addon par ici:</a></p>
+Derni&#232;re mise &#224; jour: 25 Mars 2018          </code></pre>
+<p><a href="http://addons.nvda-project.org/files/get.php?file=pm">T&#233;l&#233;charger le module compl&#233;mentaire placeMarkers-8.6.nvda-addon par ici:</a></p>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
 <h1 id="poeditmadeeasy">poeditMadeEasy <a id="poeditMadeEasy-3.1.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
@@ -2058,7 +2061,7 @@ BlindHelp !!!</p>
 <hr />
 </div>
 <footer>
-Derni&#232;re mise &#224; jour le Dimanche 11 Mars 2018
+Derni&#232;re mise &#224; jour le Dimanche 25 Mars 2018
 </footer>
 </div>
 </body>
