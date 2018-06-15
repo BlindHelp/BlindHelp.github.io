@@ -9,6 +9,79 @@
 <FONT SIZE="4">
 </FONT></CENTER>
 
+<H2>2018.2</H2>
+<P>
+Les points forts de cette version incluent la prise en charge des tableaux dans Kindle pour PC, le support des terminaux Braille Humanware BrailleNote Touch et BI14, des améliorations apportées aux synthétiseurs vocaux OneCore et Sapi5, des améliorations dans Microsoft Outlook et bien plus encore.
+</P>
+<H3>Nouvelles Fonctionnalités</H3>
+<UL>
+<LI>La taille des lignes et colonnes des cellules de tableau est maintenant signalée vocalement et en braille. (<A HREF="https://github.com/nvaccess/nvda/issues/2642" target="_blank">#2642</A>)
+<LI>Les commandes NVDA de navigation dans les tableaux sont maintenant supportées sous Google Docs (avec le mode Braille activé). (<A HREF="https://github.com/nvaccess/nvda/issues/7946" target="_blank">#7946</A>)
+<LI>Ajout de la possibilité de lire les tableau et d'y naviguer sous Kindle for PC. (<A HREF="https://github.com/nvaccess/nvda/issues/7977" target="_blank">#7977</A>)
+<LI>Support des terminaux Braille BrailleNote Touch et Brailliant BI 14 de HumanWare via USB et Bluetooth. (<A HREF="https://github.com/nvaccess/nvda/issues/6524" target="_blank">#6524</A>)
+<LI>Sous Windows 10 Fall Creators Update et au-delà, NVDA peut annoncer les notifications des applications telles que la Calculatrice et le Windows Store. (<A HREF="https://github.com/nvaccess/nvda/issues/7984" target="_blank">#7984</A>)
+<LI>Nouvelles tables de conversion braille : Lithuanien 8 points, Ukrainien, Mongol abrégé. (<A HREF="https://github.com/nvaccess/nvda/issues/7839" target="_blank">#7839</A>)
+<LI>Ajout d'un script pour annoncer l'information de mise en forme pour le texte sous une cellule braille spécifique. (<A HREF="https://github.com/nvaccess/nvda/issues/7106" target="_blank">#7106</A>)
+<LI>Lors d'une mise à jour de NVDA, il est désormais possible de reporter l'installation de la mise à jour à un moment ultérieur. (<A HREF="https://github.com/nvaccess/nvda/issues/4263" target="_blank">#4263</A>)
+<LI>Nouvelles langues : mongol, suisse allemand.
+<LI>Vous pouvez maintenant utiliser contrôle, majuscule, alt, windows et NVDA depuis votre clavier braille et combiner ces modifieurs avec la saisie braille (ex : presser contrôle+s). (<A HREF="https://github.com/nvaccess/nvda/issues/7306" target="_blank">#7306</A>)
+ <UL>
+ <LI>Vous pouvez assigner ces nouveaux modificateurs en utilisant les commandes qui se trouvent dans Touches émulées du clavier du système dans le dialogue Gestes de commandes.
+ </UL>
+<LI>Retour du support des terminaux braille Handy Tech Braillino et Modular (ceux équipés de l'ancien micrologiciel). (<A HREF="https://github.com/nvaccess/nvda/issues/8016" target="_blank">#8016</A>)
+<LI>La date et l'heure pour les terminaux Handy Tech supportés (comme Active Braille et Active Star) seront automatiquement synchronisés par NVDA en cas de désynchronisation de plus de 5 secondes. (<A HREF="https://github.com/nvaccess/nvda/issues/8016" target="_blank">#8016</A>)
+<LI>Dans les listes de messages de Microsoft Outlook, NVDA signale désormais si un message a été répondu ou transféré. (<A HREF="https://github.com/nvaccess/nvda/issues/6911" target="_blank">#6911</A>)
+<LI>Un geste de commande peut être assigné pour désactiver temporairement tous les déclencheurs des profils de configuration. (<A HREF="https://github.com/nvaccess/nvda/issues/4935" target="_blank">#4935</A>)
+</UL>
+
+<H3>Changements</H3>
+<UL>
+<LI>Dans le gestionnaire de modules complémentaires, la colonne état a été modifiée pour indiquer que le module est activé ou désactivé plutôt que en cours d'exécution ou suspendu. (<A HREF="https://github.com/nvaccess/nvda/issues/7929" target="_blank">#7929</A>)
+<LI>Mise à jour du convertisseur braille Liblouis à la version 3.5.0. (<A HREF="https://github.com/nvaccess/nvda/issues/7839" target="_blank">#7839</A>)
+<LI>La table braille lithuanienne a été renommée en  Lithuanien 6 points pour éviter  la confusion avec la nouvelle table 8 points. (<A HREF="https://github.com/nvaccess/nvda/issues/7839" target="_blank">#7839</A>)
+<LI>Les tables Français (Canada) intégral et abrégé  ont été supprimées. Elles sont remplacées par Français (unifié) braille littéraire 6 points  et Français (unifié) abrégé respectivement. (<A HREF="https://github.com/nvaccess/nvda/issues/7839" target="_blank">#7839</A>)
+<LI>Les boutons secondaires de routage sur les terminaux braille Alva BC6, EuroBraille et Papenmeier annoncent maintenant l'information de mise en forme pour le texte sous la cellule braille correspondant au bouton. (<A HREF="https://github.com/nvaccess/nvda/issues/7106" target="_blank">#7106</A>)
+<LI>Les tables de saisie braille abrégé retourneront automatiquement en mode intégral dans les champs non-éditables (ex : Les contrôles où il n'y a pas de curseur ou en mode navigation). (<A HREF="https://github.com/nvaccess/nvda/issues/7306" target="_blank">#7306</A>)
+<LI>NVDA est maintenant moins verbeux lorsqu'un rendez-vous ou un créneau horaire dans le calendrier Outlook couvre un jour entier. (<A HREF="https://github.com/nvaccess/nvda/issues/7949" target="_blank">#7949</A>)
+<LI>Toutes les préférences de NVDA se trouvent maintenant dans un dialogue de configuration sous le Menu NVDA -&gt; Préférences -&gt; Paramètres, plutôt que dispersées dans de nombreux dialogues. (<A HREF="https://github.com/nvaccess/nvda/issues/577" target="_blank">#577</A>)
+<LI>La synthèse vocale par défaut sous Windows 10 est maintenant oneCore Speech plutôt qu'eSpeak. (<A HREF="https://github.com/nvaccess/nvda/issues/8176" target="_blank">#8176</A>)
+</UL>
+
+<H3>Corrections de Bogues</H3>
+<UL>
+<LI>NVDA n'échoue plus à lire les contrôles en focus sur l'écran de connexion au compte Microsoft dans les paramètres après la saisie de l'adresse courriel. (<A HREF="https://github.com/nvaccess/nvda/issues/7997" target="_blank">#7997</A>)
+<LI>NVDA n'échoue plus à lire la page après le retour à la page précédente sous Microsoft Edge. (<A HREF="https://github.com/nvaccess/nvda/issues/7997" target="_blank">#7997</A>)
+<LI>Au déverrouillage de la machine, NVDA n'annonce plus incorrectement le dernier caractère du code PIN de connexion sous windows 10 . (<A HREF="https://github.com/nvaccess/nvda/issues/7908" target="_blank">#7908</A>)
+<LI>Sous Chrome ou firefox, l'étiquette des cases à cocher et des boutons radio n'est plus annoncée deux fois quand on tabule où qu'on utilise les touches de navigation rapide en mode navigation. (<A HREF="https://github.com/nvaccess/nvda/issues/7960" target="_blank">#7960</A>)
+<LI>Un aria-current avec une valeur false sera annoncé comme false au lieu de true (<A HREF="https://github.com/nvaccess/nvda/issues/7892" target="_blank">#7892</A>).
+<LI>Le pilote du synthétiseur Windows OneCore Voices n'échoue plus au chargement si la voix configurée a été désinstallée. (<A HREF="https://github.com/nvaccess/nvda/issues/7553" target="_blank">#7553</A>)
+<LI>Le changement de voix du pilote du synthétiseur Windows OneCore Voices est maintenant beaucoup plus rapide. ()<A HREF="https://github.com/nvaccess/nvda/issues/7999" target="_blank">#7999</A>)
+<LI>Correction de caractères braille mal formés pour plusieurs tables braille, incluant les majuscules pour le danois abrégé 8 points. (<A HREF="https://github.com/nvaccess/nvda/issues/7526" target="_blank">#7526</A>, <A HREF="https://github.com/nvaccess/nvda/issues/7693" target="_blank">#7693</A>)
+<LI>NVDA peut maintenant annoncer plus de types de puces sous Microsoft Word. (<A HREF="https://github.com/nvaccess/nvda/issues/6778" target="_blank">#6778</A>)
+<LI>Le déclenchement du script d'annonce de l'information de mise en forme ne modifie plus par erreur la position de revue, ainsi plusieurs activations successives ne donne plus des résultats différents. (<A HREF="https://github.com/nvaccess/nvda/issues/7869" target="_blank">#7869</A>)
+<LI>La saisie braille ne permet plus d'utiliser l'abrégé dans les cas où il n'est pas supporté (ex : des mots entiers ne seront plus envoyés au système hors des zones éditables ou en mode navigation). (<A HREF="https://github.com/nvaccess/nvda/issues/7306" target="_blank">#7306</A>)
+<LI>Correction des problèmes de stabilité de connexion pour les terminaux Handy Tech Easy Braille et Braille Wave . (<A HREF="https://github.com/nvaccess/nvda/issues/8016" target="_blank">#8016</A>)
+<LI>Sous Windows 8 et au-delà, NVDA n'annoncera plus "inconnu" à l'ouverture du menu de liens rapides (Windows+X) et à la sélection d'un élément de ce menu. (<A HREF="https://github.com/nvaccess/nvda/issues/8137" target="_blank">#8137</A>)
+<LI>Sur les terminaux Hims, les boutons de commandes spécifiques à chaque modèle fonctionnent maintenant comme indiqué dans le manuel. (<A HREF="https://github.com/nvaccess/nvda/issues/8096" target="_blank">#8096</A>)
+<LI>NVDA essaiera maintenant de coriger les problèmes d'Inscription COM du système qui font que certains programmes comme Firefox et Internet Explorer deviennent  inaccessibles par NVDA et annoncent "Inconnu". (<A HREF="https://github.com/nvaccess/nvda/issues/2807" target="_blank">#2807</A>)
+<LI>Contournement d'un bogue dans le gestionnaire des tâches empêchant NVDA de permettre aux utilisateurs d'accéder au contenu des détails spécifiques aux processus. (<A HREF="https://github.com/nvaccess/nvda/issues/8147" target="_blank">#8147</A>)
+<LI>Les nouvelles voix Microsoft SAPI5 n'accusent plus de retard en fin d'énoncé, ce qui rend beaucoup plus efficace la navigation avec ces voix. (<A HREF="https://github.com/nvaccess/nvda/issues/8174" target="_blank">#8174</A>)
+<LI>NVDA ne signale plus (marques LTR et RTL) ni en Braille ni quand on se déplace vocalement par caractère, lors de l'accès à l'horloge dans les versions récentes de Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/5729" target="_blank">#5729</A>)
+<LI>La détection des touches de défilement sur les afficheurs Hims Smart Beetle est à nouveau plus fiable. (<A HREF="https://github.com/nvaccess/nvda/issues/6086" target="_blank">#6086</A>)
+<LI>Dans certains contrôles de texte, surtout dans les applications Delphi, les informations fournies lors de l'édition et la navigation sont maintenant beaucoup plus fiables. (<A HREF="https://github.com/nvaccess/nvda/issues/636" target="_blank">#636</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8102" target="_blank">#8102</A>)
+</UL>
+
+<H3>Changements pour les développeurs</H3>
+<UL>
+<LI>L'information pour le dévelopeur des objets UIA contient maintenant une liste des modèles UIA disponibles. (<A HREF="https://github.com/nvaccess/nvda/issues/5712" target="_blank">#5712</A>)
+<LI>Les App modules peuvent maintenant forcer certaines fenêtres à toujours utiliser UIA en implémentant la méthode isGoodUIAWindow. (<A HREF="https://github.com/nvaccess/nvda/issues/7961" target="_blank">#7961</A>)
+<LI>Le booléen caché "outputPass1Only" dans la section braille de la configuration a de nouveau été retiré. Liblouis ne supporte plus l'affichage en une seule passe. (<A HREF="https://github.com/nvaccess/nvda/issues/7839" target="_blank">#7839</A>)
+</UL>
+
+<H2>2018.1.1</H2>
+<P>
+Ceci est une version spéciale de NVDA qui pallie à un bogue dans le pilote du synthétiseur vocal Windows Onecore, qui le faisait parler plus aigu et plus vite sous Windows 10 Redstone 4 (1803). (<A HREF="https://github.com/nvaccess/nvda/issues/8082" target="_blank">#8082</A>)  
+</P>
 <H2>2018.1</H2>
 <P>
 Points forts de cette version : support des graphiques sous Microsoft word et Powerpoint, le support de nouveaux terminaux braille : Eurobraille et le convertisseur de protocole Optelec, support amélioré des terminaux braille Hims et Optelec, améliorations de performances pour Mozilla Firefox 58 et au-delà, et bien d'autres choses.
@@ -147,7 +220,7 @@ Veuillez noter que cette version de NVDA ne supporte plus Windows XP et Windows 
 <LI>Vous pouvez maintenant vous enregistrer pour être averti lors d'un changement de profil de configuration via l'Action config.configProfileSwitched. (<A HREF="https://github.com/nvaccess/nvda/issues/3393" target="_blank">#3393</A>)
 <LI>Les gestes pour afficheur braille qui émulent des modificateurs de touches du clavier du système (comme contrôle et alt) peuvent maintenant être combinées avec d'autres touches émulées sans définition explicite. (<A HREF="https://github.com/nvaccess/nvda/issues/6213" target="_blank">#6213</A>) 
  <UL>
- <LI>Par exemple: si vous avez sur votre afficheur une touche affectée à la touche alt et une autre à flècheBas, la combinaison de ces touches résultera en émulation de alt+flècheBas.
+ <LI>Par exemple : si vous avez sur votre afficheur une touche affectée à la touche alt et une autre à flècheBas, la combinaison de ces touches résultera en émulation de alt+flècheBas.
  </UL>
 <LI>La classe braille.BrailleDisplayGesture possède maintenant une propriété model. si elle est fournie, l'appui d'une touche générera un identificateur additionnel de geste spécifique au modèle de terminal. Cela permet à l'utilisateur d'affecter des gestes commande spécifiques limités à un modèle de terminal. 
  <UL>
