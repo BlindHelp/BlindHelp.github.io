@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Mercredi 13 Juin 2018</footer>
 
 
-Comme expliqué dans cette [nouvelle de NV Access sur NVDA 2018.2](https://www.nvaccess.org/post/nvda-2018-2-now-available-for-download/) (en anglais), elle a été publiée cette nouvelle version stable de NVDA.       
+Comme expliqué dans cette [nouvelle de NV Access sur NVDA 2018.2](https://www.nvaccess.org/post/nvda-2018-2-available-for-download/) (en anglais), elle a été publiée cette nouvelle version stable de NVDA.       
 
 Les points forts de cette version incluent la prise en charge des tableaux dans Kindle pour PC, le support des terminaux Braille Humanware BrailleNote Touch et BI14, des améliorations apportées aux synthétiseurs vocaux OneCore et Sapi5, des améliorations dans Microsoft Outlook et bien plus encore.      
 
