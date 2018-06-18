@@ -4,9 +4,9 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Mercredi 13 Juin 2018</footer>
+<footer>Lundi 18 Juin 2018</footer>
 
-### Documentation sur NVDA 2018.2 ###
+### Documentation sur NVDA 2018.2.1 ###
 
 A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
 
