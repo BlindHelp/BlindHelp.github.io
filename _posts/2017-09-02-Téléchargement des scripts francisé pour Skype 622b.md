@@ -384,6 +384,11 @@ Merci à Nermin de nous aider à tester les builds de l'installateur pour cette 
 
 Voici les commandes supprimées, leur fonction actuelle au moins Skype en anglais, la combinaison de touches ou la séquence alternative restante, et l'utilisation de l'ancien script:               
 
+| Header 1      |     2 header    |   header 3 |
+| ------------- |: -------------: | ---------: |
+| 1 Online      |        1        |      value |
+| Line 2        |        2        |      value |
+
 
 <pre>
 <table border=1 cellpadding=0 cellspacing=0
