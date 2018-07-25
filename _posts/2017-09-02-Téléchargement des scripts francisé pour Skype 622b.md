@@ -384,6 +384,7 @@ Merci à Nermin de nous aider à tester les builds de l'installateur pour cette 
 
 Voici les commandes supprimées, leur fonction actuelle au moins Skype en anglais, la combinaison de touches ou la séquence alternative restante, et l'utilisation de l'ancien script:               
 
+<pre>
 <table border=1 cellpadding=0 cellspacing=0
 summary="Les commandes par frappes successives (commandes séquentielles) du script ont été supprimées dans la révision 975 du script">
 
@@ -422,6 +423,7 @@ summary="Les commandes par frappes successives (commandes séquentielles) du scr
 <td>Se déplacer parmi les groupes de contrôle identifiés par les scripts.</td>
 </tr>
 </table>
+</pre>
 
 Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts.         
 
