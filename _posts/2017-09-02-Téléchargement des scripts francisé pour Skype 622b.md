@@ -128,15 +128,15 @@ pour Jaws 12.0 et ultérieure.
 
 *   Script Skype.JSM
 
-                     Celui-ci a été traduit en français dans la nouvelle mouture.           
+                     Celui-ci a été traduit en français dans la nouvelle mouture.
 
-                  Celui-ci  a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.            
+                  Celui-ci  a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script Skype.JSS
 
             Celui-ci a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
-              Se script a été modifier par la touche $
+    Se script a été modifier par la touche $
 
 *   Script Skype_compat.JSB
 
