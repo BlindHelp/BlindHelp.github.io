@@ -130,7 +130,7 @@ pour Jaws 12.0 et ultérieure.
 
                      Celui-ci a été traduit en français dans la nouvelle mouture.
 
-                  Celui-ci  a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
+    Celui-ci  a été changé dans les scripts américains Skype 622b révision 983 du 2 septembre 2017.
 
 *   Script Skype.JSS
 
