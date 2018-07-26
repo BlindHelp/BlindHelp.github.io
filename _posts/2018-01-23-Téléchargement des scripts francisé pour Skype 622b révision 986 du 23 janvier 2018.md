@@ -370,7 +370,7 @@ Changement de la touche crochet gauche "[" utiliser par défaut dans un clavier 
 	*	 Commande 1 à Commande 9 et Commande 0 pour faire la même chose que les commandes Alt-avec-la-chiffre correspondante, en lisant les messages de conversation récente.                       
 Note du traducteur:                     
 Touche $ 1 à Touche $ 9 et Touche $ 0 pour faire la même chose que les commandes Alt-avec-la-chiffre correspondante, en lisant les messages de conversation récente.                       
-*	 Commande suivie de h, j, k, l ou ; (point-virgule) dupliquer Alt avec Début, Gauche, NumPad5, Droite et Fin, respectivement. Ils lisent les messages tout en conservant une position pour une navigation ultérieure dans l'historique des conversations. Respectivement, ceux-ci se déplacent et lisent les premiers, précédents, actuels, prochains et derniers messages.              
+	*	 Commande suivie de h, j, k, l ou ; (point-virgule) dupliquer Alt avec Début, Gauche, NumPad5, Droite et Fin, respectivement. Ils lisent les messages tout en conservant une position pour une navigation ultérieure dans l'historique des conversations. Respectivement, ceux-ci se déplacent et lisent les premiers, précédents, actuels, prochains et derniers messages.              
 Note du traducteur:                    
 Changement de la touche ; (point-virgule)  utiliser par défaut dans un clavier qwerty, par la touche "m" utiliser dans un clavier azerty.        
 
