@@ -402,46 +402,16 @@ Merci à Nermin de nous aider à tester les builds de l'installateur pour cette 
 
 Voici les commandes supprimées, leur fonction actuelle au moins Skype en anglais, la combinaison de touches ou la séquence alternative restante, et l'utilisation de l'ancien script:               
 
-<table border=1 cellpadding=0 cellspacing=0
-summary="Les commandes par frappes successives (commandes séquentielles) du script ont été supprimées dans la révision 975 du script">
+Les commandes par frappes successives (commandes séquentielles) du script ont été supprimées dans la révision 975 du script
 
-<tr>
-<th scope=col>Frappe Supprimé</th>
-<th scope=col>Fonction Skype</th>
-<th scope=col>Séquence de Touches Restante</th>
-<th scope=col>Fonction du Script</th>
-</tr>
+Frappe Supprimé | Fonction Skype | Séquence de Touches Restante | Fonction du Script
+- | - | - | -
+Ctrl+Maj+A | Ajouter des participants à une conversation (chat) | [ c a | Dire qui participe à la conférence active.
+Ctrl+Maj+C | Aucune fonction | [ m c | Compiler les scripts Skype (maintenant se fait pendant l'installation du script)
+Ctrl+Maj+S |Ajouter un numéro de téléphone à un profil Skype | [ c s | Dire qui parle dans une conférence
+F6 et Maj+F6 | Se déplacer parmi les groupes de contrôle | Ctrl+\` et Ctrl+Maj+\` | Se déplacer parmi les groupes de contrôle identifiés par les scripts.
 
-<tr>
-<td><kbd>Ctrl+Maj+A</kbd></td>
-<td>Ajouter des participants à une conversation (chat)</td>
-<td><kbd>[ c a</kbd></td>
-<td>Dire qui participe à la conférence active.
-</tr>
-
-<tr>
-<td><kbd>Ctrl+Maj+C</kbd></td>
-<td>Aucune fonction</td>
-<td><kbd>[ m c</kbd></td>
-<td>Compiler les scripts Skype (maintenant se fait pendant l'installation du script)</td>
-</tr>
-
-<tr>
-<td><kbd>Ctrl+Maj+S</kbd></td>
-<td>Ajouter un numéro de téléphone à un profil Skype</td>
-<td><kbd>[ c s</kbd></td>
-<td>Dire qui parle dans une conférence</td>
-</tr>
-
-<tr>
-<td><kbd>F6</kbd> et <kbd>Maj+F6</kbd></td>
-<td>Se déplacer parmi les groupes de contrôle</td>
-<td><kbd>Ctrl+`</kbd> et <kbd>Ctrl+Maj+`</kbd></td>
-<td>Se déplacer parmi les groupes de contrôle identifiés par les scripts.</td>
-</tr>
-</table>
-
-Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts.         
+Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts. 
 
 [Retour au sommaire](#Sommaire)
 
