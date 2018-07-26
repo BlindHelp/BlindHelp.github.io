@@ -138,15 +138,15 @@ pour Jaws 12.0 et ultérieure.
 
 *   Script Skype.JSM
 
-                     Celui-ci a été traduit en français dans la nouvelle mouture.           
+    Celui-ci a été traduit en français dans la nouvelle mouture.           
 
-                  Celui-ci  a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
+    Celui-ci  a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
 
 *   Script Skype.JSS
 
-            Celui-ci a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.     
+    Celui-ci a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.     
 
-              Se script a été modifier par la touche $
+     Se script a été modifier par la touche $
 
 *   Script Skype_compat.JSB
 
@@ -230,7 +230,7 @@ Les autres5 fichiers wav:
 Ils ont été déplacés à la racine où se trouvent les autres scripts                  qui sont déjà intégrés puis  francisé pour Skype 622b révision 986 du 23 janvier 2018.                   
 Voir les informations à ce sujet ci-dessous.                        
 
-*   Et enfin nous avons compilé tous les scripts et apparemment ils fonctionne bien avec Skype™ Version 7.40.0.151   
+*   Et enfin nous avons compilé tous les scripts et apparemment ils fonctionne bien avec Skype™ Version 7.41.0.101   
 et peut-être dans des versions ultérieures.  
 
     Fin des changements pour les scripts francisé pour Skype 622b révision 986 du 23 janvier 2018.  
