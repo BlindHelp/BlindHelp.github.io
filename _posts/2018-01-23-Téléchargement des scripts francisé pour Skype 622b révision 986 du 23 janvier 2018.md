@@ -106,7 +106,7 @@ Voici les changements une fois placez les derniers scripts américain Skype 622b
 
      Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
 
- *   Script Skype.JGF
+*   Script Skype.JGF
 
     Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.
 
@@ -140,11 +140,11 @@ pour Jaws 12.0 et ultérieure.
 
                      Celui-ci a été traduit en français dans la nouvelle mouture.           
 
-                  Celui-ci  a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.            
+                  Celui-ci  a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
 
 *   Script Skype.JSS
 
-            Celui-ci a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
+            Celui-ci a été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.     
 
               Se script a été modifier par la touche $
 
