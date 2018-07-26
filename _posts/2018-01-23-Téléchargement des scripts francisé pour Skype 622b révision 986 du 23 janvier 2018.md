@@ -95,19 +95,22 @@ Voici les changements une fois placez les derniers scripts américain Skype 622b
 *   Script Skype.JCF
 
     Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.
+
     Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
 
 *   Script Skype.JDF
 
-    Celui-ci a été traduit en français dans l'ancienne mouture puis  les entrées sont maintenant Corrigées en lettres minuscules dans la nouvelle mouture du script skype.jdf utilisé dans la révision 983 du 2 septembre 2017.                
-Je parle de quelques codes utilisés dans le script skype.jdf pour indiquer les émoticônes et les drapeaux qui étaient avant en lettres majuscules, maintenant ils ont été corrigées en lettre minuscules.                
-Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.                
+    Celui-ci a été traduit en français dans l'ancienne mouture puis  les entrées sont maintenant Corrigées en lettres minuscules dans la nouvelle mouture du script skype.jdf utilisé dans la révision 983 du 2 septembre 2017.
+
+     Je parle de quelques codes utilisés dans le script skype.jdf pour indiquer les émoticônes et les drapeaux qui étaient avant en lettres majuscules, maintenant ils ont été corrigées en lettre minuscules.
+
+     Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
 
  *   Script Skype.JGF
 
-    Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.              
+    Nous avons conservé le script de la version américaine Skype 622b révision 969 du 8 septembre 2016.
 
-    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.                 
+    Celui-ci n'a pas été changé dans les scripts américains Skype 622b révision 986 du 23 janvier 2018.
 
 *   Script Skype.JKM
 
