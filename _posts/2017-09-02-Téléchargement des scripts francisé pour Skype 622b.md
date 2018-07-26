@@ -386,14 +386,12 @@ Voici les commandes supprimées, leur fonction actuelle au moins Skype en anglai
 
 Les commandes par frappes successives (commandes séquentielles) du script ont été supprimées dans la révision 975 du script
 
-Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts. 
-
 Frappe Supprimé | Fonction Skype | Séquence de Touches Restante | Fonction du Script
 - | - | - | -
-Ctrl+Maj+A | Ajouter des participants à une conversation (chat | [ c a | Dire qui participe à la conférence active.
+Ctrl+Maj+A | Ajouter des participants à une conversation (chat) | [ c a | Dire qui participe à la conférence active.
 Ctrl+Maj+C | Aucune fonction | [ m c | Compiler les scripts Skype (maintenant se fait pendant l'installation du script)
 Ctrl+Maj+S |Ajouter un numéro de téléphone à un profil Skype | [ c s | Dire qui parle dans une conférence
-F6 et Maj+F6 | Se déplacer parmi les groupes de contrôle | Ctrl+` et Ctrl+Maj+` | Se déplacer parmi les groupes de contrôle identifiés par les scripts.
+F6 et Maj+F6 | Se déplacer parmi les groupes de contrôle | Ctrl+``` et Ctrl+Maj+``` | Se déplacer parmi les groupes de contrôle identifiés par les scripts.
 
 Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts. 
 
