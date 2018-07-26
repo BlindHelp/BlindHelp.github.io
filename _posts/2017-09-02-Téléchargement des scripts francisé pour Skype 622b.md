@@ -395,10 +395,14 @@ Les commandes par frappes successives (commandes séquentielles) du script ont �
 
 Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts. 
 
-Cellule d'en-tête A | Cellule d'en-tête B
+Frappe Supprimé | Fonction Skype
 - | -
-Cellule 1 | Cellule 2
-Cellule 3 | Cellule 4
+Ctrl+Maj+A | Ajouter des participants à une conversation (chat
+Ctrl+Maj+C | Aucune fonction
+Ctrl+Maj+S |Ajouter un numéro de téléphone à un profil Skype
+F6 et Maj+F6 | Se déplacer parmi les groupes de contrôle
+
+Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts. 
 
 [Retour au sommaire](#Sommaire)
 
