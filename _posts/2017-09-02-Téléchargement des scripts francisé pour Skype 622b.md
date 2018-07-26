@@ -385,13 +385,20 @@ Merci à Nermin de nous aider à tester les builds de l'installateur pour cette 
 Voici les commandes supprimées, leur fonction actuelle au moins Skype en anglais, la combinaison de touches ou la séquence alternative restante, et l'utilisation de l'ancien script:               
 
 Les commandes par frappes successives (commandes séquentielles) du script ont été supprimées dans la révision 975 du script
-| Frappe Supprimé      |     Fonction Skype    |   Séquence de Touches Restante |     Fonction du Script |
-| ------------- |: -------------: | ---------: |: -------------: |
-| Ctrl+Maj+A      |        Ajouter des participants à une conversation (chat)        |      [ c a | Dire qui participe à la conférence active. |
-| Ctrl+Maj+C |        Aucune fonction        |      [ m c | Compiler les scripts Skype (maintenant se fait pendant l'installation du script) |
-| Ctrl+Maj+S|        Ajouter un numéro de téléphone à un profil Skype        |      [ c s |Dire qui parle dans une conférence |
-| F6 et Maj+F6|        Se déplacer parmi les groupes de contrôle        |      Ctrl+` et Ctrl+Maj+` | Se déplacer parmi les groupes de contrôle identifiés par les scripts. |
+
+	| Frappe Supprimé      |     Fonction Skype    |   Séquence de Touches Restante |     Fonction du Script |
+	| ------------- |: -------------: | ---------: |: -------------: |
+	| Ctrl+Maj+A      |        Ajouter des participants à une conversation (chat)        |      [ c a | Dire qui participe à la conférence active. |
+	| Ctrl+Maj+C |        Aucune fonction        |      [ m c | Compiler les scripts Skype (maintenant se fait pendant l'installation du script) |
+	| Ctrl+Maj+S|        Ajouter un numéro de téléphone à un profil Skype        |      [ c s |Dire qui parle dans une conférence |
+	| F6 et Maj+F6|        Se déplacer parmi les groupes de contrôle        |      Ctrl+` et Ctrl+Maj+` | Se déplacer parmi les groupes de contrôle identifiés par les scripts. |
+
 Notez que libérer F6 et Maj+ F6 signifie qu'il y a maintenant deux façons de se déplacer parmi les groupes de contrôles de Skype: un contrôlé par Skype et un contrôlé par les scripts. 
+
+Cellule d'en-tête A | Cellule d'en-tête B
+- | -
+Cellule 1 | Cellule 2
+Cellule 3 | Cellule 4
 
 [Retour au sommaire](#Sommaire)
 
