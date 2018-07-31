@@ -55,7 +55,7 @@ voici les derniers scripts en date traduits et adaptés en Français  par moi-m�
 À savoir que les présents scripts sont pour être utilisé uniquement avec le Client Skype 8, également appelé Skype Electron car c'est une app Electron.                    
 Skype 8 (app Electron, Skype pour Windows antérieur à 10)                   
 Ils ne peuvent pas être utilisés avec le Client Skype pour Windows 10, Skype UWP.                 
-Skype UWP (Skype pour windows 10)              
+Skype UWP (Skype pour Windows 10)              
 ils ne peuvent pas non plus être utilisés avec Skype classique  pour Windows Desktop (Skype 7)                
 ils ne peuvent pas non plus être utilisés avec Skype for Business  (Entreprise) (SFB) (SFB 2015/2016 et Microsoft Lync 2013)                       
 
@@ -219,7 +219,7 @@ Source:
     Pour les personnes qui ont un Windows 7, ils doivent avoir installé le Skype Electron.
     C'est-à-dire le Skype 8.25.
     Les applications UWP étant spécifiques à Windows 10.
-    Pour les personnes qui ont un Windows 10, ils doivent avoir installé le Skype UWP (Skype pour windows 10).
+    Pour les personnes qui ont un Windows 10, ils doivent avoir installé le Skype UWP (Skype pour Windows 10).
     L'utilisation des autres scripts sera traité dans un prochain article.
 
     Ces scripts pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) requièrent JAWS 17.0 ou supérieur.
@@ -329,7 +329,7 @@ Téléchargement de Skype pour Bureau version 8.25.0.5 (Windows 7)
 [Retour au sommaire](#Sommaire)
 
 # Spécial Merci à: <a id="mark22"></a> 
-Je remercie d'avance toutes les personnes qui m'ont apporté leur soutien ou simplement leurs encouragements.
+Je remercie d'avance toutes les personnes qui m'ont apporté leur soutien ou simplement leurs encouragements.             
 Voila un clin d'œil!                             
 
 sur ce, je vous souhaite un bon chat avec Skype!                 
