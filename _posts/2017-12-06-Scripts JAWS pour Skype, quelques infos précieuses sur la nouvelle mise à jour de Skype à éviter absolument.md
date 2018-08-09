@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Mercredi 6 Décembre 2017</footer>
 
 
-Coucou mes amis du blog de BlindHelp!,               
+Coucou mes amis du blog de BlindHelp!               
 Un ami collistier il m'a informé que la dernière version de Skype c'est-à-dire Skype™ Version 8.11.0.4 et également les derniers scripts de Jaws francisé Révision 983 du 2 septembre 2017 ne sont pas compatibles avec la version indiquée.                  
 Il a remarqué que en première vue la config de skype ne ressemble plus aux versions antérieures et la circulation dans les différentes parties de l’applications ne se font pas, la barre des menus n’apparait plus.              
 Pour corriger ledit inconvénient notre ami Robert il a dit que après avoir désinstallé la version 8.11.0.4 et passer à la version antérieure tout est entrée dans l’ordre, même avec les derniers scripts installés.                 

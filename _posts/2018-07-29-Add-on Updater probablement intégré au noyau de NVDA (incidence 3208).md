@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Dimanche 29 Juillet 2018</footer>
 
 
-Coucou mes amis du blog de BlindHelp!,               
+Coucou mes amis du blog de BlindHelp!               
 Voici un nouveau module complémentaire Add-on Updater télécharger [version prototype](https://addons.nvda-project.org/files/get.php?file=nvda3208)                     
 
 Ce module complémentaire apporte vie au noyau de NVDA  [incidence 3208 :](https://github.com/nvaccess/nvda/issues/3208) possibilité de vérifier, de télécharger et d'appliquer des mises à jour de modules complémentaires.

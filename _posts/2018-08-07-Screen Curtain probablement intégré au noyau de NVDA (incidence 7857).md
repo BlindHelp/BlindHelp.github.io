@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Mardi 7 Août 2018</footer>
 
 
-Coucou mes amis du blog de BlindHelp!,               
+Coucou mes amis du blog de BlindHelp!               
 Voici un nouveau module complémentaire Screen Curtain télécharger [version de développement](https://addons.nvda-project.org/files/get.php?file=nvda7857)                     
 
 Ce module complémentaire apporte vie au noyau de NVDA  [incidence 7857 :](https://github.com/nvaccess/nvda/issues/7857) ajout de fonctionnalités de rideau d'écran sur Windows 8 et versions ultérieures.

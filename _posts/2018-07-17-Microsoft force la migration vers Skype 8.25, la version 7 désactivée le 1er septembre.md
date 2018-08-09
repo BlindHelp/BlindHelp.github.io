@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Mardi 17 Juillet 2018</footer>
 
 
-Coucou mes amis du blog de BlindHelp!,               
+Coucou mes amis du blog de BlindHelp!               
 Un ami collistier il m'a informé que Microsoft force la migration vers Skype 8.25, la version 7 désactivée le 1er septembre.            
 [Voici un article plus  précis au sujet de la migration forcée de la version 7.x vers la version 8.x.](https://www.nextinpact.com/news/106866-microsoft-force-migration-vers-skype-8-25-version-7-desactivee-1er-septembre.htm)                     
 Merci à Pierre-Louis pour avoir donné cette information.              
