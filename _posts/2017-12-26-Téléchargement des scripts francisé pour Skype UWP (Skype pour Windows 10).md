@@ -35,7 +35,7 @@ Sommaire <a id="Sommaire"></a>
 ### Téléchargement des scripts francisé pour Skype UWP (Skype pour Windows 10) Révision 102, du 26 décembre 2017 by BlindHelp <a id="mark2"></a>
 
 
-* Scripts Skype UWP (Skype pour Windows 10) Révision 102, Dernière mise à jour le   26 décembre 2017           
+* Scripts Skype UWP (Skype pour Windows 10) Révision 102, dernière mise à jour le 26 décembre 2017           
 * Scripts traduit en français pour le programme de téléphonie Skype par internet  
 Les présents scripts on été tester avec:  
 * JAWS 18.0.  
@@ -99,6 +99,43 @@ Voici les changements une fois placez les derniers scripts américain Skype UWP 
       J'ai essayé de le traduire aussi fidèlement que possible, mais comme je ne l'ai pas installé, je voudrais obtenir le fichier de langue en français ...     
            Voici la procédure en anglais:     
 [How do I change the language used by Skype for Windows desktop? | Skype Support](https://support.skype.com/en/faq/FA73/how-do-i-change-the-language-used-by-skype-for-windows-desktop)                   
+Voici la procédure en français by BlindHelp:     
+Interface de Skype     
+Pour obtenir l'interface Skype.     
+Lorsque l'interface principale du programme Skype est ouverte:     
+Aller à:     
+Outils     
+Recherchez l'élément avec flèche haut:     
+Changer de langue sous-menu     
+choisissez:     
+Si vous avez Skype dans une autre langue ...     
+Español (Spanish)     
+Faire Entrée!     
+Dans le cas contraire:     
+Ici même, aller avec flèche haut jusqu'à:     
+Éditer le fichier de langue Skype...     
+Faire Entrée.     
+Une boîte de dialogue s'ouvre:     
+Choisissez à l'aide de tabulation:     
+Enregistrer sous...     
+Faire Entrée.     
+Une autre boîte de dialogue s'ouvre:     
+Nom du fichier:     
+Vous mettez un nom au fichier, et à la fin vous le mettez en extension .txt au lieu de .lang.     
+Type: Fichiers de langue Skype (.lang)     
+C'est le type de l'extension qui vient par défaut.     
+Nous avons mis l'extension .txt, pour consulter plus facilement le fichier enregistré.     
+Au lieu de l'extension qui vient par défaut.     
+Fichiers de langue Skype (.lang) / *.LANG     
+Pour fermer la boîte de dialogue:     
+Faire Tab jusqu'au bouton:     
+Annuler     
+Faire Entrée.     
+De cette façon, nous fermons l'éditeur de fichier de langue sans rien modifier.     
+Profitez-en!     
+@ +     
+BlindHelp!     
+
              Merci par avance de l'envoyer à ma boîte de réception, afin de  faire la comparaison des messages déjà traduits.                      
        Vous devez ajouter l'extension .txt avec un nom de fichier parlant                  
       Exemple: Interface de Skype 8.25 en français.txt                      
@@ -227,9 +264,9 @@ Les scripts devront être installés manuellement comme au bon vieux temps.
 C'est la première version de ces scripts. Pour plus de détails sur les commandes et les fonctionnalités, consultez le guide des utilisateurs des scripts Skype UWP (page en anglais).                
 [Using the JAWS Scripts For Skype UWP](http://www.dlee.org/skype/uwp/)                            
 
-Source:        
-[Pour plus d'info voici la page des scripts Skype UWP (Skype pour Windows 10) en anglais de Doug Lee:](http://www.dlee.org/skype/uwp/)                           
- Dans cette page il nous donne les infos des derniers changements des scripts américain Skype UWP (Windows 10)...         
+Source:    
+[Pour plus d'info voici la page des scripts Skype UWP (Skype pour Windows 10) en anglais de Doug Lee:](http://www.dlee.org/skype/uwp/)
+Dans cette page il nous donne les infos des derniers changements des scripts américain Skype UWP (Windows 10)...
 
 [Retour au sommaire](#Sommaire)
 
