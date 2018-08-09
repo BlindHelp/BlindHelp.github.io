@@ -4,27 +4,28 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le 17.07.2018.</footer>
+<footer>Dernière mise à jour le 23.07.2018.</footer>
 
 
 Sommaire <a id="Sommaire"></a>
 -------------
 
-- [Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp](#mark2)
-- [Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp](#mark3)
-- [Dernières modifications des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018](#mark4)
+- [Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp](#mark2)
+- [Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp](#mark3)
+- [Dernières modifications des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018](#mark4)
 - [Les nouveau scripts sont seulement compatibles avec:](#mark5)
-- [Installation scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp via l'installateur de scripts JoAd de Lavakri](#mark6)
-- [Installation manuelle des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp](#mark7)
-- [Compatibilité des présents scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018](#mark8)
+- [Installation scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp via l'installateur de scripts JoAd de Lavakri](#mark6)
+- [Installation manuelle des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp](#mark7)
+- [Compatibilité des présents scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018](#mark8)
 - [À propos des dernièrs modifications des scripts américain pour Skype 8 (Electron app, Skype pour Windows antérieure à 10):](#mark9)
+- [Révision 45, 23 juillet 2018, écrite contre Skype 8.25](#mark23)
 - [Révision 39, 17 juillet 2018, écrite contre Skype 8.25](#mark10)
 - [Révision 28, 20 avril 2018, écrite contre Skype 8.19](#mark11)
 - [Révision 21, 26 février 2018, écrite contre plusieurs versions de Skype Electron jusqu'à la version 8.16](#mark12)
 - [Révision 20, 25 février 2018, écrite contre plusieurs versions de Skype Electron jusqu'à la version 8.16](#mark13)
 - [À savoir avant de commencer.](#mark14)  
 - [À propos de  la touche crochet ouvert,  et des commandes par frappes successives (commandes séquentielles).](#mark15)  
-- [Pour télécharger les Scripts Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39 francisé MAJ  17 juillet 2018](#mark16)  
+- [Pour télécharger les Scripts Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45 francisé MAJ  23 juillet 2018](#mark16)  
 - [Scripts avec installateur](#mark17)  
 - [Scripts sans installateur](#mark18)  
 - [Désinstallation manuel du script.](#mark19)  
@@ -32,10 +33,10 @@ Sommaire <a id="Sommaire"></a>
 - [Liens utils](#mark21)  
 - [Spécial Merci à:](#mark22)  
 
-### Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp <a id="mark2"></a>
+### Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp <a id="mark2"></a>
 
 
-* Scripts Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, Dernière mise à jour le du 17 juillet 2018           
+* Scripts Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, dernière mise à jour le 23 juillet 2018           
 * Scripts traduit en français pour le programme de téléphonie Skype par internet  
 Les présents scripts on été tester avec:  
 * JAWS 17.0 et 18.0).  
@@ -45,7 +46,7 @@ Puis Skype™ 8 (Electron app, Skype pour Windows antérieure à 10), dont tout 
 
 [Retour au sommaire](#Sommaire)
 
-# Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp <a id="mark3"></a>
+# Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp <a id="mark3"></a>
 Coucou mes amis du blog de BlindHelp!  
 Ici je vous apporte une nouveauté, la traduction partielle du script en français à utiliser pour Skype 8 (Electron app, Skype pour Windows antérieure à 10), également appelé par Microsoft "Skype 8.25"                  
 ce script francisé est en face de test, et il pourrait être modifié par la suite si nécessaire.                    
@@ -61,8 +62,8 @@ ils ne peuvent pas non plus être utilisés avec Skype for Business  (Entreprise
 
 [Retour au sommaire](#Sommaire)
 
-# Dernières modifications des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 <a id="mark4"></a>
-Voici les changements une fois placez les derniers scripts américain Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 afin de faire la traduction en français (pour l'instant les scripts son utilisables sur un clavier anglais (qwerty).             
+# Dernières modifications des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 <a id="mark4"></a>
+Voici les changements une fois placez les derniers scripts américain Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 afin de faire la traduction en français (pour l'instant les scripts son utilisables sur un clavier anglais (qwerty).             
 
 *   Script skypeelectron.htm
 
@@ -96,6 +97,43 @@ Voici les changements une fois placez les derniers scripts américain Skype 8 (E
       J'ai essayé de le traduire aussi fidèlement que possible, mais comme je ne l'ai pas installé, je voudrais obtenir le fichier de langue en français ...     
            Voici la procédure en anglais:     
 [How do I change the language used by Skype for Windows desktop? | Skype Support](https://support.skype.com/en/faq/FA73/how-do-i-change-the-language-used-by-skype-for-windows-desktop)                   
+Voici la procédure en français by BlindHelp:     
+Interface de Skype        
+Pour obtenir l'interface Skype.          
+Lorsque l'interface principale du programme Skype est ouverte:          
+Aller à:         
+Outils        
+Recherchez l'élément avec flèche haut:          
+Changer de langue sous-menu      
+choisissez:           
+Si vous avez Skype dans une autre langue ...           
+Español (Spanish)             
+Faire Entrée!         
+Dans le cas  contraire:            
+Ici même, aller avec flèche haut jusqu'à:          
+Éditer le fichier de langue Skype...            
+Faire Entrée.         
+Une boîte de dialogue s'ouvre:        
+Choisissez à l'aide de tabulation:         
+Enregistrer sous...        
+Faire Entrée.         
+Une autre boîte de dialogue s'ouvre:        
+Nom du fichier:             
+Vous mettez un nom au fichier, et à la fin vous le mettez en extension .txt au lieu de .lang.           
+Type: Fichiers de langue Skype (*.lang)                 
+C'est le type de l'extension qui vient par défaut.             
+Nous avons mis l'extension .txt, pour consulter plus facilement le fichier enregistré.             
+Au lieu de l'extension qui vient par défaut.         
+Fichiers de langue Skype (*.lang) / *.LANG                  
+Pour fermer la boîte de dialogue:                  
+Faire Tab jusqu'au bouton:          
+Annuler                 
+Faire Entrée.             
+De cette façon, nous fermons l'éditeur de fichier de langue sans rien modifier.                
+Profitez-en!              
+@ +          
+BlindHelp!                  
+
              Merci par avance de l'envoyer à ma boîte de réception, afin de  faire la comparaison des messages déjà traduits.                      
        Vous devez ajouter l'extension .txt avec un nom de fichier parlant                  
       Exemple: Interface de Skype 8.25 en français.txt                      
@@ -113,7 +151,7 @@ Pour revenir à nouveau sur le clavier en français (azerty), lorsque vous ne vo
 
     Et enfin nous avons compilé tous les scripts et apparemment ils donnent pas aucun message d'erreur sous un JAWS 18.             
 
-    Fin des changements pour les scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) JAWS scripts francisé Révision 39, 17 juillet 2018.  
+    Fin des changements pour les scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) JAWS scripts francisé Révision 45, 23 juillet 2018.  
 
 [Retour au sommaire](#Sommaire)
 
@@ -131,14 +169,14 @@ cette fenêtre.
 
 [Retour au sommaire](#Sommaire)
 
-# Installation scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp via l'installateur de scripts JoAd de Lavakri <a id="mark6"></a> 
+# Installation scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp via l'installateur de scripts JoAd de Lavakri <a id="mark6"></a> 
 
 L'installateur n'est pas disponible pour cette version.                  
 Nous devons faire l'installation manuelle comme les vieux temps, voir les explications dans la section suivante. Merci.                
 
 [Retour au sommaire](#Sommaire)
 
-# Installation manuelle des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39, du 17 juillet 2018 by BlindHelp <a id="mark7"></a> 
+# Installation manuelle des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45, du 23 juillet 2018 by BlindHelp <a id="mark7"></a> 
 Une fois que vous avez télécharger puis décompresser le fichier nommé:                     
 Skype-8-Electron-app-Skype-for-Windows-older-than-10-JAWS-scripts-fr.zip                
 Celui-ci contient tout les scripts à placer manuelment dans votre version de JAWS installer (17.0 à 18.0).                         
@@ -175,6 +213,19 @@ Voici a titre d'information les dernièrs modifications effectuées dans les scr
 Traduit de l'anglais  
 
 Voici les changements des scripts américain pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) fait par Doug Lee, les plus récents en premier. (Voir ceci dans la section suivante). Merci.  
+
+[Retour au sommaire](#Sommaire)
+
+# Révision 45, 23 juillet 2018, écrite contre Skype 8.25 <a id="mark23"></a>  
+* Outre le nom de la conversation, lorsqu'une conversation est affichée, la commande JAWS SayWindowTitle, Insert+T, indique les informations de présence du contact de conversation actif et/ou le message d'humeur, le cas échéant.        
+* Les flèches qui n'étaient pas silencieuses lors de la navigation avec le curseur PC virtuel devraient maintenant parler normalement.        
+* JAWS ne doit plus répéter "Aperçu Skype" et "fichier: //Index.html" lors de la navigation avec Tab et Maj + Tab.        
+Note du traducteur:         
+Il s'agit des  messages de JAWS en anglais:        
+"Skype Preview" et "file://Index.html"         
+* Une petite faute de frappe dans le guide de l'utilisateur du script qui peut avoir provoqué l'affichage de texte dans une police inhabituelle est corrigée. Il existe également deux fautes de frappe dans les commandes de la section "Useful Tips"/ "Conseils utiles" du guide. merci à Michele Barbi pour les avoir attrapés.        
+Note du traducteur:               
+Il s'agit du guide de l'utilisateur en anglais utilisé par les présents scripts.           
 
 [Retour au sommaire](#Sommaire)
 
@@ -244,7 +295,7 @@ Nous vous recommandons de modifier cette touche par la touche $
 
 [Retour au sommaire](#Sommaire)
 
-# Pour télécharger les Scripts Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 39 francisé MAJ  17 juillet 2018 <a id="mark16"></a>
+# Pour télécharger les Scripts Skype 8 (Electron app, Skype pour Windows antérieure à 10) Révision 45 francisé MAJ  23 juillet 2018 <a id="mark16"></a>
 
  Voici donc la nouvelle mouture conçue pour les versions actuelles de Skype 8.25 et compatibles  JAWS  17.0, 18.0, lien permanent pointant vers mon espace GitHub dont   je vous fait profiter. 😊                    
 Pour  télécharger le script Pour Skype 8.25, voir les  sections ci-dessous. Merci.
