@@ -11,6 +11,9 @@ Coucou mes amis du blog de BlindHelp!
 Voici un autre module complémentaire pour Skype réalisé par Doug Lee.    
 Seuls les messages du fichier manifest.ini ont été traduits en français et espagnol.       
 
+Avertissement!           
+Si vous avez déjà installé un  module complémentaire du même nom "Skype", il sera remplacé par ce nouveau module complémentaire!       
+
 # Description du module complémentaire : #
 Skype 8 (version Electron)                   
 Auteur : Doug Lee    
