@@ -1,0 +1,173 @@
+﻿<!DOCTYPE HTML>
+<html lang="fr-fr"><head>
+
+<style type="text/css">
+thead {
+display: table-header-group
+}
+tfoot {
+display: table-footer-group
+td {
+  vertical-align: top;
+}
+</style>
+
+<title>
+Utilisation des scripts JAWS pour Skype pour Windows Desktop 8 (Electron)
+</title>
+</head><body>
+
+<h1>
+Utilisation des scripts JAWS pour Skype pour Windows Desktop 8 (Electron)<br/>
+Dernière révision en juillet 2018<br/>
+La traduction à été fait par Rémy Ruiz (BlindHelp) en juillet 2018.
+</h1>
+
+<p>
+Ce guide fournit des conseils pour utiliser Skype pour Windows Desktop version 8 avec JAWS pour Windows et ces scripts.
+Ces scripts et cette documentation s'appliquent à Skype pour Windows Desktop 8 (une app Electron).
+Dans ce document, cette version de Skype sera simplement appelée Skype 8.
+Lorsque les scripts sont installés et que Skype 8 est ouvert et mis en focus, ce document peut être
+ouvert via un double appui sur <kbd>TOUCHE JAWS</kbd>+<kbd>F1</kbd> (ou <kbd>Insert</kbd>+<kbd>F1</kbd>).
+
+<!-- TOC Start -->
+<h2>Table des matières</h2>
+
+<ul>
+<li><a href="#requirements">Configuration système requise pour les utilisateurs de JAWS</a>
+<li><a href="#inst">Instructions d'installation du script</a>
+<li><a href="#use">Utiliser Skype 8 avec JAWS et les scripts</a>
+<ul>
+<li><a href="#use_native">Raccourcis clavier natifs de Skype 8</a>
+<li><a href="#use_JAWS">Commandes et fonctionnalités du script JAWS</a>
+<li><a href="#use_tips">Conseils utiles</a>
+</ul>
+<li><a href="#issues">Problèmes connus</a>
+</ul>
+
+<!-- TOC End -->
+
+<h2><a name="requirements">Configuration système requise pour les utilisateurs de JAWS</a></h2>
+
+<p>
+Ces scripts nécessitent
+JAWS 17.0 ou supérieur. (Les versions de JAWS antérieures à 17.0 ne supporte pas les scripts spécifiques aux sites Web,
+et Skype 8 s'exécute dans la fenêtre Google Chrome.)
+
+<h2><a name="inst">Instructions d'installation du script</a></h2>
+
+<p>
+Pour installer ces scripts sur un nouveau système:
+<ol>
+<li>Charger JAWS si cela n'a pas déjà été fait. Cela nécessitera
+des privilèges administrateur sur l'ordinateur.
+<li>Exécutez JAWS en tant qu'utilisateur pour lequel les scripts doivent être installés.
+Ceci et les étapes suivantes doivent être effectuées pour chaque utilisateur de l'ordinateur
+qui utilisera JAWS avec ces scripts.
+<li>Exécutez le programme d'installation pour ces scripts et suivez les instructions à l'écran. Veillez à installer les scripts dans la
+Version JAWS si une liste de versions JAWS est présentée.
+<li>Pour vérifier la réussite de l'installation, tapez <kbd>Insert+Q</kbd> pendant que
+Skype 8 est mis en focus. Une partie de la réponse verbale de JAWS devrait être un numéro de révision. Si
+vous n'entendez pas de numéro de révision, les scripts ne sont pas correctement chargés.
+</ol>
+
+<h2><a name=use>Utiliser Skype 8 avec JAWS et les scripts</a></h2>
+
+<p>
+Cette section et ses sous-sections fournissent des astuces pour utiliser Skype 8 avec JAWS et ces scripts.
+
+<h3><a name=use_native>Raccourcis clavier natifs de Skype 8</a></h3>
+
+<p>
+Skype 8 fournit plusieurs raccourcis clavier. Celles-ci fonctionnent avec ou sans JAWS ou ces scripts.
+Microsoft maintient une liste des raccourcis natifs sur
+la page en anglais "<a target=_blank href="https://support.skype.com/en/faq/FA12025/what-are-hotkeys-and-how-do-i-use-them-in-skype">What are hotkeys and how do I use them in Skype?</a>" cette page en anglais ,
+qui répertorie également les raccourcis clavier pour d’autres versions de Skype sur Windows et d’autres systèmes d’exploitation.
+Veillez à sélectionner le bon onglet ("Hotkeys in Skype for Windows Desktop") ("Raccourcis clavier dans Skype pour Windows Desktop") pour cette version de Skype. Les onglets se trouvent sous le tableau de raccourcis clavier situé au bas de la page (en anglais).
+
+<h3><a name=use_JAWS>Commandes et fonctionnalités du script JAWS</a></h3>
+
+<p>
+La plupart des commandes de script Skype 8 sont des commandes par frappes successives (commandes séquentielles), plutôt que des combinaisons multi-touches. Cela permet d'éviter les collisions entre les commandes par frappes successives (commandes séquentielles), du script et les séquences de touches d'application natives.
+Toutes ces séquences de touches commencent par une touche de préfixe commune, crochet ouvert (<kbd>[</kbd>) par défaut.
+Les utilisateurs peuvent modifier la touche de préfixe si nécessaire en tapant crochet ouvert <kbd>[</kbd> suivi par <kbd>TOUCHE JAWS+C</kbd> ou <kbd>Insert+C</kbd>. Le changement survivra à travers le script et les mises à jour de JAWS.
+Dans ce document, la touche de préfixe s'appellera <kbd>Commande</kbd>; donc, par défaut, <kbd>Commande e</kbd>; signifie qu'il faut frappez crochet ouvert <kbd>[</kbd>
+suivi de <kbd>e</kbd>.
+
+<p>
+Les scripts fournissent les commandes suivantes:
+<ul>
+<li><kbd>Commande e</kbd>: déplace le focus sur le champ de saisie de discussion (chat en anglais) pour la conversation affichée, s'il en existe une.
+<li><kbd>Commande h</kbd>: déplace le focus sur la liste de l'historique des messages de conversation de chat affichés.
+<li><kbd>Commande t</kbd>: annonce qui est entraint d'écrire dans la conversation affichée.
+<li><kbd>Commande w</kbd>: ouvre la page d'accueil de ces scripts (en anglais) dans le navigateur Web par défaut.
+<li><kbd>Insert+F1</kbd>: saisie deux fois rapidement, ouvre ce document dans le navigateur par défaut.
+</ul>
+Notez que le script <kbd>Alt+1</kbd> pour focaliser la liste des conversations a été supprimé le 17 juillet 2018, en l'honneur de Microsoft en implémentant correctement cette fonctionnalité dans l'app par la version 8.25. <kbd>Alt+1</kbd> fonctionne maintenant avec
+et sans ces scripts.
+
+<p>
+Les scripts fournissent également les fonctionnalités suivantes:
+<ul>
+<li>Le curseur virtuel JAWS est désactivé à chaque fois que Skype 8 prend le focus, pour simplifier la navigation. Utiliser <kbd>Insert+Z</kbd>, dans Skype si vous souhaitez activer ou rédésactiver le curseur virtuel manuellement.
+<li><kbd>TOUCHE JAWS+Q</kbd>, tout au long avec l'annonce du nom de la configuration active, annoncera le numéro de révision de ces scripts.
+<li>La commande JAWS <code>SayWindowTitle</code>, <kbd>Insert+T</kbd>, comprend le nombre de messages non lus Lorsque sont affichés, et aussi le nom de la conversation active si elle existe, ou sinon "Home".
+Lorsqu'une conversation est affichée et que de telles informations sont disponibles, les informations de présence du contact de la conversation et / ou le message d'humeur sont également inclus.
+</ul>
+
+<h3><a name=use_tips>Conseils utiles</a></h3>
+
+<p>
+Quand un appel arrive dans Skype 8, signalé par le son de l'appel entrant, ayant le focus sur Skype et ensuite <kbd>Tab</kbd> pour voir les informations sur le correspondant (Autrement dit l'appelant), puis les boutons pour gérer l'appel.
+
+<p>
+Utiliser <kbd>Alt+1</kbd> pour déplacer le focus sur la liste de conversation.
+C'était <kbd>Alt+2</kbd> dans le Skype classic pour Windows Desktop.
+
+<p>
+Appuyez sur <kbd>Entrée</kbd> sur une conversation dans la liste de conversation pour afficher la conversation et placer le focus dans le champ de saisie correspondant.
+Dans le cas où le focus ne se pose pas dans le champ de saisie, utilisez la commande séquentielle scripté, <kbd>Commande e</kbd>, pour y déplacer le focus.
+
+<p>
+Utiliser <kbd>Alt+2</kbd> pour ouvrir la liste de contacts. C'était <kbd>Alt+1</kbd> dans le client Skype classic pour Windows Desktop.
+Puisque la liste de contacts est recherchée par la boîte de dialogue "Rechercher dans Skype" (rapidement accessible avec <kbd>Ctrl+F</kbd>), cela peut rarement être nécessaire d'ouvrir la liste de contacts directement.
+
+<p>
+Un moyen rapide de commencer une nouvelle conversation:
+<ul>
+<li>Appuyez sur <kbd>Ctrl+F</kbd> pour y déplacer le focus sur la boîte de dialogue "Rechercher dans Skype".
+<li>Tapez le nom ou le nom partiel de votre contact prévu, et ensuite <kbd>Tab</kbd> deux fois pour atteindre les résultats de la recherche.
+<li>Utiliser les flèches <kbd>Haut</kbd> et <kbd>Bas</kbd> pour trouver votre contact prévu.
+Si, au début, vous ne trouvez pas le contact, vous parcourez à nouveau les résultats car la liste peut être mise à jour au fur et à mesure que d'autres correspondances sont trouvées.
+<li>Appuyez sur <kbd>Entrée</kbd> pour ouvrir une conversation et déplacer le focus dans le champ de saisie.
+Si le focus ne se pose pas dans le champ de saisie, utilisez la séquence scriptée, <kbd>Commande e</kbd>, pour y déplacer le focus.
+<li>Pour appeler le contact immédiatement une fois la conversation affichée, tapez <kbd>Ctrl+Maj+P</kbd> pour un appel vocal ou <kbd>Ctrl+Maj+K</kbd> pour un appel vidéo.
+</ul>
+
+<p>
+<strong>Avertissement</strong>: Les raccourcis clavier <kbd>Ctrl+Maj+P</kbd> et <kbd>Ctrl+Maj+K</kbd> pour faire des appels vocaux et vidéo appellera le
+contact affiché, pas le contact dont l'entrée est focalisée sur la liste de conversation s'il s'agit d'un contact différent. Pour être sûr que vous êtes
+ en train d'appeler le contact correct tout en naviguant dans la liste de conversation, appuyez sur <kbd>Espace</kbd>
+ou <kbd>Entrée</kbd> avant de faire un appel.
+
+<h2><a name=issues>Problèmes connus</a></h2>
+
+<p>
+Les problèmes présentés dans cette section peuvent être résolus dans les futurs révisions de scripts et / ou applications.
+mais ne sont pas traités à ce jour.
+
+<p>
+Il n'y a pas le système habituel dans ces scripts pour naviguer parmi les messages de discussion (chat en anglais). Historiquement, cela a été fait avec <kbd>Alt</kbd> avec
+des chiffres pour lire les messages récents, et <kbd>Alt</kbd> avec les flèches, <kbd>Origine</kbd>, <kbd>Fin</kbd>, et <kbd>+5 du pavé numérique</kbd> pour lire
+séquentiellement tout en gardant une trace de la position actuelle. La liste des messages de discussion (chat en anglais) de Skype 8 ne semble pas offrir ce type de navigation.
+
+<p>
+Au moins dans les anciennes versions de Skype 8 et / ou des révisions de script,
+les commandes tels que <kbd>Commande h</kbd>, pour sauter à des contrôles spécifiques peut parfois déplacer le focus sur le mauvais contrôle. Si cela se produit, essayez à nouveau la commande après avoir tapé <kbd>TOUCHE JAWS+T</kbd>, deux fois successivement, ce qui efface les
+notions du script d'où les contrôles sont situés ou seront-ils scannés pour cette information.
+Ce problème n'a pas été vu récemment en mai 2018 et Skype 8.25.
+
+<p>
+Ouvrir ce document de l'intérieur de Skype 8 en tapant <kbd>Insert+F1</kbd> deux fois successivement peut laisser le curseur virtuel JAWS inactif. Utilisez <kbd>Insert+Z</kbd> pour réactiver le curseur virtuel si cela se produit.
+
+</body></html>

@@ -1,0 +1,523 @@
+﻿<!DOCTYPE HTML>
+<html lang="fr-fr"><head>
+
+<style type="text/css">
+thead {
+display: table-header-group
+}
+tfoot {
+display: table-footer-group
+td {
+  vertical-align: top;
+}
+</style>
+
+<title>
+Utilisation des scripts JAWS pour Skype UWP
+</title>
+</head><body>
+
+<h1>
+Utilisation des scripts JAWS pour Skype UWP<br/>
+Dernière révision en novembre 2017<br/>
+La traduction à été fait par Rémy Ruiz (BlindHelp) en novembre 2017.
+</h1>
+
+<p>
+Ce guide fournit des conseils sur l'utilisation de Skype UWP, également appelé Skype pour Windows 10, avec JAWS pour Windows et ces scripts.
+Lorsque les scripts sont installés et que Skype UWP est ouvert et mis en focus, ce document peut être
+ouvert via un double appui sur <kbd>TOUCHE JAWS</kbd>+<kbd>F1</kbd> (ou <kbd>Insert</kbd>+<kbd>F1</kbd>).
+
+<p>
+Notez que Skype UWP fournit beaucoup de <a href="#use_native">raccourcis clavier</a> qui ne nécessitent pas de scripts.
+Ces scripts simplifient certaines tâches et fournissent quelques raccourcis non fournis par Skype UWP lui-même.
+
+<!-- TOC Start -->
+<h2>Table des matières</h2>
+
+<ul>
+<li><a href="#requirements">Configuration système requise pour les utilisateurs de JAWS</a>
+<li><a href="#inst">Instructions d'installation du script</a>
+<li><a href="#config">Configuration de Skype UWP à utiliser avec JAWS</a>
+<li><a href="#use">Utiliser Skype UWP avec JAWS et les scripts</a>
+<ul>
+<li><a href="#use_struct">Description de l'écran Skype UWP</a>
+<li><a href="#use_native">Raccourcis clavier natifs de Skype UWP</a>
+<li><a href="#use_JAWS">Commandes et fonctionnalités du script JAWS</a>
+<li><a href="#use_tips">Conseils utiles</a>
+<li><a href="#use_fastConvNav">Navigation rapide dans la liste de conversation avec le curseur tactile de JAWS (Avancé)</a>
+</ul>
+<li><a href="#issues">Problèmes connus</a>
+</ul>
+
+<!-- TOC End -->
+
+<h2><a name="requirements">Configuration système requise pour les utilisateurs de JAWS</a></h2>
+
+<p>
+Pour un fonctionnement correct avec Skype UWP, ces scripts nécessitent
+JAWS 18.0 ou supérieur. (Les versions de JAWS antérieures à 18.0 ne prennent pas en charge les applications du script UWP) (Universal Windows Platform).
+
+<h2><a name="inst">Instructions d'installation du script</a></h2>
+
+<p>
+Pour installer ces scripts sur un nouveau système:
+<ol>
+<li>Charger JAWS si cela n'a pas déjà été fait. Cela nécessitera des privilèges administrateur sur l'ordinateur.
+<li>Exécutez JAWS en tant qu'utilisateur pour lequel les scripts doivent être installés.
+Ceci et les étapes suivantes doivent être effectuées pour chaque utilisateur de l'ordinateur qui utilisera JAWS avec ces scripts.
+<li>Exécutez le programme d'installation pour ces scripts et suivez les instructions à l'écran. Veillez à installer les scripts dans la
+Version JAWS si une liste de versions JAWS est présentée.
+<li>Pour vérifier la réussite de l'installation, tapez <kbd>Insert+Q</kbd> pendant que
+Skype UWP est mis en focus. Une partie de la réponse verbale de JAWS devrait être un numéro de révision. Si vous n'entendez pas de numéro de révision, les scripts ne sont pas correctement chargés.
+</ol>
+
+<h2><a name=config>Configuration de Skype UWP à utiliser avec JAWS</a></h2>
+
+<p>
+Les étapes suivantes peuvent améliorer les fonctionnalités de Skype avec JAWS et ces scripts. Ces éléments sont facultatifs et soumis à des préférences personnelles.
+<ul>
+<li>Activer le son de discussion (chat en anglais) pour les discussions entrantes dans la fenêtre en cours:
+Cette fonctionnalité est désactivée par défaut mais peut être activée si vous préférez:
+<ol>
+<li>Frapper <kbd>Ctrl+,</kbd> (virgule) pour ouvrir le panneau Paramètres.
+<li><kbd>Tab</kbd> dans la case à cocher "Lire le son pour la messagerie instantanée entrante dans la discussion en cours" et, si elle n'est pas cochée, appuyez sur <kbd>Espace</kbd> pour la cocher.
+<li>Appuyez sur <kbd>ECHAP</kbd> pour fermer le panneau Paramètres. (Dans Skype UWP, Les modifications de Paramètres sont immédiates; donc en ferment le panneau avec
+<kbd>ECHAP</kbd> ne retournent pas aux modifications apportées.)
+</ol>
+<li>Désactiver les aperçus de liens Web (procédure similaire à celle ci-dessus).
+
+</ul>
+<strong>Avertissement</strong>: Il est nécessaire de répéter ces étapes de configuration après la mise à jour vers une autre version de Skype UWP.
+(Cette situation s'est produite dans onze jours au cours du développement du script en octobre 2017, mais ne devrait normalement pas se produire.)
+
+<h2><a name=use>Utiliser Skype UWP avec JAWS et les scripts</a></h2>
+
+<p>
+Cette section et ses sous-sections fournissent des astuces pour utiliser Skype UWP avec JAWS et ces scripts.
+
+<h3><a name=use_struct>Description de l'écran Skype UWP</a></h3>
+
+<p>
+Skype UWP est structuré différemment de Skype pour Windows Desktop:
+<ul>
+<li>Il n'y a pas de barre de menus et il n'y a pas de barre d'outils ni de ligne d'état.
+(Il existe toutefois de nombreux raccourcis clavier, voir la sous-section suivante.)
+<li>Tout est contenu dans une fenêtre unique.
+Il peut y avoir des fenêtres émergentes ou des sections déroulantes pour cette fenêtre, mais <kbd>Alt+Tab</kbd> ne trouvera qu'une seule tâche pour Skype UWP.
+<kbd>Alt+Espace</kbd> fait toujours apparaître un menu Système à partir duquel il est possible de réduire, agrandir, restaurer ou fermer la fenêtre Skype UWP.
+</ul>
+
+<p>
+La liste de conversation est un élément central de la fenêtre Skype UWP et est toujours affichée sauf si elle est couverte par une fenêtre émergente. Il y a une liste de contacts,
+mais il apparaît sur la fenêtre principale lorsque cela est demandé.
+
+<p>
+Il y aura une conversation à l'écran à un moment donné. Si aucune conversation n'a été affichée depuis le lancement de Skype, une section Home (Accueil en français),
+ est affichée à la place. Cette section n'est pas une section HTML comme c'était le cas dans le client classique Desktop, mais <kbd>Tab</kbd> atteindra les contrôles à l'intérieur.
+
+<h3><a name=use_native>Raccourcis clavier natifs de Skype UWP</a></h3>
+
+<p>
+Skype UWP fournit plusieurs raccourcis clavier. Celles-ci fonctionnent avec ou sans JAWS ou ces scripts.
+Une grande partie de cette information apparaît également sur
+Microsoft (page en anglais) "<a target=_blank href="https://support.skype.com/en/faq/FA12025/what-are-hotkeys-and-how-do-i-use-them-in-skype">What are hotkeys and how do I use them in Skype?</a>" cette page en anglais , qui répertorie également les raccourcis clavier pour d’autres versions de Skype sur Windows et d’autres systèmes d’exploitation.
+Voir aussi sur
+Microsoft (page en anglais) <a href="https://support.microsoft.com/en-au/help/12445/windows-keyboard-shortcuts">Keyboard shortcuts in Windows</a> page pour les raccourcis fournis par Windows mais pertinents pour Skype UWP. Le plus notable parmi ceux-ci est <kbd>Windows+V</kbd>, qui met le focus sur les notifications et permet ainsi d'accéder aux boutons ID du correspondant (Autrement dit l'appelant), et Répondre pour un appel Skype entrant.
+<table border=1 cellpadding=0 cellspacing=0 summary="Raccourcis clavier de Skype UWP">
+<tr>
+<th scope=col>Catégorie</th>
+<th scope=col>Touche</th>
+<th scope=col>Fonction</th>
+<th scope=col>Commentaires</th>
+</tr>
+
+<tr>
+<th scope=row>Configuration</th>
+<td><kbd>Ctrl+, (virgule)</kbd></td>
+<td>Ouvre l'écran Paramètres.</td>
+<td>Les modifications apportées à cet écran prennent effet immédiatement et ne sont pas annulées par <kbd>ECHAP</kbd>, donc <kbd>ECHAP</kbd> est un moyen efficace de fermer cet écran lorsque vous avez terminé. Si cette touche ne fonctionne pas, assurez-vous que la fenêtre émergente n'est pas ouverte en haut de la fenêtre principale.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+I</kbd></td>
+<td>Ouvre votre profil.</td>
+<td>Cette touche ouvre votre fenêtre de profil à partir de laquelle vous pouvez effectuer l'une des opérations suivantes:
+<ul>
+<li>Mettre à jour vos champs de profil.
+<li>Charger une image.
+<li>Charger votre message d'humeur.
+<li>Activer et désactiver le mode Ne pas déranger.
+<li>Choisissez d’autoriser ou non les autres à voir votre statut.
+<li>Gestion de votre compte Skype (crédit, abonnements, etc.).).
+<li>Ouvre l'écran Paramètres (le même écran s'ouvre avec <kbd>Ctrl+, (virgule)</kbd>).
+<li>Envoyer les commentaires aux développeurs de Skype à propos de l'application via une app séparée.
+<li>Afficher l'aide en ligne de Skype.
+<li>Se déconnecté de Skype.
+</ul></td>
+</tr>
+
+<tr>
+<th scope=row>Navigation</th>
+<td><kbd>Alt+1</kbd></td>
+<td>Basculez vers la liste de conversation.</td>
+<td>En fonction de la version de Skype UWP et d'autres facteurs, cette commande peut également avoir le focus sur la première conversation de la liste, sans toutefois
+afficher cette conversation. En appuyant sur <kbd>Entrée</kbd>
+sur une entrée de la liste, la conversation sera affichée et en mettant le focus dans le champ de saisie correspondant. En appuyant sur <kbd>Espace</kbd>, d'autre part, affichera la conversation mais laissera le focus sur son entrée de liste.
+(Ces comportements spécifiques peuvent varier légèrement entre les versions de Skype UWP.)
+</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Alt+2</kbd></td>
+<td>Ouvre la fenêtre de contact avec l'onglet Contacts actif.</td>
+<td>La fenêtre de contact s'affiche sur la fenêtre principale et peut être fermée avec <kbd>ECHAP</kbd>.
+La fenêtre de contact contient en fait deux onglets, dont "Contacts" est le premier. L'autre onglet est "Bots."
+</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Alt+3</kbd></td>
+<td>Ouvre la fenêtre de contact avec l'onglet Bots affiché.</td>
+<td>L'onglet Bots de la fenêtre de contact affiche un certain nombre de services informatisés disponibles dans Skype.
+</td>
+</tr>
+
+<tr>
+<th scope=row>Conversation et gestion des appels</th>
+<td><kbd>Ctrl+F</kbd></td>
+<td>Met le focus sur le champ de saisie "Rechercher dans Skype".</td>
+<td>Utilisez cette boîte de dialogue pour rechercher des contacts, des conversations et des utilisateurs Skype à ajouter à votre liste de contacts. Cette fonction de recherche peut même localiser des messages de discussion spécifiques par mots clés ou phrases.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+Maj+P</kbd>&nbsp;et <kbd>Ctrl+Maj+K</kbd></td>
+<td>Faire un appel vocal ou un appel vidéo, respectivement.</td>
+<td>Ces commandes fonctionnent normalement sur la conversation affichée. Si une fenêtre de résultats de recherche est ouverte sur la fenêtre principale, vous pouvez utiliser ces commandes pour appeler un contact directement à partir de la liste des résultats de recherche.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+E</kbd> tandis que dans la fenêtre Skype UWP</td>
+<td>Raccroché l'appel actif.</td>
+<td>Ce raccourci ne fonctionne que lorsque le focus est quelque part dans la fenêtre Skype UWP.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+Maj+H</kbd> tandis que dans la fenêtre Skype UWP</td>
+<td>Basculer l'appel actif entre en attente et actif.</td>
+<td>Ce raccourci ne fonctionne que lorsque le focus est quelque part dans la fenêtre Skype UWP.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Haut</kbd> tandis que dans le champ de saisie de chat</td>
+<td>Modifier le message de discussion (chat en anglais) envoyé précédemment.</td>
+<td>Un message de discussion peut être modifié pendant un certain temps après son premier envoi.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+N</kbd></td>
+<td>Nouvelle discussion</td>
+<td> Démarrez une nouvelle conversation en affichant la liste de contacts dans laquelle vous pouvez Vérifiez les participants souhaités, effectuez une recherche pour restreindre la liste ou
+trouver des personnes, etc.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+F4</kbd></td>
+<td>Masquer la conversation affichée.</td>
+<td>Ce raccourci masque la conversation affichée, et non celle associée à l’entrée de la liste de conversation focalisée si elle est différente.
+Masquer une conversation le supprime de la liste des conversations.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+D</kbd></td>
+<td>Afficher le clavier numérique.</td>
+<td>Le clavier numérique vous permet de taper un numéro pour appeler directement. Notez que ce clavier numérique est différent du clavier numérique disponible lors d'un appel
+pour composer des codes d'accès, etc.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+Maj+A</kbd></td>
+<td>Ajouter des participants (Ajouter du monde)</td>
+<td>Cette frappe équivaut à cliquer sur "Ajouter des participants" dans une conversation. Il vous permet d'ajouter des personnes à une conversation existante.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+P</kbd></td>
+<td>Afficher le profil de la conversation affichée</td>
+<td>Affiche le profil du contact dans la conversation affichée ou un écran de profil pour la conversation s'il contient multiples
+contacts. Une case à cocher est incluse qui vous permet d'activer ou de désactiver les notifications pour la conversation.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+Maj+F</kbd></td>
+<td>Envoyer un fichier</td>
+<td>Ouvre une fenêtre permettant d'envoyer un fichier à la conversation affichée.</td>
+</tr>
+
+<tr>
+<th scope=row>Divers</th>
+<td><kbd>Ctrl+H</kbd></td>
+<td>Aide</td>
+<td>Ouvre dans le navigateur par défaut une page Web proposant une aide pour Skype UWP.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+O</kbd></td>
+<td>Ouvre l'Hub de commentaires</td>
+<td>Cette frappe ouvre une application séparé qui vous permet d'envoyer des commentaires à l'équipe de développeurs de Skype.</td>
+</tr>
+
+<tr>
+<th scope=row>&nbsp;</th>
+<td><kbd>Ctrl+Maj+U</kbd></td>
+<td>Page d'accueil et marquer comme non lu</td>
+<td>Ouvre la section home (accueil en français) de Skype UWP qui s'affiche pour la première fois lors du lancement de Skype. Cette section remplace toute conversation affichée. Aussi
+marque le dernier message de la conversation actuellement affichée comme non lu.
+Notez que Microsoft ne documente que la seconde de ces fonctions; voir la section "Hotkeys in Skype for Windows 10" (Raccourcis clavier dans Skype pour Windows 10) sur
+Microsoft "<a target=_blank href="https://support.skype.com/en/faq/FA12025/what-are-hotkeys-and-how-do-i-use-them-in-skype">What are hotkeys and how do I use them in Skype?</a>" (page en anglais).
+</td>
+</tr>
+
+</table>
+
+<h3><a name=use_JAWS>Commandes et fonctionnalités du script JAWS</a></h3>
+
+<p>
+Les commandes du script Skype UWP sont des commandes par frappes successives (commandes séquentielles), plutôt que des combinaisons multi-touches. Cela permet d'éviter les collisions entre les commandes par frappes successives (commandes séquentielles), du script et les séquences de touches d'application natives.
+Toutes ces séquences de touches commencent par une touche de préfixe commune, crochet ouvert (<kbd>[</kbd>) par défaut.
+Les utilisateurs peuvent modifier la touche de préfixe si nécessaire en tapant crochet ouvert <kbd>[</kbd> suivi par <kbd>TOUCHE JAWS+C</kbd> ou <kbd>Insert+C</kbd>. Le changement survivra à travers le script et les mises à jour de JAWS.
+Dans ce document, la touche de préfixe s'appellera <kbd>Commande</kbd>; donc, par défaut, <kbd>Commande 1</kbd>; signifie qu'il faut frappez crochet ouvert <kbd>[</kbd>
+suivi de <kbd>1</kbd>.
+
+<p>
+Les scripts fournissent les commandes suivantes:
+<ul>
+<li><kbd>Commande a</kbd>: déplace le focus sur la liste des appels actifs lorsque cela est possible. S'il n'y a pas d'appels actifs ou si la liste n'est pas affichée,
+cette commande ne fera rien.
+<li><kbd>Commande e</kbd>: déplace le focus sur le champ de saisie de discussion (chat en anglais) pour la conversation affichée, s'il y en a une.
+<li><kbd>Commande h</kbd>: déplace le focus sur la liste de l'historique des messages de conversation affichée.
+<li><kbd>Commande s</kbd>: déplace le focus sur le bouton Afficher ou masquer la barre latérale dans un écran d'appel actif. Cela provoquera également l’annonce du nombre de notifications de conversation non lues, le cas échéant. Ouvrir la barre latérale, puis <kbd>Tab</kbd> ou <kbd>Maj+Tab</kbd>
+afin de parcourir l'écran pour accéder aux conversations et à d'autres informations pendant un appel.
+<li><kbd>Commande t</kbd>: annonce qui est entraint d'écrire dans la conversation affichée.
+<li><kbd>Commande Maj+t</kbd>: bascule entre activer ou désactiver l'inclusion d'informations sur l'heure du message pendant la lecture des messages de discussion.
+<li><kbd>Commande w</kbd>: ouvre la page d'accueil de ces scripts (en anglais) dans le navigateur Web par défaut.
+</ul>
+
+<p>
+Les scripts fournissent également les fonctionnalités suivantes:
+<ul>
+<li><kbd>TOUCHE JAWS+Q</kbd>, tout au long avec l'annonce du nom de la configuration active, annoncera le numéro de révision de ces scripts.
+<li>En tapant <kbd>Insert+F1</kbd> deux fois rapidement, ouvrira ce document.
+<li>Plusieurs fonctionnalités du script peuvent être réglées via les éléments en haut de la boîte de dialogue classique Paramètres rapides de JAWS, ouvert avec
+<kbd>TOUCHE JAWS+V</kbd>. Lors de cette rédaction, ceux-ci comprennent
+<ul>
+<li>Que ce soit pour annoncer les messages entrants à l'arrivée dans la fenêtre en cours (bien que cette fonctionnalité ne soit pas encore implémentée).
+<li>Que ce soit pour annoncer et / ou jouer un son lorsque les participants à la conversation sont en train d'écrire.
+<li>Que ce soit pour annoncer les messages envoyer et modifier les informations de l'heure lors de la lecture des messages de discussion (chat en anglais).
+<li>Si et comment signaler les réactions à des messages de discussion spécifiques.
+<li>Que ce soit pour accélérer la navigation dans les listes en préservant la sélection au lieu de laisser Skype UWP le modifier sur chaque touche fléchée.
+</ul>
+<li>Les annonces de messages de discussion sont simplifiées de plusieurs manières et peuvent parfois inclure plus d'informations que celles normalement incluses par JAWS, telles que les informations de réaction lorsqu'elles sont présentes.
+<li>Lorsque le focus est dans le clavier numérique de l'appel entrant, ouvert via une option du menu "Autres fonctions d'appel", les scripts vont produire des chiffres.
+<kbd>0</kbd> jusqu'à <kbd>9</kbd>, aussi bien que
+ <kbd>#</kbd> et <kbd>*</kbd>, appuyer sur les boutons correspondants du clavier numérique pour provoquer la numérotation.
+Les scripts permettront également d'utiliser les lettres pour composer, en fonction des lettres affichées sur chaque bouton du clavier numérique; par exemple, en tapant
+<kbd>b</kbd> composera le numéro 2.
+Le support pour <kbd>#</kbd> et <kbd>*</kbd> peut être spécifique aux paramètres de langue et de clavier, Paramètres système et dépend de la disposition du clavier.
+<li>La commande JAWS <code>SayAll</code> fonctionne dans une liste de messages de discussion. C'est un moyen rapide de rattraper un groupe de discussion très occupé.
+<li>Par défaut, JAWS annoncera et jouera un son de frappe lorsqu'un ou plusieurs participants à une conversation sont en train d'écrire. Les annonces et les sons peuvent être basculé entre activé ou désactivé individuellement dans la boîte de dialogue Paramètres rapides de JAWS accessible via <kbd>TOUCHE JAWS+V</kbd>.
+<li><kbd>Commande t</kbd>: annonce qui est entraint d'écrire.
+<li>JAWS gère plusieurs contrôles plus efficacement que ce ne serait le cas, y compris
+<ul>
+<li>Contrôles de liste (pas de répétition supplémentaire de l'élément étant laissé comme flèches de l'utilisateur).
+<li>Zones de liste déroulante (flèches annoncent plutôt que garder le silence).
+<li>Beaucoup de boutons bascule dans les paramètres qui, autrement, ne disent pas "non coché" quand ils sont désactivés.
+<li>Différents champs dont les noms sont nativement signalés de manière incorrecte.
+</ul>
+<li>La commande JAWS <code>SayWindowTitle</code>, <kbd>Insert+T</kbd>, lit les informations suivantes, dont seule la première partie serait lue nativement par JAWS:
+<ul>
+<li>Le nom de la fenêtre principale Skype UWP (généralement juste "Skype").
+<li>Informations sur l'appel actif s'il y en a un, y compris la durée de l'appel, le statut muet du microphone, et si l'appel est en attente.
+<li>Le nom de la fenêtre émergente active ou de la section, si celle-ci est reconnue; Par exemple, "Paramètres".
+<li>Le nombre d'appels actifs le cas échéant. Cela inclut les appels en attente.
+Cela peut également inclure des conversations de groupe qui peuvent devenir un appel même si elles ne le sont pas actuellement.
+((Accédez aux autres appels en ouvrant la barre latérale via son bouton puis ensuite en recherchant et en parcourant avec les flèches directionnelles ou <kbd>Ctrl+flèches directionnelles</kbd> à travers de la liste d'appels actifs.)
+<li>Le texte de la zone de notification si un texte y est affiché. Exemple: "Mise à jour des conversations"
+<li>Une indication de la conversation affichée, si une conversation est affichée. Cette indication inclut le nom du contact, statut connecté lorsque disponible, et message d'humeur.
+Si la page d'accueil est affichée au lieu d'une conversation, JAWS indiquera "home" (accueil en français).
+<li>Si applicable à une conversation de groupe affichée, une indication si vous avez quitté le groupe.
+</ul>
+<li>En tapant <kbd>Ctrl+TOUCHE JAWS+V</kbd> trois fois rapidement fait apparaître une vue virtuelle JAWS répertoriant toutes les versions de Skype UWP vu sur cette machine pendant que JAWS et ces scripts fonctionnaient au fil du temps.
+((JAWS lui-même fait en sorte qu’une simple pression sur cette commande annonce les informations de version et une double pression la virtualise.)
+Chaque version est affichée avec la date à laquelle elle a été vue pour la première fois par les scripts.
+Cela peut aider à diagnostiquer les problèmes et à déterminer s'ils représentent des bogues de script ou des problèmes causés par une mise à jour silencieuse de Skype UWP vers une version non encore prise en charge.
+</ul>
+
+<h3><a name=use_tips>Conseils utiles</a></h3>
+
+<p>
+Quand un appel arrive dans Skype UWP, signalé par le son de l'appel entrant, appuyant sur <kbd>Windows+V</kbd> met le focus sur sa notification. JAWS annoncera les informations d'identification du correspondant (Autrement dit l'appelant). Depuis là, <kbd>Tab</kbd> au bouton que vous souhaitez utiliser en réponse (Audio pour un appel audio uniquement, Vidéo pour un appel audio / vidéo, Ignorer pour ignorer l'appel, etc.).).
+
+<p>
+Utiliser <kbd>Alt+1</kbd> pour déplacer le focus sur la liste de conversation.
+Cette commande peut également être déplacée vers la première conversation de cette liste, mais
+sans basculer à cette conversation.
+C'était <kbd>Alt+2</kbd> dans le Skype classic pour Windows Desktop.
+
+<p>
+Appuyez sur <kbd>Entrée</kbd> sur une conversation dans la liste de conversation pour afficher la conversation et placer le focus dans le champ de saisie correspondant.
+
+<p>
+Utiliser <kbd>Alt+2</kbd> pour ouvrir la liste de contacts. C'était <kbd>Alt+1</kbd> dans le client Skype classic pour Windows Desktop.
+Puisque la liste de contacts est recherchée par la boîte de dialogue "Rechercher dans Skype" (rapidement accessible avec <kbd>Ctrl+F</kbd>), cela peut rarement être nécessaire d'ouvrir la liste de contacts directement.
+
+<p>
+Un moyen rapide de commencer une nouvelle conversation:
+<ul>
+<li>Appuyez sur <kbd>Ctrl+F</kbd> pour y déplacer le focus sur la boîte de dialogue "Rechercher dans Skype".
+<li>Tapez le nom ou le nom partiel de votre contact prévu, et ensuite <kbd>Tab</kbd> deux fois pour atteindre les résultats de la recherche.
+<li>Utiliser les flèches <kbd>Haut</kbd> et <kbd>Bas</kbd> pour trouver votre contact prévu.
+Si, au début, vous ne trouvez pas le contact, vous parcourez à nouveau les résultats car la liste peut être mise à jour au fur et à mesure que d'autres correspondances sont trouvées.
+<li>Appuyez sur <kbd>Entrée</kbd> pour ouvrir une conversation et déplacer le focus dans le champ de saisie.
+<li>Pour appeler le contact immédiatement une fois la conversation affichée, tapez <kbd>Ctrl+Maj+P</kbd> pour un appel vocal ou <kbd>Ctrl+Maj+K</kbd> pour un appel vidéo.
+</ul>
+
+<p>
+Par défaut, ces scripts modifient le comportement des flèches et des autres touches de navigation dans certaines listes.
+Si cette fonctionnalité de script n'est pas désactivée, les flèches <kbd>Origine</kbd>, et <kbd>Fin</kbd> déplacera le focus mais sans changer la sélection et
+sans altérer les autres parties de l'affichage. La réponse native de Skype UWP à ces touches consiste à sélectionner chaque élément de la liste à son tour et mettre à jour l'affichage en conséquence. Cela peut être très lent, peut entraîner l'effacement par inadvertance des indicateurs de message non lus, et dans la liste des appels actifs peut envoyer le focus hors de la liste et compliquer ainsi la navigation dans la liste.
+Lors de cette rédaction, cette fonctionnalité s'applique par défaut aux listes suivantes:
+<ul>
+<li>La liste de conversation.
+<li>La liste d'appels active.
+<li>Les listes de résultats de la recherche.
+</ul>
+
+<p>
+Si vous choisissez de désactiver la fonctionnalité ci-dessus "préserver la sélection de liste" dans les Paramètres rapides, vous pouvez toujours vous déplacer dans les listes concernées sans modifier la sélection par
+l'utilisation de <kbd>Ctrl+Bas</kbd> et <kbd>Ctrl+Haut</kbd> plutôt que juste <kbd>Bas</kbd> et <kbd>Haut</kbd>
+par eux-mêmes. Cela déplacera le focus parmi les éléments de la liste sans modifier la sélection. Pour sélectionner l'élément focalisé, appuyer sur <kbd>Espace</kbd>.
+
+<p>
+Les utilisateurs avancés de JAWS peuvent également souhaiter examiner
+la section "<a href="#use_fastConvNav">Navigation rapide dans la liste de conversation avec le curseur tactile de JAWS (Avancé</a>"
+pour un autre moyen efficace de naviguer dans la liste de conversation.
+
+<p>
+<strong>Avertissement</strong>: Les raccourcis clavier <kbd>Ctrl+Maj+P</kbd> et <kbd>Ctrl+Maj+K</kbd> pour faire des appels vocaux et vidéo appellera le
+contact affiché, pas le contact dont l'entrée est focalisée sur la liste de conversation s'il s'agit d'un contact différent. Pour être sûr que vous êtes
+en train d'appeler le contact correct tout en naviguant dans la liste de conversation, avec <kbd>Ctrl+Haut</kbd> et <kbd>Ctrl+Bas</kbd>, appuyez sur <kbd>Espace</kbd>
+avant de faire un appel.
+
+<p>
+Le curseur tactile de JAWS, activé en maintenant enfoncé la touche <kbd>Maj</kbd> tout en exécutant la commande classique de JAWS <code>CurseurPC</code>, il peut être utile dans certaines situations pour déterminer le contexte d'un champ. Dans les écrans de Paramètres, par exemple, essayez d’activer le curseur tactile, puis utilisez les touches fléchées <kbd>Gauche</kbd> et <kbd>Droite</kbd> pour explorer les éléments d’écran voisins. Les noms de champs apparaîtront parfois à gauche du champ actuel dans ce mode de navigation; et pour les champs qui ont un texte descriptif supplémentaire, il a tendance à apparaître à droite dans ce mode de navigation.
+
+<p>
+Lorsque vous utilisez le bouton Sélecteur de réaction sur un message de discussion, utilisez les flèches <kbd>Gauche</kbd> et <kbd>Droite</kbd> pour se déplacer parmi les choix de réaction, pas <kbd>Haut</kbd> et <kbd>Bas</kbd>.
+Dans certaines versions de Skype UWP, une pression sur la touche <kbd>Tab</kbd> est nécessaire après avoir appuyé sur <kbd>Espace</kbd> sur le bouton "Sélecteur de réaction" pour atteindre le premier bouton de réaction.
+
+<h3><a name=use_fastConvNav>Navigation rapide dans la liste de conversation avec le curseur tactile de JAWS (Avancé</a></h3>
+
+<p>
+Cette sous-section décrit une technique très avancée de gestion de la liste de conversations Skype et n'est pas recommandée pour les nouveaux utilisateurs de JAWS. Il est également probablement inutile sauf sur les machines avec des historiques de conversation très volumineux.
+
+<p>
+Un exemple de quand la technique suivante est utile: Vous lancez Skype UWP et, à votre surprise, il y a 20 conversations avec des
+messages non lus. Ils ne sont toutefois pas tous regroupés en haut de la liste. (Cela peut se produire dans tous les clients Skype de Windows lorsque des appels sont arrivés depuis un téléphone utilisant un numéro SkypeIn.) Tenter de naviguer dans la liste avec les flèches est très lent; et même en utilisant
+<kbd>Ctrl</kbd> avec les flèches n'améliore pas significativement les performances.
+
+<p>
+La procédure suivante utilisera le curseur tactile de JAWS pour se déplacer parmi les éléments de la liste de conversation sans modifier la sélection ou mettre le focus
+à l'intérieur de la liste. D'abord, un peu de contextualisation:
+
+<p>
+JAWS est livré avec un "curseur tactile" parfois utile pour naviguer dans les applications Universal Windows Platform (UWP). Ce curseur peut
+opérer dans deux modes: En mode normal, les touches <kbd>Gauche</kbd> et <kbd>Droite</kbd> agissent comme des gestes de "balayage" ou "pichenette" sur les téléphones modernes, pour se déplacer à travers les éléments de l'écran dans une séquence logique qui tente d'inclure tous les éléments disponibles. En mode avancé,
+les éléments sont présentés dans une structure arborescente, où les touches <kbd>Gauche</kbd> et <kbd>Droite</kbd> se déplacent parmi les éléments au niveau de l'arborescence
+et <kbd>Haut</kbd> et <kbd>Bas</kbd> se déplacent parmi les niveaux. Cette sous-section se concentre sur l'utilisation de ce mode avancé pour contourner un problème de lenteur avec la liste de conversations Skype UWP.
+
+<p>
+Pour vous déplacer rapidement dans les entrées de la liste de conversation, suivez cette procédure:
+<ol>
+<li>Se déplacer dans la liste de conversation en tapant <kbd>Alt+1</kbd>. Si nécessaire, appuyez sur la touche <kbd>Origine</kbd> pour se déplacer au premier élément de la liste.
+<li>Activez le curseur tactile de JAWS en maintenant enfoncée la touche <kbd>Maj</kbd> tout en exécutant la commande normale <code>CurseurPC</code>.
+Le curseur tactile démarrera sur l'élément actuellement focalisé dans la liste de conversation.
+<li>Assurez-vous que le mode avancé du curseur tactile est activé en appuyant sur la touche <kbd>*</kbd> sur le pavé numérique. Cette touche permet de basculer entre les modes
+avancé et normal.
+<li>Utilisez les touches fléchées <kbd>Gauche</kbd> et <kbd>Droite</kbd> pour se déplacer à travers la liste des conversations. La réponse à chaque navigation doit être instantanée dans ce mode.
+Toute conversation avec des messages non lus sera indiquée lorsque vous naviguez.
+<li>Pour mettre le focus et sélectionner une conversation, lire ou simplement effacer des messages non lus, appuyez sur <kbd>Espace</kbd>. Le focus restera sur l'élément que vous avez focalisé, ainsi vous pouvez continuer à naviguer vers d'autres conversations si vous préférez.
+<li>Une fois cette procédure terminée, désactivez le curseur tactile tout en exécutant la commande <code>CurseurPC</code> deux fois rapidement.
+</ol>
+
+<h2><a name=issues>Problèmes connus</a></h2>
+
+<p>
+Les problèmes présentés dans cette section peuvent être résolus dans les futures versions de script et / ou Skype UWP
+mais ne sont pas traités à ce jour.
+
+<p>
+L'opinion de cet auteur est la suivante: il existe de graves lacunes dans toutes les versions suivantes de Skype UWP:
+11.19.0.856,
+12.7.0.597,
+12.8.0.480:
+12.8.0.487:
+<ul>
+<li>La saisie des chiffres ne fait pas partie de la numérotation du clavier numérique; il faut cliquer ou appuyer sur <kbd>Espace</kbd> sur les touches numériques du clavier numérique. C'est fastidieux pour les utilisateurs de clavier uniquement pour des tâches telles que la saisie d'un code d'authentification par téléconférence à dix chiffres.
+Ces scripts rendent ce travail si possible pour le moment.
+<li>La redirection de la sortie audio de Skype UWP vers un périphérique audio autre que celui par défaut redirige l'appel audio, mais pas les sons de Skype tels que les sonneries.
+<li>Lorsque Skype UWP devient inactif après une période d'inactivité, son interface disparaît jusqu'à ce que la fenêtre soit à nouveau focalisée.
+La récupération à partir de cet état peut prendre plusieurs secondes ou une minute dans l'expérience de cet auteur, au cours de laquelle JAWS risque de ne plus répondre.
+La durée requise peut varier considérablement en fonction du matériel, des autres tâches en cours, de la taille de l'historique de Skype, etc.
+Si vous rencontrez ce problème, une solution de contournement possible est <kbd>Alt+Tab</kbd> afin de sortir de la fenêtre Skype UWP lorsque vous réalisez que tout n'est pas encore disponible, puis à revenir une minute plus tard après la restauration de l'interface.
+</ul>
+
+<p>
+Selon l'expérience de l'auteur du script,
+ces scripts peuvent être chargés depuis n'importe quelle autre application, parfois à la place des scripts pour cette application, lorsqu'une notification Skype arrive ou lorsque Skype termine une mise à jour de base de données volumineuse.
+La solution de contournement pour cela est <kbd>Alt+Tab</kbd> deux fois pour recharger les scripts corrects pour l'application focalisée. Ce problème semble s'appliquer aux apps UWP en général et constitue probablement un problème de JAWS.
+
+<p>
+Il n'y a pas le système habituel dans ces scripts pour naviguer parmi les messages de discussion (chat en anglais). Historiquement, cela a été fait avec <kbd>Alt</kbd> avec
+des chiffres pour lire les messages récents, et <kbd>Alt</kbd> avec les flèches, <kbd>Origine</kbd>, <kbd>Find</kbd>, et <kbd>5 du pavé numérique</kbd> pour lire
+séquentiellement tout en gardant une trace de la position actuelle. La liste des messages de discussion (chat en anglais) de Skype UWP ne semble pas offrir ce type de navigation
+sans problèmes de performance et de fiabilité, selon de nombreuses expérimentations au cours du développement du script.
+
+<p>
+Certaines fenêtres émergentes et certains écrans intégrer n'ont pas de noms à l'écran et ne sont donc pas facilement identifiables par JAWS. Les exemples comprennent
+<ul>
+<li>Profils d'écrans.
+<li>La fenêtre émergente émoticônes (en appuyant sur "Choisir une émoticône").
+</ul>
+
+<p>
+JAWS devrait annoncer automatiquement les événements suivants au fur et à mesure qu'ils se produisent, mais ne le fait pas actuellement:
+<ul>
+<li>Messages de discussion entrants dans la fenêtre de discussion active.
+<li>L'apparence d'un message de notification dans l'app de Skype UWP, tel que "Mise à jour des conversations."
+</ul>
+Les tentatives d'annonce des discussions entrantes avant la publication du script ont entraîné d'importants problèmes de performances et l'annonce de nombreux messages de discussion autres que ceux focalisés lors d'un défilement de l'historique des messages.
+
+<p>
+Dans Skype UWP 12.7.0.597 et 12.8.0.480 mais pas dans Skype UWP 11.19.0.856,
+présences en ligne (Connecté, Absent, Ne pas déranger) ne sont pas signalés aux lecteurs d'écran.
+Dans les versions 12.8.0.480 et .487, un autre indicateur indique parfois "actif maintenant" et toutefois des indications similaires.
+
+<p>
+JAWS peut dire "zone de liste" à plusieurs reprises lorsque le focus arrive sur certains contrôles de liste.
+
+</body></html>
