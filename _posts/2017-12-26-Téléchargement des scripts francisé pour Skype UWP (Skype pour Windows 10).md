@@ -144,7 +144,7 @@ BlindHelp!
 *   Script skypeuwp.jss
 
         Nous avons conservé le script de la dernière version américaine.
-		        Les utilisateurs qui souhaitent modifier la touche de Commande utilisée comme préfixe pour de nombreuses commandes, par défaut étant la touche crochet gauche ([), peuvent taper la Commande JAWSKey+C pour la modifier. Le changement survit grâce au script Skype et aux mises à jour de JAWS.
+		        Les utilisateurs qui souhaitent modifier la touche de Commande utilisée comme préfixe pour de nombreuses commandes, par défaut étant la touche crochet gauche ([), peuvent taper la Commande Touche JAWS+C pour la modifier. Le changement survit grâce au script Skype et aux mises à jour de JAWS.
 				Nous vous recommandons de modifier ce script par la touche $
 Ce script n'a pas été modifié pour être utilisé sur un clavier français (azerty).            
 Seulment c'est utilisable sur un clavier anglais (qwerty).                
@@ -157,7 +157,8 @@ Pour revenir à nouveau sur le clavier en français (azerty), lorsque vous ne vo
 
 *   Script skypeuwp.qsm
 
-	        Nous avons conservé le script de la dernière version américaine.
+	        Celui-ci a été traduit en français dans la nouvelle mouture.          
+            Ce script comporte la traduction des messages utilisé dans ce script.
 
 *   Script skypeuwp_jcpdict.jsb
 
@@ -275,14 +276,16 @@ Dans cette page il nous donne les infos des derniers changements des scripts am�
     Pour les personnes qui ont un Windows 10, ils doivent avoir installé le Skype UWP (Skype pour windows 10).
     Pour les personnes qui ont un Windows 7, ils doivent avoir installé le Skype Electron.
     C'est-à-dire le Skype 8.25.
-    L'utilisation des autres scripts sera traité dans un prochain article.
-
+    Dans ce cas la, vous devez télécharger puis installer les scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10)
+    Consulter l'article sur BlindHelp.github.io:
+[Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10)](https://blindhelp.github.io/T%C3%A9l%C3%A9chargement-des-scripts-francis%C3%A9-pour-Skype-8-(Electron-app,-Skype-pour-Windows-ant%C3%A9rieure-%C3%A0-10)/)
+    
     Ces scripts pour Skype UWP, également appelé Skype pour Windows 10, requièrent JAWS 18.0 ou supérieur. (Les versions de JAWS antérieures à 18.0 ne prennent pas en charge les applications UWP (Universal Windows Platform).
 
 [Retour au sommaire](#Sommaire)
 
 # À propos de  la touche crochet ouvert,  et des commandes par frappes successives (commandes séquentielles). <a id="mark15"></a>  
-    Les commandes du script Skype UWP sont des commandes par frappes successives (commandes séquentielles), plutôt que des combinaisons multi-touches. Cela permet d'éviter les collisions entre les commandes par frappes successives (commandes séquentielles), du script et les séquences de touches d'application natives. Toutes ces séquences de touches commencent par une touche de préfixe commune, crochet ouvert "[" par défaut. Les utilisateurs peuvent modifier la touche de préfixe si nécessaire en tapant crochet ouvert [ suivi par JAWSKey+C ou Insert+C. Le changement survivra à travers le script et les mises à jour de JAWS.
+    Les commandes du script Skype UWP sont des commandes par frappes successives (commandes séquentielles), plutôt que des combinaisons multi-touches. Cela permet d'éviter les collisions entre les commandes par frappes successives (commandes séquentielles), du script et les séquences de touches d'application natives. Toutes ces séquences de touches commencent par une touche de préfixe commune, crochet ouvert "[" par défaut. Les utilisateurs peuvent modifier la touche de préfixe si nécessaire en tapant crochet ouvert [ suivi par Touche JAWS+C ou Insert+C. Le changement survivra à travers le script et les mises à jour de JAWS.
     Remarque. Dans le fichier skypeuwp.jkm, vous trouverez par exemple [&1. Cette notation vous informe que la commande est la frappe successive de crochet ouvert  [, 1. La lettre & est un séparateur. Nous noterons cette commande: crochet ouvert  [ 1.
     Dans le guide des utilisateurs des scripts Skype UWP  (en anglais) la touche de préfixe s'appellera Command;  donc, par défaut, Commande 1 signifie qu'il faut Frappez crochet ouvert [ suivi de 1.
     Cette touche de préfixe crochet ouvert [  est utiliser sous un clavier qwerty (clavier en anglais) et non sous un clavier azerty (clavier en français).
@@ -292,7 +295,7 @@ Dans cette page il nous donne les infos des derniers changements des scripts am�
     Seulment c'est utilisable sur un clavier anglais (qwerty).
     Pour l'instant vous pouvez basculer votre clavier azerty (clavier en français) par un appui sur les touches Maj+Alt afin d'être en clavier anglais (qwerty), lorsque vous êtes dans la fenêtre de l'application Skype UWP.
     Pour revenir à nouveau sur le clavier en français (azerty), lorsque vous ne vous trouvez pas sur la fenêtre de l'application Skype UWP faire un appui sur les touches Maj+Alt afin d'être de nouveau en clavier français.
-    Les utilisateurs qui souhaitent modifier la touche de Commande utilisée comme préfixe pour de nombreuses commandes, par défaut étant la touche crochet gauche ([), peuvent taper la Commande JAWSKey+C pour la modifier. Le changement survit grâce au script Skype et aux mises à jour de JAWS.
+    Les utilisateurs qui souhaitent modifier la touche de Commande utilisée comme préfixe pour de nombreuses commandes, par défaut étant la touche crochet gauche ([), peuvent taper la Commande Touche JAWS+C pour la modifier. Le changement survit grâce au script Skype et aux mises à jour de JAWS.
 Nous vous recommandons de modifier cette touche par la touche $              
     Si vous êtes un scripteur, et que vous aimeriez l'adapter pour être utilisé dans notre langue en français, merci beaucoup de faire les changements nécessaires, et de l'envoyer à ma boîte de réception, afin de le partager avec nos amis!
     Merci.        
@@ -369,6 +372,8 @@ BlindHelp n'est pas responsable de toute mauvaise manipulations qui son occasion
 [Retour au sommaire](#Sommaire)
 
 # Liens utils: <a id="mark21"></a>
+ Consulter aussi l'article  pour une Aide des scripts francisé pour Skype UWP (Skype pour Windows 10) sur BlindHelp.github.io :         
+[Aide des scripts francisé pour Skype UWP (Skype pour Windows 10)](https://blindhelp.github.io/Aide-des-scripts-francis%C3%A9-pour-Skype-UWP-(Skype-pour-Windows-10)/)                           
 [Pour plus d'info voici la page des scripts Skype UWP (Windows 10) en anglais de Doug Lee:](http://www.dlee.org/skype/uwp/)                           
  Dans cette page il nous donne les infos des derniers changements des scripts américain Skype UWP (Windows 10)...         
  Consultez le guide des utilisateurs des scripts Skype UWP pour plus de détails sur les commandes et les fonctionnalités (page en anglais).             
