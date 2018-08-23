@@ -373,7 +373,7 @@ BlindHelp n'est pas responsable de toute mauvaise manipulations qui son occasion
 [Retour au sommaire](#Sommaire)
 
 # Liens utils: <a id="mark21"></a>
- Consulter aussi l'article  pour une Aide des scripts francisé pour Skype UWP (Skype pour Windows 10) sur BlindHelp.github.io :         
+ Consulter aussi l'article  pour une Aide des scripts francisé pour Skype UWP (Skype pour Windows 10) sur BlindHelp.github.io:         
 [Aide des scripts francisé pour Skype UWP (Skype pour Windows 10)](https://blindhelp.github.io/Aide-des-scripts-francis%C3%A9-pour-Skype-UWP-(Skype-pour-Windows-10)/)                           
 [Pour plus d'info voici la page des scripts Skype UWP (Windows 10) en anglais de Doug Lee:](http://www.dlee.org/skype/uwp/)                           
  Dans cette page il nous donne les infos des derniers changements des scripts américain Skype UWP (Windows 10)...         
