@@ -273,7 +273,7 @@ Source:
     Pour les personnes qui ont un Windows 10, ils doivent avoir installé le Skype UWP (Skype pour Windows 10).
 	    Dans ce cas la, vous devez télécharger puis installer les scripts francisé pour Skype UWP (Skype pour Windows 10)
     Consulter l'article sur BlindHelp.github.io:
-[Téléchargement des scripts francisé pour Skype UWP (Skype pour Windows 10)](https://blindhelp.github.io/T%C3%A9l%C3%A9chargement-des-scripts-francis%C3%A9-pour-Skype-UWP-(Skype-pour-Windows-10)/)
+    [Téléchargement des scripts francisé pour Skype UWP (Skype pour Windows 10)](https://blindhelp.github.io/T%C3%A9l%C3%A9chargement-des-scripts-francis%C3%A9-pour-Skype-UWP-(Skype-pour-Windows-10)/)
     
     Ces scripts pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) requièrent JAWS 17.0 ou supérieur.
 
@@ -362,7 +362,7 @@ BlindHelp n'est pas responsable de toute mauvaise manipulations qui son occasion
 [Retour au sommaire](#Sommaire)
 
 # Liens utils: <a id="mark21"></a>
- Consulter aussi l'article  pour une Aide des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) sur BlindHelp.github.io :         
+ Consulter aussi l'article  pour une Aide des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) sur BlindHelp.github.io:         
 [Aide des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10)](https://blindhelp.github.io/Aide-des-scripts-francis%C3%A9-pour-Skype-8-(Electron-app,-Skype-pour-Windows-ant%C3%A9rieure-%C3%A0-10)/)                           
 [Pour plus d'info voici la page des scripts Skype 8 (Electron) en anglais de Doug Lee:](http://dlee.org/skype/electron/)                           
  Dans cette page il nous donne les infos des derniers changements des scripts américain Skype 8 (Electron)...         
