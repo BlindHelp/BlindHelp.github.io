@@ -278,6 +278,7 @@ Dans cette page il nous donne les infos des derniers changements des scripts am�
     C'est-à-dire le Skype 8.25.
     Dans ce cas la, vous devez télécharger puis installer les scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10)
     Consulter l'article sur BlindHelp.github.io:
+
 [Téléchargement des scripts francisé pour Skype 8 (Electron app, Skype pour Windows antérieure à 10)](https://blindhelp.github.io/T%C3%A9l%C3%A9chargement-des-scripts-francis%C3%A9-pour-Skype-8-(Electron-app,-Skype-pour-Windows-ant%C3%A9rieure-%C3%A0-10)/)
     
     Ces scripts pour Skype UWP, également appelé Skype pour Windows 10, requièrent JAWS 18.0 ou supérieur. (Les versions de JAWS antérieures à 18.0 ne prennent pas en charge les applications UWP (Universal Windows Platform).
