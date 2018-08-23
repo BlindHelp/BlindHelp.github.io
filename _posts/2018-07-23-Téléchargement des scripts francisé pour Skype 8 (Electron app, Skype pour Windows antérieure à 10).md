@@ -271,8 +271,8 @@ Source:
     C'est-à-dire le Skype 8.25.
     Les applications UWP étant spécifiques à Windows 10.
     Pour les personnes qui ont un Windows 10, ils doivent avoir installé le Skype UWP (Skype pour Windows 10).
-	    Dans ce cas la, vous devez télécharger puis installer les scripts francisé pour Skype UWP (Skype pour Windows 10)            
- Consulter l'article sur BlindHelp.github.io:              
+    Dans ce cas la, vous devez télécharger puis installer les scripts francisé pour Skype UWP (Skype pour Windows 10)
+ Consulter l'article sur BlindHelp.github.io:
 [Téléchargement des scripts francisé pour Skype UWP (Skype pour Windows 10)](https://blindhelp.github.io/T%C3%A9l%C3%A9chargement-des-scripts-francis%C3%A9-pour-Skype-UWP-(Skype-pour-Windows-10)/)
     
     Ces scripts pour Skype 8 (Electron app, Skype pour Windows antérieure à 10) requièrent JAWS 17.0 ou supérieur.
