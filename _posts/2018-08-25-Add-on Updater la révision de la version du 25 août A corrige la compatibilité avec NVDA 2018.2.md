@@ -1,5 +1,5 @@
 ---
-title: Add-on Updater: la révision de la version du 25 août A corrige la compatibilité avec NVDA 2018.2
+title: Add-on Updater la révision de la version du 25 août A corrige la compatibilité avec NVDA 2018.2
 layout: post
 author: BlindHelp
 ---
