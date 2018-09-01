@@ -10,29 +10,29 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!               
 Il y a quelques jours,j'ai publié un article sur BlindHelp.github.io:    
 [Nous vous montrons en quelques étapes comment vous pouvez activer l'explorateur de fichiers du futur dans lequel ils travaillent déjà en Microsoft](https://blindhelp.github.io/Nous-vous-montrons-en-quelques-%C3%A9tapes-comment-vous-pouvez-activer-l'explorateur-de-fichiers-du-futur-dans-lequel-ils-travaillent-d%C3%A9j%C3%A0-en-Microsoft/)      
- une alternative à un navigateur présent dans Windows 10, mais caché qui pouvait être activé par l'option d'exécuter ou depuis un raccourci, et bien que le comportement de NVDA avec ce navigateur soit correct et rapide, mais la vérité est que ses options de configuration sont limitées, ne permettant pas d’afficher les extensions, trier par liste et d’autres situations que beaucoup n’aiment pas.           
+ Une alternative à un navigateur présent dans Windows 10, mais caché qui pouvait être activé par l'option d'exécuter ou depuis un raccourci, et bien que le comportement de NVDA avec ce navigateur soit correct et rapide, mais la vérité est que ses options de configuration sont limitées, ne permettant pas d’afficher les extensions, trier par liste et d’autres situations que beaucoup n’aiment pas.           
 J'ai donc demandé à notre ami Google quelles autres alternatives existent et je vous dis qu'il y a plus de 20 explorateurs de fichiers que nous pourrions utiliser.                    
 Sur ce grand nombre de navigateurs alternatifs, j'en ai seulement essayé un appelé Explorer++, et je vous dis que son comportement avec NVDA est excellent, il n'y a pratiquement aucune différence entre les options offertes par le navigateur natif de Windows, mais il présente des fonctionnalités supplémentaires intéressantes. Il travaille dans des architectures de 32 ou 64 bits, il est portable et compatible avec Windows XP, 7, 8, 8.1 et 10.           
-Il peut être mis en français (y compris d'autres langues), il peut fonctionner simultanément avec le navigateur natif ou le configurer pour fonctionner comme navigateur par défaut, il permet de copier avec une simple commande le chemin d'un fichier ou d'un dossier, il peut ouvrir plus d'un onglet, qu'en théorie, rationalise la gestion des fichiers, et permet des actions supplémentaires que le navigateur natif de Windows n’a pas, comme par exemple, il permet de créer un fichier texte avec la liste des éléments présents dans un dossier, modifier les attributs d’un fichier ou d’un dossier, diviser ou unir des fichiers , passez de la fenêtre de travail à toutes les options du panneau de configuration, accédez aux dossiers de l'imprimante, aux connexions réseau, créez des signets dans les dossiers et d'autres options qui en font une alternative intéressante.               
+Il peut être mis en français (y compris d'autres langues), il peut fonctionner simultanément avec le navigateur natif ou le configurer pour fonctionner comme navigateur par défaut, il permet de copier avec une simple commande le chemin d'un fichier ou d'un dossier, il peut ouvrir plus d'un onglet, qu'en théorie, rationalise la gestion des fichiers, et permet des actions supplémentaires que le navigateur natif de Windows n’a pas, comme par exemple, il permet de créer un fichier texte avec la liste des éléments présents dans un dossier, modifier les attributs d’un fichier ou d’un dossier, diviser ou unir des fichiers , passez de la fenêtre de travail à toutes les options du panneau de configuration, accédez aux dossiers de l'imprimante, aux connexions réseau, créez des signets (marque-pages) dans les dossiers et d'autres options qui en font une alternative intéressante.               
 Ci-dessous, je colle une description du programme avec des renseignements glaner sur la toile.                       
 
 # Description d'Explorer++
 Explorer++ est une alternative améliorée, plus légère et plus rapide que l'Explorateur de fichiers Windows. Il est également plus puissant et efficace que ce dernier. Certaines de ses caractéristiques sont les suivantes:           
 
-* 100% portable             
-* La navigation dans les fichiers peut être séparée par des onglets, ce qui vous permet de gérer facilement plusieurs répertoires            
-* Aperçu des documents lorsqu'ils sont sélectionnés      
-* Possibilité de définir des raccourcis clavier pour une navigation rapide        
-* Interface utilisateur entièrement configurable         
-* Prise en charge complète de la fonction drag-and-drop (glisser-déposer) de fichiers avec d'autres applications           
-* Opérations avancées de gestion de fichiers, telles que la fusion et division (merge and split)         
-* Modifier les dates des documents et des attributs           
-* Option pour enregistrer les listages de répertoires               
-* Utiliser des onglets comme signet             
-* Rechercher des fichiers par nom et par attributs         
-* Échange rapide entre différents mode d'affichage de répertoire (Icônes, Liste, Détail, Miniature et  Mosaïque)         
-* Filtres de fichiers             
-* Langue configurable          
+* 100% portable;             
+* La navigation dans les fichiers peut être séparée par des onglets, ce qui vous permet de gérer facilement plusieurs répertoires;            
+* Aperçu des documents lorsqu'ils sont sélectionnés;      
+* Possibilité de définir des raccourcis clavier pour une navigation rapide;        
+* Interface utilisateur entièrement configurable;         
+* Prise en charge complète de la fonction drag-and-drop (glisser-déposer) de fichiers avec d'autres applications;           
+* Opérations avancées de gestion de fichiers, telles que la fusion et division (merge and split);         
+* Modifier les dates des documents et des attributs;           
+* Option pour enregistrer les listages de répertoires;               
+* Utiliser des onglets comme signets (marque-pages) via une barre de favoris pour accéder en un clic à vos fichiers les plus utilisés;             
+* Rechercher des fichiers par nom et par attributs;         
+* Changement rapide entre différents mode d'affichage de répertoire (Icônes, Liste, Détail, Miniature et Mosaïque);         
+* Filtres de fichiers;             
+* Langue configurable.          
 
 Explorer++ a également une option pour remplacer complètement l'Explorateur Windows, en effectuant automatiquement les modifications appropriées dans le registre.          
 Le programme occupe, une fois installé, 1,49 Mo.         
@@ -40,7 +40,7 @@ Le programme occupe, une fois installé, 1,49 Mo.
 # Page officielle (en anglais):
 [explorerplusplus.com](https://explorerplusplus.com/)                 
 
-Note: le programme est téléchargé en anglais et à partir du lien précédent, il y a un lien  nommé Translations (traduction) où le français apparaît en  format de fichier .dll.
+Note: le programme est téléchargé en anglais et à partir du lien précédent, il y a un lien  nommé Translations (traduction) où le français apparaît en  format de fichier .dll.                
 Pas de panique! en dessous je vous explique tout!                 
 
 # Licence
@@ -67,6 +67,7 @@ Si vous souhaitez consulter la page de téléchargement (en anglais), cliquez su
 Notez que même si ces versions vous permettent d’essayer plus rapidement des fonctionnalités plus récentes, il est également plus probable que certaines fonctionnalités soient brisées ou incomplètes. Si vous trouvez un bug, signalez-le dans le [forum](https://explorerplusplus.com/forum/viewforum.php?f=5) (en anglais).                 
 Les liens ci-dessous seront pour la build la plus récente qui a eu lieu:               
 Cliquez sur l'un des deux liens ci-dessous en fonction de votre version de Windows installée (soit 32 bits ou 64 bits).                              
+
 [Explorer++ Development Build 32-bit](https://ci.appveyor.com/api/projects/derceg/explorerplusplus/artifacts/explorer++_x86.zip?branch=master&job=Platform%3A%20Win32)               
 Nom du fichier:        
 explorer++_x86.zip               
@@ -95,8 +96,22 @@ explorer++_1.3.4_x86.zip
 Nom du fichier:        
 explorer++_1.3.4_x64.zip                
 
-Si vous souhaitez consulter la page de téléchargement (en anglais), cliquez sur le lien ci-dessous:                
+Pour Consulter le journal des changements  pour  la version1.3.4 (en anglais), cliquez sur le lien ci-dessous:                
+[Changelog](https://explorerplusplus.com/changelog#version_1.3.4)                  
+Si vous souhaitez télécharger le fichier contenant le code source pour la version 1.3.4, cliquez sur le lien ci-dessous:                
+[Source code](https://explorerplusplus.com/software/explorer++_1.3.4_src.zip)                
+
+Si vous souhaitez consulter la page de téléchargement pour les versions les plus anciennes (en anglais), cliquez sur le lien ci-dessous:                
 [Download](https://explorerplusplus.com/download)             
+Dans cette page, vous pouvez trouver et télécharger  les  versions les plus anciennes:                      
+Version 1.3.3 (29/10/2011)        
+Version 1.3.2 (11/10/2011)           
+Version 1.3.1 (05/09/2011)              
+Version 1.3 (20/08/2011)             
+Version 1.2 (13/09/2010)            
+Version 1.1 (05/04/2010)       
+Version 1.0.0.0 (23/11/2009)        
+Vous pouvez également voir le changelog(journal des changements) pour chaque version, et aussi télécharger le fichier contenant le code source et lire d'autres informations sur ces versions.              
 
 # Traductions
 Vous trouverez ci-dessous un lien pour téléchargez le patch de traduction French.              
@@ -177,6 +192,30 @@ explorer++_win+e_binding.ahk
 # Liens
 Si vous souhaitez consulter le repository (référentiel) du programme, cliquez sur le lien ci-dessous:                
 [Explorer++ on GitHub](https://github.com/derceg/explorerplusplus)                  
+
+# Signaler des problèmes
+S'il vous plaît envoyer des bogues ou des problèmes en anglais à:             
+[david@explorerplusplus.com](mailto: david@explorerplusplus.com)       
+
+# Sources à consulter d'Explorer++ (pages en anglais)
+Pour aller à la page d'accueil d'Explorer++:                   
+[Home](https://explorerplusplus.com/)          
+Pour consulter les caractéristiques d'Explorer++:                    
+[Features](https://explorerplusplus.com/features)              
+Pour la visualisation des captures d'écran d'Explorer++:          
+[Screenshots](https://explorerplusplus.com/screenshots)              
+Pour le téléchargement d'Explorer++:           
+[Download](https://explorerplusplus.com/download)            
+Pour le téléchargement de patch de traductions d'Explorer++:           
+[Translations](https://explorerplusplus.com/translations)              
+Pour consulter la documentation d'Explorer++:          
+[Documentation](https://explorerplusplus.readthedocs.io/en/latest/)                    
+Pour aller à la FAQ  (Frequently Asked Questions) ou La Foire Aux Questions d'Explorer++:             
+[FAQ](https://explorerplusplus.com/faq)           
+Pour aller au forum d'Explorer++:            
+[Forum](https://explorerplusplus.com/forum)                     
+Pour se mettre en contact:             
+[Contact](https://explorerplusplus.com/contact)                      
 
 Voilà donc,  tout est dit au sujet d'Explorer++ Une alternative pour Windows Explorer sans échec!                
 Je vous souhaite une bonne découverte!         
