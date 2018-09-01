@@ -1,5 +1,5 @@
 ---
-title: `Explorer++` Une alternative pour Windows Explorer sans échec
+title: ExplorerPlusPlus Une alternative pour Windows Explorer sans échec
 layout: post
 author: BlindHelp
 ---
