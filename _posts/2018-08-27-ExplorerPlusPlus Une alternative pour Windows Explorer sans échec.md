@@ -124,6 +124,12 @@ Pour obtenir une liste complète des versions, consultez la page [AppVeyor](http
 Note Très Importante:            
 Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
 Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+
+Une boîte de dialogue s'ouvre avec le message suivant:          
+                  La version de la DLL de traduction spécifié ne correspond pas à la version de l'exécutable.         
+				  OK             
+				  Appuyez sur ce bouton pour fermer la boite de dialogue!                   
+
 Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
 Dans tous les cas, la langue par défaut sera l'anglais!         
 
@@ -171,6 +177,12 @@ Vous trouverez ci-dessous un lien pour téléchargez le patch de traduction Fren
 Note Très Importante:            
 Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
 Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+
+Une boîte de dialogue s'ouvre avec le message suivant:          
+                  La version de la DLL de traduction spécifié ne correspond pas à la version de l'exécutable.         
+				  OK             
+				  Appuyez sur ce bouton pour fermer la boite de dialogue!                   
+
 Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
 Dans tous les cas, la langue par défaut sera l'anglais!         
 
@@ -191,6 +203,12 @@ Télecharger (DLL):
 Note Très Importante:            
 Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
 Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+
+Une boîte de dialogue s'ouvre avec le message suivant:          
+                  La version de la DLL de traduction spécifié ne correspond pas à la version de l'exécutable.         
+				  OK             
+				  Appuyez sur ce bouton pour fermer la boite de dialogue!                   
+
 Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
 Dans tous les cas, la langue par défaut sera l'anglais!         
 
@@ -211,6 +229,12 @@ Explorer++FR.dll
 Note Très Importante:            
 Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
 Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+
+Une boîte de dialogue s'ouvre avec le message suivant:          
+                  La version de la DLL de traduction spécifié ne correspond pas à la version de l'exécutable.         
+				  OK             
+				  Appuyez sur ce bouton pour fermer la boite de dialogue!                   
+
 Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
 Dans tous les cas, la langue par défaut sera l'anglais!         
 
@@ -227,8 +251,14 @@ Redémarrez Explorer++ pour le franciser.
 Note: Par défaut la langue d'Explorer++ est en anglais.             
 
 Note Très Importante:            
-Le patch de traduction   de la version 1.3.5 n'est pas compatible avec cette Build en développement 1.4.0!  
+Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
 Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+
+Une boîte de dialogue s'ouvre avec le message suivant:          
+                  La version de la DLL de traduction spécifié ne correspond pas à la version de l'exécutable.         
+				  OK             
+				  Appuyez sur ce bouton pour fermer la boite de dialogue!                   
+
 Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
 Dans tous les cas, la langue par défaut sera l'anglais!         
 
@@ -388,8 +418,14 @@ Redémarrez Explorer++ pour le franciser.
 
 Note Très Importante:            
 Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!           
-Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
-Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
+Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                
+
+Une boîte de dialogue s'ouvre avec le message suivant:          
+                  La version de la DLL de traduction spécifié ne correspond pas à la version de l'exécutable.         
+				  OK             
+				  Appuyez sur ce bouton pour fermer la boite de dialogue!                   
+
+  Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
 Dans tous les cas, la langue par défaut sera l'anglais!         
 
 Par exemple, si vous êtes sous Windows 7 (32 bits), le chemin est:          
