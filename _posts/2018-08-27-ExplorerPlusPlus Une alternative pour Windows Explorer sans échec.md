@@ -30,7 +30,8 @@ Sommaire <a id="Sommaire"></a>
 - [Documentation](#mark18)
 - [Liens](#mark19)
 - [Signaler des problèmes](#mark20)
-- [Sources à consulter d'Explorer++ (pages en anglais)](#mark21)
+- [Configurations de base d'Explorer++](#mark21)
+- [Sources à consulter d'Explorer++ (pages en anglais)](#mark22)
 
 ## ExplorerPlusPlus Une alternative pour Windows Explorer sans échec <a id="mark0"></a>
 Coucou mes amis du blog de BlindHelp!               
@@ -120,6 +121,12 @@ Si vous souhaitez consulter la page de téléchargement (en anglais), cliquez su
 
 Pour obtenir une liste complète des versions, consultez la page [AppVeyor](https://ci.appveyor.com/project/derceg/explorerplusplus) pour ce projet (page en anglais).              
 
+Note Très Importante:            
+Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
+Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
+Dans tous les cas, la langue par défaut sera l'anglais!         
+
 [Retour au sommaire](#Sommaire)
 
 # Versions précédentes <a id="mark6"></a>
@@ -161,6 +168,12 @@ Vous pouvez également voir le changelog(journal des changements) pour chaque ve
 # Traductions <a id="mark8"></a>
 Vous trouverez ci-dessous un lien pour téléchargez le patch de traduction French.              
 
+Note Très Importante:            
+Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
+Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
+Dans tous les cas, la langue par défaut sera l'anglais!         
+
 [Retour au sommaire](#Sommaire)
 
 # Langue: French <a id="mark9"></a>
@@ -175,6 +188,12 @@ Dernière mise à jour:
 Télecharger (DLL):       
 [explorer++_1.3.5_FR.zip](https://explorerplusplus.com/software/translations/explorer++_1.3.5_FR.zip)                  
 
+Note Très Importante:            
+Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
+Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
+Dans tous les cas, la langue par défaut sera l'anglais!         
+
 Si vous souhaitez consulter la page des traductions (en anglais), cliquez sur le lien ci-dessous:                
 [Translations](https://explorerplusplus.com/translations)                         
 Une fois ouverte la page, Vous trouverez ci-dessous une liste des traductions disponibles pour Explorer++. Pour utiliser une traduction, extrayez simplement la DLL de traduction dans le même dossier que l'Explorer++.           
@@ -183,11 +202,17 @@ Une fois ouverte la page, Vous trouverez ci-dessous une liste des traductions di
 
 # Mise en place du patch de traduction French <a id="mark10"></a>
 Il suffit d'extraire la DLL de traduction dans le même dossier que l'exécutable Explorer++.            
-C'est-à-direDécompressez ce patch de traduction dans le dossier d’Explorer++,         
+C'est-à-dire décompressez ce patch de traduction dans le dossier d’Explorer++,         
 au même niveau que le fichier:           
 Explorer++.exe         
 La DLL en français est nommée:             
 Explorer++FR.dll             
+
+Note Très Importante:            
+Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!  
+Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
+Dans tous les cas, la langue par défaut sera l'anglais!         
 
 [Retour au sommaire](#Sommaire)
 
@@ -200,6 +225,12 @@ Dans l’onglet General, déroulez la liste avec Tab jusqu'à Language puis sél
 Redémarrez Explorer++ pour le franciser.           
 
 Note: Par défaut la langue d'Explorer++ est en anglais.             
+
+Note Très Importante:            
+Le patch de traduction   de la version 1.3.5 n'est pas compatible avec cette Build en développement 1.4.0!  
+Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
+Dans tous les cas, la langue par défaut sera l'anglais!         
 
 [Retour au sommaire](#Sommaire)
 
@@ -231,11 +262,14 @@ restreindre l'utilisation du fichier par défaut. Pour débloquer le fichier,
 cliquez avec le bouton droit sur le fichier depuis Windows Explorer, Explorer++,             
 ou toute autre méthode (c.-à-d. sur le bureau, si le fichier est là)           
 dans le menu contextuel, sélectionnez "Propriétés"             
-à partir des propriétés, cliquez sur le bouton "Débloquer" (s'il est visible - sinon, le fichier peut déjà être débloqué)            
+à partir des propriétés, cliquez sur le bouton ou la case à cocher "Débloquer" (s'il est visible - sinon, le fichier peut déjà être débloqué)            
 4. Déplacez le fichier dans le dossier "installation" d'Explorer++, généralement            
 `C:\Program Files\Explorer++` ou autre chose si vous avez peut-être nommé le dossier différemment)             
 5. Ça y est! Le fichier d'aide (en anglais) devrait maintenant s'ouvrir depuis Explorer++ en utilisant le              
 Menu Aide (Aide/Aide) ou Help menu (Help/Help) (si le menu est en anglais).          
+
+Note Très Importante:        
+Inutile de déplacez le fichier Explorer++ Help.chm, si vous avez une version Build en développement, car le fichier d'aide est déjà présent!            
 
 Revenez sur le site Web Explorer++ [http://www.explorerplusplus.com/download](http://www.explorerplusplus.com/download)         
 périodiquement pour les versions mises à jour du fichier d'aide(en anglais)  c'est vraiment "a work in progress" (un travaux en cours).                 
@@ -286,11 +320,89 @@ Si vous souhaitez consulter le repository (référentiel) du programme, cliquez 
 
 # Signaler des problèmes <a id="mark20"></a>
 S'il vous plaît envoyer des bogues ou des problèmes en anglais à:             
-[david@explorerplusplus.com](mailto: david@explorerplusplus.com)       
+[David Erceg](mailto:david@explorerplusplus.com)       
 
 [Retour au sommaire](#Sommaire)
 
-# Sources à consulter d'Explorer++ (pages en anglais) <a id="mark21"></a>
+# Configurations de base d'Explorer++ <a id="mark21"></a>
+Voici un tutoriel fait maison pour configurer Explorer++             
+Par exemple, si vous êtes sous Windows 10 (64 bits):          
+Une fois que vous vous avez extrait l'archive en .zip, il faut placez le dossier:            
+explorer++_x64            
+ou selon le nom que vous avez mis, ensuite  localiser le chemin suivant:           
+
+`C:\Programmes\`                 
+
+c'est-à-dire le disque: Windows (C:)             
+N'oubliez pas de faire entrée sur le bouton:        
+Continuer avec des droits d’administrateur automatiques               
+
+Ouvrir le dossier:        
+explorer++_x64          
+ou selon le nom que vous avez mis.               
+Chercher puis placer le curseur sur le fichier exécutable:                         
+Explorer++.exe          
+Faire menu contextuel ou Touche Applications, puis choisir:            
+Exécuter en tant qu’administrateur            
+Puis entrée.                  
+
+Ensuite chercher puis placer le curseur sur le fichier:            
+Explorer++ Help.chm                 
+Faire menu contextuel ou Touche Applications, puis choisir:              
+Propriétés             
+Vous pouvez faire aussi Alt+Entrée.              
+Tab jusqu'à la case à cocher:            
+Débloquer non coché  Alt+d                  
+Appuyez sur la barre d'espacement pour la coché.          
+Puis tab jusqu'au bouton OK.           
+
+Note Très Importante:        
+Inutile de placez le fichier Explorer++ Help.chm, si vous avez une version Build en développement, car le fichier d'aide est déjà présent!            
+
+Si vous avez  mis la DLL pour le français:             
+Explorer++FR.dll              
+(Seulement compatible avec la version d'Explorer++ 1.3.5)              
+N'oubliez pas de faire entrée sur le bouton:                    
+Continuer avec des droits d’administrateur automatiques            
+
+Maintenant, vous pouvez lancer le fichier           
+Explorer++.exe           
+afin de configurer la langue en français en premier.           
+Par défaut la langue d'Explorer++ est en anglais.             
+
+Déroulez le menu jusqu'à Tools Alt+T            
+Flèche haut une fois; pour avoir l'élément:       
+Options... O          
+Faire Entrée.         
+
+Nous sommes sur le premier onglet:      
+General             
+Tab jusqu'à:        
+Language: English              
+Une flèche bas jusqu'à:          
+Language: français             
+Tab jusqu'au bouton:     
+OK          
+Faire Entrée.          
+Redémarrez Explorer++ pour le franciser.           
+
+Note Très Importante:            
+Le patch de traduction   de la version 1.3.5 n'est pas compatible avec la Build en développement 1.4.0!           
+Inutile de le mettre dans le dossier qui contient l'exécutable Explorer++.exe, sinon il nous jette un message d'erreur en français, en disant que que la dll de traduction n'est pas compatible avec la version actuelle.                  
+Vous devrez supprimer ce patch de traduction French du dossier pour éviter que cet avertissement ne s'affiche!        
+Dans tous les cas, la langue par défaut sera l'anglais!         
+
+Par exemple, si vous êtes sous Windows 7 (32 bits), le chemin est:          
+
+`C:\Program Files (x86)\`
+
+Par exemple, si vous êtes sous Windows 7 (64 bits), le chemin est:          
+
+`C:\Program File\`
+
+[Retour au sommaire](#Sommaire)
+
+# Sources à consulter d'Explorer++ (pages en anglais) <a id="mark22"></a>
 Pour aller à la page d'accueil d'Explorer++:                   
 [Home](https://explorerplusplus.com/)          
 Pour consulter les caractéristiques d'Explorer++:                    
