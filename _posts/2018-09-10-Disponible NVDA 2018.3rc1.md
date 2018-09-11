@@ -16,7 +16,7 @@ Notes sur cette version:
 
 ### Pour télécharger NVDA 2018.3rc1 ###
 
-1. Accédez à la page pour télécharger NVDA 2018.3rc1](https://www.nvaccess.org/download?nvdaVersion=2018.3rc1).                 
+1. Accédez à la [page pour télécharger NVDA 2018.3rc1](https://www.nvaccess.org/download?nvdaVersion=2018.3rc1).                 
 2. Choisissez le montant que vous voulez faire comme don à NV Access, ou, pas faire un don pour cette fois, "Skip donation this time", entre les boutons radio disponibles.                
 3. Appuyez sur le bouton "DOWNLOAD".               
 
