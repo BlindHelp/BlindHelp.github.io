@@ -788,7 +788,7 @@ Folder type: / Dossier: Réseau
 Folder type: / Dossier: Imprimantes          
 Folder type: / Dossier: Corbeille           
 
-Si on fait une fois de plus Tab, nous avons une autre liste contenant les 51 éléments sous forme de cases à cocher; dans le cas où vous avez choisi le type de dossier general / général dans la liste déroulante, parfois les case à cocher son coché ou non coché (Cette configuration est par défaut(.           
+Si on fait une fois de plus Tab, nous avons une autre liste contenant les 50 éléments sous forme de cases à cocher; dans le cas où vous avez choisi le type de dossier general / général dans la liste déroulante, parfois les case à cocher son coché ou non coché (Cette configuration est par défaut(.           
 Note: Dans le cas où vous avez choisi un autre type de dossier dans la liste déroulante, et on fait Tab, nous avons une autre liste sous forme de cases à cocher avec un certain nombre d'éléments qui peuvent varier selon le type de dossier que nous avons choisi dans la liste déroulante, parfois les case à cocher son coché ou non coché (Cette configuration est par défaut(.           
 
 Appuyer sur la barre d'espacement ou la touche Entrée pour cochée  ou décochée l'élément sélectionné.             
