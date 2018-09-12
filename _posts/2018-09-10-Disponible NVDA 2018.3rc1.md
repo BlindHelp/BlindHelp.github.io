@@ -12,7 +12,12 @@ Les versions "release candidate" (rc) sont publiées afin que les utilisateurs d
 
 Notes sur cette version:               
 
-- Comme rapporté par NV Access, quelques changements dans NVDA 2018.3 ils font que le module complémentaire NvDARemote ne fonctionne pas correctement. Les auteurs ont veillé à ce qu'une nouvelle version du module soit publiée dès que la version stable de NVDA 2018.3 sera disponible.
+- Comme rapporté par NV Access, quelques changements dans NVDA 2018.3 ils font que le module complémentaire NVDARemote ne fonctionne pas correctement. Les auteurs ont veillé à ce qu'une nouvelle version du module soit publiée dès que la version stable de NVDA 2018.3 sera disponible.
+
+Attention, ne vous précipitez pas tout de suite sur cette version de NVDA si vous utilisez des modules complémentaires car il y a un grand changement  dans cette version et ces modules complémentaires ne sont peut être pas compatibles avec cette version.             
+Donc laissez le temps aux développeurs de mettre à niveau leurs modules et utilisez cette version en version portable jusqu'à ce quelle vous convienne.                 
+
+Merci beaucoup à notre ami Paul de nous avoir donné cette information.               
 
 ### Pour télécharger NVDA 2018.3rc1 ###
 
