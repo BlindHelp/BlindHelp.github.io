@@ -26,7 +26,7 @@ Voicile le message de Joseph Lee  traduit en français:
 Salut tout le monde,           
 
 Oui, la ligne dans l'objet dit tout: Add-on Updater (preuve de concept) la build du 28 septembre vérifie désormais les mises à jour pour les versions du module complémentaire Remote Support! Cela nous a été demandé
-par au moins un utilisateur, et  fournir le module complémentaire Remote 2.2 à plus de gens rapidement.               
+par au moins un utilisateur, et  pouvoir fournir le module complémentaire [Remote 2.2](https://nvdaremote.com/remote-2.2.nvda-addon) à plus de gens rapidement.               
 
 Après l'installation de la build  du 28 septembre de Add-on Updater, une fois de plus sur Check for add-on updates (bien sûr, redémarrez NVDA après avoir installé le Add-on Updater). Si vous utilisez des    versions précédentes que la 2.2 du module complémentaire Remote, vous serez invité à mettre à jour.                
 
