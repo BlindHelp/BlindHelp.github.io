@@ -21,7 +21,7 @@ Cela a été une mise à jour attendue par beaucoup, car sans lui il y a des uti
 
 # Télécharger  NVDA Remote 2.2 #
 
-[NVDA Remote 2.2 est déjà disponible en téléchargement officiel par ici:](https://addons.NVDA-Project.org/files/Get.php?file=nvdaremote)
+[NVDA Remote 2.2 est déjà disponible en téléchargement officiel en cliquant ici:](https://addons.NVDA-Project.org/files/Get.php?file=nvdaremote)
 
 [Voir ce module complémentaire sur le site Web officiel de NVDA](https://addons.NVDA-Project.org/addons/nvdaremote.fr.html)
 
@@ -38,7 +38,7 @@ Joseph
 
 Merci à Joseph Lee pour cette information très importante.           
 
-D'une autre part et afin  d'aider à la mise à jour de NVDA Remote 2.2, le module complémentaire Addon Updater, est mis à jour vers la version du 28 septembre. Donc nous pouvons mettre à jour depuis le menu outils tout d’abord, redémarrez NVDA et puis mettre à jour NVDA Remote et tout cela ! sans avoir à passer par le web Mais si vous préférez le téléchargements manuels, vous pouvez cliquer sur les liens qu'ils se trouvent dans cet article.    
+D'une autre part et afin  d'aider à la mise à jour de NVDA Remote 2.2, le module complémentaire Addon Updater, est mis à jour vers la version du 28 septembre. Donc nous pouvons mettre à jour depuis le menu Outils tout d’abord, puis redémarrez NVDA et ensuite mettre à jour NVDA Remote et tout cela sans avoir à passer par le Web! Mais si vous préférez le téléchargements manuels, vous pouvez cliquer sur les liens qu'ils se trouvent dans cet article.    
 
 Voici une nouvelle build de:                       
 [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html)                   
