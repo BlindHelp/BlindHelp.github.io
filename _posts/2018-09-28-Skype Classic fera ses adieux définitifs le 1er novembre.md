@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Vendredi 28 septembre 2018</footer>
 
 Coucou mes amis du blog de BlindHelp!  
-La nouvelle ne sera pas forcément facile à entendre pour les fans de la version originale de Skype. Mais il va falloir être fort et faire son deuil, tout en passant à la dernière version en date du logiciel de messagerie (Skype 835470)             
+La nouvelle ne sera pas forcément facile à entendre pour les fans de la version originale de Skype. Mais il va falloir être fort et faire son deuil, tout en passant à la dernière version en date du logiciel de messagerie (Skype 835470) ; disponible en novembre.                    
 
 [Télécharger Skype | Appels gratuits | Messagerie instantanée](https://www.skype.com/fr/get-skype/download-skype-for-desktop/) 
 Skype pour Bureau Disponible pour Windows, Mac OS X et Linux.             
@@ -34,7 +34,7 @@ Reste à savoir maintenant si les utilisateurs vont (re) faire confiance à Skyp
 # Source de l'information: #
 [Microsoft is ending support for Skype Classic on November 1st - The Verge[(https://www.theverge.com/2018/9/27/17911174/microsoft-skype-classic-shutdown-date)                    
 
-sur ce, je vous souhaite un bon chat avec la dernière version Skype 835470!                 
+sur ce, je vous souhaite un bon chat avec la dernière version Skype 835470 ; disponible en novembre!                 
 Amusez-vous bien!                   
 @+            
 BlindHelp!                     
