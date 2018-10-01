@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Vendredi 28 septembre 2018</footer>
+<footer>Vendredi 28 Septembre 2018</footer>
 
 Coucou mes amis du blog de BlindHelp!  
 La nouvelle ne sera pas forcément facile à entendre pour les fans de la version originale de Skype. Mais il va falloir être fort et faire son deuil, tout en passant à la dernière version en date du logiciel de messagerie (Skype 835470) ; disponible en novembre.                    
