@@ -25,7 +25,7 @@ Le principal avantage du Webmail, c’est qu’il est possible de consulter ses 
 Il suffit juste de posséder ses identifiants et se connecter via un navigateur.             
 C’est notamment pratique lors de déplacements à l’étranger.                
 Autre atout : il n’y a rien à installer sur son matériel informatique et il n’y a pas non de mises à jour à effectuer au fil du temps pour corriger les failles de sécurité, les bugs éventuels ou ajouter de nouvelles fonctionnalités.                  
-De plus, la plupart reposent sur le protocole IMAP [Interactive Message Access Protocol](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) qui permet une consultation et une gestion à plusieurs de la messagerie.                  
+De plus, la plupart reposent sur le protocole IMAP [(Interactive Message Access Protocol)](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) qui permet une consultation et une gestion à plusieurs de la messagerie.                  
 A l’inverse, leur utilisation peut avoir pour inconvénient la limitation de la taille des pièces jointes ou de l’espace de stockage, critères qui varient selon le fournisseur de l’adresse email.             
 
 # Quelques Webmails célèbres #
