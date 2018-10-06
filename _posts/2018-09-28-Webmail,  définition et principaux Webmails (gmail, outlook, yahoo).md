@@ -14,8 +14,8 @@ Un Webmail est une des deux façons de consulter son courrier électronique (cou
 Il est ainsi possible de consulter ses emails :                
 via un client de messagerie (logiciel classique comme [Microsoft Outlook](https://outlook.live.com/owa/)               
  ou [Mozilla Thunderbird](https://www.mozilla.org/fr/thunderbird/)               
- ou application dédiée dans le cas des smartphones et tablettes tactiles).                  
-Via un Webmail proposé par le nom de domaine ou l’entreprise hébergeant l’adresse électronique (exemples : gmail, hotmail/live/outlook, yahoo, orange etc…).                
+ ou application dédiée dans le cas des smartphones et tablettes tactiles);                  
+via un Webmail proposé par le nom de domaine ou l’entreprise hébergeant l’adresse électronique (exemples : gmail, hotmail/live/outlook, yahoo, orange etc…).                
 
 # Définition d’un Webmail #
 Un Webmail est tout simplement une interface permettant de consulter, gérer, envoyer et recevoir ses emails directement dans son navigateur web.               
@@ -25,7 +25,7 @@ Le principal avantage du Webmail, c’est qu’il est possible de consulter ses 
 Il suffit juste de posséder ses identifiants et se connecter via un navigateur.             
 C’est notamment pratique lors de déplacements à l’étranger.                
 Autre atout : il n’y a rien à installer sur son matériel informatique et il n’y a pas non de mises à jour à effectuer au fil du temps pour corriger les failles de sécurité, les bugs éventuels ou ajouter de nouvelles fonctionnalités.                  
-De plus, la plupart reposent sur le protocole IMAP qui permet une consultation et une gestion à plusieurs de la messagerie.                  
+De plus, la plupart reposent sur le protocole IMAP [Interactive Message Access Protocol](https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol) qui permet une consultation et une gestion à plusieurs de la messagerie.                  
 A l’inverse, leur utilisation peut avoir pour inconvénient la limitation de la taille des pièces jointes ou de l’espace de stockage, critères qui varient selon le fournisseur de l’adresse email.             
 
 # Quelques Webmails célèbres #
