@@ -1,14 +1,21 @@
 ---
-title: Weather Plus 4.7 04.10.2018 mise à jour disponible
+title: Weather Plus 4.7 16.10.2018 mise à jour disponible
 layout: post
 author: BlindHelp
 ---
 
-<footer>Jeudi 4 Octobre 2018</footer>
+<footer>Mardi 16 Octobre 2018</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
 Ce module complémentaire nommé [Weather Plus](#Weather Plus4.7.nvda-addon) peut être mis à jour de manière autonome et, par conséquent, n'est pas inclus dans Add-on Updater. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également forcer la vérification à partir du sous-menu Paramètres Weather Plus dans le menu Préférences. Si vous n'avez même pas cette extension pour consulter la météo, ou si vous avez des problèmes de mise à jour, vous pouvez la télécharger à partir du lien ci-dessous.
+
+Également vous trouver ci-dessous le changelog (journal des changements) pour cette dernière version en date, ainsi que une bref description du module complémentaire Weather Plus.
+
+---
+
+# Version 4.7.7 #
+*  Suppression de la notification inutile de téléchargement terminé lors de la mise à jour de Weather Plus.
 
 ---
 
@@ -49,7 +56,7 @@ Localisé en : Allemand, Anglais, Arabe, Espagnol, Français, Galicien, Italien,
 Publié sous la GNU GPL (General Public License)    
 Version: 4.7    
 Traduit en français par Rémy Ruiz, Michel Such et Corentin Bacqué-cazenave    
-Dernière mise à jour: 4 Octobre 2018    
+Dernière mise à jour: 16 Octobre 2018    
 Si vous avez installé une version antérieure de Weather Plus, celui-ci peut se mettre à jour seul, cependant, il est possible de télécharger
 manuellement à partir des liens suivants:    
 [Télécharger le module
@@ -65,7 +72,7 @@ Merci
 
 ---
 
-Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire Weather Plus 4.7 du 04.10.2018!                
+Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire Weather Plus 4.7 du 16.10.2018!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
