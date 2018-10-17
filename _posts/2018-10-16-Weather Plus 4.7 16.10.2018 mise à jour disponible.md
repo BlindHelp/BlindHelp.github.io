@@ -17,7 +17,8 @@ Le prochain  passage à l'heure d'hiver aura lieu  le dimanche 28 octobre à 03:
 ---
 
 # Version 4.7.7 #
-*  Suppression de la notification inutile de téléchargement terminé lors de la mise à jour de Weather Plus.
+* Suppression de la notification inutile de téléchargement terminé lors de la mise à jour de Weather Plus.
+* Ajout de 6 nouveaux effets sonores; Il sera nécessaire de les mettre à jour depuis les paramètres du module complémentaire.
 
 ---
 
