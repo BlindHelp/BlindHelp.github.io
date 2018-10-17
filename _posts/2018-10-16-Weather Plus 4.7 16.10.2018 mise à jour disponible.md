@@ -12,6 +12,8 @@ Ce module complémentaire nommé [Weather Plus](#Weather Plus4.7.nvda-addon) peu
 
 Également vous trouver ci-dessous le changelog (journal des changements) pour cette dernière version en date, ainsi que une bref description du module complémentaire Weather Plus.
 
+Le prochain  passage à l'heure d'hiver aura lieu  le dimanche 28 octobre à 03:00.
+
 ---
 
 # Version 4.7.7 #
