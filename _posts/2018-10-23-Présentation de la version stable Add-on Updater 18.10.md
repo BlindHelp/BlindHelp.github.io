@@ -14,7 +14,7 @@ Il a été reconnu stable par son auteur.
 
 Le fait qu'un module complémentaire soit déclaré stable signifie généralement deux choses:
 
-* D'une part, il peut être installé sur des ordinateurs personnelles avec un très faible risque d'incident.               
+* D'une part, il peut être installé sur des machines de production avec un très faible risque d'incident.               
 * Et de l’autre, vous pouvez commencer à traduire dans plus de langues.                
 Par conséquent, nous n'excluons pas de trouver, après une longue période, le Addon Updater addon en français.                    
 
