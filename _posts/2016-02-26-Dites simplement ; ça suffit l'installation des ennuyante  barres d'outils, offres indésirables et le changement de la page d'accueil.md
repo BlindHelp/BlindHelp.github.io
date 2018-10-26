@@ -7,10 +7,7 @@ author: BlindHelp
 
 <footer>Vendredi 26 Février 2016</footer>
 
-------------------------------------------------------------------------
 
-Dites simplement ; ça suffit l'installation des ennuyante  barres d'outils, offres indésirables et le changement de la page d'accueil!
-=============
 Coucou mes amis du Blog de BlindHelp!   
 Unchecky, Un petit logiciel sympa!   
 Même si le logiciel  nommé "Unchecky" est une rediff d'un ancien article publié sur se Blog je vous le donne à nouveau!   
