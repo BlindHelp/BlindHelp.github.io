@@ -1,5 +1,4 @@
-﻿
----
+﻿---
 title: Dites simplement ; ça suffit l'installation des ennuyante  barres d'outils, offres indésirables et le changement de la page d'accueil
 layout: post
 author: BlindHelp
