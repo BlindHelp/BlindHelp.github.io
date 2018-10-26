@@ -35,7 +35,7 @@ Testé sous Windows 10
 
 Donc, sant trop de bavardage voici ci-dessous un lien pour télécharger la version  instalable 1.9.2, puis la version portable 1.9.0:
 
- # Télécharger Unlocker!
+ # Télécharger Unlocker
 Lien directe pour sont téléchargement!
 
 [Télécharger version 1.9.2 instalable via Gratilog.net:](http://www.gratilog.net/francais/fichiers/unlocker_1-9-2.exe)                   
@@ -49,7 +49,8 @@ unlocker1.9.0-portable.zip
 # Installation de Unlocker:
 Remarque Très Importante pendant l'installation de UNLOCKER!!!        
 Lors de l'installation, attention aux logiciels publicitaires, donc pas de panique :)         
-donc, suivez les instructions...
+Donc, suivez les instructions...      
+
 Si c'est Delta Toolbar :       
 - cliquer sur "Advanced" et désactiver la case "Install Delta Toolbar             
 - cliquer sur "Suivant"            
