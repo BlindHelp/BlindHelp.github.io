@@ -33,10 +33,10 @@ Testé sous Windows 10
 * Logiciel en Français               
 * License: Freeware / Gratuit       
 
-Donc, sant trop de bavardage voici ci-dessous un lien pour télécharger la version  instalable 1.9.2, puis la version portable 1.9.0:
+Donc, sant trop de bavardage voici ci-dessous un lien pour télécharger la version  instalable 1.9.2, puis la version portable 1.9.0:          
 
- # Télécharger Unlocker
-Lien directe pour sont téléchargement!
+ # Télécharger Unlocker:
+Lien directe pour sont téléchargement!            
 
 [Télécharger version 1.9.2 instalable via Gratilog.net:](http://www.gratilog.net/francais/fichiers/unlocker_1-9-2.exe)                   
 Nom du fichier:       
