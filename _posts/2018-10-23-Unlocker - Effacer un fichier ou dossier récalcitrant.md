@@ -33,9 +33,10 @@ Testé sous Windows 10
 * Logiciel en Français               
 * License: Freeware / Gratuit       
 
-Donc, sant trop de bavardage voici ci-dessous un lien pour télécharger la version  instalable 1.9.2, puis la version portable 1.9.0:          
+Donc, sant trop de bavardage voici ci-dessous un lien pour télécharger la version  instalable 1.9.2, puis la version portable 1.9.0:
 
- # Télécharger Unlocker:
+# Télécharger Unlocker:
+ 
 Lien directe pour sont téléchargement!            
 
 [Télécharger version 1.9.2 instalable via Gratilog.net:](http://www.gratilog.net/francais/fichiers/unlocker_1-9-2.exe)                   
@@ -49,7 +50,7 @@ unlocker1.9.0-portable.zip
 # Installation de Unlocker:
 Remarque Très Importante pendant l'installation de UNLOCKER!!!        
 Lors de l'installation, attention aux logiciels publicitaires, donc pas de panique :)         
-Donc, suivez les instructions...      
+Donc, suivez les instructions suivantes...      
 
 Si c'est Delta Toolbar :       
 - cliquer sur "Advanced" et désactiver la case "Install Delta Toolbar             
@@ -59,7 +60,7 @@ Si c'est Babylon Toolbar :
 
 Encore mieux avant de faire l'installation de Unlocker!!!!Installer au préalable l'autre utilitaire nommé: Unchecky!!! donc pas de panique :)           
 Consulter l'article sur BlindHelp.github.io:         
-[Dites simplement ; ça suffit l'installation des ennuyante barres d'outils, offres indésirables et le changement de la page d'accueil](https://blindhelp.github.io/Dites-simplement-;-%C3%A7a-suffit-l'installation-des-ennuyante-barres-d'outils,-offres-ind%C3%A9sirables-et-le-changement-de-la-page-d'accueil/)                     
+-   <a target="_blank" href="https://blindhelp.github.io/Dites-simplement-;-%C3%A7a-suffit-l'installation-des-ennuyante-barres-d'outils,-offres-ind%C3%A9sirables-et-le-changement-de-la-page-d'accueil/">Dites simplement ; ça suffit l'installation des ennuyante barres d'outils, offres indésirables et le changement de la page d'accueil</a>
 
 Si vous avez installer Unchecky au préalable, lui s'encharge de tout pour vous! 😊        
 
