@@ -58,7 +58,7 @@ Si c'est Delta Toolbar :
 Si c'est Babylon Toolbar :          
 - décocher "Install Babylon Toolbar"            
 
-Encore mieux avant de faire l'installation de Unlocker!!!!Installer au préalable l'autre utilitaire nommé: Unchecky!!! donc pas de panique :)           
+Encore mieux avant de faire l'installation de Unlocker!!!! Installer au préalable l'autre utilitaire nommé: Unchecky!!! donc pas de panique :)           
 Consulter l'article sur BlindHelp.github.io:         
 <a target="_blank" href="https://blindhelp.github.io/Dites-simplement-;-%C3%A7a-suffit-l'installation-des-ennuyante-barres-d'outils,-offres-ind%C3%A9sirables-et-le-changement-de-la-page-d'accueil/">Dites simplement ; ça suffit l'installation des ennuyante barres d'outils, offres indésirables et le changement de la page d'accueil</a>
 
