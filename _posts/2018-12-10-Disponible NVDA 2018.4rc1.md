@@ -9,7 +9,7 @@ author: BlindHelp
 Après quatre versions beta dans lesquelles plusieurs fonctions ont été ajoutées, certaines supprimées et des erreurs corrigées, NVDA 2018.4rc1 est maintenant disponible au téléchargement!                  
 
 Cette version est destinée aux utilisateurs qui souhaitent essayer NVDA 2018.4 avant sa publication officielle et qui souhaitent fournir des suggestions et des commentaires. Son utilisation dans les environnements de production est totalement déconseillée.         
-Si vous avez la version 2018.4 beta 4 de NVDA installée, accédez au menu Aide et recherchez les mises à jour pour obtenir cette nouvelle version. Si, par contre, vous voulez l'installer et que vous avez une version stable, vous pouvez télécharger le fichier d'installation depuis le lien ci-dessous qui vous mènera au site Web de NV Access.             
+Si vous avez la version 2018.4 beta 4 de NVDA installée, accédez au menu Aide et recherchez les mises à jour pour obtenir cette nouvelle version. Si, par contre, vous voulez l'installer et que vous avez une version stable, vous pouvez télécharger le fichier d'installation depuis le lien ci-dessous qui vous mènera au site Web de NV Access ou utilisez autrement le lien direct ci-dessous fourni par NV Access.             
 
 NVDA 2018.4rc1 a été publiée, c'est la première version candidate avant NVDA 2018.4.             
 
