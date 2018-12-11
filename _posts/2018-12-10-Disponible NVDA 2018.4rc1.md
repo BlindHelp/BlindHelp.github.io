@@ -35,7 +35,7 @@ Pour télécharger la version de NVDA 2018.4rc1 :
 1. Accédez à la [page du poste de NV Access pour télécharger NVDA 2018.4rc1](https://www.nvaccess.org/post/nvda-2018-4rc1-released/) (en anglais).                        
   2. chercher puis appuyez sur le lien "Download NVDA 2018.4rc1".               
 
-  # depuis la page  de téléchargement de NV Access #
+# Depuis la page  de téléchargement de NV Access #
   
   1. Aller à la         page [NV Access Download](http://www.nvaccess.org/download/).         
 2. Choisissez le montant que vous voulez faire comme don à NV Access, ou, pas faire un don pour cette fois, "Skip donation this time", entre les boutons radio disponibles.        
