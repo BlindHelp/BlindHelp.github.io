@@ -53,7 +53,7 @@ Ce module complémentaire a été testé avec Microsoft Outlook 2016 et 2013.
 
 # Plus d'informations sur Outlook Extended
 
-Remarque: ce module complémentaire a récemment passé la révision de base, mais la collaboration de toute personne utilisant Microsoft Outlook pour signaler des erreurs, la compatibilité avec différentes versions, etc. est nécessaire. Cet avis disparaîtra dès que le module complémentaire entrera dans le site des modules complémentaires officiels et sera ajouté au [site comunautaire des modules complémentaires NVDA](https://addons.nvda-project.org/index.fr.html), le cas échéant. 
+Remarque: ce module complémentaire a récemment passé la révision de base, mais la collaboration de toute personne utilisant Microsoft Outlook pour signaler des erreurs, la compatibilité avec différentes versions, etc. est nécessaire. Cet avis disparaîtra dès que le module complémentaire entrera dans le site des modules complémentaires officiels et sera ajouté au [site comunautaire des modules complémentaires NVDA](https://addons.nvda-project.org/index.fr.html), le cas échéant.                   
 Version actuelle: 1.0-dev                 
 [Code source sur GitHub](https://github.com/CyrilleB79/OutlookExtended)             
 
