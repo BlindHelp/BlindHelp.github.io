@@ -15,6 +15,7 @@ Merci Cyrille! 😃
 # Outlook extended
 
 * Auteurs: Cyrille Bougot, Ralf Kefferpuetz
+* Compatibilité NVDA: 2018.3 à 2019.1
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
@@ -52,6 +53,9 @@ Ce module complémentaire a été testé avec Microsoft Outlook 2016 et 2013.
 [2]: https://github.com/CyrilleB79/OutlookExtended/releases/download/V1.0dev/OutlookExtended-1.0-dev.nvda-addon
 
 # Plus d'informations sur Outlook Extended
+
+    Type: Extensions
+	Dernière mise à jour: 20 Décembre 2018
 
 Remarque: ce module complémentaire a récemment passé la révision de base, mais la collaboration de toute personne utilisant Microsoft Outlook pour signaler des erreurs, la compatibilité avec différentes versions, etc. est nécessaire. Cet avis disparaîtra dès que le module complémentaire entrera dans le site des modules complémentaires officiels et sera ajouté au [site comunautaire des modules complémentaires NVDA](https://addons.nvda-project.org/index.fr.html), le cas échéant.                   
 Version actuelle: 1.0-dev                 
