@@ -164,7 +164,7 @@ BlindHelp!
 
 ---
 
-#Télécharger GLHADIATOR v1.04 - Enregistrement des livres parlé Daisy sur votre ordinateur #
+# Télécharger GLHADIATOR v1.04 - Enregistrement des livres parlé Daisy sur votre ordinateur #
 
 Auteur: Arturo Fernández Rivas                    
 
