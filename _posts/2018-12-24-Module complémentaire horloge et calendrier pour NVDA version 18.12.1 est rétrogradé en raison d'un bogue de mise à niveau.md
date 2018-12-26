@@ -1,26 +1,33 @@
 ---
-title: Clock 18.12.1 add-on pour NVDA
+title: Module complémentaire horloge et calendrier pour NVDA version 18.12.1 est rétrogradé en raison d'un bogue de mise à niveau
 layout: post
 author: BlindHelp
 ---
 
-<footer>Vendredi 21 Décembre 2018</footer>
+<footer>Lundi 24 Décembre 2018</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
-Ce module complémentaire nommé [Clock](#clock-18.12.1.nvda-addon) actuellement peut être mis à jour à partir du module complémentaire [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html) qui a été mis à jour à la nouvelle version stable 19.01 récemment. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également le télécharger manuellement. Si vous n'avez même pas ce module complémentaire horloge et calendrier  pour NVDA également connu sous le nom de Clock, vous pouvez le télécharger à partir du lien ci-dessous.
+Ce module complémentaire nommé [Clock](#clock-18.12.nvda-addon) actuellement peut être mis à jour à partir du module complémentaire [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html) qui a été mis à jour à la nouvelle version stable 19.01 récemment. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également le télécharger manuellement. Si vous n'avez même pas ce module complémentaire horloge et calendrier  pour NVDA également connu sous le nom de Clock, vous pouvez le télécharger à partir du lien ci-dessous.
 
 Également vous trouver ci-dessous un petit  changelog (journal des changements) fait maison pour cette dernière version en date, ainsi que une bref description du module complémentaire Clock.
 
 ---
 
-# Clock <a id="clock-18.12.1.nvda-addon"></a>
+# Clock <a id="clock-18.12.nvda-addon"></a>
 
-# Version 18.12.1 #
+# Version 18.12 #
+
+* Module complémentaire horloge et calendrier pour NVDA version 18.12.1 est rétrogradé en raison d'un bogue de mise à niveau par Josephe Lee.
+
+Toutes nos excuses aux utilisateurs pour la gêne occasionnée.
+
+
+# Version 18.12.1  (ancienne version) #
 
 * Création de la version 18.12.1, y compris des dernières mises à jour de L10N.
 
-# Version 18.12 #
+# Version 18.12 (version rétrogradé) #
 
 * Corrections de Bogues.
 
@@ -112,12 +119,12 @@ Il suffit de mentionner qu'appVeyor génère automatiquement  un nouveau fichier
 
 <https://ci.appveyor.com/project/HrvojeKati/clock/build/artifacts>
 
-Langues supportés: Allemand, Anglais, Bulgare, Croate, Français, Espagnol, Persan, Polonais, Portugais-Brésil, Portugais-Portugal, Russe, Serbe, Slovaque et Turc   
-Ce module complémentaire  clock 18.12.1 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
+Langues supportés: Allemand, Anglais, Bulgare, Croate, Français, Espagnol, Italien, Persan, Polonais, Portugais-Brésil, Portugais-Portugal, Russe, Serbe, Slovaque et Turc   
+Ce module complémentaire  clock 18.12 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
 Traduit en français par: Michel Such, Abdel et Rémy Ruiz           
 Traduit en espagnol par: Iván Novegil Cancelas, Juan C. Buno, José Manuel Delicado Alcolea et Rémy Ruiz           
-Version: 18.12.1 (maintenant en version stable officielle)    
-Dernière mise à jour: 21 Décembre 2018
+Version: 18.12 (maintenant en version stable officielle)    
+Dernière mise à jour: 15 Décembre 2018
 
 ---
 
@@ -136,7 +143,7 @@ Dernière mise à jour: 21 Décembre 2018
 
 Merci aux auteurs: Hrvoje Katic, Abdel et contributeurs de NVDA!😃              
 
-Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire Clock 18.12.1!                
+Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire Clock 18.12!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
