@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Jeudi 21 Décembre 2018</footer>
+<footer>Vendredi 21 Décembre 2018</footer>
 
 
 Coucou mes amis du blog de BlindHelp!             
