@@ -16,7 +16,7 @@
 <source src="https://blindhelp.github.io/sweep.wav" type="audio/wav" />
 </audio>
 <footer>
-Derni&#232;re mise &#224; jour le Mardi Ier Janvier 2019
+Derni&#232;re mise &#224; jour le Jeudi 3 Janvier 2019
 </footer>
 <hr />
 <h1 id="le-coffre-des-modules-compl&#233;mentaires-pour-nvda">Le coffre des Modules Compl&#233;mentaires pour NVDA</h1>
@@ -120,7 +120,7 @@ Vous pouvez installer un module compl&#233;mentaire en proc&#233;dant comme suit
 <li><a href="#nvdastore-1.0.3.nvda-addon">Cecitek NVDAStore renomm&#233; simplement NVDAStore</a></li>
 <li><a href="#clipContentsDesigner-8.7.nvda-addon">Clip Contents Designer (EX AppendText)</a></li>
 <li><a href="#clipspeak-1.0.nvda-addon">Clipspeak</a></li>
-<li><a href="#clock-18.12.nvda-addon">Clock</a></li>
+<li><a href="#clock-19.01-dev.nvda-addon">Clock</a></li>
 <li><a href="#controlUsageAssistant-2.4.nvda-addon">controlUsageAssistant</a></li>
 <li><a href="#dayOfTheWeek-6.2.1.nvda-addon">Day of the week</a></li>
 <li><a href="#DragonNaturallySpeaking%201.0.nvda-addon">DragonNaturallySpeaking</a></li>
@@ -168,7 +168,7 @@ Vous pouvez installer un module compl&#233;mentaire en proc&#233;dant comme suit
 <li><a href="#Svox-Pico-Synthesizer.nvda-addon">Svox-Pico-Synthesizer</a></li>
 <li><a href="#switchSynth-1.02.nvda-addon">switch_synth</a></li>
 <li><a href="#TapinRadioStatusAnnouncer-2.0.nvda-addon">Tapin_Radio</a></li>
-<li><a href="#thunderBird-2.9.6-12-2018.nvda-addon">Thunderbird</a></li>
+<li><a href="#thunderBird-2.9.6.1,%202019-01-02.nvda-addon">Thunderbird</a></li>
 <li><a href="#toneMaster-1.3.nvda-addon">toneMaster</a></li>
 <li><a href="#translate-2018.12.2.1.nvda-addon">Translate</a></li>
 <li><a href="#virtualRevision-2.3.nvda-addon">Virtual Review</a></li>
@@ -496,7 +496,7 @@ Version: 1.0 (version stable non officielle)<br />
 Mais il est actuellement en version stable.<br />
 pr&#233;cis&#233;ment sur la page d&#233;di&#233;e audit module compl&#233;mentaire: <a href="https://addons.nvda-project.org/addons/clipspeak.fr.html">Clipspeak</a></p>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
-<h1 id="clock">Clock <a id="clock-18.12.nvda-addon"></a></h1>
+<h1 id="clock">Clock <a id="clock-19.01-dev.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
 Ce module compl&#233;mentaire est compatible avec les versions de NVDA allant de 2014.3 &#224; 2019.1.
 (Y compris les versions de NVDA ant&#233;rieures &#224; 2018.2).
@@ -536,19 +536,33 @@ et contributeurs de NVDA.</p>
 <p><a href="https://github.com/hkatic/clock">Consultez la page du r&#233;f&#233;rentiel (repository) sur JitHub</a></p>
 <p>Il suffit de mentionner qu'appVeyor g&#233;n&#232;re automatiquement un nouveau fichiers pot avec la commande scons &#224; chaque fois que un nouveau commit est publi&#233;, ce qui est fantastique. Ainsi, le dernier fichier pot sera toujours sur le lien suivant ainsi que l'addon:</p>
 <p><a href="https://ci.appveyor.com/project/HrvojeKati/clock/build/artifacts" class="uri">https://ci.appveyor.com/project/HrvojeKati/clock/build/artifacts</a></p>
-<h1 id="version-18.12">Version 18.12</h1>
-<ul>
-<li>Module compl&#233;mentaire horloge et calendrier pour NVDA version 18.12.1 est r&#233;trograd&#233; en raison d'un bogue de mise &#224; niveau par Josephe Lee.</li>
-</ul>
-<p>Toutes nos excuses aux utilisateurs pour la g&#234;ne occasionn&#233;e.</p>
+<h1 id="version-19.01-dev">Version 19.01-dev</h1>
+<p>Clock 19.01-dev est disponible.</p>
+<p>Cette version de d&#233;veloppement inclut les nouvelles traductions re&#231;ues par le syst&#232;me de traduction, ainsi que les modifications suivantes:</p>
+<ol style="list-style-type: decimal">
+<li>Ajout d'un bouton Stop (Arr&#234;ter) dans la bo&#238;te de dialogue R&#233;glage de l'alarme pour arr&#234;ter les longues alarmes lors de la navigation dans la liste des alarmes.</li>
+<li>Ajout d'un bouton Pause / Resume (Pause/ Reprendre) pour mettre en pause / reprendre pendant l'&#233;coute d'une alarme.</li>
+<li>Ajout d'un script pour arr&#234;ter l'alarme si elle est trop longue. Ce script n'a pas de geste de commande d&#233;fini.</li>
+<li>Suppression du geste de commande Contr&#244;le+F12, le script de v&#233;rification / annulation d&#8217;une alarme n&#8217;a pas de geste de commande d&#233;fini.</li>
+<li>Correction du bug rapport&#233; par Paul.</li>
+<li>Correction du bug concernant la sauvegarde de la configuration lors de l'installation.</li>
+<li>Correction d'un bug pour l'ann&#233;e en cours si la semaine en cours est la premi&#232;re de l'ann&#233;e suivante. Par exemple, le 31 d&#233;cembre 2018, c'&#233;tait la premi&#232;re semaine de l'ann&#233;e 2019, il &#233;tait donc n&#233;cessaire d'incr&#233;menter l'ann&#233;e.</li>
+</ol>
+<p><a href="https://github.com/hkatic/clock/releases/download/v19.01-dev/clock-19.01-dev.nvda-addon">Cette version de d&#233;veloppement est t&#233;l&#233;chargeable &#224; partir du r&#233;f&#233;rentiel GitHub de l'auteur en cliquant ici.</a></p>
 <p>Bravo Hrvoje et Abdel! &#128522;</p>
-<p>Ce module compl&#233;mentaire clock 18.12.1 est mis &#224; jour avec les nouvelles sources puis retraduit en fran&#231;ais et en espagnol par R&#233;my Ruiz et d'autres contributeurs.<br />
-Langues support&#233;s: Allemand, Anglais, Bulgare, Croate, Fran&#231;ais, Espagnol, Italien, Persan, Polonais, Portugais-Br&#233;sil, Portugais-Portugal, Russe, Serbe, Slovaque et Turc<br />
+<p>Ce module compl&#233;mentaire Clock-19.01-dev est mis &#224; jour avec les nouvelles sources puis retraduit en fran&#231;ais et en espagnol par R&#233;my Ruiz et d'autres contributeurs.<br />
+Langues support&#233;s: Allemand, Anglais, Arabe, Bulgare, Chinois Traditionnel, Croate, Fran&#231;ais, Espagnol, Italien, Persan, Polonais, Portugais-Br&#233;sil, Portugais-Portugal, Roumain, Russe, Serbe, Slovaque et Turc<br />
 Traduit en fran&#231;ais par: Michel Such, Abdel et R&#233;my Ruiz<br />
 Traduit en espagnol par: Iv&#225;n Novegil Cancelas, Juan C. Buno, Jos&#233; Manuel Delicado Alcolea et R&#233;my Ruiz<br />
-Version: 18.12 (maintenant en version stable officielle)<br />
-Derni&#232;re mise &#224; jour: 15 D&#233;cembre 2018 <a href="https://addons.nvda-project.org/files/get.php?file=cac">T&#233;l&#233;charger le module compl&#233;mentaire clock-18.12.nvda-addon via le site communautaire NVDA</a></p>
-<p><a href="https://addons.nvda-project.org/addons/clock.fr.html">Voici la page de la documentation sur le site communautaire NVDA</a></p>
+Version: Clock-19.01-dev<br />
+Derni&#232;re mise &#224; jour: 3 Janvier 2019</p>
+<h1 id="t&#233;lecharger-le-module-compl&#233;mentaire-horloge-et-calendrier-pour-nvda-clock-via-les-liens-du-site-communautaire-nvda">T&#233;lecharger le module compl&#233;mentaire horloge et calendrier pour NVDA (Clock) via les liens du site communautaire NVDA</h1>
+<ul>
+<li><p>T&#233;l&#233;charger <a href="http://addons.nvda-project.org/files/get.php?file=cac">version stable</a>;</p></li>
+<li><p>T&#233;l&#233;charger <a href="https://addons.nvda-project.org/files/get.php?file=cac-dev">version de d&#233;veloppement</a>.</p></li>
+</ul>
+<h1 id="consulter-la-documentation-du-module-compl&#233;mentaire-horloge-et-calendrier-pour-nvda-clock">Consulter la documentation du module compl&#233;mentaire horloge et calendrier pour NVDA (Clock)</h1>
+<p><a href="https://addons.nvda-project.org/addons/clock.fr.html">via la page du site communautaire NVDA</a></p>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
 <h1 id="controlusageassistant">controlUsageAssistant <a id="controlUsageAssistant-2.4.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
@@ -1941,15 +1955,15 @@ Vous pouvez les filtrer en entrant un ou plusieurs mots du nom de la commande da
 ordinateur de bureau ou ordinateur portable) ou vous voudrez peut-&#234;tre l'appliquer pour toutes les configurations. Dans ce cas, un menu appara&#238;t, vous permettant de s&#233;lectionner l'option d&#233;sir&#233;e. Pour supprimer un geste d'une commande, s&#233;lectionnez le geste et appuyez sur le bouton &quot;Supprimer&quot;. Lorsque vous avez termin&#233; vos modifications, appuyez sur le bouton &quot;OK&quot; pour les sauvegarder ou sur le bouton &quot;Annuler&quot; pour les ignorer.</li>
 </ul>
 <p><a href="#Modules%20compl&#233;mentaires">Retour aux modules compl&#233;mentaires</a></p>
-<h1 id="thunderbird">Thunderbird <a id="thunderBird-2.9.6-12-2018.nvda-addon"></a></h1>
+<h1 id="thunderbird">Thunderbird <a id="thunderBird-2.9.6.1, 2019-01-02.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
 Description du module compl&#233;mentaire Thunderbird pour NVDA, compagnon de Chichi Par Pierre-Louis:
-J&#39;ai le plaisir de vous annoncer la sortie de la version 2.9.6-12-2018 du
+J&#39;ai le plaisir de vous annoncer la sortie de la version 2.9.6.1-2019-01-02 du
 Module compl&#233;mentaire Thunderbird pour NVDA, compagnon de Chichi
 d&#233;velopp&#233; par notre ami Yannick.
 Encore plus de confort et d&#39;efficacit&#233; !
    Jugez-en par vous-m&#234;me :</code></pre>
-<p>C'est une version corrig&#233;e du module compl&#233;mentaire pour Thunderbird, vous la trouverez en t&#233;l&#233;chargement.</p>
+<p>C'est une version corrig&#233;e du module compl&#233;mentaire pour Thunderbird, vous la trouverez en t&#233;l&#233;chargement ci-dessous.</p>
 <p><a href="http://www.rptools.org/Outils-DV/chichi-thunderbird.html">Pour plusd'informations consulter la pr&#233;sentation de Chichi: extension d'accessibilit&#233; pour Mozilla Thunderbird en cliquant ici:</a><br />
 Note : Cette page contient des informations sur une ancienne version de Chichi et une ancienne version du module compl&#233;mentaire pour NVDA associ&#233; &#224; Thunderbird.<br />
 Nouveau! - Chichi version beta : extension d'accessibilit&#233; pour Mozilla Thunderbird ; compatible avec Thunderbird 60 et plus. (Y compris la version sp&#233;cifiquement associ&#233;e au module compplementaire Thunderbird pour NVDA)<br />
@@ -1958,15 +1972,23 @@ Derni&#232;re mise &#224; jour le 28 Octobre 2018</p>
 <p>Ce paquet contient la version beta du 28/10/2018 de Chichi, la version associ&#233;e du module thunderbird pour NVDA et l'aide de Chichi.<br />
 Dans l'archive, il y a un fichier d'aide que je recommande de lire, des changements assez importants ont eu lieu.</p>
 <p>Note Tr&#232;s Importante!<br />
-Ne prenez que module Chichi, celui-ci peut bient&#244;t changer, n'utilisez pas le module compl&#233;mentaire de Thunderbird contenu dans le fichier, mais t&#233;l&#233;chargez la derni&#232;re version du module compl&#233;menttair Thunderbird via BlindHelp.github.io.</p>
-<p><a href="https://blindhelp.github.io/thunderBird-2.9.6-12-2018.nvda-addon">T&#233;l&#233;chargez ici la derni&#232;re version 2.9.6-12-2018du module compl&#233;mentaire Thunderbird,compatible avec Chichi pour Thunderbird [version 60 et plus]</a></p>
+Ne prenez que module Chichi, celui-ci peut bient&#244;t changer, n'utilisez pas le module compl&#233;mentaire de Thunderbird contenu dans le fichier, mais t&#233;l&#233;chargez la derni&#232;re version du module compl&#233;menttair Thunderbird ci-dessous.</p>
+<p><a href="http://www.rptools.org/beta/thunderBird-2.9.6.1,%202019-01-02.nvda-addon">T&#233;l&#233;chargez ici la derni&#232;re version 2.9.6.1-2019-01-02 du module compl&#233;mentaire Thunderbird,compatible avec Chichi pour Thunderbird [version 60 et plus]</a></p>
+<p>voici une petite mise &#224; jour du module qui corrige quelques bugs apparus assez r&#233;cemment. En outre, j'ai modifi&#233; le num&#233;ro de version afin de ne plus s'y perdre et j'ai ajout&#233; des infos de version dans le fichier manifest.ini afin de rendre le module compatible avec la future version 2019.1 de NVDA.</p>
+<p>Le fichier d'aide du module contient les Notes de version suivantes :</p>
+<h1 id="version-2.9.6.1-02-janvier-2019">5.1. Version 2.9.6.1, 02 Janvier 2019</h1>
+<ul>
+<li>Correction du d&#233;marrage bloqu&#233; du module suite &#224; la disparition du fichier de configuration par d&#233;faut ;</li>
+<li>R&#233;tablissement du raccourci NVDA+a pour ne plus emp&#234;cher la fonction dire tout de fonctionner avec un clavier de PC portable ;</li>
+<li>Correction de la vocalisation des dates dans la liste des messages ;</li>
+</ul>
 <p>Apr&#232;s r&#233;installation, vous devrez sans doute le reconfigurer. Pour ce faire, placer-vous dans le tableau des messages, pressez Alt+puissance 2, descendez sur Options pour NVDAet dans le sous-menu, r&#233;glez chaque option &#224; votre convenance. Certaines de ces options sont tr&#232;s confortables lorsqu'elles sont activ&#233;es.</p>
 <p>Remarque : Si vous utilisez actuellement le module compl&#233;menttair Thunderbird sans l'extension Chichi, vous devez installer cette nouvelle version du module compl&#233;menttair pour NVDA associ&#233;e &#224; Chichi:</p>
 <p>Module compl&#233;mentaire Thunderbird pour NVDA, compagnon de Chichi<br />
-Version : 2.9.6-12-2018<br />
+Version: 2.9.6.1 du 2 janvier 2019<br />
 Correction de bogue par Yannick.<br />
 Non compatible avec Windows XP.<br />
-Derni&#232;re mise &#224; jour le 31 D&#233;cembre 2018<br />
+Derni&#232;re mise &#224; jour le 2 Janvier 2019<br />
 Pour d'autres instructions, appuyez sur le bouton Aide de ce module compl&#233;mentaire, dans le Gestionnaire de modules compl&#233;mentaires.</p>
 <pre><code>Bonne d&#233;couverte !   
 Pierre-Louis</code></pre>
@@ -2434,7 +2456,7 @@ BlindHelp !!!</p>
 <hr />
 </div>
 <footer>
-Derni&#232;re mise &#224; jour le Mardi Ier Janvier 2019
+Derni&#232;re mise &#224; jour le Jeudi 3 Janvier 2019
 </footer>
 </div>
 </body>
