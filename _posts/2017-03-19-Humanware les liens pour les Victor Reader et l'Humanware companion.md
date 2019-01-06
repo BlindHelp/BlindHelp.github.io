@@ -11,12 +11,12 @@ Coucou mes amis du blog de BlindHelp!
 
 # Humanware les liens pour les Victor Reader et l'Humanware companion #
 
-*  Victor Reader Classic    
+* Victor Reader Classic    
 Trouvez les plus récentes mises à jour et les guides d'utilisation pour tirer le maximum de votre Victor Reader.                    
 
 * [Mises à jour , téléchargez les plus récentes versions pour un rendement optimal de votre Victor Reader.](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic/software)             
 
-	*  Logiciels Victor Reader Classic
+	* Logiciels Victor Reader Classic
 
 # Téléchargement de mises à jour #
 
@@ -29,6 +29,8 @@ Trouvez les plus récentes mises à jour et les guides d'utilisation pour tirer
 [Télécharger VRC-103 Victor Reader Classic + version 3.3 (Français) (image iso en .zip)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=1025&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2Fb628b61d33c267e16b989ec46fa6e3f5%2Fca-fr-103VRC-3_3_15-iso.zip)                
 
 [Télécharger VRC-100/101 Victor Reader Classic version 3.0.7 (Français) (image iso en .exe)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=135&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2F90af6adb6e80250fa54914a82c23a0dd%2Fca-fr-OC-3_0_7-iso.exe)                           
+
+---
 
 # Changements: #
 Victor Reader ClassicX et ClassicX Plus Version 3.4            
@@ -54,6 +56,8 @@ Cette version apporte les modifications et corrections suivantes.
 
 [Fin du document]                      
 
+---
+
   * [Guides d'utilisation, pour connaître et profiter de tout le potentiel de votre Victor Reader.](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic/manuals)                 
 
 # Manuals #
@@ -63,7 +67,7 @@ Cette version apporte les modifications et corrections suivantes.
 
 [Victor Reader Classic (page pour le support  depuis Humanware)](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic)             
 
-	* VICTOR STREAM READER (français)            
+	* VICTOR STREAM READER (français)         
 Si vous désirez téléchargez une ancienne version pour le Victor Reader Stream, cliquez ici.                      
 Malheureusement, la page pour son téléchargement est introuvable!                   
 
@@ -78,18 +82,24 @@ Victor Stream
 	* [Version 4.7.2 (Alice et Rachel)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=9419&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FStream503%2F4_7_F22A29A628C9C5CBD92C6B5D6C99F979%2FStream503_v4.7.2_fr-fr-alice_HQ-rachel_HQ.UPG)                 
 	* [Autres langues / voix sur le site de Humanware...](http://support.humanware.com/fr-france/support/victor_reader_stream_new_generation/victor_reader_stream_new_generation_software)                    
 
+	---
+	
 [Utilitaire de transfert de fichiers - Humanware companion (version 3.6)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=7821&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FHWC%2FHumanWareCompanion-DA_DE_EN_ET_FR_NL_NO_SV_RU-3_6_22.exe)                    
 
 # Source de l'info (depuis le site AccesSolutions:): #
 [Téléchargement Pilotes et mises à jour - AccesSolutions:](http://www.accessolutions.fr/Telechargement-Pilotes-et-mises-a-jour.html)                 
 
 	* Téléchahrgez la version 3.6 d'HumanWare Companion              
-* [HumanWare Companion Logiciel Français Version 3.6](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=2804&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2Fe0f9d3b9680415e6a4854a7db8db94d7%2FHumanWareCompanion-DA_DE_EN_FR_NL_NO_SV-3_6_6.exe)                   
+	
+* [HumanWare Companion Logiciel Français Version 3.6](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=2804&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2Fe0f9d3b9680415e6a4854a7db8db94d7%2FHumanWareCompanion-DA_DE_EN_FR_NL_NO_SV-3_6_6.exe)                   
+
 Nom du fichier:           
 HumanWareCompanion-DA_DE_EN_FR_NL_NO_SV-3_6_6.exe                  
 
 	* Documentation pour la version 3.5 de HumanWareCompanion:           
+	
 [Cliquez ici pour télécharger le Manuel d'utilisation version 3.5 (.doc)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=2620&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2F441c2fc8947ffeb9c6803f8299ae487e%2Fca-frug.doc)             
+
 Nom du fichier:            
 ca-frug.doc         
 On peut le rénommé par:             
@@ -98,14 +108,20 @@ C'est plus parlant! loool!
 
 [HumanWare Companion Logiciel Français (page du support pour le HumanWare Companion)](http://support.humanware.com/fr-france/support/humanware_companion)                   
 
+---
+
 	* Victor Reader Stream nouvelle génération               
+
 [Humanware - Accueil - Produits Basse Vision pour la Dégénérescence Maculaire (Page du Support pour le Victor Reader Stream New Generation - Software depuis Humanware)](http://support.humanware.com/fr-france/support/victor_reader_stream_new_generation/victor_reader_stream_new_generation_software)                 
+
 Sur ce lien on trouve toutes les voix compatible seulement pour le Victor Reader Stream nouvelle génération!                      
 Par exemple:              
 
 *  [Victor Reader Stream nouvelle génération francais europe v4.7.2 Margaux et Heather (Féminin Français et Féminin anglais)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=9419&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FStream503%2F4_7_F22A29A628C9C5CBD92C6B5D6C99F979%2FStream503_v4.7.2_fr-fr-margaux_HQ-heather_HQ.UPG)
 
 *  [Victor Reader Stream nouvelle génération francais europe v4.7.2 Margaux et Antoine (Féminin francais et masculin francais)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=9419&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FStream503%2F4_7_F22A29A628C9C5CBD92C6B5D6C99F979%2FStream503_v4.7.2_fr-fr-margaux_HQ-antoine_HQ.UPG)                  
+
+---
 
 	* Informations sur mon Blog a titre d'information:           
 [Comment faire la mise à jour du VICTOR READER STREAM? par BlindHelp:](http://blindhelp.blogspot.fr/2014/01/victor-reader-stream-nouvelle-version.html)                         
@@ -139,6 +155,8 @@ Le fichier de mise à jour du logiciel porte l'extension UPG. Cependant, celui-c
 * Les caractères accentués dans les listes d'écoute: Un problème dans les listes d'écoute de musique (m3u) causant un message «Erreur LIVRE 7» lorsque les titres de fichiers comportaient des caractères accentués a été corrigé.             
 * Fichiers FB2 (Russie): Stream reconnaît maintenant les fichiers texte FB2 utilisés en Russie. Ils seront lus en tant que fichiers XML.           
 * RTF russe: Un problème avec les fichiers RTF russes a été corrigé.        
+
+---
 
 désolé de ne pas avoir des liens avec les dernièrs mis à jour car il est très difficile de trouver la source sur la page d'Humanware.                   
 Bonne installation!                      
