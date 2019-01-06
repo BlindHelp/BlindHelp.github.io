@@ -13,7 +13,7 @@ Coucou mes amis du blog de BlindHelp!
 
 # Victor Reader Classic #
 
-Trouvez les plus récentes mises à jour et les guides d'utilisation pour tirer le maximum de votre Victor Reader.                    
+# Trouvez les plus récentes mises à jour et les guides d'utilisation pour tirer le maximum de votre Victor Reader. #
 
 [Mises à jour , téléchargez les plus récentes versions pour un rendement optimal de votre Victor Reader.](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic/software)             
 
@@ -59,9 +59,9 @@ Cette version apporte les modifications et corrections suivantes.
 
 [Fin du document]                      
 
----
-
 [Guides d'utilisation, pour connaître et profiter de tout le potentiel de votre Victor Reader.](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic/manuals)                 
+
+---
 
 # Manuals #
 
@@ -96,6 +96,8 @@ mais voici une autre page pour son téléchargement!
 
 ---
 
+# Utilitaire de transfert de fichiers - Humanware companion (version 3.6 #
+
 [Utilitaire de transfert de fichiers - Humanware companion (version 3.6)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=7821&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FHWC%2FHumanWareCompanion-DA_DE_EN_ET_FR_NL_NO_SV_RU-3_6_22.exe)                    
 
 # Source de l'info (depuis le site AccesSolutions:): #
@@ -109,7 +111,7 @@ mais voici une autre page pour son téléchargement!
 Nom du fichier:           
 HumanWareCompanion-DA_DE_EN_FR_NL_NO_SV-3_6_6.exe                  
 
-# Documentation pour la version 3.5 de HumanWareCompanion:#
+# Documentation pour la version 3.5 de HumanWareCompanion: #
 
 [Cliquez ici pour télécharger le Manuel d'utilisation version 3.5 (.doc)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=2620&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2F441c2fc8947ffeb9c6803f8299ae487e%2Fca-frug.doc)             
 
