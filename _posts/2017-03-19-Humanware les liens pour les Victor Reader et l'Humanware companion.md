@@ -11,7 +11,7 @@ Coucou mes amis du blog de BlindHelp!
 
 # Humanware les liens pour les Victor Reader et l'Humanware companion #
 
-	*  Victor Reader Classic    
+*  Victor Reader Classic    
 Trouvez les plus récentes mises à jour et les guides d'utilisation pour tirer le maximum de votre Victor Reader.                    
 
 * [Mises à jour , téléchargez les plus récentes versions pour un rendement optimal de votre Victor Reader.](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic/software)             
@@ -63,9 +63,9 @@ Cette version apporte les modifications et corrections suivantes.
 
 [Victor Reader Classic (page pour le support  depuis Humanware)](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic)             
 
-	* VICTOR STREAM READER (français)
-Si vous désirez téléchargez une ancienne version pour le Victor Reader Stream, cliquez ici.
-Malheureusement, la page pour son téléchargement est introuvable!
+	* VICTOR STREAM READER (français)            
+Si vous désirez téléchargez une ancienne version pour le Victor Reader Stream, cliquez ici.                      
+Malheureusement, la page pour son téléchargement est introuvable!                   
 
 [Victor Reader Stream (page pour le support depuis Humanware)](http://support.humanware.com/fr-france/support/other_products/victor_reader_stream)                  
 
@@ -83,10 +83,11 @@ Victor Stream
 # Source de l'info (depuis le site AccesSolutions:): #
 [Téléchargement Pilotes et mises à jour - AccesSolutions:](http://www.accessolutions.fr/Telechargement-Pilotes-et-mises-a-jour.html)                 
 
-	* Téléchahrgez la version 3.6 d'HumanWare Companion
+	* Téléchahrgez la version 3.6 d'HumanWare Companion              
 * [HumanWare Companion Logiciel Français Version 3.6](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=2804&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2Fe0f9d3b9680415e6a4854a7db8db94d7%2FHumanWareCompanion-DA_DE_EN_FR_NL_NO_SV-3_6_6.exe)                   
 Nom du fichier:           
 HumanWareCompanion-DA_DE_EN_FR_NL_NO_SV-3_6_6.exe                  
+
 	* Documentation pour la version 3.5 de HumanWareCompanion:           
 [Cliquez ici pour télécharger le Manuel d'utilisation version 3.5 (.doc)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=6&ItemLink=2620&To=Site%2FFiles%2Fa%2F06cc20404d351cbaa2520fcd0d5adc3%2F441c2fc8947ffeb9c6803f8299ae487e%2Fca-frug.doc)             
 Nom du fichier:            
@@ -97,7 +98,7 @@ C'est plus parlant! loool!
 
 [HumanWare Companion Logiciel Français (page du support pour le HumanWare Companion)](http://support.humanware.com/fr-france/support/humanware_companion)                   
 
-	* Victor Reader Stream nouvelle génération
+	* Victor Reader Stream nouvelle génération               
 [Humanware - Accueil - Produits Basse Vision pour la Dégénérescence Maculaire (Page du Support pour le Victor Reader Stream New Generation - Software depuis Humanware)](http://support.humanware.com/fr-france/support/victor_reader_stream_new_generation/victor_reader_stream_new_generation_software)                 
 Sur ce lien on trouve toutes les voix compatible seulement pour le Victor Reader Stream nouvelle génération!                      
 Par exemple:              
