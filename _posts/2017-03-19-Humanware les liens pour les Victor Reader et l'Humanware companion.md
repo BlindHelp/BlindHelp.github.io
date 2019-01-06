@@ -71,7 +71,7 @@ Cette version apporte les modifications et corrections suivantes.
 
 [Victor Reader Classic (page pour le support  depuis Humanware)](http://support.humanware.com/fr-france/support/other_products/victor_reader_classic)             
 
-	# VICTOR STREAM READER (français) #
+# VICTOR STREAM READER (français) #
 
 Si vous désirez téléchargez une ancienne version pour le Victor Reader Stream, cliquez ici.                      
 Malheureusement, la page pour son téléchargement est introuvable!                   
@@ -88,13 +88,13 @@ mais voici une autre page pour son téléchargement!
 
 # Stream (nouvelles génération (Stream II) #
 
-	[Version 4.7.2 (Margaux et Antoine)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=9419&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FStream503%2F4_7_F22A29A628C9C5CBD92C6B5D6C99F979%2FStream503_v4.7.2_fr-fr-margaux_HQ-antoine_HQ.UPG)                   
+[Version 4.7.2 (Margaux et Antoine)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=9419&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FStream503%2F4_7_F22A29A628C9C5CBD92C6B5D6C99F979%2FStream503_v4.7.2_fr-fr-margaux_HQ-antoine_HQ.UPG)                   
 
 [Version 4.7.2 (Alice et Rachel)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=9419&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FStream503%2F4_7_F22A29A628C9C5CBD92C6B5D6C99F979%2FStream503_v4.7.2_fr-fr-alice_HQ-rachel_HQ.UPG)                 
 
-	[Autres langues / voix sur le site de Humanware...](http://support.humanware.com/fr-france/support/victor_reader_stream_new_generation/victor_reader_stream_new_generation_software)                    
+[Autres langues / voix sur le site de Humanware...](http://support.humanware.com/fr-france/support/victor_reader_stream_new_generation/victor_reader_stream_new_generation_software)                    
 
-	---
+---
 
 [Utilitaire de transfert de fichiers - Humanware companion (version 3.6)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=7821&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FHWC%2FHumanWareCompanion-DA_DE_EN_ET_FR_NL_NO_SV_RU-3_6_22.exe)                    
 
