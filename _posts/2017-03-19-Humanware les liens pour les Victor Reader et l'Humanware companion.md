@@ -96,8 +96,6 @@ mais voici une autre page pour son téléchargement!
 
 ---
 
-# Utilitaire de transfert de fichiers - Humanware companion (version 3.6 #
-
 [Utilitaire de transfert de fichiers - Humanware companion (version 3.6)](http://support.humanware.com/index.php?Action=Page.Link&PageLink=7821&To=http%3A%2F%2Fwww.humanware.ca%2Fweb%2FHumanWare%2FHWC%2FHumanWareCompanion-DA_DE_EN_ET_FR_NL_NO_SV_RU-3_6_22.exe)                    
 
 # Source de l'info (depuis le site AccesSolutions:): #
