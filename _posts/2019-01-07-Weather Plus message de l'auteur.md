@@ -13,7 +13,7 @@ Voici une traduction du message d'Adriano Barbieri expliquant
 précisément la raison pour laquelle le module complémentaire NVDA
 Weather Plus ne fonctionne plus ; le message original se trouvera juste
 en-dessous :                
--- Traduction --
+`-- Traduction --`                 
 Bonjour à tous,                  
 
 Je suis rentré de vacances hier soir ; comme beaucoup d'entre vous l'ont
@@ -28,7 +28,7 @@ Cordialement,
 
 Adriano                 
 
--- Message original d'Adriano Barbieri --                 
+`-- Message original d'Adriano Barbieri --`                 
 
 Hi to every one,              
 
