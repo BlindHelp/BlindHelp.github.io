@@ -1,5 +1,5 @@
 ﻿---
-title: Module complémentaire horloge et calendrier pour NVDA version 19.01-1 mise à jour disponible
+title: Module complémentaire horloge et calendrier pour NVDA version 19.01.1, mise à jour disponible
 layout: post
 author: BlindHelp
 ---
