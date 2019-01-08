@@ -9,16 +9,16 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!               
-Voici une traduction du message de Joseph Leee; le message original se trouvera juste
+Voici une traduction  du contenu du message transmis par Joseph Lee à la demande de son auteur ; le message original se trouvera juste
 en-dessous :                
 `-- Traduction --`             
 
 # Weather Plus: supprimé de la page du site comunautaire des modules complémentaires NVDA à la demande de son auteur. #
 
 Bonjour à tous,                  
-En raison de circonstances indépendantes du contrôle du module complémentaire, le module complémentaire WeatherPlus a été supprimé de la page du site comunautaire des modules complémentaires NVDA (avec le lien de téléchargement). Il sera restauré une fois que l'auteur aura indiqué que le module complémentaire est de nouveau en ligne.
-Salutations.
-Joseph
+En raison de circonstances indépendantes du contrôle du module complémentaire, le module complémentaire WeatherPlus a été supprimé de la page du site comunautaire des modules complémentaires NVDA (avec le lien de téléchargement). Il sera restauré une fois que l'auteur aura indiqué que le module complémentaire est de nouveau en ligne.            
+Salutations.            
+Joseph             
 
 `-- Message original de Joseph Lee --`                 
 
@@ -29,7 +29,7 @@ Due to circumstances beyond the add-on’s control, WeatherPlus add-on has been 
 Cheers,          
 Joseph            
 
-Voilà donc, le contenu du message transmis par Joseph Lee !                
+Voilà donc, le contenu du message transmis par Joseph Lee à la demande de son auteur!                
 Bien amicalement,              
 Rémy (BlindHelp).
 
