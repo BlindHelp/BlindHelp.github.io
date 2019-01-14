@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Lundi 17 Décembre 2018</footer>
+<footer>Lundi 14 Janvier 2019</footer>
 
 ### Documentation sur NVDA 2018.4 ###
 
