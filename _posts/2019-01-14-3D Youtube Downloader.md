@@ -19,7 +19,7 @@ Enfin, le logiciel peut s'utiliser en version portable : option à sélectionner
 
 3D Youtube Downloader fonctionne sous Windows XP, Vista, 7, 8 et 10.             
 
-3D Youtube Downloader est traduit dans plusieurs langues... y compris  le français, merci à notre ami Bernard Gavroches  et fils 🙇, j'ai également participé à cette traduction et fait le lien entre nous trois et l'auteur du programme, et comment vous le voyez, les résultats ont porté leurs fruits! ;)                              
+3D Youtube Downloader est traduit dans plusieurs langues... y compris  le français, merci à notre ami Bernard Gavroches  et fils 🙇, j'ai également participé à cette traduction et fait le lien entre nous trois et l'auteur du programme: Nick, et comment vous le voyez, les résultats ont porté leurs fruits! ;)                              
 
 Et surtout accessible avec nos lecteurs d’écran NVDA / JAWS, grâce à son auteur😃!             
 
@@ -30,7 +30,7 @@ Et surtout accessible avec nos lecteurs d’écran NVDA / JAWS, grâce à son au
  
 Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger la dernière version disponible!                
  
- # 3D Youtube Downloader version stable 1.16.7#
+ # 3D Youtube Downloader version stable 1.16.7 #
 3dyd_1.16.7.exe              
 [32-bit](http://yd.3dyd.com/download/3dyd_1.16.7.exe)          
 13.8mb                     
@@ -57,7 +57,7 @@ Cliquez sur ce bouton pour accéder à la boîte de dialogue suivante.
 Une autre tabulation nous amène sur le bouton:      
 Suivant             
  Cliquez sur ce bouton pour accéder à la boîte de dialogue suivante.                      
- Ensuite deux tabulation nous amène sur le bouton:
+ Ensuite deux tabulation nous amène sur le bouton:                
  J'accepte              
  Vous devez cliquer sur ce bouton pour accepter la licence utilisateur et pouvoir installer le programme sur votre système.             
  Cliquez sur ce bouton pour accéder à la boîte de dialogue suivante.                      
