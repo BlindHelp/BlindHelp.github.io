@@ -19,7 +19,7 @@ Enfin, le logiciel peut s'utiliser en version portable : option à sélectionner
 
 3D Youtube Downloader fonctionne sous Windows XP, Vista, 7, 8 et 10.             
 
-3D Youtube Downloader est traduit dans plusieurs langues... y compris  le français, merci à notre ami Bernard Gavroches  et fils 🙇, j'ai également participé à cette traduction et fait le lien entre nous trois et l'auteur du programme: Nick, et comment vous le voyez, les résultats ont porté leurs fruits! ;)                              
+	3D Youtube Downloader est traduit dans plusieurs langues... y compris  le français, merci à notre ami Bernard Gavroches  et fils 🙇, j'ai également participé à cette traduction et fait le lien entre nous trois et l'auteur du programme: Nick, et comment vous le voyez, les résultats ont porté leurs fruits! ;)                              
 
 Et surtout accessible avec nos lecteurs d’écran NVDA / JAWS, grâce à son auteur😃!             
 
@@ -30,7 +30,7 @@ Et surtout accessible avec nos lecteurs d’écran NVDA / JAWS, grâce à son au
  
 Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger la dernière version disponible!                
  
- # 3D Youtube Downloader version stable 1.16.7 #
+# 3D Youtube Downloader version stable 1.16.7 #
 3dyd_1.16.7.exe              
 [32-bit](http://yd.3dyd.com/download/3dyd_1.16.7.exe)          
 13.8mb                     
@@ -65,7 +65,7 @@ Ici, nous avons deux choix possible d'installation, donc, vous trouverez deux bo
 Installation standard             
 Soit vous utilisez l'installation standard qui est par défaut, donc le programme va être installé sur votre système.                 
  Installation portable               
-Soit vous utilisez l'installation portable,, donc le programme va pas être installé sur votre système, sinon créé en tant qu'installation portable.
+Soit vous utilisez l'installation portable,, donc le programme va pas être installé sur votre système, sinon créé en tant qu'installation portable.              
 Une fois que vous avez fait votre choix...        
 Si vous avez choisi l'installation standard, vous aurez une seule case à cocher:                   
 Créer une icône sur le Bureau                
@@ -81,13 +81,14 @@ Suivant
 Dans les deux cas de figure, une autre boîte de dialogue s'ouvre:              
 Quatre tabulation pour atteindre le bouton:                
 Installer              
+Note: S'il est utilisé dans une installation sur votre ordinateur, laissez tous les paramètres du programme 3D Youtube Downloader par défaut (par exemple, chemin du dossier).            
 cliquez sur le bouton:                 
 Installer              
 Dès que l'installation sera terminée, un message s'affichera vous signalant la fin de l'installation du programme 3D Youtube Downloader. Cliquer sur le bouton "Terminer"       
 Si vous souhaitez  vous pouvez décocher la case à cocher pour éviter le lancement du programme 3D Youtube Downloader après son installation, dans le cas contraire  se lancera   le programme 3D Youtube Downloader récemment installé. 
  
- # Configuration de 3D Youtube Downloader #
- Nous allons voir comment configurer 3D YouTube Downloader.           
+# Configuration de 3D Youtube Downloader #
+Nous allons voir comment configurer 3D YouTube Downloader.           
 Ouvrez-le à partir de son icône sur le bureau.          
 Si vous avez une version 64 bits, vous aurez l’icône appelée:                   
 3D Youtube Downloader (x64)              
@@ -106,26 +107,26 @@ Descendre une fois avec flèche basse et vous trouverez l'autre mode:
 Mode de Conversion             
 (cocher avec espace).                
 L'interface est alors modifiée et un nouveau champs apparaît pour le format:                   
-Format Meilleure Qualité Audio -> MPEG Layer-3 (*.mp3)           
+Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)           
 Ce format est la valeur du codec sélectionnée par défaut, si vous avez sélectionné le type Audio.              
 Note: Quand  vous êtes  toujours sur le choix du mode ,                     
-si vous descendez une fois de plus avec flèche basse  vous trouverez l'autre mode:
+si vous descendez une fois de plus avec flèche basse  vous trouverez l'autre mode:             
 Mode Avancé                
 si vous descendez une fois de plus avec flèche basse vous trouverez:             
 Rechercher sur Youtube               
 si vous descendez une fois de plus avec flèche basse vous trouverez:             
 Utiliser l'URL à partir du flux du site              
 si vous descendez une fois de plus avec flèche basse vous trouverez:             
-Utiliser l'une des URL récentes
+Utiliser l'une des URL récentes            
 si vous descendez une fois de plus avec flèche basse vous trouverez:             
-Utiliser l'URL à partir du presse-papiers
+Utiliser l'URL à partir du presse-papiers              
 et on revient à "Mode Simple" (ça tourne en rond.          
 
 N'oubliez pas que vous devez sélectionner le:           
 Mode de Conversion             
 (cocher avec espace).                
 L'interface est alors modifiée et un nouveau champs apparaît pour le format:                   
-Format Meilleure Qualité Audio -> MPEG Layer-3 (*.mp3)              
+Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)              
 Ce format est la valeur du codec sélectionnée par défaut, si vous avez sélectionné le type Audio.              
 
 Lorsque vous êtes dans l'interface du programme 3D Youtube Downloader, si vous faites une autre fois tabulation, ça nous amène sur le choix de la langue:          
@@ -144,10 +145,10 @@ Meilleure Qualité Disponible
 Par exemple , Comme indiqué ci-dessus, si vous avez sélectionné le:             
 Mode de Conversion             
 la valeur du codec sélectionnée par défaut sera:           
-Format Meilleure Qualité Audio -> MPEG Layer-3 (*.mp3)              
+Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)              
 Ce format est la valeur du codec sélectionnée par défaut, si vous avez sélectionné le type Audio.              
 Lorsque vous êtes sur l'élément:           
-Format Meilleure Qualité Audio -> MPEG Layer-3 (*.mp3)              
+Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)              
 Là, faites une flèche basse,              
 Automatiquement, vous êtes revenu dans le menu contextuel, vous êtes sur l’option fichier, flèche basse jusqu’à format sous menu, introduisez-vous dans le sous-menu en pressant flèche droite.          
 A l’aide des flèches verticales, vous découvrirez les différents formats d'audio, selon ce que vous avez choisi, pressez la touche entrée sur le format souhaité.                 
@@ -155,10 +156,10 @@ Pour quitter le menu contextuel, pressez la touche échappement.
 Dans le cas que le type:           
 Vidéo              
 est coché, vous aurez le format:                   
-Format Meilleure Qualité Vidéo -> AVI file (*.avi)                 
+Format Meilleure Qualité Vidéo -> AVI file (`*`.avi)                 
 Ce format est la valeur du codec sélectionnée par défaut, si vous avez sélectionné le type Vidéo.              
 Lorsque vous êtes sur l'élément:           
-Format Meilleure Qualité Vidéo -> AVI file (*.avi)                 
+Format Meilleure Qualité Vidéo -> AVI file (`*`.avi)                 
 Là, faites une flèche basse,              
 Automatiquement, vous êtes revenu dans le menu contextuel, vous êtes sur l’option fichier, flèche basse jusqu’à format sous menu, introduisez-vous dans le sous-menu en pressant flèche droite.            
 A l’aide des flèches verticales, vous découvrirez les différents formats de vidéo, selon ce que vous avez choisi, pressez la touche entrée sur le format souhaité.             
@@ -171,8 +172,8 @@ Voilà la configuration est terminée.
 
 # Menu Langue #
 Eh bien, je peux seulement vous dire que le menu Langue, contient un sous-menu, une fois là, faites une flèche basse,              
-Automatiquement, vous êtes revenu dans le menu contextuel, vous êtes sur la liste des langues
-A l’aide des flèches verticales, vous découvrirez les différentes langues disponible dans le programme:              
+Automatiquement, vous êtes revenu dans le menu contextuel, vous êtes sur la liste des langues.            
+A l’aide des flèches verticales, vous découvrirez les différentes langues disponible dans le programme 3D Youtube Downloader:              
 Français         
 notre belle langue française est cochée             
 Ne pas toucher! Sortir d'ici!             
@@ -183,15 +184,15 @@ Lorsque vous êtes positionné sur le menu  Langue
 Si vous faites une flèche droite, vous serez dans le menu Outils:             
 A l’aide des flèches verticales, vous découvrirez les différents  éléments du menu Outils:              
 Dans ce tutoriel, nous n'allons pas développer ce menu.                
-Interface Utilisateur sous-menu i
+Interface Utilisateur sous-menu i             
 La valeur standard est sélectionnée par défaut.               
 Prédéfini sous-menu p          
-Nous avons trois éléments:  Configurer , Enregistrer et Supprimer.
+Nous avons trois éléments:  Configurer , Enregistrer et Supprimer.              
 Paramètres de Conversion	Ctrl+T          
-Journal	F4
-Options	Ctrl+P
-Si vous pressez la touche entrée, vous pouvez configurer le programme 3D Youtube Downloader, mais à mon avis, cette partie est destinée aux utilisateurs expérimentés!
-et on revient à             
+Journal	F4             
+Options	Ctrl+P                
+Si vous pressez la touche entrée, vous pouvez configurer le programme 3D Youtube Downloader, mais à mon avis, cette partie est destinée aux utilisateurs expérimentés!                    
+et on revient à les trois modes:             
 "Mode Simple"          
 "Mode de Conversion"         
 "Mode Avancé"       
@@ -209,7 +210,8 @@ Aide Contextuelle	F1 (non cocher)
 Ceci est une case à cocher (en cliquant ici,elle sera  coché, en tout cas je n'ai vu aucun changement)             
 Vérifier les Mises À Jour         
 Comme son nom l'indique, vous pouvez savoir si vous disposez de la dernière version du programme 3D Youtube Downloader.                  
-Sites pris en charge(En cliquant ici, une liste apparaît avec les sites pris en charge par le programme 3D Youtube Downloader).           
+Sites pris en charge              
+(En cliquant ici, une liste apparaît avec les sites pris en charge par le programme 3D Youtube Downloader).           
 Fermer par Alt+F4.          
 Signaler un problème                 
 Une page contenant un formulaire de contact pour contacter l'auteur du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut.               
@@ -226,7 +228,7 @@ comment utiliser le programme 3D YouTube Downloader lequel va vous permettre de 
 # Télécharger sur YouTube #
 Ouvrez le site de [YouTube](https://www.youtube.com/).       
 Tapez votre recherche, dans le champs  Rechercher qui est au début de la page.                      
-Déplacez-vous dans les résultats avec vos flèches verticales ou en tapant la lettre T pour aller de titre en titre avec JAWS, ou H avec NVDA.                   
+Déplacez-vous dans les résultats avec vos flèches verticales ou en tapant la lettre T pour aller de titre en titre avec JAWS, ou en tapant la lettre H avec NVDA.                   
 Une fois le morceau trouvé, pressez la touche entrée pour démarrer la lecture.                       
 Faites alt. +d  ou F6 pour vous rendre dans la barre d’adresse.                       
 L’adresse d’où provient le morceau vous est donnée, copiez la dans le presse-papier par le raccourci contrôle+c.                      
@@ -248,8 +250,9 @@ Note: Après avoir collé le lien dans le champ prévu, j'ai pressé la touche e
 Ceci est annoncé comme:         
 Description en lecture seule            
 Dans la description, vous trouverez les détails de ce clip vidéo, des liens permettant de suivre l'auteur, le cas échéant.        
+Utile si vous souhaitez copier ces informations dans un fichier (`*`.txt) à l'aide du Bloc-notes Windows, (appelé Notepad sous Windows 10).
 Si vous faites une tabulation après Description en lecture seule,vous trouverez le format dans lequel vous avez téléchargé ce clip vidéo:            
-Format Meilleure Qualité Audio -> MPEG Layer-3 (*.mp3)              
+Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)              
 Si vous faites une tabulation après Format,vous trouverez l'emplacement où vous avez stocké ce clip vidéo après le téléchargement:                    
 Ceci est annoncé comme:         
 Fichier  en lecture seule              
@@ -270,22 +273,23 @@ Pour un nouveau téléchargement, en tabulant revenez sur la liste des résultat
 Pour changer de titre ou d’auteur, tabulez jusqu’à entendre Edition consultation de recherche, effacez votre recherche précédente, tapez votre nouvelle recherche, une tabulation, vous entendez bouton recherche, pressez la touche entrée.                    
 Après un petit dialogue, les résultats s’affichent, a vous d’agir comme décrit ci-dessus.                
 
-Le seule bémol avec cette méthode est-ce que nous ne pouvons pas entendre un extrait de ce clip vidéo sans l'avoir téléchargé au préalable sous forme de fichier (*.mp3)           
-mais au moins, il est plus rapide de chercher entre les résultats et d'utilisez  notre sens musical! 
+Le seule bémol avec cette méthode est-ce que nous ne pouvons pas entendre un extrait de ce clip vidéo sans l'avoir téléchargé au préalable sous forme de fichier (`*`.mp3)           
+mais au moins, il est plus rapide de chercher entre les résultats et d'utilisez  notre sens musical! (music) 
 
-Comme je suis sûr que vous avez suivi pas à pas ce tutoriel, je vous donnerai plus bas une récompense musicale!            
+Comme je suis sûr que vous avez suivi pas à pas ce tutoriel, je vous donnerai plus bas une récompense musicale! (cool)           
 
 # Bonus musicale #
 Voici deux  liens d'écoute pour profiter de la beauté de la Flûte de Pan Péruvienne:
  [Lien #1](https://www.youtube.com/watch?v=MysB4SfoWJw)              
-[Lien #2]https://www.youtube.com/watch?v=8kQZHYbZkLs()                     
+[Lien #2](https://www.youtube.com/watch?v=8kQZHYbZkLs)                     
 
-# remerciements #
+# Remerciements #
 Et enfin, je remercie tous ceux qui ont rendu ce mode d’emploi collaboratif possible!  😄
 Sans oublier ceux qui ont rendu leur traduction en français possible! 😃
-- Coup de chapeau [salut donné en soulevant légèrement son chapeau ]            
+Je pense que tous ceux qui ont participé ce reconnaîtront et ils méritent un grand coup de chapeau, [salut donné en soulevant légèrement son chapeau]            
 Voilà donc,  tout est dit au sujet du programme 3D Youtube Downloader!             
 Amusez-vous bien!           
+Et à la prochaine donc!                
 @amicalement,              
 Rémy (BlindHelp).
 
