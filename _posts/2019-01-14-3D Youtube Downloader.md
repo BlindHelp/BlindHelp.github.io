@@ -84,7 +84,8 @@ Installer
 Note: S'il est utilisé dans une installation sur votre ordinateur, laissez tous les paramètres du programme 3D Youtube Downloader par défaut (par exemple, chemin du dossier).            
 cliquez sur le bouton:                 
 Installer              
-Dès que l'installation sera terminée, un message s'affichera vous signalant la fin de l'installation du programme 3D Youtube Downloader. Cliquer sur le bouton "Terminer"       
+Dès que l'installation sera terminée, un message s'affichera vous signalant la fin de l'installation du programme 3D Youtube Downloader.           
+Cliquer sur le bouton "Terminer"       
 Si vous souhaitez  vous pouvez décocher la case à cocher pour éviter le lancement du programme 3D Youtube Downloader après son installation, dans le cas contraire  se lancera   le programme 3D Youtube Downloader récemment installé. 
  
 # Configuration de 3D Youtube Downloader #
@@ -166,7 +167,7 @@ A l’aide des flèches verticales, vous découvrirez les différents formats de
 Pour quitter le menu contextuel, pressez la touche échappement.                
 (les paramètres sont conservés)                  
 
-Voilà la configuration est terminée.                 
+(whew) Voilà la configuration est terminée.                 
 
 # Les autres Menus dans l'interface du programme 3D Youtube Downloader #
 
@@ -207,16 +208,17 @@ Vous devez pressez la touche entrée pour valider l'un de ces éléments.
 Rubriques d'Aide (en anglais).             
 Une page contenant l'aide du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut.               
 Aide Contextuelle	F1 (non cocher)           
-Ceci est une case à cocher (en cliquant ici,elle sera  coché, en tout cas je n'ai vu aucun changement)             
+Ceci est une case à cocher              
+(En cliquant ici,elle sera  coché, en tout cas je n'ai vu aucun changement)             
 Vérifier les Mises À Jour         
 Comme son nom l'indique, vous pouvez savoir si vous disposez de la dernière version du programme 3D Youtube Downloader.                  
 Sites pris en charge              
 (En cliquant ici, une liste apparaît avec les sites pris en charge par le programme 3D Youtube Downloader).           
-Fermer par Alt+F4.          
+Fermer la fenêtre par Alt+F4.          
 Signaler un problème                 
 Une page contenant un formulaire de contact pour contacter l'auteur du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut.               
 À propos              
-En cliquant ici, vous aurez l'information du programme 3D Youtube Downloader, par exemple le numéro de version actuel.                
+(En cliquant ici, vous aurez l'information du programme 3D Youtube Downloader, par exemple le numéro de version actuel).                
 Cliquez sur le bouton OK pour fermer la boîte de dialogue.             
 Pour quitter le menu Aide, pressez la touche échappement.                
 
@@ -250,7 +252,8 @@ Note: Après avoir collé le lien dans le champ prévu, j'ai pressé la touche e
 Ceci est annoncé comme:         
 Description en lecture seule            
 Dans la description, vous trouverez les détails de ce clip vidéo, des liens permettant de suivre l'auteur, le cas échéant.        
-Utile si vous souhaitez copier ces informations dans un fichier (`*`.txt) à l'aide du Bloc-notes Windows, (appelé Notepad sous Windows 10).
+Utile si vous souhaitez copier ces informations dans un fichier (`*`.txt) à l'aide du Bloc-notes Windows, (appelé Notepad sous Windows 10).                
+
 Si vous faites une tabulation après Description en lecture seule,vous trouverez le format dans lequel vous avez téléchargé ce clip vidéo:            
 Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)              
 Si vous faites une tabulation après Format,vous trouverez l'emplacement où vous avez stocké ce clip vidéo après le téléchargement:                    
@@ -272,9 +275,55 @@ Votre morceau se télécharge automatiquement.
 Pour un nouveau téléchargement, en tabulant revenez sur la liste des résultats, déplacez-vous parmi celle-ci, une fois votre choix fait, une tabulation, vous entendez ok bouton, pressez la touche entrée.                  
 Pour changer de titre ou d’auteur, tabulez jusqu’à entendre Edition consultation de recherche, effacez votre recherche précédente, tapez votre nouvelle recherche, une tabulation, vous entendez bouton recherche, pressez la touche entrée.                    
 Après un petit dialogue, les résultats s’affichent, a vous d’agir comme décrit ci-dessus.                
+Note: Après le bouton  Recherche               
+Une tabulation, vous entendez  Options Trier par pertinence              
+Une fois là, faites une flèche basse,           
+Automatiquement, vous êtes revenu dans le menu contextuel, vous entendez Options liste déroulante Trier par pertinence     
+(à parcourir avec flèches bas/haut)               
+Caractéristiques sous-menu c                
+Introduisez-vous dans le sous-menu en pressant flèche droite. 
+(à parcourir avec flèches bas/haut)               
+Pressez la touche entrée sur l'option souhaité.              
+HD (Haute Définition) h       
+Sous-titres s            
+Réinitialiser r                 
+Note: Aucune de ces options n'est cochée.              
+Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
+Pour quitter le menu contextuel, pressez la touche échappement.  
+(les paramètres sont conservés)
+
+Durée sous-menu d              
+Introduisez-vous dans le sous-menu en pressant flèche droite. 
+(à parcourir avec flèches bas/haut)               
+Pressez la touche entrée sur l'option souhaité.              
+n'importe quel
+Option coché par défaut          
+< 4 minutes        
+4-20 minutes          
+> 20 minutes         
+
+Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
+Pour quitter le menu contextuel, pressez la touche échappement.  
+(les paramètres sont conservés)
+
+Trier par sous-menu t                  
+Introduisez-vous dans le sous-menu en pressant flèche droite. 
+(à parcourir avec flèches bas/haut)               
+Pressez la touche entrée sur l'option souhaité.              
+pertinence p         
+Option coché par défaut          
+date de publication d         
+nombre de vues n            
+vote v           
+
+Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
+Pour quitter le menu contextuel, pressez la touche échappement.  
+(les paramètres sont conservés)
+
+Note: Je préfère laisser toutes les options cochées par défaut, et laissez les options non cochées comme elles sont.               
 
 Le seule bémol avec cette méthode est-ce que nous ne pouvons pas entendre un extrait de ce clip vidéo sans l'avoir téléchargé au préalable sous forme de fichier (`*`.mp3)           
-mais au moins, il est plus rapide de chercher entre les résultats et d'utilisez  notre sens musical! (music) 
+mais au moins, il est plus rapide de chercher entre les résultats et d'utilisez  notre sens musical! (music)           
 
 Comme je suis sûr que vous avez suivi pas à pas ce tutoriel, je vous donnerai plus bas une récompense musicale! (cool)           
 
@@ -284,8 +333,8 @@ Voici deux  liens d'écoute pour profiter de la beauté de la Flûte de Pan Pér
 [Lien #2](https://www.youtube.com/watch?v=8kQZHYbZkLs)                     
 
 # Remerciements #
-Et enfin, je remercie tous ceux qui ont rendu ce mode d’emploi collaboratif possible!  😄
-Sans oublier ceux qui ont rendu leur traduction en français possible! 😃
+Et enfin, je remercie tous ceux qui ont rendu ce mode d’emploi collaboratif possible! 😄             
+Sans oublier ceux qui ont rendu leur traduction en français possible! 😃              
 Je pense que tous ceux qui ont participé ce reconnaîtront et ils méritent un grand coup de chapeau, [salut donné en soulevant légèrement son chapeau]            
 Voilà donc,  tout est dit au sujet du programme 3D Youtube Downloader!             
 Amusez-vous bien!           
