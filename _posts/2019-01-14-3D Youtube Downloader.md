@@ -259,7 +259,49 @@ Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)
 Si vous faites une tabulation après Format,vous trouverez l'emplacement où vous avez stocké ce clip vidéo après le téléchargement:                    
 Ceci est annoncé comme:         
 Fichier  en lecture seule              
-Téléchargements\Nom de l'artiste - Nom du clip vidéo.mp3               
+Téléchargements\Nom de l'artiste - Nom du clnip vidéo.mp3               
+Si vous faites une tabulation, vous entendez Ouvrir sous-menu             
+Une fois là, faites une flèche basse,                  
+Automatiquement, vous êtes revenu dans le menu contextuel, donc vous  pouvez examiner les clips vidéo que vous avez téléchargés récemment et qui sont stockés dans le dossier Téléchargements (dossier par défaut), et qu'ils n'ont pas encore été déplacés ailleurs.               
+Ici vous trouverez les éléments suivants, pressez la touche entrée, sur l'un d'entre eux.        
+(à parcourir avec flèches bas/haut)              
+Parcourir               
+Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue "Enregistrer sous", pour enregistrer le dernier clip vidéo (fichier `*`.mp3) téléchargé, afin d'être sauvegardé ailleurs; du moins c'est ce que je pense, mais je préfère ne pas l'utiliser.               
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Ouvrir               
+Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue du style "Ouvrir avec", qui vous demandera: "Comment voulez-vous ouvrir ce fichier ?"              
+Vous devrez toujours utiliser cette application pour ouvrir les fichiers `*`.mp3 stockés dans le dossier Téléchargements, (une liste permet de sélectionner l’une des applications et de cocher une case à cocher  afin de toujours utiliser la même application et ouvrir ce type de fichiers).                    
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Pour quitter le menu contextuel, pressez la touche échappement.          
+Ouvrir un Dossier Contenant                   
+Une fois que vous avez cliqué ici, vous ouvrirez le dossier "Téléchargements" où sont stockés vos fichiers récemment téléchargés.              
+Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
+chercher Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Supprimer Fichier Local          
+Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue du style "Confirmation de suppression", qui vous demandera: "Supprimer le fichier"              
+Voulez-vous vraiment placer ce fichier dans la Corbeille ?                 
+Nom du fichier.mp3                         
+Vous devez confirmer cette opération.           
+répondre par Oui, ou Non.               
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Pour quitter le menu contextuel, pressez la touche échappement.      
+Fichiers Récents sous-menu                  
+Introduisez-vous dans le sous-menu en pressant flèche droite.                
+(à parcourir avec flèches bas/haut)                    
+Ici, vous voyez tous les fichiers téléchargés, avec leur nom et leur extension suivis de l'adresse URL.              
+Pressez la touche entrée sur le fichier souhaité.               
+Si le fichier se trouve toujours dans le dossier "Téléchargements", elle s'ouvrira  la boîte de dialogue du style "Ouvrir avec", qui vous demandera: "Comment voulez-vous ouvrir ce fichier ?"                 
+Voir la description ci-dessus.              
+Dans le cas contraire:              
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Après avoir examiné la liste des fichiers récents, si vous faites une flèche basse, vous trouverez le dernier élément:             
+Réinitialiser                
+Une fois que vous avez cliqué ici, tout le contenu de la liste des fichiers récents sera supprimé Ou plutôt vidé de cette liste.                   
+Les fichiers téléchargés qui sont stockés dans le dossier "Téléchargements" ne seront pas supprimés!
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Donc, l'élément sera affiché comme:           
+Fichiers Récents non disponible                    
+Pour quitter le menu contextuel, si vous êtes dans l'élément: Fichiers Récents sous-menu pressez la touche échappement deux fois .                
 
 # Le téléchargement sans passer par le site de YouTube #
 Ouvrez 3D YouTube Downloader à partir de son icône sur le bureau.               
@@ -281,7 +323,7 @@ Une fois là, faites une flèche basse,
 Automatiquement, vous êtes revenu dans le menu contextuel, vous entendez Options liste déroulante Trier par pertinence     
 (à parcourir avec flèches bas/haut)               
 Caractéristiques sous-menu c                
-Introduisez-vous dans le sous-menu en pressant flèche droite. 
+Introduisez-vous dans le sous-menu en pressant flèche droite.       
 (à parcourir avec flèches bas/haut)               
 Pressez la touche entrée sur l'option souhaité.              
 HD (Haute Définition) h       
@@ -289,11 +331,11 @@ Sous-titres s
 Réinitialiser r                 
 Note: Aucune de ces options n'est cochée.              
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
-Pour quitter le menu contextuel, pressez la touche échappement.  
+Pour quitter le menu contextuel, pressez la touche échappement.       
 (les paramètres sont conservés)
 
 Durée sous-menu d              
-Introduisez-vous dans le sous-menu en pressant flèche droite. 
+Introduisez-vous dans le sous-menu en pressant flèche droite.                    
 (à parcourir avec flèches bas/haut)               
 Pressez la touche entrée sur l'option souhaité.              
 n'importe quel
@@ -303,11 +345,11 @@ Option coché par défaut
 > 20 minutes         
 
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
-Pour quitter le menu contextuel, pressez la touche échappement.  
+Pour quitter le menu contextuel, pressez la touche échappement.      
 (les paramètres sont conservés)
 
 Trier par sous-menu t                  
-Introduisez-vous dans le sous-menu en pressant flèche droite. 
+Introduisez-vous dans le sous-menu en pressant flèche droite.            
 (à parcourir avec flèches bas/haut)               
 Pressez la touche entrée sur l'option souhaité.              
 pertinence p         
@@ -317,20 +359,21 @@ nombre de vues n
 vote v           
 
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
-Pour quitter le menu contextuel, pressez la touche échappement.  
+Pour quitter le menu contextuel, pressez la touche échappement.      
 (les paramètres sont conservés)
 
-Note: Je préfère laisser toutes les options cochées par défaut, et laissez les options non cochées comme elles sont.               
+Note: Je préfère laisser toutes les options cochées par défaut, et laissez les options non cochées comme elles sont actuellement.               
 
-Le seule bémol avec cette méthode est-ce que nous ne pouvons pas entendre un extrait de ce clip vidéo sans l'avoir téléchargé au préalable sous forme de fichier (`*`.mp3)           
+Le seule bémol avec le téléchargement sans passer par le site de YouTube est-ce que nous ne pouvons pas entendre un extrait de ce clip vidéo sans l'avoir téléchargé au préalable sous forme de fichier (`*`.mp3)           
 mais au moins, il est plus rapide de chercher entre les résultats et d'utilisez  notre sens musical! (music)           
 
 Comme je suis sûr que vous avez suivi pas à pas ce tutoriel, je vous donnerai plus bas une récompense musicale! (cool)           
 
 # Bonus musicale #
-Voici deux  liens d'écoute pour profiter de la beauté de la Flûte de Pan Péruvienne:
+Voici quelques  liens d'écoute pour profiter de la beauté de la Flûte de Pan Péruvienne:
  [Lien #1](https://www.youtube.com/watch?v=MysB4SfoWJw)              
 [Lien #2](https://www.youtube.com/watch?v=8kQZHYbZkLs)                     
+[Lien #3](https://www.youtube.com/watch?v=460VxMM2DxU)            
 
 # Remerciements #
 Et enfin, je remercie tous ceux qui ont rendu ce mode d’emploi collaboratif possible! 😄             
