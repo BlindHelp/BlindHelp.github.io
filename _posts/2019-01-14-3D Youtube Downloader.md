@@ -11,7 +11,11 @@ Coucou mes amis du blog de BlindHelp!
 Voici [3D Youtube Downloader](http://yd.3dyd.com/home/)               
 c'est un petit logiciel qui permet de télécharger et convertir les vidéos de Youtube, Vimeo, Dailymotion, Facebook, LiveLeak, VK, etc dans différents formats comme WebM, MP4, FLV, M4A, OGG, MP3, WMA, AAC, etc. Il peut également télécharger des sous-titres et des vidéos 3D de YouTube et Dailymotion. Le téléchargement haute vitesse est disponible avec des téléchargements multipart et la compression HTTP, ainsi que le support proxy pour contourner les restrictions réseau.             
 
-Une fonction de recherche intégrée sur Youtube est aussi disponible et permet de trouver ce que l'on cherche sans ouvrir son navigateur internet.
+Pour cela, il suffit de coller dans 3D Youtube Downloader l’adresse web de la vidéo que vous souhaitez télécharger. Trois modes d’utilisation permettent de s’adapter parfaitement à vos attentes.                
+Le mode simple permet aux novices de télécharger leurs vidéos en toute facilité.             
+Le mode conversion permet aux utilisateurs un peu plus expérimentés de choisir le format et la qualité de leurs téléchargements.             
+Le mode avancé permet aux initiés de peaufiner leurs téléchargements, avec par exemple le choix de la résolution de la vidéo, etc.                
+Une fonction de recherche intégrée sur Youtube est aussi disponible et permet de trouver ce que l'on cherche sans ouvrir son navigateur Internet. 😃                  
 
 Il est gratuit et assez accessible.          
 
@@ -87,7 +91,14 @@ Installer
 Dès que l'installation sera terminée, un message s'affichera vous signalant la fin de l'installation du programme 3D Youtube Downloader.           
 Cliquer sur le bouton "Terminer"       
 Si vous souhaitez  vous pouvez décocher la case à cocher pour éviter le lancement du programme 3D Youtube Downloader après son installation, dans le cas contraire  se lancera   le programme 3D Youtube Downloader récemment installé. 
- 
+# Commandes clavier pour NVDA/JAWS avec 3D Youtube Downloader #
+Utiliser "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les contrôles de l'interface du programme 3D Youtube Downloader;                
+Vous devrez utiliser les touches fléchées pour naviguer dans l'interface du programme 3D Youtube Downloader, par exemple dans des boutons radio , des listes, etc;              
+Appuyer sur la barre d'espace ou la touche "Entrée" quand l'élément a le focus, soit pour valider un bouton ou cocher ou décocher une case à cocher par exemple;  
+Appuyer sur la flèche basse pour déclencher le menu contextuel pour aller au menu choisi;               
+Appuyer sur la touche "échap" pour quitter le menu contextuel quand vous êtes dans un menu par exemple;                       
+Utiliser "Alt+Tabulation" pour passer de nouveau à l'application 3D Youtube Downloader, si vous êtes ailleurs, par exemple: dans le dossier Téléchargements, une page Web, etc.                  
+
 # Configuration de 3D Youtube Downloader #
 Nous allons voir comment configurer 3D YouTube Downloader.           
 Ouvrez-le à partir de son icône sur le bureau.          
@@ -121,7 +132,8 @@ si vous descendez une fois de plus avec flèche basse vous trouverez:
 Utiliser l'une des URL récentes            
 si vous descendez une fois de plus avec flèche basse vous trouverez:             
 Utiliser l'URL à partir du presse-papiers              
-et on revient à "Mode Simple" (ça tourne en rond.          
+et on revient à "Mode Simple"              
+(ça tourne en rond).          
 
 N'oubliez pas que vous devez sélectionner le:           
 Mode de Conversion             
@@ -133,6 +145,7 @@ Ce format est la valeur du codec sélectionnée par défaut, si vous avez sélec
 Lorsque vous êtes dans l'interface du programme 3D Youtube Downloader, si vous faites une autre fois tabulation, ça nous amène sur le choix de la langue:          
 Langue sous-menu              
 (passer sans toucher)             
+(ça tourne en rond).                  
 
 # Quelques conseils en bric-à-brac #
 Lorsque vous êtes dans un sous-menu, là, faites une flèche basse, un menu contextuel s'ouvre,           
@@ -197,7 +210,7 @@ et on revient à les trois modes:
 "Mode Simple"          
 "Mode de Conversion"         
 "Mode Avancé"       
-(ça tourne en rond.          
+(ça tourne en rond).          
 Pour quitter le menu Outils, pressez la touche échappement.                
 
 # Menu Aide #
@@ -207,23 +220,29 @@ A l’aide des flèches verticales, vous découvrirez les différents  élément
 Vous devez pressez la touche entrée pour valider l'un de ces éléments.                   
 Rubriques d'Aide (en anglais).             
 Une page contenant l'aide du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut.               
+Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
 Aide Contextuelle	F1 (non cocher)           
 Ceci est une case à cocher              
 (En cliquant ici,elle sera  coché, en tout cas je n'ai vu aucun changement)             
+Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.            
 Vérifier les Mises À Jour         
 Comme son nom l'indique, vous pouvez savoir si vous disposez de la dernière version du programme 3D Youtube Downloader.                  
+Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.          
 Sites pris en charge              
 (En cliquant ici, une liste apparaît avec les sites pris en charge par le programme 3D Youtube Downloader).           
-Fermer la fenêtre par Alt+F4.          
+Fermer la fenêtre par Alt+F4 ou pressez la touche échappement.          
+Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.              
 Signaler un problème                 
 Une page contenant un formulaire de contact pour contacter l'auteur du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut.               
+Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
 À propos              
 (En cliquant ici, vous aurez l'information du programme 3D Youtube Downloader, par exemple le numéro de version actuel).                
-Cliquez sur le bouton OK pour fermer la boîte de dialogue.             
+Cliquez sur le bouton OK pour fermer la boîte de dialogue.              
+Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.             
 Pour quitter le menu Aide, pressez la touche échappement.                
 
 Je pense avoir fait  le tour entre ces menus, nous allons maintenant au point qui nous intéresse!
-comment utiliser le programme 3D YouTube Downloader lequel va vous permettre de télécharger des vidéos sur YouTube et vous pourrez même en extraire la bande son.                
+comment utiliser le programme 3D YouTube Downloader lequel va vous permettre de télécharger des vidéos sur YouTube et vous pourrez même en extraire la bande son et ainsi sauvegarder sur votre ordinateur vos vidéos préférées, pour les visualiser ultérieurement ou hors-ligne (sans connexion à Internet).               
 
 1 2 3allons-y!              
 
@@ -267,23 +286,23 @@ Ici vous trouverez les éléments suivants, pressez la touche entrée, sur l'un 
 (à parcourir avec flèches bas/haut)              
 Parcourir               
 Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue "Enregistrer sous", pour enregistrer le dernier clip vidéo (fichier `*`.mp3) téléchargé, afin d'être sauvegardé ailleurs; du moins c'est ce que je pense, mais je préfère ne pas l'utiliser.               
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
 Ouvrir               
 Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue du style "Ouvrir avec", qui vous demandera: "Comment voulez-vous ouvrir ce fichier ?"              
-Vous devrez toujours utiliser cette application pour ouvrir les fichiers `*`.mp3 stockés dans le dossier Téléchargements, (une liste permet de sélectionner l’une des applications et de cocher une case à cocher  afin de toujours utiliser la même application et ouvrir ce type de fichiers).                    
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Vous devrez toujours utiliser cette application pour ouvrir les fichiers `*`.mp3 stockés dans le dossier Téléchargements, (une liste permet de sélectionner l’une des applications et de cocher une case à cocher afin de toujours utiliser la même application et ouvrir ce type de fichiers).                    
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
 Pour quitter le menu contextuel, pressez la touche échappement.          
 Ouvrir un Dossier Contenant                   
 Une fois que vous avez cliqué ici, vous ouvrirez le dossier "Téléchargements" où sont stockés vos fichiers récemment téléchargés.              
 Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
-chercher Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+chercher Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
 Supprimer Fichier Local          
 Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue du style "Confirmation de suppression", qui vous demandera: "Supprimer le fichier"              
 Voulez-vous vraiment placer ce fichier dans la Corbeille ?                 
 Nom du fichier.mp3                         
 Vous devez confirmer cette opération.           
 répondre par Oui, ou Non.               
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
 Pour quitter le menu contextuel, pressez la touche échappement.      
 Fichiers Récents sous-menu                  
 Introduisez-vous dans le sous-menu en pressant flèche droite.                
@@ -293,17 +312,20 @@ Pressez la touche entrée sur le fichier souhaité.
 Si le fichier se trouve toujours dans le dossier "Téléchargements", elle s'ouvrira  la boîte de dialogue du style "Ouvrir avec", qui vous demandera: "Comment voulez-vous ouvrir ce fichier ?"                 
 Voir la description ci-dessus.              
 Dans le cas contraire:              
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
 Après avoir examiné la liste des fichiers récents, si vous faites une flèche basse, vous trouverez le dernier élément:             
 Réinitialiser                
 Une fois que vous avez cliqué ici, tout le contenu de la liste des fichiers récents sera supprimé Ou plutôt vidé de cette liste.                   
-Les fichiers téléchargés qui sont stockés dans le dossier "Téléchargements" ne seront pas supprimés!
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse,afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Les fichiers téléchargés qui sont stockés dans le dossier "Téléchargements" ne seront pas supprimés!          
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
 Donc, l'élément sera affiché comme:           
 Fichiers Récents non disponible                    
 Pour quitter le menu contextuel, si vous êtes dans l'élément: Fichiers Récents sous-menu pressez la touche échappement deux fois .                
 
 # Le téléchargement sans passer par le site de YouTube #
+Maintenant, nous allons expliquer en détail comment utiliser l'option "Rechercher sur Youtube":                           
+
+# Rechercher sur Youtube #
 Ouvrez 3D YouTube Downloader à partir de son icône sur le bureau.               
 Tabulation jusqu’à entendre bouton barre d’outil Mode Simple.               
 Flèche basse jusqu’à entendre bouton barre d’outil Rechercher sur Youtube, pressez la barre d’espace.                
@@ -329,7 +351,7 @@ Pressez la touche entrée sur l'option souhaité.
 HD (Haute Définition) h       
 Sous-titres s            
 Réinitialiser r                 
-Note: Aucune de ces options n'est cochée.              
+Note: Aucune de ces deux options n'est cochée.              
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
 Pour quitter le menu contextuel, pressez la touche échappement.       
 (les paramètres sont conservés)
@@ -340,9 +362,9 @@ Introduisez-vous dans le sous-menu en pressant flèche droite.
 Pressez la touche entrée sur l'option souhaité.              
 n'importe quel
 Option coché par défaut          
-< 4 minutes        
-4-20 minutes          
-> 20 minutes         
+`< 4 minutes`        
+`4-20 minutes`          
+`> 20 minutes`         
 
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
 Pour quitter le menu contextuel, pressez la touche échappement.      
@@ -367,6 +389,50 @@ Note: Je préfère laisser toutes les options cochées par défaut, et laissez l
 Le seule bémol avec le téléchargement sans passer par le site de YouTube est-ce que nous ne pouvons pas entendre un extrait de ce clip vidéo sans l'avoir téléchargé au préalable sous forme de fichier (`*`.mp3)           
 mais au moins, il est plus rapide de chercher entre les résultats et d'utilisez  notre sens musical! (music)           
 
+Maintenant, nous allons expliquer en détail comment utiliser l'option "Utiliser l'URL à partir du flux du site":                           
+
+# Utiliser l'URL à partir du flux du site #
+Ouvrez 3D YouTube Downloader à partir de son icône sur le bureau.                      
+Tabulation jusqu’à entendre bouton barre d’outil Mode Simple.               
+Flèche basse jusqu’à entendre bouton barre d’outil Utiliser l'URL à partir du flux du site, pressez la barre d’espace.                
+Une boîte de dialogue s'ouvre comme nom:                   
+Ajouter un Flux           
+Vous écoutez: URL édition           
+Il suffit de coller dans  ce champ l’adresse web de la vidéo que vous souhaitez télécharger.                  
+Une tabulation, vous pressez la barre d’espace sur:                  
+Analyse                  
+Patientez durant la récupération des informations du clip.                  
+Le téléchargement débute, vous entendez des pourcentages  lors de la conversion du clip.                  
+Une fois terminé, que vous n'entendez plus de pourcentage, ensuite vous entendez "Prêt", cela signifie que votre fichier est téléchargé, vous le retrouverez dans le dossier Téléchargements qui est le dossier par défaut.     
+
+Maintenant, nous allons expliquer en détail comment utiliser l'option "Utiliser l'une des URL récentes":                           
+
+# Utiliser l'une des URL récentes #
+Ouvrez 3D YouTube Downloader à partir de son icône sur le bureau.                      
+Tabulation jusqu’à entendre bouton barre d’outil Mode Simple.               
+Flèche basse jusqu’à entendre bouton barre d’outil Utiliser l'une des URL récentes, pressez la barre d’espace.                
+Après un petit dialogue, la liste des URL récentes s’affiche:           
+(à parcourir avec flèches bas/haut)                    
+Ici, vous voyez tous les adresses URL récentes suivi de la date et de l'heure avec avec leurs noms respectifs.            
+Pressez la touche entrée sur l'adresse URL souhaité.               
+Après avoir examiné la liste des adresses URL récentes, si vous faites une flèche basse, vous trouverez le dernier élément:             
+Réinitialiser                
+Une fois que vous avez cliqué ici, tout le contenu de la liste des adresses  récentes sera supprimé Ou plutôt vidé de cette liste.                   
+Les fichiers téléchargés qui sont stockés dans le dossier "Téléchargements" ne seront pas supprimés!          
+
+Maintenant, nous allons expliquer en détail comment utiliser l'option "Utiliser l'URL à partir du presse-papiers":                           
+
+# Utiliser l'URL à partir du presse-papiers #
+Ouvrez 3D YouTube Downloader à partir de son icône sur le bureau.                      
+Tabulation jusqu’à entendre bouton barre d’outil Mode Simple.               
+Flèche basse jusqu’à entendre bouton barre d’outil Utiliser l'URL à partir du presse-papiers, pressez la barre d’espace.                
+Si une adresse URL est déjà copiée dans le Presse-papiers et que vous pressez la barre d’espace, elle s'ouvrira automatiquement.            
+Patientez durant la récupération des informations du clip.                  
+Le téléchargement débute, vous entendez des pourcentages  lors de la conversion du clip.                  
+Une fois terminé, que vous n'entendez plus de pourcentage, ensuite vous entendez "Prêt", cela signifie que votre fichier est téléchargé, vous le retrouverez dans le dossier Téléchargements qui est le dossier par défaut.     
+
+😄 Nous sommes arrivé à la fin des explications concernant les options pour le téléchargement sans passer par le site de YouTube, sans même devoir passer par notre navigateur Web.             
+
 Comme je suis sûr que vous avez suivi pas à pas ce tutoriel, je vous donnerai plus bas une récompense musicale! (cool)           
 
 # Bonus musicale #
@@ -374,6 +440,7 @@ Voici quelques  liens d'écoute pour profiter de la beauté de la Flûte de Pan 
  [Lien #1](https://www.youtube.com/watch?v=MysB4SfoWJw)              
 [Lien #2](https://www.youtube.com/watch?v=8kQZHYbZkLs)                     
 [Lien #3](https://www.youtube.com/watch?v=460VxMM2DxU)            
+[Lien #4](https://www.youtube.com/watch?v=pI3JMS-BFrs)                
 
 # Remerciements #
 Et enfin, je remercie tous ceux qui ont rendu ce mode d’emploi collaboratif possible! 😄             
