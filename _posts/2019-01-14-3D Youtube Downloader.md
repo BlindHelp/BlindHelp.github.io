@@ -121,7 +121,7 @@ Le mode par défaut est:
 Mode Simple               
 Descendre une fois avec flèche basse et vous trouverez l'autre mode:             
 Mode de Conversion             
-(cocher avec espace).                
+(cocher avec la barre d'espace).                
 L'interface est alors modifiée et un nouveau champs apparaît pour le format:                   
 Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)           
 Ce format est la valeur du codec sélectionnée par défaut, si vous avez sélectionné le type Audio.              
@@ -141,7 +141,7 @@ et on revient à "Mode Simple"
 
 N'oubliez pas que vous devez sélectionner le:           
 Mode de Conversion             
-(cocher avec espace).                
+(cocher avec la barre d'espace).                
 L'interface est alors modifiée et un nouveau champs apparaît pour le format:                   
 Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)              
 Ce format est la valeur du codec sélectionnée par défaut, si vous avez sélectionné le type Audio.              
@@ -195,9 +195,10 @@ A l’aide des flèches verticales, vous découvrirez les différentes langues d
 Français         
 notre belle langue française est cochée             
 Ne pas toucher! Sortir d'ici!             
-Dans cette même liste, à la fin il y a un lien nommé: Traduire                       
+Dans cette même liste, à la fin il y a un élément nommé: Traduire.                       
+une fois que vous cliquez sur cet élément, vous ouvrirez une page en anglais, pour faire la demande à l'auteur, contenant les instructions pour y ajouter de nouvelles langues.                 
 [Translate - 3D Youtube Downloader](http://yd.3dyd.com/help/translate/)                  
-une fois cliqué sur ce lien, vous ouvrirez une page en anglais, pour faire la demande à l'auteur, contenant les instructions pour y ajouter de nouvelles langues.                 
+
 Pour quitter le menu contextuel, pressez la touche échappement.                
 
 # Menu Outils #
@@ -206,13 +207,15 @@ Si vous faites une flèche droite, vous serez dans le menu Outils:
 A l’aide des flèches verticales, vous découvrirez les différents  éléments du menu Outils:              
 Dans ce tutoriel, nous n'allons pas développer ce menu.                
 Interface Utilisateur sous-menu i             
-La valeur standard est sélectionnée par défaut.               
+L'option standard est cochée par défaut.               
+l'autre option est:              
+Aero                   
 Prédéfini sous-menu p          
 Nous avons trois éléments:  Configurer , Enregistrer et Supprimer.              
 Paramètres de Conversion	Ctrl+T          
 Journal	F4             
 Options	Ctrl+P                
-Si vous pressez la touche entrée, vous pouvez configurer le programme 3D Youtube Downloader, mais à mon avis, cette partie est destinée aux utilisateurs expérimentés!                    
+Si vous pressez la touche entrée, vous pouvez configurer le programme 3D Youtube Downloader, mais à mon avis cette partie est  destinée aux utilisateurs expérimentés!                    
 et on revient à les trois modes:             
 "Mode Simple"          
 "Mode de Conversion"         
@@ -226,11 +229,11 @@ Si vous faites deux flèche droite, vous serez dans le menu Aide:
 A l’aide des flèches verticales, vous découvrirez les différents  éléments du menu Aide:             
 Vous devez pressez la touche entrée pour valider l'un de ces éléments.                   
 Rubriques d'Aide (en anglais).             
-Une page contenant l'aide du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut.               
+(En cliquant ici, Une page contenant l'aide du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut).               
 Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
 Aide Contextuelle	F1 (non cocher)           
 Ceci est une case à cocher              
-(En cliquant ici,elle sera  coché, en tout cas je n'ai vu aucun changement)             
+(En cliquant ici,elle sera  coché, en tout cas je n'ai vu aucun changement).             
 Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.            
 Vérifier les Mises À Jour         
 Comme son nom l'indique, vous pouvez savoir si vous disposez de la dernière version du programme 3D Youtube Downloader.                  
@@ -240,7 +243,7 @@ Sites pris en charge
 Fermer la fenêtre par Alt+F4 ou pressez la touche échappement.          
 Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.              
 Signaler un problème                 
-Une page contenant un formulaire de contact pour contacter l'auteur du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut.               
+(En cliquant ici, une page contenant un formulaire de contact pour contacter l'auteur du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut).               
 Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
 À propos              
 (En cliquant ici, vous aurez l'information du programme 3D Youtube Downloader, par exemple le numéro de version actuel).                
@@ -285,7 +288,7 @@ Format Meilleure Qualité Audio -> MPEG Layer-3 (`*`.mp3)
 Si vous faites une tabulation après Format,vous trouverez l'emplacement où vous avez stocké ce clip vidéo après le téléchargement:                    
 Ceci est annoncé comme:         
 Fichier  en lecture seule              
-Téléchargements\Nom de l'artiste - Nom du clnip vidéo.mp3               
+Téléchargements\Nom de l'artiste - Nom du clip vidéo.mp3               
 Si vous faites une tabulation, vous entendez Ouvrir sous-menu             
 Une fois là, faites une flèche basse,                  
 Automatiquement, vous êtes revenu dans le menu contextuel, donc vous  pouvez examiner les clips vidéo que vous avez téléchargés récemment et qui sont stockés dans le dossier Téléchargements (dossier par défaut), et qu'ils n'ont pas encore été déplacés ailleurs.               
@@ -293,23 +296,23 @@ Ici vous trouverez les éléments suivants, pressez la touche entrée, sur l'un 
 (à parcourir avec flèches bas/haut)              
 Parcourir               
 Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue "Enregistrer sous", pour enregistrer le dernier clip vidéo (fichier `*`.mp3) téléchargé, afin d'être sauvegardé ailleurs; du moins c'est ce que je pense, mais je préfère ne pas l'utiliser.               
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir l'un des éléments suivants.                  
 Ouvrir               
 Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue du style "Ouvrir avec", qui vous demandera: "Comment voulez-vous ouvrir ce fichier ?"              
 Vous devrez toujours utiliser cette application pour ouvrir les fichiers `*`.mp3 stockés dans le dossier Téléchargements, (une liste permet de sélectionner l’une des applications et de cocher une case à cocher afin de toujours utiliser la même application et ouvrir ce type de fichiers).                    
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir l'un des éléments suivants.                  
 Pour quitter le menu contextuel, pressez la touche échappement.          
 Ouvrir un Dossier Contenant                   
 Une fois que vous avez cliqué ici, vous ouvrirez le dossier "Téléchargements" où sont stockés vos fichiers récemment téléchargés.              
 Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
-chercher Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+chercher Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                l'un des éléments suivants.                  
 Supprimer Fichier Local          
 Une fois que vous avez cliqué ici, elle s'ouvrira la boîte de dialogue du style "Confirmation de suppression", qui vous demandera: "Supprimer le fichier"              
 Voulez-vous vraiment placer ce fichier dans la Corbeille ?                 
 Nom du fichier.mp3                         
 Vous devez confirmer cette opération.           
 répondre par Oui, ou Non.               
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir l'un des éléments suivants.                  
 Pour quitter le menu contextuel, pressez la touche échappement.      
 Fichiers Récents sous-menu                  
 Introduisez-vous dans le sous-menu en pressant flèche droite.                
@@ -319,12 +322,12 @@ Pressez la touche entrée sur le fichier souhaité.
 Si le fichier se trouve toujours dans le dossier "Téléchargements", elle s'ouvrira  la boîte de dialogue du style "Ouvrir avec", qui vous demandera: "Comment voulez-vous ouvrir ce fichier ?"                 
 Voir la description ci-dessus.              
 Dans le cas contraire:              
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir l'un des éléments suivants.                  
 Après avoir examiné la liste des fichiers récents, si vous faites une flèche basse, vous trouverez le dernier élément:             
 Réinitialiser                
 Une fois que vous avez cliqué ici, tout le contenu de la liste des fichiers récents sera supprimé Ou plutôt vidé de cette liste.                   
 Les fichiers téléchargés qui sont stockés dans le dossier "Téléchargements" ne seront pas supprimés!          
-Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir                                les éléments énumérés ici.                  
+Automatiquement, vous êtes revenu  sur Ouvrir sous-menu, une fois là, faites une flèche basse, afin d'ouvrir le menu contextuel pour choisir l'un des éléments suivants.                  
 Donc, l'élément sera affiché comme:           
 Fichiers Récents non disponible                    
 Pour quitter le menu contextuel, si vous êtes dans l'élément: Fichiers Récents sous-menu pressez la touche échappement deux fois .                
