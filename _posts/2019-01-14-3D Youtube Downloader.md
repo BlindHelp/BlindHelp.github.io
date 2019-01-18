@@ -397,10 +397,10 @@ Tabulation jusqu’à entendre bouton barre d’outil Mode Simple.
 Flèche basse jusqu’à entendre bouton barre d’outil Utiliser l'URL à partir du flux du site, pressez la barre d’espace.                
 Une boîte de dialogue s'ouvre comme nom:                   
 Ajouter un Flux           
-Vous écoutez: URL édition           
+Vous entendez Edition URL. 
 Il suffit de coller dans  ce champ l’adresse web de la vidéo que vous souhaitez télécharger.                  
-Une tabulation, vous pressez la barre d’espace sur:                  
-Analyse                  
+Tabulation, vous entendez  Analyse.                  
+Pressez la barre d’espace.                   
 Patientez durant la récupération des informations du clip.                  
 Le téléchargement débute, vous entendez des pourcentages  lors de la conversion du clip.                  
 Une fois terminé, que vous n'entendez plus de pourcentage, ensuite vous entendez "Prêt", cela signifie que votre fichier est téléchargé, vous le retrouverez dans le dossier Téléchargements qui est le dossier par défaut.     
