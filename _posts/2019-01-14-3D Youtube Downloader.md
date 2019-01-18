@@ -12,10 +12,10 @@ Voici [3D Youtube Downloader](http://yd.3dyd.com/home/)
 c'est un petit logiciel qui permet de télécharger et convertir les vidéos de Youtube, Vimeo, Dailymotion, Facebook, LiveLeak, VK, etc dans différents formats comme WebM, MP4, FLV, M4A, OGG, MP3, WMA, AAC, etc. Il peut également télécharger des sous-titres et des vidéos 3D de YouTube et Dailymotion. Le téléchargement haute vitesse est disponible avec des téléchargements multipart et la compression HTTP, ainsi que le support proxy pour contourner les restrictions réseau.             
 
 Pour cela, il suffit de coller dans 3D Youtube Downloader l’adresse web de la vidéo que vous souhaitez télécharger. Trois modes d’utilisation permettent de s’adapter parfaitement à vos attentes.                
-Le mode simple permet aux novices de télécharger leurs vidéos en toute facilité.             
-Le mode conversion permet aux utilisateurs un peu plus expérimentés de choisir le format et la qualité de leurs téléchargements.             
-Le mode avancé permet aux initiés de peaufiner leurs téléchargements, avec par exemple le choix de la résolution de la vidéo, etc.                
-Une fonction de recherche intégrée sur Youtube est aussi disponible et permet de trouver ce que l'on cherche sans ouvrir son navigateur Internet. 😃                  
+Le Mode Simple permet aux novices de télécharger leurs vidéos en toute facilité.             
+Le Mode de Conversion permet aux utilisateurs un peu plus expérimentés de choisir le format et la qualité de leurs téléchargements.             
+Le Mode Avancé permet aux initiés de peaufiner leurs téléchargements, avec par exemple le choix de la résolution de la vidéo, etc.                
+Une fonction de recherche intégrée sur Youtube est aussi disponible et permet de trouver ce que l'on cherche sans même devoir passer par notre navigateur Web. 😃                  
 
 Il est gratuit et assez accessible.          
 
@@ -43,11 +43,15 @@ Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger
 [64-bit](http://yd.3dyd.com/download/3dyd64_1.16.7.exe)                 
 15.5mb
 
-A tout moment, vous pouvez visiter la page officielle de l'éditeur en anglais pour obtenir la dernière version stable disponible en téléchargement.
+A tout moment, vous pouvez visiter la page officielle de l'éditeur en anglais pour obtenir la dernière version stable disponible en téléchargement.                  
 [Download - 3D Youtube Downloader:](http://yd.3dyd.com/download/)                   
 
-Pour en savoir plus consulter la page officielle de l'éditeur en anglais.
-[3D Youtube Downloader home page:](http://yd.3dyd.com/home/)
+Pour en savoir plus consulter la page officielle de l'éditeur en anglais.              
+[3D Youtube Downloader home page:](http://yd.3dyd.com/home/)            
+
+Vous pouvez traduire 3D Youtube Downloader dans votre langue. si  celle-ci n'existe pas encore!          
+Pour cela, consulter la page officielle de l'éditeur en anglais pour l'ajout des nouvelles traductions.              
+[Translate - 3D Youtube Downloader](http://yd.3dyd.com/help/translate/)                  
 
 # 3D Youtube Downloader - Mode d'emploi collaboratif #
 
@@ -191,6 +195,9 @@ A l’aide des flèches verticales, vous découvrirez les différentes langues d
 Français         
 notre belle langue française est cochée             
 Ne pas toucher! Sortir d'ici!             
+Dans cette même liste, à la fin il y a un lien nommé: Traduire                       
+[Translate - 3D Youtube Downloader](http://yd.3dyd.com/help/translate/)                  
+une fois cliqué sur ce lien, vous ouvrirez une page en anglais, pour faire la demande à l'auteur, contenant les instructions pour y ajouter de nouvelles langues.                 
 Pour quitter le menu contextuel, pressez la touche échappement.                
 
 # Menu Outils #
@@ -330,7 +337,7 @@ Ouvrez 3D YouTube Downloader à partir de son icône sur le bureau.
 Tabulation jusqu’à entendre bouton barre d’outil Mode Simple.               
 Flèche basse jusqu’à entendre bouton barre d’outil Rechercher sur Youtube, pressez la barre d’espace.                
 Vous entendez Edition consultation de recherche, c’est là que vous tapez l’objet de votre recherche.             
-Une tabulation, vous entendez bouton Recherche, pressez la touche entrée.
+Une tabulation, vous entendez bouton Recherche, pressez la touche entrée.                   
 Après un petit dialogue, la liste des résultats s’affiche, vous avez 50 résultats mais si vous pressez la touche fin pour vous rendre en bas de la liste, Vous entendez  obtenir plus point point point, pressez la touche entrée et les 50 résultats suivants s’affichent.             
 (à parcourir avec flèches bas/haut)               
 Vous pouvez continuer de cette façon afin d’avoir les résultats suivants.                
@@ -360,7 +367,7 @@ Durée sous-menu d
 Introduisez-vous dans le sous-menu en pressant flèche droite.                    
 (à parcourir avec flèches bas/haut)               
 Pressez la touche entrée sur l'option souhaité.              
-n'importe quel
+n'importe quel                      
 Option coché par défaut          
 `< 4 minutes`        
 `4-20 minutes`          
@@ -382,7 +389,7 @@ vote v
 
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
 Pour quitter le menu contextuel, pressez la touche échappement.      
-(les paramètres sont conservés)
+(les paramètres sont conservés)              
 
 Note: Je préfère laisser toutes les options cochées par défaut, et laissez les options non cochées comme elles sont actuellement.               
 
@@ -397,7 +404,7 @@ Tabulation jusqu’à entendre bouton barre d’outil Mode Simple.
 Flèche basse jusqu’à entendre bouton barre d’outil Utiliser l'URL à partir du flux du site, pressez la barre d’espace.                
 Une boîte de dialogue s'ouvre comme nom:                   
 Ajouter un Flux           
-Vous entendez Edition URL. 
+Vous entendez Edition URL.                    
 Il suffit de coller dans  ce champ l’adresse web de la vidéo que vous souhaitez télécharger.                  
 Tabulation, vous entendez  Analyse.                  
 Pressez la barre d’espace.                   
@@ -431,7 +438,7 @@ Patientez durant la récupération des informations du clip.
 Le téléchargement débute, vous entendez des pourcentages  lors de la conversion du clip.                  
 Une fois terminé, que vous n'entendez plus de pourcentage, ensuite vous entendez "Prêt", cela signifie que votre fichier est téléchargé, vous le retrouverez dans le dossier Téléchargements qui est le dossier par défaut.     
 
-😄 Nous sommes arrivé à la fin des explications concernant les options pour le téléchargement sans passer par le site de YouTube, sans même devoir passer par notre navigateur Web.             
+😄 Nous sommes arrivé à la fin des explications concernant les options pour le téléchargement sans passer par le site de YouTube.             
 
 Comme je suis sûr que vous avez suivi pas à pas ce tutoriel, je vous donnerai plus bas une récompense musicale! (cool)           
 
@@ -444,7 +451,7 @@ Voici quelques  liens d'écoute pour profiter de la beauté de la Flûte de Pan 
 
 # Remerciements #
 Et enfin, je remercie tous ceux qui ont rendu ce mode d’emploi collaboratif possible! 😄             
-Sans oublier ceux qui ont rendu leur traduction en français possible! 😃              
+Sans oublier ceux qui ont rendu  également leur traduction en français possible! 😃              
 Je pense que tous ceux qui ont participé ce reconnaîtront et ils méritent un grand coup de chapeau, [salut donné en soulevant légèrement son chapeau]            
 Voilà donc,  tout est dit au sujet du programme 3D Youtube Downloader!             
 Amusez-vous bien!           
