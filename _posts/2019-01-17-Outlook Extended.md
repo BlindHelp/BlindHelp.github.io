@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Mardi 18 Décembre 2018</footer>
+<footer>Jeudi 17 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -38,27 +38,28 @@ Tous les gestes de commandes peuvent être modifiés dans la boîte de dialogue 
 * Les raccourcis par défaut pour marquer un message comme lu ou non lu sont ceux de la version anglaise d'Outlook. S'ils sont différents de ceux de votre version locale d'Outlook, vous devrez les modifier en conséquence.
 *   Les geste de commande par défaut pour lire les en-têtes correspondent à Alt en combinaison avec les touches de la première ligne du clavier alpha-numérique. Vous pourriez avoir besoin de réattribuer les gestes de commandes pour lire les en-têtes 11 et 12 s'ils ne sont pas en concordance avec votre disposition de clavier locale.
 
-## Versions compatibles d'Outlook
-
-Ce module complémentaire a été testé avec Microsoft Outlook 2016 et 2013.
-
 ## Journal des modifications
 
 ### Version 1.0
 
 * Version initiale
 
-[1]: https://github.com/CyrilleB79/OutlookExtended/releases/download/V1.0dev/OutlookExtended-1.0-dev.nvda-addon
+## Versions compatibles d'Outlook
 
-[2]: https://github.com/CyrilleB79/OutlookExtended/releases/download/V1.0dev/OutlookExtended-1.0-dev.nvda-addon
+Ce module complémentaire a été testé avec Microsoft Outlook 2016 et 2013.
+
+[1]: https://addons.nvda-project.org/files/get.php?file=outlookextended
+
+[2]: https://addons.nvda-project.org/files/get.php?file=outlookextended
 
 # Plus d'informations sur Outlook Extended
 
     Type: Extensions
-	Dernière mise à jour: 20 Décembre 2018
+    Dernière mise à jour: 17 Janvier 2019
+    Version actuelle: 1.0-dev (en développement)
 
-Remarque: ce module complémentaire a récemment passé la révision de base, mais la collaboration de toute personne utilisant Microsoft Outlook pour signaler des erreurs, la compatibilité avec différentes versions, etc. est nécessaire. Cet avis disparaîtra dès que le module complémentaire entrera dans le site des modules complémentaires officiels et sera ajouté au [site comunautaire des modules complémentaires NVDA](https://addons.nvda-project.org/index.fr.html), le cas échéant.                   
-Version actuelle: 1.0-dev                 
+Retrouver le module complémentaire [Outlook extended](https://addons.nvda-project.org/addons/outlookExtended.fr.html) sur le site comunautaire des modules complémentaires NVDA             
+
 [Code source sur GitHub](https://github.com/CyrilleB79/OutlookExtended)             
 
 Voilà donc,  tout est dit au sujet du module complémentaire Outlook Extended!                
