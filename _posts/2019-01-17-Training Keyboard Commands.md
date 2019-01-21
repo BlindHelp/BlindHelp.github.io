@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Jeudi 17 Janvier 2019</footer>
+<footer>Dimanche 20 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -35,15 +35,30 @@ Vous devez lui affecter un geste spécifique via: le menu NVDA>Préférences>Ges
 
 [2]: https://addons.nvda-project.org/files/get.php?file=trainingkbdcmd
 
+	Note: Ce lien via le site comunautaire des modules complémentaires NVDA nous renvoi à l'ancienne version de développement 1.1, veuillez utiliser le lien donné par son auteur pour télécharger la nouvelle version de développement 1.2, que vous trouverez ci-dessous. Merci.
+
 # Plus d'informations sur Training Keyboard Commands
 
     Type: Extensions
-    Dernière mise à jour: 17 Janvier 2019
-	Version actuelle: 1.1-dev          (en développement)
+    Dernière mise à jour: 20 Janvier 2019
+	Version actuelle: 1.2-dev          (en développement)
+	Ceci est une nouvelle version de développement 1.2 du module complémentaire Training Keyboard Commands.
+
+# Changements:
+
+- Maintenant, la disposition du clavier actuelle est sélectionnée par défaut au démarrage.
+- comme  un utilisateur hispanophone a suggéré d'ajouter des sons à certains événements
+des sons ont été ajoutés pour une réponse correcte, pour une réponse incorrecte et  à la fin du jeu.
+
+# Lien de téléchargement:
+
+[](https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/v1.2/trainingKeyboardCommands-1.2-dev.nvda-addon)
 
 Retrouver le module complémentaire [Training Keyboard Commands](https://addons.nvda-project.org/addons/trainingKeyboardCommands.fr.html) sur le site comunautaire des modules complémentaires NVDA             
 
 [Code source sur GitHub](https://github.com/ibrahim-s/trainingNvdaCommands)             
+
+	Un merci spécial à lui, ainsi qu’à tous les utilisateurs et testeurs.
 
 Voilà donc,  tout est dit au sujet du module complémentaire Training Keyboard Commands!                
 Je vous souhaite une bonne découverte!         
