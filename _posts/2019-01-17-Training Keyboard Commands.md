@@ -12,7 +12,7 @@ Voici un nouveau module complémentaire nommé Training Keyboard Commands qui fa
 Si vous voulez en savoir plus sur ce fabuleux add-on, vous pouvez lire la description ci-dessous faite par son auteur:                
 Merci à Ibrahim Hamadeh 😃                
 
-	Note: le premier lien de téléchargement via le site comunautaire des modules complémentaires NVDA nous renvoi à l'ancienne version de développement 1.1, veuillez utiliser le lien donné par son auteur pour télécharger la nouvelle version de développement 1.2, que vous trouverez ci-dessous. Merci.            
+Note: le premier lien de téléchargement via le site comunautaire des modules complémentaires NVDA nous renvoi à l'ancienne version de développement 1.1, veuillez utiliser le lien donné par son auteur pour télécharger la nouvelle version de développement 1.2, que vous trouverez ci-dessous. Merci.          
 
 # Training Keyboard Commands
 
