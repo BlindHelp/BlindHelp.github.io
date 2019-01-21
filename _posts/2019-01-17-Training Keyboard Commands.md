@@ -52,7 +52,7 @@ des sons ont été ajoutés pour une réponse correcte, pour une réponse incorr
 
 # Lien de téléchargement:
 
-[](https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/v1.2/trainingKeyboardCommands-1.2-dev.nvda-addon)
+Télécharger [Version de développement 1.2](https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/v1.2/trainingKeyboardCommands-1.2-dev.nvda-addon)
 
 Retrouver le module complémentaire [Training Keyboard Commands](https://addons.nvda-project.org/addons/trainingKeyboardCommands.fr.html) sur le site comunautaire des modules complémentaires NVDA             
 
