@@ -12,6 +12,8 @@ Voici un nouveau module complémentaire nommé Training Keyboard Commands qui fa
 Si vous voulez en savoir plus sur ce fabuleux add-on, vous pouvez lire la description ci-dessous faite par son auteur:                
 Merci à Ibrahim Hamadeh 😃                
 
+	Note: le premier lien de téléchargement via le site comunautaire des modules complémentaires NVDA nous renvoi à l'ancienne version de développement 1.1, veuillez utiliser le lien donné par son auteur pour télécharger la nouvelle version de développement 1.2, que vous trouverez ci-dessous. Merci.            
+
 # Training Keyboard Commands
 
 * Auteur: Ibrahim Hamadeh
@@ -34,8 +36,6 @@ Vous devez lui affecter un geste spécifique via: le menu NVDA>Préférences>Ges
 * En répondant à toutes les questions, environ 88 pour chaque disposition, vous serez déclaré gagnant de la coupe NVDA.
 
 [2]: https://addons.nvda-project.org/files/get.php?file=trainingkbdcmd
-
-	Note: Ce lien via le site comunautaire des modules complémentaires NVDA nous renvoi à l'ancienne version de développement 1.1, veuillez utiliser le lien donné par son auteur pour télécharger la nouvelle version de développement 1.2, que vous trouverez ci-dessous. Merci.
 
 # Plus d'informations sur Training Keyboard Commands
 
