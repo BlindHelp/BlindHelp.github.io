@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Vendredi 18 Janvier 2019</footer>
+<footer>Dernière modification Vendredi 18 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -43,6 +43,7 @@ Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger
 [64-bit](https://yd.3dyd.com/download/3dyd64_1.16.8_beta2.exe)                 
 15.5mb
 
+# À propos #
 Version: 1.16.8 beta 2             
 Date de publication: (18-Jan-2019)                  
 
@@ -107,7 +108,7 @@ Cliquer sur le bouton "Fermer"
 Si vous souhaitez  vous pouvez décocher la case à cocher:                
 Lancer 3D Youtube Downloader (x64)             
 ou son équivalent pour la version 32 bits.                         
-pour éviter le lancement du programme 3D Youtube Downloader après son installation, dans le cas contraire  il se lancera   le programme 3D Youtube Downloader récemment installé. 
+pour éviter le lancement du programme 3D Youtube Downloader après son installation, dans le cas contraire  il se lancera   le programme 3D Youtube Downloader récemment installé.              
 Cette case à cocher ) est coché par défaut).         
 
 # Commandes clavier pour NVDA/JAWS avec 3D Youtube Downloader #
