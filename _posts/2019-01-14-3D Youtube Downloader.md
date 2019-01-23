@@ -375,20 +375,28 @@ Introduisez-vous dans le sous-menu en pressant flèche droite.
 Titre t                              
 Vous aurez le nom du morceau              
 Publié à p                              
+Par exemple:              
 03/02/2018 01:59:14               
 Durée d                             
+Par exemple:              
 11:59            
 Téléchargeur t                             
+Par exemple:              
 di sfee              
 Vues v                              
+Par exemple:              
 28              
 J'aimes j                             
-1
+Par exemple:              
+1             
 Je n'aime pas j                              
-2
+Par exemple:              
+2              
 Évaluation é                             
+Par exemple:              
 1.67                              
 Ratio d'évaluation r                              
+Par exemple:              
 `-`                         
 URL u                              
 Vous aurez l'URL du morceau                     
@@ -402,6 +410,7 @@ Ce sous-menu contient les éléments suivants. Pressez la touche entrée dans l�
 Introduisez-vous dans le sous-menu en pressant flèche droite.       
 (à parcourir avec flèches bas/haut)               
 `#`           
+Peut-être que ceci est la description du clip.            
 Coché par défaut                 
 Titre t                              
 Coché par défaut                 
@@ -431,6 +440,7 @@ Non coché par défaut
 Sauf erreur, si cette case est cochée, toutes les options sont cochées.                
 `<`Réinitialiser`>`                  
 Si vous cliquez ici, les options seront réinitialisées aux valeurs par défaut.              
+(les paramètres sont conservés)
 Note: Après le bouton  Recherche               
 Une tabulation, vous entendez  Options Trier par pertinence              
 Une fois là, faites une flèche basse,           
@@ -455,7 +465,7 @@ Introduisez-vous dans le sous-menu en pressant flèche droite.
 (à parcourir avec flèches bas/haut)               
 Pressez la touche entrée sur l'option souhaité.              
 n'importe quel                      
-Option coché par défaut          
+Coché par défaut          
 `< 4 minutes`        
 Non coché par défaut                 
 `4-20 minutes`          
@@ -471,7 +481,7 @@ Introduisez-vous dans le sous-menu en pressant flèche droite.
 (à parcourir avec flèches bas/haut)               
 Pressez la touche entrée sur l'option souhaité.              
 pertinence p         
-Option coché par défaut          
+Coché par défaut          
 date de publication d         
 Non coché par défaut                 
 nombre de vues n            
