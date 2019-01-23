@@ -365,6 +365,72 @@ Votre morceau se télécharge automatiquement.
 Pour un nouveau téléchargement, en tabulant revenez sur la liste des résultats, déplacez-vous parmi celle-ci, une fois votre choix fait, une tabulation, vous entendez ok bouton, pressez la touche entrée.                  
 Pour changer de titre ou d’auteur, tabulez jusqu’à entendre Edition consultation de recherche, effacez votre recherche précédente, tapez votre nouvelle recherche, une tabulation, vous entendez bouton recherche, pressez la touche entrée.                    
 Après un petit dialogue, les résultats s’affichent, a vous d’agir comme décrit ci-dessus.                
+
+# Autres informations relatives au morceau qui est sur la liste des résultats #
+Une fois qu’un morceau vous intéresse, positionnez-vous dessus, pressez touche Applications ou menu contextuel, une fois ouvert  celui-ci il contient deux éléments:                   
+Copier sous-menu                              
+Ce sous-menu contient les éléments suivants. Pressez la touche entrée dans l’un d’eux pour exécuter l'action, l'information sera copiée dans le presse-papier:                              
+Introduisez-vous dans le sous-menu en pressant flèche droite.       
+(à parcourir avec flèches bas/haut)               
+Titre t                              
+Vous aurez le nom du morceau              
+Publié à p                              
+03/02/2018 01:59:14               
+Durée d                             
+11:59            
+Téléchargeur t                             
+di sfee              
+Vues v                              
+28              
+J'aimes j                             
+1
+Je n'aime pas j                              
+2
+Évaluation é                             
+1.67                              
+Ratio d'évaluation r                              
+`-`                         
+URL u                              
+Vous aurez l'URL du morceau                     
+URL de la chaîne u                             
+Vous aurez l'URL de la chaîne                  
+URL de la miniature u                              
+Vous aurez l'URL de la miniature (c'est une image, par exemple, peut se terminer en .jpg)              
+
+Colonnes sous-menu                              
+Ce sous-menu contient les éléments suivants. Pressez la touche entrée dans l’un d’eux pour exécuter l'action, certains éléments sont cochés par défaut:                              
+Introduisez-vous dans le sous-menu en pressant flèche droite.       
+(à parcourir avec flèches bas/haut)               
+`#`           
+Coché par défaut                 
+Titre t                              
+Coché par défaut                 
+Publié à p                              
+Coché par défaut                 
+Durée d                             
+Coché par défaut                 
+Téléchargeur t                             
+Non coché par défaut                 
+Vues v                              
+Non coché par défaut                 
+J'aimes j                             
+Non coché par défaut                 
+Je n'aime pas j                             
+Non coché par défaut                 
+Évaluation é                             
+Non coché par défaut                 
+Ratio d'évaluation r                              
+Non coché par défaut                 
+URL u                              
+Non coché par défaut                 
+URL de la chaîne u                             
+Non coché par défaut                 
+URL de la miniature u                              
+Non coché par défaut                 
+`<`All`>`                   
+Sauf erreur, si cette case est cochée, toutes les options sont cochées.                
+`<`Réinitialiser`>`                  
+Si vous cliquez ici, les options seront réinitialisées aux valeurs par défaut.              
 Note: Après le bouton  Recherche               
 Une tabulation, vous entendez  Options Trier par pertinence              
 Une fois là, faites une flèche basse,           
@@ -375,9 +441,11 @@ Introduisez-vous dans le sous-menu en pressant flèche droite.
 (à parcourir avec flèches bas/haut)               
 Pressez la touche entrée sur l'option souhaité.              
 HD (Haute Définition) h       
+Non coché par défaut           
 Sous-titres s            
+Non coché par défaut           
 Réinitialiser r                 
-Note: Aucune de ces deux options n'est cochée.              
+Si vous cliquez ici, les options seront réinitialisées aux valeurs par défaut.                
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
 Pour quitter le menu contextuel, pressez la touche échappement.       
 (les paramètres sont conservés)
@@ -389,9 +457,11 @@ Pressez la touche entrée sur l'option souhaité.
 n'importe quel                      
 Option coché par défaut          
 `< 4 minutes`        
+Non coché par défaut                 
 `4-20 minutes`          
+Non coché par défaut                 
 `> 20 minutes`         
-
+Non coché par défaut                 
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
 Pour quitter le menu contextuel, pressez la touche échappement.      
 (les paramètres sont conservés)
@@ -403,9 +473,11 @@ Pressez la touche entrée sur l'option souhaité.
 pertinence p         
 Option coché par défaut          
 date de publication d         
+Non coché par défaut                 
 nombre de vues n            
+Non coché par défaut                 
 vote v           
-
+Non coché par défaut                 
 Pour revenir à l'Options liste déroulante Trier par pertinence pressez flèche gauche.            
 Pour quitter le menu contextuel, pressez la touche échappement.      
 (les paramètres sont conservés)              
