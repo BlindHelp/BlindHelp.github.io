@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Lundi 14 Janvier 2019</footer>
+<footer>Vendredi 18 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -27,23 +27,33 @@ Enfin, le logiciel peut s'utiliser en version portable : option à sélectionner
 
 Et surtout accessible avec nos lecteurs d’écran NVDA / JAWS, grâce à son auteur😃!             
 
- Ce programme 3D Youtube Downloader est une tendance récente dans nos listes de discussion, et j’ai compilé certains modes d'emploi, donnés par Bernard Gavroches, Jean-Pierre DIERYNCK, Sèb et Jean-Claude Armingaud...  merci àeux!🙇           
+ Ce programme 3D Youtube Downloader est une tendance récente dans nos listes de discussion, et j’ai compilé certains modes d'emploi et infos, donnés par Bernard Gavroches, Jean-Pierre DIERYNCK, Sèb, Jean-Claude Armingaud et Oriental...  merci àeux!🙇           
  Et j' ai ajouté ma petite touche personnelle  à ce mode d'emploi compilé, qui mérite d'être annoncé comme un mode d'emploicollaboratif!                 
  
- Testé avec la dernière version de NVDA 2018.4 et la dernière version stable de 3D Youtube Downloader sous un Windows 64 bits.              
+ Testé avec la dernière version de NVDA 2018.4.1 et la dernière version Beta de 3D Youtube Downloader sous un Windows 64 bits.              
  
-Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger la dernière version disponible!                
+Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger la dernière version Beta disponible!                
  
-# 3D Youtube Downloader version stable 1.16.7 #
-3dyd_1.16.7.exe              
-[32-bit](http://yd.3dyd.com/download/3dyd_1.16.7.exe)          
+# 3D Youtube Downloader version Beta 1.16.8 #
+3dyd_1.16.8_beta2.exe              
+[32-bit](https://yd.3dyd.com/download/3dyd_1.16.8_beta2.exe)          
 13.8mb                     
 
-3dyd64_1.16.7.exe
-[64-bit](http://yd.3dyd.com/download/3dyd64_1.16.7.exe)                 
+3dyd64_1.16.8_beta2.exe              
+[64-bit](https://yd.3dyd.com/download/3dyd64_1.16.8_beta2.exe)                 
 15.5mb
 
-A tout moment, vous pouvez visiter la page officielle de l'éditeur en anglais pour obtenir la dernière version stable disponible en téléchargement.                  
+Version: 1.16.8 beta 2             
+Date de publication: (18-Jan-2019)                  
+
+# Journal des changements # 
+
+
+- Corrigée l'impossibilitée de télécharger certains flux en direct via Youtube
+- Corrigée l'erreur #403 pour Youtube
+
+
+A tout moment, vous pouvez visiter la page officielle de l'éditeur en anglais pour obtenir la dernière version Beta disponible en téléchargement.                  
 [Download - 3D Youtube Downloader:](http://yd.3dyd.com/download/)                   
 
 Pour en savoir plus consulter la page officielle de l'éditeur en anglais.              
@@ -93,8 +103,13 @@ Note: S'il est utilisé dans une installation sur votre ordinateur, laissez tous
 cliquez sur le bouton:                 
 Installer              
 Dès que l'installation sera terminée, un message s'affichera vous signalant la fin de l'installation du programme 3D Youtube Downloader.           
-Cliquer sur le bouton "Terminer"       
-Si vous souhaitez  vous pouvez décocher la case à cocher pour éviter le lancement du programme 3D Youtube Downloader après son installation, dans le cas contraire  se lancera   le programme 3D Youtube Downloader récemment installé. 
+Cliquer sur le bouton "Fermer"       
+Si vous souhaitez  vous pouvez décocher la case à cocher:                
+Lancer 3D Youtube Downloader (x64)             
+ou son équivalent pour la version 32 bits.                         
+pour éviter le lancement du programme 3D Youtube Downloader après son installation, dans le cas contraire  il se lancera   le programme 3D Youtube Downloader récemment installé. 
+Cette case à cocher ) est coché par défaut).         
+
 # Commandes clavier pour NVDA/JAWS avec 3D Youtube Downloader #
 Utiliser "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les contrôles de l'interface du programme 3D Youtube Downloader;                
 Vous devrez utiliser les touches fléchées pour naviguer dans l'interface du programme 3D Youtube Downloader, par exemple dans des boutons radio , des listes, etc;              
