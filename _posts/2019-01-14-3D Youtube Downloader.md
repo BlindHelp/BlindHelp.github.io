@@ -544,7 +544,7 @@ Une fois terminé, que vous n'entendez plus de pourcentage, ensuite vous entende
 Comme je suis sûr que vous avez suivi pas à pas ce tutoriel, je vous donnerai plus bas une récompense musicale! (cool)           
 
 # Bonus musicale #
-Voici quelques  liens d'écoute pour profiter de la beauté de la Flûte de Pan Péruvienne:
+Voici quelques  liens d'écoute pour profiter de la beauté de la Flûte de Pan Péruvienne:            
 Lien #1                    
 [The Best Of Leo Rojas | Leo Rojas Greatest Hits Full Album 2018 - YouTube](https://www.youtube.com/watch?v=MysB4SfoWJw)              
 Lien #2                  
@@ -554,7 +554,7 @@ Lien #3
 Lien #4                    
 [4 HORAS DE MUSICA ROMANTICA INSTRUMENTAL PAN FLUTE.mp4 - YouTube](https://www.youtube.com/watch?v=pI3JMS-BFrs)              
 
-Pour avoir ces morceaux j'ai tapé comme objet de  recherche:
+Pour avoir ces morceaux j'ai tapé comme objet de  recherche:              
 el condor pasa          
 et j'ai suivi les explications ci-dessus.                 
 Maintenant vous savez tout! 😃             
