@@ -4,12 +4,14 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Mercredi 16 Janvier 2019</footer>
+<footer>Dernière modification Mercredi 23 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
 Ce module complémentaire nommé [Clock](#clock-19.01.1.nvda-addon) actuellement peut être mis à jour à partir du module complémentaire [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html) qui a été mis à jour à la nouvelle version stable 19.01.1A récemment. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également le télécharger manuellement. Si vous n'avez même pas ce module complémentaire horloge et calendrier  pour NVDA également connu sous le nom de Clock, vous pouvez le télécharger à partir du lien ci-dessous.
 
+Note: Vous pouvez télécharger les dernières versions du module complémentaire horloge et calendrier pour NVDA (Clock) version stable 19.01.1 et  version en développement 19.01.2-dev, via les liens du site communautaire NVDA se trouvant sur cette page.                       
+ 
 Également vous trouver ci-dessous un petit  changelog (journal des changements) fait maison pour cette dernière version en date, ainsi que une bref description du module complémentaire Clock.
 
 ---
@@ -18,6 +20,30 @@ Ce module complémentaire nommé [Clock](#clock-19.01.1.nvda-addon) actuellement
 
 # 19.01.2-dev #
 
+# Mise à jour du Mercredi 23 Janvier 2019  par Abdel #
+Dans sa configuration actuelle, le module complémentaire Horloge (Clock) ne vérifie pas encore les entrées saisies par l'utilisateur pendant les heures silencieuses.
+
+Cependant, j'avais déjà intégré ce contrôle pour le temps d'attente de l'alarme.
+
+Cela peut être problématique, car si l'utilisateur écrit «Bonjour», par exemple dans le champ Début de la durée des heures silencieuses et «Au revoir» dans le champ Fin de la durée des heures silencieuses,  l'entrée sera enregistrée dans le fichier de configuration et peut provoquer des erreurs.
+
+En principe, le module complémentaire devrait pouvoir vérifier la validité des entrées saisies par l'utilisateur.
+
+De plus, si l'utilisateur coche la case Heures silencieuses et n'écrit rien dans les champs de début et de fin, la case à cocher Heures silencieuses doit être décochée automatiquement pour éviter les erreurs.
+
+Je viens d'ajouter une expression régulière pour vérifier les champs d'heure de début et de fin des des heures silencieuses dans la dernière version de développement du module complémentaire Clock.
+
+Le module complémentaire restera dans la version de développement jusqu'à ce que cette nouvelle fonctionnalité soit testée à grande échelle.
+
+[Lien de téléchargement:](https://addons.nvda-project.org/files/get.php?file=cac-dev)                 
+
+Merci pour vos retours.               
+
+Amitiés.            
+
+Abdel              
+
+# Mise à jour du Mercredi 16 Janvier 2019 par Abdel #
 La version de développement 19.01.2-dev du module complémentaire Clock vient d'être mise à jour.
 
 Cette mise à jour inclut les modifications suivantes:
@@ -206,7 +232,7 @@ Dernière mise à jour: 6 Janvier 2019
 
 Merci aux auteurs: Hrvoje Katic, Abdel et contributeurs de NVDA!😃              
 
-Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire Clock-19.01.1!                
+Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire horloge et calendrier pour NVDA version stable 19.01.1 et la version en développement 19.01.2-dev!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
