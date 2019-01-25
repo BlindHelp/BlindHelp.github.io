@@ -29,7 +29,7 @@ SpeedyFox est un petit logiciel qui ne fonctionne que sous Windows. Il ne néces
 * Pale Moon
 * SeaMonkey
 
-# Comment fonctionne SpeedyFox #}
+# Comment fonctionne SpeedyFox #
 SpeedyFox est un petit logiciel conçu pour accélérer les logiciels Firefox/Skype/Chrome/Thunderbird en défragmentant leurs bases de données au format SQLite.                  
 Ces données contiennent par exemple votre historique de navigation, vos marque-pages, vos mots de passe, vos fichiers téléchargés, les options de configuration, et j'en passe.             
 Au fil du temps, ces bases de données finissent par se fragmenter et par conséquent réduisent la vitesse de chargement des programmes. Vous l'aurez compris, si vous remarquez que votre navigateur Web est lent, essayez de le booster avec SpeedyFox.             
@@ -57,16 +57,16 @@ Note: Si vous le souhaitez, au préalable vous pouvez créer un dossier appelé 
 
 Maintenant, nous allons utiliser SpeedyFox!         
 
-1. Dans un premier temps, fermez tous vos programmes supportés par SpeedyFox en cours d’exécution, puis lancez le programme.              
+1. Dans un premier temps, fermez tous vos programmes supportés par SpeedyFox en cours d’exécution.              
+2. Lancez le programme, pour cela, exécutez le fichier speedyfox.exe en appuyant sur la touche Entrée.                
 Dans notre exemple, nous utiliserons les programmes Firefox, Skype et Thunderbird.              
-2. Exécutez le fichier speedyfox.exe en appuyant sur la touche Entrée.              
 Peut-être verrez-vous une  boîte de dialogue de type:        
 Fichier ouvert - Avertissement de sécurité          
-Voulez-vous exécuter ce fichier ?
-Nom:speedyfox.exe
+Voulez-vous exécuter ce fichier ?             
+Nom:speedyfox.exe              
 Éditeur : CrystalBit Solutions        
 Type : Application         
-Exécuter 
+Exécuter              
 C'est un bouton        
 Annuler      
 C'est un bouton        
@@ -88,10 +88,10 @@ en faisant une autre tabulation vous aurez le bouton:
 "Optimiser!"          
 SpeedyFox détecte automatiquement les profils des applications prises en charge. Si vous avez plusieurs profils, vous pouvez sélectionner celui que vous souhaitez optimiser dans la liste. Si vous disposez d'une version portable de l'une des applications prises en charge, choisissez votre chemin du profil manuellement en sélectionnant:               
 "Add custom profile..."             
-"Ajouter un profil personnalisé..." 
-Cela se trouve dans le menu de SpeedyFox. 
+"Ajouter un profil personnalisé..."               
+Cela se trouve dans le menu de SpeedyFox.           
 Vous aurez une case à cocher cochée par défaut pour chaque application, par exemple:               
-Firefox 
+Firefox            
 Si vous faites une flèche basse, vous verrez votre profil par défaut utilisé par cette application.                 
 Si vous faites encore une flèche basse, vous aurez une case à cocher cochée par défaut pourla suivante application, par exemple:                   
 Skype               
@@ -107,7 +107,7 @@ Le processus d'optimisation peut prendre de 5 secondes à une minute en fonction
 5. Laissez-le travailler. Lorsque la défragmentation est terminée, réitérez la manipulation pour chacun des profils si besoin.            
 6. Patientez jusqu'à la fin de l'optimisation et cliquez sur:         
 Quit	Alt+F4 Quitter	Alt+F4             
-pour quitter l'application.
+pour quitter l'application.                 
 Cela se trouve dans le menu de SpeedyFox.          
 
 # Mode d'utilisation de SpeedyFox en ligne de commande #
