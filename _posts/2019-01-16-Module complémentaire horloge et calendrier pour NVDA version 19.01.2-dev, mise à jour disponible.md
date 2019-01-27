@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Mercredi 23 Janvier 2019</footer>
+<footer>Dernière modification Samedi 26 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -19,6 +19,47 @@ Note: Vous pouvez télécharger les dernières versions du module complémentair
 # Clock <a id="clock-19.01.1.nvda-addon"></a>
 
 # 19.01.2-dev #
+
+# Mise à jour du Samedi 26 Janvier 2019  par Abdel #
+
+La pré-version 19.01.2-dev du module complémentaire Clock est disponible.                
+
+Cette version qui sera bientôt disponible inclut les ajouts suivants:                     
+
+* Ajout du module skipTranslation.py implémenté par Alberto BUFFOLINO          
+pour échapper à certains messages déjà traduits dans NVDA;                 
+* Ajout de commentaires citant les auteurs originaux sur certaines fonctionnalités,             
+y compris le décorateur Finally mis en œuvre par Tyler SPIVEY.                      
+* Maintenance simplifiée pour l'environnement des commandes  en couche de Clock.                
+ Maintenant, si nous ajoutons un nouveau script, nous devons simplement le déclarer dans le
+constructeur et il sera automatiquement reconnu et ajouté à la            
+aide obtenue avec la lettre H dans les commandes en couches.                   
+* Ajout de la vérification de la syntaxe de l'heure entrée pour les heures silencieuses.              
+* Mise à jour de la documentation, elle inclut maintenant la description de la             
+syntaxe à saisir pour les heures silencieuses.               
+* Désactivation du chargement du module  complémentaire dans l'écran sécurisé, ainsi que si NVDA           
+s'exécute en tant qu'application Windows Store Desktop Bridge.                  
+
+Concernant cette dernière caractéristique, telle qu’elle est apparue depuis Nvda-2018.1 et          
+le module complémentaire Clock est compatible avec les versions précédentes de NVDA, voici
+comment j'ai implémenté la condition:                    
+
+if globalVars.appArgs.secure or (hasattr (config, "isAppX") et           
+config.isAppX): return          
+
+Si aucun bug n'est signalé, je publierai la version stable la semaine prochaine.                  
+
+Avant cette publication, si quelqu'un pouvait passer une dernière révision, je serais        
+reconnaissant.                  
+
+Ce que je voudrais surtout revoir, c’est la conformité des           
+Code avec les règles des lignes directrices.               
+
+[Lien de téléchargement :](https://addons.nvda-project.org/files/get.php?file=cac-dev)                
+Merci pour vos tests et retours.             
+
+Amitiés.            
+Abdel              
 
 # Mise à jour du Mercredi 23 Janvier 2019  par Abdel #
 Dans sa configuration actuelle, le module complémentaire Horloge (Clock) ne vérifie pas encore les entrées saisies par l'utilisateur pendant les heures silencieuses.
