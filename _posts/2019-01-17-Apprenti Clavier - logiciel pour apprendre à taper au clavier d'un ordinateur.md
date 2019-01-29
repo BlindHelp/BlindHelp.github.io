@@ -52,7 +52,7 @@ Dernière mise à jour: 21 Juillet 2016).
 Merci à Paul!
 
 Je vous souhaite un bon apprentissage du clavier avec Apprenti Clavier!         
-À la proch...
+À la proch...                 
 Bien amicalement,              
 Rémy (BlindHelp).
 
