@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Samedi 26 Janvier 2019</footer>
+<footer>Dernière modification Lundi 28 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -19,6 +19,28 @@ Note: Vous pouvez télécharger les dernières versions du module complémentair
 # Clock <a id="clock-19.01.1.nvda-addon"></a>
 
 # 19.01.2-dev #
+
+# Mise à jour du Lundi 28 Janvier 2019  par Abdel #
+
+Après la révision faite par notre ami Paul, voici la dernière mise à jour de la pré-version du module complementaire Clock, y compris les ajouts suivants:             
+
+* Ajout d'un message d'erreur pour informer l'utilisateur quand une valeur erronée a été entrée pour les heures silencieuses;                      
+* Déplacé la catégorie  script_reportTimeAndDate vers la catégorie État du système;                
+* Correction de la désactivation du module complémentaire Clock dans un écran sécurisé.                   
+* Correction de l'expression régulière pour vérifier le format des heures silencieuses;                 
+En fait, la correspondance ne s'est pas terminée par un $, raison pour laquelle il pourrait inclure des caractères supplémentaires.                     
+Merci beaucoup Paul pour cette remarque importante.               
+
+Cette version sera publiée avant la fin de la semaine. J'ai pratiquement fait tous les tests de stabilité, mais j'attends votre confirmation.               
+
+Si quelqu'un veut faire une autre révision, il sera le bienvenu.           
+
+[Lien de téléchargement:](https://addons.nvda-project.org/files/get.php?file=cac-dev)                       
+
+Merci beaucoup pour vos retours.             
+
+Cordialement,            
+Abdel.             
 
 # Mise à jour du Samedi 26 Janvier 2019  par Abdel #
 
