@@ -39,12 +39,13 @@ ainsi que le lien "Sources" pour télécharger le code-source Visual Basic 4 en 
 
 L'auteur d'ApprentiClavier, Hervé Béranger, remercie les précurseurs du Club Micro Son qui avaient développé sous Dos un logiciel semblable appelé CLAVSON : Robert Agro, Thierry Bertrand, Alain Rousseau.            
 
-La cerise sur le gâteau , maintenant vous pouvez également l'utiliser avec NVDA!                   
+La cerise sur le gâteau , maintenant vous pouvez également l'utiliser sous NVDA!                   
 Grâce à un module complémentaire développé par son auteur:                    
 Paul, de la liste ScriptNVDA.                 
-Ce module tente de rendre le logiciel Apprenty Clavier aussi accessible que possible avec NVDA.               
+Ce module complémentaire tente de rendre le plus accessible possible le logiciel [ApprentiClavier](http://www.apprenticlavier.com/) sous NVDA. Ce module complémentaire n'ajoute aucun script .                
 Compatibilité:                              
-Ce module complémentaire a été testé pour la dernière fois avec Apprenti Clavier 1.0.9, NVDA 2014.3 et Windows XP, Windows 7 et Windows 8.1. Le module complémentaire n'est pas compatible avec les versions de NVDA antérieures à la 2014.3.                           
+Ce module complémentaire a été testé pour la dernière fois avec la version 1.0.9 d'ApprentiClavier, NVDA 2014.3 et sous Windows XP, Windows 7, Windows 8.1. Il n'est pas compatible avec les versions de NVDA antérieures à la version 2014.3.           
+Langues: Français.               
 Version actuelle: 2.2.1                 
 Dernière mise à jour: 21 Juillet 2016).                      
 [Télécharger le module complémentaire ApprentiClavier-v2.2.1.nvda-addon par ici: [lien externe]](https://github.com/paulber007/AllMyNVDAAddons/blob/master/apprentiClavier/ApprentiClavier-v2.2.1.nvda-addon?raw=true)                         
