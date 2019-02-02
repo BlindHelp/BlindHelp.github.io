@@ -1,22 +1,29 @@
 ﻿---
-title: Module complémentaire horloge et calendrier pour NVDA version 19.01.2-dev, mise à jour disponible
+title: Module complémentaire horloge et calendrier pour NVDA version 19.01.2, mise à jour disponible
 layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Lundi 28 Janvier 2019</footer>
+<footer>Dernière modification Vendredi Ier  Février 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
-Ce module complémentaire nommé [Clock](#clock-19.01.1.nvda-addon) actuellement peut être mis à jour à partir du module complémentaire [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html) qui a été mis à jour à la nouvelle version stable 19.01.1A récemment. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également le télécharger manuellement. Si vous n'avez même pas ce module complémentaire horloge et calendrier  pour NVDA également connu sous le nom de Clock, vous pouvez le télécharger à partir du lien ci-dessous.
+Ce module complémentaire nommé [Clock](#clock-19.01.2.nvda-addon) actuellement peut être mis à jour à partir du module complémentaire [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html) qui a été mis à jour à la nouvelle version stable 19.02.1A récemment. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également le télécharger manuellement. Si vous n'avez même pas ce module complémentaire horloge et calendrier  pour NVDA également connu sous le nom de Clock, vous pouvez le télécharger à partir du lien ci-dessous.
 
-Note: Vous pouvez télécharger les dernières versions du module complémentaire horloge et calendrier pour NVDA (Clock) version stable 19.01.1 et  version en développement 19.01.2-dev, via les liens du site communautaire NVDA se trouvant sur cette page.                       
+Note: Vous pouvez télécharger les dernières versions du module complémentaire horloge et calendrier pour NVDA (Clock) version stable 19.01.2 et  version en développement 19.01.2-dev, via les liens du site communautaire NVDA se trouvant sur cette page.                       
  
 Également vous trouver ci-dessous un petit  changelog (journal des changements) fait maison pour cette dernière version en date, ainsi que une bref description du module complémentaire Clock.
 
 ---
 
-# Clock <a id="clock-19.01.1.nvda-addon"></a>
+# Clock <a id="clock-19.01.2.nvda-addon"></a>
+
+# 19.01.2 #
+
+# Mise à jour du Vendredi Ier  Février 2019  par Abdel #
+La version stable 19.01.2 du module complémentaire Clock vient d'être mise à jour.                     
+
+Diverses améliorations internes tantôt dans l'interface, tantôt dans la documentation, tout cela est décrit dans le changelog (journal des changements  dans la dernière version en développement 19.01.2-dev. Il apporte également des traductions mises à jour.                 
 
 # 19.01.2-dev #
 
@@ -268,12 +275,12 @@ Note: Actuellement  sur la page d'appVeyor il se trouve seulement le dernier mod
 
 <https://ci.appveyor.com/project/HrvojeKati/clock/build/artifacts>
 
-Ce module complémentaire  Clock-19.01.1 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
+Ce module complémentaire  Clock-19.01.2 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
 Langues supportés: Allemand, Anglais, Arabe, Bulgare, Chinois Traditionnel, Croate, Français, Espagnol, Italien, Persan, Polonais, Portugais-Brésil, Portugais-Portugal, Roumain, Russe, Serbe, Slovaque et Turc   
 Traduit en français par: Michel Such, Abdel et Rémy Ruiz           
 Traduit en espagnol par: Iván Novegil Cancelas, Juan C. Buno, José Manuel Delicado Alcolea et Rémy Ruiz           
-Version: Clock-19.01.1           
-Dernière mise à jour: 6 Janvier 2019           
+Version: Clock-19.01.2           
+Dernière mise à jour: Ier Février 2019           
 
 ---
 
@@ -293,7 +300,7 @@ Dernière mise à jour: 6 Janvier 2019
 
 Merci aux auteurs: Hrvoje Katic, Abdel et contributeurs de NVDA!😃              
 
-Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire horloge et calendrier pour NVDA version stable 19.01.1 et la version en développement 19.01.2-dev!                
+Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire horloge et calendrier pour NVDA version stable 19.01.2 et la version en développement 19.01.2-dev!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
