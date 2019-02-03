@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Vendredi 18 Janvier 2019</footer>
+<footer>Dernière modification Mardi 29 Janvier 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -30,23 +30,23 @@ Et surtout accessible avec nos lecteurs d’écran NVDA / JAWS, grâce à son au
  Ce programme 3D Youtube Downloader est une tendance récente dans nos listes de discussion, et j’ai compilé certains modes d'emploi et infos, donnés par Bernard Gavroches, Jean-Pierre DIERYNCK, Sèb, Jean-Claude Armingaud et Oriental...  merci àeux!🙇           
  Et j' ai ajouté ma petite touche personnelle  à ce mode d'emploi compilé, qui mérite d'être annoncé comme un mode d'emploicollaboratif!                 
  
- Testé avec la dernière version de NVDA 2018.4.1 et la dernière version Beta de 3D Youtube Downloader sous un Windows 64 bits.              
+ Testé avec la dernière version de NVDA 2018.4.1 et la dernière version stable de 3D Youtube Downloader 1.16.8 sous un Windows 64 bits.              
  
-Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger la dernière version Beta disponible!                
+Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger la dernière version stable disponible!                
  
-# 3D Youtube Downloader version Beta 1.16.8 #
-3dyd_1.16.8_beta2.exe              
-[32-bit](https://yd.3dyd.com/download/3dyd_1.16.8_beta2.exe)          
+# 3D Youtube Downloader version stable  1.16.8 #
+3dyd_1.16.8.exe              
+[32-bit](https://download.yd.3dyd.com/3dyd_1.16.8.exe)          
 13.8mb                     
 
-3dyd64_1.16.8_beta2.exe              
-[64-bit](https://yd.3dyd.com/download/3dyd64_1.16.8_beta2.exe)                 
+3dyd64_1.16.8.exe              
+[64-bit](https://yd.3dyd.com/download/3dyd64_1.16.8.exe)                 
 15.5mb
 
 # À propos #
-Version: 1.16.8 beta 2             
-Date de publication: (18-Jan-2019)                  
-
+Version: 1.16.8               
+Date de publication: (29-Jan-2019)                   
+                  
 # Journal des changements # 
 
 
@@ -54,7 +54,7 @@ Date de publication: (18-Jan-2019)
 - Corrigée l'erreur #403 pour Youtube
 
 
-A tout moment, vous pouvez visiter la page officielle de l'éditeur en anglais pour obtenir la dernière version Beta disponible en téléchargement.                  
+A tout moment, vous pouvez visiter la page officielle de l'éditeur en anglais pour obtenir la dernière version stable disponible en téléchargement.                  
 [Download - 3D Youtube Downloader:](http://yd.3dyd.com/download/)                   
 
 Pour en savoir plus consulter la page officielle de l'éditeur en anglais.              
@@ -267,7 +267,23 @@ Cliquez sur le bouton OK pour fermer la boîte de dialogue.
 Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.             
 Pour quitter le menu Aide, pressez la touche échappement.                
 
-Je pense avoir fait  le tour entre ces menus, nous allons maintenant au point qui nous intéresse!
+# Comment télécharger une nouvelle mise à jour à partir de l'interface du programme 3D Youtube Downloader? #
+Si une nouvelle version est disponible au téléchargement, vous en serez informé par un message, par exemple dans le cas de cette nouvelle version:                    
+3D Youtube Downloader (x64)  dialogue  Nouvelle version disponibleLa nouvelle version 1.16.8 est disponible sur le serveur                  
+Une fois positionné sur  le dite message, faites une flèche basse, pour trouver les éléments puis pressez la touche entrée ou la barre d'espace pour valider l'un de ces éléments.                   :              
+Journal des modifications                    
+(En cliquant ici,  le Changelog contenant une petite description du dernier changement accompagné d'un lien nommé "details" pour la dernière version disponible du programme 3D Youtube Downloader en anglais va s'ouvrir).               
+Fermer la fenêtre par Alt+F4 ou pressez la touche échappement.          
+Ensuite vous serez de retour dans l'interface du programme 3D Youtube Downloader.             
+Télécharger            
+(En cliquant ici, Une page nommée "Download " contenant  des liens  pour télécharger la dernière version disponible du programme 3D Youtube Downloader en anglais va s'ouvrir dans votre navigateur par défaut).               
+Notez que vous devez retourner à l'application 3D Youtube Downloader à nouveau avec Alt + Tab.          
+Fermer              
+(En cliquant ici, nous sommes à nouveau sur le message dont nous avons parlé au début, rien ne se passe au niveau de la fermeture de quelque chose, en tout cas chez moi).            
+Pour pouvoir mettre à jour le programme 3D Youtube Downloader vers la version actuelle, vous devez le fermer au préalable par Alt+F4, puis exécuter le fichier d'installation que vous avez téléchargé en fonction de votre système, que ce soit pour Windows en 32 ou 64 bits, en suivant les instructions décrites ci-dessus.                
+Lorsque vous rouvrez le programme 3D Youtube Downloader après avoir terminé votre installation, vous aurez la nouvelle version du programme 3D Youtube Downloader.           
+
+Je pense avoir fait  le tour entre ces menus puis la façon de télécharger une nouvelle mise à jour à partir de l'interface du programme 3D Youtube Downloader, donc nous allons maintenant au point qui nous intéresse!
 comment utiliser le programme 3D YouTube Downloader lequel va vous permettre de télécharger des vidéos sur YouTube et vous pourrez même en extraire la bande son et ainsi sauvegarder sur votre ordinateur vos vidéos préférées, pour les visualiser ultérieurement ou hors-ligne (sans connexion à Internet).               
 
 1 2 3allons-y!              
