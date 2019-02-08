@@ -8,7 +8,7 @@ author: BlindHelp
 
 
 # Le premier jeu audio de survival horror en français! pour non voyants! `[Mode d'emploi]`
-Coucou mes amis du blog de BlindHelp!
+Coucou mes amis du blog de BlindHelp!              
 Voici le mode d'emploi pour le premier jeu audio de survival horror en français!pour non voyants!                 
 
 # TOXIC LE "SURVIVAL HORROR" AUDIO
@@ -22,11 +22,11 @@ Je trouve qu'elle jou vachement bien!!!!
 En tout cas pour ma part je découvre et je teste le jeu en même temps que j'écrit se mode d'emploi! donc, je n'est pas le niveau de jeu de la fille!!! loool!!!                 
 J'ai profité de transcrire les quelques astuces donnée par ell, dans ce mode d'emploi, car ils sont très utiles.                 
 
-
 * Survival horror                    
 Terme anglais que l'on peut traduire par « horreur et survie ».              
 Sous-genre de jeu d'action/aventure où le joueur évolue dans une atmosphère oppressante. Le personnage incarné est généralement confronté à des monstres
 belliqueux, avec pour se défendre le strict minimum.                     
+
 Par exemple Le terme survival horror est utilisé la première fois pour la sortie japonaise du jeu "Resident Evil" en 1996.                  
 
 # Voici quelques infos sur le jeu Toxic:
@@ -145,13 +145,12 @@ Voici ce que votre coéquipier vous dit :
 puis il dit "Vous avez passé par les deux trous, allez jusqu'à la sortie à l'autre bout".                
 
 # Podcast du jeu Toxic à écoutez!!!
-On ma signaler que il y a un podcast du jeu par ici:                        
-[Toxic, le premier jeu audio de survival horror en français - Cecitek ](http://www.cecitek.fr/episodes/83-jeux/222-toxic)                  
+On ma signaler qu'il y a un podcast du jeu par ici:                        
+[Cecitek - Jeux - Toxic, le premier jeu audio de survival horror en français](https://www.cecitek.fr//index.php?module=episode&action=view&id=356)            
 Une fois la page ouverte, cliquer sur le lien nommé:                   
-Télécharger              
+podcast-toxic.mp3              
 Voici pour les flemmard!!!              
-[Cliquez ici pour télécharger le Podcast du jeu!!!](http://www.cecitek.fr/media/podcasts/episodes/podcast-toxic.mp3)                
-Vous pouvez faire enregistrer la sible sous pour enregistrer le podcast du jeu.                 
+[Cliquez ici pour télécharger le Podcast du jeu!!!](https://www.cecitek.fr//index.php?module=episode&action=download&id=371&epId=356&stream=0)                
 Nom du fichier:                 
 podcast-toxic.mp3                 
 Se Podcast est fait par Florie BERT                 
@@ -165,7 +164,7 @@ Si vous souhaitez en savoir plus à-propos du jeu, vous pouvez consulter l'artic
 [Le premier jeu audio de survival horror en français pour non voyants - BlindHelp.github.io](https://blindhelp.github.io/Le-premier-jeu-audio-de-survival-horror-en-fran%C3%A7ais-pour-non-voyants/)                      
 
 # Source de l'info:
-[Toxic, le premier jeu audio de survival horror en français - Cecitek](http://www.cecitek.fr/episodes/83-jeux/222-toxic)               
+[Cecitek - Jeux - Toxic, le premier jeu audio de survival horror en français](https://www.cecitek.fr//index.php?module=episode&action=view&id=356)            
 ["Toxic" un FPS sur PC, 100% audio, destiné aux non voyants](http://www.afjv.com/news/4572_toxic-un-fps-sur-pc-100-audio-destine-aux-non-voyants.htm)              
 
 # Info du développeur du jeu TOXIC - 100% Audio Game
