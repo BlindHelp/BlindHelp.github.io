@@ -12,13 +12,14 @@ Coucou mes amis du blog de BlindHelp!
 Voici une information transmis par un ami d'une liste, il s'agit du premier jeu audio de survival horror en français!pour non voyants!                            
 Fait par Le développeur indépendant DK-Games                 
 [Et il se trouve par ici:](http://toxic.dk-games.com/)                 
-[Et vous pouvez écouter la bande d'annonce du jeu par là!](http://www.dk-games.com/Toxic-BandeAnnonce-Sep18.mp3). Vous pouvez faire enregistrer la sible sous pour enregistrer la bande d'annonce du jeu.                   
+[Et vous pouvez écouter la bande d'annonce du jeu par là!](http://www.dk-games.com/Toxic-BandeAnnonce-Sep18.mp3)              
+Vous pouvez faire enregistrer la sible sous pour enregistrer la bande d'annonce du jeu.                   
 Donc, je fait suivre ces informations détaillées ci-dessous car je sais qu'il y a des amis du blog de BlindHelp intéressés par les jeux. N'en sachant pas
 davantage, je ne pourrai répondre à aucune question.         
 Le développeur indépendant DK-Games annonce la sortie de "Toxic", un FPS pour non voyants. Ce jeu 100% audio est un survival horror d'une durée d'une heure
 trente. Il est proposé gratuitement sur PC.                  
 Le jeu est téléchargeable sur le site :                
->http://toxic.dk-games.com<
+[http://toxic.dk-games.com](http://toxic.dk-games.com)                         
 [Sinon en cliquant ici](http://www.dk-games.com/Toxic_V103_22Oct14.zip)              
 Nom du fichier à télécharger:                    
 Toxic_V103_22Oct14.zip                   
@@ -42,9 +43,9 @@ Note d'installation: Téléchargez et dezippez le jeu. Lancez ensuite "Toxic.exe
 Si pendant la phase de test du son, les sons ne sont pas parfaitement et totalement sur les cotés, désactivez les effets sonores de votre gestionnaire de son (en particulier les pseudos effets "stéréos")               
 
 # Mode d'emploi pour le premier jeu audio de survival horror en français!pour non voyants!
-Voici le mode d'emploi pour le premier jeu audio de survival horror en français!pour non voyants!
-Vous pouvez consulter l'article sur mon blog:
-blindhelp: Le premier jeu audio de survival horror en français! pour non voyants! [Mode d'emploi] 
+Voici le mode d'emploi pour le premier jeu audio de survival horror en français!pour non voyants!                
+Vous pouvez consulter l'article sur mon blog:                  
+[Le premier jeu audio de survival horror en français pour non voyants mode d'emploi - BlindHelp.github.io](https://blindhelp.github.io/Le-premier-jeu-audio-de-survival-horror-en-fran%C3%A7ais-pour-non-voyants-mode-d'emploi/)                   
 Même il y a un Podcast fait par Florie BERT           
 Il est Très bien fait, il est excellent!!!                  
 Mille merci encore à ell!!!           
