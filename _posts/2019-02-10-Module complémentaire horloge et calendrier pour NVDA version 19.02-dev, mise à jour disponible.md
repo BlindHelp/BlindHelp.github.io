@@ -339,7 +339,7 @@ Dernière mise à jour: Ier Février 2019
 
 Merci aux auteurs: Hrvoje Katic, Abdel et contributeurs de NVDA!😃              
 
-Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire horloge et calendrier pour NVDA version stable 19.01.2 et la version en développement 19.01.2-dev!                
+Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire horloge et calendrier pour NVDA version stable 19.01.2 et la version en développement 19.02-dev!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
