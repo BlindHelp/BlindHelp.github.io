@@ -158,6 +158,37 @@ Pour que ce lecteur VLC soit plus accessible avec nos lecteurs d'écran, vous de
 [Pour les scripts de JAWS c'est par ici:](http://angouleme.avh.asso.fr/fichesinfo/fiches_jaws/logiciels_divers/vlc2.htm)                    
 [et pour le module complémentaire c'est par là:](https://blindhelp.github.io/Le%20coffre%20des%20Modules%20Complementaires%20pour%20NVDA.html#VLCAccessEnhancement-1.1.nvda-addon)                         
 
+# À Propos des menus de VLC media Player #
+
+Pour ouvrir un menu, utilisez "Alt"+"la lettre" pour aller au menu, puis quand le menu apparaît, vous pouvez utiliser les flèches pour naviguer dans le menu, et la touche "entrée" pour activer un élément. Ils sont huit:                   
+
+- Média Alt+M           
+- Lecture Alt+L           
+- Audio Alt+A          
+- Vidéo Alt+V              
+- Sous-titres Alt+t                 
+- Outils Alt+O             
+- Vue Alt+u              
+- Aide Alt+i          
+
+Remarque: Dans ce tutoriel, nous mentionnerons quelques menus les plus utilisés dans VLC, pour le reste nous vous laisserons les découvrir!             
+
+# À Propos des Préférences de VLC media Player #
+
+Lorsque vous ouvrez les Préférences de VLC avec le raccourci Ctrl + P, vous aurez plusieurs options, il y a six:                    
+Choisissez avec les flèches gauche ou droite le type d'option que vous souhaitez configurer puis déplacez-vous sur l''option choisi avec "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les contrôles, puis utilisez les "Flèches" pour naviguer dans les choix.                   
+
+- Interface           
+- Audio              
+- Vidéo          
+- Sous-titres / OSD                         
+- Entrée / Codecs          
+- Raccourcis           
+
+Remarque: Dans ce tutoriel, nous mentionnerons quelques options les plus utilisés se trouvant dans les Préférences de VLC, pour le reste nous vous laisserons les découvrir!             
+
+1, 2, 3, allons-y! C'est partie pour la configuration de VLC!                
+
 # 1. Quelques réglages préalables avant d’utiliser VLC #
 
 Avant d’utiliser VLC, il convient de faire quelques réglages nécessaires :                
@@ -168,7 +199,7 @@ Pour paramétrer le répertoire de sauvegarde des enregistrements :
 
 - Lancer VLC ; menu Outils Alt+O > Préférences Ctrl+P.              
 - Dans la fenêtre cliquer sur l'icône "Entrée / Codecs".             
-- Dans la Rubrique Fichiers : Dossier des Captures, cliquer sur "Parcourir".               
+- Dans le groupage Fichiers : Dossier des Captures, cliquer sur "Parcourir".               
 - Sélectionner le répertoire où sauvegarder les fichiers.             
 - Cliquer sur "Enregistrer" pour valider.
  
@@ -213,7 +244,7 @@ Pour convertir des fichiers vidéo et audio avec une qualité définie :
 - Dans la fenêtre qui apparait cliquer sur ajoutez un fichier vidéo en cliquant sur Ajouter Enter et sélectionner le fichier à convertir.              
 - Cliquez sur Convertir/Enregistrer en dessous                 
 - Choisir le format désiré pour l’exportation dans le menu déroulant Profil et éventuellement la méthode d'encapsulation en sélectionnant l'îcone en forme de clé                
-- Choisir la destination dans la rubrique "fichier de destination", modifier éventuellment le nom du fichier de sortie en rajoutant l'extension du conteneur choisi (.mp4, .avi, .mkv ...). Par exemple si le fichier source est nsmail-2.mp4 dans le répertoire D:\Téléchargements et que vous voulez placer le fichier sortie dans D:\Tempo, VLC proposera une fois le répertoire de sortie choisi dans la rubrique Fichier de destination le chemin suivant : D:\Tempo\nsmail-2.mp4. Si le conteneur AVI a été choisi (dans la méthode d'encapsulation décrite ci-dessus), il faudra rajouter l'extension AVI et modifier le chemin D:\Tempo\nsmail-2.mp4 en D:\Tempo\nsmail-2.avi               
+- Choisir la destination dans le groupage "fichier de destination", modifier éventuellment le nom du fichier de sortie en rajoutant l'extension du conteneur choisi (.mp4, .avi, .mkv ...). Par exemple si le fichier source est nsmail-2.mp4 dans le répertoire `C:\Téléchargements` et que vous voulez placer le fichier sortie dans `C:\Tempo`, VLC proposera une fois le répertoire de sortie choisi dans le groupage Fichier de destination le chemin suivant : `C:\Tempo\nsmail-2.mp4`. Si le conteneur AVI a été choisi (dans la méthode d'encapsulation décrite ci-dessus), il faudra rajouter l'extension AVI et modifier le chemin `C:\Tempo\nsmail-2.mp4` en `C:\Tempo\nsmail-2.avi`               
 - Cliquer sur Convertir/Enregistrer
 - Le fichier sera disponible dans le répertoire choisi. Le délai de traitement dépendra de la taille de la vidéo et de la puissance de votre ordinateur.           
 
@@ -258,8 +289,8 @@ Avec VLC on peut regarder la TV ou écouter des chaines radio sans passer par de
 
 - Cliquer sur la barre de menu dans Vue Alt+u > Liste de lecture Ctrl+L             
 - Une liste ou une fenêtre vide s’affiche avec des boutons sur la gauche.              
-- Choisir selon le cas la lecture désirée (sur votre ordinateur, votre réseau, sur internet , etc ...)            
-- Sur Internet, cliquer sur un des boutons de la rubrique Internet pour voir la liste des bouquets disponibles.                     
+- Choisir selon le cas la lecture désirée (sur votre ordinateur, votre réseau, sur internet , etc...)            
+- Sur Internet, cliquer sur un des boutons du groupage Internet pour voir la liste des bouquets disponibles.                     
 - On peut utiliser Freebox TV pour accéder à des chaînes connues                    
 
 Pour lire une radio ou de la musique, après avoir sélectionné le fichier ou la radio désirée, cliquer sur le bouton Play            
@@ -517,7 +548,7 @@ Si, dans certains cas, les habitués peuvent s'accomoder de ce cumul d'instances
 Aussi vaut-il mieux empêcher VLC d'ouvrir une nouvelle fenêtre quand vous changez de flux. Pour ce faire  :                    
 
 1. Déroulez le menu Outils Alt+O > Préférences Ctrl+P:               
-2. Cochez la case N'autoriser qu'une seule instance de la section Liste de lecture  et cliquez sur le bouton Enregistrer pour que les modifications soient prises en compte :                 
+2. Cochez la case N'autoriser qu'une seule instance du groupage "Liste de lecture" et cliquez sur le bouton Enregistrer pour que les modifications soient prises en compte :                 
 
 # Capture des flux radios et lecture avec VLC media player #
 
@@ -557,6 +588,7 @@ Quand il n'est pas proposé de télécharger un fichier playlist qu'on peut ouvr
 # Écoute des flux Radio sur VLC #
 
 - Sélectionner et copier l'adresse de la radio dans le presse-papier.        
+Par exemple  sur un lien qui donne le  flux d'écoute, faire menu contextuel ou touche Application, jusqu'à: Copier l’adresse du lien puis entrée.            
 - Ouvrir vlc,         
 - Nous faisons Ctrl + v et nous entendons quelque chose comme:             
 Ouvrir un URL dialogue Si le presse-papier contient une URL valide ou le chemin d'un fichier sur votre ordinateur,il sera automatiquement sélectionné.          
@@ -736,7 +768,12 @@ Afficher ou masquer la liste de lecture.
 Activer ou désactiver l'interface minimale (Cacher et réafficher les menus).              
 Les raccourcis clavier cités  dans cette section vous permettent donc de gérer VLC sans avoir à utiliser son interface utilisateur. Votre expérience de VLC ne pourra en être que meilleure !                   
 - Ctrl +D                
- Ouvrir un média.
+Ouvrir un média.                  
+Choisissez avec les flèches gauche ou droite le type de média à ouvrir, il y a quatre:                   
+Fichier Alt+F            
+Disque Alt+D          
+Réseau Alt+R              
+Périphérique de capture Alt+t              
 - Ctrl +1, 2, etc.                 
 Ouvrir le dernier média ouvert, l'avant dernier, etc.                
 - Ctrl +Q             

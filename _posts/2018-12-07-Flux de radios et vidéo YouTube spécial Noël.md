@@ -25,7 +25,7 @@ Vous pouvez les écouter via le lecteur VLC media player par exemple, donc, vous
 # Écoute des flux Radio sur VLC #
 
 - Sélectionner et copier l'adresse de la radio dans le presse-papier.           
-Faire menu contextuel ou touche Application, jusqu'à: Copier l’adresse du lien puis entrée.                 
+Par exemple  sur un lien qui donne le  flux d'écoute, faire menu contextuel ou touche Application, jusqu'à: Copier l’adresse du lien puis entrée.
 - Ouvrir vlc,                
 - Nous faisons Ctrl + v et nous entendons quelque chose comme:                      
 Ouvrir un URL dialogue Si le presse-papier contient une URL valide ou le chemin d'un fichier sur votre ordinateur,il sera automatiquement sélectionné.                    
@@ -107,8 +107,9 @@ Ouvrir un emplacement depuis le presse-papier Ctrl+V
 [Site Web](https://www.radio-noel.fr/)
 
 
-# Sources: #
-[Flux Radios: Christmas](http://fluxradios.blogspot.com/p/christmas.html)
+# Source via FluxRadios.com: #
+[Flux Radios: Christmas](http://fluxradios.blogspot.com/p/christmas.html)                 
+(Merci à Sèb).                   
 
 # Écoute des flux Vidéo de YouTube sur VLC #
 Vous pouvez aussi lire les vidéos de YouTube via le Lecteur multimédia VLC en lieu d'utiliser le Lecteur vidéo YouTube embarqué sur la page YouTube.             
@@ -139,11 +140,12 @@ Ouvrir un emplacement depuis le presse-papier Ctrl+V
 [Wham! - Last Christmas (Official Music Video)](https://www.youtube.com/watch?v=E8gmARGvPlI)                     
 
 
-# Sources: #
+# Source via FluxRadios.com: #
 
-[Flux Radios: Christmas](http://fluxradios.blogspot.com/p/christmas.html)
+[Flux Radios: Christmas](http://fluxradios.blogspot.com/p/christmas.html)              
+(Merci à Sèb).                  
 
-Donc, profitez d'écoutez une très bonne musique  à travers de ces flux de radios et vidéos YouTube spécial Noël comme je l'ai fait!                
+Voila donc, profitez d'écoutez une très bonne musique  à travers de ces flux de radios et vidéos YouTube spécial Noël comme je l'ai fait!                
 Et je vous souhaite à tous et toutes, mes amis du blog de BlindHelp!                
 un très joyeux nöèl!!! 🎄 🎅                                   
 Ainssi que une bonne fête de fin d'année !!! 🎉 🎁                              
