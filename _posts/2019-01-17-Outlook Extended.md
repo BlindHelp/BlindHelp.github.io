@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Jeudi 17 Janvier 2019</footer>
+<footer>Dernière modification Mercredi 20 Février 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -55,8 +55,8 @@ Ce module complémentaire a été testé avec Microsoft Outlook 2016 et 2013.
 # Plus d'informations sur Outlook Extended
 
     Type: Extensions
-    Dernière mise à jour: 17 Janvier 2019
-    Version actuelle: 1.0-dev (en développement)
+    Dernière mise à jour: 20 Février 2019
+    Version actuelle: 1.0 (version stable)
 
 Retrouver le module complémentaire [Outlook extended](https://addons.nvda-project.org/addons/outlookExtended.fr.html) sur le site comunautaire des modules complémentaires NVDA             
 
