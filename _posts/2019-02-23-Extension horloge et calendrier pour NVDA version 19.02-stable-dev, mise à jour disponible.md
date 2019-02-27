@@ -331,7 +331,7 @@ Note: Actuellement  sur la page d'appVeyor il se trouve seulement le dernier mod
 
 <https://ci.appveyor.com/project/HrvojeKati/clock/build/artifacts>
 
-Ce module complémentaire  Clock-19.01.2 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
+Ce module complémentaire  Clock-19.02 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
 Langues supportés: Allemand, Anglais, Arabe, Bulgare, Chinois Traditionnel, Croate, Français, Espagnol, Italien, Persan, Polonais, Portugais-Brésil, Portugais-Portugal, Roumain, Russe, Serbe, Slovaque et Turc   
 Traduit en français par: Michel Such, Abdel et Rémy Ruiz           
 Traduit en espagnol par: Iván Novegil Cancelas, Juan C. Buno, José Manuel Delicado Alcolea et Rémy Ruiz           
