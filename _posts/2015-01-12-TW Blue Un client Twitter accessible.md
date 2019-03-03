@@ -30,7 +30,7 @@ Pour avoir les pages dédier à TWBlue dans notre belle langue le français! (si
 [La documentation de TWBlue, est consultable par ici:](https://twblue.es/documentation/)    
 [Pour connaître les statistiques d'utilisation de TWBlue, c'est par là](https://twblue.es/usage)    
 [Pour consulter les problèmes connus de TWBlue, c'est par ici](https://github.com/manuelcortez/twblue/issues)    
-[Pour connaître la composition de notre équipe](https://twblue.es/team/)    
+[Pour connaître la composition de notre équipe, c'est par là](https://twblue.es/team/)    
 Si vous le souhaitez vous pouvez [Faire un don](https://twblue.es/donate/)    
 pour soutenir le projet de TWBlue!    
 C'est comme si vous prenez  une tasse de café au bistro du coin !    
