@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Lundi    12 janvier 2015</footer>
+<footer>Dernière modification Vendredi 3 août 2018</footer>
 
 ### TW Blue Nouveau client Twitter accessible ###
 
@@ -18,20 +18,54 @@ Ce programme a été développé par une personne aveugle hispanophones et j'ai 
 a aimer mon idée, étant donné que le programme a déjà à son actif plusieurs langues traduites.  
 TW Blue est maintenant en français! C'est cool!  
 
-De même, quelques pages se trouvant sur le site Web TWBlue ont été récemment traduits en Français par votre serviteur !
+De même, quelques pages se trouvant sur le site Web TWBlue ont été récemment traduits en Français par votre serviteur ! (si disponible)
 
-# Les différents liens pour accéder aux pages de TWBlue: #
+# Les différents liens pour accéder aux pages de TWBlue en anglais: #
 
 N'oubliez pas de choisir le lien nommé:  
 Français    
-Pour avoir les pages dédier à TWBlue dans notre belle langue le français!  
-[Pour télécharger toujours la dernière version en date de TWBlue, c'est ici:](http://twblue.es/?q=node/18)
-[Pour télécharger des Packs de sons pour TWBlue, c'est par là](http://twblue.es/?q=node/22)
-[La documentation de TWBlue, est consultable par ici:](http://twblue.es/?q=node/20)
-Si vous le souhaitez vous pouvez [Faire un don](http://twblue.es/?q=node/19)  
+Pour avoir les pages dédier à TWBlue dans notre belle langue le français! (si disponible), dans le cas contraire, les liens ci-dessous vous mèneront aux pages en anglais.  
+[Pour télécharger toujours la dernière version en date de TWBlue, c'est ici:](https://twblue.es/downloads/)
+[Pour télécharger des Packs de sons pour TWBlue, c'est par là](https://twblue.es/soundpacks/)
+[La documentation de TWBlue, est consultable par ici:](https://twblue.es/documentation/)
+[Pour connaître les statistiques d'utilisation de TWBlue, c'est par là](https://twblue.es/usage)
+[Pour consulter les problèmes connus de TWBlue, c'est par ici](https://github.com/manuelcortez/twblue/issues)
+[Pour connaître la composition de notre équipe](https://twblue.es/team/)
+Si vous le souhaitez vous pouvez [Faire un don](https://twblue.es/donate/)  
 pour soutenir le projet de TWBlue!  
 C'est comme si vous prenez  une tasse de café au bistro du coin !  
 Nous vous remercions par avance pour votre soutien financier !
+
+# Concernant l'impossibilité d'authentifier de nouveaux comptes Twitter dans TWBlue par Manuel Cortez #
+
+De nombreux utilisateurs de TWBlue ont signalé, à la fois sur Twitter et dans les incidence sur GitHub, que TWBlue n'autoriserait pas de nouveaux comptes. Ceci est le résultat d'une modification apportée par Twitter au fonctionnement du processus d'authentification. Cet article décrit la cause de ce problème et comment le résoudre. Veuillez lire ce message avant de mentionner (@tw_blue2) sur Twitter ou d'ouvrir un ticket d'incidence sur GitHub à ce sujet, car nous avons reçu de nombreux tickets sur GitHub en double et il peut être ennuyant de devoir commenter chacun d'entre eux avec la solution. N'hésitez pas à partager ce message avec vos amis.    
+
+### La cause. ###
+
+Si vous souhaitez simplement que votre TWBlue fonctionne à nouveau et que vous ne teniez pas compte des détails techniques, n'hésitez pas à passer cette section et à aller à la rubrique solution ci-dessous.    
+Version courte.    
+Twitter a modifié le processus d’autorisation de compte qui a cassé la méthode utilisée par TWBlue, et probablement d’autres clients, pour authentifier les nouveaux comptes.    
+Version longue.   
+Auparavant, pour authentifier les nouveaux comptes, TWBlue ouvrait un serveur Web sur votre appareil. Ce serveur était sur un port aléatoire et ne restait ouvert que pour recevoir la clé d'accès fourni par Twitter lorsque vous autorisez votre compte à être utilisé avec TWBlue. C’est ainsi que vous avez simplement pu cliquer sur "Autoriser l’application" sur le site Web de Twitter et obtenir l’autorisation de votre compte sans action de votre part. Cependant, récemment, Twitter a commencé à exiger des URL de rappel, des adresses pour lesquelles Twitter envoie des clés d'accès et vers lesquelles les applications Twitter se redirigent après avoir été autorisées à utiliser votre compte. L'URL de rappel de TWBlue était "127.0.0.1", de sorte qu'il pouvait envoyer le jeton d'accès Twitter au serveur Web ouvert sur votre appareil, mais cela n'est plus autorisé par la politique de Twitter. De ce fait, TWBlue a dû revenir à l’autorisation par code PIN, dans laquelle vous accordez l’accès à TWBlue en saisissant le code PIN que Twitter vous fournit lorsque vous l’autorisez à utiliser votre compte.    
+
+### Solution. ###
+
+Pour le moment, vous devez télécharger une version snapshot pour autoriser un nouveau compte. Vous pouvez télécharger une version snapshot, qui sera toujours la dernière version disponible [(ici).](https://twblue.es/pubs/snapshot.zip)    
+
+#### Mais je ne veux pas utiliser des versions snapshots! ####
+
+C'est très bien. Vous pouvez utiliser la version snapshot uniquement pour autoriser votre compte. Voici comment vous pouvez faire cela.    
+
+1. Exécutez TWBlue.exe à partir du répertoire de la version snapshot et autorisez votre compte.
+2. Fermez TWBlue.
+3. Copiez le dossier "config" dans le répertoire de la version snapshot dans le dossier TW Blue de votre dossier appdata. Vous pouvez y accéder en ouvrant la boîte de dialogue d'exécution (Windows+r) et en tapant `"%appdata%\TW"` sans les guillemets.
+4. Exécutez la version stable de TWBlue que vous avez installée sur votre système. Il devrait vous connecter à votre compte Twitter et vous pourrez à nouveau utiliser la version stable. Vous pouvez supprimer la version snapshot si vous le souhaitez, mais vous pouvez le conserver au cas où votre configuration serait corrompue et que vous deviez réautoriser votre compte.
+
+[Les versions Snapshot sont de retour!](https://twblue.es/posts/snapshots/)    
+Manuel Cortez    
+
+# Source du poste en anglais: #
+[Regarding the Inability to Authenticate New Twitter Accounts in TWBlue]'https://twblue.es/posts/unable-to-authenticate/)    
 
 # A propos de l'installation de TWBlue depuis le fichier twblue_setup.exe #
 Quand j'ai fais les propriétés sur l'icône "TW Blue" sur le bureau, j'ai ce chemin :  
@@ -232,5 +266,5 @@ Amusez-vous bien avec TW Blue!
 Arobamicalement à vous.  
 BlindHelp!
 
-# Source de la page de TWBlue: #
-[Bienvenue sur TWBlue](http://twblue.es/)
+# Source de la page de TWBlue en anglais: #
+[TWBlue](https://twblue.es/#)
