@@ -25,15 +25,15 @@ De même, quelques pages se trouvant sur le site Web TWBlue ont été récemment
 N'oubliez pas de choisir le lien nommé:  
 Français    
 Pour avoir les pages dédier à TWBlue dans notre belle langue le français! (si disponible), dans le cas contraire, les liens ci-dessous vous mèneront aux pages en anglais.  
-[Pour télécharger toujours la dernière version en date de TWBlue, c'est ici:](https://twblue.es/downloads/)
-[Pour télécharger des Packs de sons pour TWBlue, c'est par là](https://twblue.es/soundpacks/)
-[La documentation de TWBlue, est consultable par ici:](https://twblue.es/documentation/)
-[Pour connaître les statistiques d'utilisation de TWBlue, c'est par là](https://twblue.es/usage)
-[Pour consulter les problèmes connus de TWBlue, c'est par ici](https://github.com/manuelcortez/twblue/issues)
-[Pour connaître la composition de notre équipe](https://twblue.es/team/)
-Si vous le souhaitez vous pouvez [Faire un don](https://twblue.es/donate/)  
-pour soutenir le projet de TWBlue!  
-C'est comme si vous prenez  une tasse de café au bistro du coin !  
+[Pour télécharger toujours la dernière version en date de TWBlue, c'est ici:](https://twblue.es/downloads/)    
+[Pour télécharger des Packs de sons pour TWBlue, c'est par là](https://twblue.es/soundpacks/)    
+[La documentation de TWBlue, est consultable par ici:](https://twblue.es/documentation/)    
+[Pour connaître les statistiques d'utilisation de TWBlue, c'est par là](https://twblue.es/usage)    
+[Pour consulter les problèmes connus de TWBlue, c'est par ici](https://github.com/manuelcortez/twblue/issues)    
+[Pour connaître la composition de notre équipe](https://twblue.es/team/)    
+Si vous le souhaitez vous pouvez [Faire un don](https://twblue.es/donate/)    
+pour soutenir le projet de TWBlue!    
+C'est comme si vous prenez  une tasse de café au bistro du coin !    
 Nous vous remercions par avance pour votre soutien financier !
 
 # Concernant l'impossibilité d'authentifier de nouveaux comptes Twitter dans TWBlue par Manuel Cortez #
@@ -46,7 +46,7 @@ Si vous souhaitez simplement que votre TWBlue fonctionne à nouveau et que vous 
 Version courte.    
 Twitter a modifié le processus d’autorisation de compte qui a cassé la méthode utilisée par TWBlue, et probablement d’autres clients, pour authentifier les nouveaux comptes.    
 Version longue.   
-Auparavant, pour authentifier les nouveaux comptes, TWBlue ouvrait un serveur Web sur votre appareil. Ce serveur était sur un port aléatoire et ne restait ouvert que pour recevoir la clé d'accès fourni par Twitter lorsque vous autorisez votre compte à être utilisé avec TWBlue. C’est ainsi que vous avez simplement pu cliquer sur "Autoriser l’application" sur le site Web de Twitter et obtenir l’autorisation de votre compte sans action de votre part. Cependant, récemment, Twitter a commencé à exiger des URL de rappel, des adresses pour lesquelles Twitter envoie des clés d'accès et vers lesquelles les applications Twitter se redirigent après avoir été autorisées à utiliser votre compte. L'URL de rappel de TWBlue était "127.0.0.1", de sorte qu'il pouvait envoyer le jeton d'accès Twitter au serveur Web ouvert sur votre appareil, mais cela n'est plus autorisé par la politique de Twitter. De ce fait, TWBlue a dû revenir à l’autorisation par code PIN, dans laquelle vous accordez l’accès à TWBlue en saisissant le code PIN que Twitter vous fournit lorsque vous l’autorisez à utiliser votre compte.    
+Auparavant, pour authentifier les nouveaux comptes, TWBlue ouvrait un serveur Web sur votre appareil. Ce serveur était sur un port aléatoire et ne restait ouvert que pour recevoir la clé d'accès fourni par Twitter lorsque vous autorisez votre compte à être utilisé avec TWBlue. C’est ainsi que vous avez simplement pu cliquer sur "Autoriser l’application" sur le site Web de Twitter et obtenir l’autorisation de votre compte sans action de votre part. Cependant, récemment, Twitter a commencé à exiger des URL de rappel, des adresses pour lesquelles Twitter envoie des clés d'accès et vers lesquelles les applications Twitter se redirigent après avoir été autorisées à utiliser votre compte. L'URL de rappel de TWBlue était "127.0.0.1", de sorte qu'il pouvait envoyer la clé d'accès Twitter au serveur Web ouvert sur votre appareil, mais cela n'est plus autorisé par la politique de Twitter. De ce fait, TWBlue a dû revenir à l’autorisation par code PIN, dans laquelle vous accordez l’accès à TWBlue en saisissant le code PIN que Twitter vous fournit lorsque vous l’autorisez à utiliser votre compte.    
 
 ### Solution. ###
 
@@ -65,7 +65,7 @@ C'est très bien. Vous pouvez utiliser la version snapshot uniquement pour autor
 Manuel Cortez    
 
 # Source du poste en anglais: #
-[Regarding the Inability to Authenticate New Twitter Accounts in TWBlue]'https://twblue.es/posts/unable-to-authenticate/)    
+[Regarding the Inability to Authenticate New Twitter Accounts in TWBlue](https://twblue.es/posts/unable-to-authenticate/)    
 
 # A propos de l'installation de TWBlue depuis le fichier twblue_setup.exe #
 Quand j'ai fais les propriétés sur l'icône "TW Blue" sur le bureau, j'ai ce chemin :  
