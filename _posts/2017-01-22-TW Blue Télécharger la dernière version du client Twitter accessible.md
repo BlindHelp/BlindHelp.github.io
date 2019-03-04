@@ -31,8 +31,7 @@ Documentation
 
 # Lien directe pour les version snapshot #
 
-- Version générée directement à partir de notre référentiel de code source.
-<https://github.com/manuelcortez/TWBlue>
+- Version générée directement à partir de notre référentiel contenant le code source sur [GitHub - manuelcortez/TWBlue: TWBlue, an accessible, open source and multiplatform twitter application.](https://github.com/manuelcortez/TWBlue)
 - Il inclut les dernières fonctionnalités et les corrections de bogues intégrées.
 - Il peut contenir des erreurs qui n'ont pas été trouvées.
 - Les mises à jour des traductions et de la documentation ne sont pas garanties.
@@ -40,6 +39,7 @@ Documentation
 [Télécharger TWBlue snapshot](https://twblue.es/pubs/snapshot.zip)    
 
 > Pour ma part je recommande la version dite Snapshot qui, bien qu'il s'agisse d'une version de développement, fonctionne mieux car plus compatible avec les modifications récentes introduites par Twitter, voir les informations ci-dessous.    
+
 Merci à notre amie Isabelle de nous avoir conseillé l'utilisation de la version Snapshot. 😉   
 
 # Concernant l'impossibilité d'authentifier de nouveaux comptes Twitter dans TWBlue par Manuel Cortez #
