@@ -24,7 +24,7 @@ Sans trop de bavardage il faut télécharger l'exécutable à partir du lien ci-
 # Téléchargement de la version portable de Foxit Reader  via PortableApps #
 
 * Version: 9.3.0.10862
-*Systèm: Windows XP/Vista/7/8/10.
+* Systèm: Windows XP/Vista/7/8/10.
 * Langue: Anglais (par défaut;    
 On peut le mettre aussi en français... voir les explications plus bas.
 
@@ -42,17 +42,19 @@ Une boîte de dialogue d'installation s'ouvre:
 Sélectionnez la  langue d'installation:     
 Français    
 OK     
-Appuyez sur le bouton:     
+Appuyez sur le bouton OK, ensuite appuyez sur le bouton:     
 Suivant >    
 Tabulation jusqu'à le bouton:    
 J'accepte    
+Appuyez sur ce bouton.    
 Ensuite choisire le chemin d'installation:    
 Si vous l'avait mis dans un dossier, celui-ci sera installer dans ce dossier.     
 `C:\Users\Tartempion\Documents\Foxit Reader portable\FoxitReaderPortable`    
 Dans le cas contraire il sera créé dans le dossier nommé:     
-Foxit Reader Portable    
+FoxitReaderPortable    
 Tabulation jusqu'à le bouton:    
 Installer    
+Appuyez sur ce bouton.    
 Attendre quelques instants...    
 Une fois terminé l'installation:    
 Lancer Foxit Reader Portable    
@@ -73,6 +75,7 @@ Par défaut il est sur:
 Use recommended settings and skip setup    
 Une fois de plus tabulation pour avoir le bouton:    
 Next    
+Appuyez sur ce bouton.    
 Ensuite nous avons une autre fenêtre     
 Accessibility Setup Assistant, Screen 2 of 5    
 Use high contrast colors for document text    
@@ -85,6 +88,7 @@ Disable text smoothing
 Case à cocher non coché (par défaut).    
 Une fois de plus tabulation pour avoir le bouton:    
 Next    
+Appuyez sur ce bouton.    
 Ensuite nous avons une autre fenêtre    
 Accessibility Setup Assistant, Screen 3 of 5    
 Infer reading order from document (recommended)    
@@ -95,6 +99,7 @@ Confirm before preparing untagged PDF for reading with assistive technology
 Case à cocher coché (par défaut).    
 Une fois de plus tabulation pour avoir le bouton:    
 Next    
+Appuyez sur ce bouton.    
 Ensuite nous avons une autre fenêtre     
 Accessibility Setup Assistant, Screen 4 of 5    
 Only read the currently visible pages    
@@ -104,6 +109,7 @@ Read the entire document at once
 Selon le chois vous avez plusieurs options, choisissez les options qui vous conviennent le mieux.    
 Une fois de plus tabulation pour avoir le bouton:    
 Next    
+Appuyez sur ce bouton.    
 Ensuite nous avons une autre fenêtre     
 Accessibility Setup Assistant, Screen 5 of 5    
 Disable document auto-save    
@@ -178,10 +184,16 @@ La cerise sur le gâteau! même nous pouvons même sélectionner le texte et le 
 
 Pour quitterFoxit Reader faire Alt+F4.    
 
-Source de la page en anglais:
+# Conclusion par BlindHelp #
+
+Je n'ai pas essayé l'ensemble du programme Foxi Reader Portable, mais l'important est de pouvoir lire certains documents PDF et de pouvoir naviguer dans les documents avec les commandes habituelles ...    
+Pour le reste je vous laisse découvrir à votre rythme, et s'il y a des informations importantes qui ne sont pas dans ce billet, merci de me le dire afin  de bien étoffé l'article dédié à Foxit Reader.
+
+# Source de la page en anglais dédié au programme: #
+
 [FoxitReaderPortable via PortableApps.com](https://portableapps.com/apps/office/foxit_reader_portable)
 
-Je vous souhaite une bonne utilisation du programme Foxit Reader qui est une alternative pour lire n'importe quel document PDF sans installer quoi que ce soit ! !                
+Sur ce, je vous souhaite une bonne utilisation du programme Foxit Reader qui est une alternative pour lire n'importe quel document PDF sans installer quoi que ce soit ! !                
 En profitez donc!                
 Bien amicalement,              
 Rémy (BlindHelp).
