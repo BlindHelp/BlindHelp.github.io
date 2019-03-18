@@ -9,11 +9,15 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!               
-Je vous apporte de bonnes nouvelle en particulier pour les personnes qui ont besoin de lire leurs documents PDF, Foxit Reader est un logiciel permettant d’ouvrir les fichiers PDF (Portable Document Format), afin de visualiser le contenu de ceux-ci, ou de l’imprimer,et en prime, il est accessible avec le lecteur d'écran NVDA ; et la version que je partage avec vous de Foxit Reader c'est la version portable au format PortableApps !
+Je vous apporte de bonnes nouvelle en particulier pour les personnes qui ont besoin de lire leurs documents PDF, Foxit Reader est un logiciel permettant d’ouvrir les fichiers PDF (Portable Document Format), afin de visualiser le contenu de ceux-ci, ou de l’imprimer,et en prime, il est accessible avec le lecteur d'écran NVDA/JAWS ; et la version que je partage avec vous de Foxit Reader c'est la version portable au format PortableApps !
+
+Selon les informations en anglais sur la page officielle de l'éditeur [Foxit Software](https://www.foxitsoftware.com/pdf-reader/) nous dit qu'il y a une compatibilité JAWS (Job Access With Speech) permettant aux utilisateurs aveugles et malvoyants de lire l’écran avec une sortie de synthèse vocale ou en braille ; (je n'ai pas essayé).
 
 Grâce à cette version portable de Foxit Reader, il n'est pas nécessaire d'installer le programme sur votre ordinateur. Sauvegardez simplement le fichier téléchargé dans un répertoire du disque local et lancez le fichier de l'exécutable.
 
 Foxit Reader lit n'importe quel fichier PDF déjà existant. Des outils de modification vous permettent d'éditer, de splitter ou de fusionner plusieurs documents, d'ajouter une signature, de saisir des annotations et des commentaires, etc. 
+
+Pour cela  essayez PhantomPDF gratuitement pendant 14 jours!
 
 Rappelons que le format PDF est aujourd'hui très répandu sur Internet. Que cela soit pour des brochures, des formulaires ou des notices d'utilisation, de nombreuses sociétés utilisent ce format permettant de créer des documents visuellement soignés et attractifs.
 
@@ -189,9 +193,11 @@ Pour quitterFoxit Reader faire Alt+F4.
 Je n'ai pas essayé l'ensemble du programme Foxi Reader Portable, mais l'important est de pouvoir lire certains documents PDF et de pouvoir naviguer dans les documents avec les commandes habituelles...    
 Pour le reste je vous laisse découvrir à votre rythme, et s'il y a des informations importantes qui ne sont pas dans ce billet, merci de me le dire afin  de bien étoffé l'article dédié à Foxit Reader.
 
-# Source de la page en anglais dédié au programme: #
+# Liens utiles dédié au programme ): #
 
-[FoxitReaderPortable via PortableApps.com](https://portableapps.com/apps/office/foxit_reader_portable)
+[FoxitReaderPortable via PortableApps.com (page en anglais)](https://portableapps.com/apps/office/foxit_reader_portable)
+
+[Foxit Software(page en anglais)](https://www.foxitsoftware.com/pdf-reader/)
 
 Sur ce, je vous souhaite une bonne utilisation du programme Foxit Reader qui est une alternative pour lire n'importe quel document PDF sans installer quoi que ce soit ! !                
 En profitez donc!                
