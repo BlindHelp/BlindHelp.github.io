@@ -149,7 +149,7 @@ Mais Certains messages ne sont pas entièrement traduits... Quel dommage!
 Mais le plus important est de lire nos documents PDF!    
 Vous pouvez utiliser le même raccourci qu'auparavant pour continuer à configurer Foxit Reader à votre guise!    
 
-# Pour ouvrir un document PDF depuis l'interface du programme Foxit Reader #}
+# Pour ouvrir un document PDF depuis l'interface du programme Foxit Reader #
 
 Si vous souhaitez ouvrir un document PDF, faire Ctrl+o, une boîte de dialogue s'ouvre:    
 C'est une fenêtre de recherche Windows classique.    
@@ -186,7 +186,7 @@ Pour quitterFoxit Reader faire Alt+F4.
 
 # Conclusion par BlindHelp #
 
-Je n'ai pas essayé l'ensemble du programme Foxi Reader Portable, mais l'important est de pouvoir lire certains documents PDF et de pouvoir naviguer dans les documents avec les commandes habituelles ...    
+Je n'ai pas essayé l'ensemble du programme Foxi Reader Portable, mais l'important est de pouvoir lire certains documents PDF et de pouvoir naviguer dans les documents avec les commandes habituelles...    
 Pour le reste je vous laisse découvrir à votre rythme, et s'il y a des informations importantes qui ne sont pas dans ce billet, merci de me le dire afin  de bien étoffé l'article dédié à Foxit Reader.
 
 # Source de la page en anglais dédié au programme: #
