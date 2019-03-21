@@ -12,15 +12,15 @@
  {% endif %}
    <div class="panel seriesNote" >
    <aside>
-      <h3>Artículos relacionados</h3>
+      <h3>Articles connexes</h3>
       <ul>
       {% assign count = '0' %}
       {% for post in site.posts reversed %}
       {% if post.series == page.series %}
           {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-          <li>Parte {{ count }} - 
+          <li>Part {{ count }} - 
           {% if page.url == post.url %}
-              Artículo actual
+              Article actuell
           {% else %}
               <a href="{{post.url}}">{{post.title}}</a>
           {% endif %}
