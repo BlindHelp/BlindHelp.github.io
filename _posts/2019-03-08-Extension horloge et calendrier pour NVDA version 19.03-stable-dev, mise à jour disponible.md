@@ -1,22 +1,41 @@
 ﻿---
-title: Extension horloge et calendrier pour NVDA version 19.02-stable-dev, mise à jour disponible
+title: Extension horloge et calendrier pour NVDA version 19.03-stable-dev, mise à jour disponible
 layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Samedi 23 Février 2019</footer>
+<footer>Dernière modification Vendredi 8 Mars 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
-Ce module complémentaire nommé [Clock](#clock-19.02.nvda-addon) actuellement peut être mis à jour à partir du module complémentaire [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html) qui a été mis à jour à la nouvelle version stable 19.02.1A récemment. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également le télécharger manuellement. Si vous n'avez même pas ce module complémentaire horloge et calendrier  pour NVDA également connu sous le nom de Clock, vous pouvez le télécharger à partir du lien ci-dessous.
+Cette extension nommé [Clock](#clock-19.03.nvda-addon) actuellement peut être mis à jour à partir de l'extension [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html) qui a été mis à jour à la nouvelle version stable 19.03.1 récemment. Elle-même nous  avertira de cette mise à jour, bien que nous puissions également la télécharger manuellement. Si vous n'avez même pas cette extension horloge et calendrier  pour NVDA également connu sous le nom de Clock, vous pouvez la télécharger à partir du lien ci-dessous.
 
-Note: Vous pouvez télécharger les dernières versions du module complémentaire horloge et calendrier pour NVDA (Clock) version stable 19.02 et  version en développement 19.02-dev, via les liens du site communautaire NVDA se trouvant sur cette page.                       
+Note: Vous pouvez télécharger les dernières versions de l'extension horloge et calendrier pour NVDA (Clock) version stable 19.03 et  version en développement 19.03-dev, via les liens du site communautaire NVDA se trouvant sur cette page.                       
  
-Également vous trouver ci-dessous un petit  changelog (journal des changements) fait maison pour cette dernière version en date, ainsi que une bref description du module complémentaire Clock.
+Également vous trouver ci-dessous un petit  changelog (journal des changements) fait maison pour cette dernière version en date, ainsi que une bref description de l'extension Clock.
 
 ---
 
-# Clock <a id="clock-19.02.nvda-addon"></a>
+# Clock <a id="clock-19.03.nvda-addon"></a>
+
+# 19.03 #
+
+# Mise à jour du Vendredi 8 Mars 2019 par Abdel #
+
+L'extension Clock a été mise à jour vers la version 19.03, y compris les dernières mises à jour de L10N.   
+
+Vous pouvez le télécharger en quelques minutes via AddonUpdater et en cliquant sur le lien de la version stable dans la page de documentation du site Web de notre communauté.   
+
+Merci aux traducteurs et aux utilisateurs.   
+
+Note sur la compatibilité avec Python 3:   
+
+Lextension horloge et calendrier  pour NVDA est prête pour Python 3.   
+
+Merci.   
+
+Amitiés,   
+Abdel.    
 
 # 19.02 #
 
@@ -28,7 +47,7 @@ Cette version corrige un bogue lors du passage de 23h59 à 00h00 signalé par un
 
 Il inclut également les dernières mises à jour de L10N.    
 
-Vous pouvez le télécharger en quelques minutes via AddonUpdater et en cliquant sur le lien de la version stable dans la page de documentation du site Web de notre communauté.   
+Vous pouvez la télécharger en quelques minutes via AddonUpdater et en cliquant sur le lien de la version stable dans la page de documentation du site Web de notre communauté.   
 
 Merci.   
 
@@ -39,9 +58,9 @@ Abdel.
 
 # Mise à jour du Dimanche 10 Février 2019 par Abdel #
 
-Sur la liste de diffusion nvda, un utilisateur du module complémentaire Clock s'est plaint de ce qui suit:            
+Sur la liste de diffusion nvda, un utilisateur de l'extension Clock s'est plaint de ce qui suit:            
 
-Après la transition de 23h59 à minuit, le module affiche 24h00 au lieu de 0h00.            
+Après la transition de 23h59 à minuit, l'extension affiche 24h00 au lieu de 0h00.            
 
 J'ai fait plusieurs tests sur plusieurs versions de Windows et NVDA pour essayer de reproduire cela, mais sans succès.              
 
@@ -59,7 +78,7 @@ Avant cela, c'était dans le module hwPortUtils.py.
 
 Pour ces anciennes versions de NVDA, la fonction winKernel.GetTimeFormat est utilisée, car winKernel.GetTimeFormatEx n'existait pas encore à ce moment-là.              
 
-La nouvelle version du module complémentaire Clock est la 19.02-dev, qui inclut également les dernières mises à jour de L10N.                 
+La nouvelle version de l'extension Clock est la 19.02-dev, qui inclut également les dernières mises à jour de L10N.                 
 
 [Lien de téléchargement:](https://addons.nvda-project.org/files/get.php?file=cac-dev)                       
 
@@ -77,7 +96,7 @@ Abdel.
 # 19.01.2 #
 
 # Mise à jour du Vendredi Ier Février 2019 par Abdel #
-La version stable 19.01.2 du module complémentaire Clock vient d'être mise à jour.                     
+La version stable 19.01.2 de l'extension Clock vient d'être mise à jour.                     
 
 Diverses améliorations internes tantôt dans l'interface, tantôt dans la documentation, tout cela est décrit dans le changelog (journal des changements  dans la dernière version en développement 19.01.2-dev. Il apporte également des traductions mises à jour.                 
 
@@ -85,11 +104,11 @@ Diverses améliorations internes tantôt dans l'interface, tantôt dans la docum
 
 # Mise à jour du Lundi 28 Janvier 2019 par Abdel #
 
-Après la révision faite par notre ami Paul, voici la dernière mise à jour de la pré-version du module complementaire Clock, y compris les ajouts suivants:             
+Après la révision faite par notre ami Paul, voici la dernière mise à jour de la pré-version de l'extension Clock, y compris les ajouts suivants:             
 
 * Ajout d'un message d'erreur pour informer l'utilisateur quand une valeur erronée a été entrée pour les heures silencieuses;                      
 * Déplacé la catégorie  script_reportTimeAndDate vers la catégorie État du système;                
-* Correction de la désactivation du module complémentaire Clock dans un écran sécurisé.                   
+* Correction de la désactivation de l'extension Clock dans un écran sécurisé.                   
 * Correction de l'expression régulière pour vérifier le format des heures silencieuses;                 
 En fait, la correspondance ne s'est pas terminée par un $, raison pour laquelle il pourrait inclure des caractères supplémentaires.                     
 Merci beaucoup Paul pour cette remarque importante.               
@@ -107,7 +126,7 @@ Abdel.
 
 # Mise à jour du Samedi 26 Janvier 2019 par Abdel #
 
-La pré-version 19.01.2-dev du module complémentaire Clock est disponible.                
+La pré-version 19.01.2-dev de l'extension Clock est disponible.                
 
 Cette version qui sera bientôt disponible inclut les ajouts suivants:                     
 
@@ -122,11 +141,11 @@ aide obtenue avec la lettre H dans les commandes en couches.
 * Ajout de la vérification de la syntaxe de l'heure entrée pour les heures silencieuses.              
 * Mise à jour de la documentation, elle inclut maintenant la description de la             
 syntaxe à saisir pour les heures silencieuses.               
-* Désactivation du chargement du module  complémentaire dans l'écran sécurisé, ainsi que si NVDA           
+* Désactivation du chargement de l'extension dans l'écran sécurisé, ainsi que si NVDA           
 s'exécute en tant qu'application Windows Store Desktop Bridge.                  
 
 Concernant cette dernière caractéristique, telle qu’elle est apparue depuis Nvda-2018.1 et          
-le module complémentaire Clock est compatible avec les versions précédentes de NVDA, voici
+l'extension Clock est compatible avec les versions précédentes de NVDA, voici
 comment j'ai implémenté la condition:                    
 
 if globalVars.appArgs.secure or (hasattr (config, "isAppX") et           
@@ -147,19 +166,19 @@ Amitiés.
 Abdel              
 
 # Mise à jour du Mercredi 23 Janvier 2019 par Abdel #
-Dans sa configuration actuelle, le module complémentaire Horloge (Clock) ne vérifie pas encore les entrées saisies par l'utilisateur pendant les heures silencieuses.
+Dans sa configuration actuelle, l'extension Horloge (Clock) ne vérifie pas encore les entrées saisies par l'utilisateur pendant les heures silencieuses.
 
 Cependant, j'avais déjà intégré ce contrôle pour le temps d'attente de l'alarme.
 
 Cela peut être problématique, car si l'utilisateur écrit «Bonjour», par exemple dans le champ Début de la durée des heures silencieuses et «Au revoir» dans le champ Fin de la durée des heures silencieuses,  l'entrée sera enregistrée dans le fichier de configuration et peut provoquer des erreurs.
 
-En principe, le module complémentaire devrait pouvoir vérifier la validité des entrées saisies par l'utilisateur.
+En principe, l'extension devrait pouvoir vérifier la validité des entrées saisies par l'utilisateur.
 
 De plus, si l'utilisateur coche la case Heures silencieuses et n'écrit rien dans les champs de début et de fin, la case à cocher Heures silencieuses doit être décochée automatiquement pour éviter les erreurs.
 
-Je viens d'ajouter une expression régulière pour vérifier les champs d'heure de début et de fin des des heures silencieuses dans la dernière version de développement du module complémentaire Clock.
+Je viens d'ajouter une expression régulière pour vérifier les champs d'heure de début et de fin des des heures silencieuses dans la dernière version de développement de l'extension Clock.
 
-Le module complémentaire restera dans la version de développement jusqu'à ce que cette nouvelle fonctionnalité soit testée à grande échelle.
+L'extension restera dans la version de développement jusqu'à ce que cette nouvelle fonctionnalité soit testée à grande échelle.
 
 [Lien de téléchargement:](https://addons.nvda-project.org/files/get.php?file=cac-dev)                 
 
@@ -170,13 +189,14 @@ Amitiés.
 Abdel              
 
 # Mise à jour du Mercredi 16 Janvier 2019 par Abdel #
-La version de développement 19.01.2-dev du module complémentaire Clock vient d'être mise à jour.
+
+La version de développement 19.01.2-dev de l'extension Clock vient d'être mise à jour.
 
 Cette mise à jour inclut les modifications suivantes:
 
 1. Réduit la durée de chaque alarme dans le dossier "Alarms".
 
-Chacune de ces alarmes a maintenant une durée de 15 secondes, ce qui a réduit la taille du module complémentaire de plus de 20 Mo.
+Chacune de ces alarmes a maintenant une durée de 15 secondes, ce qui a réduit la taille de l'extension de plus de 20 Mo.
 
 2. Lorsque l'heure est automatiquement annoncée par Intervales, si un son a été choisi, le message d'annonce de l'heure est prononcé après le son et non au même moment, comme demandé par Ikrami.
 
@@ -184,7 +204,7 @@ Chacune de ces alarmes a maintenant une durée de 15 secondes, ce qui a réduit 
 
 4. Correction d'une expression conditionnelle dans le fichier addon/globalPlugins/clock/__init__.py file.
 
-Le module complémentaire  restera dans la version de développement jusqu'à ce que tous les bugs ont été corrigés.
+L'extension restera dans la version de développement jusqu'à ce que tous les bugs ont été corrigés.
 
 [Lien de téléchargement:](https://addons.nvda-project.org/files/get.php?file=cac-dev)
 
@@ -230,7 +250,7 @@ Par exemple, le 31 décembre 2018, c'était la première semaine de l'année 201
 
 # Version 18.12 #
 
-* Module complémentaire horloge et calendrier pour NVDA version 18.12.1 est rétrogradé en raison d'un bogue de mise à niveau par Josephe Lee.
+* Extension horloge et calendrier pour NVDA version 18.12.1 est rétrogradé en raison d'un bogue de mise à niveau par Josephe Lee.
 
 Toutes nos excuses aux utilisateurs pour la gêne occasionnée.
 
@@ -264,7 +284,7 @@ Nous allons le corriger bientôt.
 
 * Le référentiel de l'auteur a été mis à jour pour inclure les nouvelles mises à jour des traductions ainsi que la correction de la phrase que vous avez indiquée dans le fichier readme.md.
 
-* À propos des correctifs fait dans le fichier  readme, nous les appliquerons à la version officielle du module complémentaire.
+* À propos des correctifs fait dans le fichier  readme, nous les appliquerons à la version officielle de l'extension.
 
 * Une  faute de frappe détectée a été corrigée dans le fichier source.
 
@@ -273,13 +293,13 @@ Nous allons le corriger bientôt.
 * La documentation en anglais a été mise à jour à la demande pour révision.
 
 * Mis à jour manuellement plusieurs traductions;               
-Ce sera bientôt plus facile lorsque le module complémentaire sera déclaré stable et proposé au système de traduction de NVDA.
+Ce sera bientôt plus facile lorsque l'extension sera déclaré stable et proposé au système de traduction de NVDA.
 
 * Corrigé le problème de la mémorisation du temps d'attente de l'alarme.
 
-* Maintenant, le module complémentaire Clock est compatible avec les versions de NVDA allant de 2014.3 à 2018.4.
+* Maintenant, l'extension Clock est compatible avec les versions de NVDA allant de 2014.3 à 2018.4.
 
-* Avec les versions de NVDA antérieures à 2018.2, le sous-menu Configuration du module complémentaire est disponible dans le menu Outils.
+* Avec les versions de NVDA antérieures à 2018.2, le sous-menu Configuration de l'extension est disponible dans le menu Outils.
 
 * Isolement de la boîte de dialogue Alarm Setup.
 
@@ -292,22 +312,22 @@ Ce sera bientôt plus facile lorsque le module complémentaire sera déclaré st
 
 Bravo Hrvoje et Abdel! 😊              
 
-# Plus d'informations sur le module complémentaire horloge et calendrier pour NVDA (Clock) #
+# Plus d'informations sur l'extension horloge et calendrier pour NVDA (Clock) #
 
     Type: Extensions
-	Ce module complémentaire est compatible avec les versions de NVDA allant de 2014.3 à 2019.1.
+	Cette extension est compatible avec les versions de NVDA allant de 2014.3 à 2019.1.
 	(Y compris les versions de NVDA antérieures à 2018.2).
-	Avec les versions de NVDA antérieures à 2018.2, le sous-menu Configuration du module complémentaire est disponible dans le menu Outils.
-	Ce module complémentaire active les fonctions avancées de l'horloge, de minuterie d'alarme et du calendrier pour NVDA.
+	Avec les versions de NVDA antérieures à 2018.2, le sous-menu Configuration de l'extension est disponible dans le menu Outils.
+	Cette extension active les fonctions avancées de l'horloge, de minuterie d'alarme et du calendrier pour NVDA.
 
 Au lieu de toujours obtenir la date et l'heure depuis Windows, vous pouvez personnaliser comment les dates et les heures doivent être annoncées et affichées en braille par NVDA.
 
 En outre, vous pouvez obtenir le jour actuel, le numéro de la semaine, ainsi que les jours restants avant la fin de l'année en cours, et vous pouvez également définir une annonce automatique de l'heure sur un intervalle spécifié.
 
-Il existe également des fonctionnalités pour le chronomètre et minuterie d'alarme intégrés au module complémentaire qui vous permettent de chronométrer vos tâches, telles que la copie de fichiers, l'installation de programmes ou la préparation de repas.
+Il existe également des fonctionnalités pour le chronomètre et minuterie d'alarme intégrés à l'extension qui vous permettent de chronométrer vos tâches, telles que la copie de fichiers, l'installation de programmes ou la préparation de repas.
 
 Note:              
-Si vous installez le module complémentaire en tant que mise à jour, lors du processus d'installation, l'assistant détecte si l'ancienne configuration est compatible avec la nouvelle et vous propose de la corriger avant l'installation. Il vous suffira alors de valider le bouton OK pour confirmer cela.
+Si vous installez l'extension en tant que mise à jour, lors du processus d'installation, l'assistant détecte si l'ancienne configuration est compatible avec la nouvelle et vous propose de la corriger avant l'installation. Il vous suffira alors de valider le bouton OK pour confirmer cela.
 
 
 * NVDA+F12, pour obtenir l'heure actuelle;            
@@ -315,7 +335,7 @@ Si vous installez le module complémentaire en tant que mise à jour, lors du pr
 * NVDA+F12 pressé trois fois rapidement, pour annoncer le jour actuel, le numéro de la semaine, l'année en cours et les jours qui restent avant la fin de l'année.               
 
 
-	Pour d'autres instructions, appuyez sur le bouton Aide de ce module complémentaire, dans le Gestionnaire de modules complémentaires.
+	Pour d'autres instructions, appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions.
 
 Auteurs: Hrvoje Katić, 
 [Hrvoje Katić](mailto:hrvojekatic@gmail.com)           
@@ -327,26 +347,26 @@ et contributeurs de NVDA.
 
 Il suffit de mentionner qu'appVeyor génère automatiquement  un nouveau fichiers pot avec la commande scons à chaque fois que  un nouveau commit est publié, ce qui est fantastique. Ainsi, le dernier fichier pot sera toujours sur le lien suivant ainsi que l'addon:                 
 
-Note: Actuellement  sur la page d'appVeyor il se trouve seulement le dernier module complémentaire en date, il n'y a pas le fichier pot.                  
+Note: Actuellement  sur la page d'appVeyor il se trouve seulement la dernière extension en date, il n'y a pas le fichier pot.                  
 
 <https://ci.appveyor.com/project/HrvojeKati/clock/build/artifacts>
 
-Ce module complémentaire  Clock-19.02 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
+Cette extension Clock-19.02 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
 Langues supportés: Allemand, Anglais, Arabe, Bulgare, Chinois Traditionnel, Croate, Français, Espagnol, Italien, Persan, Polonais, Portugais-Brésil, Portugais-Portugal, Roumain, Russe, Serbe, Slovaque et Turc   
 Traduit en français par: Michel Such, Abdel et Rémy Ruiz           
 Traduit en espagnol par: Iván Novegil Cancelas, Juan C. Buno, José Manuel Delicado Alcolea et Rémy Ruiz           
-Version: Clock-19.02           
-Dernière mise à jour: 23 Février 2019           
+Version: Clock-19.03           
+Dernière mise à jour: 8 Mars 2019           
 
 ---
 
-# Consulter la documentation du module complémentaire horloge et calendrier pour NVDA (Clock) #
+# Consulter la documentation de l'extension horloge et calendrier pour NVDA (Clock) #
 
 [via  la page du site communautaire NVDA](https://addons.nvda-project.org/addons/clock.fr.html)
 
 ---
 
-# Télecharger le module complémentaire horloge et calendrier pour NVDA (Clock) via les liens du site communautaire NVDA #
+# Télecharger l'extension horloge et calendrier pour NVDA (Clock) via les liens du site communautaire NVDA #
 
 * Télécharger [version stable](http://addons.nvda-project.org/files/get.php?file=cac);              
 
@@ -356,7 +376,7 @@ Dernière mise à jour: 23 Février 2019
 
 Merci aux auteurs: Hrvoje Katic, Abdel et contributeurs de NVDA!😃              
 
-Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour le module complémentaire horloge et calendrier pour NVDA version stable 19.02 et la version en développement 19.02-dev!                
+Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour l'extension horloge et calendrier pour NVDA version stable 19.03 et la version en développement 19.03-dev!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
