@@ -4,11 +4,11 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Mercredi 20 Février 2019</footer>
+<footer>Dernière modification Vendredi  8 Mars 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
-Voici un nouveau module complémentaire nommé Outlook Extended qui fait son apparition pour toutes les personnes qui possèdent Microsoft Outlook.                  
+Voici une nouvelle extension nommée Outlook Extended qui fait son apparition pour toutes les personnes qui possèdent Microsoft Outlook.                  
 Si vous voulez en savoir plus sur ce fabuleux add-on, vous pouvez lire la description ci-dessous faite par son auteur:                
 Merci Cyrille! 😃                
 
@@ -19,7 +19,7 @@ Merci Cyrille! 😃
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
-Ce module complémentaire améliore l'utilisation de Microsoft Outlook par la vocalisation de certaines commandes et l'ajout de commandes supplémentaires.
+Cette extension améliore l'utilisation de Microsoft Outlook par la vocalisation de certaines commandes et l'ajout de commandes supplémentaires.
 
 ## Commandes
 
@@ -46,7 +46,7 @@ Tous les gestes de commandes peuvent être modifiés dans la boîte de dialogue 
 
 ## Versions compatibles d'Outlook
 
-Ce module complémentaire a été testé avec Microsoft Outlook 2016 et 2013.
+Cette extension a été testé avec Microsoft Outlook 2016 et 2013.
 
 [1]: https://addons.nvda-project.org/files/get.php?file=outlookextended
 
@@ -55,14 +55,14 @@ Ce module complémentaire a été testé avec Microsoft Outlook 2016 et 2013.
 # Plus d'informations sur Outlook Extended
 
     Type: Extensions
-    Dernière mise à jour: 20 Février 2019
-    Version actuelle: 1.0 (version stable)
+    Dernière mise à jour: 8 Mars 2019
+    Version actuelle: 1.1 (version stable)
 
-Retrouver le module complémentaire [Outlook extended](https://addons.nvda-project.org/addons/outlookExtended.fr.html) sur le site comunautaire des modules complémentaires NVDA             
+Retrouver l'extension [Outlook extended](https://addons.nvda-project.org/addons/outlookExtended.fr.html) sur le site comunautaire des Extensions NVDA             
 
 [Code source sur GitHub](https://github.com/CyrilleB79/OutlookExtended)             
 
-Voilà donc,  tout est dit au sujet du module complémentaire Outlook Extended!                
+Voilà donc,  tout est dit au sujet de l'extension Outlook Extended!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
