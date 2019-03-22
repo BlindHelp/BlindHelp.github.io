@@ -18,7 +18,7 @@ et les autres parties ont été adaptées par mes soins en utilisant le lecteur 
 À savoir que  VLC media player c'est un projet initialisé par l'école centrale de Paris, VideoLan Client (VLC) est un lecteur multimédia universel libre et gratuit qui fonctionne sur différentes plateformes telles que Linux, Windows MacOS Xe ou Android.               
 Sous un aspect simple VLC est un outil extrêmement puissant qu’il faut apprendre à découvrir. Cet tuto décrit quelques possibilités parmi elles pour nous les aveugles c'est  la lecture des fichiers ou flux  audio et vidéo.                   
 VLC sait lire plusieurs formats audio & vidéo grâce à ses propres codecs (Un codec est un dispositif permettant l'encodage ou le décodage d'un flux de données numérique, le mot codec vient de coder-decoder en anglais.             
-Et pour que ce lecteur VLC soit plus accessible avec nos lecteurs d'écran, vous devrez télécharger puis installer les scripts pour JAWS ou  le module complémentaire pour NVDA, ne vous inquiétez pas, vous trouverez tous les liens pertinents ci-dessous.                 
+Et pour que ce lecteur VLC soit plus accessible avec nos lecteurs d'écran, vous devrez télécharger puis installer les scripts pour JAWS ou  l'extension pour NVDA, ne vous inquiétez pas, vous trouverez tous les liens pertinents ci-dessous.                 
 Eh bien sans trop tarder, je vous souhaite une bonne lecture!             
 Bien amicallement a vous.           
 BlindHelp!            
@@ -152,11 +152,11 @@ Vous pouvez aussi décompresser  le fichier  avec [7-Zip](https://www.7-zip.fr/)
 - Ouvrez le fichier vlc.exe par Entrée.           
 Ceci lance le programme VLC media player portable.             
 
-# Télécharger les scripts pour JAWS ou  le module complémentaire pour NVDA afin de  rendre le Lecteur multimédia VLC accessible #
+# Télécharger les scripts pour JAWS ou  l'extension pour NVDA afin de  rendre le Lecteur multimédia VLC accessible #
 
-Pour que ce lecteur VLC soit plus accessible avec nos lecteurs d'écran, vous devrez télécharger puis installer les scripts pour JAWS ou  le module complémentaire pour NVDA.                        
+Pour que ce lecteur VLC soit plus accessible avec nos lecteurs d'écran, vous devrez télécharger puis installer les scripts pour JAWS ou  l'extension pour NVDA.                        
 [Pour les scripts de JAWS c'est par ici:](http://angouleme.avh.asso.fr/fichesinfo/fiches_jaws/logiciels_divers/vlc2.htm)                    
-[et pour le module complémentaire c'est par là:](https://blindhelp.github.io/Le%20coffre%20des%20Modules%20Complementaires%20pour%20NVDA.html#VLCAccessEnhancement-1.1.nvda-addon)                         
+[et pour l'extension c'est par là:](https://blindhelp.github.io/Le%20coffre%20des%20Modules%20Complementaires%20pour%20NVDA.html#VLCAccessEnhancement-1.2.nvda-addon)                         
 
 # À Propos des menus de VLC media Player #
 
@@ -584,6 +584,23 @@ Il y a des annuaires comme:
 # Comment trouver l'URL du flux d'une radio ? #
 
 Quand il n'est pas proposé de télécharger un fichier playlist qu'on peut ouvrir avec un éditeur de texte comme Notepad (sous W10), c'est-à-dire le Bloc-notes de Windows afin d'y récupérer le lien d'écoute on peut utiliser [Firefox](https://www.mozilla.org/fr/) et l'extension [Download Helper.](https://addons.mozilla.org/fr/firefox/addon/video-downloadhelper/) Si ça ne fonctionne pas ainsi on peut utiliser [VSO Downloader](http://fr.vso-software.fr/products/downloader/thankyou.php) (Version d'évaluation). VSO Downloader permet de télécharger des vidéos en streaming et audio en direct depuis des milliers de sites. La solution dépend des sites et des radios. Parfois il n'est même pas possible de récupérer le lien d'écoute, c'est pourquoi nous nous référons aux annuaires des URL du flux des Webradios décrits ci-dessus.             
+
+Selon la méthode de notre ami Seb:
+
+Ça peut se faire avec Firefox et Video Download Helper. Une fois la 
+lecture commencée, on fait menu contextuel puis on va dans le sous-menu 
+de Video Download Helper et on valide sur le media détecté. Un 
+téléchargement démarre. On fait ctrl+j pour aller dans l'historique des 
+téléchargement et une fois le téléchargement sélectionné on fait menu 
+contextuel puis on valide sur copier l'adresse d'origine du téléchargement.             
+
+Si la version de Video Download Helper est ancienne, dans sons sous-menu 
+il faut aller dans toute les actions puis une fois le média sélectionné 
+on valide sur copier l'adresse.             
+
+Il est possible qu'il faille nettoyer le lien, il peut y avoir des 
+paramètres dont ton lecteur ne sera quoi faire. S'il y a un point 
+d'interrogation tu peux le supprimer et tout ce qu'il y a après.             
 
 # Écoute des flux Radio sur VLC #
 
