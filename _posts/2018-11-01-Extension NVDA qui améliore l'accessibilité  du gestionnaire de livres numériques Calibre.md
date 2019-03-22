@@ -1,14 +1,14 @@
 ---
-title: Module complémentaire NVDA qui améliore l'accessibilité  du gestionnaire de livres numériques Calibre
+title: Extension NVDA qui améliore l'accessibilité  du gestionnaire de livres numériques Calibre
 layout: post
 author: BlindHelp
 ---
 
-<footer>Jeudi Ier Novembre 2018</footer>
+<footer>Dernière modification Dimanche 10 Mars 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
-Voici la description  du module complémentaire NVDA qui améliore l'accessibilité à l'interface du gestionnaire de livres numériques Calibre.
+Voici la description  de l'extension NVDA qui améliore l'accessibilité à l'interface du gestionnaire de livres numériques Calibre.
 
 # Calibre 
   
@@ -16,14 +16,14 @@ Voici la description  du module complémentaire NVDA qui améliore l'accessibili
 * Télécharger [version stable][1] 
 * Télécharger [version de développement][2]  
   
- Un module complémentaire NVDA avec quelques améliorations d'accessibilité à l'interface du gestionnaire de livres numériques Calibre
+ Une extension NVDA avec quelques améliorations d'accessibilité à l'interface du gestionnaire de livres numériques Calibre
 
 * F10 Amène le focus à la barre d'outils. Ensuite, vous pouvez naviguer avec les touches standard (tab et flèches) ; entrer pour activer l'élément et la touche applications pour afficher le menu contextuel ; ECHAP pour quitter la barre d'outils.
 * F12 Rechercher le livre courant dans Google
 * NVDA+Alt+Fin Dit le nombre total de livres dans la vue de bibliothèque courante et le nombre de livres sélectionnés
-* NVDA++Contrôle+H Ouvre le menu contextuel pour paramétrer la colonne en cours
+* NVDA+Contrôle+H Ouvre le menu contextuel pour paramétrer la colonne en cours
 * I sur un livre dans la vue de la bibliothèque lit les infos sur le livre.
- 
+
 Ces commandes au clavier peuvent être personnalisées à partir du dialogue Gestes de commandes > Préférences de NVDA lorsque Calibre est ouvert. Vous pouvez également définir dans les préférences la manière dont NVDA annonce les en-têtes de tableau dans la bibliothèque (lignes et colonnes, seulement les colonnes ou aucun).
  
  Jeter un coup d'œil à la [documentation de Calibre][3] pour en savoir plus sur les raccourcis clavier.
@@ -43,13 +43,13 @@ Ces commandes au clavier peuvent être personnalisées à partir du dialogue Ges
 ---
 
 
-# Autres informations utiles du module complémentaire Calibre :
+# Autres informations utiles de l'extensionCalibre :
 Auteur : [Javi Domínguez](mailto:fjavids@gmail.com)    
-[Jeter un coup d'œil au référentiel de l'auteur du module complémentaire  Calibre sur GitHub](https://github.com/javidominguez/calibre)                 
-Version stable : 1.1                
-Version de développement : dev20181101                
-Langues : Anglais et Espagnol (traduit par l'auteur) (inclus le chinois) dans la version de développement.    
-Dernière mise à jour: Ier Novembre 2018
+[Jeter un coup d'œil au référentiel de l'auteur de l'extension Calibre sur GitHub](https://github.com/javidominguez/calibre)                 
+Version stable : 1.3                
+Version de développement : 1.3                
+Langues : Anglais et Espagnol (traduit par l'auteur) (inclus le chinois et autres langues traduites par la communauté internationale des extensions NVDA) dans la version stable.    
+Dernière mise à jour:  10 Mars 2019
 
 # Quelques configurations utiles pour Calibre
 Note: Il est probable que cette procédure il soit différente dans les nouvelles versions de Calibre.         
@@ -84,7 +84,7 @@ Et pour télécharger  le programme Calibre pour Windows
 [puis la page officielle en français par ici!](https://calibre-ebook.com/fr/download_windows)
 
 
-Voilà donc,  tout est dit au sujet du module complémentaire NVDA qui améliore l'accessibilité à l'interface du gestionnaire de livres numériques Calibre!       
+Voilà donc,  tout est dit au sujet de l'extension NVDA qui améliore l'accessibilité à l'interface du gestionnaire de livres numériques Calibre!       
 Bien amicalement,    
 Rémy (BlindHelp).
 
