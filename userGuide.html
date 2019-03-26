@@ -3,9 +3,9 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Guide de l'utilisateur de NVDA 2018.4.1</TITLE>
+<TITLE>Guide de l'utilisateur de NVDA 2019.1</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2018.4.1</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2019.1</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -27,9 +27,10 @@
     <LI><A HREF="#PortableAndTemporaryCopyRestrictions">3.1. Restrictions des Versions Portables et Temporaires</A>
     <LI><A HREF="#InstallingNVDA">3.2. Installer NVDA</A>
       <UL>
-      <LI><A HREF="#StartAtWindowsLogon">3.2.1. Utiliser NVDA sur l'Écran de Connexion à Windows</A>
-      <LI><A HREF="#CreateDesktopShortcut">3.2.2. Créer une Icône sur le Bureau et le Raccourci Clavier (contrôle+alt+n)</A>
-      <LI><A HREF="#CopyPortableConfigurationToCurrentUserAccount">3.2.3. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</A>
+      <LI><A HREF="#InstallWithIncompatibleAddons">3.2.1. Avertissement d'extensions incompatibles</A>
+      <LI><A HREF="#StartAtWindowsLogon">3.2.2. Utiliser NVDA sur l'Écran de Connexion à Windows</A>
+      <LI><A HREF="#CreateDesktopShortcut">3.2.3. Créer une Icône sur le Bureau et le Raccourci Clavier (contrôle+alt+n)</A>
+      <LI><A HREF="#CopyPortableConfigurationToCurrentUserAccount">3.2.4. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</A>
       </UL>
     <LI><A HREF="#CreatingAPortableCopy">3.3. Créer une Copie Portable</A>
     </UL>
@@ -137,6 +138,7 @@
       <LI><A HREF="#BrowseModeSettings">11.1.13. Mode Navigation (NVDA+contrôle+b)</A>
       <LI><A HREF="#DocumentFormattingSettings">11.1.14. Mise en Forme des Documents (NVDA+contrôle+d)</A>
       <LI><A HREF="#Win10OcrSettings">11.1.15. Reconnaissance Optique de Caractères de Windows 10</A>
+      <LI><A HREF="#AdvancedSettings">11.1.16. Paramètres Avancés</A>
       </UL>
     <LI><A HREF="#MiscSettings">11.2. Autres Paramètres</A>
       <UL>
@@ -160,9 +162,10 @@
     <UL>
     <LI><A HREF="#LogViewer">12.1. Visionneuse du Journal</A>
     <LI><A HREF="#SpeechViewer">12.2. Visionneuse de Parole</A>
-    <LI><A HREF="#AddonsManager">12.3. Gestionnaire de Modules Complémentaires</A>
-    <LI><A HREF="#PythonConsole">12.4. Console Python</A>
-    <LI><A HREF="#ReloadPlugins">12.5. Rechargement des Modules Complémentaires</A>
+    <LI><A HREF="#AddonsManager">12.3. Gestionnaire d'Extensions</A>
+    <LI><A HREF="#incompatibleAddonsManager">12.4. Le Gestionnaire d'Extensions Incompatibles</A>
+    <LI><A HREF="#PythonConsole">12.5. Console Python</A>
+    <LI><A HREF="#ReloadPlugins">12.6. Rechargement des Extensions</A>
     </UL>
   <LI><A HREF="#SupportedSpeechSynths">13. Synthétiseurs de Parole Pris en Charge</A>
     <UL>
@@ -185,9 +188,9 @@
     <LI><A HREF="#HedoMobilLine">14.8. Hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc126">14.9.1. Assignations des Touches pour tous les Modèles</A>
-      <LI><A HREF="#toc127">14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
-      <LI><A HREF="#toc128">14.9.3. Assignations de Touches pour le Brailliant BI 14</A>
+      <LI><A HREF="#toc129">14.9.1. Assignations des Touches pour tous les Modèles</A>
+      <LI><A HREF="#toc130">14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
+      <LI><A HREF="#toc131">14.9.3. Assignations de Touches pour le Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
     <LI><A HREF="#Seika">14.11. Seika Braille Displays</A>
@@ -349,20 +352,29 @@ Deux options détaillées ci-dessous sont disponibles dans ce dialogue.
 Dès que l'installation sera terminée, un message s'affichera vous signalant la fin de l'installation.
 Cliquer sur "OK" lancera la version nouvellement installée.
 </P>
+<A NAME="InstallWithIncompatibleAddons"></A>
+<H4>3.2.1. Avertissement d'extensions incompatibles</H4>
+<P>
+Si vous avez déjà installé des extensions, il peut également y avoir un avertissement indiquant que les extensions incompatibles seront désactivées.
+Avant de pouvoir presser le bouton Continuer, vous devrez utiliser la case à cocher pour confirmer que vous comprenez que ces extensions seront désactivées.
+Il y aura également un bouton pour lister les extensions qui seront désactivées.
+Veuillez consulter la section <A HREF="#incompatibleAddonsManager">dialogue des extensions incompatibles</A> pour plus d'aide concernant ce bouton.
+</P>
 <A NAME="StartAtWindowsLogon"></A>
-<H4>3.2.1. Utiliser NVDA sur l'Écran de Connexion à Windows</H4>
+<H4>3.2.2. Utiliser NVDA sur l'Écran de Connexion à Windows</H4>
 <P>
 Cette option vous permet de choisir si NVDA doit ou non démarrer automatiquement quand vous êtes sur l'écran de connexion, avant que vous ayez saisi un mot de passe.
-Ceci inclut les contrôles UAC et les écrans sécurisés.
+Ceci inclut le contrôle  du compte d'utilisateur et les écrans sécurisés.
+Cette option est activée par défaut pour les nouvelles installations.
 </P>
 <A NAME="CreateDesktopShortcut"></A>
-<H4>3.2.2. Créer une Icône sur le Bureau et le Raccourci Clavier (contrôle+alt+n)</H4>
+<H4>3.2.3. Créer une Icône sur le Bureau et le Raccourci Clavier (contrôle+alt+n)</H4>
 <P>
 Cette option vous permet de choisir si NVDA doit ou non créer un raccourci sur le bureau pour démarrer NVDA.
 Si créé, ce raccourci aura la combinaison de touches contrôle+alt+n assignée pour démarrer NVDA de n'importe où.
 </P>
 <A NAME="CopyPortableConfigurationToCurrentUserAccount"></A>
-<H4>3.2.3. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</H4>
+<H4>3.2.4. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</H4>
 <P>
 Cette option permet de choisir si NVDA doit ou non copier la configuration utilisateur depuis la copie de NVDA en cours d'exécution vers la configuration de l'utilisateur courant, pour la version installée de NVDA.
 Cela ne copiera la configuration ni pour un autre utilisateur du système, ni pour la configuration du système dans le cas de l'utilisation dans l'identification Windows ou les autres écrans sécurisés.
@@ -390,7 +402,7 @@ Cliquez sur "OK" pour fermer ce dialogue.
 <P>
 Si NVDA a été installé à l'aide de l'installateur, alors il suffit, soit de frapper la combinaison contrôle+alt+n, soit de choisir dans le menu Démarrer / Programmes / NVDA / NVDA. 
 De plus, Vous pouvez taper NVDA dans le dialogue "Exécuter" puis appuyer sur "Entrée".
-Vous pouvez aussi ajouter quelques <A HREF="#CommandLineOptions">options de ligne de commande</A> vous permettant de redémarrer NVDA (-r), quitter (-q), désactiver les modules complémentaires (--disable-addons), etc.
+Vous pouvez aussi ajouter quelques <A HREF="#CommandLineOptions">options de ligne de commande</A> vous permettant de redémarrer NVDA (-r), quitter (-q), désactiver les extensions (--disable-addons), etc.
 </P>
 <P>
 Pour les copies installées, NVDA enregistre la configuration dans le dossier de données applicatives roaming de l'utilisateur courant par défaut (ex : "C:\Users\&lt;user&gt;\AppData\Roaming").
@@ -1513,7 +1525,7 @@ Dans le but de loger autant d'informations que possible sur un afficheur braille
 </TR>
 <TR>
 <TD>grp</TD>
-<TD>groupage</TD>
+<TD>groupe</TD>
 </TR>
 <TR>
 <TD>tN</TD>
@@ -1795,7 +1807,7 @@ L'appui simultané sur les points 7 et 8 traduit toute saisie braille sans ajout
 <P>
 Quand les auteurs ne fournissent pas assez d'informations pour qu'un utilisateur de revue d'écran puisse déterminer le contenu de quelque chose, divers outils peuvent être utilisés pour tenter de reconnaître le contenu à partir d'une image.
 NVDA supporte la fonctionnalité de reconnaissance optique de caractères (OCR) disponible sous Windows 10 pour reconnaître le texte dans les images.
-Des outils de reconnaissance de contenu additionnels peuvent être fournis dans des modules complémentaires de NVDA.
+Des outils de reconnaissance de contenu additionnels peuvent être fournis dans des extensions de NVDA.
 </P>
 <P>
 Quand vous utilisez une commande de reconnaissance de contenu, NVDA reconnaît le contenu de <A HREF="#ObjectNavigation">l'objet navigateur courant</A>.
@@ -2164,8 +2176,7 @@ Ce choix indique à NVDA d'utiliser la langue de Windows.
 </P>
 <P>
 Noter qu'il faut relancer NVDA quand on change la langue. 
-NVDA vous demandera si vous désirez redémarrer quand vous changez la sélection et sauvegardez vos changements. 
-Appuyez sur "OK" et NVDA redémarrera.
+Quand le dialogue de confirmation apparaît, sélectionnez "redémarrer maintenant" ou "redémarrer plus tard" selon que vous voulez utiliser la nouvelle langue maintenant ou ultérieurement, respectivement. Si "redémarrer plus tard" est sélectionné, la configuration doit être sauvegardée (soit manuellement soit en utilisant la fonctionnalité sauvegarder la configuration en quittant).
 </P>
 <A NAME="GeneralSettingsSaveConfig"></A>
 <H5>Sauvegarder la configuration en quittant</H5>
@@ -2176,7 +2187,7 @@ C'est une case à cocher qui, une fois cochée, indique à NVDA de sauvegarder a
 <H5>Afficher les options d'arrêt avant de quitter NVDA</H5>
 <P>
 Cette option est une case à cocher qui vous permet de décider si un dialogue doit s'afficher ou non lorsque vous quittez NVDA, pour demander quelle action vous souhaitez effectuer.
-Quand elle est cochée, un dialogue apparaît lorsque vous voulez quitter NVDA, vous demandant si vous voulez quitter, redémarrer, redémarrer sans modules complémentaires ou installer des mises à jour en attente s'il y en a.
+Quand elle est cochée, un dialogue apparaît lorsque vous voulez quitter NVDA, vous demandant si vous voulez quitter, redémarrer, redémarrer sans extensions ou installer des mises à jour en attente s'il y en a.
 Quand elle n'est pas cochée, NVDA s'arrête immédiatement.
 </P>
 <A NAME="GeneralSettingsPlaySounds"></A>
@@ -2188,9 +2199,21 @@ Cette option est une case à cocher qui, quand elle est cochée, dit à NVDA de 
 <H5>Niveau de journalisation</H5>
 <P>
 C'est une liste déroulante qui vous permet de choisir la quantité d'informations que NVDA consignera dans son journal durant son exécution. 
-Généralement, l'utilisateur n'aura pas besoin de modifier ce paramètre dans la mesure où peu d'informations sont consignées. 
-Cependant, si vous voulez fournir des informations lors d'un rapport d'erreur, il est peut-être bon d'augmenter cette valeur.
+Généralement, l'utilisateur n'aura pas besoin d'y toucher dans la mesure où assez peu d'informations sont consignées. 
+Cependant, si vous voulez fournir des informations lors d'un rapport d'erreur, ou activer/désactiver la journalisation, cette option peut être utile.
 </P>
+<P>
+Les niveaux de journalisation disponibles sont :
+</P>
+<UL>
+<LI>Désactivé : À l'exception d'un bref message de démarrage, NVDA ne journalisera rien durant son exécution.
+<LI>Info : NVDA journalisera des informations de base telles que les messages de démarrage et des informations utiles pour les développeurs.
+<LI>Avertissements de débogage : Les messages d'avertissement qui ne sont pas causés par des erreurs graves seront journalisés.
+<LI>Entrées/sorties : Les entrées du clavier et des terminaux braille, ainsi que les sorties en parole et en braille seront journalisées. Si vous vous préocuppez de la confidentialité, vous ne devriez pas utiliser ce niveau de journalisation.
+<LI>Débogage : En plus des messages d'info, avertissements et entrées/sorties, des messages additionnels de débogage seront journalisés. Comme pour entrées/sorties, si vous vous précoccupez de la confidentialité, vous ne devriez pas utiliser ce niveau de journalisation.
+</UL>
+
+<P></P>
 <A NAME="GeneralSettingsStartAfterLogOn"></A>
 <H5>Démarrer NVDA automatiquement après ma connexion à Windows</H5>
 <P>
@@ -2234,8 +2257,8 @@ En plus des informations obligatoires nécessaires à la mise à jour, les infor
 <UL>
 <LI>La langue d'interface de NVDA
 <LI>Copie en cours de NVDA installée ou portables
-<LI>Le nom du synthétiseur vocal actuellement utilisé (incluant le nom du module complémentaire dont provient le pilote)
-<LI>Le nom du terminal braille actuellement utilisé (incluant le nom du module complémentaire dont provient le pilote)
+<LI>Le nom du synthétiseur vocal actuellement utilisé (incluant le nom de l'extension dont provient le pilote)
+<LI>Le nom du terminal braille actuellement utilisé (incluant le nom de l'extension dont provient le pilote)
 <LI>La table d'affichage braille en cours (si le braille est activé)
 </UL>
 
@@ -2769,6 +2792,13 @@ Plus la souris est à gauche ou à droite sur l'écran, plus le son sera émis �
 Si la case "Sonoriser les coordonnées quand la souris se déplace" est cochée, le volume des bips variera en fonction de la brillance de la zone sous le pointeur de la souris. 
 Cette case est décochée par défaut.
 </P>
+<A NAME="MouseSettingsHandleMouseControl"></A>
+<H5>Ignorer les entrées souris d'autres applications</H5>
+<P>
+Cette option permet à l'utilisateur d'ignorer les événements relatifs à la souris (incluant le déplacement et l'appui sur les boutons) générés par d'autres applications telles que TeamViewer et autres logiciels de contrôle à distance.
+Cette option est décochée par défaut.
+Si vous cochez cette option et que l'option "suivi de la souris"est activée, NVDA n'annoncera pas ce qui est sous la souris si la souris est déplacée par une autre application.
+</P>
 <A NAME="TouchInteraction"></A>
 <H4>11.1.9. Interaction Tactile</H4>
 <P>
@@ -3108,6 +3138,61 @@ Elle contient les options suivantes :
 <P>
 Cette liste déroulante vous permet de choisir la langue à utiliser pour la reconnaissance de texte.
 </P>
+<A NAME="AdvancedSettings"></A>
+<H4>11.1.16. Paramètres Avancés</H4>
+<P>
+Avertissement ! Les paramètres dans cette catégorie sont pour les utilisateurs avancés et peuvent provoquer un mauvais fonctionnement de NVDA si mal configurés.
+Ne modifiez ces paramètres que si vous êtes sûr de ce que vous faites ou si un développeur NVDA vous a demandé de le faire.
+</P>
+<A NAME="AdvancedSettingsMakingChanges"></A>
+<H5>Modifier les paramètres avancés</H5>
+<P>
+Pour pouvoir modifier les paramètres avancés, les contrôles doivent être activés en confirmant, via la case à cocher, que vous comprenez les risques qu'il y a à modifier ces paramètres
+</P>
+<A NAME="AdvancedSettingsRestoringDefaults"></A>
+<H5>Rétablir les paramètres par défaut</H5>
+<P>
+Le bouton rétablit les valeurs par défaut des paramètres, même si la case de confirmation n'est pas cochée.
+Après avoir modifié les paramètres vous pouvez souhaiter revenir aux valeurs par défaut.
+Cela peut aussi être le cas si vous n'êtes pas sûr que les paramètres ont été modifiés.
+</P>
+<A NAME="AdvancedSettingsEnableScratchpad"></A>
+<H5>Activer le chargement de code personnalisé depuis le Répertoire Bloc-notes du Développeur</H5>
+<P>
+Quand vous développez des extensions pour NVDA, il est utile de pouvoir tester le code en cours d'écriture.
+Quand elle est activée, cette option permet à NVDA de charger des extensions applicatives personnalisées, globalPlugins, brailleDisplayDrivers et synthDrivers, depuis un répertoire bloc-notes du développeur spécial dans votre répertoire de configuration utilisateur.
+Précédemment NVDA aurait chargé le code personnalisé directement depuis le répertoire de configuration utilisateur, sans possibilité de désactiver ce comportement. 
+Cette option est désactivée par défaut, garantissant qu'aucun code non testé n'est exécuté par NVDA sans que l'utilisateur en ait explicitement connaissance.
+Si vous voulez distribuer du code spécifique à d'autres personnes, vous devriez l'empaqueter sous forme d'extension pour NVDA.
+</P>
+<A NAME="AdvancedSettingsOpenScratchpadDir"></A>
+<H5>Ouvrir le Répertoire Bloc-notes du Développeur</H5>
+<P>
+Ce bouton ouvre le répertoire où vous pouvez placer le code personnalisé que vous êtes en train de développer.
+Ce bouton n'est disponible que si NVDA est configuré pour permettre le chargement de code personnalisé depuis le répertoire Bloc-notes du développeur.
+</P>
+<A NAME="AdvancedSettingsUseUiaForWord"></A>
+<H5>Utiliser UI automation pour accéder aux contrôles des documents Microsoft Word quand disponible</H5>
+<P>
+Quand cette option est activée, NVDA essaie d'utiliser l'API d'accessibilité Microsoft UI Automation pour récupérer les informations des contrôles de documents Microsoft Word.
+Ceci inclut Microsoft Word lui-même, et aussi l'afficheur et le composeur de message de Miicrosoft Outlook.
+ Pour les versions les plus récentes de Microsoft Office 2016/365 exécutées sous windows 10, le support UI Automation est assez complet pour fournir un accès aux documents Microsoft Word presque égal au support existant de  Microsoft Word par NVDA, avec l'avantage que la réactivité est nettement accrue.
+Cependant, il peut exister certaines informations qui ne sont pas exposées, ou exposées incorrectement sous certaines versions de Microsoft Office, ce qui signifie qu'on ne peut pas toujours se fier à ce support UI automation.
+Nous ne recommandons pas encore que la majorité des utilisateurs activent cette option par défaut, bien que nous encouragions les utilisateurs d'Office 2016/365 à tester cette fonctionnalité et à nous faire des retours d'expérience.
+</P>
+<A NAME="AdvancedSettingsCaretMoveTimeout"></A>
+<H5>Délai d'attente de mouvement du curseur (en ms)</H5>
+<P>
+Cette option vous permet de configurer le nombre de millisecondes durant lequel NVDA attendra le déplacement du curseur (point d'insertion) dans les contrôles de texte éditable.
+Si vous trouvez que NVDA semble mal suivre le curseur ex : il semble être toujours un caractère en retard ou il répète les lignes, alors vous pouvez essayer d'accroître cette valeur.
+</P>
+<A NAME="AdvancedSettingsDebugLoggingCategories"></A>
+<H5>Catégories de journalisation de débogage</H5>
+<P>
+Les cases à cocher dans cette liste vous permettent d'activer des catégories spécifiques de messages de débogage dans le journal de NVDA.
+La journalisation de ces messages peut dégrader la performance et produire de gros fichiers de journal.
+N'activez l'une d'entre elle que si un développeur de NVDA vous l'a spécifiquement demandé ex : pour déboguer un pilote de terminal braille ne fonctionnant pas correctement.
+</P>
 <A NAME="MiscSettings"></A>
 <H3>11.2. Autres Paramètres</H3>
 <P>
@@ -3368,10 +3453,10 @@ Pour activer ou désactiver les déclencheurs de n'importe où, veuillez assigne
 <A NAME="LocationOfConfigurationFiles"></A>
 <H3>11.5. Emplacement des Fichiers de Configuration</H3>
 <P>
-Les versions portables de NVDA enregistrent tous les paramètres et modules complémentaires dans un répertoire nommé "userConfig" situé dans le répertoire de votre copie portable de NVDA.
+Les versions portables de NVDA enregistrent tous les paramètres et extensions dans un répertoire nommé "userConfig" situé dans le répertoire de votre copie portable de NVDA.
 </P>
 <P>
-Les versions installées de NVDA enregistrent tous les paramètres et modules complémentaires dans un répertoire spécial de NVDA situé dans votre profil utilisateur Windows.
+Les versions installées de NVDA enregistrent tous les paramètres et extensions dans un répertoire spécial de NVDA situé dans votre profil utilisateur Windows.
 Cela signifie que chaque utilisateur du système peut avoir ses propres paramètres NVDA.
 Pour accéder à votre répertoire de paramètres pour une version installée de NVDA, depuis le menu "Démarrer" vous pouvez aller à "Tous les programmes" -&gt; "NVDA" -&gt; "Explorer les paramètres utilisateur".
 </P>
@@ -3413,69 +3498,90 @@ Cependant, si vous cliquez ou mettez le focus sur la visionneuse, NVDA arrêtera
 Pour activer la visionneuse de parole de n'importe où, Veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
 </P>
 <A NAME="AddonsManager"></A>
-<H3>12.3. Gestionnaire de Modules Complémentaires</H3>
+<H3>12.3. Gestionnaire d'Extensions</H3>
 <P>
-Le Gestionnaire de modules complémentaires, accessible en sélectionnant "Gestion des Modules Complémentaires" dans le menu "Outils" du menu NVDA, permet d'installer, désinstaller, activer ou désactiver des paquets de modules complémentaires pour NVDA.
+Le Gestionnaire d'extensions, accessible en sélectionnant "Gestion des Extensions" dans le menu "Outils" du menu NVDA, permet d'installer, désinstaller, activer ou désactiver des paquets d'extensions pour NVDA.
 Ces paquets sont fournis par la communauté et contiennent du code qui peut ajouter ou modifier des fonctionnalités dans NVDA ou proposer le support de plages braille ou synthèses vocales supplémentaires.
 </P>
 <P>
-Le gestionnaire de modules complémentaires contient une liste affichant tous les modules complémentaires actuellement installés dans votre configuration utilisateur de NVDA.
-Un nom de paquet, la version et l'auteur sont affichés pour chaque module complémentaire, et des informations supplémentaires telles qu'une description et une URL peuvent être affichées en sélectionnant le module complémentaire et en activant le bouton "À propos" du module complémentaire...
-Si une aide est disponible pour le module sélectionné, vous pouvez y accéder en appuyant sur le bouton "Aide du module complémentaire".
+Le gestionnaire d'extensions contient une liste affichant toutes les extensions actuellement installées dans votre configuration utilisateur de NVDA.
+Un nom de paquet, la version et l'auteur sont affichés pour chaque extension, et des informations supplémentaires telles qu'une description et une URL peuvent être affichées en sélectionnant l'extension et en activant le bouton "À propos" de l'extension...
+Si une aide est disponible pour l'extension sélectionnée, vous pouvez y accéder en appuyant sur le bouton "Aide de l'extension".
 </P>
 <P>
-Pour télécharger des modules complémentaires mis à disposition par la communauté, cliquez sur le bouton "Obtenir des modules complémentaires".
-Ce bouton ouvre la <A HREF="https://addons.nvda-project.org/">page des modules complémentaires NVDA</A>.
-Si NVDA est installé sur votre système et en cours d'exécution, vous pourrez ouvrir le module complémentaire directement depuis votre navigateur afin de démarrer le processus d'installation décrit plus loin.
-Autrement, enregistrez le fichier du module complémentaire et suivez les instructions ci-dessous.
+Pour télécharger des extensions mises à disposition par la communauté, cliquez sur le bouton "Obtenir des extensions".
+Ce bouton ouvre la <A HREF="https://addons.nvda-project.org/">page des extensions NVDA</A>.
+Si NVDA est installé sur votre système et en cours d'exécution, vous pourrez ouvrir l'extension directement depuis votre navigateur afin de démarrer le processus d'installation décrit plus loin.
+Autrement, enregistrez le fichier de l'extension et suivez les instructions ci-dessous.
 </P>
 <P>
-Pour ajouter un module complémentaire, cliquez sur le bouton "Ajouter".
-Vous pourrez ainsi rechercher le paquet du module complémentaire (fichier .nvda-addon) sur votre ordinateur ou votre réseau.
+Pour ajouter une extension, cliquez sur le bouton "Ajouter".
+Vous pourrez ainsi rechercher le paquet de l'extension (fichier .nvda-addon) sur votre ordinateur ou votre réseau.
 Après avoir cliqué sur "Ouvrir", le processus d'installation commence.
 </P>
 <P>
-Quand un module complémentaire est sur le point d'être installé, NVDA vous demandera de confirmer que vous souhaitez installer ce module complémentaire.
-Comme les fonctionnalités des modules complémentaires ne sont pas restreintes dans NVDA, ce qui implique en théorie qu'ils peuvent accéder à vos données ou à tout votre système pour une version installée, il est important de n'installer que des modules complémentaires venant d'une source fiable.
-Dès que le module complémentaire est installé, NVDA doit redémarrer pour que le module complémentaire puisse s'activer.
-Ce module complémentaire aura l'état "Installé" dans la liste jusqu'à ce que vous relanciez NVDA.
+Quand une extension est sur le point d'être installée, NVDA vous demandera de confirmer que vous souhaitez installer cette extension.
+Comme les fonctionnalités des extensions ne sont pas restreintes dans NVDA, ce qui implique en théorie qu'elles peuvent accéder à vos données ou à tout votre système pour une version installée, il est important de n'installer que des extensions venant d'une source fiable.
+Dès que l'extension est installée, NVDA doit redémarrer pour qu'elle puisse s'activer.
+Cette extension aura l'état "Installée" dans la liste jusqu'à ce que vous relanciez NVDA.
 </P>
 <P>
-Pour supprimer un module complémentaire, sélectionnez-le dans la liste et cliquez sur le bouton "Supprimer".
+Pour supprimer une extension, sélectionnez-la dans la liste et cliquez sur le bouton "Supprimer".
 NVDA vous demandera de confirmer la désinstallation.
-Comme pour l'installation, NVDA doit être redémarré pour que le module complémentaire soit complètement supprimé.
-Jusqu'au redémarrage, ce module aura le statut Supprimé dans la liste.
+Comme pour l'installation, NVDA doit être redémarré pour que l'extension soit complètement supprimée.
+Jusqu'au redémarrage, cette extension aura le statut "Supprimée" dans la liste.
 </P>
 <P>
-Pour désactiver un module, pressez le bouton désactiver.
-Pour activer un module précédemment désactivé, pressez le bouton activer.
-Vous pouvez désactiver un module si le statut du module indique qu'il est en cours d'exécution ou activé, ou l'activer si le module est désactivé.
-Pour chaque appui sur le bouton Activer/Désactiver, le statut du module change pour indiquer ce qui arrivera quand NVDA redémarrera.
-Si le module a été précédemment désactivé, son statut affichera "activé après redémarrage". Si le module a été précédemment "Activé", son statut affichera "désactivé après redémarrage"
-Comme lorsque vous installez ou supprimez un module, vous devez redémarrer NVDA pour que les changements prennent effet.
+Pour désactiver une extension, pressez le bouton Désactiver.
+Pour activer une extension précédemment désactivée, pressez le bouton Activer.
+Vous pouvez désactiver une extension si son statut indique qu'elle est en cours d'exécution ou activée, ou l'activer si elle est désactivée.
+Pour chaque appui sur le bouton Activer/Désactiver, le statut de l'extension change pour indiquer ce qui arrivera quand NVDA redémarrera.
+Si l'extension a été précédemment "désactivée", son statut affichera "activée après redémarrage".
+Si l'extension a été précédemment "Activée", son statut affichera "désactivée après redémarrage"
+Comme lorsque vous installez ou supprimez une extension, vous devez redémarrer NVDA pour que les changements prennent effet.
 </P>
 <P>
 Le gestionnaire a également un bouton "Fermer" pour fermer le dialogue.
-Si vous avez installé, supprimé ou changé le statut des modules complémentaires, NVDA vous demandera d'abord si vous voulez le redémarrer pour que vos changements prennent effet.
+Si vous avez installé, supprimé ou changé le statut des extensions, NVDA vous demandera d'abord si vous voulez le redémarrer pour que vos changements prennent effet.
 </P>
 <P>
-Jusqu'à maintenant, il était possible d'étendre les fonctionnalités de NVDA en copiant des plugins ou pilotes dans votre répertoire de configuration utilisateur.
-Même si cette version peut toujours les charger, ceux-ci ne seront pas affichés dans le gestionnaire de modules complémentaires.
-Il est recommandé de supprimer ces fichiers de votre répertoire de configuration et d'installer le module complémentaire approprié s'il y en a un.
+Certaines extensions anciennes risquent de ne plus être compatibles avec la version de NVDA que vous avez.
+Quand on utilise une version ancienne de NVDA, Certaines extensions récentes peuvent aussi ne pas être compatibles.
+Tenter d'installer une extension incompatible résultera en une erreur expliquant pourquoi l'extension est considérée comme incompatible.
+Pour inspecter ces extensions incompatibles, vous pouvez utiliser le bouton "Voir les extensions incompatibles" qui lance le gestionnaire d'extensions incompatibles.
 </P>
 <P>
-Pour activer le gestionnaire de modules complémentaires de n'importe où, Veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
+Pour activer le gestionnaire d'extensions de n'importe où, Veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
+</P>
+<A NAME="incompatibleAddonsManager"></A>
+<H3>12.4. Le Gestionnaire d'Extensions Incompatibles</H3>
+<P>
+Le Gestionnaire d'Extensions Incompatibles, auquel on accède via le bouton "voir les extensions incompatibles" dans le gestionnaire d'extensions, vous permet d'inspecter toutes les extensions incompatibles, et la raison pour laquelle elles sont considérées comme tel.
+Les extensions sont considérées comme incompatibles quand elles n'ont pas été mises à jour pour fonctionner avec des changements significatifs de NVDA, ou quand elles s'appuient sur une fonctionnalité non disponible dans la version de NVDA que vous utilisez.
+Le gestionnaire d'extensions incompatibles contient un court message qui explique son but et indique la version de NVDA.
+Les extensions incompatibles sont présentées dans une liste avec les colonnes suivantes :
+</P>
+<OL>
+<LI>Package, le nom de l'extension
+<LI>Version, la version de l'extension
+<LI>Raison d'incompatibilité, une explication de la raison pour laquelle l'extension est considérée incompatible
+</OL>
+
+<P></P>
+<P>
+Le gestionnaire d'extensions incompatible a également un bouton "À propos de l'extension...".
+Il vous permet de connaître tous les détails concernant l'extension, ce qui est utile pour contacter son auteur.
 </P>
 <A NAME="PythonConsole"></A>
-<H3>12.4. Console Python</H3>
+<H3>12.5. Console Python</H3>
 <P>
 La console Python NVDA, située dans "Outils" du menu NVDA, est un outil de développement utile pour dépanner, inspecter le code ou inspecter la hiérarchie d'accessibilité d'une application.
 Pour plus d'informations, veuillez consulter le "Guide du Développeur" disponible dans <A HREF="https://community.nvda-project.org/wiki/Development">la section développement du site Web de NVDA</A>.
 </P>
 <A NAME="ReloadPlugins"></A>
-<H3>12.5. Rechargement des Modules Complémentaires</H3>
+<H3>12.6. Rechargement des Extensions</H3>
 <P>
-Cet élément, quand on l'active, recharge les modules d'applications et les modules complémentaires généraux sans avoir à redémarrer NVDA, ce qui peut être utile pour les développeurs.
+Cet élément, quand on l'active, recharge les extensions d'applications et les extensions globales sans avoir à redémarrer NVDA, ce qui peut être utile pour les développeurs.
 </P>
 <A NAME="SupportedSpeechSynths"></A>
 <H2>13. Synthétiseurs de Parole Pris en Charge</H2>
@@ -3953,7 +4059,7 @@ NVDA prend en charge la plupart des terminaux de chez <A HREF="https://www.handy
 Pour les terminaux USB les plus anciens, vous devrez installer le pilote USB Handy Tech sur votre système.
 </P>
 <P>
-Les terminaux suivants ne sont pas nativement supportés, mais peuvent être utilisé via <A HREF="https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers">le pilote universel Handy Tech</A> et le module complémentaire NVDA :
+Les terminaux suivants ne sont pas nativement supportés, mais peuvent être utilisé via <A HREF="https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers">le pilote universel Handy Tech</A> et l'extension NVDA :
 </P>
 <UL>
 <LI>Braillino
@@ -4301,7 +4407,7 @@ Le BrailleNote Touch est également prise en charge et ne nécessite pas de pilo
 Voici les assignations de touches pour Brailliant BI/B et BrailleNote touch sous NVDA.
 Veuillez consulter la documentation du terminal pour savoir où se situent ces touches.
 </P>
-<A NAME="toc126"></A>
+<A NAME="toc129"></A>
 <H4>14.9.1. Assignations des Touches pour tous les Modèles</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4390,7 +4496,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc127"></A>
+<A NAME="toc130"></A>
 <H4>14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4411,7 +4517,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc128"></A>
+<A NAME="toc131"></A>
 <H4>14.9.3. Assignations de Touches pour le Brailliant BI 14</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -5274,7 +5380,7 @@ Les modèles suivants sont supportés :
 
 <P></P>
 <P>
-Pour le BrailleNote Touch, Veuillez vous référer à la section <A HREF="HumanWareBrailliant">Séries Brailliant BI / BrailleNote Touch</A>.
+Pour le BrailleNote Touch, Veuillez vous référer à la section <A HREF="#HumanWareBrailliant">Séries Brailliant BI / BrailleNote Touch</A>.
 </P>
 <P>
 Excepté pour le BrailleNote PK, les claviers braille (BT) et QWERTY (QT) sont supportés.
@@ -5998,8 +6104,8 @@ Vous pouvez passer autant d'options que nécessaire.
 Ces options peuvent être passées quand on démarre depuis un raccourci (dans les propriétés du raccourci), depuis le dialogue Exécuter (Menu Démarrer -&gt; Exécuter ou Windows+r) ou depuis une console de commande Windows.
 Les options doivent être séparées du nom de l'exécutable NVDA et des autres options par des espaces.
 Par exemple, le raccourci de bureau créé par NVDA pendant l'installation a l'option -r, qui dit à NVDA d'arrêter la copie en cours avant d'en démarrer une nouvelle.
-Une autre option utile est --disable-addons, qui dit à NVDA d'interrompre tous les modules complémentaires en cours d'exécution.
-Cela vous permet de déterminer si un problème est causé par un module complémentaire et de vous sortir de sérieux problèmes pouvant être causés par des modules complémentaires.
+Une autre option utile est --disable-addons, qui dit à NVDA d'interrompre toutes les extensions en cours d'exécution.
+Cela vous permet de déterminer si un problème est causé par une extension et de vous sortir de sérieux problèmes pouvant être causés par des extensions.
 </P>
 <P>
 Par exemple, vous pouvez quitter la copie en cours de NVDA en entrant ce qui suit dans le dialogue Exécuter :
@@ -6018,7 +6124,7 @@ Pour celles qui ont une version courte, vous pouvez les combiner ainsi :
 </TR>
 <TR>
 <TD>nvda -rm --disable-addons</TD>
-<TD>Même chose, mais avec les modules complémentaires désactivés</TD>
+<TD>Même chose, mais avec les extensions désactivées</TD>
 </TR>
 </TABLE>
 
@@ -6078,7 +6184,7 @@ Voici les options de ligne de commande de NVDA :
 <TR>
 <TD>-l NIVEAUDEJOURNALISATION</TD>
 <TD>--log-level=NIVEAUDEJOURNALISATION</TD>
-<TD>Le niveau minimal de messages journalisés (débogage 10, info 20, avertissement 30, erreur 40, critique 50), le défaut est avertissement</TD>
+<TD>Le niveau minimal de messages journalisés (débogage 10, info 20, avertissement 30, erreur 40, critique 50, désactivé 100), le défaut est avertissement</TD>
 </TR>
 <TR>
 <TD>-c CHEMINDECONFIG</TD>
@@ -6093,17 +6199,22 @@ Voici les options de ligne de commande de NVDA :
 <TR>
 <TD>-s</TD>
 <TD>--secure</TD>
-<TD>Mode sécurisé (désactive la console Python)</TD>
+<TD>Mode sécurisé (désactive la console Python et la journalisation, parfois utilisé dans les écrans sécurisés)</TD>
 </TR>
 <TR>
 <TD>Aucune</TD>
 <TD>--disable-addons</TD>
-<TD>Les modules complémentaires n'auront pas d'effet</TD>
+<TD>Les extensions n'auront pas d'effet</TD>
+</TR>
+<TR>
+<TD>Aucune</TD>
+<TD>--no-logging</TD>
+<TD>Désactive complètement la journalisation durant l'utilisation de NVDA. Ce paramètre peut être ignoré si un niveau de journalisation ( --loglevel, -l) est spécifié dans la ligne de commande ou si la journalisation de débogage est activée.</TD>
 </TR>
 <TR>
 <TD>Aucune</TD>
 <TD>--debug-logging</TD>
-<TD>Active le niveau de journalisation débogage seulement pour cette session. Ce paramètre remplacera tout autre niveau de journalisation ( --loglevel, -l) argument donné.</TD>
+<TD>Active le niveau de journalisation débogage seulement pour cette session. Ce paramètre remplacera tout autre niveau de journalisation ( --loglevel, -l) argument donné, incluant l'option pas de journalisation.</TD>
 </TR>
 <TR>
 <TD>Aucune</TD>
@@ -6119,6 +6230,11 @@ Voici les options de ligne de commande de NVDA :
 <TD>Aucune</TD>
 <TD>--install-silent</TD>
 <TD>Installe NVDA silencieusement (sans démarrer la copie nouvellement installée)</TD>
+</TR>
+<TR>
+<TD>Aucune</TD>
+<TD>--enable-start-on-logon=True|False</TD>
+<TD>Durant l'installation, active le <A HREF="#StartAtWindowsLogon">démarrage sur l'écran de connexion</A> de NVDA</TD>
 </TR>
 <TR>
 <TD>Aucune</TD>
