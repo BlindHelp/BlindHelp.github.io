@@ -2207,92 +2207,216 @@ Vous pouvez la télécharger en utilisant le lien indiqué ci-dessus).
 Récapitulatif des balises  pour construire une playlist de format XSPF jouable avec VLC media player
 ==========================================================================================
 
+
 <table>
-<caption>Balises  pour construire une playlist de format XSPF contenant  des Web Radios</caption>
+<caption>
+Balises  pour construire une playlist de format XSPF contenant  des Web Radios
+</caption>
 <tr>
-<th>Nombre de tabulations</th>
-<th>Syntaxe</th>
-<th>Contenu</th>
-<th>Syntaxe</th>
-<th>Description</th>
+<th>
+Nombre de tabulations
+</th>
+<th>
+Syntaxe
+</th>
+<th>
+Contenu
+</th>
+<th>
+Syntaxe
+</th>
+<th>
+Description
+</th>
 </tr>
 <tr>
-<th>Nombre de tabulations</th>
-<th>Syntaxe</th>
-<th>Contenu</th>
-<th>Syntaxe</th>
-<th>Description</th>
+<th>
+Nombre de tabulations
+</th>
+<th>
+Syntaxe
+</th>
+<th>
+Contenu
+</th>
+<th>
+Syntaxe
+</th>
+<th>
+Description
+</th>
 </tr>
 <tr>
-<td>aucune</td>
-<td>`<?xml version="1.0" encoding="UTF-8"?>`</td>
-<td>aucune</td>
-<td>aucune</td>
-<td>C'est la première balise qui est placée au début du fichier XSPF.</td>
+<td>
+aucune
+</td>
+<td>
+`<?xml version="1.0" encoding="UTF-8"?>`
+</td>
+<td>
+aucune
+</td>
+<td>
+aucune
+</td>
+<td>
+C'est la première balise qui est placée au début du fichier XSPF.
+</td>
 </tr>
 <tr>
-<td>aucune</td>
-<td>`<playlist version="1" xmlns="http://xspf.org/ns/0/">`</td>
-<td>aucune</td>
-<td>aucune</td>
-<td>C'est la deuxième balise qui est placée après la première ligne.</td>
+<td>
+aucune
+</td>
+<td>
+`<playlist version="1" xmlns="http://xspf.org/ns/0/">`
+</td>
+<td>
+aucune
+</td>
+<td>
+aucune
+</td>
+<td>
+C'est la deuxième balise qui est placée après la première ligne.
+</td>
 </tr>
-<td>1</td>
-<td>`<trackList`></td>
-<td>aucune</td>
-<td>aucune</td>
-<td>Balise pour indiquer le début de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>`<track>`</td>
-<td>aucune</td>
-<td>aucune</td>
-<td>Balise pour indiquer le début ou la suite des flux radio.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>`<title>`</td>
-<td>Écrire ici le titre du flux radio</td>
-<td>`</title>`</td>
-<td>Balises pour indiquer le titre du flux radio.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>`<album>`</td>
-<td>Écrire ici Le titre du flux radio</td>
-<td>`</album>`</td>
-<td>Balises pour indiquer le titre du flux radio.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>`<annotation>`</td>
-<td>Écrire ici le commentaire du flux radio</td>
-<td>`</annotation>`</td>
-<td>Balises pour indiquer le comentaire du flux radio.</td>
+<td>
+1
+</td>
+<td>
+`<trackList>`
+</td>
+<td>
+aucune
+</td>
+<td>
+aucune
+</td>
+<td>
+Balise pour indiquer le début de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.
+</td>
 </tr>
 <tr>
-<td>3</td>
-<td>`<location>`</td>
-<td>Écrire ici l'URL d'écoute du flux radio</td>
-<td>`</location>`</td>
-<td>Balises pour indiquer l'URL d'écoute du flux radio.</td>
+<td>
+2
+</td>
+<td>
+`<track>`
+</td>
+<td>
+aucune
+</td>
+<td>
+aucune
+</td>
+<td>
+Balise pour indiquer le début ou la suite des flux radio.
+</td>
 </tr>
 <tr>
-<td>1</td>
-<td>aucune</td>
-<td>aucune</td>
-<td>`</trackList`></td>
-<td>Balise pour indiquer la fin de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.</td>
+<td>
+3
+</td>
+<td>
+`<title>`
+</td>
+<td>
+Écrire ici le titre du flux radio
+</td>
+<td>
+`</title>`
+</td>
+<td>
+Balises pour indiquer le titre du flux radio.
+</td>
 </tr>
 <tr>
-<td>aucune</td>
-<td>aucune</td>
-<td>aucune</td>
-<td>`</playlist>`</td>
-<td>Balise pour indiquer la clôture de votre playlist.</td>
+<td>
+3
+</td>
+<td>
+`<album>`
+</td>
+<td>
+Écrire ici Le titre du flux radio
+</td>
+<td>
+`</album>`
+</td>
+<td>
+Balises pour indiquer le titre du flux radio.
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+`<annotation>`
+</td>
+<td>
+Écrire ici le commentaire du flux radio
+</td>
+<td>
+`</annotation>`
+</td>
+<td>
+Balises pour indiquer le comentaire du flux radio.
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+`<location>`
+</td>
+<td>
+Écrire ici l'URL d'écoute du flux radio
+</td>
+<td>
+`</location>`
+</td>
+<td>
+Balises pour indiquer l'URL d'écoute du flux radio.
+</td>
+</tr>
+<tr>
+<td>
+1
+</td>
+<td>
+aucune
+</td>
+<td>
+aucune
+</td>
+<td>
+`</trackList>`
+</td>
+<td>
+Balise pour indiquer la fin de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.
+</td>
+</tr>
+<tr>
+<td>
+aucune
+</td>
+<td>
+aucune
+</td>
+<td>
+aucune
+</td>
+<td>
+`</playlist>`
+</td>
+<td>
+Balise pour indiquer la clôture de votre playlist.
+</td>
 </tr>
 </table>
+
 
 Et maintenant qu’on a notre fichier XSPF, qu’est ce qu'on va bien pouvoir faire avec lui ?
 ==========================================================================================
