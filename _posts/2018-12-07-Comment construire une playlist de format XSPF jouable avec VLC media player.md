@@ -2216,8 +2216,6 @@ Récapitulatif des balises  pour construire une playlist de format XSPF jouable 
 <th>Syntaxe</th>
 <th>Description</th>
 </tr>
-</thead>
-<tfoot>
 <tr>
 <th>Nombre de tabulations</th>
 <th>Syntaxe</th>
@@ -2225,8 +2223,6 @@ Récapitulatif des balises  pour construire une playlist de format XSPF jouable 
 <th>Syntaxe</th>
 <th>Description</th>
 </tr>
-</tfoot>
-<tbody> <!-- Corps du tableau -->
 <tr>
 <td>aucune</td>
 <td>`<?xml version="1.0" encoding="UTF-8"?>`</td>
@@ -2296,8 +2292,6 @@ Récapitulatif des balises  pour construire une playlist de format XSPF jouable 
 <td>`</playlist>`</td>
 <td>Balise pour indiquer la clôture de votre playlist.</td>
 </tr>
-</tr>
-</tbody>
 </table>
 
 Et maintenant qu’on a notre fichier XSPF, qu’est ce qu'on va bien pouvoir faire avec lui ?
