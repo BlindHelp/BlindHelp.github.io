@@ -2211,6 +2211,7 @@ Nombre de tabulation | Syntaxe | Contenu | Syntaxe | Description
 - | - | - | - | -
 
 : Balises pour construire une playlist de format XSPF contenant  des Web Radios
+
 aucune | `<?xml version="1.0" encoding="UTF-8"?>` | aucune | aucune | C'est la première balise qui est placée au début du fichier XSPF.
 aucune | `<playlist version="1" xmlns="http://xspf.org/ns/0/">` | aucune | aucune | C'est la deuxième balise qui est placée après la première ligne.
 1 | `<title>` | Écrire ici le nom du titre de la playlist | `</title>` | Balises pour indiquer le nom du titre de la playlist.
