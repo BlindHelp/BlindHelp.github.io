@@ -2209,8 +2209,8 @@ Récapitulatif des balises  pour construire une playlist de format XSPF jouable 
 
 Nombre de tabulation | Syntaxe | Contenu | Syntaxe | Description
 - | - | - | - | -
-aucune | Cellule 2 | aucune | aucune | C'est la première balise qui est placée au début du fichier XSPF.
-Cellule 3 | Cellule 4
+aucune | <code><?xml version="1.0" encoding="UTF-8"?></code> | aucune | aucune | C'est la première balise qui est placée au début du fichier XSPF.
+aucune | Cellule 2 | aucune | aucune | C'est la deuxième balise qui est placée après la première ligne.
 
 
 Et maintenant qu’on a notre fichier XSPF, qu’est ce qu'on va bien pouvoir faire avec lui ?
