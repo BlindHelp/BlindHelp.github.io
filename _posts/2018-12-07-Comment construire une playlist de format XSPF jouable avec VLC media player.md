@@ -2206,8 +2206,8 @@ Vous pouvez la télécharger en utilisant le lien indiqué ci-dessus).
 
 Récapitulatif des balises  pour construire une playlist de format XSPF jouable avec VLC media player
 ==========================================================================================
-
-: Balises pour construire une playlist de format XSPF contenant  des Web Radios
+Balises pour construire une playlist de format XSPF contenant  des Web Radios
+==========================================================================================
 
 Nombre de tabulation | Syntaxe | Contenu | Syntaxe | Description
 - | - | - | - | -
