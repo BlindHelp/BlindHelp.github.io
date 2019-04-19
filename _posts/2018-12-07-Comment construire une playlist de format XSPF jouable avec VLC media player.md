@@ -2207,7 +2207,6 @@ Vous pouvez la télécharger en utilisant le lien indiqué ci-dessus).
 Récapitulatif des balises  pour construire une playlist de format XSPF jouable avec VLC media player
 ==========================================================================================
 
-
 <table>
 <caption>
 Balises  pour construire une playlist de format XSPF contenant  des Web Radios
@@ -2251,7 +2250,7 @@ Description
 aucune
 </td>
 <td>
-`<?xml version="1.0" encoding="UTF-8"?>`
+<code><?xml version="1.0" encoding="UTF-8"?></code>
 </td>
 <td>
 aucune
@@ -2268,7 +2267,7 @@ C'est la première balise qui est placée au début du fichier XSPF.
 aucune
 </td>
 <td>
-`<playlist version="1" xmlns="http://xspf.org/ns/0/">`
+<code><playlist version="1" xmlns="http://xspf.org/ns/0/"></code>
 </td>
 <td>
 aucune
@@ -2284,7 +2283,7 @@ C'est la deuxième balise qui est placée après la première ligne.
 1
 </td>
 <td>
-`<trackList>`
+<code><trackList></code>
 </td>
 <td>
 aucune
@@ -2301,7 +2300,7 @@ Balise pour indiquer le début de la liste. Notez également que c'est trackList
 2
 </td>
 <td>
-`<track>`
+<code><track></code>
 </td>
 <td>
 aucune
@@ -2318,13 +2317,13 @@ Balise pour indiquer le début ou la suite des flux radio.
 3
 </td>
 <td>
-`<title>`
+<code><title></code>
 </td>
 <td>
 Écrire ici le titre du flux radio
 </td>
 <td>
-`</title>`
+<code></title></code>
 </td>
 <td>
 Balises pour indiquer le titre du flux radio.
@@ -2335,13 +2334,13 @@ Balises pour indiquer le titre du flux radio.
 3
 </td>
 <td>
-`<album>`
+<code><album></code>
 </td>
 <td>
 Écrire ici Le titre du flux radio
 </td>
 <td>
-`</album>`
+<code></album></code>
 </td>
 <td>
 Balises pour indiquer le titre du flux radio.
@@ -2352,13 +2351,13 @@ Balises pour indiquer le titre du flux radio.
 3
 </td>
 <td>
-`<annotation>`
+<code><annotation></code>
 </td>
 <td>
 Écrire ici le commentaire du flux radio
 </td>
 <td>
-`</annotation>`
+<code></annotation></code>
 </td>
 <td>
 Balises pour indiquer le comentaire du flux radio.
@@ -2369,13 +2368,13 @@ Balises pour indiquer le comentaire du flux radio.
 3
 </td>
 <td>
-`<location>`
+<code><location></code>
 </td>
 <td>
 Écrire ici l'URL d'écoute du flux radio
 </td>
 <td>
-`</location>`
+<code></location></code>
 </td>
 <td>
 Balises pour indiquer l'URL d'écoute du flux radio.
@@ -2392,7 +2391,7 @@ aucune
 aucune
 </td>
 <td>
-`</trackList>`
+<code></trackList></code>
 </td>
 <td>
 Balise pour indiquer la fin de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.
@@ -2409,14 +2408,13 @@ aucune
 aucune
 </td>
 <td>
-`</playlist>`
+<code></playlist></code>
 </td>
 <td>
 Balise pour indiquer la clôture de votre playlist.
 </td>
 </tr>
 </table>
-
 
 Et maintenant qu’on a notre fichier XSPF, qu’est ce qu'on va bien pouvoir faire avec lui ?
 ==========================================================================================
