@@ -2208,6 +2208,7 @@ Récapitulatif des balises  pour construire une playlist de format XSPF jouable 
 ==========================================================================================
 
 <caption>Balises  pour construire une playlist de format XSPF contenant  des Web Radios</caption>
+
 Nombre de tabulation | Syntaxe | Contenu | Syntaxe | Description
 - | - | - | - | -
 aucune | `<?xml version="1.0" encoding="UTF-8"?>` | aucune | aucune | C'est la première balise qui est placée au début du fichier XSPF.
