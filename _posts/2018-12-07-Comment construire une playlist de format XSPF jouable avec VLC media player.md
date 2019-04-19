@@ -2207,11 +2207,22 @@ Vous pouvez la télécharger en utilisant le lien indiqué ci-dessus).
 Récapitulatif des balises  pour construire une playlist de format XSPF jouable avec VLC media player
 ==========================================================================================
 
+Balises  pour construire une playlist de format XSPF contenant  des Web Radios
 Nombre de tabulation | Syntaxe | Contenu | Syntaxe | Description
 - | - | - | - | -
 aucune | `<?xml version="1.0" encoding="UTF-8"?>` | aucune | aucune | C'est la première balise qui est placée au début du fichier XSPF.
 aucune | `<playlist version="1" xmlns="http://xspf.org/ns/0/">` | aucune | aucune | C'est la deuxième balise qui est placée après la première ligne.
-
+1 | `<title>` | Écrire ici le nom du titre de la playlist | `</title>` | Balises pour indiquer le nom du titre de la playlist.
+1 | `<creator>` | Écrire ici  le nom de l'auteur de la playlist | `</creator>` | Balises pour indiquer le nom de l'auteur de la playlist.
+1 | `<info>` | Écrire ici l'URL de la page d'accueil de l'auteur de la playlist | `</info>` | Balises pour indiquer l'URL de la page d'accueil de l'auteur de la playlist.
+1 | `<trackList>` | aucune | aucune | Balise pour indiquer le début de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.
+2 | `<track>` | aucune | aucune | Balise pour indiquer le début ou la suite des flux radio.
+3 | `<title>` | Écrire ici le titre du flux radio | `</title>` | Balises pour indiquer le titre du flux radio.
+3 | `<album>` | Écrire ici Le titre du flux radio | `</album>` | Balises pour indiquer le titre du flux radio.
+3 | `<annotation>` | Écrire ici le commentaire du flux radio | `</annotation>` | Balises pour indiquer le comentaire du flux radio.
+3 | `<location>` | Écrire ici l'URL d'écoute du flux radio | `</location>` | Balises pour indiquer l'URL d'écoute du flux radio.
+1 | aucune | aucune | `</trackList>` | Balise pour indiquer la fin de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.
+aucune | aucune | aucune | `</playlist>` | Balise pour indiquer la clôture de votre playlist.
 
 Et maintenant qu’on a notre fichier XSPF, qu’est ce qu'on va bien pouvoir faire avec lui ?
 ==========================================================================================
