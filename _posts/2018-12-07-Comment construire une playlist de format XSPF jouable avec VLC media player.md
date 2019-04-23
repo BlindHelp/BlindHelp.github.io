@@ -2221,6 +2221,7 @@ Merci à lui pour l'info!
 Récapitulatif des balises  pour construire une playlist de format XSPF jouable avec VLC media player
 ==========================================================================================
 
+<caption>Balises pour construire une playlist de format XSPF contenant  des Web Radios</caption>
 Nombre de tabulation | Syntaxe | Contenu | Syntaxe | Description
 - | - | - | - | -
 aucune | `<?xml version="1.0" encoding="UTF-8"?>` | aucune | aucune | C'est la première balise qui est placée au début du fichier XSPF.
@@ -2236,8 +2237,6 @@ aucune | `<playlist version="1" xmlns="http://xspf.org/ns/0/">` | aucune | aucun
 3 | `<location>` | Écrire ici l'URL d'écoute du flux radio | `</location>` | Balises pour indiquer l'URL d'écoute du flux radio.
 1 | aucune | aucune | `</trackList>` | Balise pour indiquer la fin de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.
 aucune | aucune | aucune | `</playlist>` | Balise pour indiquer la clôture de votre playlist.
-
-: Balises pour construire une playlist de format XSPF contenant  des Web Radios
 
 
 Et maintenant qu’on a notre fichier XSPF, qu’est ce qu'on va bien pouvoir faire avec lui ?
