@@ -624,7 +624,7 @@ codes respectifs énumérés ci-dessus sans les tabulations respectives):
 `<annotation>(Rock) Le Mouv'</annotation>`  
 `<location>http://direct.mouv.fr/live/mouv-midfi.mp3</location>`  
 `</track>`  
-`!-- En pause actuellement, ils travaillent sur de nouveaux projets, wait & see... -->`  
+`!-- En pause actuellement, ils travaillent sur de nouveaux projets, wait &amp; see... -->`  
 `<track>`  
 `<title>Ministry of Sound</title>`  
 `<album>Ministry of Sound</album>`  
@@ -634,7 +634,7 @@ codes respectifs énumérés ci-dessus sans les tabulations respectives):
 `<track>`  
 `<title>Mira Costa Radio</title>`  
 `<album>Mira Costa Radio</album>`  
-`<annotation>R&B [Radionomy Radio MPB]</annotation>`  
+`<annotation>R&amp; B [Radionomy Radio MPB]</annotation>`  
 `<location>http://streaming.radionomy.com/RadioMPB</location>`  
 `</track>`  
 `<track>`  
@@ -767,7 +767,7 @@ codes respectifs énumérés ci-dessus sans les tabulations respectives):
 `<track>`  
 `<title>Rhythm & Grooves</title>`  
 `<album>Rhythm & Grooves</album>`  
-`<annotation>R&B</annotation>`  
+`<annotation>R&amp; B</annotation>`  
 `<location>http://50.62.164.158:8000</location>`  
 `</track>`  
 `<track>`  
@@ -1110,7 +1110,7 @@ Vous pouvez la télécharger en utilisant le lien indiqué ci-dessus).
 `</track>`  
 `<track>`  
 `<location>http://cdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3?origine=fluxradios</location>`  
-`<title>Rire & Chansons</title>`  
+`<title>Rire &amp; Chansons</title>`  
 `<album>Rire et Chansons</album>`  
 `<extension application="http://www.videolan.org/vlc/playlist/0">`  
 `<vlc:id>27</vlc:id>`  
@@ -2204,10 +2204,21 @@ Vous pouvez la télécharger en utilisant le lien indiqué ci-dessus).
 `--------- fin du fichier ---------`
 
 
-Récapitulatif des balises  pour construire une playlist de format XSPF jouable avec VLC media player
-==========================================================================================
+Remarque très importante par mon ami J.-F.    
+(Le & étant un caractère significatif dans le XML, il semble que le 
+copier/coller l'ait abusivement interprété... Ecrire & dans un 
+fichier xml, demande à ce qu'il soit correctement interprété comme un 
+simple caractère &.    
 
-Balises pour construire une playlist de format XSPF contenant  des Web Radios
+Veuillez taper `&amp;` s'il y a un & tout court dans le nom du flux radio par exemple.
+
+Vous pouvez taper aussi le code: `&#39;`
+
+C'est question de tester.    
+Merci à lui pour l'info!    
+
+
+Récapitulatif des balises  pour construire une playlist de format XSPF jouable avec VLC media player
 ==========================================================================================
 
 Nombre de tabulation | Syntaxe | Contenu | Syntaxe | Description
@@ -2225,6 +2236,9 @@ aucune | `<playlist version="1" xmlns="http://xspf.org/ns/0/">` | aucune | aucun
 3 | `<location>` | Écrire ici l'URL d'écoute du flux radio | `</location>` | Balises pour indiquer l'URL d'écoute du flux radio.
 1 | aucune | aucune | `</trackList>` | Balise pour indiquer la fin de la liste. Notez également que c'est trackList, avec un L majuscule, pas tracklist, avec un l minuscule.
 aucune | aucune | aucune | `</playlist>` | Balise pour indiquer la clôture de votre playlist.
+
+: Balises pour construire une playlist de format XSPF contenant  des Web Radios
+
 
 Et maintenant qu’on a notre fichier XSPF, qu’est ce qu'on va bien pouvoir faire avec lui ?
 ==========================================================================================
