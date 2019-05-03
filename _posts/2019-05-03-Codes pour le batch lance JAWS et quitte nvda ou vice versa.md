@@ -16,7 +16,7 @@ Maintenant, pour ceux que ça peut intéresser, je peux mettre ci-dessous les co
 * Sauvegarder ce fichier texte, avec le nom proposé pour chaque batch puis l'extension .bat.  
 
 # Conseils utiles: #
-la syntaxe "rem" indique qu'il s'agit d'un commentaire dans le fichier bat.
+La syntaxe "rem" indique qu'il s'agit d'un commentaire dans le fichier bat.     
 Veillez à ce que certaines lignes du code commencent par deux points, par exemple:    
 `:ok`    
 `:j18`    
