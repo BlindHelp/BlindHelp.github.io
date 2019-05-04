@@ -10,9 +10,9 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une contribution de notre ami Bernard Gavroches, il s'agit des battches pour basculer en un clic entre jaws et nvda.    
-Pour en savoir plus lire les descriptif et explications fait par ces soins
+Pour en savoir plus lire le descriptif et ces explications fait par ces soins.    
 
-# Battches pour basculer en un clic entre jaws et nvda  par Bernard Gavroches # 
+# Battches pour basculer en un clic entre jaws et nvda  par Bernard Gavroches #
 Voici des petit fichiers batches qui permettent de basculer en un clic par raccourcis clavier    
 
 * entre le jaws actif et nvdA ou un autre jaws installé sur votre machine
@@ -24,7 +24,7 @@ Dans le pack, pour:
 * jaws18
 * jaws2018
 * jaws 2019
-* et n'importe quelle version de 
+* et n'importe quelle version de    
 nvdA         
 mais ils peuvent être adaptés pour un jaws antérieur ou ultérieur.            
 
@@ -36,12 +36,12 @@ bureau
 vous pourrez modifiée le nom du raccourcis sur le bureau à votre aise, par défaut il porte le nom du bâches suivi de " - -raccourci"    
 ensuite, attribuez leur un raccourci clavier en faisant propriétés (alt-entrée) sur chacun    
 Vous pourrez ainsi passer d'un jaws à un autre ou à nvdA et inversement ce qui remet souvent de résoudre des  problèmes d'accessibilité d'un logiciel ou sur le web.    
-[tout est au bout de ce lien:](https://blindhelp.github.io/batches bascule jaws nvdA et inverse (j17, 18, 2018, 2019, nvda).zip)    
-Bon téléchargement et usage.
-Bernard
+[tout est au bout de ce lien:](https://blindhelp.github.io/batches bascule jaws nvda et inverse (j17, 18, 2018, 2019, nvda).zip)    
+Bon téléchargement et usage.    
+Bernard    
 
-Voilà  profitez- donc, les Battches pour basculer en un clic entre jaws et nvda fait par notre ami Bernard Gavroches!    
-Merci à lui! :)
+Voilà  profitez- donc, les Battches pour basculer en un clic entre jaws et nvda fait par notre ami Bernard Gavroches! ✌    
+Merci à lui! 😉
 Bien amicalement,              
 Rémy (BlindHelp).
 
