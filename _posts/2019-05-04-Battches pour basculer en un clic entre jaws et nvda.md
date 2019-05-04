@@ -41,7 +41,7 @@ Bon téléchargement et usage.
 Bernard    
 
 Voilà  profitez- donc, les Battches pour basculer en un clic entre jaws et nvda fait par notre ami Bernard Gavroches! ✌    
-Merci à lui! 😉
+Merci à lui! 😉     
 Bien amicalement,              
 Rémy (BlindHelp).
 
