@@ -35,8 +35,8 @@ envoyer vers
 bureau    
 vous pourrez modifiée le nom du raccourcis sur le bureau à votre aise, par défaut il porte le nom du bâches suivi de " - -raccourci"    
 ensuite, attribuez leur un raccourci clavier en faisant propriétés (alt-entrée) sur chacun    
-Vous pourrez ainsi passer d'un jaws à un autre ou à nvdA et inversement ce qui remet souvent de résoudre des  problèmes d'accessibilité d'un logiciel ou sur le web.    
-[tout est au bout de ce lien:](https://blindhelp.github.io/batches bascule jaws nvda et inverse (j17, 18, 2018, 2019, nvda).zip)    
+Vous pourrez ainsi passer d'un jaws à un autre ou à nvdA et inversement ce qui permet souvent de résoudre des  problèmes d'accessibilité d'un logiciel ou sur le web.    
+[tout est au bout de ce lien permanent:](https://blindhelp.github.io/batches bascule jaws nvdA et inverse [j17, 18, 2018, 2019, nvdA].zip)    
 Bon téléchargement et usage.    
 Bernard    
 
