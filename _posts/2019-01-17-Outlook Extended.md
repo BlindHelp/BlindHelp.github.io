@@ -50,7 +50,7 @@ Cette extension a été testé avec Microsoft Outlook 2016 et 2013.
 
 [1]: https://addons.nvda-project.org/files/get.php?file=outlookextended
 
-[2]: https://addons.nvda-project.org/files/get.php?file=outlookextended
+[2]: https://addons.nvda-project.org/files/get.php?file=outlookextended-dev
 
 # Plus d'informations sur Outlook Extended
 

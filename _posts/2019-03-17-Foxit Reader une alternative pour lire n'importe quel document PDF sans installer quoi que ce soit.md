@@ -186,11 +186,23 @@ Appuyez sur ce bouton pour commencer la lecture du document PDF.
 Nous pouvons utiliser les commandes habituelles pour nous déplacer dans la documentation.    
 La cerise sur le gâteau! même nous pouvons même sélectionner le texte et le copier dans le Bloc-notes (Notepad) ou dans un autre traitement de texte de notre choix!    
 
-Pour quitterFoxit Reader faire Alt+F4.    
+Pour quitter Foxit Reader faire Alt+F4.    
+
+# Astuce pour la lecture d'un document PDF en français   avec Foxit Reader puis la création d'un profil NVDA #
+
+Lorsque je lit le document PDF avec Foxit Reader pour la première fois scelui-ci parle avec l'accent en anglais sous NVDA,même si le contenu du document PDF est en français, donc  voici la solution donné par Michel Such:    
+Tu peux te créer un profil NVDA pour l'application dans lequel tu décoches la case changement de langue automatique, ça devrait régler le problème.    
+Tu retournes dans Foxit Reader, de là tu fais nvda+n pour avoir le menu NVDA, tu vas dans les paramètres, synthétiseur, et tu décoches la case.    
+Comme tu as créé un profil pour Foxit Reader et que tu viens directement de l'application, tes changements de paramètres ne s'appliqueront qu'à cette application et se stockeront dans son profil.    
+
+Pour en savoir plus sur le Profils de Configuration sous NVDA consulter   le:    
+[Guide de l'utilisateur de NVDA](https://blindhelp.github.io/userGuide.html#ConfigurationProfiles)
+
+Merci à Michel Such! 😊
 
 # Conclusion par BlindHelp #
 
-Je n'ai pas essayé l'ensemble du programme Foxi Reader Portable, mais l'important est de pouvoir lire certains documents PDF et de pouvoir naviguer dans les documents avec les commandes habituelles...    
+Je n'ai pas essayé l'ensemble du programme Foxit Reader Portable, mais l'important est de pouvoir lire certains documents PDF et de pouvoir naviguer dans les documents avec les commandes habituelles...    
 Pour le reste je vous laisse découvrir à votre rythme, et s'il y a des informations importantes qui ne sont pas dans ce billet, merci de me le dire afin  de bien étoffé l'article dédié à Foxit Reader.
 
 # Liens utiles dédié au programme ): #

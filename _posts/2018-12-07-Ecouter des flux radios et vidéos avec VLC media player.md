@@ -156,7 +156,10 @@ Ceci lance le programme VLC media player portable.
 
 Pour que ce lecteur VLC soit plus accessible avec nos lecteurs d'écran, vous devrez télécharger puis installer les scripts pour JAWS ou  l'extension pour NVDA.                        
 [Pour les scripts de JAWS c'est par ici:](http://angouleme.avh.asso.fr/fichesinfo/fiches_jaws/logiciels_divers/vlc2.htm)                    
-[et pour l'extension c'est par là:](https://blindhelp.github.io/Le%20coffre%20des%20Modules%20Complementaires%20pour%20NVDA.html#VLCAccessEnhancement-1.2.nvda-addon)                         
+[et pour l'extension c'est par là:](https://blindhelp.github.io/Le%20coffre%20des%20Modules%20Complementaires%20pour%20NVDA.html)                    
+
+Une fois ouverte la page chercher comme nom:    
+`VLCAccessEnhancement`
 
 # À Propos des menus de VLC media Player #
 
