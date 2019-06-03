@@ -12,7 +12,7 @@ Coucou mes amis du blog de BlindHelp!
 Je vous apporte de bonnes nouvelles concernant le problèmes des voyelles accentuées dans TB (Thunderbird)    
 
 La réponse se trouve ici (la citation avec la réponse en dessous):    
-[https://forums.mozfr.org/viewtopic.php?t=137028](https://forums.mozfr.org/viewtopic.php?t=137028)
+[https://forums.mozfr.org/viewtopic.php?t=137028](https://forums.mozfr.org/viewtopic.php?t=137028)    
 En français :    
 `Outil > Options > Avancée > Éditeur de configuration > "Je prends le risque" >`
 
