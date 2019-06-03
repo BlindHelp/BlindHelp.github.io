@@ -26,7 +26,7 @@ The developer guide is in the file Developer.md.
 16.7 MB    
 [Download](https://github.com/jamalmazrui/EdSharp/raw/master/EdSharp_setup.exe)    
 
-# Source: #}
+# Source: #
 
 [EdSharp/EdSharp_setup.exe at master · jamalmazrui/EdSharp · GitHub](https://github.com/jamalmazrui/EdSharp/blob/master/EdSharp_setup.exe)    
 
@@ -54,11 +54,11 @@ Pour télécharger les sources  de TextPal 39.zip vous devez cliquer sur le lien
 
 L'auteur de Textpal nous dit ceci:    
 Traduit de l'anglais vers le français.    
-3 Décembre 2007
+3 Décembre 2007    
 TextPal, un éditeur de texte Windows conçu pour une utilisation accessible et efficace à partir du clavier, est un de mes projets de logiciels retirés, remplacé par l'éditeur EdSharp. Le programme ne fonctionne plus. Dans l'esprit des logiciels open source, je publie cependant la dernière version, TextPal 3.9 (principalement écrite en Ruby), au cas où l'un de ses codes ou idées bénéficierait à des projets d'autres développeurs.    
 La documentation complète se trouve dans le fichier TextPal.htm. TextPal39.zip est une archive d'une nouvelle installation de TextPal 3.9.    
-Plus d'informations sur TextPal sont extraites de son guide d'utilisation comme suit:
-TextPal est un éditeur de texte complet, convivial, puissant et à code source ouvert. Il utilise une interface Windows standard pour une application prenant en charge plusieurs fenêtres de document. Il cherche à optimiser l'efficacité des utilisateurs des lecteurs d'écran JAWS ou Window-Eyes en verbalisant automatiquement les informations pertinentes. Si ni JAWS ni Window-Eyes ne sont détectés en mémoire, TextPal utilise la voix SAPI par défaut, si disponible, qui peut être configurée via l'applet Parole du Panneau de configuration.
+Plus d'informations sur TextPal sont extraites de son guide d'utilisation comme suit:    
+TextPal est un éditeur de texte complet, convivial, puissant et à code source ouvert. Il utilise une interface Windows standard pour une application prenant en charge plusieurs fenêtres de document. Il cherche à optimiser l'efficacité des utilisateurs des lecteurs d'écran JAWS ou Window-Eyes en verbalisant automatiquement les informations pertinentes. Si ni JAWS ni Window-Eyes ne sont détectés en mémoire, TextPal utilise la voix SAPI par défaut, si disponible, qui peut être configurée via l'applet Parole du Panneau de configuration.    
 
 # Source du repository sur GitHub pour TextPal 39.zip: #
 
@@ -69,8 +69,8 @@ Les explications sont en anglais dans le fichier .zip pour exécuter le fichier 
 
 # L'éditeur de texte palsetup_fr traduit par Sof #
 
-Un traitement de texte magique! il ouvre tout les formats de fichier même le PDF ou PPS! en francais ou presque , et de plus entièrement compatible avec notre revue d'écran puisquefait par un américain aveugle! 
-[Télécharger textpal en français, en cliquant ici](http://netwalker.free.fr/share/palsetup_fr.exe)
+Un traitement de texte magique! il ouvre tout les formats de fichier même le PDF ou PPS! en francais ou presque , et de plus entièrement compatible avec notre revue d'écran puisquefait par un américain aveugle!    
+[Télécharger textpal en français, en cliquant ici](http://netwalker.free.fr/share/palsetup_fr.exe)    
 
 Note:    
 Sof, Richard, Jean-Claude et Pierre ont tout repri de ce plutôt génial programme.    
@@ -81,7 +81,7 @@ Merci à eux pour leur travail et leur dévouement.
 Je crois que même la version en français comporte les sources en Ruby!    
 
 Voilà donc, l'éditeur de texte EdSharp editor 4.0, puis les sources de TextPal  en anglais 3.9 par Jamal Mazrui et l'éditeur de texte palsetup_fr traduit par Sof!                 
-Maintenant Les ttrois réunis en un seul article!    
+Maintenant Les ttrois réunis en un seul article!😉    
 Profitez donc!    
 Bien amicalement,              
 Rémy (BlindHelp).
