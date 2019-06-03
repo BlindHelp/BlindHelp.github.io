@@ -19,10 +19,10 @@ Le dépôt sur GitHub dédié au programme portable est par la:
 Voir les instructions d'emploi en anglais sur le dépôt.    
 
 J'ai aussi mis le lien de téléchargement du programme portable depuis mon espace sur GitHub, donc le voici:    
-[]Real.rar](https://blindhelp.github.io/Real.rar)    
+[Real.rar](https://blindhelp.github.io/Real.rar)    
 N'oubliez pas de lire au préalable les instructions qui se trouvent dans le référentiel dédié au programme portable. Merci.    
 
-BlindHelp n'est pas responsable d'une mauvaise manipulation de votre part.    
+BlindHelp n'est pas responsable d'une mauvaise manipulation de votre part!    
 
 Voilà donc, nous sommes heureux que le problèmes concernant la latence audio avec un driver original de realtec  uniquement a été solutionné!                 
 Bien amicalement,              
