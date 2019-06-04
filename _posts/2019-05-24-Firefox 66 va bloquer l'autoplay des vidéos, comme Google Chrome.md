@@ -75,7 +75,7 @@ Vous pouvez ajouter manuellement une liste d’Urls, comme des sites de streamin
 4. Cochez la case "Empêcher la lecture automatique de contenus sonores"
 5. Cliquez sur "Exceptions", pour ajouter les Urls non concernées par le blocage.
 
-#Pour Mozilla Firefox avant la version 66 (y compris  les versions Extended Support Release (ESR) #
+# Pour Mozilla Firefox avant la version 66 (y compris  les versions Extended Support Release (ESR) #
 
 # Comment désactiver l'autoplay sur Mozilla Firefox #
 
@@ -86,15 +86,17 @@ Voici comment désactiver la lecture automatique de vidéo ou Autoplay sur Mozil
 Mozilla Firefox embarque aussi une fonction pour désactiver l'auto-play.    
 Là aussi, il faut aller modifier un paramètre, pour cela :    
 
-	*	 Ouvrez un nouvel onglet, dans la barre d'adresse, collez : `about:config`    
-	*	 Cliquez sur le bouton "Je prends le risque"    
-	*	 Dans la barre de recherche, copiez/collez`media.autoplay.enabled`    
-	*	 Dans le résultat, double-cliquez sur`media.autoplay.enabled` pour le passer à `False`    
-	Pour les personnes ayant un lecteur d'écran faire entrée sur:    
-	`media.autoplay.enabled par défaut booléen true`    
-	pour le passer à    
-	`media.autoplay.enabled modifié booléen false`    
-Fermer par Alt+F4.      
+* Ouvrez un nouvel onglet, dans la barre d'adresse, collez : `about:config`
+* Cliquez sur le bouton "Je prends le risque"
+* Dans la barre de recherche, copiez/collez `media.autoplay.enabled`
+* Dans le résultat, double-cliquez sur `media.autoplay.enabled` pour le passer à `False`
+
+Pour les personnes ayant un lecteur d'écran comme JAWS / NVDA faire entrée sur:    
+`media.autoplay.enabled par défaut booléen true`    
+pour le passer à:    
+`media.autoplay.enabled modifié booléen false`    
+
+Puis fermer par Alt+F4.      
 
 Voilà donc l'information comme quoi Firefox 66 va bloquer l'autoplay des vidéos, comme Google Chrome!                 
 Je dois aussi convenir que j'aime ce changement.    
