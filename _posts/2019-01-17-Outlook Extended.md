@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Vendredi  8 Mars 2019</footer>
+<footer>Dernière modification Lundi 8 Juillet 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -15,7 +15,7 @@ Merci Cyrille! 😃
 # Outlook extended
 
 * Auteurs: Cyrille Bougot, Ralf Kefferpuetz
-* Compatibilité NVDA: 2018.3 à 2019.1
+* Compatibilité NVDA: 2018.3 à 2019.2
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
@@ -55,8 +55,8 @@ Cette extension a été testé avec Microsoft Outlook 2016 et 2013.
 # Plus d'informations sur Outlook Extended
 
     Type: Extensions
-    Dernière mise à jour: 8 Mars 2019
-    Version actuelle: 1.1 (version stable)
+    Dernière mise à jour: 8 Juillet 2019
+    Version actuelle: 1.2 (version stable)
 
 Retrouver l'extension [Outlook extended](https://addons.nvda-project.org/addons/outlookExtended.fr.html) sur le site comunautaire des Extensions NVDA             
 
