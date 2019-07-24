@@ -17,6 +17,7 @@ du 23 juillet qu'il vient d'être publié sur la page des:
 
 [Windows 10 App Essentials sur la page principale du site comunautaire des extensions NVDA](https://addons.nvda-project.org/addons/wintenApps.fr.html)
 [Télécharger version stable](https://addons.nvda-project.org/files/get.php?file=w10)
+
 Compatibilité NVDA: 2018.4 à 2019.2    
 
 ---
