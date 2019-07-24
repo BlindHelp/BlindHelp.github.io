@@ -32,9 +32,9 @@ Lorsque cette case est cochée vous aurez la possibilité de recevoir une notifi
 
 Pour le moment, cette notification vous indiquera d’aller dans le menu NVDA, Outils, Rechercher les mises à jour des extensions    
 C'est simplement informatif et vous ne pouvez pas invoquer des actions à partir du Centre de notifications    
-WXPython commence à intégrer la prise en charge des actions dans les notifications de la version 4.1.0, qui est toujours en développement et qu'il faudra du temps pour atteindre NVDA. Si l'expérience réussit, Joseph Lee activera cette fonction par défaut dans la prochaine version de Add-on Updater.    
+WXPython commence à intégrer la prise en charge des actions dans les notifications de la version 4.1.0, qui est toujours en développement et qu'il faudra du temps pour atteindre NVDA.    
 
-# Quelques informations utiles données par son auteur Joseph Lee  en anglais #
+# Quelques informations utiles données par son auteur Joseph Lee  traduit de l'anglais vers le français #
 
 
 Quelques points à noter:             
