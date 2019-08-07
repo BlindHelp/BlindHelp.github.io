@@ -25,6 +25,7 @@ Ici, je vous apporte les étapes pour créer votre fichier XSPF avec VLC pas à 
 9. Pour choisir dans quel dossier l'enregistrer, continuez d'appuyer sur Tab jusqu'à la liste d'arborescence et choisissez l'endroit où vous voulez le sauvegarder.
 10. Appuyez sur Tab jusqu'à le bouton Enregistrer, puis appuyez sur Entrée.
 11. Pour le lire, appuyez simplement sur Entrée sur le fichier XSPF et VLC commencera la lecture bien sûr (si c'est votre lecteur par défaut, sinon appuyez sur la touche Applications, appuyez sur flèche bas jusqu'à l'option Ouvrir avec, appuyez sur Entrée ou flèche droite puis localiser VLC media player, et appuyez sur Entrée).
+
 Note:    
 Si, lors de la lecture, les stations de radio sont répétées, appuyez sur Ctrl+L pour afficher la liste de lecture, puis appuyez sur Tab pour accéder à la liste des stations de radio, appuyez sur la flèche bas et appuyez sur la touche Suppr pour les stations de radio répétées. Enregistrez à nouveau la liste de lecture.
 
