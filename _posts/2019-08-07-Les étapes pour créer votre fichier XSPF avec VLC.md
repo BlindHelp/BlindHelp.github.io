@@ -7,8 +7,8 @@ author: BlindHelp
 
 <footer>Mercredi 7 Août  2019</footer>
 
-Coucou mes amis du blog de BlindHelp!
-Ici, je vous apporte les étapes pour créer votre fichier XSPF avec VLC pas à pas, puis ensuite viendra la partie pour ajouter ces flux radio sur notre Lecteur multimédia VLC et ensuite de  lire cette liste de lecture que vous venez de créer, alors profitez-en!
+Coucou mes amis du blog de BlindHelp!    
+Ici, je vous apporte les étapes pour créer votre fichier XSPF avec VLC pas à pas, puis ensuite viendra la partie pour ajouter ces flux radio sur notre Lecteur multimédia VLC et ensuite de  lire cette liste de lecture que vous venez de créer, alors profitez-en!    
 
 ## Les étapes pour créer votre fichier XSPF avec VLC. ##
 
@@ -25,8 +25,8 @@ Ici, je vous apporte les étapes pour créer votre fichier XSPF avec VLC pas à 
 9. Pour choisir dans quel dossier l'enregistrer, continuez d'appuyer sur Tab jusqu'à la liste d'arborescence et choisissez l'endroit où vous voulez le sauvegarder.
 10. Appuyez sur Tab jusqu'à le bouton Enregistrer, puis appuyez sur Entrée.
 11. Pour le lire, appuyez simplement sur Entrée sur le fichier XSPF et VLC commencera la lecture bien sûr (si c'est votre lecteur par défaut, sinon appuyez sur la touche Applications, appuyez sur flèche bas jusqu'à l'option Ouvrir avec, appuyez sur Entrée ou flèche droite puis localiser VLC media player, et appuyez sur Entrée).
-Note
-Si, lors de la lecture, les stations de radio sont répétées, appuyez sur Ctrl+L pour afficher la liste de lecture, puis appuyez sur Tab pour accéder à la liste des stations de radio, appuyez sur la flèche bas et appuyez sur la touche Suppr pour les stations de radio répétées. Enregistrez à nouveau la liste de lecture
+Note:    
+Si, lors de la lecture, les stations de radio sont répétées, appuyez sur Ctrl+L pour afficher la liste de lecture, puis appuyez sur Tab pour accéder à la liste des stations de radio, appuyez sur la flèche bas et appuyez sur la touche Suppr pour les stations de radio répétées. Enregistrez à nouveau la liste de lecture.
 
 # Si vous voulez en savoir plus sur VLC, vous pouvez visiter le lien suivant: #
 [VLC: Site officiel - Des solutions multimédias libres pour tous les OS ! - VideoLAN](https://www.videolan.org/)
@@ -51,9 +51,9 @@ Si, lors de la lecture, les stations de radio sont répétées, appuyez sur Ctrl
 
 Voilà, c'est fini ! (whew) Comme dirait l'autre!
 
-Amusez-vous bien! :)
-Sur ce je vous souhaite une bonne écoute des vos flux radios avec VLC media player!
-Voici le nouvel espace de BlindHelp via GitHub que est aussi le votre!
-[https://blindhelp.github.io](https://blindhelp.github.io)
-@+
-BlindHelp!
+Amusez-vous bien! :)    
+Sur ce je vous souhaite une bonne écoute des vos flux radios avec VLC media player!    
+Voici le nouvel espace de BlindHelp via GitHub que est aussi le votre!    
+[https://blindhelp.github.io](https://blindhelp.github.io)    
+@+    
+BlindHelp!    
