@@ -17,7 +17,7 @@ où vous pouvez obtenir une liste de lecture avec les URL et le format pour les 
 # By country #
 Si vous avez cliqué sur le lien nommé ["By country"](http://www.radio-browser.info/gui/#!/countries),     
 Une fois la page ouverte, choisire votre pays sous forme de lien, par exemple on trouve le lien nommé "France (1606)", appuyez sur Entrée afin que vous puissiez choisir le type de liste de lecture à télécharger.    
-Dans ce cas de figure ni la langue, ni le genre, ni le type de codec utilisé lors de la diffusion du flux radio par la station de radio ne sont pris en compte au moment où vous avez sélectionné cette liste de lecture pour la télécharger, seulement le pays que vous avez choisi.    
+Dans ce cas de figure ni la langue, ni le genre, ni le type de codec utilisé sont pris en compte au moment où vous avez sélectionné la catégorie By country, seulement le pays que vous avez choisi.    
 
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:    
@@ -37,7 +37,7 @@ playlist.pls
 # By language #
 Si vous avez cliqué sur le lien nommé ["By language"](http://www.radio-browser.info/gui/#!/languages),    
 Une fois la page ouverte, choisire votre langue sous forme de lien, par exemple on trouve le lien nommé "french (1636)", , appuyez sur Entrée afin que vous puissiez choisir le type de liste de lecture à télécharger.    
-Dans ce cas de figure ni le pays, ni le genre, ni le type de codec utilisé lors de la diffusion du flux radio par la station de radio ne sont pris en compte au moment où vous avez sélectionné cette liste de lecture pour la télécharger, seulement la langue que vous avez choisie.    
+Dans ce cas de figure ni le pays, ni le genre, ni le type de codec utilisé sont pris en compte au moment où vous avez sélectionné la catégorie By language, seulement la langue que vous avez choisie.    
 
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:    
@@ -58,7 +58,7 @@ playlist.pls
 Si vous choisissez le lien nommé ["By tag"](http://www.radio-browser.info/gui/#!/tags),     
 Une fois la page ouverte, vous pouvez trouver de nombreux genres musicaux, ils sont mélangé, mais vous trouverez ce que vous recherchez :) pour ma part j'ai trouvé le lien. nommé "jazz (555)", , appuyez sur Entrée afin que vous puissiez choisir le type de liste de lecture à télécharger.    
 Note: Selon le genre sélectionné, vous trouverez les flux de radio des stations de radio qui diffusent ledit genre de musique.    
-Dans ce cas de figure ni le pays, ni la langue, ni le type de codec utilisé lors de la diffusion du flux radio par la station de radio ne sont pris en compte au moment où vous avez sélectionné cette liste de lecture pour la télécharger, seulement le genre que vous avez choisi.    
+Dans ce cas de figure ni le pays, ni la langue, ni le type de codec utilisé sont pris en compte au moment où vous avez sélectionné la catégorie By tag, seulement le genre que vous avez choisi.    
 
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:     
@@ -91,7 +91,7 @@ UNKNOWN,H.264 (8)
 Une fois que vous avez choisi le type de codec sous forme de lien, appuyez sur Entrée afin que vous puissiez choisir le type de liste de lecture à télécharger.
 
 Note: Selon le type de codec sélectionné, vous trouverez les flux de radio des stations de radio qui diffusent avec ce type de codec.    
-Dans ce cas de figure ni le pays, ni la langue, ni le genre utilisé lors de la diffusion du flux radio par la station de radio ne sont pris en compte au moment où vous avez sélectionné cette liste de lecture pour la télécharger, seulement le type de codec que vous avez choisi.    
+Dans ce cas de figure ni le pays, ni la langue, ni le genre utilisé sont pris en compte au moment où vous avez sélectionné la catégorie By codec, seulement le type de codec que vous avez choisi.    
 
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:     
@@ -130,14 +130,16 @@ Ci-dessous vous trouverez le bouton nommé:
 Vote    
 Il me semble que c'est pour voter pour la popularité de la radio, je ne l'ai pas vraiment vu en profondeur.    
 Ci-dessous vous trouverez le bouton nommé:    
-History
+History    
 Une fois cliqué sur ce bouton, vous pouvez consulter l'historique du flux radio associé au flux radio que vous avez sélectionné.    
 Vous trouverez par exemple les sintaxes en anglais: nom, url, homepage, tag, country, state, language etc.     
 
-Vous trouverez également en haut de la page le bouton nommé "By popularity", ànotez que ces flux radio sont classés par clics, par vote, récemment joué, récemment changé, ensuite  il suffit d'appuyez sur le bouton nommé "By popularity", appuyez sur la barre d'espacement, lorsque cette option est développé, choisir avec les flèches haut ou bas une de ces quatre catégories sous forme de lien:    
+Vous trouverez également en haut de la page le bouton nommé "By popularity", je pense que le choix des flux de stations de radio est basé sur sa popularité sur le site Web, ànotez que ces flux radio sont classés par clics, par vote, récemment joué, récemment modifié, ensuite  il suffit d'appuyez sur le bouton nommé "By popularity", appuyez sur la barre d'espacement, lorsque cette option est développé, choisir avec les flèches haut ou bas une de ces quatre catégories sous forme de lien:    
 
 # By clicks #
 Si vous avez cliqué sur le lien nommé ["By clicks"](http://www.radio-browser.info/gui/#!/topclick),    
+Ici, vous ne pouvez rien choisir, je pense que la liste de lecture à télécharger contient les stations de radio qui ont plus de clicks sur le site Web.
+
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:     
 puis appuyez avec la touche Entrée sur   l'une des trois format existantes sous forme de lien:     
@@ -151,6 +153,8 @@ Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre p
 
 # By vote #
 Si vous avez cliqué sur le lien nommé ["By vote"](http://www.radio-browser.info/gui/#!/topvote),    
+Ici, vous ne pouvez rien choisir, je pense que la liste de lecture à télécharger contient les stations de radio qui ont plus de votes sur le site Web.
+
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:     
 puis appuyez avec la touche Entrée sur   l'une des trois format existantes sous forme de lien:     
@@ -164,6 +168,8 @@ Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre p
 
 # Lately played #
 Si vous avez cliqué sur le lien nommé ["Lately played"](http://www.radio-browser.info/gui/#!/lastclick),    
+Ici, vous ne pouvez rien choisir, je pense que la liste de lecture à télécharger contient les stations de radio qui ont été récemment jouées sur le site Web.
+
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:     
 puis appuyez avec la touche Entrée sur   l'une des trois format existantes sous forme de lien:     
@@ -177,6 +183,8 @@ Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre p
 
 # Lately changed #
 Si vous avez cliqué sur le lien nommé ["Lately changed"](http://www.radio-browser.info/gui/#!/lastchange),    
+Ici, vous ne pouvez rien choisir, je pense que la liste de lecture à télécharger contient les stations de radio qui ont été récemment modifiées sur le site Web.
+
 Une fois la page ouverte, choisissez le type de playlist à télécharger, il faut aller au début de la page puis rechercher le titre en anglais:    
 Save current list as playlist for your media player:     
 puis appuyez avec la touche Entrée sur   l'une des trois format existantes sous forme de lien:     
@@ -239,7 +247,7 @@ Previous
 Next    
 Last    
 
-Note: les nombres indiquent le nombre de pages avec le résultat toujours dans un tableau.    
+Note: les nombres indiquent le numéro de pages avec les résultats trouvés, toujours dans un tableau.    
 
 Si vous cliquez sur le lien nommé:    
 New station    
@@ -260,6 +268,7 @@ Tags
 
 Ensuite, il y a un bouton, qui n'est pas étiqueté, ou annoncé par le lecteur d'écran.     
 
+Et après vous trouverez le message suivant:       
 Please press ENTER or click  after every single tag to add it!    
  =S'il vous plaît appuyez sur ENTRÉE ou cliquez après chaque balise (tag) pour l'ajouter!    
 
@@ -271,9 +280,11 @@ Je n'ai pas essayé cette partie, je vous la donne seulement à titre indicatif.
 Voici un autre lien nommé "Developer API" qui est aussi en haut de la page.    
 Si vous êtes programmeur, je pense que ce lien peut vous intéresser!    
 
-Il existe également d'autres liens sur la page Web, mais la vérité, je n'ai expliqué dans ce tutoriel que ce qui peut nous intéresser, soit pour télécharger une liste de lecture et la lire avec votre lecteur préféré, soit pour créer votre propre liste de lecture!    
+Il existe également d'autres liens sur la page Web, mais la vérité, je n'ai expliqué dans ce tutoriel que ce qui peut nous intéresser, soit pour télécharger une liste de lecture et la lire avec votre lecteur préféré, soit pour créer votre propre liste de lecture  en utilisant les flux des stations de radio trouvées sur ce site Web! 😉    
 
-# Source de la page en anglais: #
+[Si vous voulez savoir comment créer votre propre liste de lecture avec vos stations préférées en utilisant VLC, vous pouvez consulter l'article suivant sur BlindHelp.github.io:](https://blindhelp.github.io/Les-%C3%A9tapes-pour-cr%C3%A9er-votre-fichier-XSPF-avec-VLC/)
+
+# Source de la page en anglais dans lequel j'ai été inspiré pour faire cet article #
 [Community Radio Browser](http://www.radio-browser.info/gui/#!/)
 
 Voilà, c’est fini ! (whew) Comme dirait l’autre!    
