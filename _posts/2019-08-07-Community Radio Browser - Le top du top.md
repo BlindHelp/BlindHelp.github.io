@@ -26,13 +26,15 @@ PLS
 M3U    
 XSPF    
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
 
-[Voici notre sélection utilisée dans l'exemple pour vous, France (1606), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bycountryexact/France)    
+Voici notre sélection utilisée dans l'exemple pour vous, [France (1606), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bycountryexact/France)    
 Nom du fichier:    
 playlist.pls    
+
+Veuillez modifier le nom du fichier en écrivant un nom plus approprié pour éviter toute confusion. 😔
 
 # By language #
 Si vous avez cliqué sur le lien nommé ["By language"](http://www.radio-browser.info/gui/#!/languages),    
@@ -46,13 +48,15 @@ PLS
 M3U    
 XSPF    
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
 
-[Voici notre sélection utilisée dans l'exemple pour vous, french (1636), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bylanguageexact/french)    
+Voici notre sélection utilisée dans l'exemple pour vous, [french (1636), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bylanguageexact/french)    
 Nom du fichier:    
 playlist.pls    
+
+Veuillez modifier le nom du fichier en écrivant un nom plus approprié pour éviter toute confusion. 😔
 
 # By tag #
 Si vous choisissez le lien nommé ["By tag"](http://www.radio-browser.info/gui/#!/tags),     
@@ -67,13 +71,15 @@ PLS
 M3U    
 XSPF     
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
 
-[Voici notre sélection utilisée dans l'exemple pour vous, jazz (555), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bytagexact/jazz)    
+Voici notre sélection utilisée dans l'exemple pour vous, [jazz (555), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bytagexact/jazz)    
 Nom du fichier:    
 playlist.pls    
+
+Veuillez modifier le nom du fichier en écrivant un nom plus approprié pour éviter toute confusion. 😔
 
 # By codec #
 Si vous choisissez le lien nommé ["By codec"](http://www.radio-browser.info/gui/#!/codecs),    
@@ -100,13 +106,15 @@ PLS
 M3U    
 XSPF    
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
 
-[Voici notre sélection utilisée dans l'exemple pour vous, MP3 (15757), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bycodecexact/MP3)
+Voici notre sélection utilisée dans l'exemple pour vous, [MP3 (15757), playlist format PLS:](http://www.radio-browser.info/webservice/pls/stations/bycodecexact/MP3)    
 Nom du fichier:    
 playlist.pls    
+
+Veuillez modifier le nom du fichier en écrivant un nom plus approprié pour éviter toute confusion. 😔
 
 # Écoute de votre liste de lecture contenant vos flux sur la page Web #
 Vous pouvez également écouter les flux radio sur cette page, en fonction de la sélection que vous avez choisie dans la playlist, voir le tableau présent sur cette page.    
@@ -147,9 +155,11 @@ PLS
 M3U    
 XSPF    
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.    
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒    
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
+
+N'oubliez pas de modifier le nom du fichier téléchargé pour éviter toute confusion! :)
 
 # By vote #
 Si vous avez cliqué sur le lien nommé ["By vote"](http://www.radio-browser.info/gui/#!/topvote),    
@@ -162,9 +172,11 @@ PLS
 M3U    
 XSPF    
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
+
+N'oubliez pas de modifier le nom du fichier téléchargé pour éviter toute confusion! :)
 
 # Lately played #
 Si vous avez cliqué sur le lien nommé ["Lately played"](http://www.radio-browser.info/gui/#!/lastclick),    
@@ -177,9 +189,11 @@ PLS
 M3U    
 XSPF    
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
+
+N'oubliez pas de modifier le nom du fichier téléchargé pour éviter toute confusion! :)
 
 # Lately changed #
 Si vous avez cliqué sur le lien nommé ["Lately changed"](http://www.radio-browser.info/gui/#!/lastchange),    
@@ -192,9 +206,11 @@ PLS
 M3U    
 XSPF    
 
-Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas pour moi.
+Nous vous recommandons de télécharger le fichier au format PLS/M3U pour lire cette playlist. Le format XSPF ne fonctionne pas chez moi. 😒
 
 Ensuite, une boîte de dialogue d'enregistrement classique de Windows  s'ouvre pour vous permettre de sauvegarder votre fichier contenant la playlist sur votre disque dur. Une fois le téléchargement terminé, vous pouvez le lire avec votre lecteur préféré. Dans mon cas j'utilise le lecteur VLC media player 😊
+
+N'oubliez pas de modifier le nom du fichier téléchargé pour éviter toute confusion! :)
 
 # Écoute de votre liste de lecture contenant vos flux sur la page Web #
 Vous pouvez également écouter les flux radio sur cette page, en fonction de la sélection que vous avez choisie dans la playlist, voir le tableau présent sur cette page.    
@@ -278,11 +294,11 @@ Save
 Je n'ai pas essayé cette partie, je vous la donne seulement à titre indicatif.    
 
 Voici un autre lien nommé "Developer API" qui est aussi en haut de la page.    
-Si vous êtes programmeur, je pense que ce lien peut vous intéresser!    
+Si vous êtes programmeur, peut-être que ce lien vous intéressera! 😀   
 
 Il existe également d'autres liens sur la page Web, mais la vérité, je n'ai expliqué dans ce tutoriel que ce qui peut nous intéresser, soit pour télécharger une liste de lecture et la lire avec votre lecteur préféré, soit pour créer votre propre liste de lecture  en utilisant les flux des stations de radio trouvées sur ce site Web! 😉    
 
-[Si vous voulez savoir comment créer votre propre liste de lecture avec vos stations préférées en utilisant VLC, vous pouvez consulter l'article suivant sur BlindHelp.github.io:](https://blindhelp.github.io/Les-%C3%A9tapes-pour-cr%C3%A9er-votre-fichier-XSPF-avec-VLC/)
+Si vous voulez savoir comment créer votre propre liste de lecture avec vos stations préférées en utilisant VLC, vous pouvez consulter [l'article suivant sur BlindHelp.github.io:](https://blindhelp.github.io/Les-%C3%A9tapes-pour-cr%C3%A9er-votre-fichier-XSPF-avec-VLC/)
 
 # Source de la page en anglais dans lequel j'ai été inspiré pour faire cet article #
 [Community Radio Browser](http://www.radio-browser.info/gui/#!/)
