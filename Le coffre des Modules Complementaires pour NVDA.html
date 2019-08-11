@@ -16,7 +16,7 @@
 <source src="https://blindhelp.github.io/sweep.wav" type="audio/wav" />
 </audio>
 <footer>
-Derni&#232;re mise &#224; jour le Lundi 15 Juillet 2019
+Derni&#232;re mise &#224; jour le Samedi 10 Ao&#251;t 2019
 </footer>
 <hr />
 <h1 id="le-coffre-des-extensions-pour-nvda">Le coffre des Extensions pour NVDA</h1>
@@ -152,7 +152,7 @@ Vous pouvez installer une extension en proc&#233;dant comme suit.</p>
 <li><a href="#mp3DirectCut-19.07.nvda-addon">Mp3DirectCut</a></li>
 <li><a href="#noBeepsSpeechMode-2.3.nvda-addon">noBeepsSpeechMode</a></li>
 <li><a href="#NotepadPlusPlus-1.2-dev.nvda-addon">NotepadPlusPlus</a></li>
-<li><a href="#NVDAExtensionGlobalPlugin_8.0.nvda-addon">NVDAExtensionGlobalPlugin</a></li>
+<li><a href="#NVDAExtensionGlobalPlugin_8.1.nvda-addon">NVDAExtensionGlobalPlugin</a></li>
 <li><a href="#OBJSounds%20(KevanGC%20Version).nvda-addon">OBJSounds (KevanGC Version)</a></li>
 <li><a href="#objsounds.nvda-addon">objsounds</a></li>
 <li><a href="#ocr_0.20120529.01.nvda-addon">OCR</a></li>
@@ -788,6 +788,15 @@ synth&#233;tiseur. </code></pre>
 <p><a href="https://blindhelp.github.io/eloquence-autoLanguageSwitching.nvda-addon">T&#233;l&#233;charger l'extension eloquence-autoLanguageSwitching.nvda-addon [via BlindHelp.github.io]</a></p>
 <pre><code>Et la derni&#232;re version compatible avec la prochaine version de NVDA 2019.1.</code></pre>
 <p><a href="https://www.nvda-fr.org/voix/%C3%89loquence-2018.11.17.nvda-addon">T&#233;l&#233;charger l'extension &#201;loquence-2018.11.17.nvda-addon [lien externe]</a></p>
+<p>Pour ceux qui aiment bien tester les versions alpha de NVDA, vous avez probablement constat&#233; que l'extension Eloquence est devenue incompatible avec celles-ci.</p>
+<p>Voici une version de l'extension &#224; la fois compatible avec les versions stables et les versions alpha de NVDA.</p>
+<p><a href="http://msuch.free.fr/EloquenceAutoLanguageSwitching.nvda-addon">Vous pouvez la t&#233;l&#233;charger ici:</a></p>
+<p>Merci &#224; Michel Such! &#128569;</p>
+<p>Derni&#232;re mise &#224; jour: 2 Ao&#251;t 2019</p>
+<p>Ceux qui utilisent les snapshots alpha de NVDA ont sans doute pu remarqu&#233; qu'il est impossible de la mettre &#224; jour.</p>
+<p><a href="https://ci.appveyor.com/api/buildjobs/vg63itgyy5xrff9m/artifacts/nvda_snapshot_alpha-18266%2C1af87759.exe">Voici donc le lien directe pour t&#233;l&#233;charger la derni&#232;re alpha :</a></p>
+<p>Merci &#224; Patrick ZAJDA! &#128569;</p>
+<p>Derni&#232;re mise &#224; jour: 2 Ao&#251;t 2019</p>
 <p><a href="#extensions">Retour aux extensions</a></p>
 <h1 id="emoticons">Emoticons <a id="emoticons-10.0.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
@@ -1402,110 +1411,106 @@ C'est la commande d'avant.</p>
 <p>Remarque: red&#233;marrer NVDA si il n'a pas le focus sur l'application.</p>
 <p>Voila pour l'astuce.</p>
 <p><a href="#extensions">Retour aux extensions</a></p>
-<h1 id="nvdaextensionglobalplugin">NVDAExtensionGlobalPlugin <a id="NVDAExtensionGlobalPlugin_8.0.nvda-addon"></a></h1>
+<h1 id="nvdaextensionglobalplugin">NVDAExtensionGlobalPlugin <a id="NVDAExtensionGlobalPlugin_8.1.nvda-addon"></a></h1>
 <pre><code>Type: Extensions
 Extension des commandes de base de NVDA
-Description: Cette extension ajoute &#224; NVDA:</code></pre>
-<p>1- Les fonctionnalit&#233;s suivantes (certaines peuvent &#234;tre activ&#233;es ou d&#233;sactiv&#233;es individuellement):</p>
+Description: </code></pre>
+<p>Cette extension a &#233;t&#233; d&#233;velopp&#233; avec la participation de Daniel Poiraud.</p>
+<p>Elle n'est pas compatible avec les versions de NVDA inf&#233;rieures &#224; la 2018.3.2.</p>
+<p>Elle ajoute &#224; NVDA:</p>
+<h2 id="les-fonctionnalit&#233;s">Les fonctionnalit&#233;s</h2>
+<p>Certaines fonctionnalit&#233;s peuvent &#234;tre activ&#233;es ou d&#233;sactiv&#233;es individuellement.</p>
 <ul>
-<li>Affichage de la liste des ic&#244;nes de la zone de notification,<br />
-</li>
-<li>Affichage de la liste des fen&#234;tres des applications lanc&#233;es,<br />
-</li>
-<li>Aide &#224; la composition d'un symbole complexe comme par exemple, un a e li&#233;, un symbole puissance 2 et possibilit&#233; d'ajouter ses propres cat&#233;gories et symboles,<br />
-</li>
+<li>Affichage de la liste des ic&#244;nes de la zone de notification,</li>
+<li>Affichage de la liste des fen&#234;tres des applications lanc&#233;es,</li>
+<li>Aide &#224; la composition d'un symbole complexe comme par exemple, un a e li&#233;, un symbole puissance 2 et possibilit&#233; d'ajouter ses propres cat&#233;gories et symboles,</li>
 <li><p>Extension des fonctionnalit&#233;s du tampon virtuel pour les navigateurs Mozilla Firefox, Microsoft Internet Explorer, Microsoft Edge et Google Chrome:</p>
 <ul>
-<li>commandes pour le mode navigation (paragraphe, division, ancre, r&#233;gion principale),<br />
-</li>
-<li>nouveaux types d'&#233;l&#233;ments pour la boite de dialogue ouverte par &quot;NVDA+F7&quot; (titre,rep&#232;re, cadre, bouton,etc) avec annonce du nombre d'&#233;l&#233;ments trouv&#233;s,<br />
-</li>
-<li>commandes pour les tableaux: annoncer les cellules d'une ligne /colonne , aller &#224; la premi&#232;re/derni&#232;re cellule de la ligne/colonne courante, se d&#233;placer &#224; la colonne/ligne pr&#233;c&#233;dente ou suivante avec annonce possible des cellules de la ligne/colonne,<br />
-</li>
-<li>annonce de l'adresse URL du document,<br />
-</li>
+<li>commandes pour le mode navigation (paragraphe, division, ancre, r&#233;gion principale),</li>
+<li>nouveaux types d'&#233;l&#233;ments pour la boite de dialogue ouverte par &quot;NVDA+F7&quot; (bouton radio, paragraphe, cadre, case &#224; cocher, etc) avec annonce du nombre d'&#233;l&#233;ments trouv&#233;s,</li>
+<li>commandes pour les tableaux:
+<ul>
+<li>annoncer les cellules d'une ligne /colonne, aller &#224; la premi&#232;re/derni&#232;re cellule de la ligne/colonne courante, se d&#233;placer &#224; la colonne/ligne pr&#233;c&#233;dente ou suivante avec annonce possible des cellules de la ligne/colonne,</li>
+</ul></li>
+<li>annonce de l'adresse URL du document,</li>
 <li>navigation en boucle,</li>
 </ul></li>
-<li>Annonce de la fonction associ&#233;e aux commandes d'&#233;dition<br />
-du style Copier, Coller, etc ,<br />
-</li>
-<li>Annonce du nom du dossier pr&#233;s&#233;lectionn&#233; dans les boites de dialogue du style &quot;Ouvrir&quot;,&quot;Enregistrer&quot;, &quot;Enregistrer sous&quot;,etc,<br />
-</li>
-<li><p>rapport ou afichage des informations sur l'application sous le focus:</p>
+<li>Annonce de la fonction associ&#233;e aux commandes d'&#233;dition du style Copier, Coller, &#8230;,</li>
+<li>Annonce du nom du dossier pr&#233;s&#233;lectionn&#233; dans les boites de dialogue du style &quot;Ouvrir&quot;, &quot;Enregistrer&quot;, &quot;Enregistrer sous&quot;,&#8230;,</li>
+<li>affichage d'informations sur l'application sous le focus:
 <ul>
-<li>Annonce du profil de configuration courant,<br />
-</li>
-<li>Annonce du nom et num&#233;ro de version de l'application,<br />
-</li>
-<li>annonce de l'extension actif associ&#233; &#224; l'application,</li>
+<li>le nom et num&#233;ro de version de l'application,</li>
+<li>le profil de configuration courant,</li>
 </ul></li>
-<li>Ouverture du journal ancien ou courant de NVDA et copie du chemin de ce dernier dans le presse-papier,<br />
-</li>
-<li>historique des annonces vocales,<br />
-</li>
-<li>pr&#233;sentation du formatage du texte dans une boite de dialogue (d&#233;sactiv&#233; par d&#233;faut (commande clavier NVDA+f),<br />
-</li>
-<li>renommage des touches clavier,<br />
-</li>
-<li>annonce s&#233;lective des touches de commandes,<br />
-</li>
-<li>simple minuterie,<br />
-</li>
-<li>affichage des &#233;l&#233;ments visibles composant l'objet en avant plan,<br />
-</li>
-<li>commutation rapide de profil vocal,<br />
-</li>
-<li>remanence des touches de modification,<br />
-</li>
-<li>arr&#234;ter, red&#233;marrer ou mettre en veille prolong&#233; l'ordinateur,<br />
-</li>
+<li><p>l'extension active associ&#233;e &#224; l'application,</p></li>
+<li>outils pour les journaux de NVDA:
+<ul>
+<li>ouverture du journal ancien ou courant,</li>
+<li>copie du chemin du journal courant dans le presse-papier,</li>
+</ul></li>
+<li>historique des annonces vocales,</li>
+<li>renommage des touches clavier,</li>
+<li>annonce s&#233;lective des touches de commandes,</li>
+<li>simple minuterie,</li>
+<li>affichage des &#233;l&#233;ments visibles composant l'objet en avant plan,</li>
+<li>commutation rapide de profil vocal,</li>
+<li>r&#233;manence des touches de modification,</li>
+<li>arr&#234;ter, red&#233;marrer ou mettre en veille prolong&#233; l'ordinateur,</li>
 <li>controle du volume principal et de NVDA:
 <ul>
 <li>coupure ou remise du son pour l'application focalis&#233;e,</li>
-<li>&#233;tablissement du volume principal ou de NVDA au d&#233;marrage de l'extension.</li>
-<li>convertion en html des fichiers t2t ou markdown de documentation des extensions install&#233;s (pour d&#233;veloppeur).</li>
+<li>&#233;tablissement du volume principal ou de NVDA au d&#233;marrage de l'extension,</li>
+<li>modifier le volume principal ou du flux audio de l'application sous le focus,</li>
 </ul></li>
+<li>Outils pour le d&#233;veloppement d'extensions,</li>
+<li><p>Compl&#233;ments concernant la date et l'heure: copie de la date et de l'heure dans le presse-papier, annonce de l'heure avec les secondes.</p></li>
 </ul>
-<p>2- Les options suivantes:</p>
+<h2 id="les-options">Les options</h2>
 <ul>
-<li>supprimer l'annonce de la description des objets dans les rubans Windows,<br />
-</li>
-<li>annoncer le mot focalis&#233; lors d'une suppression de mot,<br />
-</li>
-<li>agrandir automatiquement les fen&#234;tres au premier plan,<br />
-</li>
-<li>annoncer des ponctuations et symboles lors de d&#233;placement par mot .</li>
+<li>supprimer l'annonce de la description des objets dans les rubans Windows,</li>
+<li>annoncer le mot focalis&#233; lors d'une suppression de mot,</li>
+<li>agrandir automatiquement les fen&#234;tres au premier plan,</li>
+<li>annoncer des ponctuations et symboles lors de d&#233;placement par mot.</li>
 </ul>
-<p>3- Les options avanc&#233;es suivantes:</p>
+<h2 id="les-options-avanc&#233;es">Les options avanc&#233;es</h2>
 <ul>
-<li>signaler, par un son, l'inscription d'une erreur dans le journal aussi pour les versions finales et release candidate de NVDA.</li>
+<li>signaler, par un son, l'inscription d'une erreur dans le journal aussi pour les versions finales et release candidate de NVDA,</li>
+<li>Titrer les dialogues avec le nom de l'extension,</li>
+<li>Ne pas tenir compte de l'option Annoncer la description de l'objet lors de l&#8217;affichage des boites de dialogue du style confirmation,</li>
+<li>utiliser les touches du pav&#233; num&#233;rique comme touche de direction.</li>
 </ul>
-<p>4- et divers autres &#233;l&#233;ments comme:</p>
+<h2 id="divers-autres-&#233;l&#233;ments">Divers autres &#233;l&#233;ments</h2>
 <ul>
-<li>sous-menus pour explorer les dossiers programme ou de configuration,<br />
-</li>
+<li>pr&#233;sentation de la mise en forme du texte dans une boite de dialogue,</li>
+<li>sous-menus pour explorer les dossiers programme ou de configuration,</li>
 <li>script pour red&#233;marrer rapidement NVDA.</li>
 </ul>
-<p>Cette extension a &#233;t&#233; d&#233;velopp&#233;e avec la participation de Daniel Poiraud.<br />
-Elle n'est pas compatible avec les versions de NVDA inf&#233;rieures &#224; la 2018.3.2.</p>
 <p>Important!!!<br />
 Avant d'installer cette extension, supprimer toutes les installation de l'extension Global Plugin &quot;liste des fen&#234;tres&quot; et l'extensions &quot;fakeClipboardAnouncement&quot; car cette version les inclut.<br />
 Attention: Cette extension n'est pas compatible avec les versions de NVDA ant&#233;rieures &#224; la version 2018.3.2.<br />
 La configuration de la fonctionnalit&#233; &quot;Commutation de profil vocal&quot; ayant chang&#233;e depuis la version 8 de l'extension, celle-ci est effac&#233;e lors d'une mise &#224; jour &#224; partir d'une version de l'extension plus ancienne. Tous les s&#233;lecteurs sont lib&#233;r&#233;s et les profils vocaux associ&#233;s sont supprim&#233;s.<br />
 Pour info: L'historique des versions de cette extension est dans le fichier &quot;change.html&quot;, consultable via le lien qui est dans l'aide de l'extension: &quot;Extension des commandes de base de NVDA - manuel utilisateur&quot;<br />
 Auteur : Paul de la liste scriptNVDA<br />
-Version : 8.0<br />
-Langues: Anglais, Fran&#231;ais Espagnol.<br />
-Traduit partiellement en espagnol par R&#233;my Ruiz, modifications et corrections de Carlos Esteban Mart&#237;nez Mac&#237;as<br />
-Derni&#232;re mise &#224; jour: 15 Mars 2019</p>
-<p><a href="https://rawgit.com/paulber007/AllMyNVDAAddons/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-8.0.nvda-addon">T&#233;l&#233;charger l'extension NVDAExtensionGlobalPlugin_8.0.nvda-addon par ici: [lien externe]</a></p>
+Version : 8.1<br />
+Langues: Anglais, Arabe, Fran&#231;ais, Espagnol, Portugais et Turque.</p>
+<p>Remerciements aux traducteurs pour leur contribution:</p>
+<ul>
+<li>R&#233;my pour l'espagnol,</li>
+<li>Rui pour le portugais,</li>
+<li>Wafiq pour l'arabe,</li>
+<li><p>&#199;a&#287;ri pour le Turc.</p>
+<p>Derni&#232;re mise &#224; jour: 10 Ao&#251;t 2019</p></li>
+</ul>
+<p><a href="https://rawgit.com/paulber007/AllMyNVDAAddons/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-8.1.nvda-addon">T&#233;l&#233;charger l'extension NVDAExtensionGlobalPlugin_8.1.nvda-addon par ici: [lien externe]</a></p>
 <pre><code>Pour plus d&#39;informations vous pouvez consulter la documentation pour
-la version 8.0 depuis le Gestionnaire d&#39;Extensions
+la version 8.1 depuis le Gestionnaire d&#39;Extensions
 (dans G&#233;rer les extensions)
 Chercher le nom de l&#39;extension nomm&#233;:
 Extension des commandes  de base de NVDA
 Faire Tab, puis rechercher le bouton Aide, puis appuyer sur celuici,
-puis la documentation s&#39;ouvre.</code></pre>
+puis la documentation s&#39;ouvre.
+
+Encore mille Merci &#224; Paul! &#128572;</code></pre>
 <p><a href="#extensions">Retour aux extensions</a></p>
 <h1 id="objsounds-kevangc-version">OBJSounds (KevanGC Version <a id="OBJSounds (KevanGC Version).nvda-addon"></a>)</h1>
 <pre><code>Type: Extensions
@@ -2686,7 +2691,7 @@ BlindHelp !!!</p>
 <hr />
 </div>
 <footer>
-Derni&#232;re mise &#224; jour le Lundi 15 Juillet 2019
+Derni&#232;re mise &#224; jour le Samedi 10 Ao&#251;t 2019
 </footer>
 </div>
 </body>
