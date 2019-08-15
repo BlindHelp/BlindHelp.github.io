@@ -3,9 +3,9 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Guide de l'utilisateur de NVDA 2019.1</TITLE>
+<TITLE>NVDA 2019.2 - Guide de l'utilisateur</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2019.1</H1>
+<P ALIGN="center"><CENTER><H1>NVDA 2019.2 - Guide de l'utilisateur</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -76,7 +76,8 @@
     <UL>
     <LI><A HREF="#SingleLetterNavigation">6.1. Les Touches de Navigation Rapide</A>
     <LI><A HREF="#ElementsList">6.2. La Liste d'Éléments</A>
-    <LI><A HREF="#ImbeddedObjects">6.3. Les Objets Embarqués</A>
+    <LI><A HREF="#SearchingForText">6.3. Chercher du texte</A>
+    <LI><A HREF="#ImbeddedObjects">6.4. Les Objets Embarqués</A>
     </UL>
   <LI><A HREF="#ReadingMath">7. Lecture de Contenu Mathématique</A>
     <UL>
@@ -155,6 +156,7 @@
       <LI><A HREF="#ConfigProfileTriggers">11.4.4. Déclencheurs</A>
       <LI><A HREF="#ConfigProfileEditing">11.4.5. Éditer un Profil</A>
       <LI><A HREF="#ConfigProfileDisablingTriggers">11.4.6. Désactiver Temporairement tous les Déclencheurs</A>
+      <LI><A HREF="#ConfigProfileGestures">11.4.7. Activer un profil en utilisant les gestes de commandes</A>
       </UL>
     <LI><A HREF="#LocationOfConfigurationFiles">11.5. Emplacement des Fichiers de Configuration</A>
     </UL>
@@ -188,9 +190,9 @@
     <LI><A HREF="#HedoMobilLine">14.8. Hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc129">14.9.1. Assignations des Touches pour tous les Modèles</A>
-      <LI><A HREF="#toc130">14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
-      <LI><A HREF="#toc131">14.9.3. Assignations de Touches pour le Brailliant BI 14</A>
+      <LI><A HREF="#toc131">14.9.1. Assignations des Touches pour tous les Modèles</A>
+      <LI><A HREF="#toc132">14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
+      <LI><A HREF="#toc133">14.9.3. Assignations de Touches pour le Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
     <LI><A HREF="#Seika">14.11. Seika Braille Displays</A>
@@ -241,7 +243,7 @@ Ses points forts sont :
 <LI>La prise en charge des environnements Windows modernes, incluant les versions 32 et 64 bits ;
 <LI>L'accès à l'écran de connexion à Windows et aux autres écrans sécurisés ;
 <LI>L'annonce des contrôles et du texte durant l'utilisation de gestes tactiles
-<LI>La prise en charge des interfaces d'accessibilité communes telles que, Microsoft Active Accessibility, Java Access Bridge, IAccessible2 et UI Automation (UI Automation n'est supporté qu'à partir de Windows 7) ;
+<LI>La prise en charge des interfaces d'accessibilité communes telles que Microsoft Active Accessibility, Java Access Bridge, IAccessible2 et UI Automation (UI Automation n'est supporté qu'à partir de Windows 7) ;
 <LI>Support de l'invite de commandes Windows et des applications en mode console.
 </UL>
 
@@ -277,7 +279,7 @@ NVDA propose de nombreux codes braille couvrant un grand ensemble de langues. Da
 <A NAME="LicenseAndCopyright"></A>
 <H3>1.5. Licence et Copyright</H3>
 <P>
-NVDA est Copyright (C) 2006-2018 NVDA contributors.
+NVDA est Copyright (C) 2006-2019 NVDA contributors.
 </P>
 <P>
 NVDA est couvert par la licence GNU General Public License (Version 2). 
@@ -1040,6 +1042,13 @@ Vous disposez des commandes suivantes pour explorer du texte :
 <TD>Aucun</TD>
 <TD>Annonce le formatage du texte à la position du curseur de revue. Un double appui affiche l'information en mode navigation</TD>
 </TR>
+<TR>
+<TD>Annonce le remplacement du symbole courant</TD>
+<TD>Aucun</TD>
+<TD>Aucun</TD>
+<TD>aucun</TD>
+<TD>Dit le symbole à la position du curseur de revue. Un double appui montre le symbole et le texte utilisé pour le remplacer en mode navigation.</TD>
+</TR>
 </TABLE>
 
 <P>
@@ -1204,7 +1213,22 @@ Bien qu'une souris physique devrait être utilisée pour naviguer à la souris, 
 <H2>6. Le mode Navigation</H2>
 <P>
 Les documents complexes, tels que les pages web, sont représentés sous NVDA en utilisant le Mode Navigation.
-Cela concerne les documents sous Mozilla Firefox, Microsoft Internet Explorer, Mozilla Thunderbird, les messages HTML sous Microsoft Outlook, Google Chrome, Adobe Reader et Adobe Flash.
+Cela inclut les documents dans les applications suivantes :
+</P>
+<UL>
+<LI>Mozilla Firefox
+<LI>Microsoft Internet Explorer
+<LI>Mozilla Thunderbird
+<LI>Les messages HTML sous Microsoft Outlook
+<LI>Google Chrome
+<LI>Microsoft Edge
+<LI>Adobe Reader
+<LI>Foxit Reader
+<LI>Adobe Flash
+<LI>Les livres supportés sous Amazon Kindle pour PC
+</UL>
+
+<P>
 Le mode navigation est aussi disponible en option sous Microsoft Word.
 </P>
 <P>
@@ -1246,7 +1270,7 @@ De plus, vous pouvez aussi passer manuellement NVDA en mode formulaire, après q
 <TR>
 <TD>Rechercher</TD>
 <TD>NVDA+contrôle+f</TD>
-<TD>Affiche un dialogue qui vous permet de rechercher du texte dans le document courant</TD>
+<TD>Affiche un dialogue qui vous permet de rechercher du texte dans le document courant. Voir <A HREF="#SearchingForText">chercher du texte</A> pour plus d'information</TD>
 </TR>
 <TR>
 <TD>Rechercher suivant</TD>
@@ -1348,8 +1372,43 @@ Quand vous avez choisi un élément, des boutons vous permettent de vous y rendr
 </TR>
 </TABLE>
 
+<A NAME="SearchingForText"></A>
+<H3>6.3. Chercher du texte</H3>
+<P>
+Ce dialogue vous permet de rechercher des termes dans le document courant.
+Dans le champ "Entrez le texte à rechercher", le texte à trouver peut être saisi.
+Quand vous êtes dans le champ de texte, vous pouvez également utiliser les flèches haut et bas pour sélectionner des termes précédemment recherchés.
+La case à cocher "Respecter la casse" force la recherche à différencier les lettres majuscules et minuscules.
+Par exemple, avec "Respecter la casse" coché vous pouvez trouver "NV Access" mais pas "nv access".
+Le respect de la casse n'est pas sauvegardé dans l'historique de recherche.
+Au redémarrage de NVDA, l'historique de recherche est effacé.
+Utilisez les touches suivantes pour effectuer des recherches :
+</P>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Rechercher du texte</TD>
+<TD>NVDA+contrôle+f</TD>
+<TD>Ouvre le dialogue de recherche</TD>
+</TR>
+<TR>
+<TD>Trouver l'occurrence suivante</TD>
+<TD>NVDA+f3</TD>
+<TD>recherche l'occurrence suivante du terme en cours de recherche</TD>
+</TR>
+<TR>
+<TD>Trouver l'occurrence précédente</TD>
+<TD>NVDA+maj+f3</TD>
+<TD>recherche l'occurrence précédente du terme en cours de recherche</TD>
+</TR>
+</TABLE>
+
 <A NAME="ImbeddedObjects"></A>
-<H3>6.3. Les Objets Embarqués</H3>
+<H3>6.4. Les Objets Embarqués</H3>
 <P>
 Certaines pages peuvent inclure du contenu riche utilisant des technologies comme Adobe Flash, Oracle Java et HTML5, tout comme des applications ou des dialogues.
 Quand il en rencontre dans un document, NVDA annonce "objet embarqué", "application", ou "dialogue" respectivement.
@@ -2774,6 +2833,9 @@ Quand cette case est cochée, NVDA annonce le texte présent sous le pointeur so
 Si NVDA est configuré pour annoncer le texte sous la souris quand vous la déplacez, cette option vous permet de choisir précisément la quantité de texte qui sera lue. 
 Les options sont caractère, mot, ligne ou paragraphe.
 </P>
+<P>
+Pour activer la résolution d'unités de texte de n'importe où, veuillez assigner un geste de commande personnalisé en utilisant le dialogue <A HREF="#InputGestures">Gestes de Commandes</A>.
+</P>
 <A NAME="MouseSettingsRole"></A>
 <H5>Quand la souris entre dans un objet, annoncer son type</H5>
 <P>
@@ -2995,7 +3057,17 @@ Ce champ définit le nombre de lignes dont on se déplace par appui sur "Page Pr
 Raccourci clavier : NVDA+v
 </P>
 <P>
-Cette option vous permet d'indiquer si vous voulez que les objets tels que les liens ou autres champs soient placés sur leur propre ligne, ou s'ils doivent apparaître tels qu'à l'écran. Si l'option est activée, la représentation correspondra à l'aspect visuel. Sinon, chaque champ sera placé sur sa propre ligne.
+Cette option vous permet d'indiquer si vous voulez que les objets tels que les liens ou autres champs soient placés sur leur propre ligne, ou s'ils doivent apparaître tels qu'à l'écran.
+Si l'option est activée, la représentation correspondra à l'aspect visuel. Sinon, chaque champ sera placé sur sa propre ligne.
+</P>
+<A NAME="BrowseModeSettingsEnableOnPageLoad"></A>
+<H5>Activer le mode navigation au chargement de la page</H5>
+<P>
+Cette case à cocher permet de choisir si le mode navigation doit être activé automatiquement au chargement d'une page.
+Quand cette option est désactivée, le mode navigation peut quand-même être activé manuellement sur les pages ou documents où il est supporté.
+Veuillez consulter la section <A HREF="#BrowseMode">Mode navigation</A> pour avoir une liste des applications supportées par le mode navigation.
+Notez que cette opption ne s'applique pas aux situations où le mode navigation est toujours optionnel, par exemple sous Microsoft Word.
+Cette option est activée par défaut.
 </P>
 <A NAME="BrowseModeSettingsAutoSayAll"></A>
 <H5>Dire tout automatiquement au chargement des pages</H5>
@@ -3178,7 +3250,30 @@ Quand cette option est activée, NVDA essaie d'utiliser l'API d'accessibilité M
 Ceci inclut Microsoft Word lui-même, et aussi l'afficheur et le composeur de message de Miicrosoft Outlook.
  Pour les versions les plus récentes de Microsoft Office 2016/365 exécutées sous windows 10, le support UI Automation est assez complet pour fournir un accès aux documents Microsoft Word presque égal au support existant de  Microsoft Word par NVDA, avec l'avantage que la réactivité est nettement accrue.
 Cependant, il peut exister certaines informations qui ne sont pas exposées, ou exposées incorrectement sous certaines versions de Microsoft Office, ce qui signifie qu'on ne peut pas toujours se fier à ce support UI automation.
-Nous ne recommandons pas encore que la majorité des utilisateurs activent cette option par défaut, bien que nous encouragions les utilisateurs d'Office 2016/365 à tester cette fonctionnalité et à nous faire des retours d'expérience.
+Nous ne recommandons pas encore à la majorité des utilisateurs d'activer cette option par défaut, bien que nous encouragions les utilisateurs d'Office 2016/365 à tester cette fonctionnalité et à nous faire des retours d'expérience.
+</P>
+<A NAME="AdvancedSettingsConsoleUIA"></A>
+<H5>Utiliser UI Automation pour accéder à la Console Windows quand c'est possible</H5>
+<P>
+Quand cette option est activée, NVDA utilise une nouvelle version, en cours de développement, du support de la Console Windows qui tire avantage des <A HREF="https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-update/">améliorations d'accessibilité faites par Microsoft</A>. Cette fonctionnalité est hautement expérimentale et encore incomplète, son utilisation n'est donc pas encore recommandée. Cependant, une fois terminée, il est prévu que ce nouveau support deviendra le défaut, améliorant les performances et la stabilité de NVDA dans les consoles de commande Windows.
+</P>
+<A NAME="AdvancedSettingsWinConsoleSpeakPasswords"></A>
+<H5>Dire les mots de passe dans les consoles UIA</H5>
+<P>
+Ce paramètre contrôle si les caractères sont annoncés par <A HREF="#KeyboardSettingsSpeakTypedCharacters">écho clavier par caractère</A> ou <A HREF="#KeyboardSettingsSpeakTypedWords">écho clavier par mot</A> dans les situations où l'écran ne se met pas à jour (comme les champs de saisie de mot de passe) dans la console Windows avec le support UI automation activé. Pour des raisons de sécurité, ce paramètre devrait resté désactivé. Cependant, vous pouvez souhaiter l'activer si vous expérimentez des problèmes de performances ou des instabilités avec l'écho par caractère et/ou l'écho par mot en utilisant le nouveau support expérimental de la console.
+</P>
+<A NAME="BrowseModeSettingsAutoFocusFocusableElements"></A>
+<H5>Positionner automatiquement le focus système aux éléments susceptibles d'être mis en focus en mode navigation</H5>
+<P>
+Touche : NVDA+8
+</P>
+<P>
+Activée par défaut, cette option vous permet de choisir si le focus système doit automatiquement être amené aux éléments qui peuvent prendre le focus système (liens, champs de formulaire, etc.) quand vous parcourez un contenu avec le curseur du mode navigation.
+Quand elle est activée, c'est le comportement par défaut de NVDA 2019.1 et des versions précédentes.
+Quand elle est désactivée, les éléments "focussables" ne seront pas automatiquement mis en focus quand ils seront sélectionnés avec le curseur de mode navigation.
+Cela peut résulter en une expérience de navigation plus rapide et une meilleure réactivité en mode navigation.
+Le focus est toujours mis à jour pour un élément donné quand on interagit avec lui (par exemple quand on presse un bouton, quand on coche une case à cocher).
+Cette fonctionnalité est expérimentale jusqu'à NVDA 2019.2.
 </P>
 <A NAME="AdvancedSettingsCaretMoveTimeout"></A>
 <H5>Délai d'attente de mouvement du curseur (en ms)</H5>
@@ -3255,6 +3350,7 @@ Notez que ce dialogue tient compte de l'option "Se baser sur la langue de la voi
 </P>
 <P>
 Pour modifier un symbole, sélectionnez-le d'abord dans la liste de symboles.
+Vous pouvez filtrer les symboles en entrant le symbole ou une partie du remplacement du symbole dans le champ d'édition Filtrer par.
 </P>
 <UL>
 <LI>Le champ "Remplacement" vous permet de modifier le texte qui doit être prononcé à la place de ce symbole.
@@ -3357,7 +3453,7 @@ Un profil de configuration contient uniquement les paramètres qui sont modifié
 La plupart des paramètres peuvent être modifiés dans les profils de configuration à l'exception de ceux de la catégorie Général du dialogue <A HREF="#NVDASettings">Paramètres</A>, qui s'appliquent à l'ensemble de NVDA.
 </P>
 <P>
-Les profils de configuration peuvent être activés manuellement.
+Les profils de configuration peuvent être activés manuellement soit à partir d'un dialogue soit en utilisant un geste de commande personnalisé.
 Ils peuvent également être activés automatiquement grâce à des déclencheurs tels que le passage à une application particulière.
 </P>
 <A NAME="ProfilesBasicManagement"></A>
@@ -3450,6 +3546,16 @@ Vous pouvez le faire en cochant la case "Désactiver temporairement tous les dé
 <P>
 Pour activer ou désactiver les déclencheurs de n'importe où, veuillez assigner un geste de commande en utilisant le dialogue <A HREF="#InputGestures">Gestes de Commandes</A>.
 </P>
+<A NAME="ConfigProfileGestures"></A>
+<H4>11.4.7. Activer un profil en utilisant les gestes de commandes</H4>
+<P>
+Pour chaque profil que vous ajoutez, vous pouvez assigner un ou plusieurs gestes de commandes pour l'activer.
+Par défaut, les profils de configuration n'ont pas de geste de commande assigné.
+Vous pouvez ajouter des gestes pour activer un profil en utilisant le dialogue <A HREF="#InputGestures">Gestes de Commandes</A>.
+Chaque profil a sa propre entrée dans la catégorie profils de configuration.
+Quand vous renommez un profil, tous les gestes que vous avez ajoutés restent disponibles.
+La suppression d'un profil entraîne la suppression de tous les gestes qui lui sont associés.
+</P>
 <A NAME="LocationOfConfigurationFiles"></A>
 <H3>11.5. Emplacement des Fichiers de Configuration</H3>
 <P>
@@ -3471,6 +3577,7 @@ Pour modifier cette configuration, configurez NVDA à votre convenance, sauvegar
 <H3>12.1. Visionneuse du Journal</H3>
 <P>
 La visionneuse du journal, située dans "Outils" du menu NVDA, vous permet de consulter tous les événements enregistrés depuis votre dernier démarrage de NVDA.
+Un appui sur NVDA+F1 ouvre la visionneuse du journal et affiche des informations pour le développeur à propos de l'objet navigateur courant.
 </P>
 <P>
 En plus de lire le contenu, vous pouvez également sauvegarder une copie du journal ou réactualiser la visionneuse de manière à voir les événements les plus récents. 
@@ -3699,15 +3806,12 @@ Tous les terminaux Focus et PAC Mate de chez <A HREF="https://www.freedomscienti
 Vous devrez installer les pilotes de terminaux braille de Freedom Scientific sur votre système.
 Si vous ne les avez pas déjà, vous pourrez les obtenir sur <A HREF="https://www2.freedomscientific.com/downloads/focus-40-blue/focus-40-14-blue-downloads.asp">https://www2.freedomscientific.com/downloads/focus-40-blue/focus-40-14-blue-downloads.asp</A>.
 Bien que cette page ne mentionne que le terminal Focus 40 Blue, le pilote supporte tous les terminaux de Freedom Scientific.
-Si votre système est sous Windows 64 bits et que les pilotes ont déjà été installés par une autre revue d'écran, vous devrez probablement installer quand-même les pilotes car les fichiers nécessaires pour NVDA n'auront probablement pas été installés par l'autre revue d'écran.
 </P>
 <P>
 Par défaut, NVDA peut automatiquement détecter et se connecter à ces afficheurs via USB ou Bluetooth.
-Lorsque vous configurerez l'afficheur, vous pourrez sélectionner explicitement "USB" ou "Bluetooth" pour restreindre le type de connexion qui sera utilisée.
+Cependant, lorsque vous configurez l'afficheur, vous pouvez sélectionner explicitement "USB" ou "Bluetooth" pour restreindre le type de connexion qui sera utilisée.
 Cela peut être utile si vous voulez connecter l'afficheur Focus à NVDA via le Bluetooth tout en le chargeant en utilisant l'USB.
-</P>
-<P>
-Ce terminal ne supporte pas encore la détection automatique en arrière-plan.
+La détection automatique de terminaux braille de NVDA reconnaîtra également cet afficheur en USB ou Bluetooth.
 </P>
 <P>
 Voici les assignations de touches pour ces terminaux avec NVDA.
@@ -4407,7 +4511,7 @@ Le BrailleNote Touch est également prise en charge et ne nécessite pas de pilo
 Voici les assignations de touches pour Brailliant BI/B et BrailleNote touch sous NVDA.
 Veuillez consulter la documentation du terminal pour savoir où se situent ces touches.
 </P>
-<A NAME="toc129"></A>
+<A NAME="toc131"></A>
 <H4>14.9.1. Assignations des Touches pour tous les Modèles</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4496,7 +4600,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc130"></A>
+<A NAME="toc132"></A>
 <H4>14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4517,7 +4621,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc131"></A>
+<A NAME="toc133"></A>
 <H4>14.9.3. Assignations de Touches pour le Brailliant BI 14</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
