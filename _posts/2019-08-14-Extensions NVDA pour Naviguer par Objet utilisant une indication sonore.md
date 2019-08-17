@@ -18,7 +18,9 @@ Voici quelques extensions NVDA à télécharger pour Naviguer par Objet utilisan
     Type: Extensions
 		Cette extension annonce les types d'objets à travers différents sons. C'est-à-dire que lorsque nous nous positionnons, par exemple, sur une case à cocher, cela émettra un son et lorsque nous avons le focus sur une liste déroulante, ce sera un autre son et ainsi de suite.
 		La version modifiée par KevanGC ajoute le raccourci NVDA + alt + O pour activer ou désactiver les sons et réduire leur volume.
-	Les sons peuvent être modifiés en remplaçant celui qui correspond dans le dossier `globalPlugins>objsounds>objdata`, en considérant comme racine le dossier où est installé l'extension (généralement, exécuter Windows+r puis taper:
+	Les sons peuvent être modifiés en remplaçant celui qui correspond dans le dossier:
+
+`globalPlugins>objsounds>objdata`, en considérant comme racine le dossier où est installé l'extension (généralement, exécuter Windows+r puis taper:
 
 `%appdata%`, NVDA, addons, ObjSounds,    
 dans les copies portables, la première étape aie remplacée en explorant le répertoire nommé userConfig situé dans le répertoire de votre copie portable de NVDA.    
@@ -44,7 +46,9 @@ dans les copies portables, la première étape aie remplacée en explorant le r�
 # objsounds <a id="objsounds.nvda-addon"></a>
     Type: Extensions
 	Cette extension annonce les types d'objets à travers différents sons. C'est-à-dire que lorsque nous nous positionnons, par exemple, sur une case à cocher, cela émettra un son et lorsque nous avons le focus sur une liste déroulante, ce sera un autre son et ainsi de suite.
-		Les sons peuvent être modifiés en remplaçant celui qui correspond dans le dossier `globalPlugins>objsounds>objdata`, en considérant comme racine le dossier où est installé l'extension (généralement, exécuter Windows+r puis taper:
+		Les sons peuvent être modifiés en remplaçant celui qui correspond dans le dossier:
+
+`globalPlugins>objsounds>objdata`, en considérant comme racine le dossier où est installé l'extension (généralement, exécuter Windows+r puis taper:
 
 `%appdata%`, NVDA, addons, ObjSounds,    
 dans les copies portables, la première étape aie remplacée en explorant le répertoire nommé userConfig situé dans le répertoire de votre copie portable de NVDA.    
