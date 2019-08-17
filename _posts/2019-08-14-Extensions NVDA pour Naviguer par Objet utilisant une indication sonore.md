@@ -59,6 +59,7 @@ dans les copies portables, la première étape aie remplacée en explorant le r�
     il me semble sauf erreur de ma part que Le son est plus fort que la
     version modifier par KevanGC
     J'espère qu'elles servent. 
+
 [Télécharger l'extension
     objsounds.nvda-addon [via BlindHelp.github.io]](https://blindhelp.github.io/objsounds.nvda-addon)
 
@@ -72,8 +73,8 @@ Une fois l'extension installée, il sera également possible de modifier les son
 	Version: 0.1 dev (en développement)
 	Auteurs : Austin Hicks, Bryan Smart
 
-[Télécharger l'extension Unspoken-0.1.nvda-addon par
-    ici [lien externe:]](http://www.grossgang.com/nvda/Unspoken-0.1.nvda-addon)
+[Télécharger l'extension Unspoken-0.1.nvda-addon par ici [lien externe:]](http://www.grossgang.com/nvda/Unspoken-0.1.nvda-addon)
+
 
 Voilà, c’est fini ! (whew) Comme dirait l’autre!   
 Amusez-vous bien! :)     
