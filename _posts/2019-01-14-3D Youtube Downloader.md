@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Mardi 29 Janvier 2019</footer>
+<footer>Dernière modification Mardi 23 Juillet 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -30,28 +30,27 @@ Et surtout accessible avec nos lecteurs d’écran NVDA / JAWS, grâce à son au
  Ce programme 3D Youtube Downloader est une tendance récente dans nos listes de discussion, et j’ai compilé certains modes d'emploi et infos, donnés par Bernard Gavroches, Jean-Pierre DIERYNCK, Sèb, Jean-Claude Armingaud et Oriental...  merci àeux!🙇           
  Et j' ai ajouté ma petite touche personnelle  à ce mode d'emploi compilé, qui mérite d'être annoncé comme un mode d'emploicollaboratif!                 
  
- Testé avec la dernière version de NVDA 2018.4.1 et la dernière version stable de 3D Youtube Downloader 1.16.8 sous un Windows 64 bits.              
+ Testé avec la dernière version de NVDA 2019.1.1 et la dernière version stable de 3D Youtube Downloader 1.16.11 sous un Windows 64 bits.              
  
 Eh bien, sans plus tarder je commence à  vous donner le lien pour télécharger la dernière version stable disponible!                
  
-# 3D Youtube Downloader version stable  1.16.8 #
-3dyd_1.16.8.exe              
-[32-bit](https://download.yd.3dyd.com/3dyd_1.16.8.exe)          
-13.8mb                     
+# 3D Youtube Downloader version stable  1.16.11 #
+3dyd_1.16.11.exe              
+[32-bit](https://download.yd.3dyd.com/3dyd_1.16.11.exe)          
+14mb                     
 
-3dyd64_1.16.8.exe              
+3dyd64_1.16.11.exe              
 [64-bit](https://yd.3dyd.com/download/3dyd64_1.16.8.exe)                 
-15.5mb
+15.8mb
 
 # À propos #
-Version: 1.16.8               
-Date de publication: (29-Jan-2019)                   
+Version: 1.16.11               
+Date de publication: (23-Juil-2019)                   
                   
 # Journal des changements # 
 
 
-- Corrigée l'impossibilitée de télécharger certains flux en direct via Youtube
-- Corrigée l'erreur #403 pour Youtube
+- correction pour Youtube
 
 
 A tout moment, vous pouvez visiter la page officielle de l'éditeur en anglais pour obtenir la dernière version stable disponible en téléchargement.                  
