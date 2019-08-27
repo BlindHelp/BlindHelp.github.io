@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Dimanche 10 Mars 2019</footer>
+<footer>Dernière modification Samedi 17 Août 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -44,12 +44,13 @@ Ces commandes au clavier peuvent être personnalisées à partir du dialogue Ges
 
 
 # Autres informations utiles de l'extensionCalibre :
+Compatible Python3                
 Auteur : [Javi Domínguez](mailto:fjavids@gmail.com)    
 [Jeter un coup d'œil au référentiel de l'auteur de l'extension Calibre sur GitHub](https://github.com/javidominguez/calibre)                 
-Version stable : 1.3                
-Version de développement : 1.3                
+Version stable : 1.4                
+Version de développement : 1.4                
 Langues : Anglais et Espagnol (traduit par l'auteur) (inclus le chinois et autres langues traduites par la communauté internationale des extensions NVDA) dans la version stable.    
-Dernière mise à jour:  10 Mars 2019
+Dernière mise à jour: 17 Août 2019
 
 # Quelques configurations utiles pour Calibre
 Note: Il est probable que cette procédure il soit différente dans les nouvelles versions de Calibre.         

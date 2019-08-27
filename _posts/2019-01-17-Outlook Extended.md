@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Lundi 8 Juillet 2019</footer>
+<footer>Dernière modification Mardi 20 Août 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -55,8 +55,8 @@ Cette extension a été testé avec Microsoft Outlook 2016 et 2013.
 # Plus d'informations sur Outlook Extended
 
     Type: Extensions
-    Dernière mise à jour: 8 Juillet 2019
-    Version actuelle: 1.2 (version stable)
+    Dernière mise à jour: 20 Août 2019
+    Version actuelle: 1.3 (version stable)
 
 Retrouver l'extension [Outlook extended](https://addons.nvda-project.org/addons/outlookExtended.fr.html) sur le site comunautaire des Extensions NVDA             
 
