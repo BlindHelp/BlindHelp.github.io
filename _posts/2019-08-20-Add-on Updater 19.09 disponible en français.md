@@ -1,4 +1,4 @@
-	---
+---
 title: Add-on Updater 19.09 disponible en français
 layout: post
 author: BlindHelp
@@ -7,7 +7,7 @@ author: BlindHelp
 <footer>Mardi 20 Août 2019</footer>
 
 
-Coucou mes amis du blog de BlindHelp!    
+Coucou mes amis du blog de BlindHelp!       
 Joseph Lee a annoncé l'arrivée de [Add-on Updater](https://addons.nvda-project.org/addons/addonUpdater.fr.html), qui atteint la version 19.09    
 À cette occasion les mises à jour des extensions peuvent maintenant être recherchées sans problème.    
 L'élimination de l'expiration de cinq minutes que la boîte de dialogue de mise à jour avait due aux limitations de GitHub est consolidée. Cette version nécessite déjà NVDA 2019.2; la recherche de mises à jour des extensions cesse de fonctionner correctement avec les versions précédentes.    
