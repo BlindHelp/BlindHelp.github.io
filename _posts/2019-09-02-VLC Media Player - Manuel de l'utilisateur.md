@@ -4,9 +4,6 @@ layout: post
 author: BlindHelp
 ---
 
-<!DOCTYPE html>
-<html lang="fr">
-
 
 <footer>Lundi 2  Septembre 2019</footer>
 
