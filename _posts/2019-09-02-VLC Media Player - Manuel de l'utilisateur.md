@@ -43,7 +43,8 @@ Table des matières<a id="Table des matières"></a>
 - [12.1 Commandes générales](#mark29)
 - [12.2 Commandes générales de lecture](#mark30)
 - [12.3  Commandes générales de volume](#mark31)
-- [Utilisation d'un script Jaws pour VLC par Daniel Poiraud.](#mark32)
+- [Chapitre 13. Utilisation d'un script Jaws pour VLC par Daniel Poiraud.](#mark32)
+- [Chapitre 14. J'ai besoin de codecs pour VLC Media Player?](#mark33)
 
 ---
 
@@ -55,14 +56,14 @@ Source en espagnol:
 Destiné à: les personnes ayant une déficience visuelle.    
 
 # Chapitre 1. Introduction<a id="mark1"></a>
-Bien qu’il existe une grande variété de lecteurs multimédias, il est bon de savoir que l’accessibilité pour les personnes ayant une déficience visuelle est très favorable, du Lecteur Windows media player au légendaire Winamp, en passant par iTunes, le lecteur media player classic, entre autres, nous allons nous concentrer sur le lecteur multimédia VLC, qui répond non seulement aux attentes de tout lecteur, telles que: accessibilité, qualité audio, commandes pour presque toutes les fonctions principales, création des raccourcis, la conversion en différents types de format, enregistrer tout ou partie d’un contenu audio ou vidéo, etc.    
+Bien qu’il existe une grande variété de lecteurs multimédias, il est bon de savoir que l’accessibilité pour les personnes ayant une déficience visuelle est très favorable, du Lecteur Windows Media Player au légendaire Winamp, en passant par iTunes, le lecteur Media Player Classic , entre autres, nous allons nous concentrer sur le Lecteur Multimédia VLC, qui répond non seulement aux attentes de tout lecteur, telles que: accessibilité, qualité audio, commandes pour presque toutes les fonctions principales, création des raccourcis, la conversion en différents types de format, enregistrer tout ou partie d’un contenu audio ou vidéo, etc.    
 En ce qui concerne l'accessibilité avec les lecteurs d’écran, bien que dans l’opération de base, Jaws, NVDA et le Narrateur s'adaptant parfaitement, nous devons nous référer au fait que dans le cas du lecteur d'écran NVDA, nous privilégions l'utilisation et la simplicité, 2  extensions, d'une part, l'extension appelée VLC media pláyer, qui, s'il remplit bien sa fonction, ne peut pas s'empêcher de faire référence à l'autre extension appelée, VLC Access Enhancement, qui, à son critères propres, accomplit sa tâche de manière excellente, car en plus de fournir plus de tâches à effectuer, il nous donne donc plus de commandes pour que notre expérience d'utilisation du lecteur VLC soit vraiment la meilleure. Avec cela, nous ne voulons pas dévaluer un lecteur ou une extension, mais au final, on est libre de décider avec quel lecteur on se sent plus à l'aise et ainsi votre expérience de VLC ne pourra en être que meilleure !    
 Dans ce manuel, les actions principales seront expliquées, à la fois dans son fonctionnement et son accessibilité avec les lecteurs principaux, ainsi qu'avec le lecteur NVDA et les 2 extensions mentionnés ci-dessus, car il convient de mentionner qu'il existe des fonctions pouvant être exécutées uniquement avec l'utilisation de l'un d'eux.    
 Enfin, je ne voudrais pas rater l'occasion de remercier Paulber19, créateur de l''extension VLC Access Enhancement, pour les améliorations apportées dans la dernière version 1.3.1, ainsi que tous les bêta-testeurs qui permettent de signaler des bugs ou demander de nouvelles fonctionnalités pour améliorer l'extension.    
 
 # 1.2 Données techniques du manuel<a id="mark2"></a>
 
-Lecteur multimédia:    
+Lecteur Multimédia:    
 
 * VLC media player, version 3.0.8
 
@@ -524,12 +525,19 @@ Seulement avec NVDA
 Note:    
 Ces deux dernières combinaisons sert à augmenter ou diminuez le volume, dans VLC, indépendamment du volume de Windows.
 
-# Utilisation d'un script Jaws pour VLC par Daniel Poiraud.<a id="mark32"></a>
+# Chapitre 13. Utilisation d'un script Jaws pour VLC par Daniel Poiraud.<a id="mark32"></a>
 Les personnes qui utilisent JAWS peuvent consulter l'article suivant consacré à VLC avec ce lecteur d'écran (y compris les scripts à télécharger):    
 [Utilisation d'un script Jaws pour VLC.](http://angouleme.avh.asso.fr/fichesinfo/fiches_jaws/logiciels_divers/vlc2.htm)
 
+# Chapitre 14. J'ai besoin de codecs pour VLC Media Player?<a id="mark33"></a>
+VLC est un excellent lecteur de film. Il a ses propres plugins pour lire différents formats de film, il n'a donc pas besoin de codecs à installer. Il joue presque tout et fonctionne également très bien pour la prévisualisation de fichiers partiellement téléchargés.
+
+Si vous voulez en savoir plus sur VLC, vous pouvez visiter le lien suivant:    
+[VLC: Site officiel - Des solutions multimédias libres pour tous les OS ! - VideoLAN](https://www.videolan.org/)
+
 ---
 
-Source:    
+Source de cet article:    
  [BlindHelp.github.io](https://blindhelp.github.io/)    
+ Auteur: Rémy Ruiz (BlindHelp)    
 Si vous souhaitez partager ce manuel, n'oubliez pas de citer l'auteur et la source.    
