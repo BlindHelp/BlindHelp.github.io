@@ -10,10 +10,10 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!        
 Voici K-Lite Codec Pack, pour une lecture de haute qualité de tous vos fichiers musicaux et vidéo. Utilisez LE pack de codecs complet pour lire toutes vos  vidéos et audio, sauf si les codecs sont déjà installé dans  votre lecteur!.    
 C'est le cas par exemple dans le lecteur VLC media player.     
-Dans cette page en anglais [de l'éditeur](http://www.codecguide.com/download_kl.htm(, nous trouverons quatre versions à télécharger: donc, la dernière version publiée.    
+Dans cette page en anglais [de l'éditeur](http://www.codecguide.com/download_kl.htm), nous trouverons quatre versions à télécharger: donc, la dernière version publiée.    
 
 * Basic,
-*Standard,
+* Standard,
 * Full,
 * Mega.
 
@@ -55,7 +55,9 @@ Note: Pour les versions plus anciennes ou pour Windows XP, recherchez les liens 
 
 # Update: #
 Télécharger le programme Update pour mettre à jour vers la dernière version du pack de codecs déjà installé au préalable sur votre ordinateur.    
-Ce n'est pas un installateur autonome. Cette mise à jour nécessite que la dernière version de Basic / Standard / Full / Mega soit déjà installée.    
+Ce n'est pas un installateur autonome. Cette mise à jour nécessite que la dernière version de     
+Basic,  Standard, Full et  Mega    
+ soit déjà installée.    
 Source de la page en anglais pour télécharger la dernière version publiée de Download Update:    
 [Download Update](http://www.codecguide.com/klcp_update.htm)    
 Une fois la page ouverte, recherchez le lien nommé:    
@@ -63,7 +65,7 @@ Mirror 1
 et appuyez sur Entrée pour le télécharger.    
 Note: Pour les versions plus anciennes ou pour Windows XP, recherchez les liens respectifs, s'ils sont disponibles sur cette même page.    
 
-# Source (page en anglais): #
+# Source K-Lite Codec Pack (page en anglais): #
 [Codec Guide: K-Lite Codec Pack - For Windows 10 / 8.1 / 7 / Vista / XP](https://codecguide.com/)    
 Un ensemble de logiciels gratuits pour une qualité audio et vidéo.     
 
