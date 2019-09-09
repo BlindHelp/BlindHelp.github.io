@@ -5,19 +5,19 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Samedi 24 Août 2019</footer>
+<footer>Dernière modification Dimanche 8 Septembre 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
 Je vous apporte de bonnes nouvelles concernant l'extension Weather Plus pour NVDA...             
 Weather Plus est de nouveau disponible en téléchargement!             
-Après sa dernière version 5.0, Weather Plus fait peau neuve et il vient de sortir en version 6.9.    
+Après sa dernière version 5.0, Weather Plus fait peau neuve et il vient de sortir en version 7.0.    
 
-Cette extension nommée [Weather Plus](#Weather_Plus6.9.nvda-addon) peut être mis à jour de manière autonome et, par conséquent, n'est pas inclus dans Add-on Updater. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également forcer la vérification à partir du sous-menu Paramètres Weather Plus dans le menu Préférences. Si vous n'avez même pas cette extension pour consulter la météo, ou si vous avez des problèmes de mise à jour, vous pouvez la télécharger à partir du lien ci-dessous.
+Cette extension nommée [Weather Plus](#Weather_Plus7.0.nvda-addon) peut être mis à jour de manière autonome et, par conséquent, n'est pas inclus dans Add-on Updater. Lui-même nous  avertira de cette mise à jour, bien que nous puissions également forcer la vérification à partir du sous-menu Paramètres Weather Plus dans le menu Préférences. Si vous n'avez même pas cette extension pour consulter la météo, ou si vous avez des problèmes de mise à jour, vous pouvez la télécharger à partir du lien ci-dessous.
 
 # Pour un petit descriptif de l'extension  Weather Plus suivez le guide! #
 
-# Weather Plus <a id="Weather_Plus6.9.nvda-addon"></a>
+# Weather Plus <a id="Weather_Plus7.0.nvda-addon"></a>
 
     Type: Extensions
     Compatibilité NVDA: 2017.3 à 2019.3
@@ -64,9 +64,9 @@ Traduit et mis à jour par Adriano Barbieri
 [Adriano Barbieri](mailto:adrianobarb@yahoo.it)    
 Localisé en : Allemand, Anglais, Arabe, Espagnol, Français, Galicien, Italien, Polonais, Portugais-Brésil, Portugais-Portugal, Roumain, Russe, Serbe, Slovaque, Tchèque, Ukrainien et d'autres langues grâce a la contributions de la communauté de traduteurs d'extensions pour NVDA.    
 Publié sous la GNU GPL (General Public License) v2    
-Version: 6.9    
+Version: 7.0    
 Traduit en français par Rémy Ruiz, Michel Such et Corentin Bacqué-cazenave    
-Dernière mise à jour: 24 Août 2019    
+Dernière mise à jour: 8 Septembre 2019    
 Si vous avez installé une version antérieure de Weather Plus, celui-ci peut se mettre à jour seul, cependant, il est possible de télécharger
 manuellement à partir des liens suivants:    
 Mise en garde:    
@@ -80,7 +80,7 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 3. Supprimez le fichier weather.ini.
 4. Appuyez sur nvda+ctrl+f3 et reconfigurez l'extension normalement.
 
-[Télécharger l'extension Weather_Plus6.9.nvda-addon par ici: [lien externe]](http://www.nvda.it/files/plugin/weather_plus6.9.nvda-addon)
+[Télécharger l'extension Weather_Plus7.0.nvda-addon par ici: [lien externe]](http://www.nvda.it/files/plugin/weather_plus7.0.nvda-addon)
     [ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
 [ou à partir de la page de Weather Plus qui se trouve sur le site comunautaire des extensions NVDA](https://addons.nvda-project.org/addons/Weather_Plus.fr.html)
 
@@ -89,7 +89,7 @@ renommez-le en .nvda-addon.
 Merci    
 
 Pour plus d'informations vous pouvez consulter la documentation pour    
-    la version 6.9 depuis le Gestionnaire d'Extensions    
+    la version 7.0 depuis le Gestionnaire d'Extensions    
     (dans Gérer les extensions)    
     Chercher le nom de l'extension nommé:    
     Weather_Plus    
