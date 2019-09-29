@@ -28,7 +28,7 @@ Cette version de lextension est téléchargeable ici, il est également disponib
 
 [Lien de téléchargement :](https://addons.nvda-project.org/files/get.php?file=cac)    
 
-Comme annoncé précédemment, cette version corrige un bug qui a eu lieu lorsque le temps de démarrage est supérieure à la fin du temps des heures silencieuses.    
+Comme annoncé précédemment, cette version corrige un bug qui a eu lieu lorsque le temps de démarrage est supérieure à la fin de la durée des heures silencieuses.    
 
 Merci.    
 
@@ -338,7 +338,7 @@ Bravo Hrvoje et Abdel! 😊
 # Plus d'informations sur l'extension horloge et calendrier pour NVDA (Clock) #
 
     Type: Extensions
-	Cette extension est compatible avec les versions de NVDA allant de 2014.3 à 2019.1.
+	Cette extension est compatible avec les versions de NVDA allant de 2014.3 à 2019.3.
 	(Y compris les versions de NVDA antérieures à 2018.2).
 	Avec les versions de NVDA antérieures à 2018.2, le sous-menu Configuration de l'extension est disponible dans le menu Outils.
 	Cette extension active les fonctions avancées de l'horloge, de minuterie d'alarme et du calendrier pour NVDA.
@@ -374,12 +374,12 @@ Note: Actuellement  sur la page d'appVeyor il se trouve seulement la dernière e
 
 <https://ci.appveyor.com/project/HrvojeKati/clock/build/artifacts>
 
-Cette extension Clock-19.02 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
+Cette extension Clock-19.09 est mis à jour avec les nouvelles sources puis retraduit en français et en espagnol par Rémy Ruiz et d'autres contributeurs.    
 Langues supportés: Allemand, Anglais, Arabe, Bulgare, Chinois Traditionnel, Croate, Français, Espagnol, Italien, Persan, Polonais, Portugais-Brésil, Portugais-Portugal, Roumain, Russe, Serbe, Slovaque et Turc   
 Traduit en français par: Michel Such, Abdel et Rémy Ruiz           
 Traduit en espagnol par: Iván Novegil Cancelas, Juan C. Buno, José Manuel Delicado Alcolea et Rémy Ruiz           
-Version: Clock-19.06           
-Dernière mise à jour: 26 Mai 2019           
+Version: Clock-19.09           
+Dernière mise à jour: 12 Septembre 2019           
 
 ---
 
@@ -399,7 +399,7 @@ Dernière mise à jour: 26 Mai 2019
 
 Merci aux auteurs: Hrvoje Katic, Abdel et contributeurs de NVDA!😃              
 
-Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour l'extension horloge et calendrier pour NVDA version stable 19.06 et la version en développement 19.06-dev!                
+Voilà donc,  tout est dit au sujet de la nouvelle mise à jour disponible pour l'extension horloge et calendrier pour NVDA version stable 19.09 et la version en développement 19.09-dev!                
 Je vous souhaite une bonne découverte!         
 Bien amicalement,              
 Rémy (BlindHelp).
