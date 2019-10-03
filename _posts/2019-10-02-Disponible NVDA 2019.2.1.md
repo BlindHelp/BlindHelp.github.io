@@ -6,7 +6,7 @@ author: BlindHelp
 
 <footer>Mercredi 2 Octobre 2019</footer>
 
-Il y a quelques heures, NV Access a annoncé la publication finale de NVDA 2019.2.1. [Ce post  est consultable en anglais sur:](https://www.nvaccess.org/post/nvda-2019-2-1-released/). Celle-ci est maintenant disponible au téléchargement!                  
+Il y a quelques heures, NV Access a annoncé la publication finale de NVDA 2019.2.1. [Ce post  est consultable en anglais sur ce lien:](https://www.nvaccess.org/post/nvda-2019-2-1-released/). Celle-ci est maintenant disponible au téléchargement!                  
 
 NV Accès vous rappelle qu'il est conseillé de fermer toutes les applications, y compris les navigateurs Web, avant la mise à jour de NVDA.    
 
@@ -57,6 +57,6 @@ A continuation vous pouvez trouver des documents disponibles  dans le menu Aide 
 * [Quoi de neuf](https://blindhelp.github.io/changes.html)
 * [Résumé des commandes](https://blindhelp.github.io/keyCommands.html)
 
-Profitez de NVDA 2019.2.1. 
-@+                     
-BlindHelp!                           
+Profitez de NVDA 2019.2.1.    
+@+    
+BlindHelp!    
