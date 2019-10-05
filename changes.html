@@ -9,6 +9,17 @@
 <FONT SIZE="4">
 </FONT></CENTER>
 
+<H2>2019.2.1</H2>
+<P>
+Ceci est une version mineure qui corrige plusieurs plantages présents dans la version 2019.2. Les correctifs incluent :
+</P>
+<UL>
+<LI>Résolution de plusieurs blocages dans Gmail observés dans Firefox et Chrome lors de l'interaction avec des menus contextuels spécifiques, tels que la création de filtres ou la modification de certains paramètres Gmail. (<A HREF="https://github.com/nvaccess/nvda/issues/10175" target="_blank">#10175</A>, <A HREF="https://github.com/nvaccess/nvda/issues/9402" target="_blank">#9402</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8924" target="_blank">#8924</A>)
+<LI>Sous Windows 7, NVDA ne provoque plus le blocage de l'explorateur Windows quand la souris est utilisée dans le menu Démarrer. (<A HREF="https://github.com/nvaccess/nvda/issues/9435" target="_blank">#9435</A>)
+<LI>L'explorateur Windows sous Windows 7 ne plante plus lors de l'accès aux champs d'édition des métadonnées. (<A HREF="https://github.com/nvaccess/nvda/issues/5337" target="_blank">#5337</A>)
+<LI>NVDA ne gèle plus quand on interagit avec des images contenant un URI en base64 sous Mozilla Firefox ou Google Chrome. (<A HREF="https://github.com/nvaccess/nvda/issues/10227" target="_blank">#10227</A>)
+</UL>
+
 <H2>2019.2</H2>
 <P>
 Les améliorations principales de cette version consistent en l'ajout de l'auto-détection des afficheurs Braille Freedom Scientific, de l'ajout d'un réglage expérimental aux paramètres avancés pour empêcher le mode navigation de se déplacer automatiquement vers le curseur (ce qui peut améliorer les performances), une option pour trippler le débit du synthétiseur Windows OneCore, et plein d'autres correctifs.
@@ -55,7 +66,7 @@ Les améliorations principales de cette version consistent en l'ajout de l'auto-
 <LI>Mise à jour de eSpeak-NG à la révision 67324cc.
 <LI>Mise à jour du traducteur braille liblouis à la version 3.10.0. (<A HREF="https://github.com/nvaccess/nvda/issues/9439" target="_blank">#9439</A>, <A HREF="https://github.com/nvaccess/nvda/issues/9678" target="_blank">#9678</A>)
 <LI>NVDA dira maintenant le mot " sélectionné " après avoir annoncé le texte qu'un utilisateur vient de sélectionner (<A HREF="https://github.com/nvaccess/nvda/issues/9028" target="_blank">#9028</A>, <A HREF="https://github.com/nvaccess/nvda/issues/9909" target="_blank">#9909</A>).
-<LI>Dans Microsoft Visual Studio Code, le mode navigation est maintenant désactivé par défaut. (<A HREF="https://github.com/nvaccess/nvda/issues/9828" target="_blank">#9828</A>)
+<LI>Dans Microsoft Visual Studio Code, NVDA est maintenant en mode formulaire automatiquement. (<A HREF="https://github.com/nvaccess/nvda/issues/9828" target="_blank">#9828</A>)
 </UL>
 
 <H3>Corrections de Bogues</H3>
@@ -76,7 +87,7 @@ Les améliorations principales de cette version consistent en l'ajout de l'auto-
 <LI>Les extensions dont les noms diffèrent seulement par leur majuscule ne sont plus traités comme des extensions séparées. (<A HREF="https://github.com/nvaccess/nvda/issues/9334" target="_blank">#9334</A>)
 <LI>Pour les voix Windows OneCore, le débit défini dans NVDA n'est plus affecté par celui défini dans les paramètres vocaux de Windows 10. (<A HREF="https://github.com/nvaccess/nvda/issues/7498" target="_blank">#7498</A>)
 <LI>Le journal peut maintenant être ouvert avec NVDA + F1 en l'absence d'informations développeur pour l'objet navigateur courant. (<A HREF="https://github.com/nvaccess/nvda/issues/8613" target="_blank">#8613</A>)
-<LI>Il est à nouveau possible d'utiliser les commandes de navigation NVDA dans les tableaux de Google Docs, Firefox et Chrome. (<A HREF="https://github.com/nvaccess/nvda/issues/9494" target="_blank">#9494</A>)
+<LI>Il est à nouveau possible d'utiliser les commandes de navigation des tableaux de NVDA dans Google Docs, dans Firefox et Google Chrome. (<A HREF="https://github.com/nvaccess/nvda/issues/9494" target="_blank">#9494</A>)
 <LI>Les touches " bumper " fonctionnent maintenant correctement sur les afficheurs Braille Freedom Scientific. (<A HREF="https://github.com/nvaccess/nvda/issues/8849" target="_blank">#8849</A>)
 <LI>Lors de la lecture du premier caractère d'un document dans Notepad++ 7.7 X64, NVDA ne se bloque plus pendant 10 secondes. (<A HREF="https://github.com/nvaccess/nvda/issues/9609" target="_blank">#9609</A>)
 <LI>HTCom peut maintenant être utilisé avec un afficheur Braille Handy Tech en association avec NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/9691" target="_blank">#9691</A>)
