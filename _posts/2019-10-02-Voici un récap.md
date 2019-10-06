@@ -23,6 +23,14 @@ J'espère que vous trouverez cela utile et intéressant. ;),
 ## Avertissement: ##
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du logiciel téléchargé  ni des informations ce trouvant sur le site Web dédié et l'utilisation des programmes téléchargés est à vos risques et périls.
 
+# Un lien de téléchargement est brisé? #
+
+<a href="mailto:remyruiz@gmail.com?subject=Je vous signale un lien mort sur l'article: Voici un récap des programmes ou sites Web pour la plupart accessibles pour nous les miro">C'est ici qu'il faut le signaler!</a></body>
+
+Vous pouvez signaler les liens morts en commentant cet article. Tout lien mort signalé sera réparé dans les plus brefs délais.    
+Bien entendu, si nous trouvons la source du nouveau lien.    
+Merci!    
+
 Voilà, c'est parti pour la compilation! :)    
 
 
@@ -59,7 +67,7 @@ Deezloader remix | <https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Downloads
 Device Doctor | <http://devicedoctor.com/device-doctor-download.php> | Conservez vos pilotes de votre ordinateur toujours mis à jour grâce à Device Doctor. | non | non
 Driver Talent | <https://www.drivethelife.com/free-drivers-download-utility.html> | Réparer et mettre à jour tous vos pilotes grâce à Talent Driver (anciennement DriveTheLife). | non | non
 DriverPack Solution | <https://driverpack.io/fr> | DriverPack Solution est un programme conçu pour vous aider à trouver facilement et installer automatiquement les pilotes pour votre ordinateur. DriverPack Solution simplifie le processus de réinstallation de Windows sur un ordinateur. Vous ne auriez pas des difficultés à trouver et installer les pilotes. | non | non
-Drivers Cloud | <https://www.driverscloud.com/en/features | Service Web pour trouver facilement vos pilotes, détecte votre matériel et des logiciels, et diagnostiquer des problèmes tels que des écrans bleus. | non | non
+Drivers Cloud | <https://www.driverscloud.com/en/features> | Service Web pour trouver facilement vos pilotes, détecte votre matériel et des logiciels, et diagnostiquer des problèmes tels que des écrans bleus. | non | non
 Dropbox | <https://www.dropbox.com/fr/> | Dropbox est un service en ligne qui vous permet de stocker des fichiers dans le nuage, ce qui permet aussi de partager des fichiers et des dossiers avec d'autres utilisateurs. | <https://www.dropbox.com/download?os=win> | non
 DSpeech | <http://dimio.altervista.org/eng/> | DSpeech est un convertisseur  de texte à voix (TTS) pour les ordinateurs avec le système d'exploitation Windows. Il permet l'enregistrement des fichiers audio et même de livres audio. | <http://dimiodati.altervista.org/zip/dspeech.zip> | non
 Everything | <https://www.voidtools.com/> | Everything Rechercher des fichiers et des dossiers par nom instantanément. | Everything 64 bytes <https://www.voidtools.com/Everything-1.4.1.935.x64-Setup.exe> | Everything 32 bytes <https://www.voidtools.com/Everything-1.4.1.935.x86-Setup.exe>
@@ -80,7 +88,8 @@ Jaws | <https://www.freedomscientific.com/products/software/jaws/> | JAWS (un ac
 Le Salon | <https://qcsalon.net/fr/> | Le Salon est une plate-forme pour les jeux en ligne gratuits, spécialement conçu pour être accessible aux personnes ayant une déficience visuelle. | <https://qcsalon.net/autodl/quentinc-gameroom-2.2.8-multilingual-setup.exe> | non
 LibreOffice | <https://fr.libreoffice.org/download/telecharger-libreoffice/> | LibreOffice intègre plusieurs applications qui en font la suite bureautique Libre & Open Source la plus évoluée du marché. | LibreOffice 64 bytes <https://fr.libreoffice.org/donate/dl/win-x86_64/6.3.2/fr/LibreOffice_6.3.2_Win_x64.msi> | LibreOffice 32 bytes <https://fr.libreoffice.org/donate/dl/win-x86/6.3.2/fr/LibreOffice_6.3.2_Win_x86.msi>
 Mega | <https://mega.nz> | MEGAsync est le client de bureau MEGA, le service de stockage en ligne qui offre un espace libre de 50 Go. | <https://mega.nz/MEGAsyncSetup.exe> | non
-Mises à jour Update Pack7R2 Windows 7 | <https://blog.simplix.info/update7/> | non | <https://update7.simplix.info/UpdatePack7R2.exe> | non
+mp3DirectCut | Site officiel: <http://mpesch3.de/> | Couper ses MP3 avec mp3DirectCut. Comment couper ses mp3 quand ils sont trop longs ou bien lorsque vous avez plusieurs chansons en un seul morceau? Ben c'est simple, il suffit de prendre le logiciel [mp3DirectCut version 2.25 via BlindHelp.github.io:](https://blindhelp.github.io/mp3DC225.zip) Vous avez besoin de télécharger les dll suivantes pour que le programme mp3DirectCut fonctionne correctement. | [Télécharger la bibliothèque: mpglib.dll pour le décodage via BlindHelp.github.io:](https://blindhelp.github.io/mpglibdll_092.zip) | [Télécharger la bibliothèque: lame_enc.dll pour l'encodage via BlindHelp.github.io:](https://blindhelp.github.io/lame_enc.zip)
+ Mises à jour Update Pack7R2 Windows 7 | <https://blog.simplix.info/update7/> | non | <https://update7.simplix.info/UpdatePack7R2.exe> | non
 Mozilla Firefox | <https://www.mozilla.org/fr-FR/firefox/> | Mozilla Firefox (alias Firefox) est un navigateur Internet populaire, gratuit et open source développé par la Fondation Mozilla. Il utilise un puissant moteur de rendu, il offre une expérience de navigation rapide et fluide. accepte également l'installation d'add-ons ou des extensions qui améliorent considérablement son fonctionnement. Ces outils facilitent l'interaction utilisateur Firefox avec les différents services disponibles sur Internet. | <https://www.mozilla.org/fr-FR/firefox/download/thanks/?scene=2> | non
 MyAirBridge | <https://www.myairbridge.com/fr/> | Envoyez ou partagez gratuitement des gros fichiers dont la taille peut aller jusqu’à 20 GiB via MyAirBridge.com. | non | non
 NET Framework | <https://dotnet.microsoft.com/download/dotnet-framework/net472> | Microsoft .NET framework : qu'est ce que c'est et pourquoi est-il installé sur mon PC ? <https://www.papergeek.fr/microsoft-net-framework-quest-ce-que-cest-et-pourquoi-est-il-installe-sur-mon-pc-9360> | non | non
@@ -128,6 +137,6 @@ VisuRSS | <http://www.lavakri.fr/VisuRSS/> | Le logiciel VisuRSS est un agrégat
 Zello | <https://zello.com> | Zello est l'application du téléphone cellulaire mobile talkie-walkie, iPhone et Android ou PC. | non | non
 
 
-Profitez donc de ce récap des programmes ou sites Web pour la plupart  accessibles pour nous les miro.    ‍💻 
-@+                     
-BlindHelp!                           
+Profitez donc de ce récap des programmes ou sites Web pour la plupart  accessibles pour nous les miro. 💻    
+@+    
+BlindHelp!    
