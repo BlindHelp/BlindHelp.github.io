@@ -25,7 +25,7 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 
 # Un lien de téléchargement est brisé? #
 
-<a href="mailto:remyruiz@gmail.com?subject=Je vous signale un lien mort sur l'article: Voici un récap des programmes ou sites Web pour la plupart accessibles pour nous les miro">C'est ici qu'il faut le signaler!</a></body>
+<a href="mailto:remyruiz@gmail.com?subject=Je vous signale un lien mort sur l'article: Voici un récap des programmes ou sites Web pour la plupart accessibles pour nous les miro">C'est ici qu'il faut le signaler!</a>
 
 Vous pouvez signaler les liens morts en commentant cet article. Tout lien mort signalé sera réparé dans les plus brefs délais.    
 Bien entendu, si nous trouvons la source du nouveau lien.    
