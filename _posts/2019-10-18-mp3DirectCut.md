@@ -1,5 +1,5 @@
 ---
-title: Téléchargement de mp3DirectCut et leurs DLL, scripts JAWS, Extension NVDA et Tutorial, via BlindHelp.github.io
+title: Téléchargement de mp3DirectCut et leurs DLL, Scripts JAWS, Extension NVDA et Tutorial, via BlindHelp.github.io
 
 layout: post
 author: BlindHelp
@@ -9,7 +9,7 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Voici les liens de téléchargement de mp3DirectCut et leurs DLL, scripts JAWS, Extension NVDA et Tutorial, via BlindHelp.github.io.    
+Voici les liens de téléchargement de mp3DirectCut et leurs DLL, Scripts JAWS, Extension NVDA et Tutorial, via BlindHelp.github.io.    
 
 # C'est quoi mp3DirectCut ? #
 mp3DirectCut est un petit éditeur audio mp3 qui, au niveau de ses fonctions, n'a pas la prétention de rivaliser avec les ténors en la matière mais qui possède une particularité très intéressante. Il manipule en effet les mp3 sans les décoder donc sans avoir ensuite à les réencoder. Avantages? C'est simple: gain de temps, gain d'espace disque mais surtout absence de perte de qualité (perte qui a immanquablement lieu lors d'un décodage-réencodage). Au nombre de ses fonctions, citons pêle-mêle: suppression de parties de fichier, normalisation, découpage en plusieurs fichiers, copie de morceaux de fichier, assemblage de fichiers, application de fondus, support des "cue sheets" (listes de pistes), support de projets.    
@@ -38,7 +38,7 @@ Alors, merci à lui. 😊
 Pour les personnes ayant le lecteur d'écran NVDA vous pouvez télécharger l'extension dédiée  à mp3DirectCut fait par notre ami scripteur d'Abdelkarim Bensaïd, sur le [site Comunautaire des Extensions NVDA:](https://addons.nvda-project.org/addons/mp3DirectCut.fr.html)    
 Alors, merci à lui. 😊    
 
-# Télécharger le tutorial en français pour l'utilisation de mp3DirectCut (lien externe) pour nous les miro: #
+# Télécharger les tutoriels en français pour l'utilisation de mp3DirectCut (liens externes) pour nous les miro: #
 [Les documents pédagogiques au format WORD](http://www.jaws-actions.fr/lancer/JAWS-Documentation_au_format_WORD-P_BOULANGER.zip)    
 Ce téléchargement comporte plusieurs tutoriels de JAWS-Actions en format Word, entre eux le fichier nommé:    
 `MP3DirectCut Créer et manipuler des fichiers MP3.doc`    
@@ -66,7 +66,7 @@ Merci à Rétinette. 😊
 [Tutorial Fr](http://www.forum-mp3.com/c2_p1_n269_-Couper-ses-MP3-avec-mp3DirectCut.html)    
 
 
-Voila pour les liens de téléchargement de mp3DirectCut et leurs DLL, scripts JAWS, Extension NVDA et Tutorial, via BlindHelp.github.io! :)    
+Voila pour les liens de téléchargement de mp3DirectCut et leurs DLL, Scripts JAWS, Extension NVDA et Tutorial, via BlindHelp.github.io! :)    
 Je vous souhaite un bon découpage des vos fichiers mp3 avec mp3DirectCut! 😁👏    
 Bien amicalement,    
 Rémy (BlindHelp).
