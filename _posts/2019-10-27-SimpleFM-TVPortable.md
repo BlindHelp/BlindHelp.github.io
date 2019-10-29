@@ -25,21 +25,21 @@ céci-infos91 une  chaine vidéo consacré aux non-voyants:
 Simple TV FM nous permet d'importer des fichiers m3u, qui sont des fichiers qui contiennent une liste de stations de radio ou chaînes de TV en ajoutant Une flopée à la fois, mais peut aussi être ajouté chacune individuellement.    
 Visiter cette page en anglais pour trouver des flux des stations de radio ou TV, vous pouvez également télécharger la liste de lecture au format m3u contenant les flux de radio ou de TV sélectionnés sur cette même page:    
 <span lang="en">[Community Radio Browser](http://www.radio-browser.info/gui/#!/)</span>    
- Vous pouvez consulter  cet article pour en savoir plus à ce sujet et comment l'utiliser:    
+ Vous pouvez consulter  cet article via BlindHelp.github.io pour en savoir plus à ce sujet et comment l'utiliser:    
  [Community Radio Browser - Le top du top](https://blindhelp.github.io/Community-Radio-Browser-Le-top-du-top/)    
 
 # Informations sur l'application Simple FM TV: #
  
-- Auteur de l'application:  <span lang="es">Héctor J. Benítez Corredera.</span>    
+- Auteur de l'application:  <span lang="es">Héctor J. Benítez Corredera</span>    
 - Version de l'application: 0.3a    
 - Date de sortie: 27/10/2019    
 - Compatible: Windows 7 et versions ultérieures  (32 et 64 bits). Bien sûr, pour les utilisateurs de Windows 7 et versions ultérieures, si botre version de Windows n'es pas à jour, ou vous donne une erreur de DLL manquante même si votre système est à jour,  il est conseillé d'avoir installé les bibliothèques suivantes:    
-- [<span lang="en">NETFramework 4.8 Runtime (lang="fr">dernière version en date></span>)](https://dotnet.microsoft.com/download/thank-you/net48)    
+- [<span lang="en">NETFramework 4.8 Runtime< (lang="fr">dernière version en date</span>)](https://dotnet.microsoft.com/download/thank-you/net48)    
 - Source du téléchargement de .NET Framework (page en anglais): [<span lang="en">Download .NET Framework | Free official downloads</span>](https://dotnet.microsoft.com/download/dotnet-framework)    
 - et le paquet Visual Studio  (Visual C++ 2019 Redistributable - 14.24.28127.4 (dernière version en date (anglais): [VisualCppRedist_AIO_x86_x64.zip](https://github.com/abbodi1406/vcredist/releases/download/0.26.0/VisualCppRedist_AIO_x86_x64.zip)    
 - Source du téléchargement ( via la page en anglais de GitHub (repository): <span lang="en">[Releases · abbodi1406/vcredist](https://github.com/abbodi1406/vcredist/releases)</span>    
 - Langues multilingues supportées par l'application Simple FM TV: Allemand, Anglais, Français, Espagnol, Italien et Portugais.    
--	 Note: La langue en Allemand et en Italien  elles ne sont pas traduites par des êtres humains.    
+- Note: La langue en Allemand et en Italien  elles ne sont pas traduites par des êtres humains.    
 - Gratuit et portable, et surtout accessible avec nos lecteurs d'écran NVDA / JAWS.    
 - Page de l'application (en espagnol): [<span lang="es">SimpleFM-TV (Windows)</span>](https://www.buscaapps.com/buscaapps2.php?id=905)    
 
