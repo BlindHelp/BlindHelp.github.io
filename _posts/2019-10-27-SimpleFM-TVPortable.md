@@ -28,7 +28,7 @@ Visiter cette page en anglais pour trouver des flux des stations de radio ou TV,
  Vous pouvez consulter  cet article pour en savoir plus à ce sujet et comment l'utiliser:    
  [Community Radio Browser - Le top du top](https://blindhelp.github.io/Community-Radio-Browser-Le-top-du-top/)    
 
- # Informations sur l'application Simple FM TV: #
+# Informations sur l'application Simple FM TV: #
  
 - Auteur de l'application: Héctor J. Benítez Corredera.    
 - Version de l'application: 0.3a    
@@ -38,7 +38,7 @@ Date de sortie: 27/10/2019
 Source du téléchargement de .NET Framework (page en anglais):    
 [Download .NET Framework | Free official downloads](https://dotnet.microsoft.com/download/dotnet-framework)    
 et le paquet Visual Studio  (Visual C++ 2019 Redistributable - 14.24.28127.4 (dernière version en date (anglais):    
-[VisualCppRedist_AIO_x86_x64.zip]()https://github.com/abbodi1406/vcredist/releases/download/0.26.0/VisualCppRedist_AIO_x86_x64.zip)    
+[VisualCppRedist_AIO_x86_x64.zip](https://github.com/abbodi1406/vcredist/releases/download/0.26.0/VisualCppRedist_AIO_x86_x64.zip)    
 Source du téléchargement ( via la page en anglais de GitHub (repository):     
 [Releases · abbodi1406/vcredist](https://github.com/abbodi1406/vcredist/releases)    
 - Langues multilingues supportées par l'application Simple FM TV: Allemand, Anglais, Français, Espagnol, Italien et Portugais. Note: La langue en Allemand et en Italien  elles ne sont pas traduites par des êtres humains.    
