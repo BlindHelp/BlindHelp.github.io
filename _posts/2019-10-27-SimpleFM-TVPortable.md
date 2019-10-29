@@ -34,12 +34,13 @@ Visiter cette page en anglais pour trouver des flux des stations de radio ou TV,
 - Version de l'application: 0.3a    
 - Date de sortie: 27/10/2019    
 - Compatible: Windows 7 et versions ultérieures  (32 et 64 bits). Bien sûr, pour les utilisateurs de Windows 7 et versions ultérieures, si botre version de Windows n'es pas à jour, ou vous donne une erreur de DLL manquante même si votre système est à jour,  il est conseillé d'avoir installé les bibliothèques suivantes:    
-- [<span lang="en">NETFramework 4.8 Runtime< (lang="fr">dernière version en date</span>)](https://dotnet.microsoft.com/download/thank-you/net48)    
+ - .NET Framework (dernière version en date):    
+[<span lang="en">NETFramework 4.8 Runtime</span>](https://dotnet.microsoft.com/download/thank-you/net48)    
 - Source du téléchargement de .NET Framework (page en anglais): [<span lang="en">Download .NET Framework | Free official downloads</span>](https://dotnet.microsoft.com/download/dotnet-framework)    
 - et le paquet Visual Studio  (Visual C++ 2019 Redistributable - 14.24.28127.4 (dernière version en date (anglais): [VisualCppRedist_AIO_x86_x64.zip](https://github.com/abbodi1406/vcredist/releases/download/0.26.0/VisualCppRedist_AIO_x86_x64.zip)    
 - Source du téléchargement ( via la page en anglais de GitHub (repository): <span lang="en">[Releases · abbodi1406/vcredist](https://github.com/abbodi1406/vcredist/releases)</span>    
 - Langues multilingues supportées par l'application Simple FM TV: Allemand, Anglais, Français, Espagnol, Italien et Portugais.    
-- Note: La langue en Allemand et en Italien  elles ne sont pas traduites par des êtres humains.    
+Note: La langue en Allemand et en Italien  elles ne sont pas traduites par des êtres humains.    
 - Gratuit et portable, et surtout accessible avec nos lecteurs d'écran NVDA / JAWS.    
 - Page de l'application (en espagnol): [<span lang="es">SimpleFM-TV (Windows)</span>](https://www.buscaapps.com/buscaapps2.php?id=905)    
 
@@ -103,7 +104,7 @@ Puis un potentiomètre pour augmenter ou diminuer le volume.
 
 En outre, dans le même programme, si vous appuyez sur le bouton Aide, il s'ouvre un manuel détaillé sur l'utilisation de Simple FM TV, où nous expliquons chacun de ses parties et fonctions, lequel convient de jeter un coup d'oeil.    
 
-Nous remercions à <span lang="es">Héctor Benítez Corredera</span>, développeur de Ce fabuleux programme d'avoir voulu le partagé  avec nous. 😉    
+Nous remercions à <span lang="es">Héctor J. Benítez Corredera</span>, développeur de Ce fabuleux programme d'avoir voulu le partagé  avec nous. 😉    
 Amusez vous! 😃    
 
 Simple FM TV est simple comme bonjour!    
