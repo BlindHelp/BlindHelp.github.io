@@ -41,16 +41,16 @@ L'auteur d'ApprentiClavier, Hervé Béranger, remercie les précurseurs du Club
 
 # Apprenti Clavier  nouvelle version fait par Daniel Poiraud #
 ApprentiClavier ne paraissant plus maintenu, Daniel Poiraud, du club informatique AVH16, a modifié quelques éléments de la programmation, pour faire détecter sur l'ordinateur NVDA et les dernières versions de Jaws. Des pages d'informations ont été modifiées pour tenir compte de NVDA comme autre lecteur d'écran que Jaws. Cette version modifiée a été notée 1.10.    
-Vous pourrez consulter la page ApprentiClavier créée à cette occasion sur   le site, à cette adresse :    
+Vous pourrez consulter la page ApprentiClavier créée à cette occasion sur   le site, à cette adresse:    
 [http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm](http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm)
 Les sources de cette version sont téléchargeables  depuis le site mentionné ci-dessus puisque c’est un logiciel libre.    
 
 Merci à Daniel !😉    
 
 La cerise sur le gâteau , maintenant vous pouvez également l'utiliser sous NVDA!                   
-Cette extension tente de rendre le plus accessible possible le logiciel [ApprentiClavier](http://www.apprenticlavier.com/) sous NVDA. Cette extension n'ajoute aucun script .                
 Grâce à une extension développée par son auteur:                    
 Paul, de la liste ScriptNVDA.                 
+Cette extension tente de rendre le plus accessible possible le logiciel [ApprentiClavier](http://www.apprenticlavier.com/) sous NVDA. Cette extension n'ajoute aucun script .                
 Pour ceux qui utilisent le logiciel ApprentiClavier, voici la mise à jour de l'extension NVDA compatible avec la version 2019.2 et les versions alpha de 2019.3.    
 Cette extension a changée de nom pour raison d'homogénéité avec les autres extensions fait par l'auteur. Son installation s'ocuppe de tout. Pas besoin de désinstaller la précédente.    
 Hormis cette compatibilité, a été ajouté la mise à jour automatique de l'extension.    
