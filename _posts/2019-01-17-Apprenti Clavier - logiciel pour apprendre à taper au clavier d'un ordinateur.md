@@ -42,7 +42,7 @@ L'auteur d'ApprentiClavier, Hervé Béranger, remercie les précurseurs du Club
 # Apprenti Clavier  nouvelle version fait par Daniel Poiraud #
 ApprentiClavier ne paraissant plus maintenu, Daniel Poiraud, du club informatique AVH16, a modifié quelques éléments de la programmation, pour faire détecter sur l'ordinateur NVDA et les dernières versions de Jaws. Des pages d'informations ont été modifiées pour tenir compte de NVDA comme autre lecteur d'écran que Jaws. Cette version modifiée a été notée 1.10.    
 Vous pourrez consulter la page ApprentiClavier créée à cette occasion sur   le site, à cette adresse:    
-[http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm](http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm)
+[http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm](http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm)    
 Les sources de cette version sont téléchargeables  depuis le site mentionné ci-dessus puisque c’est un logiciel libre.    
 
 Merci à Daniel !😉    
