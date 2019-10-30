@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Jeudi 17 Janvier 2019</footer>
+<footer>Dernière mise à jour le Dimanche 27 Octobre 2019</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -39,18 +39,29 @@ ainsi que le lien "Sources" pour télécharger le code-source Visual Basic 4 en 
 
 L'auteur d'ApprentiClavier, Hervé Béranger, remercie les précurseurs du Club Micro Son qui avaient développé sous Dos un logiciel semblable appelé CLAVSON : Robert Agro, Thierry Bertrand, Alain Rousseau.            
 
-La cerise sur le gâteau , maintenant vous pouvez également l'utiliser sous NVDA!                   
-Grâce à un module complémentaire développé par son auteur:                    
-Paul, de la liste ScriptNVDA.                 
-Ce module complémentaire tente de rendre le plus accessible possible le logiciel [ApprentiClavier](http://www.apprenticlavier.com/) sous NVDA. Ce module complémentaire n'ajoute aucun script .                
-Compatibilité:                              
-Ce module complémentaire a été testé pour la dernière fois avec la version 1.0.9 d'ApprentiClavier, NVDA 2014.3 et sous Windows XP, Windows 7, Windows 8.1. Il n'est pas compatible avec les versions de NVDA antérieures à la version 2014.3.           
-Langues: Français.               
-Version actuelle: 2.2.1                 
-Dernière mise à jour: 21 Juillet 2016).                      
-[Télécharger le module complémentaire ApprentiClavier-v2.2.1.nvda-addon par ici: [lien externe]](https://github.com/paulber007/AllMyNVDAAddons/blob/master/apprentiClavier/ApprentiClavier-v2.2.1.nvda-addon?raw=true)                         
+# Apprenti Clavier  nouvelle version fait par Daniel Poiraud #
+ApprentiClavier ne paraissant plus maintenu, Daniel Poiraud, du club informatique AVH16, a modifié quelques éléments de la programmation, pour faire détecter sur l'ordinateur NVDA et les dernières versions de Jaws. Des pages d'informations ont été modifiées pour tenir compte de NVDA comme autre lecteur d'écran que Jaws. Cette version modifiée a été notée 1.10.    
+Vous pourrez consulter la page ApprentiClavier créée à cette occasion sur   le site, à cette adresse :    
+[http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm](http://angouleme.avh.asso.fr/fichesinfo/apprenticlavier/index.htm)
+Les sources de cette version sont téléchargeables  depuis le site mentionné ci-dessus puisque c’est un logiciel libre.    
 
-Merci à Paul!
+Merci à Daniel !😉    
+
+La cerise sur le gâteau , maintenant vous pouvez également l'utiliser sous NVDA!                   
+Cette extension tente de rendre le plus accessible possible le logiciel [ApprentiClavier](http://www.apprenticlavier.com/) sous NVDA. Cette extension n'ajoute aucun script .                
+Grâce à une extension développée par son auteur:                    
+Paul, de la liste ScriptNVDA.                 
+Pour ceux qui utilisent le logiciel ApprentiClavier, voici la mise à jour de l'extension NVDA compatible avec la version 2019.2 et les versions alpha de 2019.3.    
+Cette extension a changée de nom pour raison d'homogénéité avec les autres extensions fait par l'auteur. Son installation s'ocuppe de tout. Pas besoin de désinstaller la précédente.    
+Hormis cette compatibilité, a été ajouté la mise à jour automatique de l'extension.    
+Langues: Français.               
+Version actuelle: 1.0                 
+Dernière mise à jour: 18 Octobre 2019.                      
+[Télécharger l'extension apprentiClavierAccessEnhancement-1.0.nvda-addon par ici: [lien externe]](https://rawgit.com/paulber007/AllMyNVDAAddons/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.0.nvda-addon?raw=true)    
+
+Bien que cette extension ne soit pas parfaite (ce logiciel étant bien coriace et devenant instable sous W10), j'espère qu'elle vous permettra d'utiliser autant que possible ApprentiClavier.    
+
+Merci à Paul !😉    
 
 Je vous souhaite un bon apprentissage du clavier avec Apprenti Clavier!         
 À la proch...                 
