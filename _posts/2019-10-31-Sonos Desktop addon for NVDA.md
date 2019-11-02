@@ -16,7 +16,7 @@ Nous partageons les informations et le lien direct pour télécharger cette nouv
 * Version actuelle: 1.5
 * Compatibilité avec NVDA: 2017.4 à 2019.3
 
-Note: Cette extension est actuellement en cours de révision par les membres de la communauté internationale d'extensions NVDA.    
+Note: Cette extension est actuellement en cours de révision par les membres de la communauté des Extensions NVDA.    
 
 Cette extension améliore l'accessibilité de Sonos Desktop 9.2 et versions ultérieures. Bien que l'application est déjà tout à fait accessible par défaut, NVDA ne peut pas lire la station en cours de lecture et le titre du morceau. Cette extension fournit les raccourcis clavier suivants:    
 - Contrôle+1: annonce le nom de la pièce actuelle, le nom de la station et le titre du morceau.
@@ -61,7 +61,7 @@ Compatibilité avec NVDA 2019.1.
 
 [Télécharger   la dernière version 1.5 par ici:](https://github.com/Novalis7747/sonos/raw/master/sonos-1.5.nvda-addon)
 
-* Remarque importante: me contacter pour toutes suggestions et commentaires (en anglais ou allemand) sous <a href="mailto:novalis7747@live.com</a>
+* Remarque importante: me contacter pour toutes suggestions et commentaires (en anglais ou allemand) sous <a href="mailto:novalis7747@live.com">novalis7747 at live.com</a>
 
 ---
 
