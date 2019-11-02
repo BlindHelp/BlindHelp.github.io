@@ -21,7 +21,7 @@ Note: Cette extension est actuellement en cours de révision par les membres de 
 Cette extension améliore l'accessibilité de Sonos Desktop 9.2 et versions ultérieures. Bien que l'application est déjà tout à fait accessible par défaut, NVDA ne peut pas lire la station en cours de lecture et le titre du morceau. Cette extension fournit les raccourcis clavier suivants:    
 - Contrôle+1: annonce le nom de la pièce actuelle, le nom de la station et le titre du morceau.
 - Contrôle+1 deux fois rapidement: copie le titre du morceau dans le presse-papiers.
-- Contrôle+2: ouvre le titre du morceau dans une fenêtre virtuelle invisible pour le lire en arrière avec flèches.
+- Contrôle+2: ouvre le titre du morceau dans une fenêtre virtuelle invisible pour le lire en arrière avec les flèches.
 - Contrôle+3: ouvre Youtube dans votre navigateur par défaut (ouvre dans un nouvel onglet) avec les résultats de recherche liés au titre du morceau en cours de lecture.
 - Alt+shift+v: indique le volume actuelle.
 - Alt+shift+m: indique l'état du mode mute.
