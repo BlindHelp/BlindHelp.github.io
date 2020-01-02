@@ -104,6 +104,34 @@ Puis un potentiomètre pour augmenter ou diminuer le volume.
 
 En outre, dans le même programme, si vous appuyez sur le bouton Aide, il s'ouvre un manuel détaillé sur l'utilisation de Simple FM TV, où nous expliquons chacun de ses parties et fonctions, lequel convient de jeter un coup d'oeil.    
 
+# Simple FM TV, Astuce #
+Cette astuce servira à lancer le programme Simple FM TV plus vite à partir de votre bureau et celui-ci ce lancera plus rapidement.    
+Le programme Simple FM TV prendra moins de temps aux démarrage et il bloquera moins si une action est exécutée.    
+Une fois l'archive décompressé:    
+Placez le dossier:    
+`SimpleFM-TVPortable`    
+dans le chemin suivant:    
+`C:\SimpleFM-TVPortable\`    
+Ensuite rechercher le dossier 32 ou 64, en fonction de l'architecture de votre système (Windows (32 ou 64 bits).    
+Par exemple, si vous avez un système Windows en 32 bits ouvrez le dossier 32, et si vous avez un système Windows en 64 bits ouvrez le dossier 64.    
+Appuyez sur la touche "Fin" pour localiser l'un des fichiers selon le cas:    
+SimpleFM-TV32.exe (pour un Windows en 32 bits).    
+SimpleFM-TV64.exe (pour un Windows en 64 bits).    
+Appuyez sur la touche Applications (Menu contextuel) sur l'un des fichiers sélectionnés.    
+et choisissez Envoyer vers sous-menu, Bureau (créer un raccourci)    
+Ensuite, allez sur le bureau avec la commande Windows+d, puis trouver et renommer les noms de ces raccourcis à l'aide de la touche F2:    
+Nom du raccourci créé pour le programme en 32 bits:    
+`SimpleFM-TV32.exe - Raccourci`    
+Appuyez sur F2 et le renommer en:    
+`SimpleFM-TV32`    
+Une fois fini, appuyez sur Entrée.    
+Nom du raccourci créé pour le programme en 64 bits:    
+`SimpleFM-TV64.exe - Raccourci`    
+Appuyez sur F2 et le renommer en:    
+`SimpleFM-TV64`    
+Une fois fini, appuyez sur Entrée.    
+Maintenant, à tout moment vous pouvez facilement lancer le programme Simple FM TV à partir de ce nouveau raccourci que vous venez de créer sur le bureau.    
+
 Nous remercions à <span lang="es">Héctor J. Benítez Corredera</span>, développeur de Ce fabuleux programme d'avoir voulu le partagé  avec nous. 😉    
 Amusez vous! 😃    
 
