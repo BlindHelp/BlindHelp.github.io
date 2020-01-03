@@ -30,6 +30,11 @@ Pour les amis hispanophones:
 Aller sur cette page Web, et obtenez des chaînes de TV et des radios en espagnol:    
 <span lang="es">[LaQuay/TDTChannels: Listado de Canales de TV (TDT) en abierto, 100% legal, 100% gratuito](https://github.com/LaQuay/TDTChannels)</span>    
 
+# Télécharger  la liste des adresses des flux mp3 de Radio France Juin 2017 #
+[Télécharger  la liste des adresses des flux mp3 de Radio France Juin 2017 (en format TXT et PDF   en archive zip via BlindHelp.github.io en cliquant ici](https://blindhelp.github.io/radio_france_-_adresses_flux_mp3_-_juin_2017.zip)    
+De préférence, ouvrez le fichier TXT pour entrer le flux de la station de radio manuellement en utilisant le programme [Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
+ou tout autre programme qui peut lire des flux radio, Je vous recommande d'utiliser le programme Simple FM TV car il est plus accessible pour nous les miro.    
+
 Bonne capture de vos flux! 😃    
 
 Bien amicalement,    
