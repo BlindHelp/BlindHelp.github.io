@@ -40,7 +40,7 @@ Il faut au préalable installer l'extension nommée:
 [Virtual Review](https://addons.nvda-project.org/files/get.php?file=VR)    
 Une fois installée l'extension puis avoir rélancée NVDA.    
 Appuyez sur NVDA+contrôle+w pour ouvrir la fenêtre de révision virtuelle sur la boîte de dialogue préalablement ouverte.    
-Puis naviguez simplement dans la zone de texte affichée comme vous feriez dans n'importe quel texte , sélectionner la première ligne qui est la clé de Windows, ensuite faire CTRL+C pour la copier 
+Puis naviguez simplement dans la zone de texte affichée comme vous feriez dans n'importe quel texte, sélectionner la première ligne qui est la clé de Windows, ensuite faire CTRL+C pour la copier 
 et voilà, vous pouvez maintenant la coler où bon vous semble.    
 Vous pouvez appuyer sur ÉCHAP pour fermer la fenêtre de révision virtuelle.    
 Appuyer sur OK pour fermer la dite boîte de dialogue.    
