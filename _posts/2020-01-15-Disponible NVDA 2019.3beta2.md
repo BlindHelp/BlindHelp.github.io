@@ -24,7 +24,7 @@ NVDA 2019.3 est une version très importante contenant de nombreux changements s
 * La précision de la commande pour déplacer la souris à l'objet navigateur a été améliorée dans les zones de texte des applications Java. (#10157) 
 * Ajout du support des afficheurs Braille Handy Tech suivants (#8955) : 
 	* Basic Braille Plus 40 
- 	* Basic Braille Plus 32 
+	* Basic Braille Plus 32 
 	* Connect Braille 
 * Tous les gestes personnalisés peuvent maintenant être supprimés via un nouveau bouton "Réinitialiser aux valeurs par défaut" dans le dialogue "Gestes de commandes". (#10293) 
 * L'annonce de la police dans Microsoft Word indiquera maintenant si un texte est marqué comme masqué. (#8713) 
