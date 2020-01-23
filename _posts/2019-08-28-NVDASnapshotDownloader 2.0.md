@@ -1,24 +1,26 @@
 ---
-title: NVDASnapshotDownloader 2.0, grâce à Alberto Buffolino
+title: NVDASnapshotDownloader 2.0 grâce à Alberto Buffolino
 layout: post
 author: BlindHelp
 ---
 
-<footer>Mercredi 28 Août 2019</footer>
+<footer>Première publication Mercredi 28 Août 2019, mis à jour Mardi 21 Janvier 2020</footer>
 
 Alberto Buffolino, Contributeur de NVDA et auteur de plusieurs extensions tels que NoBeepsSpeechMode, ToolbarsExplorer, etc. a publié une nouvelle version de NVDASnapshotDownloader traduit en français, pour faciliter le téléchargement des versions de test de NVDA.
 
-Nous partageons les instructions et le lien direct pour télécharger ce programme simple, maintenant dans notre belle langue le français!
+Version 3.0: Correction d'un bug pour le téléchargement de la version beta2 du 21 Janvier 2020.
+
+Nous partageons les instructions et le lien direct pour télécharger ce programme simple,  dans notre belle langue le français!
 
 ### NVDASnapshotDownloader
 
 Un simple fichier .bat pour télécharger les dernières versions de test (“snapshots”) de NVDA, à partir de chaque branche (type) disponible: rc, alpha, etc.
 
-Disponible en anglais (projet original) aussi en español (grâce à @nvdaes) et maintenant une nouvelle langue le francais (grâce à @BlindHelp).
+Disponible en anglais (projet original), en espagnol (grâce à @nvdaes), en français (grâce à @BlindHelp) et  en italien (grâce à @christianlm).
 
 #### Installation
 
-- [Télécharger le fichier zip en francais](https://github.com/ABuffEr/NVDASnapshotDownloader/raw/master/releases/NVDASnapshotDownloader-2.0-fr.zip).
+- [Télécharger le fichier zip en francais](https://github.com/ABuffEr/NVDASnapshotDownloader/raw/master/releases/NVDASnapshotDownloader-3.0-fr.zip).
 - Extraire le fichier et mettez _NVDASnapshotDownloader.bat dans un dossier où vous le souhaitez (un chemin sans espaces est préférable).
 - Exécutez et suivez le processus étape par étape.
 
