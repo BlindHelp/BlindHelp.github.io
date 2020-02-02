@@ -26,7 +26,7 @@ Note: Aucun article a été publié par [NV Access](https://www.nvaccess.org/) s
 
 # Changements pour la Release 2019.3beta3  du Jeudi 30 Janvier 2020 #
 
-* Arrêter en utilisant le code spécifique MS Edge dans les champs d'édition pour Internet Explorer. (PR #10652)
+* Arrêt de l'utilisation du code spécifique MS Edge dans les champs d'édition pour Internet Explorer. (PR #10652)
 * Corrections dans le panneau Paramètres Vision, après l'application des modifications du surlignage, en appuyant  sur Annuler ne provoque plus une erreur.
 * Correction d'une erreur quand il y a une région  de navigation dans le contenu EdgeHTML (#10710)
 * Plusieurs corrections  pour  le rideau d'écran ((Peut maintenant être activée en permanence par  des gestes quand le dialogue d'avertissement apparaît, Peut être activé après avoir échoué précédemment en raison de la loupe étant actif)
