@@ -17,9 +17,9 @@ Comme indiqué dans le message en anglais qui a été trouvé sur la page [NV Ac
 
 # Corrections de plusieurs bugs: #
 
-* Erreur lors de la configuration en-tête ligne / colonne dans Word.
+* Erreur lors de la configuration en-tête ligne / colonne dans Microsoft Word.
 * Les contrôles cachés dans la liste des éléments sur les écrans à basse résolution.
-* Arrêts dire tout avec Onecore ou SAPI5.
+* Arrêt de l'utilisation dire tout avec les synthétiseurs vocaux OneCore et Sapi5.
 
 
 Note: Aucun article a été publié par [NV Access](https://www.nvaccess.org/) sur la diffusion de cette nouvelle mise à jour Release 2019.3beta4.    
