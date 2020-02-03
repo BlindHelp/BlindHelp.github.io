@@ -19,10 +19,10 @@ Comme indiqué dans le message en anglais qui a été trouvé sur la page [NV Ac
 
 * Erreur lors de la configuration en-tête ligne / colonne dans Microsoft Word.
 * Contrôles cachés dans la liste des éléments sur les écrans à basse résolution.
-* Interruption de dire tout avec les synthétiseurs vocaux OneCore o Sapi5.
+* Interruption de dire tout avec les synthétiseurs vocaux OneCore ou Sapi5.
 
 
-Note: Aucun article a été publié par [NV Access](https://www.nvaccess.org/) sur la diffusion de cette nouvelle mise à jour Release 2019.3beta4.    
+Note: Aucun article a été publié par [NV Access](https://www.nvaccess.org/) sur la diffusion de cette nouvelle mise à jour Release 2019.3beta4, lors de la rédaction de cet article.    
 
 # Changements pour la Release 2019.3beta3  du Jeudi 30 Janvier 2020 #
 
