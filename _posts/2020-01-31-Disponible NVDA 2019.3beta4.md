@@ -15,11 +15,11 @@ Si vous voulez l'installer et que vous avez une version stable, vous pouvez tél
 
 Comme indiqué dans le message en anglais qui a été trouvé sur la page [NV Access du référentiel   de NVDA en GitHub](https://github.com/nvaccess/nvda/releases/tag/release-2019.3beta4) voici les changements  pour la nouvelle version NVDA 2019.3 Beta 4, ceux-ci sont les changements par rapport à la version 2019.3beta3:
 
-# Corrections de plusieurs bugs: #
+#### Corrections de plusieurs bugs: ####
 
 * Erreur lors de la configuration en-tête ligne / colonne dans Microsoft Word.
-* Les contrôles cachés dans la liste des éléments sur les écrans à basse résolution.
-* Arrêt de l'utilisation dire tout avec les synthétiseurs vocaux OneCore et Sapi5.
+* Contrôles cachés dans la liste des éléments sur les écrans à basse résolution.
+* Interruption de dire tout avec les synthétiseurs vocaux OneCore o Sapi5.
 
 
 Note: Aucun article a été publié par [NV Access](https://www.nvaccess.org/) sur la diffusion de cette nouvelle mise à jour Release 2019.3beta4.    
@@ -28,10 +28,10 @@ Note: Aucun article a été publié par [NV Access](https://www.nvaccess.org/) s
 
 * Arrêt de l'utilisation du code spécifique MS Edge dans les champs d'édition pour Internet Explorer. (PR #10652)
 * Corrections dans le panneau Paramètres Vision, après l'application des modifications du surlignage, en appuyant  sur Annuler ne provoque plus une erreur.
-* Correction d'une erreur quand il y a une région  de navigation dans le contenu EdgeHTML (#10710)
-* Plusieurs corrections  pour  le rideau d'écran ((Peut maintenant être activée en permanence par  des gestes quand le dialogue d'avertissement apparaît, Peut être activé après avoir échoué précédemment en raison de la loupe étant actif)
+* Correction d'une erreur quand il y a une région  de navigation dans le contenu HTML d'Edge. (#10710)
+* Plusieurs corrections  pour  le rideau d'écran (Peut maintenant être activée après que l'activation précédemte a échoué parce que la loupe  était actif); il est également possible l'activation "permanente" du rideau d'écran même si vous avez choisi de ne pas afficher le dialogue de confirmation.
 * Ajout d'une présentation à Quoi de Neuf.
-* Mise à jour de la description du paramètre de ligne de commande -s et résolu quelques fautes d'orthographe mineures (#10678)
+* Mise à jour de la description du paramètre de ligne de commande -s et résolu quelques fautes d'orthographe mineures. (#10678)
 
 [Consulter la page en anglais sur le poste NV Access NVDA 2019.3beta3](https://www.nvaccess.org/post/nvda-2019-3beta3-now-available-for-testing/)    
 

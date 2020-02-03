@@ -17,10 +17,10 @@ Comme expliqué dans cet  [article de NV Access sur NVDA 2019.3beta3](https://ww
 
 * Arrêt de l'utilisation du code spécifique MS Edge dans les champs d'édition pour Internet Explorer. (PR #10652)
 * Corrections dans le panneau Paramètres Vision, après l'application des modifications du surlignage, en appuyant  sur Annuler ne provoque plus une erreur.
-* Correction d'une erreur quand il y a une région  de navigation dans le contenu EdgeHTML (#10710)
-* Plusieurs corrections  pour  le rideau d'écran ((Peut maintenant être activée en permanence par  des gestes quand le dialogue d'avertissement apparaît, Peut être activé après avoir échoué précédemment en raison de la loupe étant actif)
+* Correction d'une erreur quand il y a une région  de navigation dans le contenu HTML d'Edge. (#10710)
+* Plusieurs corrections  pour  le rideau d'écran (Peut maintenant être activée après que l'activation précédemte a échoué parce que la loupe  était actif); il est également possible l'activation "permanente" du rideau d'écran même si vous avez choisi de ne pas afficher le dialogue de confirmation.
 * Ajout d'une présentation à Quoi de Neuf.
-* Mise à jour de la description du paramètre de ligne de commande -s et résolu quelques fautes d'orthographe mineures (#10678)
+* Mise à jour de la description du paramètre de ligne de commande -s et résolu quelques fautes d'orthographe mineures. (#10678)
 
 # 2019.3 #
 
