@@ -21,11 +21,11 @@ Si vous voulez l'installer et que vous avez une version stable, vous pouvez tél
 
 Comme expliqué dans cet  [article de NV Access sur NVDA 2019.3rc3](https://www.nvaccess.org/post/nvda-2019-3rc3-now-available-for-testing/) (en anglais), ceux-ci sont les changements par rapport à la version NVDA 2019.3rc2, la version candidate précédente:
 
-# Changements pour la Release 2019.3rc3 du Mercredi 5 Février 2020 #
+# Changements pour la Release Candidate 2019.3rc3 du Mercredi 5 Février 2020 #
 
 * Mises à jour des traductions pour les nombreuses langues
 
-# Changements pour la Release 2019.3rc2 du Mardi 4 Février 2020 #
+# Changements pour la Release Candidate 2019.3rc2 du Mardi 4 Février 2020 #
 
 * Mises à jour des traductions qui ont été absents dans la RC1
 
