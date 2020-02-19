@@ -3,9 +3,9 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Guide de l'utilisateur de NVDA 2019.2.1</TITLE>
+<TITLE>Guide de l'utilisateur de NVDA 2019.3.1</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2019.2.1</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2019.3.1</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -39,6 +39,7 @@
     <LI><A HREF="#LaunchingNVDA">4.1. Démarrer NVDA</A>
       <UL>
       <LI><A HREF="#WelcomeDialog">4.1.1. Dialogue de Bienvenue</A>
+      <LI><A HREF="#UsageStatsDialog">4.1.2. Dialogue de statistiques d'utilisation des données</A>
       </UL>
     <LI><A HREF="#AboutNVDAKeyboardCommands">4.2. À Propos des Commandes Clavier de NVDA</A>
       <UL>
@@ -88,128 +89,135 @@
     <LI><A HREF="#BrailleAbbreviations">8.1. Abréviations des Types, États des Contrôles et Repères en Braille</A>
     <LI><A HREF="#BrailleInput">8.2. Saisie en Braille</A>
     </UL>
-  <LI><A HREF="#ContentRecognition">9. Reconnaissance de Contenu</A>
+  <LI><A HREF="#Vision">9. Vision</A>
     <UL>
-    <LI><A HREF="#Win10Ocr">9.1. Reconnaissance Optique de Caractères de Windows 10</A>
+    <LI><A HREF="#VisionFocusHighlight">9.1. Surlignage du Focus</A>
+    <LI><A HREF="#VisionScreenCurtain">9.2. Le Rideau d'Écran</A>
     </UL>
-  <LI><A HREF="#ApplicationSpecificFeatures">10. Fonctionnalités Spécifiques à Certaines Applications</A>
+  <LI><A HREF="#ContentRecognition">10. Reconnaissance de Contenu</A>
     <UL>
-    <LI><A HREF="#MicrosoftWord">10.1. Microsoft Word</A>
-      <UL>
-      <LI><A HREF="#WordAutomaticColumnAndRowHeaderReading">10.1.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</A>
-      <LI><A HREF="#BrowseModeInMicrosoftWord">10.1.2. Mode Navigation sous Microsoft Word</A>
-      <LI><A HREF="#WordReportingComments">10.1.3. Annonce des Commentaires</A>
-      </UL>
-    <LI><A HREF="#MicrosoftExcel">10.2. Microsoft Excel</A>
-      <UL>
-      <LI><A HREF="#ExcelAutomaticColumnAndRowHeaderReading">10.2.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</A>
-      <LI><A HREF="#ExcelElementsList">10.2.2. La Liste d'Éléments</A>
-      <LI><A HREF="#ExcelReportingComments">10.2.3. Annonce des Commentaires</A>
-      <LI><A HREF="#ExcelReadingProtectedCells">10.2.4. Lecture des Cellules Protégées</A>
-      <LI><A HREF="#ExcelFormFields">10.2.5. Champs de Formulaire</A>
-      </UL>
-    <LI><A HREF="#MicrosoftPowerPoint">10.3. Microsoft PowerPoint</A>
-    <LI><A HREF="#Foobar2000">10.4. Foobar2000</A>
-    <LI><A HREF="#MirandaIM">10.5. Miranda IM</A>
-    <LI><A HREF="#Poedit">10.6. Poedit</A>
-    <LI><A HREF="#Skype">10.7. Skype</A>
-    <LI><A HREF="#Kindle">10.8. Kindle pour PC</A>
-      <UL>
-      <LI><A HREF="#KindleTextSelection">10.8.1. Sélection de Texte</A>
-      <LI><A HREF="#KindleUserNotes">10.8.2. Notes de l'Utilisateur</A>
-      </UL>
-    <LI><A HREF="#Azardi">10.9. Azardi</A>
+    <LI><A HREF="#Win10Ocr">10.1. Reconnaissance Optique de Caractères de Windows 10</A>
     </UL>
-  <LI><A HREF="#ConfiguringNVDA">11. Configurer NVDA</A>
+  <LI><A HREF="#ApplicationSpecificFeatures">11. Fonctionnalités Spécifiques à Certaines Applications</A>
     <UL>
-    <LI><A HREF="#NVDASettings">11.1. Paramètres de NVDA</A>
+    <LI><A HREF="#MicrosoftWord">11.1. Microsoft Word</A>
       <UL>
-      <LI><A HREF="#GeneralSettings">11.1.1. Général (NVDA+control+g)</A>
-      <LI><A HREF="#VoiceSettings">11.1.2. Parole (NVDA+contrôle+v)</A>
-      <LI><A HREF="#SelectSynthesizer">11.1.3. Choix du Synthétiseur (NVDA+control+s)</A>
-      <LI><A HREF="#SynthSettingsRing">11.1.4. Boucle des Paramètres Synthétiseur</A>
-      <LI><A HREF="#BrailleSettings">11.1.5. Braille</A>
-      <LI><A HREF="#SelectBrailleDisplay">11.1.6. Choisir l'Afficheur Braille (NVDA+contrôle+a)</A>
-      <LI><A HREF="#KeyboardSettings">11.1.7. Clavier (NVDA+contrôle+k)</A>
-      <LI><A HREF="#MouseSettings">11.1.8. Souris (NVDA+contrôle+m)</A>
-      <LI><A HREF="#TouchInteraction">11.1.9. Interaction Tactile</A>
-      <LI><A HREF="#ReviewCursorSettings">11.1.10. Curseur de Revue</A>
-      <LI><A HREF="#ObjectPresentationSettings">11.1.11. Présentation des Objets (NVDA+contrôle+o)</A>
-      <LI><A HREF="#InputCompositionSettings">11.1.12. Composition de Saisie</A>
-      <LI><A HREF="#BrowseModeSettings">11.1.13. Mode Navigation (NVDA+contrôle+b)</A>
-      <LI><A HREF="#DocumentFormattingSettings">11.1.14. Mise en Forme des Documents (NVDA+contrôle+d)</A>
-      <LI><A HREF="#Win10OcrSettings">11.1.15. Reconnaissance Optique de Caractères de Windows 10</A>
-      <LI><A HREF="#AdvancedSettings">11.1.16. Paramètres Avancés</A>
+      <LI><A HREF="#WordAutomaticColumnAndRowHeaderReading">11.1.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</A>
+      <LI><A HREF="#BrowseModeInMicrosoftWord">11.1.2. Mode Navigation sous Microsoft Word</A>
+      <LI><A HREF="#WordReportingComments">11.1.3. Annonce des Commentaires</A>
       </UL>
-    <LI><A HREF="#MiscSettings">11.2. Autres Paramètres</A>
+    <LI><A HREF="#MicrosoftExcel">11.2. Microsoft Excel</A>
       <UL>
-      <LI><A HREF="#SpeechDictionaries">11.2.1. Dictionnaires de Prononciation</A>
-      <LI><A HREF="#SymbolPronunciation">11.2.2. Prononciation des Ponctuations et symboles</A>
-      <LI><A HREF="#InputGestures">11.2.3. Gestes de Commandes</A>
+      <LI><A HREF="#ExcelAutomaticColumnAndRowHeaderReading">11.2.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</A>
+      <LI><A HREF="#ExcelElementsList">11.2.2. La Liste d'Éléments</A>
+      <LI><A HREF="#ExcelReportingComments">11.2.3. Annonce des Commentaires</A>
+      <LI><A HREF="#ExcelReadingProtectedCells">11.2.4. Lecture des Cellules Protégées</A>
+      <LI><A HREF="#ExcelFormFields">11.2.5. Champs de Formulaire</A>
       </UL>
-    <LI><A HREF="#SavingAndReloading">11.3. Sauvegarder et Recharger la Configuration</A>
-    <LI><A HREF="#ConfigurationProfiles">11.4. Profils de Configuration</A>
+    <LI><A HREF="#MicrosoftPowerPoint">11.3. Microsoft PowerPoint</A>
+    <LI><A HREF="#Foobar2000">11.4. Foobar2000</A>
+    <LI><A HREF="#MirandaIM">11.5. Miranda IM</A>
+    <LI><A HREF="#Poedit">11.6. Poedit</A>
+    <LI><A HREF="#Skype">11.7. Skype</A>
+    <LI><A HREF="#Kindle">11.8. Kindle pour PC</A>
       <UL>
-      <LI><A HREF="#ProfilesBasicManagement">11.4.1. Gestion Basique</A>
-      <LI><A HREF="#ProfilesCreating">11.4.2. Création d'un Profil</A>
-      <LI><A HREF="#ConfigProfileManual">11.4.3. Activation Manuelle</A>
-      <LI><A HREF="#ConfigProfileTriggers">11.4.4. Déclencheurs</A>
-      <LI><A HREF="#ConfigProfileEditing">11.4.5. Éditer un Profil</A>
-      <LI><A HREF="#ConfigProfileDisablingTriggers">11.4.6. Désactiver Temporairement tous les Déclencheurs</A>
-      <LI><A HREF="#ConfigProfileGestures">11.4.7. Activer un profil en utilisant les gestes de commandes</A>
+      <LI><A HREF="#KindleTextSelection">11.8.1. Sélection de Texte</A>
+      <LI><A HREF="#KindleUserNotes">11.8.2. Notes de l'Utilisateur</A>
       </UL>
-    <LI><A HREF="#LocationOfConfigurationFiles">11.5. Emplacement des Fichiers de Configuration</A>
+    <LI><A HREF="#Azardi">11.9. Azardi</A>
+    <LI><A HREF="#WinConsole">11.10. Console Windows</A>
     </UL>
-  <LI><A HREF="#ExtraTools">12. Outils Additionnels</A>
+  <LI><A HREF="#ConfiguringNVDA">12. Configurer NVDA</A>
     <UL>
-    <LI><A HREF="#LogViewer">12.1. Visionneuse du Journal</A>
-    <LI><A HREF="#SpeechViewer">12.2. Visionneuse de Parole</A>
-    <LI><A HREF="#AddonsManager">12.3. Gestionnaire d'Extensions</A>
-    <LI><A HREF="#incompatibleAddonsManager">12.4. Le Gestionnaire d'Extensions Incompatibles</A>
-    <LI><A HREF="#PythonConsole">12.5. Console Python</A>
-    <LI><A HREF="#ReloadPlugins">12.6. Rechargement des Extensions</A>
-    </UL>
-  <LI><A HREF="#SupportedSpeechSynths">13. Synthétiseurs de Parole Pris en Charge</A>
-    <UL>
-    <LI><A HREF="#eSpeakNG">13.1. eSpeak NG</A>
-    <LI><A HREF="#SAPI4">13.2. Microsoft Speech API Version 4 (SAPI 4)</A>
-    <LI><A HREF="#SAPI5">13.3. Microsoft Speech API Version 5 (SAPI 5)</A>
-    <LI><A HREF="#MicrosoftSpeechPlatform">13.4. La Plate-forme Microsoft Speech</A>
-    <LI><A HREF="#OneCore">13.5. Voix Windows OneCore</A>
-    <LI><A HREF="#Audiologic">13.6. AudioLogic TTS3</A>
-    </UL>
-  <LI><A HREF="#SupportedbrailleDisplays">14. Terminaux Braille Pris en Charge</A>
-    <UL>
-    <LI><A HREF="#AutomaticDetection">14.1. Terminaux supportant la détection automatique en arrière-plan</A>
-    <LI><A HREF="#FreedomScientificFocus">14.2. Les Terminaux Focus et PAC Mate de chez Freedom Scientific</A>
-    <LI><A HREF="#OptelecALVA">14.3. Séries Optelec ALVA 6/Convertisseur de Protocole</A>
-    <LI><A HREF="#HandyTech">14.4. Les Terminaux Handy Tech</A>
-    <LI><A HREF="#MDVLilli">14.5. Le Terminal MDV Lilli</A>
-    <LI><A HREF="#Baum">14.6. Les Terminaux Baum/Humanware/APH/Orbit</A>
-    <LI><A HREF="#HedoProfiLine">14.7. Hedo ProfiLine USB</A>
-    <LI><A HREF="#HedoMobilLine">14.8. Hedo MobilLine USB</A>
-    <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</A>
+    <LI><A HREF="#NVDASettings">12.1. Paramètres de NVDA</A>
       <UL>
-      <LI><A HREF="#toc131">14.9.1. Assignations des Touches pour tous les Modèles</A>
-      <LI><A HREF="#toc132">14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
-      <LI><A HREF="#toc133">14.9.3. Assignations de Touches pour le Brailliant BI 14</A>
+      <LI><A HREF="#GeneralSettings">12.1.1. Général (NVDA+control+g)</A>
+      <LI><A HREF="#SpeechSettings">12.1.2. Parole (NVDA+contrôle+v)</A>
+      <LI><A HREF="#SelectSynthesizer">12.1.3. Choix du Synthétiseur (NVDA+control+s)</A>
+      <LI><A HREF="#SynthSettingsRing">12.1.4. Boucle des Paramètres Synthétiseur</A>
+      <LI><A HREF="#BrailleSettings">12.1.5. Braille</A>
+      <LI><A HREF="#SelectBrailleDisplay">12.1.6. Choisir l'Afficheur Braille (NVDA+contrôle+a)</A>
+      <LI><A HREF="#VisionSettings">12.1.7. Vision</A>
+      <LI><A HREF="#KeyboardSettings">12.1.8. Clavier (NVDA+contrôle+k)</A>
+      <LI><A HREF="#MouseSettings">12.1.9. Souris (NVDA+contrôle+m)</A>
+      <LI><A HREF="#TouchInteraction">12.1.10. Interaction Tactile</A>
+      <LI><A HREF="#ReviewCursorSettings">12.1.11. Curseur de Revue</A>
+      <LI><A HREF="#ObjectPresentationSettings">12.1.12. Présentation des Objets (NVDA+contrôle+o)</A>
+      <LI><A HREF="#InputCompositionSettings">12.1.13. Composition de Saisie</A>
+      <LI><A HREF="#BrowseModeSettings">12.1.14. Mode Navigation (NVDA+contrôle+b)</A>
+      <LI><A HREF="#DocumentFormattingSettings">12.1.15. Mise en Forme des Documents (NVDA+contrôle+d)</A>
+      <LI><A HREF="#Win10OcrSettings">12.1.16. Reconnaissance Optique de Caractères de Windows 10</A>
+      <LI><A HREF="#AdvancedSettings">12.1.17. Paramètres Avancés</A>
       </UL>
-    <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
-    <LI><A HREF="#Seika">14.11. Seika Braille Displays</A>
-    <LI><A HREF="#Papenmeier">14.12. Nouveaux Modèles de Papenmeier brailleX</A>
-    <LI><A HREF="#PapenmeierOld">14.13. Papenmeier Braille BrailleX Modèles Anciens</A>
-    <LI><A HREF="#HumanWareBrailleNote">14.14. BrailleNote de HumanWare</A>
-    <LI><A HREF="#EcoBraille">14.15. EcoBraille</A>
-    <LI><A HREF="#SuperBraille">14.16. SuperBraille</A>
-    <LI><A HREF="#Eurobraille">14.17. Terminaux Eurobraille Esys/Esytime/Iris</A>
-    <LI><A HREF="#BRLTTY">14.18. BRLTTY</A>
+    <LI><A HREF="#MiscSettings">12.2. Autres Paramètres</A>
+      <UL>
+      <LI><A HREF="#SpeechDictionaries">12.2.1. Dictionnaires de Prononciation</A>
+      <LI><A HREF="#SymbolPronunciation">12.2.2. Prononciation des Ponctuations et symboles</A>
+      <LI><A HREF="#InputGestures">12.2.3. Gestes de Commandes</A>
+      </UL>
+    <LI><A HREF="#SavingAndReloading">12.3. Sauvegarder et Recharger la Configuration</A>
+    <LI><A HREF="#ConfigurationProfiles">12.4. Profils de Configuration</A>
+      <UL>
+      <LI><A HREF="#ProfilesBasicManagement">12.4.1. Gestion Basique</A>
+      <LI><A HREF="#ProfilesCreating">12.4.2. Création d'un Profil</A>
+      <LI><A HREF="#ConfigProfileManual">12.4.3. Activation Manuelle</A>
+      <LI><A HREF="#ConfigProfileTriggers">12.4.4. Déclencheurs</A>
+      <LI><A HREF="#ConfigProfileEditing">12.4.5. Éditer un Profil</A>
+      <LI><A HREF="#ConfigProfileDisablingTriggers">12.4.6. Désactiver Temporairement tous les Déclencheurs</A>
+      <LI><A HREF="#ConfigProfileGestures">12.4.7. Activer un profil en utilisant les gestes de commandes</A>
+      </UL>
+    <LI><A HREF="#LocationOfConfigurationFiles">12.5. Emplacement des Fichiers de Configuration</A>
     </UL>
-  <LI><A HREF="#AdvancedTopics">15. Fonctions Avancées</A>
+  <LI><A HREF="#ExtraTools">13. Outils Additionnels</A>
     <UL>
-    <LI><A HREF="#CommandLineOptions">15.1. Options de Ligne de Commande</A>
-    <LI><A HREF="#SystemWideParameters">15.2. Paramètres Système</A>
+    <LI><A HREF="#LogViewer">13.1. Visionneuse du Journal</A>
+    <LI><A HREF="#SpeechViewer">13.2. Visionneuse de Parole</A>
+    <LI><A HREF="#BrailleViewer">13.3. Visionneuse Braille</A>
+    <LI><A HREF="#AddonsManager">13.4. Gestionnaire d'Extensions</A>
+    <LI><A HREF="#incompatibleAddonsManager">13.5. Le Gestionnaire d'Extensions Incompatibles</A>
+    <LI><A HREF="#PythonConsole">13.6. Console Python</A>
+    <LI><A HREF="#ReloadPlugins">13.7. Rechargement des Extensions</A>
     </UL>
-  <LI><A HREF="#FurtherInformation">16. Informations Complémentaires</A>
+  <LI><A HREF="#SupportedSpeechSynths">14. Synthétiseurs de Parole Pris en Charge</A>
+    <UL>
+    <LI><A HREF="#eSpeakNG">14.1. eSpeak NG</A>
+    <LI><A HREF="#SAPI4">14.2. Microsoft Speech API Version 4 (SAPI 4)</A>
+    <LI><A HREF="#SAPI5">14.3. Microsoft Speech API Version 5 (SAPI 5)</A>
+    <LI><A HREF="#MicrosoftSpeechPlatform">14.4. La Plate-forme Microsoft Speech</A>
+    <LI><A HREF="#OneCore">14.5. Voix Windows OneCore</A>
+    </UL>
+  <LI><A HREF="#SupportedbrailleDisplays">15. Terminaux Braille Pris en Charge</A>
+    <UL>
+    <LI><A HREF="#AutomaticDetection">15.1. Terminaux supportant la détection automatique en arrière-plan</A>
+    <LI><A HREF="#FreedomScientificFocus">15.2. Les Terminaux Focus et PAC Mate de chez Freedom Scientific</A>
+    <LI><A HREF="#OptelecALVA">15.3. Séries Optelec ALVA 6/Convertisseur de Protocole</A>
+    <LI><A HREF="#HandyTech">15.4. Les Terminaux Handy Tech</A>
+    <LI><A HREF="#MDVLilli">15.5. Le Terminal MDV Lilli</A>
+    <LI><A HREF="#Baum">15.6. Les Terminaux Baum/Humanware/APH/Orbit</A>
+    <LI><A HREF="#HedoProfiLine">15.7. Hedo ProfiLine USB</A>
+    <LI><A HREF="#HedoMobilLine">15.8. Hedo MobilLine USB</A>
+    <LI><A HREF="#HumanWareBrailliant">15.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</A>
+      <UL>
+      <LI><A HREF="#toc137">15.9.1. Assignations des Touches pour tous les Modèles</A>
+      <LI><A HREF="#toc138">15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
+      <LI><A HREF="#toc139">15.9.3. Assignations de Touches pour le Brailliant BI 14</A>
+      </UL>
+    <LI><A HREF="#Hims">15.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
+    <LI><A HREF="#Seika">15.11. Seika Braille Displays</A>
+    <LI><A HREF="#Papenmeier">15.12. Nouveaux Modèles de Papenmeier brailleX</A>
+    <LI><A HREF="#PapenmeierOld">15.13. Papenmeier Braille BrailleX Modèles Anciens</A>
+    <LI><A HREF="#HumanWareBrailleNote">15.14. BrailleNote de HumanWare</A>
+    <LI><A HREF="#EcoBraille">15.15. EcoBraille</A>
+    <LI><A HREF="#SuperBraille">15.16. SuperBraille</A>
+    <LI><A HREF="#Eurobraille">15.17. Terminaux Eurobraille Esys/Esytime/Iris</A>
+    <LI><A HREF="#BRLTTY">15.18. BRLTTY</A>
+    </UL>
+  <LI><A HREF="#AdvancedTopics">16. Fonctions Avancées</A>
+    <UL>
+    <LI><A HREF="#CommandLineOptions">16.1. Options de Ligne de Commande</A>
+    <LI><A HREF="#SystemWideParameters">16.2. Paramètres Système</A>
+    </UL>
+  <LI><A HREF="#FurtherInformation">17. Informations Complémentaires</A>
   </UL>
 
 <P></P>
@@ -232,19 +240,20 @@ En restituant l'information par synthèse vocale ou en braille, NVDA permet aux 
 Ses points forts sont :
 </P>
 <UL>
-<LI>La prise en charge d'applications grand-public telles que des navigateurs Web, clients e-mail, programmes de tchat sur Internet et suites bureautiques ;
-<LI>Un synthétiseur intégré prenant en charge plus de 80 langues ;
-<LI>L'annonce, quand c'est possible, d'informations de formatage du texte telles que le nom et la taille de la police, le style et les fautes d'orthographe ;
-<LI>L'annonce automatique du texte sous la souris et, en option, l'indication sonore de la position de la souris ;
-<LI>La prise en charge de nombreux afficheurs braille, incluant la capacité de détecter automatiquement beaucoup d'entre eux ainsi que la saisie pour les afficheurs disposant d'un clavier braille ;
-<LI>La possibilité de s'exécuter entièrement depuis une clé USB ou tout autre média portable sans avoir à installer ;
-<LI>Un installateur parlant facile à utiliser ;
-<LI>Une traduction dans 54 langues ;
-<LI>La prise en charge des environnements Windows modernes, incluant les versions 32 et 64 bits ;
-<LI>L'accès à l'écran de connexion à Windows et aux autres écrans sécurisés ;
+<LI>La prise en charge d'applications grand-public telles que des navigateurs Web, clients e-mail, programmes de tchat sur Internet et suites bureautiques
+<LI>Un synthétiseur intégré prenant en charge plus de 80 langues
+<LI>L'annonce, quand c'est possible, d'informations de mise en forme du texte telles que le nom et la taille de la police, le style et les fautes d'orthographe
+<LI>L'annonce automatique du texte sous la souris et, en option, l'indication sonore de la position de la souris
+<LI>La prise en charge de nombreux afficheurs braille, incluant la capacité de détecter automatiquement beaucoup d'entre eux ainsi que la saisie pour les afficheurs disposant d'un clavier braille
+<LI>La possibilité de s'exécuter entièrement depuis une clé USB ou tout autre média portable sans avoir à installer
+<LI>Un installateur parlant facile à utiliser
+<LI>Une traduction dans 54 langues
+<LI>La prise en charge des environnements Windows modernes, incluant les versions 32 et 64 bits
+<LI>L'accès à l'écran de connexion à Windows et aux autres écrans sécurisés
 <LI>L'annonce des contrôles et du texte durant l'utilisation de gestes tactiles
-<LI>La prise en charge des interfaces d'accessibilité communes telles que Microsoft Active Accessibility, Java Access Bridge, IAccessible2 et UI Automation (UI Automation n'est supporté qu'à partir de Windows 7) ;
-<LI>Support de l'invite de commandes Windows et des applications en mode console.
+<LI>Le support des interfaces d'accessibilité communes telles que Microsoft Active Accessibility, Java Access Bridge, IAccessible2 et UI Automation
+<LI>Le support de l'invite de commandes Windows et des applications en mode console
+<LI>La possibilité de surligner le focus système
 </UL>
 
 <P></P>
@@ -285,7 +294,7 @@ NVDA est Copyright (C) 2006-2019 NVDA contributors.
 NVDA est couvert par la licence GNU General Public License (Version 2). 
 Vous avez le droit de distribuer ou modifier ce logiciel comme il vous plaît pourvu que vous distribuiez la licence avec le logiciel, et rendiez disponible l'intégralité du code source pour toute personne qui le veut. 
 Ceci s'applique aussi bien à la version originale qu'aux copies modifiées de ce logiciel, et aussi à tout travail dérivé.
-Pour plus de détails, vous pouvez <A HREF="https://www.gnu.org/licenses/gpl.html">lire l'intégralité de la licence</A>.
+Pour plus de détails, vous pouvez <A HREF="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">lire l'intégralité de la licence.</A>
 </P>
 <A NAME="SystemRequirements"></A>
 <H2>2. Configuration Système Requise</H2>
@@ -304,7 +313,7 @@ Pour plus de détails, vous pouvez <A HREF="https://www.gnu.org/licenses/gpl.htm
 <A NAME="GettingAndSettingUpNVDA"></A>
 <H2>3. Obtenir et Installer NVDA</H2>
 <P>
-Si vous n'avez pas encore une copie de NVDA, vous pouvez la télécharger sur <A HREF="http://www.nvaccess.org/">www.nvaccess.org</A>.
+Si vous ne disposez pas encore d'un exemplaire de NVDA, vous pouvez le télécharger sur <A HREF="https://www.nvaccess.org/">le site de NV Access</A>.
 </P>
 <P>
 Rendez-vous à la section "Download" où vous trouverez un lien pour télécharger la dernière version de NVDA.
@@ -373,12 +382,12 @@ Cette option est activée par défaut pour les nouvelles installations.
 <H4>3.2.3. Créer une Icône sur le Bureau et le Raccourci Clavier (contrôle+alt+n)</H4>
 <P>
 Cette option vous permet de choisir si NVDA doit ou non créer un raccourci sur le bureau pour démarrer NVDA.
-Si créé, ce raccourci aura la combinaison de touches contrôle+alt+n assignée pour démarrer NVDA de n'importe où.
+S'il est créé, ce raccourci sera doté d'une combinaison de touches contrôle+alt+n, vous permettant de lancer NVDA à tout moment avec cette combinaison.
 </P>
 <A NAME="CopyPortableConfigurationToCurrentUserAccount"></A>
 <H4>3.2.4. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</H4>
 <P>
-Cette option permet de choisir si NVDA doit ou non copier la configuration utilisateur depuis la copie de NVDA en cours d'exécution vers la configuration de l'utilisateur courant, pour la version installée de NVDA.
+Cette option vous permet de choisir si NVDA doit ou non copier la configuration utilisateur depuis la copie de NVDA en cours d'exécution vers la configuration de l'utilisateur courant, pour la version installée de NVDA.
 Cela ne copiera la configuration ni pour un autre utilisateur du système, ni pour la configuration du système dans le cas de l'utilisation dans l'identification Windows ou les autres écrans sécurisés.
 Cette option n'est disponible que lorsque vous installez NVDA depuis une copie portable, pas quand vous installez depuis le paquet téléchargé du lanceur.
 </P>
@@ -404,7 +413,8 @@ Cliquez sur "OK" pour fermer ce dialogue.
 <P>
 Si NVDA a été installé à l'aide de l'installateur, alors il suffit, soit de frapper la combinaison contrôle+alt+n, soit de choisir dans le menu Démarrer / Programmes / NVDA / NVDA. 
 De plus, Vous pouvez taper NVDA dans le dialogue "Exécuter" puis appuyer sur "Entrée".
-Vous pouvez aussi ajouter quelques <A HREF="#CommandLineOptions">options de ligne de commande</A> vous permettant de redémarrer NVDA (-r), quitter (-q), désactiver les extensions (--disable-addons), etc.
+Si NVDA est déjà en cours d'exécution, il sera redémarré.
+Vous pouvez aussi ajouter quelques <A HREF="#CommandLineOptions">options de ligne de commande</A> vous permettant de quitter (-q), désactiver les extensions (--disable-addons), etc.
 </P>
 <P>
 Pour les copies installées, NVDA enregistre la configuration dans le dossier de données applicatives roaming de l'utilisateur courant par défaut (ex : "C:\Users\&lt;user&gt;\AppData\Roaming").
@@ -413,6 +423,7 @@ Consultez la section concernant les <A HREF="#SystemWideParameters">paramètres 
 </P>
 <P>
 Pour démarrer la copie portable, rendez-vous dans le dossier où NVDA a été décompressé, et appuyez sur "Entrée" ou double-cliquez sur nvda.exe.
+Si NVDA est déjà en cours d'exécution, il s'arrêtera pour démarrer la version portable.
 </P>
 <P>
 Au démarrage de NVDA, on entend d'abord une série de sons ascendants (indiquant que NVDA se charge). 
@@ -434,6 +445,15 @@ La première case à cocher vous permet de choisir si vous voulez utiliser la to
 La deuxième spécifie si NVDA doit démarrer à l'ouverture de votre session et est disponible uniquement sur la version installée.
 La troisième permet d'indiquer si ce dialogue d'accueil doit apparaître à chaque démarrage.
 </P>
+<A NAME="UsageStatsDialog"></A>
+<H4>4.1.2. Dialogue de statistiques d'utilisation des données</H4>
+<P>
+Depuis NVDA 2018.3, il est demandé à l'utilisateur s'il veut autoriser l'envoi de données d'utilisation à NV Access dans le but d'aider à l'amélioration de NVDA dans le futur. 
+Au premier démarrage de NVDA, un dialogue vous demandant si vous désirer envoyer des données à NV Access durant l'utilisation de NVDA apparaîtra.
+Vous pouvez obtenir plus d'informations concernant les données rassemblées par NV Access dans la section paramètres généraux, <A HREF="#GeneralSettingsGatherUsageStats">Autoriser le projet NVDA à recueillir des statistiques d'utilisation</A>.
+Note : l'appui sur "oui" ou "non" sauvegardera ce choix et ce dialogue n'apparaîtra plus à moins que vous réinstalliez NVDA.
+Cependant, vous pouvez activer ou désactiver le processus de collecte de données manuellement dans l'écran de paramètres généraux de NVDA. Pour modifier ce paramètre manuellement, vous pouvez cocher ou décocher la case appelée <A HREF="#GeneralSettingsGatherUsageStats">Autoriser le projet NVDA à recueillir des statistiques d'utilisation</A>.
+</P>
 <A NAME="AboutNVDAKeyboardCommands"></A>
 <H3>4.2. À Propos des Commandes Clavier de NVDA</H3>
 <A NAME="TheNVDAModifierKey"></A>
@@ -447,7 +467,7 @@ NVDA peut être configuré pour que les touches "Insert" du pavé numérique, "I
 Par défaut, les touches "Insert" du pavé numérique et du clavier étendu sont définies comme touche NVDA.
 </P>
 <P>
-Si vous voulez utiliser l'une des touches NVDA dans sa fonction originale (par exemple si vous voulez utiliser verrouillage majuscules pour verrouiller les majuscules après l'avoir définie comme touche NVDA) vous devrez appuyer deux fois rapidement sur la touche.
+Si vous souhaitez que l'une des touches NVDA se comporte comme d'habitude, comme si NVDA n'était pas en cours d'exécution (par exemple si vous voulez utiliser verrouillage majuscules pour verrouiller les majuscules après l'avoir définie comme touche NVDA) vous devrez appuyer deux fois rapidement sur la touche.
 </P>
 <A NAME="KeyboardLayouts"></A>
 <H4>4.2.2. Les Configurations Clavier</H4>
@@ -458,7 +478,7 @@ Par défaut, NVDA est configuré pour un ordinateur de bureau. Pour passer en co
 <P>
 La configuration pour ordinateur de bureau fait un usage intensif du pavé numérique (avec le verrouillage numérique désactivé).
 Bien que la plupart des ordinateurs portables ne comportent pas de pavé numérique, certains peuvent l'émuler en maintenant enfoncée la touche "FN" puis en appuyant sur les lettres et les chiffres à la droite du clavier ( 7 8 9 u i o j k l etc.).
-Si votre ordinateur ne vous permet pas de le faire, ou ne vous permet pas de passer en verrouillage numérique désactivé, vous pouvez alors utiliser la configuration pour ordinateur portable.
+Si votre ordinateur portable ne peut pas le faire ou ne vous permet pas de désactiver le verrouillage numérique, vous pourrez alors basculer vers la disposition Ordinateur Portable.
 </P>
 <A NAME="NVDATouchGestures"></A>
 <H3>4.3. Gestes Tactiles de NVDA</H3>
@@ -491,8 +511,8 @@ Tapoter une fois avec deux doigts s'appelle une tape à deux doigts et ainsi de 
 <P>
 Si la même tape est faite une fois ou plus dans une succession rapide, NVDA la prendra comme un geste tactile multi-tape.
 Tapoter deux fois sera une double-tape.
-Tapoter trois fois sera une triple-tape etc.
-Ces gestes reconnaissent également le nombre de doigts utilisés, il est donc possible d'avoir des gestes tel qu'une triple-tape à deux doigts, ou une tape à quatre doigts, etc.
+Tapoter trois fois sera une triple-tape et ainsi de suite.
+Bien sûr, ces gestes à tapes multiples reconnaissent combien de doigts sont utilisés, il est donc possible d'avoir des gestes tel qu'une triple-tape à deux doigts, ou une tape à quatre doigts, etc.
 </P>
 <H5>Glisser</H5>
 <P>
@@ -523,7 +543,7 @@ Pour basculer entre les modes, faites une tape avec trois doigts.
 Le clavier tactile sert à entrer du texte et des commandes à partir d'un écran tactile.
 Quand le focus est sur un champ de saisie, vous pouvez faire apparaître le clavier tactile d'une double-tape sur l'icône du clavier tactile au bas de l'écran.
 Sur les tablettes comme la Microsoft Surface Pro, le clavier tactile est toujours disponible quand le clavier est déconnecté
-Pour faire disparaître le clavier tactile, faites une double-tape sur son icône ou quittez la zone de saisie.
+Pour masquer le clavier tactile, faites une double-tape sur son icône ou quittez la zone de saisie.
 </P>
 <P>
 Quand le clavier tactile est activé, pour repérer une touche, placez vos doigts à l'endroit où se situe le clavier tactile (généralement au bas de l'écran), puis déplacez-vous sur le clavier avec un doigt.
@@ -549,7 +569,7 @@ Le menu NVDA vous permet de gérer les paramètres de NVDA, d'obtenir de l'aide,
 Pour accéder au menu NVDA depuis n'importe où dans Windows pendant que NVDA est en fonction, appuyez sur NVDA+n sur votre clavier, ou faites une double tape à deux doigts sur un écran tactile.
 Vous pouvez également y accéder par la barre des tâches système.
 Faites un clic droit sur l'icône de NVDA située dans la barre des tâches système, ou accédez à la barre des tâches système en appuyant sur Windows+b, appuyez sur flèche bas jusqu'à atteindre l'icône NVDA, puis appuyez sur la touche "Application" généralement située à côté de la touche "Contrôle" de droite.
- Quand le menu apparaît, vous pouvez utiliser les flèches pour naviguer dans le menu, et la touche "entrée" pour activer un élément.
+Quand le menu apparaît, vous pouvez utiliser les flèches pour naviguer dans le menu, et la touche "entrée" pour activer un élément.
 </P>
 <A NAME="BasicNVDACommands"></A>
 <H3>4.6. Commandes de Base</H3>
@@ -579,7 +599,7 @@ Faites un clic droit sur l'icône de NVDA située dans la barre des tâches syst
 <TD>Menu NVDA</TD>
 <TD>NVDA+n</TD>
 <TD>NVDA+n</TD>
-<TD>Double tape 2 doigts</TD>
+<TD>Double-tape 2 doigts</TD>
 <TD>Affiche le menu NVDA pour vous permettre d'accéder aux préférences, outils, aide etc.</TD>
 </TR>
 <TR>
@@ -608,7 +628,7 @@ Faites un clic droit sur l'icône de NVDA située dans la barre des tâches syst
 <TD>NVDA+f2</TD>
 <TD>NVDA+f2</TD>
 <TD>Aucun</TD>
-<TD>Indique à NVDA de passer la touche suivante directement à l'application, même si cette touche correspond normalement à une commande NVDA</TD>
+<TD>Indique à NVDA de passer la touche suivante directement à l'application - même si cette touche correspond normalement à une commande NVDA</TD>
 </TR>
 <TR>
 <TD>Bascule du mode veille</TD>
@@ -663,7 +683,8 @@ Par exemple, si vous tapez du texte dans une zone d'édition, cette zone d'édit
 </P>
 <P>
 La manière la plus commune de naviguer dans Windows avec NVDA, est de simplement se déplacer avec des commandes clavier normales, comme "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les contrôles, "Alt" pour aller au menu puis "Flèches" pour naviguer dans les menus, utiliser "Alt+Tabulation" pour passer d'une application à l'autre. Cela déplace le focus système, c'est-à-dire l'objet qui reçoit les touches que vous tapez au clavier.
- Quand vous faites cela, NVDA donne des informations sur l'objet ayant le focus, telles que son nom, son type, son état, sa valeur, sa description, son raccourci clavier et sa position.
+Quand vous faites cela, NVDA donne des informations sur l'objet ayant le focus, telles que son nom, son type, son état, sa valeur, sa description, son raccourci clavier et sa position.
+Quand le <A HREF="#VisionFocusHighlight">Surlignage du Focus</A> est activé, la position du focus système courant est également présentée visuellement.
 </P>
 <P>
 Quelques touches de commandes utiles pour naviguer avec le focus :
@@ -712,7 +733,7 @@ Vous pouvez également modifier le texte si le champ le permet.
 NVDA annonce le déplacement par caractère, mot ou ligne, et annonce aussi la sélection et la désélection de texte.
 </P>
 <P>
-NVDA fournit les commandes clavier suivantes par rapport au curseur système :
+NVDA fournit les commandes clavier suivantes relatives au curseur système :
 </P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -795,7 +816,7 @@ Dans ces cas, vous pouvez utiliser la navigation par objet.
 <P>
 La navigation par objet vous permet de vous déplacer parmi les différents <A HREF="#Objects">objets</A> et d'obtenir des informations à leur sujet.
 Quand vous atteignez un objet, NVDA l'annoncera de la même manière qu'il annonce le focus système.
-Si vous désirez explorer tout le texte tel qu'il se présente à l'écran, vous pouvez également utiliser la <A HREF="#ScreenReview">revue de l'écran</A>.
+Si vous désirez explorer tout le texte tel qu'il se présente à l'écran, vous pouvez également utiliser la <A HREF="#ScreenReview">revue d'écran</A>.
 </P>
 <P>
 Pour ne pas avoir à errer entre tous les objets présents dans le système, ceux-ci sont groupés hiérarchiquement.
@@ -809,6 +830,7 @@ De la même manière, une barre d'outils contient des contrôles, vous devrez do
 <P>
 L'objet en cours de revue s'appelle l'objet navigateur.
 Quand vous atteignez un objet, vous pouvez examiner son contenu en utilisant les <A HREF="#ReviewingText">commandes de revue de texte</A> en étant en <A HREF="#ObjectReview">mode Revue d'objet</A>.
+Quand le <A HREF="#VisionFocusHighlight">Surlignage du Focus</A> est activé, la position du focus système courant est également présentée visuellement.
 Par défaut, l'objet navigateur suit le focus système, mais ce comportement peut être désactivé.
 </P>
 <P>
@@ -1036,6 +1058,13 @@ Vous disposez des commandes suivantes pour explorer du texte :
 <TD>Au premier appui, le texte est sélectionné depuis la position préalablement définie par "copier à partir du curseur de revue" jusqu'à la position actuelle du curseur de revue. Au second appui, le texte est copié dans le presse-papiers de Windows.</TD>
 </TR>
 <TR>
+<TD>aller au marqueur de début de copie en mode revue</TD>
+<TD>NVDA+maj+f9</TD>
+<TD>NVDA+maj+f9</TD>
+<TD>aucun</TD>
+<TD>Amène le curseur de revue à la position préalablement définiee comme marqueur de début de copie</TD>
+</TR>
+<TR>
 <TD>Annonce du formatage du texte</TD>
 <TD>NVDA+f</TD>
 <TD>NVDA+f</TD>
@@ -1228,12 +1257,14 @@ Cela inclut les documents dans les applications suivantes :
 <LI>Les livres supportés sous Amazon Kindle pour PC
 </UL>
 
+<P></P>
 <P>
-Le mode navigation est aussi disponible en option sous Microsoft Word.
+Le mode navigation est aussi disponible en option pour les documents Microsoft Word.
 </P>
 <P>
 Le mode navigation offre une représentation platement textuelle du document dans laquelle on peut se déplacer avec les flèches de navigation. 
 Dans ce mode, toutes les touches de commandes du <A HREF="#SystemCaret">mode curseur</A> fonctionneront (ex : dire tout, annonce du formatage, touches de navigation dans les tableaux etc.).
+Quand le <A HREF="#VisionFocusHighlight">Surlignage du Focus</A> est activé, la position du curseur virtuel de mode navigation est également présentée visuellement.
 Des informations indiquant si le texte est un lien, un titre etc., sont annoncées avec le texte pendant que vous vous déplacez.
 </P>
 <P>
@@ -1440,7 +1471,9 @@ NVDA supporte les types de contenu mathématiques suivants :
 <UL>
 <LI>MathML sous Mozilla Firefox, Microsoft Internet Explorer et Google Chrome.
 <LI>Design Science MathType sous Microsoft Word et PowerPoint. 
-MathType doit être installé pour que cela fonctionne. La version de démonstration est suffisante.
+MathType doit être installé pour que cela fonctionne.
+La version de démonstration est suffisante.
+Elle peut être téléchargée à partir de <A HREF="https://www.dessci.com/en/products/mathtype/">https://www.dessci.com/en/products/mathtype/</A>
 <LI>MathML sous Adobe Reader. 
 Notez que ceci n'est pas un standard officiel, ce qui fait qu'actuellement, il n'existe pas de logiciels grand public pouvant produire ce contenu.
 <LI>Math sous Kindle for PC pour les livres avec du contenu mathématique accessible.
@@ -1495,6 +1528,7 @@ Quand vous voulez retourner au document, pressez simplement la touche échap.
 <P>
 Si vous possédez un afficheur braille, NVDA peut afficher des informations en braille.
 Si votre terminal braille possède un clavier de type Perkins, vous pouvez également saisir du texte en intégral ou abrégé.
+Le Braille peut aussi être affiché à l'écran en utilisant <A HREF="#BrailleViewer">la Visionneuse Braille</A> en remplacement ou en parallèle d'un afficheur braille physique.
 </P>
 <P>
 Veuillez consulter la section <A HREF="#SupportedBrailleDisplays">Terminaux Braille Pris en Charge</A> pour des informations concernant les terminaux braille pris en charge.
@@ -1514,6 +1548,10 @@ Dans le but de loger autant d'informations que possible sur un afficheur braille
 <TR>
 <TD>app</TD>
 <TD>application</TD>
+</TR>
+<TR>
+<TD>art</TD>
+<TD>article</TD>
 </TR>
 <TR>
 <TD>ctn</TD>
@@ -1538,6 +1576,10 @@ Dans le but de loger autant d'informations que possible sur un afficheur braille
 <TR>
 <TD>bsc</TD>
 <TD>bascule</TD>
+</TR>
+<TR>
+<TD>lég</TD>
+<TD>légende</TD>
 </TR>
 <TR>
 <TD>lstd</TD>
@@ -1570,6 +1612,10 @@ Dans le but de loger autant d'informations que possible sur un afficheur braille
 <TR>
 <TD>notef</TD>
 <TD>note de fin</TD>
+</TR>
+<TR>
+<TD>fig</TD>
+<TD>figure</TD>
 </TR>
 <TR>
 <TD>noteb</TD>
@@ -1858,8 +1904,48 @@ L'appui sur le point 7 efface la dernière cellule ou le dernier caractère brai
 Le point 8 traduit toute saisie braille puis appuie sur la touche Entrée.
 L'appui simultané sur les points 7 et 8 traduit toute saisie braille sans ajouter d'espace ou actionner la touche entrer.
 </P>
+<A NAME="Vision"></A>
+<H2>9. Vision</H2>
+<P>
+Bien que NVDA soit en premier lieu destiné à des personnes aveugles ou malvoyantes qui utilisent principalement la parole ou le braille pour accéder à un ordinateur, il offre aussi des facilités internes pour changer le contenu de l'écran.
+Sous NVDA, une telle aide visuelle est appelée un service d'amélioration visuelle.
+</P>
+<P>
+NVDA offre plusieurs services d'amélioration visuelle décrits ci-dessous.
+Des services d'amélioration visuelle additionnels peuvent être apportés dans des <A HREF="NVDA#AddonsManager">Extensions</A>.
+</P>
+<P>
+Les paramètres de vision de NVDA peuvent être modifiés dans la <A HREF="#VisionSettings">catégorie vision</A> du dialogue <A HREF="#NVDASettings">Paramètres NVDA</A>.
+</P>
+<A NAME="VisionFocusHighlight"></A>
+<H3>9.1. Surlignage du Focus</H3>
+<P>
+Le Surlignage du Focus peut aider à identifier la position du <A HREF="#SystemFocus">focus système</A>, de <A HREF="#ObjectNavigation">l'objet navigateur</A> et du <A HREF="#BrowseMode">mode navigation</A>.
+Ces positions sont surlignées avec un contour rectangulaire coloré.
+</P>
+<UL>
+<LI>Le bleu continu surligne la position d'un objet navigateur combiné au focus système (ex : lorsque <A HREF="#ReviewCursorFollowFocus">l'objet navigateur suit le curseur système</A>).
+<LI>Le bleu pointillé surligne juste l'objet ayant le focus système.
+<LI>Le rose continu surligne juste l'objet navigateur.
+<LI>Le jaune continu surligne le curseur virtuel utilisé en mode navigation (quand il n'y a pas de curseur physique comme dans les navigateurs web).
+</UL>
+
+<P></P>
+<P>
+Quand le surlignage du focus est activé dans la <A HREF="#VisionSettings">catégorie vision</A> du dialogue <A HREF="#NVDASettings">Paramètres de NVDA</A>, vous pouvez <A HREF="#VisionSettingsFocusHighlight">choisir de surligner ou non le focus, l'objet navigateur ou le curseur du mode navigation</A>.
+</P>
+<A NAME="VisionScreenCurtain"></A>
+<H3>9.2. Le Rideau d'Écran</H3>
+<P>
+En tant qu'utilisateur aveugle ou malvoyant, il est parfois impossible ou inutile de voir le contenu de l'écran.
+Par ailleurs, il peut être difficile de s'assurer que personne ne regarde par-dessus votre épaule.
+Pour cette situation, NVDA contient une fonctionnalité appelée "Rideau d'Écran" qui peut être activée pour rendre l'écran noir.
+</P>
+<P>
+Vous pouvez activer le Rideau d'Écran dans la <A HREF="#VisionSettings">catégorie vision</A> du dialogue <A HREF="#NVDASettings">Paramètres NVDA Settings</A>.
+</P>
 <A NAME="ContentRecognition"></A>
-<H2>9. Reconnaissance de Contenu</H2>
+<H2>10. Reconnaissance de Contenu</H2>
 <P>
 Quand les auteurs ne fournissent pas assez d'informations pour qu'un utilisateur de revue d'écran puisse déterminer le contenu de quelque chose, divers outils peuvent être utilisés pour tenter de reconnaître le contenu à partir d'une image.
 NVDA supporte la fonctionnalité de reconnaissance optique de caractères (OCR) disponible sous Windows 10 pour reconnaître le texte dans les images.
@@ -1877,7 +1963,7 @@ L'appui sur la touche Entrée ou Espace activera (clic normal) le texte sous le 
 L'appui sur échap quitte et efface le résultat de reconnaissance.
 </P>
 <A NAME="Win10Ocr"></A>
-<H3>9.1. Reconnaissance Optique de Caractères de Windows 10</H3>
+<H3>10.1. Reconnaissance Optique de Caractères de Windows 10</H3>
 <P>
 Windows 10 inclut la reconnaissance optique de caractères pour beaucoup de langues.
 NVDA peut l'utiliser pour extraire le texte d'images ou d'applications inaccessibles.
@@ -1890,14 +1976,14 @@ Des langues additionnelles peuvent être installées en ouvrant le menu Démarre
 Pour reconnaître le texte dans l'objet navigateur courant en utilisant la reconnaissance optique de caractères de Windows 10, pressez NVDA+r.
 </P>
 <A NAME="ApplicationSpecificFeatures"></A>
-<H2>10. Fonctionnalités Spécifiques à Certaines Applications</H2>
+<H2>11. Fonctionnalités Spécifiques à Certaines Applications</H2>
 <P>
 NVDA fournit ses propres fonctionnalités additionnelles dans quelques applications pour rendre certaines tâches plus faciles ou pour donner accès à certaines fonctions qui ne seraient pas accessibles autrement.
 </P>
 <A NAME="MicrosoftWord"></A>
-<H3>10.1. Microsoft Word</H3>
+<H3>11.1. Microsoft Word</H3>
 <A NAME="WordAutomaticColumnAndRowHeaderReading"></A>
-<H4>10.1.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</H4>
+<H4>11.1.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</H4>
 <P>
 NVDA est capable d'annoncer automatiquement les en-têtes des lignes et des colonnes quand on navigue dans un tableau sous Microsoft Word.
 Ceci nécessite d'abord que l'option "Annoncer les titres des lignes et colonnes d'un tableau" soit activée dans la catégorie "Mise en Forme des Documents" qui se trouve dans le dialogue <A HREF="#NVDASettings">Paramètres</A> de NVDA.
@@ -1923,32 +2009,32 @@ Après vous être placé sur la première cellule dans la colonne ou la ligne co
 </TABLE>
 
 <P>
-Ces paramètres seront enregistrés dans le document comme des signets, compatibles avec d'autres revues d'écran comme Jaws. 
+Ces paramètres seront enregistrés dans le document comme des signets, compatibles avec d'autres revues d'écran comme JAWS. 
 Cela signifie que d'autres utilisateurs de revues d'écran ouvrant ce document ultérieurement auront automatiquement les titres des lignes et colonnes déjà définis. 
 </P>
 <A NAME="BrowseModeInMicrosoftWord"></A>
-<H4>10.1.2. Mode Navigation sous Microsoft Word</H4>
+<H4>11.1.2. Mode Navigation sous Microsoft Word</H4>
 <P>
 Comme sur le web, le mode navigation peut être utilisé sous Microsoft Word pour vous permettre d'utiliser des fonctionnalités telles que la navigation rapide et la Liste d'éléments.
 Pour activer ou désactiver le mode navigation sous Microsoft Word, pressez NVDA+espace.
 Pour plus d'information sur le mode navigation et la navigation rapide, consultez la <A HREF="#BrowseMode">section Mode navigation</A>.
 </P>
 <A NAME="WordElementsList"></A>
-<H5>10.1.2.1. La Liste d'Éléments</H5>
+<H5>11.1.2.1. La Liste d'Éléments</H5>
 <P>
 Quand vous êtes en mode navigation sous Microsoft Word, vous pouvez accéder à la liste d'éléments en pressant NVDA+f7.
 La liste d'éléments peut lister les titres, les liens, annotations (incluant inclut les commentaires et les demandes de changement) et les erreurs (actuellement limité aux fautes d'orthographe).
 </P>
 <A NAME="WordReportingComments"></A>
-<H4>10.1.3. Annonce des Commentaires</H4>
+<H4>11.1.3. Annonce des Commentaires</H4>
 <P>
 Pour annoncer tout commentaire à la position actuelle du curseur, pressez NVDA+alt+c.
  tous les commentaires pour le document ainsi que les autres demandes de modification peuvent aussi être listés dans la liste d'éléments de NVDA en choisissant le type Annotations.
 </P>
 <A NAME="MicrosoftExcel"></A>
-<H3>10.2. Microsoft Excel</H3>
+<H3>11.2. Microsoft Excel</H3>
 <A NAME="ExcelAutomaticColumnAndRowHeaderReading"></A>
-<H4>10.2.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</H4>
+<H4>11.2.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</H4>
 <P>
 NVDA est capable d'annoncer automatiquement les en-têtes des lignes et des colonnes quand on navigue dans un tableau dans une feuille de calcul Excel.
 Ceci nécessite d'abord que l'option "Annoncer les titres des lignes et colonnes d'un tableau" soit activée dans la catégorie "Mise en Forme des Documents" qui se trouve dans le dialogue <A HREF="#NVDASettings">Paramètres</A> de NVDA.
@@ -1974,11 +2060,11 @@ Après vous être placé sur la première cellule dans la colonne ou la ligne co
 </TABLE>
 
 <P>
-Ces paramètres seront enregistrés dans le document comme plages de noms définis, compatibles avec d'autres revues d'écran comme Jaws. 
-Cela signifie que d'autres utilisateurs de revues d'écran ouvrant ce document ultérieurement auront automatiquement les titres des lignes et colonnes déjà définis. 
+Ces paramètres seront enregistrés dans le document comme plages de noms définis, compatibles avec d'autres revues d'écran comme JAWS.
+Cela signifie que d'autres utilisateurs de revues d'écran ouvrant ce document ultérieurement auront automatiquement les titres des lignes et colonnes déjà définis.
 </P>
 <A NAME="ExcelElementsList"></A>
-<H4>10.2.2. La Liste d'Éléments</H4>
+<H4>11.2.2. La Liste d'Éléments</H4>
 <P>
 Comme sur le web, NVDA a une liste d'éléments pour Microsoft Excel permettant d'accéder à différents types d'informations.
 Pour accéder à la liste d'éléments sous Excel, pressez NVDA+f7.
@@ -2003,19 +2089,19 @@ La sélection d'un champ de formulaire et l'appui sur entrée ou le bouton Aller
 
 <P></P>
 <A NAME="ExcelReportingComments"></A>
-<H4>10.2.3. Annonce des Commentaires</H4>
+<H4>11.2.3. Annonce des Commentaires</H4>
 <P>
 Pour annoncer tout commentaire pour la cellule actuellement en focus, pressez NVDA+alt+c.
 Tous les commentaires de la feuille de calcul peuvent aussi être listés dans la liste d'éléments de NVDA.
 </P>
 <A NAME="ExcelReadingProtectedCells"></A>
-<H4>10.2.4. Lecture des Cellules Protégées</H4>
+<H4>11.2.4. Lecture des Cellules Protégées</H4>
 <P>
 Si un classeur a été protégé, il peut être impossible d'amener le focus à certaines cellules ayant été protégées en écriture.
 Pour pouvoir aller aux cellules protégées, passer en mode navigation en pressant NVDA+espace, puis utilisez les commandes standards de mouvement d'Excel telles que les flèches pour vous déplacer parmi les cellules de la feuille en cours.
 </P>
 <A NAME="ExcelFormFields"></A>
-<H4>10.2.5. Champs de Formulaire</H4>
+<H4>11.2.5. Champs de Formulaire</H4>
 <P>
 Les feuilles de travail Excel peuvent inclure des champs de formulaire.
 Vous pouvez y accéder en utilisant la liste d'éléments ou les touches de navigation rapide f et maj+f.
@@ -2023,7 +2109,7 @@ Quand vous êtes sur un champ de formulaire en mode navigation, vous pouvez appu
 Pour plus d'information concernant le mode navigation et la navigation par lettre, veuillez consulter la <A HREF="#BrowseMode">section Mode Navigation</A>.
 </P>
 <A NAME="MicrosoftPowerPoint"></A>
-<H3>10.3. Microsoft PowerPoint</H3>
+<H3>11.3. Microsoft PowerPoint</H3>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Nom</TH>
@@ -2038,7 +2124,7 @@ Pour plus d'information concernant le mode navigation et la navigation par lettr
 </TABLE>
 
 <A NAME="Foobar2000"></A>
-<H3>10.4. Foobar2000</H3>
+<H3>11.4. Foobar2000</H3>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Nom</TH>
@@ -2066,7 +2152,7 @@ Pour plus d'information concernant le mode navigation et la navigation par lettr
 Note : Les raccourcis ci-dessus fonctionnent seulement avec le format de chaîne par défaut pour la barre d'état de Foobar.
 </P>
 <A NAME="MirandaIM"></A>
-<H3>10.5. Miranda IM</H3>
+<H3>11.5. Miranda IM</H3>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Nom</TH>
@@ -2081,7 +2167,7 @@ Note : Les raccourcis ci-dessus fonctionnent seulement avec le format de chaîne
 </TABLE>
 
 <A NAME="Poedit"></A>
-<H3>10.6. Poedit</H3>
+<H3>11.6. Poedit</H3>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Nom</TH>
@@ -2101,7 +2187,7 @@ Note : Les raccourcis ci-dessus fonctionnent seulement avec le format de chaîne
 </TABLE>
 
 <A NAME="Skype"></A>
-<H3>10.7. Skype</H3>
+<H3>11.7. Skype</H3>
 <P>
 Durant une conversation :
 </P>
@@ -2119,7 +2205,7 @@ Durant une conversation :
 </TABLE>
 
 <A NAME="Kindle"></A>
-<H3>10.8. Kindle pour PC</H3>
+<H3>11.8. Kindle pour PC</H3>
 <P>
 NVDA supporte la lecture et la navigation dans les livres sous Amazon Kindle pour PC.
 Cette fonctionnalité est disponible seulement dans les livres Kindle signalés par "Support des revues d'écran", ce que vous pouvez vérifier sur la page de détails du livre.
@@ -2139,7 +2225,7 @@ NVDA fournit une ébauche de support pour la lecture et la navigation interactiv
 Veuillez consulter la section <A HREF="#ReadingMath">Lecture de Contenu Mathématique</A> pour plus d'informations.
 </P>
 <A NAME="KindleTextSelection"></A>
-<H4>10.8.1. Sélection de Texte</H4>
+<H4>11.8.1. Sélection de Texte</H4>
 <P>
 Kindle vous permet d'exécuter diverses fonctions relatives au texte sélectionné, incluant l'obtention d'une définition du dictionnaire, l'ajout de notes et de surlignages, la copie du texte dans le presse-papiers et la recherche sur le web.
 Pour faire cela, sélectionnez d'abord le texte comme vous le feriez normalement en mode navigation; ex: en utilisant maj et les touches curseur.
@@ -2147,7 +2233,7 @@ Une fois que vous avez sélectionné le texte, pressez la touche applications ou
 Si vous faites ceci sans avoir sélectionné de texte, les options pour le mot sous le curseur seront affichées.
 </P>
 <A NAME="KindleUserNotes"></A>
-<H4>10.8.2. Notes de l'Utilisateur</H4>
+<H4>11.8.2. Notes de l'Utilisateur</H4>
 <P>
 Vous pouvez ajouter une note concernant un mot ou un passage du texte.
 Pour faire cela, sélectionnez d'abord le texte concerné et accédez aux options de sélection comme décrit plus haut.
@@ -2167,7 +2253,7 @@ Pour afficher, éditer ou effacer une note.
 
 <P></P>
 <A NAME="Azardi"></A>
-<H3>10.9. Azardi</H3>
+<H3>11.9. Azardi</H3>
 <P>
 Quand vous êtes dans le tableau des livres ajoutés :
 </P>
@@ -2189,18 +2275,56 @@ Quand vous êtes dans le tableau des livres ajoutés :
 </TR>
 </TABLE>
 
+<A NAME="WinConsole"></A>
+<H3>11.10. Console Windows</H3>
+<P>
+NVDA fournit un support pour la console de commande de Windows utilisée par l'invite de commandes, PowerShell, et le sous-système Windows pour Linux.
+La console Windows est de taille fixe, typiquement beaucoup plus petite que le tampon contenant l'affichage.
+Quand du nouveau texte est écrit, le contenu défile vers le haut et le texte précédent n'est plus visible. 
+Le texte qui n'est pas visiblement affiché dans la fenêtre n'est pas accessible avec les commandes de revue de texte de NVDA.
+Ainsi, il est nécessaire de faire défiler la fenêtre de la console pour lire le texte plus ancien.
+Les raccourcis clavier propres à Windows suivants peuvent être utiles pour <A HREF="#ReviewingText">revoir du texte</A> avec NVDA :
+</P>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Défilement vers le haut</TD>
+<TD>contrôle+flècheHaute</TD>
+<TD>Fait défiler la fenêtre de la console vers le haut pour que le texte plus ancien puisse être lu.</TD>
+</TR>
+<TR>
+<TD>Défilement vers le bas</TD>
+<TD>contrôle+flècheBasse</TD>
+<TD>Fait défiler la fenêtre de la console vers le bas pour que le texte plus récent puisse être lu.</TD>
+</TR>
+<TR>
+<TD>Aller au début</TD>
+<TD>contrôle+début</TD>
+<TD>Aligne la fenêtre de la console sur le début du tampon.</TD>
+</TR>
+<TR>
+<TD>Aller à la fin</TD>
+<TD>contrôle+fin</TD>
+<TD>Aligne la fenêtre de la console sur la fin du tampon.</TD>
+</TR>
+</TABLE>
+
 <A NAME="ConfiguringNVDA"></A>
-<H2>11. Configurer NVDA</H2>
+<H2>12. Configurer NVDA</H2>
 <P>
 La plupart des paramètres de NVDA peuvent être modifiés en utilisant les dialogues accessibles par le sous-menu "Préférences" du menu NVDA.
 Beaucoup de ces paramètres se trouvent dans le dialogue multipage <A HREF="#NVDASettings">Paramètres</A>.
 Dans tous les dialogues, appuyez sur le bouton "OK" pour valider vos modifications.
 Pour annuler les modifications, appuyez sur le bouton "Annuler" ou sur la touche "échap".
-Pour certains dialogues, vous pouvez presser le bouton Appliquer pour que les paramètres prennent effet immédiatement sans fermer le dialogue.
+Pour certains dialogues, vous pouvez activer le bouton Appliquer pour que les paramètres prennent effet immédiatement sans fermer le dialogue.
 Certains paramètres peuvent aussi être modifiés en utilisant des raccourcis clavier que vous trouverez dans les sections ci-dessous.
 </P>
 <A NAME="NVDASettings"></A>
-<H3>11.1. Paramètres de NVDA</H3>
+<H3>12.1. Paramètres de NVDA</H3>
 <P>
 Le dialogue Paramètres de NVDA contient beaucoup de paramètres de configuration qui peuvent être modifiés.
 Ce dialogue contient une liste de catégories de paramètres dans laquelle on peut choisir.
@@ -2210,7 +2334,7 @@ Si vous voulez sauvegarder vos paramètres et fermer le dialogue Paramètres, vo
 </P>
 <P>
 Certaines catégories de paramètres ont un raccourci clavier dédié.
-Si on le presse, ce raccourci ouvrira le dialogue Paramètres dans cette catégorie particulière. 
+Si on le fait, ce raccourci ouvrira le dialogue Paramètres dans cette catégorie particulière. 
 Par défaut, toutes les catégories ne peuvent pas être atteintes via un raccourci clavier.
 Si vous voulez accéder à une catégorie qui n'a pas de raccourci dédié, utilisez le dialogue <A HREF="#InputGestures">Geste de Commandes</A> pour ajouter un geste personnalisé tel qu'un raccourci clavier ou un geste tactile pour cette catégorie.
 </P>
@@ -2218,7 +2342,7 @@ Si vous voulez accéder à une catégorie qui n'a pas de raccourci dédié, util
 Les catégories de paramètres du dialogue Paramètres sont décrite ci-dessous.
 </P>
 <A NAME="GeneralSettings"></A>
-<H4>11.1.1. Général (NVDA+control+g)</H4>
+<H4>12.1.1. Général (NVDA+control+g)</H4>
 <P>
 La catégorie Général du dialogue Paramètres définit le comportement global de NVDA tel que la langue de l'interface et la vérification des mises à jour.
 Elle contient les options suivantes :
@@ -2265,44 +2389,40 @@ Les niveaux de journalisation disponibles sont :
 <LI>Désactivé : À l'exception d'un bref message de démarrage, NVDA ne journalisera rien durant son exécution.
 <LI>Info : NVDA journalisera des informations de base telles que les messages de démarrage et des informations utiles pour les développeurs.
 <LI>Avertissements de débogage : Les messages d'avertissement qui ne sont pas causés par des erreurs graves seront journalisés.
-<LI>Entrées/sorties : Les entrées du clavier et des terminaux braille, ainsi que les sorties en parole et en braille seront journalisées. Si vous vous préoccupez de la confidentialité, vous ne devriez pas utiliser ce niveau de journalisation.
-<LI>Débogage : En plus des messages d'info, avertissements et entrées/sorties, des messages additionnels de débogage seront journalisés. Comme pour entrées/sorties, si vous vous précoccupez de la confidentialité, vous ne devriez pas utiliser ce niveau de journalisation.
-</UL>
-
-<P></P>
-<A NAME="GeneralSettingsStartAfterLogOn"></A>
-<H5>Démarrer NVDA automatiquement après ma connexion à Windows</H5>
-<P>
+<LI>Entrées/sorties : Les entrées du clavier et des terminaux braille, ainsi que les sorties en parole et en braille seront journalisées.
+ <UL>
+ <LI>Si la confidentialité vous préoccupe, ne définissez pas le niveau de journalisation sur cette option.
+ </UL>
+<LI>Débogage : En plus des messages d'info, avertissements et entrées/sorties, des messages additionnels de débogage seront journalisés.
+ <UL>
+ <LI>Tout comme pour entrées/sorties, si la confidentialité vous préoccupe, vous ne devez pas définir le niveau de journalisation sur cette option.
+- 
+ <P></P>
+==== Démarrer NVDA automatiquement après ma connexion à Windows ====[GeneralSettingsStartAfterLogOn]
 Si cette option est activée, NVDA démarrera automatiquement dès que vous vous connecterez à Windows.
 Cette option n'existe que dans les versions installées de NVDA.
-</P>
-<A NAME="GeneralSettingsStartOnLogOnScreen"></A>
-<H5>Utiliser NVDA sur l'écran de connexion à Windows (nécessite des privilèges administrateur)</H5>
-<P>
+ <P></P>
+==== Utiliser NVDA sur l'écran de connexion à Windows (nécessite des privilèges administrateur) ====[GeneralSettingsStartOnLogOnScreen]
 Si vous vous connectez à Windows en fournissant un nom d'utilisateur et un mot de passe, l'activation de cette option permettra à NVDA de démarrer automatiquement dès l'écran de connexion au démarrage de Windows.
 Cette option n'existe que dans les versions installées de NVDA.
-</P>
-<A NAME="GeneralSettingsCopySettings"></A>
-<H5>Utiliser les paramètres actuellement sauvegardés sur l'écran de connexion et les autres écrans sécurisés</H5>
-<P>
+ <P></P>
+==== Utiliser les paramètres actuellement sauvegardés sur l'écran de connexion et les autres écrans sécurisés ====[GeneralSettingsCopySettings]
 L'appui sur ce bouton copie votre configuration utilisateur actuellement sauvegardée dans le répertoire système de NVDA, ainsi, NVDA peut l'utiliser quand il s'exécute sur l'écran de connexion et les autres écrans sécurisés.
 Pour être sûr que tous vos paramètres sont transférés, sauvegardez d'abord vos paramètres avec la commande "NVDA+contrôle+c" ou par "Sauvegarder la configuration" dans le menu NVDA.
 Cette option n'existe que dans les versions installées de NVDA.
-</P>
-<A NAME="GeneralSettingsCheckForUpdates"></A>
-<H5>Vérifier automatiquement les mises à jour de NVDA</H5>
-<P>
-Si activé, NVDA recherchera automatiquement la dernière version de NVDA et vous informera si une mise à jour est disponible.
-Vous pouvez également vérifier manuellement les mises à jour en sélectionnant "Recherche d'une Mise à Jour..." dans le menu "Aide" du menu NVDA.
-Lors d'une vérification manuelle ou automatique des mises à jour, NVDA doit envoyer certaines informations au serveur dans le but de recevoir la mise à jour appropriée à votre système.
+ <P></P>
+==== Vérifier automatiquement les mises à jour de NVDA ====[GeneralSettingsCheckForUpdates]
+Si ceci est activé, NVDA recherchera automatiquement les versions mises à jour et vous informera lorsqu'une mise à jour est disponible.
+Vous pouvez également vérifier manuellement les mises à jour en sélectionnant "Recherche d'une Mise à Jour..." sous "Aide" du menu NVDA.
+Lors d'une vérification manuelle ou automatique des mises à jour, NVDA doit envoyer certaines informations au serveur pour recevoir la mise à jour appropriée à votre système.
 Les informations suivantes sont toujours envoyées :
-</P>
-<UL>
+ </UL>
 <LI>Version courante de NVDA
 <LI>Version du système d'exploitation
 <LI>Système d'exploitation 32 ou 64 bits
 </UL>
 
+<P></P>
 <A NAME="GeneralSettingsGatherUsageStats"></A>
 <H5>Autoriser le projet NVDA à collecter certaines informations statistiques d'utilisation</H5>
 <P>
@@ -2318,6 +2438,7 @@ En plus des informations obligatoires nécessaires à la mise à jour, les infor
 <LI>La table d'affichage braille en cours (si le braille est activé)
 </UL>
 
+<P></P>
 <P>
 Ces informations aident grandement NV Access pour prioritiser les futurs développements de NVDA.
 </P>
@@ -2327,8 +2448,8 @@ Ces informations aident grandement NV Access pour prioritiser les futurs dévelo
 Si ceci est activé, NVDA vous informera quand il y a une mise à jour en attente au démarrage, et vous offrira la possibilité de l'installer.
 Vous pouvez aussi installer manuellement la mise à jour en attente depuis le dialogue de sortie de NVDA (si activé), depuis le menu NVDA, ou quand vous exécutez une vérification depuis le menu Aide.
 </P>
-<A NAME="VoiceSettings"></A>
-<H4>11.1.2. Parole (NVDA+contrôle+v)</H4>
+<A NAME="SpeechSettings"></A>
+<H4>12.1.2. Parole (NVDA+contrôle+v)</H4>
 <P>
 La catégorie "Parole" dans le dialogue Paramètres de NVDA, contient des options vous permettant de changer le synthétiseur vocal ainsi que les caractéristiques de la voix pour le synthétiseur choisi.
 Pour une manière plus rapide de contrôler les paramètres vocaux depuis n'importe où, reportez-vous à la section <A HREF="#SynthSettingsRing">boucle des paramètres synthétiseur</A>.
@@ -2353,38 +2474,38 @@ Les flèches gauche et haut vous font monter dans la liste et les flèches droit
 <A NAME="SpeechSettingsVariant"></A>
 <H5>Variante</H5>
 <P>
-Si vous utilisez le synthétiseur Espeak NG fourni avec NVDA, c'est une liste déroulante qui vous permet de choisir la variante avec laquelle le synthétiseur doit parler ;
-Les variantes ESpeak NG sont comme des voix, dans la mesure où elles proposent des attributs légèrement différents à la voix ESpeak NG.
+Si vous utilisez le synthétiseur Espeak NG fourni avec NVDA, cette liste déroulante vous permettra de choisir la variante avec laquelle le synthétiseur doit parler.
+Les variantes ESpeak NG sont comme des voix, dans la mesure où elles ajoutent des attributs légèrement différents à la voix ESpeak NG.
 Certaines variantes ressembleront à un homme, d'autres à une femme, d'autres même à une grenouille.
+Si vous utilisez un synthétiseur tiers, vous pourrez peut-être changer cette valeur aussi, si la voix que vous aurez choisie prend cela en charge.
 </P>
 <A NAME="SpeechSettingsRate"></A>
 <H5>Débit</H5>
 <P>
 Cette option vous permet de modifier le débit de la parole.
-C'est un potentiomètre gradué de 0 à 100, (0 étant la vitesse la plus lente et 100 la plus rapide).
+C'est un potentiomètre qui va de 0 à 100, (0 étant la vitesse la plus lente et 100 la plus rapide).
 </P>
 <A NAME="SpeechSettingsPitch"></A>
 <H5>Hauteur</H5>
 <P>
 Cette option vous permet de modifier la hauteur de la voix.
-C'est un potentiomètre gradué de 0 à 100, (0 pour le son le plus grave et 100 pour le plus aigu).
+C'est un potentiomètre qui va de 0 à 100 - 0 étant le son le plus grave et 100 le plus aigu.
 </P>
 <A NAME="SpeechSettingsVolume"></A>
 <H5>Volume</H5>
 <P>
-Cette option est un potentiomètre gradué de 0 à 100 qui permet de modifier le volume de la voix, (0 étant le volume le plus bas et 100 le plus élevé).
+Cette option est un potentiomètre qui va de 0 à 100 - 0 étant le volume le plus bas et 100 le plus élevé.
 </P>
 <A NAME="SpeechSettingsInflection"></A>
 <H5>Inflexion</H5>
 <P>
-Cette option est un potentiomètre qui permet de choisir le niveau d'inflexion (variation en hauteur de la voix) que le synthétiseur devra utiliser. Actuellement, le seul synthétiseur présentant cette option est ESpeak NG.
+Cette option est un potentiomètre qui vous permet de choisir le degré d'inflexion (augmentation et diminution de la hauteur) que le synthétiseur doit utiliser pour parler.
 </P>
 <A NAME="SpeechSettingsLanguageSwitching"></A>
 <H5>Changement automatique de langue</H5>
 <P>
 Cette case à cocher vous permet de choisir si NVDA doit changer de langue à la volée si une balise de langue est présente dans le texte en cours de lecture.
-Par défaut, cette option est activée.
-À l'heure actuelle, seul le synthétiseur eSpeak NG prend en charge le changement automatique de langue.
+Cette option est activée par défaut.
 </P>
 <A NAME="SpeechSettingsDialectSwitching"></A>
 <H5>Changement automatique de dialecte</H5>
@@ -2412,8 +2533,8 @@ Si vous trouvez que NVDA lit les ponctuations dans la mauvaise langue pour une v
 <A NAME="SpeechSettingsCLDR"></A>
 <H5>Inclure les données du Consortium Unicode (incluant les emoji) dans le traitement des caractères et symboles</H5>
 <P>
-Quand cette case est cochée, NVDA inclura des dictionnaires de prononciation de symboles additionnels à la prononciation des caractères et symboles.
-Ces dictionnaires contiennent des descriptions pour des symboles (en particulier les emoji) qui sont fournies par le <A HREF="http://www.unicode.org/consortium/">Consortium Unicode</A> comme faisant partie de leur <A HREF="http://cldr.unicode.org/">référentiel commun de données locales Repository</A>.
+Quand cette case est cochée, NVDA inclura des dictionnaires de prononciation de symboles additionels lorsqu'il prononce des caractères et des symboles.
+Ces dictionnaires contiennent des descriptions de symboles (en particulier les emoji) qui sont fournies par le <A HREF="http://www.unicode.org/consortium/">Consortium Unicode</A> comme faisant partie de leur <A HREF="http://cldr.unicode.org/">référentiel commun de données locales Repository</A>.
 Si vous voulez que NVDA annonce la descriptions des caractères emoji en se basant sur ces données, vous devez activer cette option.
 Cependant, si vous utilisez un synthétiseur vocal supportant nativement ces descriptions, vous pouvez la désactiver.
 </P>
@@ -2422,24 +2543,27 @@ Notez que les descriptions de caractères ajoutées manuellement ou modifiées s
 Ainsi, si vous changez la description d'un emoji particulier, votre description personnalisée sera annoncée pour cet emoji que cette option soit activée ou non.
 Vous pouvez ajouter, modifier ou supprimer des descriptions de symboles par le dialogue <A HREF="#SymbolPronunciation">Prononciation des ponctuations et symboles</A> de NVDA.
 </P>
+<P>
+Pour activer/désactiver l'inclusion des données du Consortium Unicode de n'importe où, veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue des Gestes de Commandes</A>.
+</P>
 <A NAME="SpeechSettingsCapPitchChange"></A>
 <H5>Pourcentage de changement de la hauteur pour indiquer les majuscules</H5>
 <P>
 Ce champ d'édition vous permet d'entrer la valeur du changement de hauteur de la voix à l'annonce d'une lettre majuscule.
 Cette valeur est un pourcentage, une valeur négative réduit la hauteur, une valeur positive l'augmente.
 Pour n'avoir aucun changement de hauteur, entrez la valeur 0.
+D'ordinaire, NVDA augmente légèrement la tonalité pour chaque lettre majuscule, mais certains synthétiseurs peuvent ne pas supporter cela correctement.
+Si le changement de hauteur pour les majuscules n'est pas supporté, optez pour <A HREF="#SpeechSettingsSayCapBefore">Dire "majuscule" après les majuscules</A> et/ou <A HREF="#SpeechSettingsBeepForCaps"> Émettre un bip pour signaler les majuscules</A> à la place.
 </P>
 <A NAME="SpeechSettingsSayCapBefore"></A>
 <H5>Dire "majuscule" après les majuscules</H5>
 <P>
-Une case à cocher qui, cochée, indique à NVDA de dire "maj" pour une lettre en majuscule quand on l'atteint par les flèches de direction ou lors de la frappe.
-Normalement, NVDA énonce chaque lettre majuscule avec un ton plus aigu, mais ceci n'est pas correctement pris en charge par certains synthétiseurs, si bien que cette option est parfois utile.
+Ce paramètre est une case à cocher qui, si cochée, indique à NVDA de dire "maj" pour une lettre en majuscule quand on l'atteint par les flèches de direction ou lors de la frappe.
 </P>
 <A NAME="SpeechSettingsBeepForCaps"></A>
 <H5>Annoncer les majuscules par des bips</H5>
 <P>
 Quand cette case à cocher est cochée, NVDA émettra un petit "bip" chaque fois qu'il rencontre un caractère majuscule.
-Comme l'option "Dire maj avant les majuscules", cette option est utile pour les synthétiseurs ne pouvant pas modifier la hauteur de leur voix pour les majuscules.
 </P>
 <A NAME="SpeechSettingsUseSpelling"></A>
 <H5>Utiliser la fonction d'épellation si elle est supportée</H5>
@@ -2455,7 +2579,7 @@ Cependant, certains synthétiseurs utilisant les API de parole Microsoft se comp
 Si vous rencontrez des problèmes à l'épellation de caractères, essayez de désactiver cette option.
 </P>
 <A NAME="SelectSynthesizer"></A>
-<H4>11.1.3. Choix du Synthétiseur (NVDA+control+s)</H4>
+<H4>12.1.3. Choix du Synthétiseur (NVDA+control+s)</H4>
 <P>
 Le dialogue Synthétiseur, qui s'ouvre en activant le bouton Changer dans la catégorie Parole du dialogue Paramètres, permet de choisir le synthétiseur de parole qui sera utilisé par NVDA.
 Une fois que vous aurez choisi votre synthétiseur, appuyez sur "OK" et NVDA chargera le synthétiseur choisi.
@@ -2476,7 +2600,7 @@ Cela peut être utile pour quelqu'un qui veut utiliser NVDA seulement avec le br
 <A NAME="SelectSynthesizerOutputDevice"></A>
 <H5>Sortie audio</H5>
 <P>
-Cette option vous permet de choisir la carte son qui sera utilisée par le synthétiseur que vous avez choisi.
+Cette option vous permet de choisir le périphérique audio par lequel NVDA doit indiquer au synthétiseur sélectionné de parler.
 </P>
 <A NAME="SelectSynthesizerDuckingMode"></A>
 <H5>Mode d'Atténuation Audio</H5>
@@ -2498,7 +2622,7 @@ Cette option n'est disponible que si NVDA a été installé.
 Il n'est pas possible de supporter l'atténuation audio pour les versions portables et temporaires de NVDA.
 </P>
 <A NAME="SynthSettingsRing"></A>
-<H4>11.1.4. Boucle des Paramètres Synthétiseur</H4>
+<H4>12.1.4. Boucle des Paramètres Synthétiseur</H4>
 <P>
 Si vous voulez changer rapidement les paramètres vocaux sans passer par la catégorie Voix du dialogue Paramètres, il y a quelques touches de commandes qui vous permettent de le faire de n'importe où quand NVDA est en fonction.
 </P>
@@ -2536,7 +2660,7 @@ Si vous voulez changer rapidement les paramètres vocaux sans passer par la cat�
 </TABLE>
 
 <A NAME="BrailleSettings"></A>
-<H4>11.1.5. Braille</H4>
+<H4>12.1.5. Braille</H4>
 <P>
 La catégorie Braille du dialogue Paramètres contient des options vous permettant de modifier différents aspect de la saisie et de l'affichage braille.
 Cette catégorie contient les options suivantes :
@@ -2680,7 +2804,7 @@ Cependant, si vous voulez lire le contexte (ex : que vous êtes dans une liste e
 Pour modifier l'option "Afficher le contexte du focus" de n'importe où, veuillez assigner un geste de commande personnalisé en utilisant <A HREF="#InputGestures">le dialogue Gestes de Commandes</A>.
 </P>
 <A NAME="SelectBrailleDisplay"></A>
-<H4>11.1.6. Choisir l'Afficheur Braille (NVDA+contrôle+a)</H4>
+<H4>12.1.6. Choisir l'Afficheur Braille (NVDA+contrôle+a)</H4>
 <P>
 Le dialogue Choisir l'Afficheur Braille, qui peut être ouvert en activant le bouton Changer... dans la catégorie Braille du dialogue Paramètres, vous permet de choisir l'afficheur Braille qui sera utilisé par NVDA. 
 Quand vous aurez choisi votre afficheur braille, vous pourrez presser le bouton OK et NVDA chargera l'afficheur sélectionné.
@@ -2719,11 +2843,63 @@ Cette option ne sera pas disponible si votre afficheur braille supporte seulemen
 <P>
 Vous devrez consulter la documentation de votre afficheur braille dans la section <A HREF="#SupportedbrailleDisplays">Afficheurs braille supportés</A> pour plus de détails sur les types de communications supportés et les ports disponibles.
 </P>
-<A NAME="KeyboardSettings"></A>
-<H4>11.1.7. Clavier (NVDA+contrôle+k)</H4>
+<A NAME="VisionSettings"></A>
+<H4>12.1.7. Vision</H4>
 <P>
-La catégorie Clavier du dialogue Paramètres de NVDA contient des options qui définissent le comportement de NVDA quand vous tapez sur votre clavier.
-Elle contient les options suivantes :
+La catégorie Vision du dialogue des paramètres NVDA vous permet d'activer, désactiver et configurer les <A HREF="#Vision">aides visuelles</A>.
+</P>
+<P>
+Notez que les options disponibles dans cette catégorie pourraient être étendues par des <A HREF="#AddonsManager">extensions NVDA</A>.
+Par défaut, cette catégorie de paramètres contient les options suivantes :
+</P>
+<A NAME="VisionSettingsFocusHighlight"></A>
+<H5>Surlignage du Focus</H5>
+<P>
+Les cases à cocher du groupe Surlignage du Focus contrôlent le comportement de la fonctionnalité interne de <A HREF="#VisionFocusHighlight">Surlignage du Focus</A>de NVDA.
+</P>
+<UL>
+<LI>Activer le surlignage : Active/désactive le surlignage du focus.
+<LI>Surligner le focus système : définit si le <A HREF="#SystemFocus">focus système</A> sera surligné.
+<LI>Surligner l'objet navigateur : définit si <A HREF="#ObjectNavigation">l'objet navigateur</A> sera surligné.
+<LI>Surligner le curseur du mode navigation : Définit si le <A HREF="#BrowseMode">Curseur virtuel du mode navigation</A> sera surligné.
+</UL>
+
+<P></P>
+<P>
+Notez que cocher ou décocher la case "Activer le Surlignage" changera également l'état des trois autres cases à cocher  en conséquence.
+Ainsi, si "Activer le Surlignage" n'est pas cochée et que vous la cochez, les trois autres cases seront cochées automatiquement.
+Si vous voulez surligner seulement le focus et laisser les cases objet navigateur et mode navigation non cochées, l'état de la case "Activer le Surlignage" sera semicoché.
+</P>
+<A NAME="VisionSettingsScreenCurtain"></A>
+<H5>Le Rideau d'Écran</H5>
+<P>
+Vous pouvez activer le <A HREF="#VisionScreenCurtain">Rideau d'Écran</A> en cochant la case "Rendre l'écran noir (effet immédiat)".
+Un avertissement indiquant que l'écran deviendra noir après activation sera alors affiché
+Avant de continuer (en sélectionnant "Oui"), vérifiez que vous avez activé la parole ou le braille et que vous serez capable de contrôler votre ordinateur sans utiliser l'écran.
+Sélectionnez "Non" si vous ne souhaitez plus activer le Rideau d'Écran.
+Si vous êtes sûr, vous pouvez choisir le bouton Oui pour activer le Rideau d'Écran.
+Si vous ne voulez plus voir cet avertissement à chaque fois, vous pouvez changer ce comportement dans le dialogue qui affiche le message.
+Vous pouvez toujours restaurer l'avertissement en cochant la case "Toujours afficher un avertissement au chargement du Rideau d'Écran" à côté de la case "Rendre l'écran noir".
+</P>
+<P>
+Pour activer ou désactiver le Rideau d'Écran de n'importe où, veuillez assigner un geste personnalisé en utilisant le dialogue <A HREF="#InputGestures">Gestes de Commandes</A>.
+</P>
+<P>
+Par défaut, des sons sont émis quand le Rideau d'Écran est activé ou désactivé.
+Si vous souhaitez changer ce comportement, vous pouvez décocher la case " Émettre un son lors du basculement du rideau d'écran ".
+</P>
+<A NAME="VisionSettingsThirdPartyVisualAids"></A>
+<H5>Paramètres des aides visuelles tierses</H5>
+<P>
+Des services d'aide visuelle additionnels peuvent être fournis dans des <A HREF="#AddonsManager">Extensions NVDA</A>.
+Si ces services ont des paramètres ajustables, ils seront affichés dans cette catégorie de paramètres dans des groupes séparés.
+Pour les paramètres supportés par un service, veuillez vous référer à la documentation pour ce service.
+</P>
+<A NAME="KeyboardSettings"></A>
+<H4>12.1.8. Clavier (NVDA+contrôle+k)</H4>
+<P>
+La catégorie Clavier du dialogue Paramètres de NVDA contient des options qui définissent le comportement de NVDA quand vous utilisez ou tapez sur votre clavier.
+Cette catégorie de paramètres contient les options suivantes :
 </P>
 <A NAME="KeyboardSettingsLayout"></A>
 <H5>Configuration du clavier</H5>
@@ -2736,7 +2912,7 @@ Cette liste déroulante vous permet de choisir la configuration de clavier utili
 Les cases à cocher de cette liste contrôlent quelles touches peuvent être utilisées comme <A HREF="#TheNVDAModifierKey">touches NVDA</A>. Vous pouvez choisir parmi les touches suivantes :
 </P>
 <UL>
-<LI>La touche verrouillage majuscule
+<LI>La touche Verrouillage Majuscule
 <LI>La touche insertion du pavé numérique
 <LI>La touche insertion étendue (elle se trouve généralement au-dessus des flèches, près de début et fin)
 </UL>
@@ -2781,8 +2957,8 @@ Si cette option est activée, certaines commandes de navigation (telles que les 
 <A NAME="KeyboardSettingsBeepLowercase"></A>
 <H5>Émettre un bip à la frappe d'un caractère minuscule quand le verrouillage majuscule est activé</H5>
 <P>
-Quand cette case est cochée, un bip d'avertissement est émis si on entre une lettre en combinaison avec la touche "maj" alors que le verrouillage majuscule est activé.
-Généralement, cela n'est pas intentionnel et provient du fait que l'on a oublié que le verrouillage majuscule était activé.
+Quand cette case est cochée, on entend un bip d'avertissement si on entre une lettre en combinaison avec la touche Majuscule alors que le Verrouillage Majuscule est activé.
+Généralement, la frappe des lettres en majuscule quand les Majuscules sont verrouillées n'est pas intentionnelle et est généralement due au fait qu'on a oublié que la touche Majuscule est activée.
 Cela peut donc être utile d'en être averti.
 </P>
 <A NAME="KeyboardSettingsSpeakCommandKeys"></A>
@@ -2806,7 +2982,7 @@ Cette option permet à l'utilisateur de choisir si les combinaisons de touches g
 Cette option est activée par défaut, mais certains utilisateurs peuvent souhaiter désactiver cette fonction, comme ceux tapant en vietnamien avec le logiciel de dactylographie Unikey, car cela causerait la saisie de caractères incorrects.
 </P>
 <A NAME="MouseSettings"></A>
-<H4>11.1.8. Souris (NVDA+contrôle+m)</H4>
+<H4>12.1.9. Souris (NVDA+contrôle+m)</H4>
 <P>
 La catégorie Souris du dialogue Paramètres de NVDA permet de définir le mode de suivi de la souris par NVDA, de sonoriser les coordonnées de la souris par des bips et de définir d'autres options d'utilisation de la souris.
 Elle contient les options suivantes :
@@ -2860,7 +3036,7 @@ Cette option est décochée par défaut.
 Si vous cochez cette option et que l'option "suivi de la souris" est activée, NVDA n'annoncera pas ce qui est sous la souris si la souris est déplacée par une autre application.
 </P>
 <A NAME="TouchInteraction"></A>
-<H4>11.1.9. Interaction Tactile</H4>
+<H4>12.1.10. Interaction Tactile</H4>
 <P>
 Cette catégorie, disponible seulement sur un ordinateur exécutant Windows 8 et au-delà et possédant des capacités tactiles, vous permet de configurer la manière dont NVDA interagit avec l'écran tactile.
 Elle contient les options suivantes :
@@ -2873,7 +3049,7 @@ Quand elle est cochée, quand vous repérez une touche sur le clavier tactile, v
 Quand elle est décochée, vous devez double-taper sur la touche du clavier tactile pour la presser.
 </P>
 <A NAME="ReviewCursorSettings"></A>
-<H4>11.1.10. Curseur de Revue</H4>
+<H4>12.1.11. Curseur de Revue</H4>
 <P>
 La catégorie Curseur de Revue du dialogue Paramètres de NVDA sert à configurer le comportement du curseur de revue de NVDA.
 Elle contient les options suivantes :
@@ -2908,7 +3084,7 @@ Quand l'option est activée, NVDA filtre la hiérarchie des objets que l'on peut
 Pour activer ou désactiver le mode de revue simple depuis n'importe où, veuillez lui assigner un geste de commande personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
 </P>
 <A NAME="ObjectPresentationSettings"></A>
-<H4>11.1.11. Présentation des Objets (NVDA+contrôle+o)</H4>
+<H4>12.1.12. Présentation des Objets (NVDA+contrôle+o)</H4>
 <P>
 La catégorie Présentation des Objets du dialogue Paramètres de NVDA sert à définir la quantité d'informations annoncées par NVDA pour les contrôles tels que leur description, leur position etc.
 Elle contient les options suivantes :
@@ -2919,12 +3095,16 @@ Elle contient les options suivantes :
 Quand cette case est cochée, NVDA annonce les suggestions à leur apparition. 
 De nombreuses fenêtres et commandes font apparaître un court message (ou suggestion) lorsqu'on y déplace la souris ou le focus.
 </P>
-<A NAME="ObjectPresentationReportBalloons"></A>
-<H5>Annoncer les bulles d'aide</H5>
+<A NAME="ObjectPresentationReportNotifications"></A>
+<H5>Annoncer les notifications</H5>
 <P>
-Quand cette case est cochée, NVDA annonce les bulles d'aide à leur apparition. 
-Les bulles d'aide sont semblables aux suggestions mais généralement de plus grande taille, et sont associées à des évènements système tels que le débranchement d'un câble réseau, ou bien des alertes relatives à la sécurité.
+Quand cette case est cochée, NVDA annonce les bulles d'aide et les notifications d'invitation à leur apparition. 
 </P>
+<UL>
+<LI>Les bulles d'aide sont semblables aux suggestions mais généralement de plus grande taille, et sont associées à des évènements système tels que le débranchement d'un câble réseau, ou bien des alertes relatives à la sécurité.
+<LI>Les notifications d'invitation ont été introduites dans Windows 10 et apparaissent dans le centre de notification  dans la barre d'état système, informant sur divers événements (ex : une mise à jour a été téléchargée, un ouveau courriel est arrivé dans votre boîte de réception, etc.).
+</UL>
+
 <A NAME="ObjectPresentationShortcutKeys"></A>
 <H5>Annoncer les raccourcis clavier des objets</H5>
 <P>
@@ -2992,7 +3172,7 @@ Pour certains champs d'édition comme le champ de recherche dans diverses applic
 La liste de suggestions se ferme quand vous quittez le champ d'édition, et pour certains champs, NVDA peut vous en avertir quand ça arrive.
 </P>
 <A NAME="InputCompositionSettings"></A>
-<H4>11.1.12. Composition de Saisie</H4>
+<H4>12.1.13. Composition de Saisie</H4>
 <P>
 La catégorie Composition de la Saisie permet de contrôler comment NVDA annonce la saisie des caractères asiatiques, avec IME ou les services de texte et langue d'entrée.
 Notez que, comme les méthodes de saisie varient considérablement selon les fonctions disponibles et la façon dont elles transmettent l'information, il sera probablement nécessaire de configurer ces options différemment pour chaque méthode de saisie, pour obtenir la meilleure expérience de saisie possible.
@@ -3034,7 +3214,7 @@ Cette option permet de choisir si oui ou non NVDA doit annoncer tous les symbole
 Cette option est activée par défaut.
 </P>
 <A NAME="BrowseModeSettings"></A>
-<H4>11.1.13. Mode Navigation (NVDA+contrôle+b)</H4>
+<H4>12.1.14. Mode Navigation (NVDA+contrôle+b)</H4>
 <P>
 La catégorie Mode Navigation du dialogue Paramètres de NVDA sert à configurer le comportement de NVDA quand vous naviguez dans des documents complexes tels que des pages web.
 Elle contient les options suivantes :
@@ -3100,7 +3280,8 @@ Par exemple, dans une page web, si vous tabulez et arrivez sur un formulaire : s
 <H5>Mode formulaire automatique au déplacement du curseur</H5>
 <P>
 Cette option, quand elle est cochée, permet à NVDA d'activer ou désactiver le mode formulaire quand on se déplace avec les flèches. 
-Par exemple, si vous naviguez dans une page web avec les flèches et que vous arrivez sur une zone d'édition, NVDA passera automatiquement en mode formulaire. Si vous sortez de la zone d'édition, le mode formulaire sera automatiquement désactivé.
+Par exemple, si vous naviguez dans une page web avec les flèches et que vous arrivez sur une zone d'édition, NVDA passera automatiquement en mode formulaire.
+Si vous sortez de la zone d'édition, le mode formulaire sera automatiquement désactivé.
 </P>
 <A NAME="BrowseModeSettingsPassThroughAudioIndication"></A>
 <H5>Indication audio du mode formulaire ou navigation</H5>
@@ -3112,9 +3293,10 @@ Si cette option est activée, NVDA émettra des sons particuliers au passage du 
 <P>
 Activée par défaut, cette option vous permet de choisir si des gestes (tels que l'appui sur des touches) qui ne déclenchent pas une commande NVDA et ne sont pas considérés comme une commande en général, devraient être interceptés pour ne pas interagir avec le document actuellement en focus. 
 Par exemple, si l'option est activée, si la lettre j est pressée, elle sera interceptée pour ne pas atteindre le document, même si ce n'est ni une touche de navigation rapide ni une commande dans l'application elle-même.
+Dans ce cas NVDA demandera à Windows de jouer un son par défaut quand une touche interceptée est pressée.
 </P>
 <A NAME="DocumentFormattingSettings"></A>
-<H4>11.1.14. Mise en Forme des Documents (NVDA+contrôle+d)</H4>
+<H4>12.1.15. Mise en Forme des Documents (NVDA+contrôle+d)</H4>
 <P>
 La plupart des cases à cocher de cette catégorie servent à définir quelles informations de mise en forme on souhaite entendre automatiquement lorsqu'on parcourt un document.
 Par exemple, si on coche la case "Annoncer le nom de la police", à chaque fois que les flèches amènent sur un texte avec une police différente, le nom de la police est annoncé.
@@ -3161,7 +3343,9 @@ On peut configurer les annonces suivantes :
  <LI>Liens
  <LI>Listes
  <LI>Citations
+ <LI>Groupes
  <LI>Régions
+ <LI>Articles
  <LI>Cadres
  <LI>Cliquable
  </UL>
@@ -3198,7 +3382,7 @@ La hauteur du son montera pour chaque espace, et pour une tabulation, la hauteur
 
 <P></P>
 <A NAME="Win10OcrSettings"></A>
-<H4>11.1.15. Reconnaissance Optique de Caractères de Windows 10</H4>
+<H4>12.1.16. Reconnaissance Optique de Caractères de Windows 10</H4>
 <P>
 Les paramètres de cette catégorie vous permettent de configurer la <A HREF="#Win10Ocr">Reconnaissance de Caractères de Windows 10</A>.
 Elle contient les options suivantes :
@@ -3209,7 +3393,7 @@ Elle contient les options suivantes :
 Cette liste déroulante vous permet de choisir la langue à utiliser pour la reconnaissance de texte.
 </P>
 <A NAME="AdvancedSettings"></A>
-<H4>11.1.16. Paramètres Avancés</H4>
+<H4>12.1.17. Paramètres Avancés</H4>
 <P>
 Avertissement ! Les paramètres dans cette catégorie sont pour les utilisateurs avancés et peuvent provoquer un mauvais fonctionnement de NVDA si mal configurés.
 Ne modifiez ces paramètres que si vous êtes sûr de ce que vous faites ou si un développeur NVDA vous a demandé de le faire.
@@ -3246,19 +3430,28 @@ Ce bouton n'est disponible que si NVDA est configuré pour permettre le chargeme
 <P>
 Quand cette option est activée, NVDA essaie d'utiliser l'API d'accessibilité Microsoft UI Automation pour récupérer les informations des contrôles de documents Microsoft Word.
 Ceci inclut Microsoft Word lui-même, et aussi l'afficheur et le composeur de message de Microsoft Outlook.
- Pour les versions les plus récentes de Microsoft Office 2016/365 exécutées sous Windows 10, le support UI Automation est assez complet pour fournir un accès aux documents Microsoft Word presque égal au support existant de Microsoft Word par NVDA, avec l'avantage que la réactivité est nettement accrue.
+Pour les versions les plus récentes de Microsoft Office 2016/365 exécutées sous Windows 10, le support UI Automation est assez complet pour fournir un accès aux documents Microsoft Word presque égal au support existant de Microsoft Word par NVDA, avec l'avantage que la réactivité est nettement accrue.
 Cependant, il peut exister certaines informations qui ne sont pas exposées, ou exposées incorrectement sous certaines versions de Microsoft Office, ce qui signifie qu'on ne peut pas toujours se fier à ce support UI automation.
 Nous ne recommandons pas encore à la majorité des utilisateurs d'activer cette option par défaut, bien que nous encouragions les utilisateurs d'Office 2016/365 à tester cette fonctionnalité et à nous faire des retours d'expérience.
 </P>
 <A NAME="AdvancedSettingsConsoleUIA"></A>
-<H5>Utiliser UI Automation pour accéder à la Console Windows quand c'est possible</H5>
+<H5>Utilisez UI Automation pour accéder à la console Windows quand elle est disponible</H5>
 <P>
-Quand cette option est activée, NVDA utilise une nouvelle version, en cours de développement, du support de la Console Windows qui tire avantage des <A HREF="https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-update/">améliorations d'accessibilité faites par Microsoft</A>. Cette fonctionnalité est hautement expérimentale et encore incomplète, son utilisation n'est donc pas encore recommandée. Cependant, une fois terminée, il est prévu que ce nouveau support deviendra le défaut, améliorant les performances et la stabilité de NVDA dans les consoles de commande Windows.
+Si cette option est activée, NVDA utilisera une nouvelle version en cours de développement de son support de la console Windows qui tire parti des <A HREF="https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-update/">améliorations de l'accessibilité apportées par Microsoft</A> Cette fonctionnalité est très expérimentale et est encore incomplète, son utilisation n'est donc pas encore recommandée. Cependant, une fois terminée, il est prévu que cette nouvelle prise en charge deviendra la valeur par défaut, améliorant les performances et la stabilité de NVDA dans les consoles de commande Windows.
 </P>
 <A NAME="AdvancedSettingsWinConsoleSpeakPasswords"></A>
-<H5>Dire les mots de passe dans les consoles UIA</H5>
+<H5>Énoncer les mots de passe dans les consoles UIA</H5>
 <P>
-Ce paramètre contrôle si les caractères sont annoncés par <A HREF="#KeyboardSettingsSpeakTypedCharacters">écho clavier par caractère</A> ou <A HREF="#KeyboardSettingsSpeakTypedWords">écho clavier par mot</A> dans les situations où l'écran ne se met pas à jour (comme les champs de saisie de mot de passe) dans la console Windows avec le support UI automation activé. Pour des raisons de sécurité, ce paramètre devrait rester désactivé. Cependant, vous pouvez souhaiter l'activer si vous expérimentez des problèmes de performances ou des instabilités avec l'écho par caractère et/ou l'écho par mot en utilisant le nouveau support expérimental de la console.
+Cette option définit si les caractères sont annoncés par <A HREF="#KeyboardSettingsSpeakTypedCharacters">Écho clavier par caractère</A> ou <A HREF="#KeyboardSettingsSpeakTypedWords">Écho clavier par mot</A> dans les situation où l'écran ne se met pas à jour (telles que les zones de saisie de mot de passe) dans certains programmes de terminaux, comme la Console Windows avec le support UI automation activé. Pour des raisons de sécurité, ce paramètre devrait rester désactivé. Cependant, vous pouvez souhaiter l'activer si vous ressentez des problèmes de performances ou d'instabilité avec l'écho par caractère ou par mot dans la console, ou si vous travaillez dans un environnement de confiance et préférez l'annonce des mots de passe.
+</P>
+<A NAME="AdvancedSettingsKeyboardSupportInLegacy"></A>
+<H5>Utiliser le nouveau support de l'écho par caractère dans les anciennes consoles Windows quand disponible</H5>
+<P>
+Cette option active une méthode alternative pour détecter la frappe des caractères dans les consoles de commandes Windows.
+Bien qu'elle améliore les performances et empêche certains affichages de console d'être épelés, elle peut être incompatible avec certains programmes de terminaux.
+Cette fonctionnalité est disponible et activée par défaut sous Windows 10 versions 1607, 1703, 1709 et 1803 ainsi que sous les versions plus récentes de Windows 10 quand UI Automation n'est pas disponible ou désactivée.
+Avertissement : quand cette option est activée, les caractères tapés qui n'apparaissent pas à l'écran comme les mots de passe, ne seront pas supprimés.
+Dans les environnement non sûrs, vous pouvez désactiver temporairement <A HREF="#KeyboardSettingsSpeakTypedCharacters">Écho clavier par caractère</A> et <A HREF="#KeyboardSettingsSpeakTypedWords">Écho clavier par mot</A> quand vous entrez un mot de passe.
 </P>
 <A NAME="BrowseModeSettingsAutoFocusFocusableElements"></A>
 <H5>Positionner automatiquement le focus système aux éléments susceptibles d'être mis en focus en mode navigation</H5>
@@ -3287,12 +3480,12 @@ La journalisation de ces messages peut dégrader la performance et produire de g
 N'activez l'une d'entre elle que si un développeur de NVDA vous l'a spécifiquement demandé ex : pour déboguer un pilote de terminal braille ne fonctionnant pas correctement.
 </P>
 <A NAME="MiscSettings"></A>
-<H3>11.2. Autres Paramètres</H3>
+<H3>12.2. Autres Paramètres</H3>
 <P>
 En plus du dialogue <A HREF="#NVDASettings">Paramètres</A>, le sous-menu Préférences du menu NVDA contient plusieurs autres éléments décrits ci-dessous.
 </P>
 <A NAME="SpeechDictionaries"></A>
-<H4>11.2.1. Dictionnaires de Prononciation</H4>
+<H4>12.2.1. Dictionnaires de Prononciation</H4>
 <P>
 Le menu "Dictionnaires de prononciation" du menu "Préférences" contient des dialogues qui vous permettent de gérer la manière dont NVDA prononce certains mots ou phrases. 
 Il y a actuellement trois types de dictionnaires.
@@ -3338,7 +3531,7 @@ Une expression régulière est un modèle contenant des symboles particuliers vo
 Les expressions régulières ne sont pas expliquées dans ce manuel, mais on trouve, sur le web, beaucoup de tutoriels qui vous donneront plus d'informations.
 </P>
 <A NAME="SymbolPronunciation"></A>
-<H4>11.2.2. Prononciation des Ponctuations et symboles</H4>
+<H4>12.2.2. Prononciation des Ponctuations et symboles</H4>
 <P>
 Ce dialogue vous permet de modifier la façon dont les ponctuations et autres symboles sont prononcés ainsi que le niveau de symbole auquel ils sont annoncés.
 </P>
@@ -3378,7 +3571,7 @@ Vous pouvez supprimer un symbole précédemment ajouté en pressant le bouton Su
 Quand vous avez fini, cliquez sur le bouton "OK" pour sauvegarder vos modifications, ou le bouton "Annuler" pour les supprimer.
 </P>
 <A NAME="InputGestures"></A>
-<H4>11.2.3. Gestes de Commandes</H4>
+<H4>12.2.3. Gestes de Commandes</H4>
 <P>
 Dans ce dialogue, vous pouvez configurer les gestes de commandes (raccourcis clavier, boutons d'un afficheur braille etc.) pour les commandes NVDA.
 </P>
@@ -3405,7 +3598,7 @@ Pour supprimer un geste d'une commande, sélectionnez le geste et appuyez sur le
 Lorsque vous avez terminé vos modifications, appuyez sur le bouton "OK" pour les sauvegarder ou sur le bouton "Annuler" pour les ignorer.
 </P>
 <A NAME="SavingAndReloading"></A>
-<H3>11.3. Sauvegarder et Recharger la Configuration</H3>
+<H3>12.3. Sauvegarder et Recharger la Configuration</H3>
 <P>
 Par défaut NVDA sauvegarde automatiquement vos paramètres.
 Notez cependant que ce comportement peut être modifié dans le dialogue "Paramètres généraux" du menu "Préférences".
@@ -3440,7 +3633,7 @@ Les touches de commandes suivantes sont également utiles :
 </TABLE>
 
 <A NAME="ConfigurationProfiles"></A>
-<H3>11.4. Profils de Configuration</H3>
+<H3>12.4. Profils de Configuration</H3>
 <P>
 Parfois, vous souhaiteriez avoir des paramètres différents pour des situations différentes.
 Par exemple, vous pourriez avoir l'annonce de retrait activée pendant que vous éditez ou l'annonce des attributs de la police activée pendant que vous corrigez.
@@ -3455,7 +3648,7 @@ Les profils de configuration peuvent être activés manuellement soit à partir 
 Ils peuvent également être activés automatiquement grâce à des déclencheurs tels que le passage à une application particulière.
 </P>
 <A NAME="ProfilesBasicManagement"></A>
-<H4>11.4.1. Gestion Basique</H4>
+<H4>12.4.1. Gestion Basique</H4>
 <P>
 Vous pouvez gérer les profils de configuration en sélectionnant "Profils de configuration" dans le menu NVDA.
 Vous pouvez aussi le faire en utilisant un raccourci clavier :
@@ -3477,7 +3670,7 @@ Pour renommer ou supprimer un profil, appuyez sur le bouton "Renommer" ou "Suppr
 Appuyez sur le bouton "Fermer" pour fermer le dialogue.
 </P>
 <A NAME="ProfilesCreating"></A>
-<H4>11.4.2. Création d'un Profil</H4>
+<H4>12.4.2. Création d'un Profil</H4>
 <P>
 Pour créer un profil, appuyez sur le bouton "Nouveau".
 </P>
@@ -3493,7 +3686,7 @@ Reportez-vous <A HREF="#ConfigProfileTriggers">ci-dessous</A> pour plus d'inform
 Appuyer sur "OK" crée le profil et ferme le dialogue de configuration de sorte que vous pouvez le modifier.
 </P>
 <A NAME="ConfigProfileManual"></A>
-<H4>11.4.3. Activation Manuelle</H4>
+<H4>12.4.3. Activation Manuelle</H4>
 <P>
 Vous pouvez activer manuellement un profil en sélectionnant un profil et en cliquant sur le bouton "Activation manuelle".
 Une fois activé, d'autres profils peuvent toujours être activés par des déclencheurs, mais les paramètres dans le profil activé manuellement remplacent ceux des profils activés par ces déclencheurs.
@@ -3503,7 +3696,7 @@ Tous les paramètres que vous modifiez, seront sauvegardés dans le profil activ
 Pour désactiver un profil activé manuellement, sélectionnez-le dans le dialogue "Profils de configuration" et appuyez sur le bouton "Désactiver manuellement".
 </P>
 <A NAME="ConfigProfileTriggers"></A>
-<H4>11.4.4. Déclencheurs</H4>
+<H4>12.4.4. Déclencheurs</H4>
 <P>
 En appuyant sur le bouton "Déclencheurs" dans le dialogue "Profils de configuration", vous pouvez modifier les profils qui doivent être activés automatiquement par divers déclencheurs.
 </P>
@@ -3524,7 +3717,7 @@ Vous pouvez sélectionner "Configuration normale" si vous ne voulez pas utiliser
 Cliquez sur le bouton "Fermer" pour revenir au dialogue "Profils de configuration".
 </P>
 <A NAME="ConfigProfileEditing"></A>
-<H4>11.4.5. Éditer un Profil</H4>
+<H4>12.4.5. Éditer un Profil</H4>
 <P>
 Si vous avez activé manuellement un profil, les paramètres modifiés seront sauvegardés dans ce profil.
 Autrement, tous les paramètres modifiés seront sauvegardés dans le profil le plus récemment déclenché.
@@ -3535,7 +3728,7 @@ Enfin, s'il n'y a ni profil activé manuellement, ni profil déclenché, tous le
 Pour éditer le profil utilisé dans "Dire Tout", vous devez <A HREF="#ConfigProfileManual">activer manuellement</A> ce profil.
 </P>
 <A NAME="ConfigProfileDisablingTriggers"></A>
-<H4>11.4.6. Désactiver Temporairement tous les Déclencheurs</H4>
+<H4>12.4.6. Désactiver Temporairement tous les Déclencheurs</H4>
 <P>
 Parfois, il peut être utile de désactiver temporairement les déclencheurs.
 Par exemple, vous voudrez peut-être modifier un profil activé manuellement ou votre configuration normale sans profils déclenchés interférents.
@@ -3545,7 +3738,7 @@ Vous pouvez le faire en cochant la case "Désactiver temporairement tous les dé
 Pour activer ou désactiver les déclencheurs de n'importe où, veuillez assigner un geste de commande en utilisant le dialogue <A HREF="#InputGestures">Gestes de Commandes</A>.
 </P>
 <A NAME="ConfigProfileGestures"></A>
-<H4>11.4.7. Activer un profil en utilisant les gestes de commandes</H4>
+<H4>12.4.7. Activer un profil en utilisant les gestes de commandes</H4>
 <P>
 Pour chaque profil que vous ajoutez, vous pouvez assigner un ou plusieurs gestes de commandes pour l'activer.
 Par défaut, les profils de configuration n'ont pas de geste de commande assigné.
@@ -3555,7 +3748,7 @@ Quand vous renommez un profil, tous les gestes que vous avez ajoutés restent di
 La suppression d'un profil entraîne la suppression de tous les gestes qui lui sont associés.
 </P>
 <A NAME="LocationOfConfigurationFiles"></A>
-<H3>11.5. Emplacement des Fichiers de Configuration</H3>
+<H3>12.5. Emplacement des Fichiers de Configuration</H3>
 <P>
 Les versions portables de NVDA enregistrent tous les paramètres et extensions dans un répertoire nommé "userConfig" situé dans le répertoire de votre copie portable de NVDA.
 </P>
@@ -3570,9 +3763,9 @@ En général, cette configuration n'a pas à être modifiée.
 Pour modifier cette configuration, configurez NVDA à votre convenance, sauvegardez la configuration puis cliquez sur le bouton "Utiliser les paramètres NVDA actuellement sauvegardés pour l'écran de connexion à Windows (nécessite des privilèges administrateur)" dans la catégorie Général du dialogue <A HREF="#NVDASettings">Paramètres</A>.
 </P>
 <A NAME="ExtraTools"></A>
-<H2>12. Outils Additionnels</H2>
+<H2>13. Outils Additionnels</H2>
 <A NAME="LogViewer"></A>
-<H3>12.1. Visionneuse du Journal</H3>
+<H3>13.1. Visionneuse du Journal</H3>
 <P>
 La visionneuse du journal, située dans "Outils" du menu NVDA, vous permet de consulter tous les événements enregistrés depuis votre dernier démarrage de NVDA.
 Un appui sur NVDA+F1 ouvre la visionneuse du journal et affiche des informations pour le développeur à propos de l'objet navigateur courant.
@@ -3582,7 +3775,7 @@ En plus de lire le contenu, vous pouvez également sauvegarder une copie du jour
 Ces actions sont disponibles dans le menu de la visionneuse.
 </P>
 <A NAME="SpeechViewer"></A>
-<H3>12.2. Visionneuse de Parole</H3>
+<H3>13.2. Visionneuse de Parole</H3>
 <P>
 Pour les développeurs voyants ou les personnes présentant NVDA à un public voyant, une fenêtre flottante est disponible, affichant tout ce que dit NVDA.
 </P>
@@ -3602,8 +3795,27 @@ Cependant, si vous cliquez ou mettez le focus sur la visionneuse, NVDA arrêtera
 <P>
 Pour activer la visionneuse de parole de n'importe où, Veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
 </P>
+<A NAME="BrailleViewer"></A>
+<H3>13.3. Visionneuse Braille</H3>
+<P>
+Pour les voyants développeurs de logiciel ou les personnes présentant NVDA à un public voyant, une fenêtre flottante permettant de voir la sortie braille ainsi que le texte correspondant à chaque caractère braille est disponible.
+La visionneuse Braille peut être utilisée en même temps qu'un afficheur braille physique, elle s'adaptera au nombre de cellules sur l'afficheur physique.
+Quand la visionneuse Braille est activée, elle se met à jour constamment pour vous montrer ce qui serait affiché sur un afficheur braille physique.
+</P>
+<P>
+Pour activer la visionneuse Braille, cochez l'élément de menu "Visionneuse Braille" dans Outils dans le menu de NVDA.
+Décochez l'élément de menu pour la désactiver.
+</P>
+<P>
+Les afficheurs braille physiques ont généralement des boutons pour faire défiler le texte en avant ou en arrière, pour permettre le défilement avec la visionneuse Braille utilisez le <A HREF="#InputGestures">dialogues de Gestes de Commandes</A> pour assigner des raccourcis clavier pour "faire défiler l'afficheur braille en arrière" et "faire défiler l'afficheur braille en avant"
+</P>
+<P>
+La fenêtre de la visionneuse Braille contient une case à cocher étiquetée "Montrer la visionneuse Braille au démarrage".
+Si elle est cochée, la visionneuse Braille s'affichera au démarrage de NVDA.
+La visionneuse Braille essaiera toujours de se rouvrir avec les mêmes dimensions et à la même position que lors de sa fermeture.
+</P>
 <A NAME="AddonsManager"></A>
-<H3>12.3. Gestionnaire d'Extensions</H3>
+<H3>13.4. Gestionnaire d'Extensions</H3>
 <P>
 Le Gestionnaire d'extensions, accessible en sélectionnant "Gestion des Extensions" dans le menu "Outils" du menu NVDA, permet d'installer, désinstaller, activer ou désactiver des paquets d'extensions pour NVDA.
 Ces paquets sont fournis par la communauté et contiennent du code qui peut ajouter ou modifier des fonctionnalités dans NVDA ou proposer le support de plages braille ou synthèses vocales supplémentaires.
@@ -3659,7 +3871,7 @@ Pour inspecter ces extensions incompatibles, vous pouvez utiliser le bouton "Voi
 Pour activer le gestionnaire d'extensions de n'importe où, Veuillez assigner un geste personnalisé en utilisant le <A HREF="#InputGestures">dialogue Gestes de Commandes</A>.
 </P>
 <A NAME="incompatibleAddonsManager"></A>
-<H3>12.4. Le Gestionnaire d'Extensions Incompatibles</H3>
+<H3>13.5. Le Gestionnaire d'Extensions Incompatibles</H3>
 <P>
 Le Gestionnaire d'Extensions Incompatibles, auquel on accède via le bouton "voir les extensions incompatibles" dans le gestionnaire d'extensions, vous permet d'inspecter toutes les extensions incompatibles, et la raison pour laquelle elles sont considérées comme tel.
 Les extensions sont considérées comme incompatibles quand elles n'ont pas été mises à jour pour fonctionner avec des changements significatifs de NVDA, ou quand elles s'appuient sur une fonctionnalité non disponible dans la version de NVDA que vous utilisez.
@@ -3678,27 +3890,27 @@ Le gestionnaire d'extensions incompatible a également un bouton "À propos de l
 Il vous permet de connaître tous les détails concernant l'extension, ce qui est utile pour contacter son auteur.
 </P>
 <A NAME="PythonConsole"></A>
-<H3>12.5. Console Python</H3>
+<H3>13.6. Console Python</H3>
 <P>
 La console Python NVDA, située dans "Outils" du menu NVDA, est un outil de développement utile pour dépanner, inspecter le code ou inspecter la hiérarchie d'accessibilité d'une application.
 Pour plus d'informations, veuillez consulter le "Guide du Développeur" disponible dans <A HREF="https://community.nvda-project.org/wiki/Development">la section développement du site Web de NVDA</A>.
 </P>
 <A NAME="ReloadPlugins"></A>
-<H3>12.6. Rechargement des Extensions</H3>
+<H3>13.7. Rechargement des Extensions</H3>
 <P>
 Cet élément, quand on l'active, recharge les extensions d'applications et les extensions globales sans avoir à redémarrer NVDA, ce qui peut être utile pour les développeurs.
 </P>
 <A NAME="SupportedSpeechSynths"></A>
-<H2>13. Synthétiseurs de Parole Pris en Charge</H2>
+<H2>14. Synthétiseurs de Parole Pris en Charge</H2>
 <P>
 Cette section contient des informations concernant les synthétiseurs de parole pris en charge par NVDA.
 Pour une liste encore plus importante de synthétiseurs gratuits ou du commerce que vous pouvez acheter et télécharger pour utilisation avec NVDA, veuillez consulter la page <A HREF="https://www.nvda-project.org/wiki/ExtraVoices">https://www.nvda-project.org/wiki/ExtraVoices</A>.
 </P>
 <A NAME="eSpeakNG"></A>
-<H3>13.1. eSpeak NG</H3>
+<H3>14.1. eSpeak NG</H3>
 <P>
 Le synthétiseur <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak nG</A> est intégré dans NVDA et ne dépend d'aucun pilote ou programme additionnel pour être installé.
-Par défaut, NVDA démarre en utilisant eSpeak NG.
+Sous Windows 7, 8 et 8.1, NVDA utilise eSpeak NG par défaut (<A HREF="#OneCore">Windows OneCore</A> est utilisé sous Windows 10 par défaut).
 Comme ce synthétiseur est intégré dans NVDA, il est le plus indiqué quand vous voulez exécuter NVDA depuis une clé USB sur un autre système.
 </P>
 <P>
@@ -3709,7 +3921,7 @@ eSpeak NG prend en charge plus de 43 langues.
 Vous disposez également d'un grand choix de variantes, permettant de modifier considérablement le son de la voix.
 </P>
 <A NAME="SAPI4"></A>
-<H3>13.2. Microsoft Speech API Version 4 (SAPI 4)</H3>
+<H3>14.2. Microsoft Speech API Version 4 (SAPI 4)</H3>
 <P>
 SAPI 4 est un ancien standard Microsoft pour les synthétiseurs de parole logiciels.
 NVDA le supporte encore pour les utilisateurs qui ont déjà des synthétiseurs SAPI 4 installés.
@@ -3719,14 +3931,14 @@ Cependant, Microsoft ne le supporte plus et les composants nécessaires ne sont 
 Quand vous utilisez ce synthétiseur avec NVDA, la liste des voix disponibles (accessibles via la catégorie <A HREF="#SpeechSettings">Parole</A>du dialogue <A HREF="#NVDASettings">Paramètres</A>, ou <A HREF="#SynthSettingsRing">la boucle des paramètres synthétiseur</A>) contient toutes les voix de tous les synthétiseurs SAPI 4 installés sur votre système.
 </P>
 <A NAME="SAPI5"></A>
-<H3>13.3. Microsoft Speech API Version 5 (SAPI 5)</H3>
+<H3>14.3. Microsoft Speech API Version 5 (SAPI 5)</H3>
 <P>
 SAPI 5 est un standard Microsoft pour les synthétiseurs de parole logiciels.
 Beaucoup de synthétiseurs de parole compatibles avec ce standard peuvent être achetés ou téléchargés gratuitement auprès de différentes sociétés ou sites web, mais il est probable que votre système possède déjà une voix SAPI 5 préinstallée.
 Quand vous utilisez ce synthétiseur avec NVDA, la liste des voix disponibles (accessibles via la catégorie <A HREF="#SpeechSettings">Parole</A>du dialogue <A HREF="#NVDASettings">Paramètres</A>, ou <A HREF="#SynthSettingsRing">la boucle des paramètres synthétiseur</A>) contient toutes les voix de tous les synthétiseurs SAPI 5 installés sur votre système.
 </P>
 <A NAME="MicrosoftSpeechPlatform"></A>
-<H3>13.4. La Plate-forme Microsoft Speech</H3>
+<H3>14.4. La Plate-forme Microsoft Speech</H3>
 <P>
 La plate-forme Microsoft Speech fournit des voix pour beaucoup de langues, normalement utilisées dans le développement de serveurs vocaux.
 Ces voix peuvent également être utilisées avec NVDA.
@@ -3746,37 +3958,22 @@ Pour utiliser ces voix, vous devrez installer deux composants :
 
 <P></P>
 <A NAME="OneCore"></A>
-<H3>13.5. Voix Windows OneCore</H3>
+<H3>14.5. Voix Windows OneCore</H3>
 <P>
 Windows 10 inclut de nouvelles voix appelées "OneCore" ou voix "mobile".
 Des voix sont fournies pour beaucoup de langues, et elles sont plus réactives que les voix Microsoft disponibles en utilisant Microsoft Speech API version 5.
+Sous Windows 10, NVDA utilise les voix Windows OneCore par défaut (<A HREF="#eSpeakNG">eSpeak NG</A> est utilisé dans les autres versions).
 </P>
 <P>
 Pour installer des voix pour des langues supplémentaires, veuillez consulter cet article de Microsoft : <A HREF="https://support.office.com/fr-fr/article/T%C3%A9l%C3%A9charger-les-langues-de-synth%C3%A8se-vocale-pour-Windows-10-d5a6b612-b3ae-423f-afa5-4f6caf1ec5d3">https://support.office.com/fr-fr/article/T%C3%A9l%C3%A9charger-les-langues-de-synth%C3%A8se-vocale-pour-Windows-10-d5a6b612-b3ae-423f-afa5-4f6caf1ec5d3</A>
 </P>
-<P>
-Veuillez noter que les débits les plus rapides disponibles avec Narrator ne sont pas disponibles avec NVDA actuellement.
-De plus, la vitesse que vous choisissez dans les paramètres de Windows affecte la vitesse sous NVDA.
-Ce sont des problèmes que nous ne pouvons pas résoudre sans des modifications de Windows.
-Nous espérons qu'ils seront pris en compte dans de futures mises à jour de Windows.
-</P>
-<A NAME="Audiologic"></A>
-<H3>13.6. AudioLogic TTS3</H3>
-<P>
-C'est un synthétiseur de parole du commerce, spécifique à la langue italienne.
-Le synthétiseur doit être installé sur le système pour être utilisable par NVDA.
-Pour plus d'informations, veuillez visiter le site Audiologic à <A HREF="http://www.audiologic.it">www.audiologic.it</A>.
-</P>
-<P>
-Ce synthétiseur ne supporte pas la <A HREF="#SpeechSettingsUseSpelling">fonction d'épellation</A>.
-</P>
 <A NAME="SupportedbrailleDisplays"></A>
-<H2>14. Terminaux Braille Pris en Charge</H2>
+<H2>15. Terminaux Braille Pris en Charge</H2>
 <P>
 Cette section contient des informations sur les terminaux braille pris en charge par NVDA.
 </P>
 <A NAME="AutomaticDetection"></A>
-<H3>14.1. Terminaux supportant la détection automatique en arrière-plan</H3>
+<H3>15.1. Terminaux supportant la détection automatique en arrière-plan</H3>
 <P>
 NVDA a la possibilité de détecter beaucoup de terminaux braille automatiquement en arrière-plan, via USB ou Bluetooth.
 Ce comportement est activé en sélectionnant l'option Automatique comme terminal braille préféré dans le <A HREF="#BrailleSettings">dialogue Paramètres Braille</A>.
@@ -3798,7 +3995,7 @@ Les terminaux suivants supportent cette fonctionnalité de détection automatiqu
 
 <P></P>
 <A NAME="FreedomScientificFocus"></A>
-<H3>14.2. Les Terminaux Focus et PAC Mate de chez Freedom Scientific</H3>
+<H3>15.2. Les Terminaux Focus et PAC Mate de chez Freedom Scientific</H3>
 <P>
 Tous les terminaux Focus et PAC Mate de chez <A HREF="https://www.freedomscientific.com/">Freedom Scientific</A> sont pris en charge quand ils sont connectés en USB ou Bluetooth.
 Vous devrez installer les pilotes de terminaux braille de Freedom Scientific sur votre système.
@@ -3995,7 +4192,7 @@ Pour le Focus 80 seulement :
 </TABLE>
 
 <A NAME="OptelecALVA"></A>
-<H3>14.3. Séries Optelec ALVA 6/Convertisseur de Protocole</H3>
+<H3>15.3. Séries Optelec ALVA 6/Convertisseur de Protocole</H3>
 <P>
 Les terminaux BC640 et BC680 de chez <A HREF="https://www.optelec.com/">Optelec</A> sont pris en charge quand ils sont connectés en USB ou Bluetooth.
 Par ailleurs, vous pouvez connecter un terminal Optelec plus ancien, tel qu'un Braille Voyager, en utilisant un convertisseur de protocole fourni par Optelec.
@@ -4155,7 +4352,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="HandyTech"></A>
-<H3>14.4. Les Terminaux Handy Tech</H3>
+<H3>15.4. Les Terminaux Handy Tech</H3>
 <P>
 NVDA prend en charge la plupart des terminaux de chez <A HREF="https://www.handytech.de/">Handy Tech</A> quand ils sont connectés en USB, par port série ou en Bluetooth.
 Pour les terminaux USB les plus anciens, vous devrez installer le pilote USB Handy Tech sur votre système.
@@ -4257,7 +4454,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="MDVLilli"></A>
-<H3>14.5. Le Terminal MDV Lilli</H3>
+<H3>15.5. Le Terminal MDV Lilli</H3>
 <P>
 Le terminal braille Lilli distribué par <A HREF="https://www.mdvbologna.it/">MDV</A> est supporté.
 Vous n'avez besoin d'aucun pilote particulier pour utiliser ce terminal.
@@ -4314,7 +4511,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="Baum"></A>
-<H3>14.6. Les Terminaux Baum/Humanware/APH/Orbit</H3>
+<H3>15.6. Les Terminaux Baum/Humanware/APH/Orbit</H3>
 <P>
 Plusieurs terminaux <A HREF="https://www.baum.de/cms/en/">Baum</A>, <A HREF="https://www.humanware.com/">HumanWare</A>, <A HREF="https://www.aph.org/">APH</A> et <A HREF="https://www.orbitresearch.com/">Orbit</A> sont pris en charge quand ils sont connectés via USB, Bluetooth ou série.
 Les terminaux suivants sont pris en charge :
@@ -4400,7 +4597,7 @@ Pour les terminaux possédant un joystick:
 </TABLE>
 
 <A NAME="HedoProfiLine"></A>
-<H3>14.7. Hedo ProfiLine USB</H3>
+<H3>15.7. Hedo ProfiLine USB</H3>
 <P>
 Le terminal Hedo ProfiLine USB de <A HREF="https://www.hedo.de/">Hedo Reha-Technik</A> est supporté.
 Vous devrez tout d'abord installer le pilote USB fourni par le constructeur.
@@ -4448,7 +4645,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="HedoMobilLine"></A>
-<H3>14.8. Hedo MobilLine USB</H3>
+<H3>15.8. Hedo MobilLine USB</H3>
 <P>
 Le terminal Hedo MobilLine USB de <A HREF="https://www.hedo.de/">Hedo Reha-Technik</A> est supporté.
 Vous devrez tout d'abord installer le pilote USB fourni par le constructeur.
@@ -4496,7 +4693,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="HumanWareBrailliant"></A>
-<H3>14.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</H3>
+<H3>15.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</H3>
 <P>
 Les terminaux des séries Brailliant BI &amp; B de <A HREF="https://www.humanware.com/">HumanWare</A>, incluant le BI 14, BI 32, BI 40 et B 80 sont supportés quand ils sont connectés via USB ou Bluetooth.
 S'ils sont connectés en USB avec le protocole réglé sur HumanWare, vous devez d'abord installer le pilote USB fourni par le constructeur.
@@ -4509,8 +4706,8 @@ Le BrailleNote Touch est également prise en charge et ne nécessite pas de pilo
 Voici les assignations de touches pour Brailliant BI/B et BrailleNote touch sous NVDA.
 Veuillez consulter la documentation du terminal pour savoir où se situent ces touches.
 </P>
-<A NAME="toc131"></A>
-<H4>14.9.1. Assignations des Touches pour tous les Modèles</H4>
+<A NAME="toc137"></A>
+<H4>15.9.1. Assignations des Touches pour tous les Modèles</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Nom</TH>
@@ -4598,8 +4795,8 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc132"></A>
-<H4>14.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</H4>
+<A NAME="toc138"></A>
+<H4>15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Nom</TH>
@@ -4619,8 +4816,8 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc133"></A>
-<H4>14.9.3. Assignations de Touches pour le Brailliant BI 14</H4>
+<A NAME="toc139"></A>
+<H4>15.9.3. Assignations de Touches pour le Brailliant BI 14</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Nom</TH>
@@ -4649,11 +4846,11 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="Hims"></A>
-<H3>14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</H3>
+<H3>15.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</H3>
 <P>
 NVDA supporte les afficheurs braille Braille Sense, Braille EDGE, Smart Beetle et Sync Braille de <A HREF="https://www.hims-inc.com/">Hims</A> quand ils sont connectés via USB ou Bluetooth. 
 Si vous connectez votre afficheur braille par USB, vous devrez installer les pilotes USB de HIMS sur votre système.
-Vous pouvez les télécharger ici: <A HREF="https://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip">https://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip</A>
+Vous pouvez les télécharger ici: <A HREF="http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip">http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip</A>
 </P>
 <P>
 Voici les assignations de touches pour ce terminal sous NVDA.
@@ -4911,10 +5108,10 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="Seika"></A>
-<H3>14.11. Seika Braille Displays</H3>
+<H3>15.11. Seika Braille Displays</H3>
 <P>
 Les afficheurs braille Seika Version 3, 4 et 5 (40 caractères) et Seika80 (80 caractères) de <A HREF="https://www.nippontelesoft.com/">Nippon Telesoft</A> sont pris en charge.
-Vous pouvez trouver plus d'informations sur ces afficheurs sur le site <A HREF="https://www.seika-braille.com/">https://www.seika-braille.com/</A>.
+Vous pouvez trouver plus d'informations sur ces afficheurs et les pilotes requis sur le site <A HREF="https://en.seika-braille.com/down/index.html">https://en.seika-braille.com/down/index.html</A>.
 Vous devez d'abord installer les pilotes USB fournis par le fabricant.
 </P>
 <P>
@@ -4976,7 +5173,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TABLE>
 
 <A NAME="Papenmeier"></A>
-<H3>14.12. Nouveaux Modèles de Papenmeier brailleX</H3>
+<H3>15.12. Nouveaux Modèles de Papenmeier brailleX</H3>
 <P>
 Les afficheurs braille suivant sont supportés :
 </P>
@@ -5195,7 +5392,7 @@ Les touches intérieures font toutes les deux espace.
 </TABLE>
 
 <A NAME="PapenmeierOld"></A>
-<H3>14.13. Papenmeier Braille BrailleX Modèles Anciens</H3>
+<H3>15.13. Papenmeier Braille BrailleX Modèles Anciens</H3>
 <P>
 Les afficheurs braille suivants sont supportés :
 </P>
@@ -5468,7 +5665,7 @@ brailleX 2D Screen:
 </TABLE>
 
 <A NAME="HumanWareBrailleNote"></A>
-<H3>14.14. BrailleNote de HumanWare</H3>
+<H3>15.14. BrailleNote de HumanWare</H3>
 <P>
 NVDA supporte les bloc-notes BrailleNote de <A HREF="https://www.humanware.com">HumanWare</A> lorsque ceux-ci agissent comme afficheurs braille pour un lecteur d'écran.
 Les modèles suivants sont supportés :
@@ -5534,7 +5731,7 @@ Consultez la documentation de votre BrailleNote pour savoir où se situent ces t
 <TD>routage</TD>
 </TR>
 <TR>
-<TD>menu NvDA</TD>
+<TD>menu NVDA</TD>
 <TD>espace+point1+point3+point4+point5 (espace+n)</TD>
 </TR>
 <TR>
@@ -5736,7 +5933,7 @@ Voici les commandes assignées à la roue de défilement :
 </TABLE>
 
 <A NAME="EcoBraille"></A>
-<H3>14.15. EcoBraille</H3>
+<H3>15.15. EcoBraille</H3>
 <P>
 NVDA supporte Les afficheurs EcoBraille de <A HREF="https://www.once.es/">ONCE</A>.
 Les modèles suivants sont supportés :
@@ -5833,7 +6030,7 @@ Veuillez consulter <A HREF="ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braill
 </TABLE>
 
 <A NAME="SuperBraille"></A>
-<H3>14.16. SuperBraille</H3>
+<H3>15.16. SuperBraille</H3>
 <P>
 L'afficheur SuperBraille, principalement disponible à Taiwan, peut être connecté en USB ou en série.
 Comme le SuperBraille n'a ni clavier physique ni bouton de défilement, toutes les saisies doivent être effectuées depuis un clavier d'ordinateur standard.
@@ -5855,7 +6052,7 @@ Pour cette raison, et pour maintenir la compatibilité avec d'autres revues d'é
 </TABLE>
 
 <A NAME="Eurobraille"></A>
-<H3>14.17. Terminaux Eurobraille Esys/Esytime/Iris</H3>
+<H3>15.17. Terminaux Eurobraille Esys/Esytime/Iris</H3>
 <P>
 Les terminaux Esys, Esytime et Iris de chez <A HREF="https://www.eurobraille.fr/">Eurobraille</A> sont supportés par NVDA.
 Les terminaux Esys et Esytime-Evo sont supportés quand ils sont connectés via USB ou bluetooth.
@@ -6151,7 +6348,7 @@ Veuillez consulter la documentation du terminal pour connaître la position de c
 </TABLE>
 
 <A NAME="BRLTTY"></A>
-<H3>14.18. BRLTTY</H3>
+<H3>15.18. BRLTTY</H3>
 <P>
 <A HREF="https://www.brltty.com/">BRLTTY</A> est un programme séparé qui permet de prendre en charge beaucoup plus de terminaux braille.
 Pour l'utiliser, il vous faut installer <A HREF="https://www.brltty.com/download.html">BRLTTY pour Windows</A>.
@@ -6167,7 +6364,7 @@ BRLTTY n'est pas concerné par la détection automatique en arrière-plan.
 </P>
 <P>
 Voici les assignations de commandes BRLTTY pour NVDA.
-Veuillez consulter la <A HREF="https://mielke.cc/brltty/doc/KeyTables/">documentation assignation des touches de BRLTTY</A> pour des informations sur la manière dont BRLTTY lie ses commandes aux touches sur les terminaux braille.
+Veuillez consulter les <A HREF="https://mielke.cc/brltty/doc/KeyBindings/">listes des assignations des touches de BRLTTY</A> pour des informations sur la manière dont BRLTTY lie ses commandes aux touches sur les terminaux braille.
 </P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -6197,16 +6394,15 @@ Veuillez consulter la <A HREF="https://mielke.cc/brltty/doc/KeyTables/">document
 </TABLE>
 
 <A NAME="AdvancedTopics"></A>
-<H2>15. Fonctions Avancées</H2>
+<H2>16. Fonctions Avancées</H2>
 <A NAME="CommandLineOptions"></A>
-<H3>15.1. Options de Ligne de Commande</H3>
+<H3>16.1. Options de Ligne de Commande</H3>
 <P>
 Au démarrage, NVDA peut accepter une ou plusieurs options additionnelles pour modifier son comportement.
 Vous pouvez passer autant d'options que nécessaire.
 Ces options peuvent être passées quand on démarre depuis un raccourci (dans les propriétés du raccourci), depuis le dialogue Exécuter (Menu Démarrer -&gt; Exécuter ou Windows+r) ou depuis une console de commande Windows.
 Les options doivent être séparées du nom de l'exécutable NVDA et des autres options par des espaces.
-Par exemple, le raccourci de bureau créé par NVDA pendant l'installation a l'option -r, qui dit à NVDA d'arrêter la copie en cours avant d'en démarrer une nouvelle.
-Une autre option utile est --disable-addons, qui dit à NVDA d'interrompre toutes les extensions en cours d'exécution.
+Par exemple, une option utile est --disable-addons, qui dit à NVDA d'interrompre toutes les extensions en cours d'exécution.
 Cela vous permet de déterminer si un problème est causé par une extension et de vous sortir de sérieux problèmes pouvant être causés par des extensions.
 </P>
 <P>
@@ -6221,11 +6417,11 @@ Pour celles qui ont une version courte, vous pouvez les combiner ainsi :
 </P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TD>nvda -rm</TD>
-<TD>Ceci arrêtera la version en cours de NVDA et redémarrera avec le son de démarrage désactivé, etc.</TD>
+<TD>nvda -mc CONFIGPATH</TD>
+<TD>Ceci démarrera NVDA avec le son et le message de démarrage  désactivé, et la configuration spécifiée.</TD>
 </TR>
 <TR>
-<TD>nvda -rm --disable-addons</TD>
+<TD>nvda -mc CONFIGPATH --disable-addons</TD>
 <TD>Même chose, mais avec les extensions désactivées</TD>
 </TR>
 </TABLE>
@@ -6269,11 +6465,6 @@ Voici les options de ligne de commande de NVDA :
 <TD>Quitte la copie en cours d'exécution de NVDA</TD>
 </TR>
 <TR>
-<TD>-r</TD>
-<TD>--replace</TD>
-<TD>Quitte la copie en cours d'exécution de NVDA et démarre celle-ci</TD>
-</TR>
-<TR>
 <TD>-k</TD>
 <TD>--check-running</TD>
 <TD>Indique si NVDA est en cours d'exécution via le code retour; 0 si oui, 1 si non</TD>
@@ -6301,7 +6492,7 @@ Voici les options de ligne de commande de NVDA :
 <TR>
 <TD>-s</TD>
 <TD>--secure</TD>
-<TD>Mode sécurisé (désactive la console Python et la journalisation, parfois utilisé dans les écrans sécurisés)</TD>
+<TD>Mode sécurisé : (désactive la console Python et la journalisation, parfois utilisé dans les écrans sécurisés)</TD>
 </TR>
 <TR>
 <TD>Aucune</TD>
@@ -6356,7 +6547,7 @@ Voici les options de ligne de commande de NVDA :
 </TABLE>
 
 <A NAME="SystemWideParameters"></A>
-<H3>15.2. Paramètres Système</H3>
+<H3>16.2. Paramètres Système</H3>
 <P>
 NVDA permet de définir certaines valeurs dans la base de registre du système ce qui modifie le comportement général de NVDA.
 Ces valeurs sont stockées dans la base de registres sous l'une des clés suivantes :
@@ -6392,9 +6583,9 @@ Les valeurs suivantes peuvent être définies dans ces clés de registre :
 </TABLE>
 
 <A NAME="FurtherInformation"></A>
-<H2>16. Informations Complémentaires</H2>
+<H2>17. Informations Complémentaires</H2>
 <P>
-Si vous avez besoin d'informations complémentaires ou d'aide concernant l'utilisation de NVDA, veuillez visiter le site NVDA à <A HREF="http://www.nvaccess.org/">http://www.nvaccess.org/</A>.
+Si vous avez besoin d'informations complémentaires ou d'aide concernant l'utilisation de NVDA, veuillez visiter le site NVDA à <A HREF="https://www.nvaccess.org/">https://www.nvaccess.org/</A>.
 Sur ce site, vous pourrez trouver des informations complémentaires telles que des listes de discussion spécialisées et d'autres ressources communautaires pour vous aider à utiliser NVDA.
 Ce site fournit également des informations concernant le développement de NVDA.
 </P>
