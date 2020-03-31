@@ -48,12 +48,13 @@ Les points forts de cette version incluent la prise en charge de nombreux nouvea
 
 Remarque Très Importante: y a eu un grand changement dans la traduction en français, Si vous utilisez la version 2019.1 ou ultérieure vous constaterez que le mot "module complémentaire" ou "modules complémentaires" pour désigner le mot "add-on" ou "add-ons" a été modifié par le mot "extension".
 
-NVDA 2020.1 étant encore seulement en version beta, certains auteurs d’extension ne les ont pas encore mises à jour et y travaillent en ce moment.
+NVDA 2020.1 étant encore seulement en version beta, certains auteurs d'extension ne les ont pas encore mises à jour avec Python 3 ou ne sont pas mis à jour les indicateurs de compatibilité et  y travaillent en ce moment.
 
-Concernant plus spécifiquement NVDA remote qui préoccupe pas mal de monde, il a été annoncé jusqu’à présent que l’extension n’est pas encore compatible mais que l’auteur y travaille et a le soutient de NVAccess ; il est annoncé qu’elle sera compatible lorsque la version NVDA 2020.1 définitive sera publiée.
+Concernant plus spécifiquement NVDA remote qui préoccupe pas mal de monde, il a été annoncé  que l'extension est   maintenant compatible avec NVDA 2019.3. Il existe une version pour NVDA 2019.3 et ultérieure (dans lequel il a collaboré Reef Turner, de NV Access) et une autre pour les anciennes versions de NVDA.    
 
+Voir sur [nvdaremote.com](https://nvdaremote.com/),  menu de navigation Download
 
-Merci à Cyrille pour cette info.
+Merci à Noelia pour cette info.
 
 ###  Pour télécharger NVDA 2020.1beta1 ###
 
