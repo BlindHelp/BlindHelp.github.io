@@ -20,7 +20,7 @@ Nouvelle traduction en espagnole fait par Noelia Ruiz.
 # Liens utiles: #
 Vous trouver la page contenant les executables de Thorium [par là](https://github.com/readium/readium-desktop/releases)    
 Puis les informations en anglais sur la dernière version v1.2.1 [par ici](https://www.edrlab.org/2020/04/01/thorium-reader-1-2-has-been-released/)    
-Puis la page de l'auteur de EDRLab - European Digital Reading Lab (en anglais) [en cliquant ici](https://www.edrlab.org/]    
+Puis la page de l'auteur de EDRLab - European Digital Reading Lab (en anglais) [en cliquant ici](https://www.edrlab.org/)    
 
 # Lien de téléchargement de Thorium: #
 Voici  l'installateur pour Windows 10 ()Ce programme fonctionne également sur Windows 7, comme je l'ai vérifié.    
@@ -73,6 +73,9 @@ S'il vous plaît cliquer sur ce bouton et vous saurez tout sur ce fabuleux lecte
 
 Vous pouvez lancez le programme thorium à tout moment depuis son raccourci bureau.    
 Je testé que la fonction Importer un fichier epub, pour le reste, je pense que vous devriez faire une configuration avant d'utiliser les autres options.    
+
+Noelia nous conseille d'utiliser l'extension pour NVDA appeler [placeMarkers](https://addons.nvda-project.org/addons/placeMarkers.fr.html), avec cette application car il est possible d'ajouter des marqueurs à partir de  l'application , mais pas les localiser.    
+placeMarkers a un moyen de joindre des notes aux marqueurs ajoutés, ce qui est pas idéal, mais il peut servir.    
 
 Thorium est simple comme bonjour!    
 
