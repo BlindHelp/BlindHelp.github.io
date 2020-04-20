@@ -19,8 +19,8 @@ Nouvelle traduction en espagnole fait par Noelia Ruiz.
 
 # Liens utiles: #
 Vous trouver la page contenant les executables de Thorium [par là](https://github.com/readium/readium-desktop/releases)    
-Puis les informations en anglais sur la dernière version v1.2.1 [par ici](https://www.edrlab.org/2020/04/01/thorium-reader-1-2-has-been-released/)    
-Puis la page de l'auteur de EDRLab - European Digital Reading Lab (en anglais) [en cliquant ici](https://www.edrlab.org/)    
+Puis les informations en anglais sur la dernière version v1.2.1  (y compris la version alpha)[par ici](https://www.edrlab.org/2020/04/01/thorium-reader-1-2-has-been-released/)    
+Et la page de l'auteur de EDRLab - European Digital Reading Lab (en anglais) [en cliquant ici](https://www.edrlab.org/)    
 
 # Lien de téléchargement de Thorium: #
 Voici  l'installateur pour Windows 10 ()Ce programme fonctionne également sur Windows 7, comme je l'ai vérifié.    
@@ -28,9 +28,18 @@ Vous pouvez obtenir celui-ci en cliquant sur le lien ci-dessous.
 [thorium.Setup.1.2.1.exe](https://github.com/readium/readium-desktop/releases/download/v1.2.0/thorium.Setup.1.2.1.exe)    
 76.5 MB    
 
+Voici également la dernière version alpha.    
+Elle comprend l'amélioration de la traduction complète en espagnol. Cette version alpha donne aussi l'indication de l'état de nombreux boutons (pour savoir si elles sont ou pas pressé).    
+Je pense que cela est très important comme amélioration dans l'accessibilité pour les lecteurs d'écran.    
+Vous pouvez obtenir celui-ci en cliquant sur le lien ci-dessous.    
+[Thorium_Setup_1.3.0-alpha.1.536.exe](https://github.com/readium/readium-desktop/releases/download/latest-windows/Thorium_Setup_1.3.0-alpha.1.536.exe)    
+55.5 MB    
+
 # Installation de Thorium: #
 Chercher le fichier télécharger, par exemple pour Windows 10 (et Windows 7):    
 `thorium.Setup.1.2.1.exe`    
+Si vous souhaitez installez la version alpha vous devez chercher le fichier télécharger:    
+`Thorium_Setup_1.3.0-alpha.1.536.exe`    
 Faire entrée sur lui, puis l'installation se fait automatiquement, et nous avons l'interface en français! 😄    
 Franchement il est vraiment accessible! 😻    
 Une fois fini nous avons L'écran nommé:    
