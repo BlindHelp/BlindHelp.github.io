@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Lundi 13 Abril 2020</footer>
+<footer>Dernière mise à jour le Mercredi 29 Avril 2020</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -14,32 +14,24 @@ Voici l'application Thorium, lecteur ePub très accessible, compatible avec les 
 Thorium, est le lecteur EPUB de bureau libre publié par [EDRLab.](https://www.edrlab.org/) Ceci est une application très accessible, compatible avec les lecteurs d'écran comme Jaws, NVDA, Voice Over (sur Mac OS) et Narrateur (sous Windows.    
 
 # Langues actuellement disponibles: #
-Nouvelle traduction en espagnole fait par Noelia Ruiz.    
+Nouvelle mises à jour pour la traduction en espagnol fait par Noelia Ruiz.    
 (en plus des langues existantes anglais, français et allemand).    
+Et d'autres langues seront ajoutées prochainement (italien et hongrois sont à tourner).    
 
 # Liens utiles: #
 Vous trouver la page contenant les executables de Thorium [par là](https://github.com/readium/readium-desktop/releases)    
-Puis les informations en anglais sur la dernière version v1.2.1  (y compris la version alpha)[par ici](https://www.edrlab.org/2020/04/01/thorium-reader-1-2-has-been-released/)    
+Puis les informations en anglais sur la dernière version v1.3 par ici](https://www.edrlab.org/2020/04/28/thorium-reader-1-3-supports-audiobooks/)    
 Et la page de l'auteur de EDRLab - European Digital Reading Lab (en anglais) [en cliquant ici](https://www.edrlab.org/)    
 
 # Lien de téléchargement de Thorium: #
 Voici  l'installateur pour Windows 10 ()Ce programme fonctionne également sur Windows 7, comme je l'ai vérifié.    
 Vous pouvez obtenir celui-ci en cliquant sur le lien ci-dessous.
-[thorium.Setup.1.2.1.exe](https://github.com/readium/readium-desktop/releases/download/v1.2.0/thorium.Setup.1.2.1.exe)    
-76.5 MB    
-
-Voici également la dernière version alpha.    
-Elle comprend l'amélioration de la traduction complète en espagnol. Cette version alpha donne aussi l'indication de l'état de nombreux boutons (pour savoir si elles sont ou pas pressé).    
-Je pense que cela est très important comme amélioration dans l'accessibilité pour les lecteurs d'écran.    
-Vous pouvez obtenir celui-ci en cliquant sur le lien ci-dessous.    
-[Thorium_Setup_1.3.0-alpha.1.536.exe](https://github.com/readium/readium-desktop/releases/download/latest-windows/Thorium_Setup_1.3.0-alpha.1.536.exe)    
-55.5 MB    
+[Thorium.Setup.1.3.0.exe](https://github.com/readium/readium-desktop/releases/download/v1.3.0/Thorium.Setup.1.3.0.exe)    
+76,0 MB    
 
 # Installation de Thorium: #
 Chercher le fichier télécharger, par exemple pour Windows 10 (et Windows 7):    
-`thorium.Setup.1.2.1.exe`    
-Si vous souhaitez installez la version alpha vous devez chercher le fichier télécharger:    
-`Thorium_Setup_1.3.0-alpha.1.536.exe`    
+`Thorium.Setup.1.3.0.exe`    
 Faire entrée sur lui, puis l'installation se fait automatiquement, et nous avons l'interface en français! 😄    
 Franchement il est vraiment accessible! 😻    
 Une fois fini nous avons L'écran nommé:    
@@ -48,15 +40,15 @@ Vous pouvez naviguer sur cette interface en html via les liens ou bouton sans pr
 Par exemple nous avons les éléments suivants après la ligne:    
 `Aller au contenu`    
 `Mes Livres`    
-(C'est un lien)    
+(C'est un bouton)    
 `Catalogues`    
-(C'est un lien)    
+(C'est un bouton)    
 `Préférences`    
-(C'est un lien)    
+(C'est un bouton)    
 `Présenter les couvertures de livres en grille`    
-(C'est un lien)    
+(C'est un bouton)    
 `Présenter les livres sous forme de liste`    
-(C'est un lien)    
+(C'est un bouton)    
 Ensuite  vous aurez un champ d'édition comme message:     
 `Rechercher un livre, un tag, ou un type de littérature`    
 Activer le dite champ d'édition puis tapez votre recherche.    
@@ -70,12 +62,14 @@ Après ce bouton, nous aurons les éléments suivants:
 `Importer un livre`    
 (c'est un graphique)    
 `contenu principal`    
-`Déposez vos fichiers EPUB dans cette fenêtre`    
+`Déposer la publication`    
 `ou bien utilisez le bouton "+" ci-dessus.`    
 `Les fichiers protégés par LCP sont pris en charge.`    
+`Extensions prises en charge :`    
+`.lcpl.epub.epub3.audiobook.lcpa.lcpaudiobook.lpf`    
 Ensuite nous aurons le titre de niveau 2:    
 `A propos de Thorium`    
-`v1.2.1`    
+`v1.3.0`    
 `Plus d'informations`    
 (c'est un bouton)    
 S'il vous plaît cliquer sur ce bouton et vous saurez tout sur ce fabuleux lecteur ePub nommé Thorium made in france! :)    
