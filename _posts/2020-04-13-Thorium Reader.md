@@ -17,7 +17,7 @@ Thorium, est le lecteur EPUB de bureau libre publié par [EDRLab.](https://www.e
 Nouvelle mises à jour pour la traduction en espagnol fait par Noelia Ruiz (déjà inclus dans les versions de test précédentes).    
 (en plus des langues existantes anglais, français et allemand) d'autres langues seront ajoutées prochainement (italien et hongrois viendront bientôt).    
 
-Hier, la version stable 1.3 a été publié, celle-ci prend en charge les livres audio comme l'extensions .audiobook, .lcpaudiobook, vous pouvez consulter cette information depuis la page en anglais [par ici](https://www.edrlab.org/2020/04/28/thorium-reader-1-3-supports-audiobooks/), ( je ne l'ai pas essayé).    
+Hier, la version stable 1.3 a été publié, celle-ci prend en charge les livres audio comme l'extensions .audiobook, .lcpaudiobook, vous pouvez consulter cette information depuis la page en anglais [par ici](https://www.edrlab.org/2020/04/28/thorium-reader-1-3-supports-audiobooks/), (je ne l'ai pas essayé).    
 
 # Nouveautés de cette version #
 
@@ -39,7 +39,7 @@ Hier, la version stable 1.3 a été publié, celle-ci prend en charge les livres
 
 # Liens utiles: #
 Vous trouver la page contenant les executables de Thorium [par là](https://github.com/readium/readium-desktop/releases)    
-Puis les informations en anglais sur la dernière version v1.3 par ici](https://www.edrlab.org/2020/04/28/thorium-reader-1-3-supports-audiobooks/)    
+Puis les informations en anglais sur la dernière version v1.3 [par ici](https://www.edrlab.org/2020/04/28/thorium-reader-1-3-supports-audiobooks/)    
 Et la page de l'auteur de EDRLab - European Digital Reading Lab (en anglais) [en cliquant ici](https://www.edrlab.org/)    
 
 # Lien de téléchargement de Thorium pour Windows via GitHub: #
@@ -112,22 +112,25 @@ S'il vous plaît cliquer sur ce bouton et vous saurez tout sur ce fabuleux lecte
 
 Vous pouvez lancez le programme thorium à tout moment depuis son raccourci bureau.    
 Je testé que la fonction Importer un fichier epub, pour le reste, je pense que vous devriez faire une configuration avant d'utiliser les autres options.    
-En ce qui concerne le format OPDS, celui-ci est utilisée pour vous abonner aux livres publiés sur Internet et est similaire aux formats comme le RSS utilisé pour les blogs, les journaux, etc., mais pour des livres ou des publications.
+Voci un lien pour télécharger des [Ebooks libres et gratuits](https://www.ebooksgratuits.com/)    
+En ce qui concerne le format OPDS (Open Publication Distribution System), celui-ci est utilisée pour vous abonner aux livres publiés sur Internet et est similaire aux formats comme le flux RSS utilisé pour les blogs, les journaux, etc., mais pour des livres ou des publications.    
+Voici le flux OPDS à mettre dans Thorium:    
+`https://www.ebooksgratuits.com/opds/`    
 
 Certains d'entre vous me l'ont demandé, donc comme promis, voici plus bas une petite tuto rapide fait maison pour bien utiliser Thorium avec le lecteur d'écran NVDA. 🤔    
 
 # Conseils en bric-à-brac pour bien utiliser Thorium avec le lecteur d'écran NVDA #
 
-1. Configuration de NVDA    
+# 1. Configuration de NVDA #
 
 Si vous le souhaitez, vous pouvez créer un profil de configuration pour Thorium, bien que non essentiel:    
-
 1. Nous ouvrons Thorium.    
 2. Nous appuyons sur control+NVDA+p.    
 3. Nous activons le bouton "Nouveau" (tab et ensuite Entrée, ou alt+n).    
 4. Nous appuyons sur tab et nous choisissons l'option utiliser le profil pour l'application en cours. Ensuite appuyer sur "OK".    
 
-2. Maniement de Thorium    
+
+# 2. Maniement de Thorium #
 
 J'utilise pour lire des livres epub que j'ai sur le PC, mais peut aussi être utilisé pour les livres dans des catalogues en ligne mais je ne l'ai pas essayé.    
 
@@ -160,7 +163,8 @@ Après avoir activé un élément, le curseur est placé dans la zone du contenu
 Il existe d'autres options comme détacher la fenêtre, par exemple pour lire plusieurs livres et utiliser alt+tab, préférences (control+s) pour changer les options visuelles, ou control+f11 pour activer et désactiver le mode plein écran.    
 A la fin de la fenêtre du lecteur (control+fin) il y a un élément qui nous indique "Plus d'informations", ce qui ouvre une boîte de dialogue indiquant la progression de la lecture, par exemple le numéro et le total de chapitres et le titre de l'actuel.    
 
-3. Conclusion    
+
+# 3. Conclusion #
 
 Le principal avantage est que Thorium peut utilisé le mode Navigation (control+NVDA+f pour rechercher, h pour aller aux titres, etc.) et les commandes habituelles pour déplacer le focus et le Curseur Système, comme Entrée, espace, tab, les flèches, etc., tantôt pour lire  chaque livre Comme  pour utiliser les menus et les options de la bibliothèque.    
 Nous pouvons également utiliser le mode formulaire et désactiver le suivi  du focus et le Curseur Système si nous voulons amener le focus système aux éléments comme le panneau de navigation sans perdre la position du curseur de revue, même si cela est rarement utilisé et je le mentionne seulement au cas où cela résulte  utile.    
