@@ -112,12 +112,20 @@ S'il vous plaît cliquer sur ce bouton et vous saurez tout sur ce fabuleux lecte
 
 Vous pouvez lancez le programme thorium à tout moment depuis son raccourci bureau.    
 Je testé que la fonction Importer un fichier epub, pour le reste, je pense que vous devriez faire une configuration avant d'utiliser les autres options.    
-Voci un lien pour télécharger des [Ebooks libres et gratuits](https://www.ebooksgratuits.com/)    
+Voici un lien pour télécharger des [Ebooks libres et gratuits](https://www.ebooksgratuits.com/)    
 En ce qui concerne le format OPDS (Open Publication Distribution System), celui-ci est utilisée pour vous abonner aux livres publiés sur Internet et est similaire aux formats comme le flux RSS utilisé pour les blogs, les journaux, etc., mais pour des livres ou des publications.    
 Voici le flux OPDS à mettre dans Thorium:    
-`https://www.ebooksgratuits.com/opds/`    
-
-Certains d'entre vous me l'ont demandé, donc comme promis, voici plus bas une petite tuto rapide fait maison pour bien utiliser Thorium avec le lecteur d'écran NVDA. 🤔    
+`https://www.ebooksgratuits.com/opds`    
+Une fois ouvert Thorium nous activons le bouton "Catalogues"    
+Ensuite Nous appuyons sur le bouton:    
+`Ajouter un flux OPDS`    
+Nous lui donnerons un nom par exemple Ebooks libres et gratuits, ensuite nous allons  coller l'URL ci-dessus dans le champ prévu.    
+Ensuite Nous appuyons sur le bouton:    
+`Ajouter`    
+Une fois fini nous aurons le flux OPDS Ebooks libres et gratuits en tant que lien dans le catalogue. Nous faisons Entrée pour l'ouvrir. Toutefois si  un flux OPDS ne fonctionne pas, nous pourrons le supprimer à l'aide du bouton Supprimer.    
+Vous devez appuyer sur le bouton "Catalogues" pour trouver vos flux OPDS.    
+Eh bien, ce fut l'explication par mes soins au sujet de la façon d'ajouter  ces flux OPDS. Surtout, pas de panique!    
+Donc, comme certains d'entre vous me l'ont demandé, donc comme promis, voici plus bas une petite tuto rapide fait maison pour bien utiliser Thorium avec le lecteur d'écran NVDA. 🤔    
 
 # Conseils en bric-à-brac pour bien utiliser Thorium avec le lecteur d'écran NVDA #
 
@@ -146,7 +154,7 @@ Daniel Weck a créé un article mentionnant les raccourcis clavier de Thorium. J
 Dans la bibliothèque les livres peuvent être ouverts à l'aide  de son lien correspondant, en appuyant sur Entrée.    
 En dessous de chaque livre, il y a un menu qui peut être activé avec Entrée pour le supprimer  de la bibliothèque ou l'exporter vers un autre dossier.    
 Lors de l'ouverture d'un livre la fenêtre Lecteur apparaît.    
-Dans la bibliothèque, il y a plus d'éléments, comme "Préférences", par exemple pour éditer les raccourcis clavier ou la langue.    
+Dans la bibliothèque, il y a plus d'éléments, comme "Préférences", par exemple pour éditer les raccourcis clavier ou  le choix de la langue.    
 
 Dans la fenêtre du lecteur, en plus de control+f10 pour aller à la zone principale nous pouvons utiliser ces commandes:    
 - control+n pour activer et placer le focus sur le panneau de navigation. Dans ce panneau se trouve la table des matières avec des liens vers des chapitres ou sous-sections du livre, marque-pages que nous avons ajouté, etc. Nous pouvons utiliser les touches fléchées pour déplacer le curseur sur les boutons du panneau et les appuyer ou les désactiver avec espace ou Entrée.    
