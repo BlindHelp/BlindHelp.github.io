@@ -88,6 +88,6 @@ A continuation vous pouvez trouver des documents disponibles  dans le menu Aide 
 * [Quoi de neuf](https://blindhelp.github.io/changes.html)
 * [Résumé des commandes](https://blindhelp.github.io/keyCommands.html)
 
-Profitez de NVDA 2020.1. 
-@+                     
-BlindHelp!                           
+Profitez de NVDA 2020.1.    
+@+    
+BlindHelp!    

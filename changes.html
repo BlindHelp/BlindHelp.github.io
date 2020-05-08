@@ -9,6 +9,63 @@
 <FONT SIZE="4">
 </FONT></CENTER>
 
+<H2>2020.1</H2>
+<P>
+Les points forts de cette version incluent la prise en charge de nombreux nouveaux afficheurs Braille de HumanWare et APH, et beaucoup d'autres corrections de bogues comme la possibilité de lire à nouveau du contenu mathématiques dans Microsoft Word en utilisant MathPlayer/MathType.
+</P>
+<H3>Nouvelles Fonctionnalités</H3>
+<UL>
+<LI>L'élément actuellement sélectionné dans une zone de liste est à nouveau annoncé en mode navigation dans Chrome, comme c'était le cas pour NVDA 2019.1. (<A HREF="https://github.com/nvaccess/nvda/issues/10713" target="_blank">#10713</A>)
+<LI>Vous pouvez maintenant effectuer des clics droit souris sur les appareils tactiles en maintenant un doigt appuyé. (<A HREF="https://github.com/nvaccess/nvda/issues/3886" target="_blank">#3886</A>)
+<LI>Support de nouveaux afficheurs Braille : APH Chameleon 20, APH Mantis Q40, HumanWare BrailleOne, BrailleNote Touch v2, et NLS eReader. (<A HREF="https://github.com/nvaccess/nvda/issues/10830" target="_blank">#10830</A>)
+</UL>
+
+<H3>Changements</H3>
+<UL>
+<LI>NVDA empêchera le système de se verrouiller ou de passer en veille pendant Dire Tout. (<A HREF="https://github.com/nvaccess/nvda/issues/10643" target="_blank">#10643</A>)
+<LI>Support des cadres IFrames hors-processus dans Mozilla Firefox. (<A HREF="https://github.com/nvaccess/nvda/issues/10707" target="_blank">#10707</A>)
+<LI>Mise à jour du transcripteur Braille Liblouis à la version 3.12. (<A HREF="https://github.com/nvaccess/nvda/issues/10161" target="_blank">#10161</A>)
+</UL>
+
+<H3>Corrections de Bogues</H3>
+<UL>
+<LI>Correction de la non annonce par NVDA du symbole Unicode moins (U+2212) (<A HREF="https://github.com/nvaccess/nvda/issues/10633" target="_blank">#10633</A>)
+<LI>Quand on installe une extension à partir du gestionnaire d'extensions, les noms des fichiers et des dossiers dans le dialogue parcourir ne sont plus annoncés deux fois. (<A HREF="https://github.com/nvaccess/nvda/issues/10620" target="_blank">#10620</A>, <A HREF="https://github.com/nvaccess/nvda/issues/2395" target="_blank">#2395</A>)
+<LI>Dans Firefox, lors du chargement de Mastodon avec l'interface Web avancée activée, toutes les chronologies sont désormais correctement rendues en mode navigation. (<A HREF="https://github.com/nvaccess/nvda/issues/10776" target="_blank">#10776</A>)
+<LI>En mode navigation, NVDA annonce désormais " non coché " pour les cases à cocher décochées alors qu'il ne le faisait pas toujours avant. (<A HREF="https://github.com/nvaccess/nvda/issues/10781" target="_blank">#10781</A>)
+<LI>Les contrôles de bascule ARIA ne provoquent plus l'annonce d'informations confuses telles que " non enfoncé coché " ou " enfoncé coché ". (<A HREF="https://github.com/nvaccess/nvda/issues/9187" target="_blank">#9187</A>)
+<LI>Les voix SAPI4 ne devraient plus refuser de lire certains textes. (<A HREF="https://github.com/nvaccess/nvda/issues/10792" target="_blank">#10792</A>)
+<LI>NVDA peut à nouveau lire et interagir avec des équations mathématiques dans Microsoft Word. (<A HREF="https://github.com/nvaccess/nvda/issues/10803" target="_blank">#10803</A>)
+<LI>NVDA annoncera de nouveau correctement le texte désélectionné lorsque vous pressez une touche fléchée en mode navigation quand du texte est sélectionné. (<A HREF="https://github.com/nvaccess/nvda/issues/10731" target="_blank">#10731</A>).
+<LI>NVDA ne se fermera plus en cas d'erreur à l'initialisation d'eSpeak. (<A HREF="https://github.com/nvaccess/nvda/issues/10607" target="_blank">#10607</A>)
+<LI>Les erreurs dues aux caractères unicode dans la traduction d'un raccourci n'arrêteront plus l'installeur, provocant leur correction par retour au texte anglais. (<A HREF="https://github.com/nvaccess/nvda/issues/5166" target="_blank">#5166</A>, <A HREF="https://github.com/nvaccess/nvda/issues/6326" target="_blank">#6326</A>)
+<LI>Le mouvement par flèches en mode dire tout vers la sortie ou loin des listes et des tableaux n'annoncera plus constamment la sortie de ces derniers si le survol est activé. (<A HREF="https://github.com/nvaccess/nvda/issues/10706" target="_blank">#10706</A>)
+</UL>
+
+<H3>Changements pour les développeurs</H3>
+<UL>
+<LI>La documentation développeur est maintenant compilée avec Sphinx. (<A HREF="https://github.com/nvaccess/nvda/issues/9840" target="_blank">#9840</A>)
+<LI>Plusieurs fonctions vocales ont été divisées en deux. (<A HREF="https://github.com/nvaccess/nvda/issues/10593" target="_blank">#10593</A>)
+  La version speakX reste, mais elle dépend maintenant d'une fonction getXSpeech qui retourne une séquence de parole.
+  <UL>
+  <LI>speakObjectProperties s'appuie maintenant sur getObjectPropertiesSpeech
+  <LI>speakObject s'appuie maintenant sur getObjectSpeech
+  <LI>speakTextInfo s'appuie maintenant sur getTextInfoSpeech
+  <LI>speakWithoutPauses a été converti en une classe et réécrite, mais cela ne rompt pas la compatibilité.
+  <LI>getSpeechForSpelling est maintenant déprécié, utilisez getSpellingSpeech à la place.
+  Changements internes qui n'affectent pas le développement d'extensions :
+  <LI>_speakPlaceholderIfEmpty est devenu _getPlaceholderSpeechIfTextEmpty
+  <LI>_speakTextInfo_addMath est devenu _extendSpeechSequence_addMathForTextInfo
+  </UL>
+<LI>La parole 'reason' a été converti en une énumération, consultez la classe controlTypes.OutputReason. (<A HREF="https://github.com/nvaccess/nvda/issues/10703" target="_blank">#10703</A>)
+  <UL>
+  <LI>Les constantes de niveau de module 'REASON_*' sont dépréciées.
+  </UL>
+<LI>La compilation des dépendances de NVDA nécessitent maintenant Visual Studio 2019 (16.2 ou supérieur). (<A HREF="https://github.com/nvaccess/nvda/issues/10169" target="_blank">#10169</A>)
+<LI>Mise à jour de SCons à la version 3.1.1. (<A HREF="https://github.com/nvaccess/nvda/issues/10169" target="_blank">#10169</A>)
+<LI>Réautorisation de n'avoir aucun emplacement défini pour behaviors._FakeTableCell (<A HREF="https://github.com/nvaccess/nvda/issues/10864" target="_blank">#10864</A>)
+</UL>
+
 <H2>2019.3</H2>
 <P>
 NVDA 2019.3 est une version très importante contenant de nombreux changements structurels incluant la mise à jour de Python 2 à Python 3, et une réécriture majeure du sous-système de parole de NVDA.
