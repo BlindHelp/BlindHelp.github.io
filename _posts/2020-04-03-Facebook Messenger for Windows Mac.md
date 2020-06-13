@@ -9,7 +9,7 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!    
 Il y a une application Facebook Messenger dans le Microsoft Store de façon assez surprenante est très accessible à utiliser pour personnes atteintes de déficience visuelle.    
-Dernièrement Microsoft a créé la version Facebook Messenger pour Windows 10, avec un interface intuitif et minimaliste, ce qui va assurer une fluidité de navigation pour votre profile Facebook!    
+Dernièrement Microsoft a créé la version Facebook Messenger pour Windows 10, avec une interface intuitif et minimaliste, ce qui va assurer une fluidité de navigation pour votre profile Facebook!    
 Il fait tout que l'application mobile messenger fait. Y compris aussi lorsque nous sommes connectés sur  la page Web [Facebook Messenger](https://www.messenger.com/)    
 sans besoin d'ouvrir la page Web [Facebook Mobile](https://m.facebook.com/)    
  
@@ -104,7 +104,7 @@ Une fois terminé cliquez sur le bouton:
 Lorsque vous ouverez l'application Messenger la prochaine fois votre session Facebook Messenger sera ouverte automatiquement.    
 
 Et voilà !    
-Vous venez d'installer Facebook Messenger sur Windows 10, donc je vous souhaite un bon Appel vocal! :)
+Vous venez d'installer Facebook Messenger sur Windows 10, donc je vous souhaite un bon Appel vocal! :)    
 C'est la seule chose que Je viens de testé sinon je vous laisse le soins de découvrir le reste!    
 
 # Interface de l'application Messenger # 
@@ -115,7 +115,7 @@ La liste de vos contacts en ligne commence par un lien:
 
 Une fois cliqué sur le lien du contact choisi vous trouverez en bas de cette liste de contacts le nom de votre contact suivi de la mention:    
 `Actuellement en ligne`    
-suivi par les boutons:
+suivi par les boutons:    
 `Appel vocal`    
 `Discussion vidéo`    
 `Recherche dans les messages (Ctrl+F)`    
@@ -136,7 +136,7 @@ Plus bas nous avons les boutons:
 
 Ceci c'est une interface En boucle qui nous ramène au point de départ.    
 
-Certaines options ne sont pas aussi accessibles, donc, il faut se rabattre faute de mieux.    
+Selon mes autres tests, certaines options ne sont pas aussi accessibles, donc, il faut se rabattre faute de mieux.    
 
 Voila, je vous  souhaite une bbonne utilisation de l'application Facebook Messenger! :)    
 Bien amicalement,    
