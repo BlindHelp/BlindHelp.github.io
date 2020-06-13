@@ -1,5 +1,5 @@
 ---
-title: Facebook Messenger : une application Windows 10 et Mac est disponible au téléchargement
+title: Facebook Messenger - une application Windows 10 et Mac est disponible au téléchargement
 layout: post
 author: BlindHelp
 ---
