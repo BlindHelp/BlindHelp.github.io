@@ -9,7 +9,7 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!    
 Il y a une application Facebook Messenger dans le Microsoft Store de façon assez surprenante est très accessible à utiliser pour personnes atteintes de déficience visuelle.    
-Dernièrement Microsoft a créé la version Facebook Messenger pour Windows 10, avec un interface intuitif et minimaliste, ce qui va assurer une fluidité de navigation pour votre profile Facebook !    
+Dernièrement Microsoft a créé la version Facebook Messenger pour Windows 10, avec un interface intuitif et minimaliste, ce qui va assurer une fluidité de navigation pour votre profile Facebook!    
 Il fait tout que l'application mobile messenger fait. Y compris aussi lorsque nous sommes connectés sur  la page Web [Facebook Messenger](https://www.messenger.com/)    
 sans besoin d'ouvrir la page Web [Facebook Mobile](https://m.facebook.com/)    
  
@@ -44,7 +44,7 @@ Remarque: pour utiliser Messenger pour Windows, vous devez avoir Windows 10.
 
 # Lien officiel pour télécharger Facebook Messenger sur Windows Store : #
 Vous pouvez obtenir celui-ci via le Microsoft Store, en cliquant sur le lien officiel ci-dessous.    
-[https://www.microsoft.com/fr-fr/p/messenger/9wzdncrf0083[(https://www.microsoft.com/fr-fr/p/messenger/9wzdncrf0083)    
+[https://www.microsoft.com/fr-fr/p/messenger/9wzdncrf0083](https://www.microsoft.com/fr-fr/p/messenger/9wzdncrf0083)    
 
 Une fois sur la page de l'application, cliquez sur le bouton:    
 `Télécharger`    
@@ -93,7 +93,7 @@ Pour la première fois il faut cliquez sur  le deuxième bouton:
 `Se connecter avec un téléphone ou une adresse e-mail`    
 Vous devez remplir les deux champs d'édition.    
 `Adresse e-mail ou numéro de téléphone`    
-puis
+puis    
 `Mot de passe`    
 
 Ne pas oublier que vous devez avoir au préalable vos identifiants de Facebook à portée de main.    
@@ -123,7 +123,8 @@ suivi par les boutons:
 
 Plus bas il y a une autre partie sur les messages que je ne comprends pas, afin d'ouvrir un menu contextuel avec Maj+F10. Ensuite il y a les autres boutons tels que:    
 `Ajouter un média`    
-après ce bouton, nous avons un champ d'édition pour saisir un message: Écrivez un message... Ensuite il y a les autres boutons tels que:    
+après ce bouton, nous avons un champ d'édition pour saisir un message: `Écrivez un message...`    
+Ensuite il y a les autres boutons tels que:    
 `Envoyez un sticker (Ctrl+S) ou un GIF (Ctrl+G)`    
 `Envoyez un emoji (Ctrl+E)`    
 `Envoyer un Like`    
@@ -134,6 +135,8 @@ Plus bas nous avons les boutons:
 `Rédiger un message`    
 
 Ceci c'est une interface En boucle qui nous ramène au point de départ.    
+
+Certaines options ne sont pas aussi accessibles, donc, il faut se rabattre faute de mieux.    
 
 Voila, je vous  souhaite une bbonne utilisation de l'application Facebook Messenger! :)    
 Bien amicalement,    
