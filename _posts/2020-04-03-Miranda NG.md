@@ -389,7 +389,7 @@ Si vous souhaitez démarrer en mode service avec les DLLs suivantes:
 `Import.dll`    
 `CrashDumper.dll`    
 Vous devez cocher la case à cocher comme nom:    
-Start in service mode with, case à cocher non cochée (par défaut)`    
+`Start in service mode with, case à cocher non cochée (par défaut)`    
 `Démarrer en mode service avec, case à cocher non cochée (par défaut)`    
 `Import.dll`    
 `CrashDumper.dll`    
@@ -433,7 +433,7 @@ Faire flèche de droite, puis rechercher l'élément:
 `Accounts`    
 Puis faire entrée.    
 Le gestionnaire de comptes s'ouvre, comme message:    
-`Comptes dialogue Informations sur le compte : Bienvenue dans le gestionnaire de comptes de Miranda NG!Ici, vous pourrez configurer tous vos comptes. Sélectionnez un compte parmi ceux présent à gauche afin de voir les options disponible. Vous pouvez également créer un nouveau en cliquant sur le bouton approprié sous la liste.`    
+`Comptes dialogue Informations sur le compte : Bienvenue dans le gestionnaire de comptes de Miranda NG! Ici, vous pourrez configurer tous vos comptes. Sélectionnez un compte parmi ceux présent à gauche afin de voir les options disponible. Vous pouvez également créer un nouveau en cliquant sur le bouton approprié sous la liste.`    
 `Accounts dialogue Account information: Welcome to Miranda NG's account manager! Here you can set up your IM accounts. Select an account from the list on the left to see the available options. Alternatively, just click on the Plus sign underneath the list to set up a new IM account.    
 Déplacez-vous avec la touche de tabulation.    
 Appuyez sur le bouton:    
