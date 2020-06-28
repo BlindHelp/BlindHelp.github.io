@@ -549,7 +549,7 @@ Quoi qu'il en soit, je pense que toutes ces petites choses peuvent être configu
 `Paramètres`    
 `Options`    
 
-# Petit récapitulatif!# 
+# Petit récapitulatif! #
 Lorsque vous êtes dans la Liste des icônes de la zone de notification via insert+F11 vous devez cliquer avec Entrée sur l'icône intitulée:    
 `My Facebook Hors ligne`    
 `My Facebook Offline`    
@@ -573,7 +573,7 @@ Pour les francophones:
 
 Je vais pas m'atarder sur cet article en décrivant ces éléments en détail, mais je vous laisse le soin de les découvrir au fur et à mesure de votre utilisation de Miranda NG.    
 Et voilà!    
-C'est la seule chose que Je viens de testé  dans le programme Miranda NG En utilisant ce protocole Facebook, en conclusion maintenant vous pouvez discuter par messages avec des amis de Facebook  en prenant du bon temps avec eux et je vous laisse le soins de découvrir le reste dans Miranda NG!    
+C'est la seule chose que Je viens de testé  dans le programme Miranda NG En utilisant ce protocole Facebook que je viens d'ajouter, en conclusion maintenant vous pouvez discuter par messages avec des amis de Facebook  en prenant du bon temps avec eux et je vous laisse le soins de découvrir le reste dans Miranda NG!    
 
 Et maintenant place à la détente... Comme nous avons bien travaillé et peut-être nous voulons écouter une station de radio en continu, nous pouvons  le faire via Miranda NG, pour cela, suivez les étapes ci-dessous.    
 
