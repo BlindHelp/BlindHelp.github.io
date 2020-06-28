@@ -434,7 +434,7 @@ Faire flèche de droite, puis rechercher l'élément:
 Puis faire entrée.    
 Le gestionnaire de comptes s'ouvre, comme message:    
 `Comptes dialogue Informations sur le compte : Bienvenue dans le gestionnaire de comptes de Miranda NG! Ici, vous pourrez configurer tous vos comptes. Sélectionnez un compte parmi ceux présent à gauche afin de voir les options disponible. Vous pouvez également créer un nouveau en cliquant sur le bouton approprié sous la liste.`    
-`Accounts dialogue Account information: Welcome to Miranda NG's account manager! Here you can set up your IM accounts. Select an account from the list on the left to see the available options. Alternatively, just click on the Plus sign underneath the list to set up a new IM account.    
+`Accounts dialogue Account information: Welcome to Miranda NG's account manager! Here you can set up your IM accounts. Select an account from the list on the left to see the available options. Alternatively, just click on the Plus sign underneath the list to set up a new IM account.`    
 Déplacez-vous avec la touche de tabulation.    
 Appuyez sur le bouton:    
 `Ajouter`    
@@ -611,7 +611,7 @@ Ce deuxième dossier contiendra les bibliothèques suivantes:
 `basswma.dll`    
 
 Ces trois bibliothèques sont aussi dans le plug-in:    
-`mRadio Mod`
+`mRadio Mod`     
 
 Si vous avez installé le plug-in BASS interface pour faire fonctionner les fichiers OGG, vous trouver aussi au même niveau du dossier BASS la bibliothèque:    
 `BASS_interface.dll`    
