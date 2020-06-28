@@ -280,7 +280,7 @@ Mais il est très facile de les mettre en place. Il suffit de suivre les étapes
 Une fois que vous avez téléchargé le pack de sons fait par certains utilisateurs de Miranda NG à partir du lien indiqué ci-dessus.    
 Remarque:    
 Vous pouvez également les faire par vous-même ou utiliser les fichiers  `*.wav` à partir des sons système de Windows sur votre PC.    
-Extraire/copier dans le dossier Sounds dans votre installation de Miranda. Vous pouvez en créer un dossier si il n'existe pas.    
+Extraire/copier dans le dossier "Sounds" dans votre installation de Miranda. Vous pouvez en créer un dossier si il n'existe pas.    
 Accéder aux Paramètres (Options en anglais) puis dans l'onglet:    
 `Sounds`    
 `Sons`    
@@ -290,7 +290,7 @@ Cocher le son que vous voulez entendre, sélectionner l'événement et cliquez s
 pour assigner un son.    
 Dans la boîte de dialogue ouverte, choisir un chemin vers votre fichier `*.wav` et ouvrez-le.    
 Remarque:    
-Si vous souhaitez utiliser d'autres formats de son comme `*.mp3` ou `*.ogg`, alors vous devez installer le plugin  [BASS interface](https://wiki.miranda-ng.org/index.php?title=Special:MyLanguage/Plugin:BASS_interface) comme expliqué ci-dessus.
+Si vous souhaitez utiliser d'autres formats de son comme `*.mp3` ou `*.ogg`, alors vous devez installer le plugin  [BASS interface](https://wiki.miranda-ng.org/index.php?title=Special:MyLanguage/Plugin:BASS_interface) comme expliqué ci-dessus.    
 Information:    
 Utilisez le bouton:    
 `Preview`    
@@ -368,15 +368,19 @@ Bien, une fois que nous avons notre pack de langue fonctionnel dans Miranda NG,.
 Une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix "   où vous venez d'extraire l'archive 7-zip, une boîte de dialogue s'ouvrira comme nom:    
 `Miranda NG profile manager`    
 `Gestionnaire de profil Miranda NG`    
-
+`Profile`    
 `Profil`    
+`e.g., Workplace`    
 `ex : Lieu de travail`    
+`Please complete the following form to create a new user profile , édition`    
 `Veuillez remplir le formulaire suivant pour créer un nouveau profil, édition`    
-Il y a un champ d'édition, il faut taper le nom du profil, par exemple, vous pouvez écrire votre nom.    
+Il y a un champ d'édition, il faut taper le nom du profil, par exemple, vous pouvez écrire votre nom ou votre pseudo.    
 Vous pouvez également écrire le mot suivant en anglais:    
 `default`    
 Faire Tab.    
-Choisissez le pilote de profil désiré suivant ses fonctionnalités et possibilités, mais dans le doute, utilisez le pilote par défaut.
+`You can select a different database driver from the default, it may offer more features or abilities, if in doubt use the default.`    
+`Choisissez le pilote de profil désiré suivant ses fonctionnalités et possibilités, mais dans le doute, utilisez le pilote par défaut.`    
+`Driver`    
 `Pilote`    
 `MDBX database driver`    
 Nous ne touchons rien ici, et nous utiliserons ce pilote par défaut.    
@@ -385,12 +389,14 @@ Si vous souhaitez démarrer en mode service avec les DLLs suivantes:
 `Import.dll`    
 `CrashDumper.dll`    
 Vous devez cocher la case à cocher comme nom:    
+Start in service mode with, case à cocher non cochée (par défaut)`    
 `Démarrer en mode service avec, case à cocher non cochée (par défaut)`    
 `Import.dll`    
 `CrashDumper.dll`    
 Cela peut être intéressant si vous voulez importer d'informations de Miranda NG ou crée des rapports d'incident lorsque Miranda NG rencontre une erreur et cesse de fonctionner.     
 Il est à vous de voir!    
  Une fois terminé il faut cliquez sur  le bouton:    
+`Create`    
 `Créer`    
 Si vous avez coché cette case à cocher une boîte de dialogue apparaît comme nom:    
 `Import Information Wizard`    
@@ -414,7 +420,7 @@ Il faut cliquer sur le bouton annuler pour fermer la boîte de dialogue  Assista
 Je pense que vous devez enregistrer votre profil avant de faire l'importation d'informations.    
 Peut-être que vous avez à faire d'autres réglage dans les paramètres de Miranda NG, mais je ne suis pas un expert, je laisse à votre jugement. De toute façon la langue en français et d'autres choses que nous avons vu ci-dessus ont été configurés dans le programme, et maintenant nous devons mettre en place un protocole pour le faire fonctionner avec Miranda NG, pour cela suivez les instructions ci-dessous.    
 
-Configuration du protocole dans Miranda NG #
+# Configuration du protocole dans Miranda NG #
 Comme je l'ai dit ci-dessus il y a beaucoup de protocoles utilisés  par Miranda NG.    
 Dans mon  exemple, il me semble qu'il faut mettre en place un protocole Facebook pour être utilisé par Miranda NG, donc, sans trop tardé voici les étapes à suivre:    
 Note, comme j'ai mis le pack de langue en français, ci-dessous je vais mettre tout d'abord la traduction en français ensuite la traduction  en anglais des boutons, etc. afin que les personnes qui ont conservé encore les paramètres par défaut de la langue en anglais au démarrage de Miranda NG puissent avoir une référence.    
@@ -433,7 +439,7 @@ Déplacez-vous avec la touche de tabulation.
 Appuyez sur le bouton:    
 `Ajouter`    
 `Add`    
-Une nouvelle boîte de dialogue apparaît comme nom
+Une nouvelle boîte de dialogue apparaît comme nom:    
 `Créer un compte`    
 `Create new account`    
 Ici vous aurez un champ d'édition avec le message:    
@@ -551,7 +557,7 @@ Une fois ouvert ce menu contextuel vous devez choisir l'un des autres  élément
 `Hide/Show h`    
 `Afficher/Cacher a`    
 `Find/add contacts... f`    
-`Chercher/Ajouter des contacts... c`
+`Chercher/Ajouter des contacts... c`    
 `Main menu sous-Menu m`    
 `Menu principal sous-Menu m`    
 `Status sous-Menu s`    
@@ -559,7 +565,7 @@ Une fois ouvert ce menu contextuel vous devez choisir l'un des autres  élément
 `Options... o`    
 `Paramètres... p`    
 `About a`    
-Celui-ci  n'est pas traduit dans le pack en français.
+Celui-ci  n'est pas traduit dans le pack en français.    
 Pour les francophones:    
 `À propos`    
 `Exit e`    
@@ -572,7 +578,7 @@ C'est la seule chose que Je viens de testé  dans le programme Miranda NG En uti
 Et maintenant place à la détente... Comme nous avons bien travaillé et peut-être nous voulons écouter une station de radio en continu, nous pouvons  le faire via Miranda NG, pour cela, suivez les étapes ci-dessous.    
 
 # Téléchargement et installation du plug-in mRadio Mod dans Miranda NG #
-Ce plug-in [mRadio Mod (page en anglais)](https://wiki.miranda-ng.org/index.php?title=Plugin:MRadio) joue et enregistre les flux radio Internet. Aussi les fichiers médias locaux peuvent être lus.
+Ce plug-in [mRadio Mod (page en anglais)](https://wiki.miranda-ng.org/index.php?title=Plugin:MRadio) joue et enregistre les flux radio Internet. Aussi les fichiers médias locaux peuvent être lus.    
 Liens de téléchargement pour la version stable:    
 [32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/mradio.zip)
 [64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/mradio.zip)    
@@ -646,7 +652,7 @@ C'est là que vous devez mettre l'URL d'écoute de la station de radio (requis):
 Il faut bien tester l'URL avant de la placez sur ce champ d'édition.    
 Surtout il ne faut pas se rater! :)    
 Note: Dans le cas d'une importation le chemin du fichier sera spécifié dans le champ d'édition:    
-`URL=C:\Users\BlindHelp\Documents\radio.ini`    
+`C:\Users\BlindHelp\Documents\radio.ini`    
 Faire Tab.    
 `Genre édition vide`    
 C'est là que vous devez mettre le genre de la station de radio:    
@@ -705,18 +711,17 @@ Faire Tab.
 Ce bouton est pour importer un fichier `*.ini`    
 Si j'appuie sur ce bouton  le fichier `*.ini` sera importer. Appuyez sur la barre d'espace.    
 À savoir que le fichier importé Il est conservé dans le fichier mradio.ini et le chemin du fichier sera le suivant:    
-`C:\Users\BlindHelp\AppData\Roaming\Miranda NG\
+`C:\Users\BlindHelp\AppData\Roaming\Miranda NG\`    
 Note: Rémy Ruiz est le nom du profil que j'ai cré sur Miranda NG.    
-
 Faire Tab.    
 `Export All bouton`    
 Ce bouton est pour tout exporter dans un fichier radio.ini.    
 Faire Tab.    
 `liste déroulante réduit`    
-édition vide`    
+`édition vide`    
 Pas toucher! Sauf erreur de ma part c'est une liste déroulante des protocoles installés.    
 Faire Tab.    
-Nous trouvons ici trois boutons, cliquer sur le dernier pour enregistrer ces informations.
+Nous trouvons ici trois boutons, cliquer sur le dernier pour enregistrer ces informations.     
 `OK bouton`    
 Faire Tab.    
 `Annuler bouton`    
@@ -786,7 +791,7 @@ Faire Tab.
 `édition vide`    
 Pas toucher! Sauf erreur de ma part c'est une liste déroulante des protocoles installés.    
 Faire Tab.    
-Nous trouvons ici trois boutons, cliquer sur le dernier pour enregistrer ces informations.
+Nous trouvons ici trois boutons, cliquer sur le dernier pour enregistrer ces informations.    
 `OK bouton`    
 Faire Tab.    
 `Annuler bouton`    
@@ -843,7 +848,7 @@ Lorsque la radio est en cours de lecture cet élément bascule en:
 Cliquez sur cet élément pour arrêter la diffusion de la station de radio.    
 Avant que j'oublie l'option appelée:    
 `mRadio off m`    
-Si l'on clique sur celle-ci ce changera en:
+Si l'on clique sur celle-ci ce changera en:    
 `mRadio on m`    
 Et la fenêtre s'ouvre avec le nom de la radio , et vous pouvez faire touche Applications  ou menu contextuel et choisissez les options mentionnées ci-dessus.    
 Il est probable que lorsqu'une station de radio est en cours de lecture ou d'enregistrement Si l'on clique sur l'élément:    
@@ -861,10 +866,10 @@ Appuyez sur cet élément à nouveau pour lire la station de radio.
 `Stop s`    
 Appuyez sur cet élément pour arrêter la station de radio.    
 `Quick Open q`    
-Appuyez sur cet élément pour une ouverture rapide des fichiers .ini ou médias locaux.     
+Appuyez sur cet élément pour une ouverture rapide des fichiers `*.ini` ou médias locaux.     
 Si vous choisissez cette option, vous ne devriez avoir aucune  lecture ou enregistrement en cours.    
 Si vous choisissez la lecture d'un média locaux, par exemple un fichier mp3, celui-ci sera joué comme une station radio.    
-`Play Station sous-Menu p`
+`Play Station sous-Menu p`    
 Lorsque vous ouvrez ce sous-menu vous aurez toutes les stations de radio qui ont été ajoutées par vos soins donc,vous pouvez utiliser les flèches haut et bas  et la touche "Entrée" pour activer une station de radio dans cette liste, alors celle-ci sera joué! 😊    
 
 Remarque:    
@@ -880,7 +885,7 @@ Par la suite vous pouvez ajouter la même station de radio avec la bonne URL d'�
 
 # À propos de Radio Paradise	 #
 Radio Paradise est une webradio californienne sans pub à la programmation éclectique : du rock classique ou moderne jusqu'à la world en passant par la musique électronique, le jazz et la musique classique.    
-[Site web de la radio](http://www.radioparadise.com/)
+[Site web de la radio](http://www.radioparadise.com/)    
 Langue: US    
 
 Je n'ai pas encore essayé toutes les possibilités de Miranda NG y compris le dernier plug-in mRadio, mais les bonnes nouvelles sont que nous pouvons discuter avec nos contacts de Facebook et d'écouter une station de radio en streaming sans oublier que Miranda NG peut être utilisée avec un lecteur d'écran [NVDA](http://www.nvda-project.org/) gratuit et open-source par une personne aveugle. (cool) 😎 👍    
