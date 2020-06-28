@@ -17,7 +17,7 @@ Comme expliqué dans cet  [article de NV Access sur NVDA 2020.2beta1](https://ww
 
 # 2020.2 #
 
-Les points forts de cette version incluent la prise en charge d'un nouveau afficheur Braille de Nattiq, un meilleure  Support pour l'antivirus Esset, et Windows Terminal, l'amélioration des performances dans 1Password et les voix Windows OneCore, corrections de bogues et d'autres et améliorations. 
+Les points forts de cette version incluent le support d'un nouvel afficheur Braille de Natiq nBraille, un meilleur support de l'antivirus Eset et de Windows Terminal, une amélioration des performances pour 1Password et le synthétiseur Windows OneCore, ainsi que beaucoup d'autres correctifs.    
 
 Remarque Très Importante: y a eu un grand changement dans la traduction en français, Si vous utilisez la version 2019.1 ou ultérieure vous constaterez que le mot "module complémentaire" ou "modules complémentaires" pour désigner le mot "add-on" ou "add-ons" a été modifié par le mot "extension".
 
@@ -52,6 +52,6 @@ Pour télécharger la version de NVDA 2020.2beta1 :
 (en anglais), parfois même des sites externes offrent des téléchargements de NVDA, et NV Access il est pas responsable du contenu ou des pratiques de confidentialité de ces sites.         
 * Vous pouvez commenter les erreurs de cette version dans la liste de diffusion dédié à NVDA,, [ALLOS](mailto:ALLOS@yahoogroupes.fr), ou sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues).              
 
-Profitez de NVDA 2020.2beta1. Avec vos tests, vous aiderez à la prochaine version de NVDA 2020.1, la prochaine version stable de NVDA.        
+Profitez de NVDA 2020.2beta1. Avec vos tests, vous aiderez à la prochaine version de NVDA 2020.2, la prochaine version stable de NVDA.        
 @+                     
 BlindHelp!                           
