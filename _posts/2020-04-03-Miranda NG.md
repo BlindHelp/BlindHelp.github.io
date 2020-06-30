@@ -149,6 +149,65 @@ Pour cela, vous devez rechercher la liste de certains d'entre eux sur la page d
 * Miranda NG Pilot Pack
 
 
+Probablement ces packs Miranda ne sont pas aussi recomdables pour des personnes ayant une déficience visuelle, mais j'ai trouvé dans mes archives deux packs qui peuvent être utilisés avec Miranda et les lecteurs de l'écran NVDA / JAWS. Voir les liens de téléchargement ci-dessous.    
+
+# Divers liens de téléchargement en bric-à-brac pour un accès amélioré pour les personnes ayant une déficience visuelle utilisant Miranda avec un lecteur d'écran #
+Comme je l'ai dit ci-dessus, j'ai trouvé dans mes archives deux packs qui peuvent être utilisés avec Miranda et les lecteurs de l'écran NVDA / JAWS. Voir les liens de téléchargement ci-dessous.    
+
+# Miranda NG IM Client pour windows,  version préconfigurée fonctionnant avec NVDA, pas JAWS! disponible en téléchargement via BlindHelp.github.io #
+Un programmeur aveugle a fait une version préconfigurée du Client Miranda NG IM gratuit et open source pour Windows. Vous pouvez même ajouter maintenant le protocole Discord à la liste des comptes IM. Les paramètres ont été configurés pour fonctionner au mieux avec NVDA, non JAWS. Désolé utilisateurs JAWS! Mais je suis sûr que vous pouvez modifier certains paramètres et d'autres choses. Mais de toute façon, une chose cependant, quand il démarre pour la première fois il demandera une mise à jour. Assurez-vous de tout mettre à jour parce que si vous ne le faites pas, beaucoup de plug-ins et les comptes, y compris Skype, ne fonctionnera pas. Le compte skype ne supporte que les message texte, essentiellement tout sauf les appels.    
+Vous pouvez télécharger la version préconfigurée fonctionnant avec NVDA, en cliquant sur le lien ci-dessous:    
+[MirandaPreconfigured20160409.7z](https://blindhelp.github.io/MirandaPreconfigured20160409.7z)    
+Extraire le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
+et appuyez sur Entrée sur le fichier appelé:    
+`MirandaPreconfigured20160409.exe`    
+et suivez les instructions à l'écran en anglais pour l'extraction, en principe, le fichier est décompressé où vous l'exécutez.    
+une fois terminé, cliquez sur le dossier:    
+`Miranda`    
+Ensuite, rechercher et cliquer sur le fichier:    
+`Miranda32.exe`    
+Attendre quelques instant, une boîte de dialogue sera ouvert comme message:    
+`Miranda NG, This database is in old format that isn't supported anymore. Press Yes to convert it to the new format or No to return back, dialogue`    
+Répondre par oui    
+Ensuite vous pouvez paramétrer un protocole à votre guise! par exemple, configurer Facebook en suivant les instructions indiquées ci-après, même vous pouvez mettre la langue en français.    
+Bon Tchatt! ;)    
+
+# Miraspeak un plug-in pour  Miranda NG IM Client pour windows,  fonctionnant avec JAWS, pas NVDA! disponible en téléchargement via BlindHelp.github.io #
+Vous pouvez consulter un ancien article de notre ami Sof sur le plug-in Miraspeak, en cliquant sur le lien ci-dessous:    
+[Miraspeak: Comment faire parler Miranda im par Sof](http://www.sof-paradise.info/index.php?2010/04/30/171-miraspeak-comment-faire-parler-miranda-im)    
+Vous pouvez télécharger le plug-in Miraspeak, en cliquant sur le lien ci-dessous:    
+[MiraSpeak Mini FR (version allégée par Sof)](http://netwalker.free.fr/share/MiraSpeakMiniFR.zip)   
+Vous pouvez également le télécharger en cliquant sur le lien  ci-dessous:    
+[MiraSpeak Mini FR (version allégée par Sof) via BlindHelp.github.io](https://blindhelp.github.io/MiraSpeakMiniFR.zip)    
+Sof a traduit les changements de statuts en français et modifier le script pour QUE les lettres accentuées soient prononcées correctement. Encore Merci à lui! 😼    
+Pour l'installer, suivez les instructions ci-dessous donnée par notre ami Sof.    
+Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)
+Copier les fichiers et dossiers à la racine de votre dossier d'installation Miranda en gardant intacte la structure.    
+Veiller à copier le fichier mbot.dll se trouvant dans le dossier plugins de MiraSpeak dans le dossier Plugins de votre dossier d'installation Miranda.    
+A la racine du dossier de Miranda, vous avez maintenant un fichier appelé "launch.exe". Si vous souhaitez que Miranda annonce automatiquement les statuts et les messages entrants, il vous faudra lancer Miranda à partir de ce fichier. Je vous recommande donc de créer un raccourci vers ce fichier sur le bureau et de lui donner un nom significatif. Rappelez-vous, si vous utilisez le raccourci normal de Miranda, ce dernier se comportera normalement et donc, ne parlera pas!    
+Bon Tchatt! ;)
+
+# Plug-ins accessibles recommandés par Sof #
+Voici la liste des Plug-ins que nous conseillons d'utiliser pour une meilleure accessibilité et un confort d'utilisation Optimal. Ces plug-ins se dézippent et le fichier dll est à placer dans le sous-dossier Plug-ins de Miranda. Ensuite, il faut aller dans les options de Miranda, section Plug-ins pour cocher le plug-in que vous souhaitez utiliser.    
+Clist_blind.dll permet d'avoir un meilleur affichage de votre liste de contact dans NVDA mais utile également pour Jaws.    
+Version stable:    
+Liens de téléchargement:    
+[32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/clist_blind.zip)    
+[64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/clist_blind.zip)    
+[Clist_blind - Miranda NG](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_blind)    
+Scriver.dll plugin pour fenêtre de dialogue et quelques options supplémentaires.    
+Version stable:    
+Liens de téléchargement:    
+[32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/scriver.zip)    
+[64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/scriver.zip)    
+[Scriver - Miranda NG](https://wiki.miranda-ng.org/index.php?title=Plugin:Scriver)    
+
+# Conseils pour le choix de quelques plug-ins par Sof #
+Les plug-ins portant le nom des protocoles doivent être cochés si vous vous en servez, si vous n'utilisez pas l'IRC par exemple, décochez-le.    
+Si vous l'avez téléchargé (fortement recommandé), cochez Clist_blind.dll (liste de contacts accessible)    
+SRMM.dll, le plug-in représentant la fenêtre de dialogue doit être coché. alternativement, vous pouvez cocher scriver.dll si vous l'avez téléchargé qui en est une autre un peu différente, ce qui désactivera forcément la précédente (on ne peut pas utiliser deux types de fenêtres de dialogue en même temps).    
+Faites "OK" puis relancer complétement Miranda afin que ceci soit pris en compte.    
+
 # Pack de langue #
 Par défaut l'interface de Miranda NG est en anglais. Vous avez besoin d'un pack de langue seulement si vous souhaiter changer pour une autre langue. Pour installer manuellement un pack de langue, télécharger le à partir  du lien contenant le nom de votre langue qui est sur la même page de téléchargement  de [Miranda NG (en français)](https://www.miranda-ng.org/fr/downloads/) et décompresser le dans le dossier Languages de votre installation.    
 
