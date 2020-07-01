@@ -88,15 +88,47 @@ Dessous de cette ligne, vous trouverez deux liens pour télécharger le plugin d
  
 Ensuite, je fais plusieurs flèches bas et je cherche la ligne contenant le mot:    
 `Other`    
-Dessous de cette ligne, vous trouverez deux liens, un pour télécharger un Pack Smiley (avec Emoji) et l'autre pour télécharger le IEView  template, dont, je vous les mets ci-après:    
+Dessous de cette ligne, vous trouverez deux liens, un pour télécharger un Pack Smiley (avec Emoji) et l'autre pour télécharger le skin IEView  template  pour être utiliser par Facebook, dont, je vous les mets ci-après:    
 
-Note: Je mets ces deux plug-in à titre d'infomation, car  je ne sais pas comment l'installer sur miranda NG:    
+Note: Je mets ces deux plug-in à titre d'infomation, car  je ne sais pas comment les configurer dans miranda NG:    
 
-[Smiley pack (with Emoji)](https://www.miranda-ng.org/distr/addons/Smileys/Facebook/Facebook_emojipack_2.2.1.zip)
+Avant de télécharger un [pack de smiley](https://addons.miranda-ng.org/be/category/2)    ), vous devez installer le [support  Smiley pour Miranda NG](https://wiki.miranda-ng.org/Plugin:SmileyAdd/en)    
+Liens de téléchargement    
+Version stable:    
+
+[32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/smileyadd.zip)    
+[64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/smileyadd.zip)    
+
+Ceci est un service  de plugin et il a besoin d'un [pack de Smiley](https://addons.miranda-ng.org/be/category/2) installé pour fonctionner, dans le cas de Facebook, vous appuyez sur le lien ci-dessous pour télécharger le pack de smilies approprié:     
+[Smiley pack (with Emoji) pour Facebook](https://www.miranda-ng.org/distr/addons/Smileys/Facebook/Facebook_emojipack_2.2.1.zip)
 Ce premier est un pack d'émoticons (Smiley)  (avec Emoji) pour Facebook Miranda NG.    
-[IEView template](https://miranda-ng.org/distr/addons/IeView%20Themes/facebook.zip)    
-Ce dernier est un  IEView Template pour Miranda IM.    
 
+Pour l'installer, suivez les instructions ci-dessous:    
+Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
+Veiller à copier le fichier SmileyAdd.dll dans le dossier Plugins de votre dossier d'installation Miranda.    
+Vous devez cliquer sur le bouton appelé:    
+`Continuer avec des droits d’administrateur automatiques`    
+Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, par exemple.    
+Au préalable vous devez aussi Dézipper le fichier:    
+`Facebook_emojipack_2.2.1.zip`    
+contenant les Smileys pour Facebook.    
+Quoi qu'il en soit, vous devrez créer manuellement le répertoire "Smileys" à la racine du dossier de votre installation de Miranda et de mettre au moins un pack de smileys dans celui-ci.    
+Note: Pour avoir un fonctionnement par défaut, le pack de smileys par défaut doit être dans le répertoire Smileys.    
+Après avoir fait cela, vous devez fermer l'emplacement du fichier SmileyAdd.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip, aller dans:    
+`Paramètres...`    
+`Options...`    
+ Une boîte de dialogue s'ouvre comme nom:    
+`Options de Miranda NG`    
+Taper la lettre s pour `Smileys`    
+Ceci est montré comme: réduit, faire flèche droite pour développer.    
+Faire Tab.    
+Note: Vous pouvez choisir d'utiliser un seul pack de smiley pour tous les protocoles, ou un pack pour chaque catégorie (en cliquant sur la case:    
+`Spécifier un pack de smileys par catégorie`    
+Faites attention!    
+Appliquer les modifications et redémarrez Miranda NG.    
+
+En faites, ce pack de smileys pour Facebook ne fonctionne pas sur mon Miranda NG, je ne l'ai pas su où  placer la totalité du contenu  une fois décompressé, car il y a des fichiers `*.msl` et quelques dossiers, beaucoup moins le configurer!    
+Quoi qu'il en soit, j'ai créé le dossier Smileys à la racine du dossier de Miranda, et j'ai mis à la racine de celui-ci tout le contenu   du pack de smileys puis  Impossible d'ajouter  Les smileys  à partir  de SmileyAdd bouton, celui-ci ne se ouvre pas quand je suis dans la boîte de dialogue pour envoyer un message à mon contact.    
 
 Mais nous avons une autre solution pour incorporer des smileys et des emoji dans un chat en Facebook.    
 Note : Sous Windows 10, il est également possible d'utiliser le panneau emoji intégré.    
@@ -116,6 +148,33 @@ Pour les personnes ayant une déficience visuelle et utilisant le lecteur d'écr
 [Télécharger l'extension emoticons en version de développement par ici:](https://addons.nvda-project.org/files/get.php?file=emo-dev)    
 
 A vous les smileys Lol ou les petits coeurs sur vos conversations privées en Facebook.    
+
+Ce dernier est un skin  IEView Template pour Miranda IM. Remplace l'affichage classique des messages dans la fenêtre de TabSRMM ou SRMM par un système basé sur Internet Explorer, personnalisable par CSS et permettant l'usage de smileys animés. Attention: IEView nécessite la dernière version de TabSRMM (ou bien Scriver) et une configuration appropriée de ce dernier!    
+La dernière version de IEView peut toujours être trouvée sur [la page du plug-in](https://wiki.miranda-ng.org/Plugin:IEView).    
+Liens de téléchargement    
+Version stable:    
+
+[32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/ieview.zip)    
+[64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/ieview.zip)    
+
+[Et le IEView template pour Facebook](https://miranda-ng.org/distr/addons/IeView%20Themes/facebook.zip)    
+
+Pour l'installer, suivez les instructions ci-dessous:    
+Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
+Veiller à copier le fichier IEView.dll dans le dossier Plugins de votre dossier d'installation Miranda.    
+Vous devez cliquer sur le bouton appelé:    
+`Continuer avec des droits d’administrateur automatiques`    
+Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, par exemple.    
+Au préalable vous devez aussi Dézipper le fichier:    
+`facebook.zip`    
+contenant l'IEView template pour Facebook.    
+Après avoir fait cela, vous devez fermer l'emplacement du fichier IEView.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip,
+Faites attention!    
+Pour utiliser IEview pour tous les contacts, choisissez « IEView plugin (dans la liste déroulante "Plugin" pour l'historique »), dans Options, session de message, historique récent.    
+
+Pour résumer, ça se passe dans Options, session de messages, IEview, onglethistorique récent.    
+
+En faites, ce pack IEView pour Facebook ne fonctionne pas sur mon Miranda NG, je ne l'ai pas su où  le décompressez, beaucoup moins le configurer!    
 
 Les nouveaux plugins et pack de langues peuvent être installés automatiquement à partir du PluginUpdater – dans Miranda NG ouvrir le Menu principal et choisir Montrer la liste complète des plugins. Vous pouvez aussi les télécharger manuellement à partir de la [page des Téléchargements sur le wiki de Miranda NG](https://wiki.miranda-ng.org/index.php?title=Download).    
 
@@ -185,28 +244,63 @@ Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un p
 Copier les fichiers et dossiers à la racine de votre dossier d'installation Miranda en gardant intacte la structure.    
 Veiller à copier le fichier mbot.dll se trouvant dans le dossier plugins de MiraSpeak dans le dossier Plugins de votre dossier d'installation Miranda.    
 A la racine du dossier de Miranda, vous avez maintenant un fichier appelé "launch.exe". Si vous souhaitez que Miranda annonce automatiquement les statuts et les messages entrants, il vous faudra lancer Miranda à partir de ce fichier. Je vous recommande donc de créer un raccourci vers ce fichier sur le bureau et de lui donner un nom significatif. Rappelez-vous, si vous utilisez le raccourci normal de Miranda, ce dernier se comportera normalement et donc, ne parlera pas!    
+Pour la petite histoire, "launch.exe" se charge de lancer Miranda et un autre fichier appelé "msrv.exe". Ce dernier est un serveur par l'intermédiaire duquel Miranda fait parler JAWS. Ce serveur ouvre un port mais local. Pour faire bien en quittant Miranda, il faudrait "tuer" ce "msrv.exe" via le gestionnaire de tâches.    
+Aller dans les options de Miranda et assurez-vous que le plug-in "mbot.dll" est coché. Une fois Miranda quitté et relancé par l'intermédiaire du raccourci précédemment créé, tout devrait bien marcher!    
 Bon Tchatt! ;)
 
 # Plug-ins accessibles recommandés par Sof #
 Voici la liste des Plug-ins que nous conseillons d'utiliser pour une meilleure accessibilité et un confort d'utilisation Optimal. Ces plug-ins se dézippent et le fichier dll est à placer dans le sous-dossier Plug-ins de Miranda. Ensuite, il faut aller dans les options de Miranda, section Plug-ins pour cocher le plug-in que vous souhaitez utiliser.    
-Clist_blind.dll permet d'avoir un meilleur affichage de votre liste de contact dans NVDA mais utile également pour Jaws.    
+
+* Clist_blind.dll permet d'avoir un meilleur affichage de votre liste de contact dans NVDA mais utile également pour Jaws.    
 Version stable:    
 Liens de téléchargement:    
 [32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/clist_blind.zip)    
 [64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/clist_blind.zip)    
 [Clist_blind - Miranda NG](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_blind)    
-Scriver.dll plugin pour fenêtre de dialogue et quelques options supplémentaires.    
+Pour l'installer, suivez les instructions ci-dessous:    
+Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
+Veiller à copier le fichier Clist_blind.dll dans le dossier Plugins de votre dossier d'installation Miranda.    
+Vous devez cliquer sur le bouton appelé:    
+`Continuer avec des droits d’administrateur automatiques`    
+Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, par exemple.    
+Après avoir fait cela, vous devez fermer l'emplacement du fichier Clist_blind.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip.    
+
+* Scriver.dll plugin pour fenêtre de dialogue et quelques options supplémentaires.    
 Version stable:    
 Liens de téléchargement:    
 [32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/scriver.zip)    
 [64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/scriver.zip)    
 [Scriver - Miranda NG](https://wiki.miranda-ng.org/index.php?title=Plugin:Scriver)    
+Pour l'installer, suivez les instructions ci-dessous:    
+Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
+Veiller à copier le fichier Scriver.dll dans le dossier Plugins de votre dossier d'installation Miranda.    
+Vous devez cliquer sur le bouton appelé:    
+`Continuer avec des droits d’administrateur automatiques`    
+Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, par exemple.    
+Après avoir fait cela, vous devez fermer l'emplacement du fichier Scriver.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip, aller dans:    
+`Paramètres...`    
+`Options...`    
+ Une boîte de dialogue s'ouvre comme nom:    
+`Options de Miranda NG`    
+Taper la lettre p pour `Plugins`    
+Ceci est montré comme: réduit, faire flèche droite pour développer.    
+Faire Tab.    
+Puis à l'aide des flèches chercher l'élément:    
+`SRMM.dll`    
+Puis décocher celui-ci.    
+Note: Le plugin:    
+`Scriver.dll`    
+Vous devez  le cocher si vous ne l'avez pas encore fait.
+(on ne peut pas utiliser deux types de fenêtres de dialogue en même temps).    
+Appliquer les modifications et redémarrez Miranda NG.    
 
 # Conseils pour le choix de quelques plug-ins par Sof #
 Les plug-ins portant le nom des protocoles doivent être cochés si vous vous en servez, si vous n'utilisez pas l'IRC par exemple, décochez-le.    
 Si vous l'avez téléchargé (fortement recommandé), cochez Clist_blind.dll (liste de contacts accessible)    
 SRMM.dll, le plug-in représentant la fenêtre de dialogue doit être coché. alternativement, vous pouvez cocher scriver.dll si vous l'avez téléchargé qui en est une autre un peu différente, ce qui désactivera forcément la précédente (on ne peut pas utiliser deux types de fenêtres de dialogue en même temps).    
 Faites "OK" puis relancer complétement Miranda afin que ceci soit pris en compte.    
+
+Vous pouvez consulter la liste des plugin via la page en anglais de Miranda NG, en cliquant [ici](https://wiki.miranda-ng.org/index.php?title=Plugin_list/en)    
 
 # Pack de langue #
 Par défaut l'interface de Miranda NG est en anglais. Vous avez besoin d'un pack de langue seulement si vous souhaiter changer pour une autre langue. Pour installer manuellement un pack de langue, télécharger le à partir  du lien contenant le nom de votre langue qui est sur la même page de téléchargement  de [Miranda NG (en français)](https://www.miranda-ng.org/fr/downloads/) et décompresser le dans le dossier Languages de votre installation.    
@@ -369,7 +463,7 @@ et pour l'espagnol le fichier sera appelé:
 Vous devez cliquer sur le bouton appelé:    
 `Continuer avec des droits d’administrateur automatiques`    
 Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, par exemple.    
-Après avoir fait cela, vous devez fermer l'emplacement du fichier de langue `*.txt par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip, automatiquement la langue en français apparaît à la place de la langue en anglais (par défaut) au démarrage du programme Miranda NG.    
+Après avoir fait cela, vous devez fermer l'emplacement du fichier de langue `*.txt` par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip, automatiquement la langue en français apparaît à la place de la langue en anglais (par défaut) au démarrage du programme Miranda NG.    
 Remarque, ce pack de langue que vous venez de placer est utilisée dans la version 0.95.11 de Miranda NG.    
 
 S'il y a deux ou plusieurs langpacks dans le dossier "Languages", Miranda utilisera celui qui vient en premier par ordre alphabétique au démarrage (par exemple, dans le gestionnaire de profil). Vous pouvez spécifier le pack de langue par défaut à charger au démarrage dans Mirandaboot.ini en modifiant le paramètre DefaultLanguage sous la section [Language], par exemple:    
