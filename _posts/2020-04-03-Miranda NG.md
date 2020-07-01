@@ -92,6 +92,7 @@ Dessous de cette ligne, vous trouverez deux liens, un pour télécharger un Pack
 
 Note: Je mets ces deux plug-in à titre d'infomation, car  je ne sais pas comment les configurer dans miranda NG:    
 
+Ce premier est un pack d'émoticons (Smiley)  (avec Emoji) pour Facebook Miranda NG.    
 Avant de télécharger un [pack de smiley](https://addons.miranda-ng.org/be/category/2)    ), vous devez installer le [support  Smiley pour Miranda NG](https://wiki.miranda-ng.org/Plugin:SmileyAdd/en)    
 Liens de téléchargement    
 Version stable:    
@@ -99,9 +100,8 @@ Version stable:
 [32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/smileyadd.zip)    
 [64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/smileyadd.zip)    
 
-Ceci est un service  de plugin et il a besoin d'un [pack de Smiley](https://addons.miranda-ng.org/be/category/2) installé pour fonctionner, dans le cas de Facebook, vous appuyez sur le lien ci-dessous pour télécharger le pack de smilies approprié:     
-[Smiley pack (with Emoji) pour Facebook](https://www.miranda-ng.org/distr/addons/Smileys/Facebook/Facebook_emojipack_2.2.1.zip)
-Ce premier est un pack d'émoticons (Smiley)  (avec Emoji) pour Facebook Miranda NG.    
+Ceci est un service  de plugin et il a besoin d'un [pack de Smiley](https://addons.miranda-ng.org/be/category/2) installé pour fonctionner, dans le cas de Facebook, vous appuyez sur le lien ci-dessous pour télécharger le pack de smilies approprié pour celui-ci:     
+[Smiley pack (with Emoji) pour Facebook](https://www.miranda-ng.org/distr/addons/Smileys/Facebook/Facebook_emojipack_2.2.1.zip)    
 
 Pour l'installer, suivez les instructions ci-dessous:    
 Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
@@ -157,7 +157,7 @@ Version stable:
 [32-bit](https://miranda-ng.org/distr/stable/x32/Plugins/ieview.zip)    
 [64-bit](https://miranda-ng.org/distr/stable/x64/Plugins/ieview.zip)    
 
-[Et le IEView template pour Facebook](https://miranda-ng.org/distr/addons/IeView%20Themes/facebook.zip)    
+Et le IEView template pour Facebook est télécharjable par [là](https://miranda-ng.org/distr/addons/IeView%20Themes/facebook.zip)    
 
 Pour l'installer, suivez les instructions ci-dessous:    
 Dézipper le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
@@ -168,7 +168,7 @@ Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, pa
 Au préalable vous devez aussi Dézipper le fichier:    
 `facebook.zip`    
 contenant l'IEView template pour Facebook.    
-Après avoir fait cela, vous devez fermer l'emplacement du fichier IEView.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip,
+Après avoir fait cela, vous devez fermer l'emplacement du fichier IEView.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip.    
 Faites attention!    
 Pour utiliser IEview pour tous les contacts, choisissez « IEView plugin (dans la liste déroulante "Plugin" pour l'historique »), dans Options, session de message, historique récent.    
 
