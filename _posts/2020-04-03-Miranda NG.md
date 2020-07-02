@@ -198,7 +198,7 @@ Je m'excuse auprès de vous, probablement cette liste contient certains  noms de
 
 ## Indispensables ou presque: ##
 [dbx_3x](https://wiki.miranda-ng.org/index.php?title=Plugin:Dbx_3x/en): Gère la base de données (votre fichier .dat).    
-[clist_classic](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_classic/en): Gère la fenêtre de la liste de contacts. Vous pouvez également utiliser [clist_mw](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_mw/en) (qui permet plus de flexibilité dans l'organisation de la fenêtre et l'usage de certains plug-ins) ou clist_nicer.](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_nicer/)    
+[clist_classic](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_classic/en): Gère la fenêtre de la liste de contacts. Vous pouvez également utiliser [clist_mw](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_mw/en) (qui permet plus de flexibilité dans l'organisation de la fenêtre et l'usage de certains plug-ins) ou [clist_nicer.](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_nicer/)    
 [SRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:SRMM/en): Gère la fenêtre de message. Vous pouvez aussi utiliser SRMM_Mod ou [TabSRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:TabSRMM/en).    
 [SmileyAdd](https://wiki.miranda-ng.org/index.php?title=Plugin:SmileyAdd/en): Permet d'avoir le support des smileys par Miranda NG.    
 [History++](https://wiki.miranda-ng.org/index.php?title=Plugin:HistoryPP/en): Permet une visualisation plus agréable et confortable de l'historique, permet l'export en TXT, HTML, etc.    
@@ -228,7 +228,7 @@ AlwaysOnline: Permet de se reconnecter automatiquement en cas de déconnexion.
 ## Personnalisation de la liste de contacts: ##
 TweakUI: Permet de modifier l'apparence de la contact-list en rendant le fond transparent, par exemple.    
 [MetaContacts](https://wiki.miranda-ng.org/index.php?title=Plugin:MetaContacts/en): Permet de grouper certains de vos contacts en un seul pour gagner de la place dans la liste.    
-[clist_nicer](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_nicer/en): Alternative à clist_classic et clist_mw permettant une personnalisation plus grande de la liste.    
+[clist_nicer](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_nicer/en): Alternative à [clist_classic](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_classic/) et [clist_mw](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_mw/en) permettant une personnalisation plus grande de la liste.    
 
 ## Divers: ##
 [Weather](https://wiki.miranda-ng.org/index.php?title=Plugin:Weather/en): Donne la météo de votre ville.    
