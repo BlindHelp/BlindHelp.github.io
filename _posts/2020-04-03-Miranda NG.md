@@ -91,6 +91,7 @@ Ensuite, je fais plusieurs flèches bas et je cherche la ligne contenant le mot:
 Dessous de cette ligne, vous trouverez deux liens, un pour télécharger un Pack Smiley (avec Emoji) et l'autre pour télécharger le skin IEView  template  pour être utiliser par Facebook, dont, je vous les mets ci-après:    
 
 Note: Je mets ces deux plug-in à titre d'infomation, car  je ne sais pas comment les configurer dans miranda NG:    
+Tout remarque, correction ou astuce bienvenue. 🙇    
 
 Ce premier est un pack d'émoticons (Smiley)  (avec Emoji) pour Facebook Miranda NG.    
 Avant de télécharger un [pack de smiley](https://addons.miranda-ng.org/be/category/2)    ), vous devez installer le [support  Smiley pour Miranda NG](https://wiki.miranda-ng.org/Plugin:SmileyAdd/en)    
@@ -122,7 +123,11 @@ Après avoir fait cela, vous devez fermer l'emplacement du fichier SmileyAdd.dll
 Taper la lettre s pour `Smileys`    
 Ceci est montré comme: réduit, faire flèche droite pour développer.    
 Faire Tab.    
-Note: Vous pouvez choisir d'utiliser un seul pack de smiley pour tous les protocoles, ou un pack pour chaque catégorie (en cliquant sur la case:    
+Note: Vous pouvez choisir d'utiliser un seul pack de smiley pour tous les protocoles, en cliquant sur la case:    
+`Smiley categories`    
+`Catégories de smileys`    
+ou un pack pour chaque catégorie, en cliquant sur la case:     
+`Specify smiley pack for each category`    
 `Spécifier un pack de smileys par catégorie`    
 Faites attention!    
 Appliquer les modifications et redémarrez Miranda NG.    
@@ -168,6 +173,7 @@ Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, pa
 Au préalable vous devez aussi Dézipper le fichier:    
 `facebook.zip`    
 contenant l'IEView template pour Facebook.    
+(J'ignore où le placer).    
 Après avoir fait cela, vous devez fermer l'emplacement du fichier IEView.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip.    
 Faites attention!    
 Pour utiliser IEview pour tous les contacts, choisissez « IEView plugin (dans la liste déroulante "Plugin" pour l'historique »), dans Options, session de message, historique récent.    
@@ -181,6 +187,62 @@ Les nouveaux plugins et pack de langues peuvent être installés automatiquement
 Note: Les Fichiers Sons sont inclus dans l'installateur, mais pas dans les archives 7-zip. Vous pouvez les télécharger séparément à partir d'[ici](https://wiki.miranda-ng.org/index.php?title=Download#Sound_files).    
 
 Pour les personnes ayant Miranda IM, les Skins, icônes, smileys et sons sont compatibles avec Miranda IM donc vous pouvez les télécharger sur cette même page de téléchargement de [Miranda NG (en français)](https://www.miranda-ng.org/fr/downloads/).    
+
+Sans oubvliez que De nombreux thèmes, modules complémentaires sont disponibles pour Miranda NG [par ici]http://addons.miranda-ng.org/fr/)    
+puis la liste des plug-ins sont disponibles pour Miranda NG par [là](http://wiki.miranda-ng.org/index.php?title=Plugin_list/)    
+
+Voici ci-dessous une liste non exhaustive de certains plug-ins avec leurs descriptions et liens (si disponible).    
+ 
+# Description rapide de certains plug-ins #
+Je m'excuse auprès de vous, probablement cette liste contient certains  noms de plug-ins qui qui sont actuellement inexistants ou sont finalement devenus obsolètes au fil du temps.    
+
+## Indispensables ou presque: ##
+[dbx_3x](https://wiki.miranda-ng.org/index.php?title=Plugin:Dbx_3x/en): Gère la base de données (votre fichier .dat).    
+[clist_classic](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_classic/en): Gère la fenêtre de la liste de contacts. Vous pouvez également utiliser [clist_mw](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_mw/en) (qui permet plus de flexibilité dans l'organisation de la fenêtre et l'usage de certains plug-ins) ou clist_nicer.    
+[SRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:SRMM/en): Gère la fenêtre de message. Vous pouvez aussi utiliser SRMM_Mod ou [TabSRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:TabSRMM/en).    
+[SmileyAdd](https://wiki.miranda-ng.org/index.php?title=Plugin:SmileyAdd/en): Permet d'avoir le support des smileys par Miranda NG.    
+[History++](https://wiki.miranda-ng.org/index.php?title=Plugin:HistoryPP/en): Permet une visualisation plus agréable et confortable de l'historique, permet l'export en TXT, HTML, etc.    
+[PopUp Plus](https://wiki.miranda-ng.org/index.php?title=Plugin:PopupPlus/en): Affiche de petites fenêtres de notification utilisées par beaucoup d'autres plug-ins pour indiquer toute sortes de choses: la notification de frappe, le chagement de statut des gens de votre liste, etc.    
+Typing Notify: Apporte le supporte de la notification de frappe, vous savez quand vos interlocuteurs composent un message et reciproquement.     
+
+## Envoi de messages et interface de discussion: ##
+TabSRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:TabSRMM/en): Remplaçant séduisant à [SRMM]](https://wiki.miranda-ng.org/index.php?title=Plugin:SRMM/en) qui intègre le support des tabs (facultatif), des avatars et d'une foule d'autres choses.    
+[Scriver](https://wiki.miranda-ng.org/index.php?title=Plugin:Scriver/en): Le but de ce plug-in est de rajouter au SRMM de base (le plug-in gérant la fenêtre de message) certaines fonctions de TabSRMM comme les avatars ou le support IEView mais en restant orienté "simple".    
+nConvers++: système gérant à la fois la fenêtre de conversation, l'historique et les smileys. Peu utilisé mais il a ses fans.     
+Chat: Gère les discussions à plusieurs, utilisé par IRC et par MSN.    
+[Buddy Pounce](https://wiki.miranda-ng.org/index.php?title=Plugin:BuddyPounce/en): Ajoute un semblant de support des messages offline aux protocoles ne le supportant pas (Vous avez dit MSN ?) en l'envoyant automatiquement quand votre interloctuteur se connecte.     
+[IEView](https://wiki.miranda-ng.org/index.php?title=Plugin:IEView/en): Remplace l'affichage classique des messages dans la fenêtre de TabSRMM ou SRMM par un système basé sur Internet Explorer, personnalisable par CSS et permettant l'usage de smileys animés. Attention: IEView nécessite la dernière version de TabSRMM (ou bien Scriver) et une configuration appropriée de ce dernier!     
+
+## Gestion de l'historique: ##
+History viewer: Autre plug-in d'affichage de l'historique (non libre).    
+[Message Export](https://wiki.miranda-ng.org/index.php?title=Plugin:Msg_Export/en): Permet d'exporter automatiquement l'historique dans différents formats de fichiers au fur et à mesure.    
+
+## Gestion du statut et des absences: ##
+Advanced Auto Away: Donne plus de possibilités dans la gestion de l'absence automatique, notament la possibilité de ne pas revenir en ligne quand on revient sur le PC.    
+[Status Change](https://wiki.miranda-ng.org/index.php?title=Plugin:StatusChange/en): Permet de changer automatiquement d'état lors d'un évenement, tel que la réception d'un message .    
+Smart Auto Away: Gestion de l'absence automatique et de la reconnexion automatique.    
+AlwaysOnline: Permet de se reconnecter automatiquement en cas de déconnexion.    
+[Last Seen](https://wiki.miranda-ng.org/index.php?title=Plugin:SeenPlugin/en): Indique la dernière fois que le contact a été vu online, permet de déclencher une boite quand un contact arrive en ligne et tient un journal des changements d'état dans un ficher texte.    
+[Zero Notifications](https://wiki.miranda-ng.org/index.php?title=Plugin:ZeroNotify/en): Pour couper les sons/popups/OSD, etc. quand on change de mode ; configurable pour chaque mode.    
+
+## Personnalisation de la liste de contacts: ##
+TweakUI: Permet de modifier l'apparence de la contact-list en rendant le fond transparent, par exemple.    
+[MetaContacts](https://wiki.miranda-ng.org/index.php?title=Plugin:MetaContacts/en): Permet de grouper certains de vos contacts en un seul pour gagner de la place dans la liste.    
+[clist_nicer](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_nicer/en): Alternative à clist_classic et clist_mw permettant une personnalisation plus grande de la liste.    
+
+## Divers: ##
+[Weather](https://wiki.miranda-ng.org/index.php?title=Plugin:Weather/en): Donne la météo de votre ville.    
+[Birthday reminder](https://wiki.miranda-ng.org/index.php?title=Plugin:WhenWasIt/en): Permet de se rappeler des anniversaires.    
+IPsearch: Donne l'IP de vos contact et permet entre autres de rechercher sur ce critère.    
+Wassup: Facilite la mise à jour automatisée des plug-ins. Attention: la partie permettant la MAJ automatique des nighlies (testing) ne fonctionne plus et ne sera pas corrigée.    
+mToolTip: Affiche une info bulle parametrable quand on met le curseur sur une personne de la liste.    
+[Notes & Reminders](https://wiki.miranda-ng.org/index.php?title=Plugin:NotesReminders/en): Pour ajouter des notes ou des rappel (non libre).    
+[BossKey](https://wiki.miranda-ng.org/index.php?title=Plugin:BossKey/en): Permet de cacher Miranda complètement sur simple appuie d'une touche (paramétrable, utile au bureau.    
+mSecure: pour protéger votre profil (mot de passe à l'ouverture).    
+AutoReplacer: Remplace automatiquement les abréviations définies par l'utilisateur par le mot correctement orthographié (ex: "pq" devient "parce que" ). 
+[OpenFolder](https://wiki.miranda-ng.org/index.php?title=Plugin:OpenFolder/en): Ajoute un lien vers le dossier Miranda dans le main menu (pratique pour installer des plug-in vite fait bien fait).    
+Gmail Notifier: Avertit de la présence de messages non-lus sur votre adresse Gmail.    
+RSSNews: Permet de lire des feeds RSS dans Miranda.     
 
 # Mise à jour avec Miranda IM #
 Vous pouvez facilement mettre à jour votre installation actuel de Miranda IM vers Miranda NG avec le plugin [IM Updater](https://wiki.miranda-ng.org/index.php?title=Plugin:IM_Updater/fr). Mettez le simplement dans le dossier Plugins de votre installation de Miranda IM, redémarrer et laisser le se mettre a jour.    
@@ -697,6 +759,8 @@ Par exemple la fenêtre contenant la liste de vos contacts tend à disparaître 
 Une fois ouvert ce menu contextuel vous devez choisir l'élément:    
 `Hide/Show`    
 `Afficher/Cacher`    
+
+(Pour se déconnecter d'un protocole, il suffit donc de repasser "Hors ligne".    
 
 Quoi qu'il en soit, je pense que toutes ces petites choses peuvent être configurés dans le programme Miranda NG à partir de l'élément appelé:    
 `Paramètres`    
