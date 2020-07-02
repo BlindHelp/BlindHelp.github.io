@@ -141,7 +141,7 @@ Note : Sous Windows 10, il est également possible d'utiliser le panneau emoji i
 Comment fait-ont?    
 Placez le focus dans n’importe quelle zone de texte, appuyez sur Windows+point-virgule et utilisez les flèches et la touche de tabulation pour taper l'emoji désiré.    
 
-Pour les personnes ayant une déficience visuelle et utilisant le lecteur d'écran [NVDA](http://www.nvda-project.org/) gratuit et open-source, il  existe une extension sur la page principal du site comunautaire des extensions NVDA appelée:    
+Pour les personnes ayant une déficience visuelle et utilisant le lecteur d'écran [NVDA](http://www.nvda-project.org/) libre et à source ouverte, il  existe une extension sur la page principal du site comunautaire des extensions NVDA appelée:    
 
 
 [Emoticons](https://addons.nvda-project.org/addons/emoticons.fr.html)    
@@ -188,7 +188,7 @@ Note: Les Fichiers Sons sont inclus dans l'installateur, mais pas dans les archi
 
 Pour les personnes ayant Miranda IM, les Skins, icônes, smileys et sons sont compatibles avec Miranda IM donc vous pouvez les télécharger sur cette même page de téléchargement de [Miranda NG (en français)](https://www.miranda-ng.org/fr/downloads/).    
 
-Sans oubvliez que De nombreux thèmes, modules complémentaires sont disponibles pour Miranda NG [par ici]http://addons.miranda-ng.org/fr/)    
+Sans oubvliez que de nombreux thèmes, modules complémentaires sont disponibles pour Miranda NG par [ici](http://addons.miranda-ng.org/fr/)    
 puis la liste des plug-ins sont disponibles pour Miranda NG par [là](http://wiki.miranda-ng.org/index.php?title=Plugin_list/)    
 
 Voici ci-dessous une liste non exhaustive de certains plug-ins avec leurs descriptions et liens (si disponible).    
@@ -198,7 +198,7 @@ Je m'excuse auprès de vous, probablement cette liste contient certains  noms de
 
 ## Indispensables ou presque: ##
 [dbx_3x](https://wiki.miranda-ng.org/index.php?title=Plugin:Dbx_3x/en): Gère la base de données (votre fichier .dat).    
-[clist_classic](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_classic/en): Gère la fenêtre de la liste de contacts. Vous pouvez également utiliser [clist_mw](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_mw/en) (qui permet plus de flexibilité dans l'organisation de la fenêtre et l'usage de certains plug-ins) ou clist_nicer.    
+[clist_classic](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_classic/en): Gère la fenêtre de la liste de contacts. Vous pouvez également utiliser [clist_mw](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_mw/en) (qui permet plus de flexibilité dans l'organisation de la fenêtre et l'usage de certains plug-ins) ou clist_nicer.](https://wiki.miranda-ng.org/index.php?title=Plugin:Clist_nicer/)    
 [SRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:SRMM/en): Gère la fenêtre de message. Vous pouvez aussi utiliser SRMM_Mod ou [TabSRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:TabSRMM/en).    
 [SmileyAdd](https://wiki.miranda-ng.org/index.php?title=Plugin:SmileyAdd/en): Permet d'avoir le support des smileys par Miranda NG.    
 [History++](https://wiki.miranda-ng.org/index.php?title=Plugin:HistoryPP/en): Permet une visualisation plus agréable et confortable de l'historique, permet l'export en TXT, HTML, etc.    
@@ -206,7 +206,7 @@ Je m'excuse auprès de vous, probablement cette liste contient certains  noms de
 Typing Notify: Apporte le supporte de la notification de frappe, vous savez quand vos interlocuteurs composent un message et reciproquement.     
 
 ## Envoi de messages et interface de discussion: ##
-TabSRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:TabSRMM/en): Remplaçant séduisant à [SRMM]](https://wiki.miranda-ng.org/index.php?title=Plugin:SRMM/en) qui intègre le support des tabs (facultatif), des avatars et d'une foule d'autres choses.    
+[TabSRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:TabSRMM/en): Remplaçant séduisant à [SRMM](https://wiki.miranda-ng.org/index.php?title=Plugin:SRMM/en) qui intègre le support des tabs (facultatif), des avatars et d'une foule d'autres choses.    
 [Scriver](https://wiki.miranda-ng.org/index.php?title=Plugin:Scriver/en): Le but de ce plug-in est de rajouter au SRMM de base (le plug-in gérant la fenêtre de message) certaines fonctions de TabSRMM comme les avatars ou le support IEView mais en restant orienté "simple".    
 nConvers++: système gérant à la fois la fenêtre de conversation, l'historique et les smileys. Peu utilisé mais il a ses fans.     
 Chat: Gère les discussions à plusieurs, utilisé par IRC et par MSN.    
@@ -276,7 +276,7 @@ Probablement ces packs Miranda ne sont pas aussi recomdables pour des personnes 
 Comme je l'ai dit ci-dessus, j'ai trouvé dans mes archives deux packs qui peuvent être utilisés avec Miranda et les lecteurs de l'écran NVDA / JAWS. Voir les liens de téléchargement ci-dessous.    
 
 # Miranda NG IM Client pour windows,  version préconfigurée fonctionnant avec NVDA, pas JAWS! disponible en téléchargement via BlindHelp.github.io #
-Un programmeur aveugle a fait une version préconfigurée du Client Miranda NG IM gratuit et open source pour Windows. Vous pouvez même ajouter maintenant le protocole Discord à la liste des comptes IM. Les paramètres ont été configurés pour fonctionner au mieux avec NVDA, non JAWS. Désolé utilisateurs JAWS! Mais je suis sûr que vous pouvez modifier certains paramètres et d'autres choses. Mais de toute façon, une chose cependant, quand il démarre pour la première fois il demandera une mise à jour. Assurez-vous de tout mettre à jour parce que si vous ne le faites pas, beaucoup de plug-ins et les comptes, y compris Skype, ne fonctionnera pas. Le compte skype ne supporte que les message texte, essentiellement tout sauf les appels.    
+Un programmeur aveugle a fait une version préconfigurée du Client Miranda NG IM libre et à source ouverte pour Windows. Vous pouvez même ajouter maintenant le protocole Discord à la liste des comptes IM. Les paramètres ont été configurés pour fonctionner au mieux avec NVDA, non JAWS. Désolé utilisateurs JAWS! Mais je suis sûr que vous pouvez modifier certains paramètres et d'autres choses. Mais de toute façon, une chose cependant, quand il démarre pour la première fois il demandera une mise à jour. Assurez-vous de tout mettre à jour parce que si vous ne le faites pas, beaucoup de plug-ins et les comptes, y compris Skype, ne fonctionnera pas. Le compte skype ne supporte que les message texte, essentiellement tout sauf les appels.    
 Vous pouvez télécharger la version préconfigurée fonctionnant avec NVDA, en cliquant sur le lien ci-dessous:    
 [MirandaPreconfigured20160409.7z](https://blindhelp.github.io/MirandaPreconfigured20160409.7z)    
 Extraire le fichier que vous venez de télécharger (en utilisant 7-zip ou un programme compatible)    
@@ -1105,7 +1105,7 @@ Radio Paradise est une webradio californienne sans pub à la programmation écle
 [Site web de la radio](http://www.radioparadise.com/)    
 Langue: US    
 
-Je n'ai pas encore essayé toutes les possibilités de Miranda NG y compris le dernier plug-in mRadio, mais les bonnes nouvelles sont que nous pouvons discuter avec nos contacts de Facebook et d'écouter une station de radio en streaming sans oublier que Miranda NG peut être utilisée avec un lecteur d'écran [NVDA](http://www.nvda-project.org/) gratuit et open-source par une personne aveugle. (cool) 😎 👍    
+Je n'ai pas encore essayé toutes les possibilités de Miranda NG y compris le dernier plug-in mRadio, mais les bonnes nouvelles sont que nous pouvons discuter avec nos contacts de Facebook et d'écouter une station de radio en streaming sans oublier que Miranda NG peut être utilisée avec un lecteur d'écran [NVDA](http://www.nvda-project.org/) libre et à source ouverte par une personne aveugle. (cool) 😎 👍    
 Voila, je vous  souhaite une bbonne utilisation de l'application Miranda NG! :)    
 Bien amicalement,    
 Rémy (BlindHelp).
