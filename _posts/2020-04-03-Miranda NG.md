@@ -641,6 +641,14 @@ Il faut cliquer sur le bouton annuler pour fermer la boîte de dialogue  Assista
 Je pense que vous devez enregistrer votre profil avant de faire l'importation d'informations.    
 Peut-être que vous avez à faire d'autres réglage dans les paramètres de Miranda NG, mais je ne suis pas un expert, je laisse à votre jugement. De toute façon la langue en français et d'autres choses que nous avons vu ci-dessus ont été configurés dans le programme, et maintenant nous devons mettre en place un protocole pour le faire fonctionner avec Miranda NG, pour cela suivez les instructions ci-dessous.    
 
+Important:    
+Avant d'effectuer des modifications majeures (comme cela sera le cas dans ce tuto), il est conseillé d'effectuer une sauvegarde de votre fichier "default.dat" ou selon le nom que vous l'avez donné à votre profil au moment de sa création) (que vous trouverez à la racine de votre dossier Miranda pour une version portable, parfois il se situe souvent dans votre dossier `"AppData"` pour une version instalable)    
+(pour y accéder: Démarrer (Touche Windows +R pour avoir la fenêtre Exécuter puis entrez `%appdata%` suivi de OK ou Touche Entrée)    
+Rechercher le dossier Miranda NG, puis faites Entrée.    
+Une fois ouvert, Vous aurez le dossier avec le nom de votre profil utilisé par Miranda, faites encore Entrée.    
+Rechercher le fichier "default.dat" (ou  selon le nom que vous l'avez donné à votre profil au moment de sa création).    
+Dupliquez donc ce fichier, et renommez le en "default.dat.bak" ou  selon le nom que vous l'avez donné à votre profil au moment de sa création (par exemple). Ainsi, en cas d'erreur ou de fausse manip', vous restaurerez votre fichier sauvegardé.    
+
 # Configuration du protocole dans Miranda NG #
 Comme je l'ai dit ci-dessus il y a beaucoup de protocoles utilisés  par Miranda NG.    
 Dans mon  exemple, il me semble qu'il faut mettre en place un protocole Facebook pour être utilisé par Miranda NG, donc, sans trop tardé voici les étapes à suivre:    
