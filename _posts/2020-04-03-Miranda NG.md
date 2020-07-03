@@ -643,7 +643,7 @@ Peut-être que vous avez à faire d'autres réglage dans les paramètres de Mira
 
 Important:    
 Avant d'effectuer des modifications majeures (comme cela sera le cas dans ce tuto), il est conseillé d'effectuer une sauvegarde de votre fichier "default.dat" ou selon le nom que vous l'avez donné à votre profil au moment de sa création) (que vous trouverez à la racine de votre dossier Miranda pour une version portable, parfois il se situe souvent dans votre dossier `"AppData"` pour une version instalable)    
-(pour y accéder: Démarrer (Touche Windows +R pour avoir la fenêtre Exécuter puis entrez `%appdata%` suivi de OK ou Touche Entrée)    
+(pour y accéder: Démarrer (Touche Windows+R) pour avoir la fenêtre: Exécuter puis entrez `%appdata%` suivi de OK ou Touche Entrée)    
 Rechercher le dossier Miranda NG, puis faites Entrée.    
 Une fois ouvert, Vous aurez le dossier avec le nom de votre profil utilisé par Miranda, faites encore Entrée.    
 Rechercher le fichier "default.dat" (ou  selon le nom que vous l'avez donné à votre profil au moment de sa création).    
