@@ -10,6 +10,11 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Il y a une application pour Windows nommée Miranda NG, la prochaine génération de [Miranda IM](https://fr.wikipedia.org/wiki/Miranda_IM), voici ci-dessous son descriptif.    
 
+J'espère que vous trouverez cela utile et intéressant. ;)    
+
+## Avertissement: 💀 ##
+Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du logiciel téléchargé ni des informations ce trouvant sur le site Web dédié à Miranda NG et l'utilisation des plug-ins/packs téléchargés est à vos risques et périls. ☠    
+
 # Qu'est-ce que Miranda NG? #
 Miranda NG est le successeur d'un client populaire de messagerie instantanée multi-protocoles pour Windows: Miranda IM. Peu gourmand en ressources système et extrêmement rapide, Il supporte de nombreux protocoles comme:    
 
@@ -90,8 +95,7 @@ Ensuite, je fais plusieurs flèches bas et je cherche la ligne contenant le mot:
 `Other`    
 Dessous de cette ligne, vous trouverez deux liens, un pour télécharger un Pack Smiley (avec Emoji) et l'autre pour télécharger le skin IEView  template  pour être utiliser par Facebook, dont, je vous les mets ci-après:    
 
-Note: Je mets ces deux plug-in à titre d'infomation, car  je ne sais pas comment les configurer dans miranda NG:    
-Tout remarque, correction ou astuce bienvenue. 🙇    
+Note: Non, désolé, ce n'est pas recommandé, c'est très compliqué à faire, cela ne fonctionne pas! 😬    
 
 Ce premier est un pack d'émoticons (Smiley)  (avec Emoji) pour Facebook Miranda NG.    
 Avant de télécharger un [pack de smiley](https://addons.miranda-ng.org/be/category/2)    ), vous devez installer le [support  Smiley pour Miranda NG](https://wiki.miranda-ng.org/Plugin:SmileyAdd/en)    
@@ -132,8 +136,9 @@ ou un pack pour chaque catégorie, en cliquant sur la case:
 Faites attention!    
 Appliquer les modifications et redémarrez Miranda NG.    
 
-En faites, ce pack de smileys pour Facebook ne fonctionne pas sur mon Miranda NG, je ne l'ai pas su où  placer la totalité du contenu  une fois décompressé, car il y a des fichiers `*.msl` et quelques dossiers, beaucoup moins le configurer!    
+En faites, ce pack de smileys pour Facebook ne fonctionne pas sur mon Miranda NG, je ne l'ai pas su où  placer la totalité du contenu  une fois décompressé, car il y a des fichiers `*.msl` et quelques dossiers, beaucoup moins le configurer! 😬    
 Quoi qu'il en soit, j'ai créé le dossier Smileys à la racine du dossier de Miranda, et j'ai mis à la racine de celui-ci tout le contenu   du pack de smileys puis  Impossible d'ajouter  Les smileys  à partir  de SmileyAdd bouton, celui-ci ne se ouvre pas quand je suis dans la boîte de dialogue pour envoyer un message à mon contact.    
+Tout remarque, correction ou astuce bienvenue. 🙇    
 
 Mais nous avons une autre solution pour incorporer des smileys et des emoji dans un chat en Facebook.    
 Note : Sous Windows 10, il est également possible d'utiliser le panneau emoji intégré.    
@@ -173,14 +178,15 @@ Si la  boîte de dialogue apparaît, ceci se produit si vous avez Windows 10, pa
 Au préalable vous devez aussi Dézipper le fichier:    
 `facebook.zip`    
 contenant l'IEView template pour Facebook.    
-(J'ignore où le placer).    
+(J'ignore où le placer). 😬    
 Après avoir fait cela, vous devez fermer l'emplacement du fichier IEView.dll par Alt+F4, une fois lancer le programme Miranda NG à partir du raccourci  du bureau  ou à partir du fichier exécutable miranda32.exe ou miranda64.exe (pour un système d'exploitation en 64 bit) situé dans un dossier "Miranda" ou  un autre nom de votre choix où vous venez d'extraire l'archive 7-zip.    
 Faites attention!    
 Pour utiliser IEview pour tous les contacts, choisissez « IEView plugin (dans la liste déroulante "Plugin" pour l'historique »), dans Options, session de message, historique récent.    
 
 Pour résumer, ça se passe dans Options, session de messages, IEview, onglethistorique récent.    
 
-En faites, ce pack IEView pour Facebook ne fonctionne pas sur mon Miranda NG, je ne l'ai pas su où  le décompressez, beaucoup moins le configurer!    
+En faites, ce pack IEView pour Facebook ne fonctionne pas sur mon Miranda NG, je ne l'ai pas su où  le décompressez, beaucoup moins le configurer! 😬    
+Tout remarque, correction ou astuce bienvenue. 🙇    
 
 Les nouveaux plugins et pack de langues peuvent être installés automatiquement à partir du PluginUpdater – dans Miranda NG ouvrir le Menu principal et choisir Montrer la liste complète des plugins. Vous pouvez aussi les télécharger manuellement à partir de la [page des Téléchargements sur le wiki de Miranda NG](https://wiki.miranda-ng.org/index.php?title=Download).    
 
@@ -194,7 +200,7 @@ puis la liste des plug-ins sont disponibles pour Miranda NG par [là](http://wik
 Voici ci-dessous une liste non exhaustive de certains plug-ins avec leurs descriptions et liens (si disponible).    
  
 # Description rapide de certains plug-ins #
-Je m'excuse auprès de vous, probablement cette liste contient certains  noms de plug-ins qui qui sont actuellement inexistants ou sont finalement devenus obsolètes au fil du temps.    
+Je m'excuse auprès de vous, probablement cette liste contient certains  noms de plug-ins qui qui sont actuellement inexistants ou sont finalement devenus obsolètes au fil du temps.😳    
 
 ## Indispensables ou presque: ##
 [dbx_3x](https://wiki.miranda-ng.org/index.php?title=Plugin:Dbx_3x/en): Gère la base de données (votre fichier .dat).    
