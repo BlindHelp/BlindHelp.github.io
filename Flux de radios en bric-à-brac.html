@@ -1,0 +1,426 @@
+﻿<HTML>
+<html lang="fr">
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<script type="text/javascript"> 
+<!-- 
+
+var firstTime = true;
+
+function MM_jumpMenuGo(objId, targ, restore){ //v9.0 
+var selObj = null; with (document) { 
+if (getElementById) selObj = getElementById(objId); 
+// if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'"); 
+if (restore) selObj.selectedIndex=0; } 
+// l'url du fichier mp3 du flux
+var url = selObj.options[selObj.selectedIndex].value;
+// on repère l'objet audio de la page
+var aud = document.getElementById("lecteur");
+// on met en pause une éventuelle lecture
+aud.pause();
+// si c'est la première fois, on impose un volume pas trop fort
+if(firstTime == true){
+aud.volume = 0.5;
+firstTime = false;
+} // End If
+// et on change le fichier en cours de lecture
+aud.src = url;
+
+} // end function
+
+function MM_jumpMenu_KeyDown(e){
+// enter
+if(e.keyCode == 13){
+e.preventDefault();
+document.getElementById("go_button").click();
+return false;
+} // End If
+} // End Function
+
+function btPlayPause_Click(e){
+//
+var aud = document.getElementById("lecteur");
+if(aud.paused == true){
+aud.play();
+} else {
+aud.pause();
+} // End If
+// pour actualiser le label du bouton
+var bt = document.getElementById("btPlayPause");
+window.setTimeout(function(){
+if(aud.paused == true){
+bt.innerText = "Play";
+} else {
+bt.innerText = "Pause";
+} // End If
+}, 1000);
+} // End Function
+
+function btVolumeUp_Click(e){
+//
+var aud = document.getElementById("lecteur");
+var v = aud.volume + 0.1;
+if(v > 1){
+v = 1
+} // End If
+aud.volume = v;
+//
+saystring("Volume " + parseInt(v * 100) + "%");
+} // End Function
+
+function btVolumeDown_Click(e){
+//
+var aud = document.getElementById("lecteur");
+var v = aud.volume - 0.1;
+if(v > 1){
+v = 1
+} // End If
+aud.volume = v;
+//
+saystring("Volume " + parseInt(v * 100) + "%");
+} // End Function
+
+function saystring(s){
+// fonction d'accessibilité
+// qui fait dire du texte par la synthèse vocale active
+// en utilisant les balises d'accessibilité aria.
+//
+//o s'assure d'abord que les variables globales nécessaires ont bien été créées
+if(this.compteur_yyd == null){
+this.compteur_yyd = 0;
+this.message_yyd = "";
+this.timeout_yyd = 0;
+} // end if
+//
+var elm;
+var difference = "";
+// on arrête un éventuel timer de ramasse miette
+window.clearTimeout(this.timeout_yyd);
+// on trouve la zone d'affichage du texte
+elm = document.getElementById("message_to_say_yyd");
+if(elm == null){ // non encore existante
+// on crée cette zone
+elm = document.createElement("div");
+elm.setAttribute("id", "message_to_say_yyd");
+elm.setAttribute("aria-live", "assertive");
+elm.setAttribute("aria-atomic", "true");
+elm.setAttribute("style", "width: 0%;height: 0%;");
+// on l'ajoute à la fin de la balise body
+document.getElementsByTagName("body")[0].appendChild(elm);
+// document.body.appendChild(elm);
+} // fin si zone du texte non encore existante
+// si chaîne vide
+if(s.trim() == ""){
+return;
+} // End If
+// si la zone a été repérée
+if(elm != null){
+// si le nouveau message est strictement identique à l'ancien
+if(s == this.message_yyd){
+// on va forcer un élément de différence
+this.compteur_yyd = this.compteur_yyd + 1;
+difference = " " + "-".repeat(this.compteur_yyd);
+} else { // c'est vraiment un nouveau message
+this.compteur_yyd = 0; // réinitialisation
+} // end if
+elm.innerText = "";
+elm.innerText = s + difference;
+} // end if elm non null
+// enregistrement de ce message en mémoire
+this.message_yyd = s
+// on va programmer l'effacement du texte dans une demi seconde
+var clearSaidMessage = function(){
+document.getElementById("message_to_say_yyd").innerText = "";
+};
+this.timeout_yyd = window.setTimeout(clearSaidMessage, 500);
+} // end function
+
+//--> 
+</script> 
+
+</HEAD>
+<TITLE>Flux de radios en bric-à-brac</TITLE>
+<BODY>
+<bgcolor = "black" text = "white" alink ="light white">
+<div id="header">
+<h1 class="title">Flux de radios en bric-à-brac</h1>
+<h2 class="author">By BlindHelp</h2>
+<h3 class="date">Date de publication le Jeudi 20 Septembre 2016</h3>
+</div>
+<p><main></p>
+<p>Dernière mise à jour le Lundi 20 Juillet 2020</p>
+<h1 id="Flux de radios-en-bric-à-brac">Flux de radios en bric-à-brac</h1>
+<p>Coucou mes amis du blog de BlindHelp!<br />
+Avant tout j'en profite pour remercier à mon cher  ami Yannick Daniel Youalé du Cameroun, 🇨🇲 sans doute l'un des meilleurs développeurs en accessibilité que je connaisse.<br />
+Sans lui la réalisation de cette page Web ce n'était pas possible car lui la rendu entièrement accessible grâce à ces scripts y compris et son lecteur intégré qui vous permettra de lire les flux des stations de radio avec plus de confort et d'efficacité!<br />
+Jugez-en par vous-même!<br />
+<a href="https://www.stsolution.org/home.php" target="_blank">Vous pouvez visiter son site ST Solution, en cliquant ici</a><br />
+Je vous suggère d'y jeter un coup d'œil car le site regorge d'informations pertinentes pour aider les déficients visuels à mieux naviguer sur les pages web.</a><br />
+Encore Mille Merci à Yannick Daniel Youalé ;)<br />
+Ci-dessous, vous trouverez une liste non exhaustive de quelques flux radios en bric-à-brac qui se trouvent sur le Web!<br />
+Notez qu'il arrive que les adresses des flux des radios changent après quelques années, n'hésitez donc pas à signaler si jamais une de ces adresses n'était plus fonctionnelle. Merci.<br />
+Bonne découverte!<br />
+Sur ce, je vous souhaite une bonne écoute!!!<br />
+@+!<br />
+BlindHelp!<br />
+<br />
+
+<h1 id="Comment-écouter-flux-de-radios-en-bric-à-brac"> Comment écouter les flux de radios en bric-à-brac?</h1>
+<p>Ceci est très facile, pour cela suivez ce petit guide rapide:<br />
+Une fois activé la liste déroulante avec la barre d'espace ou la touche Entrée il vous permet de sélectionner une des radio figurant dans cette liste à l'aide des  touches fléchées alors il suffit d'appuyer sur Entrée pour lancer la radio.<br />
+Et je trouve que c'est une amélioration de taille car elle m'a aisément permis de passer en revue toutes les radio disponibles, juste en me servant d'une main.<br />
+Maintenant, plus forcément besoin de se rendre au bouton Aller pour lancer la radio.<br />
+On peut ainsi facilement faire maj+tab pour revenir à la liste déroulante, choisir une autre radio et re-activer celle-ci avec la touche Entrée pour que le lecteur après quelques secondes se mette automatiquement à diffuser la nouvelle.<br />
+Après le titre de niveau 3 appelé:<br />
+Lecteur<br />
+vous trouverez trois boutons pour:<br />
+<ul>
+<li>Mettre play/pause;</li>
+<li>Augmenter le volume;</li>
+<li>Diminuer le volume.</li>
+</ul>
+Et un petit bonus que Yannick Daniel Youalé a ajouté, c'est que quand on clique sur les boutons d'augmentation ou de diminution de volume, le nouveau pourcentage du volume est lu par la synthèse vocale active.<br />
+De plus, si vous avez un téléphone  Android, celui-ci vous permet d'écouter le contenu de ces flux à partir  de cette même page et ça semble fonctionner correctement selon un petit test fait par Yannick Daniel Youalé.<br />
+Donc, même les appareils mobiles peuvent être ciblés.<br />
+
+<p>Enjoy!</p>
+
+<hr>
+<label for="Flux">Choisisser le flux de la station de radio</label><br />
+<FORM>
+<select name="jumpMenu" id="jumpMenu" onkeydown="MM_jumpMenu_KeyDown(event);"> 
+<option value="http://direct.franceinter.fr/live/franceinter-midfi.mp3">France Inter</option>
+<option value="http://direct.franceinfo.fr/live/franceinfo-midfi.mp3">franceinfo</option>
+<option value="http://direct.franceculture.fr/live/franceculture-midfi.mp3">France Culture</option>
+<option value="http://direct.francemusique.fr/live/francemusique-midfi.mp3">France Musique</option>
+<option value="http://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.mp3">France Musique | Classique Easy WEBRADIO</option>
+<option value="http://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.mp3">France Musique | Classique Plus WEBRADIO</option>
+<option value="http://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.mp3">France Musique | Concerts Radio France WEBRADIO</option>
+<option value="http://direct.francemusique.fr/live/francemusiqueocoramonde-hifi.mp3">France Musique | Musiques du monde - Ocora WEBRADIO</option>
+<option value="http://direct.francemusique.fr/live/francemusiquelajazz-hifi.mp3">France Musique | La Jazz WEBRADIO</option>
+<option value="http://direct.francemusique.fr/live/francemusiquelacontemporaine-hifi.mp3">France Musique | La Contemporaine WEBRADIO</option>
+<option value="http://direct.francemusique.fr/live/francemusiquelevenementielle-hifi.mp3">France Musique | L’événementielle (Classique kids, La Rostropovitch, La Monteverdi, La B.O. musiques de films...) WEBRADIO</option>
+<option value="http://direct.fipradio.fr/live/fip-midfi.mp3">FIP</option>
+<option value="http://direct.fipradio.fr/live/fipbordeaux-midfi.mp3">FIP à Bordeaux</option>
+<option value="http://direct.fipradio.fr/live/fipstrasbourg-midfi.mp3">FIP à Strasbourg</option>
+<option value="http://direct.fipradio.fr/live/fipnantes-midfi.mp3">FIP à Nantes</option>
+<option value="http://direct.fipradio.fr/live/fip-webradio1.mp3">FIP autour du rock WEBRADIO</option>
+<option value="http://direct.fipradio.fr/live/fip-webradio2.mp3">FIP autour du jazz WEBRADIO</option>
+<option value="http://direct.fipradio.fr/live/fip-webradio3.mp3">FIP autour du groove WEBRADIO</option>
+<option value="http://direct.fipradio.fr/live/fip-webradio4.mp3">FIP autour du monde WEBRADIO</option>
+<option value="http://direct.fipradio.fr/live/fip-webradio5.mp3">FIP tout nouveau, tout FIP WEBRADIO</option>
+<option value="http://direct.fipradio.fr/live/fip-webradio6.mp3">FIP autour du reggae WEBRADIO</option>
+<option value="http://direct.fipradio.fr/live/fip-webradio8.mp3">FIP autour de l’électro WEBRADIO</option>
+<option value="http://direct.mouv.fr/live/mouv-midfi.mp3">Mouv'</option>
+<option value="http://direct.mouv.fr/live/mouvxtra-midfi.mp3">Mouv' Xtra WEBRADIO</option>
+<option value="http://direct.francebleu.fr/live/fbalsace-midfi.mp3">France Bleu Alsace</option>
+<option value="http://direct.francebleu.fr/live/Fbelsass-midfi.mp3">France Bleu Elsass</option>
+<option value="http://direct.francebleu.fr/live/fbarmorique-midfi.mp3">France Bleu Armorique</option>
+<option value="http://direct.francebleu.fr/live/fbauxerre-midfi.mp3">France Bleu Auxerre</option>
+<option value="http://direct.francebleu.fr/live/fbazur-midfi.mp3">France Bleu Azur</option>
+<option value="http://direct.francebleu.fr/live/fbbearn-midfi.mp3">France Bleu Béarn</option>
+<option value="http://direct.francebleu.fr/live/fbbelfort-midfi.mp3">France Bleu Belfort-Montbéliard</option>
+<option value="http://direct.francebleu.fr/live/fbberry-midfi.mp3">France Bleu Berry</option>
+<option value="http://direct.francebleu.fr/live/fbbesancon-midfi.mp3">France Bleu Besançon</option>
+<option value="http://direct.francebleu.fr/live/fbbourgogne-midfi.mp3">France Bleu Bourgogne</option>
+<option value="http://direct.francebleu.fr/live/fbbreizizel-midfi.mp3">France Bleu Breizh Izel</option>
+<option value="http://direct.francebleu.fr/live/fbchampagne-midfi.mp3">France Bleu Champagne-Ardenne</option>
+<option value="http://direct.francebleu.fr/live/fbcotentin-midfi.mp3">France Bleu Cotentin</option>
+<option value="http://direct.francebleu.fr/live/fbcreuse-midfi.mp3">France Bleu Creuse</option>
+<option value="http://direct.francebleu.fr/live/fbdromeardeche-midfi.mp3">France Bleu Drome Ardèche</option>
+<option value="http://direct.francebleu.fr/live/fbgardlozere-midfi.mp3">France Bleu Gard Lozère</option>
+<option value="http://direct.francebleu.fr/live/fbgascogne-midfi.mp3">France Bleu Gascogne</option>
+<option value="http://direct.francebleu.fr/live/fbgironde-midfi.mp3">France Bleu Gironde</option>
+<option value="http://direct.francebleu.fr/live/fbherault-midfi.mp3">France Bleu Hérault</option>
+<option value="http://direct.francebleu.fr/live/fbisere-midfi.mp3">France Bleu Isère</option>
+<option value="http://direct.francebleu.fr/live/fblarochelle-midfi.mp3">France Bleu La Rochelle</option>
+<option value="http://direct.francebleu.fr/live/fblimousin-midfi.mp3">France Bleu Limousin</option>
+<option value="http://direct.francebleu.fr/live/fbloireocean-midfi.mp3">France Bleu Loire Océan</option>
+<option value="http://direct.francebleu.fr/live/fblorrainenord-midfi.mp3">France Bleu Lorraine Nord</option>
+<option value="http://direct.francebleu.fr/live/fbmaine-midfi.mp3">France Bleu Maine</option>
+<option value="http://direct.francebleu.fr/live/fbmayenne-midfi.mp3">France Bleu Mayenne</option>
+<option value="http://direct.francebleu.fr/live/fbnord-midfi.mp3">France Bleu Nord</option>
+<option value="http://direct.francebleu.fr/live/fbbassenormandie-midfi.mp3">France Bleu Normandie (Calvados - Orne)</option>
+<option value="http://direct.francebleu.fr/live/fbhautenormandie-midfi.mp3">France Bleu Normandie (Seine-Maritime - Eure)</option>
+<option value="http://direct.francebleu.fr/live/fborleans-midfi.mp3">France Bleu Orléans</option>
+<option value="http://direct.francebleu.fr/live/fb1071-midfi.mp3">France Bleu Paris</option>
+<option value="http://direct.francebleu.fr/live/fbpaysbasque-midfi.mp3">France Bleu Pays Basque</option>
+<option value="http://direct.francebleu.fr/live/fbpaysdauvergne-midfi.mp3">France Bleu Pays d'Auvergne</option>
+<option value="http://direct.francebleu.fr/live/fbpaysdesavoie-midfi.mp3">France Bleu Pays de Savoie</option>
+<option value="http://direct.francebleu.fr/live/fbperigord-midfi.mp3">France Bleu Périgord</option>
+<option value="http://direct.francebleu.fr/live/fbpicardie-midfi.mp3">France Bleu Picardie</option>
+<option value="http://direct.francebleu.fr/live/fbpoitou-midfi.mp3">France Bleu Poitou</option>
+<option value="http://direct.francebleu.fr/live/fbprovence-midfi.mp3">France Bleu Provence</option>
+<option value="http://direct.francebleu.fr/live/fbfrequenzamora-midfi.mp3">France Bleu RCFM Frequenza Mora</option>
+<option value="http://direct.francebleu.fr/live/fbroussillon-midfi.mp3">France Bleu Roussillon</option>
+<option value="http://direct.francebleu.fr/live/fbstetienne-midfi.mp3">France Bleu Saint-Etienne Loire</option>
+<option value="http://direct.francebleu.fr/live/fbsudlorraine-midfi.mp3">France Bleu Sud Lorraine</option>
+<option value="http://direct.francebleu.fr/live/fbtoulouse-midfi.mp3">France Bleu Toulouse</option>
+<option value="http://direct.francebleu.fr/live/fbtouraine-midfi.mp3">France Bleu Touraine</option>
+<option value="http://direct.francebleu.fr/live/fbvaucluse-midfi.mp3">France Bleu Vaucluse</option>
+<option value="http://cdn.nrjaudio.fm/audio1/fr/30201/mp3_128.mp3">Chérie_FM</option>
+<option value="http://ais-live.cloud-services.paris:8000/europe1.mp3">Europe 1</option>
+<option value="http://streaming.radio.funradio.fr/fun-1-44-128">Fun Radio France</option>
+<option value="http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3">Jazz Radio</option>
+<option value="http://start-latina.ice.infomaniak.ch/start-latina-high.mp3">Latina</option>
+<option value="http://mfm.ice.infomaniak.ch/mfm-128.mp3">M Radio</option>
+<option value="http://cdn.nrjaudio.fm/audio1/fr/30601/mp3_128.mp3">Nostalgie.FR</option>
+<option value="http://novazz.ice.infomaniak.ch/novazz-128.mp3">Nova</option>
+<option value="http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3">NRJ_Radio France</option>
+<option value="http://cdn.nrjaudio.fm/audio1/fr/40101/aac_576.mp3">NRJ France Ultra HD</option>
+<option value="http://ouifm.ice.infomaniak.ch/ouifm-high.mp3">Oüi FM</option>
+<option value="http://str0.creacast.com/pharefm">Phare FM</option>
+<option value="http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">Radio Classique</option>
+<option value="http://radiofg.impek.com/fg">Radio FG</option>
+<option value="http://rcf.streamakaci.com/rcf.mp3">RCF</option>
+<option value="http://live02.rfi.fr/rfimonde-96k.mp3">RFI Monde</option>
+<option value="https://ais-live.cloud-services.paris:8443/rfm.mp3">RFM</option>
+<option value="http://cdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3">Rire et Chansons</option>
+<option value="http://chai5she.cdn.dvmr.fr/rmcinfo">RMC Info</option>
+<option value="http://streaming.radio.rtl.fr:80/rtl-1-44-96">RTL.FR</option>
+<option value="http://icecast.rtl.fr:80/rtl2-1-44-128">RTL2</option>
+<option value="http://icecast.skyrock.net/s/natio_mp3_128k">Skyrock</option>
+<option value="http://start-sud.ice.infomaniak.ch/start-sud-high.mp3">Sud Radio</option>
+<option value="http://start-adofm.ice.infomaniak.ch/start-adofm-high.mp3">Swigg (anciennement Ado FM)</option>
+<option value="http://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3">TSF Jazz</option>
+<option value="http://ais-live.cloud-services.paris:8000/virgin.mp3">Virgin Radio</option>
+<option value="http://african1paris.ice.infomaniak.ch/african1paris-128.mp3">Africa N°1</option>
+<option value="http://alouette.ice.infomaniak.ch/alouette-high.mp3">Alouette</option>
+<option value="http://alpes1grenoble.ice.infomaniak.ch/alpes1grenoble-high.mp3">Alpes 1 Grand Grenoble</option>
+<option value="http://alpes1gap.ice.infomaniak.ch/alpes1gap-high.mp3">Alpes 1 Alpes du Sud</option>
+<option value="http://broadcast.infomaniak.ch/beurfm-high.mp3">Beur FM</option>
+<option value="http://start-blackbox.ice.infomaniak.ch/start-blackbox-high.mp3">Blackbox</option>
+<option value="http://stream1.chantefrance.com/Chante_France">Chante France</option>
+<option value="http://radio-contact.ice.infomaniak.ch/radio-contact-high">Contact FM</option>
+<option value="http://airtime2.radiocapsule.com:15000/radio160.mp3">Radio Capsule</option>
+<option value="http://stream1.evasionfm.com/Paris">Evasion Paris</option>
+<option value="http://91.121.159.124:8000/eko-des-garrigues-128k.mp3">L'Eko des garrigues</option>
+<option value="http://fcradio.ice.infomaniak.ch/fcradio-128.mp3">FC Radio L'Essentiel</option>
+<option value="http://fm43.ice.infomaniak.ch/fm43-128.mp3">FM 43</option>
+<option value="http://start-forum.ice.infomaniak.ch/start-forum-high.mp3">Forum</option>
+<option value="http://freqplus.ice.infomaniak.ch/freqplus-high.mp3">Frequence Plus</option>
+<option value="http://generationfm.ice.infomaniak.ch/generationfm-high.mp3">Generations</option>
+<option value="http://broadcast.infomaniak.ch/hitwest-high.mp3">Hit West</option>
+<option value="http://80.82.229.202:8000/jetfm.mp3">Jet FM La radio curieuse 91.2 fm Nantes et agglomération</option>
+<option value="http://live.jordannefm.com:8000/JFMCantalMD.mp3">Jordanne FM</option>
+<option value="http://kissfm.ice.infomaniak.ch/kissfm-128.mp3">Kiss FM</option>
+<option value="http://laradioplus.ice.infomaniak.ch/laradioplus-high.mp3">La Radio Plus - Alpes du nord / Suisse</option>
+<option value="http://lalaradio.ice.infomaniak.ch/lalaradio-high.mp3">La Radio Plus - Alpes du sud</option>
+<option value="http://str0.creacast.com/magnum">Magnum La Radio</option>
+<option value="http://monafm.bcast.infomaniak.ch/monafm-high.mp3">Mona FM</option>
+<option value="http://montagnefm.ice.infomaniak.ch/montagnefm-96.mp3">Montagne FM</option>
+<option value="http://nradio.ice.infomaniak.ch/nradio-128.mp3">N Radio</option>
+<option value="http://ods.ice.infomaniak.ch/ods-high.mp3">ODS Radio</option>
+<option value="http://ouestfm.ice.infomaniak.ch/ouestfm-high.mp3">Ouest FM</option>
+<option value="http://antenne.pyreneesfm.com/;stream/1">Pyrénées FM</option>
+<option value="http://direct.radiocourtoisie.fr">Radio Courtoisie</option>
+<option value="http://radiocristal.ice.infomaniak.ch/radiocristal-high.mp3">Radio Cristal</option>
+<option value="http://radioespace.ice.infomaniak.ch/radioespace-high.mp3">Radio Espace</option>
+<option value="http://stream.radio-esperance.net/esperance.mp3">Radio Espérance</option>
+<option value="http://live.radiogrenouille.com/live">Radio Grenouille 88.8 FM Marseille</option>
+<option value="http://radioisagrenoble.ice.infomaniak.ch/radioisagrenoble-128.mp3">Radio Isa Grenoble</option>
+<option value="http://radioisa.ice.infomaniak.ch/radioisa-128.mp3">Radio Isa Nord Isère</option>
+<option value="http://ecoutez.radio-libertaire.org:8080/radiolib">Radio Libertaire</option>
+<option value="http://151.80.42.124:8000/marseillette.mp3">Radio Marseillette 101.3FM Carcassonne</option>
+<option value="http://str0.creacast.com/metropolys">Radio Métropolys</option>
+<option value="http://radiono1.ice.infomaniak.ch/radiono1-128.mp3">Radio Numéro 1</option>
+<option value="http://radioscoop-bourg.ice.infomaniak.ch:80/radioscoop-bourg-128">Radio Scoop Bourg-en-Bresse</option>
+			<option value="http://radioscoop-clermont.ice.infomaniak.ch:80/radioscoop-clermont-128">Radio Scoop Clermont-Ferrand</option>
+			<option value="http://radioscoop-lyon.ice.infomaniak.ch:80/radioscoop-lyon-128">Radio Scoop Lyon</option>
+<option value="http://radioscoop-stetienne.ice.infomaniak.ch:80/radioscoop-stetienne-128">Radio Scoop Saint-Etienne</option>
+<option value="http://radiostar.ice.infomaniak.ch/radiostar-128.mp3">Radio Star (Franche-Comté)</option>
+<option value="https://listen.radioking.com/radio/9728/stream/20210">Radio Star (PACA)</option>
+<option value="http://radiosun.ice.infomaniak.ch/radiosun-high.mp3">Radio Sun</option>
+<option value="http://rva.ice.infomaniak.ch/rva-high.mp3">RVA</option>
+<option value="http://sensationsessonne.ice.infomaniak.ch/sensationsessonne-128.mp3">Sensations Essonne</option>
+<option value="http://sensationsnormandie.ice.infomaniak.ch/sensations-normandie.mp3">Sensations Normandie (Bernay)</option>
+<option value="http://sensations.ice.infomaniak.ch/sensations.mp3">Sensations Yvelines</option>
+<option value="http://streaming.tendanceouest.com/tomanche.mp3">Tendance Ouest Manche</option>
+<option value="http://streaming.tendanceouest.com/toorne.mp3">Tendance Ouest Orne</option>
+<option value="http://str0.creacast.com/topmusic2">Top Music Colmar</option>
+<option value="http://str0.creacast.com/topmusic3">Top Music Haguenau</option>
+<option value="http://str0.creacast.com/topmusic4">Top Music Sarrebourg</option>
+<option value="http://str0.creacast.com/topmusic6">Top Music Selestat</option>
+<option value="http://str0.creacast.com/topmusic1">Top Music Strasbourg</option>
+<option value="http://vibration.ice.infomaniak.ch/vibration-high.mp3">Vibration</option>
+<option value="http://virageradio.ice.infomaniak.ch/virageradio-high.mp3">Virage Radio</option>
+<option value="http://start-voltage.ice.infomaniak.ch/start-voltage-high.mp3">Voltage</option>
+<option value="http://start-witfm.ice.infomaniak.ch/start-witfm-high.mp3">Wit FM</option>
+<option value="http://91.121.65.189:8000/3">Radio Zinzine</option>
+<option value="http://radios.rtbf.be/classic21-128.mp3">RTBF - Classic 21</option>
+<option value="http://radios.rtbf.be/wr-classic21-60-128.mp3">RTBF - Classic 21 60’s</option>
+<option value="https://radios.rtbf.be/wr-c21-70-128.mp3">RTBF - Classic 21 70’s</option>
+<option value="http://radios.rtbf.be/wr-c21-80-128.mp3">RTBF - Classic 21 80’s</option>
+<option value="https://radios.rtbf.be/wr-c21-90-128.mp3">RTBF - Classic 21 90’s</option>
+<option value="https://radios.rtbf.be/wr-c21-blues-128.mp3">RTBF - Classic 21 Blues</option>
+<option value="https://radios.rtbf.be/wr-c21-metal-128.mp3">RTBF - Classic 21 Metal</option>
+<option value="https://radios.rtbf.be/wr-eventradio-128.mp3">RTBF - Classic 21 Reggae</option>
+<option value="https://radios.rtbf.be/wr-c21-route66-128.mp3">RTBF - Classic 21 Route 66</option>
+<option value="https://radios.rtbf.be/wr-c21-soul-128.mp3">RTBF - Classic 21 Soul Power</option>
+<option value="https://radios.rtbf.be/wr-ouftivi-128.mp3">RTBF - OUFtivi</option>
+<option value="http://radios.rtbf.be/wr-lesclassiquesdeclassic-128.mp3">RTBF - Classic 21 Les classiques</option>
+<option value="https://radios.rtbf.be/laprem1ere-128.mp3">RTBF - La Première</option>
+<option value="https://radios.rtbf.be/rtbfmix-128.mp3">RTBF - Mix</option>
+<option value="http://radios.rtbf.be/musiq3-128.mp3">RTBF - Musiq3</option>
+<option value="http://radios.rtbf.be/pure-128.mp3">RTBF - Pure</option>
+<option value="https://radios.rtbf.be/wr-pure2-128.mp3">RTBF - Pure Like</option>
+<option value="https://radios.rtbf.be/tarmac-128.mp3">RTBF - Tarmac</option>
+<option value="https://radios.rtbf.be/vivabxl-128.mp3">RTBF - Vivacité Bruxelles</option>
+<option value="https://radios.rtbf.be/vivacharleroi-128.mp3">RTBF - Vivacité Charleroi</option>
+<option value="https://radios.rtbf.be/vivahainaut-128.mp3">RTBF - Vivacité Hainaut</option>
+<option value="https://radios.rtbf.be/vivaliege-128.mp3">RTBF - Vivacité Liège</option>
+<option value="https://radios.rtbf.be/vivalux-128.mp3">RTBF - Vivacité Luxembourg</option>
+<option value="https://radios.rtbf.be/vivanamurbw-128.mp3">RTBF - Vivacité Namur - Brabant Wallon</option>
+<option value="http://belrtl.ice.infomaniak.ch/belrtl-mp3-192.mp3">Bel-RTL</option>
+<option value="http://streamingp.shoutcast.com/NRJ-aac">NRJ Belgique - Hit Music Only, radio FM</option>
+<option value="http://funradiobe.ice.infomaniak.ch/funradiobe-high.mp3">    Fun Radio Belgique</option>
+<option value="http://dhradio.ice.infomaniak.ch/dhradio-96.mp3">DH Radio - 101.4 FM Brussels</option>
+<option value="http://radiojudaica.ice.infomaniak.ch/radiojudaica-128.mp3">Radio Judaïca bruxelles</option>
+<option value="http://streamingp.shoutcast.com/NostalgiePremium-mp3">Nostalgie.be</option>
+<option value="http://audiostream.rtl.be/contactfr">Radio Contact - 102.2 FM Bruxelles</option>
+<option value="http://rcf.streamakaci.com/rcfbruxelles.mp3">R.C.F. Bruxelles</option>
+<option value="http://rcf.streamakaci.com/rcfsudbe.mp3">R.C.F. Sud Belgique</option>
+<option value="http://rcf.streamakaci.com/rcfliege.mp3">R.C.F. Liège</option>
+<option value="http://streaming.domainepublic.net:8000/radiopanik.ogg">Radio Panik - 105.4 FM - Bruxelles</option>
+<option value="http://mp3uplink.duplexfx.com:8020/">181.FM - Classical Guitar</option>
+<option value="http://radio666.net:8000/">Radio 666</option>
+<option value="http://stream-tx4.radioparadise.com/aac-320">Paradise</option>
+</select> 
+</form> 
+
+<input type="button" name="go_button" id= "go_button" value="Aller" onclick="MM_jumpMenuGo('jumpMenu','parent',0)" /> 
+
+<h3>
+Lecteur
+</h3>
+
+<div>
+<audio id="lecteur" autoplay=autoplay  preload="auto" aria-live="off">
+</audio>
+
+<p>
+<button id="btPlayPause" onclick="btPlayPause_Click(event);">
+Pause
+</button>
+<button onclick="btVolumeUp_Click(event);">
+Volume+
+</button>
+<button onclick="btVolumeDown_Click(event);">
+Volume-
+</button>
+</p>
+</div>
+
+<hr>
+
+<footer>
+
+Dernière mise à jour : 20/07/2020.
+</main>
+
+</footer>
+</BODY>
+</HTML>
+
+
