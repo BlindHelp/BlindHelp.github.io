@@ -77,14 +77,14 @@ Merci à Noelia pour cette info.
 
 La version stable de NVDA  2020.2 est maintenant disponible pour le téléchargement.    
 
+[Procédure de téléchargement préféré par NV Access](https://groups.io/g/nvda-devel/message/45172) (en anglais)    
+
 Pour télécharger la version de NVDA 2020.2:    
 
 # Depuis la page du poste NV Access NVDA 2020.2 #
 
 1. Accédez à la [page du poste de NV Access pour télécharger NVDA 2020.2](https://www.nvaccess.org/post/nvda-2020-2/)    
 2. chercher puis appuyez sur le lien "Download NVDA 2020.2".               
-
-[Procédure de téléchargement préféré par NV Access](https://groups.io/g/nvda-devel/message/45172) (en anglais)    
 
 # Depuis le serveur de NV Access #
   
