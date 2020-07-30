@@ -84,9 +84,11 @@ Pour télécharger la version de NVDA 2020.2:
 1. Accédez à la [page du poste de NV Access pour télécharger NVDA 2020.2](https://www.nvaccess.org/post/nvda-2020-2/)    
 2. chercher puis appuyez sur le lien "Download NVDA 2020.2".               
 
-# Depuis le lien directe de téléchargement de NV Access #
+[Procédure de téléchargement préféré par NV Access](https://groups.io/g/nvda-devel/message/45172) (en anglais)    
+
+# Depuis le serveur de NV Access #
   
-[Vous pouvez cliquer   sur ce lien directe de NV Access en toute confiance pour télécharger NVDA 2020.2!](https://www.nvaccess.org/files/nvda/releases/2020.2/nvda_2020.2.exe)    
+[Téléchargement direct de NVDA 2020.2 à partir du serveur de NV Access](http://www.nvaccess.org/download/nvda/releases/2020.2/nvda_2020.2.exe)    
 
 #### Notes ####
 
