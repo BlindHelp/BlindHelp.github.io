@@ -1,5 +1,5 @@
 ---
-title: ContextPlus programme pour ouvrir une ligne de commande directement
+title: Context Plus programme pour ouvrir une ligne de commande directement
 layout: post
 author: BlindHelp
 ---
