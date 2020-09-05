@@ -28,9 +28,9 @@ Une fois que vous avez  téléchargé le fichier avec l'extension .xpi comme nom
 Ouvrir Thunderbird, puis Outils puis Modules complémentaires    
 puis abvec tab chercher puis faire entrée sur le bouton:    
 `Outils pour tous les modules`    
-puis cliquez sur:
+puis cliquez sur:    
 `Installer un module depuis un fichier...`    
-La boîte de recherche classique de Windows s'ouvre, chercher le fichier avec l'extension .xpi comme nom:
+La boîte de recherche classique de Windows s'ouvre, chercher le fichier avec l'extension .xpi comme nom:    
 `quick_folder_key_navigation-2.0-tb.xpi`    
 puis faire entré, ensuite appuyez sur alt+s    
 Relancer Thunderbird pour finir l'installation.    
