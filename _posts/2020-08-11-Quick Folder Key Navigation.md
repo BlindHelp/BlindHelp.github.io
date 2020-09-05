@@ -11,7 +11,10 @@ La nouvelle version 3.0  de [Quick Folder Key Navigation](https://addons.thunder
 Même si celle-ci est décochée puis cochée à nouveau et avoir redémarré Mozilla Thunderbird.    
 Il y a comme qui dirait un gros bug dans l'extension mais Nous pouvons   rétablir son fonctionnement  pour la durée d'une session de TB,  mais nous devons le faire à chaque démarrage de celui-ci.    
 Sauf erreur de ma part elle ne démarre pas automatiquement car il y a un avertissement de sécurité selon lequel cette extension n'a pas pu être vérifiée.    
-Je n'ai pas réussi à faire fonctionner correctement la version 3 de cette extension au démarrage de Thunderbird 68. Je l'ai désinstallée, réinstallé la version 2 et tout fonctionne correctement.    
+Je n'ai pas réussi à faire fonctionner correctement la version 3.0 de cette extension au démarrage de Thunderbird 68. Je l'ai désinstallée, réinstallé l'ancienne version 2.0 et tout fonctionne correctement.    
+
+Pour ceux qui souhaitent naviguer  dans l'arborescence des dossiers en pressant la première lettre de leur nom, voici une extension qui fait très bien l'affaire.    
+Elle plaira sans doute à ceux qui ont perdu Chichi et qui regrettent de ne plus disposer de cette fonctionnalité.    
 
 Voici les liens  fourni par notre ami Pierre-Louis:    
 
