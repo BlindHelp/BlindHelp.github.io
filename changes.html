@@ -9,6 +9,87 @@
 <FONT SIZE="4">
 </FONT></CENTER>
 
+<H2>2020.3</H2>
+<P>
+Cette version contient beaucoup d'améliorations de performance et de stabilité, particulièrement dans les applications Microsoft Office. Il existe de nouveaux paramètres pour basculer l'annonce des graphiques et le support des écrans tactiles.
+L'existence de contenus marqués (soulignés) peut être reportée dans les navigateurs, et il existe de nouvelles tables Braille allemandes.
+</P>
+<H3>Nouvelles Fonctionnalités</H3>
+<UL>
+<LI>Vous pouvez maintenant basculer l'annonce des graphiques dans les paramètres de mise en forme des documents de NVDA. Notez que désactiver cette option annoncera toujours les textes alternatifs des graphiques. (<A HREF="https://github.com/nvaccess/nvda/issues/4837" target="_blank">#4837</A>)
+<LI>Vous pouvez maintenant basculer le support des écrans tactiles de NVDA. Une option a été ajoutée aux paramètres d'écrans tactiles, le raccourci par défaut est NVDA+CTRL+Alt+T. (<A HREF="https://github.com/nvaccess/nvda/issues/9682" target="_blank">#9682</A>)
+<LI>Ajout de nouvelles tables braille allemandes. (<A HREF="https://github.com/nvaccess/nvda/issues/11268" target="_blank">#11268</A>)
+<LI>NVDA détecte maintenant les contrôles de texte UIA en lecture seule. (<A HREF="https://github.com/nvaccess/nvda/issues/10494" target="_blank">#10494</A>)
+<LI>Le texte marqué (surligné) est maintenant signalé en Braille et vocalement dans tous les navigateurs Web. (<A HREF="https://github.com/nvaccess/nvda/issues/11436" target="_blank">#11436</A>)
+ <UL>
+ <LI>Ceci peut être basculé via une nouvelle option dans les paramètres de mise en forme des documents pour le surlignage.
+ </UL>
+<LI>De nouvelles touches d'émulation du clavier du système peuvent être ajoutées via le dialogue Gestes de Commandes. (<A HREF="https://github.com/nvaccess/nvda/issues/6060" target="_blank">#6060</A>)
+  <UL>
+  <LI>Pour faire cela, appuyez sur le bouton "Ajouter" après avoir sélectionné la catégorie "Touches émulées du clavier du système".
+  </UL>
+<LI>Handy Tech Active Braille avec manette est maintenant supporté. (<A HREF="https://github.com/nvaccess/nvda/issues/11655" target="_blank">#11655</A>)
+<LI>Le paramètre "Mode formulaire automatique lors du déplacement du curseur" est maintenant compatible avec "Positionnement automatique du focus système aux éléments susceptibles d'être mis en focus" désactivé. (<A HREF="https://github.com/nvaccess/nvda/issues/11663" target="_blank">#11663</A>)
+</UL>
+
+<H3>Changements</H3>
+<UL>
+<LI>Le script d'annonce de la mise en forme (NVDA+F) a été modifié pour reporter la mise en forme à la position du curseur système et non plus du curseur de revue. Pour connaître la mise en forme à la position du curseur de revue utilisez maintenant NVDA+Shift+F. (<A HREF="https://github.com/nvaccess/nvda/issues/9505" target="_blank">#9505</A>)
+<LI>NVDA ne place plus automatiquement le focus système sur les éléments pouvant être mis en focus en mode navigation, cela améliore les performances et la stabilité. (<A HREF="https://github.com/nvaccess/nvda/issues/11190" target="_blank">#11190</A>)
+<LI>Base CLDR mise à jour de la version 36.1 à la version 37. (<A HREF="https://github.com/nvaccess/nvda/issues/11303" target="_blank">#11303</A>)
+<LI>Mise à jour de eSpeak-NG à la version 1.51-dev, niveau 1fb68ffffea4
+<LI>Vous pouvez maintenant utiliser les commandes de navigation de tableau dans les listes avec des éléments cochables comportant plusieurs colonnes. (<A HREF="https://github.com/nvaccess/nvda/issues/8857" target="_blank">#8857</A>)
+<LI>Dans le dialogue de confirmation de suppression d'une extension du gestionaire d'extensions, le bouton "Non" est maintenant celui par défaut. (<A HREF="https://github.com/nvaccess/nvda/issues/10015" target="_blank">#10015</A>)
+<LI>Dans la liste d'éléments de Microsoft Excel, les formules sont maintenant présentées sous leur forme traduite. (<A HREF="https://github.com/nvaccess/nvda/issues/9144" target="_blank">#9144</A>)
+<LI>NVDA indique maintenant correctement la terminologie des notes dans Excel. (<A HREF="https://github.com/nvaccess/nvda/issues/11311" target="_blank">#11311</A>)
+<LI>Lors de l'utilisation de la commande de déplacement du curseur de revue vers le focus en mode navigation, le curseur de revue est maintenant déplacé à la position du curseur virtuel. (<A HREF="https://github.com/nvaccess/nvda/issues/9622" target="_blank">#9622</A>)
+<LI>Les informations reportées en mode navigation, comme les informations de mise en forme avec NVDA+F sont maintenant affichées dans une fenêtre légèrement plus grande et centrée à l'écran. (<A HREF="https://github.com/nvaccess/nvda/issues/9910" target="_blank">#9910</A>)
+</UL>
+
+<H3>Corrections de Bogues</H3>
+<UL>
+<LI>NVDA annonce maintenant toujours l'arrivée sur un symbole suivi d'un espace lors de la navigation par mot, peu importe le niveau de ponctuations. (<A HREF="https://github.com/nvaccess/nvda/issues/5133" target="_blank">#5133</A>)
+<LI>Dans les applications utilisant QT 5.11 et supérieur, les descriptions d'objets sont à nouveau annoncées. (<A HREF="https://github.com/nvaccess/nvda/issues/8604" target="_blank">#8604</A>)
+<LI>Lors de la suppression d'un mot par CTRL+Suppr, NVDA n'est plus silencieux. (<A HREF="https://github.com/nvaccess/nvda/issues/3298" target="_blank">#3298</A>, <A HREF="https://github.com/nvaccess/nvda/issues/11029" target="_blank">#11029</A>)
+  <UL>
+  <LI>Le mot à droite du mot supprimé est maintenant annoncé.
+  </UL>
+<LI>Dans les paramètres généraux, la liste des langues est maintenant triée correctement. (<A HREF="https://github.com/nvaccess/nvda/issues/10348" target="_blank">#10348</A>)
+<LI>Améliorations notables de performances lors du filtrage dans le dialogue des gestes de commandes. (<A HREF="https://github.com/nvaccess/nvda/issues/10307" target="_blank">#10307</A>)(
+<LI>Vous pouvez maintenant envoyer un symbole Unicode au-delà de u+FFFF depuis un afficheur Braille. (<A HREF="https://github.com/nvaccess/nvda/issues/10796" target="_blank">#10796</A>)
+<LI>NVDA annoncera le contenu du dialogue "Ouvrir avec" sous Windows 10 May 2020 Update. (<A HREF="https://github.com/nvaccess/nvda/issues/11335" target="_blank">#11335</A>)
+<LI>Une nouvelle option expérimentale dans les paramètres avancés (Activer l'enregistrement sélectif des évènements UI Automation et les changements de propriétés) peut apporter des améliorations majeures de performances dans Visual Studio et les autres applications basées sur UIA si activée. (<A HREF="https://github.com/nvaccess/nvda/issues/11077" target="_blank">#11077</A>, <A HREF="https://github.com/nvaccess/nvda/issues/11209" target="_blank">#11209</A>)
+<LI>Dans les listes avec éléments cochables, l'état "sélectionné" n'est plus annoncé systématiquement, et, le cas échéant, l'état "non sélectionné" est annoncé à la place. (<A HREF="https://github.com/nvaccess/nvda/issues/8554" target="_blank">#8554</A>)
+<LI>Sous Windows 10 May 2020 Update, NVDA affiche maintenant le mapeur de sons Microsoft lors de l'affichage des périphériques de sortie audio du dialogue Synthétiseurs. (<A HREF="https://github.com/nvaccess/nvda/issues/11349" target="_blank">#11349</A>)
+<LI>Sous Internet Explorer, les nombres sont maintenant annoncés correctement pour les listes ordonnées si la liste ne commence pas par 1. (<A HREF="https://github.com/nvaccess/nvda/issues/8438" target="_blank">#8438</A>)
+<LI>Sous Google Chrome, NVDA reporte maintenant l'état "non coché" pour tous les contrôles, pas seulement les cases à cocher, qui ne sont actuellement pas cochés. (<A HREF="https://github.com/nvaccess/nvda/issues/11377" target="_blank">#11377</A>)
+<LI>Il est à nouveau possible de naviguer dans différents contrôles si la langue de NVDA est définie sur l'aragonais. (<A HREF="https://github.com/nvaccess/nvda/issues/11384" target="_blank">#11384</A>)
+<LI>NVDA ne se figera plus par moment dans Microsoft Word lors du défilement rapide avec flèche haut/bas ou lors de la saisie de caractères avec le Braille activé. (<A HREF="https://github.com/nvaccess/nvda/issues/11431" target="_blank">#11431</A>, <A HREF="https://github.com/nvaccess/nvda/issues/11425" target="_blank">#11425</A>, <A HREF="https://github.com/nvaccess/nvda/issues/11414" target="_blank">#11414</A>)
+<LI>NVDA n'ajoute plus d'espace final inexistant lors de la copie de l'objet navigateur actuel vers le presse-papiers. (<A HREF="https://github.com/nvaccess/nvda/issues/11438" target="_blank">#11438</A>)
+<LI>NVDA n'active plus le profil dire tout s'il n'y a rien à lire. (<A HREF="https://github.com/nvaccess/nvda/issues/10899" target="_blank">#10899</A>, <A HREF="https://github.com/nvaccess/nvda/issues/9947" target="_blank">#9947</A>)
+<LI>NVDA n'est plus incapable de lire la liste des fonctionnalités Internet dans IIS (Internet informations service). (<A HREF="https://github.com/nvaccess/nvda/issues/11468" target="_blank">#11468</A>)
+<LI>NVDA garde maintenant le périphérique audio actif, améliorations des performances sur certaines cartes son. (<A HREF="https://github.com/nvaccess/nvda/issues/5172" target="_blank">#5172</A>, <A HREF="https://github.com/nvaccess/nvda/issues/10721" target="_blank">#10721</A>)
+<LI>NVDA ne se fige ou ne se quitte plus lors d'un appui prolongé de CTRL+Maj+Flèche basse dans Microsoft Word. (<A HREF="https://github.com/nvaccess/nvda/issues/9463" target="_blank">#9463</A>)
+<LI>L'état "développé"/"Réduit" des arborressances sur drive.google.com est maintenant tout le temps reporté par NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/11520" target="_blank">#11520</A>)
+<LI>NVDA détectera maintenant automatiquement l'afficheur Braille HumanWare NLSE en Bluetooth, son nom Bluetooth étant maintenant "NLS eReader Humanware". (<A HREF="https://github.com/nvaccess/nvda/issues/11561" target="_blank">#11561</A>)
+<LI>Améliorations majeures de performances sous Visual Studio Code. (<A HREF="https://github.com/nvaccess/nvda/issues/11533" target="_blank">#11533</A>)
+</UL>
+
+<H3>Changements pourr les Développeurs</H3>
+<UL>
+<LI>Dans les fonctions auxiliaires de création d'interface (GUI Helper), BoxSizerHelper.addDialogDismissButtons supporte un nouveau mot clé "separated", pour ajouter un séparateur horizontal standard aux dialogues (autre que les messages et simple dialogues d'entrée). (<A HREF="https://github.com/nvaccess/nvda/issues/6468" target="_blank">#6468</A>)
+<LI>Ajouts de propriétés aux modules applicatifs incluant le chemin de l'exécutable (appPath), est une application du Store (isWindowsStoreApp), et l'architecture de la machine pour l'application (appArchitecture). (<A HREF="https://github.com/nvaccess/nvda/issues/7894" target="_blank">#7894</A>)
+<LI>Il est maintenant possible de créer des modules pour les applications appartenant à wwahost.exe sous Windows 8 et suppérieur. (<A HREF="https://github.com/nvaccess/nvda/issues/4569" target="_blank">#4569</A>)
+<LI>Un fragment du log peut maintenant être délimité et copié vers le presse-papiers en utilisant NVDA+CTRL+Shift+F1. (<A HREF="https://github.com/nvaccess/nvda/issues/9280" target="_blank">#9280</A>)
+<LI>Les objets spécifiques à NVDA trouvés par le ramasse miettes cyclique de Python sont maintenant conservés lorsqu'ils permettent de supprimer les références cycliques de NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/11499" target="_blank">#11499</A>)
+ <UL>
+ <LI>La majorité des classes sont suivies notamment NVDAObjects, appModules, GlobalPlugins, SynthDrivers, et TreeInterceptors.
+ <LI>Une classe devant être suivie doit hériter de garbageHandler.TrackedObject.
+ </UL>
+<LI>Des évènements de débogage significatifs pour les évènements MSAA peuvent maintenant être activés dans les paramètres avancés de NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/11521" target="_blank">#11521</A>)
+<LI>Les événements MSAA winEvents pour l'objet ayant le focus ne sont plus filtrés comme d'autres événements si le nombre d'événements pour un thread donné est dépassé. (# 11520)
+</UL>
+
 <H2>2020.2</H2>
 <P>
 Les points forts de cette version incluent le support d'un nouvel afficheur Braille de Natiq nBraille, un meilleur support de l'antivirus Eset et de Windows Terminal, une amélioration des performances pour 1Password et le synthétiseur Windows OneCore, ainsi que beaucoup d'autres correctifs.
@@ -207,12 +288,12 @@ Bien que ces changements rendent incompatibles certaines extensions anciennes, l
 <LI>Les listes déroulantes ARIA 1.1 sont maintenant supportées sous Firefox et Chrome. (<A HREF="https://github.com/nvaccess/nvda/issues/9616" target="_blank">#9616</A>)
 <LI>NVDA n'annoncera plus le contenu des colonnes masquées visuellement pour les éléments de liste des contrôles SysListView32. (<A HREF="https://github.com/nvaccess/nvda/issues/8268" target="_blank">#8268</A>)
 <LI>Le dialogue de paramètres n'affiche plus le niveau de journalisation sur les écrans sécurisés. (<A HREF="https://github.com/nvaccess/nvda/issues/10209" target="_blank">#10209</A>)
-<LI>Dans le menu Démarrer de Windows 10 version anniversaire et supérieur, NVDA annonce maintenant le détail des résultats de recherche. (<A HREF="https://github.com/nvaccess/nvda/issues/10232" target="_blank">#10232</A>)
+<LI>Dans le menu Démarrer de Windows 10 version anniversaire et supérieur, NVDA annonce maintenant le détail des résultats de recherche. (<A HREF="https://github.com/nvaccess/nvda/issues/10340" target="_blank">#10340</A>)
 <LI>En mode navigation, si le déplacement du curseur ou l'utilisation de la navigation rapide entraîne la modification du document, NVDA n'indiquera plus un contenu incorrect dans certains cas. (<A HREF="https://github.com/nvaccess/nvda/issues/8831" target="_blank">#8831</A>, <A HREF="https://github.com/nvaccess/nvda/issues/10343" target="_blank">#10343</A>)
 <LI>Certains noms de puces dans Microsoft Word ont été corrigés. (<A HREF="https://github.com/nvaccess/nvda/issues/10399" target="_blank">#10399</A>)
 <LI>Dans la mise à jour de Mai de Windows 10 et supérieur, NVDA annonce maintenant correctement le premier emoji ou le premier élément dans l'historique du presse-papiers lorsque le paneau d'emoji et le dialogue d'historique du presse-papiers sont ouverts, respectivement. (<A HREF="https://github.com/nvaccess/nvda/issues/9204" target="_blank">#9204</A>)
 <LI>Dans Poedit, il est à nouveau possible de voir les traductions pour les langues se lisant de droite à gauche. (<A HREF="https://github.com/nvaccess/nvda/issues/9931" target="_blank">#9931</A>)
-<LI>Dans l'application Paramètres de la mise à jour de Windows 10 avril 2018 et ultérieure, NVDA n'annoncera plus les informations de la barre de progression de volume qui se trouve dans ll'onglet Système / Son. (<A HREF="https://github.com/nvaccess/nvda/issues/10284" target="_blank">#10284</A>)
+<LI>Dans l'application Paramètres de la mise à jour de Windows 10 avril 2018 et ultérieure, NVDA n'annoncera plus les informations de la barre de progression de volume qui se trouve dans ll'onglet Système / Son. (<A HREF="https://github.com/nvaccess/nvda/issues/10412" target="_blank">#10412</A>)
 <LI>Des expressions régulières invalides dans les dictionaires de parole n'entraînent plus l'arrêt complet de la parole. (<A HREF="https://github.com/nvaccess/nvda/issues/10334" target="_blank">#10334</A>)
 <LI>Quand on parcourt des éléments à puces dans Microsoft Word avec UIA activé, la puce de l'élément de liste suivant n'est plus indûment annoncée. (<A HREF="https://github.com/nvaccess/nvda/issues/9613" target="_blank">#9613</A>)
 <LI>Quelques rares erreurs de traduction Braille et erreurs avec Liblouis ont été résolues. (<A HREF="https://github.com/nvaccess/nvda/issues/9982" target="_blank">#9982</A>)

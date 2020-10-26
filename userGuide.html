@@ -3,9 +3,9 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Guide de l'utilisateur de NVDA 2020.2</TITLE>
+<TITLE>Guide de l'utilisateur de NVDA 2020.3</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2020.2</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2020.3</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -91,7 +91,7 @@
     </UL>
   <LI><A HREF="#Vision">9. Vision</A>
     <UL>
-    <LI><A HREF="#VisionFocusHighlight">9.1. Surlignage du Focus</A>
+    <LI><A HREF="#VisionFocusHighlight">9.1. Mise en évidence du Focus</A>
     <LI><A HREF="#VisionScreenCurtain">9.2. Le Rideau d'Écran</A>
     </UL>
   <LI><A HREF="#ContentRecognition">10. Reconnaissance de Contenu</A>
@@ -110,7 +110,7 @@
       <UL>
       <LI><A HREF="#ExcelAutomaticColumnAndRowHeaderReading">11.2.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</A>
       <LI><A HREF="#ExcelElementsList">11.2.2. La Liste d'Éléments</A>
-      <LI><A HREF="#ExcelReportingComments">11.2.3. Annonce des Commentaires</A>
+      <LI><A HREF="#ExcelReportingComments">11.2.3. Annonce des Notes</A>
       <LI><A HREF="#ExcelReadingProtectedCells">11.2.4. Lecture des Cellules Protégées</A>
       <LI><A HREF="#ExcelFormFields">11.2.5. Champs de Formulaire</A>
       </UL>
@@ -178,7 +178,7 @@
       <LI><A HREF="#incompatibleAddonsManager">13.5.1. Le Gestionnaire d'Extensions Incompatibles</A>
       </UL>
     <LI><A HREF="#CreatePortableCopy">13.6. Créer une copie portable</A>
-    <LI><A HREF="#RunCOMRegistrationFixingTool">13.7. Run COM registration fixing tool...</A>
+    <LI><A HREF="#RunCOMRegistrationFixingTool">13.7. Exécuter l'outil de correction d'enregistrements COM...</A>
     <LI><A HREF="#ReloadPlugins">13.8. Rechargement des Extensions</A>
     </UL>
   <LI><A HREF="#SupportedSpeechSynths">14. Synthétiseurs de Parole Pris en Charge</A>
@@ -257,7 +257,7 @@ Ses points forts sont :
 <LI>L'annonce des contrôles et du texte durant l'utilisation de gestes tactiles
 <LI>Le support des interfaces d'accessibilité communes telles que Microsoft Active Accessibility, Java Access Bridge, IAccessible2 et UI Automation
 <LI>Le support de l'invite de commandes Windows et des applications en mode console
-<LI>La possibilité de surligner le focus système
+<LI>La possibilité de mettre en évidence le focus système
 </UL>
 
 <P></P>
@@ -313,9 +313,7 @@ Pour les détails concernant les exceptions, veuillez consulter le document de l
  <LI>Pour Windows 7, NVDA requiert le Service Pack 1 ou au-delà.
  <LI>Pour Windows Server 2008 R2, NVDA requiert le Service Pack 1 ou au-delà.
  </UL>
-<LI>Mémoire : 256 Mo de RAM ou plus.
-<LI>Vitesse processeur : 1.0 GHz ou plus.
-<LI>Environ 90 MO d'espace disque.
+<LI>Au moins 150 MO d'espace mémoire.
 </UL>
 
 <P></P>
@@ -493,8 +491,10 @@ Si votre ordinateur portable ne peut pas le faire ou ne vous permet pas de désa
 <H3>4.3. Gestes Tactiles de NVDA</H3>
 <P>
 Si vous utilisez NVDA sur un système possédant un écran tactile, et utilisant Windows 8 ou supérieur, vous pouvez aussi contrôler NVDA directement via l'écran tactile.
-Tant que NVDA est actif, toutes les manipulations sur l'écran tactile vont directement à NVDA.
+Tant que NVDA est actif, à moins que le support de l'interaction tactile soit désactivée, toutes les manipulations sur l'écran tactile vont directement à NVDA.
 Ainsi, toutes les actions qui peuvent être faites normalement sans NVDA ne fonctionneront pas.
+Pour activer/désactiver le support d'interaction tactile, pressez NVDA+contrôle+alt+t.
+Vous pouvez aussi activer ou désactiver le <A HREF="#TouchSupportEnable">support d'interaction tactile</A> depuis la catégorie Interaction Tactile des paramètres de NVDA.
 </P>
 <A NAME="ExploringTheScreen"></A>
 <H4>4.3.1. Explorer l'Écran</H4>
@@ -589,6 +589,13 @@ Quand le menu apparaît, vous pouvez utiliser les flèches pour naviguer dans le
 <TH>Ordinateur portable</TH>
 <TH>Tactile</TH>
 <TH>Description</TH>
+</TR>
+<TR>
+<TD>Démarrer ou redémarrer NVDA</TD>
+<TD>Contrôle+alt+n</TD>
+<TD>Contrôle+alt+n</TD>
+<TD>aucun</TD>
+<TD>Démarre ou redémarre NVDA depuis le bureau, si ce raccourci Windows est activé durant le processus d'installation de NVDA. Ceci est un raccourci spécifique à Windows et de ce fait il ne peut être réassigné dans le dialogue gestes de commandes.</TD>
 </TR>
 <TR>
 <TD>Arrêt parole</TD>
@@ -693,7 +700,7 @@ Par exemple, si vous tapez du texte dans une zone d'édition, cette zone d'édit
 <P>
 La manière la plus commune de naviguer dans Windows avec NVDA, est de simplement se déplacer avec des commandes clavier normales, comme "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les contrôles, "Alt" pour aller au menu puis "Flèches" pour naviguer dans les menus, utiliser "Alt+Tabulation" pour passer d'une application à l'autre. Cela déplace le focus système, c'est-à-dire l'objet qui reçoit les touches que vous tapez au clavier.
 Quand vous faites cela, NVDA donne des informations sur l'objet ayant le focus, telles que son nom, son type, son état, sa valeur, sa description, son raccourci clavier et sa position.
-Quand le <A HREF="#VisionFocusHighlight">Surlignage du Focus</A> est activé, la position du focus système courant est également présentée visuellement.
+Quand la <A HREF="#VisionFocusHighlight">Mise en évidence du Focus</A> est activée, la position du focus système courant est également présentée visuellement.
 </P>
 <P>
 Quelques touches de commandes utiles pour naviguer avec le focus :
@@ -770,6 +777,12 @@ NVDA fournit les commandes clavier suivantes relatives au curseur système :
 <TD>Lit tout le texte actuellement sélectionné</TD>
 </TR>
 <TR>
+<TD>Annoncer la mise en forme du texte</TD>
+<TD>NVDA+f</TD>
+<TD>NVDA+f</TD>
+<TD>annonce la mise en forme du texte à la position actuelle du curseur. Un double appui présente l'information en mode navigation</TD>
+</TR>
+<TR>
 <TD>Phrase suivante</TD>
 <TD>alt+flècheBas</TD>
 <TD>alt+flècheBas</TD>
@@ -839,7 +852,7 @@ De la même manière, une barre d'outils contient des contrôles, vous devrez do
 <P>
 L'objet en cours de revue s'appelle l'objet navigateur.
 Quand vous atteignez un objet, vous pouvez examiner son contenu en utilisant les <A HREF="#ReviewingText">commandes de revue de texte</A> en étant en <A HREF="#ObjectReview">mode Revue d'objet</A>.
-Quand le <A HREF="#VisionFocusHighlight">Surlignage du Focus</A> est activé, la position du focus système courant est également présentée visuellement.
+Quand la <A HREF="#VisionFocusHighlight">Mise en évidence du Focus</A> est activée, la position du focus système courant est également présentée visuellement.
 Par défaut, l'objet navigateur suit le focus système, mais ce comportement peut être désactivé.
 </P>
 <P>
@@ -1070,11 +1083,11 @@ Vous disposez des commandes suivantes pour explorer du texte :
 <TD>Amène le curseur de revue à la position préalablement définiee comme marqueur de début de copie</TD>
 </TR>
 <TR>
-<TD>Annonce du formatage du texte</TD>
-<TD>NVDA+f</TD>
-<TD>NVDA+f</TD>
+<TD>Annoncer la mise en forme du texte</TD>
+<TD>NVDA+maj+f</TD>
+<TD>NVDA+maj+f</TD>
 <TD>Aucun</TD>
-<TD>Annonce le formatage du texte à la position du curseur de revue. Un double appui affiche l'information en mode navigation</TD>
+<TD>Annonce la mise en forme du texte à la position du curseur de revue. Un double appui affiche l'information en mode navigation</TD>
 </TR>
 <TR>
 <TD>Annonce le remplacement du symbole courant</TD>
@@ -1275,8 +1288,8 @@ Le mode navigation est aussi disponible en option pour les documents Microsoft W
 </P>
 <P>
 Le mode navigation offre une représentation platement textuelle du document dans laquelle on peut se déplacer avec les flèches de navigation. 
-Dans ce mode, toutes les touches de commandes du <A HREF="#SystemCaret">mode curseur</A> fonctionneront (ex : dire tout, annonce du formatage, touches de navigation dans les tableaux etc.).
-Quand le <A HREF="#VisionFocusHighlight">Surlignage du Focus</A> est activé, la position du curseur virtuel de mode navigation est également présentée visuellement.
+Dans ce mode, toutes les touches de commandes du <A HREF="#SystemCaret">mode curseur</A> fonctionneront (ex : dire tout, annonce de la mise en forme, touches de navigation dans les tableaux etc.).
+Quand la <A HREF="#VisionFocusHighlight">Mise en évidence du Focus</A> est activée, la position du curseur virtuel de mode navigation est également présentée visuellement.
 Des informations indiquant si le texte est un lien, un titre etc., sont annoncées avec le texte pendant que vous vous déplacez.
 </P>
 <P>
@@ -1761,6 +1774,10 @@ Dans le but de loger autant d'informations que possible sur un afficheur braille
 <TD>⠤⠤⠤⠤⠤</TD>
 <TD>séparateur</TD>
 </TR>
+<TR>
+<TD>mrq</TD>
+<TD>contenu marqué</TD>
+</TR>
 </TABLE>
 
 <P>
@@ -1934,21 +1951,21 @@ Des services d'amélioration visuelle additionnels peuvent être apportés dans 
 Les paramètres de vision de NVDA peuvent être modifiés dans la <A HREF="#VisionSettings">catégorie vision</A> du dialogue <A HREF="#NVDASettings">Paramètres NVDA</A>.
 </P>
 <A NAME="VisionFocusHighlight"></A>
-<H3>9.1. Surlignage du Focus</H3>
+<H3>9.1. Mise en évidence du Focus</H3>
 <P>
-Le Surlignage du Focus peut aider à identifier la position du <A HREF="#SystemFocus">focus système</A>, de <A HREF="#ObjectNavigation">l'objet navigateur</A> et du <A HREF="#BrowseMode">mode navigation</A>.
-Ces positions sont surlignées avec un contour rectangulaire coloré.
+La mise en évidence du Focus peut aider à identifier la position du <A HREF="#SystemFocus">focus système</A>, de <A HREF="#ObjectNavigation">l'objet navigateur</A> et du <A HREF="#BrowseMode">mode navigation</A>.
+Ces positions sont mises en évidence avec un contour rectangulaire coloré.
 </P>
 <UL>
-<LI>Le bleu continu surligne la position d'un objet navigateur combiné au focus système (ex : lorsque <A HREF="#ReviewCursorFollowFocus">l'objet navigateur suit le curseur système</A>).
-<LI>Le bleu pointillé surligne juste l'objet ayant le focus système.
-<LI>Le rose continu surligne juste l'objet navigateur.
-<LI>Le jaune continu surligne le curseur virtuel utilisé en mode navigation (quand il n'y a pas de curseur physique comme dans les navigateurs web).
+<LI>Le bleu continu indique la position d'un objet navigateur combiné au focus système (ex : lorsque <A HREF="#ReviewCursorFollowFocus">l'objet navigateur suit le curseur système</A>).
+<LI>Le bleu pointillé indique juste l'objet ayant le focus système.
+<LI>Le rose continu indique juste l'objet navigateur.
+<LI>Le jaune continu indique le curseur virtuel utilisé en mode navigation (quand il n'y a pas de curseur physique comme dans les navigateurs web).
 </UL>
 
 <P></P>
 <P>
-Quand le surlignage du focus est activé dans la <A HREF="#VisionSettings">catégorie vision</A> du dialogue <A HREF="#NVDASettings">Paramètres de NVDA</A>, vous pouvez <A HREF="#VisionSettingsFocusHighlight">choisir de surligner ou non le focus, l'objet navigateur ou le curseur du mode navigation</A>.
+Quand la mise en évidence du focus est activée dans la <A HREF="#VisionSettings">catégorie vision</A> du dialogue <A HREF="#NVDASettings">Paramètres de NVDA</A>, vous pouvez <A HREF="#VisionSettingsFocusHighlight">choisir de mettre en évidence ou non le focus, l'objet navigateur ou le curseur du mode navigation</A>.
 </P>
 <A NAME="VisionScreenCurtain"></A>
 <H3>9.2. Le Rideau d'Écran</H3>
@@ -2105,22 +2122,29 @@ La sélection d'un champ de formulaire et l'appui sur entrée ou le bouton Aller
 
 <P></P>
 <A NAME="ExcelReportingComments"></A>
-<H4>11.2.3. Annonce des Commentaires</H4>
+<H4>11.2.3. Annonce des Notes</H4>
 <P>
-Pour annoncer tout commentaire pour la cellule actuellement en focus, pressez NVDA+alt+c.
-Tous les commentaires de la feuille de calcul peuvent aussi être listés dans la liste d'éléments de NVDAaprès appui sur NVDA+f7.
+Pour annoncer toute note pour la cellule actuellement en focus, pressez NVDA+alt+c.
+Sous Microsoft 2016, 365 et plus récents, les commentaires classiques sous Microsoft Excel ont été renommés en "notes".
+Toutes les notes de la feuille de calcul peuvent aussi être listés dans la liste d'éléments de NVDAaprès appui sur NVDA+f7.
 </P>
 <P>
-NVDA peut aussi afficher un dialogue spécifique pour ajouter ou éditer un commentaire particulier.
-NVDA remplace la zone d'édition de commentaire originale de MS Excel en raison de contraintes d'accessibilité, mais le raccourci clavier pour afficher le dialogue est hérité de MS Excel et fonctionne aussi sans que NVDA soit actif.
-Pour ajouter ou éditer un commentaire, dans une cellule en focus, pressez maj+f2.
+NVDA peut aussi afficher un dialogue spécifique pour ajouter ou éditer une note particulière.
+NVDA remplace la zone d'édition de note originale de MS Excel en raison de contraintes d'accessibilité, mais le raccourci clavier pour afficher le dialogue est hérité de MS Excel et fonctionne aussi sans que NVDA soit actif.
+Pour ajouter ou éditer une note, dans une cellule en focus, pressez maj+f2.
 </P>
 <P>
 Ce raccourci n'apparaît pas et ne peut être remplacé dans le dialogue Geste de Commandes de NVDA.
 </P>
 <P>
-Note : il est également possible d'ouvrir la zone d'édition de commentaire de MS Excel par le menu contextuel de n'importe quelle cellule de la feuille de calcul.
-Cependant, cela ouvrira la zone d'édition de commentaire inaccessible et non le dialogue spécifique d'édition de commentaire de NVDA.
+Note : il est également possible d'ouvrir la zone d'édition de note de MS Excel par le menu contextuel de n'importe quelle cellule de la feuille de calcul.
+Cependant, cela ouvrira la zone d'édition de note inaccessible et non le dialogue spécifique d'édition de commentaire de NVDA.
+</P>
+<P>
+Sous Microsoft Office 2016, 365 et plus récents, un nouveau genre de dialogue de commentaire a été ajouté.
+Ce dialogue est accessible et apporte plus de fonctionnalités telles que la réponse aux commentaires, etc.
+Il peut aussi être ouvert depuis le menu contextuel d'une cellule.
+Les commentaires ajoutés au cellules via le nouveau dialogue de commentaire ne sont pas liés aux "notes".
 </P>
 <A NAME="ExcelReadingProtectedCells"></A>
 <H4>11.2.4. Lecture des Cellules Protégées</H4>
@@ -2409,6 +2433,7 @@ Les niveaux de journalisation disponibles sont :
  </UL>
 </UL>
 
+<P></P>
 <A NAME="GeneralSettingsStartAfterLogOn"></A>
 <H5>Démarrer NVDA automatiquement après ma connexion à Windows</H5>
 <P>
@@ -2711,8 +2736,9 @@ Vous pouvez vous déplacer de table en table en utilisant les flèches.
 Notez que cette option n'est utile que si votre afficheur braille dispose d'un clavier Perkins et que le pilote de celui-ci supporte cette fonctionnalité.
 Si la saisie n'est pas supportée par un afficheur qui dispose d'un clavier Perkins, cela sera noté dans la section <A HREF="#SupportedbrailleDisplays">Afficheurs braille Supportés</A>.
 </P>
+<A NAME="BrailleSettingsExpandToComputerBraille"></A>
+<H5>Afficher le mot sous le curseur en braille informatique</H5>
 <P>
-==== Afficher le mot sous le curseur en braille informatique ==== [BrailleSettingsExpandToComputerBraille]
 Cette option permet d'afficher le mot sous le curseur en intégral.
 </P>
 <A NAME="BrailleSettingsShowCursor"></A>
@@ -2750,6 +2776,7 @@ L'indicateur de sélection n'est pas affecté par cette option, c'est toujours l
 <P>
 Cette option est un champ numérique qui contrôle la durée en secondes d'affichage des messages système sur le terminal braille.
 Indiquer 0 désactive l'affichage de ces messages.
+Le message de NVDA est immédiatement supprimé à l'appui d'une touche de routage curseur sur l'afficheur braille, mais réapparaît à l'appui d'une touche correspondante qui déclenche le message.
 </P>
 <A NAME="BrailleSettingsNoMessageTimeout"></A>
 <H5>Afficher les Messages Indéfiniment</H5>
@@ -2877,22 +2904,22 @@ Notez que les options disponibles dans cette catégorie pourraient être étendu
 Par défaut, cette catégorie de paramètres contient les options suivantes :
 </P>
 <A NAME="VisionSettingsFocusHighlight"></A>
-<H5>Surlignage du Focus</H5>
+<H5>Mise en évidence du Focus</H5>
 <P>
-Les cases à cocher du groupe Surlignage du Focus contrôlent le comportement de la fonctionnalité interne de <A HREF="#VisionFocusHighlight">Surlignage du Focus</A>de NVDA.
+Les cases à cocher du groupe Mettre en évidence le Focus contrôlent le comportement de la fonctionnalité interne de <A HREF="#VisionFocusHighlight">Mise en évidence du Focus</A>de NVDA.
 </P>
 <UL>
-<LI>Activer le surlignage : Active/désactive le surlignage du focus.
-<LI>Surligner le focus système : définit si le <A HREF="#SystemFocus">focus système</A> sera surligné.
-<LI>Surligner l'objet navigateur : définit si <A HREF="#ObjectNavigation">l'objet navigateur</A> sera surligné.
-<LI>Surligner le curseur du mode navigation : Définit si le <A HREF="#BrowseMode">Curseur virtuel du mode navigation</A> sera surligné.
+<LI>Activer la mise en évidence: Active/désactive la mise en évidence du focus.
+<LI>Mettre en évidence le focus système : définit si le <A HREF="#SystemFocus">focus système</A> sera mis en évidence.
+<LI>Mettre en évidence l'objet navigateur : définit si <A HREF="#ObjectNavigation">l'objet navigateur</A> sera mis en évidence.
+<LI>Mettre en évidence le curseur du mode navigation : Définit si le <A HREF="#BrowseMode">Curseur virtuel du mode navigation</A> sera mis en évidence.
 </UL>
 
 <P></P>
 <P>
-Notez que cocher ou décocher la case "Activer le Surlignage" changera également l'état des trois autres cases à cocher  en conséquence.
-Ainsi, si "Activer le Surlignage" n'est pas cochée et que vous la cochez, les trois autres cases seront cochées automatiquement.
-Si vous voulez surligner seulement le focus et laisser les cases objet navigateur et mode navigation non cochées, l'état de la case "Activer le Surlignage" sera semicoché.
+Notez que cocher ou décocher la case "Activer la Mise en évidence" changera également l'état des trois autres cases à cocher  en conséquence.
+Ainsi, si "Activer la Mise en évidence" n'est pas cochée et que vous la cochez, les trois autres cases seront cochées automatiquement.
+Si vous voulez mettre en évidence seulement le focus et laisser les cases objet navigateur et mode navigation non cochées, l'état de la case "Activer la mise en évidence" sera semicoché.
 </P>
 <A NAME="VisionSettingsScreenCurtain"></A>
 <H5>Le Rideau d'Écran</H5>
@@ -3065,6 +3092,14 @@ Si vous cochez cette option et que l'option "suivi de la souris" est activée, N
 Cette catégorie, disponible seulement sur un ordinateur exécutant Windows 8 et au-delà et possédant des capacités tactiles, vous permet de configurer la manière dont NVDA interagit avec l'écran tactile.
 Elle contient les options suivantes :
 </P>
+<A NAME="TouchSupportEnable"></A>
+<H5>Activer le support d'interaction tactile</H5>
+<P>
+Cette case à cocher active le support d'interaction tactile de NVDA.
+Quand il est activé, vous pouvez utiliser vos doigts pour naviguer et interagir avec les éléments sur l'écran en utilisant un écran tactile.
+Quand il est désactivé, le support d'écran tatile est désactivé tant que NVDA est en cours d'exécution.
+Ce paramètre peut aussi être activé/désactivé en utilisant NVDA+contrôle+alt+t. 
+</P>
 <A NAME="TouchTypingMode"></A>
 <H5>Mode de frappe tactile</H5>
 <P>
@@ -3129,6 +3164,7 @@ Quand cette case est cochée, NVDA annonce les bulles d'aide et les notification
 <LI>Les notifications d'invitation ont été introduites dans Windows 10 et apparaissent dans le centre de notification  dans la barre d'état système, informant sur divers événements (ex : une mise à jour a été téléchargée, un ouveau courriel est arrivé dans votre boîte de réception, etc.).
 </UL>
 
+<P></P>
 <A NAME="ObjectPresentationShortcutKeys"></A>
 <H5>Annoncer les raccourcis clavier des objets</H5>
 <P>
@@ -3319,6 +3355,18 @@ Activée par défaut, cette option vous permet de choisir si des gestes (tels qu
 Par exemple, si l'option est activée, si la lettre j est pressée, elle sera interceptée pour ne pas atteindre le document, même si ce n'est ni une touche de navigation rapide ni une commande dans l'application elle-même.
 Dans ce cas NVDA demandera à Windows de jouer un son par défaut quand une touche interceptée est pressée.
 </P>
+<A NAME="BrowseModeSettingsAutoFocusFocusableElements"></A>
+<H5>Amener automatiquement le focus système aux éléments focalisables</H5>
+<P>
+touche : NVDA+8
+</P>
+<P>
+Désactivée par défaut, cette option vous permet de choisir si le focus système doit être automatiquement positionné aux éléments pouvant prendre le focus système (liens, champs de saisie, etc.) quand on parcourt le contenu avec le curseur de mode navigation.
+Laisser cette option désactivée ne focalisera pas automatiquement les éléments focalisables quand ils seront sélectionnés avec le curseur du mode navigation.
+Cela pourrait apporter une expérience de navigation plus rapide et une meilleure réactivité en mode navigation.
+Le focus sera alors mis à jour lors d'une interaction avec un élément particulier (ex : l'appui d'un bouton, le cochage d'une case à cocher).
+Activer cette option peut améliorer le support de quelques sites web au détriment de la performance et de la stabilité.
+</P>
 <A NAME="DocumentFormattingSettings"></A>
 <H4>12.1.15. Mise en Forme des Documents (NVDA+contrôle+d)</H4>
 <P>
@@ -3337,6 +3385,7 @@ On peut configurer les annonces suivantes :
  <LI>Attributs de la police,
  <LI>Exposants et indices
  <LI>Emphase
+ <LI>Marqué (texte surligné)
  <LI>Style
  <LI>Couleurs
  </UL>
@@ -3366,6 +3415,7 @@ On peut configurer les annonces suivantes :
  <UL>
  <LI>Titres
  <LI>Liens
+ <LI>Graphiques
  <LI>Listes
  <LI>Citations
  <LI>Groupes
@@ -3450,6 +3500,15 @@ Si vous voulez distribuer du code spécifique à d'autres personnes, vous devrie
 Ce bouton ouvre le répertoire où vous pouvez placer le code personnalisé que vous êtes en train de développer.
 Ce bouton n'est disponible que si NVDA est configuré pour permettre le chargement de code personnalisé depuis le répertoire Bloc-notes du développeur.
 </P>
+<A NAME="AdvancedSettingsSelectiveUIAEventRegistration"></A>
+<H5>Activer l'enregistrement sélectif pour les événements UI Automation et les changements de propriétés</H5>
+<P>
+Cette option change la façon dont NVDA enregistre les événements déclenchés par l'API d'accessibilité UI Automation de Microsoft.
+Quand cette option est désactivée, NVDA enregistre beaucoup dévénements UIA qui sont traités puis supprimés par NVDA lui-même.
+Ceci a un impact négatif majeur sur les performances, en particulier dans les applications telles que Microsoft Visual Studio.
+En revanche, quand cette option est activée, NVDA limitera l'enregistrement des événements au focus système pour la plupart des événements.
+Si vous rencontrez des problèmes de performances dans une ou plusieurs applications, nous vous recommandons d'essayer cette fonctionnalité pour voir si les performances s'améliorent.
+</P>
 <A NAME="AdvancedSettingsUseUiaForWord"></A>
 <H5>Utiliser UI automation pour accéder aux contrôles des documents Microsoft Word quand disponible</H5>
 <P>
@@ -3484,19 +3543,6 @@ Dans les environnement non sûrs, vous pouvez désactiver temporairement <A HREF
 Cette option active un comportement qui tente d'interrompre la parole pour les événements de focus expirés.
 En particulier se déplacer rapidement parmi les messages dans Gmail sous Chrome peut amener NVDA à annoncer des informations périmées.
 Cette fonctionnalité est expérimentale sous NVDA 2020.2.
-</P>
-<A NAME="BrowseModeSettingsAutoFocusFocusableElements"></A>
-<H5>Positionner automatiquement le focus système aux éléments susceptibles d'être mis en focus en mode navigation</H5>
-<P>
-Touche : NVDA+8
-</P>
-<P>
-Activée par défaut, cette option vous permet de choisir si le focus système doit automatiquement être amené aux éléments qui peuvent prendre le focus système (liens, champs de formulaire, etc.) quand vous parcourez un contenu avec le curseur du mode navigation.
-Quand elle est activée, c'est le comportement par défaut de NVDA 2019.1 et des versions précédentes.
-Quand elle est désactivée, les éléments "focussables" ne seront pas automatiquement mis en focus quand ils seront sélectionnés avec le curseur de mode navigation.
-Cela peut résulter en une expérience de navigation plus rapide et une meilleure réactivité en mode navigation.
-Le focus est toujours mis à jour pour un élément donné quand on interagit avec lui (par exemple quand on presse un bouton, quand on coche une case à cocher).
-Cette fonctionnalité est expérimentale jusqu'à NVDA 2019.2.
 </P>
 <A NAME="AdvancedSettingsCaretMoveTimeout"></A>
 <H5>Délai d'attente de mouvement du curseur (en ms)</H5>
@@ -3561,7 +3607,8 @@ Ainsi, en utilisant l'exemple précédent de remplacement du mot "oiseau" par le
 </P>
 <P>
 Une expression régulière est un modèle contenant des symboles particuliers vous permettant de trouver une correspondance sur plus d'un caractère à la fois, ou seulement sur les lettres ou les chiffres etc. 
-Les expressions régulières ne sont pas expliquées dans ce manuel, mais on trouve, sur le web, beaucoup de tutoriels qui vous donneront plus d'informations.
+Les expressions régulières ne sont pas expliquées dans ce manuel.
+Pour un tutoriel d'introduction, veuillez consulter [<A HREF="https://docs.python.org/3.7/howto/regex.html">https://docs.python.org/3.7/howto/regex.html</A>].
 </P>
 <A NAME="SymbolPronunciation"></A>
 <H4>12.2.2. Prononciation des Ponctuations et symboles</H4>
@@ -3627,6 +3674,24 @@ Dans ce cas, un menu apparaît, vous permettant de sélectionner l'option désir
 <P>
 Pour supprimer un geste d'une commande, sélectionnez le geste et appuyez sur le bouton "Supprimer".
 </P>
+<P>
+La catégorie Touches émulées du clavier système contient des commandes NVDA qui émulent des touches sur le clavier du système.
+Ces touches émulées du clavier système peuvent être utilisées pour contrôler une touche du système directement depuis votre terminal braille.
+Pour ajouter un geste d'émulation, sélectionnez la catégorie Touches émulées du clavier système et pressez le bouton Ajouter.
+Puis, pressez sur le clavier la touche que vous voulez émuler.
+Après ça, la touche sera disponible dans la catégorie Touche émulées du clavier système et vous pourrez lui assigner un geste de commande comme décrit plus haut.
+</P>
+<P>
+Note :
+</P>
+ <UL>
+ <LI>Les touches émulées doivent avoir un geste assigné pour persister lors de la sauvegarde ou de la fermeture du dialogue.
+ <LI>Un geste de commande avec modificateur peut ne pas pouvoir êttre assigné à un geste émulé sans modificateur
+ Par exemple, définir le 'a' comme touche émulée et configurer un geste de commande 'ctrl+m', peut avoir comme résultat
+ que l'application reçoit 'ctrl+a'.
+ </UL>
+
+<P></P>
 <P>
 Lorsque vous avez terminé vos modifications, appuyez sur le bouton "OK" pour les sauvegarder ou sur le bouton "Annuler" pour les ignorer.
 </P>
@@ -3948,25 +4013,25 @@ Dans ce dialogue vous pourrez activer ou désactiver ce qui suit :
 
 <P></P>
 <A NAME="RunCOMRegistrationFixingTool"></A>
-<H3>13.7. Run COM registration fixing tool...</H3>
+<H3>13.7. Exécuter l'outil de correction d'enregistrements COM...</H3>
 <P>
-Installing and uninstalling programs on a computer can, in certain cases, cause COM DLL files to get unregistered.
-As COM Interfaces such as IAccessible depend on correct COM DLL registrations, issues can appear in case the correct registration is missing.
+Installer et désinstaller des programmes sur un ordinateur peut, dans certains cas, causer le désenregistrement des fichiers DLL COM.
+Comme les interfaces COM tels que IAccessible dépendent de l'enregistrement correct des DLL COM, des problèmes peuvent apparaître en cas d'absence d'enregistrement de celles-ci.
 </P>
 <P>
-This can happen i.e. after installing and uninstalling Adobe Reader, Math Player and other programs.
+Cela peut survenir par exemple après installation et désinstallation d'Adobe Reader, Math Player et autres programmes.
 </P>
 <P>
-The missing registration can cause issues in browsers, desktop apps, task bar and other interfaces.
+Les enregistrements manquants peuvent causer des problèmes dans les navigateurs, les applications de bureau, barre des tâches et autres interfaces.
 </P>
 <P>
-Specifically, following issues can be solved by running this tool:
+Spécifiquement, Les problèmes suivants peuvent être réglés par l'exécution de cet outil :
 </P>
 <UL>
-<LI>NVDA reports "unknown" when navigating in browsers such as Firefox, Thunderbird etc.
-<LI>NVDA fails to switch between focus mode and browse mode
-<LI>NVDA is very slow when navigating in browsers while using browse mode
-<LI>And possibly other issues.
+<LI>NVDA annonce "inconnu" en navigation avec des navigateurs tels que Firefox, Thunderbird etc.
+<LI>NVDA échoue à basculer entre mode formulaire et mode navigation.
+<LI>NVDA est très lent dans les navigateurs en mode navigation.
+<LI>Et possiblement d'autres problèmes.
 </UL>
 
 <P></P>
@@ -4785,6 +4850,7 @@ Les terminaux suivants sont également supportés (et ne nécessitent aucun pilo
 <LI>NLS eReader
 </UL>
 
+<P></P>
 <P>
 Voici les assignations de touches pour Brailliant BI/B et BrailleNote touch sous NVDA.
 Veuillez consulter la documentation du terminal pour savoir où se situent ces touches.
