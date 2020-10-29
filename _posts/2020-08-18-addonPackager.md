@@ -10,7 +10,7 @@ Coucou mes amis du blog de BlindHelp!
 Voici l'empaqueteuse d'extensions pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
 Je viens de le traduire en français et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
 
-* Auteur: <span lang="es">Héctor Benítez</span>    
+* Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
 * Version actuelle: 0.4    
 * Compatibilité avec NVDA: de 2019.3 à 2020.2    
 Langues: Anglais, Espagnol, Français et Portugais du Portugal & Brésil    
@@ -82,7 +82,7 @@ Comme je le mentionne ce qui est presque improbable, mais soyez prévenus et cec
 
 ---
 
-Mille merci à notre ami Héctor <span lang="es">Héctor Benítez</span> pour l'avoir partagé avec nous tous! :)    
+Mille merci à notre ami <span lang="es">Héctor J. Benítez Corredera</span> pour l'avoir partagé avec nous tous! :)    
 Profitez de l'extension Empaqueteuse d'extensions pour NVDA!    
 @+    
 BlindHelp!    
