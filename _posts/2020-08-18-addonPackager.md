@@ -4,17 +4,35 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Mardi 18 Août 2020</footer>
+<footer>Publié le Mardi 18 Août 2020, dernière mise à jour le Dimanche 8 Novembre 2020</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici l'empaqueteuse d'extensions pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
 Je viens de le traduire en français et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
 
+# journal des changements #
+
+# Version 0.6 #
+
+Eh bien dans cette version 0.6 le seul changement est que l'auteur a optimisé le code pour ne pas avoir besoin de bibliothèque externe pubsub.    
+Cela signifie plusieurs choses, d'abord que la taille de l'extension est réduite considérablement c'est-à-dire elle va de 100K à juste 35k.    
+En plus l'extension n'a plus besoin d'une bibliothèque externe à NVDA elle est donc maintenant plus efficace et robuste.    
+Maintenant oui l'auteur peut  dire que l'extension  est 100% NVDA.    
+Eh bien au niveau de l'utilisateur ce changement ne peut pas être perceptible, mais l'auteur nous a dit que en tant que programmeur pour lui c'est très important d'avoir obtenu que l'extension utilise uniquement les bibliothèques de NVDA.    
+Je vous laisse le lien direct vers la version 0.6 plus bas.    
+
+# Version 0.4 #
+
+* Ajouté diverses traductions Français et Portugais du Portugal & Brésil.    
+* Version initiale.    
+
+---
+
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 0.4    
+* Version actuelle: 0.6    
 * Compatibilité avec NVDA: de 2019.3 à 2020.2    
 Langues: Anglais, Espagnol, Français et Portugais du Portugal & Brésil    
-* [Télécharger](https://blindhelp.github.io/addonPackager-0.4.nvda-addon)    
+* [Télécharger](https://nvda.es/files/get.php?file=addonpackager)    
 
 ---
 
