@@ -72,7 +72,7 @@ Ceci est affiché lorsque tous les composants de ladite langue sont installés, 
 `Français (France) - Module linguistique installé; Conversion de texte par synthèse vocale installée; Reconnaissance vocale installée; Écriture manuscrite installé; La saisie de base est installée avec les vérificateurs d’orthographe et les dictionnaires disponibles.`    
 `Espagnol (Espagne) - Module linguistique installé; Conversion de texte par synthèse vocale installée; Reconnaissance vocale installée; Écriture manuscrite installé; La saisie de base est installée avec les vérificateurs d’orthographe et les dictionnaires disponibles.`    
 `Anglais (États-Unis) - Module linguistique installé; Conversion de texte par synthèse vocale installée; Reconnaissance vocale installée; Écriture manuscrite installé; La saisie de base est installée avec les vérificateurs d’orthographe et les dictionnaires disponibles.`    
-Si vous n'avez aucune langue configurée, cela est affiché comme suit:
+Si vous n'avez aucune langue configurée, cela est affiché comme suit:    
 `Espagnol (Espagne) - Module linguistique disponible`    
 `Anglais (États-Unis) - Module linguistique disponible`    
 Bien sûr, je ne met pas la langue en français sur cette liste parce que  cela est déjà configuré par défaut avec mon PC.    
@@ -129,7 +129,7 @@ Pour nous sera la langue en Français.
 Pour configurer le synthétiseur aller dans la catégorie Parole (NVDA+contrôle+v)    
 La catégorie "Parole" dans le dialogue Paramètres de NVDA, contient des options vous permettant de changer le synthétiseur vocal ainsi que les caractéristiques de la voix.    
 La première option dans la catégorie Parole est le bouton Changer... Ce bouton active le dialogue Choisir le Synthétiseur qui vous permet de choisir le synthétiseur actif et le périphérique de sortie. Ce dialogue s'ouvre par-dessus le dialogue Paramètres. Sauvegarder ou annuler les paramètres dans le dialogue de choix du synthétiseur vous ramènera au dialogue Paramètres.     
-Vous pouvez aussi ouvrir cette  boîte de dialogue appelée "Choisir le synthétiseur" en appuyant sur NVDA+contrôle+s    
+Vous pouvez aussi ouvrir cette  boîte de dialogue appelée "Choisir le synthétiseur" en appuyant sur NVDA+contrôle+s.    
 Donc, une fois ouverte vous devez appuyer sur:    
 `Changer... bouton Alt+c`    
 Dans notre cas, nous devons choisir le synthétiseur nommé:    
@@ -163,7 +163,7 @@ Note: Vous devez cocher une de ces deux cases à cocher, qui ne sont pas cochée
 
 Une fois terminé, faire plusieurs fois Tab jusqu'au bouton OK puis appuyer sur lui.    
 
-Sans oubliez d'appuyez sur l'option "Sauvegarder la configuration", depuis le menu NVDA, ou plus rapidement, en appuyant sur NVDA +Ctrl +C.    
+Sans oubliez d'appuyez sur l'option "Sauvegarder la configuration", depuis le menu NVDA, ou plus rapidement, en appuyant sur NVDA+contrôle+c.    
 
 Maintenant, vous devrez paramétrer la voix secondaire dans l'extension Dual Voice pour NVDA, pour cela, vous devez aller dans le menu NVDA ou appuyez sur NVDA+n, ensuite vous devez trouver l'élément intitulé:    
 `Dual voice sous-menu v`    
@@ -204,7 +204,7 @@ Quand elle est cochée,verbalise tous les chiffres et ponctuations trouvés dans
 En tout cas selon mon test lorsque la suivante option n'est pas coché:    
 `Use the secondary voice for reading Latin text instead of non-Latin. case à cocher non coché Alt+u`    
 Utilisez la voix secondaire pour la lecture de texte latin au lieu de non-latin.    
-La voix primaire verbalise seulement le texte puis la voix secondaire verbalise tous les chiffres et ponctuations trouvés dans le texte avec la voix secondaire configuré, si supportée par la synthèse vocale.
+La voix primaire verbalise seulement le texte puis la voix secondaire verbalise tous les chiffres et ponctuations trouvés dans le texte avec la voix secondaire configuré, si supportée par la synthèse vocale.    
 Je pense qu'il faut seulement coché la case à cocher ci-dessus pour lire un texte en utilisant la voix secondaire.    
 Une fois que vous avez terminé la lecture du texte à l'aide de la voix secondaire, désactivez l'option  en décochant cette case à cocher.    
 Quand je parle du texte lu avec la voix secondaire implique tout le texte affiché à l'écran du système d'exploitation Windows.    
@@ -241,7 +241,7 @@ La première chose que vous devez faire est de changer le synthétiseur pour êt
 Pour configurer le synthétiseur aller dans la catégorie Parole (NVDA+contrôle+v)    
 La catégorie "Parole" dans le dialogue Paramètres de NVDA, contient des options vous permettant de changer le synthétiseur vocal ainsi que les caractéristiques de la voix.    
 La première option dans la catégorie Parole est le bouton Changer... Ce bouton active le dialogue Choisir le Synthétiseur qui vous permet de choisir le synthétiseur actif et le périphérique de sortie. Ce dialogue s'ouvre par-dessus le dialogue Paramètres. Sauvegarder ou annuler les paramètres dans le dialogue de choix du synthétiseur vous ramènera au dialogue Paramètres.     
-Vous pouvez aussi ouvrir cette  boîte de dialogue appelée "Choisir le synthétiseur" en appuyant sur NVDA+contrôle+s    
+Vous pouvez aussi ouvrir cette  boîte de dialogue appelée "Choisir le synthétiseur" en appuyant sur NVDA+contrôle+s.    
 Donc, une fois ouverte vous devez appuyer sur:    
 `Changer... bouton Alt+c`    
 Dans notre cas, nous devons choisir le synthétiseur nommé:    
@@ -274,7 +274,7 @@ Note: Vous devez cocher une de ces deux cases à cocher, qui ne sont pas cochée
 
 Une fois terminé, faire plusieurs fois Tab jusqu'au bouton OK puis appuyer sur lui.    
 
-Sans oubliez d'appuyez sur l'option "Sauvegarder la configuration", depuis le menu NVDA, ou plus rapidement, en appuyant sur NVDA +Ctrl +C.    
+Sans oubliez d'appuyez sur l'option "Sauvegarder la configuration", depuis le menu NVDA, ou plus rapidement, en appuyant sur NVDA+contrôle+c.    
 
 # Paramétrage de Balabolka pour être utilisé par les voix SAPY 5 #
 
