@@ -55,7 +55,9 @@ Merci à mes amis J.-F et Richard de Winaide. 😉
 
 # Configuration du logiciel de messagerie Thunderbird avec une compte  gmail #
 
+Voir cette page pour plus d'informations:    
 [Thunderbird et Gmail | Assistance de Thunderbird](https://support.mozilla.org/fr/kb/thunderbird-et-gmail)    
+
 
 # À titre d'exemple, un compte Gmail se configure comme suit: #
 
