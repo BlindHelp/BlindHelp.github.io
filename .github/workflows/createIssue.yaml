@@ -1,0 +1,26 @@
+name: Create issue
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const message = context.payload.head_commit.message
+            if (!message.includes("Create issue: ")) { return }
+
+            const data = message.split("Create issue: ")[1]
+            const issueTitle = data.split(" | ")[0]
+            const prefix = "https://blindhelp.github.io/"
+            const issueBody = prefix + data.split(" | ")[1]
+            github.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: issueTitle,
+              body: issueBody
+            })
+
