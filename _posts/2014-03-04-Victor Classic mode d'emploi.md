@@ -1,7 +1,9 @@
 ﻿---
 title: Victor Classic mode d'emploi
+permalink: "/victor classic/"
 layout: post
 author: BlindHelp
+commentsId: 1
 ---
 
 <footer>Mardi 4 Mars 2014</footer>
