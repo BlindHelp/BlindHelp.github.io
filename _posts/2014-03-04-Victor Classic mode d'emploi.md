@@ -1,6 +1,6 @@
 ﻿---
 title: Victor Classic mode d'emploi
-permalink: "/victor classic/"
+permalink: "/victor-classic/"
 layout: post
 author: BlindHelp
 commentsId: 1
