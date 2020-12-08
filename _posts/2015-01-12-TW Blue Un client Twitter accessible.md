@@ -1,7 +1,9 @@
 ---
 title: TW Blue Un client Twitter accessible
+permalink: "/TWBlue/"
 layout: post
 author: BlindHelp
+commentsId: 2
 ---
 
 <footer>Dernière modification Vendredi 3 août 2018</footer>
