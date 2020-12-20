@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 28 Octobre 2020</footer>
+<footer>Publié le Mercredi 28 Octobre 2020, Dernière mise à jour le Dimanche 13 Décembre 2020</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -13,10 +13,10 @@ Voici une nouvelle extension  pour NVDA accessible fait  par un ami hispanophone
 # Informations sur l'extension  AcortadorURL (RéduireURL): #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.3
+* Version actuelle: 0.4
 * Compatibilité avec NVDA: de 2019.3 à 2020.3
 * Langues supportées: Espagnol et Français
-* [Télécharger](https://github.com/hxebolax/AcortadorURL/releases/download/0.3/AcortadorURL-0.3.nvda-addon)
+* [Télécharger](https://github.com/hxebolax/AcortadorURL/releases/download/0.4/AcortadorURL-0.4.nvda-addon)
 * [Voir code source sur GitHub](https://github.com/hxebolax/AcortadorURL)
 
 # RéduireURL
