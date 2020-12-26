@@ -5,20 +5,23 @@
 <TITLE>NVDA_salue_à_la_communauté_francophone</TITLE>
 
 <body>
+<h4>NVDA nous donne ces bons voeux pour ces fêtes en audio</h4>
+<p>Durée: 00:48</p>
+
 <audio id="myAudio">
-  <source src="https://blindhelp.github.io/NVDA_salue_à_la_communauté_francophone.mp3" type="audio/mpeg">
-  Votre navigateur ne supporte pas l'élément audio.
+<source src="https://blindhelp.github.io/NVDA_salue_à_la_communauté_francophone.mp3" type="audio/mpeg">
+Votre navigateur ne supporte pas l'audio.
 </audio>
 <p>Cliquez sur les boutons pour lire ou mettre en pause l'audio.</p>
-<button onclick="playAudio()" type="button">Lire l'Audio</button>
-<button onclick="pauseAudio()" type="button">Mettre en Pause l'Audio</button> 
+<button onclick="playAudio()" type="button">Lire l'audio</button>
+<button onclick="pauseAudio()" type="button">Mettre en pause l'audio</button> 
 <script>
 var x = document.getElementById("myAudio"); 
 function playAudio() { 
-  x.play(); 
+x.play(); 
 } 
 function pauseAudio() { 
-  x.pause(); 
+x.pause();
 } 
 </script>
 </body>
