@@ -43,7 +43,7 @@ Veuillez noter que cette extension ne fonctionne plus depuis plusieurs semaines,
 
 Actuellement, la version de cette extension est la 2020.5 mais l'auteur sur GitHub dans son code celle-ci apparaît comme la 2020.6.    
 
-Donc, voici  la même extension  translate-2020.06 modifié à partir de son  dernier code pour qui fonctionne avec le service Google Translate fait par un ami hispanophone, vous pouvez le télécharger en suivant le lien depuis mon espace sur [BlindHelp.github.io]][4]
+Donc, voici  la même extension  translate-2020.06 modifié à partir de son  dernier code pour qui fonctionne avec le service Google Translate fait par un ami hispanophone, vous pouvez le télécharger en suivant le lien depuis mon espace sur [BlindHelp.github.io][4]
 
 [4]: https://blindhelp.github.io/translate-2020.06_mod_by_@hxebolax.nvda-addon
 
@@ -64,6 +64,8 @@ Voici les explications en anglais donné par mon ami <span  lang="es">Héctor Ja
 
 <span  lang="en">That way the plugin will work properly.</span>    
 <span  lang="en">Greetings.</span>    
+
+Merci à @hxebolax pour partager cette extension modifiée avec nous! 😹    
 
 # Plus d'informations sur l'extension Translate
 
