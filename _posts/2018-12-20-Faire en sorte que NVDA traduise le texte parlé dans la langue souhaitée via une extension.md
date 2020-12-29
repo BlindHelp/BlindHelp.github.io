@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière modification Lundi 18 Mars 2019</footer>
+<footer>Publié le Jeudi 20 Décembre 2018, Dernière mise à jour le Mardi 8 Décembre 2020</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -29,16 +29,41 @@ Voici une extension rapide que notre ami Yannick PLASSIARD a créé pour traduir
 
 Il peut traduire n'importe quel texte, du contenu de la page Web aux jeux, à condition que NVDA soit utilisé pour parler le texte.
 
-Dernière mise à jour: 18 Mars 2019:              
+
 Compatible avec NVDA 2018.3 et  versions ultérieures      
-Version actuelle: 2019.03.3          
+Version actuelle: 2020.05          
 
 
-[Télécharger l'extension Traduction v2019.03.3 via   la page  de l'auteur sur GitHub][1]
+[Télécharger l'extension Traduction v2020.05 via   la page  de l'auteur sur GitHub][1]
 
 
-[1]: https://github.com/yplassiard/nvda-translate/releases/download/v2019.03.3/translate-2019.03.3.nvda-addon
+[1]: https://github.com/yplassiard/nvda-translate/releases/download/v2020.05/translate-2020.05.nvda-addon
 
+Veuillez noter que cette extension ne fonctionne plus depuis plusieurs semaines, avant de publier ce correctif.    
+
+Actuellement, la version de cette extension est la 2020.5 mais l'auteur sur GitHub dans son code celle-ci apparaît comme la 2020.6.    
+
+Donc, voici  la même extension  translate-2020.06 modifié à partir de son  dernier code pour qui fonctionne avec le service Google Translate fait par un ami hispanophone, vous pouvez le télécharger en suivant le lien depuis mon espace sur [BlindHelp.github.io]][4]
+
+[4]: https://blindhelp.github.io/translate-2020.06_mod_by_@hxebolax.nvda-addon
+
+Voici les explications en anglais donné par mon ami <span  lang="es">Héctor Javier Benítez Corredera</span> sur la liste des extensions en anglais  le Mardi 08/12/2020 à 13:01:    
+
+<span  lang="en">[nvda-addons] I provide a solution to the Translate add-on</span>    
+<span  lang="en">Hi, the Translate plugin has not worked well for a while.</span>    
+<span  lang="en">Currently the version is 2020.5 but the author on Github in its code is 2020.6.</span>    
+<span  lang="en">I was looking at the code and it left how to solve the problem that it does not translate. It is to change a single line in the complement.</span>    
+<span  lang="en">A few months ago Google changed the way to deliver the result and how Translate does the translation by extracting the result directly from the web without using an API, since at that moment it stopped working.</span>    
+<span  lang="en">Well you have to change the following line in / translate / globalPlugins / translate / mtranslate / core.py exactly line 82:</span>    
+
+`expr = r'class="t0">(.*?)<'`    
+
+<span  lang="en">For this other line:</span>    
+
+`expr = r'class="result-container">(.*?)<'`    
+
+<span  lang="en">That way the plugin will work properly.</span>    
+<span  lang="en">Greetings.</span>    
 
 # Plus d'informations sur l'extension Translate
 
