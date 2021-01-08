@@ -313,8 +313,8 @@ Donc, si votre fichier "clone.bat" inclu 1 ou plusieurs addons, le nom des sous-
  
 # ContextPlus  permet d'exécuter une invite MSDos à partir d'un dossier. #
 Sinon, Si vous souhaitez ouvrir une ligne de commande directement dans le répertoire où se trouve votre fichier, vous pouvez installer le magique petit logiciel ContextPlus que Vous pouvez le trouver                                
-[par ici:](http://crteknologies.fr/logiciels/cr-contextplus.exe)                      
-Nom du fichier:                   
+[par ici:](https://blindhelp.github.io/cr-contextplus.zip)                      
+Nom du fichier une fois décompressé:                   
 cr-contextplus.exe                      
 
 # Comment ça marche t-il ? #
