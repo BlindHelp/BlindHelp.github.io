@@ -18,7 +18,7 @@ laquelle elles ont été divisées en trois parties:
 Cette fois, nous allons voir la façon de comment construire à l'aveugle un Addon NVDA avec le template NVDA.                
 
 ### Construire à l'aveugle un Addon NVDA avec le template NVDA. ###
- Avant de passer aux étapes suivantes, vous devez savoir que vous devez être très ordonnée et persévérant, arfin  d'obtenir des résultats optimaux afin d'avoir un  module complémentaire satisfaisant.                
+ Avant de passer aux étapes suivantes, vous devez savoir que vous devez être très ordonnée et persévérant, afin  d'obtenir des résultats optimaux afin d'avoir un  module complémentaire satisfaisant.                
 S'il vous plaît prêter attention, j'ai eu moi-même des erreurs, mais grâce au conseils donné par mes amis, jai atteint mes objectif, c'est-à-dire construire à l'aveugle un Addon NVDA avec le template NVDA.           
 Certes, il y a beaucoup à apprendre, mais ici je donne les astuces de base pour réaliser cela.         
 Je ne me croix pas le meuilleur , ou quoi que ce soit, juste j'essai de faire les choses bien, et surtout partager ce tuto avec vous tous, et  dans le but  que vous obteniez la même satisfaction que moi.        
