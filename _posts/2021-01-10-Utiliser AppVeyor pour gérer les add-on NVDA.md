@@ -1,6 +1,6 @@
 ---
 title: Utiliser AppVeyor pour gérer les add-on NVDA
-permalink: "/AppVeyor /"
+permalink: "/AppVeyor/"
 layout: post
 author: BlindHelp
 ---

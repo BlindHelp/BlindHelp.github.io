@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 23 Octobre 2020, dernière mise à jour le Mercredi 28 Octobre 2020</footer>
+<footer>Publié le Vendredi 23 Octobre 2020, dernière mise à jour le Vendredi 8 Janvier 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -13,10 +13,10 @@ Voici une nouvelle extension  pour NVDA accessible fait  par un ami hispanophone
 # Informations sur l'extension  zRadio: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.3
+* Version actuelle: 0.4
 * Compatibilité avec NVDA: de 2019.3 à 2020.3
-* Langues supportées: Espagnol et Français
-* [Télécharger](https://github.com/hxebolax/zRadio/releases/download/0.3/zRadio-0.3.nvda-addon)
+* Langues supportées: Anglais, Espagnol, Français et Portugais du Portugal / Brésil
+* [Télécharger](https://github.com/hxebolax/zRadio/releases/download/0.4/zRadio-0.4.nvda-addon)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zradio)
 
 # Manuel de zRadio pour NVDA
@@ -26,9 +26,13 @@ Cette extension provient de l'ennui et le désir d'expérimenter avec NVDA.
 
 zRadio est une extension très lourde, d'environ 120 Mo une fois installée.
 
+C'est le cas si vous utilisez toujours des versions 0.1, 0.2 et 0.3 de l'extension zRadio, bien que nous invitons les utilisateurs de zRadio à télécharger la nouvelle version 0.4 puisqu'il réduit sa taille et améliore la performance de l'extension zRadio. Veuillez consulter la section "Journal des changements" pour la version 0.4 ci-dessous, pour plus de détails.
+
 zRadio est recommandé sur les ordinateurs qui ne sont pas de travail et sur les ordinateurs avec un matériel acceptable.
 
 Sur certains ordinateurs avec peu de ressources peuvent ralentir NVDA il est donc conseillé de désinstaller l'extension.
+
+C'est le cas si vous utilisez toujours des versions 0.1, 0.2 et 0.3 de l'extension zRadio, bien que nous invitons les utilisateurs de zRadio à télécharger la nouvelle version 0.4 puisqu'il réduit sa taille et améliore la performance de l'extension zRadio. Veuillez consulter la section "Journal des changements" pour la version 0.4 ci-dessous, pour plus de détails.
 
 Comme je le dis ceci est une expérience et en tant que telle doit l'être, qui installe est responsable du ralentissement que l'extension peut provoquer de même que  de l'utilisation qui est faite de cette extension.
 
@@ -47,6 +51,16 @@ L'extension uniquement enregistre 3 fichiers dans le répertoire zRadio que nous
 * opt_radio.dat
 
 * fav_radios.dat
+
+C'est le cas si vous utilisez toujours des versions 0.1, 0.2 et 0.3 de l'extension zRadio, bien que nous invitons les utilisateurs de zRadio à télécharger la nouvelle version 0.4. Lors de l'installation de cette nouvelle version, les deux nouveaux fichiers seront installés:
+
+* cache.dat
+
+* radio_cache.dat
+
+Maintenant, l'extension  uniquement enregistrera 5 fichiers dans le répertoire zRadio que nous trouvons dans le répertoire de configuration NVDA si cette nouvelle version 0.4 de l'extension zRadio est utilisée.
+
+Veuillez consulter la section "Journal des changements" pour la version 0.4 ci-dessous, pour plus de détails.
 
 Pour les programmeurs qui savent beaucoup, ne me disputez pas pour le code  tant grossier et tant précipité et de ne pas mettre de commentaires et faire tout ce qui ne doit  pas faire un programmeur si souhaite  être ordonné.
 
@@ -67,10 +81,6 @@ Une fois ouverte l'interface celle-ci se compose d'une liste en arborescence qui
 * Favoris, où nous avons  les stations que on entend le plus et que au préalable nous avons ajouté.
 
 * Moteur de recherche, dans cette catégorie, vous pouvez effectuer soit une recherche générale de radios, par pays, par langue ou par étiquette.
-
-Remarque  Importante pour la langue en français:
-Dans la catégorie Recherche par pays, les noms des pays sont en espagnol, parce que l'auteur utilise une base de données qui est entièrement en espagnol.
-Milles excuses pour le désagrément.
 
 Eh bien, lorsque le focus est mis sur la catégorie sélectionnée pour l'activer, appuyez sur la touche TAB, et nous tomberons dans un champ de recherche soit pour rechercher une station ou pour sélectionner une catégorie dans une zone de liste déroulante si nous sommes dans la catégorie Moteur de recherche.
 
@@ -109,6 +119,16 @@ Sur cet écran, vous pouvez ajouter ces stations que nous utilisons plus souvent
 L'espace de travail est exactement comme l'écran Général donc je ne vais pas le décrire à nouveau.
 
 Annoter que pour la liste tantôt des stations comme la de résultats de  recherche nous pouvons passer rapidement en appuyant sur une lettre, ce que Nous amènera s'il y a une première station avec cette lettre au début de son nom.
+
+Dans l'interface zRadio pour la nouvelle version 0.3, je viens d'ajouter de nouvelles fonctionnalités telles que:
+
+* Trier les stations dans les favoris.
+
+* Ajouter, modifier et retirer des favoris.
+
+* Maintenant, vous avez la possibilité de lancer spécifiquement 5 stations rapides par un Geste de Commandes associé à chaque commande appelée "Jouer la station rapidement et suivie d'une numérotation de 1 à 5" dans le dialogue Geste de Commandes de NVDA puis rechercher   zRadio.
+
+Veuillez consulter la section "Journal des changements" pour la version 0.3 ci-dessous, pour plus de détails sur l'utilisation des nouvelles fonctionnalités.
 
 ## Écran Moteur de recherche
 
@@ -215,8 +235,32 @@ zRadio fournit les commandes suivantes pour permettre à l'utilisateur d'ajouter
 ## Traducteurs et contributeurs:
 
 * Français: Rémy Ruiz
+* Portugais: Ângelo Miguel Abrantes
+* Anglais: slanovani
 
 # Journal des changements.
+## Version 0.4.
+
+* Optimisé le code en réduisant sa taille à plus de la moitié.
+
+Le code a été optimisé de manière à ce que l'installation soit réduite à 60%. Cela affecte que la performance est meilleure.
+
+* Ajout d'un petit cache qui aide à accélérer le démarrage de l'extension.
+
+Parfois, une minorité de démarrage, le lecteur d'écran NVDA peut prendre un peu pour démarrer, ceci est un problème de  communication de l'extension avec le serveur.
+
+ Avant dans la version 0.3, il a toujours fallu beaucoup de temps pour démarrer, avec le cache que j'ai mis dans l'extension cela se produira maintenant très rarement.
+
+Eh bien, le fichier Cache.DAT est mis à jour chaque fois que vous redémarrez NVDA car c'est celui qui contient le compteur des fois qu'il doit prendre le nombre de démarrages et quand il atteint 5 à la sixième fois, le fichier radio_cache.dat sera également mis à jour.
+
+Les fichiers cache.dat et radio_cache.dat sont enregistrés dans le répertoire zRadio que nous trouvons dans le répertoire de configuration NVDA.
+
+* Les dictionnaires des pays ont été traduits de sorte que lorsque nous sélectionnons la langue de NVDA "Utilisateur par défaut"dans la catégorie Générale de la boîte de dialogue  "Paramètres de NVDA" que ce soit la langue  "Français, fr", "Portugais (Portugal, Brésil), pt_PT / pt_BR" ou "Anglais en", lesquels sont actuellement les trois langues supportés  par l'extension zRadio, outre l'espagnol, les noms des pays sont correctement affichés dans le cas d'une recherche par pays.
+
+Par défaut, zRadio est configuré pour utiliser la langue "Espagnol, es", mais si vous avez choisi "Utilisateur par défaut" et que votre langue n'est pas encore traduite, vous aurez toujours l'interface de l'extension en espagnol.
+
+* Ajout de la traduction Portugaise (Portugal / Brésil) et anglais.
+
 ## Version 0.3.
 
 * Ajoutée   la possibilité de trier les stations dans les favoris.
@@ -291,9 +335,7 @@ Maintenant, il ne se bloquera plus l'interface. Sette zone a été restructurée
 
 * Version initiale.
 
-
 ---
-
 
 Nous remercions à <span lang="es">Héctor J. Benítez Corredera</span>, développeur de cette extension fabuleuse d'avoir voulu la partagée  avec nous. 😉    
 Profitez de zRadio une extension pour NVDA!    
