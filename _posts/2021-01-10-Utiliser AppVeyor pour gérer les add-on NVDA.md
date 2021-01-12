@@ -18,44 +18,37 @@ Je vous souhaite une bonne lecture.
 
 ## Procédure pour construire et attacher des fichiers nvda-addon aux versions sur GitHub
 
-Cela peut être utilisé pour automatiser la construction de compléments NVDA (fichiers binaires avec l'extension .nvda-addon), qui seront téléchargés depuis Appveyor vers GitHub et attachés à la version créée.
+Cela peut être utilisé pour automatiser la construction d'extensions NVDA (fichiers binaires avec l'extension .nvda-addon), qui seront téléchargés depuis Appveyor vers GitHub et attachés à la version créée.
 
 Cela fonctionne pour les add-ons basés sur le [modèle de add-on](https://github.com/nvdaaddons/addontemplate).
 
 ### Configuration d'AppVeyor pour les add-ons
 
 1. Obtenez le code d'un add-on.
-
-Exemple:
-
-```
-git clone https://github.com/username/repo
-
-git pull
-```
+<br>
+Exemple:    
+``git clone https://github.com/username/repo``
+<br>
+``git pull``
+<br>
 2. Dans la racine du dossier de l'extension (où le fichier sconstruct est placé), collez ce [fichier de configuration AppVeyor](https://gist.github.com/nvdaes/a486e45b98566d530688f6da9ce75f84/raw/d05b620185a58327b39da1215cf3c13c01249031/appveyor.yml) (appveyor.yml).
-
+<br>
 3. Si vous ne le possédez pas, [créez un jeton (token) d'accès à l'API personnelle](https://github.com/settings/tokens) et [cryptez-le](https://ci.appveyor.com/tools/encrypt).
-
-4. Dans le fichier appveyor.yml, remplacez la valeur fournie pour la clé sécurisée par votre jeton (token) crypté. Par exemple, au lieu de
-
-```
-  auth_token:
-     secure: 3yxF2EQ/wfLKNEobcRfdNL6srjXjoMdRa/LSQ7z2PJNqOL3IEyiFtlnxxHeIQskH
-
-```
-
-```
-auth_token:
-    secure: votreEncryptedToken
-```
-
+<br>
+4. Dans le fichier appveyor.yml, remplacez la valeur fournie pour la clé sécurisée par votre jeton (token) crypté. Par exemple, au lieu de:     
+<br>
+``  auth_token:``    
+``     secure: 3yxF2EQ/wfLKNEobcRfdNL6srjXjoMdRa/LSQ7z2PJNqOL3IEyiFtlnxxHeIQskH``    
+<br>
+``auth_token:``    
+``    secure: votreEncryptedToken``    
+<br>
 Maintenant, vous pouvez coller votre fichier appveyor.yml dans n’importe quel add-on publié sur votre compte GitHub.
-
+<br>
 5. [Connectez-vous (Sign in) avec AppVeyor](https://www.appveyor.com/).
-
+<br>
 6. Dans AppVeyor, sélectionnez New Project (Nouveau projet). (Si nécessaire, choisissez GitHub et autorisez-le).
-
+<br>
 7. Localisez le nom du référentiel qui vous intéresse, déplacez la souris dessus (par exemple, en appuyant sur NVDA + numpadDivide ou NVDA + shift + m) et activez le lien "Ajouter" ci-dessous.
 
 ### Libération
@@ -63,50 +56,44 @@ Maintenant, vous pouvez coller votre fichier appveyor.yml dans n’importe quel 
 Pour publier une nouvelle version d'un add-on, vous pouvez créer un tag et le transmettre à GitHub:
 
 Exemple
-
-```
-git tag 1.0
-
-git push origin 1.0
-```
+<br>
+```git tag 1.0```
+<br>
+```git push origin 1.0```
+<br>
 
 Maintenant, la version sera créée et binary-1.0.nvda-addon sera attaché sur GitHub.
 
-En bonus, Abdel a créé un [fichier appveyorPourFTP.yml](https://gist.githubusercontent.com/nvdaes/a486e45b98566d530688f6da9ce75f84/raw/46236e04b02de117f9edbb30aaf626692116b6c3/appveyorForFTP.yml) for releasing 
+En bonus, Abdel a créé un [fichier appveyorPourFTP.yml](https://gist.githubusercontent.com/nvdaes/a486e45b98566d530688f6da9ce75f84/raw/46236e04b02de117f9edbb30aaf626692116b6c3/appveyorForFTP.yml) pour libérer
 
 
 ## Procédure pour recevoir des notifications sur les commits
 
-Pour les notifications sur les événements Push (recommandé pour la révision des add-ons), veuillez consulter:
-https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/githubWebhooks
+Pour les notifications sur les événements Push (recommandé pour la révision des add-ons), veuillez consulter:    
+[https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/githubWebhooks](https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/githubWebhooks)
 
 Quoi qu'il en soit, si vous souhaitez utiliser AppVeyor:
 
-1. Créez une adresse email pour recevoir les notifications. Par exemple, vous pouvez utiliser [l’intégration de messagerie groups.io] (https://groups.io/static/features).
-
+1. Créez une adresse email pour recevoir les notifications. Par exemple, vous pouvez utiliser [l'intégration de messagerie groups.io](https://groups.io/static/features).
+<br>
 2. Dans le fichier appveyor.yml, ajoutez ces lignes:
-
-`` `
-
-notifications:
-  - fournisseur: Email
-    à:
-      - notificationsEmailAddress.example.com
-
-`` `
-
+<br>
+```notifications:```
+```- fournisseur: Email à:`` `
+```- notificationsEmailAddress.example.com`` `
+<br>
 Remplacez notificationsEmailAddress.example.com par une adresse électronique valide.
 
-Voici un [sujet dans la liste de diffusion groups.io comme exemple réel] (https://nvdaes.groups.io/g/NVDAADDONSCOMMITS/topic/build_completed/27377767).
+Voici un [sujet dans la liste de diffusion groups.io comme exemple réel](https://nvdaes.groups.io/g/NVDAADDONSCOMMITS/topic/build_completed/27377767).
 
 ## Références
 
-- [Référence Appveyor.yml] (https://www.appveyor.com/docs/appveyor-yml/)
-- [Publier des artefacts dans les versions de GitHub | AppVeyor] (https://www.appveyor.com/docs/deployment/github/#configuring-in-appveyoryml)
-- [Syntaxe de la valeur du nom de version dans la section deploy du fichier de configuration appveyor.yml] (http://help.appveyor.com/discussions/questions/9221-syntax-of-the-release-name-value-in -la-deploy-section-of-the-appveyoryml-configuration-file)
-- [mesa / appveyor.yml à master · anholt / mesa] (https://github.com/anholt/mesa/blob/master/appveyor.yml)
-- [Discussion sur la liste de diffusion des add-ons NVDA] (https://nvda-addons.groups.io/g/nvda-addons/topic/6220467)
-- [Mises à jour pour l'appveyor d'Abdel sur la liste de diffusion des add-ons de NVDA] (https://nvda-addons.groups.io/g/nvda-addons/topic/31686195#7943)
+- [Référence Appveyor.yml](https://www.appveyor.com/docs/appveyor-yml/)
+- [Publier des artefacts dans les versions de GitHub | AppVeyor](https://www.appveyor.com/docs/deployment/github/#configuring-in-appveyoryml)
+- [Syntaxe de la valeur du nom de version dans la section deploy du fichier de configuration appveyor.yml](http://help.appveyor.com/discussions/questions/9221-syntax-of-the-release-name-value-in -la-deploy-section-of-the-appveyoryml-configuration-file)
+- [mesa / appveyor.yml à master · anholt / mesa](https://github.com/anholt/mesa/blob/master/appveyor.yml)
+- [Discussion sur la liste de diffusion des add-ons NVDA (en anglais)](https://nvda-addons.groups.io/g/nvda-addons/topic/6220467)
+- [Mises à jour de l'appveyor d'Abdel sur la liste de diffusion des add-ons de NVDA (en anglais)](https://nvda-addons.groups.io/g/nvda-addons/topic/31686195#7943)
 
 ## Remerciements
 
