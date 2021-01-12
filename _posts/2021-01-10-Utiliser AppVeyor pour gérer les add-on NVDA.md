@@ -9,7 +9,7 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Voici un post Dédié au service AppVeyor pour gérer les add-on NVDA fait en principe par @ abdel792 en anglais,  et je viens de le traduire au vol en français, et je le partage avec vous tous, et vous le trouverez ci-dessous.    
+Voici un post dédié au service AppVeyor pour gérer les add-on NVDA fait en principe par @ abdel792 en anglais,  et je viens de le traduire au vol en français, et je le partage avec vous tous, et vous le trouverez ci-dessous.    
 Je vous souhaite une bonne lecture.    
 
 
