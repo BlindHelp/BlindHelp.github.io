@@ -33,11 +33,11 @@ git clone https://github.com/username/repo
 
 git pull
 ```
-2. Dans la racine du dossier du module complémentaire (où le fichier sconstruct est placé), collez ce [fichier de configuration AppVeyor](https://gist.github.com/nvdaes/a486e45b98566d530688f6da9ce75f84/raw/d05b620185a58327b39da1215cf3c13c01249031/appveyor.yml) (appveyor.yml).
+2. Dans la racine du dossier de l'extension (où le fichier sconstruct est placé), collez ce [fichier de configuration AppVeyor](https://gist.github.com/nvdaes/a486e45b98566d530688f6da9ce75f84/raw/d05b620185a58327b39da1215cf3c13c01249031/appveyor.yml) (appveyor.yml).
 
-3. Si vous ne le possédez pas, [créez un jeton d'accès à l'API personnelle](https://github.com/settings/tokens) et [cryptez-le](https://ci.appveyor.com/tools/encrypt).
+3. Si vous ne le possédez pas, [créez un jeton (token) d'accès à l'API personnelle](https://github.com/settings/tokens) et [cryptez-le](https://ci.appveyor.com/tools/encrypt).
 
-4. Dans le fichier appveyor.yml, remplacez la valeur fournie pour la clé sécurisée par votre jeton crypté. Par exemple, au lieu de
+4. Dans le fichier appveyor.yml, remplacez la valeur fournie pour la clé sécurisée par votre jeton (token) crypté. Par exemple, au lieu de
 
 ```
   auth_token:
