@@ -9,7 +9,7 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Voici un post dédié au service AppVeyor pour gérer les add-on NVDA fait en principe par @ abdel792 en anglais,  et je viens de le traduire au vol en français, et je le partage avec vous tous, et vous le trouverez ci-dessous.    
+Voici un post dédié au service AppVeyor pour gérer les add-on NVDA Fait à la base par @ abdel792 et contributeurs en anglais,  et je viens de le traduire au vol en français, et je le partage avec vous tous, et vous le trouverez ci-dessous.    
 Je vous souhaite une bonne lecture.    
 
 
@@ -20,7 +20,7 @@ Je vous souhaite une bonne lecture.
 
 Cela peut être utilisé pour automatiser la construction d'extensions NVDA (fichiers binaires avec l'extension .nvda-addon), qui seront téléchargés depuis Appveyor vers GitHub et attachés à la version créée.
 
-Cela fonctionne pour les add-ons basés sur le [modèle de add-on](https://github.com/nvdaaddons/addontemplate).
+Cela fonctionne pour les add-ons basés sur le [modèle (template) de add-on](https://github.com/nvdaaddons/addontemplate).
 
 ### Configuration d'AppVeyor pour les add-ons
 
@@ -49,7 +49,7 @@ Maintenant, vous pouvez coller votre fichier appveyor.yml dans n’importe quel 
 <br>
 6. Dans AppVeyor, sélectionnez New Project (Nouveau projet). (Si nécessaire, choisissez GitHub et autorisez-le).
 <br>
-7. Localisez le nom du référentiel qui vous intéresse, déplacez la souris dessus (par exemple, en appuyant sur NVDA + numpadDivide ou NVDA + shift + m) et activez le lien "Ajouter" ci-dessous.
+7. Localisez le nom du référentiel (dépôt) qui vous intéresse, déplacez la souris dessus (par exemple, en appuyant sur NVDA + numpadDivide ou NVDA + shift + m) et activez le lien "Ajouter" ci-dessous.
 
 ### Libération
 
@@ -69,7 +69,7 @@ En bonus, Abdel a créé un [fichier appveyorPourFTP.yml](https://gist.githubuse
 
 ## Procédure pour recevoir des notifications sur les commits
 
-Pour les notifications sur les événements Push (recommandé pour la révision des add-ons), veuillez consulter:    
+Pour les notifications sur les événements Push (recommandé pour la révision des add-ons), veuillez consulter ce wiki (en anglais):    
 [https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/githubWebhooks](https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/githubWebhooks)
 
 Quoi qu'il en soit, si vous souhaitez utiliser AppVeyor:
@@ -77,27 +77,75 @@ Quoi qu'il en soit, si vous souhaitez utiliser AppVeyor:
 1. Créez une adresse email pour recevoir les notifications. Par exemple, vous pouvez utiliser [l'intégration de messagerie groups.io](https://groups.io/static/features).
 <br>
 2. Dans le fichier appveyor.yml, ajoutez ces lignes:
-<br>
 ```notifications:```
-```- fournisseur: Email à:`` `
-```- notificationsEmailAddress.example.com`` `
+<br>
+```- provider:```
+<br>
+```Email to:```
+<br>
+```- notificationsEmailAddress.example.com```
 <br>
 Remplacez notificationsEmailAddress.example.com par une adresse électronique valide.
+<br>
+Voici un [sujet dans la liste de diffusion groups.io (en anglais) comme exemple réel](https://nvdaes.groups.io/g/NVDAADDONSCOMMITS/topic/build_completed/27377767).
 
-Voici un [sujet dans la liste de diffusion groups.io comme exemple réel](https://nvdaes.groups.io/g/NVDAADDONSCOMMITS/topic/build_completed/27377767).
+## Références (en anglais)
 
-## Références
-
-- [Référence Appveyor.yml](https://www.appveyor.com/docs/appveyor-yml/)
-- [Publier des artefacts dans les versions de GitHub | AppVeyor](https://www.appveyor.com/docs/deployment/github/#configuring-in-appveyoryml)
-- [Syntaxe de la valeur du nom de version dans la section deploy du fichier de configuration appveyor.yml](http://help.appveyor.com/discussions/questions/9221-syntax-of-the-release-name-value-in -la-deploy-section-of-the-appveyoryml-configuration-file)
-- [mesa / appveyor.yml à master · anholt / mesa](https://github.com/anholt/mesa/blob/master/appveyor.yml)
-- [Discussion sur la liste de diffusion des add-ons NVDA (en anglais)](https://nvda-addons.groups.io/g/nvda-addons/topic/6220467)
-- [Mises à jour de l'appveyor d'Abdel sur la liste de diffusion des add-ons de NVDA (en anglais)](https://nvda-addons.groups.io/g/nvda-addons/topic/31686195#7943)
+- [Appveyor.yml reference](https://www.appveyor.com/docs/appveyor-yml/)
+- [Publishing artifacts to GitHub Releases | AppVeyor](https://www.appveyor.com/docs/deployment/github/#configuring-in-appveyoryml)
+- [Syntax of the release name value in the deploy section of the appveyor.yml configuration file](http://help.appveyor.com/discussions/questions/9221-syntax-of-the-release-name-value-in-the-deploy-section-of-the-appveyoryml-configuration-file)
+- [mesa/appveyor.yml at master · anholt/mesa](https://github.com/anholt/mesa/blob/master/appveyor.yml)
+- [Discussion on the NVDA add-ons mailing list](https://nvda-addons.groups.io/g/nvda-addons/topic/6220467)
+- [Updates for appveyor by Abdel on the NVDA add-ons mailing list](https://nvda-addons.groups.io/g/nvda-addons/topic/31686195#7943)
 
 ## Remerciements
 
 Merci à @ abdel792, @derekriemer et @tuukao pour avoir rendu cela possible.
+
+---
+
+# Récapitulatif des instructions a tout fin utile #
+
+1. Inscrivez-vous sur  Appveyor. Confirmer l'E-Mail de vérification , sinon de nouveaux projets ne peuvent pas être enregistrés.
+<br>
+Une fois fait, Connectez-vous à votre compte en utilisant cette URL:
+<br>
+[https://ci.appveyor.com/login](https://ci.appveyor.com/login)
+<br>
+2. Créez un jeton (token) avec les autorisations suivantes. notifications, public_repo, repo:status, repo_deployment
+<br>
+[https://github.com/settings/tokens](https://github.com/settings/tokens)
+<br>
+3. Chiffrer le jeton (token) généré.
+<br>
+[https://ci.appveyor.com/tools/encrypt](https://ci.appveyor.com/tools/encrypt)
+<br>
+4. Placez la clé cryptée dans le fichier appveyor.yml.
+```auth_token:```
+<br>
+```    secure: yourEncryptedToken```
+<br>
+5. Créez un nouveau projet sur Appveyor.
+<br>
+[https://ci.appveyor.com/projects/new](https://ci.appveyor.com/projects/new)
+<br>
+5.1. Sur le titre cloud, sélectionnez  github. Activer le bouton:
+<br>
+```autorize github.```
+<br>
+5.2. Sur l'écran GitHub qui s'ouvre, accorder les autorisations demandées.
+<br>
+6. Sélectionnez le projet, vous devez mettre la souris sur le titre du projet pour afficher le bouton add. Nous activons le bouton add.
+<br>
+
+Envoyer une mise à jour. Une fois que les commits nécessaires ont été  fait, utilisez les commandes: git tag, git push origin.
+<br>
+Par exemple:
+<br>
+```git tag 1.0```
+<br>
+```git push origin 1.0```
+<br>
 
 ---
 
