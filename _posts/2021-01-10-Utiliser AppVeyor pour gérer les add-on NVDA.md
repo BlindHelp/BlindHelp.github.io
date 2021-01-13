@@ -9,7 +9,7 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Voici un post dédié au service AppVeyor pour gérer les add-on NVDA Fait à la base par @ abdel792 et contributeurs en anglais,  et je viens de le traduire au vol en français, et je le partage avec vous tous, et vous le trouverez ci-dessous.    
+Voici un post dédié au service AppVeyor pour gérer les add-on NVDA Fait à la base par @ abdel792 et autres contributeurs (en anglais),  et je viens de le traduire au vol en français, et je le partage avec vous tous, et vous le trouverez ci-dessous.    
 Je vous souhaite une bonne lecture.    
 
 
@@ -49,7 +49,7 @@ Maintenant, vous pouvez coller votre fichier appveyor.yml dans n’importe quel 
 <br>
 6. Dans AppVeyor, sélectionnez New Project (Nouveau projet). (Si nécessaire, choisissez GitHub et autorisez-le).
 <br>
-7. Localisez le nom du référentiel (dépôt) qui vous intéresse, déplacez la souris dessus (par exemple, en appuyant sur NVDA + numpadDivide ou NVDA + shift + m) et activez le lien "Ajouter" ci-dessous.
+7. Localisez le nom du référentiel (dépôt) qui vous intéresse, déplacez la souris dessus (par exemple, en appuyant sur NVDA + numpadDivide ou NVDA + shift + m) et activez le lien "Add" ci-dessous.
 
 ### Libération
 
@@ -62,7 +62,7 @@ Exemple
 ```git push origin 1.0```
 <br>
 
-Maintenant, la version sera créée et binary-1.0.nvda-addon sera attaché sur GitHub.
+Maintenant, la version sera créée et le binary-1.0.nvda-addon sera attaché sur GitHub.
 
 En bonus, Abdel a créé un [fichier appveyorPourFTP.yml](https://gist.githubusercontent.com/nvdaes/a486e45b98566d530688f6da9ce75f84/raw/46236e04b02de117f9edbb30aaf626692116b6c3/appveyorForFTP.yml) pour libérer
 
@@ -77,6 +77,7 @@ Quoi qu'il en soit, si vous souhaitez utiliser AppVeyor:
 1. Créez une adresse email pour recevoir les notifications. Par exemple, vous pouvez utiliser [l'intégration de messagerie groups.io](https://groups.io/static/features).
 <br>
 2. Dans le fichier appveyor.yml, ajoutez ces lignes:
+<br>
 ```notifications:```
 <br>
 ```- provider:```
@@ -92,7 +93,7 @@ Voici un [sujet dans la liste de diffusion groups.io (en anglais) comme exemple 
 ## Références (en anglais)
 
 - [Appveyor.yml reference](https://www.appveyor.com/docs/appveyor-yml/)
-- [Publishing artifacts to GitHub Releases | AppVeyor](https://www.appveyor.com/docs/deployment/github/#configuring-in-appveyoryml)
+- [Publishing artifacts to GitHub Releases ```|``` AppVeyor](https://www.appveyor.com/docs/deployment/github/#configuring-in-appveyoryml)
 - [Syntax of the release name value in the deploy section of the appveyor.yml configuration file](http://help.appveyor.com/discussions/questions/9221-syntax-of-the-release-name-value-in-the-deploy-section-of-the-appveyoryml-configuration-file)
 - [mesa/appveyor.yml at master · anholt/mesa](https://github.com/anholt/mesa/blob/master/appveyor.yml)
 - [Discussion on the NVDA add-ons mailing list](https://nvda-addons.groups.io/g/nvda-addons/topic/6220467)
@@ -121,6 +122,7 @@ Une fois fait, Connectez-vous à votre compte en utilisant cette URL:
 [https://ci.appveyor.com/tools/encrypt](https://ci.appveyor.com/tools/encrypt)
 <br>
 4. Placez la clé cryptée dans le fichier appveyor.yml.
+<br>
 ```auth_token:```
 <br>
 ```    secure: yourEncryptedToken```
@@ -135,7 +137,7 @@ Une fois fait, Connectez-vous à votre compte en utilisant cette URL:
 <br>
 5.2. Sur l'écran GitHub qui s'ouvre, accorder les autorisations demandées.
 <br>
-6. Sélectionnez le projet, vous devez mettre la souris sur le titre du projet pour afficher le bouton add. Nous activons le bouton add.
+6. Sélectionnez le projet, vous devez mettre la souris sur le titre du projet pour afficher le bouton Add. Nous activons le bouton Add.
 <br>
 
 Envoyer une mise à jour. Une fois que les commits nécessaires ont été  fait, utilisez les commandes: git tag, git push origin.
