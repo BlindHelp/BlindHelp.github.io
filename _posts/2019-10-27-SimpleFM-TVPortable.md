@@ -1,11 +1,11 @@
 --- 
 title: Simple FM TV - Stations de Radio et Chaînes de TV à la carte, à partir  d'un seul programme
-
+permalink: "/SimpleFM-TVPortable/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Dimanche 27 Octobre 2019</footer>
+<footer> Publié le Dimanche 27 Octobre 2019 - Dernière mise à jour le Vendredi 22 Janvier 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -132,6 +132,18 @@ Appuyez sur F2 et le renommer en:
 Une fois fini, appuyez sur Entrée.    
 Maintenant, à tout moment vous pouvez facilement lancer le programme Simple FM TV à partir de ce nouveau raccourci que vous venez de créer sur le bureau.    
 
+# Annonce d'erreur résolue au lancement du fichier .exe sous Windows #
+Cette astuce servira à lancer le programme Simple FM TV sans l'annonce d'erreur lors du lancement du fichier exécutable (.exe).    
+Vous êtes susceptible d'avoir le message d'erreur suivant lors du démarrage du programme:    
+`cx_Freeze: Python error in main script ligne 1 colonne 2`    
+`cx_Freeze: Python error in main script dialogue Traceback (most recent call last):  File "C:\Python37-64\lib\site-packages\cx_Freeze\initscripts\__startup__.py", line 40, in run  File "C:\Python37-64\lib\site-packages\cx_Freeze\initscripts\Console.py", line 23, in run  File "SimpleFM-TV64.py", line 38, in <module>  File "C:\Python37-64\lib\site-packages\accessible_output2\outputs\auto.py", line 13, in __init__  File "C:\Python37-64\lib\site-packages\accessible_output2\outputs\jaws.py", line 16, in __init__  File "C:\Python37-64\lib\site-packages\libloader\com.py", line 16, in load_com  File "C:\Python37-64\lib\site-packages\win32com\client\gencache.py", line 534, in EnsureDispatch  File "C:\Python37-64\lib\site-packages\win32com\client\gencache.py", line 391, in EnsureModule  File "C:\Python37-64\lib\site-packages\win32com\client\gencache.py", line 266, in GetModuleForTypelib  File "C:\Python37-64\lib\site-packages\win32com\client\gencache.py", line 552, in AddModuleToCacheAttributeError: module 'win32com.gen`    
+`OK bouton`    
+<br>
+Tout d'abord, appuyez sur le bouton OK pour fermer cette boîte de dialogue, puis suivez les instructions fournies par l'auteur du programme.    
+Pour faire ceci vous devez aller à `AppData/Local/Temp/` à l'intérieur du dossier Il y a un dossier appelé `gen_py` puis directement effacer celui-ci et il devrait fonctionner quand vous lancer à nouveau le fichier exécutable.    
+Chaque fois qui réapparaît ce message suivez les mêmes instructions et cela est résolu.    
+Désolé pour ce désagrément occasionné.    
+<br>
 Nous remercions à <span lang="es">Héctor J. Benítez Corredera</span>, développeur de Ce fabuleux programme d'avoir voulu le partagé  avec nous. 😉    
 Amusez vous! 😃    
 
