@@ -11,15 +11,9 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Voici une nouvelle mouture de l'extension cursorLocator-1.4-dev pour NVDA fait  par une amie hispanophone.    
 
-Cette extension permet de connaître la position du système Caret (signe d'insertion "`/`") au début de la ligne en cours, tout en tapant afin d'ajouter du texte dans des contrôles multilignes.    
+Vous trouverez ci-dessous sa description traduite en français par mes soins, néanmoins, celle-ci n'est pas encore traduite par l'équipe de traducteurs de la communauté des extensions de NVDA.    
 
-Par exemple sur Wordpad, MicrosoftWord, cette extension permet savoir avec un son, s'il est passé à la ligne suivante.    
-
-De-même pourrait également être configuré qu'à certaines quantités de lettres ou de mots avec des espaces, celle-ci puisse émettre un son.    
-
-Pour d'autres instructions, appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions.    
-
-Comme c'est une version de développement, elle n'est pas recommandée pour les environnements de travail puisqu'elle s'agit d'une version en dev, Cependant, plus aucune erreur n'a été détectée par les testeurs, donc, elle est considéré qu'elle est déjà assez stable, mais je demande prudence.    
+À savoir que c'est une version de développement, donc, elle n'est pas recommandée pour les environnements de travail puisqu'elle s'agit d'une version dev, Cependant, plus aucune erreur n'a été détectée par les testeurs, par conséquent, , elle est considéré qu'elle est déjà assez stable, mais je demande prudence.    
 
 # Informations sur l'extension  cursorLocator-1.4-dev #
 
@@ -68,11 +62,42 @@ Comme c'est une version de développement, elle n'est pas recommandée pour les 
 
 <span lang="en">
 <https://github.com/nvdaes/cursorLocator>
-/span>
+</span>
 
 <span lang="en">Cheers</span>
 
 ----
+
+# Cursor Locator #
+
+Cette extension permet de connaître la position du curseur du système par rapport au début de la ligne en cours lors de la saisie pour ajouter du texte dans des contrôles multilignes.
+
+## Paramètres Cursor Locator ##
+
+Ce panneau est disponible dans le menu NVDA, sous-menu Préférences, boîte de dialogue Paramètres.
+
+Fournit les options suivantes:
+
+* <span lang="en">Report start of line</span> (Annoncer le début de ligne): Lorsque ce contrôle est coché, une tonalité grave annoncera si le curseur est au début de la ligne actuelle tout en tapant du texte (coché par défaut).
+* <span lang="en">Report line length</span> (Annoncer longueur de ligne): Vous pouvez taper ou choisir une longueur de ligne (nombre de caractères entre 0 et 600), qui sera annoncé par une tonalité aigu lorsqu'il  est atteint. (La valeur par défaut est de 80 caractères).
+* <span lang="en">Pitch of sound for start of line</span> (Hauteur du son pour le début de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 20000. (La valeur par défaut est de 400 hertzs).
+* <span lang="en">Length of sound for start of line</span> (Durée du son pour le début de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 2000. (La valeur par défaut est de 50 millisecondes).
+* <span lang="en">Test sound for start of line</span> (Test du son pour le début de ligne): Appuyer sur ce bouton pour tester le son configuré pour le début de ligne.
+* <span lang="en">Pitch of sound for end of line</span> (Hauteur du son pour  la fin de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 20000. (La valeur par défaut est de 1000 hertzs).
+* <span lang="en">Length of sound for end of line</span> (Durée du son pour la fin de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 2000. (La valeur par défaut est de 50 millisecondes).
+* <span lang="en">Test sound for end of line</span> (Test du son pour la fin de ligne): Appuyer sur ce bouton pour tester le son configuré pour la fin de ligne.
+
+## Commandes ##
+
+Vous pouvez modifier les gestes associés aux commandes suivantes via le menu NVDA, sous-menu Préférences, boîte de dialogue Gestes de commandes.
+
+* NVDA+control+shift+l: Si possible, annonce la longueur de la ligne actuelle (catégorie Curseur système).
+* <span lang="en">Not assigned</span> (Non assigné): Affiche la boîte de dialogue Paramètres Cursor Locator ((catégorie Configuration).
+
+## Changements pour la version 1.0 ##
+* Première version.
+
+---
 
 Merci beaucoup à mon amie <span lang="es">Noelia Ruiz Martínez</span> pour l'avoir adapté à la dernière version de NVDA 2020.4 et avoir apporté ces nouvelles améliorations. 🤗    
 
