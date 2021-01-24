@@ -1,6 +1,6 @@
 ---
 title: commandHelper extension disponible en téléchargement pour NVDA
-permalink: "/commandHelper /"
+permalink: "/commandHelper/"
 layout: post
 author: BlindHelp
 ---
