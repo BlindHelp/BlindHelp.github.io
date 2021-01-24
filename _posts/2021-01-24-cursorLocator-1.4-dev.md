@@ -11,7 +11,7 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Voici une nouvelle mouture de l'extension cursorLocator-1.4-dev pour NVDA fait  par une amie hispanophone.    
 
-Cette extension permet de connaître la position du système Caret (signe d'insertion "`/`" au début de la ligne en cours, tout en tapant afin d'ajouter du texte dans des contrôles multilignes.    
+Cette extension permet de connaître la position du système Caret (signe d'insertion "`/`") au début de la ligne en cours, tout en tapant afin d'ajouter du texte dans des contrôles multilignes.    
 
 Par exemple sur Wordpad, MicrosoftWord, cette extension permet savoir avec un son, s'il est passé à la ligne suivante.    
 
