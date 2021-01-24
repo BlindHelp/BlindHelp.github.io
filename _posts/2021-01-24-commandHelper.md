@@ -80,8 +80,8 @@ Pour mieux illustrer l'utilisation de cette extension, je vous donnerai un exemp
 ---
 
 Cette extension commandHelper a été traduite en français par: Rémy Ruiz @BlindHelp     
-Merci beaucoup à mon ami <span lang="es">Javi Dominguez> pour l'avoir Partagé avec nous! 😼    
-Je vous souhaite une bonne utilisation de l'extension commandHelper !    
+Merci beaucoup à mon ami <span lang="es">Javi Dominguez</span> pour l'avoir Partagé avec nous! 😼    
+Je vous souhaite une bonne utilisation de l'extension commandHelper!    
 @+    
 BlindHelp!    
 
