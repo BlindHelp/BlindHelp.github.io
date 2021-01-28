@@ -1,20 +1,31 @@
 ---
 title: Utilitaires Chrome une extension pour NVDA
+permalink: "/ChromeUtilities/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Dimanche 25 Octobre 2020</footer>
+<footer>Publié le Dimanche 25 Octobre 2020 - Dernière mise à jour le Mercredi 27 Janvier 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
-Voici  l'extension Utilitaires Chrome pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
+Voici une nouvelle mouture de l'extension appelée Utilitaires Chrome pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
+
 Je viens de le traduire en français et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
 
+# Mise à jour importante! #
+
+La première chose à commenter qu'il est fortement recommandé de mettre à jour cette extension, vers la nouvelle mouture 0.6, ceci est seulement pour les personnes qui ont toujours des versions ancienne de cette extension installées par exemple, 0.5, 0.4, Etc... car elles cesseront de travailler avec les nouvelles versions de Chrome.    
+
+Donc, n'oubliez pas que ceux qui ont téléchargé et installé la version précédente 0.5  de l'extension ChromeUtilities pour NVDA lorsque Chrome est mis à jour à la version 88, cette extension cessera de fonctionner avec les nouvelles versions de Chrome.    
+
+# Informations sur l'extension ChromeUtilities #
+
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 0.5    
-* Compatibilité avec NVDA: de 2019.3 à 2020.2    
-Langues: Anglais, Espagnol et  Français    
-* [Télécharger](https://blindhelp.github.io/ChromeUtilities-0.5.nvda-addon)    
+* Version actuelle: 0.6    
+* Compatibilité avec NVDA: de 2019.3 à 2020.4    
+* Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal    
+* Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/hxebolax/Utilidades-Chrome/releases/download/0.6/ChromeUtilities-0.6.nvda-addon)    
+* [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/hxebolax/Utilidades-Chrome)    
 
 ---
 
@@ -24,19 +35,56 @@ Petite extension qui va ajouter des améliorations au navigateur Chrome.
 
 Cette extension ne fonctionne que dans les versions de NVDA 2019.3 et ultérieures.
 
+Maintenant, il détient toutes ses fonctions dans les 3 variantes,  Final, Beta et Canary.
+
 ## Commandes Clavier de l'extension:
 
-NVDA+F6: Ouvre le dialogue de la liste des onglets.
+Toutes les commandes clavier de l'extension peuvent être modifiées dans le dialogue NVDA Gestes de commandes.
 
-F7: Affichera l'historique des pages visités en arrière.
+Une fois dans ce dialogue, ils seront dans la catégorie Utilitaires Chrome.
 
-F8: Affichera l'historique des pages visités en avant.
+Nous devons dire que pour que cette catégorie apparaisse doit être  appelée le dialogue Gestes de commandes avec le navigateur Chrome ouvert et focalisé.
 
-F9: Activera et désactivera le mode lecture.
+* Shift+F4: active et désactive la navigation cyclique.
+* NVDA+F6: Ouvre le dialogue de la liste des onglets.
+* F7: Affichera l'historique des pages visités en arrière.
+* F8: Affichera l'historique des pages visités en avant.
+* F9: Activera et désactivera le mode lecture.
+* Shift+F9: Démarre la lecture continue en mode lecture.
+
+### Navigation cyclique
+
+Nous pouvons maintenant avoir une navigation cyclique en Chrome, bien connu dans d'autres lecteurs d'écran.
+
+La navigation cyclique entraîne le lecteur d'écran d'accéder au haut de la page ou inversement lorsqu'il n'y a plus d'éléments du type approprié en fonction de la lettre de navigation rapide que vous utilisez. Par exemple, si vous appuyez sur h pour naviguer sur les titres et que vous n'aurez plus de titres disponibles, NVDA sautera au début de la page et vous placera à nouveau sur le premier.
+
+Nous pouvons activer ou désactiver la navigation cyclique avec Shift+F4.
+
+Une fois activé surfer sur le web en utilisant   Les touches de navigation d'une seule lettre.
+
+Attention!
+
+Si je m'arrête pour expliquer qu'il y a déjà une extension hébergée sur le site officiel de la communauté NVDA en espagnol qui est la suivante:
+
+<https://nvda.es/2019/01/25/screen-Rapping-navegacion-ciclica/>
+
+ou à partir du dépôt de l'auteur en GitHub:
+
+<https://github.com/hamadatrichine/nvda-screen-rapping>
+
+Eh bien, ladite extension est obsolète et nous devrions aller changer le manifeste afin que cela fonctionne en utilisant les indicateurs de compatibilité avec des versions récentes de NVDA et l'auteur me semble qui  ne suit plus avec son développement il y a 2 ans.
+
+Par conséquent, je souhaite lancer l'avertissement selon lequel si nous allons utiliser cette fonction dans Chrome, il n'est recommandé que si nous avons installé l'extension Screen Rapping désactiver ou la désinstallez si nous ne l'utilisions pas ailleurs et utilisez la fonction qui arrive déjà dans mon extension.
+
+Si nous allions utiliser la navigation cyclique dans d'autres documents ou navigateurs, alors je recommande d'utiliser l'extension Screen Rapping et oubliez la fonction qui vient dans mon extension.
+
+Cela va  aux goûts de chacun mais bon comme Screen Rapping est une extension qui n'est pas mise à jour et qu'il est peu connu, je l'ai trouvé correct d'intégrer sa fonction à l'extension Utilitaires Chrome avec l'approbation de Hamada Trichine afin d'Utiliser son code.
+
+Et enfin dans le cas où nous avons une autre extension qui effectue la même fonction s'il vous plaît je vous recommande d'utiliser votre extension et oubliez la fonction qui vient dans mon extension.
 
 ### Contrôle des onglets
 
-Dans le navigateur Chrome nous pouvons changer de zones avec F6 puis  nous pouvons atteindre la zone des onglets      puis les parcourir avec les touches fléchées    ainssi  qu'au-dessus de l'onglet que nous souhaitions, si nous appuyons sur la touche applications le menu apparaît avec différentes options que nous pouvons effectuer sur l'onglet.
+Dans le navigateur Chrome nous pouvons changer de zones avec F6 puis  nous pouvons atteindre la zone des onglets      puis les parcourir avec les touches fléchées    ainssi  qu'au-dessus de l'onglet que nous souhaitons, si nous appuyons sur la touche applications le menu apparaît avec différentes options que nous pouvons effectuer sur l'onglet.
 
 Nous pouvons également passer rapidement entre les onglets avec la combinaison de touches Ctrl+1 à 9, mais les choses se compliquent quand nous avons plus d'onglets.
 
@@ -50,13 +98,10 @@ Quand vous êtes dans  la liste si vous appuyez sur la touche Entrée vous amèn
 
 Nous avons 4 boutons qui sont:
 
-Clic gauche, lequel nous laissera sur l'onglet que nous avons sélectionné dans la liste.
-
-Clic droit, lequel nous affichera  les options de l'onglet sélectionné dans la liste.
-
-Nouvel onglet, ce bouton ouvrira un nouvel onglet où nous commençons à partir de zéro, lequel  nous laissera le focus sur la barre d'adresse afin de rechercher ou d'introduire l'adresse que nous souhaitons.
-
-Fermer, ce bouton nous nous fermera et nous nous laissera sur la page où il a été appelé le dialogue.
+* Cliquer sur le bouton  gauche, lequel nous laissera sur l'onglet que nous avons sélectionné dans la liste.
+* Cliquer sur le bouton  droit, lequel nous affichera  les options de l'onglet sélectionné dans la liste.
+* Nouvel onglet, ce bouton ouvrira un nouvel onglet où nous commençons à partir de zéro, lequel  nous laissera le focus sur la barre d'adresse afin de rechercher ou d'introduire l'adresse que nous souhaitons.
+* Fermer, fermera le dialogue et  nous nous laissera sur la page où il a été appelé le dialogue.
 
 Je dois dire que la fenêtre du dialogue des onglets peut être fermé à partir du bouton correspondant, en appuyant sur la touche Échap ou en perdant le focus.
 
@@ -122,10 +167,21 @@ Si la page le permet nous passons en mode lecture puis nous sommes avertis que o
 
 Si on appuie sur F9 et étant dedans du mode lecture nous nous sortira de celui-ci et nous nous avertira aussi  de que nous sortions de ce mode.
 
+### Lecture continue en mode lecture
+
+Si on appuie sur Shift+F9 lorsque le mode de lecture est activé, NVDA commencera à lire la page  d'où le curseur est positionné.
+
+Si on appuie sur Ctrl nous arrêterons la lecture.
+
 ## Traducteurs et contributeurs:
 
 * Français: Rémy Ruiz
+* Portugais: Ângelo Miguel Abrantes
+* Arabe: Wafiq Taher
+# Journal des changements.
+## Version 0.6.
 
+* Version initiale.
 
 ---
 
