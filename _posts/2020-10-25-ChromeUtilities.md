@@ -14,7 +14,7 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 
 # Mise à jour importante! #
 
-La première chose à commenter qu'il est fortement recommandé de mettre à jour cette extension, vers la nouvelle mouture 0.6, ceci est seulement pour les personnes qui ont toujours des versions ancienne de cette extension installées par exemple, 0.5, 0.4, Etc... car elles cesseront de travailler avec les nouvelles versions de Chrome.    
+La première chose à commenter qu'il est fortement recommandé de mettre à jour cette extension, vers la nouvelle mouture 0.6, ceci est seulement pour les personnes qui ont toujours des versions ancienne de cette extension installées c'est-à-dire, la version 0.5, Etc, car elles cesseront de travailler avec les nouvelles versions de Chrome.    
 
 Donc, n'oubliez pas que ceux qui ont téléchargé et installé la version précédente 0.5  de l'extension ChromeUtilities pour NVDA lorsque Chrome est mis à jour à la version 88, cette extension cessera de fonctionner avec les nouvelles versions de Chrome.    
 
