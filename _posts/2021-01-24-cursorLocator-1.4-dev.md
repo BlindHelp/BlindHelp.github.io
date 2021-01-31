@@ -1,30 +1,32 @@
 ---
-title: cursorLocator-1.4-dev extension disponible en téléchargement pour NVDA
+title: cursorLocator extension disponible en téléchargement pour NVDA
 permalink: "/cursorLocator/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 24 Janvier 2021</footer>
+<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour le Dimanche 31 Janvier 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
-Voici une nouvelle mouture de l'extension cursorLocator-1.4-dev pour NVDA fait  par une amie hispanophone.    
+Voici une nouvelle mouture de l'extension cursorLocator pour NVDA fait  par une amie hispanophone.    
 
-Vous trouverez ci-dessous sa description traduite en français par mes soins, néanmoins, celle-ci n'est pas encore traduite par l'équipe de traducteurs de la communauté des extensions de NVDA.    
+Vous trouverez ci-dessous sa description traduite en français par mes soins.      
 
 À savoir que c'est une version de développement, donc, elle n'est pas recommandée pour les environnements de travail puisqu'elle s'agit d'une version dev, Cependant, plus aucune erreur n'a été détectée par les testeurs, par conséquent, , elle est considéré qu'elle est déjà assez stable, mais je demande prudence.    
 
-# Informations sur l'extension  cursorLocator-1.4-dev #
+# Informations sur l'extension  cursorLocator #
 
 * Auteur: <span lang="es">Noelia Ruiz Martínez</span>
-* Version actuelle: cursorLocator 1.4-dev 
-* Langues: Anglais.
+* Version actuelle: 1.4.3-dev
+* Langues: Anglais,Arabe, espagnol et Français.
 * Compatibilité NVDA: 2020.4
-* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/nvdaes/cursorLocator/releases/download/1.4-dev/cursorLocator-1.4-dev.nvda-addon)
+* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/nvdaes/cursorLocator/releases/download/1.4.3-dev/cursorLocator-1.4.3-dev.nvda-addon)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/nvdaes/cursorLocator)
 
-# Message passé sur la liste d'extensions NVDA en Anglais par l'auteur: #
+# Premier Message passé sur la liste d'extensions NVDA en Anglais par l'auteur: #
+
+À savoir que le lien pointe vers la dernière version en date, car entre temps les langues arabes, espagnol et français ont été ajoutés à l'extension via des Pull Request accepté par l'auteur.
 
 # cursorLocator 1.4-dev `#`AddonTesting #
 
@@ -55,7 +57,7 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins, n�
 <span lang="en">Download:</span>
 
 <span lang="en">
-<https://github.com/nvdaes/cursorLocator/releases/download/1.4-dev/cursorLocator-1.4-dev.nvda-addon>
+<https://github.com/nvdaes/cursorLocator/releases/download/1.4.3-dev/cursorLocator-1.4.3-dev.nvda-addon>
 </span>
 
 <span lang="en">Repo:</span>
@@ -78,27 +80,28 @@ Ce panneau est disponible dans le menu NVDA, sous-menu Préférences, boîte de 
 
 Fournit les options suivantes:
 
-* <span lang="en">Report start of line</span> (Annoncer le début de ligne): Lorsque ce contrôle est coché, une tonalité grave annoncera si le curseur est au début de la ligne actuelle tout en tapant du texte (coché par défaut).
-* <span lang="en">Report line length</span> (Annoncer longueur de ligne): Vous pouvez taper ou choisir une longueur de ligne (nombre de caractères entre 0 et 600), qui sera annoncé par une tonalité aigu lorsqu'il  est atteint. (La valeur par défaut est de 80 caractères).
-* <span lang="en">Pitch of sound for start of line</span> (Hauteur du son pour le début de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 20000. (La valeur par défaut est de 400 hertzs).
-* <span lang="en">Length of sound for start of line</span> (Durée du son pour le début de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 2000. (La valeur par défaut est de 50 millisecondes).
-* <span lang="en">Test sound for start of line</span> (Test du son pour le début de ligne): Appuyer sur ce bouton pour tester le son configuré pour le début de ligne.
-* <span lang="en">Pitch of sound for end of line</span> (Hauteur du son pour  la fin de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 20000. (La valeur par défaut est de 1000 hertzs).
-* <span lang="en">Length of sound for end of line</span> (Durée du son pour la fin de ligne): Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 2000. (La valeur par défaut est de 50 millisecondes).
-* <span lang="en">Test sound for end of line</span> (Test du son pour la fin de ligne): Appuyer sur ce bouton pour tester le son configuré pour la fin de ligne.
+* Annoncer le début de ligne: Lorsque ce contrôle est coché, une tonalité grave annoncera si le curseur est au début de la ligne actuelle tout en tapant du texte (coché par défaut).
+* Annoncer longueur de ligne: Vous pouvez taper ou choisir une longueur de ligne (nombre de caractères entre 0 et 600), qui sera annoncé par une tonalité aigu lorsqu'il  est atteint. (La valeur par défaut est de 80 caractères).
+* Hauteur du son pour le début de ligne: Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 20000. (La valeur par défaut est de 400 hertzs).
+* Durée du son pour le début de ligne: Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 2000. (La valeur par défaut est de 50 millisecondes).
+* Test du son pour le début de ligne: Appuyer sur ce bouton pour tester le son configuré pour le début de ligne.
+* Hauteur du son pour  la fin de ligne: Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 20000. (La valeur par défaut est de 1000 hertzs).
+* Durée du son pour la fin de ligne: Vous pouvez taper ou sélectionner une valeur comprise entre 20 et 2000. (La valeur par défaut est de 50 millisecondes).
+* Test du son pour la fin de ligne: Appuyer sur ce bouton pour tester le son configuré pour la fin de ligne.
 
 ## Commandes ##
 
 Vous pouvez modifier les gestes associés aux commandes suivantes via le menu NVDA, sous-menu Préférences, boîte de dialogue Gestes de commandes.
 
 * NVDA+control+shift+l: Si possible, annonce la longueur de la ligne actuelle (catégorie Curseur système).
-* <span lang="en">Not assigned</span> (Non assigné): Affiche la boîte de dialogue Paramètres Cursor Locator ((catégorie Configuration).
+* Non assigné: Affiche la boîte de dialogue Paramètres Cursor Locator ((catégorie Configuration).
 
 ## Changements pour la version 1.0 ##
 * Première version.
 
 ---
 
+Cette extension cursorLocator a été traduite en français par: Rémy Ruiz @BlindHelp     
 Merci beaucoup à mon amie <span lang="es">Noelia Ruiz Martínez</span> pour l'avoir adapté à la dernière version de NVDA 2020.4 et avoir apporté ces nouvelles améliorations. 🤗    
 
 Je vous souhaite une bonne utilisation de l'extension cursorLocator!    
