@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 24 Janvier 2021</footer>
+<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour Samedi 30 Janvier 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -16,13 +16,35 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 # Informations sur l'extension commandHelper #
 
 * Auteur: <span lang="es">Javi Dominguez</span>
-* Version actuelle: Command Helper dev20210124
-* Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal
+* Version actuelle: dev20210130
+* Langues: Arabe, Anglais, Chinois, traditionnel et simplifié, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal
 * Compatibilité NVDA:  2018.1 à 2020.4
-* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/javidominguez/commandHelper/releases/download/dev20210124/commandHelper-dev20210124.nvda-addon)
+* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/javidominguez/commandHelper/releases/download/dev20210130/commandHelper-dev20210130.nvda-addon)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/javidominguez/commandHelper/)
 
 # Message passé sur la liste d’extensions NVDA en Anglais par l’auteur: #
+
+# Dernière version du 30/01/2021 #
+
+# Updated addon commandHelper with a new feature #
+
+<span lang="en">Hi!</span>
+
+<span lang="en">I just released a new update. Now you can skip directly to a category by pressing its initial letter.</span>
+
+<span lang="en">Translation into Chinese, traditional and simplified, by Michael Tsai has also been included. Angelo and Rémi have updated the documentation in their respective languages. Thanks to all of them.</span>
+
+<span lang="en">Here the download link:</span>
+
+<span lang="en">
+<https://nvda.es/files/get.php?file=cmdHelper-dev>
+</span>
+
+<span lang="en">Greetings</span>
+
+<span lang="es">Javi Dominguez</span>
+
+# Version précédente du 24/01/2021 #
 
 # Addon update: commandHelper with localizations #
 
@@ -57,6 +79,7 @@ Fournit une autre méthode d'exécution de scripts pour les personnes qui ont de
 En appuyant sur NVDA+h une couche de commandes clavier est activée avec les options suivantes:
 
 * Flèches gauche et droite pour choisir une catégorie
+* Toute lettre de A à Z pour sauter à la catégorie avec cette initiale.
 * Flèches haut et bas pour sélectionner une commande de la catégorie choisie
 * Entrée pour exécuter la commande
 * Shift+entrée exécute le script comme si sa combinaison de touches avait été appuyée deux fois rapidement.
@@ -72,7 +95,7 @@ Pour mieux illustrer l'utilisation de cette extension, je vous donnerai un exemp
 
 1. Aller n'importe où sur le bureau.
 2. Appuyer sur NVDA+h.
-3. Flèches gauche et droite pour choisir une catégorie, par exemple  je vais choisir l'extension zRadio.
+3. Flèches gauche et droite pour choisir une catégorie, par exemple  je vais choisir l'extension zRadio ou je peux également appuyer sur la lettre z pour aller au nom de ladite extension.
 4. Flèches haut et bas pour sélectionner une commande de la catégorie choisie, par exemple si je souhaite lancer cette extension zRadio je vais choisir"Affiche la fenêtre principale de zRadio".
 5. Entrée pour exécuter la commande.
 6. Appuyer sur n'importe quelle touche pour sortir de l'assistant de commande.
