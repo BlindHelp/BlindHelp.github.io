@@ -9,7 +9,7 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Voici une nouvelle extension appelée commandHelper pour NVDA fait  par un ami hispanophone.    
+Voici une nouvelle mouture de l'extension appelée commandHelper pour NVDA fait  par un ami hispanophone.    
 
 Vous trouverez ci-dessous sa description traduite en français par mes soins.    
 
@@ -19,7 +19,7 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 * Version actuelle: dev20210130
 * Langues: Arabe, Anglais, Chinois, traditionnel et simplifié, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal
 * Compatibilité NVDA:  2018.1 à 2020.4
-* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/javidominguez/commandHelper/releases/download/dev20210130/commandHelper-dev20210130.nvda-addon)
+* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=cmdHelper-dev)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/javidominguez/commandHelper/)
 
 # Message passé sur la liste d’extensions NVDA en Anglais par l’auteur: #
