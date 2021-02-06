@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour le Dimanche 31 Janvier 2021</footer>
+<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour le Vendredi 5 Février 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -18,15 +18,41 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 # Informations sur l'extension  cursorLocator #
 
 * Auteur: <span lang="es">Noelia Ruiz Martínez</span>
-* Version actuelle: 1.4.3-dev
-* Langues: Anglais,Arabe, espagnol et Français.
+* Version actuelle: 1.5.1-dev
+* Langues: Anglais, Arabe, espagnol, Français et Portugais-Brésil,  et Portugais-Portugal
 * Compatibilité NVDA: 2020.4
-* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/nvdaes/cursorLocator/releases/download/1.4.3-dev/cursorLocator-1.4.3-dev.nvda-addon)
+* Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/nvdaes/cursorLocator/releases/download/1.5.1-dev/cursorLocator-1.5.1-dev.nvda-addon)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/nvdaes/cursorLocator)
 
-# Premier Message passé sur la liste d'extensions NVDA en Anglais par l'auteur: #
+---
 
-À savoir que le lien pointe vers la dernière version en date, car entre temps les langues arabes, espagnol et français ont été ajoutés à l'extension via des Pull Request accepté par l'auteur.
+À savoir que le lien pointe vers la dernière version en date, car entre temps les langues arabes, espagnol, français et Portugais-Brésil,  et Portugais-Portugal ont été ajoutés à l'extension via des Pull Request accepté par l'auteur y compris un bug signalé par @ibrahim-s.
+
+# Messages passé sur la liste d'extensions NVDA en Anglais par l'auteur: #
+
+# CursorLocator version 1.5.1-dev  05.02.2021 #
+
+<span lang="en">Hi again:</span>
+
+<span lang="en">Version 1.5.1, with brazilian and european portuguese translations, sent by Ângelo Miguel Abrantes.</span>
+
+<span lang="en">Changes for 1.5.1-dev (PR #7)</span>
+
+* <span lang="en">Added brazilian and european portuguese translations.</span>
+
+<span lang="en">Thanks.</span>
+
+# CursorLocator version 1.5-dev 05.02.2021 #
+
+<span lang="en">Hello: Here's a new version fixing a bug reported by @Ibrahim-s:</span>
+
+<span lang="en">Changes for 1.5-dev (PR #6)</span>
+
+* <span lang="en">Fixed line length when the cursor isn't placed on the last line in programs like Notepad (issue #5).</span>
+
+<span lang="en">Thanks.</span>
+
+# Premier Message passé sur la liste d'extensions NVDA en Anglais par l'auteur:  24.01.2021 #
 
 # cursorLocator 1.4-dev `#`AddonTesting #
 
@@ -57,7 +83,7 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 <span lang="en">Download:</span>
 
 <span lang="en">
-<https://github.com/nvdaes/cursorLocator/releases/download/1.4.3-dev/cursorLocator-1.4.3-dev.nvda-addon>
+<https://github.com/nvdaes/cursorLocator/releases/download/1.5.1-dev/cursorLocator-1.5.1-dev.nvda-addon>
 </span>
 
 <span lang="en">Repo:</span>
