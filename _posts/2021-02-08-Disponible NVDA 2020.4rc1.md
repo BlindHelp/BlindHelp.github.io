@@ -1,6 +1,6 @@
 ﻿---
 title: Disponible NVDA 2020.4rc1
-permalink: "/Disponible NVDA 2020.4rc1"/
+permalink: "/NVDA2020.4rc1"/
 layout: post
 author: BlindHelp
 ---
