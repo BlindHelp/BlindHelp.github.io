@@ -19,8 +19,6 @@ S'il vous plaît noter, après la mise à jour du logiciel, il est une bonne id�
 
 # 2020.4 #
 
-# 2020.4 #
-
 Cette version inclut le support de nouvelles méthodes d'entrée chinoises, une mise à jour de Liblouis, et la liste d'éléments (NVDA+F7) fonctionne maintenant en mode formulaire. Une aide contextuelle est maintenant disponible lors de l'appui sur F1 dans les boîtes de dialogue NVDA. Améliorations pour les règles de prononciation, les dictionaires de parole, les messages Braille et la lecture continue. Correctifs et améliorations pour Courrier, Outlook, Teams, Visual Studio, Azure Data Studio et Foobar2000. Sur le Web, améliorations pour Google Docs, et meilleur support d'ARIA. Plus beaucoup d'autres correctifs et améliorations. 
 
 # Nouvelles fonctionnalités #
