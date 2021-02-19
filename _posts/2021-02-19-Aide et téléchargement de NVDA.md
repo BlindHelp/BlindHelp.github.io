@@ -4,9 +4,9 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le Mardi 13 Octobre 2020</footer>
+<footer>Dernière mise à jour le Vendredi 19 Février 2021</footer>
 
-### Documentation sur NVDA 2020.3 ###
+### Documentation sur NVDA 2020.4 ###
 
 A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
 
