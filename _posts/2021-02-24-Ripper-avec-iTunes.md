@@ -42,10 +42,10 @@ Faire plusieurs tabulations puis cliquer sur le bouton:
 Une boîte de dialogue "Réglages d’importation" s'ouvre:    
 iTunes vous propose plusieurs moyens d'importation et d'utiliser des encodeurs spécifiques comme:    
 `Encodeur AAC,`    
-`Encodeur AIFF,    
-`Encodeur Apple Lossless,    
-`Encodeur MP3,    
-`Encodeur WAV.    
+`Encodeur AIFF,`    
+`Encodeur Apple Lossless,`    
+`Encodeur MP3,`    
+`Encodeur WAV.`    
 Selon le format audio choisi dans la première liste déroulante nous devrons choisir la qualité souhaitée dans la deuxième liste déroulante.    
 Pour ma part, voici ma configuration que j'ai choisi lors du réglages d'importation dans l'application iTunes:    
 `Importer avec : liste déroulante Encodeur MP3`    
