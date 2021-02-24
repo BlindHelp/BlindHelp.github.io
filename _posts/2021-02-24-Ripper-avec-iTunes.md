@@ -20,8 +20,9 @@ Note: Dans ce tutoriel rapide, je ne expliquerai ni le fonctionnement d'iTunes n
 Si vous ne l'avez pas encore installé, consultez la page officielle iTunes pour le télécharger à:    
 [https://www.apple.com/fr/itunes/](https://www.apple.com/fr/itunes/)    
 
-Vous recherchez une ancienne version d’iTunes ?    
-[Téléchargez une ancienne version d’iTunes compatible avec certains appareils et systèmes d’exploitation](https://support.apple.com/fr_FR/downloads/itunes)    
+Vous recherchez une ancienne version d'iTunes?    
+Téléchargez une ancienne version d'iTunes compatible avec certains appareils et systèmes d'exploitation, pour cela  consultez la page officielle iTunes à:    
+[https://support.apple.com/fr_FR/downloads/itunes](https://support.apple.com/fr_FR/downloads/itunes)    
 
 Testé avec le lecteur d'écran NVDA 2020.4 destiné à les personnes ayant une déficience visuelle (réalisable avec les versions précédentes de NVDA), iTunes version 12.11.0.26, sous Windows 10 64 bits.    
 
