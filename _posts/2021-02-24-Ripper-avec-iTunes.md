@@ -75,7 +75,7 @@ Avant ce bouton vous aurez le bouton:
 `Infos sur le CD`    
 Si vous le souhaitez, vous pouvez cliquer dessus pour obtenir plus d'informations concernant votre CD audio, une fois consulté Cliquez sur le bouton OK pour quitter ce dialogue.    
 
-Note: Ce bouton est également utile pour éditer le nom de la piste, le nom de l'artiste, le nom de l'album, l'année, etc. Si le CD audio n'a pas été  répertorié dans la base de données de [Gracenote](https://www.gracenote.com/) par exemple, et vous souhaitez entrer les données manuellement, et même vous pouvez les envoyer à [Gracenote(https://www.gracenote.com/) depuis l'application iTunes. Consulter le lien ci-dessous pour en savoir plus.    
+Note: Ce bouton est également utile pour éditer le nom de la piste, le nom de l'artiste, le nom de l'album, l'année, etc. Si le CD audio n'a pas été  répertorié dans la base de données de [Gracenote](https://www.gracenote.com/) par exemple, et vous souhaitez entrer les données manuellement et même vous pouvez les envoyer à [Gracenote](https://www.gracenote.com/) si vous vous sentez à l'aise avec l'application iTunes. Consulter le lien ci-dessous pour en savoir plus.    
 
 [Modifier les informations des morceaux et des CD dans iTunes sur PC - Assistance Apple](https://support.apple.com/fr-fr/guide/itunes/itns2937/windows)    
 
