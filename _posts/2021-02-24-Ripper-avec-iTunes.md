@@ -74,13 +74,18 @@ Ce bouton disparaîtra lorsque cette opération finalise suivi d'un effet sonore
 Avant ce bouton vous aurez le bouton:    
 `Infos sur le CD`    
 Si vous le souhaitez, vous pouvez cliquer dessus pour obtenir plus d'informations concernant votre CD audio, une fois consulté Cliquez sur le bouton OK pour quitter ce dialogue.    
+
+Note: Ce bouton est également utile pour éditer le nom de la piste, le nom de l'artiste, le nom de l'album, l'année, etc. Si le CD audio n'a pas été  répertorié dans la base de données de [Gracenote](https://www.gracenote.com/) par exemple, et vous souhaitez entrer les données manuellement, et même vous pouvez les envoyer à [Gracenote(https://www.gracenote.com/) depuis l'application iTunes. Consulter le lien ci-dessous pour en savoir plus.    
+
+[Modifier les informations des morceaux et des CD dans iTunes sur PC - Assistance Apple](https://support.apple.com/fr-fr/guide/itunes/itns2937/windows)    
+
 Cliquez sur le bouton:    
 `Éjecter`    
 Pour éjecter le CD audio de votre lecteur.    
 Une fois l'album audio importé dans votre application iTunes, si vous vous rendez dans le dossier Musique de votre PC, (selon votre systèmes d’exploitation) accessible dans le chemin:    
 `C:\Users\Tartempion\Music\iTunes\iTunes Media\Music\Compilations\`    
 Vous trouverez votre CD audio transformé en MP3 avec leurs titres respectifs...    
-Il est conseillé instamment de déplacer chaque dossier à la fin de chaque importation pour éviter de mélanger les autres CD importés au cas où vous avez un coffre contenant plusieurs CD audio contenant un titre unique en tant que nom du CD.    
+Il est conseillé instamment de déplacer chaque dossier à la fin de chaque importation pour éviter de mélanger les autres CD importés au cas où vous avez un coffre contenant plusieurs CD audio contenant un titre unique en tant que nom du CD si vous voulez les avoir dans un dossier séparé.    
 Une fois que chaque dossier est déplacé ailleurs sur votre ordinateur, vous pouvez mettre à la fin de son titre CD1, CD2, CD3, CD4 ETC...   en utilisant la touche F2 pour le faire.    
 À savoir que chaque dossier importé contient ses titres et est identifié comme suit:    
 `Nom du titre du CD comme nom du dossier`    
@@ -101,7 +106,27 @@ Si vous avez un deuxième CD Audio importé, vous aurez l'indicatif suivant au d
 
 et ainsi de suite...    
 
-C'est pourquoi je vous dis de faire très attention à chaque importation de vos CDs audio au cas où il contient plusieurs CD contenant un titre unique en tant que nom du CD.    
+C'est pourquoi je vous dis de faire très attention à chaque importation de vos CDs audio au cas où il contient plusieurs CD contenant un titre unique en tant que nom du CD si vous voulez les avoir dans un dossier séparé.    
+
+Cependant, les pistes converties en MP3 seront lus par vvotre lecteur préféré sur votre PC ou sur votre baladeur dans le bon ordre si vous souhaitez les conserver dans un seul dossier. 😉    
+
+J'ai oublié de dire que au même niveau du dossier:    
+`Compilations`    
+Dans le cas où iTunes n'a pas trouvé le CD audio dans la base de données de [Gracenote](https://www.gracenote.com/) nous aurons un dossier comme nom:    
+`Unknown Artist`    
+Dans ce dossier, nous aurons un autre sous-dossier comme nom:    
+`Unknown Album`    
+contenant nos pistes audio importées de type  mp3 par exemple.    
+Les fichiers audio seront nommés comme suit: "01 Piste 01.mp3", "02 Piste 02.mp3", etc, etc...    
+
+S'il s'agit d'un CD audio qui n'est pas une compilation de plusieurs CD, vous aurez le dossier avec le nom de l'artiste et le sous-dossier avec le nom de l'album au même niveau du dossier:    
+`Compilations`    
+
+# Liens utiles #
+
+[Guide de l’utilisateur iTunes](https://support.apple.com/fr-fr/guide/itunes/welcome/windows)    
+
+[Page de Gracenote (en anglais)](https://www.gracenote.com/)    
 
 Voilà,    
 En espérant que ça vous ait plu la tutoriel rapide pour importer un CD audio avec l'application iTunes pour nous les miro.    
