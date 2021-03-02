@@ -24,7 +24,7 @@ Il s'utilise sur YouTube .
 
 Voici le fichier youtube.json, il s'agit  d'un  module utilisé par Web Access , celui-ci est télécharjable depuis mon espace BlindHelp.github.io:    
 
-Placez le curseur au début du lien et menu contextuel pour cliquer sur Enregistrer sous ...    
+Placez le curseur au début du lien et menu contextuel pour cliquer sur "Enregistrer la cible du lien sous..."    
 
 <https://blindhelp.github.io/youtube.json>
 
@@ -45,7 +45,6 @@ e : enregistre la vidéo
 n : notification    
 a :s'abonner  à la chaine    
 
-# ajouter un raccourci 
 # Tuto pour ajouter un raccourci depuis le site de Google par Yannick #
 Voici un petit tuto qui vous montre comment ajouter un raccourci sur le site de Google .     
 
@@ -59,17 +58,17 @@ Voici un petit tuto qui vous montre comment ajouter un raccourci sur le site de 
 8. On vous demande le type, faîtes flèche bas sur marqueur (ce choix est utile uniquement pour l'utilisateur à
 9. Tabulez et donnez un nom à cette règle, je l'ai appelé "suivant"
 10. Tabulez et validez sur le bouton "modifier les critères "
-11. Dans la nouvelle fenêtre  tabulez jusqu'au champ "id :".
-id est une suite de caractère , un identifiant unique pour justement identifier le lien "suivant"
-12. Faîtes flèche bas jusqu'à entendre : pnnext
-Voilà, le lien "suivant " a un identifiant unique qui s'appelle "pnnext".
+11. Dans la nouvelle fenêtre  tabulez jusqu'au champ "id :".    
+id est une suite de caractère , un identifiant unique pour justement identifier le lien "suivant"     
+12. Faîtes flèche bas jusqu'à entendre : pnnext    
+Voilà, le lien "suivant " a un identifiant unique qui s'appelle "pnnext".    
 13. Appuyer sur entrée pour validez ce choix et revenir à la fenêtre précédente .
 14. Tabuler et validez sur le bouton "Ajouter un raccourci clavier"
 15. Exécuter le raccourci souhaiter, moi j'ai fait Alt +s .
 16. Tabulez puis faite flèche bas sur "activer" , puis validez .
-17. Tabulez jusqu'au bouton OK et validez .
+17. Tabulez jusqu'au bouton OK et validez .     
 Voilà, c'est fini !
-Maintenant au lieu de chercher le lien suivant pour cliquer faites tout simplement Alt +s !
+Maintenant au lieu de chercher le lien suivant pour cliquer faites tout simplement Alt +s !    
  
 # Procédure Pour rechercher l'extension WebAccessForNVDA sur la page GitHub: #
 Une fois ouvert le lien du repos GitHub [WebAccessForNVDA](https://github.com/accessolutions/WebAccessForNVDA), il faut chercher un lien nommé:    
