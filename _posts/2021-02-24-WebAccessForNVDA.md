@@ -11,14 +11,14 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension fait par Accessolutions  pour NVDA nommé WebAccess, Voir le lien du repos plus bas, y compris sa documentation, un petit tuto avec un exemple pratique pfait par Yannick (philaos) membre de la liste nvda-fr, y compris un lien pour télécharger une version modifié par ces soins qui corrige l'utilisation de la commande "nvda+control+f3", et un module  comme extension .json utilisable via l'extension pour NVDA nommé WebAccess avec YouTube.
 
-# Télécharger la version de l'extension WebAccess modifié par Yannick #
+# Télécharger la version de l'extension WebAccess modifié par Yannick: #
 Pour utiliser WebAccess, il faudra d'abord installer l'extension  pour NVDA, donc, voici le lien de téléchargement pour la dernière version de l'extension et qui corrige l'utilisation de la commande nvda+control +f3 modifié par Yannick, depuis mon espace BlindHelp.github.io:    
 
 <https://blindhelp.github.io/webAccess-2021.02.10.nvda-addon>
 
 Note: Inutile de télécharger l'extension web access  pour NVDA depuis son repos d'Accessolutions car elle ne contient pas ladite modification fait par Yannick. Merci.
 
-# Module  utilisable via l'extension WebAccess pour YouTube  fait par Yannick #
+# Module  utilisable via l'extension WebAccess pour YouTube  fait par Yannick: #
 Voici donc un nouveau module  utilisable via l'extension pour NVDA nommé WebAccess fait par Yannick.    
 Il s'utilise sur YouTube .    
 
@@ -45,7 +45,7 @@ e : enregistre la vidéo
 n : notification    
 a :s'abonner  à la chaine    
 
-# Tuto pour ajouter un raccourci depuis le site de Google par Yannick #
+# Tuto pour ajouter un raccourci depuis le site de Google par Yannick: #
 Voici un petit tuto qui vous montre comment ajouter un raccourci sur le site de Google .     
 
 1. Aller sur Google .
@@ -67,7 +67,7 @@ Voilà, le lien "suivant " a un identifiant unique qui s'appelle "pnnext".
 15. Exécuter le raccourci souhaiter, moi j'ai fait Alt +s .
 16. Tabulez puis faite flèche bas sur "activer" , puis validez .
 17. Tabulez jusqu'au bouton OK et validez .     
-Voilà, c'est fini !
+Voilà, c'est fini !    
 Maintenant au lieu de chercher le lien suivant pour cliquer faites tout simplement Alt +s !    
  
 # Procédure Pour rechercher l'extension WebAccessForNVDA sur la page GitHub: #
