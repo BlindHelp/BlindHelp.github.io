@@ -1,0 +1,89 @@
+{
+    "formatVersion": "0.6-dev",
+    "WebModule": {
+        "name": "youtube",
+        "url": [
+            "www.youtube.com"
+        ],
+        "windowTitle": ""
+    },
+    "Rules": [
+        {
+            "type": "marker",
+            "name": "lecturePause",
+            "gestures": {
+                "kb:control+k+shift": "activate"
+            },
+            "states": "16777216 & 33554432",
+            "className": "ytp-play-button ytp-button",
+            "tag": "button",
+            "sayName": false
+        },
+        {
+            "type": "marker",
+            "role": "9",
+            "className": "ytp-mute-button ytp-button",
+            "sayName": false,
+            "name": "mute",
+            "gestures": {
+                "kb:control+m+shift": "activate"
+            }
+        },
+        {
+            "type": "marker",
+            "role": "9",
+            "className": "ytp-next-button ytp-button",
+            "sayName": false,
+            "customName": "suivant",
+            "name": "next",
+            "gestures": {
+                "kb:control+s+shift": "activate"
+            }
+        },
+        {
+            "type": "marker",
+            "tag": "paper-button",
+            "className": "style-scope ytd-subscribe-button-renderer keyboard-focus",
+            "sayName": false,
+            "name": "subscribe",
+            "gestures": {
+                "kb:a+control+shift": "activate"
+            }
+        },
+        {
+            "type": "marker",
+            "tag": "button",
+            "className": "yt-simple-endpoint style-scope ytd-subscription-notification-toggle-button-renderer",
+            "sayName": false,
+            "customName": "notification des vid\u00e9os ",
+            "name": "notification",
+            "gestures": {
+                "kb:control+n+shift": "activate"
+            }
+        },
+        {
+            "type": "marker",
+            "tag": "button",
+            "className": "style-scope yt-icon-button",
+            "states": "4194304 & 16777216",
+            "name": "iLike",
+            "gestures": {
+                "kb:control+j+shift": "moveto"
+            },
+            "sayName": false,
+            "customName": "bouton j'aime"
+        },
+        {
+            "type": "marker",
+            "skip": false,
+            "tag": "button",
+            "id": "button",
+            "className": "style-scope yt-icon-button",
+            "name": "save",
+            "gestures": {
+                "kb:control+e+shift": "activate"
+            },
+            "index": 10
+        }
+    ]
+}
