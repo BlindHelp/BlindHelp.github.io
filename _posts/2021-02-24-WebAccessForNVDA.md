@@ -18,6 +18,8 @@ Pour utiliser WebAccess, il faudra d'abord installer l'extension  pour NVDA, don
 
 Note: Inutile de télécharger l'extension web access  pour NVDA depuis son repos d'Accessolutions car elle ne contient pas ladite modification fait par Yannick. Merci.
 
+Ensuite soit vous pouvez vous même personnaliser l'utilisation d'un site, soit installer un module fait par quelqu'un d'autre .    
+
 # Module  utilisable via l'extension WebAccess pour YouTube  fait par Yannick: #
 Voici donc un nouveau module  utilisable via l'extension pour NVDA nommé WebAccess fait par Yannick.    
 Il s'utilise sur YouTube .    
