@@ -1,6 +1,6 @@
 ---
 title: WebAccess extension pour NVDA
-permalink: WebAccessForNVDA
+permalink: "/WebAccessForNVDA/"
 layout: post
 author: BlindHelp
 ---

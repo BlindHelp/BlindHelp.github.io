@@ -1,6 +1,6 @@
 ---
 title: Ripper un CD audio en MP3 avec iTunes
-permalink: Ripper-avec-iTunes
+permalink: "/Ripper-avec-iTunes/"
 layout: post
 author: BlindHelp
 ---
