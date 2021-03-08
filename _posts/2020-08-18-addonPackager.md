@@ -1,14 +1,36 @@
 ---
 title: Empaqueteuse d'extensions pour NVDA
+permalink: "/addonPackager/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 18 Août 2020, dernière mise à jour le Dimanche 8 Novembre 2020</footer>
+<footer>Publié le Mardi 18 Août 2020 - Dernière mise à jour le Lundi Ier Mars 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici l'empaqueteuse d'extensions pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
 Je viens de le traduire en français et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
+
+Cette partie n'est pas inclus dans le journal des changements:     
+
+# Version 0.7.1 #
+
+* Dans la version 0.7 un dossier appelé __pycache__ été inclus lors de l'empaquetage. Maintenant, cela n'est plus inclus lorsque la version 0.7.1 est utilisée donc, nous aurons donc exactement la taille originale de l'extension, puis l'étiquette GEN sera toujours présente pour savoir que cela a été bien généré.    
+
+Cette version apporte également les améliorations de la version0.7:    
+
+# Version 0.7 #
+
+* Maintenant la liste des extensions ce sera beaucoup plus clair comme une liste que nous pouvons sélectionner et désélectionner des cases en interne laquelle est une CheckListBox et cela rend beaucoup plus compréhensible que la liste qui était avant pour sélectionner.    
+* Un geste de commande a été ajouté le quelle nous devrons le configurer car il n'est pas défini pour lancer la fenêtre de l'extension packer.    
+* Le code à un niveau interne est optimisé de manière à ce que l'empaquetage des extensions soit plus rapide lors de la séparation des processus du fil général de NVDA. Dans de grandes extensions dans les versions précédentes, je pourrais faire taire NVDA à un moment donné jusqu'à ce que je termine l'empaquetage de l'extension. Maintenant cela ne se produira pas.    
+*  L'aspect visuel de l'extension est amélioré, maintenant lorsque la génération de l'empaquetage des extensions la fenêtre principale ne sera pas à l'arrière-plan, seule la fenêtre ayant la barre de progression et le message d'attente sera présente.    
+* Le code à un niveau interne est optimisé beaucoup plus.    
+* Cela n'a toujours pas besoin de bibliothèques externes pour remplir ça mission.    
+* la compatibilité dans le manifeste  avec NVDA2020.4 est augmentée.    
+* Ajouté la traduction arabe.    
+
+Je vous laisse le lien direct vers la version 0.7.1 plus bas.    
 
 # journal des changements #
 
@@ -19,7 +41,6 @@ Cela signifie plusieurs choses, d'abord que la taille de l'extension est réduit
 En plus l'extension n'a plus besoin d'une bibliothèque externe à NVDA elle est donc maintenant plus efficace et robuste.    
 Maintenant oui l'auteur peut  dire que l'extension  est 100% NVDA.    
 Eh bien au niveau de l'utilisateur ce changement ne peut pas être perceptible, mais l'auteur nous a dit que en tant que programmeur pour lui c'est très important d'avoir obtenu que l'extension utilise uniquement les bibliothèques de NVDA.    
-Je vous laisse le lien direct vers la version 0.6 plus bas.    
 
 # Version 0.4 #
 
@@ -29,9 +50,9 @@ Je vous laisse le lien direct vers la version 0.6 plus bas.
 ---
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 0.6    
-* Compatibilité avec NVDA: de 2019.3 à 2020.2    
-Langues: Anglais, Espagnol, Français et Portugais du Portugal & Brésil    
+* Version actuelle: 0.7.1    
+* Compatibilité avec NVDA: de 2019.3 à 2020.4    
+Langues: Anglais, Arabe, Espagnol, Français et Portugais du Portugal & Brésil    
 * [Télécharger](https://nvda.es/files/get.php?file=addonpackager)    
 
 ---

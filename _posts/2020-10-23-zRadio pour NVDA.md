@@ -1,10 +1,11 @@
 ---
 title: zRadio une extension pour NVDA
+permalink: "/zRadio-pour-NVDA/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 23 Octobre 2020, dernière mise à jour le Vendredi 8 Janvier 2021</footer>
+<footer>Publié le Vendredi 23 Octobre 2020 - Dernière mise à jour le Vendredi 5 Mars 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -13,11 +14,13 @@ Voici une nouvelle extension  pour NVDA accessible fait  par un ami hispanophone
 # Informations sur l'extension  zRadio: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.4
+* Version actuelle: 0.5.1
 * Compatibilité avec NVDA: de 2019.3 à 2020.3
-* Langues supportées: Anglais, Espagnol, Français et Portugais du Portugal / Brésil
-* [Télécharger](https://github.com/hxebolax/zRadio/releases/download/0.4/zRadio-0.4.nvda-addon)
+* Langues supportées: Anglais, Arabe, Espagnol, Français, Italien  et Portugais du Portugal / Brésil
+* [Télécharger](https://nvda.es/files/get.php?file=zradio)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zradio)
+
+---
 
 # Manuel de zRadio pour NVDA
 ## Observations importantes de l'auteur
@@ -61,6 +64,8 @@ C'est le cas si vous utilisez toujours des versions 0.1, 0.2 et 0.3 de l'extensi
 Maintenant, l'extension  uniquement enregistrera 5 fichiers dans le répertoire zRadio que nous trouvons dans le répertoire de configuration NVDA si cette nouvelle version 0.4 de l'extension zRadio est utilisée.
 
 Veuillez consulter la section "Journal des changements" pour la version 0.4 ci-dessous, pour plus de détails.
+
+Dans la version 0.5, les fichiers cache.dat et radio_cache.dat sont remplacés par cache.sqlite.
 
 Pour les programmeurs qui savent beaucoup, ne me disputez pas pour le code  tant grossier et tant précipité et de ne pas mettre de commentaires et faire tout ce qui ne doit  pas faire un programmeur si souhaite  être ordonné.
 
@@ -237,10 +242,32 @@ zRadio fournit les commandes suivantes pour permettre à l'utilisateur d'ajouter
 * Français: Rémy Ruiz
 * Portugais: Ângelo Miguel Abrantes
 * Anglais: slanovani
+* Italien: Simone Dal Maso
+* Arabe: Wafiq Taher
 
 # Journal des changements.
-## Version 0.4.
+## Version 0.5.1.
 
+* Ajoutée la possibilité de jouer une stations  en appuyant sur la barre d'espace.
+
+Cette nouvelle possibilité sera sur les trois écrans où nous avons  des stations, dans Général, Favoris et dans Moteur de recherche dans la catégorie Recherche générale de radios.
+
+Dans l'une de ces 3 sections lorsque le focus est mis sur une station si nous appuyions sur la barre d'espace commencera la lecture en changeant le focus sur le bouton Arrêter.
+
+* Correction d'une erreur grave pour les nouveaux utilisateurs qui installent l'extension pour la première fois.
+
+## Version 0.5.
+
+* Ajout d'une nouvelle gestion de cache.
+
+Maintenant, le cache prédéfini de la bibliothèque est utilisé à la place de celle créée pour alléger la charge.
+
+Lorsque vous utilisez le cache prédéfini, la charge de l'extension est beaucoup plus rapide. Peut-être que quelque fois par connexion au serveur il se ralentit mais maintenant à 95%, l'extension doit charger comme s'il s'agissait d'une autre extension sans Retarder notre NVDA.
+
+## Version 0.4a.
+* Ajout de la traduction Italien et Arabe
+
+## Version 0.4.
 * Optimisé le code en réduisant sa taille à plus de la moitié.
 
 Le code a été optimisé de manière à ce que l'installation soit réduite à 60%. Cela affecte que la performance est meilleure.

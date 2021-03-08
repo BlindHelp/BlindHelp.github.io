@@ -24,7 +24,7 @@ Donc, n'oubliez pas que ceux qui ont téléchargé et installé la version préc
 * Version actuelle: 0.6    
 * Compatibilité avec NVDA: de 2019.3 à 2020.4    
 * Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal    
-* Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/hxebolax/Utilidades-Chrome/releases/download/0.6/ChromeUtilities-0.6.nvda-addon)    
+* Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=chromeutils)    
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/hxebolax/Utilidades-Chrome)    
 
 ---
