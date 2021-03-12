@@ -14,8 +14,8 @@ Voici une nouvelle extension  pour NVDA accessible fait  par un ami hispanophone
 # Informations sur l'extension  zRadio: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.5.1
-* Compatibilité avec NVDA: de 2019.3 à 2020.3
+* Version actuelle: 0.5.2
+* Compatibilité avec NVDA: de 2019.3 à 2020.4
 * Langues supportées: Anglais, Arabe, Espagnol, Français, Italien  et Portugais du Portugal / Brésil
 * [Télécharger](https://nvda.es/files/get.php?file=zradio)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zradio)
@@ -246,6 +246,19 @@ zRadio fournit les commandes suivantes pour permettre à l'utilisateur d'ajouter
 * Arabe: Wafiq Taher
 
 # Journal des changements.
+# Journal des changements.
+## Version 0.5.2.
+
+* Résolu la charge lente lors du démarrage de NVDA.
+
+Résolu les retards qui avait NVDA lors du démarrage à cause de zRadio. Maintenant, le démarrage de NVDA sera immédiat.
+
+* Ajoutée la compatibilité avec le projet Walrus.
+
+La prise en charge des nouvelles versions de NVDA a été ajoutée, exactement afin d'être utiliser avec la nouvel alpha et l'extension est prête pour la sortie de NVDA 2021.1.
+
+Pour le moment, l'extension continuera d'être compatible à partir de  la version 2019.3 et plus.
+
 ## Version 0.5.1.
 
 * Ajoutée la possibilité de jouer une stations  en appuyant sur la barre d'espace.
