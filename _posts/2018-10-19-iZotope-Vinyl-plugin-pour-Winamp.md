@@ -80,20 +80,19 @@ Voici le mode d'emploi en anglais.
 <span lang="en">[vinyl@izotope.com](mailto:vinyl@izotope.com</span>)    
 <span lang="en">or visit us at</span>     
 <span lang="en">iZotope, Inc - Audio Signal Processing Hardware, Software, Plug-ins, Technology Licensing</span>    
-<span lang="en">
+<span lang="en">    
 <http://www.izotope.com>    
-</span>
+</span>     
 
 <p>Voilà!<p>
 <p>C'est tout apropos du plug-iniZotope_Vinylpour Winamp!<p>
 <p>Bien amicalement,<p>
-<p>Rémy (BlindHelp).
+<p>Rémy (BlindHelp).</p>
+</br>
 
 
 
 ---
 
-Nous espérons vous revoir bientôt sur le      
-[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
-ou sur  votre nouveau espace via GitHub:                     
-[BlindHelp.github.io](https://blindhelp.github.io)                    
+Nous espérons vous revoir bientôt sur le [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)    
+ou sur  votre nouveau espace via GitHub: [BlindHelp.github.io](https://blindhelp.github.io)    
