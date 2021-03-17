@@ -81,14 +81,14 @@ Voici le mode d'emploi en anglais.
 <span lang="en">or visit us at</span>     
 <span lang="en">iZotope, Inc - Audio Signal Processing Hardware, Software, Plug-ins, Technology Licensing</span>    
 <span lang="en">    
-<http://www.izotope.com>    
+[http://www.izotope.com](http://www.izotope.com>)
 </span>     
 
 <p>Voilà!<p>
 <p>C'est tout apropos du plug-iniZotope_Vinylpour Winamp!<p>
 <p>Bien amicalement,<p>
 <p>Rémy (BlindHelp).</p>
-</br>
+<br><br>
 
 
 
