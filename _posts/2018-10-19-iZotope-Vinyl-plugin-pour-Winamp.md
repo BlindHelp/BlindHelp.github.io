@@ -91,6 +91,7 @@ Voici le mode d'emploi en anglais.
 
 <hr>
 
-<p>Nous espérons vous revoir bientôt sur le [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)</p>
-<p>ou sur  votre nouveau espace via GitHub: [BlindHelp.github.io](https://blindhelp.github.io)</p>
-</hr>
+<p>Nous espérons vous revoir bientôt sur le<p>
+<p><a href="http://blindhelp.blogspot.fr/" target="_blank" rel="noopener">Blog de BlindHelp!</a>
+<p>ou sur  votre nouveau espace via GitHub:<p>
+<a href="https://blindhelp.github.io/" target="_blank" rel="noopener">BlindHelp.github.io!</a>
