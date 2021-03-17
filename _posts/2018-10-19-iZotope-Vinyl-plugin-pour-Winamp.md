@@ -9,7 +9,7 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!               
-Voici le Plug-in pour Winamp! iZotope Vinyl! le coup de coeur de BlindHelp!    
+Voici le Plug-in pour Winamp! iZotope Vinyl! le coup de coeur de BlindHelp! 😻    
 Sortie de mes archives.    
 Avec un lien externe via BlindHelp.github.io! uniquement pour vous!     
 <p><a href="https://blindhelp.github.io/iZotope_Vinyl.zip" target="_blank" rel="noopener">Cliquez-ici pour télécharger iZotope Vinyl!</a></p>    
@@ -95,3 +95,5 @@ Voici le mode d'emploi en anglais.
 <p><a href="http://blindhelp.blogspot.fr/" target="_blank" rel="noopener">Blog de BlindHelp!</a>
 <p>ou sur  votre nouveau espace via GitHub:<p>
 <a href="https://blindhelp.github.io/" target="_blank" rel="noopener">BlindHelp.github.io!</a>
+
+<hr>
