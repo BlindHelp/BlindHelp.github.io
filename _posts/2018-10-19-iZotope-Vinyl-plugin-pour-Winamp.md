@@ -87,14 +87,10 @@ Voici le mode d'emploi en anglais.
 <p>Voilà!<p>
 <p>C'est tout apropos du plug-iniZotope_Vinylpour Winamp!<p>
 <p>Bien amicalement,<p>
-<p>Rémy (BlindHelp).</p>
-<br><br>
+<p>Rémy (BlindHelp).<p>
 
-<hr></hr>
+<hr>
 
-
-<p>Nous espérons vous revoir bientôt sur le [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)</p>    
+<p>Nous espérons vous revoir bientôt sur le [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)</p>
 <p>ou sur  votre nouveau espace via GitHub: [BlindHelp.github.io](https://blindhelp.github.io)</p>
-
-<hr></hr>
-
+</hr>
