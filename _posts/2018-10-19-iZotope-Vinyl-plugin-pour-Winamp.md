@@ -64,7 +64,7 @@ Une fois le téléchargement fait, il faut décompresser  puis valider sur le fi
 Voici le mode d'emploi en anglais.
 <br>
 # <span lang="en"> Getting Started: </span> #
-
+<br>
 <span lang="en">1. Open Winamp</span>    
 <span lang="en">2. Press control-K</span>    
 <span lang="en">(the Winamp preferences should be visible now)</span>    
@@ -72,7 +72,7 @@ Voici le mode d'emploi en anglais.
 <span lang="en">4. Have fun!</span>    
 <br>
 # <span lang="en"> Help: </span> #
-
+<br>
 <span lang="en">Check out the Help and especially the section "Quick Start - 10 Steps to</span>    
 <span lang="en">Lo-Fi" to learn how to make it so bad that it's good. You can also right click on any control to get a short description of the effect.</span>    
 <br>
@@ -87,7 +87,7 @@ Voici le mode d'emploi en anglais.
 <p>Voilà!<p>
 <p>C'est tout apropos du plug-iniZotope_Vinylpour Winamp!<p>
 <p>Bien amicalement,<p>
-<p>Rémy (BlindHelp).<p>
+<p>Rémy (BlindHelp).</p></br>
 
 ---
 
