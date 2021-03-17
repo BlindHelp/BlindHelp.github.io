@@ -27,7 +27,7 @@ Nom du fichier :
 `iZotope_Vinyl.exe`    
 <br>
 1. Téléchargez le plug-in iZotope Vinyl à partir du lien externe via BlindHelp.github.io!    
-<p><a href="https://blindhelp.github.io/iZotope_Vinyl.zip" target="_blank" rel="noopener">Cliquez-ici pour télécharger iZotope Vinyl!</a></p>    
+<a href="https://blindhelp.github.io/iZotope_Vinyl.zip" target="_blank" rel="noopener">Cliquez-ici pour télécharger iZotope Vinyl!</a>
 2. Exécutez alors le fichier Izotope_Vinyl.exe que vous venez de télécharger en archive .zip puis suivez les instructions de l'Assistant d'installation.    
 3. Une fois l'installation terminée, lancez Winamp.    
 4. Ouvrez la fenêtre des préférences en cliquant sur le menu Options puis sur Préférences.    
@@ -63,7 +63,7 @@ Une fois le téléchargement fait, il faut décompresser  puis valider sur le fi
 <br>
 Voici le mode d'emploi en anglais.
 <br>
-<span lang="en"># Getting Started: </span>#
+# <span lang="en"> Getting Started: </span> #
 
 <span lang="en">1. Open Winamp</span>    
 <span lang="en">2. Press control-K</span>    
@@ -71,7 +71,7 @@ Voici le mode d'emploi en anglais.
 <span lang="en">3. Select 'DSP/Effect' from under 'Plugins' and select 'iZotope Vinyl v1.0'</span>    
 <span lang="en">4. Have fun!</span>    
 <br>
-<span lang="en"># Help: </span>#
+# <span lang="en"> Help: </span> #
 
 <span lang="en">Check out the Help and especially the section "Quick Start - 10 Steps to</span>    
 <span lang="en">Lo-Fi" to learn how to make it so bad that it's good. You can also right click on any control to get a short description of the effect.</span>    
@@ -83,8 +83,8 @@ Voici le mode d'emploi en anglais.
 <span lang="en">
 <http://www.izotope.com>
 </span>
-<br>
-Voila!    
+</br></p>    
+Voilà!    
 C'est tout apropos du plug-iniZotope_Vinylpour Winamp!    
 Bien amicalement,    
 Rémy (BlindHelp).    
