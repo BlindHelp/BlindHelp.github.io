@@ -58,7 +58,7 @@ Voici le lien directe + la documentation en anglais.
 Il faut avant tout télécharger le fichier nommé:     
 `iZotope_Vinyl.exe`    
 Directement depuis le lien externe via BlindHelp.github.io!     
-<https://blindhelp.github.io/iZotope_Vinyl.zip    
+[https://blindhelp.github.io/iZotope_Vinyl.zip](https://blindhelp.github.io/iZotope_Vinyl.zip)    
 Une fois le téléchargement fait, il faut décompresser  puis valider sur le fichier sousmentionner puis l'installer, en suivant les instruction...    
 <br>
 Voici le mode d'emploi en anglais.
@@ -83,12 +83,11 @@ Voici le mode d'emploi en anglais.
 <span lang="en">
 <http://www.izotope.com>    
 </span>
-</br>
+
 <p>Voilà!<p>
-<br>
-C'est tout apropos du plug-iniZotope_Vinylpour Winamp!    
-Bien amicalement,    
-Rémy (BlindHelp).    
+<p>C'est tout apropos du plug-iniZotope_Vinylpour Winamp!<p>
+<p>Bien amicalement,<p>
+<p>Rémy (BlindHelp).<p>
 
 ---
 
