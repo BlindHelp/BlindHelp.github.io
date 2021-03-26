@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 25 Octobre 2020 - Dernière mise à jour le Mercredi 27 Janvier 2021</footer>
+<footer>Publié le Dimanche 25 Octobre 2020 - Dernière mise à jour le Jeudi 25 Mars 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une nouvelle mouture de l'extension appelée Utilitaires Chrome pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -14,14 +14,14 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 
 # Mise à jour importante! #
 
-La première chose à commenter qu'il est fortement recommandé de mettre à jour cette extension, vers la nouvelle mouture 0.6, ceci est seulement pour les personnes qui ont toujours des versions ancienne de cette extension installées c'est-à-dire, la version 0.5, Etc, car elles cesseront de travailler avec les nouvelles versions de Chrome.    
+La première chose à commenter qu'il est fortement recommandé de mettre à jour cette extension, vers la nouvelle mouture 0.6 ou plus, ceci est seulement pour les personnes qui ont toujours des versions ancienne de cette extension installées c'est-à-dire, la version 0.5, Etc, car elles cesseront de travailler avec les nouvelles versions de Chrome.    
 
 Donc, n'oubliez pas que ceux qui ont téléchargé et installé la version précédente 0.5  de l'extension ChromeUtilities pour NVDA lorsque Chrome est mis à jour à la version 88, cette extension cessera de fonctionner avec les nouvelles versions de Chrome.    
 
 # Informations sur l'extension ChromeUtilities #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 0.6    
+* Version actuelle: 0.7    
 * Compatibilité avec NVDA: de 2019.3 à 2020.4    
 * Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal    
 * Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=chromeutils)    
@@ -35,7 +35,7 @@ Petite extension qui va ajouter des améliorations au navigateur Chrome.
 
 Cette extension ne fonctionne que dans les versions de NVDA 2019.3 et ultérieures.
 
-Maintenant, il détient toutes ses fonctions dans les 3 variantes,  Final, Beta et Canary.
+Maintenant, il détient toutes ses fonctions dans les 3 variantes, Final, Beta et Canary.
 
 ## Commandes Clavier de l'extension:
 
@@ -43,7 +43,7 @@ Toutes les commandes clavier de l'extension peuvent être modifiées dans le dia
 
 Une fois dans ce dialogue, ils seront dans la catégorie Utilitaires Chrome.
 
-Nous devons dire que pour que cette catégorie apparaisse doit être  appelée le dialogue Gestes de commandes avec le navigateur Chrome ouvert et focalisé.
+Nous devons dire que pour que cette catégorie apparaisse doit être appelée le dialogue Gestes de commandes avec le navigateur Chrome ouvert et focalisé.
 
 * Shift+F4: active et désactive la navigation cyclique.
 * NVDA+F6: Ouvre le dialogue de la liste des onglets.
@@ -173,12 +173,30 @@ Si on appuie sur Shift+F9 lorsque le mode de lecture est activé, NVDA commencer
 
 Si on appuie sur Ctrl nous arrêterons la lecture.
 
+### Panneau de paramètres
+
+À  partir de la version 0.7 de l'extension, nous aurons une nouvelle zone dans Préférences / Paramètres et rechercher Utilitaires Chrome.
+
+Dans cette section de paramètres je vais ajouter des paramètres que je peux considérer intéressant pour le navigateur.
+
+Afin de visualiser cette catégorie, nous devrons invoquer les paramètres de NVDA à partir du navigateur Chrome, sinon il ne sera pas visible.
+
+Pour le moment, nous avons le paramètre suivant:
+
+* Ouvrir les fenêtres de Chrome maximisées
+
+Si nous activons cette case, toutes les fenêtres de Chrome s'ouvriront maximisées par défaut.
+
 ## Traducteurs et contributeurs:
 
 * Français: Rémy Ruiz
 * Portugais: Ângelo Miguel Abrantes
 * Arabe: Wafiq Taher
 # Journal des changements.
+## Version 0.7.
+
+* Ajouté la possibilité d'ouvrir chrome toujours maximisé.
+
 ## Version 0.6.
 
 * Version initiale.
