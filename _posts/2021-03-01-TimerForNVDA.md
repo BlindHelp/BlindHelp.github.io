@@ -21,7 +21,7 @@ Et traduit en espagnol et français par mes soins.
 * Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/marlon-sousa/TimerForNVDA/releases/download/1.2.1/TimerForNVDA-1.2.1.nvda-addon)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/marlon-sousa/TimerForNVDA)
 
-	# Minuterie et chronomètre simples pour NVDA #
+# Minuterie et chronomètre simples pour NVDA #
 
 Cette extension apporte une implémentation rapide, fonctionnelle et simple d'une minuterie et d'un chronomètre à utiliser avec NVDA.    
 Démarrer une minuterie ou un chronomètre, en utilisant une unité de temps et les modes d'indications dont vous avez besoin.    
