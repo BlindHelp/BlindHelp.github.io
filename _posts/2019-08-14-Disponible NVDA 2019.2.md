@@ -116,6 +116,7 @@ A continuation vous pouvez trouver des documents disponibles  dans le menu Aide 
 
 La semaine dernière ils ont publié cette vidéo intéressante:
 
+
 <div id="ableplayer">
 <h3>Lecteur multimedia</h3>
 <!-- Dependencies -->
@@ -132,6 +133,7 @@ La semaine dernière ils ont publié cette vidéo intéressante:
 <a href"https://www.youtube.com/embed/CpDkMjQNOp0"
 </video>
 </div>
+
 
 Profitez de NVDA 2019.2.        
 @+                     
