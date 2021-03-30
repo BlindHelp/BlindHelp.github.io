@@ -114,6 +114,18 @@ A continuation vous pouvez trouver des documents disponibles  dans le menu Aide 
 * [Quoi de neuf](https://blindhelp.github.io/changes.html)
 * [Résumé des commandes](https://blindhelp.github.io/keyCommands.html)
 
+### Infos sur NVDA 2019.2 (en anglais) ###
+
+Il y a plus d'informations (en anglais) sur le [post de NV Access In-Process du 15 août](https://www.nvaccess.org/post/in-process-15th-august/). Sur ce post il y a des améliorations détaillées dans Word qui affectent la correction orthographique avec NVDA et vous trouverez des liens vers des entrées précédentes (toujours en anglais), telles que un [post à propos de l'utilisation  de NVDA au Vietnam](https://www.nvaccess.org/post/closing_the_gap_in_vietnam/).
+
+La semaine dernière, ils ont publié cette vidéo intéressante, vous pouvez la lire en utilisant le lecteur multimedia ci-dessous, lequel est entièrement accessible.
+
+À savoir que  le projet  de ce lecteur appelé AblePlayer est sur le lien ci-dessous (page en anglais):
+
+[Able Player - Fully accessible cross-browser HTML5 media player on GitHub](https://ableplayer.github.io/ableplayer/)
+
+Merci beaucoup à mon amie Noelia Ruiz, qui m'a fait connaître et m'a aidé à l'incorporer dans le blog et dans le présent article. ✌
+
 
 <div id="ableplayer">
 <h3>Able Player</h3>
