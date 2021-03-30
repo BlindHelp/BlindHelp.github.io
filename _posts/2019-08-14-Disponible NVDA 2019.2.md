@@ -118,6 +118,9 @@ La semaine dernière ils ont publié cette vidéo intéressante:
 
 <div id="ableplayer">
 <h3>Lecteur multimedia</h3>
+<video id="video1" data-able-player preload="metadata" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcription" data-skin="2020" playsinline data-youtube-id="CpDkMjQNOp0" data-description-audible="false">
+<a href"https://www.youtube.com/embed/CpDkMjQNOp0"
+</video>
 <!-- Dependencies -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="../../ableplayer/thirdparty/js.cookie.js"></script>
@@ -127,10 +130,6 @@ La semaine dernière ils ont publié cette vidéo intéressante:
 
 <!-- JavaScript -->
 <script src="../../ableplayer/build/ableplayer.min.js"></script>
-
-<video id="video1" preload="auto" data-able-player playsinline data-heading-level="0" data-lyrics-mode data-transcript-title="Transcription" data-skin="2020" data-youtube-id="CpDkMjQNOp0">
-<a href"https://www.youtube.com/embed/CpDkMjQNOp0"
-</video>
 </div>
 
 Profitez de NVDA 2019.2.        
