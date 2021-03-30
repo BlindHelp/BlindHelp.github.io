@@ -114,6 +114,23 @@ A continuation vous pouvez trouver des documents disponibles  dans le menu Aide 
 * [Quoi de neuf](https://blindhelp.github.io/changes.html)
 * [Résumé des commandes](https://blindhelp.github.io/keyCommands.html)
 
+
+<div id="ableplayer">
+<h3>Able Player</h3>
+<video id="video1" data-able-player preload="metadata" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" playsinline data-youtube-id="CpDkMjQNOp0" data-description-audible="false">
+<a href"https://www.youtube.com/embed/CpDkMjQNOp0"
+</video>
+<!-- Dependencies -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../../ableplayer/thirdparty/js.cookie.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="../../ableplayer/build/ableplayer.min.css" type="text/css"/>
+
+<!-- JavaScript -->
+<script src="../../ableplayer/build/ableplayer.min.js"></script>
+</div>
+
 Profitez de NVDA 2019.2.        
 @+                     
 BlindHelp!                           
