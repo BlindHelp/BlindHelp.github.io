@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Mercredi 14 Août 2019</footer>
+<footer>Publié le Mercredi 14 Août 2019 - Dernière mise à jour le Jeudi 15 Août 2019</footer>
 
 Après plusieurs versions bêta et quelques versions candidates, NV Access a publié la version finale 2019.2 du lecteur d'écran NVDA il y a quelques minutes. Celle-ci est maintenant disponible au téléchargement!                  
 
@@ -129,7 +129,7 @@ Merci beaucoup à mon amie Noelia Ruiz, qui m'a fait connaître et m'a aidé à 
 
 <div id="ableplayer">
 <h3>Able Player</h3>
-<video id="video1" data-able-player preload="metadata" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" playsinline data-youtube-id="CpDkMjQNOp0" data-description-audible="false">
+<video id="video1" data-able-player preload="metadata" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcription" data-skin="2020" playsinline data-youtube-id="CpDkMjQNOp0" data-description-audible="false">
 <a href"https://www.youtube.com/embed/CpDkMjQNOp0"
 </video>
 <!-- Dependencies -->
