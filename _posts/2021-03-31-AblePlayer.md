@@ -15,7 +15,7 @@ Je vous rassure cet article dédié à Able Player n'est pas un poissons d’avr
 
 ### Infos sur Able Player ###
 
-Quand j'avais écrit le post dédié à [NVDA 2019.2 sur BlindHelp.github.io](https://blindhelp.github.io/Disponible-NVDA-2019.2/) il y avait des informations consultables sur le [post de NV Access In-Process du 15 août (en anglais)](https://www.nvaccess.org/post/in-process-15th-august/) y  compris  un post toujours en anglais à propos de l'utilisation  de NVDA au Vietnam](https://www.nvaccess.org/post/closing_the_gap_in_vietnam/).
+Quand j'avais écrit le post dédié à [NVDA 2019.2 sur BlindHelp.github.io](https://blindhelp.github.io/Disponible-NVDA-2019.2/) il y avait des informations consultables sur le [post de NV Access In-Process du 15 août (en anglais)](https://www.nvaccess.org/post/in-process-15th-august/) y  compris  un [post toujours en anglais à propos de l'utilisation  de NVDA au Vietnam](https://www.nvaccess.org/post/closing_the_gap_in_vietnam/).
 
 Dans ce temp, ils ont publié cette vidéo intéressante, vous pouvez la lire en utilisant le lecteur multimedia ci-dessous, lequel est entièrement accessible par nous les miro.
 
@@ -33,7 +33,7 @@ Quant à la mise en œuvre dudit lecteur sur votre site web je ne suis pas le re
 - Comprend des raccourcis  clavier personnalisables permettant à le lecteur d'être utilisé à partir de n'importe où sur la page Web (sauf s'il y a plusieurs instances du lecteur sur une page donnée; alors le lecteur doit alors avoir le focus sur les raccourcis clavier pour fonctionner).
 - Caractéristiques de contraste élevé et modulable qui reste visible en mode contraste élevé par Windows, ainsi qu'un indicateur du focus facile à voir afin que les utilisateurs  de clavier puissent facilement indiquer le contrôle actuellement du focus.
 - Prend en charge les légendes et sous-titres fermés dans le format  Web Video Timed Text (WebVTT), le format standard recommandé par la spécification HTML5.
-- Prend en charge les chapitres, également en utilisant WebVTT. Les chapitres sont des points d'atterrissage spécifiques dans la vidéo, permettant au contenu vidéo d'avoir une structure et d'être plus facilement navigable.
+- Prend en charge les chapitres, également en utilisant WebVTT. Les chapitres sont des points de chute spécifiques dans la vidéo, permettant au contenu vidéo d'avoir une structure et d'être plus facilement navigable.
 - Prend en charge la description audio basée sur le texte, également à l'aide de la WebVTT. Selon le temps désignée, le texte de la description est lu à haute voix par des navigateurs ou par des lecteurs d'écran pour les navigateurs qui ne prennent pas en charge la Web Speech API. Les utilisateurs peuvent éventuellement définir leur lecteur sur une pause lorsque l'audio Description démarre afin d'éviter les conflits entre la description et le programme audio.
 - Prend en charge la description audio comme une vidéo séparée. Lorsque deux vidéos sont disponibles (une avec description et une sans description), les deux peuvent être livrées ensemble à l'aide du même lecteur et des utilisateurs peuvent basculer entre les versions.
 - Prend en charge le débit de lecture réglable. Les utilisateurs qui ont besoin de ralentir la vidéo afin de mieux traiter et de comprendre  son contenu peut le faire; et les utilisateurs qui doivent accélérer la vidéo afin de maintenir un meilleur focus peuvent le faire.
