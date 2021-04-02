@@ -19,9 +19,9 @@ Voici une nouvelle Extension NVDA nommée agenda permettant une meilleure access
 * Compatibilité NVDA: 2014.3 à 2020.4
 * Télécharger [version actuelle sur l'espace de BlindHelp.github.io sur GitHub [lien externe]](https://blindhelp.github.io/agenda-21.03.nvda-addon)
 
-Si vous n'avez toujours pas le programme Agenda installé sur votre PC, vous pouvez le télécharger en [consultant l'article dédié  au programme Agenda sur Winaide](http://www.winaide.net › spip › article31)
+Si vous n'avez toujours pas le programme Agenda installé sur votre PC, vous pouvez le télécharger [en consultant l'article dédié au programme Agenda sur Winaide](http://www.winaide.net/spip.php?article31)
 
-## Présentation ##
+## Présentation de l'extension pour le programme Agenda ##
 Cette extension améliore l'accessibilité du programme agenda créé par Jean-Claude Mortimor avec NVDA.     
 Les zones d'édition rencontrées lors de la création d'un rendez-vous ou d'un pense-bête, d'une liste d'un rendez-vous par semaine ou d'une liste de rendez-vous ont été étiquetées pour faciliter l'utilisation du programme.     
 L'annonce de la description de l'objet est automatiquement activée dans les options de NVDA si cela n'est pas déjà le cas.     
