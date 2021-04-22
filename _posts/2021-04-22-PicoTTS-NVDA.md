@@ -49,8 +49,7 @@ Bien maintenant, nous avons la légendaire voix Pico TTS détestée par beaucoup
 Enjoy!✌    
 
 La documentation et l'interface de cette extension sont traduites en Espagnol et en Français par: Rémy Ruiz @BlindHelp    
-Merci beaucoup à mon ami <span lang="es">[David](mailto:dhf360@gmail.com</span>)    
-<span lang="fr">pour l'avoir adapté à la dernière version de NVDA 2020.4 et avoir apporté ces nouvelles améliorations.</span> (handshake)    
+Merci beaucoup à mon ami <span lang="es">[David](mailto:dhf360@gmail.com</span>)<span lang="fr">pour l'avoir adapté à la dernière version de NVDA 2020.4 et avoir apporté ces nouvelles améliorations.  (handshake)</span>    
 
 Vous pouvez lire un extrait de cette même voix Pico TTS en français trouvé sur la toile utilisant le lecteur Able Player qui est ci-dessous:    
 
