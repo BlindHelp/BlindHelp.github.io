@@ -49,9 +49,9 @@ Lors de la rédaction de cet article la  dernière version disponible  du fichie
 1. Ouvrir vuex6497.exe    
 Ouvrez le fichier vuex6497.exe à partir de votre dossier Téléchargements    
 2 Permettre à Vuescan d'être installé.    
-Cliquez sur Oui si cette fenêtre apparaît.
-3 Autoriser le pilote d'être installé    
-Autoriser  le pilote du scanner  de VueScan d'être installé pour pouvoir communiquer avec votre scanner    
+Cliquez sur Oui si cette fenêtre apparaît.    
+3 Autoriser le pilote d'être installé.    
+Autoriser  le pilote du scanner  de VueScan d'être installé pour pouvoir communiquer avec votre scanner.    
 4. Enjoy VueScan    
 Vous pouvez utiliser la version d'essai aussi longtemps que vous le souhaitez. Toutes les analyses auront un filigrane intégré jusqu'à ce que vous achetiez.     
 
