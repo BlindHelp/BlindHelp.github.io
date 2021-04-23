@@ -11,8 +11,12 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Voici la résurrection de l'extension Pico TTS, maintenant compatible avec les versions récentes de NVDA! 😸    
 
+# Voix TTS Svox Pico #
+Svox Pico est un très petit synthétiseur vocal, mais avec une apparence humaine qui prend en charge les langues Anglais Américain, Anglais Britannique, Espagnol, Français, Italien et Allemand.    
 C'est le même gars qui a fait l'extension [IBMTTS - Pilote pour NVDA publié sur son dépôt sur GitHub](https://github.com/david-acm/NVDA-IBMTTS-Driver/)    
 Il est également l'auteur de l'extension [beepKeyboard pour NVDA publié sur son dépôt sur GitHub](https://github.com/david-acm/NVDA-beepKeyboard)    
+Cette extension svox-pico a été reprise par un ami hispanophone logiquement les noms des auteurs précédents de ladite extension ils ont été conservé dans le fichier manifest.ini en anglais.    
+[NV Access Limited,](mailto:admin@nvaccess.org) [Aleksey Sadovoy,](mailto:lex@progger.ru) [David CM](mailto:dhf360@gmail.com)    
 
 Ci-dessous je vous donne le descriptive et d'autres informations à propos de cette nouvelle extension pour NVDA compilé par moi-même!    
 
@@ -34,8 +38,6 @@ La dernière version est disponible  pour son [téléchargement à partir de ce 
 
 Vous pouvez changer la langue de la voix, débit, hauteur et volume dans la catégorie Parole de NVDA.    
 Actuellement, ce pilote ne prend pas en charge les paramètres qui changent en temps réel.    
-
-Remarque: cette extension prend en charge les voix des langues: Anglais américain, Anglais britannique, Français, Espagnol, Italien et Allemand.    
 
 # Exigences.
 Vous devez utiliser une version NVDA avec Python 3.7, ce pilote n'est pas compatible avec les versions de Python 2. Il a été testé avec la version alpha de NVDA 2021 et la version stable 2020.4.    
