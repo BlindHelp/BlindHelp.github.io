@@ -18,6 +18,8 @@ Il est également l'auteur de l'extension [beepKeyboard pour NVDA publié sur so
 Cette extension svox-pico a été reprise par un ami hispanophone logiquement les noms des auteurs précédents de ladite extension ils ont été conservé dans le fichier manifest.ini en anglais.    
 [NV Access Limited,](mailto:admin@nvaccess.org) [Aleksey Sadovoy,](mailto:lex@progger.ru) [David CM](mailto:dhf360@gmail.com)    
 
+[Télécharger La dernière version  en développement de l'extension Svox Pico via le dépôt de l'auteur sur GitHub](https://nvda.es/files/get.php?file=svoxpico-dev)    
+
 Ci-dessous je vous donne le descriptive et d'autres informations à propos de cette nouvelle extension pour NVDA compilé par moi-même!    
 
 # Pilote  svox-pico pour NVDA.
