@@ -53,6 +53,25 @@ une fois ouvert le dossier NVDA
 Appuyer sur la lettre n pour être sur le fichier nvda.exe    
 Appuyer sur Entrée et nous allons exécuter le programme NVDA dans cette version portable fraîchement créé.    
 
+# Est-il possible de  de faire  un lancement automatique d'une copie portable de NVDA? #
+Par: [Bachir Benanou](mailto:ben_bach@mail.fr)    
+
+Le lancement automatique d'une copie portable de NVDA n'est pas possible pour le moment. Une solution est à l'étude. En attendant, tu peux te servir du narrateur de Windows 10 en faisant Ctrl + Windows + Entrée pour naviguer vers la clef USB, l'ouvrir, taper n pour trouver nvda.exe et le lancer. Ne te reste que refaire Ctrl + Windows + Entrée pour fermer le narrateur. Ainsi, tu pourras utiliser l'ordinateur avec NVDA et même installer NVDA à partir de ta copie portable.    
+
+En pratique, cela donne :    
+
+1. Brancher la clef contenant NVDA et appuyer sur Ctrl + Windows + Entrée.    
+2. Quand le narrateur parle, appuyer sur Windows + e pour ouvrir l'explorateur Windows.    
+3. Naviguer jusqu'à la clef USB et l'ouvrir.    
+4. Taper N pour la lettre du dossier portable, par exemple, n pour NVDA portable puis appuyer sur Entrée pour l'ouvrir.    
+5. Taper N jusqu'à NVDA.exe et faire Entrée.    
+6. Dès que NVDA parle après les quatre notes de musique ascendantes, appuyer sur Ctrl + Windows + Entrée pour quitter le narrateur.    
+
+Si une solution de lancement automatisée est trouvée, elle sera publiée sur la liste [nvda-fr.](mailto:nvda-fr@groups.io)    
+
+Encore mille Merci à mon ami Bachir! 😼    
+
+# En utilisant une procédure plus ancienne: #
 Auparavant, sous Windows XP nous pourrions utiliser un fichier Autorun.inf afin de lancer un programme donné dans ce cas précis, c'était le lecteur d'écran NVDA qui été exécuté à l'aide de ce fichier, pour le créer, suivez les instructions suivantes:    
 1) Ouvrez votre éditeur de texte favori comme Notepad sous Windows 10 (Bloc-notes) par exemple.    
 2) Copiez et collez le texte ci-dessous dans l'éditeur de texte.    
@@ -85,6 +104,7 @@ Vous connectez une clé USB à votre ordinateur. Et là, frustration suprême, r
 Vous pouvez lire cette article externe à propos de:    
 [Windows 10 – Définir l’action à l’introduction d’une clé USB](https://www.mediaforma.com/windows-10-definir-laction-a-lintroduction-dune-cle-usb/)
 
+# En utilisant une procédure expérimentale: #
 Nous avons une autre alternative additionnelle, pour cela  je vais vous expliquer comment mettre en place simplement et rapidement un "Autorun" sur votre clé USB, ce qui vous permettra d’exécuter la nouvelle copie portable après création au démarrage de la clé, au moment où vous aurez branché votre clé USB sur votre Ordinateur.    
 Pour cela rien de plus simple:    
 1. Télécharger le  programme Usb Autorun  en cliquant sur [ce lien](https://pav-3dgc-origami.pagesperso-orange.fr/PB/TelechargementsPB/Usb_Autorun.zip)    
