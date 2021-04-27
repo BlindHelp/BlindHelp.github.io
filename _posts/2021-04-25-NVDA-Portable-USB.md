@@ -11,7 +11,7 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Voici toute la procédure de A à Z!    
 Attention : Comme d’habitude, vous êtes seuls responsables de vos actes, le mode opératoire que je donne ici a fonctionné pour moi mais je ne saurais être tenu pour responsable en cas de pépins, vous êtes prévenus !    
-Un gars de la liste de nvda en espagnol [Félix Couce Arcay](mailto:Felixcouce@hotmail.com] nous donne les instructions afin de pouvoir créer une version portable de NVDA.    
+Un gars de la liste de nvda en espagnol [Félix Couce Arcay](mailto:Felixcouce@hotmail.com) nous a donné les instructions afin de pouvoir créer une version portable de NVDA, et je les ai adaptés aux utilisateurs de NVDA en français, eh bien, les voici ci-dessous.    
 Nous avons besoins d'une clé USB mémoire 8 GO / 16 GO    
 Avoir une version installer de NVDA afin de créer la version portable.    
 
@@ -53,7 +53,7 @@ une fois ouvert le dossier NVDA
 Appuyer sur la lettre n pour être sur le fichier nvda.exe    
 Appuyer sur Entrée et nous allons exécuter le programme NVDA dans cette version portable fraîchement créé.    
 
-Auparavant, sous Windows XP nous pourrions utiliser un fichier Autorun.inf afin de lancer un programme donné dans ce cas précis, c'était le lecteur d'écran NVDA qui été exécuté à l'aide de ce fichier, pour le créer, suivez les instructions suivantes:
+Auparavant, sous Windows XP nous pourrions utiliser un fichier Autorun.inf afin de lancer un programme donné dans ce cas précis, c'était le lecteur d'écran NVDA qui été exécuté à l'aide de ce fichier, pour le créer, suivez les instructions suivantes:    
 1) Ouvrez votre éditeur de texte favori comme Notepad sous Windows 10 (Bloc-notes) par exemple.    
 2) Copiez et collez le texte ci-dessous dans l'éditeur de texte.    
 
@@ -93,6 +93,8 @@ Nom de l'archive à télécharger:
 Source de la page de téléchargement:    
 [Oliv.fr.fm : PureBasic et 3D Games Creator](https://pav-3dgc-origami.pagesperso-orange.fr/PB/TelechargementsPB.htm)    
 Usb Autorun permet de créer des autoruns sur tous types de supports amovibles tels que disques durs externes ou clefs USB, mais aussi des supports amovibles fonctionnant en FireWire. Le programme fonctionne sans installation, il suffit de le placer dans un répertoire.    
+Avertissement: 💀    
+Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du logiciel téléchargé  ni des informations ce trouvant sur le site Web dédié et l'utilisation du programmes téléchargé est à vos risques et périls. ☠    
 2. Décompressez le dossier ZIP où vous voulez, puis copier le fichier "Usb Autorun.exe" dans le dossier "Démarrage"    
 `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`    
 Cette manipulation permet de lancer automatiquement le logiciel « Usb Autorun.exe » à chaque démarrage de Windows.    
@@ -117,7 +119,8 @@ Et si toujours la copie portable NVDA n'est pas exécutée, nous reviendrons pou
 3) Maintenant, sauvegardez et renommez le fichier: Autorun.inf    
 4) Ajoutez ce fichier dans la racine de la clé puis et éliminer le fichier nvda.bat qui est dans la racine de la clé comme il n'a pas fonctionné pour lancer notre copie portable de NVDA, cela ce n'est pas grave.    
 Nous avons fait différemment, donc à la dure!    
-Sachez aussi que ces méthodes n'ont pas été testées à fond!     
+Sachez aussi que ces méthodes n'ont pas été testées à fond!    
+Mais cette dernière méthode utilisant ce programme Usb Autorun est purement expérimental! Donc, prudence! ☠    
 Voilà ! Vous pouvez maintenant ne plus vous soucier de la fastidieuse façon de faire fonctionner une copie portable de NVDA depuis une clé USB grâce à ce tutoriel! :)    
 En attendant de tout mon cœur que ces astuces fonctionnent sur votre ordinateur avec une copie portable de notre lecteur NVDA! 😉    
 @+    
