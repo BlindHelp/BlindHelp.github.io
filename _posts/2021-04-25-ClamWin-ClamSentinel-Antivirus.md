@@ -30,6 +30,7 @@ L'Antivirus Gratuit ClamWin comprend un système d'installation simple et le cod
 
 [Au sujet de l'Antivirus Gratuit ClamWin voir plus d'informations par ici.](http://fr.clamwin.com/content/view/71/63/)  
 [Sur cette page, nous trouverons la dernière version disponible au téléchargement.](http://fr.clamwin.com/content/view/18/46/)  
+Sauf erreur de ma part l'Antivirus Gratuit ClamWin est en anglais.  
 
 # Clam Sentinel.
 
@@ -39,12 +40,12 @@ Le programme détecte aussi les disques amovibles qui sont ajoutés (par exemple
 [Au sujet de Clam Sentinel voir plus d'informations par ici.](http://clamsentinel.sourceforge.net/index.php?Lang=fr)  
 Sur cette même page, nous trouverons la dernière version disponible au téléchargement.  
 Et à la fin de cette même page nous trouverons  aussi deux guides courts (en anglais)  pour Clam Sentinel.  
+La langue française est comprise dans le programme Clam Sentinel.  
 
 # Compatibilité de ClamWin Antivirus et de Clam Sentinel.
 
 Les deux programmes sont compatibles avec Windows: Xp, Vista, 7, 8, 8.1 et 10.  
 Tantôt en 32 comme en 64 bits.  
-La langue française est également comprise dans les deux programmes.  
 
 ## Enregistrer document pdf pour avoir une aide en français pour ClamWin Antivirus et Clam Sentinel.
 
