@@ -24,6 +24,16 @@ Actuellement  comme date: 2020.4 il faudra changer par: 2021.1
 Eh bien, Cricricri est très facile à utiliser, mais je recommande de lire l'aide de l'extension ci-dessous afin de vous familiariser avec elle.    
 Note vous pouvez aussi appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions, afin de trouver la même aide.    
 
+# Très important! #
+
+Notre ami Cyrille de la liste nvda-fr insiste sur quelques points de vigilance sur l'usage de cricricri.  
+
+
+> D’abord si vous utilisez l’extension cricricri, il faut que vous compreniez bien ce qu’elle fait. Si vous ne savez pas ce qu’est le manifeste d’une extension, pas la peine de l’utiliser.  
+Si vous persistez à l’utiliser quand même, que vous vous retrouvez avec des comportements inattendus sous NVDA et que vous demandez de l’aide sur la liste (ou ailleurs), surtout précisez bien que vous avez utilisé cricricri. Sinon on ne comprendra plus rien.  
+Par ailleurs, le soi-disant maudit manifeste est là justement pour éviter aux utilisateurs d’avoir des ennuis inattendus. Donc celui qui modifie un manifeste à la main ou grâce à cricricri doit bien être conscient que les extensions qu’il aura ainsi modifié pourront avoir un comportement inattendu.  
+
+
 Avertissement: 💀  
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension téléchargé est à vos risques et périls. ☠  
 
