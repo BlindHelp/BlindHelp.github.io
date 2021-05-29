@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 17 Novembre 2020, Dernière mise à jour le Vendredi 18 Décembre 2020</footer>
+<footer>Publié le Mardi 17 Novembre 2020, Dernière mise à jour le Mercredi 26 Mai 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -13,12 +13,12 @@ Voici une nouvelle mouture de l'extension Yandex Translate  pour NVDA fait  par 
 # Informations sur l'extension Yandex Translate #
 
 * Auteurs : Alekssamos
-* Versions précédentes: 2020.09.04/2020.11.17    
+* Versions précédentes: 2020.09.04/2020.11.17/2020.12.18    
 Les versions précédentes ne fonctionne plus, besoin de mettre à jour.    
-* Version actuelle: 2020.12.18
-* Langues: Anglais, Croate, Russe, Turc et Ukrainien
-* Compatibilité NVDA: 2019.3 à 2020.2
-* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/alekssamos/YandexTranslate/releases/download/v2020.12.18/YandexTranslate-2020.12.18.nvda-addon)
+* Version actuelle: 2021.5.26
+* Langues: Anglais, Croate, Serbe, Russe, Turc et Ukrainien
+* Compatibilité NVDA: 2019.3 à 2021.1
+* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=yandextranslate)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/alekssamos/YandexTranslate)
 
 Cette extension traduit le texte sélectionné ou le texte du presse-papiers en utilisant le service Yandex Translate. Elle contient plusieurs gestes de commande prédéfinis qui peuvent être modifiés en fonction des préférences de l'utilisateur en accédant au Menu  NVDA, Préférences, Gestes de commandes. L'extension contient une boîte de dialogue de configuration, situé dans le menu Outils de NVDA, ce qui vous permet de configurer la langue sible, les langues de destination primaires et secondaires, quoi faire si les langues sible et de destination son les mêmes et si se copie le résultat  de la traduction dans le presse papier. Elle contient également un support complet pour l'utilisation d'un serveurs proxy.    

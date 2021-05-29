@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 25 Octobre 2020 - Dernière mise à jour le Jeudi 25 Mars 2021</footer>
+<footer>Publié le Dimanche 25 Octobre 2020 - Dernière mise à jour le Mercredi 26 Mai 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une nouvelle mouture de l'extension appelée Utilitaires Chrome pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -21,8 +21,8 @@ Donc, n'oubliez pas que ceux qui ont téléchargé et installé la version préc
 # Informations sur l'extension ChromeUtilities #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 0.7    
-* Compatibilité avec NVDA: de 2019.3 à 2020.4    
+* Version actuelle: 0.8    
+* Compatibilité avec NVDA: de 2019.3 à 2021.1    
 * Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal    
 * Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=chromeutils)    
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/hxebolax/Utilidades-Chrome)    
