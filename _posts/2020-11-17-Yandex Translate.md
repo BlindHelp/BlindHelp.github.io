@@ -1,10 +1,11 @@
 ---
 title: Yandex Translate extension pour NVDA
+hiperlink: "/Yandex-Translate/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 17 Novembre 2020, Dernière mise à jour le Mercredi 26 Mai 2021</footer>
+<footer>Publié le Mardi 17 Novembre 2020 - Dernière mise à jour le Mercredi 26 Mai 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
