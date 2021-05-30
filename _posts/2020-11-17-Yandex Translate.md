@@ -1,6 +1,6 @@
 ---
 title: Yandex Translate extension pour NVDA
-hiperlink: "/Yandex-Translate/"
+permalink: "/Yandex-Translate/"
 layout: post
 author: BlindHelp
 ---
