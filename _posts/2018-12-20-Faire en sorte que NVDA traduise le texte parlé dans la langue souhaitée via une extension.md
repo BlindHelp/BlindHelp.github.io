@@ -1,10 +1,11 @@
 ---
 title: Faire en sorte que NVDA traduise le texte parlé dans la langue souhaitée via une extension
+permalink: "/nvda-translate/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 20 Décembre 2018, Dernière mise à jour le Mardi 8 Décembre 2020</footer>
+<footer>Publié le Jeudi 20 Décembre 2018 - Dernière mise à jour le Vendredi 28 Mai 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -43,7 +44,40 @@ Veuillez noter que cette extension ne fonctionne plus depuis plusieurs semaines,
 
 Actuellement, la version de cette extension est la 2020.5 mais l'auteur sur GitHub dans son code celle-ci apparaît comme la 2020.6.    
 
-Donc, voici  la même extension  translate-2020.06 modifié à partir de son  dernier code pour qui fonctionne avec le service Google Translate fait par un ami hispanophone, vous pouvez le télécharger en suivant le lien depuis mon espace sur [BlindHelp.github.io][4]
+# Télécharger l'extension Translate version non officielle fait le Vendredi 28 Mai 2021  par @hxebolax
+
+Voici une bonne nouvelle, mon ami hispanophone qui est l'auteur de cricri, zradio, etc... (Héctor J. Benítez Corredera) à l'aide d'un autre développeur très actif dans la communauté des extensions pour NVDA en anglais (Rui Fontes) vient de mettre l'extension de nvda translate en ajoutant l'indicateur de compatibilité avec la future version de NVDA2021.1 et Des erreurs ont également été corrigées dans le code interne car il y avait des ruptures lors de l'utilisation de cette extension dans la version bêta de NVDA2021.1.    
+La traduction des messages source à l'espagnol est ajoutée par Héctor J. Benítez Corredera.    
+Ajout également  de la traduction Portugaise (Portugal / Brésil) des messages sources par Ângelo Miguel Abrantes.    
+La traduction des messages fait par l'auteur original Yannick Plassiard  de ladite extension reste inchangé.    
+
+Donc, voici  la même extension  modifié pour cette version non officielle fait le Vendredi 28 Mai 2021 compatible avec NVDA 2021.1 vous pouvez le télécharger en suivant le lien depuis mon espace sur [BlindHelp.github.io][5]
+
+
+[5]: https://blindhelp.github.io/translate-2021.01.3-NVDA_2021.1_mod_by_@hxebolax.nvda-addon
+
+
+Il a envoyé aussi ces modifications à l'auteur afin quelles soit priss en compte...    
+
+Très important!  
+Compatiblité NVDA 2019.3 à 2021.1  
+Cette extension a sa propre mise à jour et il est préférable d'enregistrer une copie de l'extension non officielle au cas où!  
+À la fin Héctor a fait en sorte que la compatibilité soit rétroactif mais attention car lui dis que cette version est de test puis peut donc donner des erreurs.  
+En espérant qu'il n'y a pas de bugs, mais si telle est le cas STP envoyez le log de NVDA en: Niveau de journalisation : débogage à:  
+
+
+[hebolah@gmail.com](mailto:hebolah@gmail.com)
+
+
+Vous pouvez l'écrire en espagnol ou anglais...  
+Voilà,  
+En espérant que je n'oublie pas d'annoncer quelque chose en relation avec cette nouvelle version modifiée par nos amis développeurs...  
+
+Merci à @hxebolax pour partager cette extension modifiée avec nous! 😹    
+
+# Télécharger l'extension Translate version non officielle fait le Mardi 8 Décembre 2020 par @hxebolax
+
+Voici  la même extension  translate-dans sa version précédente non officielle 2020.06 fait le Mardi 8 Décembre 2020 modifié à partir de son  dernier code pour qui fonctionne avec le service Google Translate fait par un ami hispanophone, vous pouvez le télécharger en suivant le lien depuis mon espace sur [BlindHelp.github.io][4]
 
 [4]: https://blindhelp.github.io/translate-2020.06_mod_by_@hxebolax.nvda-addon
 
