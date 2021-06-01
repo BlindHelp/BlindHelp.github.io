@@ -15,34 +15,34 @@ Bon voici plusieurs Méthodes permettant de mettre la page Google comme une page
 Remarque: je mets la page Google comme exemple, mais cela peut être toute autre.    
 Je vous souhaite une bonne lecture!    
 
-# Comment mettre Google en page d'accueil sur Firefox, Chrome et consorts?
+# Comment mettre Google en page d'accueil sur Firefox, Chrome et consorts? #
 
 La page d'accueil de votre navigateur web correspond à la page s'ouvrant automatiquement à chaque démarrage du navigateur. Cette page peut aussi bien être vierge que donner sur une page web précise ou un ensemble d'onglets. Pour tomber automatiquement sur le moteur de recherche Google, il vous faut changer la page d'accueil de votre navigateur. Une manipulation simple et rapide que nous vous expliquons ici.    
 
-# Mettre Google en page d'accueil sur Firefox
+# Mettre Google en page d'accueil sur Firefox #
 
 Ouvrez le navigateur Mozilla Firefox puis, dans l'onglet Outils, appuyez sur le bouton Options ou Options Internet. Vous pouvez directement installer Google en page d'accueil en insérant l'URL <https://www.google.fr/> dans le champ de la page d'accueil.    
 
-# Mettre Google en page d'accueil sur Google Chrome
+# Mettre Google en page d'accueil sur Google Chrome #
 
 Ouvrez le navigateur Google Chrome puis cliquez sur les trois petits points situés en haut à droite de la page. Appuyez sur le bouton Paramètres puis rendez-vous en bas de page dans la section Au démarrage. Cliquez sur l'option Ouvrir une page ou un ensemble de pages spécifiques puis collez l'URL <https://www.google.fr/> dans le champ spécifié.    
 Allez ensuite dans la section Apparence, activez l'option Afficher le bouton d'accueil et entrez une nouvelle fois l'URL dans le champ.    
 
-# Mettre Google en page d'accueil sur Internet Explorer
+# Mettre Google en page d'accueil sur Internet Explorer #
 
 La manipulation est très simple et rapide. Dans l'onglet Outils, cliquez sur Options ou Options internet puis entrez simplement l'URL <https://www.google.fr/> dans le champ de la page d'accueil.    
 
-# Mettre Google en page d'accueil sur Microsoft Edge
+# Mettre Google en page d'accueil sur Microsoft Edge #
 
 Vous utilisez le navigateur Microsoft Edge et souhaitez voir apparaître Google en page d'accueil ? Ouvrez votre navigateur, cliquez sur les trois petits points situés en haut à droite de la page puis appuyez sur le bouton Paramètres. Rendez-vous dans la section Ouvrir avec, activez l'option Une ou des pages spécifiques et sélectionnez Personnalisé dans le menu déroulant. Vous pouvez maintenant entrer l'URL <https://www.google.fr/> dans le champ vide.    
 
-# Mettre Google en page d'accueil sur Safari
+# Mettre Google en page d'accueil sur Safari #
 
 Il est également possible de mettre Google en page d'accueil sur Safari en cliquant dans le menu Safari en haut à gauche puis en appuyant sur le bouton Préférences. Dans l'onglet Général, insérez l'URL <https://www.google.fr/> dans le champ Page d'accueil puis cliquez simplement sur OK.    
 
 Attention, il peut arriver que des virus et logiciels malveillants remplacent, sans votre accord, votre page d'accueil classique par des publicités. Il est dans ce cas conseillé d'installer un antivirus efficace et de suivre les instructions précédemment citées pour mettre à nouveau Google en page d'accueil sur votre navigateur.
 
-# Une deuxième méthode pour mettre la page Google en page d'accueil sur  Mozilla Firefox:
+# Une deuxième méthode pour mettre la page Google en page d'accueil sur  Mozilla Firefox: #
 
 Définissez Google comme page d'accueil.    
 Accédez instantanément à la recherche Google, dès l'ouverture de votre navigateur.    
@@ -61,11 +61,11 @@ Définir Google comme moteur de recherche par défaut
 Cliquez sur la flèche vers le bas à gauche du champ de recherche.    
 Sélectionnez Google dans le menu déroulant.    
 
-# Source:
+# Source: #
 
 [Définissez Google comme page d'accueil](https://www.google.fr/intl/fr/homepage/hp-firefox.html)
 
-# Une troisième méthode pour mettre la page Google en page d'accueil sur  Mozilla Firefox (avec le lecteur d'écran NVDA / JAWS):
+# Une troisième méthode pour mettre la page Google en page d'accueil sur  Mozilla Firefox (avec le lecteur d'écran NVDA / JAWS): #
 
 Ouvrez Firefox depuis l'icône du bureau.    
 Aller dans le menu Options de Mozilla Firefox.    
