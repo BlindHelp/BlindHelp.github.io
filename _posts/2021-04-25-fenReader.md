@@ -18,7 +18,7 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 * Auteur: <span lang="es">Javi Dominguez</span>
 * Version actuelle: 2.0
 * Langues: Anglais, Espagnol et Français
-* Compatibilité NVDA:  2018.1 à 2020.4
+* Compatibilité NVDA:  2018.1 à 2021.1
 * Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=fenreader)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/javidominguez/FenReader/)
 
