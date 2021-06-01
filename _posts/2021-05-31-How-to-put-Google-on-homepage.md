@@ -1,6 +1,6 @@
 ---
 title: Comment mettre Google en page d'accueil sur Firefox, Chrome et consorts
-permalink: "/How to put Google on homepage/"
+permalink: "/How-to-put-Google-on-homepage/"
 layout: post
 author: BlindHelp
 ---
