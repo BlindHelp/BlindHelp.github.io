@@ -67,7 +67,7 @@ Accédez instantanément à la recherche Google, dès l'ouverture de votre navig
 
 ## Premiers pas ##
  
-# Option 1 : faire glisser l'icône "Google" #
+* Option 1: faire glisser l'icône "Google"
 
 Cliquez sur l'icône bleue "Google" ci-dessous, puis faites-la glisser vers l'icône Accueil située dans l'angle supérieur droit du navigateur.
 
@@ -75,7 +75,7 @@ Cliquez sur Oui dans la fenêtre pop-up.
 
 <www.google.fr>
 
-## Option 2 : modifier manuellement les préférences ##
+* Option 2: modifier manuellement les préférences
 
 Cliquez sur Firefox dans l'angle supérieur gauche, puis sélectionnez Options. Cliquez ensuite sur Options dans le menu sur la droite.
 
