@@ -67,23 +67,15 @@ Accédez instantanément à la recherche Google, dès l'ouverture de votre navig
 
 ## Premiers pas ##
  
-* Option 1: faire glisser l'icône "Google"
-
-Cliquez sur l'icône bleue "Google" ci-dessous, puis faites-la glisser vers l'icône Accueil située dans l'angle supérieur droit du navigateur.
-
-Cliquez sur Oui dans la fenêtre pop-up.
-
-<www.google.fr>
-
-* Option 2: modifier manuellement les préférences
-
-Cliquez sur Firefox dans l'angle supérieur gauche, puis sélectionnez Options. Cliquez ensuite sur Options dans le menu sur la droite.
-
-Cliquez sur le bouton Général représenté par une icône d'interrupteur dans le menu supérieur.
-
-À côté de Au démarrage de Firefox, ouvrez le menu déroulant, puis sélectionnez Afficher ma page d'accueil.
-
-Saisissez <www.google.fr> dans le champ Page d'accueil, puis cliquez sur OK pour enregistrer.
+* Option 1: faire glisser l'icône "Google"    
+Cliquez sur l'icône bleue "Google" ci-dessous, puis faites-la glisser vers l'icône Accueil située dans l'angle supérieur droit du navigateur.    
+Cliquez sur Oui dans la fenêtre pop-up.    
+[www.google.fr](www.google.fr)    
+* Option 2: modifier manuellement les préférences    
+Cliquez sur Firefox dans l'angle supérieur gauche, puis sélectionnez Options. Cliquez ensuite sur Options dans le menu sur la droite.    
+Cliquez sur le bouton Général représenté par une icône d'interrupteur dans le menu supérieur.    
+À côté de Au démarrage de Firefox, ouvrez le menu déroulant, puis sélectionnez Afficher ma page d'accueil.    
+Saisissez [www.google.fr](www.google.fr) dans le champ Page d'accueil, puis cliquez sur OK pour enregistrer.    
 
 ## Définir Google comme moteur de recherche par défaut ##
 
