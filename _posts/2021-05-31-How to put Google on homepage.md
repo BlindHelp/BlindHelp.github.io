@@ -61,10 +61,6 @@ Définir Google comme moteur de recherche par défaut
 Cliquez sur la flèche vers le bas à gauche du champ de recherche.    
 Sélectionnez Google dans le menu déroulant.    
 
-# Source: #
-
-[Définissez Google comme page d'accueil](https://www.google.fr/intl/fr/homepage/hp-firefox.html)
-
 # Une troisième méthode pour mettre la page Google en page d'accueil sur  Mozilla Firefox (avec le lecteur d'écran NVDA / JAWS): #
 
 Ouvrez Firefox depuis l'icône du bureau.    
