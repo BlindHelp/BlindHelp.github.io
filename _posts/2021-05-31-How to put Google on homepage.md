@@ -63,7 +63,7 @@ Sélectionnez Google dans le menu déroulant.
 
 # Source:
 
-<https://www.google.fr/intl/fr/homepage/hp-firefox.html>
+[Définissez Google comme page d'accueil - Google](https://www.google.fr/intl/fr/homepage/hp-firefox.html)    
 
 
 # Une troisième méthode pour mettre la page Google en page d'accueil sur  Mozilla Firefox (avec le lecteur d'écran NVDA / JAWS):
