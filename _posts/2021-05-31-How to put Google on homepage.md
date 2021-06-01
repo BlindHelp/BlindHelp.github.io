@@ -57,15 +57,17 @@ Il est également possible de mettre Google en page d'accueil sur Safari en cliq
 
 Attention, il peut arriver que des virus et logiciels malveillants remplacent, sans votre accord, votre page d'accueil classique par des publicités. Il est dans ce cas conseillé d'installer un antivirus efficace et de suivre les instructions précédemment citées pour mettre à nouveau Google en page d'accueil sur votre navigateur.
 
+---
+
 # Une deuxième méthode pour mettre la page Google en page d'accueil sur  Mozilla Firefox #
 
-Définissez Google comme page d'accueil.
+# Définissez Google comme page d'accueil. #
 
 Accédez instantanément à la recherche Google, dès l'ouverture de votre navigateur.
 
-Premiers pas
+## Premiers pas ##
  
-Option 1 : faire glisser l'icône "Google"
+# Option 1 : faire glisser l'icône "Google" #
 
 Cliquez sur l'icône bleue "Google" ci-dessous, puis faites-la glisser vers l'icône Accueil située dans l'angle supérieur droit du navigateur.
 
@@ -73,7 +75,7 @@ Cliquez sur Oui dans la fenêtre pop-up.
 
 <www.google.fr>
 
-Option 2 : modifier manuellement les préférences
+## Option 2 : modifier manuellement les préférences ##
 
 Cliquez sur Firefox dans l'angle supérieur gauche, puis sélectionnez Options. Cliquez ensuite sur Options dans le menu sur la droite.
 
@@ -83,7 +85,7 @@ Cliquez sur le bouton Général représenté par une icône d'interrupteur dans 
 
 Saisissez <www.google.fr> dans le champ Page d'accueil, puis cliquez sur OK pour enregistrer.
 
-Définir Google comme moteur de recherche par défaut
+## Définir Google comme moteur de recherche par défaut ##
 
 Cliquez sur la flèche vers le bas à gauche du champ de recherche.
 
