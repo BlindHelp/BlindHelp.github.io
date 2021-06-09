@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 23 Octobre 2020 - Dernière mise à jour le Vendredi 12 Mars 2021</footer>
+<footer>Publié le Vendredi 23 Octobre 2020 - Dernière mise à jour le Jeudi 3 Juin 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -14,8 +14,8 @@ Voici une nouvelle extension  pour NVDA accessible fait  par un ami hispanophone
 # Informations sur l'extension  zRadio: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.5.2
-* Compatibilité avec NVDA: de 2019.3 à 2020.4
+* Version actuelle: 0.5.3
+* Compatibilité avec NVDA: de 2019.3 à 2021.1
 * Langues supportées: Anglais, Arabe, Espagnol, Français, Italien  et Portugais du Portugal / Brésil
 * [Télécharger](https://nvda.es/files/get.php?file=zradio)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zradio)
