@@ -19,8 +19,6 @@ Je recommande que même si nous avons changé le manifeste avec Cricricri, si l'
 Eh bien, Cricricri est orienté  pour les utilisateurs qui n'ont pas envie de s'enquiquiner avec les manifestes pour une raison quelconque. et Cricricri les aidera à ne pas rester laissé derrière et sans extensions.    
 Dire que Cricricri doit être utilisé avant d'installer les nouvelles versions NVDA, que ce soit pour mettre à jour ou nettoyer, les extensions doivent avoir le manifeste changé avant de mettre à jour ou lors de l'installation de celle-ci.  
 S'il s'agit d'une installation propre, je recommande que CRICRICRI soit utilisé dans la copie que nous avons nos extensions, puis effectuez une copie avec [l'Empaqueteuse d'extensions pour NVDA](https://blindhelp.github.io/addonPackager/) afin de sauvegarder une copie de vos extensions rapidement pour que vous puissiez les installer sans problème.    
-Note: il faudra aussi changé aussi la date dans le manifeste pour cette même extension: Empaqueteuse d'extensions (addonPackager).    
-Actuellement  comme date: 2020.4 il faudra changer par: 2021.1    
 Eh bien, Cricricri est très facile à utiliser, mais je recommande de lire l'aide de l'extension ci-dessous afin de vous familiariser avec elle.    
 Note vous pouvez aussi appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions, afin de trouver la même aide.    
 
