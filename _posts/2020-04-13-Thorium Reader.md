@@ -1,10 +1,11 @@
 ---
 title: Thorium, lecteur ePub très accessible, compatible avec les lecteurs d'écran comme Jaws, NVDA, Voice Over (sur Mac OS) et Narrateur (sous Windows
+permalink: Thorium
 layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le Mercredi 29 Avril 2020</footer>
+<footer>Publié le Lundi 13 Avril 2020 - Dernière mise à jour le Mardi 28 Avril 2020</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -17,7 +18,7 @@ Thorium, est le lecteur EPUB de bureau libre publié par [EDRLab.](https://www.e
 Nouvelle mises à jour pour la traduction en espagnol fait par Noelia Ruiz (déjà inclus dans les versions de test précédentes).    
 (en plus des langues existantes anglais, français et allemand) d'autres langues seront ajoutées prochainement (italien et hongrois viendront bientôt).    
 
-Hier, la version stable 1.3 a été publié, celle-ci prend en charge les livres audio comme l'extensions .audiobook, .lcpaudiobook, vous pouvez consulter cette information depuis la page en anglais [par ici](https://www.edrlab.org/2020/04/28/thorium-reader-1-3-supports-audiobooks/), (je ne l'ai pas essayé).    
+Hier, la version stable 1.3 a été publié, celle-ci prend en charge les livres audio comme les extensions .audiobook, .lcpaudiobook, vous pouvez consulter cette information depuis la page en anglais [par ici](https://www.edrlab.org/2020/04/28/thorium-reader-1-3-supports-audiobooks/), (je ne l'ai pas essayé).    
 
 # Nouveautés de cette version #
 
@@ -43,7 +44,7 @@ Puis les informations en anglais sur la dernière version v1.3 [par ici](https:/
 Et la page de l'auteur de EDRLab - European Digital Reading Lab (en anglais) [en cliquant ici](https://www.edrlab.org/)    
 
 # Lien de téléchargement de Thorium pour Windows via GitHub: #
-Voici  l'installateur pour Windows 10 ()Ce programme fonctionne également sur Windows 7, comme je l'ai vérifié.    
+Voici  l'installateur pour Windows 10 (Ce programme fonctionne également sur Windows 7, comme je l'ai vérifié).    
 Vous pouvez obtenir celui-ci en cliquant sur le lien ci-dessous.    
 [Thorium.Setup.1.3.0.exe](https://github.com/readium/readium-desktop/releases/download/v1.3.0/Thorium.Setup.1.3.0.exe)    
 76,0 MB    
@@ -61,6 +62,11 @@ L'application va se télécharger toute seule et une notification apparaîtra lo
 Si vous téléchargez sur Microsoft Store vous pouvez recevoir des mises à jour automatique.    
 
 Dans le cas d'une mise à jour de Thorium Reader téléchargé via Microsoft Store, vous devez  débloquer le programme. Par exemple, vous pouvez avoir accès aux catalogues de livres (flux OPDS).    
+
+### Télécharger la...  ###
+
+- [Versión ppour Windows 10 sur Microsoft Store (France)](https://www.microsoft.com/fr-fr/p/thorium-reader/9nfzp1g7m2sc?activetab=pivot:overviewtab)
+- [Dernières versions sur GitHub (page du dépôt en anglais)](https://github.com/edrlab/thorium-reader/releases)
 
 # Installation manuel de Thorium à partir du fichier téléchargé (Setup) via GitHub: #
 Chercher le fichier télécharger (Setup) via GitHub, par exemple pour Windows 10 (et Windows 7):    
@@ -110,9 +116,28 @@ Ensuite nous aurons le titre de niveau 2:
 (c'est un bouton)    
 S'il vous plaît cliquer sur ce bouton et vous saurez tout sur ce fabuleux lecteur ePub nommé Thorium made in france! :)    
 
-Vous pouvez lancez le programme thorium à tout moment depuis son raccourci bureau.    
+Vous pouvez lancez le programme thorium à tout moment depuis son raccourci bureau pour les personnes ayant installé depuis le Setup téléchargé via GitHub)    
+Si vous avez téléchargé et installé Thorium Reader via Microsoft Store, aller au Menu Démarrer  (touche Windows),  Toutes les applications liste, et recherchez le nom du programme: Thorium Reader, et cliquez dessus.    
+
 Je testé que la fonction Importer un fichier epub, pour le reste, je pense que vous devriez faire une configuration avant d'utiliser les autres options.    
-Voici un lien pour télécharger des [Ebooks libres et gratuits](https://www.ebooksgratuits.com/)    
+
+### Accès aux catalogues OPDS ###
+
+Thorium facilite également l'accès aux catalogues OPDS, c'est-à-dire des liens fournis par des bibliothèques numériques et d'autres sites Web pour rendre compte de nouvelles œuvres disponibles, de sorte qu'elles puissent être téléchargées directement à partir de programmes tels que Thorium.    
+
+[Plus d'informations sur OPDS sur Wikipedia (France)](https://fr.wikipedia.org/wiki/OPDS)    
+
+Par exemple, dans le  dépôt de Thorium, ce catalogue OPDS est mentionné:    
+
+<input type="text" value="http://www.feedbooks.com/books/top.atom?category=FBFIC019000" id="opds" readonly>
+
+
+<div id="p"></div>
+
+
+Vous pouvez l'ajouter à Thorium pour télécharger gratuitement des publications.    
+
+Voici un autre lien pour télécharger des [Ebooks libres et gratuits](https://www.ebooksgratuits.com/)    
 En ce qui concerne le format OPDS (Open Publication Distribution System), celui-ci est utilisée pour vous abonner aux livres publiés sur Internet et est similaire aux formats comme le flux RSS utilisé pour les blogs, les journaux, etc., mais pour des livres ou des publications.    
 Voici le flux OPDS à mettre dans Thorium:    
 `https://www.ebooksgratuits.com/opds`    
