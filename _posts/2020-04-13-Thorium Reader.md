@@ -1,6 +1,5 @@
 ---
 title: Thorium, lecteur ePub très accessible, compatible avec les lecteurs d'écran comme Jaws, NVDA, Voice Over (sur Mac OS) et Narrateur (sous Windows
-permalink: "/Thorium-Reader/"
 layout: post
 author: BlindHelp
 ---
