@@ -1,10 +1,11 @@
 ---
 title: Thorium, lecteur ePub très accessible, compatible avec les lecteurs d'écran comme Jaws, NVDA, Voice Over (sur Mac OS) et Narrateur (sous Windows
+permalink: "/Thorium-Reader/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Lundi 13 Avril 2020 - Dernière mise à jour le Mardi 28 Avril 2020</footer>
+<footer>Publié le Lundi 13 Avril 2020 - Dernière mise à jour le Mercredi 29 Avril 2020</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -62,9 +63,9 @@ Si vous téléchargez sur Microsoft Store vous pouvez recevoir des mises à jour
 
 Dans le cas d'une mise à jour de Thorium Reader téléchargé via Microsoft Store, vous devez  débloquer le programme. Par exemple, vous pouvez avoir accès aux catalogues de livres (flux OPDS).    
 
-### Télécharger la...  ###
+### Télécharger Thorium Reader ###
 
-- [Versión ppour Windows 10 sur Microsoft Store (France)](https://www.microsoft.com/fr-fr/p/thorium-reader/9nfzp1g7m2sc?activetab=pivot:overviewtab)
+- [Version pour Windows 10 sur Microsoft Store (France)](https://www.microsoft.com/fr-fr/p/thorium-reader/9nfzp1g7m2sc?activetab=pivot:overviewtab)
 - [Dernières versions sur GitHub (page du dépôt en anglais)](https://github.com/edrlab/thorium-reader/releases)
 
 # Installation manuel de Thorium à partir du fichier téléchargé (Setup) via GitHub: #
