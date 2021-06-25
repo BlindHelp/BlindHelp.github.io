@@ -23,7 +23,9 @@ Mais plus bas, je vous donne un extrait traduit en français de ce que l'auteur 
 
 Dual Voice est une extension  qui  permet d'utiliser deux voix différentes (actuellement les deux voix doivent prendre en charge SAPI5 standard) pour la lecture de deux langues un avec un script latin et un autre avec un script d'écriture non latin. Par exemple, un utilisateur peut sélectionner une voix pour lire l'anglais comme langue avec le script d'écriture latin et sélectionner une voix pour lire le Persian (la langue de l'auteur de cette extension) en tant que langue avec le script d'écriture non latin. Certaines des langues avec le script d'écriture latin sont l'anglais, tchèque, croate, néerlandais, finnois, français, allemand, italien, polonais, portugais, slovène, espagnol et turc. D'autre part, certaines langues avec le script non latin sont arabes, biélorusses, bulgares, chinoises, grecques, hébreu, japonaises, coréennes, persan, russe et ukrainienne.
 
-Vous pouvez télécharger la dernière version de [Dual Voice pour NVDA compatible avec la version 2021.1 via le dépôt de l'auteur sur GitHub](https://github.com/Mahmood-Taghavi/dual_voice/releases/download/v5.0/dual_voice-5.0.nvda-addon), qui est maintenant la version 5.0.
+Vous pouvez télécharger la dernière version de [Dual Voice pour NVDA seulement compatible avec la version 2021.1 via le dépôt de l'auteur sur GitHub](https://github.com/Mahmood-Taghavi/dual_voice/releases/download/v5.0/dual_voice-5.0.nvda-addon), qui est maintenant la version 5.0.
+
+Pour les personnes qui n'ont pas la version 2021.1 de NVDA, elles devront installer cette version laquelle est compatible avec les versions 2019.3 à 2020.4 de NVDA [via le dépôt de l'auteur sur GitHub](https://github.com/Mahmood-Taghavi/dual_voice/releases/download/v4.9/dual_voice-4.9.nvda-addon)
 
 Note 1: Vous pouvez maintenant utiliser une boîte de dialogue personnalisée intitulée "Dual voice" dans le menu NVDA pour sélectionner la voix secondaire et faire le réglage de Dual voice.
 
@@ -117,6 +119,10 @@ Maintenant que nos voix sont unifiées avec l'outil SAPI_Unifier, vient la derni
 
 Pour installer l'extension Dual Voice pour NVDA, vous devez rechercher et cliquez sur le fichier:    
 `dual_voice-5.0.nvda-addon`    
+(Compatibilité NVDA: 2021.1)    
+ou:    
+`dual_voice-4.9.nvda-addon`    
+(Compatibilité NVDA: 2019.3 à 2020.4)    
 afin de démarrer le processus d'installation puis suivez les instructions à l'écran.    
 NVDA vous demandera de confirmer que vous souhaitez installer cette extension.    
 Répondez par "Oui" afin d'installer cette extension Dual Voice.    
