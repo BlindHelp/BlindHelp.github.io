@@ -1,10 +1,11 @@
 ---
 title: Extension Dual Voice pour NVDA et le logiciel SAPI_Unifier
+permalink: "/Dual-Voice/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le Samedi 31 Octobre 2020</footer>
+<footer>Publié le Samedi 31 Octobre 2020 - Dernière mise à jour le Samedi 19 Juin 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Cette extension Dual Voice pour NVDA  afin de basculer d'une langue à une autre est en anglais pour le moment. Vous trouverez ci-dessous des informations pertinentes sur cette extension, y compris sur  le logiciel SAPI_Unifier, développé par le même auteur.    
@@ -22,7 +23,7 @@ Mais plus bas, je vous donne un extrait traduit en français de ce que l'auteur 
 
 Dual Voice est une extension  qui  permet d'utiliser deux voix différentes (actuellement les deux voix doivent prendre en charge SAPI5 standard) pour la lecture de deux langues un avec un script latin et un autre avec un script d'écriture non latin. Par exemple, un utilisateur peut sélectionner une voix pour lire l'anglais comme langue avec le script d'écriture latin et sélectionner une voix pour lire le Persian (la langue de l'auteur de cette extension) en tant que langue avec le script d'écriture non latin. Certaines des langues avec le script d'écriture latin sont l'anglais, tchèque, croate, néerlandais, finnois, français, allemand, italien, polonais, portugais, slovène, espagnol et turc. D'autre part, certaines langues avec le script non latin sont arabes, biélorusses, bulgares, chinoises, grecques, hébreu, japonaises, coréennes, persan, russe et ukrainienne.
 
-Vous pouvez télécharger la dernière version de [Dual Voice pour NVDA via le dépôt de l'auteur sur GitHub](https://github.com/Mahmood-Taghavi/dual_voice/releases/download/v4.9/dual_voice-4.9.nvda-addon), qui est maintenant la version 4.9.
+Vous pouvez télécharger la dernière version de [Dual Voice pour NVDA compatible avec la version 2021.1 via le dépôt de l'auteur sur GitHub](https://github.com/Mahmood-Taghavi/dual_voice/releases/download/v5.0/dual_voice-5.0.nvda-addon), qui est maintenant la version 5.0.
 
 Note 1: Vous pouvez maintenant utiliser une boîte de dialogue personnalisée intitulée "Dual voice" dans le menu NVDA pour sélectionner la voix secondaire et faire le réglage de Dual voice.
 
@@ -115,7 +116,7 @@ Maintenant que nos voix sont unifiées avec l'outil SAPI_Unifier, vient la derni
 # Installation et configuration de l'extension Dual Voice Pour NVDA #
 
 Pour installer l'extension Dual Voice pour NVDA, vous devez rechercher et cliquez sur le fichier:    
-`dual_voice-4.9.nvda-addon`    
+`dual_voice-5.0.nvda-addon`    
 afin de démarrer le processus d'installation puis suivez les instructions à l'écran.    
 NVDA vous demandera de confirmer que vous souhaitez installer cette extension.    
 Répondez par "Oui" afin d'installer cette extension Dual Voice.    
@@ -327,7 +328,7 @@ Lorsque vous êtes dans la documentation ouverte vous Pouvez toujours faire maju
 Chacun de ces onglets contiendra leurs propres voix utilisées par Balabolka en fonction des voix installées sur le système d'exploitation Windows.    
 
 Pour en savoir plus sur Balabolka veuillez consulter  la {[Page d'Accueil de Balabolka](http://www.cross-plus-a.com/fr/balabolka.htm)    
-O étant ouvert Balabolka  appuyez sur F1 pour l'aide.    
+Ou étant ouvert Balabolka  appuyez sur F1 pour l'aide.    
 
 Ci-dessous je vous donne des informations utiles fournies par notre ami Michel Such, je pense qu'ils sont encore d'actualité, et sont pour les personnes qui n'ont pas installé ces voix sur   leurs PC.    
 
