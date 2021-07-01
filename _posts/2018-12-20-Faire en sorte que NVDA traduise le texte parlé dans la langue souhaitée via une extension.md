@@ -114,7 +114,7 @@ Dans cette version, les gestes de commande d'origine sont maintenus.
 
 Un nouveau geste de commande décrit ci-dessous est ajouté et une boîte de dialogue de configuration est ajoutée dans Préférences  / Paramètres / Traduction.
 
-De plus, les langues en espagnol, français et portugais  sont ajoutées.
+De plus, les langues en espagnol, français et portugais sont ajoutées (avec leurs traductions mises à jour).
 
 Cette version augmente en poids à 850 Ko puisque une librairie a été introduite que, à son tour, nécessite d'autres et ce qui se prétends est d'avoir une extension dans laquelle nous ne restons jamais sans pouvoir traduire.
 
