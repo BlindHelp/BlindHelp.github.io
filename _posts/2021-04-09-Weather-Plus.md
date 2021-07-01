@@ -193,9 +193,10 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 
 [Télécharger l'extension Weather_Plus8.1.nvda-addon par ici: [lien externe]][1]    
 
-[1]: https://www.nvda.it/files/plugin/weather_plus8.1.nvda-addon(http://www.nvda.it/files/plugin/weather_plus7.7.nvda-addon)
+[1]: https://www.nvda.it/files/plugin/weather_plus8.1.nvda-addon
 
-    [ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
+[ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
+
 Assurez-vous que l'extension du fichier téléchargé est correcte, sinon    
 renommez-le en .nvda-addon.    
 Merci    
