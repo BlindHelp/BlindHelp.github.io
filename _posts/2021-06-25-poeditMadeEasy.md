@@ -15,8 +15,8 @@ Vous trouverez ci-dessous sa description faite par mes soins avec son lien de t�
 
 # poeditMadeEasy
 
-* Compatibilité avec Python3: oui 
-Compatible avec les versions de NVDA 2019.1 à 2021.1
+* Compatibilité avec Python3: oui
+* Compatible avec les versions de NVDA 2019.1 à 2021.1
 * Auteur: Him Prasad Gautam et Paul de la liste scriptNVDA pour l'adaptation de cette extension à Pithon 3 avec NVDA2021.1
 * Langues supportés: Anglais, Espagnol, Français, Hindi, Népalais et tamoul
 
