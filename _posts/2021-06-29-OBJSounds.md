@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 28 Juin 2021</footer>
+<footer>Publié le Mardi 29 Juin 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -33,6 +33,7 @@ Il peut également être personnalisé sans trop de difficulté, ont peut mettre
 
 ---
 
+Merci à Paul !😉    
 Je vous souhaite une bonne utilisation de l'extension OBJSounds!    
 @+    
 BlindHelp!    
