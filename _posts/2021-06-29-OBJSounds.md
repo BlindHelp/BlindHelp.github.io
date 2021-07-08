@@ -18,6 +18,7 @@ Vous trouverez ci-dessous sa description faite par mes soins avec son lien de t�
 * Compatibilité avec Pyton3: oui
 * Compatible avec les versions de NVDA 2019.3 à 2021.1
 * Auteur: Tyler Spivey et Paul de la liste scriptNVDA pour l'adaptation de cette extension à Pithon 3 avec NVDA2021.1
+* Langues supportées: Anglais, Français et Espagnol
 
 # Description:
 
@@ -25,11 +26,11 @@ Cette extension annonce les types d'objets à travers différents sons. C'est-à
 
 # Téléchargement:
 
-* Télécharger l'extension OBJSounds (KevanGC Version) modifié par Paul [via BlindHelp.github.io](https://blindhelp.github.io/objsounds-0.20120928.01-P01.nvda-addon)
+* Télécharger l'extension OBJSounds (KevanGC Version) modifié par Paul [via BlindHelp.github.io](https://blindhelp.github.io/objsounds-0.20120928.01-P05.nvda-addon)
 
 # Commentaire par BlindHelp:
 
-Il peut également être personnalisé sans trop de difficulté, ont peut mettre dans le dossiers correspondants les fichiers sons avec leurs noms et le format approprié. Sette extension contrairement à la version originale, a une façon de Activer et désactiver les sons, avec NVDA + alt + o. Ce que je n'aime pas c'est qu'ils ont mis la touche alt; lorsque la touche alt est enfoncée, le menu s'ouvre, mais malgré cela, ce raccourci peut être utilisé. Je le préfère aussi parce que le son des oiseaux est plus faible et moins envahissant. Par ailleurs, je pense qu'il est égal à l'extension de l'auteur original. J'espère qu'ells servent.
+Il peut également être personnalisé sans trop de difficulté, ont peut mettre dans le dossiers correspondants les fichiers sons avec leurs noms et le format approprié. Sette extension contrairement à la version originale, a une façon de Activer et désactiver les sons, avec NVDA + alt + o. Ce que je n'aime pas c'est qu'ils ont mis la touche alt; lorsque la touche alt est enfoncée, le menu s'ouvre, mais malgré cela, ce raccourci peut être utilisé, cependant si vous ne vous sentez pas à l'aise nous devrons donc le modifier dans le dialogue Gestes de commandes, dans la catégorie "Divers" puis chercher "Activer/désactiver le signalement du type des objets par un son", le geste de commande par défaut est "NVDA+alt+o (clavier, toutes les dispositions)". Je le préfère aussi parce que le son des oiseaux est plus faible et moins envahissant. Par ailleurs, je pense qu'il est égal à l'extension de l'auteur original. J'espère qu'ells servent.
 
 ---
 
