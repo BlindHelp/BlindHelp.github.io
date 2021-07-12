@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Lundi 12 Juillet 2021</footer>
+<footer>Publié le Lundi 12 Juillet 2021</footer>
 
 Il y a quelques heures, NV Access a annoncé la publication de la version finale NVDA 2021.1 du lecteur d'écran gratuit et Open-source pour Microsoft Windows. [Ce post est consultable en anglais sur ce lien.](https://www.nvaccess.org/post/nvda-2021-1/) Celle-ci est désormais disponible en téléchargement! NV Access encourage tous les utilisateurs à passer à cette version.    
 
