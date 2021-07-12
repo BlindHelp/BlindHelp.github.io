@@ -18,6 +18,8 @@ Note :
 * Cette version rompt la compatibilité avec les extensions existantes.
 * Cette version interrompt également le support d'Adobe Flash.
 
+Il existe une page sur le site de la communauté des extensions  pour savoir l'état de divers extensions officielles pour NVDA2021.1 en cliquant [ici](https://addons.nvda-project.org/addons/nvdacompat.fr.html)
+
 NV Accès vous rappelle qu’il est conseillé de fermer toutes les applications, y compris les navigateurs Web, avant la mise à jour de NVDA.    
 
 Veuillez noter qu'après la mise à jour de tout logiciel, il est conseillé de redémarrer l'ordinateur. Redémarrez en accédant au dialogue Arrêter, en sélectionnant " redémarrer " et en appuyant sur ENTRÉE. De cette façon, la mise à jour pourra modifier les fichiers en cours d'utilisation. Le redémarrage peut éviter une instabilité ou un comportement inattendu. C'est la première chose à essayer si vous remarquez quelque chose d'étrange après la mise à jour.    
