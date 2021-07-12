@@ -4,9 +4,9 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le Vendredi 19 Février 2021</footer>
+<footer>Dernière mise à jour le Lundi 12 Juillet 2021</footer>
 
-### Documentation sur NVDA 2020.4 ###
+### Documentation sur NVDA 2021.1 ###
 
 A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
 
@@ -30,6 +30,6 @@ Pour télécharger la dernière version stable de NVDA :
 [page sur la confidentialité de NV Access](http://www.nvaccess.org/privacy/)           
 (en anglais), parfois même des sites externes offrent des téléchargements de NVDA, et NV Access il est pas responsable du contenu ou des pratiques de confidentialité de ces sites.         
 
-Sur ce, je vous souhaite une très bonne utilisation DE votre lecteur d'écran NVDA! :)        
+Sur ce, je vous souhaite une très bonne utilisation DE votre lecteur d'écran NVDA gratuit et Open-source pour Microsoft Windows! :)        
 @+                     
 BlindHelp!                           

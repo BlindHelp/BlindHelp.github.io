@@ -3,9 +3,10 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Guide de l'utilisateur de NVDA 2020.4</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="styles.css">
+<TITLE>Guide de l'utilisateur de NVDA 2021.1</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2020.4</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2021.1</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -292,7 +293,7 @@ NVDA propose de nombreux codes braille couvrant un grand ensemble de langues. Da
 <A NAME="LicenseAndCopyright"></A>
 <H3>1.5. Licence et Copyright</H3>
 <P>
-NVDA est Copyright (C) 2006-2020 NVDA contributors.
+NVDA est Copyright (C) 2006-2021 NVDA contributors.
 </P>
 <P>
 NVDA est disponible sous la licence GNU General Public License Version 2), avec deux exceptions spéciales. 
@@ -455,7 +456,7 @@ La troisième permet d'indiquer si ce dialogue d'accueil doit apparaître à cha
 <A NAME="UsageStatsDialog"></A>
 <H4>4.1.2. Dialogue de statistiques d'utilisation des données</H4>
 <P>
-Depuis NVDA 2018.3, il est demandé à l'utilisateur s'il veut autoriser l'envoi de données d'utilisation à NV Access dans le but d'aider à l'amélioration de NVDA dans le futur. 
+Depuis NVDA 2018.3, il est demandé à l'utilisateur s'il veut autoriser l'envoi de données d'utilisation à NV Access afin d'aider à l'amélioration de NVDA à l'avenir. 
 Au premier démarrage de NVDA, un dialogue vous demandant si vous désirer envoyer des données à NV Access durant l'utilisation de NVDA apparaîtra.
 Vous pouvez obtenir plus d'informations concernant les données rassemblées par NV Access dans la section paramètres généraux, <A HREF="#GeneralSettingsGatherUsageStats">Autoriser le projet NVDA à recueillir des statistiques d'utilisation</A>.
 Note : l'appui sur "oui" ou "non" sauvegardera ce choix et ce dialogue n'apparaîtra plus à moins que vous réinstalliez NVDA.
@@ -1278,7 +1279,6 @@ Cela inclut les documents dans les applications suivantes :
 <LI>Microsoft Edge
 <LI>Adobe Reader
 <LI>Foxit Reader
-<LI>Adobe Flash
 <LI>Les livres supportés sous Amazon Kindle pour PC
 </UL>
 
@@ -1376,7 +1376,7 @@ Les touches suivantes permettent d'aller à l'élément suivant. En les combinan
 <LI>d : région
 <LI>o : objet embarqué (lecteur audio et vidéo, application, dialogue etc.)
 <LI>1 ... 6 : Titres 1 ... 6.
-<LI>a: annotation (commentaire, révision de l'éditeur, etc.)
+<LI>a: annotation (commentaire, modification de l'éditeur, etc.)
 <LI>w: fautes d'orthographe
 </UL>
 
@@ -1463,7 +1463,7 @@ Utilisez les touches suivantes pour effectuer des recherches :
 <A NAME="ImbeddedObjects"></A>
 <H3>6.4. Les Objets Embarqués</H3>
 <P>
-Certaines pages peuvent inclure du contenu riche utilisant des technologies comme Adobe Flash, Oracle Java et HTML5, tout comme des applications ou des dialogues.
+Certaines pages peuvent inclure du contenu riche utilisant des technologies comme Oracle Java et HTML5, tout comme des applications ou des dialogues.
 Quand il en rencontre dans un document, NVDA annonce "objet embarqué", "application", ou "dialogue" respectivement.
 Vous pouvez vous y rendre rapidement en utilisant les touches de navigation rapide pour objets embarqués o et maj+o.
 Pour interagir avec ces objets, vous pouvez presser Entrer sur eux.
@@ -1977,6 +1977,9 @@ Pour cette situation, NVDA contient une fonctionnalité appelée "Rideau d'Écra
 <P>
 Vous pouvez activer le Rideau d'Écran dans la <A HREF="#VisionSettings">catégorie vision</A> du dialogue <A HREF="#NVDASettings">Paramètres NVDA Settings</A>.
 </P>
+<P>
+Quand le rideau d'écran est activé, certaines tâches directement liées à ce qui apparaît sur l'écran telles que <A HREF="#Win10Ocr">la reconnaissance optique de caractères</A> ou la prise d'une copie d'écran ne peuvent pas être effectuées.
+</P>
 <A NAME="ContentRecognition"></A>
 <H2>10. Reconnaissance de Contenu</H2>
 <P>
@@ -2004,6 +2007,9 @@ NVDA peut l'utiliser pour extraire le texte d'images ou d'applications inaccessi
 <P>
 Vous pouvez définir la langue à utiliser pour la reconnaissance de texte dans la catégorie <A HREF="#Win10OcrSettings">Reconnaissance Optique De Caractères de Windows 10</A> du dialogue <A HREF="#NVDASettings">Paramètres</A>.
 Des langues additionnelles peuvent être installées en ouvrant le menu Démarrer, choisir Paramètres, Sélectionner Heure et Langue -&gt; Région &amp; Langue puis choisir Ajouter une langue.
+</P>
+<P>
+La reconnaissance optique de caractères de Windows 10 peut être partiellement ou totalement incompatible avec <A HREF="#Vision">les améliorations visuelles de NVDA</A> ou autres aides visuelles externes. Vous devrez désactiver ces aides avant de procéder à une reconnaissance.
 </P>
 <P>
 Pour reconnaître le texte dans l'objet navigateur courant en utilisant la reconnaissance optique de caractères de Windows 10, pressez NVDA+r.
@@ -3397,14 +3403,14 @@ On peut configurer les annonces suivantes :
 <LI>Informations sur le document
  <UL>
  <LI>Commentaires
- <LI>Révisions de l'éditeur
+ <LI>Modifications de l'éditeur
  <LI>Fautes d'orthographe
  </UL>
 <LI>Pages et espacement
  <UL>
  <LI>Numéros de page
  <LI>Numéros de ligne
- <LI>Annonce du retrait de ligne <A HREF="#lineIndentationOptions">(Désactivé, Parole, Sons, Parole et Sons)</A>
+ <LI>Annonce du retrait de ligne <A HREF="#DocumentFormattingSettingsLineIndentation">(Désactivé, Parole, Sons, Parole et Sons)</A>
  <LI>Retrait des paragraphes (ex. retrait négatif, retrait de première ligne)
  <LI>interligne (simple, double etc.)
  <LI>Alignement
@@ -3414,7 +3420,7 @@ On peut configurer les annonces suivantes :
  <LI>Tableaux
  <LI>En-têtes des lignes et colonnes
  <LI>Coordonnées des cellules
- <LI>Bordure des cellules [(désactivé, Styles, Couleurs et Styles)
+ <LI>Bordure des cellules (désactivé, Styles, Couleurs et Styles)
  </UL>
 <LI>Éléments
  <UL>
@@ -3533,6 +3539,31 @@ Si cette option est activée, NVDA utilisera une nouvelle version en cours de d�
 <P>
 Cette option définit si les caractères sont annoncés par <A HREF="#KeyboardSettingsSpeakTypedCharacters">Écho clavier par caractère</A> ou <A HREF="#KeyboardSettingsSpeakTypedWords">Écho clavier par mot</A> dans les situation où l'écran ne se met pas à jour (telles que les zones de saisie de mot de passe) dans certains programmes de terminaux, comme la Console Windows avec le support UI automation activé. Pour des raisons de sécurité, ce paramètre devrait rester désactivé. Cependant, vous pouvez souhaiter l'activer si vous ressentez des problèmes de performances ou d'instabilité avec l'écho par caractère ou par mot dans la console, ou si vous travaillez dans un environnement de confiance et préférez l'annonce des mots de passe.
 </P>
+<A NAME="ChromiumUIA"></A>
+<H5>Utiliser UIA avec Microsoft Edge et autres navigateurs basés sur Chromium quand c'est possible</H5>
+<P>
+Cette option permet de définir quand UIA sera utilisé si disponible dans les navigateurs basés sur Chromium tels que Microsoft Edge.
+Le support d'UIA pour les navigateurs basés sur Chromium est au début de son développement et peut ne pas apporter le même niveau d'accessibilité que IA2.
+La liste déroulante contient les options suivantes :
+</P>
+<UL>
+<LI>Défaut (Seulement quand nécessaire) : C'est actuellement la valeur par défaut de NVDA. Cette valeur par défaut peut changer à l'avenir en fonction de l'amélioration de la technologie.
+<LI>Seulement quand nécessaire : Quand NVDA est incapable d'injecter dans le processus du navigateur de quoi utiliser IA2 et que UIA est disponible, NVDA utilisera UIA.
+<LI>Oui : Si le navigateur rend UIA disponible, NVDA l'utilisera.
+<LI>Non : Ne pas utiliser UIA, même si NVDA ne peut pas injecter dans le processus. Ceci peut être utile pour les développeurs corrigeant des problèmes liés à IA2 et voulant s'assurer que NVDA ne revient pas à UIA.
+</UL>
+
+<P></P>
+<A NAME="UseUiaForExcel"></A>
+<H5>Utiliser UI automation pour accéder aux contrôles des feuilles de calcul Microsoft Excel quand c'est possible</H5>
+<P>
+Quand cette option est activée, NVDA essaiera d'utiliser l'API d'accessibilité Microsoft UI Automation pour extraire des informations des contrôles des feuilles de calcul Microsoft Excel.
+C'est une fonctionnalité expérimentale, et certaines fonctionnalités de Microsoft Excel peuvent ne pas être disponibles dans ce mode.
+Par exemple, la liste d'éléments de NVDA permettant de lister les formules et commentaires, et la navigation rapide en mode navigation pour sauter aux zones de formulaire dans une feuille de calcul ne sont pas disponibles.
+Cependant, pour la navigation/édition de feuilles de calcul basiques, cette option peut procurer de grandes améliorations de performances.
+Nous ne recommandons toujours pas que la majorité des utilisateurs active cette option par défaut, mais nous encourageons les utilisateurs de Microsoft Excel version 16.0.13522.10000 ou ultérieures à tester cette fonctionnalité et à nous faire part de leurs commentaires.
+L'implémentation d'UI Automation dans Microsoft Excel évolue fréquemment, et les versions de Microsoft Office antérieures à 16.0.13522.10000 n'exposent peut-être pas assez d'informations pour que cette option soit d'une quelconque utilité.
+</P>
 <A NAME="AdvancedSettingsKeyboardSupportInLegacy"></A>
 <H5>Utiliser le nouveau support de l'écho par caractère dans les anciennes consoles Windows quand disponible</H5>
 <P>
@@ -3542,12 +3573,31 @@ Cette fonctionnalité est disponible et activée par défaut sous Windows 10 ver
 Avertissement : quand cette option est activée, les caractères tapés qui n'apparaissent pas à l'écran comme les mots de passe, ne seront pas supprimés.
 Dans les environnement non sûrs, vous pouvez désactiver temporairement <A HREF="#KeyboardSettingsSpeakTypedCharacters">Écho clavier par caractère</A> et <A HREF="#KeyboardSettingsSpeakTypedWords">Écho clavier par mot</A> quand vous entrez un mot de passe.
 </P>
+<A NAME="DiffAlgo"></A>
+<H5>Algorithme de diff</H5>
+<P>
+Ce paramètre définit comment NVDA détermine le nouveau texte à annoncer dans les terminaux.
+La liste déroulante algorithme de diff a trois options :
+</P>
+<UL>
+<LI>Automatique : À partir de NVDA 2021.1, cette option est équivalente à Difflib.
+Dans une version future, cela peut changer en faveur de Diff Match Patch si les tests des utilisateurs sont positifs.
+<LI>Autoriser Diff Match Patch : Cette option fait que NVDA calcule les changements de texte du terminal par caractère.
+Cela peut améliorer les performances quand de grandes quantités de texte sont écrites à la console et permet l'annonce plus précises des changements intervenant en milieu de ligne.
+Cependant, cela peut être incompatible avec certaines applications.
+Cette fonctionnalité est supportée dans la Console Windows de Windows 10 versions 1607 et ultérieures.
+Par ailleurs, elle peut être disponible dans d'autres terminaux dans des versions antérieures de Windows.
+<LI>forcer Difflib : Cette option fait que NVDA calcule les changements de texte du terminal par ligne
+C'est identique au comportement de NVDA en version 2020.4 et antérieures.
+</UL>
+
+<P></P>
 <A NAME="CancelExpiredFocusSpeech"></A>
 <H5>Tenter d'interrompre la parole pour les événements de focus expirés</H5>
 <P>
 Cette option active un comportement qui tente d'interrompre la parole pour les événements de focus expirés.
 En particulier se déplacer rapidement parmi les messages dans Gmail sous Chrome peut amener NVDA à annoncer des informations périmées.
-Cette fonctionnalité est expérimentale sous NVDA 2020.2.
+Cette fonctionnalité est activée par défaut à partir de NVDA 2021.1.
 </P>
 <A NAME="AdvancedSettingsCaretMoveTimeout"></A>
 <H5>Délai d'attente de mouvement du curseur (en ms)</H5>
