@@ -5,10 +5,10 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le  Vendredi 2 Avril 2021 - Dernière mise à jour le Samedi 17 Juillet 2021</footer>
+<footer>Publié le  Vendredi 2 Avril 2021 - Dernière mise à jour le Dimanche 18 Juillet 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
-Il y a quelque temps notre ami @hxebolax avait donné une extension non officielle pour l'application AirLiveDrive pour étiqueter cette application, puis un gars "Gerardo Kessler hispanophone aussi, il a créé une autre extension non officielle  pour un autre produit de cette même entreprise nommée AirExplorer, et comme ils ont vu que leurs deux extensions, ils étaient similaires ont décidés de les mettre ensemble pour faire une seule extension pour NVDA, en conservant son nom d'origine AirLiveDrive puis en changeant son nom interne par AirAccessibility et ils ont décidé de rétropédaler à la version 0.1.    
+Il y a quelque temps notre ami @hxebolax avait donné une extension non officielle pour l'application AirLiveDrive pour étiqueter cette application, puis un gars "Gerardo Kessler hispanophone aussi, il a créé une autre extension non officielle  pour un autre produit de cette même entreprise nommée AirExplorer, et comme ils ont vu que leurs deux extensions, ils étaient similaires ont décidés de les mettre ensemble pour faire une seule extension pour NVDA, en conservant son nom d'origine AirLiveDrive puis en changeant son nom interne par AirAccessibility et ils ont décidé de rétropédaler à la version 1.0.    
 
 Maintenant il rend plus accessibles les produits AirExplorer et AirLiveDrive pour NVDA!    
 
@@ -17,7 +17,7 @@ Je viens de le traduire en français à nouveau et un des auteurs m'a dit que je
 # Informations sur l'extension  AirLiveDrive: #
 
 * Auteurs: <span lang="es">Héctor J. Benítez Corredera, Gerardo Kessler</span>
-* Version actuelle: 0.1
+* Version actuelle: 1.0
 * Compatibilité avec NVDA: de 2019.3 à 2021.1
 * Langues supportées: Espagnol, Français et Portugais du Portugal / Brésil
 * [Télécharger](https://nvda.es/files/get.php?file=airlivedrive)
@@ -70,7 +70,7 @@ Avec cette extension, la plupart des éléments sont étiquetés en rendant l'ap
 * Portugais: Équipe Portugaise de NVDA (Ângelo Abrantes et Rui Fontes)
 
 # Journal des changements.
-## Version 0.1.
+## Version 1.0.
 
 * Version initiale.
 
