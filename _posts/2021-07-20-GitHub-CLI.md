@@ -279,8 +279,9 @@ Vous trouverez en premier le nom de la commande à taper, sa description en angl
 
 ---
 
-`Work seamlessly with GitHub from the command line.`    
-`Travailler de manière transparente avec GitHub en ligne de commande.`    
+Message en anglais  | Message en français
+- | -
+`Work seamlessly with GitHub from the command line.` | `Travailler de manière transparente avec GitHub en ligne de commande.`
 
 # USAGE (Utilisation)
 
@@ -320,42 +321,48 @@ Commande | Description en anglais | Description en français | Commande au compl
 
 # FLAGS (Balises)
 
+Commande | Description en anglais | Description en français | Commande au complet
+- | - | - | -
 `--help` | Show help for command | Afficher l'aide pour la commande | `gh --help`
 `--version` | Show gh version | Afficher la version gh | `gh --version`
 
 # EXAMPLES (Exemples)
 
-`$ gh issue create`    
-`$ gh repo clone cli/cli`    
-`$ gh pr checkout 321`
+¤ Invite de commande | Action
+- | -
+`$ gh issue create` | Commande pour créer un issue
+`$ gh repo clone cli/cli` | Commande pour cloner le dépôt de cli
+`$ gh pr checkout 321` | Commande pour s'y déplacer au pull request 321
 
 # ENVIRONMENT VARIABLES (Variables d'environnement)
 
-`See 'gh help environment' for the list of supported environment variables.`    
-`Voir 'gh help environment' pour la liste des variables d'environnement pris en charge.`    
-`gh help environment`    
+Description de la commande  en anglais | Description de la commande  en français | Commande au complet
+- | - | -
+`See 'gh help environment' for the list of supported environment variables.` | `Voir 'gh help environment' pour la liste des variables d'environnement pris en charge.` | `gh help environment`
 
 # LEARN MORE (Apprendre encore plus)
 
-`Use 'gh <command> <subcommand> --help' for more information about a command.`    
-`Utiliser 'gh <command> <subcommand> --help' pour plus d'informations sur une commande.`    
+Description de la commande  en anglais | Description de la commande  en français | Commande au complet
+- | - | -
+`Use 'gh <command> <subcommand> --help' for more information about a command.` | `Utiliser 'gh <command> <subcommand> --help' pour plus d'informations sur une commande.` | `gh <command> <subcommand> --help`
 
-Read the manual at (Lire le manuel en anglais à cette adresse) <https://cli.github.com/manual>
+Message en anglais | Message en français | Lien
+- | - | -
+Read the manual at | Lire le manuel en anglais à cette adresse | <https://cli.github.com/manual>
 
 FEEDBACK (Retour ou remontée de l'information sur le dépôt de CLI sur GitHub)
 
-`Open an issue using 'gh issue create -R github.com/cli/cli'`    
-`Ouvrir un issue utilisant 'gh issue create -R github.com/cli/cli'`    
-`gh issue create -R github.com/cli/cli`
+Description de la commande à utiliser en anglais | Description de la commande à utiliser en français |Commande au complet
+- | - | -
+`Open an issue using 'gh issue create -R github.com/cli/cli'` | `Ouvrir un issue utilisant 'gh issue create -R github.com/cli/cli'` | `gh issue create -R github.com/cli/cli`
 
 À la fin de l'écran où tout le texte précédent était affiché c'est-à-dire dans la dernière ligne, si vous avez une version précédente de GH CLI, vous aurez un message en anglais suivi du lien pour aller télécharger la nouvelle version de GitHub Cli sur son dépôt sur GitHub:
 
-`A new release of gh is available: 1.12.1 → v1.13.1`    
-`Une nouvelle version de GH est disponible: 1.12.1 → v1.13.1`    
+Message en anglais | Message en français | Lien
+- | - | -
+`A new release of gh is available: 1.12.1 → v1.13.1` | `Une nouvelle version de GH est disponible: 1.12.1 → v1.13.1` | <https://github.com/cli/cli/releases/tag/v1.13.1>
 
-<https://github.com/cli/cli/releases/tag/v1.13.1>
-
-Sur cette page en anglais, vous devez rechercher le bon fichier correspondant à votre système utilisée, par exemple pour Linux, macOS et Windows.
+Sur cette page en anglais, une fois ouverte vous devez rechercher le bon fichier correspondant à votre système utilisée, par exemple pour Linux, macOS et Windows.
 
 Dans mon cas, comme j'ai un Windows 64 bits, donc, je dois télécharger le nouveau fichier qui vient d'être proposé après avoir installé la version précédente 1.12.1:
 
