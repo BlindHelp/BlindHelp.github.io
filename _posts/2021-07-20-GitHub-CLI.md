@@ -267,13 +267,15 @@ Via GitHub CLI, vous pouvez interagir avec différentes sections du site : issue
 
 # Récap des commandes GitHub CLI.
 
-Je considère que vous savez ouvrir une invite de commandes ou Powershell sous Windows.
+Je considère que vous savez ouvrir une invite de commandes ou PowerShell sous Windows.
 
 Voici un récap des commandes GitHub CLI  utilisées lorsque vous saisissez la commande suivante:
 
 `gh help`    
 
-Le texte est affiché en anglais une fois la commande gh help tapé, c'est normal car le programme GitHub CLI est en anglais, Je vais mettre  sa traduction en français ci-dessous / à côté de l'anglais accompagné d'une explication si disponible, Et en bonus, j' ajouterai un style de texte pour une meilleure lecture.
+Le texte est affiché en anglais une fois la commande gh help tapé, c'est normal car le programme GitHub CLI est en anglais, Je vais mettre  sa traduction en français ci-dessous ou  à côté de l'anglais accompagné d'une explication si disponible, Et en bonus, j' ajouterai un style de texte pour une meilleure lecture.
+
+Vous trouverez en premier le nom de la commande à taper, sa description en anglais suivi de la traduction en français, puis plus bas la commande à taper au complet.
 
 ---
 
@@ -286,34 +288,40 @@ Le texte est affiché en anglais une fois la commande gh help tapé, c'est norma
 
 # CORE COMMANDS (Commandes de base)
 
-`browse: Open the repository in the browser (Ouvrir le dépôt dans le navigateur)`    
-`gist: Manage gists (Gérer les gists)`    
-`issue: Manage issues (Gérer les issues)`    
-`pr: Manage pull requests (Gérer les pull requests)`    
-`release: Manage GitHub releases (Gérer les releases GitHub)`    
-`repo: Create, clone, fork, and view repositories (Créer, cloner, bifurquer et voir les dépôts)`    
+Commande | Description en anglais | Description en français | Commande au complet
+- | - | - | -
+`browse` | Open the repository in the browser| Ouvrir le dépôt dans le navigateur | `gh browse`
+`gist` | Manage gists | Gérer les gists | `gh gist`
+`issue` | Manage issues | Gérer les issues | `gh issue`
+`pr` | Manage pull requests | Gérer les pull requests | `gh pr`
+`release` | Manage GitHub releases | Gérer les releases GitHub | `gh release`
+`repo` | Create, clone, fork, and view repositories | Créer, cloner, bifurquer et voir les dépôts | `gh repo`
 
 # ACTIONS COMMANDS (Actions des commandes)
 
-`actions: Learn about working with GitHub actions (En savoir plus sur le travail avec GitHub Actions)`    
-`run: View details about workflow runs (Voir les détails de l'exécution de flux de travail)`    
-`workflow: View details about GitHub Actions workflows (Voir les détails sur le flux de travail GitHub Actions)`    
+Commande | Description en anglais | Description en français | Commande au complet
+- | - | - | -
+`actions` | Learn about working with GitHub actions | En savoir plus sur le travail avec GitHub Actions | `gh actions`
+`run` | View details about workflow runs | Voir les détails de l'exécution de flux de travail | `gh run`
+`workflow` | View details about GitHub Actions workflows | Voir les détails sur le flux de travail GitHub Actions | `gh workflow`
 
 # ADDITIONAL COMMANDS (Commandes supplémentaires)
 
-`alias: Create command shortcuts (Créer des raccourcis de commande)`    
-`api: Make an authenticated GitHub API request (Faire une demande d'API github authentifiée)`    
-`auth: Login, logout, and refresh your authentication (Ouvrir la session, fermer la session et rafraîchir votre authentification)`    
-`completion: Generate shell completion scripts (Générer des scripts d'achèvement de shell)`    
-`config: Manage configuration for gh (Gérer la configuration pour gh)`    
-`help: Help about any command (Aide pour  n'importe quelle commande)`    
-`secret: Manage GitHub secrets (Gérer les secrets GitHub)`    
-`ssh-key: Manage SSH keys (Gérer les clés SSH)`    
+Commande | Description en anglais | Description en français | Commande au complet
+- | - | - | -
+`alias` | Create command shortcuts | Créer des raccourcis de commande | `gh alias`
+`api` | Make an authenticated GitHub API request | Faire une demande d'API github authentifiée | `gh api`
+`auth` | Login, logout, and refresh your authentication | Ouvrir la session, fermer la session et rafraîchir votre authentification | `gh auth`
+`completion` | Generate shell completion scripts | Générer des scripts d'achèvement de shell | `gh completion`
+`config` | Manage configuration for gh | Gérer la configuration pour gh | `gh config`
+`help` | Help about any command | Aide pour  n'importe quelle commande | `gh help`
+`secret` | Manage GitHub secrets | Gérer les secrets GitHub | `gh secret`
+`ssh-key` | Manage SSH keys | Gérer les clés SSH | `gh ssh-key`
 
 # FLAGS (Balises)
 
-`--help Show help for command (Afficher l'aide pour la commande)`    
-`--version Show gh version (Afficher la version gh)`    
+`--help` | Show help for command | Afficher l'aide pour la commande | `gh --help`
+`--version` | Show gh version | Afficher la version gh | `gh --version`
 
 # EXAMPLES (Exemples)
 
@@ -325,6 +333,7 @@ Le texte est affiché en anglais une fois la commande gh help tapé, c'est norma
 
 `See 'gh help environment' for the list of supported environment variables.`    
 `Voir 'gh help environment' pour la liste des variables d'environnement pris en charge.`    
+`gh help environment`    
 
 # LEARN MORE (Apprendre encore plus)
 
@@ -337,6 +346,7 @@ FEEDBACK (Retour ou remontée de l'information sur le dépôt de CLI sur GitHub)
 
 `Open an issue using 'gh issue create -R github.com/cli/cli'`    
 `Ouvrir un issue utilisant 'gh issue create -R github.com/cli/cli'`    
+`gh issue create -R github.com/cli/cli`
 
 À la fin de l'écran où tout le texte précédent était affiché c'est-à-dire dans la dernière ligne, si vous avez une version précédente de GH CLI, vous aurez un message en anglais suivi du lien pour aller télécharger la nouvelle version de GitHub Cli sur son dépôt sur GitHub:
 
@@ -347,7 +357,7 @@ FEEDBACK (Retour ou remontée de l'information sur le dépôt de CLI sur GitHub)
 
 Sur cette page en anglais, vous devez rechercher le bon fichier correspondant à votre système utilisée, par exemple pour Linux, macOS et Windows.
 
-Dans mon cas, comme j'ai un Windows 64 bits, donc, je dois télécharger le fichier:
+Dans mon cas, comme j'ai un Windows 64 bits, donc, je dois télécharger le nouveau fichier qui vient d'être proposé après avoir installé la version précédente 1.12.1:
 
 [gh_1.13.1_windows_amd64.msi](https://github.com/cli/cli/releases/download/v1.13.1/gh_1.13.1_windows_amd64.msi)
 
