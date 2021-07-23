@@ -267,13 +267,13 @@ Via GitHub CLI, vous pouvez interagir avec différentes sections du site : issue
 
 # Récap des commandes GitHub CLI.
 
-Je considère que vous savez ouvrir une invite de commandes ou PowerShell sous Windows.
+Je considère que vous savez ouvrir une invite de commandes ou PowerShell sous Windows, c'est-à-dire que vous devriez être  dans la fenêtre ¤ Invite de commande.
 
 Voici un récap des commandes GitHub CLI  utilisées lorsque vous saisissez la commande suivante:
 
 `gh help`    
 
-Le texte est affiché en anglais une fois la commande gh help tapé, c'est normal car le programme GitHub CLI est en anglais, Je vais mettre  sa traduction en français ci-dessous ou  à côté de l'anglais accompagné d'une explication si disponible, Et en bonus, j' ajouterai un style de texte pour une meilleure lecture.
+Le texte est affiché en anglais une fois la commande gh help tapé, c'est normal car le programme GitHub CLI est en anglais, Je vais mettre  sa traduction en français ci-dessous ou  à côté de l'anglais accompagné d'une explication si disponible, Et en bonus, le texte je vais le mettre sur un tableau pour une meilleure lecture.
 
 Vous trouverez en premier le nom de la commande à taper, sa description en anglais suivi de la traduction en français, puis plus bas la commande à taper au complet.
 
@@ -285,7 +285,9 @@ Message en anglais  | Message en français
 
 # USAGE (Utilisation)
 
-`gh <command> <subcommand> [flags]`    
+Commande | Décorticage de la commande
+- | - 
+`gh <command> <subcommand> [flags]` | `Être en ¤ Invite de commande ensuite taper gh suivi de la <commande> puis la <sous-commande> [indicateurs]`
 
 # CORE COMMANDS (Commandes de base)
 
@@ -319,7 +321,7 @@ Commande | Description en anglais | Description en français | Commande au compl
 `secret` | Manage GitHub secrets | Gérer les secrets GitHub | `gh secret`
 `ssh-key` | Manage SSH keys | Gérer les clés SSH | `gh ssh-key`
 
-# FLAGS (Balises)
+# FLAGS (Indicateurs)
 
 Commande | Description en anglais | Description en français | Commande au complet
 - | - | - | -
@@ -344,7 +346,7 @@ Description de la commande  en anglais | Description de la commande  en françai
 
 Description de la commande  en anglais | Description de la commande  en français | Commande au complet
 - | - | -
-`Use 'gh <command> <subcommand> --help' for more information about a command.` | `Utiliser 'gh <command> <subcommand> --help' pour plus d'informations sur une commande.` | `gh <command> <subcommand> --help`
+`Use 'gh <command> <subcommand> --help' for more information about a command.` | `Utiliser 'gh <commande> <sous-commande> --help' pour plus d'informations sur une commande.` | `gh <command> <subcommand> --help`
 
 Message en anglais | Message en français | Lien
 - | - | -
