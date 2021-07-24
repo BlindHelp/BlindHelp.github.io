@@ -386,7 +386,7 @@ En résumé, si vous souhaitez contribuer à un projet, le moyen le plus simple 
 2. ¤ Invite de commande sous Windows, en utilisant le lecteur d'écran NVDA, saisir la commande suivante:    
 `gh repo fork https://github.com/utilisateur/dépôt.git --clone`    
 puis appuyez sur Entrée.    
-N'oubliez pas que vous devriez changer la sintaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
+N'oubliez pas que vous devriez changer la syntaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
 Notez que l'option `--clone` est ajoutée pour forcer le dépôt à distance à être cloné localement.    
 Une fois que vous avez saisi cette commande votre compte Github  hébergé via le nuage comprendra un fork du dépôt d'origine et un clonage sera effectué sur le système de fichiers local. À partir de là, vous pouvez faire un commit, un push et même des pull requests GitHub comme ça serait fait avec n'importe quel dépôt ordinaire Git ou GitHub.    
 Et c'est à quel point il est facile de faire un fork d'un dépôt github  en ligne de commande avec GitHub CLI.    
@@ -395,7 +395,7 @@ Et c'est à quel point il est facile de faire un fork d'un dépôt github  en li
 `git remote add upstream https://github.com/utilisateur/dépôt.git`    
 puis appuyez sur Entrée.    
 Note: le nom upstream c'est un nom habituel pour le dépôt que vous venez de bifurquer (fork). Vous pouvez modifier le nom en mettant le nom de l'utilisateur du dépôt ou laissez-le simplement comme ça.    
-N'oubliez pas que vous devriez changer la sintaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
+N'oubliez pas que vous devriez changer la syntaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
 5. Téléchargez maintenant toutes les références des branches du dépôt à distance ajouté, de sorte que Git connaisse les branches sur le dépôt à distance, y compris la branche master, pour cela saisir la commande suivante:    
 `git fetch upstream`    
 puis appuyez sur Entrée.    
