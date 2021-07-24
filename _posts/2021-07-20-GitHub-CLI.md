@@ -383,11 +383,11 @@ Pour créer une Pull Request, vous pouvez suivre ces étapes. Je suppose que vou
 
 En résumé, si vous souhaitez contribuer à un projet, le moyen le plus simple est de:    
 1. Trouvez un projet sur le quelle vous souhaitez contribuer sur GitHub.    
-2. ¤ Invite de commande` sous Windows, en utilisant le lecteur d'écran NVDA, saisir la commande suivante:    
+2. ¤ Invite de commande sous Windows, en utilisant le lecteur d'écran NVDA, saisir la commande suivante:    
 `gh repo fork https://github.com/utilisateur/dépôt.git --clone`    
 puis appuyez sur Entrée.    
 N'oubliez pas que vous devriez changer la sintaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
-Notez que l'option: `--clone` est ajoutée pour forcer le dépôt à distance à être cloné localement.    
+Notez que l'option `--clone` est ajoutée pour forcer le dépôt à distance à être cloné localement.    
 Une fois que vous avez saisi cette commande votre compte Github  hébergé via le nuage comprendra un fork du dépôt d'origine et un clonage sera effectué sur le système de fichiers local. À partir de là, vous pouvez faire un commit, un push et même des pull requests GitHub comme ça serait fait avec n'importe quel dépôt ordinaire Git ou GitHub.    
 Et c'est à quel point il est facile de faire un fork d'un dépôt github  en ligne de commande avec GitHub CLI.    
 3. `¤ Invite de commande` sous Windows, `cd NomDuDépôt`    
