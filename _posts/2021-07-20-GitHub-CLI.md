@@ -6,11 +6,14 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 20 Juillet 2021</footer>
+<footer>Publié le Mardi 20 Juillet 2021 - Dernière mise à jour le Samedi 24 Juillet 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous présente une application appelée GitHub CLI, cette application est idéal pour créer des Pull Requests et même pour faire des Forks en sachant les commandes, il peut être plus facile que de manipuler l'interface Web de GitHub.    
+
+Avertissement: 💀  
+Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du logiciel téléchargé  ni des informations ce trouvant sur le site Web dédié et l'utilisation du programme téléchargé est à vos risques et périls. ☠  
 
 # GitHub CLI (Command Line Interface)
 
@@ -371,6 +374,93 @@ Dans mon cas, comme j'ai un Windows 64 bits, donc, je dois télécharger le nouv
 [gh_1.13.1_windows_amd64.msi](https://github.com/cli/cli/releases/download/v1.13.1/gh_1.13.1_windows_amd64.msi)
 
 Une fois le fichier téléchargé, vous pouvez l'installer comme vous l'avez fait pour la première fois, comme expliqué ci-dessus.
+
+# Comment ont fait les Pull Requests (pr) avec GitHub CLI?
+
+Pour créer une Pull Request, vous pouvez suivre ces étapes. Je suppose que vous avez installé et configuré  GIT et GitHub CLI sur votre système comme expliqué ci-dessus.
+
+À savoir que les commandes utilisées ci-dessous est un mix entre les commandes Git et celles de GitHub CLI.
+
+En résumé, si vous souhaitez contribuer à un projet, le moyen le plus simple est de:    
+1. Trouvez un projet sur le quelle vous souhaitez contribuer sur GitHub.    
+2. `¤` Invite de commande` sous Windows, en utilisant le lecteur d'écran NVDA, saisir la commande suivante:    
+`gh repo fork https://github.com/utilisateur/dépôt.git --clone`    
+puis appuyez sur Entrée.    
+N'oubliez pas que vous devriez changer la sintaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
+Notez que l'option --clone est ajoutée pour forcer le dépôt à distance à être cloné localement.    
+Une fois que vous avez saisi cette commande votre compte Github  hébergé via le nuage comprendra un fork du dépôt d'origine et un clonage sera effectué sur le système de fichiers local. À partir de là, vous pouvez faire un commit, un push et même des pull requests GitHub comme ça serait fait avec n'importe quel dépôt ordinaire Git ou GitHub.    
+Et c'est à quel point il est facile de faire un fork d'un dépôt github  en ligne de commande avec GitHub CLI.    
+3. `¤ Invite de commande` sous Windows, `cd NomDuDépôt`    
+4. Cependant, dans des occasions futures, pour avoir la branche master synchronisée avec celle du dépôt que vous venez de bifurquer, vous pouvez procéder comme suit:    
+`git remote add upstream https://github.com/utilisateur/dépôt.git`    
+puis appuyez sur Entrée.    
+Note: le nom upstream c'est un nom habituel pour le dépôt que vous venez de bifurquer (fork). Vous pouvez modifier le nom en mettant le nom de l'utilisateur du dépôt ou laissez-le simplement comme ça.    
+N'oubliez pas que vous devriez changer la sintaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
+5. Téléchargez maintenant toutes les références des branches du dépôt à distance ajouté, de sorte que Git connaisse les branches sur le dépôt à distance, y compris la branche master, pour cela saisir la commande suivante:    
+`git fetch upstream`    
+puis appuyez sur Entrée.    
+6. Connectez votre branche master, à celle que vous venez juste après avoir cloné le dépôt avec la branche master du dépot à distance, pour cela saisir la commande suivante:    
+`git branch -u upstream/master`    
+puis appuyez sur Entrée.    
+Note: `-u` peut signifier que c'est un paramètre en référence  à upstream, le dépôt à distance principal, pour ainsi dire.    
+Maintenant, lorsque vous êtes sur la branche master de votre dépôt et vous saisissez la commande:    
+`git pull`    
+vous téléchargerez les dernières modifications apportées par le responsable du dépôt que vous venez de bifurquer. Avant de faire une pull request, il est bon de vous assurer que la branche master est mise à jour avec les dernières modifications apportées dans le dépôt  upstream. Ensuite, vous devez faire la commande:    
+`git pull`    
+puis appuyez sur Entrée.    
+7. Ensuite, vous créez une nouvelle branche identique à la branche master du dépôt cloné et vous allez à cette nouvelle branche pour apporter des modifications saisissant la commande suivante:    
+`git checkout-b byNewBranch`    
+puis appuyez sur Entrée.    
+Note:  Le nom byNewBranch C'est un simple nom factice, vous pouvez mettre n'importe quel autre nom à cette nouvelle branche par rapport à vos modifications, par exemple s'il s'agit d'une traduction en français fr pourrait être le nom de la nouvelle branche, bien que vous puissiez mettre d'autres noms.    
+8. Utilisant Windows Explorer, accédez au dossier du dépôt et modifier correctement les fichiers, par exemple, le readme.md, buildVars.py et ainsi de suite.    
+9. Testez vos modifications et, quand ils vous conviennent, saisir la commande suivante:    
+`git add .`    
+puis appuyez sur Entrée.    
+Elle permet d'ajouter tout nouveau fichier dans la file des fichiers suivis.    
+Il n'y a aussi aucun mal à l'utiliser si la modification concerne uniquement un fichier qui était déjà présent, et qu'aucun fichier n'a été ajouté.    
+Donc, si on veut être certain que ça marche à tous les coups, je conseille vivement de toujours saisir cette commande, après avoir fait les ajouts/modifications.    
+10. Ensuite faire un commit avec un message descriptif saisissant la commande suivante:    
+`git commit -m "Message"`    
+puis appuyez sur Entrée.    
+11. Il va falloir envoyer cela dans la nouvelle branche origin fr sur votre  dépôt GitHub.    
+Pour ce faire, taper la commande suivante:    
+`git push origin fr`    
+puis appuyez sur Entrée.    
+C'est ainsi qu'une branche appelée FR aura été créée dans votre dépôt.
+12. `¤ Invite de commande` sous Windows, saisir la commande suivante:    
+`gh pr create -w`    
+puis appuyez sur Entrée.    
+Note: `-w` signifie que vous souhaitez ouvrir le navigateur.    
+Une fois que vous avez saisi cette commande elle s'ouvrira la page Web du déppôt pour créer la  Pull Request sans qu'il soit nécessaire de le rechercher entre les liens du dépôt de GitHub. Le focus sera sûrement placé dans le titre. Appuyez sur la touche Tabulation pour aller à la zone d'édition multilignes, vous effectuez le commentaire que vous souhaitez ou remplissez le modèle (template) fourni (en anglais) et ensuite vous appuyez sur le bouton Create pull request, après avoir cliqué sur ce bouton vous pouvez lire l'état de ladite  pull request envoyé, ensuite vous pouvez fermer la page par Alt+F4.    
+Patienter jusqu'à ce qu'elle soit prise en compte ;-)    
+
+Et ceci à la base, est le processus de création d'une PR. Si nous créons une PR sur la branche master, il est important de garder à l'esprit que jusqu'à ce que tous les commits que nous envoyons à notre  branche  master ne seront ni acceptés ni fermés y compris dans la PR automatiquement, même si nous les envoyons après l'avoir ouverte.
+
+Ci-dessous vous aurez plus d'informations en anglais sur la création d'une PR AVEC GitHub CLI:
+
+<https://cli.github.com/manual/gh_pr_create>
+
+# Astuces en bric-à-brac.
+
+1. Premier réflexe qu'il faut toujours avoir lorsque vous êtes dans le dépôt que vous venez de bifurquer et cloner.
+Saisir la commande suivante:    
+`git status`    
+Pour vérifier la branche courante, si ce n'est pas la branche fr, `git checkout fr` pour s'y déplacer.
+Note: fr signifie le nom de la nouvelle branche que nous avions créée précédemment pour apporter les modifications au dépôt à  distance.    
+Avant de créer cette nouvelle branche appelée fr, nous étions sur la branche master    
+En saisissant la commande:    
+`git status`    
+le message en anglais était le suivant:    
+On branch master
+Your branch is up to date with 'origin/master'.
+2. Vous pouvez vérifier le journal des changements fait au dépôt à distance en effectuant la commande:    
+`git log`    
+3. Par exemple, si vous voulez faire un fork et un clonage d'un dépôt à distance habituellement en saisissant la commande:    
+`gh repo fork https://github.com/utilisateur/dépôt.git --clone`    
+L'URL complète n'est pas nécessaire, il suffit de préciser le nom d'utilisateur et du dépôt GitHub. Rien ne vient par contre remplacer tout ce qui touche au cœur du workflow Git et qui n'est pas spécifique à GitHub, c'est bien normal. Les deux outils doivent se complèter, pas s'opposer.    
+Mais cette astuce là je n'ai pas essayé, mais je vous la donne au cas où.    
+
+Voilà, je ne peux faire mieux, sachant que avec GitHub CLI, vous pouvez également faire plusieurs choses, mais pour moi, c'est encore nouveau.
 
 ---
 
