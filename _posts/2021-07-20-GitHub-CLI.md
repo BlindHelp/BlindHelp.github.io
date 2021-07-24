@@ -383,11 +383,11 @@ Pour créer une Pull Request, vous pouvez suivre ces étapes. Je suppose que vou
 
 En résumé, si vous souhaitez contribuer à un projet, le moyen le plus simple est de:    
 1. Trouvez un projet sur le quelle vous souhaitez contribuer sur GitHub.    
-2. `¤` Invite de commande` sous Windows, en utilisant le lecteur d'écran NVDA, saisir la commande suivante:    
+2. `¤ Invite de commande` sous Windows, en utilisant le lecteur d'écran NVDA, saisir la commande suivante:`    
 `gh repo fork https://github.com/utilisateur/dépôt.git --clone`    
 puis appuyez sur Entrée.    
 N'oubliez pas que vous devriez changer la sintaxe utilisateur/dépôt trouvé dans l'exemple de l'URL par le nom de l'utilisateur et le nom du dépôt qui apparaît dans l'URL du projet auquel vous souhaitez collaborer.    
-Notez que l'option --clone est ajoutée pour forcer le dépôt à distance à être cloné localement.    
+Notez que l'option: `--clone` est ajoutée pour forcer le dépôt à distance à être cloné localement.    
 Une fois que vous avez saisi cette commande votre compte Github  hébergé via le nuage comprendra un fork du dépôt d'origine et un clonage sera effectué sur le système de fichiers local. À partir de là, vous pouvez faire un commit, un push et même des pull requests GitHub comme ça serait fait avec n'importe quel dépôt ordinaire Git ou GitHub.    
 Et c'est à quel point il est facile de faire un fork d'un dépôt github  en ligne de commande avec GitHub CLI.    
 3. `¤ Invite de commande` sous Windows, `cd NomDuDépôt`    
@@ -409,7 +409,7 @@ vous téléchargerez les dernières modifications apportées par le responsable 
 `git pull`    
 puis appuyez sur Entrée.    
 7. Ensuite, vous créez une nouvelle branche identique à la branche master du dépôt cloné et vous allez à cette nouvelle branche pour apporter des modifications saisissant la commande suivante:    
-`git checkout-b byNewBranch`    
+`git checkout -b byNewBranch`    
 puis appuyez sur Entrée.    
 Note:  Le nom byNewBranch C'est un simple nom factice, vous pouvez mettre n'importe quel autre nom à cette nouvelle branche par rapport à vos modifications, par exemple s'il s'agit d'une traduction en français fr pourrait être le nom de la nouvelle branche, bien que vous puissiez mettre d'autres noms.    
 8. Utilisant Windows Explorer, accédez au dossier du dépôt et modifier correctement les fichiers, par exemple, le readme.md, buildVars.py et ainsi de suite.    
@@ -431,7 +431,25 @@ C'est ainsi qu'une branche appelée FR aura été créée dans votre dépôt.
 `gh pr create -w`    
 puis appuyez sur Entrée.    
 Note: `-w` signifie que vous souhaitez ouvrir le navigateur.    
-Une fois que vous avez saisi cette commande elle s'ouvrira la page Web du déppôt pour créer la  Pull Request sans qu'il soit nécessaire de le rechercher entre les liens du dépôt de GitHub. Le focus sera sûrement placé dans le titre. Appuyez sur la touche Tabulation pour aller à la zone d'édition multilignes, vous effectuez le commentaire que vous souhaitez ou remplissez le modèle (template) fourni (en anglais) et ensuite vous appuyez sur le bouton Create pull request, après avoir cliqué sur ce bouton vous pouvez lire l'état de ladite  pull request envoyé, ensuite vous pouvez fermer la page par Alt+F4.    
+Une fois que vous avez saisi cette commande elle s'ouvrira la page Web du déppôt pour créer la  Pull Request sans qu'il soit nécessaire de le rechercher entre les liens du dépôt de GitHub. Le focus sera sûrement placé dans le titre. Appuyez sur la touche Tabulation pour aller à la zone d'édition multilignes, vous effectuez le commentaire que vous souhaitez ou remplissez le template (modèle) fourni si disponible (en anglais), par exemple, lorsqu'une PR est demandé au dépôt de Noelia:    
+
+Vous explorez avec le curseur et sous les en-têtes, qui commencent par deux `##`, vous tapez les données en anglais:    
+
+`Link to issue number:`    
+`None`    
+`## Summary of the issue:`    
+`Missing frenchtranslation.`    
+`Description of how this pull request fixes the issue:`    
+`Added documentation and messages translated into French.`    
+`## Testing performed:`    
+`None`    
+`## Known issues with pull request:`    
+`None`    
+`## Change log entry:`    
+`None`    
+
+et immédiatement que vous avez fini vous appuyez sur le bouton Create pull request, et des tests automatiques seront effectués à surmonter sans problèmes. Après quoi vous pouvez lire l'état de ladite  pull request envoyé, toujours en anglais ensuite vous pouvez fermer la page Web par Alt+F4.    
+
 Patienter jusqu'à ce qu'elle soit prise en compte ;-)    
 
 Et ceci à la base, est le processus de création d'une PR. Si nous créons une PR sur la branche master, il est important de garder à l'esprit que jusqu'à ce que tous les commits que nous envoyons à notre  branche  master ne seront ni acceptés ni fermés y compris dans la PR automatiquement, même si nous les envoyons après l'avoir ouverte.
@@ -445,14 +463,14 @@ Ci-dessous vous aurez plus d'informations en anglais sur la création d'une PR A
 1. Premier réflexe qu'il faut toujours avoir lorsque vous êtes dans le dépôt que vous venez de bifurquer et cloner.
 Saisir la commande suivante:    
 `git status`    
-Pour vérifier la branche courante, si ce n'est pas la branche fr, `git checkout fr` pour s'y déplacer.
+Pour vérifier la branche courante, si ce n'est pas la branche fr, `git checkout fr` pour s'y déplacer.    
 Note: fr signifie le nom de la nouvelle branche que nous avions créée précédemment pour apporter les modifications au dépôt à  distance.    
 Avant de créer cette nouvelle branche appelée fr, nous étions sur la branche master    
 En saisissant la commande:    
 `git status`    
 le message en anglais était le suivant:    
-On branch master
-Your branch is up to date with 'origin/master'.
+`On branch master`    
+`Your branch is up to date with 'origin/master'.`    
 2. Vous pouvez vérifier le journal des changements fait au dépôt à distance en effectuant la commande:    
 `git log`    
 3. Par exemple, si vous voulez faire un fork et un clonage d'un dépôt à distance habituellement en saisissant la commande:    
