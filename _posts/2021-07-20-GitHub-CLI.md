@@ -432,9 +432,7 @@ C'est ainsi qu'une branche appelée FR aura été créée dans votre dépôt.
 puis appuyez sur Entrée.    
 Note: `-w` signifie que vous souhaitez ouvrir le navigateur.    
 Une fois que vous avez saisi cette commande elle s'ouvrira la page Web du déppôt pour créer la  Pull Request sans qu'il soit nécessaire de le rechercher entre les liens du dépôt de GitHub. Le focus sera sûrement placé dans le titre. Appuyez sur la touche Tabulation pour aller à la zone d'édition multilignes, vous effectuez le commentaire que vous souhaitez ou remplissez le template (modèle) fourni si disponible (en anglais), par exemple, lorsqu'une PR est demandé au dépôt de Noelia:    
-
 Vous explorez avec le curseur et sous les en-têtes, qui commencent par deux `##`, vous tapez les données en anglais:    
-
 `Link to issue number:`    
 `None`    
 `## Summary of the issue:`    
@@ -447,15 +445,10 @@ Vous explorez avec le curseur et sous les en-têtes, qui commencent par deux `##
 `None`    
 `## Change log entry:`    
 `None`    
-
-et immédiatement que vous avez fini vous appuyez sur le bouton Create pull request, et des tests automatiques seront effectués à surmonter sans problèmes. Après quoi vous pouvez lire l'état de ladite  pull request envoyé, toujours en anglais ensuite vous pouvez fermer la page Web par Alt+F4.    
-
+Et puis quand vous avez fini vous appuyez sur le bouton Create pull request, et des tests automatiques seront effectués à surmonter sans problèmes. Après quoi vous pouvez lire l'état de ladite  pull request envoyé, toujours en anglais ensuite vous pouvez fermer la page Web par Alt+F4.    
 Patienter jusqu'à ce qu'elle soit prise en compte ;-)    
-
-Et ceci à la base, est le processus de création d'une PR. Si nous créons une PR sur la branche master, il est important de garder à l'esprit que jusqu'à ce que tous les commits que nous envoyons à notre  branche  master ne seront ni acceptés ni fermés y compris dans la PR automatiquement, même si nous les envoyons après l'avoir ouverte.
-
-Ci-dessous vous aurez plus d'informations en anglais sur la création d'une PR AVEC GitHub CLI:
-
+Et ceci à la base, est le processus de création d'une PR. Si nous créons une PR sur la branche master, il est important de garder à l'esprit que jusqu'à ce que tous les commits que nous envoyons à notre  branche  master ne seront ni acceptés ni fermés y compris dans la PR automatiquement, même si nous les envoyons après l'avoir ouverte.    
+Ci-dessous vous aurez plus d'informations en anglais sur la création d'une PR AVEC GitHub CLI:    
 <https://cli.github.com/manual/gh_pr_create>
 
 # Astuces en bric-à-brac.
