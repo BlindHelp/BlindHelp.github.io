@@ -448,7 +448,9 @@ Vous explorez avec le curseur et sous les en-têtes, qui commencent par deux `##
 Et puis quand vous avez fini vous appuyez sur le bouton Create pull request, et des tests automatiques seront effectués à surmonter sans problèmes. Après quoi vous pouvez lire l'état de ladite  pull request envoyé, toujours en anglais ensuite vous pouvez fermer la page Web par Alt+F4.    
 Patienter jusqu'à ce qu'elle soit prise en compte ;-)    
 Et ceci à la base, est le processus de création d'une PR. Si nous créons une PR sur la branche master, il est important de garder à l'esprit que jusqu'à ce que tous les commits que nous envoyons à notre  branche  master ne seront ni acceptés ni fermés y compris dans la PR automatiquement, même si nous les envoyons après l'avoir ouverte.    
-Ci-dessous vous aurez plus d'informations en anglais sur la création d'une PR AVEC GitHub CLI:    
+
+Ci-dessous vous aurez plus d'informations en consultant la page en anglais sur la création d'une PR avec  GitHub CLI:    
+
 <https://cli.github.com/manual/gh_pr_create>
 
 # Astuces en bric-à-brac.
