@@ -427,7 +427,7 @@ Pour ce faire, taper la commande suivante:
 `git push origin fr`    
 puis appuyez sur Entrée.    
 C'est ainsi qu'une branche appelée FR aura été créée dans votre dépôt.    
-12. ¤ Invite de commande` sous Windows, saisir la commande suivante:    
+12. ¤ Invite de commande sous Windows, saisir la commande suivante:    
 `gh pr create -w`    
 puis appuyez sur Entrée.    
 Note: `-w` signifie que vous souhaitez ouvrir le navigateur.    
