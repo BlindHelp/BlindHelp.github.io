@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 20 Juillet 2021 - Dernière mise à jour le Samedi 24 Juillet 2021</footer>
+<footer>Publié le Mardi 20 Juillet 2021 - Dernière mise à jour le Mardi 27 Juillet 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -53,7 +53,7 @@ La procédure est simple et rapide. Bien entendu, pour profiter de l'ensemble de
 
 Si vous n'avez encore pas installé Git, vous pouvez visiter la page en anglais ci-dessous afin de le télécharger.
 
-# Télécharger Git
+# Télécharger Git.
 
 <https://git-scm.com/downloads>
 
@@ -61,7 +61,7 @@ Sur cette page en anglais, vous devez rechercher le bon fichier correspondant à
 
 Dans mon cas, comme j'ai un Windows 64 bits, donc, je dois télécharger puis installer Git pour Windows. Ci-dessous, je vous laisse le lien Git pour ce système d'exploitation.
 
-# Git Pour  Windows.
+# Git pour Windows.
 
 L'application officielle pour Windows est disponible au téléchargement sur le site web de Git. Rendez-vous sur <http://git-scm.com/download/win> et le téléchargement démarrera automatiquement.
 
@@ -71,21 +71,21 @@ puis en bonus quelques tutoriels pour Git:
 
 Documentation pour GitHub en français (format .epub):
 
-<https://progit2.s3.amazonaws.com/fr/2016-03-05-4c838/progit-fr.1062.epub>
+<https://github.com/progit/progit2-fr/releases/download/2.1.68/progit.epub>
 
 Source de la documentation:
 
 <https://git-scm.com/book/fr/v2>
 
-Oui, comme je vous l'ai dit initialement GitHub CLI ne nécessitent git pour être installé sur votre ordinateur, donc vous aurez besoin d'installer Git avant de continuer. Il utilise git en interne pour toutes les fonctions qui peuvent également être faites par git comme par exemple, cloner, pousser, fusionner, etc. Voir le lien de téléchargement indiqué ci-dessus.
+Oui, comme je vous l'ai dit initialement GitHub CLI nécessitent git pour être installé sur votre ordinateur, donc vous aurez besoin d'installer Git avant de continuer. Il utilise git en interne pour toutes les fonctions qui peuvent également être faites par git comme par exemple, cloner, pousser, fusionner, etc. Voir le lien de téléchargement indiqué ci-dessus.
 
-# Télécharger GitHub CLI pour Windows 64 bits.
+# Télécharger GitHub CLI pour Windows.
 
 Pendant la rédaction de cet article, le fichier disponible dans sa dernière version est la suivante:
 
 [gh_1.12.1_windows_amd64.msi](https://github.com/cli/cli/releases/download/v1.12.1/gh_1.12.1_windows_amd64.msi)
 
-# Installation de GitHub CLI pour Windows 64 bits.
+# Installation de GitHub CLI pour Windows.
 
 Une fois que vous avez téléchargé le fichier vous devriez l'exécuter  et cliquez ensuite sur chaque boîte de dialogue qui apparaît pendant l'installation. Aussi facile que nous puissions passer à l'authentification GitHub CLI.
 
@@ -115,7 +115,7 @@ S'il vous plaît attendez un moment.
 
 Une fois l'installation terminée, vous devez cliquer sur le bouton Finish afin de fermer l'assistant d'installation. Maintenant, vous pouvez passer à l'authentification GitHub CLI. Voir les explications détaillées ci-dessous.
 
-# Mise en route de GitHub CLI pour Windows 64 bits.
+# Mise en route de GitHub CLI pour Windows .
 
 ## Une configuration rapide, un outil déjà complet.
 
@@ -155,7 +155,7 @@ Nous aurons une fenêtre dans le terminal comme message:
 
 `C:\Program Files (x86)\GitHub CLI\gh.exe terminal vide`    
 
-Tout d'abord, vous aurez un premier écran où GitHub CLI vous demandera avec un message en anglais sur quel type de compte voulez-vous vous connecter?
+Tout d'abord, vous aurez un premier écran où GitHub CLI vous demandera avec un message en anglais Sur quel type de compte voulez-vous vous connecter?
 
 Utilisez les flèches pour vous déplacer, frapper pour filtrer.
 
@@ -165,7 +165,7 @@ Utilisez les flèches pour vous déplacer, frapper pour filtrer.
 
 Habituellement, vous aurez la première option choisie afin de vous connectez sur votre compte GitHub.com, mais si votre entreprise dispose de serveurs mis en place pour stocker le projet GitHub, alors vous devez choisir GitHub Enterprise Server, appuyez sur Entrée.
 
-Ensuite, vous aurez un deuxième écran où GitHub CLI vous demandera avec un message en anglais ? Comment voudriez-vous vous authentifier sur GitHub CLI?
+Ensuite, vous aurez un deuxième écran où GitHub CLI vous demandera avec un message en anglais Comment voudriez-vous vous authentifier sur GitHub CLI?
 
 Utilisez les flèches pour vous déplacer, frapper pour filtrer.
 
@@ -176,7 +176,7 @@ Utilisez les flèches pour vous déplacer, frapper pour filtrer.
 
 Sélectionnez ensuite le code unique  que vous sera donné ceci est Un code de deux fois quatre caractères alphanumériques...    
 
-Pour les personnes qui ont le lecteur d'écran [NVDA](https://www.nvaccess.org/), si je ne me trompe pas, appuyez sur Ctrl + M pour afficher le contenue de cette fenêtre afin  de sélectionner puis  copier dans le presse-papiers...     ce code unique qui vous est donné en utilisant les raccourcis clavier propres à Windows.
+Pour les personnes qui ont le lecteur d'écran [NVDA](https://www.nvaccess.org/), si je ne me trompe pas, appuyez sur Ctrl + M pour afficher le contenue de cette fenêtre afin  de sélectionner puis  copier dans le presse-papiers ce code unique qui vous est donné en utilisant les raccourcis clavier propres à Windows.
 
 Extrait du Guide de l'utilisateur de NVDA 2021.1
 
@@ -230,7 +230,7 @@ Vous allez ouvrir une page en anglais comme nom:
 
 Vous devrez entrer le code pour que la session soit initiée dans votre terminal. Pour cela, placez le curseur sur le premier champ d'édition. En appuyant sur Ctrl + V cette action collera automatiquement le code de deux fois quatre caractères alphanumériques dans les deux premiers champs d'édition.
 
-Ensuite, vous devrez appuyer sur le bouton "Continue" après les champs d'édition.    
+Ensuite, vous devrez appuyer sur le bouton "Continue" après les champs d'éditions.    
 Si le code est introduit correctement, vous ouvrirez une autre page Web en anglais. Dans le cas contraire, vous recevrez un message d'erreur indiquant que le code est incorrect.    
 Dans la nouvelle page qui s'ouvre, cliquez sur Authorize GitHub CLI et entrez votre mot de passe sur l'écran suivant.    
 Après avoir fait cela, une autre page Web sera ouvert avec le message suivant en anglais:    
@@ -254,7 +254,7 @@ Note: Comme j'ai choisi la première alternative, je ne saurais pas quoi faire d
 
 [Creating a personal access token - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
-Ensuite, vous aurez un troisième écran où GitHub CLI vous demandera avec un message en anglais ? Quel est votre protocole préféré pour les opérations avec Git?
+Ensuite, vous aurez un troisième écran où GitHub CLI vous demandera avec un message en anglais Quel est votre protocole préféré pour les opérations avec Git?
 
 Utilisez les flèches pour vous déplacer, frapper pour filtrer.
 
@@ -390,7 +390,7 @@ N'oubliez pas que vous devriez changer la syntaxe utilisateur/dépôt trouvé da
 Notez que l'option `--clone` est ajoutée pour forcer le dépôt à distance à être cloné localement.    
 Une fois que vous avez saisi cette commande votre compte Github  hébergé via le nuage comprendra un fork du dépôt d'origine et un clonage sera effectué sur le système de fichiers local. À partir de là, vous pouvez faire un commit, un push et même des pull requests GitHub comme ça serait fait avec n'importe quel dépôt ordinaire Git ou GitHub.    
 Et c'est à quel point il est facile de faire un fork d'un dépôt github  en ligne de commande avec GitHub CLI.    
-3. `¤ Invite de commande` sous Windows, `cd NomDuDépôt`    
+3. ¤ Invite de commande` sous Windows, `cd NomDuDépôt`    
 4. Cependant, dans des occasions futures, pour avoir la branche master synchronisée avec celle du dépôt que vous venez de bifurquer, vous pouvez procéder comme suit:    
 `git remote add upstream https://github.com/utilisateur/dépôt.git`    
 puis appuyez sur Entrée.    
@@ -420,14 +420,14 @@ Elle permet d'ajouter tout nouveau fichier dans la file des fichiers suivis.
 Il n'y a aussi aucun mal à l'utiliser si la modification concerne uniquement un fichier qui était déjà présent, et qu'aucun fichier n'a été ajouté.    
 Donc, si on veut être certain que ça marche à tous les coups, je conseille vivement de toujours saisir cette commande, après avoir fait les ajouts/modifications.    
 10. Ensuite faire un commit avec un message descriptif saisissant la commande suivante:    
-`git commit -m "Message"`    
+`git commit -m "Message descriptif"`    
 puis appuyez sur Entrée.    
 11. Il va falloir envoyer cela dans la nouvelle branche origin fr sur votre  dépôt GitHub.    
 Pour ce faire, taper la commande suivante:    
 `git push origin fr`    
 puis appuyez sur Entrée.    
-C'est ainsi qu'une branche appelée FR aura été créée dans votre dépôt.
-12. `¤ Invite de commande` sous Windows, saisir la commande suivante:    
+C'est ainsi qu'une branche appelée FR aura été créée dans votre dépôt.    
+12. ¤ Invite de commande` sous Windows, saisir la commande suivante:    
 `gh pr create -w`    
 puis appuyez sur Entrée.    
 Note: `-w` signifie que vous souhaitez ouvrir le navigateur.    
@@ -460,7 +460,7 @@ Ci-dessous vous aurez plus d'informations en anglais sur la création d'une PR A
 
 # Astuces en bric-à-brac.
 
-1. Premier réflexe qu'il faut toujours avoir lorsque vous êtes dans le dépôt que vous venez de bifurquer et cloner.
+1. Premier réflexe qu'il faut toujours avoir lorsque vous êtes dans le dépôt que vous venez de bifurquer et cloner.    
 Saisir la commande suivante:    
 `git status`    
 Pour vérifier la branche courante, si ce n'est pas la branche fr, `git checkout fr` pour s'y déplacer.    
@@ -478,7 +478,7 @@ le message en anglais était le suivant:
 L'URL complète n'est pas nécessaire, il suffit de préciser le nom d'utilisateur et du dépôt GitHub. Rien ne vient par contre remplacer tout ce qui touche au cœur du workflow Git et qui n'est pas spécifique à GitHub, c'est bien normal. Les deux outils doivent se complèter, pas s'opposer.    
 Mais cette astuce là je n'ai pas essayé, mais je vous la donne au cas où.    
 
-Voilà, je ne peux faire mieux, sachant que avec GitHub CLI, vous pouvez également faire plusieurs choses, mais pour moi, c'est encore nouveau.
+Voilà, je ne peux faire mieux dans ce tutoriel, sachant que avec GitHub CLI, vous pouvez également faire plusieurs choses, mais pour moi, c'est encore nouveau.
 
 ---
 
