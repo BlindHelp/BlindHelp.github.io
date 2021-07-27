@@ -436,7 +436,7 @@ Vous explorez avec le curseur et sous les en-têtes, qui commencent par deux `##
 `Link to issue number:`    
 `None`    
 `## Summary of the issue:`    
-`Missing frenchtranslation.`    
+`Missing french translation.`    
 `Description of how this pull request fixes the issue:`    
 `Added documentation and messages translated into French.`    
 `## Testing performed:`    
