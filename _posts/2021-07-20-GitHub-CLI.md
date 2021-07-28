@@ -15,9 +15,9 @@ Aujourd'hui, je vous présente une application appelée GitHub CLI, cette applic
 Avertissement: 💀  
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du logiciel téléchargé  ni des informations ce trouvant sur le site Web dédié et l'utilisation du programme téléchargé est à vos risques et périls. ☠  
 
-# GitHub CLI (Command Line Interface)
+### GitHub CLI (Command Line Interface)
 
-# Introduction.
+#### Introduction.
 
 Eh bien, pour commencer, je vais faire une rapide histoire à propos de GitHub, Git et à la fin sera le tour de GitHub CLI...
 
@@ -25,13 +25,13 @@ Depuis des années, GitHub est l'une des plateformes mettant le plus à l'honneu
 
 Git est un outil de gestion de versions comme il en existait d'autres avant lui : Bazaar, Mercurial ou encore SVN. Il permet de gérer l'évolution de fichiers et documents de manière efficace. Il est principalement utilisé dans le cadre du développement de logiciels libres, mais peut aussi trouver son intérêt pour de la documentation, la loi, etc.
 
-## Git, un succès distribué.
+### Git, un succès distribué.
 
 Outre le fait qu'il ait été pensé par Linus Torvalds pour le développement du noyau Linux dès 2005, l'un de ses principaux atouts était sa conception distribuée, ne nécessitant pas de serveur central. Assez ironiquement, il doit en partie son succès à celui de la plateforme GitHub, rachetée par Microsoft en juin 2018.
 
 Permettant à chacun d'héberger gratuitement les données des projets open source ou non, elle proposait de faire de même en équipe contre un abonnement payant. Un modèle qui a évolué depuis. Mais GitHub est surtout un service bien pensé, complet, pouvant être vu par certains aspects comme un client Git en ligne, survitaminé.
 
-## GitHub : un superset de Git.
+### GitHub : un superset de Git.
 
 La principale force de GitHub est aussi, d'une certaine manière, son principal défaut : elle va bien plus loin que ce que propose Git. Outre la consultation de fichiers et leurs versions, on peut y publier de la documentation, un wiki, un site statique, gérer des discussions autour du projet, les remontées d'erreurs et leur correction, les pull-requests, des processus d'intégration et de déploiement continus, héberger les différentes releases de son application, etc.
 
@@ -41,19 +41,19 @@ Certains services sont plus spécifiques, comme les Gists, des snippets que l'on
 
 On trouve ainsi des clients pour des environnements de développement comme Atom, Notepad++ ou Visual Studio Code. Les développeurs apprécient aussi de pouvoir gérer de tels modules via la ligne de commande ou des scripts. Là aussi il existe différents outils exploitant les API de GitHub. Mais jusqu'à maintenant, aucun officiel.
 
-## GitHub CLI  est un client multiplateforme pour terminal.
+### GitHub CLI  est un client multiplateforme pour terminal.
 
 L'idée est de permettre de profiter des possibilités de GitHub depuis un simple terminal, comme pour Git. Il devient ainsi possible d'automatiser simplement certaines tâches, sans avoir à interagir avec une API.
 
 Il fonctionne aussi bien pour les comptes GitHub.com que ceux de la version Enterprise Server. Disponible pour Linux, macOS et Windows, il s'installe facilement, notamment via différents gestionnaires de paquets. Il est open source, sous licence MIT. Tous les détails en anglais sont donnés [par ici](https://github.com/cli/cli#installation).
 
-# Comment l'installer et l'utiliser En ligne de commandes?
+### Comment l'installer et l'utiliser En ligne de commandes?
 
 La procédure est simple et rapide. Bien entendu, pour profiter de l'ensemble des fonctionnalités de l'outil, il faudra que Git soit installé et configuré sur votre machine. Si vous êtes utilisateur de GitHub, c'est sans doute votre cas.
 
 Si vous n'avez encore pas installé Git, vous pouvez visiter la page en anglais ci-dessous afin de le télécharger.
 
-# Télécharger Git.
+### Télécharger Git.
 
 <https://git-scm.com/downloads>
 
@@ -61,7 +61,7 @@ Sur cette page en anglais, vous devez rechercher le bon fichier correspondant à
 
 Dans mon cas, comme j'ai un Windows 64 bits, donc, je dois télécharger puis installer Git pour Windows. Ci-dessous, je vous laisse le lien Git pour ce système d'exploitation.
 
-# Git pour Windows.
+### Git pour Windows.
 
 L'application officielle pour Windows est disponible au téléchargement sur le site web de Git. Rendez-vous sur <http://git-scm.com/download/win> et le téléchargement démarrera automatiquement.
 
@@ -79,13 +79,13 @@ Source de la documentation:
 
 Oui, comme je vous l'ai dit initialement GitHub CLI nécessitent git pour être installé sur votre ordinateur, donc vous aurez besoin d'installer Git avant de continuer. Il utilise git en interne pour toutes les fonctions qui peuvent également être faites par git comme par exemple, cloner, pousser, fusionner, etc. Voir le lien de téléchargement indiqué ci-dessus.
 
-# Télécharger GitHub CLI pour Windows.
+### Télécharger GitHub CLI pour Windows.
 
 Pendant la rédaction de cet article, le fichier disponible dans sa dernière version est la suivante:
 
 [gh_1.12.1_windows_amd64.msi](https://github.com/cli/cli/releases/download/v1.12.1/gh_1.12.1_windows_amd64.msi)
 
-# Installation de GitHub CLI pour Windows.
+### Installation de GitHub CLI pour Windows.
 
 Une fois que vous avez téléchargé le fichier vous devriez l'exécuter  et cliquez ensuite sur chaque boîte de dialogue qui apparaît pendant l'installation. Aussi facile que nous puissions passer à l'authentification GitHub CLI.
 
@@ -115,9 +115,9 @@ S'il vous plaît attendez un moment.
 
 Une fois l'installation terminée, vous devez cliquer sur le bouton Finish afin de fermer l'assistant d'installation. Maintenant, vous pouvez passer à l'authentification GitHub CLI. Voir les explications détaillées ci-dessous.
 
-# Mise en route de GitHub CLI pour Windows .
+### Mise en route de GitHub CLI pour Windows .
 
-## Une configuration rapide, un outil déjà complet.
+#### Une configuration rapide, un outil déjà complet.
 
 L'outil s'utilise avec l'exécutable gh, un nom volontairement court comme git. La première étape à suivre est la connexion à votre compte GitHub. Elle peut passer par le partage d'un jeton de sécurité placé en variable d'environnement (GITHUB_TOKEN) ou votre navigateur. Nous avons opté pour la seconde méthode. Voir les explications détaillées ci-dessous.
 
@@ -125,7 +125,7 @@ Je vous conseille instamment de voir le manuel de GitHub CLI (page en anglais) s
 
 [See the manual for setup and usage instructions.](https://cli.github.com/manual/)
 
-# Authentification.
+### Authentification.
 
 Après l'installation de GitHub CLI, nous devons nous connecter et l'installer avec notre compte GitHub.
  
@@ -182,16 +182,16 @@ Extrait du Guide de l'utilisateur de NVDA 2021.1
 
 <blockquote>
 
-<H3>11.9. Console Windows</H3>
+<H4>11.9. Console Windows</H4>
 <P>
 NVDA fournit un support pour la console de commande de Windows utilisée par l'invite de commandes, PowerShell, et le sous-système Windows pour Linux.
 La console Windows est de taille fixe, typiquement beaucoup plus petite que le tampon contenant l'affichage.
 Quand du nouveau texte est écrit, le contenu défile vers le haut et le texte précédent n'est plus visible. 
 Le texte qui n'est pas visiblement affiché dans la fenêtre n'est pas accessible avec les commandes de revue de texte de NVDA.
 Ainsi, il est nécessaire de faire défiler la fenêtre de la console pour lire le texte plus ancien.
-Les raccourcis clavier propres à Windows suivants peuvent être utiles pour <A HREF="#ReviewingText">revoir du texte</A> avec NVDA :
+Les raccourcis clavier propres à Windows suivants peuvent être utiles pour <A HREF="../userGuide.html#ReviewingText">revoir du texte</A> avec NVDA :
 </P>
-<TABLE BORDER="1" CELLPADDING="4">
+<tabLE>
 <TR>
 <TH>Nom</TH>
 <TH>Touche</TH>
@@ -237,7 +237,7 @@ Après avoir fait cela, une autre page Web sera ouvert avec le message suivant e
 `Congratulations, you're all set!`    
 `Your device is now connected.`    
 
-Notez que  le mode d'authentification par défaut est un flot de données pour le   navigateur Web.    
+Notez que  le mode d'authentification par défaut est un flux de données pour le   navigateur Web.    
 Sinon, la deuxième est passer par un token   (jeton) via une entrée standard, donc, vous devriez vous  authentifier sur Git avec vos informations d'identification GitHub, ensuite vous devez répondre à la question suivante en anglais:
 
 `? Authenticate Git with your GitHub credentials?`    
@@ -268,7 +268,7 @@ Après avoir choisi le protocole de connexion (HTTPS ou SSH), GitHub CLI sera ex
 
 Via GitHub CLI, vous pouvez interagir avec différentes sections du site : issue, pull-requests (pr), release ou encore repo (les dépôts), donc créer un projet, le cloner/forker ou simplement le voir. Certaines actions seront ainsi redondantes avec Git, mais fonctionnant de manière simplifiée.
 
-# Récap des commandes GitHub CLI.
+#### Récap des commandes GitHub CLI.
 
 Je considère que vous savez ouvrir une invite de commandes ou PowerShell sous Windows, c'est-à-dire que vous devriez être  dans la fenêtre ¤ Invite de commande.
 
@@ -286,13 +286,13 @@ Message en anglais  | Message en français
 - | -
 `Work seamlessly with GitHub from the command line.` | `Travailler de manière transparente avec GitHub en ligne de commande.`
 
-# USAGE (Utilisation)
+#### USAGE (Utilisation)
 
 Commande | Décorticage de la commande
 - | - 
 `gh <command> <subcommand> [flags]` | `Être en ¤ Invite de commande ensuite taper gh suivi de la <commande> puis la <sous-commande> [indicateurs]`
 
-# CORE COMMANDS (Commandes de base)
+#### CORE COMMANDS (Commandes de base)
 
 Commande | Description en anglais | Description en français | Commande au complet
 - | - | - | -
@@ -303,7 +303,7 @@ Commande | Description en anglais | Description en français | Commande au compl
 `release` | Manage GitHub releases | Gérer les releases GitHub | `gh release`
 `repo` | Create, clone, fork, and view repositories | Créer, cloner, bifurquer et voir les dépôts | `gh repo`
 
-# ACTIONS COMMANDS (Actions des commandes)
+#### ACTIONS COMMANDS (Actions des commandes)
 
 Commande | Description en anglais | Description en français | Commande au complet
 - | - | - | -
@@ -311,7 +311,7 @@ Commande | Description en anglais | Description en français | Commande au compl
 `run` | View details about workflow runs | Voir les détails de l'exécution de flux de travail | `gh run`
 `workflow` | View details about GitHub Actions workflows | Voir les détails sur le flux de travail GitHub Actions | `gh workflow`
 
-# ADDITIONAL COMMANDS (Commandes supplémentaires)
+#### ADDITIONAL COMMANDS (Commandes supplémentaires)
 
 Commande | Description en anglais | Description en français | Commande au complet
 - | - | - | -
@@ -324,14 +324,14 @@ Commande | Description en anglais | Description en français | Commande au compl
 `secret` | Manage GitHub secrets | Gérer les secrets GitHub | `gh secret`
 `ssh-key` | Manage SSH keys | Gérer les clés SSH | `gh ssh-key`
 
-# FLAGS (Indicateurs)
+#### FLAGS (Indicateurs)
 
 Commande | Description en anglais | Description en français | Commande au complet
 - | - | - | -
 `--help` | Show help for command | Afficher l'aide pour la commande | `gh --help`
 `--version` | Show gh version | Afficher la version gh | `gh --version`
 
-# EXAMPLES (Exemples)
+#### EXAMPLES (Exemples)
 
 ¤ Invite de commande | Action
 - | -
@@ -339,13 +339,13 @@ Commande | Description en anglais | Description en français | Commande au compl
 `$ gh repo clone cli/cli` | Commande pour cloner le dépôt de cli
 `$ gh pr checkout 321` | Commande pour s'y déplacer au pull request 321
 
-# ENVIRONMENT VARIABLES (Variables d'environnement)
+#### ENVIRONMENT VARIABLES (Variables d'environnement)
 
 Description de la commande  en anglais | Description de la commande  en français | Commande au complet
 - | - | -
 `See 'gh help environment' for the list of supported environment variables.` | `Voir 'gh help environment' pour la liste des variables d'environnement pris en charge.` | `gh help environment`
 
-# LEARN MORE (Apprendre encore plus)
+#### LEARN MORE (Apprendre encore plus)
 
 Description de la commande  en anglais | Description de la commande  en français | Commande au complet
 - | - | -
@@ -355,7 +355,7 @@ Message en anglais | Message en français | Lien
 - | - | -
 Read the manual at | Lire le manuel en anglais à cette adresse | <https://cli.github.com/manual>
 
-FEEDBACK (Retour ou remontée de l'information sur le dépôt de CLI sur GitHub)
+#### FEEDBACK (Retour ou remontée de l'information sur le dépôt de CLI sur GitHub)
 
 Description de la commande à utiliser en anglais | Description de la commande à utiliser en français |Commande au complet
 - | - | -
@@ -375,7 +375,7 @@ Dans mon cas, comme j'ai un Windows 64 bits, donc, je dois télécharger le nouv
 
 Une fois le fichier téléchargé, vous pouvez l'installer comme vous l'avez fait pour la première fois, comme expliqué ci-dessus.
 
-# Comment ont fait les Pull Requests (pr) avec GitHub CLI?
+### Comment ont fait les Pull Requests (pr) avec GitHub CLI?
 
 Pour créer une Pull Request, vous pouvez suivre ces étapes. Je suppose que vous avez installé et configuré  GIT et GitHub CLI sur votre système comme expliqué ci-dessus.
 
@@ -453,7 +453,7 @@ Ci-dessous vous aurez plus d'informations en consultant la page en anglais sur l
 
 <https://cli.github.com/manual/gh_pr_create>
 
-# Astuces en bric-à-brac.
+### Astuces en bric-à-brac.
 
 1. Premier réflexe qu'il faut toujours avoir lorsque vous êtes dans le dépôt que vous venez de bifurquer et cloner.    
 Saisir la commande suivante:    
