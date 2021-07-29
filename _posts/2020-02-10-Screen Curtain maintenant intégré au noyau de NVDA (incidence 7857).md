@@ -10,7 +10,7 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!               
 Voici une nouvelle extension appelée Screen Curtain, donc, vous trouverez ci-dessous ça description y compris son lien de téléchargement et d'autres liens relatifs.    
-Cette extension est seulement valable pourNVDA 2018.3 à 2019.2    
+Cette extension est seulement valable pour NVDA 2018.3 à 2019.2    
 Pour les personnes ayant NVDA 2019.3, l'ancienne extension Screen Curtain est maintenant intégré au noyau de NVDA, pour utiliser cette fonctionnalité, veuillez lire l'extrait du Guide de l'utilisateur de NVDA 2019.3 se trouvant ci-dessous. Merci.    
 
 # Screen Curtain
