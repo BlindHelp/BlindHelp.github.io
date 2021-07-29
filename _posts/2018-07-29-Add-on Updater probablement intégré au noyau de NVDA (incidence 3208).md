@@ -9,12 +9,12 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!               
-Voici une nouvelle extension appelée Add-on Updater, donc, vous trouverez ci-dessous ça description y compris son lien de téléchargement et d'autres liens relatifs.
+Voici une nouvelle extension appelée Add-on Updater, donc, vous trouverez ci-dessous ça description y compris son lien de téléchargement et d'autres liens relatifs.    
 
 # Add-on Updater
 
 * Auteur : Joseph Lee
-* Télécharger version stable](https://addons.nvda-project.org/files/get.php?file=nvda3208)                     
+* Télécharger [version stable](https://addons.nvda-project.org/files/get.php?file=nvda3208)                     
 * Compatibilité NVDA: 2020.4 à 2021.1
 
 Cette extension donne vie au [tiquet 3208](https://github.com/nvaccess/nvda/issues/3208) concernant le noyau de NVDA: possibilité de vérifier, de télécharger et d'appliquer des mises à jour des extensions.    
