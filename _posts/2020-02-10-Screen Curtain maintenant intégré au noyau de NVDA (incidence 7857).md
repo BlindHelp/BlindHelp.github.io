@@ -43,7 +43,7 @@ Ces mêmes informations sont identiques à celles trouvés lors de la consultati
  
 Merci à ces auteurs : Babbage B.V., Joseph Lee.           
  
-J'ai oublié de vous dire que l'interface de ce module complémentaire  est en anglais, mais que c'est facile à comprendre.             
+J'ai oublié de vous dire que l'interface de cette extension est en anglais, mais que c'est facile à comprendre.             
 
 ### Screen Curtain maintenant intégré au noyau de NVDA (incidence 7857)
 
