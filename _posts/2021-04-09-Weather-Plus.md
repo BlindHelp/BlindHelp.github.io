@@ -5,13 +5,13 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Lundi 26 Juillet 2021</footer>
+<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Jeudi 29 Juillet 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
 Je vous apporte de bonnes nouvelles concernant l'extension Weather Plus pour NVDA...             
 Weather Plus est maintenant compatible avec NVDA2021.1 et plus!             
-Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 8.3.    
+Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 8.4.    
 
 Voir son descriptive ci-dessous.    
 
@@ -191,9 +191,9 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 3. Supprimez le fichier weather.ini.
 4. Appuyez sur nvda+ctrl+f3 et reconfigurez l'extension normalement.
 
-[Télécharger l'extension Weather_Plus8.3.nvda-addon par ici: [lien externe]][1]    
+[Télécharger l'extension Weather_Plus8.4.nvda-addon par ici: [lien externe]][1]    
 
-[1]: https://www.nvda.it/files/plugin/weather_plus8.3.nvda-addon
+[1]: https://www.nvda.it/files/plugin/weather_plus8.4.nvda-addon
 
 [ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
 
@@ -202,7 +202,7 @@ renommez-le en .nvda-addon.
 Merci    
 
 Pour plus d'informations vous pouvez consulter la documentation pour    
-    la version 8.3 depuis le Gestionnaire d'Extensions    
+    la version 8.4 depuis le Gestionnaire d'Extensions    
     (dans Gérer les extensions)    
     Chercher le nom de l'extension nommé:    
     Weather_Plus    
