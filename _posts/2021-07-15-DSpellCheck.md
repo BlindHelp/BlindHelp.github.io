@@ -1,5 +1,5 @@
 ---
-title: DSpellCheck - Correcteur orthographique pour Notepadplusplus
+title: DSpellCheck - Correcteur orthographique pour NotepadPlusPlus
 permalink: "/DSpellCheck/"
 layout: post
 author: BlindHelp
