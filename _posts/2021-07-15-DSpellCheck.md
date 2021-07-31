@@ -44,7 +44,7 @@ Mais ce pack  rassemble tout ce qu'il faut : les  versions x86 et x64 de DSpel
 2. Configuration :    
 Pour ajouter le dictionnaire français :    
 * Ouvrez le menu "Modules d'extensions", placez vous dans le sous-menu de DSpellCheck, descendez sur "Change current language" puis dans le sous-menu, validez sur : `Download More Languages...`    
-*  Dans le dialogue, descendez sur French dans la liste puis pressez espace pour la sélectionner et pressez enfin Entrée. Il est important de presser espace avant entrée ;    
+* Dans le dialogue, descendez sur French dans la liste puis pressez espace pour la sélectionner et pressez enfin Entrée. Il est important de presser espace avant entrée ;    
 * Le plugin télécharge alors le dictionnaire et indique ensuite le nom du dictionnaire qu'il a téléchargé avec succès ;    
 3. Affectation de raccourcis clavier aux commandes "Find next/previous  mispelling"    
 Comme le plugin ne propose pas de dialogue de correction orthographique, on va créer deux raccourcis-clavier pour rechercher un mot mal orthographié directement dans l'éditeur, ce qui s'avère très pratique pour lire le contexte de la faute.    
