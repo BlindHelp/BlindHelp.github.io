@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 24 Décembre 2020 - Dernière mise à jour le Samedi 24 Juillet 2021</footer>
+<footer>Publié le Jeudi 24 Décembre 2020 - Dernière mise à jour le Vendredi 13 Août 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -15,10 +15,10 @@ Et traduit en espagnol et français par mes soins.
 # Informations sur l'extension EnhancedDictionaries #
 
 * Auteurs : Marlon Brandão de Sousa
-* Version actuelle: 1.2.0
+* Version actuelle: 1.2.1
 * Langues: Anglais, Espagnol, Français, Portugais du Brésil et Portugais du Portugal
 * Compatibilité NVDA: 2019.3 à 2021.1
-* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/marlon-sousa/EnhancedDictionaries/releases/download/1.2.0/EnhancedDictionaries-1.2.0.nvda-addon)
+* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/marlon-sousa/EnhancedDictionaries/releases/download/1.2.1/EnhancedDictionaries-1.2.1.nvda-addon)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/marlon-sousa/EnhancedDictionaries)
 
 # Traitement des dictionnaires plus avancés pour NVDA #

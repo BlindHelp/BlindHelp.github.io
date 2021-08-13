@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 31 Mars 2021</footer>
+<footer>Publié le Mercredi 31 Mars 2021 - Dernière mise à jour le Mercredi 11 Août 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -14,10 +14,10 @@ Voici une nouvelle Extension NVDA nommée agenda permettant une meilleure access
 # Informations sur l'extension Agenda #
 
 * Auteurs: Nicolas Dubus, Abdelkrim Bensaïd
-* Version actuelle: 21.0
+* Version actuelle: 21.08
 * Langue: Français
-* Compatibilité NVDA: 2014.3 à 2020.4
-* Télécharger [version actuelle sur l'espace de BlindHelp.github.io sur GitHub [lien externe]](https://blindhelp.github.io/agenda-21.03.nvda-addon)
+* Compatibilité NVDA: 2014.3 à 2021.1
+* Télécharger [version actuelle sur l'espace de BlindHelp.github.io sur GitHub [lien externe]](https://blindhelp.github.io/agenda-21.08.nvda-addon)
 
 Si vous n'avez toujours pas le programme Agenda installé sur votre PC, vous pouvez le télécharger [en consultant l'article dédié au programme Agenda sur Winaide](http://www.winaide.net/spip.php?article31)
 
