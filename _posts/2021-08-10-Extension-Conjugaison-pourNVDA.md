@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 10 Août 2021</footer>
+<footer>Publié le Mardi 10 Août 2021 - Dernière mise à jour le Dimanche 15 Août 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -16,10 +16,10 @@ Il nous souhaitait nous offrir une extension de ça création, donc Vous trouver
 # Informations sur l'extension Conjugaison #
 
 * Auteurs: Abdelkrim Bensaïd
-* Version actuelle: 21.08
+* Version actuelle: 21.08.1
 * Langue: Français
 * Compatibilité NVDA: 2019.3 à 2021.3
-* Télécharger [version actuelle sur l'espace de Abdel sur Free.FR [lien externe]](http://cyber25.free.fr/nvda-addons/conjugaison-21.08.nvda-addon)
+* Télécharger [version actuelle sur l'espace de Abdel sur Free.FR [lien externe]](http://cyber25.free.fr/nvda-addons/conjugaison-21.08.1.nvda-addon)
 
 ## Présentation de l'extension Conjugaison pour NVDA par Abdel ##
 
@@ -29,11 +29,15 @@ Elle s'appelle "conjugaison" et n'apporte pas vraiment grand chose, rien qu'un s
 
 Vous voici son lien direct de téléchargement :    
 
-<http://cyber25.free.fr/nvda-addons/conjugaison-21.08.nvda-addon>
+<http://cyber25.free.fr/nvda-addons/conjugaison-21.08.1.nvda-addon>
 
 Je l'ai créée pour un ami qui enseigne la langue française et qui en avais particulièrement besoin, pour afficher rapidement la conjugaison de n'importe quel verbe.    
 
 Il est vrai que la fonction existe déjà dans le Localisateur de notre ami Philippe Léon, à la différence près qu'elle n'utilise pas le site capeutservir.com et qu'elle affiche les résultat dans des pages distinctes, alors que mon extension affiche tous les résultats dans une seule et même page formatée en HTML pour faciliter la circulation parmi les différents modes et temps.    
+
+Lors de l'installation de l'extension j'ai introduit le téléchargement/installation des  bibliothèques externes depuis le module intitulé "installTasks.py".
+
+J'ai donc considérablement réduit sa taille, qui est désormais de 25.7 kilo-octets par rapport à la version initiale.
 
 J'y ai introduit également une toute nouvelle fonctionnalité qui est apparue avec NVDA 2021.1 et supérieur, qui est la possibilité de pointer vers l'attribut ID d'un élément HTML figurant dans la documentation, pour  avoir une aide contextuelle sur un champ ou boîte de dialogue donnée.    
 
