@@ -37,7 +37,7 @@ Il est vrai que la fonction existe déjà dans le Localisateur de notre ami Phil
 
 Lors de l'installation de l'extension j'ai introduit le téléchargement/installation des  bibliothèques externes depuis le module intitulé "installTasks.py".
 
-J'ai donc considérablement réduit sa taille, qui est désormais de 25.7 kilo-octets par rapport à la version initiale.
+J'ai donc considérablement réduit sa taille, qui est désormais de 13.3 kilo-octets par rapport à la version initiale.
 
 J'y ai introduit également une toute nouvelle fonctionnalité qui est apparue avec NVDA 2021.1 et supérieur, qui est la possibilité de pointer vers l'attribut ID d'un élément HTML figurant dans la documentation, pour  avoir une aide contextuelle sur un champ ou boîte de dialogue donnée.    
 
