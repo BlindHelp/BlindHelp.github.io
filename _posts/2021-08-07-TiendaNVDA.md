@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 7 Août 2021 - Dernière mise à jour le Jeudi 12 Août 2021</footer>
+<footer>Publié le Samedi 7 Août 2021 - Dernière mise à jour le Jeudi 19 Août 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé Tienda NVDA créée par le même auteur de l'extension [zUtilidades](https://blindhelp.github.io/zUtilidades/) idéal si vous souhaitez avoir vos extensions officielles / non officielles à jour pour votre version actuelle de NVDA!    
@@ -15,9 +15,9 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension Tienda NVDA: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.4
+* Version actuelle: 0.5
 * Compatibilité avec NVDA: de 2019.3 à 2021.1
-* Langues supportées: Français et plusieurs autres langues traduites par des membres de la communauté internationale des extensions NVDA
+* Langues supportées: Espagnol, Français et plusieurs autres langues traduites par des membres de la communauté internationale des extensions NVDA
 * [Télécharger](https://nvda.es/files/get.php?file=tienda)
 * [Voir code source sur GitHub](https://github.com/hxebolax/Tienda-para-NVDA)
 
@@ -32,7 +32,7 @@ L'extension vient sans raccourcis assignés et nous pouvons vous donner deux qui
 
 * Recherche des mises à jour pour les extensions installées: Ceci analysera les extensions que nous avons et celles qui trouvent leurs mise à jour elles nous offrira la possibilité de les mettre à jour automatiquement.
 
-Nous pouvons attribuer un geste de commande  pour ces deux options en allant dans le menu NVDA / Préférences / Gestes de commandes puis rechercher Tienda NVDA.
+Nous pouvons attribuer un geste de commande  pour ces deux options en allant dans le menu NVDA / Préférences / Gestes de commandes puis rechercher Boutique pour NVDA.ES.
 
 ### Affiche la fenêtre avec toutes les extensions et leurs informations
 
@@ -95,6 +95,10 @@ Au cas où il y a des mises à jour elle recherchera 5 fois plus la plage de tem
 * Trier par ordre alphabétique Les extensions de la boutique et les recherches.
 
 Si nous cochions cette case à cocher, lorsque nous ouvrons la boutique les extensions seront affichées par ordre alphabétique. De plus, si nous recherchons une extension, les résultats des recherches seront affichés dans l'ordre alphabétique.
+
+* Installer les extensions après le téléchargement.
+
+Si nous cochions cette case à cocher, lorsque nous avions terminé de télécharger une extension  Il nous sera demandé à partir de l'assistant d'installation d'extensions de NVDA si nous voulons l'installer.
 
 * Extensions installées qui existent sur le serveur:.
 
