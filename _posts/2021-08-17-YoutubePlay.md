@@ -23,7 +23,7 @@ Et traduit en espagnol et français par mes soins.
 
 ---
 
-#YoutubePlay
+# YoutubePlay
 Cette extension est destinée à lire des liens de vidéos YouTube depuis le presse-papiers.
 
 # Comment l'utiliser
