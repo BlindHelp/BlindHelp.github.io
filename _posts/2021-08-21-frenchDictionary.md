@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 21 Août 2021 - Dernière mise à jour le Lundi 23 Août 2021</footer>
+<footer>Publié le Samedi 21 Août 2021 - Dernière mise à jour le Mardi 24 Août 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -15,11 +15,11 @@ Il nous souhaitait nous offrir une extension de ça création, donc Vous trouver
 
 # Informations sur l'extension frenchDictionary #
 
-* Auteurs: Yannick
-* Version actuelle: 21.08
+* Auteurs: Yannick.M
+* Version actuelle: 21.08.1
 * Langue: Français
 * Compatibilité NVDA: 2019.3 à 2021.1
-* Télécharger [version actuelle sur l'espace de BlindHelp.github.io [lien externe]](https://blindhelp.github.io/frenchDictionary-21.08.nvda-addon)
+* Télécharger [version actuelle sur l'espace de BlindHelp.github.io [lien externe]](https://blindhelp.github.io/frenchDictionary-21.08.1.nvda-addon)
 
 ---
 
