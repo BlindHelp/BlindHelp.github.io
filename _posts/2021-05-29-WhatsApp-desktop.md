@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le  Samedi  29 Mai 2021 - Dernière mise à jour le Mercredi 18 Août 2021</footer>
+<footer>Publié le  Samedi  29 Mai 2021 - Dernière mise à jour le Lundi 23 Août 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé WhatsApp-desktop créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin d'avoir les raccourcis clavier pour accéder facilement à certaines fonctions de l'application [WhatsApp-desktop pour Windows!](https://www.whatsapp.com/download/)    
@@ -59,7 +59,7 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 # Informations sur l'extension WhatsApp-desktop: #
 
 * Auteur: <span lang="es">Gerar Késsler</span>
-* Version actuelle: 1.0
+* Version actuelle: 1.1
 * Compatibilité avec NVDA: de 2019.3 à 2021.1
 * Langues supportées: Anglais, Espagnol, Français, Portugais du Brésil et du Portugal, et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=whatsappdesktop)
@@ -132,17 +132,6 @@ Pour l'activer, nous devons procéder comme suit:
 
 Chaque fois que nous démarrons WhatsApp avec cette fonctionnalité activée, l'extension comparera la version de l'extension du manifeste avec celle du dernier lancement du projet dans GitHub. S'il n'y a pas de coïncidences, une fenêtre est lancée laquelle vous permettra de télécharger et d'installer la nouvelle version.
 
-### Affichage virtuel de conversations
-Cette fonctionnalité est expérimentale, elle peut donc être supprimée dans les mises à jour futures de l'extension.  
-Sa fonction principale est de charger et de naviguer entre une liste de conversations de manière virtuelle pour se déplacer entre eux sans cocher les nouveaux messages comme lus.  
-Malheureusement, l'application n'a pas de gestion logique pour les conversations. Il n'existe donc aucun ordre de navigation consonne. Et seuls les discussions visibles seront affichées à l'écran au moment de rafraîchir la liste.  
-Les raccourcis de cette fonctionnalité sont les suivants:
-
-* maj + f5: Rafraîchir la liste de conversations.
-* maj + flèche haut; verbaliser la conversation précédente.
-* maj + flèche bas; verbaliser la conversation suivante.
-* maj entrée; focaliser la conversation verbalisée.
-
 ## Instructions du mode de sélection:
 Pour activer le mode de sélection, nous devrons activer le menu contextuel du message focalisé, soit avec le raccourci contrôle + m, ou avec la touche Applications.  
 Une fois que le menu est ouvert, nous nous déplaçons avec les flèches base dans l'option Sélectionner les messages, que nous devons activer avec Entrée.  
@@ -163,6 +152,12 @@ Une fois ici, nous pouvons sélectionner et désélectionner des messages avec l
 	Carlos Esteban Martínez Macías (anglais)
 
 ## Journal des changements:  
+### 1.1:
+
+* Modifications de la compatibilité avec la version 2.2130.9
+* Éliminé la fonction expérimentale de lecture virtuelle de conversations.
+* Corrections mineures.
+
 ### 1.0:
 
 * Lecture de l'historique du message d'une conversation dans la zone de texte.
