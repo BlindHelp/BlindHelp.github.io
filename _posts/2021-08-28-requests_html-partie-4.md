@@ -1,5 +1,5 @@
 ---
-title: Python, le package requests_html (petite intro) partie-3
+title: Python, le package requests_html (petite intro) partie-4
 permalink: "/REQUESTS_HTML-Partie4/"
 layout: post
 author: BlindHelp
