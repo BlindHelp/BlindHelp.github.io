@@ -67,7 +67,7 @@ Compatibilité avec NVDA 2019.1.
 
 Nous espérons vous revoir bientôt sur le      
 [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
-ou sur  votre nouveau espace via GitHub:                     
+ou sur  votre nouvel espace via GitHub:                     
 [BlindHelp.github.io](https://blindhelp.github.io)                    
 
 ---

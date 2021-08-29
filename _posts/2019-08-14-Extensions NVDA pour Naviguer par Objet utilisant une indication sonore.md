@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Mercredi 14 Août 2019</footer>
+<footer>Publié le Mercredi 14 Août 2019 - Dernière mise à jour le Mardi 29 Juin 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici quelques extensions NVDA à télécharger pour Naviguer par Objet utilisant une indication sonore:    
@@ -63,6 +63,10 @@ dans les copies portables, la première étape aie remplacée en explorant le r�
 [Télécharger l'extension
     objsounds.nvda-addon [via BlindHelp.github.io]](https://blindhelp.github.io/objsounds.nvda-addon)
 
+## Remarque importante:
+
+Il y a une mise à jour pour l'extension OBJSounds (KevanGC Version) pour NVDA adapté par un ami à Python 3 et être utilisé avec NVDA2021.1 sur ce nouvel article via [BlindHelp.github.io](https://blindhelp.github.io/objsounds/)
+
 # Unspoken 3D Audio<a id="Unspoken-0.1.nvda-addon"></a>
     Type: Extensions
     Cette extension ajoute des sons aux éléments communs, tels que les boutons, les zones d'édition, les cases à cocher, ETC, en remplaçant l'annonce du rôle (type) de ces objets par la parole / le  braille utilisant des sons. C'est-à-dire qu'au lieu d'annoncer, par exemple, "bouton" lors de la navigation dans l'un d'eux, remplacent l'annonce du mot "bouton"  par le son correspondant.
@@ -75,6 +79,7 @@ Une fois l'extension installée, il sera également possible de modifier les son
 
 [Télécharger l'extension Unspoken-0.1.nvda-addon par ici [lien externe:]](http://www.grossgang.com/nvda/Unspoken-0.1.nvda-addon)
 
+[Source de la page de téléchargement de l'extension Unspoken 3D Audio](http://www.grossgang.com/nvda/)
 
 Voilà, c’est fini ! (whew) Comme dirait l’autre!   
 Amusez-vous bien! :)     

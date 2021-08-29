@@ -93,7 +93,7 @@ Voici le mode d'emploi en anglais.
 
 <p>Nous espérons vous revoir bientôt sur le<p>
 <p><a href="http://blindhelp.blogspot.fr/" target="_blank" rel="noopener">Blog de BlindHelp!</a>
-<p>ou sur  votre nouveau espace via GitHub:<p>
+<p>ou sur  votre nouvel espace via GitHub:<p>
 <a href="https://blindhelp.github.io/" target="_blank" rel="noopener">BlindHelp.github.io!</a>
 
 <hr>

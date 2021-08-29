@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 29 Septembre 2018 - Dernière mise à jour le Lundi 12 Juillet 2021</footer>
+<footer>Publié le Samedi 29 Septembre 2018 - Dernière mise à jour le Lundi 23 Août 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -16,6 +16,18 @@ Cela a été une mise à jour attendue par beaucoup, car sans elle il y a des ut
 # Les nouveautés de NVDA Remote 2.4 sont les suivantes: #
 
 Selon l'auteur, cette version améliore la sécurité, met à jour de nombreuses traductions, intègre de nouveaux sons et assure la compatibilité avec NVDA 2021.1.    
+
+# Version de l'extension NVDA REMOTE qui résout le problème des écrans sécurisés disponible en téléchargement non officielle #
+
+Voici une correction apporté à l'extension NVDA REMOTE de Tyler Spivey, signalé par mon ami 'José Manuel Delicado Alcolea le Lundi 23 Août 2021
+
+L'auteur a corrigé le problème sur la perte de contrôle dans certains écrans sécurisés. Je laisse ici la nouvelle extension pour ceux qui manquent de cette fonctionnalité. Il semble que c'est toujours la version 2.4, mais il est plus récente que la 2.4. J'ai renommé le fichier afin qu'il ait la date d'aujourd'hui.
+
+Vous pouvez utiliser le lien suivant ci-dessous:
+
+<https://blindhelp.github.io/remote-2.4-20210823.nvda-addon>
+
+Merci à 'José Manuel Delicado Alcolea' pour cette information.
 
 # Télécharger  NVDA Remote 2.4 #
 
@@ -39,7 +51,7 @@ Rémy (BlindHelp).
 
 Nous espérons vous revoir bientôt sur le      
 [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
-ou sur  votre nouveau espace via GitHub:                     
+ou sur  votre nouvel espace via GitHub:                     
 [BlindHelp.github.io](https://blindhelp.github.io)                    
 
 ---
