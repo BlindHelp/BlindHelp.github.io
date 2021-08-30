@@ -153,10 +153,11 @@ Thorium facilite également l'accès aux catalogues OPDS, c'est-à-dire des lien
 
 Par exemple, dans le  dépôt de Thorium, ce catalogue OPDS est mentionné:    
 
-<input type="text" value="http://www.feedbooks.com/books/top.atom?category=FBFIC019000" id="opds" readonly>
 
+    <textarea readonly id="textArea">http://www.feedbooks.com/books/top.atom?category=FBFIC019000</textarea>
+    <button onclick="copyToClipBoard()">Copier</button>
 
-<div id="p"></div>
+    <script src="scripts/textArea.js"></script>
 
 
 Vous pouvez l'ajouter à Thorium pour télécharger gratuitement des publications.    
