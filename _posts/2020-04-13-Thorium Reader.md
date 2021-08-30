@@ -211,8 +211,6 @@ Voila, je vous  souhaite une bbonne utilisation de l'application Thorium! :)
 Bien amicalement,    
 Rémy (BlindHelp).
 
-<script src="scripts/opds.js"></script>
-
 ---
 
 Nous espérons vous revoir bientôt sur le      
@@ -221,3 +219,5 @@ ou sur  votre nouvel espace via GitHub:
 [BlindHelp.github.io](https://blindhelp.github.io)                    
 
 ---
+
+<script src="scripts/opds.js"></script>
