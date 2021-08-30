@@ -142,11 +142,7 @@ Voici un autre lien pour télécharger des [Ebooks libres et gratuits](https://w
 En ce qui concerne le format OPDS (Open Publication Distribution System), celui-ci est utilisée pour vous abonner aux livres publiés sur Internet et est similaire aux formats comme le flux RSS utilisé pour les blogs, les journaux, etc., mais pour des livres ou des publications.    
 Voici le flux OPDS à mettre dans Thorium:    
 
-<input type="text" value="https://www.ebooksgratuits.com/opds" id="opds" readonly>
-
-
-<div id="p"></div>
-
+`https://www.ebooksgratuits.com/opds`
 
 Une fois ouvert Thorium nous activons le bouton "Catalogues"    
 Ensuite Nous appuyons sur le bouton:    
