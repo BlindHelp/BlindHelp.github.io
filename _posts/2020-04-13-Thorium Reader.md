@@ -158,7 +158,7 @@ Par exemple, dans le  dépôt de Thorium, ce catalogue OPDS est mentionné:
     <textarea readonly id="textArea">http://www.feedbooks.com/books/top.atom?category=FBFIC019000</textarea>
     <button onclick="copyToClipBoard()">Copier</button>
 
-    <script src="scripts/textArea.js"></script>
+    <script src="https://blindhelp.github.io/scripts/textArea.js"></script>
 
     </div>
 
