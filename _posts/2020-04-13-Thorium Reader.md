@@ -153,7 +153,7 @@ Thorium facilite également l'accès aux catalogues OPDS, c'est-à-dire des lien
 
 Par exemple, dans le  dépôt de Thorium, ce catalogue OPDS est mentionné:    
 
-<textarea readonly id="textArea">http://www.feedbooks.com/books/top.atom?category=FBFIC019000</textarea>
+<input type="text" value="http://www.feedbooks.com/books/top.atom?category=FBFIC019000" id="opds" readonly>
 
 
 Vous pouvez l'ajouter à Thorium pour télécharger gratuitement des publications.    
@@ -162,11 +162,7 @@ Voici un autre lien pour télécharger des [Ebooks libres et gratuits](https://w
 En ce qui concerne le format OPDS (Open Publication Distribution System), celui-ci est utilisée pour vous abonner aux livres publiés sur Internet et est similaire aux formats comme le flux RSS utilisé pour les blogs, les journaux, etc., mais pour des livres ou des publications.    
 Voici le flux OPDS à mettre dans Thorium:    
 
-<textarea readonly id="textArea">https://www.ebooksgratuits.com/opds</textarea>
-
-<button onclick="copyToClipBoard()">Copier</button>
-
-<script src="https://blindhelp.github.io/scripts/textArea.js"></script>
+<input type="text" value="https://www.ebooksgratuits.com/opds" id="opds" readonly>
 
 
 Une fois ouvert Thorium nous activons le bouton "Catalogues"    
@@ -179,6 +175,8 @@ Une fois fini nous aurons le flux OPDS Ebooks libres et gratuits en tant que lie
 Vous devez appuyer sur le bouton "Catalogues" pour trouver vos flux OPDS.    
 Eh bien, ce fut l'explication par mes soins au sujet de la façon d'ajouter  ces flux OPDS. Surtout, pas de panique!    
 Donc, comme certains d'entre vous me l'ont demandé, donc comme promis, voici plus bas une petite tuto rapide fait maison pour bien utiliser Thorium avec le lecteur d'écran NVDA. 🤔    
+
+<div id="p"></div>
 
 # Conseils en bric-à-brac pour bien utiliser Thorium avec le lecteur d'écran NVDA #
 
@@ -249,3 +247,4 @@ ou sur  votre nouvel espace via GitHub:
 ---
 
 
+<script src="https://blindhelp.github.io/scripts/opds.js"></script>
