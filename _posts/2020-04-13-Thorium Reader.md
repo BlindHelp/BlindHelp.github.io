@@ -154,7 +154,7 @@ Thorium facilite également l'accès aux catalogues OPDS, c'est-à-dire des lien
 Par exemple, dans le  dépôt de Thorium, ce catalogue OPDS est mentionné:    
 
 <textarea readonly id="textArea">http://www.feedbooks.com/books/top.atom?category=FBFIC019000</textarea>
-<button onclick="copyToClipBoard()">Copier</button>
+
 
 Vous pouvez l'ajouter à Thorium pour télécharger gratuitement des publications.    
 
@@ -163,6 +163,7 @@ En ce qui concerne le format OPDS (Open Publication Distribution System), celui-
 Voici le flux OPDS à mettre dans Thorium:    
 
 <textarea readonly id="textArea">https://www.ebooksgratuits.com/opds</textarea>
+
 <button onclick="copyToClipBoard()">Copier</button>
 
 <script src="https://blindhelp.github.io/scripts/textArea.js"></script>
