@@ -250,11 +250,11 @@ Pour ceux qui méconnaissent les expressions régulières, voici un modèle ains
 
 Dans le champ Modèle, saisissez ce qui suit :
 
-f([0-9]+)
+`f([0-9]+)`
 
 Dans le champ de remplacement, entrez ce qui suit :
 
-f \1
+`f \1`
 
 Ensuite, choisissez "Expressions régulières" dans la liste des types puis validez tous les boutons OK.
 
@@ -273,11 +273,11 @@ Solution:
 
 Dans la zone modèle, écris ceci :
 
-\bm\.[^\w]*$
+`\bm\.[^\w]*$`
 
 Dans la zone remplacer par :
 
-monsieur
+`monsieur`
 
 
 P.S.
@@ -295,7 +295,7 @@ Je viens de me rendre compte que la dernière expression ne couvrait pas encore 
 
 Voici une situation non prise en charge par cette expression :
 
-M. le maire.
+`M. le maire.`
 
 Là, le point est bien suivi par un caractère ne correspondant ni à une lettre alphabétique, ni à un chiffre.
 
@@ -305,11 +305,11 @@ Cependant, il y a des lettres alphabétiques juste après, chose qui n'est pas p
 
 Voici un aute modèle qui prend en charge le cas de figure précité :
 
-\bm\.[^\w]*(?:\b|$)
+`\bm\.[^\w]*(?:\b|$)`
 
 Il faudra le remplacer par :
 
-monsieur 
+`monsieur `
 
 N'oubliez pas l'espace après monsieur dans la chaine de remplacement.
 
@@ -319,31 +319,31 @@ Donc, voici ci-dessous l'explication concernant les expressions citées.
 
 On va commencer par la première :    
 
-\bm\.?\b
+`\bm\.?\b`
 
-\b : C'est ce que l'on appelle une assertion qui symbolise le début ou la fin d'un mot.
+`\b` : C'est ce que l'on appelle une assertion qui symbolise le début ou la fin d'un mot.
 
 Une assertion ne consomme pas de caractère et permet juste de vérifier si ce qui suit est le commencement d'un mot, en anglais, ils appellent ça le word boundary.
 
 m : C'est le m, en majuscule ou en minuscule, il faut bien décocher la case de respect de la casse.
 
-/.? : Le point est un caractère spécial dans les expressions régulières, c'est pourquoi on l'échappe en le faisant précéder par une barre oblique inversée.
+`/.?` : Le point est un caractère spécial dans les expressions régulières, c'est pourquoi on l'échappe en le faisant précéder par une barre oblique inversée.
 
-le \. signifie donc que la lettre m citée précédemment doit être suivie par un point.
+le `\.` signifie donc que la lettre m citée précédemment doit être suivie par un point.
 
 Le point d'interrogation qui suit le point est un quantificateur, il vérifie si ce dit point est présent une ou zéro fois.
 
-/b : Est l'assertion citée plus haut, elle vérifie maintenant la fin du mot.
+`/b` : Est l'assertion citée plus haut, elle vérifie maintenant la fin du mot.
 
 Passons à l'expression suivante :
 
-\bm\.[^\w]*$
+`\bm\.[^\w]*$`
 
-\b : Assertion de début ou de fin d'un mot.
+`\b` : Assertion de début ou de fin d'un mot.
 
-Je ne vais pas décrire le m est le \. car déjà fait, sauf que là, comme tu peux le constater, le point n'est pas suivi d'un point d'interrogation, c'est parce qu'on veut impérativement qu'il soit présent une seule fois.
+Je ne vais pas décrire le m est le `\.` car déjà fait, sauf que là, comme tu peux le constater, le point n'est pas suivi d'un point d'interrogation, c'est parce qu'on veut impérativement qu'il soit présent une seule fois.
 
-[^\w] : Ce que l'on met entre crochet est un ou une suite de caractères que l'on veut vérifier à tour de rôle.
+`[^\w]` : Ce que l'on met entre crochet est un ou une suite de caractères que l'on veut vérifier à tour de rôle.
 
 L'accent circonflexe signifie que le caractère qui va suivre le point ne doit absolument pas être ce que l'on va mettre après cet accent circonflexe.
 
