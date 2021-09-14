@@ -4,9 +4,9 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le Lundi 12 Juillet 2021</footer>
+<footer>Dernière mise à jour le Mardi 14 Septembre 2021</footer>
 
-### Documentation sur NVDA 2021.1 ###
+### Consulter la dernière Documentation en cours pour notre lecteur d'écran NVDA ###
 
 A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
 
