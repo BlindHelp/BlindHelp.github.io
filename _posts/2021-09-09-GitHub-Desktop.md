@@ -86,7 +86,11 @@ Pour tous ceux qui ont besoin de diffuser du contenu ou de le partager surtout s
 
 Vous pouvez installer GitHub Desktop ou tout système d'exploitation compatible. Pour plus d'informations, voir la page de l'article en anglais ["Supported operating systems."](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/supported-operating-systems)
 
-Pour installer Github Desktop, visitez la page de téléchargement de [GitHub Desktop (en anglais).](https://desktop.github.com/) Pour plus d'informations, voir la page de l'article en anglais "Installing GitHub Desktop."(https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-github-desktop)
+Pour installer Github Desktop, visitez la page de téléchargement de [GitHub Desktop en anglais.
+
+<https://desktop.github.com/>
+
+Pour plus d'informations, voir la page de l'article en anglais ["Installing GitHub Desktop."](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-github-desktop)
 
 Ci-dessous je donne quelques explications sur l'installation de GitHub Desktop.
 
@@ -215,6 +219,7 @@ La grande majorité des raccourcis peuvent être utilisées sur un clavier AZERT
 
 Site wide shortcuts
 ==========================================================================================
+
 Keyboard Shortcut | Description
 - | -
 CtrlVirgule | Go to Options
@@ -227,6 +232,7 @@ CtrlShiftI | Toggle Developer Tools
 
 Repositories
 ==========================================================================================
+
 Keyboard Shortcut | Description
 - | -
 CtrlN | Add a new repository
@@ -245,6 +251,7 @@ CtrlI | Create an issue on GitHub
 
 Branches
 ==========================================================================================
+
 Keyboard shortcut | Description
 - | -
 Ctrl1 | Show all your changes before committing
