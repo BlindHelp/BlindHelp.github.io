@@ -44,7 +44,7 @@ GitHub Desktop est un projet open source. Vous pouvez voir la feuille de route, 
 
 Apprenez à configurer, authentifier et configurer GitHub Desktop pour vous permettre de contribuer sur des projets directement à partir de votre machine.
 
-GitHub Desktop ce décline dans deux versions pour [Mac]() et Windows.
+GitHub Desktop ce décline dans deux versions pour Mac et Windows.
 
 Vous pouvez consulter l'article en anglais sur les systèmes compatibles avec le programme GitHub Desktop en allant à:  
 ["Supported operating systems."](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/supported-operating-systems)  
@@ -136,9 +136,9 @@ Voici pour info les noms des onglets que nous trouvons dans Options:
 
 `Accounts`  
 `Integrations`  
-`Git ` 
-`Appearance ` 
-`Prompts ` 
+`Git`  
+`Appearance`  
+`Prompts`  
 `Advanced`  
 
 [Retour à la table des matières](#Table des matières)
@@ -212,8 +212,9 @@ Remarque Ces raccourcis clavier sont utilisés sur un clavier QWERTY
 
 La grande majorité des raccourcis peuvent être utilisées sur un clavier AZERTY  
 
+
 Site wide shortcuts
--------------
+==========================================================================================
 Keyboard Shortcut | Description
 - | -
 CtrlVirgule | Go to Options
@@ -223,8 +224,9 @@ Ctrl= | Zoom in for larger text and graphics
 CtrlTiret | Zoom out for smaller text and graphics
 CtrlShiftI | Toggle Developer Tools
 
+
 Repositories
--------------
+==========================================================================================
 Keyboard Shortcut | Description
 - | -
 CtrlN | Add a new repository
@@ -240,8 +242,9 @@ CtrlShiftF | Show the repository in Explorer
 CtrlShiftA | Open the repository in your preferred editor tool
 CtrlI | Create an issue on GitHub
 
+
 Branches
--------------
+==========================================================================================
 Keyboard shortcut | Description
 - | -
 Ctrl1 | Show all your changes before committing
@@ -259,6 +262,7 @@ CtrlShiftM | Merge into current branch
 CtrlH | Show or hide stashed changes
 CtrlShiftC | Compare branches on GitHub
 CtrlR | Show the current pull request on GitHub
+
 
 Vous trouverez ci-dessous le lien de l'article en anglais:  
 [Keyboard shortcuts](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/keyboard-shortcuts)
