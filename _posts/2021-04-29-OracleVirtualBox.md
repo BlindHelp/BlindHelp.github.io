@@ -59,9 +59,9 @@ Table des matières<a id="Table des matières"></a>
 - [1.15 Paramètres globaux](#mark1.15)
 - [1.16 Interfaces alternatives](#mark1.16)
 - [2 Détails sur l'installation](#mark2)
-- [2.1 Installation sur des hôtes Windows(#mark2.1)
-- [2.1.1 Prérequis(#mark2.1.1)
-- [2.1.2 Effectuer l'installation sous Windows(#mark2.1.2)
+- [2.1 Installation sur des hôtes Windows](#mark2.1)
+- [2.1.1 Prérequis](#mark2.1.1)
+- [2.1.2 Effectuer l'installation sous Windows](#mark2.1.2)
 - [2.1.3 Désinstallation sous Windows](#mark2.1.3)
 - [2.1.4 Installation sans efforts sous Windows](#mark2.1.4)
 - [2.2 Installation sur des hôtes Mac OS X](#mark2.2)
@@ -279,10 +279,10 @@ Table des matières<a id="Table des matières"></a>
 - [9.14.2 Accélérer ou ralentir l'horloge de l'invité](#mark9.14.2)
 - [9.14.3 Peaufiner les paramètres de synchronisation du temps des suppléments invité](#mark9.14.3)
 - [9.14.4 Désactiver la synchronisation des suppléments invité](#mark9.14.4)
-- [9.15 Installer le pilote du réseau bridgé alternatif sur les invités Solaris 11[(#mark9.15)
+- [9.15 Installer le pilote du réseau bridgé alternatif sur les invités Solaris 11](#mark9.15)
 - [9.16 Échantillons de VNIC VirtualBox pour les VLANs sur les hôtes Solaris 11](#mark9.16)
 - [9.17 Configurer plusieurs interfaces réseaux host-only sur les hôtes Solaris](#mark9.17)
-- [9.18 Configurer le CoreDumper sur les hôtes Solaris][#mark9.18)
+- [9.18 Configurer le CoreDumper sur les hôtes Solaris](#mark9.18)
 - [9.19 Déverrouiller l'interface graphique du gestionnaire de VirtualBox](#mark9.19)
 - [9.19.1 Personnalisation du gestionnaire de VM](#mark9.19.1)
 - [9.19.2 Personnalisation du sélecteur de VM](#mark9.19.2)
@@ -865,7 +865,7 @@ Note: Le standard OVF est complexe et son support dans VirtualBox est un process
 
 Les applicatifs au format OVF peut apparaître sous deux variantes :  
 
-1. Ils peuvent être fournis en plusieurs fichiers, comme une ou plusieurs images de disque, en général au format universel VMDK (voir chapitre 5.2 Fichiers images de disque (VDI VMDK, VHD, HDD)](#mark5.2) et un fichier de description en texte, au format XML avec une extension .ovf. Ces fichiers doivent résider dans le même répertoire pour que VirtualBox puisse les importer.  
+1. Ils peuvent être fournis en plusieurs fichiers, comme une ou plusieurs images de disque, en général au format universel VMDK (voir chapitre [5.2 Fichiers images de disque (VDI VMDK, VHD, HDD)](#mark5.2) et un fichier de description en texte, au format XML avec une extension .ovf. Ces fichiers doivent résider dans le même répertoire pour que VirtualBox puisse les importer.  
 2. Sinon, les fichiers ci-dessus peuvent être empaquetés dans un seul fichier archive, ayant en général une extension .ova. (De tels fichiers archives utilisent une variante du format d'archivage TAR et peuvent donc être déballés hors de VirtualBox avec n'importe quel outil capable de déballer des fichiers TAR standards.)  
 
 Le support d'OVF a été introduit à l'origine avec VirtualBox 2.2 et a connu des améliorations essentielles au fur et à mesure des versions consécutives.  
@@ -1668,7 +1668,7 @@ Sur les hôtes Windows, un pilote de périphérique en mode noyau fournit un sup
 Il implémente un moniteur USB, qui permet à VirtualBox de capturer des périphériques quand ils sont branchés et un pilote de périphérique USB qui amène les périphériques USB à une machine virtuelle.  
 VirtualBox antérieures à 1.4.0, un redémarrage du système n'est plus nécessaire après l'installation du pilote. De plus, vous n'avez plus besoin de rebrancher des périphériques pour que VirtualBox les gère.  
 Sur les hôtes Linux récents, VirtualBox accède aux périphériques USB par des fichiers spéciaux du système de fichiers. Quand VirtualBox est installé, ils sont rendus disponibles pour tous les utilisateurs dans le groupe système vboxusers. Pour pouvoir accéder à l'USB à partir de systèmes invités, assurez-vous d'être membre de ce groupe.  
-Sur les anciens hôtes Linux, on accède aux périphériques USB en utilisant le système de fichiers usbfs. Donc, l'utilisateur qui exécute VirtualBox a besoin des droits en lecture et écriture sur le système de fichiers USB. La plupart des distributions fournissent un groupe (comme usbusers) où doit être ajouté l'utilisateur VirtualBox. En outre, VirtualBox ne peut pas faire un proxy avec les périphériques USB de la machine virtuelle qui ne sont pas gérés par un pilote USB de l'hôte Linux. L'entrée `Driver= de /proc/bus/usb/devices` vous montrera les périphériques actuellement reconnus. Merci de vous reporter aussi au chapitre [12.7.7 L'USB ne fonctionne pas](#mark12.7.7] pour des détails sur usbfs.  
+Sur les anciens hôtes Linux, on accède aux périphériques USB en utilisant le système de fichiers usbfs. Donc, l'utilisateur qui exécute VirtualBox a besoin des droits en lecture et écriture sur le système de fichiers USB. La plupart des distributions fournissent un groupe (comme usbusers) où doit être ajouté l'utilisateur VirtualBox. En outre, VirtualBox ne peut pas faire un proxy avec les périphériques USB de la machine virtuelle qui ne sont pas gérés par un pilote USB de l'hôte Linux. L'entrée `Driver= de /proc/bus/usb/devices` vous montrera les périphériques actuellement reconnus. Merci de vous reporter aussi au chapitre [12.7.7 L'USB ne fonctionne pas](#mark12.7.7) pour des détails sur usbfs.  
 
 [Retour à la table des matières](#Table des matières)
 
@@ -2137,7 +2137,7 @@ Pour effectuer des changements sur les dossiers partagés montés automatiquemen
 
 # 4.4 L'accélération graphique matérielle<a id="mark4.4"></a>
 
-# 4.4.1 Accélération 3D matérielle (OpenGL et Direct3D 8/9)<a id="mark4.4.1></a>
+# 4.4.1 Accélération 3D matérielle (OpenGL et Direct3D 8/9)<a id="mark4.4.1"></a>
 
 Les suppléments invité de VirtualBox contiennent un support 3D matériel expérimental pour les invités Windows, Linux et Solaris.  
 Avec cette fonction, si une application de votre machine virtuelle utilise des fonctions 3D via les interfaces de programmation OpenGL ou Direct3D 8/9, plutôt qu'une émulation logicielle (qui serait lente), VirtualBox essaiera d'utiliser le matériel 3D de votre hôte. Cela fonctionne pour toutes les plateformes hôtes supportées (Windows, Mac, Linux, Solaris), pourvu que votre système d'exploitation hôte puisse utiliser votre accélération 3D matérielle au premier plan.  
@@ -2148,7 +2148,7 @@ L'accélération 3D suppose actuellement les conditions suivantes :
 * OpenGL sur Linux exige un noyau 2.6.27 et supérieur et le serveur X.org version 1.5 et supérieur. Ubuntu 10.10 et Fedora 14 ont été testées et confirmées comme opérationnelles.  
 * OpenGL sur les invités Solaris exige le serveur X.org version 1.5 et supérieur.  
 2. Les suppléments invité doivent être installés.  
-Note: Pour l'accélération Direct3D de base fonctionne avec les invités Windows, VirtualBox a besoin de remplacer des fichiers système de Windows dans la machine virtuelle. Donc, le programme d'installation suppléments invité offre l'accélération Direct3D en option que vous devez activer explicitement. De plus, vous devez installer les suppléments invité en mode "Sans échec". Cela ne s'applique pas au pilote graphique expérimental WDDM Direct3D disponible pour les invités Vista et Windows 7, voir le chapitre [14 Limites connues][(#mark14) pour les détails.  
+Note: Pour l'accélération Direct3D de base fonctionne avec les invités Windows, VirtualBox a besoin de remplacer des fichiers système de Windows dans la machine virtuelle. Donc, le programme d'installation suppléments invité offre l'accélération Direct3D en option que vous devez activer explicitement. De plus, vous devez installer les suppléments invité en mode "Sans échec". Cela ne s'applique pas au pilote graphique expérimental WDDM Direct3D disponible pour les invités Vista et Windows 7, voir le chapitre [14 Limites connues](#mark14) pour les détails.  
 3. Le support 3D étant pour l'instant expérimental, il est désactivé par défaut et il faut l'activer à la main dans les paramètres de la VM (voir le chapitre [3.3 Paramètres généraux).](#mark3.3)  
 
 Le support OpenGL pour les invités Windows a été ajouté avec VirtualBox 2.1 ; le support pour Linux et Solaris a suivi avec VirtualBox 2.2. Avec VirtualBox 3.0, le support Direct3D 8/9 a été ajouté pour les invités Windows. OpenGL 2.0 est maintenant supporté aussi. Avec VirtualBox 4.1, le support du thème Windows Aero a été ajouté pour les invités Windows Vista et Windows 7 (expérimental)  
@@ -2363,7 +2363,7 @@ Vous pouvez voir l'opération de fusion de page en utilisant des métriques. `RA
 Comme la machine virtuelle s'attendra, la plupart du temps, à voir un disque dur construit dans son ordinateur virtuel, VirtualBox doit pouvoir présenter du "vrai" stockage à l'invité comme un disque dur virtuel. Il existe aujourd'hui trois méthodes pour faire cela :  
 
 1. Le plus souvent, VirtualBox utilisera de gros fichiers images sur un vrai disque dur et les présentera à un invité comme des disques durs virtuels. Cela est décrit au chapitre [5.2 Fichiers images de disque (VDI, VMDK, VHD, HDD) .](#mark5.2)  
-2. Sinon, si vous avez des serveurs de stockage iSCSI, vous pouvez connecter un tel serveur à VirtualBox comme le décrit le chapitre [5.10 Serveurs iSCSI.])#mark5.10)  
+2. Sinon, si vous avez des serveurs de stockage iSCSI, vous pouvez connecter un tel serveur à VirtualBox comme le décrit le chapitre [5.10 Serveurs iSCSI.](#mark5.10)  
 3. Enfin, comme fonction avancée, vous pouvez permettre à une machine virtuelle d'accéder directement à un des disques durs de votre hôte ; cette fonction avancée est décrite au chapitre [9.9.1 Utiliser un disque dur brut de l'hôte à partir de l'invité.](#mark9.9.1)  
 
 Chaque périphérique virtuel (fichier image, cible iSCSI ou disque physique) devra être con-necté au contrôleur de disque dur virtuel présenté par VirtualBox à une machine virtuelle. Ceci est expliqué dans la prochaine section.  
@@ -4178,7 +4178,7 @@ Vous pouvez spécifier ce qui suit :
 Après cela, l'état de la VM sera "éteint". À partir de là, vous pouvez la relancer ; voir chapitre [8.12 VBoxManage startvm.](#mark8.12)  
 * VBoxManage controlvm `<vm>` savestate sauvegardera l'état actuel de la VM sur le disque et arrêtera la VM. (Cela revient à sélectionner l'élément "Fermer" du menu "Machine" de l'interface graphique ou à appuyer sur le bouton fermer de la fenêtre et sélectionner "Sauvegarder l'état de la machine" dans la boîte de dialogue.)  
 Après cela, l'état de la machine sera "Sauvegardé". À partir de là, vous pouvez la relancer ; voir chapitre [8.12 VBoxManage startvm.](#mark8.12)  
-* VBoxManage controlvm `<vm> teleport `--hostname <nom> --port <port> [--passwordfile<fichier> | --password <mot_de_passe>]` passe la machine en source de téléportation et engage une téléportation sur la cible donnée. Voir chapitre [7.2 Téléportation](#mark7.2) pour une présentation. Si vous spécifiez le mot de passe facultatif, il doit correspondre à celui donné avec la commande modifyvm pour la machine cible ; voir chapitre [8.8.5 Paramètres de téléportation](#mark8.8.5) pour des détails.  
+* VBoxManage controlvm `<vm> teleport `--hostname <nom> --port <port> [--passwordfile<fichier> | --password <mot_de_passe>]` passe la machine en source de téléportation et engage une téléportation sur la cible donnée. Voir chapitre [7.2 Téléportation](#mark7.2) pour une présentation. Si vous spécifiez le mot de passe facultatif, il doit correspondre à celui donné avec la commande modifyvm pour la machine cible ; voir chapitre [8.8.5 Paramètres de téléportation](#mark8.8.5) pour des détails.
 
 Quelques options supplémentaires sont disponibles avec controlvm, ne modifiant pas directement l'état de la VM en fonction   :
 
@@ -4277,7 +4277,7 @@ Certaines modifications ci-dessus, en particulier concernant les médias amovibl
 mtype Définit la façon dont ce média se comporte vis-à-vis des instantanés et des opérations d'écriture. Voir chapitre [5.4 Modes spéciaux d'écriture d'images](#mark5.4) pour des détails.  
 comment Une description que vous souhaitez stocker avec ce média (facultative ; par exemple pour une cible iSCSI, "Gros serveur de stockage de l'étage inférieur"). C'est purement descriptif et facultatif pour que le média fonctionne correctement.  
 setuuid, setparentuuid Modifie l'UUID ou l'UUID parent d'un média avant de l'attacher à une VM. C'est une option pour experts. Une utilisation impropre peut rendre le média inutilisable ou donner des configurations de VM cassées si une autre VM se réfère déjà au même média. La variante la plus fréquemment utilisée est `--setuuid ""`, qui affecte un nouvel UUID (aléatoire) à une image. Cela sert à résoudre des erreurs d'UUID dupliqués si on a dupliqué une image par les outils de copie de fichiers.  
-passthrough Seulement pour un lecteur DVD virtuel, vous pouvez activer le support de gravure sur DVD (actuellement expérimental ; voir chapitre [5.9 Support des CD/DVD).][(#mark5.9)  
+passthrough Seulement pour un lecteur DVD virtuel, vous pouvez activer le support de gravure sur DVD (actuellement expérimental ; voir chapitre [5.9 Support des CD/DVD).](#mark5.9)  
 tempeject Seulement pour un lecteur DVD virtuel, vous pouvez configurer le comportement pour avoir l'éjection du média synchronisé avec l'invité. Si vous l'activez, l'éjection n'a qu'un effet temporaire. Si vous éteignez puis redémarrez la VM, le média configuré au départ sera toujours dans le lecteur.  
 nonrotational Ce paramètre permet d'activer le drapeau non-rotational pour les disques durs virtuels. Certains invités (comme Windows 7 ou plus) gèrent de tels disques comme des SSDs et ne fragmentent pas de tels médias.  
 bandwidthgroup Définit le groupe de bande passante à utiliser pour le périphérique donné ; voir chapitre [5.8 Limiter la bande passante des images de disque.](#mark5.8)  
@@ -4807,7 +4807,7 @@ où les paramètres signifient :
 Les commandes "debugvm" sont pour les experts qui veulent jouer avec les détails exacts de l'exécution d'une machine virtuelle. Comme le débogueur de la VM décrit au chapitre [12.1.3 Le débogueur de VM intégré](#mark12.1.3) ces commandes ne sont utiles que si vous êtes très familier des détails l'architecture d'une VM et de la façon de déboguer un logiciel.  
 Les sous-commandes de "debugvm" fonctionnent sur une machine virtuelle en fonction. Celles suivantes sont disponibles :  
 
-* Avec `dumpguestcore --filename <nom>`, vous pouvez créer un fichier de renvoi système de la VM en fonction, qui sera écrit dans le fichier donné. Ce fichier aura un format ELF cœur standard (avec des sections personnalisées) ; voir chapitre 12.1.4 Format du cœur d'une VM.](#mark12.1.4)  
+* Avec `dumpguestcore --filename <nom>`, vous pouvez créer un fichier de renvoi système de la VM en fonction, qui sera écrit dans le fichier donné. Ce fichier aura un format ELF cœur standard (avec des sections personnalisées) ; voir chapitre [12.1.4 Format du cœur d'une VM.](#mark12.1.4)  
 Cela correspond à la commande writecore du débogueur.  
 * La commande info est utilisée pour afficher des éléments d'info liés à la VMM, aux émulations de périphérique et aux pilotes associés. Cette commande prend un ou deux arguments : le nom de l'élément d'info, éventuellement suivi d'une chaîne contenant les arguments spécifiques à l'élément d'info. L'élément d'info help fournit une liste des éléments disponibles et des astuces sur les arguments supplémentaires.  
 Cela correspond à la commande info du débogueur.  
