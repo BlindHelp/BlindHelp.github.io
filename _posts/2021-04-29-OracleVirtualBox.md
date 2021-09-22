@@ -4178,8 +4178,7 @@ Vous pouvez spécifier ce qui suit :
 Après cela, l'état de la VM sera "éteint". À partir de là, vous pouvez la relancer ; voir chapitre [8.12 VBoxManage startvm.](#mark8.12)  
 * VBoxManage controlvm `<vm>` savestate sauvegardera l'état actuel de la VM sur le disque et arrêtera la VM. (Cela revient à sélectionner l'élément "Fermer" du menu "Machine" de l'interface graphique ou à appuyer sur le bouton fermer de la fenêtre et sélectionner "Sauvegarder l'état de la machine" dans la boîte de dialogue.)  
 Après cela, l'état de la machine sera "Sauvegardé". À partir de là, vous pouvez la relancer ; voir chapitre [8.12 VBoxManage startvm.](#mark8.12)  
-* VBoxManage controlvm `<vm> teleport `--hostname <nom> --port <port> [--passwordfile<fichier> | --password <mot_de_passe>]` passe la machine en source de téléportation et engage une téléportation sur la cible donnée.  
-Voir chapitre [7.2 Téléportation](#mark7.2) pour une présentation. Si vous spécifiez le mot de passe facultatif, il doit correspondre à celui donné avec la commande modifyvm pour la machine cible ; voir chapitre [8.8.5 Paramètres de téléportation](#mark8.8.5) pour des détails.  
+* `VBoxManage controlvm <vm> teleport --hostname <nom> --port <port> [--passwordfile<fichier> | --password <mot_de_passe>]` passe la machine en source de téléportation et engage une téléportation sur la cible donnée. Voir chapitre [7.2 Téléportation](#mark7.2) pour une présentation. Si vous spécifiez le mot de passe facultatif, il doit correspondre à celui donné avec la commande modifyvm pour la machine cible ; voir chapitre [8.8.5 Paramètres de téléportation](#mark8.8.5) pour des détails.  
 
 Quelques options supplémentaires sont disponibles avec controlvm, ne modifiant pas directement l'état de la VM en fonction   :
 
