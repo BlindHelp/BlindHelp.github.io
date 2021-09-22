@@ -292,6 +292,8 @@ Vous trouverez ci-dessous le lien de l'article en anglais:
 
 [Retour à la table des matières](#Table des matières)
 
+---
+
 Sur ce, je vous souhaite une bonne utilisation du programme GitHub Desktop! 😉    
 @+    
 BlindHelp!    
