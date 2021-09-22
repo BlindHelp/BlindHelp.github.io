@@ -2169,7 +2169,7 @@ Techniquement, VirtualBox implémente cela en installant un pilote 3D matériel 
 
 [Retour à la table des matières](#Table des matières)
 
-# 4.4.2 L'accélération matérielle 2D pour les invités Windows<a id="mark4.4.2></a>
+# 4.4.2 L'accélération matérielle 2D pour les invités Windows<a id="mark4.4.2"></a>
 
 À partir de la version 3.1, les suppléments invité de VirtualBox contiennent le support expérimental de l'accélération graphique 2D matériel pour les invités Windows.  
 Avec cette fonctionnalité, si une application (comme un lecteur de vidéos) de votre VM Windows utilise les couches graphiques 2D pour lire un clip vidéo, VirtualBox essaiera d'utiliser l'accélération graphique matérielle de votre hôte plutôt que de faire de l'interprétation de couches ni conversion de couleurs dans le logiciel (ce qui serait lent). Cela fonctionne actuellement avec les plateformes hôtes Windows, Linux et Mac, pourvu que votre système d'exploitation hôte puisse utiliser l'accélération graphique 2D au premier plan.  
@@ -4178,7 +4178,8 @@ Vous pouvez spécifier ce qui suit :
 Après cela, l'état de la VM sera "éteint". À partir de là, vous pouvez la relancer ; voir chapitre [8.12 VBoxManage startvm.](#mark8.12)  
 * VBoxManage controlvm `<vm>` savestate sauvegardera l'état actuel de la VM sur le disque et arrêtera la VM. (Cela revient à sélectionner l'élément "Fermer" du menu "Machine" de l'interface graphique ou à appuyer sur le bouton fermer de la fenêtre et sélectionner "Sauvegarder l'état de la machine" dans la boîte de dialogue.)  
 Après cela, l'état de la machine sera "Sauvegardé". À partir de là, vous pouvez la relancer ; voir chapitre [8.12 VBoxManage startvm.](#mark8.12)  
-* VBoxManage controlvm `<vm> teleport `--hostname <nom> --port <port> [--passwordfile<fichier> | --password <mot_de_passe>]` passe la machine en source de téléportation et engage une téléportation sur la cible donnée. Voir chapitre [7.2 Téléportation](#mark7.2) pour une présentation. Si vous spécifiez le mot de passe facultatif, il doit correspondre à celui donné avec la commande modifyvm pour la machine cible ; voir chapitre [8.8.5 Paramètres de téléportation](#mark8.8.5) pour des détails.
+* VBoxManage controlvm `<vm> teleport `--hostname <nom> --port <port> [--passwordfile<fichier> | --password <mot_de_passe>]` passe la machine en source de téléportation et engage une téléportation sur la cible donnée.  
+Voir chapitre [7.2 Téléportation](#mark7.2) pour une présentation. Si vous spécifiez le mot de passe facultatif, il doit correspondre à celui donné avec la commande modifyvm pour la machine cible ; voir chapitre [8.8.5 Paramètres de téléportation](#mark8.8.5) pour des détails.  
 
 Quelques options supplémentaires sont disponibles avec controlvm, ne modifiant pas directement l'état de la VM en fonction   :
 
