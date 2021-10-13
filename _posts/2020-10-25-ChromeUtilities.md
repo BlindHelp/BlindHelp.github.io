@@ -37,7 +37,7 @@ Bon surf avec Google Chrome en utilisant la bonne version de l'extension Chrome 
 # Informations sur l'extension ChromeUtilities #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 0.92 (selon le numéro de version correspondante à Chrome 92)    
+* Version actuelle: 0.94 (selon le numéro de version correspondante à Chrome 94)    
 * Compatibilité avec NVDA: de 2019.3 à 2021.1    
 * Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal    
 * Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=chromeutils)    
