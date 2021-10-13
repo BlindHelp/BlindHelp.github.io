@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le  Samedi  29 Mai 2021 - Dernière mise à jour le Lundi 23 Août 2021</footer>
+<footer>Publié le  Samedi  29 Mai 2021 - Dernière mise à jour le Mardi 12 Octobre 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé WhatsApp-desktop créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin d'avoir les raccourcis clavier pour accéder facilement à certaines fonctions de l'application [WhatsApp-desktop pour Windows!](https://www.whatsapp.com/download/)    
@@ -59,7 +59,7 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 # Informations sur l'extension WhatsApp-desktop: #
 
 * Auteur: <span lang="es">Gerar Késsler</span>
-* Version actuelle: 1.1
+* Version actuelle: 2.2140.5
 * Compatibilité avec NVDA: de 2019.3 à 2021.1
 * Langues supportées: Anglais, Espagnol, Français, Portugais du Brésil et du Portugal, et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=whatsappdesktop)
@@ -98,6 +98,7 @@ Remarque: cette extension ne fonctionne que avec le mode formulaire actif.
 * Avancer 5 messages dans la liste; page suivante.
 * Connaître l'état du dernier message envoyé dans la conversation focalisé; contrôle + maj + e.
 * Verbaliser le message en fonction de ça position; alt + 1 à 9 du clavier alphanumérique (Seulement à partir du dialogue d'édition de message).
+* Basculer le focus entre la liste des messages et la zone d'édition lorsque vous entrez dans une cconversation; alt + flèche gauche.
 
 ### Raccourcis généraux de l'application:
 
@@ -152,6 +153,15 @@ Une fois ici, nous pouvons sélectionner et désélectionner des messages avec l
 	Carlos Esteban Martínez Macías (anglais)
 
 ## Journal des changements:  
+### 2.2140.5
+
+* Modifications de la compatibilité avec la version 2.2140.5
+* Geste ajouté pour basculer entre la liste des messages et la zone d'édition.
+
+### 2.2134.10:
+
+* Modifications de la compatibilité avec la version 2.2134.10
+
 ### 1.1:
 
 * Modifications de la compatibilité avec la version 2.2130.9
