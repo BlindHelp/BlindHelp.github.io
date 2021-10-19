@@ -6,7 +6,7 @@ author: BlindHelp
 ---
 
 
-<footer>Publié le  Mardi  Ier Juin 2021 - Dernière mise à jour le Jeudi 8 Juillet 2021</footer>
+<footer>Publié le  Mardi  Ier Juin 2021 - Dernière mise à jour le Dimanche 10 Octobre 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé zUtilidades créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/) qui intègre le module Lanceur d'applications en ajoutant tout le nécessaire pour avoir un lanceur potentiel pour NVDA afin de lancer rapidement nos applications ou nos commandes en ligne ou accéder à nos dossiers préférés!    
@@ -15,13 +15,14 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension  zUtilidades: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.2.2
+* Version actuelle: 0.2.3
 * Compatibilité avec NVDA: de 2019.3 à 2021.1
 * Langues supportées: Espagnol, Français et Portugais du Portugal / Brésil
 * [Télécharger](https://nvda.es/files/get.php?file=zUtilidades)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zUtilidades-para-NVDA)
 
 ---
+
 
 # Manuel de zUtilidades
 
@@ -50,6 +51,7 @@ Sommaire<a id="Sommaire"></a>
 - [Menus virtuels pour le Lanceur d'applications et pour les Notes rapides](#mark13)
 - [Traducteurs et contributeurs](#mark14)
 - [Journal des changements](#mark15)
+- [Version 0.2.3](#mark0.2.3)
 - [Version 0.2.2](#mark0.2.2)
 - [Version 0.2.1](#mark0.2.1)
 - [Version 0.2](#mark0.2)
@@ -126,7 +128,7 @@ Dans ce menu, nous pouvons choisir entre les options suivantes:
 
 * Ajouter une application:
 
-	Si nous ajoutons une application, il existe deux champs obligatoires et c'est le nom de l'application et le répertoire dans lequel notre application est située.
+Si nous ajoutons une application, il existe deux champs obligatoires et c'est le nom de l'application et le répertoire dans lequel notre application est située.
 
 Actuellement, cette extension prend en charge les applications avec les extensions exe, bat et com.
 
@@ -288,6 +290,14 @@ Si nous appuyons sur espace, une fenêtre s'ouvrira où nous ne pouvons voir que
 
 Je tiens à dire que ce module vient sans un raccourci défini, , nous devrons donc l'ajouter dans le dialogue Gestes de commandes.
 
+Un dialogue Options est ajoutée dans le menu Options.
+
+Il n'a actuellement qu'une option qui est la suivante:
+
+* Capturer le titre de la fenêtre dans les notes rapides (de n'importe où)
+
+Si nous cochons cette option lorsque nous appuyons soit sur Ajouter une nouvelle note rapide ou sur Ajouter une note rapide du texte sélectionné le titre de la note sera rempli avec le titre de la fenêtre que à ce moment est focalisée.
+
 # Ajouter une note rapide de n'importe où<a id="mark12"></a>
 
 De plus, le module Notes rapides a une fonctionnalité pour ajouter des notes rapides de n'importe où sans qu'il soit nécessaire d'ouvrir l'extension pour l'ajouter.
@@ -340,14 +350,24 @@ Lorsque nous sommes sur un élément, si nous appuyons sur F1 nous verbalisera l
 
 * Français: Rémy Ruiz
 * Portugais: Ângelo Miguel Abrantes
+* Italien: Alessio Lenzi
 * Javi Domínguez: Mille merci de m'avoir appris à programmer le menu. Mieux dit pour l'expliquer pour les imbéciles comme moi.
 
 # Journal des changements.<a id="mark15"></a>
+## Version 0.2.3.<a id="mark0.2.3"></a>
+
+Ajouté la possibilité de capturer le titre des fenêtres sur Ajouter une nouvelle note rapide ou sur Ajouter une note rapide du texte sélectionné.
+
+Cette option peut être activée dans le menu du module Notes rapides dans la section Options / Options.
+
+Si la case est cochée à partir de ce moment le titre des fenêtres sera capturé d'où il a été invoqué soit les options Ajouter une nouvelle note rapide ou Ajouter une note rapide du texte électionné.
+
 ## Version 0.2.2.<a id="mark0.2.2"></a>
 
 * Ajouté la possibilité de déplacer entre les catégories tantôt pour les 'éléments du lanceur d'applications comme pour les notes.
 * Ajout d'un double appui pour la touche Ajouter une note rapide du texte sélectionné. Maintenant, avec deux appui nous laissera créer une nouvelle note rapide à partir de zéro.
 * Documentation française mise à jour.
+* eAjout de la langue italienne
 
 ## Version 0.2.1.<a id="mark0.2.1"></a>
 
