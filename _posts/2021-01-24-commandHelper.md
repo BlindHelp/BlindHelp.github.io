@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour le Samedi 3 Juillet 2021</footer>
+<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour le Samedi 23 Octobre 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -16,9 +16,9 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 # Informations sur l'extension commandHelper #
 
 * Auteur: <span lang="es">Javi Dominguez</span>
-* Version actuelle: dev20210703
+* Version actuelle: dev20211023
 * Langues: Arabe, Anglais, Chinois, traditionnel et simplifié, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal
-* Compatibilité NVDA:  2018.1 à 2021.1
+* Compatibilité NVDA:  2018.1 à 2021.2
 * Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=cmdHelper-dev)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/javidominguez/commandHelper/)
 
@@ -30,11 +30,14 @@ Fournit une autre méthode d'exécution de scripts pour les personnes qui ont de
 
 ### Mode d'utilisation 
 
-En appuyant sur NVDA+h une couche de commandes clavier est activée avec les options suivantes: 
+Vous devez d'abord configurer une méthode pour invoquer l'assistant. Vous pouvez attribuer un raccourci clavier dans le menu Préférences de NVDA > Gestes de commandes. Vous pouvez également configurer la touche contrôle dans les préférences de l'extension (voir ci-dessous).
+
+Lorsque l'assistant est invoqué une couche de commandes clavier est activée avec les options suivantes: 
 
 * Flèches gauche et droite pour choisir une catégorie. 
 * Toute lettre de A à Z pour sauter à la catégorie avec cette initiale. 
 * Flèches haut et bas pour sélectionner une commande de la catégorie choisie. 
+* Barre d'espace pour appliquer un filtre par la voix. 
 * Entrée pour exécuter la commande. 
 * Majuscule+entrée pour exécuter la commande comme si sa combinaison de touches avait été appuyée deux fois rapidement. 
 * Contrôle+entrée pour exécuter la commande comme si sa combinaison de touches avait été appuyée trois fois. 
@@ -47,7 +50,7 @@ La combinaison de touches permettant d'activer l'assistant de commandes peut êt
 
 Certaines autres touches peuvent être personnalisées dans le menu Préférences de NVDA > Paramètres > Assistant de commandes. 
 
-* Activer/désactiver l'utilisation de la touche contrôle pour invoquer l'assistant. 
+* Activer/désactiver l'utilisation de la touche contrôle pour invoquer l'assistant de commandes. 
 * Sélectionner avec quelle touche l'assistant est abandonné. 
 * Sélectionner avec quelle touche le geste associé à une commande est annoncé.
 * Activer/désactiver la gestion de l'assistant via le pavé numérique. 
@@ -68,7 +71,14 @@ Avec cette option activée, vous pouvez utiliser l'assistant avec les touches du
 * signe moins pour exécuter la commande comme si sa combinaison de touches avait été appuyée trois fois. 
 * Effacement abandonne la couche de commandes et restaure la fonctionnalité normale du clavier. 
 
+#### Filtre par la voix 
+ 
+Dans le menu virtuel, appuyer sur la barre d'espace et parler au microphone. Le menu ne montrera que les commandes correspondant aux mots parlés. Si le résultat n'est pas satisfaisant, appuyez à nouveau sur espace pour effectuer une autre recherche ou échap  pour revenir au menu complet.
+ 
+Pour qu'il fonctionne, il est nécessaire d'avoir une connexion Internet. 
+
 Remarque sur la compatibilité: L'extension est prête à fonctionner avec les versions précédentes de NVDA. La plus ancienne avec laquelle il a été testée est la 2018.1 mais cela devrait fonctionner avec d'autres même plus anciennes. Cependant ne sera pas fourni le support futur pour des problèmes spécifiques pouvant survenir dans ces versions. 
+
 
 ---
 
@@ -76,12 +86,13 @@ Pour mieux illustrer l'utilisation de cette extension, je vous donnerai un exemp
 
 # Exemple d'utilisation de commandHelper #
 
-1. Aller n'importe où sur le bureau.
-2. Appuyer sur NVDA+h.
-3. Flèches gauche et droite pour choisir une catégorie, par exemple  je vais choisir l'extension zRadio ou je peux également appuyer sur la lettre z pour aller au nom de ladite extension.
-4. Flèches haut et bas pour sélectionner une commande de la catégorie choisie, par exemple si je souhaite lancer cette extension zRadio je vais choisir"Affiche la fenêtre principale de zRadio".
-5. Entrée pour exécuter la commande.
-6. Appuyer sur la touche Échap pour sortir de l'assistant de commande.
+1. Au préalable vous pouvez attribuer un raccourci clavier dans le menu Préférences de NVDA > Gestes de commandes. Par exemple, NVDA+h.
+2. Aller n'importe où sur le bureau.
+3. Appuyer sur NVDA+h.
+4. Flèches gauche et droite pour choisir une catégorie, par exemple  je vais choisir l'extension zRadio ou je peux également appuyer sur la lettre z pour aller au nom de ladite extension.
+5. Flèches haut et bas pour sélectionner une commande de la catégorie choisie, par exemple si je souhaite lancer cette extension zRadio je vais choisir"Affiche la fenêtre principale de zRadio".
+6. Entrée pour exécuter la commande.
+7. Appuyer sur la touche Échap pour sortir de l'assistant de commande.
 
 ---
 
