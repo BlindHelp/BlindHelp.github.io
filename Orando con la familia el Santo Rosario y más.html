@@ -8,16 +8,17 @@
 var firstTime = true;
 
 function MM_jumpMenuGo(objId, targ, restore){ //v9.0 
-var selObj = null; with (document) { 
-if (getElementById) selObj = getElementById(objId); 
-// if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'"); 
-if (restore) selObj.selectedIndex=0; } 
+var selObj = document.getElementById(objId);
 // l'url du fichier mp3 du flux
 var url = selObj.options[selObj.selectedIndex].value;
 // on repère l'objet audio de la page
 var aud = document.getElementById("reproductor");
 // on met en pause une éventuelle lecture
 aud.pause();
+// devons-nous rediriger?
+if(MM_jumpMenuRedirect(url) == true){
+return;
+} // End If
 // si c'est la première fois, on impose un volume pas trop fort
 if(firstTime == true){
 aud.volume = 0.5;
@@ -32,9 +33,22 @@ function MM_jumpMenu_KeyDown(e){
 // enter
 if(e.keyCode == 13){
 e.preventDefault();
-document.getElementById("go_button").click();
+MM_jumpMenuGo(e.target.id, 'parent', 0);
 return false;
 } // End If
+} // End Function
+
+function MM_jumpMenuRedirect(url){
+// pour rediriger si nécessaire les flux non en https
+url = url.trim();
+if(url.substring(0, 4) == "http"){
+if(url.substring(0, 5) != "https"){
+saystring("Redirection");
+window.open(url);
+return true;
+} // End If
+} // End If
+return false;
 } // End Function
 
 function btPlayPause_Click(e){
@@ -78,6 +92,32 @@ v = 1
 aud.volume = v;
 //
 saystring("Volume " + parseInt(v * 100) + "%");
+} // End Function
+
+function btForeward_Click(e){
+// to move 10 secondes foreward
+var aud = document.getElementById("reproductor");
+var gap = 10;
+var v = aud.currentTime + gap;
+if(v > aud.duration){
+v = aud.duration;
+} // End If
+aud.currentTime = v;
+//
+saystring("+10secondes");
+} // End Function
+
+function btBackward_Click(e){
+// to move 10 secondes backward
+var aud = document.getElementById("reproductor");
+var gap = 10;
+var v = aud.currentTime - gap;
+if(v < 0){
+v = 0;
+} // End If
+aud.currentTime = v;
+//
+saystring("-10secondes");
 } // End Function
 
 function saystring(s){
@@ -391,9 +431,16 @@ No cabe más clara manifestación de cercanía y disposición de acoger en Su se
 <br />
 
 <hr>
-<label for="Flujos">Elige el flujo de audio de escucha ya sea para escuchar una oración en audio o escuchar una emisora de radio.</label><br />
+
+<h3>
+<label for="Flujos1">
+Oración
+</label>
+</h3>
+
+<br />
 <FORM>
-<select name="jumpMenu" id="jumpMenu" onkeydown="MM_jumpMenu_KeyDown(event);"> 
+<select name="Flujos1" id="Flujos1" onkeydown="MM_jumpMenu_KeyDown(event);"> 
 <option value="1-Audio-EL-ROSARIO-DE-MARIA-Misterios-Gozosos-(lunes-y-sábado)-Rosario-Completo.mp3">1 Audio EL ROSARIO DE MARIA Misterios Gozosos (lunes y sábado) Rosario Completo</option>
 <option value="2-Audio-EL-ROSARIO-DE-MARIA-Misterios-Dolorosos-(martes-y-viernes)-Rosario- Completo.mp3">2 Audio EL ROSARIO DE MARIA Misterios Dolorosos (martes y viernes) Rosario Completo</option>
 <option value="3-Audio-EL-ROSARIO-DE-MARIA-Misterios-Gloriosos-(miércoles-y-domingo)-Rosario-Completo.mp3">3 Audio EL ROSARIO DE MARIA Misterios Gloriosos (miércoles y domingo) Rosario Completo</option>
@@ -401,13 +448,27 @@ No cabe más clara manifestación de cercanía y disposición de acoger en Su se
 <option value="Ángelus.mp3">Ángelus</option>
 <option value="Coronilla-de-la-Divina-Misericordia.mp3">Coronilla de la Divina Misericordia</option>
 <option value="Magnificat-(Canto-de-la-Virgen-María).mp3">Canto de la Virgen María</option>
+</select> 
+</form> 
+
+<input type="button" name="go_button1" id= "go_button1" value="¡Súbeme el flujo de oración correspondiente!" onclick="MM_jumpMenuGo('Flujos1', 'parent', 0)" /> 
+
+<h3>
+<label for="Flujos2">
+Radios
+</label>
+</h3>
+
+<br />
+<FORM>
+<select name="Flujos2" id="Flujos2" onkeydown="MM_jumpMenu_KeyDown(event);"> 
 <option value="http://radio.gisslive.com:9006/stream">Radio Gozo</option>
 <option value="http://dreamsiteradiocp4.com:8020/listen.mp3">Radio Maria Peru (OAX-4M, 580 kHz AM / OBT-4Z 97.7 MHz FM, Lima)</option>
 <option value="https://securestream.conectarhosting.com:8136/live">Radio Santa Rosa</option>
 </select> 
 </form> 
 
-<input type="button" name="go_button" id= "go_button" value="¡Súbeme el flujo de audio correspondiente!" onclick="MM_jumpMenuGo('jumpMenu','parent',0)" /> 
+<input type="button" name="go_button2" id= "go_button2" value="¡Súbeme el flujo de radio correspondiente!" onclick="MM_jumpMenuGo('Flujos2', 'parent', 0)" /> 
 
 <h3>
 Reproductor 
@@ -426,6 +487,12 @@ Volume+
 </button>
 <button onclick="btVolumeDown_Click(event);">
 Volume-
+</button>
+<button onclick="btForeward_Click(event);">
+Avanzar
+</button>
+<button onclick="btBackward_Click(event);">
+Retroceder
 </button>
 </p>
 </div>
