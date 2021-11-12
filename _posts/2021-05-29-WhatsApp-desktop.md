@@ -60,7 +60,7 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 
 * Auteur: <span lang="es">Gerar Késsler</span>
 * Version actuelle: 2.2142.12
-* Compatibilité avec NVDA: de 2019.3 à 2021.1
+* Compatibilité avec NVDA: de 2019.3 à 2021.2
 * Langues supportées: Anglais, Espagnol, Français, Portugais du Brésil et du Portugal, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=whatsappdesktop)
 * [Voir code source sur GitHub](https://github.com/GerardKessler/WhatsApp-desktop)
