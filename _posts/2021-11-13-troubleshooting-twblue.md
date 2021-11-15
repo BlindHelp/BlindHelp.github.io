@@ -39,7 +39,8 @@ Remarque: L'assistant de désinstallation pour le programme TW Blue ne supprime 
 9. Maintenant, nous allons procéder à l'installation de cette nouvelle version de Tw Blue, en faisant entrer sur le fichier exécutable.    
 10. Suivez les instructions à l'écran en laissant toutes les valeurs cochées par défaut et n'oubliez pas d'accepter la licence utilisateur final.    
 11. À la fin de l'installation, une case à cocher est cochée pour lancer TW Blue après la fermeture de l'assistant d'installation. Laissez-le comme ça!    
-12. Eh bien, Patientez s'il-vous-plait un moment, une  fenêtre de Tw Blue comme titre "Nous avons besoin de votre aide" est finalement ouverte, il nous demande de faire un don, appuyez sur le bouton "Non", ncar nous avons pas de pépettes dans le 👛...    
+12. Eh bien, Patientez s'il-vous-plait un moment, une  fenêtre de Tw Blue comme titre:    
+"Nous avons besoin de votre aide" est ouverte, il nous demande de faire un don, appuyez sur le bouton "Non", ncar nous avons pas de pépettes dans le 👛...    
 13. Ensuite une nouvelle fenêtre s'ouvre qui nous propose d'ajouter un compte, il faut la  fermer par échap ou le bouton Annuler puis fermer l'interface de TW Blue par Alt+F4.    
 J'ai oublié de vous dire quand on démarre Tw Blue, en version instalable nous aurons un premier message comme suit:    
 ``TWBlue a détecté que vous exécutez windows 10 et a changé la configuration clavier par défaut à la configuration clavier Windows 10. Cela signifie que certains raccourcis clavier peuvent être différents. S'il vous plaît vérifier le Modificateur de raccourci en appuyant sur Alt+Win+K pour voir tous les raccourcis disponibles pour cette configuration clavier.``    
@@ -86,7 +87,8 @@ twblue_x86 pour 32 bits,
 [Télécharger  TWBlue 2021.11.12 pour 64 bits](https://twblue.es/pubs/twblue_x64.zip)    
 5. Décompressez l'un des fichiers téléchargés (archive zip) en fonction de votre architecture de Windows, soit pour 32 ou 64 bits dans le dossier que nous venons de le vider de son contenu.    
 6. Ensuite recherchez et cliquez sur le fichier  twblue.exe    
-7. Eh bien, Patientez s'il-vous-plait un moment, une  fenêtre de Tw Blue comme titre "Nous avons besoin de votre aide" est finalement ouverte, il nous demande de faire un don, appuyez sur le bouton "Non", ncar nous avons pas de pépettes dans le 👛...    
+7. Eh bien, Patientez s'il-vous-plait un moment, une  fenêtre de Tw Blue comme titre:    
+"Nous avons besoin de votre aide" est ouverte, il nous demande de faire un don, appuyez sur le bouton "Non", ncar nous avons pas de pépettes dans le 👛...    
 8. Ensuite une nouvelle fenêtre s'ouvre qui nous propose d'ajouter un compte, il faut la  fermer par échap ou le bouton Annuler puis fermer l'interface de TW Blue par Alt+F4.    
 9. Lorsque vous démarrez le programme TW Blue en version portable, il sera créés un nouveau dossier nommé config dans ce dossier.    
 10. Si nous avons suivi l'étape précédente faisant référence à la manière de sauvegarder notre dossier config de la version portable, vous devrez le chercher à nouveau.    
