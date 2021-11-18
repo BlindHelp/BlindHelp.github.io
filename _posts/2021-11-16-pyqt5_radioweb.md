@@ -62,6 +62,22 @@ Le nouveau fichier  réparé  sera renommé par: rebuilt.radioweb.rar
 Aller dans le menu Commandes pour le tester puis choisir: Tester les fichiers archivés	Alt+T    
 Et bingo! Le test ne donne aucune erreur dans le fichier! 😉    
 Vous pouvez ensuite le renommé par son nom d'origine d'avant: radioweb.rar    
+Je l'ai réparé l'animal! 😉    
+
+Comme une deuxième alternative, si vous n'avez pas le programme WinRAR , vous pouvez télécharger gratuitement 7-Zip    
+Vous devriez trouver votre bonheur à partir de cette page:    
+[http://www.spiroo.be/7zip/](http://www.spiroo.be/7zip/)    
+Une fois installé 7-Zip, il faudra renommer le fichier: radioweb.zip par: radioweb.rar, faire menu contextuel sur le fichier que nous avons téléchargé précédemment, et choisir:    
+`7-Zip sous-menu`    
+puis choisir:    
+`Ouvrir archive`    
+Une fois que notre fichier est ouvert, nous pouvons voir son contenu.    
+Aller dans le menu Édition puis choisir:    
+`Sélectionner Tout	Shift+[Grey +]`    
+Puis aller dans le menu Fichier puis choisir:    
+`Copier vers...	F5`    
+Puis faire `OK`    
+Et nous aurons tout le contenu de nos fichiers au même niveau où le fichier radioweb.rar est situé. Je l'ai maintenant chopé l'animal! 😉 Ci-dessous, vous aurez le contenu de l'archive décrit par l'auteur.    
 
 Contenu:    
 
