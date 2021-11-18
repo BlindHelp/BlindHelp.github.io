@@ -36,7 +36,7 @@ Table des matières<a id="Table des matières"></a>
 
 ---
 
-# Créer un lecteur de radios internet<a id="Créer-un-lecteur- de-radios-internet"></a>
+# Créer un lecteur de radios internet<a id="Créer-un-lecteur-de-radios-internet"></a>
 
 [développé sous Python v3.5 et PyQt5 v5.9 avec Windows 10]
 
@@ -65,11 +65,11 @@ Vous pouvez ensuite le renommé par son nom d'origine d'avant: radioweb.rar
 
 Contenu:    
 
-	*	 radiowebmini.py: le lecteur de radio internet minimum
-	*	 radioweb.py: le lecteur de radio internet avec playlist
-	*	 radioweb_tray.py: le même lecteur intégré dans la zone de notification
-	*	 icons8-tour-de-radio-50.png et icons8-tour-de-radio-50.ico: les icônes utilisées
-	*	 radioweb.txt: la liste des radios que j'ai retenues pour mon usage
+*	 radiowebmini.py: le lecteur de radio internet minimum
+*	 radioweb.py: le lecteur de radio internet avec playlist
+*	 radioweb_tray.py: le même lecteur intégré dans la zone de notification
+*	 icons8-tour-de-radio-50.png et icons8-tour-de-radio-50.ico: les icônes utilisées
+*	 radioweb.txt: la liste des radios que j'ai retenues pour mon usage
 
 Je n'ai pas mis les scripts pour pyinstaller, mais il est facile de les récupérer ci-dessous par copier-coller. Je n'ai pas mis non plus les exécutables “.exe” qui sont générés par pyinstaller pour être sûr de ne pas diffuser de virus (on n'est plus sûr de rien de nos jours sur ce sujet…).    
 
