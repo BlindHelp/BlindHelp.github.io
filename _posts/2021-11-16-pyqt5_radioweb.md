@@ -21,35 +21,35 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 
 Table des matières<a id="Table des matières"></a>
 -------------
-* [Créer un lecteur de radios internet](#Créer-un-lecteur-de-radios-internet)
-* [Généralités](#Généralités)
-* [Téléchargement](#Téléchargement)
-* [Un lecteur de radio internet minimum](#Un-lecteur-de-radio-internet-minimum)
-* [Un lecteur de radios internet avec "playlist"](#Un-lecteur-de-radios-internet-avec-playlist)
-* [Fichier des radios retenues](#Fichier-des-radios-retenues)
-* [Code proposé](#Code-proposé1)
-* [Version autonome avec pyinstaller](#Version-autonome-avec-pyinstaller1)
-* [Intégration du lecteur dans la zone de notification](#Intégration-du-lecteur-dans-la-zone-de-notification)
-* [Code proposé](#Code-proposé2)
-* [Version autonome avec pyinstaller](#Version-autonome-avec-pyinstaller2)
+* [Créer un lecteur de radios internet](#mark1)
+* [Généralités](#mark2)
+* [Téléchargement](#mark3)
+* [Un lecteur de radio internet minimum](#mark4)
+* [Un lecteur de radios internet avec "playlist"](#mark5)
+* [Fichier des radios retenues](#mark6)
+* [Code proposé](#mark7)
+* [Version autonome avec pyinstaller](#mark8)
+* [Intégration du lecteur dans la zone de notification](#mark9)
+* [Code proposé](#mark10)
+* [Version autonome avec pyinstaller](#mark11)
 
 
 ---
 
-# Créer un lecteur de radios internet<a id="Créer-un-lecteur-de-radios-internet"></a>
+# Créer un lecteur de radios internet<a id="mark1"></a>
 
 [développé sous Python v3.5 et PyQt5 v5.9 avec Windows 10]
 
 [Retour à la table des matières](#Table des matières)
 
-# Généralités<a id="Généralités"></a>
+# Généralités<a id="mark2"></a>
 
 Python, que certains considèrent encore comme un “langage de script” (!) dispose, grâce à des bibliothèques comme PyQt5, de possibilités importantes dans le domaine multimédia. J'ai eu alors envie d'avoir un lecteur de radios internet pour mon propre usage, et comme ça marche très bien, je vais vous en faire profiter!    
 Je n'ai pas utilisé d'instructions spécifiques à l'un des OS courants (Windows, Linux, MacOS), aussi je pense que ça fonctionnera sur ces 3 OS. Cependant, j'ai fait le développement sous Windows 10, et j'ai pu voir que sous Linux, il pouvait y avoir des subtilités d'installation à résoudre avant que ça marche… Je n'ai pas (encore) essayé sous Mac OS.    
 
 [Retour à la table des matières](#Table des matières)
 
-# Téléchargement<a id="Téléchargement"></a>
+# Téléchargement<a id="mark3"></a>
 
 Vous pouvez trouver ici les différents fichiers dont on parle plus bas, sous forme d'archive compressée “zip”:    
 [radioweb.zip](https://python.jpvweb.com/python/mesrecettespython/lib/exe/fetch.php?media=radioweb.zip)
@@ -75,7 +75,7 @@ Je n'ai pas mis les scripts pour pyinstaller, mais il est facile de les récupé
 
 [Retour à la table des matières](#Table des matières)
 
-# Un lecteur de radio internet minimum<a id="Un-lecteur-de-radio-internet-minimum"></a>
+# Un lecteur de radio internet minimum<a id="mark4"></a>
 
 Voilà une version minimum. Vous voyez que la partie purement écoute prend… 3 lignes! Et en fait, il a fallu créer une petite fenêtre uniquement pour pouvoir arrêter le programme.    
 L'écoute de la radio internet utilise le module QtMultimedia de PyQt5.    
@@ -179,7 +179,7 @@ Il s'agit ici d'une version minimale pour l'écoute d'une seule radio. Mais, on 
 
 [Retour à la table des matières](#Table des matières)
 
-# Un lecteur de radios internet avec "playlist"<a id="Un-lecteurde-radios-internet-avec-playlist"></a>
+# Un lecteur de radios internet avec "playlist"<a id="mark5"></a>
 
 Avec cette version plus complète et plus confortable, le lancement du programme affiche une fenêtre (QWidget) avec la liste des radios choisies (QTableWidget).    
 Un double-clic sur n'importe quelle radio de cette liste lancera son écoute. On peut aussi naviguer avec le clavier, et la touche “entrée” sélectionnera la radio à écouter et lancera son écoute.    
@@ -188,7 +188,7 @@ Pour arrêter le programme (et donc l'écoute), on peut faire “clic-droit ⇒ 
 
 [Retour à la table des matières](#Table des matières)
 
-# Fichier des radios retenues<a id="Fichier-des-radios-retenues"></a>
+# Fichier des radios retenues<a id="mark6"></a>
 
 ```
 Les radios sont dans le fichier “radioweb.txt” (encodé 'utf-8') et chaque ligne désigne une radio avec un format: “nom_radio | url_radio”. Le séparateur '|' a été choisi parce qu'il a peu de chance de se retrouver dans un nom de radio ou dans son adresse web. Voilà par exemple mon fichier radioweb.txt avec toutes les radios que j'ai retenues pour mon usage:
@@ -218,11 +218,11 @@ A noter que j'ai essayé le format traditionnel des playlists ”.m3u“ (et mê
 
 [Retour à la table des matières](#Table des matières)
 
-# Code proposé<a id="Code-proposé1"></a>
+# Code proposé<a id="mark7"></a>
 
 Petite particularité du code proposé: il peut être exécuté directement, mais aussi importé pour l'utilisation à partir de la zone de notification (voir chapitre suivant). La variable booléenne globale NOTIF permet de tenir compte des 2 cas, ce qui permet de n'avoir qu'un seule page de codes pour les 2 utilisations.    
 Voilà le code proposé, largement commenté. Le programme s'appelle chez moi “radioweb.py” (on peut mettre .pyw sous Windows pour éviter l'affichage de la console):    
-``````
+```
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Python3 v3.5 PyQt5 v5.9
@@ -553,10 +553,10 @@ if __name__ == "__main__":
 
 [Retour à la table des matières](#Table des matières)
 
-# Version autonome avec pyinstaller<a id="Version-autonome-avecpyinstaller1"></a>
+# Version autonome avec pyinstaller<a id="mark8"></a>
 
 On peut convertir le programme précédent pour avoir un fichier exécutable autonome, avec tout ce qui est nécessaire à son bon fonctionnement (interpréteur Python et bibliothèques utilisées).    
-Sous Windows, voilà la ligne de commande qu'on peut utiliser sous forme d'un fichier de commande pour la console cmd.exe, qui s'appelle chez moi: “radioweb.bat” et qui fabrique un fichier exécutable unique “radioweb.exe:  
+Sous Windows, voilà la ligne de commande qu'on peut utiliser sous forme d'un fichier de commande pour la console cmd.exe, qui s'appelle chez moi: “radioweb.bat” et qui fabrique un fichier exécutable unique “radioweb.exe:    
 ```
 SET programme=radioweb
 
@@ -582,23 +582,23 @@ Comme pyinstaller est multiplateforme, on devrait pouvoir faire quelque chose de
 
 [Retour à la table des matières](#Table des matières)
 
-# Intégration du lecteur dans la zone de notification<a id="Intégration-du-lecteur-dans-la-zone-de-notification"></a>
+# Intégration du lecteur dans la zone de notification<a id="mark9"></a>
 
 La version ci-dessus est confortable, mais elle prend la place d'un programme normal dans la barre des tâches. Une autre solution plus intéressante est de l'intégrer dans la zone de notification.
 
 [Retour à la table des matières](#Table des matières)
 
-# Code proposé<a id="Code-proposé2"></a>
+# Code proposé<a id="mark10"></a>
 
 Dans ce cas, il y a une icône spécifique qui s'ajoute dans cette zone. Voilà comment ça marche:    
 
-	*	 Quand on clique sur cette icône, la fenêtre avec toutes les radios s'affiche pour qu'on en sélectionne une à écouter.
-	*	 Quand la fenêtre des radios est affichée, on peut sélectionner une radio avec un double-clic, mais aussi avec le clavier: “entrée” pour lancer l'écoute, “Alt-P” pour la pause, “Alt-R” pour la reprise.
-	*	 Après, quand on clique sur la croix de cette fenêtre (ou “Alt-Q”), cette fenêtre disparait mais elle est seulement cachée (.hide()) et non supprimée! Si on veut plus tard changer de radio, on re-clique sur l'icône de notification, et la même fenêtre se ré-affiche (.show()).
-	*	 Pendant l'écoute d'une radio, on peut mettre en pause ou reprendre en utilisant les menus popup (clic-droit), tant sur l'icône de notification que sur la fenêtre des radios.
-	*	 Pour arrêter le programme, on fait clic-droit sur l'icône de notification et on sélectionne “Quitter” sur le menu popup. Il faut ensuite confirmer dans une fenêtre de questionnement pour que le programme s'arrête.    
+*	 Quand on clique sur cette icône, la fenêtre avec toutes les radios s'affiche pour qu'on en sélectionne une à écouter.
+*	 Quand la fenêtre des radios est affichée, on peut sélectionner une radio avec un double-clic, mais aussi avec le clavier: “entrée” pour lancer l'écoute, “Alt-P” pour la pause, “Alt-R” pour la reprise.
+*	 Après, quand on clique sur la croix de cette fenêtre (ou “Alt-Q”), cette fenêtre disparait mais elle est seulement cachée (.hide()) et non supprimée! Si on veut plus tard changer de radio, on re-clique sur l'icône de notification, et la même fenêtre se ré-affiche (.show()).
+*	 Pendant l'écoute d'une radio, on peut mettre en pause ou reprendre en utilisant les menus popup (clic-droit), tant sur l'icône de notification que sur la fenêtre des radios.
+*	 Pour arrêter le programme, on fait clic-droit sur l'icône de notification et on sélectionne “Quitter” sur le menu popup. Il faut ensuite confirmer dans une fenêtre de questionnement pour que le programme s'arrête.    
 En plus, on peut faire que ce programme soit lancé automatiquement à l'allumage du PC. Sous Windows 10, voilà comment on peut faire: mettre un raccourci du programme dans le répertoire suivant:    
-```C:\Users\utilisateur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup```    
+`C:\Users\utilisateur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`    
 Voilà le code proposé pour intégrer le programme précédent dans la zone de notification. Il s'appelle chez moi “radioweb_tray.py” (on peut mettre .pyw sous Windows pour éviter l'affichage de la console):    
 ```
 #! /usr/bin/python
@@ -861,7 +861,7 @@ PAUSE
 ```
 Il faut, bien sûr, adapter les noms et adresses selon la configuration qu'on a, et ne pas oublier de copier à la main le fichier des radios “radioweb.txt” dans le même répertoire.    
 Comme pyinstaller est multiplateforme, on devrait pouvoir faire quelque chose de similaire sous Linux et sous Mac OS, mais je n'ai pas encore essayé.    
-Bonne écoute! Et amusez-vous bien!
+Bonne écoute! Et amusez-vous bien!    
 
 [Retour à la table des matières](#Table des matières)
 
@@ -878,6 +878,7 @@ L'Offrant ne peut retirer les autorisations concédées par la licence tant que 
 Si vous voulez en savoir plus sur cette licence, vous pouvez consulter le lien suivant (page en français):    
 [Creative Commons — Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)    
 C'est pourquoi je me suis permis de le copier et de le partager sur  votre nouvel espace via GitHub!    
+Profitez-en et partagez-le aussi!    
 et enfin...    
 Si vous êtes un programmeur  Python  n'oubliez pas de jeter un coup d'œil sur [Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=Sommaire)    
 Sur ce, je vous souhaite une bonne codification  et utilisation du lecteur de radios internet! 😉    
