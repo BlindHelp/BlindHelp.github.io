@@ -1,0 +1,894 @@
+---
+title: Créer un lecteur de radios internet par Jean-Paul Vidal dit "Tyrtamos"
+permalink: "/pyqt5_radioweb/"
+layout: post
+author: BlindHelp
+---
+
+<footer>Publié le Mardi 16 Novembre 2021</footer>
+
+
+Coucou mes amis du blog de BlindHelp!    
+Aujourd'hui, nous vous apportons la façon de créer un lecteur de radios internet grâce au code trouvé sur  [Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=pyqt5_radioweb) ce qui m'a servi en grande partie à la rédaction de ce post, à savoir que tous les crédits sont pour Monsieur. Jean-Paul Vidal dit "Tyrtamos"    
+Comme vous le savez, je ne suis pas un programmeur ni quoi que ce soit en particulier, je ne suis qu'une personne curieuse, et je cherchais un code pour créer un lecteur de radio Web minimaliste et j'ai dû Retrousser mes manches et mettre la main  dans le cambouis.    
+Ensuite viendra mes explications qui ne sont pas nécessairement inclus dans l'article original sur[Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=pyqt5_radioweb) pour une meilleure compréhension afin que vous puissiez utiliser le code pour le lecteur de radioweb de la meilleure façon possible.  
+Je vous souhaite une bonne lecture.    
+
+Avertissement: 💀  
+Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du logiciel ou du code téléchargé  ni des informations ce trouvant sur le site Web dédié et l'utilisation du programme ou le code téléchargé est à vos risques et périls. ☠  
+
+# pyqt5_radioweb
+
+Table des matières<a id="Table des matières"></a>
+-------------
+* [Créer un lecteur de radios internet](#Créer-un-lecteur-de-radios-internet)
+* [Généralités](#Généralités)
+* [Téléchargement](#Téléchargement)
+* [Un lecteur de radio internet minimum](#Un-lecteur-de-radio-internet-minimum)
+* [Un lecteur de radios internet avec "playlist"](#Un-lecteur-de-radios-internet-avec-playlist)
+* [Fichier des radios retenues](#Fichier-des-radios-retenues)
+* [Code proposé](#Code-proposé1)
+* [Version autonome avec pyinstaller](#Version-autonome-avec-pyinstaller1)
+* [Intégration du lecteur dans la zone de notification](#Intégration-du-lecteur-dans-la-zone-de-notification)
+* [Code proposé](#Code-proposé2)
+* [Version autonome avec pyinstaller](#Version-autonome-avec-pyinstaller2)
+
+
+---
+
+# Créer un lecteur de radios internet<a id="Créer-un-lecteur- de-radios-internet"></a>
+
+[développé sous Python v3.5 et PyQt5 v5.9 avec Windows 10]
+
+[Retour à la table des matières](#Table des matières)
+
+# Généralités<a id="Généralités"></a>
+
+Python, que certains considèrent encore comme un “langage de script” (!) dispose, grâce à des bibliothèques comme PyQt5, de possibilités importantes dans le domaine multimédia. J'ai eu alors envie d'avoir un lecteur de radios internet pour mon propre usage, et comme ça marche très bien, je vais vous en faire profiter!    
+Je n'ai pas utilisé d'instructions spécifiques à l'un des OS courants (Windows, Linux, MacOS), aussi je pense que ça fonctionnera sur ces 3 OS. Cependant, j'ai fait le développement sous Windows 10, et j'ai pu voir que sous Linux, il pouvait y avoir des subtilités d'installation à résoudre avant que ça marche… Je n'ai pas (encore) essayé sous Mac OS.    
+
+[Retour à la table des matières](#Table des matières)
+
+# Téléchargement<a id="Téléchargement"></a>
+
+Vous pouvez trouver ici les différents fichiers dont on parle plus bas, sous forme d'archive compressée “zip”:    
+[radioweb.zip](https://python.jpvweb.com/python/mesrecettespython/lib/exe/fetch.php?media=radioweb.zip)
+
+Pour votre information    
+Une fois téléchargé, il faudra renommer le fichier: radioweb.zip par: radioweb.rar, cela n'est pas annoncé par l'auteur. Je l'ai découvert de pure coïncidence! 😏    
+Ensuite il faudra ouvrir WinRAR archiver puis ouvrir le fichier: radioweb.rar    
+puis aller dans le menu Outils puis choisir: Réparer l'archive	Alt+R    
+Le nouveau fichier  réparé  sera renommé par: rebuilt.radioweb.rar    
+Aller dans le menu Commandes pour le tester puis choisir: Tester les fichiers archivés	Alt+T    
+Et bingo! Le test ne donne aucune erreur dans le fichier! 😉    
+Vous pouvez ensuite le renommé par son nom d'origine d'avant: radioweb.rar    
+
+Contenu:    
+
+	*	 radiowebmini.py: le lecteur de radio internet minimum
+	*	 radioweb.py: le lecteur de radio internet avec playlist
+	*	 radioweb_tray.py: le même lecteur intégré dans la zone de notification
+	*	 icons8-tour-de-radio-50.png et icons8-tour-de-radio-50.ico: les icônes utilisées
+	*	 radioweb.txt: la liste des radios que j'ai retenues pour mon usage
+
+Je n'ai pas mis les scripts pour pyinstaller, mais il est facile de les récupérer ci-dessous par copier-coller. Je n'ai pas mis non plus les exécutables “.exe” qui sont générés par pyinstaller pour être sûr de ne pas diffuser de virus (on n'est plus sûr de rien de nos jours sur ce sujet…).    
+
+[Retour à la table des matières](#Table des matières)
+
+# Un lecteur de radio internet minimum<a id="Un-lecteur-de-radio-internet-minimum"></a>
+
+Voilà une version minimum. Vous voyez que la partie purement écoute prend… 3 lignes! Et en fait, il a fallu créer une petite fenêtre uniquement pour pouvoir arrêter le programme.    
+L'écoute de la radio internet utilise le module QtMultimedia de PyQt5.    
+Le programme est prévu pour être lancé avec l'url (l'adresse web) de la radio internet en argument de la ligne de commande. Avec un bureau graphique (Windows, Linux, MacOS), on peut créer une icône sur le bureau, qui lancera le programme avec la radio souhaitée en argument.    
+Bien que ce ne soit pas son but, ce programme accepte sans problème les fichiers audio locaux de type mp3! Dans le code, on regarde si le fichier existe sur disque, et si oui, on utilise QUrl.fromLocalFile(url) au lieu de QUrl(url), ce qui ajoutera "file:///" au début de l'adresse. Pour tenir compte de Windows, on en profite pour remplacer les éventuels '\' du chemin disque, par des '/'.    
+Voilà le code proposé, très largement documenté. Il s'appelle chez moi “radiowebmini.py (on peut mettre .pyw sous Windows pour éviter l'affichage de la console):    
+```
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# Python3 v3.5 PyQt5 v5.9
+ 
+"""
+Lecteur basique d'une radio internet
+Auteur: Jean-Paul Vidal dit "Tyrtamos" (mai 2018)
+ 
+Pour les adresses web des radios francophones, voir par exemple:
+http://fluxradios.blogspot.fr/
+ 
+Exemple pour la radio "Frequence 3":
+http://ice.stream.frequence3.net/frequence3-128.mp3
+ 
+Pour télécharger une icône, voir par exemple:
+https://icones8.fr/icon/2308/tour-de-radio
+"""
+ 
+import sys
+import os
+ 
+from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton, 
+                             QGridLayout, QMessageBox, QStyleFactory)
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import Qt, QUrl
+from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
+ 
+#############################################################################
+class RadioWeb(QWidget):
+ 
+    def __init__(self, qurlradio, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Radio internet")
+        self.resize(250,50)
+        self.setAttribute(Qt.WA_DeleteOnClose, True)
+ 
+        # ajoute un bouton pour arrêter le programme (et l'écoute)
+        self.bouton = QPushButton("Arrêter", self)
+        self.bouton.setStyleSheet("background-color:lightgreen;")
+        self.bouton.clicked.connect(self.close) # fermeture
+        layout = QGridLayout()
+        layout.addWidget(self.bouton, 0, 0) # bouton au milieu de fenêtre
+        self.setLayout(layout)
+ 
+        # crée le player
+        self.player = QMediaPlayer()
+ 
+        # et lance l'écoute de la radio demandée
+        self.player.setMedia(QMediaContent(qurlradio))
+        self.player.play()
+ 
+#############################################################################
+if __name__ == "__main__":
+ 
+    # active la bibliothèque graphique
+    app = QApplication(sys.argv)
+ 
+    # met un style pour toute l'application
+    app.setStyle(QStyleFactory.create("Fusion"))
+ 
+    # option: met une icone pour l'application
+    icone = "icons8-tour-de-radio-50.png"
+    icone = os.path.join(os.path.dirname(os.path.abspath(__file__)), icone)
+    app.setWindowIcon(QIcon(icone))
+ 
+    # récupére l'argument en ligne de commande
+    if len(sys.argv)>1:
+        url = sys.argv[1]
+        if os.path.exists(url):
+            # l'url est un fichier audio local sur disque
+            qurl = QUrl.fromLocalFile(url.replace('\\', '/'))
+        else:
+            # l'url est une adresse internet
+            qurl = QUrl(url)
+    else:
+        QMessageBox.information(None, 
+            "Chargement de la radio", 
+            "Aucune radio n'a été demandée")
+        app.quit()
+        sys.exit()
+ 
+    # lance la fenêtre pour l'écoute de la radio
+    radioweb = RadioWeb(qurl)
+    radioweb.show()
+ 
+    # boucle de traitement des évènements et sortie du programme    
+    sys.exit(app.exec_())
+```
+Si ce programme s'appelle “radiowebmini.py”, il faudra pour écouter l'excellente radio “fréquence 3” faire dans une console (cmd.exe pour Windows):    
+`python radiowebmini.py http://ice.stream.frequence3.net/frequence3-128.mp3`    
+Il faut adapter cette ligne de code selon l'OS. Par exemple, sous Linux, il faut en général utiliser python3 pour avoir l'interpréteur Python version 3.x. etc…    
+Au lancement, la radio démarre au bout de quelques secondes (temps de mise en cache), et une petite fenêtre apparait dont la vocation est de permettre l'arrêt du programme (et donc de l'écoute).    
+Il s'agit ici d'une version minimale pour l'écoute d'une seule radio. Mais, on peut faire mieux en ajoutant une “playlist” qui permet à tout moment de sélectionner la radio qu'on a envie d'écouter parmi les radios disponibles. C'est l'objet du chapitre suivant.    
+
+[Retour à la table des matières](#Table des matières)
+
+# Un lecteur de radios internet avec "playlist"<a id="Un-lecteurde-radios-internet-avec-playlist"></a>
+
+Avec cette version plus complète et plus confortable, le lancement du programme affiche une fenêtre (QWidget) avec la liste des radios choisies (QTableWidget).    
+Un double-clic sur n'importe quelle radio de cette liste lancera son écoute. On peut aussi naviguer avec le clavier, et la touche “entrée” sélectionnera la radio à écouter et lancera son écoute.    
+Pour faire une pause dans l'écoute, on peut faire “clic droit ⇒ Pause” dans le petit menu popup, ou faire “Alt-P” au clavier. Pour reprendre, on fera “clic-droit ⇒ Reprendre” ou “Alt-R” au clavier.    
+Pour arrêter le programme (et donc l'écoute), on peut faire “clic-droit ⇒ Quitter” ou simplement cliquer sur la croix de la fenêtre ou encore faire “Alt-Q” au clavier.    
+
+[Retour à la table des matières](#Table des matières)
+
+# Fichier des radios retenues<a id="Fichier-des-radios-retenues"></a>
+
+```
+Les radios sont dans le fichier “radioweb.txt” (encodé 'utf-8') et chaque ligne désigne une radio avec un format: “nom_radio | url_radio”. Le séparateur '|' a été choisi parce qu'il a peu de chance de se retrouver dans un nom de radio ou dans son adresse web. Voilà par exemple mon fichier radioweb.txt avec toutes les radios que j'ai retenues pour mon usage:
+`#` liste des radios internet francophones. Voir ici par exemple:
+# http://fluxradios.blogspot.fr
+# format des lignes: nom_radio | url_radio
+# les lignes vides ou commençant par '#' ne comptent pas
+
+RadioSwissClassic | http://stream.srg-ssr.ch/m/rsc_fr/mp3_128
+France Musique | http://direct.francemusique.fr/live/francemusique-midfi.mp3
+RadioClassique | http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3
+Nostalgie | http://cdn.nrjaudio.fm/audio1/fr/30601/mp3_128.mp3
+Fréquence3 |  http://ice.stream.frequence3.net/frequence3-128.mp3
+NRJ | http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3
+Skyrock | http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3
+Cherie FM | http://cdn.nrjaudio.fm/audio1/fr/30201/mp3_128.mp3
+Rires et Chansons | http://cdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3
+Fun radio | http://streaming.radio.funradio.fr/fun-1-44-128
+RTL2 | http://streaming.radio.rtl2.fr/rtl2-1-44-128
+OuiFM | http://ouifm.ice.infomaniak.ch/ouifm-high.mp3
+Mistral FM (Toulon) | http://mistralfm.ice.infomaniak.ch/mistralfm-high.mp3
+Attention: ces adresses peuvent changer à tout moment! Alors, si une radio ne marche plus, cherchez une autre adresse sur le web, et mettez à jour votre fichier avec un simple éditeur de texte (avec encodage 'utf-8' pour les accents).
+Même si ce n'est pas le but du programme, les fichiers “audio” locaux type mp3 sont acceptés avec le même format. On peut par exemple avoir la ligne suivante (cas de Windows: aucun problème pour avoir des espaces ou des caractères accentués dans le chemin, ou pour conserver les '\' qui seront neutralisés dans le code):
+Titre du morceau | C:\chemin_vers_le_fichier\fichier.mp3
+A noter que j'ai essayé le format traditionnel des playlists ”.m3u“ (et même ”.m3u8“ pour l'encodage 'utf-8') créées initialement pour le lecteur WinAmp. Malheureusement, QtMultimedia intègre bien les url sans générer d'erreur, mais pas les noms des radios qui sont pourtant nécessaires ici. Les versions suivantes de PyQt5 ajouteront peut-être cette fonctionnalité?
+```
+
+[Retour à la table des matières](#Table des matières)
+
+# Code proposé<a id="Code-proposé1"></a>
+
+Petite particularité du code proposé: il peut être exécuté directement, mais aussi importé pour l'utilisation à partir de la zone de notification (voir chapitre suivant). La variable booléenne globale NOTIF permet de tenir compte des 2 cas, ce qui permet de n'avoir qu'un seule page de codes pour les 2 utilisations.    
+Voilà le code proposé, largement commenté. Le programme s'appelle chez moi “radioweb.py” (on peut mettre .pyw sous Windows pour éviter l'affichage de la console):    
+``````
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# Python3 v3.5 PyQt5 v5.9
+ 
+"""
+Lecteur avec playlist d'une radio internet
+Auteur: Jean-Paul Vidal dit "Tyrtamos" (mai 2018)
+ 
+Les noms et adresses des radios sont dans le fichier radioweb.txt
+ 
+Pour les adresses web des radios francophones, voir par exemple:
+http://fluxradios.blogspot.fr/
+ 
+Aussi sur les sites web des radios. Exemple pour "Frequence 3":
+http://ice.stream.frequence3.net/frequence3-128.mp3
+ 
+Pour télécharger une icône, voir par exemple:
+https://icones8.fr/icon/2308/tour-de-radio
+"""
+ 
+import sys
+import os
+ 
+from PyQt5.QtWidgets import (QApplication, QWidget, QTableWidget, QMenu, 
+    QTableWidgetItem, QAbstractItemView, QGridLayout, QMessageBox, 
+    QStyleFactory, QAction)
+ 
+from PyQt5.QtGui import QFont, QIcon
+ 
+from PyQt5.QtCore import (Qt, QUrl, pyqtSlot, QLocale, QLibraryInfo, 
+    QTranslator, qInstallMessageHandler)
+ 
+from PyQt5.QtMultimedia import QMediaPlayer, QMediaPlaylist, QMediaContent
+ 
+##############################################################################
+# variables globales
+ 
+# indique si ce script est exécuté directement ou seulement importé
+NOTIF = True
+ 
+##############################################################################
+def chargeradios(fichieradios):
+    """charge les radios du fichier radioweb.txt
+       format de chaque ligne de ce fichier: "nom | url"
+       retourne une liste de listes: [..., [nom, url], ...]
+    """
+    if not os.path.exists(fichieradios):
+        raise ValueError("Le fichier 'radioweb.txt' n'est pas trouvé")
+    radios = []
+    with open(fichieradios, "r", encoding="utf-8") as fs:
+        for ligne in fs:
+            ligne = ligne.strip()
+            if ligne=="":
+                continue # ligne vide => non utilisée
+            if ligne.startswith('#'):
+                continue # ligne commentaire => non utilisée
+            nom, url = ligne.split('|')
+            radios.append([nom.rstrip(), url.lstrip()])
+    return radios            
+ 
+##############################################################################
+class RadioWeb(QWidget):
+    """fenêtre qui présente la liste des radios disponibles et qui permet de
+       sélectionner celle qu'on veut écouter
+    """
+ 
+    #=========================================================================
+    def __init__(self, radios=(), parent=None):
+        super().__init__(parent)
+ 
+        self.resize(250, 500)
+        self.setWindowTitle("Radio Internet")
+ 
+        # fait que la fenêtre sera détruite après sa fermeture
+        self.setAttribute(Qt.WA_DeleteOnClose, True)
+ 
+        # stocke la liste des radios [..., [nom, url], ...]
+        self.radios = radios
+ 
+        # définit les polices de caractères à utiliser
+        famille = "DejaVu Sans"
+        taille = 9
+ 
+        # police normale
+        self.font = QFont()
+        self.font.setFamily(famille)
+        self.font.setPointSize(taille)
+ 
+        # police avec gras et italique pour la radio sélectionnée
+        self.fontselect = QFont()
+        self.fontselect.setFamily(famille)
+        self.fontselect.setPointSize(taille)
+        self.fontselect.setBold(True)
+        self.fontselect.setItalic(True)
+ 
+        # Crée un QTableWidget pour afficher les radios disponibles
+        self.tw = QTableWidget(self)
+        self.tw.setFont(self.font)
+        self.nbrow, self.nbcol = len(self.radios), 1
+        self.tw.setRowCount(self.nbrow)
+        self.tw.setColumnCount(self.nbcol)
+ 
+        # positionne le QTableWidget dans la fenêtre
+        posit = QGridLayout()
+        posit.addWidget(self.tw, 0, 0)
+        self.setLayout(posit)
+ 
+        # un double-clic lancera la radio sélectionnée
+        self.tw.cellDoubleClicked.connect(self.selection)
+ 
+        # peuple le QTableWidget avec les noms des radios (lecture seule)
+        for row in range(0, self.nbrow):
+            item = QTableWidgetItem(self.radios[row][0])
+            item.setFlags(Qt.ItemIsSelectable | Qt.ItemIsEnabled)
+            self.tw.setItem(row, 0, item)
+ 
+        # met un titre en haut de la colonne affichée
+        self.tw.setHorizontalHeaderItem(0, QTableWidgetItem("Radios"))
+ 
+        # ajuste pour que la colonne affichée prenne toute la place horiz.
+        h = self.tw.horizontalHeader()
+        h.setStretchLastSection(True)
+ 
+        # pour faire la sélection d'une seule ligne à la fois
+        self.tw.setSelectionMode(QAbstractItemView.SingleSelection)
+ 
+        # la sélection pourra être faite avec la souris et le clavier
+        self.tw.setFocusPolicy(Qt.StrongFocus)
+ 
+        # crée la playlist à partir de la liste des radios demandées
+        self.playlist = QMediaPlaylist()
+        for _, urlradio in radios:
+            if os.path.exists(urlradio):
+                # l'url est un fichier audio local sur disque
+                qurlradio = QUrl.fromLocalFile(urlradio.replace('\\', '/'))
+            else:
+                # l'url est une adresse internet
+                qurlradio = QUrl(urlradio)
+            self.playlist.addMedia(QMediaContent(qurlradio))
+ 
+        # crée le player
+        self.player = QMediaPlayer()
+ 
+        # met la playlist dans le player
+        self.player.setPlaylist(self.playlist)
+ 
+        # met en place un menu 'popup' pour le QTableWidget
+        self.tw.setContextMenuPolicy(Qt.CustomContextMenu)
+        self.tw.customContextMenuRequested.connect(self.popupmenutphotos)
+ 
+        # met le focus sur le QTableWidget et la case courante sur [0,0]
+        self.tw.setFocus()
+        self.tw.setCurrentCell(0, 0)
+ 
+    # =======================================================================
+    @pyqtSlot("QPoint")
+    def popupmenutphotos(self, position):
+        """crée et affiche le menu popup du QTableWidget
+        """
+        popupmenu = QMenu(self)
+ 
+        actionPause = QAction("Pause", self)
+        actionPause.triggered.connect(self.pause)
+        popupmenu.addAction(actionPause)
+ 
+        actionReprendre = QAction("Reprendre", self)
+        actionReprendre.triggered.connect(self.reprendre)
+        popupmenu.addAction(actionReprendre)
+ 
+        popupmenu.addSeparator()
+ 
+        if NOTIF:
+            actionCacher = QAction("Cacher", self)
+            actionCacher.triggered.connect(self.hide)
+            popupmenu.addAction(actionCacher)
+        else:    
+            actionQuitter = QAction("Quitter", self)
+            actionQuitter.triggered.connect(self.close)
+            popupmenu.addAction(actionQuitter)
+ 
+        popupmenu.exec_(self.tw.viewport().mapToGlobal(position))
+ 
+    #=========================================================================
+    @pyqtSlot()
+    def pause(self):
+        """Méthode lancée par le choix 'pause' du menu popup
+        """
+        self.player.pause()
+ 
+    #=========================================================================
+    @pyqtSlot()
+    def reprendre(self):
+        """Méthode lancée par le choix 'reprendre' du menu
+        """
+        rowpl = self.player.playlist().currentIndex()
+        # relance la lecture seulement si une radio a déjà été lue avant
+        if self.tw.item(rowpl, 0).font() == self.fontselect:
+            self.player.play()
+ 
+    #=========================================================================
+    @pyqtSlot(int, int)
+    def selection(self, row, _):
+        """Méthode lancée par un double-clic sur la radio sélectionnée
+           => déclenche la lecture de cette radio (=> nom en gras-italique)
+        """
+        self.player.playlist().setCurrentIndex(row)
+        self.player.play()
+ 
+        # met en police normale toutes les radios
+        for i in range(0, self.nbrow):
+            self.tw.item(i, 0).setFont(self.font)
+ 
+        # et met en gras-italique la radio sélectionnée
+        self.tw.item(row, 0).setFont(self.fontselect)
+ 
+    #=========================================================================
+    @pyqtSlot("QEvent")
+    def keyPressEvent(self, event):
+        """permet de sélectionner une radio au clavier
+        """
+        if event.key()==Qt.Key_Enter or event.key()==Qt.Key_Return:
+            # sélectionne la radio avec l'une des 2 touches "entrée"
+            self.selection(self.tw.currentRow(), 0)
+            event.accept()
+ 
+        elif event.key()==Qt.Key_P and (event.modifiers() and Qt.Key_Alt):
+            # Alt-P => met en pause au clavier la radio écoutée
+            self.pause()
+            event.accept()
+ 
+        elif event.key()==Qt.Key_R and (event.modifiers() and Qt.Key_Alt):
+            # Alt-R => reprend la lecture de la radio mise en pause avant
+            self.reprendre()
+            event.accept()
+ 
+        elif event.key()==Qt.Key_Q and (event.modifiers() and Qt.Key_Alt):
+            # Alt-Q => ferme ou cache la fenêtre
+            self.close()
+            event.accept()
+ 
+        else:
+            # autres cas: transmet l'évènement clavier à l'ancêtre
+            super().keyPressEvent(event)
+ 
+    #=========================================================================
+    @pyqtSlot("QEvent")
+    def closeEvent(self, event):
+        """selon l'utilisation, ferme ou cache la fenêtre
+        """
+        if NOTIF:
+            # cas d'importation pour QSystemTrayIcon => cache la fenêtre
+            self.hide()
+            event.ignore()
+        else:
+            # cas d'exécution directe => ferme la fenêtre
+            event.accept()    
+ 
+#############################################################################
+if __name__ == "__main__":
+ 
+    # indique que ce script est exécuté directement
+    NOTIF = False
+ 
+    #========================================================================
+    # initialise la bibliothèque graphique
+    app = QApplication(sys.argv)
+ 
+    #========================================================================
+    # Répertoire d'exécution avec ou sans pyinstaller
+    if getattr(sys, 'frozen', False):
+        REPEXE = sys._MEIPASS # programme traité par pyinstaller
+    else:
+        REPEXE = os.path.dirname(os.path.abspath(__file__)) # prog. normal
+ 
+    #========================================================================
+    # met la même icône pour toutes les fenêtres du programme
+    icone = "icons8-tour-de-radio-50.png"
+    app.setWindowIcon(QIcon(os.path.join(REPEXE, icone)))
+ 
+    #========================================================================
+    # met un style pour toute l'application
+    if "Fusion" in [st for st in QStyleFactory.keys()]:
+        app.setStyle(QStyleFactory.create("Fusion"))
+    elif sys.platform=="win32":
+        app.setStyle(QStyleFactory.create("WindowsVista"))
+    elif sys.platform=="linux":
+        app.setStyle(QStyleFactory.create("gtk"))
+    elif sys.platform=="darwin":    
+        app.setStyle(QStyleFactory.create("macintosh"))
+    app.setPalette(QApplication.style().standardPalette())
+ 
+    #========================================================================
+    # assure la traduction automatique du conversationnel à la locale
+    locale = QLocale.system().name()
+    translator = QTranslator()
+    reptrad = QLibraryInfo.location(QLibraryInfo.TranslationsPath)
+    translator.load("qtbase_" + locale, reptrad) # qtbase_fr.qm
+    app.installTranslator(translator)
+ 
+    #========================================================================
+    # charge les radios du fichier radioweb.txt
+    replancement = os.path.dirname(os.path.abspath(__file__))
+    fichieradios = os.path.join(replancement,"radioweb.txt") 
+    try:
+        listeradios = chargeradios(fichieradios)
+    except ValueError:
+        QMessageBox.information(None, 
+            "Chargement des radios", 
+            "Le fichier 'radioweb.txt' n'est pas trouvé")
+        app.quit()
+        sys.exit()
+    if len(listeradios)==0:
+        QMessageBox.information(None, 
+            "Chargement des radios", 
+            "Le fichier 'radioweb.txt' est vide")
+        app.quit()
+        sys.exit()
+ 
+    #========================================================================
+    # lance et affiche la fenêtre
+    radioweb = RadioWeb(listeradios)
+    radioweb.show()
+ 
+    #========================================================================
+    # boucle de traitement des évènements    
+    sys.exit(app.exec_())
+```
+
+[Retour à la table des matières](#Table des matières)
+
+# Version autonome avec pyinstaller<a id="Version-autonome-avecpyinstaller1"></a>
+
+On peut convertir le programme précédent pour avoir un fichier exécutable autonome, avec tout ce qui est nécessaire à son bon fonctionnement (interpréteur Python et bibliothèques utilisées).    
+Sous Windows, voilà la ligne de commande qu'on peut utiliser sous forme d'un fichier de commande pour la console cmd.exe, qui s'appelle chez moi: “radioweb.bat” et qui fabrique un fichier exécutable unique “radioweb.exe:  
+```
+SET programme=radioweb
+
+IF EXIST build_onefile RMDIR /S /Q build_onefile
+IF EXIST dist_onefile RMDIR /S /Q dist_onefile
+
+pyinstaller ^
+--clean ^
+--noconfirm ^
+--noconsole ^
+--onefile ^
+--noupx ^
+--distpath ".\dist_onefile" ^
+--workpath ".\build_onefile" ^
+--add-data ".\icons8-tour-de-radio-50.png;." ^
+--add-data "E:\Programmes\Python35\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^
+--icon ".\icons8-tour-de-radio-50.ico" ^
+%programme%.py
+PAUSE
+``````
+Il faut, bien sûr, adapter les noms et adresses selon la configuration qu'on a, et ne pas oublier de copier à la main le fichier des radios “radioweb.txt” dans le même répertoire.    
+Comme pyinstaller est multiplateforme, on devrait pouvoir faire quelque chose de similaire sous Linux et sous MacOS, mais je n'ai pas encore essayé.    
+
+[Retour à la table des matières](#Table des matières)
+
+# Intégration du lecteur dans la zone de notification<a id="Intégration-du-lecteur-dans-la-zone-de-notification"></a>
+
+La version ci-dessus est confortable, mais elle prend la place d'un programme normal dans la barre des tâches. Une autre solution plus intéressante est de l'intégrer dans la zone de notification.
+
+[Retour à la table des matières](#Table des matières)
+
+# Code proposé<a id="Code-proposé2"></a>
+
+Dans ce cas, il y a une icône spécifique qui s'ajoute dans cette zone. Voilà comment ça marche:    
+
+	*	 Quand on clique sur cette icône, la fenêtre avec toutes les radios s'affiche pour qu'on en sélectionne une à écouter.
+	*	 Quand la fenêtre des radios est affichée, on peut sélectionner une radio avec un double-clic, mais aussi avec le clavier: “entrée” pour lancer l'écoute, “Alt-P” pour la pause, “Alt-R” pour la reprise.
+	*	 Après, quand on clique sur la croix de cette fenêtre (ou “Alt-Q”), cette fenêtre disparait mais elle est seulement cachée (.hide()) et non supprimée! Si on veut plus tard changer de radio, on re-clique sur l'icône de notification, et la même fenêtre se ré-affiche (.show()).
+	*	 Pendant l'écoute d'une radio, on peut mettre en pause ou reprendre en utilisant les menus popup (clic-droit), tant sur l'icône de notification que sur la fenêtre des radios.
+	*	 Pour arrêter le programme, on fait clic-droit sur l'icône de notification et on sélectionne “Quitter” sur le menu popup. Il faut ensuite confirmer dans une fenêtre de questionnement pour que le programme s'arrête.    
+En plus, on peut faire que ce programme soit lancé automatiquement à l'allumage du PC. Sous Windows 10, voilà comment on peut faire: mettre un raccourci du programme dans le répertoire suivant:    
+```C:\Users\utilisateur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup```    
+Voilà le code proposé pour intégrer le programme précédent dans la zone de notification. Il s'appelle chez moi “radioweb_tray.py” (on peut mettre .pyw sous Windows pour éviter l'affichage de la console):    
+```
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+# Python3 v3.5, PyQt5 v5.9
+ 
+r"""
+Lancement dans la zone de notification d'un
+lecteur avec playlist d'une radio internet
+Auteur: Jean-Paul Vidal dit "Tyrtamos" (mai 2018)
+ 
+Action sur l'icone de notification:
+    clic gauche sur l'icone => affiche la fenêtre du programme
+    clic droit sur l'icone => menu contextuel:
+        pause: met la radio écoutée en pause
+        reprendre: remet la radio en écoute
+        quitter: arrête le programme
+ 
+Les noms et adresses des radios sont dans le fichier radioweb.txt
+ 
+Pour les adresses web des radios francophones, voir par exemple:
+http://fluxradios.blogspot.fr/
+ 
+Aussi sur les sites web des radios. Exemple pour "Frequence 3":
+http://ice.stream.frequence3.net/frequence3-128.mp3
+ 
+Pour télécharger une icône, voir par exemple:
+https://icones8.fr/icon/2308/tour-de-radio
+ 
+Pour exécuter automatiquement au lancement du PC sous Windows, ajouter
+un raccourcis ici (mettre le bon chemin avant AppData):
+C:\Users\utilisateur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+"""
+ 
+import sys
+import os
+ 
+from PyQt5.QtWidgets import (QApplication, QMenu, QMessageBox, QStyleFactory,
+    QSystemTrayIcon, QAction)
+ 
+from PyQt5.QtGui import QIcon
+ 
+from PyQt5.QtCore import (QLocale, QLibraryInfo, QTranslator, pyqtSlot, 
+    qInstallMessageHandler)
+ 
+from radioweb import chargeradios, RadioWeb
+ 
+#############################################################################
+def lancefenetre(fichieradios):
+    """charge les radios et lance la fenêtre sans l'afficher
+    """
+    # charge les radios du fichier radioweb.txt
+    try:
+        listeradios = chargeradios(fichieradios)
+    except ValueError:
+        QMessageBox.information(None, 
+            "Chargement des radios", 
+            "Le fichier 'radioweb.txt' n'est pas trouvé")
+        app.quit()
+        sys.exit()
+    if len(listeradios)==0:
+        QMessageBox.information(None, 
+            "Chargement des radios", 
+            "Le fichier 'radioweb.txt' est vide")
+        app.quit()
+        sys.exit()
+ 
+    # retourne la variable d'instance de la fenêtre à lancer
+    return RadioWeb(listeradios)
+ 
+#############################################################################
+def affichefenetre(fen):
+    """complément d'affichage de la fenêtre du programme
+    """
+    fen.tw.setFocus()
+    fen.tw.setCurrentCell(0, 0)
+ 
+#############################################################################
+class SystemTrayIcon(QSystemTrayIcon):
+ 
+    #========================================================================
+    def __init__(self, qicone, parent=None):
+        super().__init__(qicone, parent)
+ 
+        # ajoute une bulle d'information si on laisse la souris sur l'icône
+        self.setToolTip("Radio Internet\n" + \
+                        "Cliquez sur l'icone pour afficher")
+ 
+        # un clic gauche sur l'icône affiche la fenêtre
+        self.activated.connect(self.affichefen)
+        # un clic gauche sur l'étiquette le lancement affiche la fenêtre
+        self.messageClicked.connect(self.affichefen)
+ 
+        # fichier des radios
+        replancement = os.path.dirname(os.path.abspath(__file__))
+        fichieradios = os.path.join(replancement, "radioweb.txt")
+ 
+        # lance la fenêtre sans affichage
+        self.fen = lancefenetre(fichieradios)
+ 
+        # initialise le menu
+        self.initmenu()
+ 
+    #========================================================================
+    def initmenu(self):
+        """crée et affiche le menu du systemtray (clic droit sur l'icône)
+        """
+        menu = QMenu()
+ 
+        actionPause = QAction('Pause', self)
+        actionPause.triggered.connect(self.fen.pause)
+        menu.addAction(actionPause)
+ 
+        actionReprendre = QAction('Reprendre', self)
+        actionReprendre.triggered.connect(self.fen.reprendre)
+        menu.addAction(actionReprendre)
+ 
+        menu.addSeparator()
+ 
+        actionQuitter = QAction('Quitter', self)
+        actionQuitter.triggered.connect(self.quitter)
+        menu.addAction(actionQuitter)
+ 
+        self.setContextMenu(menu)
+ 
+    #========================================================================
+    def affichefen(self, raison=None):
+        """clic gauche sur l'icone ou sur l'étiquette du lancement
+           => affiche la fenêtre au dessus des autres
+        """
+        if raison==QSystemTrayIcon.Trigger or raison==None:
+            self.fen.showNormal()  # affiche en mode fenêtre
+            self.fen.activateWindow()  # affiche au dessus des autres fenêtres
+            # pour d'éventuels compléments d'affichage (ex: setFocus)
+            affichefenetre(self.fen)
+ 
+    #========================================================================
+    @pyqtSlot()
+    def quitter(self):
+        """demande d'arrêt du programme tray
+        """
+        reponse = QMessageBox.question(None,
+                    "Confirmez!",
+                    "Voulez-vous vraiment quitter?",
+                    QMessageBox.Yes, QMessageBox.No)
+        if reponse == QMessageBox.Yes:
+            # ferme la fenêtre de sélection des radios si encore ouverte
+            try:
+                self.fen.close()
+            except Exception:
+                pass
+            # ferme l'application et arrête l'exécution
+            app.quit()
+            sys.exit()
+ 
+#############################################################################
+if __name__ == '__main__':
+ 
+    #========================================================================
+    # Répertoire d'exécution avec ou sans pyinstaller (onedir ou onefile)
+    if getattr(sys, 'frozen', False):
+        REPEXE = sys._MEIPASS # programme traité par pyinstaller
+    else:
+        REPEXE = os.path.dirname(os.path.abspath(__file__)) # prog. normal
+ 
+    #========================================================================
+    # active la bibliothèque graphique
+    app = QApplication(sys.argv)
+ 
+    #========================================================================
+    # vérifie qu'il y a un systemtray disponible (sinon => arrêt)
+    if not QSystemTrayIcon.isSystemTrayAvailable():
+        QMessageBox.critical(None, 
+            "Systray",
+            "Le système de notification n'est pas disponible sur cet OS")
+        app.quit()
+        sys.exit(1)
+ 
+    #========================================================================
+    # met la même icône pour toutes les fenêtres du programme
+    qicone = QIcon(os.path.join(REPEXE, "icons8-tour-de-radio-50.png"))
+    app.setWindowIcon(qicone)
+ 
+    #========================================================================
+    # met des tooltips à fond jaune clair dans toute l'application
+    app.setStyleSheet("QToolTip {background-color: #ffff99; border: 1px solid black}")
+ 
+    #========================================================================
+    # style pour toute l'application selon l'OS
+    if "Fusion" in [st for st in QStyleFactory.keys()]:
+        app.setStyle(QStyleFactory.create("Fusion"))
+    elif sys.platform=="win32":
+        app.setStyle(QStyleFactory.create("WindowsVista"))
+    elif sys.platform=="linux":
+        app.setStyle(QStyleFactory.create("gtk"))
+    elif sys.platform=="darwin":    
+        app.setStyle(QStyleFactory.create("macintosh"))
+    app.setPalette(QApplication.style().standardPalette())
+ 
+    #========================================================================
+    # indispensable pour utiliser QSystemTrayIcon
+    # sinon: arret complet après fermeture d'un simple messagebox
+    app.setQuitOnLastWindowClosed(False)
+ 
+    #========================================================================
+    # assure la traduction automatique du conversationnel à la locale
+    locale = QLocale.system().name()
+    translator = QTranslator()
+    reptrad = QLibraryInfo.location(QLibraryInfo.TranslationsPath)
+    translator.load("qtbase_" + locale, reptrad) # qtbase_fr.qm
+    app.installTranslator(translator)
+ 
+    #========================================================================
+    # lance le tray
+    trayIcon = SystemTrayIcon(qicone)  # bulle: variable globale
+    trayIcon.show()
+ 
+    #--------------------------------------------------------------------
+    # message d'information affiché 1 seconde si l'OS le supporte
+    # sous Windows, l'activation nécessite dans le registre:
+    # HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\
+    #              Explorer\Advanced\EnableBalloonTips => dword:0x00000001
+    # et sa désactivation: ..\EnableBalloonTips => dword:0x00000000
+    if trayIcon.supportsMessages():
+        trayIcon.showMessage("Radio Internet",
+                             "Cliquez sur l'icone pour afficher",
+                             QSystemTrayIcon.Information,
+                             1000)  # temps d'affichage ignoré sous Windows
+ 
+    #========================================================================
+    # boucle de traitement des évènements
+    sys.exit(app.exec_())
+```
+
+[Retour à la table des matières](#Table des matières)
+
+# Version autonome avec pyinstaller<a id="Version-autonome-avec-pyinstaller2"></a>
+
+De même que dans le chapitre précédent, on peut convertir le programme pour avoir un exécutable autonome, avec tout ce qui est nécessaire à son bon fonctionnement (interpréteur Python et bibliothèques utilisées).    
+Sous Windows, voilà la ligne de commande qu'on peut utiliser sous forme d'un fichier de commande pour la console cmd.exe qui s'appelle chez moi: “radioweb_tray.bat” et qui fabrique un fichier exécutable unique “radioweb_tray.exe:    
+```
+SET programme=radioweb_tray
+
+IF EXIST build_tray_onefile RMDIR /S /Q build_tray_onefile
+IF EXIST dist_tray_onefile RMDIR /S /Q dist_tray_onefile
+
+pyinstaller ^
+--clean ^
+--noconfirm ^
+--noconsole ^
+--onefile ^
+--noupx ^
+--distpath ".\dist_tray_onefile" ^
+--workpath ".\build_tray_onefile" ^
+--add-data ".\icons8-tour-de-radio-50.png;." ^
+--add-data "E:\Programmes\Python35\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^
+--icon ".\icons8-tour-de-radio-50.ico" ^
+%programme%.py
+PAUSE
+```
+Il faut, bien sûr, adapter les noms et adresses selon la configuration qu'on a, et ne pas oublier de copier à la main le fichier des radios “radioweb.txt” dans le même répertoire.    
+Comme pyinstaller est multiplateforme, on devrait pouvoir faire quelque chose de similaire sous Linux et sous Mac OS, mais je n'ai pas encore essayé.    
+Bonne écoute! Et amusez-vous bien!
+
+[Retour à la table des matières](#Table des matières)
+
+---
+
+Merci encore à M. Jean-Paul Vidal dit "Tyrtamos" pour sa contribution!    
+Pour info:    
+Sauf mention contraire, le contenu de ce wiki où se trouve le post [Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=pyqt5_radioweb) est placé sous les termes de la licence suivante (page en anglais): [CC Attribution-Noncommercial-Share Alike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)    
+Avertissement.    
+Vous êtes autorisé à :    
+Partager — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats    
+Adapter — remixer, transformer et créer à partir du matériel    
+L'Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.    
+Si vous voulez en savoir plus sur cette licence, vous pouvez consulter le lien suivant (page en français):    
+[Creative Commons — Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)    
+C'est pourquoi je me suis permis de le copier et de le partager sur  votre nouvel espace via GitHub!    
+et enfin...    
+Si vous êtes un programmeur  Python  n'oubliez pas de jeter un coup d'œil sur [Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=Sommaire)    
+Sur ce, je vous souhaite une bonne codification  et utilisation du lecteur de radios internet! 😉    
+@+    
+BlindHelp!    
+
+---
+
+Nous espérons vous revoir bientôt sur le      
+[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
+ou sur  votre nouvel espace via GitHub:                     
+[BlindHelp.github.io](https://blindhelp.github.io)                    
+
+---
