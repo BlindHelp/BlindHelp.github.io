@@ -835,7 +835,7 @@ if __name__ == '__main__':
 
 [Retour à la table des matières](#Table des matières)
 
-# Version autonome avec pyinstaller<a id="Version-autonome-avec-pyinstaller2"></a>
+# Version autonome avec pyinstaller<a id="mark11"></a>
 
 De même que dans le chapitre précédent, on peut convertir le programme pour avoir un exécutable autonome, avec tout ce qui est nécessaire à son bon fonctionnement (interpréteur Python et bibliothèques utilisées).    
 Sous Windows, voilà la ligne de commande qu'on peut utiliser sous forme d'un fichier de commande pour la console cmd.exe qui s'appelle chez moi: “radioweb_tray.bat” et qui fabrique un fichier exécutable unique “radioweb_tray.exe:    
