@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 16 Novembre 2021</footer>
+<footer>Publié le Mardi 16 Novembre 2021 - Dernière mise à jour le Dimanche 21 Novembre 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -886,29 +886,38 @@ Bonne écoute! Et amusez-vous bien!
 # Observations générales faites en vrac par BlindHelp<a id="mark12"></a>
 
 Comme indiqué ci-dessus par l'auteur, ce programme a été développé sous Python v3.5 et PyQt5 v5.9 avec Windows 10.    
-Je pense que vous avez déjà le programme Python installé.    
+Je pense que vous avez déjà le programme [Python](http://www.python.org) installé.    
 Auparavant, , vous devriez installer la dépendance PyQt5 en en ligne de commande:    
 `pip install PyQt5==5.9`    
 
-Je pense aussi que vous avez déjà installé la dépendance PyInstaller
+pip est l'outil d'installation de prédilection. À partir de Python 3.4, il est inclus par défaut avec l'installateur de Python.    
 
 Eh bien pour les deux premiers codes pour:    
 
 * [Un lecteur de radio internet minimum](#mark4)    
 * [Un lecteur de radios internet avec "playlist"](#mark5)    
 
-Je n'ai aucun résultat, j'ignore comment lancer les deux fichiers, l'un est:    
+Pour le premier lecteur, j'ai utilisé le fichier::    
 `radiowebmini.py`    
 Et au même niveau, j'ai le fichier:    
 `icons8-tour-de-radio-50.png`    
-et l'autre est:    
+et pour le deuxième lecteur, j'ai utilisé le fichier:    
 `radioweb.py`    
 Et au même niveau, j'ai les fichiers:    
 `icons8-tour-de-radio-50.png`    
 `radioweb.txt`    
 Chacun est dans un dossier dédié.    
 
+Je fait pour le premier fichier la commande:    
+`py -3.6 radiowebmini.py`    
+et je reçois le message:    
+`"Aucune radio n'a été demandée"`    
+
 Je ne sais pas ce que j'ai mal fait?    
+
+Je fait pour le deuxième fichier la commande:    
+`py -3.6 radioweb.py`    
+Cela fonctionne sans problèmes
 
 Cependant j'ai essayé le code pour la:    
 
@@ -1046,7 +1055,7 @@ Partager — copier, distribuer et communiquer le matériel par tous moyens et s
 Adapter — remixer, transformer et créer à partir du matériel    
 L'Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.    
 Si vous voulez en savoir plus sur cette licence, vous pouvez consulter le lien suivant (page en français):    
-[Creative Commons — Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)    
+[Creative Commons — Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)    
 C'est pourquoi je me suis permis de le copier et de le partager sur  votre nouvel espace via GitHub!    
 Profitez-en et partagez-le aussi!    
 et enfin...    
