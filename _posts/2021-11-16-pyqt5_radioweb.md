@@ -907,6 +907,7 @@ Et au même niveau, j'ai les fichiers:
 `icons8-tour-de-radio-50.png`    
 `radioweb.txt`    
 Chacun est dans un dossier dédié.    
+
 Je ne sais pas ce que j'ai mal fait?    
 
 Cependant j'ai essayé le code pour la:    
@@ -922,24 +923,38 @@ Et au même niveau, j'ai les fichiers:
 puis le fichier:    
 `radioweb.bat`    
 Le tout dans un dossier dédié.    
+
 Notez que vous devez modifier dans le fichier radioweb.bat la ligne qui pointe sur la dépendance [PyQt5](https://pypi.org/project/PyQt5/)    
 ```
 --add-data "E:\Programmes\Python35\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^
+
 par exemple chez-moi ceci est:
+
 --add-data "C:\Users\utilisateur\AppData\Local\Programs\Python\Python36-32\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^
+
 Où le mot utilisateur sera remplacé par votre nom d'utilisateur et le chemin doit pointé sur votre version de Python installé y compris cette dépendance.
+
 Notez aussi que vous devez ajouter une ligne de plus après la ligne qui suit dans le fichier radioweb.bat:
+
 --add-data ".\icons8-tour-de-radio-50.png;." ^
 --add-data ".\radioweb.txt;." ^
+
 Je remarqué cela, car une fois le fichier radioweb.exe lancé, un message d'erreur s'affiché en disant que le fichier radioweb.txt était manquant:
 "Le fichier 'radioweb.txt' n'est pas trouvé"
+
 Note supprimer dans le fichier radioweb.txt la ligne:
+
 Testmp3 | E:\Musiques\3_bibmedia64\Musiques\Chicago\Chicago Transit Authority\03 - Beginnings.mp3
+
 C'est normal parce que lorsque vous cliquez sur cet élément, il n'y a pas de fichier de ce type dans le chemin en locale car c'est un exemple donné par l'auteur.
+
 Nous pouvons modifier ce fichier en conséquence avec nos propres liens de flux radio.
+
 Nous pouvons mettre les flux des stations de radio les plus écoutée!
 ```
+
 Par exemple, vous pouvez télécharger un fichier qui contient une liste de flux de Radio France en mp3, [en cliquant ici](https://blindhelp.github.io/radio_france_-_adresses_flux_mp3_-_juin_2017.zip)
+
 ```
 Bien que le fichier .exe a été construit, il y avait des messages d'erreur lors de sa création, donc, les voici à titre informatif, (Peut-être que cela servira nos amis développeurs):
 INFO: UPX is not available.
@@ -968,9 +983,12 @@ INFO: Updating manifest in C:\Users\utilisateur\Documents\radioweb\build_tray_on
 INFO: Updating resource type 24 name 1 language 0
 INFO: Appending archive to EXE .\dist_tray_onefile\radioweb_tray.exe
 INFO: Building EXE from EXE-00.toc completed successfully.
+
 Après avoir terminé le processus de création du fichier en .exe depuis le fichier radioweb.bat, j'ai le message suivant:
+
 Appuyez sur une touche pour continuer...
 ```
+
 Une foi fait cela, puis avoir cliquez sur le fichier Radioweb.exe qui vient d'être créé, j'ai l'interface du programme, voici plus bas sont mode d'utilisation:    
 
 * Les noms des radios sont affichés dans une seule colonne, c'est-à-dire qu'ils sont sur un tableau.
@@ -981,11 +999,14 @@ Vous pouvez taper la lettre initiale du nom de la station de radio une fois que 
 * Alt+r: remet la radio que nous écoutions.
 * Alt+q: arrête le programme.
 * Lors de l'activation du menu contextuel, nous aurons les mêmes éléments: Pause, Reprendre et Quitter.
+
 Malheureusement pour ceux qui utilisent un lecteur d'écran, Les boutons pour réduire ou augmenter  le volume sont absents de l'interface, mais c'est une autre histoire.    
 
 Et j'ai finalement essayé le code pour la:    
+
 * [Version autonome avec pyinstaller](#mark11)    
 Ceci est pour le même lecteur intégré dans la zone de notification.    
+
 Ceci contient le fichier:    
 `icons8-tour-de-radio-50.ico`    
 `radioweb_tray.py`    
@@ -995,7 +1016,9 @@ Et au même niveau, j'ai les fichiers:
 puis le fichier:    
 `radioweb_tray.bat`    
 Le tout dans un dossier dédié.    
+
 N'oubliez pas d'apporter les mêmes modifications dans les fichiers radioweb_tray.bat, radioweb.txt, comme indiqué ci-dessus.    
+
 Les mêmes messages d'erreur ont été présentés lors de la création du fichier radioweb_tray.exe    
 
 Mais une différence de taille, c'est que lorsque j'ai lancé le fichier radioweb_tray.exe, j'ai eu l'Erreur de script suivant:    
@@ -1005,7 +1028,9 @@ Traceback (most recent call last):
 	  File "radioweb_tray.py", line 44, in <module>
 ModuleNotFoundError: No module named 'radioweb'
 ```
+
 Je ne sais pas ce que j'ai mal fait?    
+
 Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup.    
 
 [Retour à la table des matières](#Table des matières)
