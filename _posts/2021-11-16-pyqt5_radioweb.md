@@ -892,22 +892,26 @@ Auparavant, , vous devriez installer la dépendance PyQt5 en en ligne de command
 
 Je pense aussi que vous avez déjà installé la dépendance PyInstaller
 
-Eh bien pour les deux premiers codes pour:
-* [Un lecteur de radio internet minimum](#mark4)
-* [Un lecteur de radios internet avec "playlist"](#mark5)
-Je n'ai aucun résultat, j'ignore comment lancer les deux fichiers, l'un est:   
+Eh bien pour les deux premiers codes pour:    
+
+* [Un lecteur de radio internet minimum](#mark4)    
+* [Un lecteur de radios internet avec "playlist"](#mark5)    
+
+Je n'ai aucun résultat, j'ignore comment lancer les deux fichiers, l'un est:    
 `radiowebmini.py`    
 Et au même niveau, j'ai le fichier:    
 `icons8-tour-de-radio-50.png`    
 et l'autre est:    
 `radioweb.py`    
-Et au même niveau, j'ai les fichiers:
+Et au même niveau, j'ai les fichiers:    
 `icons8-tour-de-radio-50.png`    
 `radioweb.txt`    
 Chacun est dans un dossier dédié.    
 Je ne sais pas ce que j'ai mal fait?    
+
 Cependant j'ai essayé le code pour la:    
-* [Version autonome avec pyinstaller](#mark8)
+
+* [Version autonome avec pyinstaller](#mark8)    
 Ceci est pour le lecteur de radio internet avec playlist.    
 Ceci contient le fichier:    
 `radioweb.py`    
@@ -917,7 +921,7 @@ Et au même niveau, j'ai les fichiers:
 `radioweb.txt`    
 puis le fichier:    
 `radioweb.bat`    
-Le tout dans un dossier dédié.
+Le tout dans un dossier dédié.    
 Notez que vous devez modifier dans le fichier radioweb.bat la ligne qui pointe sur la dépendance [PyQt5](https://pypi.org/project/PyQt5/)    
 ```
 --add-data "E:\Programmes\Python35\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^
@@ -944,7 +948,7 @@ INFO: checking Analysis
 J'ai la ligne:
 INFO: Building Analysis because Analysis-00.toc is non existent
 INFO: running Analysis Analysis-00.toc
-Après plusieurs lignes j'ai des lignes avec des WARNING comme suit:
+Après plusieurs lignes j'ai des lignes suivi d'un WARNING comme suit:
 WARNING: Hidden import "PyQt5.sip" not found!
 INFO: Building PYZ because PYZ-00.toc is non existent
 Puis un message:
@@ -968,6 +972,7 @@ Après avoir terminé le processus de création du fichier en .exe depuis le fic
 Appuyez sur une touche pour continuer...
 ```
 Une foi fait cela, puis avoir cliquez sur le fichier Radioweb.exe qui vient d'être créé, j'ai l'interface du programme, voici plus bas sont mode d'utilisation:    
+
 * Les noms des radios sont affichés dans une seule colonne, c'est-à-dire qu'ils sont sur un tableau.
 * Pour se déplacer entre les noms des radios utilisez les flèches bas ou haut.
 Vous pouvez taper la lettre initiale du nom de la station de radio une fois que vous avez appris le contenu de votre liste, pour aller plus vite.
@@ -977,8 +982,9 @@ Vous pouvez taper la lettre initiale du nom de la station de radio une fois que 
 * Alt+q: arrête le programme.
 * Lors de l'activation du menu contextuel, nous aurons les mêmes éléments: Pause, Reprendre et Quitter.
 Malheureusement pour ceux qui utilisent un lecteur d'écran, Les boutons pour réduire ou augmenter  le volume sont absents de l'interface, mais c'est une autre histoire.    
+
 Et j'ai finalement essayé le code pour la:    
-* [Version autonome avec pyinstaller](#mark11)
+* [Version autonome avec pyinstaller](#mark11)    
 Ceci est pour le même lecteur intégré dans la zone de notification.    
 Ceci contient le fichier:    
 `icons8-tour-de-radio-50.ico`    
@@ -991,6 +997,7 @@ puis le fichier:
 Le tout dans un dossier dédié.    
 N'oubliez pas d'apporter les mêmes modifications dans les fichiers radioweb_tray.bat, radioweb.txt, comme indiqué ci-dessus.    
 Les mêmes messages d'erreur ont été présentés lors de la création du fichier radioweb_tray.exe    
+
 Mais une différence de taille, c'est que lorsque j'ai lancé le fichier radioweb_tray.exe, j'ai eu l'Erreur de script suivant:    
 ```
 Unhandled exception in script
