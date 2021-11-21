@@ -11,7 +11,9 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, nous vous apportons la façon de créer un lecteur de radios internet grâce au code trouvé sur  [Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=pyqt5_radioweb) ce qui m'a servi en grande partie à la rédaction de ce post, à savoir que tous les crédits sont pour Monsieur. Jean-Paul Vidal dit "Tyrtamos"    
 Comme vous le savez, je ne suis pas un programmeur ni quoi que ce soit en particulier, je ne suis qu'une personne curieuse, et je cherchais un code pour créer un lecteur de radio Web minimaliste et j'ai dû Retrousser mes manches et mettre la main  dans le cambouis.    
-Ensuite viendra mes explications qui ne sont pas nécessairement inclus dans l'article original sur[Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=pyqt5_radioweb) pour une meilleure compréhension afin que vous puissiez utiliser le code pour le lecteur de radioweb de la meilleure façon possible.  
+Ensuite viendra mes observations générales pour une meilleure compréhension afin que vous puissiez utiliser le code de l'auteur afin de pouvoir créer un lecteur de radios internet de la meilleure façon possible, ceux-ci se trouvent après la partie déjà expliquée par lui-même dans l'article original sur[Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=pyqt5_radioweb) que je reprends sur ce post.    
+Que vous dire de plus avant de se lancer ?    
+Eh bien je ne vois pas autre chose que... c'est parti !    
 Je vous souhaite une bonne lecture.    
 
 Avertissement: 💀  
@@ -32,7 +34,7 @@ Table des matières<a id="Table des matières"></a>
 * [Intégration du lecteur dans la zone de notification](#mark9)
 * [Code proposé](#mark10)
 * [Version autonome avec pyinstaller](#mark11)
-
+* [Observations générales faites en vrac par BlindHelp](#mark12)
 
 ---
 
@@ -878,6 +880,126 @@ PAUSE
 Il faut, bien sûr, adapter les noms et adresses selon la configuration qu'on a, et ne pas oublier de copier à la main le fichier des radios “radioweb.txt” dans le même répertoire.    
 Comme pyinstaller est multiplateforme, on devrait pouvoir faire quelque chose de similaire sous Linux et sous Mac OS, mais je n'ai pas encore essayé.    
 Bonne écoute! Et amusez-vous bien!    
+
+[Retour à la table des matières](#Table des matières)
+
+# Observations générales faites en vrac par BlindHelp<a id="mark12"></a>
+
+Comme indiqué ci-dessus par l'auteur, ce programme a été développé sous Python v3.5 et PyQt5 v5.9 avec Windows 10.    
+Je pense que vous avez déjà le programme Python installé.    
+Auparavant, , vous devriez installer la dépendance PyQt5 en en ligne de commande:    
+`pip install PyQt5==5.9`    
+
+Je pense aussi que vous avez déjà installé la dépendance PyInstaller
+
+Eh bien pour les deux premiers codes pour:
+* [Un lecteur de radio internet minimum](#mark4)
+* [Un lecteur de radios internet avec "playlist"](#mark5)
+Je n'ai aucun résultat, j'ignore comment lancer les deux fichiers, l'un est:   
+`radiowebmini.py`    
+Et au même niveau, j'ai le fichier:    
+`icons8-tour-de-radio-50.png`    
+et l'autre est:    
+`radioweb.py`    
+Et au même niveau, j'ai les fichiers:
+`icons8-tour-de-radio-50.png`    
+`radioweb.txt`    
+Chacun est dans un dossier dédié.    
+Je ne sais pas ce que j'ai mal fait?    
+Cependant j'ai essayé le code pour la:    
+* [Version autonome avec pyinstaller](#mark8)
+Ceci est pour le lecteur de radio internet avec playlist.    
+Ceci contient le fichier:    
+`radioweb.py`    
+Et au même niveau, j'ai les fichiers:    
+`icons8-tour-de-radio-50.ico`    
+`icons8-tour-de-radio-50.png`    
+`radioweb.txt`    
+puis le fichier:    
+`radioweb.bat`    
+Le tout dans un dossier dédié.
+Notez que vous devez modifier dans le fichier radioweb.bat la ligne qui pointe sur la dépendance [PyQt5](https://pypi.org/project/PyQt5/)    
+```
+--add-data "E:\Programmes\Python35\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^
+par exemple chez-moi ceci est:
+--add-data "C:\Users\utilisateur\AppData\Local\Programs\Python\Python36-32\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^
+Où le mot utilisateur sera remplacé par votre nom d'utilisateur et le chemin doit pointé sur votre version de Python installé y compris cette dépendance.
+Notez aussi que vous devez ajouter une ligne de plus après la ligne qui suit dans le fichier radioweb.bat:
+--add-data ".\icons8-tour-de-radio-50.png;." ^
+--add-data ".\radioweb.txt;." ^
+Je remarqué cela, car une fois le fichier radioweb.exe lancé, un message d'erreur s'affiché en disant que le fichier radioweb.txt était manquant:
+"Le fichier 'radioweb.txt' n'est pas trouvé"
+Note supprimer dans le fichier radioweb.txt la ligne:
+Testmp3 | E:\Musiques\3_bibmedia64\Musiques\Chicago\Chicago Transit Authority\03 - Beginnings.mp3
+C'est normal parce que lorsque vous cliquez sur cet élément, il n'y a pas de fichier de ce type dans le chemin en locale car c'est un exemple donné par l'auteur.
+Nous pouvons modifier ce fichier en conséquence avec nos propres liens de flux radio.
+Nous pouvons mettre les flux des stations de radio les plus écoutée!
+```
+Par exemple, vous pouvez télécharger un fichier qui contient une liste de flux de Radio France en mp3, [en cliquant ici](https://blindhelp.github.io/radio_france_-_adresses_flux_mp3_-_juin_2017.zip)
+```
+Bien que le fichier .exe a été construit, il y avait des messages d'erreur lors de sa création, donc, les voici à titre informatif, (Peut-être que cela servira nos amis développeurs):
+INFO: UPX is not available.
+Après la ligne:
+INFO: checking Analysis
+J'ai la ligne:
+INFO: Building Analysis because Analysis-00.toc is non existent
+INFO: running Analysis Analysis-00.toc
+Après plusieurs lignes j'ai des lignes avec des WARNING comme suit:
+WARNING: Hidden import "PyQt5.sip" not found!
+INFO: Building PYZ because PYZ-00.toc is non existent
+Puis un message:
+INFO: Building PYZ (ZlibArchive) .\build_tray_onefile\radioweb_tray\PYZ-00.pyz completed successfully.
+INFO: checking PKG
+INFO: Building PKG because PKG-00.toc is non existent
+INFO: Building PKG (CArchive) PKG-00.pkg
+INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+INFO: Bootloader c:\users\utilisateur\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\bootloader\Windows-32bit\runw.exe
+INFO: checking EXE
+INFO: Building EXE because EXE-00.toc is non existent
+INFO: Building EXE from EXE-00.toc
+INFO: Copying icons from ['icons8-tour-de-radio-50.ico']
+INFO: Writing RT_GROUP_ICON 0 resource with 20 bytes
+INFO: Writing RT_ICON 1 resource with 10440 bytes
+INFO: Updating manifest in C:\Users\utilisateur\Documents\radioweb\build_tray_onefile\radioweb_tray\runw.exe.6i_lwtz6
+INFO: Updating resource type 24 name 1 language 0
+INFO: Appending archive to EXE .\dist_tray_onefile\radioweb_tray.exe
+INFO: Building EXE from EXE-00.toc completed successfully.
+Après avoir terminé le processus de création du fichier en .exe depuis le fichier radioweb.bat, j'ai le message suivant:
+Appuyez sur une touche pour continuer...
+```
+Une foi fait cela, puis avoir cliquez sur le fichier Radioweb.exe qui vient d'être créé, j'ai l'interface du programme, voici plus bas sont mode d'utilisation:    
+* Les noms des radios sont affichés dans une seule colonne, c'est-à-dire qu'ils sont sur un tableau.
+* Pour se déplacer entre les noms des radios utilisez les flèches bas ou haut.
+Vous pouvez taper la lettre initiale du nom de la station de radio une fois que vous avez appris le contenu de votre liste, pour aller plus vite.
+* Les touches Entrée, démarrent l'écoute de la station de radio sous le curseur.
+* Alt+p: met la radio que nous écoutons en pause.
+* Alt+r: remet la radio que nous écoutions.
+* Alt+q: arrête le programme.
+* Lors de l'activation du menu contextuel, nous aurons les mêmes éléments: Pause, Reprendre et Quitter.
+Malheureusement pour ceux qui utilisent un lecteur d'écran, Les boutons pour réduire ou augmenter  le volume sont absents de l'interface, mais c'est une autre histoire.    
+Et j'ai finalement essayé le code pour la:    
+* [Version autonome avec pyinstaller](#mark11)
+Ceci est pour le même lecteur intégré dans la zone de notification.    
+Ceci contient le fichier:    
+`icons8-tour-de-radio-50.ico`    
+`radioweb_tray.py`    
+Et au même niveau, j'ai les fichiers:    
+`icons8-tour-de-radio-50.png`    
+`radioweb.txt`    
+puis le fichier:    
+`radioweb_tray.bat`    
+Le tout dans un dossier dédié.    
+N'oubliez pas d'apporter les mêmes modifications dans les fichiers radioweb_tray.bat, radioweb.txt, comme indiqué ci-dessus.    
+Les mêmes messages d'erreur ont été présentés lors de la création du fichier radioweb_tray.exe    
+Mais une différence de taille, c'est que lorsque j'ai lancé le fichier radioweb_tray.exe, j'ai eu l'Erreur de script suivant:    
+```
+Unhandled exception in script
+Traceback (most recent call last):
+	  File "radioweb_tray.py", line 44, in <module>
+ModuleNotFoundError: No module named 'radioweb'
+```
+Je ne sais pas ce que j'ai mal fait?    
+Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup.    
 
 [Retour à la table des matières](#Table des matières)
 
