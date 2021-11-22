@@ -1077,7 +1077,9 @@ Eh bien maintenant, cela fonctionne!
 
 Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup les gars!    
 
-Peut-être c'est préférable de passer par la dépendance [PyInstaller](http://www.pyinstaller.org./) en utilisant directement la commande pyinstaller radioweb.py ou pyinstaller radioweb_tray.py sans passer par les fichiers .bat, de toute façon lors de la génération des fichiers .exe sont affichés les mêmes messages d'erreurs (info et WARNING mentionné ci-dessus.    
+Peut-être c'est préférable de passer par la dépendance [PyInstaller](http://www.pyinstaller.org./) en utilisant directement la commande:    
+pyinstaller radioweb.py ou pyinstaller radioweb_tray.py    
+sans passer par les fichiers .bat, de toute façon lors de la génération des fichiers .exe sont affichés les mêmes messages d'erreurs (info et WARNING mentionné ci-dessus.    
 
 À grosso modo, en utilisant cette commande, seront créés deux dossiers "build" et "dist" contenant les scripts puis les exécutables .exe dans son dossier correspondant, puis au même niveau, se trouvent nos fichiers que nous avons utilisés à la racine de ce projet:    
 `icons8-tour-de-radio-50.ico`    
