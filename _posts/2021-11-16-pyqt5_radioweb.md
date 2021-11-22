@@ -1078,8 +1078,10 @@ Eh bien maintenant, cela fonctionne!
 Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup les gars!    
 
 Peut-être c'est préférable de passer par la dépendance [PyInstaller](http://www.pyinstaller.org./) en utilisant directement la commande:    
-pyinstaller radioweb.py ou pyinstaller radioweb_tray.py    
-sans passer par les fichiers .bat, de toute façon lors de la génération des fichiers .exe sont affichés les mêmes messages d'erreurs (info et WARNING mentionné ci-dessus.    
+`pyinstaller radioweb.py`    
+ou la commande:    
+`pyinstaller radioweb_tray.py`    
+Annoter que sans passer par les fichiers .bat, de toute façon lors de la génération des fichiers .exe sont affichés les mêmes messages d'erreurs (info et WARNING mentionné ci-dessus.    
 
 À grosso modo, en utilisant cette commande, seront créés deux dossiers "build" et "dist" contenant les scripts puis les exécutables .exe dans son dossier correspondant, puis au même niveau, se trouvent nos fichiers que nous avons utilisés à la racine de ce projet:    
 `icons8-tour-de-radio-50.ico`    
@@ -1088,9 +1090,9 @@ sans passer par les fichiers .bat, de toute façon lors de la génération des f
 Note: le fichier `radioweb.txt` vous devez le mettre dans le dossier "dist" avant de lancer le fichiers exécutable .exe    
 Et enfin, il sera créé le fichier:    
 `radioweb.spec`    
-ou:    
+ou le fichier:    
 `radioweb_tray.spec`    
-Le tout sera soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.    
+Le tout sera placé soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.    
 
 Tandis que si nous utilisons les fichiers .bat indiqués par l'auteur, en plaçant le fichier .bat selon le type de lecteur que vous souhaitez construire accompagné des autres fichiers pour ce lecteur, le tout  à la racine du dossier de ce projet, sans oublier que vous devrez ajouter la ligne suivante dans le fichier .bat:    
 
@@ -1107,9 +1109,9 @@ et aussi avoir modifié la ligne sur ce même fichier .bat qui pointe sur le che
 `radioweb.txt`    
 Et enfin, il sera créé le fichier:    
 `radioweb.spec`
-ou:    
+ou le fichier:    
 `radioweb_tray.spec`    
-Le tout sera soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.    
+Le tout sera placé soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.    
 
 Voilà, en attendant que toutes mes observations ne sont pas si brouillonne servent à quelque chose pour la création de ce lecteur de radio Web minimaliste! 😣    
 
