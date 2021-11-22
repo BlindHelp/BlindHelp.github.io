@@ -1054,11 +1054,13 @@ Mais une différence de taille, c'est que lorsque j'ai lancé le fichier radiowe
 ```
 Unhandled exception in script
 Traceback (most recent call last):
-	  File "radioweb_tray.py", line 44, in <module>
+File "radioweb_tray.py", line 44, in <module>
 ModuleNotFoundError: No module named 'radioweb'
+Close
+Appuyez sur ce bouton pour fermer ce dialogue ou sur échap!
 ```
-
-Je ne sais pas ce que j'ai mal fait?    
+Je ne sais pas ce que j'ai mal fait? 😔    
+Eh bien cela ne fonctionne pas! ☹    
 
 ```
 Vous pouvez aussi créer l'exécutable sans passer par le fichier radioweb_tray.bat
@@ -1068,14 +1070,19 @@ Cela générera le paquet dans un sous-répertoire appelé dist.
 Dans notre cas ceci est dans le chemin:
 C:/Users/utilisateur/Documents/radioweb_tray/dist/radioweb_tray/radioweb_tray.exe
 À l'exécution du fichier radioweb_tray.exe, nous obtiendrons un message d'erreur comme sui:
-Chargement des radios alerte Le fichier 'radioweb.txt' n'est pas trouvé
-OK 
-Appuyez sur ce bouton pour fermer le dialogue!
-J'ai enfin compris que nous devrions devoir coller manuellement le fichier Radioweb.txt dans ce dossier!
-Eh bien maintenant, cela fonctionne!
+Unhandled exception in script
+Traceback (most recent call last):
+File "radioweb_tray.py", line 44, in <module>
+ModuleNotFoundError: No module named 'radioweb'
+Close
+Appuyez sur ce bouton pour fermer ce dialogue ou sur échap!
 ```
 
-Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup les gars!    
+Je ne sais pas ce que j'ai mal fait? 😔    
+Eh bien cela ne fonctionne pas! ☹    
+Même si je colle manuellement le fichier Radioweb.txt dans ce dossier!    
+
+Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup les gars! 🆘    
 
 Peut-être c'est préférable de passer par la dépendance [PyInstaller](http://www.pyinstaller.org./) en utilisant directement la commande:    
 `pyinstaller radioweb.py`    
