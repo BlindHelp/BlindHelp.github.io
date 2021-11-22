@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 16 Novembre 2021 - Dernière mise à jour le Dimanche 21 Novembre 2021</footer>
+<footer>Publié le Mardi 16 Novembre 2021 - Dernière mise à jour le Lundi 22 Novembre 2021</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -887,10 +887,15 @@ Bonne écoute! Et amusez-vous bien!
 
 Comme indiqué ci-dessus par l'auteur, ce programme a été développé sous Python v3.5 et PyQt5 v5.9 avec Windows 10.    
 Je pense que vous avez déjà le programme [Python](http://www.python.org) installé.    
-Auparavant, , vous devriez installer la dépendance PyQt5 en en ligne de commande:    
+Auparavant, , vous devriez installer la dépendance PyQt5 en invite de commande, tapez la commande suivante:
+
 `pip install PyQt5==5.9`    
 
 pip est l'outil d'installation de prédilection. À partir de Python 3.4, il est inclus par défaut avec l'installateur de Python.    
+
+J'ai oublié que vous devez également installer la dépendance PyInstaller pour créer les fichiers exécutables qui accompagnent les fichiers .bat, et en invite de commande, tapez la commande suivante:
+
+`pip install pyinstaller`    
 
 Eh bien pour les deux premiers codes pour:    
 
@@ -908,21 +913,21 @@ Et au même niveau, j'ai les fichiers:
 `radioweb.txt`    
 Chacun est dans un dossier dédié.    
 
-Je fait pour le premier fichier la commande:    
+Pour le premier fichier, en invite de commande, je tape la commande suivante:    
 `py -3.6 radiowebmini.py`    
 et je reçois le message:    
 `"Aucune radio n'a été demandée"`    
 
 Je ne sais pas ce que j'ai mal fait?    
 
-Je fait pour le deuxième fichier la commande:    
+Pour le deuxième fichier, en invite de commande, je tape la commande suivante:    
 `py -3.6 radioweb.py`    
 Cela fonctionne sans problèmes
 
 Cependant j'ai essayé le code pour la:    
 
 * [Version autonome avec pyinstaller](#mark8)    
-Ceci est pour le lecteur de radio internet avec playlist.    
+Ceci est pour le lecteur de radio internet avec playlist, utilisant son fichier .bat dédié.    
 Ceci contient le fichier:    
 `radioweb.py`    
 Et au même niveau, j'ai les fichiers:    
@@ -1011,10 +1016,25 @@ Vous pouvez taper la lettre initiale du nom de la station de radio une fois que 
 
 Malheureusement pour ceux qui utilisent un lecteur d'écran, Les boutons pour réduire ou augmenter  le volume sont absents de l'interface, mais c'est une autre histoire.    
 
+```
+Vous pouvez aussi créer l'exécutable sans passer par le fichier radioweb.bat
+Si vous avez installé la dépendance PyInstaller, allez dans le répertoire de votre programme et en invite de commande, , tapez la commande suivante:
+pyinstaller radioweb.py
+Cela générera le paquet dans un sous-répertoire appelé dist.
+Dans notre cas ceci est dans le chemin:
+C:/Users/utilisateur/Documents/radioweb/dist/radioweb/radioweb.exe
+À l'exécution du fichier radioweb.exe, nous obtiendrons un message d'erreur comme sui:
+Chargement des radios alerte Le fichier 'radioweb.txt' n'est pas trouvé
+OK 
+Appuyez sur ce bouton pour fermer le dialogue!
+J'ai enfin compris que nous devrions devoir coller manuellement le fichier Radioweb.txt dans ce dossier!
+Eh bien maintenant, cela fonctionne!
+```
+
 Et j'ai finalement essayé le code pour la:    
 
 * [Version autonome avec pyinstaller](#mark11)    
-Ceci est pour le même lecteur intégré dans la zone de notification.    
+Ceci est pour le même lecteur intégré dans la zone de notification, utilisant son fichier .bat dédié.    
 
 Ceci contient le fichier:    
 `icons8-tour-de-radio-50.ico`    
@@ -1040,13 +1060,56 @@ ModuleNotFoundError: No module named 'radioweb'
 
 Je ne sais pas ce que j'ai mal fait?    
 
-Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup.    
+```
+Vous pouvez aussi créer l'exécutable sans passer par le fichier radioweb_tray.bat
+Si vous avez installé la dépendance PyInstaller, allez dans le répertoire de votre programme et en invite de commande, , tapez la commande suivante:
+pyinstaller radioweb_tray.py
+Cela générera le paquet dans un sous-répertoire appelé dist.
+Dans notre cas ceci est dans le chemin:
+C:/Users/utilisateur/Documents/radioweb_tray/dist/radioweb_tray/radioweb_tray.exe
+À l'exécution du fichier radioweb_tray.exe, nous obtiendrons un message d'erreur comme sui:
+Chargement des radios alerte Le fichier 'radioweb.txt' n'est pas trouvé
+OK 
+Appuyez sur ce bouton pour fermer le dialogue!
+J'ai enfin compris que nous devrions devoir coller manuellement le fichier Radioweb.txt dans ce dossier!
+Eh bien maintenant, cela fonctionne!
+```
+
+Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup les gars!    
+
+Peut-être c'est préférable de passer par la dépendance [PyInstaller](http://www.pyinstaller.org./) en utilisant directement la commande pyinstaller radioweb.py ou pyinstaller radioweb_tray.py sans passer par les fichiers .bat, de toute façon lors de la génération des fichiers .exe sont affichés les mêmes messages d'erreurs (info et WARNING mentionné ci-dessus.    
+À grosso modo, en utilisant cette commande, seront créés deux dossiers "build" et "dist" contenant les scripts puis les exécutables .exe dans son dossier correspondant, puis au même niveau, se trouvent nos fichiers que nous avons utilisés à la racine de ce projet:    
+`icons8-tour-de-radio-50.ico`    
+`icons8-tour-de-radio-50.png`    
+`radioweb.py ou radioweb_tray.py`    
+Note: le fichier `radioweb.txt` vous devez le mettre dans le dossier "dist" avant de lancer le fichiers exécutable .exe    
+Et enfin, il sera créé le fichier:    
+`radioweb.spec`    
+ou:    
+`radioweb_tray.spec`    
+Le tout sera soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.
+Tandis que si nous utilisons les fichiers .bat indiqués par l'auteur, en plaçant le fichier .bat selon le type de lecteur que vous souhaitez construire accompagné des autres fichiers pour ce lecteur, le tout  à la racine du dossier de ce projet, sans oublier que vous devrez ajouter la ligne suivante dans le fichier .bat:     
+`--add-data ".\radioweb.txt;." ^`    
+et aussi avoir modifié la ligne sur ce même fichier .bat qui pointe sur le chemin de la dépendence [PyQt5](https://pypi.org/project/PyQt5/)    
+`--add-data "C:\Users\utilisateur\AppData\Local\Programs\Python\Python36-32\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^`    
+À grosso modo, en utilisant l'un des deux fichiers .bat, seront créés deux dossiers "build_onefile" et "dist_onefile" contenant les scripts puis les exécutables .exe dans son dossier correspondant, puis au même niveau, se trouvent nos fichiers que nous avons utilisés à la racine de ce projet:    
+`icons8-tour-de-radio-50.ico`    
+`icons8-tour-de-radio-50.png`    
+`radioweb.py ou radioweb_tray.py`    
+`radioweb.txt`    
+Et enfin, il sera créé le fichier:    
+`radioweb.spec`
+ou:    
+`radioweb_tray.spec`    
+Le tout sera soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.    
+
+Voilà, en attendant que toutes mes observations ne sont pas si brouillonne servent à quelque chose pour la création de ce lecteur de radio Web minimaliste! 😣    
 
 [Retour à la table des matières](#Table des matières)
 
 ---
 
-Merci encore à M. Jean-Paul Vidal dit "Tyrtamos" pour sa contribution!    
+Merci encore à M. Jean-Paul Vidal dit "Tyrtamos" pour sa contribution! 😉    
 Pour info:    
 Sauf mention contraire, le contenu de ce wiki où se trouve le post [Les recettes Python de Tyrtamos](https://python.jpvweb.com/python/mesrecettespython/doku.php?id=pyqt5_radioweb) est placé sous les termes de la licence suivante (page en anglais): [CC Attribution-Noncommercial-Share Alike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)    
 Avertissement.    
