@@ -1078,6 +1078,7 @@ Eh bien maintenant, cela fonctionne!
 Eh bien, comme je ne comprends rien à propos de la programmation, c'est là que je demande vivement à mes amis développeurs de me donner leurs sages conseils afin de décortiquer les messages d'erreur Pendant la création des fichiers .exe ou les codes proposés par l'auteur mentionné ci-dessus. Merci beaucoup les gars!    
 
 Peut-être c'est préférable de passer par la dépendance [PyInstaller](http://www.pyinstaller.org./) en utilisant directement la commande pyinstaller radioweb.py ou pyinstaller radioweb_tray.py sans passer par les fichiers .bat, de toute façon lors de la génération des fichiers .exe sont affichés les mêmes messages d'erreurs (info et WARNING mentionné ci-dessus.    
+
 À grosso modo, en utilisant cette commande, seront créés deux dossiers "build" et "dist" contenant les scripts puis les exécutables .exe dans son dossier correspondant, puis au même niveau, se trouvent nos fichiers que nous avons utilisés à la racine de ce projet:    
 `icons8-tour-de-radio-50.ico`    
 `icons8-tour-de-radio-50.png`    
@@ -1087,11 +1088,16 @@ Et enfin, il sera créé le fichier:
 `radioweb.spec`    
 ou:    
 `radioweb_tray.spec`    
-Le tout sera soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.
-Tandis que si nous utilisons les fichiers .bat indiqués par l'auteur, en plaçant le fichier .bat selon le type de lecteur que vous souhaitez construire accompagné des autres fichiers pour ce lecteur, le tout  à la racine du dossier de ce projet, sans oublier que vous devrez ajouter la ligne suivante dans le fichier .bat:     
+Le tout sera soit à la racine du dossier  radioweb ou radioweb_tray ; c'est-à-dire, le dossier qui porte le nom de ce projet.    
+
+Tandis que si nous utilisons les fichiers .bat indiqués par l'auteur, en plaçant le fichier .bat selon le type de lecteur que vous souhaitez construire accompagné des autres fichiers pour ce lecteur, le tout  à la racine du dossier de ce projet, sans oublier que vous devrez ajouter la ligne suivante dans le fichier .bat:    
+
 `--add-data ".\radioweb.txt;." ^`    
+
 et aussi avoir modifié la ligne sur ce même fichier .bat qui pointe sur le chemin de la dépendence [PyQt5](https://pypi.org/project/PyQt5/)    
+
 `--add-data "C:\Users\utilisateur\AppData\Local\Programs\Python\Python36-32\Lib\site-packages\PyQt5\Qt\translations;PyQt5\Qt\translations" ^`    
+
 À grosso modo, en utilisant l'un des deux fichiers .bat, seront créés deux dossiers "build_onefile" et "dist_onefile" contenant les scripts puis les exécutables .exe dans son dossier correspondant, puis au même niveau, se trouvent nos fichiers que nous avons utilisés à la racine de ce projet:    
 `icons8-tour-de-radio-50.ico`    
 `icons8-tour-de-radio-50.png`    
