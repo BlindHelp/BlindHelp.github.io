@@ -1,0 +1,155 @@
+---
+title: Disponible NVDA 2021.3
+permalink: "/nvda-2021-3/"
+layout: post
+author: BlindHelp
+---
+
+<footer>Publié le Mercredi 8 Décembre 2021</footer>
+
+
+Coucou mes amis du blog de BlindHelp!    
+Il y a quelques heures, NV Access a annoncé la publication de la version finale NVDA 2021.3 du lecteur d'écran gratuit et Open-source pour Microsoft Windows. [Ce post est consultable en anglais sur ce lien.](https://www.nvaccess.org/post/nvda-2021-3/) Celle-ci est désormais disponible en téléchargement! NV Access encourage tous les utilisateurs à passer à cette version.    
+
+Changements les plus remarquables dans NVDA 2021.3
+
+# 2021.3
+
+## Nouvelles fonctionnalités
+- Ajout d'un geste de commande pour basculer le paramètre d'annonce du style des bordures de cellules. (#10408)
+- Support de la nouvelle spécification Braille HID qui a pour but de standardiser le support des afficheurs Braille. (#12523)
+ - Les terminaux qui supportent cette spécification seront détectés automatiquement par NVDA.
+ - Pour les détails techniques sur l'implémentation de cette spécification dans NVDA, voir https://github.com/nvaccess/nvda/blob/master/devDocs/hidBrailleTechnicalNotes.md
+- Ajout du support du terminal Braille VisioBraille Vario 4. (#12607)
+- Les notifications d'erreur peuvent être activées (paramètres avancés) lors de l'utilisation de toutes les versions de NVDA. (#12672)
+- Sous Windows 10 et supérieur, NVDA annoncera le nombre de suggestions lors de la saisie de termes de recherche dans des applications telles que les paramètres ou le Microsoft Store. (#7330, #12758, #12790)
+
+## Changements
+- Espeak-ng a été mis à jour en version 1.51-dev révision ``74068b91bcd578bd7030a7a6cde2085114b79b44``. (#12665)
+- NVDA basculera sur eSpeak si aucune voix OneCore installée ne supporte la langue sélectionnée dans NVDA. (#10451)
+- Si les voix OneCore échouent constamment à parler, NVDA basculera sur le synthétiseur eSpeak. (#11544)
+- Lors de la lecture de la barre d'état par ``NVDA+Fin``, le curseur de revue n'est plus déplacé vers son emplacement.
+Si vous souhaitez cette fonctionnalité, veuillez assigner un geste au script approprié dans la rubrique "Navigation par objet" du dialogue "Gestes de commandes". (#8600)
+- Lors de l'ouverture d'un dialogue de paramétrage déjà ouvert, NVDA donne le focus au dialogue ouvert au lieu de retourner une erreur. (#5383)
+- Pour les versions de Microsoft Office 2016/365 supérieures à 13900, NVDA utilisera maintenant toujours UI Automation pour accéder aux contrôles des documents Microsoft Word, indépendamment de si l'utilisateur a activé ou non l'option Utiliser UI Automation pour accéder aux contrôles des documents Microsoft word dans les paramètres avancés. (#12770)
+- Mise à jour du transcripteur Braille Liblouis en version [3.19.0 https://github.com/liblouis/liblouis/releases/tag/v3.19.0]. (#12810)
+  - Nouvelles tables Braille : Russe intégral, Tshivenda intégral, Tshivenda abrégé
+- Au lieu de "contenu marqué" ou "mrq", "surligné" ou "mrq" sera annoncé vocalement et en Braille respectivement. (#12892)
+
+## Corrections de bogues
+- Le suivi des modificateurs clavier (tels que CTRL, ou Insert) est plus robuste lors de la récupération par le superviseur. (#12609)
+- Il est à nouveau possible de vérifier les mises à jour de NVDA sur certains systèmes. Par exemple les nouvelles installations de Windows. (#12729)
+- NVDA annonce correctement les cellules de tableau vides lors de l'utilisation de UI Automation dans Microsoft Word. (#11043)
+- Dans les cellules de grille de données ARIA sur le web, la touche échap sera maintenant transmise à la grille et ne désactivera plus le mode formulaire inconditionnellement. (#12413)
+- Lors de la lecture d'une cellule d'en-tête d'un tableau sous Chrome, correction du nombre de colonnes annoncé deux fois. (#10840)
+- NVDA ne reporte plus une valeur numérique pour les potentiomètres UIA qui ont une représentation textuelle de leur valeur définie (UIA ValuePattern est maintenant préféré à RangeValuePattern). (#12724)
+- NVDA ne traite plus la valeur des potentiomètres UIA comme étant toujours basée sur un pourcentage.
+- Le report de la position d'une cellule dans Microsoft Excel lors de l'utilisation avec UI Automation fonctionne à nouveau correctement sous Windows 11. (#12782)
+- NVDA ne définit plus incorrectement la langue dans Python. (#12753)
+- Si une extension désactivée est désinstallée puis réinstallée, elle est réactivée. (#12792)
+- Correction de bugs lors de la mise à jour ou de la suppression d'une extension si le dossier de l'extension a été renommé ou contient des fichiers ouverts. (#12792, #12629)
+- Lors de l'utilisation de UI Automation pour accéder aux feuilles de calcul Microsoft Excel, NVDA n'annonce plus de manière redondante si une seule cellule est sélectionnée. (#12530)
+- Le texte de plus de dialogues est automatiquement lu dans LibreOffice Writer, comme dans les dialogues de confirmation. (#11687)
+- Lire/naviguer en mode navigation dans Microsoft Word via UI automation s'assure maintenant toujours du défilement du document, que la position actuelle du mode navigation soit visible, et que la position du mode en mode formulaire reflète la position du mode navigation. (#9611)
+- Lors de l'utilisation du mode dire tout dans Microsoft Word via UI automation, le document défile maintenant automatiquement, et la position du curseur est correctement mise à jour. (#9611)
+- Lors de la lecture d'e-mails dans Outlook quand NVDA accède aux message en utilisant UI Automation, certains tableaux sont maintenant marqués comme tableau de disposition, et ne seront donc plus annoncés par défaut. (#11430)
+- Une erreur rare lors du changement de périphérique audio a été résolue. (#12620)
+- Les touches de routage sur les afficheurs Braille supportés par le pilote Braille HID ne sont plus inversées. (#12860)
+- La saisie avec des tables Braille littéraires devrait être plus fiable dans les champs d'édition. (#12667)
+- Lors de la navigation dans le calendrier de la zone de notifications Windows, NVDA annonce maintenant le jour de la semaine en intégralité. (#12757)
+- Lors de l'utilisation d'une méthode de saisie chinoise telle que Taïwan - Microsoft Quick dans Microsoft Word, le défilement du Braille vers l'avant et l'arrière ne revient plus à la position initiale du curseur. (# 12855)
+- Lors de l'accès aux documents Microsoft Word via UIA, naviguer par phrase (alt+flèche bas / alt+flèche haut) est à nouveau possible. (#9254)
+- Lors de l'accès à MS Word avec UIA, l'indentation des paragraphes est maintenant annoncée. (#12899)
+- Lors de l'accès à MS Word avec UIA, la commande de suivi des modifications et d'autres commandes localisées sont maintenant reportées dans Word. (#12904)
+
+## Changements pour les Développeurs
+- Compiler NVDA requiert maintenant Visual Studio 2019 16.10.4 ou supérieur.
+Pour correspondre à l'environnement de compilation de production, mettez à jour Visual Studio pour rester synchronisé avec la [version actuellement utilisée par AppVeyor https://www.appveyor.com/docs/windows-images-software/#visual-studio-2019]. (#12728)
+- ``NVDAObjects.UIA.winConsoleUIA.WinConsoleUIA.isImprovedTextRangeAvailable`` a été dépréciée pour suppression dans NVDA 2022.1. (#12660)
+  - Utiliser ``apiLevel`` à la place (voir les commentaires dans ``_UIAConstants.WinConsoleAPILevel`` pour les détails).
+- La transparence de la couleur d'arrière-plan du texte provenant des applications GDI (via le modèle d'affichage) est désormais exposée pour les extensions ou les appModules. (#12658)
+- ``LOCALE_SLANGUAGE``, ``LOCALE_SLIST`` et ``LOCALE_SLANGDISPLAYNAME`` ont été déplacés vers l'enum ``LOCALE`` dans languageHandler.
+Ils sont toujours disponibles au niveau du module mais sont obsolètes et seront supprimés dans NVDA 2022.1. (#12753)
+- L'utilisation des fonctions ``addonHandler.loadState`` et ``addonHandler.saveState`` doit être remplacée par leurs équivalents ``addonHandler.state.save`` et ``addonHandler.state.load`` avant NVDA 2022.1. (#12792)
+
+# Note importante:
+En raison d'une mise à jour du certificat de sécurité de NVAccess, un certain nombre d'utilisateurs peuvent rencontrer une erreur quand NVDA 2021.2 recherche les mises à jour. NVDA demande maintenant à Windows de mettre à jour les certificats de sécurité, ce qui empêchera cette erreur à l'avenir. Les utilisateurs concernés devront télécharger cette mise à jour manuellement.
+
+---
+
+Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version stable en choisissant "Canal de mise à jour Stable, rc et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous aviez déjà la version beta 2, ou rc1 il suffira de appuyez sur l'option "Rechercher une mise à jour..." sans avoir besoin de cette extension. Cependant, si vous trouvez un problème lors de la mise à jour ou si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien direct ci-dessous:
+
+Avertissement: 💀  
+Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension téléchargé est à vos risques et périls. ☠  
+
+--- 
+
+NV Accès vous rappelle qu’il est conseillé de fermer toutes les applications, y compris les navigateurs Web, avant la mise à jour de NVDA.    
+
+Veuillez noter qu'après la mise à jour de tout logiciel, il est conseillé de redémarrer l'ordinateur. Redémarrez en accédant au dialogue Arrêter, en sélectionnant " redémarrer " et en appuyant sur ENTRÉE. De cette façon, la mise à jour pourra modifier les fichiers en cours d'utilisation. Le redémarrage peut éviter une instabilité ou un comportement inattendu. C'est la première chose à essayer si vous remarquez quelque chose d'étrange après la mise à jour.    
+
+En général, la mise à jour de NVDA est proposée automatiquement, mais il est possible de mettre à jour en activant le menu " Aide " puis " Rechercher une mise à jour ".    
+
+Si vous voulez l'installer et que vous avez une version stable, vous pouvez télécharger le fichier d'installation depuis le lien ci-dessous qui vous mènera à la page habituelle de téléchargement  de NV Access (en anglais) ou utilisez autrement le lien direct ci-dessous fourni par NV Access.    
+
+###  Pour télécharger NVDA 2021.3 ###
+
+La version stable de NVDA  2021.3 est maintenant disponible pour le téléchargement.    
+
+[Procédure de téléchargement préféré par NV Access](https://groups.io/g/nvda-devel/message/45172) (en anglais)    
+
+Pour télécharger la version de NVDA 2021.3:    
+
+# Depuis la page du poste NV Access NVDA 2021.3 #
+
+1. Accédez à la [page du poste de NV Access pour télécharger NVDA 2021.3](https://www.nvaccess.org/post/nvda-2021-3/)    
+2. chercher puis appuyez sur le lien "Download NVDA 2021.3".               
+
+# Depuis le serveur de NV Access #
+  
+[Téléchargement direct de NVDA 2021.3 à partir du serveur de NV Access](http://www.nvaccess.org/download/nvda/releases/2021.3/nvda_2021.3.exe)    
+
+#### Notes ####
+
+* Si vous souhaitez recevoir des nouvelles de NV Access, Entrez votre adresse email dans la boite d'édition Email address.                
+* Comme indiqué dans la            
+[page sur la confidentialité de NV Access](http://www.nvaccess.org/privacy/)           
+(en anglais), parfois même des sites externes offrent des téléchargements de NVDA, et NV Access il est pas responsable du contenu ou des pratiques de confidentialité de ces sites.         
+* Vous pouvez commenter les erreurs de cette version dans la liste de diffusion francophone dédié à NVDA sur [nvda-fr@groups.io](mailto:nvda-fr@groups.io), ou sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues).              
+
+### Documentation sur NVDA 2021.3 ###
+
+A continuation vous pouvez trouver des documents disponibles  dans le menu Aide de NVDA, auquel vous pouvez accéder en appuyant sur la combinaison de touches <kbd>NVDA+n</kbd> ou en cliquant sur le bouton droit de la souris sur l'icône dans la barre d'état système :
+
+* [Guide de l'utilisateur](https://blindhelp.github.io/userGuide.html)
+* [Quoi de neuf](https://blindhelp.github.io/changes.html)
+* [Résumé des commandes](https://blindhelp.github.io/keyCommands.html)
+
+Sur ce, je vous souhaite une très bonne utilisation DE votre lecteur d'écran NVDA gratuit et Open-source pour Microsoft Windows! :)        
+@+                     
+BlindHelp!                           
+
+---
+
+# Liens utiles de la liste NVDA-fr #
+
+Pour publier un message sur la liste :    
+[nvda-fr@groups.io](mailto:nvda-fr@groups.io)    
+<br>
+Pour s'abonner, envoyer un message vide à :    
+[nvda-fr+subscribe@groups.io](mailto:nvda-fr+subscribe@groups.io)    
+<br>
+Pour écrire au Propriétaire :    
+[nvda-fr+owner@groups.io](mailto:nvda-fr+owner@groups.io)    
+<br>
+Pour se désinscrire (dommage !), envoyer un message vide à :    
+[nvda-fr+unsubscribe@groups.io](mailto:nvda-fr+unsubscribe@groups.io)    
+
+---
+
+Nous espérons vous revoir bientôt sur le      
+[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
+ou sur  votre nouvel espace via GitHub:                     
+[BlindHelp.github.io](https://blindhelp.github.io)                    
+
+---
