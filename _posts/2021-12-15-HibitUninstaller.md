@@ -37,7 +37,7 @@ D'habitude on est placé directement sur Français. Ici, on est placé sur Engli
 On fait une fois de plus tab, nous aurons  un texte en lecture seule (en anglais):    
 `"HiBit Uninstaller Changelog".`    
 ce qui veut dire :    
-`"HiBit HiBit Uninstaller Journal des modifications".`    
+`"HiBit Uninstaller Journal des modifications".`    
 On fait tab, on valide sur Suivant >    
 Dans ce dialogue, s'affiche le chemin où le dossier du programme par défaut sera installé, par exemple sous un Windows 10, nous aurons le chemin et le message suivant:    
 `"Pour continuer, cliquez sur Suivant. Si vous souhaitez choisir un dossier différent, cliquez sur Parcourir. C:\Program Files (x86)\HiBit Uninstaller"`    
