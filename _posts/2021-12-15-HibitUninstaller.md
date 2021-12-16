@@ -37,19 +37,19 @@ D'habitude on est placé directement sur Français. Ici, on est placé sur Engli
 On fait une fois de plus tab, nous aurons  un texte en lecture seule (en anglais):  
 `"HiBit Uninstaller Changelog"`  
 ce qui veut dire :  
-`"HiBit `HiBit Uninstaller  Journal des modifications"`  
-On fait tab, on valide sur `Suivant >`  
+`"HiBit `HiBit Uninstaller Journal des modifications"`  
+On fait tab, on valide sur Suivant >  
 Dans ce dialogue, s'affiche le chemin où le dossier du programme par défaut sera installé, par exemple sous un Windows 10, nous aurons le chemin et le message suivant:  
 `"Pour continuer, cliquez sur Suivant. Si vous souhaitez choisir un dossier différent, cliquez sur Parcourir. C:\Program Files (x86)\HiBit Uninstaller"`  
-On fait trois fois tab, on valide sur `Suivant >`  
+On fait trois fois tab, on valide sur Suivant >  
 Dans ce dialogue, nous aurons le message suivant:  
 `"Installation - HiBit Uninstaller version 2.6.25.100 dialogue Tâches supplémentaires Quelles sont les tâches supplémentaires qui doivent être effectuées ?"`  
 `"Créer une icône sur le Bureau"`  
 Cette case est cochée. Je préfère tout laisser par défaut.  
-On fait deux fois tab, on valide sur `Suivant >`  
+On fait deux fois tab, on valide sur Suivant >  
 Il s'affiche un nouveau dialogue comme message:  
 `"Installation - HiBit Uninstaller version 2.6.25.100 dialogue Prêt à installer L'assistant dispose à présent de toutes les informations pour installer HiBit Uninstaller sur votre ordinateur. Cliquez sur Installer pour procéder à l'installation ou sur Précédent pour revoir ou modifier une option d'installation. Dossier de destination :      C:\Program Files (x86)\HiBit Uninstaller Tâches supplémentaires :      Icônes supplémentaires :         Créer une icône sur le Bureau"`  
-On fait tab, on valide sur `Installer`  
+On fait tab, on valide sur Installer  
 L'installation se poursuit de la manière habituelle.  
 À la fin de cette installation, nous aurons un dernier dialogue contenant le message suivant:  
 `"L'assistant a terminé l'installation de HiBit Uninstaller sur votre ordinateur. L'application peut être lancée à l'aide des icônes créées sur le Bureau par l'installation. Veuillez cliquer sur Terminer pour quitter l'assistant d'installation."`  
@@ -57,14 +57,14 @@ L'installation se poursuit de la manière habituelle.
 `"Exécuter HiBit Uninstaller coché"`  
 Je vous conseil de décoché cette case avec la barre d'espacement, donc nous l'aurons comme:  
 `"Exécuter HiBit Uninstaller non coché"`  
-On valide sur  `Terminer` pour quitter l'assistant d'installation.  
+On valide sur  Terminer pour quitter l'assistant d'installation.  
 L'application peut être lancée quand vous le souhaitez depuis l'icône HiBit Uninstaller se trouvant sur le bureau.  
 
 ## Utilisation :
  
 ## 1. L'interface avec la boîte de dialogue des mises à jour :
 
-On lance le programme via son icône sur le bureau.
+On lance le programme via son icône sur le bureau.  
 Avec tab, on va entendre les éléments suivants :  
 `Télécharger bouton`;`  
 `Vérifier mise à jour lors du lancement de programme case à cocher cochée, pour décocher barre d'espacement;`  
