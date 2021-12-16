@@ -66,7 +66,7 @@ L'application peut être lancée quand vous le souhaitez depuis l'icône HiBit U
 
 On lance le programme via son icône sur le bureau.    
 Avec tab, on va entendre les éléments suivants :    
-`Télécharger bouton`;`    
+`Télécharger bouton;`    
 `Vérifier mise à jour lors du lancement de programme case à cocher cochée, pour décocher barre d'espacement;`    
 `Journal des modifications édition en lecture seule;`    
 `Annuler bouton.`    
