@@ -11,7 +11,7 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Il y a quelques heures, NV Access a annoncé la publication de la version finale NVDA 2021.3.1 du lecteur d'écran gratuit et Open-source pour Microsoft Windows. [Ce post est consultable en anglais sur ce lien.](https://www.nvaccess.org/post/nvda-2021-3-1/) Celle-ci est désormais disponible en téléchargement! NV Access encourage tous les utilisateurs à passer à cette version.    
 
-Changements les plus remarquables dans NVDA 2021.3.1
+## Changements les plus remarquables dans NVDA 2021.3.1
 
 ## 2021.3.1
 
@@ -25,8 +25,7 @@ Changements les plus remarquables dans NVDA 2021.3.1
 ## 2021.3
 Cette version introduit le support de la nouvelle spécification Braille HID. Cette spécification entend standardiser le support des afficheurs Braille sans nécessiter de pilotes individuels. eSpeak et Liblouis ont été mis à jour, incluant de nouvelles tables Braille Russe et Tshivenda. Le son d'erreur peut être activé dans les versions stables de NVDA via un nouveau paramètre avancé. Dire tout dans Word fait maintenant défiler le document afin de garder la position actuelle visible. Sont également présentes de nombreuses améliorations lors de l'utilisation d'Office avec UIA. Un des correctifs UIA est qu'Outlook ignore maintenant plus de tableaux de disposition dans les messages.
 
-Notes importantes:
-
+# Notes importantes:
 En raison d'une mise à jour de notre certificat de sécurité, un petit nombre d'utilisateurs rencontre une erreur lorsque NVDA 2021.2 vérifie les mises à jour. NVDA demande maintenant à Windows de mettre à jour les certificats de sécurité, ce qui évitera ce type d'erreurs dans le futur. Les utilisateurs affectés devront télécharger cette mise à jour manuellement.
 
 ### Nouvelles fonctionnalités
