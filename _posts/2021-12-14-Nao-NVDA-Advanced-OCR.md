@@ -11,35 +11,35 @@ author: BlindHelp
 Il y a quelques instants, ce message en anglais a été envoyé à la liste internationale, je pense un bon cadeau de ses auteurs, alors, le voici plus bas:
 
 
-<span lang="en"># new version of Nao, NVDA Advanced OCR! by Simone Dal Maso Friday, December 24, 2021</span>
+# <span lang="en">new version of Nao, NVDA Advanced OCR! by Simone Dal Maso Friday, December 24, 2021</span>
 
 <span lang="en">Hello all and many Christmas!</span>   
 <span lang="en">We are proud to tell you that a new version of Nao is available.</span>    
 <span lang="en">This is the last version for 2021.</span>    
 <span lang="en">We have added new features and solved some bugs, here is the list:</span>    
 
-<span lang="en">* OCR of pdf and images are presented in a new text window, with some hotkeys for simple operations; in this manner we automatically solved the incompatibility with third party addons; shortcuts are:</span>
-<span lang="en">	* PgUp / PgDown: move the cursor between real pages of a multipages document.</span>
-<span lang="en">	* P: report page number related to the cursor position, in a multipage document.</span>
-<span lang="en">	* l: report line number related to the cursor position, in a multipage document.</span>
-<span lang="en">	* c: copy all text to the clipboard.</span>
-<span lang="en">	* s: Save a copy of the document in text format.</span>
-<span lang="en">	* f: find text and read some words before and after the string.</span>
-<span lang="en">* Support for the Xplorer filemanager.</span>
-<span lang="en">* Nao shortcuts are customizable from the Input Gestures Dialog of NVDA. Open NVDA menu, go to preferences, and from that submenu select input gestures dialog. Remember that this feature is not global, but it works only where Nao can make an ocr. So gestures will appear only if you are in the desktop, or in file explorer, Total Commander or Xplorer.</span>
-<span lang="en">* Nao works only where possible, so if you are in a not supported window, the hotkey will be ignored by the addon; this solved an important issue where Excel and Word users couldn't press the NVDA-Shift-r keystroke, since it was incorrectly intercepted by Nao.</span>
-<span lang="en">* A long Ocr process can be aborted simply pressing the "Cancel" button on the progress bar window. this window also gives you information about the state of the OCR, updating informations every 5 seconds. You can configure how to receive progress bar information with the standard NVDA-u command.</span>
-<span lang="en">* Added Turkish, Russian, Spanish, Chinese and french translations.</span>
-<span lang="en">* Users can make donations to the project.</span>
-<span lang="en">* Fixed a bug with some characters on the file name that prevents the Ocr to work properly.</span>
+* <span lang="en">OCR of pdf and images are presented in a new text window, with some hotkeys for simple operations; in this manner we automatically solved the incompatibility with third party addons; shortcuts are:</span>
+	* <span lang="en">PgUp / PgDown: move the cursor between real pages of a multipages document.</span>
+	* <span lang="en">P: report page number related to the cursor position, in a multipage document.</span>
+	* <span lang="en">l: report line number related to the cursor position, in a multipage document.</span>
+	* <span lang="en">c: copy all text to the clipboard.</span>
+	* <span lang="en">s: Save a copy of the document in text format.</span>
+	* <span lang="en">f: find text and read some words before and after the string.</span>
+* <span lang="en">Support for the Xplorer filemanager.</span>
+* <span lang="en">Nao shortcuts are customizable from the Input Gestures Dialog of NVDA. Open NVDA menu, go to preferences, and from that submenu select input gestures dialog. Remember that this feature is not global, but it works only where Nao can make an ocr. So gestures will appear only if you are in the desktop, or in file explorer, Total Commander or Xplorer.</span>
+* <span lang="en">Nao works only where possible, so if you are in a not supported window, the hotkey will be ignored by the addon; this solved an important issue where Excel and Word users couldn't press the NVDA-Shift-r keystroke, since it was incorrectly intercepted by Nao.</span>
+* <span lang="en">A long Ocr process can be aborted simply pressing the "Cancel" button on the progress bar window. this window also gives you information about the state of the OCR, updating informations every 5 seconds. You can configure how to receive progress bar information with the standard NVDA-u command.</span>
+* <span lang="en">Added Turkish, Russian, Spanish, Chinese and french translations.</span>
+* <span lang="en">Users can make donations to the project.</span>
+* <span lang="en">Fixed a bug with some characters on the file name that prevents the Ocr to work properly.</span>
 
 <span lang="en">Download it from:</span>    
 
-<span lang="en">[www.nvda-nao.org/download](www.nvda-nao.org/download)</span>
+[<span lang="en">www.nvda-nao.org/download](www.nvda-nao.org/download</span>)
 
 <span lang="en">Please, if you find critical bugs, write an email to:</span>    
 
-<span lang="en">](mailto:support@nvda-nao.org)</span>
+](mailto:<span lang="en">support@nvda-nao.org</span>)
 
 <span lang="en">We hope this addon will improve your productivity.</span>
 
