@@ -35,11 +35,11 @@ Il y a quelques instants, ce message en anglais a été envoyé à la liste inte
 
 <span lang="en">Download it from:</span>    
 
-[<span lang="en">www.nvda-nao.org/download](www.nvda-nao.org/download</span>)
+<span lang="en"><www.nvda-nao.org/download></span>
 
 <span lang="en">Please, if you find critical bugs, write an email to:</span>    
 
-](mailto:<span lang="en">support@nvda-nao.org</span>)
+[<span lang="en">support@nvda-nao.org](mailto:support@nvda-nao.org</span>)
 
 <span lang="en">We hope this addon will improve your productivity.</span>
 
