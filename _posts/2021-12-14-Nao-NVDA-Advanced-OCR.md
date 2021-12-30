@@ -24,7 +24,7 @@ Nao (NVDA Advanced OCR) est une extension qui améliore les capacités OCR stand
 
 # Configuration requise
 
-L'extension fonctionne sur les systèmes Windows 10 et Windows 11, car ils ont des capacités OCR intégrées. Nao est compatible à partir de la version 2021.2 de NVDA, donc n'utilisez pas une version plus ancienne du lecteur d'écran. Veuillez noter que Nao fonctionne avec l'explorateur Windows, sur le bureau ou avec les gestionnaires de fichiers Total Commander ou xplorer² ; n'utilisez pas d'autres logiciels comme 7zip ou Winrar , car ils ne sont pas pris en charge.
+L'extension fonctionne sur les systèmes Windows 10 et Windows 11, car ils ont des capacités OCR intégrées. Nao est compatible à partir de la version 2021.2 de NVDA, donc n'utilisez pas une version plus ancienne du lecteur d'écran. Veuillez noter que Nao fonctionne avec l'explorateur Windows, sur le bureau ou avec les gestionnaires de fichiers Total Commander ; n'utilisez pas d'autres logiciels comme 7zip ou Winrar , car ils ne sont pas pris en charge.
 
 # Fonctionnalités et commandes
 
@@ -46,7 +46,7 @@ Vous souhaitez signaler un bug, proposer de nouvelles fonctionnalités, traduire
 
 # Historique
 
-#2021.2
+# 2021.2
 
 * L'OCR de pdf et des images sont présentés dans une nouvelle fenêtre de texte, avec quelques raccourcis clavier pour des opérations simples.
 * Prise en charge du gestionnaire de fichiers Xplorer.
