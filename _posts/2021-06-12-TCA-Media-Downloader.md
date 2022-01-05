@@ -99,7 +99,7 @@ En principe vous aurrais comme titre de la fenêtre principale après la mise à
 Dans le cas contraire vous aurais comme titre de la fenêtre principale la version d'avant:    
 `TCA-Media Downloader 2.4 64bit`    
 
-Pour mettre à jour, c'est simple, faire:
+Pour mettre à jour, c'est simple, faire:    
 alt+m pour ouvrir le Menu,    
 Choisir Assistant de mises à jour sous-menu,    
 puis choisir Rechercher une mise à jour de l'application    
