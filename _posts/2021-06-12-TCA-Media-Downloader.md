@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 12 Juin 2021</footer>
+<footer>Publié le Samedi 12 Juin 2021 - Dernière mise à jour le Lundi 27 Décembre 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici un programme 100% accessible avec NVDA/JAWS nommé TCA-Media Downloader créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -38,31 +38,82 @@ Pour plus d’informations sur son utilisation, consultez le manuel de TCA-Media
 # Informations sur le programme TCA-Media Downloader: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 2.3
+* Version actuelle: 2.4
 * Langues supportées: Anglais, Espagnol, Français et Italien
 
 ---
 
 # Télécharger TCA-Media Downloader #
 
-Eh bien, je vous laisse ci-dessous les liens de téléchargement de TCA-Media Downloader version 2.3 fournis par l'auteur via Dropbox:    
+Eh bien, je vous laisse ci-dessous les liens de téléchargement de TCA-Media Downloader version 2.4 fournis par l'auteur via Google Drive:    
 
 # Version portable 32 Bits: #
 
-<https://www.dropbox.com/s/g5ybdrh1g6yfg7u/TCA-Media%20Downloader%20v2.3%2032%20Bits.zip?dl=1>
+<https://drive.google.com/uc?id=1ByMXSUcaNnGZU9yrDk9-X6xqbXWnBD6J&export=download>
 
 # Version portable 64 Bits: #
 
-<https://www.dropbox.com/s/s8qh77fg9b9gx3k/TCA-Media%20Downloader%20v2.3%2064%20Bits.zip?dl=1>
+<https://drive.google.com/uc?id=1JCKU6QERnS0XDE5wYm5WRr65ADLC7P4r&export=download>
 
-Et enfin plus bas le lien pour l'installateur contenant à la fois la version 32 bits et 64 bits, afin d'être installé selon l'architecture de chaque ordinateur.    
-La version que vous installez est également portable.    
+# Journal des changements.
+## Version 2.4.
 
-# Installeur 32 et 64 bits (y compris version portable): #
+* Nouvelles options pour mettre à jour.
 
-<https://www.dropbox.com/s/7chnzossqg7xz9q/TCA-MediaDownloaderSetup.exe?dl=1>
- 
+Dans le menu principal comme première option, nous aurons maintenant un sous-menu qui contiendra 3 options.
+
+Possibilité de mettre à jour les librairies YouTube-DL et YT-DLP, elles sont placées séparément afin que nous puissions mettre à jour celle que nous souhaitons en cas de mises à jour.
+
+Il est recommandé à chaque fois de vérifier s'il existe des mises à jour et s'il y a une, la mettre à jour. Il est également conseillé de mettre à jour les librairies même si ce n'est pas notre librairie par défaut pour télécharger.
+
+De même, une option est ajoutée pour pouvoir mettre à jour l'application. À partir de cette option, nous pouvons mettre à jour l'application avec les dernières nouveautés.
+
+Les nouveautés de chaque version nous pourrons les voir dans le manuel d'aide dans la section Journal des changements.
+
+Tant qu'il n'est pas nécessaire de faire des changements dans les librairies principales, les mises à jour de l'application seront reçues par ce moyen, sinon nous nous aurons un avertissement avec quoi nous devons télécharger la dernière version à partir du Blog.
+
+* Modifié l'ordre du menu.
+
+Les options de mise à jour ont été déplacées vers un sous-menu qui contiendra ce qui concerne les mises à jour, laissant ce sous-menu comme premier.
+
+Le sous-menu Outils, passe à la deuxième place.
+
+* Ajoutée des informations sur la version des librairies de téléchargement dans À propos de...
+
+Dans le dialogue À propos de... les versions à la fois de YouTube-DL et YT-DLP seront affichées.
+
+* Ajoutée la possibilité de choisir la librairie pour télécharger.
+
+Dans Options / Général, nous pouvons choisir quelle librairie nous souhaitons utiliser pour télécharger. Nous pouvons choisir entre YouTube-DL et YT-DLP.
+
+* Ajoutée la possibilité de quitter le dialogue lorsqu'un téléchargement est terminé.
+
+Dans Options / Général, nous pouvons cocher ou décocher si nous voulons qu'on nous demande si nous souhaitons ouvrir le dossier de téléchargement chaque fois qu'un téléchargement est terminé.
+
+# Notes by BlindHelp
+
+Cette version portable il faudra la mettre à jour depuis l'interface  du programme  de la version 2.4 vers la version 2.4.1 pour avoir la nouvelle traduction de la documentation et interface en français.
+
+En principe vous aurrais comme titre de la fenêtre principale après la mise à jour:    
+`TCA-Media Downloader 2.4.1 64bit`    
+Dans le cas contraire vous aurais comme titre de la fenêtre principale la version d'avant:    
+`TCA-Media Downloader 2.4 64bit`    
+
+Pour mettre à jour, c'est simple, faire:
+alt+m pour ouvrir le Menu,    
+Choisir Assistant de mises à jour sous-menu,    
+puis choisir Rechercher une mise à jour de l'application    
+
+Pour consulter le Manuel de TCA-Media Downloader:    
+alt+m pour ouvrir le Menu,    
+puis choisir:    
+`Manuel de TCA-Media Downloader`    
+Une fois que nous avons appuyer sur Entrée, il ouvrira notre navigateur par défaut et nous montrera le manuel.    
+Voilà,    
+Profitez de TCA-Media Downloader!    
+
 ---
+
 
 Mille merci à notre ami <span lang="es">Héctor J. Benítez Corredera</span> pour l'avoir partagé avec nous tous! :)    
 Profitez du programme TCA-Media Downloader, afin de téléchargez audio et vidéos à partir du Web 100% accessible avec nos lecteurs d'écran NVDA/JAWS! 😄    
