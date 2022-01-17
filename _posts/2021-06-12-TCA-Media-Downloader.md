@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 12 Juin 2021 - Dernière mise à jour le Lundi 27 Décembre 2021</footer>
+<footer>Publié le Samedi 12 Juin 2021 - Dernière mise à jour le Lundi 17 Janvier 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici un programme 100% accessible avec NVDA/JAWS nommé TCA-Media Downloader créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -38,24 +38,83 @@ Pour plus d’informations sur son utilisation, consultez le manuel de TCA-Media
 # Informations sur le programme TCA-Media Downloader: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 2.4
+* Version actuelle: 2.5
 * Langues supportées: Anglais, Espagnol, Français et Italien
 
 ---
 
 # Télécharger TCA-Media Downloader #
 
-Eh bien, je vous laisse ci-dessous les liens de téléchargement de TCA-Media Downloader version 2.4 fournis par l'auteur via Google Drive:    
+Eh bien, je vous laisse ci-dessous les liens de téléchargement de TCA-Media Downloader version 2.5 du Lundi 17 Janvier 2022 fournis par l'auteur via Google Drive:    
+
+Pour les systèmes Windows 7, 8 et 8.1, où ils donnent une erreur et ne pouvant ouvrir le programme, cela pourrait être dû à l'absence de librairies, telles que le NetFramework et le Visual C++, qui doit être installée (Voir le lien de téléchargement ci-dessous).
 
 # Version portable 32 Bits: #
 
-<https://drive.google.com/uc?id=1ByMXSUcaNnGZU9yrDk9-X6xqbXWnBD6J&export=download>
+<https://drive.google.com/uc?id=1J0Pvx_gWseZLTkyQgfnrt8UZcOkEeSx_&export=download>
 
 # Version portable 64 Bits: #
 
-<https://drive.google.com/uc?id=1JCKU6QERnS0XDE5wYm5WRr65ADLC7P4r&export=download>
+<https://drive.google.com/uc?id=12ZpvEZoNW8Bq6Z4mXboazmjRMyRand2h&export=download>
+# Librairies Netframework et Visual Studio C++ (dans un seul fichier zip): #
+
+<https://drive.google.com/uc?id=1MN0GPIf0VY9Zm7Xc3AO74z50Ypcsg6Dc&export=download>
 
 # Journal des changements.
+## Version 2.5.
+
+* La façon de compiler l'application a été modifiée.
+
+Ceci est fait pour essayer que tout le monde puisse utiliser l'application. Parfois, certains ordinateurs ne pouvaient pas exécuter l'application.
+
+Cela a impliqué la restructuration de tout ce qui concerne les mises à jour.
+
+* Tout ce qui se réfère aux mises à jour a été modifiée.
+
+Maintenant, les mises à jour seront faites sur le même canal indifféremment à la fois pour les librairies YouTube ou de l'application.
+
+Une seule option est laissée dans le menu de l'application pour rechercher des mises à jour.
+
+En cas de trouver une maintenant, un dialogue s'affichera avec les informations de ce qui va être mis à jour Que ce soit pour l'application, les librairies, etc.
+
+Dans ledit dialogue, un petit résumé des principaux changements que la mise à jour apporte sera faite.
+
+Ce dialogue aura les changements traduits de sorte que chaque langue pris en charge puisse être informée.
+
+Dans le dialogue, nous aurons deux boutons, "Télécharger la mise à jour" ou "Annuler la mise à jour".
+
+* Ajoutée dans Options / Général, une case pour que l'application recherche des mises à jour lors du démarrage de celle-ci.
+
+C'est une case à cocher qui, une fois cochée, chaque fois que TCA-Media Downloader s'ouvre recherchera des mises à jour, en cas de les trouver, le dialogue de mise à jour sera affiché.
+
+* Ajoutée la possibilité de voir une fiche d'un élément que nous avons recherché sur YouTube.
+
+Maintenant, lorsque nous effectuons une recherche dans les résultats si nous appuyons sur Entrée, une fenêtre s'ouvrira avec les informations sur l'élément que nous avons sélectionné. Nous pouvons également lancer le dialogue avec les combinaisons de touches Maj+F10 ou touche Applications et sélectionner "Voir la fiche".
+
+Dans ce dialogue, nous pouvons tabuler et trouver un bouton avec lequel un menu sera affiché et nous permettra de copier dans le presse-papiers la fiche entière, l'URL de la vidéo ou l'URL du canal auquel appartient la vidéo.
+
+L'option "Copier le lien du canal auquel appartient la vidéo" peut aller bien pour obtenir plus de vidéos similaires que celles que nous souhaitons si nous utilisons la liste de lecture personnalisée.
+
+* Ajoutée la possibilité dans le lecteur d'entendre par notre lecteur d'écran la durée du temps écoulée de  la lecture comme la durée du temps totale de la piste.
+
+Nous le ferons avec F1 pour le temps écoulé et F2 pour le temps total. Lorsque nous appuyons sur ces touches si nous avons un lecteur d'écran ouvert celui-ci nous donnera les informations correspondantes.
+
+* Une amélioration est ajoutée uniquement aux versions 32 bits et en utilisant NVDA dans les listes de lecture personnalisées.
+
+Maintenant, dans ledit dialogue, nous serons informés dans une liste avec des cases à cocher si nous avons sélectionné la vidéo ou non. Cela facilite grandement la compréhension.
+
+* Une icône a été ajoutée à l'application.
+
+Cette icône appartient au logo (en espagnol) de Tecno conocimiento Accesible.
+
+L'icône est formée par des lettres qui mettent TCA et un ordinateur avec des lunettes de soleil.
+
+* Différentes erreurs ont été corrigées et la vitesse du chargement de l'application est augmentée.
+
+Certaines erreurs internes ont été résolues et l'application maintenant démarrera plus rapidement par la façon dont celle-ci a été compilée.
+
+* Ajouté dans le dialogue Informations, dans À propos de... la version de Python avec laquelle l'application a été compilée.
+
 ## Version 2.4.
 
 * Nouvelles options pour mettre à jour.
@@ -92,7 +151,9 @@ Dans Options / Général, nous pouvons cocher ou décocher si nous voulons qu'on
 
 # Notes by BlindHelp
 
-Cette version portable il faudra la mettre à jour depuis l'interface  du programme  de la version 2.4 vers la version 2.4.1 pour avoir la nouvelle traduction de la documentation et interface en français.
+# Si vous avez téléchargé la version précédente 2.4 de TCA-Media Downloader du Lundi 27 Décembre 2021: #
+
+Cette version portable il faudra la mettre à jour depuis l'interface  du programme  de la version 2.4 vers la version 2.4.1 pour avoir la nouvelle traduction de la documentation et interface en français.    
 
 En principe vous aurrais comme titre de la fenêtre principale après la mise à jour:    
 `TCA-Media Downloader 2.4.1 64bit`    
@@ -103,6 +164,11 @@ Pour mettre à jour, c'est simple, faire:
 alt+m pour ouvrir le Menu,    
 Choisir Assistant de mises à jour sous-menu,    
 puis choisir Rechercher une mise à jour de l'application    
+
+# Si vous avez mis à jour la version 2.4 vers la 2.4.1 de TCA-Media Downloader: #
+
+Vous devrez télécharger le programme de TCA-Media Downloader dans sa dernière version 2.5 du Lundi 17 Janvier 2022 en utilisant les liens indiqués ci-dessus. Merci.    
+Enfin, selon l'archive zip de l'application téléchargé  de TCA-Media Downloader   dans sa version 2.5 soit pour Windows 32 bits ou 64 bits, si vous avez un message qui vous indique qu'il existe une autre incidence ouverte du programme et que vous ne pouvez pas fermer le processus nommé: TCA-MediaDownloader.exe, vous pouvez le faire via le fichier: "Close_TCA-MediaDownloader.bat" qui se trouve dans chaque dossier dédié, en cliquant sur celui-ci.    
 
 Pour consulter le Manuel de TCA-Media Downloader:    
 alt+m pour ouvrir le Menu,    
