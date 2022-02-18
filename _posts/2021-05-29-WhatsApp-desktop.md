@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le  Samedi  29 Mai 2021 - Dernière mise à jour le Mercredi 10 Novembre 2021</footer>
+<footer>Publié le  Samedi  29 Mai 2021 - Dernière mise à jour le Mardi 15 Février 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé WhatsApp-desktop créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin d'avoir les raccourcis clavier pour accéder facilement à certaines fonctions de l'application [WhatsApp-desktop pour Windows!](https://www.whatsapp.com/download/)    
@@ -59,7 +59,7 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 # Informations sur l'extension WhatsApp-desktop: #
 
 * Auteur: <span lang="es">Gerar Késsler</span>
-* Version actuelle: 2.2142.12
+* Version actuelle: 2.2202.12
 * Compatibilité avec NVDA: de 2019.3 à 2021.2
 * Langues supportées: Anglais, Espagnol, Français, Portugais du Brésil et du Portugal, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=whatsappdesktop)
@@ -96,9 +96,9 @@ Remarque: cette extension ne fonctionne que avec le mode formulaire actif.
 * Déplacer le focus vers le message répondu. alt + contrôle + entrée.
 * Reculer 5 messages dans la liste; page précédente.
 * Avancer 5 messages dans la liste; page suivante.
-* Connaître l'état du dernier message envoyé dans la conversation focalisé; contrôle + maj + e.
 * Verbaliser le message en fonction de ça position; alt + 1 à 9 du clavier alphanumérique (Seulement à partir du dialogue d'édition de message).
 * Basculer le focus entre la liste des messages et la zone d'édition lorsque vous entrez dans une cconversation; alt + flèche gauche.
+* Appuyer sur le bouton Lire plus dans les messages texte; alt + flèche bas.
 
 ### Raccourcis généraux de l'application:
 
@@ -154,6 +154,17 @@ Une fois ici, nous pouvons sélectionner et désélectionner des messages avec l
 	Valentin Kupriyanov (russe)
 
 ## Journal des changements:  
+### 2.2149.4
+
+* Fonction ajoutée pour appuyer sur le bouton Lire plus dans les messages texte très étendu.
+* Améliorations Dans la fonction pour copier le texte du message dans le Presse-papiers.
+* La verbalisation du nom du chat fonctionne désormais depuis la liste des conversations, Et de n'importe où à l'intérieur de la même.
+
+### 2.2144.11
+
+* Modifications de la compatibilité avec la version 2.2144.11
+
+
 ### 2.2142.12
 
 * Modifications de la compatibilité avec la version 2.2142.12
