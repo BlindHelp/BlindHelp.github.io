@@ -15,7 +15,7 @@ Je viens de le traduire en français pour le fun, et l'auteur m'a dit que je pou
 
 Cette extension permet à n'importe quel utilisateur de NVDA de consultez la définition de tout mot dans le dictionnaire de la langue espagnole de la <span lang="es">Real Academia Española (RAE)</span>
 
-* [Voir code source sur GitHub](https://github.com/antramcs/DLEChecker)    
+[Voir code source sur GitHub](https://github.com/antramcs/DLEChecker)    
 
 # Informations sur l'extension WikiChecker: #
 
