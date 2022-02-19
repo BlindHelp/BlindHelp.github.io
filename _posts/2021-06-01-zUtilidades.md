@@ -6,7 +6,7 @@ author: BlindHelp
 ---
 
 
-<footer>Publié le  Mardi  Ier Juin 2021 - Dernière mise à jour le Dimanche 10 Octobre 2021</footer>
+<footer>Publié le Mardi Ier Juin 2021 - Dernière mise à jour le Mardi 15 Février 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé zUtilidades créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/) qui intègre le module Lanceur d'applications en ajoutant tout le nécessaire pour avoir un lanceur potentiel pour NVDA afin de lancer rapidement nos applications ou nos commandes en ligne ou accéder à nos dossiers préférés!    
@@ -15,9 +15,9 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension  zUtilidades: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.2.3
-* Compatibilité avec NVDA: de 2019.3 à 2021.1
-* Langues supportées: Espagnol, Français et Portugais du Portugal / Brésil
+* Version actuelle: 0.2.4
+* Compatibilité avec NVDA: de 2019.3 à 2022.1
+* Langues supportées: Espagnol, Français, Italien, Portugais du Portugal / Brésil, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=zUtilidades)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zUtilidades-para-NVDA)
 
