@@ -10,6 +10,15 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé zEmoticonos créée par le même auteur de l'extension [zUtilidades](https://blindhelp.github.io/zUtilidades/) idéal si vous souhaitez avoir la liste complète des émoticônes et symboles qui sont prises en charges  par NVDA!    
 
+Parfois, une image vaut 1000 mots : utilisez le nouvel emoji pour animer vos messages instantanés pour indiquer à vos contacts ce que vous ressentez.    
+
+Note : Sous Windows 10, il est également possible d'utiliser le panneau emoji intégré.    
+
+Comment fait-ont ?    
+Placez le focus dans n’importe quelle zone de texte, appuyez sur Windows+point-virgule et utilisez les flèches et la touche de tabulation pour taper l'emoji désiré.    
+
+A vous les smileys Lol ou les petits coeurs sur vos conversations privées ou dans vos posts Facebook / Twitter.
+
 Je viens de le traduire en français et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
 
 # Informations sur l'extension zEmoticonos: #
@@ -17,7 +26,7 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
 * Version actuelle: 0.3
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
-* Langues supportées: Espagnol, Français et Portugais du Portugal / Brésil, Russe et Turc
+* Langues supportées: Espagnol, Français, Portugais du Portugal / Brésil, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=zEmoticonos)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zEmoticonos)
 
