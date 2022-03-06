@@ -1,0 +1,308 @@
+﻿<HTML>
+<html lang="fr">
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<script type="text/javascript"> 
+<!-- 
+
+var firstTime = true;
+
+function MM_jumpMenuGo(objId, targ, restore){ //v9.0 
+var selObj = null; with (document) { 
+if (getElementById) selObj = getElementById(objId); 
+// if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'"); 
+if (restore) selObj.selectedIndex=0; } 
+// l'url du fichier mp3 du flux
+var url = selObj.options[selObj.selectedIndex].value;
+// on repère l'objet audio de la page
+var aud = document.getElementById("lecteur");
+// on met en pause une éventuelle lecture
+aud.pause();
+// si c'est la première fois, on impose un volume pas trop fort
+if(firstTime == true){
+aud.volume = 0.5;
+firstTime = false;
+} // End If
+// et on change le fichier en cours de lecture
+aud.src = url;
+
+} // end function
+
+function MM_jumpMenu_KeyDown(e){
+// enter
+if(e.keyCode == 13){
+e.preventDefault();
+document.getElementById("go_button").click();
+return false;
+} // End If
+} // End Function
+
+function btPlayPause_Click(e){
+//
+var aud = document.getElementById("lecteur");
+if(aud.paused == true){
+aud.play();
+} else {
+aud.pause();
+} // End If
+// pour actualiser le label du bouton
+var bt = document.getElementById("btPlayPause");
+window.setTimeout(function(){
+if(aud.paused == true){
+bt.innerText = "Play";
+} else {
+bt.innerText = "Pause";
+} // End If
+}, 1000);
+} // End Function
+
+function btVolumeUp_Click(e){
+//
+var aud = document.getElementById("lecteur");
+var v = aud.volume + 0.1;
+if(v > 1){
+v = 1
+} // End If
+aud.volume = v;
+//
+saystring("Volume " + parseInt(v * 100) + "%");
+} // End Function
+
+function btVolumeDown_Click(e){
+//
+var aud = document.getElementById("lecteur");
+var v = aud.volume - 0.1;
+if(v > 1){
+v = 1
+} // End If
+aud.volume = v;
+//
+saystring("Volume " + parseInt(v * 100) + "%");
+} // End Function
+
+function saystring(s){
+// fonction d'accessibilité
+// qui fait dire du texte par la synthèse vocale active
+// en utilisant les balises d'accessibilité aria.
+//
+//o s'assure d'abord que les variables globales nécessaires ont bien été créées
+if(this.compteur_yyd == null){
+this.compteur_yyd = 0;
+this.message_yyd = "";
+this.timeout_yyd = 0;
+} // end if
+//
+var elm;
+var difference = "";
+// on arrête un éventuel timer de ramasse miette
+window.clearTimeout(this.timeout_yyd);
+// on trouve la zone d'affichage du texte
+elm = document.getElementById("message_to_say_yyd");
+if(elm == null){ // non encore existante
+// on crée cette zone
+elm = document.createElement("div");
+elm.setAttribute("id", "message_to_say_yyd");
+elm.setAttribute("aria-live", "assertive");
+elm.setAttribute("aria-atomic", "true");
+elm.setAttribute("style", "width: 0%;height: 0%;");
+// on l'ajoute à la fin de la balise body
+document.getElementsByTagName("body")[0].appendChild(elm);
+// document.body.appendChild(elm);
+} // fin si zone du texte non encore existante
+// si chaîne vide
+if(s.trim() == ""){
+return;
+} // End If
+// si la zone a été repérée
+if(elm != null){
+// si le nouveau message est strictement identique à l'ancien
+if(s == this.message_yyd){
+// on va forcer un élément de différence
+this.compteur_yyd = this.compteur_yyd + 1;
+difference = " " + "-".repeat(this.compteur_yyd);
+} else { // c'est vraiment un nouveau message
+this.compteur_yyd = 0; // réinitialisation
+} // end if
+elm.innerText = "";
+elm.innerText = s + difference;
+} // end if elm non null
+// enregistrement de ce message en mémoire
+this.message_yyd = s
+// on va programmer l'effacement du texte dans une demi seconde
+var clearSaidMessage = function(){
+document.getElementById("message_to_say_yyd").innerText = "";
+};
+this.timeout_yyd = window.setTimeout(clearSaidMessage, 500);
+} // end function
+
+//--> 
+</script> 
+
+</HEAD>
+<TITLE>Flux Radio France en HD en bric-à-brac</TITLE>
+<BODY>
+<bgcolor = "black" text = "white" alink ="light white">
+<div id="header">
+<h1 class="title">Flux Radio France en HD en bric-à-brac</h1>
+<h2 class="author">By BlindHelp</h2>
+<h3 class="date">Date de publication le Dimanche 20 Février 2022</h3>
+</div>
+<p><main></p>
+<p>Dernière mise à jour le Jeudi 24 Février 2022</p>
+<h1 id="Flux Radio France en HD en-bric-à-brac">Flux Radio France en HD en bric-à-brac</h1>
+<p>Coucou mes amis du blog de BlindHelp!<br />
+Avant tout j'en profite pour remercier à mon cher  ami Yannick Daniel Youalé du Cameroun, 🇨🇲 sans doute l'un des meilleurs développeurs en accessibilité que je connaisse.<br />
+Sans lui la réalisation de cette page Web ce n'était pas possible car lui la rendu entièrement accessible grâce à ces scripts y compris et son lecteur intégré qui vous permettra de lire les flux des stations de radio avec plus de confort et d'efficacité!<br />
+Jugez-en par vous-même!<br />
+<a href="https://www.stsolution.org/home.php" target="_blank">Vous pouvez visiter son site ST Solution, en cliquant ici</a><br />
+Je vous suggère d'y jeter un coup d'œil car le site regorge d'informations pertinentes pour aider les déficients visuels à mieux naviguer sur les pages web.</a><br />
+Encore Mille Merci à Yannick Daniel Youalé ;)<br />
+Ci-dessous, vous trouverez une liste non exhaustive de quelques flux Radio France en HD en bric-à-brac concocté à la base par notre ami Michel Such du laboratoire Such!<br />
+J' ai agrémenté cette même liste avec quelques  flux du groupe Radio France qui étaient absents.<br />
+Merci à notre ami Michel pour son dévouement et son travail. 🤝<br />
+Notez qu'il arrive que les adresses des flux des radios changent après quelques années, n'hésitez donc pas à signaler si jamais une de ces adresses n'était plus fonctionnelle. Merci.<br />
+Bonne découverte!<br />
+Sur ce, je vous souhaite une bonne écoute des stations de radio en un click!<br />
+Voici le nouvel espace de BlindHelp via GitHub que est aussi le votre!<br />
+<a href="https://blindhelp.github.io/" target="_blank">https://blindhelp.github.io</a><br />
+@+!<br />
+BlindHelp!<br />
+<br />
+
+<h1 id="Comment-écouter-flux-radio-france-hd-en-bric-à-brac"> Comment écouter les flux Radio France en HD en bric-à-brac?</h1>
+<p>Ceci est très facile, pour cela suivez ce petit guide rapide:<br />
+Pour les personnes qui ont  le lecteur d'écran NVDA vous devez passer en mode formulaire en faisant:<br />
+NVDA+Espace, activer et désactiver le mode formulaire automatique; Si vous avez sélectionné le mode formulaire manuel, voici 2 commandes à connaître:<br />
+Entrée, Activer le champ de formulaire;<br />
+Échappement, désactiver le champ de formulaire.<br />
+Pour les personnes qui ont  le lecteur d'écran Jaws vous devez passer  en mode formulaire en faisant:<br />
++ du pavé numérique ou Entrée. Pour quitter le mode Formulaire, appuyez sur + du pavé numérique ou ÉCHAP.<br />
+Dans les deux cas de figure une fois activée la liste déroulante il vous permet de sélectionner une des radio figurant dans cette liste à l'aide des  touches fléchées alors il suffit d'appuyer sur Entrée pour lancer la radio.<br />
+Et je trouve que c'est une amélioration de taille car elle m'a aisément permis de passer en revue toutes les radio disponibles, juste en me servant d'une main.<br />
+Maintenant, plus forcément besoin de se rendre au bouton Aller pour lancer la radio.<br />
+On peut ainsi facilement faire maj+tab pour revenir à la liste déroulante, choisir une autre radio et re-activer celle-ci avec la touche Entrée pour que le lecteur après quelques secondes se mette automatiquement à diffuser la nouvelle.<br />
+Dans les deux cas de figure une fois  désactiver le mode formulaire après le titre de niveau 3 appelé:<br />
+Lecteur<br />
+vous trouverez trois boutons pour:<br />
+<ul>
+<li>Mettre play/pause;</li>
+<li>Augmenter le volume;</li>
+<li>Diminuer le volume.</li>
+</ul>
+Et un petit bonus que Yannick Daniel Youalé a ajouté, c'est que quand on clique sur les boutons d'augmentation ou de diminution de volume, le nouveau pourcentage du volume est lu par la synthèse vocale active.<br />
+De plus, si vous avez un téléphone  Android, celui-ci vous permet d'écouter le contenu de ces flux à partir  de cette même page et ça semble fonctionner correctement selon un petit test fait par Yannick Daniel Youalé.<br />
+Donc, même les appareils mobiles peuvent être ciblés.<br />
+
+<p>Enjoy!</p>
+
+<hr>
+<label for="Flux">Choisisser le flux de la station de radio</label><br />
+<FORM>
+<select name="jumpMenu" id="jumpMenu" onkeydown="MM_jumpMenu_KeyDown(event);"> 
+<option value="http://direct.franceinter.fr/live/franceinter-hifi.aac">France Inter</option>
+<option value="http://direct.franceinfo.fr/live/franceinfo-hifi.aac">franceinfo</option>
+<option value="http://direct.franceculture.fr/live/franceculture-hifi.aac">France Culture</option>
+<option value="http://direct.francemusique.fr/live/francemusique-hifi.aac">France Musique</option>
+<option value="https://icecast.radiofrance.fr/francemusiqueeasyclassique-hifi.aac?id=radiofrance-">France Musique - Easy Classic</option>
+<option value="https://icecast.radiofrance.fr/francemusiqueclassiqueplus-hifi.aac?id=radiofrance-">France Musiqhe - Classique Plus</option>
+<option value="https://icecast.radiofrance.fr/francemusiqueconcertsradiofrance-hifi.aac?id=radiofrance-">France Musique - Concerts RadioFrance</option>
+<option value="https://icecast.radiofrance.fr/francemusiqueocoramonde-hifi.aac?id=radiofrance-">France Musique - Ocora Monde</option>
+<option value="https://icecast.radiofrance.fr/francemusiquelajazz-hifi.aac?id=radiofrance-">France Musique - La Jazz</option>
+<option value="https://icecast.radiofrance.fr/francemusiquelacontemporaine-hifi.aac?id=radiofrance-">France Musique - La Contemporaine</option>
+<option value="http://direct.francemusique.fr/live/francemusiquelevenementielle-hifi.aac">France Musique - L'événementielle</option>
+<option value="http://icecast.radiofrance.fr/francemusiquebaroque-hifi.aac">France Musique - Baroque</option>
+<option value="https://icecast.radiofrance.fr/francemusiquelabo-hifi.aac?id=radiofrance">France Musique - Labo</option>
+<option value="https://icecast.radiofrance.fr/fip-hifi.aac?id=radiofrance">FIP</option>
+<option value="https://icecast.radiofrance.fr/fiprock-hifi.aac?id=radiofrance-">FIP - Rock</option>
+<option value="https://icecast.radiofrance.fr/fipjazz-hifi.aac?id=radiofrance-">FIP - Jazz</option>
+<option value="https://icecast.radiofrance.fr/fipgroove-hifi.aac?id=radiofrance-">FIP - Groove</option>
+<option value="https://icecast.radiofrance.fr/fipworld-hifi.aac?id=radiofrance-">FIP - World</option>
+<option value="https://icecast.radiofrance.fr/fipnouveautes-hifi.aac?id=radiofrance-">FIP - Nouveautés</option>
+<option value="https://icecast.radiofrance.fr/fipreggae-hifi.aac?id=radiofrance-">FIP - Reggae</option>
+<option value="https://icecast.radiofrance.fr/fipelectro-hifi.aac?id=radiofrance-">Fip - Électro</option>
+<option value="http://direct.mouv.fr/live/mouv-hifi.aac">Mouv'</option>
+<option value="http://direct.mouv.fr/live/mouvxtra-midfi.mp3">Mouv' Xtra</option>
+<option value="http://direct.francebleu.fr/live/fbalsace-midfi.mp3">France Bleu Alsace</option>
+<option value="http://direct.francebleu.fr/live/Fbelsass-midfi.mp3">France Bleu Elsass</option>
+<option value="http://direct.francebleu.fr/live/fbarmorique-midfi.mp3">France Bleu Armorique</option>
+<option value="http://direct.francebleu.fr/live/fbauxerre-midfi.mp3">France Bleu Auxerre</option>
+<option value="http://direct.francebleu.fr/live/fbazur-midfi.mp3">France Bleu Azur</option>
+<option value="http://direct.francebleu.fr/live/fbbearn-midfi.mp3">France Bleu Béarn</option>
+<option value="http://direct.francebleu.fr/live/fbbelfort-midfi.mp3">France Bleu Belfort-Montbéliard</option>
+<option value="http://direct.francebleu.fr/live/fbberry-midfi.mp3">France Bleu Berry</option>
+<option value="http://direct.francebleu.fr/live/fbbesancon-midfi.mp3">France Bleu Besançon</option>
+<option value="http://direct.francebleu.fr/live/fbbourgogne-midfi.mp3">France Bleu Bourgogne</option>
+<option value="http://direct.francebleu.fr/live/fbbreizizel-midfi.mp3">France Bleu Breizh Izel</option>
+<option value="http://direct.francebleu.fr/live/fbchampagne-midfi.mp3">France Bleu Champagne-Ardenne</option>
+<option value="http://direct.francebleu.fr/live/fbcotentin-midfi.mp3">France Bleu Cotentin</option>
+<option value="http://direct.francebleu.fr/live/fbcreuse-midfi.mp3">France Bleu Creuse</option>
+<option value="http://direct.francebleu.fr/live/fbdromeardeche-midfi.mp3">France Bleu Drome Ardèche</option>
+<option value="http://direct.francebleu.fr/live/fbgardlozere-midfi.mp3">France Bleu Gard Lozère</option>
+<option value="http://direct.francebleu.fr/live/fbgascogne-midfi.mp3">France Bleu Gascogne</option>
+<option value="http://direct.francebleu.fr/live/fbgironde-midfi.mp3">France Bleu Gironde</option>
+<option value="http://direct.francebleu.fr/live/fbherault-midfi.mp3">France Bleu Hérault</option>
+<option value="http://direct.francebleu.fr/live/fbisere-midfi.mp3">France Bleu Isère</option>
+<option value="http://direct.francebleu.fr/live/fblarochelle-midfi.mp3">France Bleu La Rochelle</option>
+<option value="http://direct.francebleu.fr/live/fblimousin-midfi.mp3">France Bleu Limousin</option>
+<option value="http://direct.francebleu.fr/live/fbloireocean-midfi.mp3">France Bleu Loire Océan</option>
+<option value="http://direct.francebleu.fr/live/fblorrainenord-midfi.mp3">France Bleu Lorraine Nord</option>
+<option value="http://direct.francebleu.fr/live/fbmaine-midfi.mp3">France Bleu Maine</option>
+<option value="http://direct.francebleu.fr/live/fbmayenne-midfi.mp3">France Bleu Mayenne</option>
+<option value="http://direct.francebleu.fr/live/fbnord-midfi.mp3">France Bleu Nord</option>
+<option value="http://direct.francebleu.fr/live/fbbassenormandie-midfi.mp3">France Bleu Normandie (Calvados - Orne)</option>
+<option value="http://direct.francebleu.fr/live/fbhautenormandie-midfi.mp3">France Bleu Normandie (Seine-Maritime - Eure)</option>
+<option value="http://direct.francebleu.fr/live/fborleans-midfi.mp3">France Bleu Orléans</option>
+<option value="http://direct.francebleu.fr/live/fb1071-midfi.mp3">France Bleu Paris</option>
+<option value="http://direct.francebleu.fr/live/fbpaysbasque-midfi.mp3">France Bleu Pays Basque</option>
+<option value="http://direct.francebleu.fr/live/fbpaysdauvergne-midfi.mp3">France Bleu Pays d'Auvergne</option>
+<option value="http://direct.francebleu.fr/live/fbpaysdesavoie-midfi.mp3">France Bleu Pays de Savoie</option>
+<option value="http://direct.francebleu.fr/live/fbperigord-midfi.mp3">France Bleu Périgord</option>
+<option value="http://direct.francebleu.fr/live/fbpicardie-midfi.mp3">France Bleu Picardie</option>
+<option value="http://direct.francebleu.fr/live/fbpoitou-midfi.mp3">France Bleu Poitou</option>
+<option value="http://direct.francebleu.fr/live/fbprovence-midfi.mp3">France Bleu Provence</option>
+<option value="http://direct.francebleu.fr/live/fbfrequenzamora-midfi.mp3">France Bleu RCFM Frequenza Mora</option>
+<option value="http://direct.francebleu.fr/live/fbroussillon-midfi.mp3">France Bleu Roussillon</option>
+<option value="http://direct.francebleu.fr/live/fbstetienne-midfi.mp3">France Bleu Saint-Etienne Loire</option>
+<option value="http://direct.francebleu.fr/live/fbsudlorraine-midfi.mp3">France Bleu Sud Lorraine</option>
+<option value="http://direct.francebleu.fr/live/fbtoulouse-midfi.mp3">France Bleu Toulouse</option>
+<option value="http://direct.francebleu.fr/live/fbtouraine-midfi.mp3">France Bleu Touraine</option>
+<option value="http://direct.francebleu.fr/live/fbvaucluse-midfi.mp3">France Bleu Vaucluse</option>
+</select> 
+</form> 
+
+<input type="button" name="go_button" id= "go_button" value="Aller" onclick="MM_jumpMenuGo('jumpMenu','parent',0)" /> 
+
+<h3>
+Lecteur
+</h3>
+
+<div>
+<audio id="lecteur" autoplay=autoplay  preload="auto" aria-live="off">
+</audio>
+
+<p>
+<button id="btPlayPause" onclick="btPlayPause_Click(event);">
+Pause
+</button>
+<button onclick="btVolumeUp_Click(event);">
+Volume+
+</button>
+<button onclick="btVolumeDown_Click(event);">
+Volume-
+</button>
+</p>
+</div>
+
+<hr>
+
+<footer>
+
+Dernière mise à jour : 24/02/2022.
+</main>
+
+</footer>
+</BODY>
+</HTML>
+
+
