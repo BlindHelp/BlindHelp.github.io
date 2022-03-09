@@ -13,11 +13,11 @@ Aujourd'hui, je vous apporte une fiche technique à propos de Thunderbird et les
 
 1. Comme cela a été déjà décrit ailleurs et dans d'autres listes, allez dans les paramètres de votre compte et modifiez la méthode d’authentification par mot de passe  cela se trouve dans Outils, puis Paramètres des comptes dans le dialogue:    
 `Paramètres des comptes Courrier et Groupes - Mozilla Thunderbird`    
-Changer la valeur par défaut:
+Changer la valeur par défaut:    
 `Méthode d’authentification : Mot de passe normal`    
 Par la nouvelle valeur:    
 `Méthode d’authentification : OAuth2`    
-Ceci est une liste déroulante, Si celle-ci est réduite, vous devez utiliser Alt + flèche bas pour la développer. Une fois que la liste déroulante est ouverte, utilisez les touches fléchées c'est-à-dire, flèche haut / bas pour modifier le réglage    .    
+Ceci est une liste déroulante, Si celle-ci est réduite, vous devez utiliser Alt + flèche bas pour la développer. Une fois que la liste déroulante est ouverte, utilisez les touches fléchées c'est-à-dire, flèche haut / bas pour modifier le réglage.    
 2. Une fois ce paramètre modifié, quittez simplement le dialogue avec Control + W (Pour cela, vous ne devriez pas être sur la liste déroulante).    
 3. Ensuite, essayez de recevoir et d'envoyer du courrier. (Assurez-vous d'Avoir le mot de passe à portée de main avant de le faire).    
 4. Vous serez invité à entrer votre compte GMail existant en entrant d'abord votre adresse e-mail, puis en cliquant sur Suivant, puis entrez votre mot de passe existant.    
@@ -40,11 +40,15 @@ Pour accéder / changer les paramètres de mot de passe et de sécurité.
 6. Vous devez modifier à la fois les paramètres de mot de passe / de sécurité dans les serveurs entrants et sortants.    
 7. Pour une raison inconnue, ils placent le serveur sortant à la racine de l'arborescence.    
 8. Maj Tab jusqu'à ce que vous entendiez "Paramètres Serveur sortant (SMTP) Alt+Maj+P Modifier le serveur SMTP..." et appuyez sur la barre d'espace pour activer le dialogue.    
-9. Tab Jusqu'à ce que vous arriviez dans la liste déroulante indiquant "Méthode d’authentification : Mot de passe normal Alt+Maj+i" vous devez utiliser Alt + flèche bas pour la développer. Une fois que la liste déroulante est ouverte, utiliser les touches flèches haut / bas pour passer à "Méthode d’authentification : OAuth2 Alt+Maj+i"    
+9. Tab Jusqu'à ce que vous arriviez dans la liste déroulante indiquant:    
+"Méthode d’authentification : Mot de passe normal Alt+Maj+i" vous devez utiliser Alt + flèche bas pour la développer. Une fois que la liste déroulante est ouverte, utiliser les touches flèches haut / bas pour passer à:    
+"Méthode d’authentification : OAuth2 Alt+Maj+i"    
 10. Tab sur OK et appuyez sur Entrée.    
 11. Ensuite, Tab sur la racine de GMail et appuyez une fois sur flèche bas pour vous déplacer vers les paramètres du serveur.    
-12. Tab plusieurs nombre de fois jusqu'à ce que vous atteignez la liste déroulante indiquant "Méthode d’authentification : Mot de passe normal Alt+Maj+i".    
-13. Utiliser Alt + flèche bas pour ouvrir la liste déroulante et utiliser les touches fléchées pour changer ceci en "Méthode d’authentification : OAuth2 Alt+Maj+i".    
+12. Tab plusieurs nombre de fois jusqu'à ce que vous atteignez la liste déroulante indiquant:
+"Méthode d’authentification : Mot de passe normal Alt+Maj+i".    
+13. Utiliser Alt + flèche bas pour ouvrir la liste déroulante et utiliser les touches fléchées pour changer ceci en:    
+"Méthode d’authentification : OAuth2 Alt+Maj+i".    
 
 Donc, vous l'avez: Ceci est une solution unique à moins que vous modifiez votre adresse GMail ou votre mot de passe.    
 Voilà. J'espère que cette astuce soit utile! 👍    
