@@ -17,7 +17,7 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
 * Version actuelle: 0.3.1
 * Compatibilité avec NVDA: de 2021.2 à 2022.1
-* Langues supportées: Espagnol, Français, Italien, Portugais du Brésil, Russe et Turc
+* Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Brésil, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=zPortapapeles)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zPortapapeles)
 
