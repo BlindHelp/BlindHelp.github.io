@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 25 Octobre 2020 - Dernière mise à jour le Mercredi 22 Septembre 2021</footer>
+<footer>Publié le Dimanche 25 Octobre 2020 - Dernière mise à jour le Jeudi 24 Mars 2021</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une nouvelle mouture de l'extension appelée Utilitaires Chrome pour NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -22,14 +22,14 @@ Pour les personnes qui ont la version 92 la version se présentent de cette faç
 Pour les personnes qui ont la version 93 la version se présentent de cette façon:  
 `Application: chrome.exe, Google Chrome 93.0.4577.82`  
 Eh bien, la version de l'extension 0.8 cesse de fonctionner complètement car tout a changé.  
-Bon entre hier et aujourd'hui Chrome est mis à jour à la version 94.  
-À partir de maintenant, l'auteur nous a informé que l'extension prendra la version de Chrome. Dans ce cas, il sera la 0.94 (selon la dernière mise à jour).  
+Bon entre hier et aujourd'hui Chrome est mis à jour à la version 99.  
+À partir de maintenant, l'auteur nous a informé que l'extension prendra la version de Chrome. Dans ce cas, il sera la 0.99 (selon la dernière mise à jour).  
 Bien à partir du lien:  
 <https://nvda.es/files/get.php?file=chromeutils>  
 vous aurez toujours la dernière version de l'extension comportant le numéro de version de la dernière version du navigateur sur la branche stable.  
 Si quelqu'un veut une version pour une autre version de Chrome précédante, vous devrez la rechercher dans les Releases  du dépôt GitHub:  
 <https://github.com/hxebolax/Utilidades-Chrome/releases>  
-Eh bien, comme l'a dit déjà l'auteur afin  de bien identifier cette version il mettra sur l'extension le numéro de version correspondante à Chrome. Il est de supposer que la version suivante sera la 95, donc  l'extension prendra comme numéro de version 0.95 et ainsi de suite.  
+Eh bien, comme l'a dit déjà l'auteur afin  de bien identifier cette version il mettra sur l'extension le numéro de version correspondante à Chrome. Il est de supposer que la version suivante sera la 100, donc  l'extension prendra comme numéro de version 0.100 et ainsi de suite.  
 De cette manière, des versions pour des versions précédentes ils seront trouvés plus rapidement.  
 Donc, n'oubliez pas que ceux qui ont téléchargé et installé la version précédente 0.8  de l'extension ChromeUtilities pour NVDA lorsque Chrome est mis à jour à la version 92 ou plus, cette extension cessera de fonctionner avec les nouvelles versions de Chrome.    
 Bon surf avec Google Chrome en utilisant la bonne version de l'extension Chrome pour NVDA!  
@@ -37,9 +37,9 @@ Bon surf avec Google Chrome en utilisant la bonne version de l'extension Chrome 
 # Informations sur l'extension ChromeUtilities #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 0.94 (selon le numéro de version correspondante à Chrome 94)    
-* Compatibilité avec NVDA: de 2019.3 à 2021.1    
-* Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal    
+* Version actuelle: 0.99 (selon le numéro de version correspondante à Chrome 99)    
+* Compatibilité avec NVDA: de 2019.3 à 2022.1    
+* Langues: Arabe, Anglais, Espagnol, Français, Italien, Portugais-Brésil, Portugais-Portugal et Turc    
 * Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=chromeutils)    
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/hxebolax/Utilidades-Chrome)    
 

@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le  Dimanche 11 Juillet 2021 - Dernière mise à jour le Lundi 12 Juillet 2021</footer>
+<footer>Publié le  Dimanche 11 Juillet 2021 - Dernière mise à jour le Jeudi 24 Mars 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé RemapKeyAplication créée par le même auteur de l'extension [zUtilidades](https://blindhelp.github.io/zUtilidades/) idéal si vous n'avez pas de touche Applications ou celle-ci a cessé de fonctionner!    
@@ -15,9 +15,9 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension RemapKeyAplication: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.1.5
-* Compatibilité avec NVDA: de 2019.3 à 2021.1
-* Langues supportées: Espagnol et  Français
+* Version actuelle: 0.2
+* Compatibilité avec NVDA: de 2019.3 à 2022.1
+* Langues supportées: Espagnol, Français et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=RemapKeyAplication)
 * [Voir code source sur GitHub](https://github.com/hxebolax/RemapKeyAplication-para-NVDA)
 

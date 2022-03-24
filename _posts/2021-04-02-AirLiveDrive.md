@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 2 Avril 2021 - Dernière mise à jour le Mardi 15 Février 2022</footer>
+<footer>Publié le Vendredi 2 Avril 2021 - Dernière mise à jour le Jeudi 24 Mars 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Il y a quelque temps notre ami @hxebolax avait donné une extension non officielle pour l'application AirLiveDrive pour étiqueter cette application, puis un gars "Gerardo Kessler hispanophone aussi, il a créé une autre extension non officielle  pour un autre produit de cette même entreprise nommée AirExplorer, et comme ils ont vu que leurs deux extensions, ils étaient similaires ont décidés de les mettre ensemble pour faire une seule extension pour NVDA, en conservant son nom d'origine AirLiveDrive puis en changeant son nom interne par AirAccessibility et ils ont décidé de rétropédaler à la version 1.0.    
@@ -17,7 +17,7 @@ Je viens de le traduire en français à nouveau et un des auteurs m'a dit que je
 # Informations sur l'extension  AirLiveDrive: #
 
 * Auteurs: <span lang="es">Héctor J. Benítez Corredera, Gerardo Kessler</span>
-* Version actuelle: 1.1
+* Version actuelle: 1.2
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
 * Langues supportées: Espagnol, Français et Portugais du Portugal / Brésil
 * [Télécharger](https://nvda.es/files/get.php?file=airlivedrive)
