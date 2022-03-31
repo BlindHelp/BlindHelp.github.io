@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 25 Avril 2021</footer>
+<footer>Publié le Dimanche 25 Avril 2021 - Dernière mise à jour le Jeudi 31 Mars 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -16,9 +16,9 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 # Informations sur l'extension fenReader #
 
 * Auteur: <span lang="es">Javi Dominguez</span>
-* Version actuelle: 2.0
+* Version actuelle: 2.1
 * Langues: Anglais, Espagnol et Français
-* Compatibilité NVDA:  2018.1 à 2021.1
+* Compatibilité NVDA:  2018.1 à 2022.1
 * Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=fenreader)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/javidominguez/FenReader/)
 
