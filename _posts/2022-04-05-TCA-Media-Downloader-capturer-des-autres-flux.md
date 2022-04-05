@@ -29,12 +29,12 @@ Laisser comme tel.
 Maintenant, vous pouvez appuyer sur le bouton:    
 `Télécharger Alt+t`    
 Remarque, une boîte de dialogue sera ouverte avec la question suivante, répondez par "Oui"    
-`Question dialogue TCA-Media Downloader n'a pas été capable de vérifier l'URL.S'il s'agit d'une URL d'un site non compatible, nous pouvons essayer de suivre le multimédia. Ce mode ne garantit pas que vous pouvez télécharger. Voulez-vous essayer de télécharger quand même?`    
+`Question dialogue TCA-Media Downloader n'a pas été capable de vérifier l'URL. S'il s'agit d'une URL d'un site non compatible, nous pouvons essayer de suivre le multimédia. Ce mode ne garantit pas que vous pouvez télécharger. Voulez-vous essayer de télécharger quand même?`    
 `Oui ALT+O`    
 Cliquez sur ce bouton!    
 Ensuite nous avons une boîte de dialogue avec l'annonce de la progression en lecture seule.    
 Lorsque c'est fini nous avons  une boîte de dialogue laquelle sera ouverte avec la question suivante, répondez par "Oui"    
-`Question dialogue Félicitations, le téléchargement a été un succès.Voulez-vous ouvrir le dossier où il a été téléchargé?`    
+`Question dialogue Félicitations, le téléchargement a été un succès. Voulez-vous ouvrir le dossier où il a été téléchargé?`    
 `Oui ALT+O`    
 Une fois ouvert le dossier: TCAMediaDownloader    
 Vous devrez rechercher le fichier téléchargé, dans notre exemple  le nom est:    
