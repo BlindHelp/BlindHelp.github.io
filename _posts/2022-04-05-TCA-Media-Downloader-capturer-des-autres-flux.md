@@ -22,8 +22,8 @@ Vous ne devez pas cliquer sur le bouton:
 Faire Tab et effectuez les ajustements nécessaires sur les options suivantes (se déplacer avec la touche Tab):    
 `Choisir le Format: Audio mp3 réduit Alt+f`    
 `Choisir la qualité de l'audio: 192 Kbps réduit Alt+q`    
-`Choisir un emplacement (par défaut): C:\Users\nom de l'utilisateur\Music\TCAMediaDownloader non coché    
-Laisser comme tel    
+`Choisir un emplacement (par défaut): C:\Users\nom de l'utilisateur\Music\TCAMediaDownloader non coché`    
+Laisser comme tel.    
 `Choisir la composition personnalisée du nom de fichier en sortie non coché`    
 Laisser comme tel.    
 Maintenant, vous pouvez appuyer sur le bouton:    
