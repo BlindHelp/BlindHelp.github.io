@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 4 Décembre 2021 - Dernière mise à jour le Mardi 15 Février 2022</footer>
+<footer>Publié le Samedi 4 Décembre 2021 - Dernière mise à jour le Vendredi 22 Avril 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé zEmoticonos créée par le même auteur de l'extension [zUtilidades](https://blindhelp.github.io/zUtilidades/) idéal si vous souhaitez avoir la liste complète des émoticônes et symboles qui sont prises en charges  par NVDA!    
@@ -24,9 +24,9 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension zEmoticonos: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.3
+* Version actuelle: 0.4
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
-* Langues supportées: Espagnol, Français, Portugais du Portugal / Brésil, Russe et Turc
+* Langues supportées: Arabe, Espagnol, Français, Portugais du Portugal / Brésil, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=zEmoticonos)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zEmoticonos)
 
