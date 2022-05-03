@@ -21,7 +21,7 @@ Fermer au préalable le programme [RadioSure...](http://www.radiosure.com/)
 Je vais faire cela en plusieurs étapes:    
 On peut changer cela coup par coup pour chaque flux radio.    
 Faites attention!    
-Aller sur le chemin suivant:
+Aller sur le chemin suivant:    
 `C:\Program Files (x86)\RadioSure\Stations\stations-2013-11-30.rsd`    
 Puis ouvrir le fichier stations-2013-11-30.rsd avec le Bloc-notes    
 Ou une autre date dans le nom du fichier avec extension .rsd    
@@ -41,14 +41,14 @@ Donc, la bonne 'URL pour cette radio est:
 Maintenant, je la colle entre les signes tab correspondant à l'URL de ladite radio...    
 N'oubliez pas que vous devriez avoir deux signes tab entre cette URL    
 Donc, cela donne:    
-`France Info	Radio fançaise d'information en continu. Toute l'actualité en français en direct sur Internet. Flux RSS et podcasts audio. Reportages vidéos, actualités et diaporamas sonore en ligne.	Talk-News	France	French	http://direct.franceinfo.fr/live/franceinfo-hifi.aac	-	-	-	-`    
+`France InfotabRadio fançaise d'information en continu. Toute l'actualité en français en direct sur Internet. Flux RSS et podcasts audio. Reportages vidéos, actualités et diaporamas sonore en ligne.tabTalk-NewstabFrancetabFrenchtabhttp://direct.franceinfo.fr/live/franceinfo-hifi.aactab-tab-tab-tab-`    
 Ceci fait, je vais enregistrer mes modifications en cliquant sur l'élément:    
-`Enregistrer	Ctrl+S`    
+`Enregistrer Ctrl+S`    
 Ou:    
 `Ctrl+s`    
 Ensuite Alt+f4 ou Quitter q pour fermer ce fichier stations-2013-11-30.rsd ou une autre date dans le nom du fichier avec extension .rsd que nous venons de modifier...    
 Fermez également l'emplacement dudit dossier par Alt+f4    
-\r\n\r\nbr>\r\n\r\n
+<br>
 Lancer le programme [RadioSure](http://www.radiosure.com) depuis son icône sur le bureau.    
 En principe nous somme sur la dernière radio écouter même si le flux ne fonctionne pas.    
 Vous devrez rechercher à nouveau la station de radio modifiée sur la liste ...    
@@ -56,7 +56,7 @@ Vous devrez rechercher à nouveau la station de radio modifiée sur la liste ...
 A nouveau menu contextuel sur lui,    
 Puis je fait entrée sur: Lire    
 Maintenant, oui, cette radio fonctionne! 😃    
-\r\n\r\nbr>\r\n\r\n
+<br>
 Maintenant, nous allons changer deux flux qui ne fonctionnent pas, pour ces stations de radio France Inter et FIP:    
 Aller sur le chemin suivant:    
 `C:\Program Files (x86)\RadioSure\Stations\stations-2013-11-30.rsd`    
@@ -68,32 +68,32 @@ Dans ce cas, il faudra supprimer ces deux URLs:
 `http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-128k.m3u`    
 `http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-32k.m3u`    
 Puis placer la nouvelle URL d'écoute entre les signes tab:
-`	http://direct.franceinter.fr/live/franceinter-hifi.aac	-	-	-	-`    
+`tabhttp://direct.franceinter.fr/live/franceinter-hifi.aactab-tab-tab-tab-`    
 N'oubliez pas que vous devriez avoir deux signes tab entre cette URL    
 Donc, cela donne:    
-`France Inter	Varietes, infos, interviews	Talk-Public Radio	France	French	http://direct.franceinter.fr/live/franceinter-hifi.aac	-	-	-	-`    
-\r\n\r\nbr>\r\n\r\n
+`France IntertabVarietes, infos, interviewstabTalk-Public RadiotabFrancetabFrenchtabhttp://direct.franceinter.fr/live/franceinter-hifi.aactab-tab-tab-tab-`    
+<br>
 Une fois fait cela, je changerai l'autre flux de l'autre radio, donc je recherche par Ctrl+f FIP:    
 `FIP; Pays: France; Genre: Variety; Langue: French`    
 Donc, cela est présenté comme sui:    
-`FIP	Music interrupted by traffic updates and cultural information with a short news broadcast at 10 before the hour, with no advertising. The broadcasts are presented by live announcers from 7 am to 11 pm, after which a robot replays parts of the music broadcast the previous day. FIP's programming is an eclectic mix of musical genres: chanson, rock, world music, classical music, film music, jazz and more, but connected with a theme. FIP is one of the few stations with this type of programming in the world.	Variety	France	French	http://www.tv-radio.com/station/fip_mp3/fip_mp3-128k.m3u	http://mp3.live.tv-radio.com/fip/all/fiphautdebit.mp3	http://www.tv-radio.com/station/fip_mp3/fip_mp3-32k.m3u	-	-	-`    
+`FIPtabMusic interrupted by traffic updates and cultural information with a short news broadcast at 10 before the hour, with no advertising. The broadcasts are presented by live announcers from 7 am to 11 pm, after which a robot replays parts of the music broadcast the previous day. FIP's programming is an eclectic mix of musical genres: chanson, rock, world music, classical music, film music, jazz and more, but connected with a theme. FIP is one of the few stations with this type of programming in the world.tabVarietytabFrancetabFrenchtabhttp://www.tv-radio.com/station/fip_mp3/fip_mp3-128k.m3utabhttp://mp3.live.tv-radio.com/fip/all/fiphautdebit.mp3tabhttp://www.tv-radio.com/station/fip_mp3/fip_mp3-32k.m3utab-tab-tab-`    
 Dans ce cas, il faudra supprimer ces trois URLs:    
 `http://www.tv-radio.com/station/fip_mp3/fip_mp3-128k.m3u`    
 `http://mp3.live.tv-radio.com/fip/all/fiphautdebit.mp3`    
-`http://www.tv-radio.com/station/fip_mp3/fip_mp3-32k.m3u	-	-	-`    
+`http://www.tv-radio.com/station/fip_mp3/fip_mp3-32k.m3utab-tab-tab-`    
 Puis placer la nouvelle URL d'écoute entre les signes tab:    
 `https://icecast.radiofrance.fr/fip-hifi.aac`    
 N'oubliez pas que vous devriez avoir deux signes tab entre cette URL    
 Donc, cela donne:    
-`FIP	Music interrupted by traffic updates and cultural information with a short news broadcast at 10 before the hour, with no advertising. The broadcasts are presented by live announcers from 7 am to 11 pm, after which a robot replays parts of the music broadcast the previous day. FIP's programming is an eclectic mix of musical genres: chanson, rock, world music, classical music, film music, jazz and more, but connected with a theme. FIP is one of the few stations with this type of programming in the world.	Variety	France	French	https://icecast.radiofrance.fr/fip-hifi.aac	-	-	-`    
-\r\n\r\nbr>\r\n\r\n
+`FIPtabMusic interrupted by traffic updates and cultural information with a short news broadcast at 10 before the hour, with no advertising. The broadcasts are presented by live announcers from 7 am to 11 pm, after which a robot replays parts of the music broadcast the previous day. FIP's programming is an eclectic mix of musical genres: chanson, rock, world music, classical music, film music, jazz and more, but connected with a theme. FIP is one of the few stations with this type of programming in the world.tabVarietytabFrancetabFrenchtabhttps://icecast.radiofrance.fr/fip-hifi.aactab-tab-tab-`    
+<br>
 Ceci fait, je vais enregistrer mes modifications en cliquant sur l'élément:    
-`Enregistrer	Ctrl+S`    
+`Enregistrer Ctrl+S`    
 Ou:    
 `Ctrl+s`    
 Ensuite Alt+f4 ou Quitter q pour fermer ce fichier stations-2013-11-30.rsd ou une autre date dans le nom du fichier avec extension .rsd que nous venons de modifier...    
 Fermez également l'emplacement dudit dossier par Alt+f4    
-\r\n\r\nbr>\r\n\r\n
+<br>
 Donc, nous ouvrons notre programme [RadioSure](http://www.radiosure.com) depuis son icône sur le bureau.    
 Vous devrez rechercher à nouveau la station de radio modifiée sur la liste ...    
 Dans notre exemple il faudra rechercher:    
@@ -103,7 +103,7 @@ Ou:
 Je fait menu contextuel ou touche Applications sur le nom de la radio que nous voulons écouter et que nous venons de modifier le flux d'écoute ...    
 Puis je fait entrée sur: Lire    
 Maintenant, nous pouvons joyeusement écouter nos flux de radio à nouveau avec [RadioSure!](http://www.radiosure.com) C'est sûr de sûr! 😃    
-\r\n\r\nbr>\r\n\r\n
+<br>
 Eh bien, si vous voulez changer tous les flux de Radio France qui ne fonctionnent pas dans les radios prédéfinis de RadioSure, vous devrez taper le nom de cette radio dans le champ d'édition...    
 Exemple:    
 `france culture`    
@@ -121,14 +121,14 @@ Maintenant, je la colle entre les signes tab correspondant à l'URL de ladite ra
 N'oubliez pas que vous devriez avoir deux signes tab entre cette URL    
 Une fois que nous avons fini de corriger tous les flux dans ce fichier 2013-11-30.rsd avec le Bloc-notes    
 Ou une autre date dans le nom du fichier avec extension .rsd    
-\r\n\r\nbr>\r\n\r\n
+<br>
 Ceci fait, je vais enregistrer mes modifications en cliquant sur l'élément:    
-`Enregistrer	Ctrl+S`    
+`Enregistrer Ctrl+S`    
 Ou:    
 `Ctrl+s`    
 Ensuite Alt+f4 ou Quitter q pour fermer ce fichier stations-2013-11-30.rsd ou une autre date dans le nom du fichier avec extension .rsd que nous venons de modifier...    
 Fermez également l'emplacement dudit dossier par Alt+f4    
-\r\n\r\nbr>\r\n\r\n
+<br>
 Donc, nous ouvrons notre programme [RadioSure](http://www.radiosure.com) depuis son icône sur le bureau.    
 Vous devrez rechercher à nouveau la station de radio modifiée sur la liste ...    
 Puis je fait entrée sur: Lire    
