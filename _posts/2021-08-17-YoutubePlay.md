@@ -16,7 +16,7 @@ Et traduit en espagnol et français par mes soins.
 
 * Auteurs : Dalison
 * Version actuelle: 1.6
-* Langues: Anglais, Espagnol, Français et Portugais du Brésil
+* Langues: Anglais, Espagnol, Français, Portugais du Brésil et Russe
 * Compatibilité NVDA: 2022.1
 * [Télécharger](https://nvda.es/files/get.php?file=youtubeplay)
 * [Voir code source sur GitHub](https://github.com/dalisoncpu/youtubePlay)
