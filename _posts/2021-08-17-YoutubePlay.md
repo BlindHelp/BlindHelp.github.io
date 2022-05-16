@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 17 Août 2021</footer>
+<footer>Publié le Mardi 17 Août 2021 - Dernière mise à jour le Vendredi 13 Mai 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -15,9 +15,9 @@ Et traduit en espagnol et français par mes soins.
 # Informations sur l'extension YoutubePlay #
 
 * Auteurs : Dalison
-* Version actuelle: 1.5
+* Version actuelle: 1.6
 * Langues: Anglais, Espagnol, Français et Portugais du Brésil
-* Compatibilité NVDA: 2019.3 à 2021.1
+* Compatibilité NVDA: 2022.1
 * [Télécharger](https://nvda.es/files/get.php?file=youtubeplay)
 * [Voir code source sur GitHub](https://github.com/dalisoncpu/youtubePlay)
 
