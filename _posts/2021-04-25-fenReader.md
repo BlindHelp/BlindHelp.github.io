@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 25 Avril 2021 - Dernière mise à jour le Jeudi 7 Mai 2022</footer>
+<footer>Publié le Dimanche 25 Avril 2021 - Dernière mise à jour le Samedi 7 Mai 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
