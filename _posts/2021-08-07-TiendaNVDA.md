@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 7 Août 2021 - Dernière mise à jour le Vendredi 6 Mai 2022</footer>
+<footer>Publié le Samedi 7 Août 2021 - Dernière mise à jour le Mardi 31 Mai 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé TiendaNVDA créée par le même auteur de l'extension [zUtilidades](https://blindhelp.github.io/zUtilidades/) idéal si vous souhaitez avoir vos extensions officielles / non officielles à jour pour votre version actuelle de NVDA!    
@@ -15,7 +15,7 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension TiendaNVDA: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.8.1
+* Version actuelle: 0.8.3
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
 * Langues supportées: Espagnol, Français et plusieurs autres langues traduites par des membres de la communauté internationale des extensions NVDA
 * [Télécharger](https://nvda.es/files/get.php?file=tienda)
@@ -72,6 +72,8 @@ Dans le sous-menu "Filtres", nous avons les options suivantes:
 Cette option nous affichera toutes les extensions existantes de la base de données.
 
 De même, cette option est soumise si nous avons coché la case à cocher "Trier par ordre alphabétique Les extensions de la boutique et les recherches", par conséquent, si la case à cocher dans Paramètres est coché la liste sera triée par ordre alphabétique ainsi que les recherches sur cette liste.
+
+* Afficher les extensions avec la compatibilité de l'API 2022: Cette option ne nous affichera que ces extensions que dans le manifeste sont marquées avec cette compatibilité.
 
 * Afficher les extensions avec la compatibilité de l'API 2021: Cette option ne nous affichera que ces extensions que dans le manifeste sont marquées avec cette compatibilité.
 
@@ -193,6 +195,143 @@ Cette extension est en phase de test donc c'est pour cela que nous vous demandon
 Nous vous remercions de bien vouloir nous contacter pour signaler ce désagrément et le résoudre dès que possible.
 
 Profitez de la Boutique pour NVDA.ES !
+# Journal des changements.
+## Version 0.8.3.
+
+* Résolu le problème lors du chargement de la boutique Expecting value: line 1 column 1 (char 0)
+
+* Ajout du bouton Rechercher et du bouton Action.
+
+Maintenant, sur l'écran principal de la Boutique, nous aurons deux nouveaux boutons.
+
+- Rechercher qu'il fera de même que si nous faisons Entrée dans le champ de recherche, mais cela est ajouté pour les personnes qui utilisent la voix, les écrans tactiles et d'autres problèmes de mobilité.
+
+Ce bouton a le raccourci Alt+E.
+
+- Le bouton Action a également été ajouté qui nous montrera le menu contextuel de l'extension que nous avons sélectionnée dans la liste des extensions.
+
+À partir de ce menu, nous pouvons accéder aux Filtres ou Copier dans le presse-papiers.
+
+Il a été ajouté pour les mêmes raisons que pour le bouton Rechercher.
+
+Ce bouton a le raccourci Alt+A.
+
+* Ajout de la possibilité de voir la documentation des extensions installées
+
+Sur l'écran principal de la Boutique dans la liste des extensions si nous appuyons sur la touche Applications, Maj+F10  ou le bouton Action, Alt+A et l'extension que nous l'avons installée qui a le focus dans le menu proposé, nous obtiendrons une nouvelle option.
+
+Cette option est Voir documentation de l'extension installée, si nous appuyons là, notre navigateur s'ouvrira avec la documentation de l'extension.
+
+Dire que si la documentation est dans notre langue, elle s'ouvrira dans notre langue sinon elle s'ouvrira dans la langue définie par l'extension.
+
+Il existe également des extensions qui n'apportent pas de documentation dans ce cas cette option ne sera pas affichée ou dans celles que nous n'avons pas installées.
+
+* Ajout de la possibilité de lancer facilement la documentation de l'extension.
+
+Maintenant à partir du menu NVDA / Outils / Boutique NVDA.ES nous aurons une nouvelle option qui est Documentation de l'extension.
+
+Si nous faisons Entrée elle s'ouvrira dans notre navigateur par défaut la documentation de la Boutique dans notre langue si est là ou par défaut la documentation en Espagnol.
+
+## Version 0.8.2.
+
+* Langue et documentation mises à jour en Ukrainien.
+
+* Résolu problème de compatibilité des extensions.
+
+Maintenant, il nous doit offrir que des mises à jour qui sont également compatibles avec notre API NVDA.
+
+Bien que la version de l'extension du serveur soit supérieure à celle que nous avons installée si la compatibilité API n'est pas correcte cette mise à jour ne nous sera pas offerte.
+
+* Résolu la mise à jour de la liste des extensions installés qui sont sur le serveur.
+
+Maintenant il sauvegarde bien la liste lorsque nous installons une extension et vérifie correctement si elle est sur le serveur.
+
+Dans la dernière version il ne sauvegardé pas les nouvelles extensions installées.
+
+## Version 0.8.1.
+
+* Résolu problème en se connectant à un serveur sans extensions.
+
+* Résolus les téléchargements à partir de nouveaux serveurs
+* Résolu La Conexión aux serveurs Onion publics et privés à travers de Proxy
+
+## Version 0.8.
+
+* Ajout de la possibilité d'ajouter des URL personnalisées des dépôts d'extensions.
+
+Cette nouvelle fonction viendra bien pour ajouter les dépôts  qui utilisent le gestionnaire d'extensions qui utilise nvda.es pour plus d'informations, visitez le dépôt de Github:
+
+[https://github.com/nvda-es/advancedAddonFiles](https://github.com/nvda-es/advancedAddonFiles)
+
+Eh bien, qui utilise cette application pour créer un dépôt peut désormais ajouter  son URL à la Boutique.
+
+Dans les paramètres de la Boutique, nous aurons simplement  à saisir dans une zone de liste déroulante où nous pouvons choisir le serveur que nous voulons par défaut.
+
+La première fois que nous démarrons les paramètres ne seront que le serveur de la comunidad hispanohablante, disons que ce serveur ne peut pas être modifié ou supprimé donc il sera toujours présent.
+
+Si nous faisons Tabulation  nous avons le bouton pour gérer les serveurs et si nous appuyons dessus, une fenêtre s'ouvrira où nous pouvons ajouter, modifier ou supprimer des serveurs.
+
+Si nous appuyons sur Ajouter, une fenêtre s'ouvre où nous devrons remplir le nom que nous voulons pour le serveur et l'URL du serveur.
+
+Si nous modifions, une fenêtre s'ouvre sur les données du serveur que nous avons sélectionnées dans la liste afin qu'il puisse être modifier.
+
+Si nous supprimons, nous serons avertis par un message que l'action n'est pas réversible, lorsque nous appuyons sur le bouton  Oui le serveur que nous avons sélectionné sera supprimé.
+
+Une fois les serveurs ajoutés et fermé la fenêtre du  gestionnaire des serveurs, nous pouvons choisir dans une zone de liste déroulante celui que nous voulons. Lorsque nous sélectionnons un serveur, l'état des extensions installées qui se trouvent sur le serveur seront mises à jour en ajoutant à  ladite  zone de liste déroulante uniquement les  extensions que le serveur sert à ce moment-là et que nous avons installé.
+
+Dire  de cette zone de liste déroulante qui est pour chaque serveur, donc si dans   la comunidad hispanohablante nous avons des configurations personnalisées dans nos extensions comme par exemple éviter la mise à jour de l'un ou l'autre canal de mise à jour ne sera que lorsque nous choisissons ledit serveur.
+
+Les autres paramètres de la Boutique sont globales.
+
+Le serveur que nous choisissons dans les paramètres de la boutique será prédéfini à chaque fois que nous démarrons NVDA et la Boutique.
+
+La possibilité de modifier rapidement le serveur a également été ajoutée à la fenêtre principale de la Boutique sans avoir besoin d'entrer dans les paramètres.
+
+Pour cela, le raccourci  Alt+C a été ajouté, qui affichera un menu avec les serveurs que nous avons et il sera  coché celui qui est actuellement défini. Nous pouvons également tabuler jusqu'à ce que nous trouvions dans l'interface le bouton appelé Changer de serveur pour afficher ledit menu.
+
+Dans ce menu, nous pouvons choisir celui que nous voulons et passer automatiquement à ce serveur.
+
+Si nous changeons depuis l'écran principal ce réglage ne sera pas enregistré lorsque nous  démarrons de nouveau NVDA lequel sera toujours le serveur prédéfini que nous avons configuré dans les  paramètres.
+
+## Version 0.7.1.
+
+* Ajouté l'option  pour traduire les descriptions des extensions.
+
+Maintenant, en appuyant sur F3 dans la liste des extensions ou à partir de la fiche d'une extension, la description sera traduite par la langue que nous avons configurée dans les paramètres.
+
+Cette nouvelle fonctionnalité est désactivée par défaut, pour l'activer, nous devrons aller aux paramètres   de la Boutique et activer l'option Activer ou désactiver le traducteur pour les descriptions des extensions.
+
+Ensuite, nous tabulons et choisissons la langue dans laquelle nous voulons traduire les descriptions.
+
+Lorsque nous appuyons sur F3, un son de début et un autre de fin sonnera pour annoncer qu'il a été terminé de traduire. Ces sons sont différents les uns des autres.
+
+Lorsque nous changeons d'extension, la traduction est perdue, donc si nous voulons revoir la traduction de la description, nous devrons appuyer à nouveau sur F3.
+
+Cette option a besoin d'Internet afin d'être utilisé.
+
+* Résolu un problème lors du rechargement des extensions.
+
+## Version 0.7.
+
+* Résolu problème avec les filtres.
+
+Parfois, il ne laissé pas retourner du filtre vers les téléchargements au filtre Toutes les extensions.
+
+* Ajout d'un nouveaux période de temps pour rechercher des mises à jour.
+
+12 heures, 1 jour et 1 semaine ont été ajoutées.
+
+Ces périodes de temps se passeront bien pour les ordinateurs qui redémarreront très peu.
+
+* Ajout de la possibilité de ne pas rechercher de mises à jour pour une extension.
+
+Nous pouvons utiliser cette option comme suit, dans les paramètres de la Boutique sur la liste qui nous donnent les extensions installés se trouvant sur le serveur, puis nous pouvons nous placer sur l'extension  que Nous voulons pas qu'il fasse la recherchent  des mises à jour en appuyant sur la barre d'espace.
+
+Dans le menu déroulant, à part de pouvoir choisir le canal que nous voulons avoir  pour faire les mises à jour nous pouvons choisir Rejeter les mises à jour.
+
+Lorsque nous les sélectionnons et si nous faisons OK les extensions qui ont la valeur de Rejeter les mises à jour ils ne rechercheront pas les mises à jour sur le serveur.
+
+Pour inverser cet aspect, nous devrons revenir à la même liste et appuyer sur la barre d'espace et choisir le canal de mise à jour que nous voulons.
 
 ---
 

@@ -155,6 +155,16 @@ Pour activer cette fonction, nous nous positionnons dans la barre d'adresse et n
 
 chrome://flags
 
+*** À partir de Chrome 100 nous devons activer à nouveau les flags pour cette version. ***
+
+Pour cela dans l'écran de flags nous allons à l'en-tête de niveau 3 qui dit:
+
+•Temporarily unexpire M100 flags.
+
+Nous descendons jusqu'à une zone de liste déroulante  et nous le mettons sur Enable. Nous appuyions sur la lettre B jusqu'à ce que nous atteignions le bouton relaunch et lorsque nous sommes à nouveau sur l'écran de flags nous continuons avec les étapes.
+
+Si c'est pour une version avant  la 100 à suivre à partir d'ici.
+
 Nous appuyons  sur Entrée et sur l'écran qui nous laisse dans le champ de recherche Search flags nous tapons ce qui suit:
 
 reader mode
@@ -208,7 +218,35 @@ Si nous activons cette case, toutes les fenêtres de Chrome s'ouvriront maximis�
 * Français: Rémy Ruiz
 * Portugais: Ângelo Miguel Abrantes
 * Arabe: Wafiq Taher
+* Turc: umut korkmaz
+
 # Journal des changements.
+## Version 0.101.
+
+* Adapté à la nouvelle interface.
+
+* Ajout de Documentation sur la façon d'activer le mode lecteur (Reader Mode) à partir de cette version.
+
+## Version 0.100.
+
+* Adapté à la nouvelle interface.
+
+* Compatibilité avec NVDA 2022.1
+
+## Version 0.94.
+
+* Changement de nomenclature de version pour l'adapter à la version de Chrome
+
+La version sera modifiée lorsque la compatibilité sera rompue. La dernière version dans laquelle il y a eu des changements est dans la 0.94 de Chrome.
+
+* Ajout de la langue Turc.
+
+## Version 0.8.
+
+* Modifications internes afin  de s'adapter à la nouvelle API dans NVDA 2021.1 et à maintenir la compatibilité avec les versions précédentes
+
+* Support de Google Chrome 91
+
 ## Version 0.7.
 
 * Ajouté la possibilité d'ouvrir chrome toujours maximisé.

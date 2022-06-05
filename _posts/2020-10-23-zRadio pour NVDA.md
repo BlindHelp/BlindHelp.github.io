@@ -246,8 +246,21 @@ zRadio fournit les commandes suivantes pour permettre à l'utilisateur d'ajouter
 * Arabe: Wafiq Taher
 * Danois: Daniel Gartmann
 * Turc: umut korkmaz
+* Russe: Valentin Kupriyanov
 
 # Journal des changements.
+## Version 0.5.6.
+
+* Résolu une erreur de sécurité sur les écrans sécurisés.
+
+* Résolu un problème avec la recharge des extensions dans NVDA.
+
+## Version 0.5.5.
+
+* Ajout de la langue Russe.
+
+* Corrigé erreur avec les chemins internes de NVDA.
+
 ## Version 0.5.4.
 
 * Erreur corrigée lors de la détection de langues.

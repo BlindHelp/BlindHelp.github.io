@@ -101,8 +101,22 @@ Dire également que je ne me responsabilise pas si quelque chose se brise pour c
 L'utilisation de cette extension et ses résultats sont exclusivement sous la responsabilité de l'utilisateur final.
 
 
----
+## Traducteurs et contributeurs:
 
+* Français: Rémy Ruiz
+* Anglais: Alberto Buffolino
+* Turc: : umut korkmaz
+
+# Journal des changements.
+## Version 0.2.1.
+
+* Résolu une erreur de sécurité sur les écrans sécurisés.
+
+* Résolu un problème avec la recharge des extensions dans NVDA.
+ 
+ * Ajout de la langue en Anglais.
+
+---
 
 Nous remercions à <span lang="es">Héctor J. Benítez Corredera</span>, développeur de cette extension fabuleuse d'avoir voulu la partagée  avec nous. 😉    
 Profitez de Cricricri une extension pour NVDA!    

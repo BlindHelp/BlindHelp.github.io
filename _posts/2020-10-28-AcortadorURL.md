@@ -21,6 +21,15 @@ Voici une nouvelle extension  pour NVDA accessible fait  par un ami hispanophone
 * [Voir code source sur GitHub](https://github.com/hxebolax/AcortadorURL)
 
 # RéduireURL
+*** This add-on is discontinued, it will not receive new versions ***.
+
+The code is given to the community for those who wish to continue it.
+
+*** Cette extension est interrompu, il ne recevra pas de nouvelles versions ***
+
+Le code est donné à la communauté pour ceux qui souhaitent le poursuivre.
+
+
 Cette extension est simple.
 
 Nous pouvons réduire une URL d'une manière aisé.
