@@ -9,11 +9,11 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Voici une nouvelle extension  pour NVDA fait par nos amis <span lang="pt">Rui Fontes, Ângelo Abrantes et Abel Passos do Nascimento</span>, de l'équipe portugaise de NVDA, développeurs de cette extension fabuleuse, il s'agit de Dictionaries (Dictionnaires) qui nous permet un accès rapide à plusieurs dictionnaires hors ligne. Cette extension a été traduite en français et espagnol par mes soins, et un des auteurs m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par eux-mêmes, .    
+Voici une nouvelle extension  pour NVDA fait par nos amis <span lang="pt">Rui Fontes, Ângelo Abrantes, Abel Passos do Nascimento Jr</span>, de l'équipe portugaise de NVDA, développeurs de cette extension fabuleuse, il s'agit de Dictionaries (Dictionnaires) qui nous permet un accès rapide à plusieurs dictionnaires hors ligne. Cette extension a été traduite en français et espagnol par mes soins, et un des auteurs m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par eux-mêmes, .    
 
 # Informations sur l'extension  Dictionaries (Dictionnaires): #
 
-* Auteurs: <span lang="pt">Rui Fontes, Ângelo Abrantes et Abel Passos do Nascimento</span>
+* Auteurs: <span lang="pt">Rui Fontes, Ângelo Abrantes, Abel Passos do Nascimento Jr</span>
 * Version actuelle: 22.06
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
 * Langues supportées: Anglais, Espagnol, Français, Portugais du Portugal / Brésil et Turc
@@ -97,7 +97,7 @@ Si vous voulez que cela se produise, aller dans le menu NVDA, Préférences, Par
 
 ---
 
-Nous remercions à nos amis <span lang="pt">Rui Fontes, Ângelo Abrantes et Abel Passos do Nascimento</span>, de l'équipe portugaise de NVDA, développeurs de cette extension fabuleuse d'avoir voulu la partagée  avec nous tous. 😉    
+Nous remercions à nos amis <span lang="pt">Rui Fontes, Ângelo Abrantes, Abel Passos do Nascimento Jr</span>, de l'équipe portugaise de NVDA, développeurs de cette extension fabuleuse d'avoir voulu la partagée  avec nous tous. 😉    
 Profitez de Dictionaries (Dictionnaires) une extension pour NVDA pour accéder aux dictionnaires hors ligne!    
 Amusez vous! 😃    
 @+    
