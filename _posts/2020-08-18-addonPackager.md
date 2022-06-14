@@ -17,7 +17,7 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension  Empaqueteuse d'extensions (addonPackager), appelé maintenant Utilitaires pour les extensions de NVDA: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 1.0.2et plus    
+* Version actuelle: 1.0.2 et plus    
 * Compatibilité avec NVDA: de 2021.1 à 2022.1    
 * Langues: Anglais, Espagnol, Français et Turc    
 * [Télécharger](https://nvda.es/files/get.php?file=addonpackager)    
