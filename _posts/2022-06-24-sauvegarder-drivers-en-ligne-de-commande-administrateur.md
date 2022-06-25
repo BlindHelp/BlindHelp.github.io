@@ -32,7 +32,7 @@ Vous devrez avoir suffisamment d'espace libre dans ledit lecteur USB!
 Si vous ne pouvez pas coller la commande lorsque vous êtes dans le terminal, faites Alt+Espace, cherchez le sous-menu Modifier, puis chercher: Coller Ctrl-V, une fois la commande collée faire Entrée.    
 Ce n’est pas plus compliqué que ça et comme cette commande est intégrable dans vos scripts, ça peut permettre de programmer des sauvegardes régulières.
 
-Voilà,
+Voilà,    
 J'espère que vous l'apprécierez et que ceci  soit très utile pour vous!    
 À la prochaine sur un autre post!     
 @+    
