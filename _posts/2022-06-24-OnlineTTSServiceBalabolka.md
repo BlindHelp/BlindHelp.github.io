@@ -50,7 +50,7 @@ Flèche haut, bas, gauche, droit, pour changer la voix.
 Pour changer la valeur, faire flèche haut, bas, gauche, droit, (ceci changera la vitesse par exemple, Vitesse : 1.05 etc, etc...    
 `Timbre : 0`    
 Pour changer la valeur, faire flèche haut, bas, gauche, droit, (ceci changera le timbre par exemple, Timbre : 1 etc, etc...    
-`Volume : 100    
+`Volume : 100`    
 Pour changer la valeur, faire flèche haut, bas, gauche, droit, (ceci changera le volume par palier de cinq en cinq).    
 `Style : <non>`    
 Impossible de le changé.    
