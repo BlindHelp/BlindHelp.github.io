@@ -1,6 +1,6 @@
 ---
 title: Sauvegarder vos drivers avec Windows 10 en invite de commandes en mode administrateur
-permalink: "/sauvegarderdrivers-en-ligne-de-commande-administrateur/"
+permalink: "/sauvegarder-drivers-en-ligne-de-commande-administrateur/"
 layout: post
 author: BlindHelp
 ---
