@@ -8,11 +8,11 @@ author: BlindHelp
 <footer>Publié le Vendredi 24 Juin 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
-Aujourd'hui, je vous présente un logiciel appelé Howard Email Notifier (Freeware), pour ma part, je ne l'ai pas essayé, mais je vous donne les informations trouvées sur le Web:    
+Aujourd'hui, je vous présente un logiciel appelé Howard E-Mail Notifier (Freeware), pour ma part, je ne l'ai pas essayé, mais je vous donne les informations trouvées sur le Web:    
 
-Howard Email Notifier vous tiendra informé des nouveaux e-mails dans votre outlook.com, live.com, hotmail.com, mail.google.com, mail.yahoo.com, facebook.com, LinkedIn, twitter.com, e.mail. ru, orange.fr, IBM / Lotus Notes, mail.virgilio.it, O2.pl, Yandex, Laposte.net et www.zoho.com.
+Howard E-Mail Notifier vous tiendra informé des nouveaux e-mails dans votre outlook.com, live.com, hotmail.com, mail.google.com, mail.yahoo.com, facebook.com, LinkedIn, twitter.com, e.mail. ru, orange.fr, IBM / Lotus Notes, mail.virgilio.it, O2.pl, Yandex, Laposte.net et www.zoho.com.
 
-Howard Email Notifier remplace la notification par e-mail de Windows Live Messenger.
+Howard E-Mail Notifier remplace la notification par e-mail de Windows Live Messenger.
 
 Une info-bulle et un son vous avertiront d'un nouvel e-mail. L'info-bulle vous indique l'expéditeur et l'objet de l'e-mail. Cliquez simplement sur l'info-bulle ou l'icône pour ouvrir votre boîte de réception dans votre navigateur ou Windows Mail.
 
