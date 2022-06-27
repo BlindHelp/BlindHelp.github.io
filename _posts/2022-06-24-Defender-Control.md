@@ -47,11 +47,11 @@ Voir Le lien officiel de l'éditeur de 7-zip ci-dessous:
 
 Le site officiel en anglais de 7-Zip est [par ici!](https://www.7-zip.org/)
 
-Puis le site officiel en français de 7-Zip est [par là!](https://www.7-zip.fr/]
+Puis le site officiel en français de 7-Zip est [par là!](https://www.7-zip.fr/)
 
-[7-Zip : logiciel gratuit et libre d'archivage à très haut taux de compression](https://www.7-zip.fr/]
+[7-Zip : logiciel gratuit et libre d'archivage à très haut taux de compression](https://www.7-zip.fr/)
 
-Puis ouvrez dControl.zip, une archive protégé par un mot de passe
+Puis ouvrez dControl.zip, une archive protégé par un mot de passe.
 
 Décompressez dControl.zip dans l'emplacement de votre choix, le mot de passe est `sordum`
 
