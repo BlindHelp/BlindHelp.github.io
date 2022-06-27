@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi  8 Mars 2022 - Dernière mise à jour le Vendredi 24 Juin 2022</footer>
+<footer>Publié le Mardi  8 Mars 2022 - Dernière mise à jour le Lundi 27 Juin 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé YoutubeChannelManager créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin de gérer les chaînes favorites YouTube via une interface invisible et simple.    
@@ -25,7 +25,7 @@ Je viens de le traduire en français pour le fun, et l'auteur m'a dit que je pou
 * Auteur: <span lang="es">Gerar Késsler</span>
 * Version actuelle: 1.4
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
-* Langues supportées: Arabe, Espagnol, Français, Portugais du Portugal / Brésil et Turc
+* Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Portugal / Brésil, Turc et Ukrainien
 * [Télécharger](https://nvda.es/files/get.php?file=ytcmanager)
 * [Voir code source sur GitHub](https://github.com/GerardKessler/YoutubeChannelManager)
 
@@ -39,6 +39,7 @@ Cette extension vous permet de gérer les chaînes favorites de la plate-forme Y
 ## Raccourcis de l'extension
 
 * NVDA + i grec; Active et désactive l'interface invisible.
+* Non assigné; Active le lecteur Web personnalisé avec le lien d'une vidéo à partir du presse-papiers.
 
 ## Raccourcis disponibles dans l'interface invisible
 
@@ -131,9 +132,9 @@ Comme dans les recherches dans la base de données, pour revenir à la liste des
 ## Traducteurs:
 
 	Rémy Ruiz (Français)
-	Ângelo Miguel Abrantes, pour le portugais.
+	Ângelo Miguel Abrantes(Portugais)
 	Umut KORKMAZ (Turc)
-	wafiqtaher (arabe)
+	wafiqtaher (Arabe)
 
 ---
 
