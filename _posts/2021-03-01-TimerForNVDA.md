@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Lundi Ier Mars 2021 - Dernière mise à jour le Samedi 24 Juillet 2021</footer>
+<footer>Publié le Lundi Ier Mars 2021 - Dernière mise à jour le Dimanche 3 Juillet 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -15,10 +15,10 @@ Et traduit en espagnol et français par mes soins.
 # Informations sur l'extension TimerForNVDA #
 
 * Auteurs : Marlon Brandão de Sousa
-* Version actuelle: 1.3.0
-* Langues: Anglais, Espagnol, Français, Portugais du Brésil et Portugais du Portugal
-* Compatibilité NVDA: 2019.3 à 2021.1
-* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/marlon-sousa/TimerForNVDA/releases/download/1.3.0/TimerForNVDA-1.3.0.nvda-addon)
+* Version actuelle: 1.5.0
+* Langues: Anglais, Croate, Espagnol, Français, Portugais du Brésil, Portugais du Portugal et Turc
+* Compatibilité NVDA: 2019.3 à 2022.1
+* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/marlon-sousa/TimerForNVDA/releases/download/1.5.0/TimerForNVDA-1.5.0.nvda-addon)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/marlon-sousa/TimerForNVDA)
 
 # Minuterie et chronomètre simples pour NVDA #
