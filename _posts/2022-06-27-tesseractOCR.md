@@ -19,7 +19,7 @@ Voici une nouvelle extension pour NVDA fait par nos amis <span lang="pt">Rui Fon
 * Langues supportées: Arabe, Anglais, Portugais du Portugal / Brésil, Russe et Turc
 * Description: Effectue l'OCR sur un fichier d'image sélectionné, PDF, JPG, TIF, etc., ou dans un document via un scanner et affiche les résultats dans un fichier TXT.    
 Windows+Control+r: Effectue l'OCR dans le fichier d'image sélectionné.    
-Windows+Control+Shift+r: Scannérisent et reconnaît le document dans le scanner.    
+Windows+Control+Shift+r: Scanne et reconnaît le document dans le scanner.    
 * [Télécharger](https://nvda.es/files/get.php?file=tesseract)
 * [Voir code source sur GitHub](https://github.com/ruifontes/tesseractOCR)
 

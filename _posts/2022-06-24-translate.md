@@ -52,7 +52,7 @@ Si vous voulez en savoir plus sur ce fabuleux add-on, vous pouvez lire la premi�
 Faire en sorte que NVDA traduise le texte parlé dans la langue souhaitée.
 ## Télécharger
 
-* Stable (NVDA 2021.1+): [translate-2022.06.24 et plus](https://nvda.es/files/get.php?file=translate).
+* Stable (NVDA 2021.1+): [translate-2022.06.24](https://nvda.es/files/get.php?file=translate).
 
 ## Installation
 
@@ -106,7 +106,7 @@ Modification désintéressée de l'extension TRANSLATE.
 
 ## Télécharger
 
-* Modification faite par @hxebolax (NVDA 2022.1) [translate-2022.05.26](https://hxebolax.keybase.pub/Complementos/translate-2022.05.26.nvda-addon?dl=1).
+* Modification faite par @hxebolax (NVDA 2019.3+): [translate-2022.05.26](https://hxebolax.keybase.pub/Complementos/translate-2022.05.26.nvda-addon?dl=1).
 
 ## Informations
 
