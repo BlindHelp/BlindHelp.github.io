@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 24 Décembre 2020 - Dernière mise à jour le Samedi 25 Juin 2022</footer>
+<footer>Publié le Jeudi 24 Décembre 2020 - Dernière mise à jour le Dimanche 3 Juillet 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -15,10 +15,10 @@ Et traduit en espagnol et français par mes soins.
 # Informations sur l'extension EnhancedFindDialog #
 
 * Auteurs : Marlon Brandão de Sousa
-* Version actuelle: 1.3.2
-* Langues: Anglais, Espagnol, Français, Portugais du Brésil, Portugais du Portugal, Russe et Turc
+* Version actuelle: 1.3.3
+* Langues: Anglais, Croate, Espagnol, Français, Portugais du Brésil, Portugais du Portugal, Russe et Turc
 * Compatibilité NVDA: 2019.3 à 2022.1
-* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/marlon-sousa/EnhancedFindDialog/releases/download/1.3.2/EnhancedFindDialog-1.3.2.nvda-addon)
+* Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://github.com/marlon-sousa/EnhancedFindDialog/releases/download/1.3.3/EnhancedFindDialog-1.3.3.nvda-addon)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/marlon-sousa/EnhancedFindDialog)
 
 # Dialogue de recherche étendue pour NVDA #
