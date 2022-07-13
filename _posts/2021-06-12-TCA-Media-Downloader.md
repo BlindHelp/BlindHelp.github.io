@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 12 Juin 2021 - Dernière mise à jour le Lundi 17 Janvier 2022</footer>
+<footer>Publié le Samedi 12 Juin 2021 - Dernière mise à jour le Lundi 4 Juillet 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici un programme 100% accessible avec NVDA/JAWS nommé TCA-Media Downloader créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -38,24 +38,24 @@ Pour plus d’informations sur son utilisation, consultez le manuel de TCA-Media
 # Informations sur le programme TCA-Media Downloader: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 2.5
-* Langues supportées: Anglais, Espagnol, Français et Italien
+* Version actuelle: 2.6.1
+* Langues supportées: Anglais, Arabe, Albanais, Espagnol, Français, Italien et Turc
 
 ---
 
 # Télécharger TCA-Media Downloader #
 
-Eh bien, je vous laisse ci-dessous les liens de téléchargement de TCA-Media Downloader version 2.5 du Lundi 17 Janvier 2022 fournis par l'auteur via Google Drive:    
+Eh bien, je vous laisse ci-dessous les liens de téléchargement de TCA-Media Downloader version 2.6.1 du Lundi 4 Juillet 2022 fournis par l'auteur via Google Drive:    
 
 Pour les systèmes Windows 7, 8 et 8.1, où ils donnent une erreur et ne pouvant ouvrir le programme, cela pourrait être dû à l'absence de librairies, telles que le NetFramework et le Visual C++, qui doit être installée (Voir le lien de téléchargement ci-dessous).
 
 # Version portable 32 Bits: #
 
-<https://drive.google.com/uc?id=1J0Pvx_gWseZLTkyQgfnrt8UZcOkEeSx_&export=download>
+<https://drive.google.com/uc?id=1iwatmkHLTfy5Ocdu3fjTeNUQK_214Nex&export=download>
 
 # Version portable 64 Bits: #
 
-<https://drive.google.com/uc?id=12ZpvEZoNW8Bq6Z4mXboazmjRMyRand2h&export=download>
+<https://drive.google.com/uc?id=1mNy8k98CjkTxU8To_3S3bqPl_FHzaacU&export=download>
 # Librairies Netframework et Visual Studio C++ (dans un seul fichier zip): #
 
 <https://drive.google.com/uc?id=1MN0GPIf0VY9Zm7Xc3AO74z50Ypcsg6Dc&export=download>
@@ -151,6 +151,26 @@ Dans Options / Général, nous pouvons cocher ou décocher si nous voulons qu'on
 
 # Notes by BlindHelp
 
+# Si vous avez téléchargé la version précédente 2.5 de TCA-Media Downloader du Lundi 17 Janvier 2022: #
+
+Vous devez mettre à jour le programme manuellement. Vous ne pourrez pas le faire à partir de la version 2.5.    
+Vous aurez le titre de la fenêtre comme:    
+`TCA-Media Downloader 2.5 64bit`    
+Ou la dernière version téléchargé depuis la version 2.5 comme titre:    
+`TCA-Media Downloader 2.5.3 64bit`    
+Vous devrez supprimer ces versions ensuite vous devrez télécharger le programme de TCA-Media Downloader dans sa dernière version 2.6.1 du Lundi 4 Juillet 2022 en utilisant les liens indiqués ci-dessus. Merci.    
+Enfin, selon l'archive zip de l'application téléchargé  de TCA-Media Downloader   dans sa version 2.6.1 soit pour Windows 32 bits ou 64 bits, si vous avez un message qui vous indique qu'il existe une autre incidence ouverte du programme et que vous ne pouvez pas fermer le processus nommé: TCA-MediaDownloader.exe, vous pouvez le faire via le fichier: "Close_TCA-MediaDownloader.bat" qui se trouve dans chaque dossier dédié, en cliquant sur celui-ci.   
+
+Voici quelques modifications apportées au programme TCA-Media Downloader 2.6.1 / 2.6:    
+* Corrigé la sauvegarde des options.    
+TCA-Media Downloader sauvegarde déjà les options correctement, des corrections internes ont été apportées pour capturer correctement l'identification du PC, de sorte que les configurations que nous effectuons au programme ne seront plus perdues.    
+* Mises à jour des librairies.    
+Dans cette version la librairie utiliser par défaut pour les téléchargements est YT_DLP    
+Plus maintenant la librairie youtube-dl qui est sans mise à jour.    
+* Nouvelle langue arabe
+À partir de cette version, TCA-Media Downloader apporte la traduction dans la langue arabe.    
+* Corrections d'erreurs.    
+
 # Si vous avez téléchargé la version précédente 2.4 de TCA-Media Downloader du Lundi 27 Décembre 2021: #
 
 Cette version portable il faudra la mettre à jour depuis l'interface  du programme  de la version 2.4 vers la version 2.4.1 pour avoir la nouvelle traduction de la documentation et interface en français.    
@@ -167,8 +187,8 @@ puis choisir Rechercher une mise à jour de l'application
 
 # Si vous avez mis à jour la version 2.4 vers la 2.4.1 de TCA-Media Downloader: #
 
-Vous devrez télécharger le programme de TCA-Media Downloader dans sa dernière version 2.5 du Lundi 17 Janvier 2022 en utilisant les liens indiqués ci-dessus. Merci.    
-Enfin, selon l'archive zip de l'application téléchargé  de TCA-Media Downloader   dans sa version 2.5 soit pour Windows 32 bits ou 64 bits, si vous avez un message qui vous indique qu'il existe une autre incidence ouverte du programme et que vous ne pouvez pas fermer le processus nommé: TCA-MediaDownloader.exe, vous pouvez le faire via le fichier: "Close_TCA-MediaDownloader.bat" qui se trouve dans chaque dossier dédié, en cliquant sur celui-ci.    
+Vous devrez télécharger le programme de TCA-Media Downloader dans sa dernière version 2.6.1 du Lundi 4 Juillet 2022 en utilisant les liens indiqués ci-dessus. Merci.    
+Enfin, selon l'archive zip de l'application téléchargé  de TCA-Media Downloader   dans sa version 2.6.1 soit pour Windows 32 bits ou 64 bits, si vous avez un message qui vous indique qu'il existe une autre incidence ouverte du programme et que vous ne pouvez pas fermer le processus nommé: TCA-MediaDownloader.exe, vous pouvez le faire via le fichier: "Close_TCA-MediaDownloader.bat" qui se trouve dans chaque dossier dédié, en cliquant sur celui-ci.    
 
 Pour consulter le Manuel de TCA-Media Downloader:    
 alt+m pour ouvrir le Menu,    
