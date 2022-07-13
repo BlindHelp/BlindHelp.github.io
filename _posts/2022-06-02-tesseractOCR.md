@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 2 Juin 2022  - Dernière mise à jour le Vendredi 8 Juillet 2022</footer>
+<footer>Publié le Jeudi 2 Juin 2022 - Dernière mise à jour le Vendredi 8 Juillet 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
