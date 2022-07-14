@@ -162,14 +162,14 @@ Vous devrez supprimer ces versions ensuite vous devrez télécharger le programm
 Enfin, selon l'archive zip de l'application téléchargé  de TCA-Media Downloader   dans sa version 2.6.1 soit pour Windows 32 bits ou 64 bits, si vous avez un message qui vous indique qu'il existe une autre incidence ouverte du programme et que vous ne pouvez pas fermer le processus nommé: TCA-MediaDownloader.exe, vous pouvez le faire via le fichier: "Close_TCA-MediaDownloader.bat" qui se trouve dans chaque dossier dédié, en cliquant sur celui-ci.   
 
 Voici quelques modifications apportées au programme TCA-Media Downloader 2.6.1 / 2.6:    
-* Corrigé la sauvegarde des options.    
+* Correction de la sauvegarde des options.    
 TCA-Media Downloader sauvegarde déjà les options correctement, des corrections internes ont été apportées pour capturer correctement l'identification du PC, de sorte que les configurations que nous effectuons au programme ne seront plus perdues.    
 * Mises à jour des librairies.    
 Dans cette version la librairie utiliser par défaut pour les téléchargements est YT_DLP    
-Plus maintenant la librairie youtube-dl qui est sans mise à jour.    
+Plus maintenant la librairie YouTube-DL qui est sans mise à jour.    
 * Nouvelle langue arabe
 À partir de cette version, TCA-Media Downloader apporte la traduction dans la langue arabe.    
-* Corrections d'erreurs.    
+* Corrections de bogues.    
 
 # Si vous avez téléchargé la version précédente 2.4 de TCA-Media Downloader du Lundi 27 Décembre 2021: #
 
