@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 18 Août 2020 - Dernière mise à jour le Dimanche 26 Juin 2022</footer>
+<footer>Publié le Mardi 18 Août 2020 - Dernière mise à jour le Mercredi 13 Juillet 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici l'empaqueteuse d'extensions pour NVDA, appelé maintenant Utilitaires pour les extensions de NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -17,9 +17,9 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension  Empaqueteuse d'extensions (addonPackager), appelé maintenant Utilitaires pour les extensions de NVDA: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 1.0.4 et plus    
+* Version actuelle: 1.0.5 et plus    
 * Compatibilité avec NVDA: de 2021.1 à 2022.1    
-* Langues: Allemand, Anglais, Arabe, Espagnol, Français, Russe  et Turc    
+* Langues: Allemand, Anglais, Arabe, Espagnol, Français, Italien, Russe et Turc    
 * [Télécharger](https://nvda.es/files/get.php?file=addonpackager)    
 * [Voir code source sur GitHub](https://github.com/hxebolax/Add-on-packer)    
 
@@ -245,9 +245,12 @@ Si nous tabulons, nous trouverons un bouton appelé "Ouvrir la documentation de 
 
 Si quelqu'un souhaite collaborer avec les traductions, il peut le faire via le dépôt de GitHub de l'extension ou en envoyant un e-mail à xebolax@gmail.com
 
-* Anglais: Traduction automatique
+* Anglais: Dragan Ratkovich (traduction automatique)
 * Turc: umut korkmaz
 * Français: Rémy Ruiz
+* Arabe: Wafiq Taher
+* Allemand: Moritz Wolfart
+* Russe: Valentin Kupriyanov (communauté russe NVDA.RU)
 
 # Journal des changements.
 ## Informations sur les mises à jour:
