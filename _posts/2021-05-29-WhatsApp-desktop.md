@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 29 Mai 2021 - Dernière mise à jour le Dimanche 3 Juillet 2022</footer>
+<footer>Publié le Samedi 29 Mai 2021 - Dernière mise à jour le Samedi 16 Juillet 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé WhatsApp-desktop créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin d'avoir les raccourcis clavier pour accéder facilement à certaines fonctions de l'application [WhatsApp-desktop pour Windows!](https://www.whatsapp.com/download/)    
@@ -59,9 +59,9 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 # Informations sur l'extension WhatsApp-desktop: #
 
 * Auteur: <span lang="es">Gerar Késsler</span>
-* Version actuelle: 2.2222.12
+* Version actuelle: 2.2222.13
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
-* Langues supportées: Anglais, Espagnol, Français, Portugais du Brésil et du Portugal, Russe et Turc
+* Langues supportées: Anglais, Espagnol, Français, Italien, Portugais du Brésil et du Portugal, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=whatsappdesktop)
 * [Voir code source sur GitHub](https://github.com/GerardKessler/WhatsApp-desktop)
 
@@ -78,6 +78,7 @@ Remarque: cette extension ne fonctionne que avec le mode formulaire actif.
 
 * Amener en avant-plan la fenêtre de WhatsApp; Sans raccourci  attribué. Il peut être ajouté à partir  du dialogue Gestes de commande dans la catégorie Whatsapp. 
 * Ouvrir WhatsApp; Sans raccourci  attribué. Il peut être ajouté à partir  du dialogue Gestes de commande dans la catégorie Whatsapp. 
+* Basculer entre la liste des messages et la zone d'édition; alt + flèche gauche.
 * Démarrer et envoyer l'enregistrement d'un message vocal; contrôle + r.
 * Démarrer et terminer un appel vocal pour le contact de la conversation focalisé; alt + contrôle + l.
 * Démarrer et terminer un appel vidéo pour le contact de la conversation focalisé; alt + contrôle + v.
@@ -97,8 +98,8 @@ Remarque: cette extension ne fonctionne que avec le mode formulaire actif.
 * Reculer 5 messages dans la liste; page précédente.
 * Avancer 5 messages dans la liste; page suivante.
 * Verbaliser le message en fonction de ça position; alt + 1 à 9 du clavier alphanumérique (Seulement à partir du dialogue d'édition de message).
-* Basculer le focus entre la liste des messages et la zone d'édition lorsque vous entrez dans une cconversation; alt + flèche gauche.
 * Appuyer sur le bouton Lire plus dans les messages texte; alt + flèche bas.
+* Activer et désactiver l'élimination des numéros de téléphone dans les messages de contact  non agender; contrôle + maj + r.
 
 ### Raccourcis généraux de l'application:
 
@@ -145,93 +146,31 @@ Une fois ici, nous pouvons sélectionner et désélectionner des messages avec l
 * Mettre en surbrillance les messages avec la lettre d.
 * Fermer le mode de sélection avec la lettre q.
 
+Selon la fonction sélectionnée, la fenêtre correspondante sera activée. La sélection des contacts dans le cas du renvoie, la fenêtre de confirmation dans le cas de la suppression des messages, etc.
+
+## Interface virtuelle de chats
+
+À certaines occasions, les modifications introduites dans les mises à jour des applications, rompent la navigation correcte avec le focus du système entre la liste de chats.
+Pour ces cas, j'ai ajouté une virtualisation des objets de conversation. Cela nous permet de naviguer entre la liste des chats affichés dans la fenêtre, généralement 19. Cependant, l'ordre de ceux-ci est généralement assez arbitraire, ce que l'ordre n'est pas toujours le correcte dans la liste virtualisée.
+Pour activer cette virtualisation, il suffit d'activer la zone de recherche de chat avec le raccourci contrôle + "f". Lorsque cette zone est ouverte, l'extension capture les objets et les place dans la liste virtuelle, qui peut être utilisé avec les commandes suivantes:
+
+* contrôle + flèche haut; verbalise le chat précédent sur la liste virtuelle.
+* contrôle + flèche bas; verbalise le chat suivant sur la liste virtuelle.
+* contrôle + maj + début; verbalise le premier  chat sur la liste virtuelle.
+* contrôle + entrée; déplace le focus au chat actuel de la liste virtuelle.
+
+Pour accéder au chat d'une liste, nous devons d'abord naviguer avec les raccourcis contrôle + flèches haut ou bas, la focalisée avec contrôle + entrée,  puis appuyez uniquement sur entrée.
+
 ## Traductions:
+
 	Les personnes suivantes ont collaboré à la traduction de l'extension:
-	Mustafa Elçiçek, pour le  turc.  
-	Rémy Ruiz, pour le français.  
-	Ângelo Miguel Abrantes, pour le portugais.  
-	Carlos Esteban Martínez Macías (anglais)
-	Valentin Kupriyanov (russe)
 
-## Journal des changements:  
-### 2.2206.9:
-
-* Modifications de la compatibilité avec la version 2.2206.9
-
-### 2.2202.12
-
-* Fonction ajoutée pour appuyer sur le bouton Lire plus dans les messages texte très étendu.
-* Améliorations Dans la fonction pour copier le texte du message dans le Presse-papiers.
-* La verbalisation du nom du chat fonctionne désormais depuis la liste des conversations, Et de n'importe où à l'intérieur de la même.
-
-### 2.2144.11
-
-* Modifications de la compatibilité avec la version 2.2144.11
-
-
-### 2.2142.12
-
-* Modifications de la compatibilité avec la version 2.2142.12
-
-### 2.2140.5
-
-* Modifications de la compatibilité avec la version 2.2140.5
-* Geste ajouté pour basculer entre la liste des messages et la zone d'édition.
-
-### 2.2134.10:
-
-* Modifications de la compatibilité avec la version 2.2134.10
-
-### 1.1:
-
-* Modifications de la compatibilité avec la version 2.2130.9
-* Éliminé la fonction expérimentale de lecture virtuelle de conversations.
-* Corrections mineures.
-
-### 1.0:
-
-* Lecture de l'historique du message d'une conversation dans la zone de texte.
-* Corrections générales.
-
-### 0.9:
-
-* Ajout du canal de mise à jour.
-* Fonction ajoutée pour modifier la vitesse des messages vocaux.
-* Corrections mineures.
-
-### 0.8:
-
-* Modifications générales de compatibilité avec la nouvelle version de l'app.
-* Fonction expérimentale ajoutée d'affichage virtuelle de conversations.
-
-### 0.7:
-
-* Ajout de raccourci pour lire la vidéo d'un message.
-* Raccourcis ajoutés pour se déplacer dans un plus grand nombre de messages.
-* Mode de sélection ajouté.
-* Fonction ajoutée pour connaître l'état du dernier message envoyé.
-* Ajout de raccourcis pour faire des appels vocaux et vidéo.
-* Ajout de la traduction française.
-
-### 0.6:
-
-* Fonction ajoutée pour verbaliser le temps que le message vocal a été enregistré.
-* Simplification du processus de re-envoi d'un message.
-* Corrections mineures pour mettre en compatibilité les changements de l'application.
-
-### 0.5;
-
-* Fonction ajoutée pour lire le titre de la conversation. Le raccourci est; contrôle + maj + t.
-* Lors de la lecture d'un message vocal avec entrée le focus se déplace vers la barre de progression, à partir de laquelle nous pouvons avancer ou reculer le message avec les flèches droite ou gauche.
-* Fonction ajoutée pour verbaliser le temps que le message a été  lu depuis la barre de progression de celui-ci. Le raccourci est; contrôle + t.
-* Lignes ajoutées pour les traducteurs à partir de l'espagnol.
-
-### 0.4;
-
-* Ajout de la fonction globale pour amener en avant-plan la fenêtre de WhatsApp de n'importe où.
-
-### 0.3;
-* Modifications dans la documentation.
+	* Mustafa Elçiçek (turc)
+	* Rémy Ruiz (français)
+	* Ângelo Miguel Abrantes (portugais)
+	* Carlos Esteban Martínez Macías (anglais)
+	* Valentin Kupriyanov (russe)
+	* Michele Barbi (italien)
 
 ---
 
