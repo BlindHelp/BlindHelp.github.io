@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Dernière mise à jour le Lundi 23 Mai 2022</footer>
+<footer>Dernière mise à jour le Mercredi 20 Juillet 2022</footer>
 
 ### Consulter la dernière Documentation en cours pour notre lecteur d'écran NVDA ###
 

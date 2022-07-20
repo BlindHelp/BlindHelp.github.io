@@ -4,9 +4,9 @@
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <LINK REL="stylesheet" TYPE="text/css" HREF="styles.css">
-<TITLE>Guide de l'utilisateur de NVDA 2022.1</TITLE>
+<TITLE>Guide de l'utilisateur de NVDA 2022.2</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2022.1</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2022.2</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -134,9 +134,9 @@
     <UL>
     <LI><A HREF="#NVDASettings">12.1. Paramètres de NVDA</A>
       <UL>
-      <LI><A HREF="#GeneralSettings">12.1.1. Général (NVDA+control+g)</A>
+      <LI><A HREF="#GeneralSettings">12.1.1. Général (NVDA+contrôle+g)</A>
       <LI><A HREF="#SpeechSettings">12.1.2. Parole (NVDA+contrôle+v)</A>
-      <LI><A HREF="#SelectSynthesizer">12.1.3. Choix du Synthétiseur (NVDA+control+s)</A>
+      <LI><A HREF="#SelectSynthesizer">12.1.3. Choix du Synthétiseur (NVDA+contrôle+s)</A>
       <LI><A HREF="#SynthSettingsRing">12.1.4. Boucle des Paramètres Synthétiseur</A>
       <LI><A HREF="#BrailleSettings">12.1.5. Braille</A>
       <LI><A HREF="#SelectBrailleDisplay">12.1.6. Choisir l'Afficheur Braille (NVDA+contrôle+a)</A>
@@ -227,8 +227,10 @@
     </UL>
   <LI><A HREF="#AdvancedTopics">16. Fonctions Avancées</A>
     <UL>
-    <LI><A HREF="#CommandLineOptions">16.1. Options de Ligne de Commande</A>
-    <LI><A HREF="#SystemWideParameters">16.2. Paramètres Système</A>
+    <LI><A HREF="#SecureMode">16.1. Mode Sécurisé</A>
+    <LI><A HREF="#SecureScreens">16.2. Écrans Sécurisés</A>
+    <LI><A HREF="#CommandLineOptions">16.3. Options de Ligne de Commande</A>
+    <LI><A HREF="#SystemWideParameters">16.4. Paramètres Système</A>
     </UL>
   <LI><A HREF="#FurtherInformation">17. Informations Complémentaires</A>
   </UL>
@@ -262,7 +264,7 @@ Ses points forts sont :
 <LI>Un installateur parlant facile à utiliser
 <LI>Une traduction dans 54 langues
 <LI>La prise en charge des environnements Windows modernes, incluant les versions 32 et 64 bits
-<LI>L'accès à l'écran de connexion à Windows et aux autres écrans sécurisés
+<LI>L'accès à l'écran de connexion à Windows et aux <A HREF="#SecureScreens">autres écrans sécurisés</A>.
 <LI>L'annonce des contrôles et du texte durant l'utilisation de gestes tactiles
 <LI>Le support des interfaces d'accessibilité communes telles que Microsoft Active Accessibility, Java Access Bridge, IAccessible2 et UI Automation
 <LI>Le support de l'invite de commandes Windows et des applications en mode console
@@ -340,7 +342,7 @@ Vous aurez ensuite le choix entre installer NVDA, créer une copie portable, ou 
 </P>
 <P>
 Si vous avez prévu de toujours utiliser NVDA sur cet ordinateur, choisissez "Installer NVDA".
-Installer NVDA apportera des fonctionnalités supplémentaires comme son lancement automatique après l'identification, la lecture des écrans d'identification et de sécurité (ce qu'une version portable ou la version temporaire ne peuvent faire), et il sera accessible depuis des raccourcis dans le menu "Démarrer" ou sur le bureau.
+Installer NVDA apportera des fonctionnalités supplémentaires comme son lancement automatique après l'identification, la lecture des écrans d'identification et des <A HREF="#SecureScreens">écrans sécurisés</A>. (ce qu'une version portable ou la version temporaire ne peuvent faire), et il sera accessible depuis des raccourcis dans le menu "Démarrer" ou sur le bureau.
 La version installée permet aussi de créer une copie portable à tout moment.
 </P>
 <P>
@@ -391,7 +393,7 @@ Veuillez consulter la section <A HREF="#incompatibleAddonsManager">dialogue des 
 <H4>3.2.2. Utiliser NVDA sur l'Écran de Connexion à Windows</H4>
 <P>
 Cette option vous permet de choisir si NVDA doit ou non démarrer automatiquement quand vous êtes sur l'écran de connexion, avant que vous ayez saisi un mot de passe.
-Ceci inclut le contrôle du compte d'utilisateur et les écrans sécurisés.
+Ceci inclut le contrôle du compte d'utilisateur et <A HREF="#SecureScreens">autres écrans sécurisés</A>.
 Cette option est activée par défaut pour les nouvelles installations.
 </P>
 <A NAME="CreateDesktopShortcut"></A>
@@ -404,7 +406,7 @@ S'il est créé, ce raccourci sera doté d'une combinaison de touches contrôle+
 <H4>3.2.4. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</H4>
 <P>
 Cette option vous permet de choisir si NVDA doit ou non copier la configuration utilisateur depuis la copie de NVDA en cours d'exécution vers la configuration de l'utilisateur courant, pour la version installée de NVDA.
-Cela ne copiera la configuration ni pour un autre utilisateur du système, ni pour la configuration du système dans le cas de l'utilisation dans l'identification Windows ou les autres écrans sécurisés.
+Cela ne copiera la configuration ni pour un autre utilisateur du système, ni pour la configuration du système dans le cas de l'utilisation dans l'identification Windows ou les <A HREF="#SecureScreens">autres écrans sécurisés</A>.
 Cette option n'est disponible que lorsque vous installez NVDA depuis une copie portable, pas quand vous installez depuis le paquet téléchargé du lanceur.
 </P>
 <A NAME="CreatingAPortableCopy"></A>
@@ -840,6 +842,26 @@ Dans un tableau, vous disposez également des touches de commandes suivantes :
 <TD>Aller à la ligne suivante</TD>
 <TD>contrôle+alt+flèche bas</TD>
 <TD>Déplace le curseur système à la ligne suivante en restant sur la même colonne</TD>
+</TR>
+<TR>
+<TD>Aller à la première colonne</TD>
+<TD>contrôle+alt+début</TD>
+<TD>Déplace le curseur système à la première colonne (en restant sur la même ligne)</TD>
+</TR>
+<TR>
+<TD>Aller à la dernière colonne</TD>
+<TD>contrôle+alt+fin</TD>
+<TD>Déplace le curseur système à la dernière colonne (en restant sur la même ligne)</TD>
+</TR>
+<TR>
+<TD>Aller à la première ligne</TD>
+<TD>contrôle+alt+PagePrec</TD>
+<TD>Déplace le curseur système à la première ligne (en restant sur la même colonne)</TD>
+</TR>
+<TR>
+<TD>Aller à la dernière ligne</TD>
+<TD>contrôle+alt+pageSuiv</TD>
+<TD>Déplace le curseur système à la dernière ligne (en restant sur la même colonne)</TD>
 </TR>
 </TABLE>
 
@@ -1515,8 +1537,11 @@ NVDA supporte les types de contenu mathématiques suivants :
 <LI>MathML sous Mozilla Firefox, Microsoft Internet Explorer et Google Chrome.
 <LI>Microsoft Word 365 Modern Math Equations via UI automation :
 NVDA est capable de lire et d'interagir avec des équations mathématiques dans Microsoft Word 365/2016 build 14326 et supérieur.
-Notez cependant que toutes les équations MathType créées précédemment doivent d'abord être converties en Office Math en les sélectionnant et en choisissant Options d'équation -&gt; Convertir en Office Math dans le menu contextuel. Assurez-vous que votre version de MathType est la dernière version avant de faire cela.
-Microsoft Word fournit également désormais une navigation basée sur des symboles linéaires à travers les équations elles-mêmes et prend en charge la saisie de mathématiques à l'aide de plusieurs syntaxes, y compris LateX. Pour plus de détails, veuillez consulter <A HREF="2e00618d-b1fd-49d8-8cb4-8d17f25754f8">Équations au format linéaire utilisant UnicodeMath et LaTeX dans Word https://support.microsoft.com/en-us/office/linear-format-equations-using-unicodemath-and-latex-in-word-</A>
+Notez cependant que toutes les équations MathType créées précédemment doivent d'abord être converties en Office Math.
+Cela peut être fait en sélectionnant chaque équation et en choisissant "Options d'équation", puis "Convertir en Office Math" dans le menu contextuel.
+Assurez-vous que votre version de MathType est la dernière version avant de faire cela.
+Microsoft Word fournit une navigation linéaire basée sur des symboles à travers les équations elles-mêmes et prend en charge la saisie de mathématiques à l'aide de plusieurs syntaxes, y compris LateX.
+Pour plus de détails, veuillez consulter <A HREF="2e00618d-b1fd-49d8-8cb4-8d17f25754f8">Équations au format linéaire utilisant UnicodeMath et LaTeX dans Word https://support.microsoft.com/en-us/office/linear-format-equations-using-unicodemath-and-latex-in-word-</A>
 <LI>Microsoft Powerpoint et les anciennes versions de Microsoft Word :
 NVDA peut lire et parcourir les équations MathType dans Microsoft Powerpoint et Microsoft Word.
 MathType doit être installé pour que cela fonctionne.
@@ -1729,6 +1754,10 @@ Dans le but de loger autant d'informations que possible sur un afficheur braille
 <TR>
 <TD>bpr</TD>
 <TD>barre de progression</TD>
+</TR>
+<TR>
+<TD>indoc</TD>
+<TD>indicateur d'occupation</TD>
 </TR>
 <TR>
 <TD>btnr</TD>
@@ -1975,9 +2004,10 @@ Vous pouvez modifier ces affectations ou ajouter de nouvelles touches émulées 
 <P>
 Bien que cette approche soit utile pour les touches fréquemment pressées ou uniques (telles que la tabulation), vous ne souhaiterez peut-être pas attribuer un ensemble unique de touches à chaque raccourci clavier.
 Pour permettre l'émulation de pression de touches lorsque les touches de modification sont maintenues enfoncées, NVDA fournit des commandes pour basculer entre les touches contrôle, alt, majuscule, windows et NVDA, ainsi que des commandes pour certaines combinaisons de ces touches.
-Pour utiliser ces bascules, appuyez d'abord sur la commande (ou la séquence de commandes) des touches de modification sur lesquelles vous souhaitez appuyer, puis saisissez le caractère faisant partie du raccourci clavier que vous souhaitez saisir.
-Par exemple, pour produire control+f, utilisez la commande "bascule de touche contrôle" puis tapez un f,
-et pour saisir control+alt+t, utilisez soit les commandes "bascule de touche contrôle" et "bascule de touche alt", dans n'importe quel ordre, soit la commande "bascule de touches Contrôle et alt", suivie de la saisie d'un t.
+Pour utiliser ces bascules, appuyez d'abord sur la commande (ou la séquence de commandes) des touches de modification sur lesquelles vous souhaitez appuyer.
+Saisissez ensuite le caractère faisant partie du raccourci clavier que vous souhaitez saisir.
+Par exemple, pour produire contrôle+f, utilisez la commande "bascule de touche contrôle" puis tapez un f,
+et pour saisir contrôle+alt+t, utilisez soit les commandes "bascule de touche contrôle" et "bascule de touche alt", dans n'importe quel ordre, soit la commande "bascule de touches Contrôle et alt", suivie de la saisie d'un t.
 </P>
 <P>
 Si vous basculez accidentellement les touches de modification, exécuter à nouveau la commande bascule supprimera le modificateur.
@@ -2437,7 +2467,7 @@ Si vous voulez accéder à une catégorie qui n'a pas de raccourci dédié, util
 Les catégories de paramètres du dialogue Paramètres sont décrite ci-dessous.
 </P>
 <A NAME="GeneralSettings"></A>
-<H4>12.1.1. Général (NVDA+control+g)</H4>
+<H4>12.1.1. Général (NVDA+contrôle+g)</H4>
 <P>
 La catégorie Général du dialogue Paramètres définit le comportement global de NVDA tel que la langue de l'interface et la vérification des mises à jour.
 Elle contient les options suivantes :
@@ -2510,8 +2540,8 @@ Cette option n'existe que dans les versions installées de NVDA.
 <A NAME="GeneralSettingsCopySettings"></A>
 <H5>Utiliser les paramètres actuellement sauvegardés sur l'écran de connexion et les autres écrans sécurisés</H5>
 <P>
-L'appui sur ce bouton copie votre configuration utilisateur actuellement sauvegardée dans le répertoire système de NVDA, ainsi, NVDA peut l'utiliser quand il s'exécute sur l'écran de connexion et les autres écrans sécurisés.
-Pour être sûr que tous vos paramètres sont transférés, sauvegardez d'abord vos paramètres avec la commande "NVDA+contrôle+c" ou par "Sauvegarder la configuration" dans le menu NVDA.
+L'appui sur ce bouton copie votre configuration utilisateur actuellement sauvegardée dans le répertoire système de NVDA, ainsi, NVDA peut l'utiliser quand il s'exécute sur l'écran de connexion et les <A HREF="#SecureScreens">autres écrans sécurisés</A>.
+Pour vous assurer que tous vos paramètres sont transférés, enregistrez d'abord votre configuration avec contrôle+NVDA+c ou Enregistrer la configuration dans le menu NVDA.
 Cette option n'existe que dans les versions installées de NVDA.
 </P>
 <A NAME="GeneralSettingsCheckForUpdates"></A>
@@ -2690,7 +2720,7 @@ Cependant, certains synthétiseurs utilisant les API de parole Microsoft se comp
 Si vous rencontrez des problèmes à l'épellation de caractères, essayez de désactiver cette option.
 </P>
 <A NAME="SelectSynthesizer"></A>
-<H4>12.1.3. Choix du Synthétiseur (NVDA+control+s)</H4>
+<H4>12.1.3. Choix du Synthétiseur (NVDA+contrôle+s)</H4>
 <P>
 Le dialogue Synthétiseur, qui s'ouvre en activant le bouton Changer dans la catégorie Parole du dialogue Paramètres, permet de choisir le synthétiseur de parole qui sera utilisé par NVDA.
 Une fois que vous aurez choisi votre synthétiseur, appuyez sur "OK" et NVDA chargera le synthétiseur choisi.
@@ -3367,8 +3397,12 @@ Ce champ définit le nombre de lignes dont on se déplace par appui sur "Page Pr
 Raccourci clavier : NVDA+v
 </P>
 <P>
-Cette option vous permet de spécifier si le mode navigation doit placer le contenu cliquable (liens, boutons et champs) sur sa propre ligne, ou s'il doit le conserver dans le flux du texte tel qu'il est affiché visuellement. Notez que cette option ne concerne pas les applications Microsoft Office telles qu'Outlook et Word, qui utilisent toujours la disposition telle qu'à l'écran.
-Lorsque la disposition telle qu'à l'écran est activée, les éléments de la page restent tels qu'ils sont affichés visuellement. Par exemple, une ligne visuelle de plusieurs liens sera présentée vocalement et en braille comme plusieurs liens sur la même ligne. S'il est désactivé, les éléments de la page seront placés sur leurs propres lignes, ce qui peut être plus facile à comprendre lors de la navigation ligne par ligne dans la page et peut faciliter l'interaction avec les éléments pour certains utilisateurs.
+Cette option vous permet de spécifier si le mode navigation doit placer le contenu cliquable (liens, boutons et champs) sur sa propre ligne, ou s'il doit le conserver dans le flux du texte tel qu'il est affiché visuellement. 
+Notez que cette option ne concerne pas les applications Microsoft Office telles qu'Outlook et Word, qui utilisent toujours la disposition telle qu'à l'écran.
+Lorsque la disposition telle qu'à l'écran est activée, les éléments de la page restent tels qu'ils sont affichés visuellement. 
+Par exemple, une ligne visuelle de plusieurs liens sera présentée vocalement et en braille comme plusieurs liens sur la même ligne. 
+S'il est désactivé, les éléments de la page seront placés sur leurs propres lignes. 
+Ceci peut être plus facile à comprendre lors de la navigation ligne par ligne dans la page et peut faciliter l'interaction avec les éléments pour certains utilisateurs.
 </P>
 <A NAME="BrowseModeSettingsEnableOnPageLoad"></A>
 <H5>Activer le mode navigation au chargement de la page</H5>
@@ -4726,7 +4760,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 <TR>
 <TD>touche contrôle</TD>
-<TD>control</TD>
+<TD>contrôle</TD>
 </TR>
 </TABLE>
 
@@ -7065,8 +7099,48 @@ Voici les affectations de touches actuelles pour ces affichages.
 
 <A NAME="AdvancedTopics"></A>
 <H2>16. Fonctions Avancées</H2>
+<A NAME="SecureMode"></A>
+<H3>16.1. Mode Sécurisé</H3>
+<P>
+NVDA peut être démarré en mode sécurisé avec l'<A HREF="#CommandLineOptions">option de ligne de commande</A> <CODE>-s</CODE>.
+NVDA s'exécute en mode sécurisé lorsqu'il est exécuté sur les <A HREF="#SecureScreens">écrans sécurisés</A>, à moins que le <A HREF="#SystemWideParameters">paramètre à l'échelle du système</A> <CODE>serviceDebug</CODE> soit activé.
+</P>
+<P>
+Le mode sécurisé désactive :
+</P>
+<UL>
+<LI>La sauvegarde de la configuration et autres paramètres sur disque
+<LI>La sauvegarde des gestes de commande sur disque
+<LI>Les fonctionnalités de <A HREF="#ConfigurationProfiles">Profil de Configuration</A> Telles que créer, supprimer, renommer les profils etc.
+<LI>Mettre à jour NVDA et créer des copies portables
+<LI>La <A HREF="#PythonConsole">console Python</A>
+<LI>La <A HREF="#LogViewer">Visionneuse du journal</A> et la journalisation
+</UL>
+
+<P></P>
+<A NAME="SecureScreens"></A>
+<H3>16.2. Écrans Sécurisés</H3>
+<P>
+NVDA s'exécute en mode sécurisé lorsqu'il est exécuté sur les <A HREF="#SecureScreens">écrans sécurisés</A>, à moins que le <A HREF="#SystemWideParameters">paramètre à l'échelle du système</A> <CODE>serviceDebug</CODE> soit activé.
+</P>
+<P>
+Lorsqu'il s'exécute sur un écran sécurisé, NVDA utilise un profil système pour les préférences.
+Les préférences utilisateur de NVDA peuvent être copiées <A HREF="#GeneralSettingsCopySettings">pour une utilisation dans les écrans sécurisés</A>.
+</P>
+<P>
+Les écrans sécurisés incluent :
+</P>
+<UL>
+<LI>L'écran de connexion à Windows
+<LI>Le dialogue Contrôle d'accès utilisateur, actif lors de l'exécution d'une action en tant qu'administrateur
+  <UL>
+  <LI>Cela inclut l'installation de programmes
+  </UL>
+</UL>
+
+<P></P>
 <A NAME="CommandLineOptions"></A>
-<H3>16.1. Options de Ligne de Commande</H3>
+<H3>16.3. Options de Ligne de Commande</H3>
 <P>
 Au démarrage, NVDA peut accepter une ou plusieurs options additionnelles pour modifier son comportement.
 Vous pouvez passer autant d'options que nécessaire.
@@ -7167,7 +7241,7 @@ Voici les options de ligne de commande de NVDA :
 <TR>
 <TD>-s</TD>
 <TD>--secure</TD>
-<TD>Mode sécurisé : désactive la console Python, les fonctionnalités de profil telles que la création, la suppression, le renommage des profils, etc., la vérification des mises à jour, certaines cases à cocher dans la boîte de dialogue de bienvenue et dans la catégorie des paramètres généraux (par exemple, utiliser NVDA lors de la connexion à Windows, sauvegarder la configuration en quittant, etc.) , ainsi que les fonctionnalités de visionneuse du journal et de journalisation (mode souvent utilisées dans les écrans sécurisés). Notez également que cette commande désactivera la possibilité d'enregistrer les paramètres dans la configuration système et que les gestes de commande ne seront pas enregistrée sur le disque.</TD>
+<TD>Démarre NVDA en <A HREF="#SecureMode">Mode Sécurisé</A></TD>
 </TR>
 <TR>
 <TD>Aucune</TD>
@@ -7227,7 +7301,7 @@ Voici les options de ligne de commande de NVDA :
 </TABLE>
 
 <A NAME="SystemWideParameters"></A>
-<H3>16.2. Paramètres Système</H3>
+<H3>16.4. Paramètres Système</H3>
 <P>
 NVDA permet de définir certaines valeurs dans la base de registre du système ce qui modifie le comportement général de NVDA.
 Ces valeurs sont stockées dans la base de registres sous l'une des clés suivantes :
@@ -7258,7 +7332,7 @@ Les valeurs suivantes peuvent être définies dans ces clés de registre :
 <TD>serviceDebug</TD>
 <TD>DWORD</TD>
 <TD>0 (défaut) pour désactiver, 1 pour activer</TD>
-<TD>si activé, désactive le mode sécurisé dans les bureaux sécurisés de Windows, permettant l'utilisation de la console Python et de la visionneuse de journaux. En raison d'implications majeures de sécurité, l'utilisation de cette option est fortement déconseillée</TD>
+<TD>si activé, désactive le <A HREF="#SecureMode">Mode Sécurisé</A> sur les <A HREF="#SecureScreens">écrans sécurisés</A>. En raison d'implications majeures de sécurité, l'utilisation de cette option est fortement déconseillée</TD>
 </TR>
 </TABLE>
 
