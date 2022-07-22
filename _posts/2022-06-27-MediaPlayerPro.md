@@ -55,7 +55,11 @@ Faire deux fois Tab.
 `Next >`    
 Faire  entrée sur ce bouton.    
 Une cinquième boîte de dialogue s'ouvre en anglais:    
-`Setup - MediaPlayerPro version 1.2 dialogue Ready to InstallSetup is now ready to begin installing MediaPlayerPro on your computer.Click Install to continue with the installation, or click Back if you want to review or change any settings. Destination location:      C:\Program Files (x86)\MediaPlayerProAdditional tasks:      Additional shortcuts:         Create a desktop shortcut`    
+`Setup - MediaPlayerPro version 1.2 dialogue Ready to InstallSetup is now ready to begin installing MediaPlayerPro on your computer. Click Install to continue with the installation, or click Back if you want to review or change any settings.`    
+`Destination location:      C:\Program Files (x86)\`    
+`MediaPlayerProAdditional tasks:`   
+`Additional shortcuts:`    
+`Create a desktop shortcut`    
 `Install`    
 Faire  entrée sur ce bouton.    
 Attendez quelques instants...    
@@ -78,7 +82,7 @@ Dans certaines parties de l'aide du programme  je mettrai le mot en anglais si n
 Quoi qu'il en soit, le programme même en anglais est compréhensible, et si vous êtes une personne hispanophone, vous pouvez le mettre dans la langue en espagnol!    
 Même il y a l'arabe!     
 
-#Media Player Pro
+# Media Player Pro
 <Programme conçu pour les utilisateurs du lecteur d'écran NVDA.    
 Ce programme lit divers fichiers multimédias et facilite leur contrôle accessible à 100% avec les lecteurs d'écran.    
 D'une manière facile, où l'utilisateur personnalise ce qu'il veut de la parole dans le programme.    
@@ -194,7 +198,7 @@ Voici Comme il apparaît à l'écran, vous verrez d'abord le raccourci si dispon
 Je vous laisse le soin de découvrir par vous-même ce fabuleux programme Media Player Pro! 😃    
 
 ## Remerciements. ##
-Je remercie mon ami <span lang="es">Peter Reina</span> car sans lui, je n'aurais pas connu ledit programme à partir de son blog en espagnol! Donc, voici son lien pour les amis hispanophones...    
+Je remercie mon ami <span lang="es">Peter Reina</span> car sans lui, je n'aurais pas connu ledit programme à partir de son blog en espagnol! Donc, voici plus bas le lien pour les amis hispanophones...    
 
 <span lang="es">[TecnoConocimientoAccesible](https://tecnoconocimientoaccesible.blogspot.com/</span>)
 
