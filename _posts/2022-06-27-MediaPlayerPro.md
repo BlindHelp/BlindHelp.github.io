@@ -38,9 +38,11 @@ Media Player Pro est très simple à utiliser, principalement en utilisant des r
 Nom du fichier à télécharger:    
 `mpp1.2.zip`    
 
-Archive compressée:    
-Taille:    
-`61,6 Mo`    
+Type de fichier à télécharger:    
+`Archive compressée`    
+
+Taille du fichier à télécharger:    
+`61,6 Mo`    
 
 Une fois ouvert le lien de téléchargement via Google Drive, il faut appuyez sur le bouton:    
 `Télécharger quand même`    
@@ -225,6 +227,13 @@ Le message suivant sera affiché:
 `You have changed some settings that require a restart of the program to  apply, do you want to restart the program now?`    
 Répondre en cliquant sur le bouton: Oui    
 Lorsque le programme Media Player Pro sera redémarré, vous aurez maintenant la langue de l'interface en français! :)    
+
+J'ai oublié, pour en finir...    
+Si le curseur pointe vers un fichier audio, si vous faites menu contextuel ou touche Applications, recherchez puis faire Entrée sur l'élément:    
+`open with MediaPlayerPro`    
+La lecture dudit fichier audio démarre avec Media Player Pro, tant que le lecteur Media Player Pro est déclaré manuellement comme lecteur par défaut sous Windows.    
+Sinon, cela vous donne un message d'erreur!    
+
 Voilà!    
 Je vous laisse le soin de découvrir par vous-même ce fabuleux programme Media Player Pro! 😃    
 
