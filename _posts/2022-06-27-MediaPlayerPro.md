@@ -38,6 +38,10 @@ Media Player Pro est très simple à utiliser, principalement en utilisant des r
 Nom du fichier à télécharger:    
 `mpp1.2.zip`    
 
+Archive compressée:    
+Taille:    
+`61,6 Mo`    
+
 Une fois ouvert le lien de téléchargement via Google Drive, il faut appuyez sur le bouton:    
 `Télécharger quand même`    
 
