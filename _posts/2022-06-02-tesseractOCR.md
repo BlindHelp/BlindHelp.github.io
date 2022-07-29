@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 2 Juin 2022 - Dernière mise à jour le Mercredi 13 Juillet 2022</footer>
+<footer>Publié le Jeudi 2 Juin 2022 - Dernière mise à jour le Samedi 23 Juillet 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -27,7 +27,7 @@ Vous pouvez voir cet article dédié à cette extension en cliquant [ici](https:
 
 
 * Auteurs: Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com> et Abel Passos do Nascimento Jr. <abel.passos@gmail.com>
-* Mis à jour le 13/07/2022
+* Mis à jour le 23/07/2022
 * Télécharger [version stable][1]
 * Compatibilité NVDA: version 2019.3 et ultérieure
 
@@ -37,11 +37,13 @@ Vous pouvez voir cet article dédié à cette extension en cliquant [ici](https:
 Cette extension utilise le moteur gratuit et à source ouverte Tesseract OCR pour effectuer une reconnaissance de caractères optiques dans un fichier d'image, PDF, JPG, TIF ou autre type, sans qu'il soit nécessaire de l'ouvrir.
 Elle peut également numériser et reconnaître un document papier à partir  d'un scanner compatible WIA.
 Dans les Préférences de NVDA, la catégorie TesseractOCR est ajoutée, où vous pouvez configurer les langues à utiliser pendant la reconnaissance et les types de documents à reconnaître.
+Dans cette boîte de dialogue, pour pouvoir faire une reconnaissance de texte aux fichiers PDF protégés par mot de passe, vous pouvez cocher pour demander le mot de passe.
+Si vous avez cette option cochée et que le PDF n'a pas de mot de passe, appuyez simplement sur Entrée dans la boîte de dialogue demandant le mot de passe.
 À l'exception de l'anglais et du portugais, qui sont déjà inclus dans l'extension, les autres langues seront téléchargées et installées lors de la sélection d'une langue qui n'existe toujours pas dans l'extension.
 Gardez à l'esprit que à fur et à mesure que le nombre de langues  de reconnaissance sélectionnés augmente, le processus OCR prendra plus de temps.
 Par conséquent, nous vous recommandons d'utiliser uniquement les langues dont vous avez besoin.
 Gardez également à l'esprit que la qualité de la reconnaissance peut varier en fonction de l'ordre des langues.
-Par conséquent, si le résultat de reconnaissance n'est pas satisfaisant, Vous voudrez peut-être prouver un autre ordre dans les langues.
+Par conséquent, si le résultat de reconnaissance n'est pas satisfaisant, Vous voudrez peut-être prouver un autre ordre des langues.
 
 
 ## Commandes clavier
@@ -73,139 +75,139 @@ Il s'agit d'un problème connu de Tesseract et, sans consommer beaucoup de temps
 ## Langues supportées
 
 Les langues supportées dans cette version sont:
-Afrikaans
-Albanais
-Amharique
-Arabe
-Arménien
-Assamais
-Azerbaïdjanais (Latin)
-Basque
-Biélorusse
-Bengali
-Bosniaque
-Breton
-Bulgare
-Burmais
-Catalan / Valence
-Cébouano
-Cherokee
-Chinois simplifié
-Chinois traditionnel
-Corse
-Croate
-Tchèque
-Danois
-Allemand
-Dhivehi
-Néerlandais (Flamand)
-Dzongkha
-Anglais
-Esperanto
-Estonien
-Féroïen
-Philippin
-Finnois
-Français
-Galicien
-Géorgien
-Grec
-Gujarati
-Haïtien
-Hébreu
-Hindi
-Hongrois
-Islandais
-Indonésien
-Inuktitut
-Irlandais
-Italien
-Javanais
-Japonais
-Kannada
-Kazakh
-Khmère (Central)
-Kirghiz
-Coréen
-Kurde Kurmanji
-Laotien
-Latin
-Letton
-Lituanien
-Luxembourgeois
-Macédonien
-Malais
-Malayalam
-Maltais
-Maori
-Marathi
-Équations mathématiques
-Mongol
-Népalais
-Norvégien
-Occitan
-Oriya
-Panjabi
-Pashto
-Persan
-Polonais
-Portugais
-Quechua
-Roumain / Moldave
-Russe
-Sanskrit
-Gaélique écossais
-Serbe (Latin)
-Slovaque
-Slovène
-Sindhi
-Cingalais
-Espagnol
-Sundanais
-Swahili
-Suédois
-Syriaque
-Tajik
-Tamil
-Tatar
-Telugu
-Thaï
-Tibetan
-Tigrinya
-Tongan
-Turc
-Ouïgour
-Ukrainien
-Ourdou
-Ouzbek (Latin)
-Vietnamien
-Gallois
-Frison Ouest
-Yiddish
-Yoruba
+* Afrikaans
+* Albanais
+* Amharique
+* Arabe
+* Arménien
+* Assamais
+* Azerbaïdjanais (Latin)
+* Basque
+* Biélorusse
+* Bengali
+* Bosniaque
+* Breton
+* Bulgare
+* Burmais
+* Catalan / Valence
+* Cébouano
+* Cherokee
+* Chinois simplifié
+* Chinois traditionnel
+* Corse
+* Croate
+* Tchèque
+* Danois
+* Allemand
+* Dhivehi
+* Néerlandais (Flamand)
+* Dzongkha
+* Anglais
+* Esperanto
+* Estonien
+* Féroïen
+* Philippin
+* Finnois
+* Français
+* Galicien
+* Géorgien
+* Grec
+* Gujarati
+* Haïtien
+* Hébreu
+* Hindi
+* Hongrois
+* Islandais
+* Indonésien
+* Inuktitut
+* Irlandais
+* Italien
+* Javanais
+* Japonais
+* Kannada
+* Kazakh
+* Khmère (Central)
+* Kirghiz
+* Coréen
+* Kurde Kurmanji
+* Laotien
+* Latin
+* Letton
+* Lituanien
+* Luxembourgeois
+* Macédonien
+* Malais
+* Malayalam
+* Maltais
+* Maori
+* Marathi
+* Équations mathématiques
+* Mongol
+* Népalais
+* Norvégien
+* Occitan
+* Oriya
+* Panjabi
+* Pashto
+* Persan
+* Polonais
+* Portugais
+* Quechua
+* Roumain / Moldave
+* Russe
+* Sanskrit
+* Gaélique écossais
+* Serbe (Latin)
+* Slovaque
+* Slovène
+* Sindhi
+* Cingalais
+* Espagnol
+* Sundanais
+* Swahili
+* Suédois
+* Syriaque
+* Tajik
+* Tamil
+* Tatar
+* Telugu
+* Thaï
+* Tibetan
+* Tigrinya
+* Tongan
+* Turc
+* Ouïgour
+* Ukrainien
+* Ourdou
+* Ouzbek (Latin)
+* Vietnamien
+* Gallois
+* Frison Ouest
+* Yiddish
+* Yoruba
 
 
 ## Types d'images supportées
 
 Cette extension supporte les types de fichiers suivants:
-PDF
-jpg
-tif
-png
-bmp
-pnm
-pbm
-pgm
-jp2
-gif
-jfif
-jpeg
-tiff
-spix
-webp
+* PDF
+* jpg
+* tif
+* png
+* bmp
+* pnm
+* pbm
+* pgm
+* jp2
+* gif
+* jfif
+* jpeg
+* tiff
+* spix
+* webp
 
 
-[1]: https://github.com/ruifontes/tesseractOCR/releases/download/2022.07.13/tesseractOCR-2022.07.13.nvda-addon
+[1]: https://github.com/ruifontes/tesseractOCR/releases/download/2022.07.23/tesseractOCR-2022.07.23.nvda-addon
 
 ---
 
