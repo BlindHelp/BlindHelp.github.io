@@ -20,6 +20,14 @@ Cette liste de stations est une conversion de la base ["Radio-Browser.info"](htt
 
 Je pense que c'était des Russes et pour le thème de la guerre, ils ont disparu et ne fournit plus de mises à jour. :(    
 
+Cependant, pour les amis qui n'ont pas le programme RadioSure, je leur donne un lien de téléchargement plus bas via mon espace sur BlindHelp.github.io afin qu'ils puissent le télécharger en version portable (Concocter à partir de ma version instalable):    
+
+<https://blindhelp.github.io/RadioSure%20portable%20version%202.2.1042.0.zip>
+
+Une fois téléchargée  puis décompressée l'archive Zip appelé:    
+`RadioSure portable version 2.2.1042.0.zip`    
+Créez  préalablement un dossier appelé "RadioSure" et placez tout le contenu trouvé dans le fichier Zip téléchargé précédemment.    
+
 Avertissement: 💀  
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du Script VBS et l'utilisation du script VBS est à vos risques et périls. ☠  
 
@@ -48,7 +56,7 @@ Puis les fichiers suivants:
 
 ## Très important!
 
-Ces deux derniers fichiers nous les trouveront également si vous avez cloné le dépôt avec Git.    
+Ces deux derniers fichiers nous les trouveront également si vous avez cloné le dépôt avec Git:    
 `db-update.vbs`    
 `README.md`    
 
@@ -61,11 +69,12 @@ Les explications qui suivent pour la mise en place du script VBS sont pour les d
 Fermez le programme RadioSure, si vous l'utilisez avant de faire ces manipulations.    
 Ouvrez l'Emplacement du programme RadioSure, (sous Windows 10) le chemin est:    
 `"C:\Program Files (x86)\RadioSure"`    
+Et si vous avez la version portable, localisez le dossier RadioSure précédemment créé...    
 Placez ce script:    
 `db-update.vbs`    
 à la racine du dossier RadioSure, puis vous pouvez le lancer avec un ".bat", un raccourci ou le planificateur de tâches.    
 
-Dans notre exemple nous avons créé le fichier ".bat" comme nom:    
+Dans notre cas nous avons créé le fichier ".bat" comme nom:    
 `RB2RS-Database-Updater.bat`    
 Dans ce fichier, j'ai mis les trois lignes suivantes:    
 
@@ -100,9 +109,9 @@ OK
 Vous devez cliquer sur le bouton OK pour fermer cette boîte de dialogue.    
 Comme je ne suis pas programmeur, j'ignore Pourquoi ce message d'erreur est affiché, peut-être que le programme RadioSure ne peut pas être lancée à la fin du script VBS, Bien qu'il soit défini sur 1    
 `RadioSure = 0 "mettre 1 pour démarrer  RadioSure à la fin du script, sinon 0"`    
-Peut-être comme j'ai une version instalable et non une version portable de RadioSure cela se produit, et l'exécution du programme à partir d'un script VBS n'est pas autorisée par Windows...    
-Ou peut-être que c'est une autre chose... 😔    
-Merci d'avance à mes amis développeurs ou qui ont une connaissance en programmation de script VBS, de bien vouloir s'il vous plaît prendre part à une recherche d'une solution possible, mais pour une meilleure information, vous pouvez lire le fichier README.md en anglais qui traite dudit script VBS    
+J'ai essayé soit avec une version instalable et une version portable du programme RadioSure Et le message d'erreur apparaît dans les deux cas de figure.    
+Ou peut-être que cela se produit pour une autre raison inconnue par mes soins... 😔    
+Merci d'avance à mes amis développeurs ou qui ont une connaissance en programmation de script VBS, de bien vouloir s'il vous plaît m'aider à trouver une solution possible, mais pour une meilleure information, vous pouvez lire le fichier README.md en anglais qui traite dudit script VBS    
 Cependant, ne vous inquiétez pas mes amis, malgré ce message d'erreur, le script VBS remplit sa fonction de téléchargement et d'installation de la dernière liste "non officielle" des stations de radios pour RadioSure    
 Vous verrez cela  en allant au dossier:    
 `Stations`    
@@ -111,10 +120,10 @@ Ici, vous trouverez l'archiveZip appelé:
 Puis vous trouverez aussi le nouveau fichier rsd,  dans mon cas, celui-ci s'appelle:    
 `stations-2022-08-04.rsd`    
 Note: Ces deux fichiers sont créés lors de l'exécution du script VBS    
-Le script VBS supprime l'ancien fichier rsd lors de son exécution et  décompresse le fichier Latest_RB2RS.zip contenant le nouveau fichier rsd dans ce dossier.    
+Le script VBS supprime l'ancien fichier rsd lors de son exécution et  décompresse l'archive Latest_RB2RS.zip contenant le nouveau fichier rsd dans ce dossier.    
 Bien sûr, si vous avez modifié l'ancien fichier rsd, vous pouvez le copier /le coller ailleurs sur votre ordinateur afin de le sauvegarder, au cas où, cela ne coûte rien!    
 Une fois que vous avez fait cela, fermez le tout par Alt+F4!    
-Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau, et profiter des stations de radio qui ont été mises à jour à partir du script VBS! Enjoy! 😏    
+Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau si vous avez une version installée, ou à partir du fichier  exécutable de la version portable, si vous n'avez pas créé de raccourci sur le bureau afin de profiter des stations de radio qui ont été mises à jour à partir du script VBS! Enjoy! 😏    
 
 ## Télécharger l'archive latest.zip manuellement
 
@@ -131,6 +140,7 @@ Une fois que vous l'avez décompressé, vous obtiendrez le fichier rsd (selon la
 Fermez le programme RadioSure, si vous l'utilisez avant de faire ces manipulations.    
 Ouvrez l'Emplacement du programme RadioSure, (sous Windows 10) le chemin est:    
 `"C:\Program Files (x86)\RadioSure"`    
+Et si vous avez la version portable, localisez le dossier RadioSure précédemment créé...    
 Ensuite, ouvrez le dossier appelé:    
 `Stations`    
 Il est probable que vous ayez un ancien fichier rsd dans ledit dossier.    
@@ -140,7 +150,7 @@ Eh bien, comme il y avait des liens de certaines stations qui ne fonctionnaient 
 `stations-2022-08-04.rsd`    
 Bien sûr, si vous avez modifié l'ancien fichier rsd, vous pouvez le copier /le coller ailleurs sur votre ordinateur afin de le sauvegarder, au cas où, cela ne coûte rien!    
 Une fois que vous avez fait cela, fermez le tout par Alt+F4!    
-Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau, et profiter des stations de radio qui ont été mises à jour à partir de l'archive latest.zip! Enjoy! 😏    
+Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau si vous avez une version installée, ou à partir du fichier  exécutable de la version portable, si vous n'avez pas créé de raccourci sur le bureau afin de profiter des stations de radio qui ont été mises à jour à partir de l'archive latest.zip! Enjoy! 😏    
 
 Nous remercions encore @GHbasicuser pour le partage de son script VBS afin de télécharger et d'installer la dernière liste "non officielle" des stations de radios pour RadioSure! (handshake)    
 Voilà,    
