@@ -26,7 +26,7 @@ Cependant, pour les amis qui n'ont pas le programme RadioSure, je leur donne un 
 
 Une fois téléchargée  puis décompressée l'archive Zip appelé:    
 `RadioSure portable version 2.2.1042.0.zip`    
-Créez  préalablement un dossier appelé "RadioSure" et placez tout le contenu trouvé dans le fichier Zip téléchargé précédemment.    
+Créez  préalablement un dossier appelé "RadioSure" et placez tout le contenu trouvé dans l'archive Zip téléchargé précédemment.    
 
 Avertissement: 💀  
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation du Script VBS et l'utilisation du script VBS est à vos risques et périls. ☠  
@@ -69,7 +69,7 @@ Les explications qui suivent pour la mise en place du script VBS sont pour les d
 Fermez le programme RadioSure, si vous l'utilisez avant de faire ces manipulations.    
 Ouvrez l'Emplacement du programme RadioSure, (sous Windows 10) le chemin est:    
 `"C:\Program Files (x86)\RadioSure"`    
-Et si vous avez la version portable, localisez le dossier RadioSure précédemment créé...    
+Et si vous avez la version portable, localisez le dossier RadioSure précédemment créé sur votre ordinateur...    
 Placez ce script:    
 `db-update.vbs`    
 à la racine du dossier RadioSure, puis vous pouvez le lancer avec un ".bat", un raccourci ou le planificateur de tâches.    
@@ -115,7 +115,7 @@ Merci d'avance à mes amis développeurs ou qui ont une connaissance en programm
 Cependant, ne vous inquiétez pas mes amis, malgré ce message d'erreur, le script VBS remplit sa fonction de téléchargement et d'installation de la dernière liste "non officielle" des stations de radios pour RadioSure    
 Vous verrez cela  en allant au dossier:    
 `Stations`    
-Ici, vous trouverez l'archiveZip appelé:    
+Ici, vous trouverez l'archive Zip appelé:    
 `Latest_RB2RS.zip`    
 Puis vous trouverez aussi le nouveau fichier rsd,  dans mon cas, celui-ci s'appelle:    
 `stations-2022-08-04.rsd`    
@@ -127,20 +127,20 @@ Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se tr
 
 ## Télécharger l'archive latest.zip manuellement
 
-Si vous n'êtes pas programmeur ou ne comprenez pas comment faire fonctionner le script VBS, vous avez la possibilité de télécharger le dernier fichier Zip [en cliquant ici](http://82.66.77.189:8080/latest.zip)
+Si vous n'êtes pas programmeur ou ne comprenez pas comment faire fonctionner le script VBS, vous avez la possibilité de télécharger le dernier archive Zip [en cliquant ici](http://82.66.77.189:8080/latest.zip)
 
-En cliquant toujours sur ce lien, vous obtiendrez le dernier fichier zip contenant la dernière mise à jour des stations de radio pour le programme RadioSure, pour cela, suivez les instructions ci-dessous pour une bonne utilisation.    
+En cliquant toujours sur le lien ci-dessus, vous obtiendrez le dernier archive Zip contenant la dernière mise à jour des stations de radio pour le programme RadioSure, pour cela, suivez les instructions ci-dessous pour une bonne utilisation.    
 
 ## Mise en place de la dernière mise à jour des stations de radio manuellement dans le programme RadioSure à partir de l'archive latest.zip by BlindHelp
 
-Une fois téléchargé le fichier appelé:    
+Une fois téléchargé l'archive Zip appelé:    
 `latest.zip`    
 Une fois que vous l'avez décompressé, vous obtiendrez le fichier rsd (selon la dernière date de cette mise à jour disponible), par exemple, dans mon cas j'obtiens le fichier rsd appelé:    
 `stations-2022-08-04.rsd`    
 Fermez le programme RadioSure, si vous l'utilisez avant de faire ces manipulations.    
 Ouvrez l'Emplacement du programme RadioSure, (sous Windows 10) le chemin est:    
 `"C:\Program Files (x86)\RadioSure"`    
-Et si vous avez la version portable, localisez le dossier RadioSure précédemment créé...    
+Et si vous avez la version portable, localisez le dossier RadioSure précédemment créé sur votre ordinateur...    
 Ensuite, ouvrez le dossier appelé:    
 `Stations`    
 Il est probable que vous ayez un ancien fichier rsd dans ledit dossier.    
