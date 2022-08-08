@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 4 Août 2022</footer>
+<footer>Publié le Jeudi 4 Août 2022 - Dernière mise à jour le Lundi 8 Août 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je  vous apporte un script VBS afin de télécharger et d'installer la dernière liste "non officielle" des stations de radios pour RadioSure! Merci à @GHbasicuser (aka PhiliWeb) (handshake)    
@@ -44,6 +44,8 @@ Si vous souhaitez cloner le dépôt, vous pouvez utiliser la commande ci-dessous
 
 Si vous souhaitez télécharger le dépôt, vous pouvez télécharger l'archive Zip [en cliquant ici](https://github.com/GHbasicuser/RB2RS-Database-Updater/archive/refs/heads/main.zip)
 
+Il me semble que la personne qui a réalisé ce script VBS est francophone, car les commentaires énumérés dans le code du dit script VBS sont en français.    
+
 ## Mise en place de la dernière mise à jour des stations de radio manuellement dans le programme RadioSure à partir de l'archive B2RS-Database-Updater-main.zip by BlindHelp
 
 Une fois téléchargée  puis décompressée l'archive Zip appelé:    
@@ -74,7 +76,9 @@ Placez ce script:
 `db-update.vbs`    
 à la racine du dossier RadioSure, puis vous pouvez le lancer avec un ".bat", un raccourci ou le planificateur de tâches.    
 
-Dans notre cas nous avons créé le fichier ".bat" comme nom:    
+## Comment le lancer à partir d'un fichier ".bat"?
+
+Si nous voulons lancer le script VBS à partir d'un fichier ".bat", nous devons créer préalablement le fichier utilisant un éditeur de texte tel que le Bloc-notes de Windows puis l'enregistrer comme nom:    
 `RB2RS-Database-Updater.bat`    
 Dans ce fichier, j'ai mis les trois lignes suivantes:    
 
@@ -88,7 +92,22 @@ Une fois que vous avez créé le fichier appelé:
 `RB2RS-Database-Updater.bat`    
 puis l'avoir mis à la racine du dossier du programme au même niveau que le script VBS appelé:    
 `db-update.vbs`    
-Lorsque nous cliquons sur ce fichier ".bat", nous aurons un message d'erreur comme sui:    
+Si vous avez une version instalable ou portable de RadioSure, vous devez également localiser le fichier appelé:    
+`RadioSure.xml`    
+Note: le fichier RadioSure.xml dans une version instalable se trouve dans le chemin:    
+`C:\Users\Nom d'utilisateur\AppData\Local\RadioSure\RadioSure.xml`    
+Ce fichier doit être copier et coller au même niveau que les fichiers précédents, c'est-à-dire à la racine du dossier du programme.     
+Une fois cela fait, nous pouvons cliquer sur le fichier appelé:    
+`RB2RS-Database-Updater.bat`    
+La console Windows s'ouvre nous donnant le suivant message en anglais:    
+`C:\WINDOWS\system32\cmd.exe terminal ligne 1 vide`    
+`RB2RS-Database-Updater (db-update.vbs) dialogue RadioSure - The Radio Stations database has been updated.`    
+`OK`    
+Vous devez cliquer sur le bouton OK pour fermer cette boîte de dialogue.    
+
+## Très important!
+
+Si nous n'avons pas copié le fichier RadioSure.xml comme indiqué ci-dessus lorsque nous cliquons sur ce fichier ".bat", nous aurons un message d'erreur comme sui:    
 
 ```
 ---------------------------
@@ -107,13 +126,8 @@ OK
 ```
 
 Vous devez cliquer sur le bouton OK pour fermer cette boîte de dialogue.    
-Comme je ne suis pas programmeur, j'ignore Pourquoi ce message d'erreur est affiché, peut-être que le programme RadioSure ne peut pas être lancée à la fin du script VBS, Bien qu'il soit défini sur 1    
-`RadioSure = 0 "mettre 1 pour démarrer  RadioSure à la fin du script, sinon 0"`    
-J'ai essayé soit avec une version instalable et une version portable du programme RadioSure Et le message d'erreur apparaît dans les deux cas de figure.    
-Ou peut-être que cela se produit pour une autre raison inconnue par mes soins... 😔    
-Merci d'avance à mes amis développeurs ou qui ont une connaissance en programmation de script VBS, de bien vouloir s'il vous plaît m'aider à trouver une solution possible, mais pour une meilleure information, vous pouvez lire le fichier README.md en anglais qui traite dudit script VBS    
 Cependant, ne vous inquiétez pas mes amis, malgré ce message d'erreur, le script VBS remplit sa fonction de téléchargement et d'installation de la dernière liste "non officielle" des stations de radios pour RadioSure    
-Vous verrez cela  en allant au dossier:    
+Vous verrez les nouvelles modifications faites par le script VBS en allant au dossier:    
 `Stations`    
 Ici, vous trouverez l'archive Zip appelé:    
 `Latest_RB2RS.zip`    
@@ -122,8 +136,18 @@ Puis vous trouverez aussi le nouveau fichier rsd,  dans mon cas, celui-ci s'appe
 Note: Ces deux fichiers sont créés lors de l'exécution du script VBS    
 Le script VBS supprime l'ancien fichier rsd lors de son exécution et  décompresse l'archive Latest_RB2RS.zip contenant le nouveau fichier rsd dans ce dossier.    
 Bien sûr, si vous avez modifié l'ancien fichier rsd, vous pouvez le copier /le coller ailleurs sur votre ordinateur afin de le sauvegarder, au cas où, cela ne coûte rien!    
+De toute façon nous pouvons contourner ce message d'erreur au prochain lancement du script VBS en copiant le fichier RadioSure.xml comme indiqué ci-dessus. Vous devez attendre au moins plus de 12 heures pour effectuer à nouveau l'action.    
 Une fois que vous avez fait cela, fermez le tout par Alt+F4!    
 Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau si vous avez une version installée, ou à partir du fichier  exécutable de la version portable, si vous n'avez pas créé de raccourci sur le bureau afin de profiter des stations de radio qui ont été mises à jour à partir du script VBS! Enjoy! 😏    
+
+# Notes by BlindHelp
+
+Eh bien, la façon de lancer le script VBS à travers d'un raccourci ou à partir du planificateur de tâches il n'est pas très clair en tout cas pour moi 😕, c'est pourquoi je demande à mes amis développeurs ou qui ont une connaissance en programmation de script VBS, de bien vouloir s'il vous plaît m'aider à compléter ces deux parties manquantes Et je les mettrai dans ce post avec leur crédit respectif, mais pour une meilleure information, vous pouvez lire le fichier README.md en anglais qui traite dudit script VBS, j'ai vu aussi que dans le code du script VBS, il y avait la possibilité de lancer le programme RadioSure uune fois le script terminé, mais je ne comprends pas comment le faire. 😔    
+Peut-être que le programme RadioSure ne peut pas être lancée à la fin du script VBS, Bien qu'il soit défini sur 1    
+`RadioSure = 0 "mettre 1 pour démarrer  RadioSure à la fin du script, sinon 0"`    
+J'ai essayé soit avec une version instalable et une version portable du programme RadioSure, le script VBS télécharge et installe la dernière liste "non officielle" des stations de radios pour RadioSure, mais il ne lance pas le programme RadioSure lorsque le script VBS se termine.    
+Tous les conseils sont les bienvenues! 😃    
+Merci d'avance à mes amis développeurs et les autres pour votre aide, vous pouvez me contacter par e-mail, merci encore pour votre future collaboration dans cet article. (handshake)    
 
 ## Télécharger l'archive latest.zip manuellement
 
