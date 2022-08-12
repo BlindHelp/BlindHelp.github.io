@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 2 Juin 2022 - Dernière mise à jour le Samedi 23 Juillet 2022</footer>
+<footer>Publié le Jeudi 2 Juin 2022 - Dernière mise à jour le Lundi 8 Août 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -17,7 +17,7 @@ Vous pouvez voir cet article dédié à cette extension en cliquant [ici](https:
 # Informations sur l'extension tesseractOCR #
 
 * Auteurs: <span lang="pt">Rui Fontes, Ângelo Abrantes, Abel Passos do Nascimento Jr</span>
-* Version actuelle: 2022.07.13
+* Version actuelle: 2022.08
 * Compatibilité avec NVDA: de 2019.3 à 2022.1
 * Langues supportées: Arabe, Anglais, Espagnol, Français, Portugais du Portugal / Brésil, Russe, Turc et Ukrainien
 * [Télécharger](https://nvda.es/files/get.php?file=tesseract)
@@ -27,7 +27,7 @@ Vous pouvez voir cet article dédié à cette extension en cliquant [ici](https:
 
 
 * Auteurs: Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com> et Abel Passos do Nascimento Jr. <abel.passos@gmail.com>
-* Mis à jour le 23/07/2022
+* Mis à jour le 3/08/2022
 * Télécharger [version stable][1]
 * Compatibilité NVDA: version 2019.3 et ultérieure
 
