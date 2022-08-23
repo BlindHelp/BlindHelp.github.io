@@ -207,7 +207,7 @@ Ouvrez l'Emplacement du programme RadioSure, pour une version instalable (sous W
 Et si vous avez la véritable  version portable, de RadioSure et non la version pseudo  portable 1042 créée à partir du dossier RadioSure de  la version instalable 1042 comme c'est mon cas, le chemin de La véritable version portable (sous Windows 10) est:    
 `"C:\Users\VotreNomUtilisateur\AppData\Local\RadioSure"`    
 Et si vous avez téléchargé la version pseudo portable 1042 localisez le dossier RadioSure précédemment créé sur votre ordinateur...    
-J'ai oublié de vous dire que la version 1042 (pseudo portable) crée un dossier RadioSure dans AppData\Local et y place le fichier RadioSure.xml.    
+J'ai oublié de vous dire que la version pseudo portable 1042 crée un dossier RadioSure dans AppData\Local et y place le fichier RadioSure.xml.    
 Eh bien, je recommande de mettre la version pseudo portable à la racine du  disque "C:\" (facultatif)    
 Placez ce script:    
 `db-update.vbs`    
@@ -236,10 +236,10 @@ Le fichier RadioSure.xml dans une version instalable ou dans une véritable vers
 `C:\Users\VotreNomUtilisateur\AppData\Local\RadioSure\RadioSure.xml`    
 La version pseudo portable 1042 crée un dossier radioSure dans AppData\Local et y place le fichier RadioSure.xml.    
 Ce fichier doit être copier et coller au même niveau que les fichiers précédents, c'est-à-dire à la racine du dossier du programme RadioSure.     
-Si vous avez une véritable version portable de RadioSure et non la version pseudo  portable 1042 créée à partir du dossier RadioSure de  la version instalable 1042 comme c'est mon cas, le fichier RadioSure.xml il n'est pas nécessaire de le chercher ailleurs, puisque ce dossier le contient.    
+Si vous avez une véritable version portable de RadioSure et non la version pseudo portable 1042 créée à partir du dossier RadioSure de  la version instalable 1042 comme c'est mon cas, le fichier RadioSure.xml il n'est pas nécessaire de le chercher ailleurs, puisque ce dossier le contient.    
 Le script VBS essaie de modifier le fichier RadioSure.xml pour y mettre à jour la dernière date de la mise à jour des stations.    
 À savoir que le fichier RadioSure.xml contient les paramètres que nous avons configurés dans le programme RadioSure, Comme les favoris que nous avons ajoutés, la langue et les autres changements que nous avons modifiés dans les options du programme.    
-A l'ouverture du logiciel pour la première fois une radio est automatiquement diffusée, la langue du programme RadioSure sera en anglais, et aucun favori n'est présent.    
+Au premier démarrage de RadioSure une radio est automatiquement diffusée, la langue du programme RadioSure sera en anglais par défaut, et aucun favori n'est présent.    
 Pour changer la langue, il faut faire menu contextuel et choisir:    
 `Language sous-menu`    
 Faire une flèche droite et choisir:    
@@ -305,7 +305,7 @@ en sélectionnant les deux fichiers appelés:
 Note: La date contenue dans le nom du fichier .rsd peut varier en fonction de la date de ça mise à jour.    
 Une fois ces deux fichiers supprimés, exécutez le script VBS comme expliqué ci-dessus pour recréer ces fichiers.
 Une fois que vous avez fait cela, fermez le tout par Alt+F4!    
-Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau si vous avez une version installée, ou à partir du fichier  exécutable de la version pseudo   portable 1042 ou d'une véritable version portable, si vous n'avez pas créé de raccourci sur le bureau afin de profiter des stations de radio qui ont été mises à jour à partir du script VBS! Enjoy! 😏    
+Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau si vous avez une version installée, ou à partir du fichier  exécutable de la version pseudo portable 1042 ou d'une véritable version portable, si vous n'avez pas créé de raccourci sur le bureau afin de profiter des stations de radio qui ont été mises à jour à partir du script VBS! Enjoy! 😏    
 La cerise sur le gâteau!    
 J'ai essayé en faisant une petite modification du script VBS comme expliqué ci-dessous, une fois mis soit dans la version instalable, dans la véritable version portable ou dans la version pseudo portable 1042 du programme RadioSure, le script VBS télécharge et installe la dernière liste "non officielle" des stations de radios pour RadioSure, puis grâce à cette petite modification lance le programme RadioSure lorsque le script VBS se termine.    
 Pour lancer RadioSure après la mise à jour, il faut modifier la ligne:    
@@ -340,7 +340,7 @@ Une fois que vous l'avez décompressé, vous obtiendrez le fichier rsd (selon la
 Fermez le programme RadioSure, si vous l'utilisez avant de faire ces manipulations.    
 Ouvrez l'Emplacement du programme RadioSure, dans une version instalable (sous Windows 10) le chemin est:    
 `"C:\Program Files (x86)\RadioSure"`    
-Et si vous avez la véritable  version portable, de RadioSure et non la version pseudo  portable 1042 créée à partir du dossier RadioSure de  la version instalable 1042 comme c'est mon cas, le chemin de La véritable version portable (sous Windows 10) est:    
+Et si vous avez la véritable  version portable, de RadioSure et non la version pseudo portable 1042 créée à partir du dossier RadioSure de  la version instalable 1042 comme c'est mon cas, le chemin de La véritable version portable (sous Windows 10) est:    
 `"C:\Users\VotreNomUtilisateur\AppData\Local\RadioSure"`    
 Et si vous avez la version pseudo portable 1042, localisez le dossier RadioSure précédemment créé sur votre ordinateur...    
 Eh bien, je recommande de mettre la version pseudo portable à la racine du  disque "C:\" (facultatif)    
@@ -353,7 +353,7 @@ Eh bien, comme il y avait des liens de certaines stations qui ne fonctionnaient 
 `stations-2022-08-04.rsd`    
 Bien sûr, si vous avez modifié l'ancien fichier rsd, vous pouvez le copier /le coller ailleurs sur votre ordinateur afin de le sauvegarder, au cas où, cela ne coûte rien!    
 Une fois que vous avez fait cela, fermez le tout par Alt+F4!    
-Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau si vous avez une version installée, ou à partir du fichier  exécutable de la version pseudo   portable 1042 ou d'une véritable version portable, si vous n'avez pas créé de raccourci sur le bureau afin de profiter des stations de radio qui ont été mises à jour à partir de l'archive latest.zip! Enjoy! 😏    
+Vous pouvez maintenant lancer le programme RadioSure à partir de l'icône se trouvant sur le bureau si vous avez une version installée, ou à partir du fichier  exécutable de la version pseudo portable 1042 ou d'une véritable version portable, si vous n'avez pas créé de raccourci sur le bureau afin de profiter des stations de radio qui ont été mises à jour à partir de l'archive latest.zip! Enjoy! 😏    
 
 ## Remerciements
 
