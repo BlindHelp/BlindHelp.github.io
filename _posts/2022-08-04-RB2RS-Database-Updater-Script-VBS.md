@@ -215,6 +215,11 @@ Placez ce script:
 
 ## Comment le lancer à partir d'un fichier ".bat"?
 
+Un fichier "bat" est un format de fichier texte spécial avec une extension ".bat" qui exécute une série de commandes de l'invite de commande dans un ordre que vous spécifiez. Vous pouvez créer un fichier ".bat" qui automatise tout ce que vous pouvez faire dans une invite de commande.    
+Dans notre cas, il sera pour télécharger et installer la dernière liste "non officielle" des stations de radios pour RadioSure en utilisant ce script VBS    
+
+Pour créer un fichier "bat" sous Windows 10, il suffit de sélectionner le menu Démarrer, de taper Notepad, et de sélectionner l'application Notepad pour l'ouvrir. A l'intérieur de Notepad, vous devrez copier et coller Les trois lignes que vous trouverez ci-dessous dans le Bloc-notes.    
+
 Si nous voulons lancer le script VBS à partir d'un fichier ".bat", nous devons créer préalablement le fichier utilisant un éditeur de texte tel que le Bloc-notes de Windows puis l'enregistrer comme nom:    
 `RB2RS-Database-Updater.bat`    
 Dans ce fichier, j'ai mis les trois lignes suivantes:    
@@ -224,6 +229,9 @@ Dans ce fichier, j'ai mis les trois lignes suivantes:
 WScript.exe db-update.vbs
 exit
 ```
+
+Enregistrez le fichier dans un endroit de votre PC facile à trouver. De nombreuses personnes enregistrent leurs fichiers "bat" dans C:\temp ou dans un simple dossier situé à la racine C : niveau du lecteur.    
+Il est important de changer le menu déroulant Enregistrer sous pour Tous les fichiers. Ensuite, assurez-vous d'ajouter ".bat" à la fin du nom du fichier.    
 
 Une fois que vous avez créé le fichier appelé:    
 `RB2RS-Database-Updater.bat`    
