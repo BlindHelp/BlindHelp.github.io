@@ -220,6 +220,9 @@ Dans notre cas, il sera pour télécharger et installer la dernière liste "non 
 
 Pour créer un fichier "bat" sous Windows 10, il suffit de sélectionner le menu Démarrer, de taper Notepad, et de sélectionner l'application Notepad pour l'ouvrir. A l'intérieur de Notepad, vous devrez copier et coller Les trois lignes que vous trouverez ci-dessous dans le Bloc-notes.    
 
+Vous pouvez également pressez Windows+R et dans la boîte de dialogue exécutez, collez la ligne suivante avant d'appuyer sur entrée    
+`%windir%\system32\notepad.exe`    
+
 Si nous voulons lancer le script VBS à partir d'un fichier ".bat", nous devons créer préalablement le fichier utilisant un éditeur de texte tel que le Bloc-notes de Windows puis l'enregistrer comme nom:    
 `RB2RS-Database-Updater.bat`    
 Dans ce fichier, j'ai mis les trois lignes suivantes:    
