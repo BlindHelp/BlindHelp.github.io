@@ -130,9 +130,7 @@ Si vous souhaitez cloner le dépôt, vous pouvez utiliser la commande ci-dessous
 
 Si vous souhaitez télécharger le dépôt, vous pouvez télécharger l'archive Zip [en cliquant ici](https://github.com/GHbasicuser/RB2RS-Database-Updater/archive/refs/heads/main.zip)
 
-</div>
-<footer>Très important! S'il vous plait, donnez un coup d'👁 de temps en temps au dépôt sur GitHub pour avoir la dernière mise à jour du script VBS Et donc avoir le maximum de performances du script VBS afin de télécharger et d'installer la dernière liste "non officielle" des stations de radios pour RadioSure Et donc évitez donc certaines erreurs! Dernière mise à jour du script VBS dans le dépôt de l'auteur sur GitHub: Le script db-update.vbs v°1.07 a été mis à jour par GHbasicuser (aka PhiliWeb)  le 21/08/2022, si vous avez l'ancien script  db-update.vbs v°1.06 mis à jour  par GHbasicuser (aka PhiliWeb) du 10/05/2022, vous pouvez télécharger la nouvelle version car elle corrige certains erreurs!</footer>
-</div>
+Très important! S'il vous plait, donnez un coup d'👁 de temps en temps au dépôt sur GitHub pour avoir la dernière mise à jour du script VBS Et donc avoir le maximum de performances du script VBS afin de télécharger et d'installer la dernière liste "non officielle" des stations de radios pour RadioSure Et donc évitez donc certaines erreurs! Dernière mise à jour du script VBS dans le dépôt de l'auteur sur GitHub: Le script db-update.vbs v°1.07 a été mis à jour par GHbasicuser (aka PhiliWeb)  le 21/08/2022, si vous avez l'ancien script  db-update.vbs v°1.06 mis à jour  par GHbasicuser (aka PhiliWeb) du 10/05/2022, vous pouvez télécharger la nouvelle version car elle corrige certains erreurs!    
 
 Il me semble que la personne qui a réalisé ce script VBS est francophone, car les commentaires énumérés dans le code du dit script VBS sont en français. Peut-être qu'il existe un moyen de le contacter pour demander plus d'explications, à propos de son script VBS via son dépôt sur [GitHub.](https://github.com/GHbasicuser/RB2RS-Database-Updater)    
 
