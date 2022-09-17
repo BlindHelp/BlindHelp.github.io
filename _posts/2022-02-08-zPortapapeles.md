@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 8 Février 2022 - Dernière mise à jour le Lundi 11 Avril 2022</footer>
+<footer>Publié le Mardi 8 Février 2022 - Dernière mise à jour le Dimanche 11 Septembre 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé zPortapapeles créée par le même auteur de l'extension [zEmoticonos](https://blindhelp.github.io/zEmoticonos/) Cette extension est un utilitaires pour le presse-papiers, annonce des touches et l'historique.    
@@ -14,8 +14,8 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 
 # Informations sur l'extension zPortapapeles: #
 
-* Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.4.1
+* Auteur: <span lang="es">Héctor J. Benítez Corredera</span> idée originale Peter Vagner
+* Version actuelle: 0.4.2
 * Compatibilité avec NVDA: de 2021.2 à 2022.1
 * Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Brésil, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=zPortapapeles)
