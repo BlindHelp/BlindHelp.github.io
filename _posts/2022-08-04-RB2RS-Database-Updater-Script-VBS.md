@@ -475,9 +475,9 @@ Si le programme RadioSure n'est pas en cours d'exécution à ce moment-là et qu
 
 ## Télécharger l'archive latest.zip manuellement
 
-Si vous n'êtes pas programmeur ou ne comprenez pas comment faire fonctionner le script VBS, vous avez la possibilité de télécharger le dernier archive Zip [en cliquant ici](http://rb2rs.freemyip.com/latest.zip)
-
-En cliquant toujours sur le lien ci-dessus, vous obtiendrez le dernier archive Zip contenant la dernière mise à jour des stations de radio pour le programme RadioSure, pour cela, suivez les instructions ci-dessous pour une bonne utilisation.    
+Si vous n'êtes pas programmeur ou ne comprenez pas comment faire fonctionner le script VBS, vous avez la possibilité de télécharger le dernier archive Zip [en cliquant ici](http://rb2rs.freemyip.com/latest.zip)    
+Si non, [en cliquant parlà](http://82.66.77.189/latest.zip)    
+En cliquant toujours sur l'un des deux liens ci-dessus, vous obtiendrez le dernier archive Zip contenant la dernière mise à jour des stations de radio pour le programme RadioSure, pour cela, suivez les instructions ci-dessous pour une bonne utilisation.    
 
 ## Mise en place de la dernière mise à jour des stations de radio manuellement dans le programme RadioSure à partir de l'archive latest.zip
 
