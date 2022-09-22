@@ -43,7 +43,7 @@ Ce message vous invitera à attendre la validation de votre inscription par le m
 <br>
 <a href="mailto:thunderbird-dv-request@freelists.org?subject=unset digest2">Revenir aux mails individuels à partir du mode digest</a>
 <br>
-<a href="mailto:thunderbird-dv-request@freelists.org?subject=set vacation">Activer le mode vacances : suspend la réception des mails du groupe tant que ce mode est actif. A votre retour, vous pourrez consulter les archives du groupe ou le flux RSS pour lire les mails que vous avez manqués en votre absence.</a>
+<a href="mailto:thunderbird-dv-request@freelists.org?subject=set vacation">Activer le mode vacances</a> : suspend la réception des mails du groupe tant que ce mode est actif. A votre retour, vous pourrez consulter les archives du groupe ou le flux RSS pour lire les mails que vous avez manqués en votre absence.
 <br>
 <a href="mailto:thunderbird-dv-request@freelists.org?subject=unset vacation">Désactiver le mode vacances</a>
 <br>
@@ -56,7 +56,12 @@ Bien cordialement, soyez les bienvenus,
 
 Pierre-Louis    
 
+Extension Thunderbird+ pour NVDA, présentation et documentation:    
+
+<http://rptools.org/thunderbird-plus/>
+
 ---
+
 Grand merci pour leur excellent travail à Yannick alias philaos pour la nouvelle extension chichi pour Thunderbird, à Pierre-Louis et Abdel pour l'extension Thunderbird+ pour NVDA et à Daniel Poiraud pour le script JAWS pour Thunderbird! (handshake)    
 J'espère que vous l'apprécierez cette nouvelle liste dédié à Thunderbird pour nous les miro  et que ceci  soit très utile pour vous!    
 À la prochaine sur un autre post!     
