@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 18 Août 2020 - Dernière mise à jour le Vendredi 26 Août 2022</footer>
+<footer>Publié le Mardi 18 Août 2020 - Dernière mise à jour le Jeudi 29 Septembre 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici l'empaqueteuse d'extensions pour NVDA, appelé maintenant Utilitaires pour les extensions de NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -17,9 +17,9 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension  Empaqueteuse d'extensions (addonPackager), appelé maintenant Utilitaires pour les extensions de NVDA: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 1.0.6 et plus    
+* Version actuelle: 1.2.1 et plus    
 * Compatibilité avec NVDA: de 2021.1 à 2022.1    
-* Langues: Allemand, Anglais, Arabe, Espagnol, Français, Italien, Russe, Turc et Ukrainien    
+* Langues: Allemand, Anglais, Arabe, Espagnol, Français, Italien, Portugais, Russe, Turc et Ukrainien    
 * [Télécharger](https://nvda.es/files/get.php?file=addonpackager)    
 * [Voir code source sur GitHub](https://github.com/hxebolax/Add-on-packer)    
 
@@ -251,9 +251,12 @@ Si quelqu'un souhaite collaborer avec les traductions, il peut le faire via le d
 * Arabe: Wafiq Taher
 * Allemand: Moritz Wolfart
 * Russe: Valentin Kupriyanov (communauté russe NVDA.RU)
+* Italien: Leonardo Marenda
+* Ukrainien: Vova Mobile
 
 # Journal des changements.
 ## Informations sur les mises à jour:
+
 Cette extension suivra la route de mise à jour suivante:
 
 Seules les versions du type majeure.mineure (par exemple v3.1) sont recensées dans cet historique.
@@ -265,6 +268,57 @@ Les modifications de l'extension seront reflétées dans cette section expliquan
 Le document principal ne sera pas modifié étant une orientation pour l'utilisateur.
 
 L'utilisateur est responsable de la révision de cette section pour être informé des modifications.
+
+## Version 1.2.
+
+* Des erreurs graves ont été corrigés dans la sauvegarde.
+
+## Version 1.1.
+
+* Des erreurs ont été corrigés.
+
+* Ajout de la possibilité de faire et de restaurer des sauvegardes.
+
+Maintenant, nous aurons une nouvelle section appelée Faire / restaurer des sauvegardes.
+
+Cette section affichera dans une liste les options que nous pouvons faire lors d'une sauvegarde.
+
+Les options dans cette version qui peuvent être enregistrées dans une sauvegarde  sont:
+
+* Répertoire Dictionnaires (\speechDicts)
+* Répertoire Profils (\profiles)
+* Répertoire Bloc-notes du Développeur (\scratchpad)
+* Fichier de configuration déclencheurs de profils (profileTriggers.ini)
+* Fichier de configuration gestes de commandes (gestures.ini)
+* Fichier de configuration NVDA (nvda.ini)
+
+Dans la liste s'affichera uniquement les éléments qui sont présents dans notre copie de NVDA ainsi que les répertoires qui ont du contenu.
+
+Si, par exemple, le Répertoire Profils est vide ne laissera pas faire une sauvegarde.
+
+Nous devrons sélectionner au moins un élément de la liste pour pouvoir faire la sauvegarde.
+
+Si nous tabulons, nous trouverons deux boutons:
+
+* Créer une sauvegarde
+
+Si nous appuyons sur ce bouton, une fenêtre classique d'enregistrement de Windows s'ouvrira en disant que nous mettions le nom de notre sauvegarde et où nous voulons l'enregistrer.
+
+Lorsque nous appuyons sur Enregistrer, la sauvegarde commencera et dans la zone de texte en lecture seule de l'état nous dira le résultat  si tout s'est bien passé ou lorsque des erreurs se produise.
+
+* Restaurer une sauvegarde
+
+Lorsque nous appuyons sur ce bouton, une fenêtre classique de Windows s'ouvrira pour ouvrir un fichier de sauvegarde, nous devrons rechercher où  nous avons enregistré la copie et appuyer sur Ouvrir.
+
+Une fois le fichier ouvert, une fenêtre sera affichée avec le contenu de la sauvegarde, dans cette fenêtre, une liste apparaîtra pour sélectionner les éléments que nous voulons restaurer.
+
+Lorsque nous souhaitons appuyer sur Restaurer et dans la zone de texte en lecture seule de l'état nous informera si la restauration a réussi ou qu'il y a un problème.
+
+MISE EN GARDE:
+
+Lorsque nous restaurons un élément de NVDA, il sera nécessaire de redémarrer NVDA afin que toute action que nous effectuons avec l'extension Utilitaires pour les extensions de NVDA sa conséquence sera de redémarrer NVDA soit si nous appuyons sur OK, Annuler, Fermer, Échap ou Alt+F4.
+
+Si une erreur se produit lors de la restauration de plusieurs éléments alors que l'un est restauré également NVDA redémarrera.
 
 ## Version 1.0.
 
