@@ -4,9 +4,9 @@
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <LINK REL="stylesheet" TYPE="text/css" HREF="styles.css">
-<TITLE>Guide de l'utilisateur de NVDA 2022.2</TITLE>
+<TITLE>Guide de l'utilisateur de NVDA 2022.3</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2022.2</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2022.3</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -2110,7 +2110,7 @@ NVDA fournit ses propres fonctionnalités additionnelles dans quelques applicati
 <H4>11.1.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</H4>
 <P>
 NVDA est capable d'annoncer automatiquement les en-têtes des lignes et des colonnes quand on navigue dans un tableau sous Microsoft Word.
-Ceci nécessite d'abord que l'option "Annoncer les titres des lignes et colonnes d'un tableau" soit activée dans la catégorie "Mise en Forme des Documents" qui se trouve dans le dialogue <A HREF="#NVDASettings">Paramètres</A> de NVDA.
+Ceci nécessite d'abord que l'option "En-têtes de ligne et de colonne" soit activée dans la catégorie "Mise en Forme des Documents" qui se trouve dans le dialogue <A HREF="#NVDASettings">Paramètres</A> de NVDA.
 Ensuite, NVDA doit savoir quelle ligne ou colonne contient les titres dans le tableau considéré.
 Après vous être placé sur la première cellule dans la colonne ou la ligne contenant les titres, utilisez l'une des commandes suivantes :
 </P>
@@ -2161,7 +2161,7 @@ Pour annoncer tout commentaire à la position actuelle du curseur, pressez NVDA+
 <H4>11.2.1. Lecture Automatique des En-têtes de Lignes et de Colonnes</H4>
 <P>
 NVDA est capable d'annoncer automatiquement les en-têtes des lignes et des colonnes quand on navigue dans un tableau dans une feuille de calcul Excel.
-Ceci nécessite d'abord que l'option "Annoncer les titres des lignes et colonnes d'un tableau" soit activée dans la catégorie "Mise en Forme des Documents" qui se trouve dans le dialogue <A HREF="#NVDASettings">Paramètres</A> de NVDA.
+Ceci nécessite d'abord que l'option "En-têtes de ligne et de colonne" soit activée dans la catégorie "Mise en Forme des Documents" qui se trouve dans le dialogue <A HREF="#NVDASettings">Paramètres</A> de NVDA.
 Ensuite, NVDA doit savoir quelle ligne ou colonne contient les titres dans le tableau considéré.
 Après vous être placé sur la première cellule dans la colonne ou la ligne contenant les titres, utilisez l'une des commandes suivantes :
 </P>
@@ -2406,9 +2406,10 @@ Quand vous êtes dans le tableau des livres ajoutés :
 NVDA fournit un support pour la console de commande de Windows utilisée par l'invite de commandes, PowerShell, et le sous-système Windows pour Linux.
 La console Windows est de taille fixe, typiquement beaucoup plus petite que le tampon contenant l'affichage.
 Quand du nouveau texte est écrit, le contenu défile vers le haut et le texte précédent n'est plus visible. 
-Le texte qui n'est pas visiblement affiché dans la fenêtre n'est pas accessible avec les commandes de revue de texte de NVDA.
+Sur les versions de Windows antérieures à Windows 11 22H2, le texte de la console qui n'est pas visiblement affiché dans la fenêtre n'est pas accessible avec les commandes de revue de texte de NVDA.
 Ainsi, il est nécessaire de faire défiler la fenêtre de la console pour lire le texte plus ancien.
-Les raccourcis clavier propres à Windows suivants peuvent être utiles pour <A HREF="#ReviewingText">revoir du texte</A> avec NVDA :
+Dans les versions plus récentes de la console et dans Windows Terminal, il est possible de consulter librement l'intégralité du tampon de texte sans avoir à faire défiler la fenêtre.
+Les raccourcis clavier propres à Windows suivants peuvent être utiles pour <A HREF="#ReviewingText">revoir du texte</A> avec NVDA dans les versions plus anciennes de la Console Windows :
 </P>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -2719,6 +2720,26 @@ En général, cette option devrait être activée.
 Cependant, certains synthétiseurs utilisant les API de parole Microsoft se comportent bizarrement quand cette option est activée.
 Si vous rencontrez des problèmes à l'épellation de caractères, essayez de désactiver cette option.
 </P>
+<A NAME="delayedCharacterDescriptions"></A>
+<H5>Descriptions différée des caractères lors du mouvement du curseur</H5>
+<DL>
+<DT>Défaut</DT><DD>
+  Désactivé
+<DT>Options</DT><DD>
+  Activé, Désactivé
+</DL>
+
+<P></P>
+<P>
+Lorsque ce paramètre est coché, NVDA dira la description du caractère lorsque vous vous déplacerez par caractère.
+</P>
+<P>
+Par exemple, lors de la revue d'une ligne par caractères, lorsque la lettre "b" est lue, NVDA dira "Bravo" après un délai d'une seconde.
+Cela peut être utile s'il est difficile de distinguer la prononciation des symboles ou pour les utilisateurs malentendants.
+</P>
+<P>
+La description différée du caractère sera annulée si un autre texte est prononcé pendant ce temps, ou si vous appuyez sur la touche <CODE>contrôle</CODE>.
+</P>
 <A NAME="SelectSynthesizer"></A>
 <H4>12.1.3. Choix du Synthétiseur (NVDA+contrôle+s)</H4>
 <P>
@@ -2949,6 +2970,27 @@ Cependant, si vous voulez lire le contexte (ex : que vous êtes dans une liste 
 </P>
 <P>
 Pour modifier l'option "Afficher le contexte du focus" de n'importe où, veuillez assigner un geste de commande personnalisé en utilisant <A HREF="#InputGestures">le dialogue Gestes de Commandes</A>.
+</P>
+<A NAME="BrailleSettingsInterruptSpeech"></A>
+<H5>Interrompre la parole pendant le défilement</H5>
+<DL>
+<DT>Défaut</DT><DD>
+  Activé
+<DT>Options</DT><DD>
+  Défaut (Activé), Activé, Désactivé
+</DL>
+
+<P></P>
+<P>
+Ce paramètre détermine si la parole doit être interrompue lorsque l'afficheur braille défile vers l'arrière/vers l'avant.
+Les commandes de ligne précédente/suivante interrompent toujours la parole.
+</P>
+<P>
+La parole en cours peut être une distraction lors de la lecture du braille.
+Pour cette raison, l'option est activée par défaut, interrompant la parole lors du défilement du braille.
+</P>
+<P>
+La désactivation de cette option permet d'entendre la parole tout en lisant simultanément le braille.
 </P>
 <A NAME="SelectBrailleDisplay"></A>
 <H4>12.1.6. Choisir l'Afficheur Braille (NVDA+contrôle+a)</H4>
@@ -3632,10 +3674,33 @@ Ce paramètre contient les valeurs suivantes :
 
 <P></P>
 <A NAME="AdvancedSettingsConsoleUIA"></A>
-<H5>Utilisez UI Automation pour accéder à la console Windows quand elle est disponible</H5>
+<H5>Prise en charge de la Console Windows</H5>
+<DL>
+<DT>Défaut</DT><DD>
+  Automatique
+<DT>Options</DT><DD>
+  Automatique, UIA si disponible, Héritée
+</DL>
+
+<P></P>
 <P>
-Si cette option est activée, NVDA utilisera une nouvelle version en cours de développement de son support de la console Windows qui tire parti des <A HREF="https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-update/">améliorations de l'accessibilité apportées par Microsoft</A> Cette fonctionnalité est très expérimentale et est encore incomplète, son utilisation n'est donc pas encore recommandée. Cependant, une fois terminée, il est prévu que cette nouvelle prise en charge deviendra la valeur par défaut, améliorant les performances et la stabilité de NVDA dans les consoles de commande Windows.
+Cette option sélectionne la façon dont NVDA interagit avec la console Windows utilisée par l'invite de commande, PowerShell et le sous-système Windows pour Linux.
+Cela n'affecte pas le terminal Windows moderne.
+Dans Windows 10 version 1709, Microsoft <A HREF="update/">a ajouté la prise en charge de son API UI Automation à la console https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-</A>, apportant des performances et une stabilité considérablement améliorées pour les lecteurs d'écran qui la prennent en charge.
+Dans les situations où l'automatisation de l'interface utilisateur n'est pas disponible ou connue pour entraîner une expérience utilisateur inférieure, la prise en charge de la console héritée de NVDA est disponible comme solution de secours.
+La liste déroulante de prise en charge de la console Windows comporte trois options :
 </P>
+<UL>
+<LI>Automatique : utilise UI Automation dans la version de la console Windows incluse avec Windows 11 version 22H2 et versions ultérieures.
+Cette option est recommandée et définie par défaut.
+<LI>UIA si disponible : utilise l'automatisation de l'interface utilisateur dans les consoles si disponible, même pour les versions avec des implémentations incomplètes ou boguées.
+Bien que cette fonctionnalité limitée puisse être utile (et même suffisante pour votre utilisation), l'utilisation de cette option est entièrement à vos risques et périls et aucune assistance ne sera fournie.
+<LI>Héritée : l'automatisation de l'interface utilisateur dans la console Windows sera complètement désactivée.
+L'héritage de secours sera toujours utilisé même dans les situations où UI Automation offrirait une expérience utilisateur supérieure.
+Par conséquent, le choix de cette option n'est pas recommandé, sauf si vous savez ce que vous faites.
+</UL>
+
+<P></P>
 <A NAME="ChromiumUIA"></A>
 <H5>Utiliser UIA avec Microsoft Edge et autres navigateurs basés sur Chromium quand c'est possible</H5>
 <P>
