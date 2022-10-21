@@ -177,10 +177,30 @@ Certaines personnes préfèrent désactiver la saisie automatique et l'ouvrir ma
 
 Remarque: VS Code a une prise en charge native pour les fichiers Markdown. Utile pour écrire les Guides de l'utilisateur de NVDA ou les différents manuels pour les extensions dudit lecteur d'écran par exemple.
 
+VS Code prend en charge automatiquement les fichiers Markdown qui ont l'extension .md.    
+Il est possible de basculer entre l'éditeur et l'aperçu : Ctrl+Maj+V ou côte à côte avec Ctrl+K V.    
+On peut aussi utiliser Commande Palette (Ctrl+Shift+P) :    
+Markdown: Open Preview to the Side.    
+On peut voir et naviguer dans la structure du document Markdown avec la vue Outline dans l'Explorer.    
+
+Pour convertir son fichier, il faut :    
+ouvrir Commande Palette ( Ctrl+Shift+P ) puis    
+Markdown PDF: Export (pdf) ou Markdown PDF: Export (html)    
+ou un clic droit dans le document ouvert    
+ou un clic droit dans la vue Aperçu (Preview).    
+
+Il est également utile de désactiver le mode formulaire lors de la prévisualisation d'un fichier Markdown.    
+
+Je suppose que les extensions correspondantes au langage Markdown doivent être installées.    
+Pas testé !    
+
+# Configuration des extensions pour le langage Markdown
+
+Pour configurer les extensions pour le langage Markdown, il faut aller dans Préférences ⟶ Settings Ctrl+, puis
+Extensions ⟶ Markdown ...Il est possible d'éditer ses options avec : Edit in settings.json.
+
 Voici plus bas le lien pour une documentation en anglais pour l'édition de Markdown avec Visual Studio Code :    
 [Markdown editing with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
-
-Il est également utile de désactiver le mode formulaire lors de la prévisualisation d'un fichier Markdown.
 
 # Prenez en main la palette de commandes
 
@@ -196,7 +216,7 @@ Vous y voyez la commande "Close All Editors", ou "Fermer tous les éditeurs". Vo
 
 Notez aussi que la palette de commandes vous montre également le raccourci clavier pour la commande que vous souhaitez exécuter !
 
-Un autre exemple de commande rapide : la création d'un nouveau fichier. Ouvrez la palette de commandes et tapez "New File" :
+Un autre exemple de commande rapide : la création d'un nouveau fichier. Ouvrez la palette de commandes et tapez "New File" :    
 `New File`    
 `Nouveau fichier`    
 Cela accomplit la même chose que lorsque vous cliquez sur le bouton dans l'explorateur de fichiers, mais sans utiliser votre souris. Tout geste qui requiert la souris nous ralentit : essayez de garder le plus possible les mains sur le clavier !
