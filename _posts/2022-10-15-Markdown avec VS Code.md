@@ -266,6 +266,7 @@ Ici, vous avez un extrait de la documentation de ladite extension :
 > Utilisation    
 > Vous pouvez remplacer la langue d'IU par défaut en définissant explicitement la langue d'affichage de VS Code à l'aide de la commande Configurer la langue d'affichage. Appuyez sur Ctrl+Maj+P pour faire apparaître la Palette de commandes, puis commencez à taper afficher pour filtrer le contenu et afficher la commande Configurer la langue d'affichage. Appuyez sur Entrée pour afficher une liste de langues installées en fonction des paramètres régionaux. Les paramètres régionaux actuels sont en surbrillance. Sélectionnez une autre entrée relative aux paramètres régionaux pour changer de langue d'IU.    
 
+> Consultez la [documentation](https://go.microsoft.com/fwlink/?LinkId=761051) pour plus d'informations.
 
 Comme nous avons déjà perdu le focus de l'interface principale lors de la navigation dans le document HTML, la recherche du bouton "Install" peut devenir un peu fastidieuse dans ces cas. Si nous activons le mode formulaire pour rechercher le bouton, nous devrons tabuler plusieurs fois car nous devrons également parcourir les liens du document HTML. Donc, dans ces cas, je recommande l'une des astuces les plus utiles de la navigation Web: la recherche via NVDA.
 
