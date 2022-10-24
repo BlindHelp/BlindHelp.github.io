@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi  8 Mars 2022 - Dernière mise à jour le Jeudi 15 Septembre 2022</footer>
+<footer>Publié le Mardi  8 Mars 2022 - Dernière mise à jour le Dimanche 23 Octobre 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé YoutubeChannelManager créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin de gérer les chaînes favorites YouTube via une interface invisible et simple.    
@@ -54,12 +54,13 @@ Cette extension vous permet de gérer les chaînes favorites de la plate-forme Y
 * o; Ouvre le lien de la vidéo dans le navigateur par défaut.
 * r; Ouvre le lien de l'audio dans un lecteur Web personnalisé.
 * c; Copie le lien de la vidéo dans le presse-papiers.
+t; Copie le titre de la vidéo dans le presse-papiers.
 * d; Obtiens les données de la vidéo et les affichent dans une fenêtre de NVDA.
 * b; Active le dialogue de recherche dans la base de données.
 * Contrôle + b; Active le dialogue de recherche générale.
 * f5; Recherche s'il y a de nouvelles vidéos sur la chaîne focalisée.
 * s; Active la fenêtre de configuration de la chaîne focalisée.
-* g; Active la fenêtre Options globale.
+* g; Active la fenêtre Options globales.
 * Effacement; Élimine la chaîne focalisée, et dans la fenêtre de résultats, il supprime la colonne et retourne à la liste des chaînes.
 * contrôle + maj + effacement; Élimine la base de données.
 * f1; Active l'aide des commandes.
@@ -129,10 +130,15 @@ Ici, nous avons également les mêmes raccourcis que dans la recherche de la bas
 Si l'une des vidéos est sur une chaîne que vous souhaitez ajouter à la base de données, appuyer sur la lettre n sur cette liste laquelle activera le dialogue de nouvelle chaîne avec les champs du nomb et l'URL déjà complets. Ces champs peuvent être édités si l'on préfère ainsi.  
 Comme dans les recherches dans la base de données, pour revenir à la liste des chaînes, vous devez simplement appuyer sur la touche effacement pour supprimer les résultats et revenir à l'interface des chaînes.
 
+### Historique de recherches
+
+L'extension enregistre le texte des 20 dernières recherches globales dans la base de données. 
+Pour accéder à l'historique, il vous suffit d'appuyer sur la touche Applications sur le champ d'édition de recherche globale. En appuyant sur celui-ci, un menu contextuel est activé avec les dernières recherches, et en appuyant sur Entrée sur l'un d'eux le champ est complété avec le texte correspondant.
+
 ## Traducteurs:
 
 	Rémy Ruiz (Français)
-	Ângelo Miguel Abrantes(Portugais)
+	Ângelo Miguel Abrantes (Portugais)
 	Umut KORKMAZ (Turc)
 	wafiqtaher (Arabe)
 
