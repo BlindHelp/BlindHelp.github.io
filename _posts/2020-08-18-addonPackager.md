@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 18 Août 2020 - Dernière mise à jour le Mardi 4 Octobre 2022</footer>
+<footer>Publié le Mardi 18 Août 2020 - Dernière mise à jour le Lundi 24 Octobre 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici l'empaqueteuse d'extensions pour NVDA, appelé maintenant Utilitaires pour les extensions de NVDA, une extension non officielle créée par le même auteur du programme[Simple FM TV](https://blindhelp.github.io/SimpleFM-TVPortable/)    
@@ -17,7 +17,7 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension  Empaqueteuse d'extensions (addonPackager), appelé maintenant Utilitaires pour les extensions de NVDA: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>    
-* Version actuelle: 1.2.2 et plus    
+* Version actuelle: 1.3.1 et plus    
 * Compatibilité avec NVDA: de 2021.1 à 2022.1    
 * Langues: Allemand, Anglais, Arabe, Espagnol, Français, Italien, Portugais, Russe, Turc et Ukrainien    
 * [Télécharger](https://nvda.es/files/get.php?file=addonpackager)    
@@ -268,6 +268,12 @@ Les modifications de l'extension seront reflétées dans cette section expliquan
 Le document principal ne sera pas modifié étant une orientation pour l'utilisateur.
 
 L'utilisateur est responsable de la révision de cette section pour être informé des modifications.
+
+## Version 1.3.
+
+* Une erreur a été corrigé lors de la génération des extensions.
+
+La dernière version comprenait le dossier __pycache__ que NVDA génère. Dans cette version, l'extension générée sera égale à celle distribuée par le développeur à l'exclusion du dossier __pycache__ de la branche des répertoires.
 
 ## Version 1.2.
 
