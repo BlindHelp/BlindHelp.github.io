@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 23 Juin 2022</footer>
+<footer>Publié le Jeudi 23 Juin 2022 - Dernière mise à jour le Jeudi 27 Octobre 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé TCA SystemUtilities créée par <span lang="es">Peter Reina</span> Cette extension propose d'arrêter et redémarrer le PC avec le son classique de Windows. Il permet également d'ouvrir le dossier Roaming et d'exécuter directement certains outils système.    
@@ -15,8 +15,8 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension TCA SystemUtilities: #
 
 * Auteur: <span lang="es">Peter Reina</span>
-* Version actuelle: 05b8
-* Compatibilité avec NVDA: de 2018.2 à 2022.1
+* Version actuelle: 06b6
+* Compatibilité avec NVDA: de 2018.2 à 2022.3
 * Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Brésil, Portugais du Portugal, Roumain et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=TCASystemUtilities)
 * [Voir code source sur GitHub](https://github.com/peterrc87/TCA-SystemUtilities-NVDA-Complemento)
@@ -30,7 +30,7 @@ Il est capable d'effectuer une réparation du système avec SFC. Il peut copier 
 Nous pouvons également ouvrir le site officiel pour obtenir des extensions pour NVDA de manière directe, éliminer les configurations et les extensions sur les écrans sécurisés.
 
 * Auteur: Peter Reina <peterrc87@gmail.com>
-* Compatibilité: NVDA 2018 à 2022.1
+* Compatibilité: NVDA 2018 à 2022.3
 
 ## Fonctions du système:
 
@@ -70,6 +70,10 @@ Pas besoin d'appuyer ou de connaître la touche, directement et facilement.
 
 * Redémarrer l'Explorateur: Nous redémarre confortablement à partir de NVDA l'Explorateur Windows. 
 Nous pouvons le faire à partir  d'un raccourci que nous lui attribuons, ou à partir du menu TCA SystemUtilities.
+
+* Fermer toutes les applications: Force à fermer tous les processus actifs qui ne font pas partie de Windows (Remarque! Tous les processus seront obligés de fermer, vous ne pouvez donc pas enregistrer ni documents, ni projets, et même le NVDA sera fermé).
+
+* Fermer les tâches qui ne répondent pas: TCA SystemUtilities tentera de fermer les processus qui ne répondent pas. 
 
 * Connaître l'architecture du système: Il nous dira quelle est l'architecture de Windows (32 ou 64 Bits). 
  
@@ -168,6 +172,15 @@ En outre, nous pouvons savoir combien de mémoire, de disque, de réseau et plus
 
 Tous et chacun des raccourcis clavier, peuvent être attribués, selon le goût personnel à partir du dialogue: Préférences > Gestes de commandes de NVDA.
 
+## Changements pour la version 06.
+
+* Nouvelle fonction interne Pour prendre le chemin du système (path), maintenant il y en a 2, en cas d'échec, TCA SystemUtilities tentera d'utiliser l'autre.
+(L'une des fonctions a été développée par: Héctor Benítez).
+* Nouvelle fonction: fermez tous les processus actifs.
+* Fermer des tâches qui ne répondent pas sous Windows.
+* Corrigé, le menu de TCA SystemUtilities ne sera plus répété si les extensions sont rechargées.
+(Courtoisie de Héctor Benítez).
+* Corrigé: Il n'y a plus de raccourcis claviers par défaut.
 
 ## Changements pour la version 05.
 
@@ -213,6 +226,7 @@ Celui-ci se trouve dans le Menu: "Outils" de NVDA, et a le nom de l'extension: "
 
 Code du projet sur GitHub: 
 [https://github.com/peterrc87/TCA-SystemUtilities-NVDA-Complemento](https://github.com/peterrc87/TCA-SystemUtilities-NVDA-Complemento)
+
 ---
 
 Mille merci à notre ami <span lang="es">Peter Reina</span> pour l'avoir partagé avec nous tous! :)    
