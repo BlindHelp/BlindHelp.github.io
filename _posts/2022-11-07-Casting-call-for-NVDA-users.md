@@ -25,7 +25,7 @@ Appel à tous nos champions de la vidéo utilisateurs de NVDA ! Nous serions rav
 <br>
 Il n'est pas nécessaire que les vidéos soient de haute qualité - la caméra intégrée à votre téléphone conviendra. Veuillez noter que nous aimerions utiliser vos contributions sur le site Web de NV Access, dans nos réseaux sociaux et sur nos divers médias. Nous aimerions partager ces histoires et vidéos pour mettre en lumière le travail de NV Access et l'impact considérable de NVDA. La finalité est de sensibiliser et d'obtenir le soutien dont nous avons besoin pour continuer notre travail.    
 <br>
-Si vous êtes en mesure de partager une courte vidéo (disons 30 secondes ou plus), nous vous invitons à vous rapprocher de nous ! Le moyen le plus simple serait de l'enregistrer sur un service cloud tel que Dropbox, Google Drive ou OneDrive. Alors, merci de nous communiquer un lien vers le fichier à l'adresse courriel info@nvaccess.org.
+Si vous êtes en mesure de partager une courte vidéo (disons 30 secondes ou plus), nous vous invitons à vous rapprocher de nous ! Le moyen le plus simple serait de l'enregistrer sur un service cloud tel que Dropbox, Google Drive ou OneDrive. Alors, merci de nous communiquer un lien vers le fichier à l'adresse courriel [info@nvaccess.org.](mailto:info@nvaccess.org)
 <br>
 Nous serions heureux que chacun enregistre dans sa langue maternelle - après tout, c'est l'un des points forts de NVDA, qu'il soit utilisé dans tant de pays. Nous serons peut-être amenés à demander des sous-titres ou des transcriptions, mais nous nous ferons un plaisir de traiter ces besoins au fur et à mesure.    
 <br>
