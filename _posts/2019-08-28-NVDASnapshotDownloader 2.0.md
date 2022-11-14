@@ -1,34 +1,37 @@
 ---
-title: NVDASnapshotDownloader 2.0 grâce à Alberto Buffolino
+title: NVDASnapshotDownloader (maintenant appelé NVDAVersionDownloader) grâce à Alberto Buffolino
+permalink: "/nvdaSnapshotDownloader-2"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Première publication Mercredi 28 Août 2019, mis à jour Mardi 21 Janvier 2020</footer>
+<footer>Publié le Mercredi 28 Août 2019 - Dernière mise à jour le Lundi 14 Novembre 2022</footer>
 
-Alberto Buffolino, Contributeur de NVDA et auteur de plusieurs extensions tels que NoBeepsSpeechMode, ToolbarsExplorer, etc. a publié une nouvelle version de NVDASnapshotDownloader traduit en français, pour faciliter le téléchargement des versions de test de NVDA.
+Alberto Buffolino, Contributeur de NVDA et auteur de plusieurs extensions tels que NoBeepsSpeechMode, ToolbarsExplorer, etc. a publié une nouvelle version de NVDAVersionDownloader, précédemment appelé NVDASnapshotDownloader traduit en français, pour faciliter le téléchargement des versions de NVDA rc, alpha, etc. sans besoin de le faire à partir du site Web de NV Access, mais exécutant un fichier .bat et en suivant les étapes proposées.
 
-Version 3.0: Correction d'un bug pour le téléchargement de la version beta2 du 21 Janvier 2020.
+Nous partageons les instructions et le lien direct fourni par son auteur pour télécharger ce programme simple (voir ci-dessous).
 
-Nous partageons les instructions et le lien direct pour télécharger ce programme simple,  dans notre belle langue le français!
+### NVDAVersionDownloader
+(anciennement NVDASnapshotDownloader)
 
-### NVDASnapshotDownloader
-
-Un simple fichier .bat pour télécharger les dernières versions de test (“snapshots”) de NVDA, à partir de chaque branche (type) disponible: rc, alpha, etc.
+Un simple fichier .bat pour télécharger les dernières versions de NVDA, à partir de chaque branche (type) disponible: rc, alpha, etc.
 
 Disponible en anglais (projet original), en espagnol (grâce à @nvdaes), en français (grâce à @BlindHelp) et  en italien (grâce à @christianlm).
 
 #### Installation
 
-- [Télécharger le fichier zip en francais](https://github.com/ABuffEr/NVDASnapshotDownloader/raw/master/releases/NVDASnapshotDownloader-3.0-fr.zip).
-- Extraire le fichier et mettez _NVDASnapshotDownloader.bat dans un dossier où vous le souhaitez (un chemin sans espaces est préférable).
-- Exécutez et suivez le processus étape par étape.
+- Télécharger l'archive zip à partir de la section [Releases](https://github.com/ABuffEr/NVDAVersionDownloader/releases).    
+Voilà 🙂 Si vous souhaitez partager avec votre communauté NVDAVersionDownloader 4.2 est ici: <https://github.com/ABuffEr/NVDAVersionDownloader/releases/tag/v4.2>    
+Une fois la page ouverte recherchez et cliquez sur le lien appelé:    
+`NVDAVersionDownloader-4.2.zip`    
+- Extraire l'archive .zip et mettez locales et _NVDAVersionDownloader.bat dans un dossier où vous le souhaitez (un chemin sans espaces est préférable).
+- Exécutez le fichier .bat et suivez le processus étape par étape.
 
-Note de traduction: En français, le traitement de vouvoiement a été utilisé dans la traduction sans concorder avec le ton informel des messages originaux (tutoiement). Le message "Appuyez sur une touche pour continuer" correspond à Windows, pas au programme NVDASnapshotDownloader lui-même.
+Note de traduction: En français, le traitement de vouvoiement a été utilisé dans la traduction sans concorder avec le ton informel des messages originaux (tutoiement). Le message "Appuyez sur une touche pour continuer" correspond à Windows, pas au programme NVDAVersionDownloader lui-même.
 
 #### Compatibilité
 
-Testé sous Windows 7 et 10, mais probablement compatible avec XP, Vista et Windows 8/8.1.
+Testé sous Windows 7, 10 et 11, mais probablement compatible avec XP, Vista et Windows 8/8.1.
 
 #### Note
 
@@ -39,13 +42,13 @@ Powershell devrait être présent dans presque tous les systèmes à partir de X
 ### Références (en anglais)
 
 - [Processus de publication et de développement de NVDA](https://github.com/nvaccess/nvda/wiki/ReleaseProcess)
-- [Référentiel (dépôt) de NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader)
+- [Référentiel (dépôt) de NVDAVersionDownloader](https://github.com/ABuffEr/NVDAVersionDownloader)
 
 @ABuffEr, <span lang="it">grazie mille</span>. :)
 
 ### Références (en espagnol)
 
-- [Pour utiliser et télécharger le programme NVDASnapshotDownloader en espagnol, la publication est consultable par là](https://nvdaes.github.io/nvdaSnapshotDownloader-2)
+- [Le post sur NVDAVersionDownloader en espagnol mis à jour par Noelia est consultable par là](https://nvdaes.github.io/nvdaSnapshotDownloader-2)
 
 @nvdaes, <span lang="es">muchas gracias</span>. :)
 
