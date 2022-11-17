@@ -17,7 +17,7 @@ Pour en savoir plus sur ce programme VS Code (Visual Studio Code) vous pouvez co
 
 * Auteur: Pawel Urbanski
 * Version actuelle: 2022.1.1 et plus
-* Compatibilité avec NVDA: de 2021.2 à 2022.1
+* Compatibilité avec NVDA: de 2021.2 à 2022.2
 * Langues supportées: Anglais
 * [Télécharger](https://nvda.es/files/get.php?file=nvda-vscode)
 * [Voir code source sur GitHub](https://github.com/accessifix/nvda-for-vs-code)
