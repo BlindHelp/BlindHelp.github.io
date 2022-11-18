@@ -1,5 +1,5 @@
 ---
-title: Toutes vos stations de radio préférées en ligne, en direct et gratuitement sur la plate-forme Radioplayer France! 📻 🔊
+title: Toutes vos stations de radio préférées en ligne, en direct et gratuitement sur la plate-forme Radioplayer France! 📻
 permalink: "/Radioplayer-France/"
 layout: post
 author: BlindHelp
@@ -33,7 +33,7 @@ Pour en savoir plus à propos de Radioplayer France Vous pouvez consulter le lie
 
 <https://www.radioplayer.fr/>
 
-⚠️ Pour utiliser le service gratuit d'écoute gratuit en ligne depuis le lien ci-dessus, et si vous utilisez un lecteur d'écran comme NVDA ou Jaws par exemple, il suffira de rechercher le nom de la station de radio que vous souhaitez écouter depuis l'interface Web de Radioplayer France.
+Pour utiliser le service gratuit d'écoute gratuit en ligne depuis le lien ci-dessus, et si vous utilisez un lecteur d'écran comme NVDA ou Jaws par exemple, il suffira de rechercher le nom de la station de radio que vous souhaitez écouter depuis l'interface Web de Radioplayer France.
 
 Par exemple, si je veux écouter RTL, je dois rechercher le nom de cette radio, cela sera annoncé par le lecteur d'écran comme suit:    
 `graphique RTL`    
@@ -42,6 +42,8 @@ Faire une flèche bas pour trouver un bouton qui n'est pas étiqueté ; celui-ci
 Appuyez sur lui pour lire la station de radio, appuyez à nouveau pour le mettre en pause ou relancez sa lecture.    
 
 Si vous souhaitez trouver une autre station de radio, il suffira de répéter la même procédure décrite ci-dessus.
+
+⚠️ Pour les personnes qui utilisent un lecteur d'écran, cette station de radio devrait être en pause, lors d'une recherche car le son est très fort si vous utilisez un lecteur d'écran et celui-ci ne permet pas une bonne écoute avec la synthèse vocale. 🔊
 
 Voilà,    
 Je vous souhaite une bonne écoute radial à partir de la plate-forme officielle  Radioplayer France! 😻    
