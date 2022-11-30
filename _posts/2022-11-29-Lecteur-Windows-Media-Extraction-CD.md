@@ -28,9 +28,11 @@ Avant de développer ce post lié à l'extraction d'un CD audio, nous allons d'a
 
 Pour cela, suivez les instructions ci-dessous.
 
-Si vous ne l'avez pas encore installé sur votre système, vous pouvez consulter le lien officiel suivant:
+Si vous ne l'avez pas encore installé sur votre système, vous pouvez consulter le lien officiel suivant via le Support Microsoft:    
 
-[Obtenir le Lecteur Windows Media - Support Microsoft](https://support.microsoft.com/fr-fr/windows/obtenir-le-lecteur-windows-media-81718e0d-cfce-25b1-aee3-94596b65828# Comment lancer Windows Media Player sous un Windows 10 ?
+[Obtenir le Lecteur Windows Media - Support Microsoft](https://support.microsoft.com/fr-fr/windows/obtenir-le-lecteur-windows-media-81718e0d-cfce-25b1-aee3-94596b65828)
+
+# Comment lancer Windows Media Player sous un Windows 10 ?
 
 Pour ce faire, sélectionnez le bouton Démarrer (Touche Windows)
 
@@ -176,7 +178,7 @@ Remarque: L'extraction du CD est effectuée même si vous écoutez le CD audio �
 Ensuite aller dans le dossier Musique et retrouvez l'ensemble du CD que vous venez d'extraire.    
 Vous pouvez ouvrir l'icône appelé Ce PC (c'est sur le bureau) pour trouver le dossier Musique    
 Pour ceux qui avaient l'habitude d'utiliser l'icône Ordinateur ou Poste de travail sur les anciennes versions de Windows, cela a changé de nom sur Windows 10    
-A noter que "Ordinateur" ou "Poste de travail" était le même raccourci vers le(s) disque(s) et lecteur DVD de la machine, il s'appelle aujourd'hui "Ce PC".
+A noter que "Ordinateur" ou "Poste de travail" était le même raccourci vers le(s) disque(s) et lecteur DVD de la machine, il s'appelle aujourd'hui "Ce PC".    
 Quand le dossier Musique est ouvert, dans notre cas nous trouverons le dossier appelé:    
 `Interprète inconnu`    
 Dans ce dossier, nous trouverons également le sous-dossier appelé:    
@@ -239,7 +241,7 @@ Et ainsi de suite jusqu'au dernier fichier extrait:
 <br>
 D'un autre côté, nous trouverons beaucoup plus d'options dans ce lecteur, mais je n'ai traité sur ce post que de l'extraction d'un CD au moyen du lecteur Windows Media    
 <br>
-Je vous laisse découvrir ledit lecteur Windows Media selon vos besoins, vous pouvez aussi consulter le lien officiel suivant pour modifier les paramètres d'extraction puis également pour obtenir  plus d'informations sur les options du lecteur Windows Media:    
+Je vous laisse découvrir ledit lecteur Windows Media selon vos besoins, vous pouvez aussi consulter le lien officiel suivant pour modifier les paramètres d'extraction puis également pour obtenir  plus d'informations sur les options du lecteur Windows Media via le Support Microsoft:    
 
 [Extraire et graver des CD - Support Microsoft](https://support.microsoft.com/fr-fr/windows/extraire-et-graver-des-cd-235021d5-e1c7-8616-4efd-4f4965fe6b91)
 
