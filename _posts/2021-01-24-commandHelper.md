@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour le Dimanche 24 Juillet 2022</footer>
+<footer>Publié le Dimanche 24 Janvier 2021 - Dernière mise à jour le Jeudi 22 Décembre 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -16,7 +16,7 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 # Informations sur l'extension commandHelper #
 
 * Auteur: <span lang="es">Javi Dominguez</span>
-* Version actuelle: dev20220724
+* Version actuelle: dev20221208
 * Langues: Arabe, Anglais, Chinois, traditionnel et simplifié, Espagnol, Français, Portugais-Brésil,  et Portugais-Portugal et Turc
 * Compatibilité NVDA: 2019.3 à 2022.1
 * Télécharger [version de développement sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=cmdHelper-dev)
