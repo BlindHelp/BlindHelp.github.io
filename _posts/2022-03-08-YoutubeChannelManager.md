@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi  8 Mars 2022 - Dernière mise à jour le Dimanche 23 Octobre 2022</footer>
+<footer>Publié le Mardi 8 Mars 2022 - Dernière mise à jour le Jeudi 22 Décembre 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé YoutubeChannelManager créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin de gérer les chaînes favorites YouTube via une interface invisible et simple.    
@@ -23,7 +23,7 @@ Je viens de le traduire en français pour le fun, et l'auteur m'a dit que je pou
 # Informations sur l'extension YoutubeChannelManager: #
 
 * Auteur: <span lang="es">Gerar Késsler</span>
-* Version actuelle: 1.5
+* Version actuelle: 1.6
 * Compatibilité avec NVDA: de 2019.3 à 2022.3
 * Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Portugal / Brésil, Turc et Ukrainien
 * [Télécharger](https://nvda.es/files/get.php?file=ytcmanager)

@@ -5,13 +5,13 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Dimanche 15 Mai 2022</footer>
+<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Mercredi 14 Décembre 2022</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
 Je vous apporte de bonnes nouvelles concernant l'extension Weather Plus pour NVDA...             
 Weather Plus est maintenant compatible avec NVDA2021.1 et plus!             
-Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 8.9.    
+Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 9.2.    
 
 Voir son descriptive ci-dessous.    
 
@@ -193,11 +193,11 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 
 # Note importante de l'auteur:
 
-* Sur les écrans sécurisés, WP avec cette version 8.9 ne vous permettra pas d'ouvrir les boîtes de dialogue des fichiers de quelque nature que ce soit, c'est-à-dire qu'il ne sera pas possible d'importer ni d'exporters la liste des villes, d'installer des effets sonores ou des mises à jour.
+* Sur les écrans sécurisés, WP avec cette version 9.2 ne vous permettra pas d'ouvrir les boîtes de dialogue des fichiers de quelque nature que ce soit, c'est-à-dire qu'il ne sera pas possible d'importer ni d'exporters la liste des villes, d'installer des effets sonores ou des mises à jour.
 
-[Télécharger l'extension Weather_Plus8.9.nvda-addon par ici: [lien externe]][1]    
+[Télécharger l'extension Weather_Plus9.2.nvda-addon par ici: [lien externe]][1]    
 
-[1]: https://www.nvda.it/files/plugin/weather_plus8.9.nvda-addon
+[1]: https://www.nvda.it/files/plugin/weather_plus9.2.nvda-addon
 
 [ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
 
@@ -206,7 +206,7 @@ renommez-le en .nvda-addon.
 Merci    
 
 Pour plus d'informations vous pouvez consulter la documentation pour    
-    la version 8.9 depuis le Gestionnaire d'Extensions    
+    la version 9.2 depuis le Gestionnaire d'Extensions    
     (dans Gérer les extensions)    
     Chercher le nom de l'extension nommé:    
     Weather_Plus    
