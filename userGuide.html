@@ -4,9 +4,9 @@
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <LINK REL="stylesheet" TYPE="text/css" HREF="styles.css">
-<TITLE>Guide de l'utilisateur de NVDA 2022.3</TITLE>
+<TITLE>Guide de l'utilisateur de NVDA 2022.4</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2022.3</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2022.4</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -17,23 +17,48 @@
   <LI><A HREF="#Introduction">1. Introduction</A>
     <UL>
     <LI><A HREF="#GeneralFeatures">1.1. Caractéristiques Générales</A>
-    <LI><A HREF="#Internationalization">1.2. Internationalisation</A>
-    <LI><A HREF="#SpeechSynthesizerSupport">1.3. Support des Synthèses Vocales</A>
-    <LI><A HREF="#BrailleSupport">1.4. Support du Braille</A>
-    <LI><A HREF="#LicenseAndCopyright">1.5. Licence et Copyright</A>
+    <LI><A HREF="#SystemRequirements">1.2. Configuration Système Requise</A>
+    <LI><A HREF="#Internationalization">1.3. Internationalisation</A>
+    <LI><A HREF="#SpeechSynthesizerSupport">1.4. Support des Synthèses Vocales</A>
+    <LI><A HREF="#BrailleSupport">1.5. Support du Braille</A>
+    <LI><A HREF="#LicenseAndCopyright">1.6. Licence et Copyright</A>
     </UL>
-  <LI><A HREF="#SystemRequirements">2. Configuration Système Requise</A>
-  <LI><A HREF="#GettingAndSettingUpNVDA">3. Obtenir et Installer NVDA</A>
+  <LI><A HREF="#NVDAQuickStartGuide">2. Guide de Démarrage Rapide de NVDA</A>
     <UL>
-    <LI><A HREF="#PortableAndTemporaryCopyRestrictions">3.1. Restrictions des Versions Portables et Temporaires</A>
-    <LI><A HREF="#InstallingNVDA">3.2. Installer NVDA</A>
+    <LI><A HREF="#GettingAndSettingUpNVDA">2.1. Télécharger NVDA</A>
       <UL>
-      <LI><A HREF="#InstallWithIncompatibleAddons">3.2.1. Avertissement d'extensions incompatibles</A>
-      <LI><A HREF="#StartAtWindowsLogon">3.2.2. Utiliser NVDA sur l'Écran de Connexion à Windows</A>
-      <LI><A HREF="#CreateDesktopShortcut">3.2.3. Créer une Icône sur le Bureau et le Raccourci Clavier (contrôle+alt+n)</A>
-      <LI><A HREF="#CopyPortableConfigurationToCurrentUserAccount">3.2.4. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</A>
+      <LI><A HREF="#StepsForDownloadingNVDA">2.1.1. Étapes pour Télécharger NVDA</A>
       </UL>
-    <LI><A HREF="#CreatingAPortableCopy">3.3. Créer une Copie Portable</A>
+    <LI><A HREF="#SettingUpNVDA">2.2. Mise en place de NVDA</A>
+      <UL>
+      <LI><A HREF="#StepsForRunningTheDownloadLauncher">2.2.1. Étapes pour exécuter le lanceur téléchargé</A>
+      <LI><A HREF="#StepsForInstallingNVDAFromTheLauncher">2.2.2. Étapes pour installer NVDA depuis le lanceur</A>
+      </UL>
+    <LI><A HREF="#RunningNVDA">2.3. Exécuter NVDA</A>
+      <UL>
+      <LI><A HREF="#NVDAModifierKey">2.3.1. La Touche de Modification NVDA</A>
+      <LI><A HREF="#InputHelp">2.3.2. Aide à la Saisie</A>
+      <LI><A HREF="#StartingAndStoppingNVDA">2.3.3. Démarrer et Arrêter NVDA</A>
+      <LI><A HREF="#ReadingText">2.3.4. Lire du texte</A>
+      <LI><A HREF="#ReportingLocation">2.3.5. Annoncer la position et autres informations</A>
+      <LI><A HREF="#ToggleWhichInformationNVDAReads">2.3.6. Choisir les informations lues par NVDA</A>
+      <LI><A HREF="#TheSynthSettingsRing">2.3.7. La boucle des paramètres synthétiseur</A>
+      <LI><A HREF="#WebNavigation">2.3.8. Navigation sur le web</A>
+      </UL>
+    <LI><A HREF="#Preferences">2.4. Préférences</A>
+    <LI><A HREF="#Community">2.5. Communauté</A>
+    <LI><A HREF="#GettingHelp">2.6. Obtenir de l'aide</A>
+    </UL>
+  <LI><A HREF="#MoreSetupOptions">3. Plus d'Options de Configuration</A>
+    <UL>
+    <LI><A HREF="#InstallingNVDA">3.1. Options d'Installation</A>
+      <UL>
+      <LI><A HREF="#InstallWithIncompatibleAddons">3.1.1. Avertissement d'extensions incompatibles</A>
+      <LI><A HREF="#StartAtWindowsLogon">3.1.2. Utiliser NVDA lors de la connexion</A>
+      <LI><A HREF="#CopyPortableConfigurationToCurrentUserAccount">3.1.3. Copier la configuration portable sur le compte d'utilisateur actuel</A>
+      </UL>
+    <LI><A HREF="#CreatingAPortableCopy">3.2. Création d'une copie portable</A>
+    <LI><A HREF="#PortableAndTemporaryCopyRestrictions">3.3. Restrictions des Versions Portables et Temporaires</A>
     </UL>
   <LI><A HREF="#GettingStartedWithNVDA">4. Prendre en Main NVDA</A>
     <UL>
@@ -205,9 +230,9 @@
     <LI><A HREF="#HedoMobilLine">15.8. Hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">15.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc139">15.9.1. Assignations des Touches pour tous les Modèles</A>
-      <LI><A HREF="#toc140">15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
-      <LI><A HREF="#toc141">15.9.3. Assignations de Touches pour le Brailliant BI 14</A>
+      <LI><A HREF="#toc156">15.9.1. Assignations des Touches pour tous les Modèles</A>
+      <LI><A HREF="#toc157">15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
+      <LI><A HREF="#toc158">15.9.3. Assignations de Touches pour le Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">15.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
     <LI><A HREF="#Seika">15.11. Seika Braille Displays</A>
@@ -252,6 +277,9 @@ NVDA est développé par <A HREF="https://www.nvaccess.org/">NV Access</A>, avec
 En restituant l'information par synthèse vocale ou en braille, NVDA permet aux personnes aveugles et malvoyantes d'utiliser le système d'exploitation Windows ainsi que beaucoup d'applications disponibles dans cet environnement.
 </P>
 <P>
+Une courte vidéo de démonstration en anglais, <A HREF="https://www.youtube.com/watch?v=tCFyyqy9mqo">"Qu'est-ce que NVDA ?"</A> est disponible sur la chaîne Youtube de NV Access.
+</P>
+<P>
 Ses points forts sont :
 </P>
 <UL>
@@ -272,14 +300,26 @@ Ses points forts sont :
 </UL>
 
 <P></P>
+<A NAME="SystemRequirements"></A>
+<H3>1.2. Configuration Système Requise</H3>
+<UL>
+<LI>Systèmes d'Exploitation : toutes les éditions 32-bit et 64-bit de Windows 7, Windows 8, Windows 8.1, Windows 10, Windows 11, et toutes les versions serveur à partir de Windows Server 2008 R2.
+  <UL>
+  <LI>Pour Windows 7, NVDA requiert le Service Pack 1 ou ultérieur.
+  <LI>Pour Windows Server 2008 R2, NVDA requiert le Service Pack 1 ou ultérieur.
+  </UL>
+<LI>au moins 150 Mo d'espace de stockage.
+</UL>
+
+<P></P>
 <A NAME="Internationalization"></A>
-<H3>1.2. Internationalisation</H3>
+<H3>1.3. Internationalisation</H3>
 <P>
 Il est important que chacun, partout dans le monde, quelle que soit sa langue, ait le même accès aux technologies.
 Outre l'anglais, NVDA a été traduit en 52 langues : l'afrikaans, l'albanais, l'amharique, l'arabe, l'aragonais, le portugais (Brésil et Portugal), le bulgare, le birman, le catalan, l'espagnol (Colombie et Espagne), le croate, le tchèque, le danois, le néerlandais, le persan, le finnois, le français, le galicien, le Géorgien, l'allemand (Allemagne et Suisse), le grec, l'hébreu, l'hindi, le hongrois, l'islandais, l'irlandais, l'italien, le japonais, le kannada, le coréen, le kirghize, le lituanien, le macédonien, le Mongol, le népalais, le norvégien, le polonais, le portugais, le punjabi, le roumain, le russe, le serbe, le slovaque, le slovène, l'espagnol, le suédois, le tamoul, le thaï, le chinois traditionnel et simplifié, le turc, l'ukrainien et le vietnamien.
 </P>
 <A NAME="SpeechSynthesizerSupport"></A>
-<H3>1.3. Support des Synthèses Vocales</H3>
+<H3>1.4. Support des Synthèses Vocales</H3>
 <P>
 En plus de proposer ses messages et son interface en plusieurs langues, NVDA permet également à l'utilisateur de lire les contenus dans n'importe quelle langue, dans la mesure où il possède un synthétiseur parlant cette langue.
 </P>
@@ -290,7 +330,7 @@ NVDA est fourni avec <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG<
 Pour des informations concernant les autres synthétiseurs de parole pris en charge par NVDA, reportez-vous à la section <A HREF="#SupportedSpeechSynths">Synthétiseurs de parole pris en charge</A>.
 </P>
 <A NAME="BrailleSupport"></A>
-<H3>1.4. Support du Braille</H3>
+<H3>1.5. Support du Braille</H3>
 <P>
 Pour les utilisateurs possédant un terminal braille, NVDA peut afficher ses informations en braille.
 La saisie braille en intégral ou abrégé via un clavier braille est également supportée.
@@ -301,7 +341,7 @@ Reportez-vous à la section <A HREF="#SupportedbrailleDisplays">Terminaux braill
 NVDA propose de nombreux codes braille couvrant un grand ensemble de langues. Dans bien des cas, le braille intégral et abrégé sont disponibles. Pour les utilisateurs francophones, le braille français unifié est disponible en intégral et abrégé.
 </P>
 <A NAME="LicenseAndCopyright"></A>
-<H3>1.5. Licence et Copyright</H3>
+<H3>1.6. Licence et Copyright</H3>
 <P>
 NVDA est Copyright (C) 2006-2022 NVDA contributors.
 </P>
@@ -316,73 +356,464 @@ Ceci s'applique aussi bien à la version originale qu'aux copies modifiées de c
 Pour plus de détails, vous pouvez <A HREF="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">lire l'intégralité de la licence.</A>
 Pour les détails concernant les exceptions, veuillez consulter le document de licence depuis le menu NVDA dans la section "Aide".
 </P>
-<A NAME="SystemRequirements"></A>
-<H2>2. Configuration Système Requise</H2>
+<A NAME="NVDAQuickStartGuide"></A>
+<H2>2. Guide de Démarrage Rapide de NVDA</H2>
+<P>
+Ce guide de démarrage rapide contient trois sections principales : téléchargement, configuration initiale et exécution de NVDA.
+Celles-ci sont suivies d'informations sur l'ajustement des préférences, la participation à la communauté et l'obtention d'aide.
+Les informations contenues dans ce guide sont condensées à partir d'autres parties du Guide de l'utilisateur NVDA.
+Veuillez vous reporter au Guide de l'utilisateur complet pour obtenir des informations plus détaillées sur chaque sujet.
+</P>
+<A NAME="GettingAndSettingUpNVDA"></A>
+<H3>2.1. Télécharger NVDA</H3>
+<P>
+NVDA est entièrement gratuit pour tout le monde.
+Il ne nécessite pas de clé de licence ni d'abonnement coûteux à payer.
+NVDA est mis à jour, en moyenne, quatre fois par an.
+La dernière version de NVDA est toujours disponible à partir de la page "Télécharger" du <A HREF="https://www.nvaccess.org/">site Web de NV Access</A>.
+</P>
+<P>
+NVDA fonctionne avec toutes les versions récentes de Microsoft Windows.
+Vérifiez les <A HREF="#SystemRequirements">Configurations requises</A> pour plus de détails.
+</P>
+<A NAME="StepsForDownloadingNVDA"></A>
+<H4>2.1.1. Étapes pour Télécharger NVDA</H4>
+<P>
+Ces étapes supposent une certaine familiarité avec la navigation sur une page Web.
+</P>
 <UL>
-<LI>Systèmes d'exploitation : toutes les variantes, 32 ou 64 bits, de Windows 7, Windows 8, Windows 8.1, Windows 10 et Windows 11 (y compris les versions serveur).
- <UL>
- <LI>Pour Windows 7, NVDA requiert le Service Pack 1 ou au-delà.
- <LI>Pour Windows Server 2008 R2, NVDA requiert le Service Pack 1 ou au-delà.
- </UL>
-<LI>Au moins 150 MO d'espace mémoire.
+<LI>Ouvrez votre navigateur Web (appuyez sur la touche <CODE>Windows</CODE>, tapez le mot "internet" sans les guillemets et appuyez sur <CODE>entrer</CODE>)
+<LI>Chargez la page de téléchargement de NV Access (Appuyez sur <CODE>alt+d</CODE>, tapez l'adresse suivante et appuyez sur <CODE>entrer</CODE>):
+<A HREF="https://www.nvaccess.org/download">https://www.nvaccess.org/download</A> 
+<LI>Activez le bouton "télécharger"
+<LI>Le navigateur peut ou non demander une action à effectuer après le téléchargement, puis lancer le téléchargement
+<LI>Selon le navigateur, le fichier peut s'exécuter automatiquement après son téléchargement
+<LI>Si le fichier doit être lancé manuellement, appuyez sur <CODE>alt+n</CODE> pour accéder à la zone de notification, puis sur <CODE>alt+r</CODE> pour exécuter le fichier (ou les étapes de votre navigateur)
 </UL>
 
 <P></P>
-<A NAME="GettingAndSettingUpNVDA"></A>
-<H2>3. Obtenir et Installer NVDA</H2>
-<P>
-Si vous ne disposez pas encore d'un exemplaire de NVDA, vous pouvez le télécharger sur <A HREF="https://www.nvaccess.org/">le site de NV Access</A>.
-</P>
-<P>
-Rendez-vous à la section "Download" où vous trouverez un lien pour télécharger la dernière version de NVDA.
-</P>
+<A NAME="SettingUpNVDA"></A>
+<H3>2.2. Mise en place de NVDA</H3>
 <P>
 Démarrer le fichier téléchargé exécutera une version temporaire de NVDA.
-Vous aurez ensuite le choix entre installer NVDA, créer une copie portable, ou juste continuer à utiliser la version temporaire.
+Il vous sera alors demandé si vous souhaitez installer NVDA, créer une copie portable ou simplement continuer à utiliser la copie temporaire.
 </P>
 <P>
-Si vous avez prévu de toujours utiliser NVDA sur cet ordinateur, choisissez "Installer NVDA".
-Installer NVDA apportera des fonctionnalités supplémentaires comme son lancement automatique après l'identification, la lecture des écrans d'identification et des <A HREF="#SecureScreens">écrans sécurisés</A>. (ce qu'une version portable ou la version temporaire ne peuvent faire), et il sera accessible depuis des raccourcis dans le menu "Démarrer" ou sur le bureau.
-La version installée permet aussi de créer une copie portable à tout moment.
+NVDA n'a pas besoin d'accéder à Internet pour s'exécuter ou s'installer une fois le lanceur téléchargé.
+Si elle est disponible, une connexion Internet permet à NVDA de vérifier périodiquement les mises à jour.
 </P>
+<A NAME="StepsForRunningTheDownloadLauncher"></A>
+<H4>2.2.1. Étapes pour exécuter le lanceur téléchargé</H4>
 <P>
-Si vous voulez prendre NVDA avec vous sur une clé USB ou un autre support accessible en écriture, vous devrez choisir de créer une copie portable.
-La copie portable peut aussi être installée sur n'importe quel ordinateur à n'importe quel moment.
-Cependant, si vous souhaitez copier NVDA sur un support en lecture seule comme un CD, vous devriez seulement copier le paquet téléchargé.
-Démarrer directement la copie portable depuis un support en lecture seule n'est pas supporté pour le moment.
+Le fichier d'installation est nommé "nvda_2022.1.exe" ou similaire.
+L'année et la version changent entre les mises à jour pour refléter la version actuelle.
 </P>
+<OL>
+<LI>Exécutez le fichier téléchargé.
+Une musique est jouée pendant le chargement d'une copie temporaire de NVDA.
+Une fois chargé, NVDA parlera tout au long du processus.
+<LI>La fenêtre du Lanceur NVDA apparaît avec le contrat de licence.
+Appuyez sur <CODE>flècheBas</CODE> pour lire le contrat de licence si vous le souhaitez.
+<LI>Appuyez sur <CODE>tab</CODE> pour passer à la case "J'accepte", puis appuyez sur la <CODE>barre d'espace</CODE> pour la cocher.
+<LI>Appuyez sur <CODE>tab</CODE> pour parcourir les options, puis appuyez sur <CODE>entrer</CODE> sur l'option souhaitée.
+</OL>
+
+<P></P>
 <P>
-Utiliser la version temporaire de NVDA est aussi une option, par exemple pour une démonstration, car démarrer NVDA dans ce mode à chaque fois peut prendre beaucoup de temps.
-</P>
-<A NAME="PortableAndTemporaryCopyRestrictions"></A>
-<H3>3.1. Restrictions des Versions Portables et Temporaires</H3>
-<P>
-Outre l'impossibilité de démarrer automatiquement pendant ou après l'ouverture de session, les versions portables et temporaires de NVDA ont également les restrictions suivantes :
+Les options sont : 
 </P>
 <UL>
-<LI>Impossible d'interagir avec les applications démarrées avec les privilèges administrateur, sauf bien sûr si NVDA a été démarré avec ces privilèges (non recommandé) ;
-<LI>Impossible de lire les écrans de contrôle de compte utilisateur (UAC) lorsque l'on tente de démarrer une application avec les privilèges administrateur ;
-<LI>Windows 8 et au-delà : impossible d'utiliser un écran tactile comme support d'entrée ;
-<LI>Windows 8 et au-delà : fonctionnalités impossibles comme le mode navigation ou l'annonce des caractères saisis dans les applications du Windows Store.
-<LI>Windows 8 et au-delà : l'atténuation audio n'est pas supportée.
+<LI>"Installer NVDA sur cet ordinateur" : C'est l'option principale que la plupart des utilisateurs souhaitent pour une utilisation facile de NVDA.
+<LI>"Créer une copie portable" : Cela permet à NVDA d'être copié dans n'importe quel dossier sans installation.
+Ceci est utile sur les ordinateurs sans droits d'administrateur ou sur une clé USB à emporter avec vous.
+Lorsque cette option est sélectionnée, NVDA parcourt les étapes pour créer une copie portable.
+La principale chose que NVDA doit connaître est le dossier dans lequel configurer la copie portable.
+<LI>"Continuer l'exécution" : Cela permet de maintenir la copie temporaire de NVDA en cours d'exécution.
+Ceci est utile pour tester les fonctionnalités d'une nouvelle version avant de l'installer.
+Lorsque cette option est sélectionnée, la fenêtre du lanceur se ferme et la copie temporaire de NVDA continue de s'exécuter jusqu'à ce qu'elle soit fermée ou que le PC soit arrêté.
+Notez que les modifications apportées aux paramètres ne sont pas enregistrées.
+<LI>"Quitter" : Cela ferme NVDA sans effectuer aucune action.
 </UL>
 
 <P></P>
-<A NAME="InstallingNVDA"></A>
-<H3>3.2. Installer NVDA</H3>
 <P>
-Si vous installez NVDA directement par le paquet téléchargé, cliquez sur le bouton "Installer NVDA sur cet ordinateur".
-Si vous avez déjà fermé ce dialogue, ou si vous voulez l'installer à partir d'une copie portable, allez dans le menu NVDA, cliquez sur "Outils", et choisissez "Installer NVDA".
+Si vous prévoyez de toujours utiliser NVDA sur cet ordinateur, vous choisirez d'installer NVDA.
+L'installation de NVDA permettra des fonctionnalités supplémentaires telles que le démarrage automatique après la connexion, la possibilité de lire l'écran de connexion Windows et <A HREF="#SecureScreens">les écrans sécurisés</A>.
+Cela ne peut pas être fait avec des copies portables ou temporaires.
+Pour plus de détails sur les limitations lors de l'exécution d'une copie portable ou temporaire de NVDA, veuillez consulter les <A HREF="#PortableAndTemporaryCopyRestrictions">Restrictions relatives aux copies portables et temporaires</A>.
 </P>
 <P>
-Le dialogue d'installation qui s'affichera vous demandera de confirmer l'installation, et vous signalera s'il s'agit de la mise à jour d'une installation existante.
-Cliquer sur le bouton "Continuer" installera NVDA.
-Deux options détaillées ci-dessous sont disponibles dans ce dialogue.
-Dès que l'installation sera terminée, un message s'affichera vous signalant la fin de l'installation.
-Cliquer sur "OK" lancera la version nouvellement installée.
+L'installation propose également de créer un menu Démarrer et des raccourcis sur le bureau, et permet à NVDA d'être démarré avec <CODE>contrôle+alt+n</CODE>.
+</P>
+<A NAME="StepsForInstallingNVDAFromTheLauncher"></A>
+<H4>2.2.2. Étapes pour installer NVDA depuis le lanceur</H4>
+<P>
+Ces étapes décrivent les options de configuration les plus courantes.
+Pour plus de détails sur les options disponibles, veuillez consulter <A HREF="#InstallingNVDA">Options d'installation</A>.
+</P>
+<OL>
+<LI>Depuis le lanceur, assurez-vous que la case à cocher pour accepter la licence est cochée.
+<LI>Appuyez sur <CODE>Tab</CODE> jusqu'au bouton "Installer NVDA sur cet ordinateur" et activez-le.
+<LI>Ensuite, viennent des options pour utiliser NVDA lors de la connexion à Windows et pour créer un raccourci sur le bureau.
+Celles-ci sont cochées par défaut.
+Si vous le souhaitez, appuyez sur <CODE>tabulation</CODE> et <CODE>barre d'espace</CODE> pour modifier l'une de ces options, ou laissez-les par défaut.
+<LI>Appuyez sur <CODE>entrer</CODE> pour continuer.
+<LI>Un dialogue Windows "Contrôle de compte d'utilisateur (UAC)" apparaît et vous demande "Voulez-vous autoriser cette application à apporter des modifications à votre PC ?".
+<LI>Appuyez sur <CODE>alt+o</CODE> pour accepter l'invite UAC.
+<LI>Une barre de progression se remplit au fur et à mesure de l'installation de NVDA.
+Au cours de ce processus, NVDA émet un bip de plus en plus aigu.
+Ce processus est souvent rapide et peut ne pas être remarqué.
+<LI>Un dialogue apparaît confirmant que l'installation de NVDA a réussi.
+Le message demande d'"Appuyer sur OK pour démarrer la copie installée".
+Appuyez sur <CODE>entrer</CODE> pour démarrer la copie installée.
+<LI>Le dialogue "Bienvenue dans NVDA" apparaît et NVDA lit un message de bienvenue.
+Le focus est mis sur le menu déroulant "Disposition du clavier".
+Par défaut, la disposition du clavier "Ordinateur de bureau" utilise le pavé numérique pour certaines fonctions.
+Si vous le souhaitez, appuyez sur <CODE>flècheBas</CODE> pour choisir la disposition du clavier "Ordinateur portable" afin de réaffecter les fonctions du pavé numérique à d'autres touches.
+<LI>Appuyez sur <CODE>tab</CODE> pour passer à "Utiliser <CODE>verrouillage majuscule</CODE> comme touche de modification NVDA".
+<CODE>Insert</CODE> est défini comme touche de modification NVDA par défaut.
+Appuyez sur <CODE>barre d'espace</CODE> pour sélectionner <CODE>verrouillage majuscule</CODE> comme touche de modification alternative.
+Notez que la disposition du clavier est définie séparément de la touche de modification NVDA.
+La touche de modification NVDA et la disposition du clavier peuvent être modifiées ultérieurement à partir des paramètres du clavier.
+<LI>Utilisez <CODE>tab</CODE> et <CODE>barre d'espace</CODE> pour ajuster les autres options sur cet écran.
+Celles-ci définissent si NVDA doit démarrer automatiquement.
+<LI>Appuyez sur <CODE>entrer</CODE> pour fermer le dialogue avec NVDA en cours d'exécution.
+</OL>
+
+<P></P>
+<A NAME="RunningNVDA"></A>
+<H3>2.3. Exécuter NVDA</H3>
+<P>
+Le guide de l'utilisateur complet de NVDA contient toutes les commandes NVDA, divisées en différentes sections pour référence.
+Les tableaux de commandes sont également disponibles dans le "Résumé des Commandes".
+Le module de formation NVDA "Basic Training for NVDA" étudie chaque commande plus en profondeur avec des activités étape par étape.
+La "Formation de base pour NVDA" est disponible dans la <A HREF="http://www.nvaccess.org/shop">boutique NV Access</A>.
+</P>
+<P>
+Voici quelques commandes de base fréquemment utilisées.
+Toutes les commandes sont configurables, ce sont donc les frappes par défaut pour ces fonctions.
+</P>
+<A NAME="NVDAModifierKey"></A>
+<H4>2.3.1. La Touche de Modification NVDA</H4>
+<P>
+La touche de modification NVDA par défaut est soit <CODE>pavnumZéro</CODE>, (avec <CODE>verrouillage numérique</CODE> désactivé), soit la touche <CODE>insert</CODE>, près des touches <CODE>effacement</CODE>, <CODE>début</CODE> et ``fin ``.
+La touche de modification NVDA peut également être définie sur la touche <CODE>verrouillage majuscule</CODE>.
+</P>
+<A NAME="InputHelp"></A>
+<H4>2.3.2. Aide à la Saisie</H4>
+<P>
+Pour apprendre et pratiquer l'emplacement des touches, appuyez sur <CODE>NVDA+1</CODE> pour activer l'aide à la saisie.
+En mode d'aide à la saisie, effectuer n'importe quel geste de saisie (comme appuyer sur une touche ou effectuer un geste tactile) signalera l'action et décrira ce qu'elle fait (le cas échéant).
+Les commandes réelles ne s'exécuteront pas en mode d'aide à la saisie.
+</P>
+<A NAME="StartingAndStoppingNVDA"></A>
+<H4>2.3.3. Démarrer et Arrêter NVDA</H4>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche ordinateur de bureau</TH>
+<TH>Touche ordinateur portable</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Démarrer NVDA</TD>
+<TD><CODE>contrôle+alt+n</CODE></TD>
+<TD><CODE>contrôle+alt+n</CODE></TD>
+<TD>Démarre ou redémarre NVDA</TD>
+</TR>
+<TR>
+<TD>Quitter NVDA</TD>
+<TD><CODE>NVDA+q</CODE>, puis <CODE>entrer</CODE></TD>
+<TD><CODE>NVDA+q</CODE>, puis <CODE>entrer</CODE></TD>
+<TD>quitte NVDA</TD>
+</TR>
+<TR>
+<TD>Interrompre ou relancer la parole</TD>
+<TD><CODE>majuscule</CODE></TD>
+<TD><CODE>majuscule</CODE></TD>
+<TD>Interrompt instantanément la parole. Un nouvel appui reprendra la parole là où elle s'est arrêtée</TD>
+</TR>
+<TR>
+<TD>Arrêt de la parole</TD>
+<TD><CODE>contrôle</CODE></TD>
+<TD><CODE>contrôle</CODE></TD>
+<TD>Interrompt instantanément la parole</TD>
+</TR>
+</TABLE>
+
+<A NAME="ReadingText"></A>
+<H4>2.3.4. Lire du texte</H4>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche ordinateur de bureau</TH>
+<TH>Touche ordinateur portable</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Dire tout</TD>
+<TD><CODE>NVDA+flècheBas</CODE></TD>
+<TD><CODE>NVDA+a</CODE></TD>
+<TD>Commence à lire à partir de la position courante en la déplaçant au fur et à mesure</TD>
+</TR>
+<TR>
+<TD>Lire la ligne courante</TD>
+<TD><CODE>NVDA+flècheHaut</CODE></TD>
+<TD><CODE>NVDA+l</CODE></TD>
+<TD>Lit la ligne. Un double appui épelle la ligne. Un triple appui épelle la ligne en utilisant la description de caractères (Alpha, Bravo, Charlie, etc)</TD>
+</TR>
+<TR>
+<TD>Lire la sélection</TD>
+<TD><CODE>NVDA+maj+flècheHaut</CODE></TD>
+<TD><CODE>NVDA+maj+s</CODE></TD>
+<TD>Lit tout texte sélectionné</TD>
+</TR>
+<TR>
+<TD>Lire le texte du presse-papiers</TD>
+<TD><CODE>NVDA+c</CODE></TD>
+<TD><CODE>NVDA+c</CODE></TD>
+<TD>Lit tout texte dans le presse-papiers</TD>
+</TR>
+</TABLE>
+
+<A NAME="ReportingLocation"></A>
+<H4>2.3.5. Annoncer la position et autres informations</H4>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche ordinateur de bureau</TH>
+<TH>Touche ordinateur portable</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Titre de la fenêtre</TD>
+<TD><CODE>NVDA+t</CODE></TD>
+<TD><CODE>NVDA+t</CODE></TD>
+<TD>Annonce le titre de la fenêtre actuellement active. Un double appui épelle l'information. Un triple appui la copie dans le presse-papiers</TD>
+</TR>
+<TR>
+<TD>Annoncer le focus</TD>
+<TD><CODE>NVDA+tab</CODE></TD>
+<TD><CODE>NVDA+tab</CODE></TD>
+<TD>Annonce le contrôle actuellement en focus. Un double appui épelle l'information</TD>
+</TR>
+<TR>
+<TD>Lire la fenêtre</TD>
+<TD><CODE>NVDA+b</CODE></TD>
+<TD><CODE>NVDA+b</CODE></TD>
+<TD>Lit entièrement la fenêtre courante (utile pour les dialogues)</TD>
+</TR>
+<TR>
+<TD>Lire la barre d'état</TD>
+<TD><CODE>NVDA+fin</CODE></TD>
+<TD><CODE>NVDA+maj+fin</CODE></TD>
+<TD>Annonce la barre d'état si NVDA en trouve une. Un double appui épelle l'information. Un triple appui la copie dans le presse-papiers</TD>
+</TR>
+<TR>
+<TD>Lire l'heure</TD>
+<TD><CODE>NVDA+f12</CODE></TD>
+<TD><CODE>NVDA+f12</CODE></TD>
+<TD>Un appui annonce l'heure courante, un double appui annonce la date</TD>
+</TR>
+<TR>
+<TD>Annoncer la mise en forme du texte</TD>
+<TD><CODE>NVDA+f</CODE></TD>
+<TD><CODE>NVDA+f</CODE></TD>
+<TD>Annonce la mise en forme du texte. Un double appui affiche l'information dans une fenêtre</TD>
+</TR>
+</TABLE>
+
+<A NAME="ToggleWhichInformationNVDAReads"></A>
+<H4>2.3.6. Choisir les informations lues par NVDA</H4>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche ordinateur de bureau</TH>
+<TH>Touche ordinateur portable</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Dire les caractères tapés</TD>
+<TD><CODE>NVDA+2</CODE></TD>
+<TD><CODE>NVDA+2</CODE></TD>
+<TD>Lorsqu'activé, NVDA annoncera tous les caractères que vous tapez sur le clavier.</TD>
+</TR>
+<TR>
+<TD>Dire les mots tapés</TD>
+<TD><CODE>NVDA+3</CODE></TD>
+<TD><CODE>NVDA+3</CODE></TD>
+<TD>Lorsqu'activé, NVDA annoncera les mots que vous tapez sur le clavier.</TD>
+</TR>
+<TR>
+<TD>Dire les touches de commande</TD>
+<TD><CODE>NVDA+4</CODE></TD>
+<TD><CODE>NVDA+4</CODE></TD>
+<TD>Lorsqu'activé, annoncera toutes les touches n'étant pas des caractères que vous taperez sur le clavier. Cela inclut les combinaisons de touches telles que contrôle plus une autre lettre.</TD>
+</TR>
+<TR>
+<TD>Activer le suivi de la souris</TD>
+<TD><CODE>NVDA+m</CODE></TD>
+<TD><CODE>NVDA+m</CODE></TD>
+<TD>Lorsqu'activé, NVDA annoncera le texte actuellement sous le pointeur souris, tandis que vous le déplacez sur l'écran. Cela vous permet de trouver les choses sur l'écran, en déplaçant physiquement la souris, plutôt que d'essayer de les trouver en utilisant la navigation par objet.</TD>
+</TR>
+</TABLE>
+
+<A NAME="TheSynthSettingsRing"></A>
+<H4>2.3.7. La boucle des paramètres synthétiseur</H4>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche ordinateur de bureau</TH>
+<TH>Touche ordinateur portable</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Aller au paramètre synthétiseur suivant</TD>
+<TD><CODE>NVDA+contrôle+flècheDroit</CODE></TD>
+<TD><CODE>NVDA+maj+contrôle+flècheDroit</CODE></TD>
+<TD>Va au paramètre vocal suivant disponible, retournant au premier après le dernier</TD>
+</TR>
+<TR>
+<TD>Aller au paramètre synthétiseur précédent</TD>
+<TD><CODE>NVDA+contrôle+flècheGauche</CODE></TD>
+<TD><CODE>NVDA+maj+contrôle+flècheGauche</CODE></TD>
+<TD>Va au paramètre vocal précédent disponible, retournant au dernier après le premier</TD>
+</TR>
+<TR>
+<TD>Augmenter le paramètre synthétiseur courant</TD>
+<TD><CODE>NVDA+contrôle+flècheHaut</CODE></TD>
+<TD><CODE>NVDA+maj+contrôle+flècheHaut</CODE></TD>
+<TD>Augmente le paramètre vocal sur lequel vous vous trouvez. Ex. augmente le débit, choisit la voix suivante, augmente le volume</TD>
+</TR>
+<TR>
+<TD>diminuer le paramètre synthétiseur courant</TD>
+<TD><CODE>NVDA+contrôle+flècheBas</CODE></TD>
+<TD><CODE>NVDA+maj+contrôle+flècheBas</CODE></TD>
+<TD>diminue le paramètre vocal sur lequel vous vous trouvez. Ex. diminue le débit, choisit la voix précédente, diminue le volume</TD>
+</TR>
+</TABLE>
+
+<A NAME="WebNavigation"></A>
+<H4>2.3.8. Navigation sur le web</H4>
+<P>
+La liste complète des touches de navigation à lettre unique se trouve dans la section <A HREF="#BrowseMode">Mode Navigation</A> du guide de l'utilisateur.
+</P>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Commande</TH>
+<TH>Frappe</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Titre</TD>
+<TD><CODE>h</CODE></TD>
+<TD>Aller au titre suivant</TD>
+</TR>
+<TR>
+<TD>Titre de niveau 1, 2, ou 3</TD>
+<TD><CODE>1</CODE>, <CODE>2</CODE>, <CODE>3</CODE></TD>
+<TD>Aller au titre suivant au niveau spécifié</TD>
+</TR>
+<TR>
+<TD>Champ de formulaire</TD>
+<TD><CODE>f</CODE></TD>
+<TD>Aller au champ de formulaire suivant (zone d'édition, bouton, etc)</TD>
+</TR>
+<TR>
+<TD>Lien</TD>
+<TD><CODE>k</CODE></TD>
+<TD>Aller au lien suivant</TD>
+</TR>
+<TR>
+<TD>Région</TD>
+<TD><CODE>d</CODE></TD>
+<TD>Aller à la région suivante</TD>
+</TR>
+<TR>
+<TD>Liste</TD>
+<TD><CODE>l</CODE></TD>
+<TD>Aller à la liste suivante</TD>
+</TR>
+<TR>
+<TD>Tableau</TD>
+<TD><CODE>t</CODE></TD>
+<TD>Aller au tableau suivant</TD>
+</TR>
+<TR>
+<TD>Revenir en arrière</TD>
+<TD><CODE>maj+lettre</CODE></TD>
+<TD>Pressez <CODE>maj</CODE> et n'importe laquelle des lettres ci-dessus pour aller à l'élément précédent de ce type</TD>
+</TR>
+<TR>
+<TD>Liste des éléments</TD>
+<TD><CODE>NVDA+f7</CODE></TD>
+<TD>Liste différents types d'éléments, tels que liens et titres</TD>
+</TR>
+</TABLE>
+
+<A NAME="Preferences"></A>
+<H3>2.4. Préférences</H3>
+<P>
+La plupart des fonctions NVDA peuvent être activées ou modifiées via les paramètres NVDA.
+Les paramètres et d'autres options sont disponibles via le menu de NVDA.
+Pour ouvrir le menu de NVDA, appuyez sur <CODE>NVDA+n</CODE>.
+Pour ouvrir directement le dialogue des paramètres généraux de NVDA, appuyez sur <CODE>NVDA+contrôle+g</CODE>.
+De nombreux écrans de paramètres ont des touches pour les ouvrir directement, comme <CODE>NVDA+contrôle+s</CODE> pour le synthétiseur, ou <CODE>NVDA+contrôle+v</CODE> pour les autres options de parole.
+</P>
+<A NAME="Community"></A>
+<H3>2.5. Communauté</H3>
+<P>
+NVDA a une communauté d'utilisateurs dynamique. Il existe une <A HREF="https://nvda.groups.io/g/nvda">liste de diffusion en anglais principale</A> et une page complète de <A HREF="https://github.com/nvaccess/nvda-community/wiki/Connect">groupes de langues locales</A> .
+NV Access, développeur de NVDA, est actif sur Twitter <A HREF="https://twitter.com/nvaccess">Twitter</A> et <A HREF="https://www.facebook.com/NVAccess">Facebook</A>.
+NV Access a également un <A HREF="https://www.nvaccess.org/category/in-process/">blog In-Process</A> régulier.
+</P>
+<P>
+Il existe également un programme <A HREF="https://certification.nvaccess.org/">NVDA Certified Expert</A>.
+Il s'agit d'un examen en ligne que vous pouvez passer pour démontrer vos compétences dans NVDA.
+<A HREF="https://certification.nvaccess.org/">Les experts certifiés NVDA</A> peuvent répertorier leurs coordonnées et les détails commerciaux pertinents.
+</P>
+<A NAME="GettingHelp"></A>
+<H3>2.6. Obtenir de l'aide</H3>
+<P>
+Pour obtenir de l'aide sur NVDA, appuyez sur <CODE>NVDA+n</CODE> pour ouvrir le menu, puis sur <CODE>h</CODE> pour obtenir de l'aide.
+À partir de ce sous-menu, vous pouvez accéder au Guide de l'utilisateur, à une référence rapide des commandes, à l'historique des nouvelles fonctionnalités et bien plus encore.
+Ces trois premières options s'ouvrent dans le navigateur Web par défaut.
+Il existe également du matériel de formation plus complet disponible dans la <A HREF="https://www.nvaccess.org/shop">Boutique NV Access</A>.
+</P>
+<P>
+Nous vous recommandons de commencer par le module "Formation de base pour NVDA".
+Ce module couvre les concepts allant de la mise en route à la navigation sur le Web et à l'utilisation de la navigation par objet.
+Il est disponible en :
+</P>
+<UL>
+<LI><A HREF="https://www.nvaccess.org/product/basic-training-for-nvda-ebook/">Texte électronique</A>, qui inclut les formats Word DOCX, page Web HTML, eBook ePub et Kindle KFX.
+<LI><A HREF="https://www.nvaccess.org/product/basic-training-for-nvda-downloadable-audio/">Lecture vocale (voix humaine), audio mp3</A>
+<LI><A HREF="https://www.nvaccess.org/product/basic-training-for-nvda-braille-hard-copy/">Version papier Braille UEB</A> avec livraison incluse partout dans le monde.
+D'autres modules, et le <A HREF="https://www.nvaccess.org/product/nvda-productivity-bundle/">Pack de productivité NVDA</A> à prix réduit, sont disponibles dans la <A HREF="https://www.nvaccess.org/shop/">Boutique NV Access</A>.
+<P></P>
+NV Access vend également une <A HREF="https://www.nvaccess.org/product/nvda-telephone-support/">assistance téléphonique</A>, soit en blocs, soit dans le cadre du <A HREF="https://www.nvaccess.org/product/nvda-productivity-bundle/">Pack de Productivité NVDA</A>.
+L'assistance téléphonique est disponible pour les numéros situés en Australie et aux États-Unis.
+<P></P>
+Les <A HREF="https://github.com/nvaccess/nvda-community/wiki/Connect">groupes d'utilisateurs par e-mail</A> sont une excellente source d'aide communautaire, tout comme les <A HREF="https://certification.nvaccess.org/">experts NVDA certifiés</A>.
+</UL>
+
+<A NAME="MoreSetupOptions"></A>
+<H2>3. Plus d'Options de Configuration</H2>
+<A NAME="InstallingNVDA"></A>
+<H3>3.1. Options d'Installation</H3>
+<P>
+Si vous installez NVDA directement depuis le lanceur NVDA téléchargé, appuyez sur le bouton Installer NVDA.
+Si vous avez déjà fermé ce dialogue ou souhaitez installer à partir d'une copie portable, veuillez choisir l'élément de menu Installer NVDA qui se trouve sous Outils dans le menu NVDA.
+</P>
+<P>
+Le dialogue d'installation qui apparaît demandera de confirmer si vous souhaitez installer NVDA et vous indiquera également si cette installation mettra à jour une installation précédente.
+Appuyez sur le bouton Continuer pour lancer l'installation de NVDA.
+Il y a aussi quelques options dans ce dialogue qui sont expliquées ci-dessous.
+Une fois l'installation terminée, un message apparaîtra vous indiquant qu'elle a réussi.
+Appuyer sur OK à ce stade redémarrera la copie nouvellement installée de NVDA.
 </P>
 <A NAME="InstallWithIncompatibleAddons"></A>
-<H4>3.2.1. Avertissement d'extensions incompatibles</H4>
+<H4>3.1.1. Avertissement d'extensions incompatibles</H4>
 <P>
 Si vous avez déjà installé des extensions, il peut également y avoir un avertissement indiquant que les extensions incompatibles seront désactivées.
 Avant de pouvoir presser le bouton Continuer, vous devrez utiliser la case à cocher pour confirmer que vous comprenez que ces extensions seront désactivées.
@@ -390,40 +821,61 @@ Il y aura également un bouton pour lister les extensions qui seront désactivé
 Veuillez consulter la section <A HREF="#incompatibleAddonsManager">dialogue des extensions incompatibles</A> pour plus d'aide concernant ce bouton.
 </P>
 <A NAME="StartAtWindowsLogon"></A>
-<H4>3.2.2. Utiliser NVDA sur l'Écran de Connexion à Windows</H4>
+<H4>3.1.2. Utiliser NVDA lors de la connexion</H4>
 <P>
-Cette option vous permet de choisir si NVDA doit ou non démarrer automatiquement quand vous êtes sur l'écran de connexion, avant que vous ayez saisi un mot de passe.
-Ceci inclut le contrôle du compte d'utilisateur et <A HREF="#SecureScreens">autres écrans sécurisés</A>.
+Cette option vous permet de choisir si NVDA doit ou non démarrer automatiquement lorsque vous êtes sur l'écran de connexion Windows, avant que vous ayez entré un mot de passe.
+Cela inclut également le contrôle de compte d'utilisateur et <A HREF="#SecureScreens">autres écrans sécurisés</A>.
 Cette option est activée par défaut pour les nouvelles installations.
 </P>
-<A NAME="CreateDesktopShortcut"></A>
-<H4>3.2.3. Créer une Icône sur le Bureau et le Raccourci Clavier (contrôle+alt+n)</H4>
 <P>
++++ Créer un raccourci sur le bureau (ctrl+alt+n) +++<A HREF="bureau">Créer un raccourci sur le</A>
 Cette option vous permet de choisir si NVDA doit ou non créer un raccourci sur le bureau pour démarrer NVDA.
-S'il est créé, ce raccourci sera doté d'une combinaison de touches contrôle+alt+n, vous permettant de lancer NVDA à tout moment avec cette combinaison.
+S'il est créé, ce raccourci se verra également attribuer une touche de raccourci <CODE>contrôle+alt+n</CODE>, vous permettant de démarrer NVDA à tout moment avec cette touche.
 </P>
 <A NAME="CopyPortableConfigurationToCurrentUserAccount"></A>
-<H4>3.2.4. Copier la Configuration Portable dans le Compte de l'Utilisateur Courant</H4>
+<H4>3.1.3. Copier la configuration portable sur le compte d'utilisateur actuel</H4>
 <P>
-Cette option vous permet de choisir si NVDA doit ou non copier la configuration utilisateur depuis la copie de NVDA en cours d'exécution vers la configuration de l'utilisateur courant, pour la version installée de NVDA.
-Cela ne copiera la configuration ni pour un autre utilisateur du système, ni pour la configuration du système dans le cas de l'utilisation dans l'identification Windows ou les <A HREF="#SecureScreens">autres écrans sécurisés</A>.
-Cette option n'est disponible que lorsque vous installez NVDA depuis une copie portable, pas quand vous installez depuis le paquet téléchargé du lanceur.
+Cette option vous permet de choisir si NVDA doit ou non copier la configuration utilisateur de NVDA en cours d'exécution dans la configuration de l'utilisateur actuellement connecté, pour la copie installée de NVDA.
+Cela ne copiera pas la configuration pour les autres utilisateurs de ce système ni dans la configuration du système à utiliser lors de la connexion à Windows et <A HREF="#SecureScreens">autres écrans sécurisés</A>.
+Cette option n'est disponible que lors de l'installation à partir d'une copie portable, et non lors de l'installation directement à partir du Lanceur téléchargé.
 </P>
 <A NAME="CreatingAPortableCopy"></A>
-<H3>3.3. Créer une Copie Portable</H3>
+<H3>3.2. Création d'une copie portable</H3>
 <P>
-Si vous voulez créer votre copie depuis le paquet téléchargé, cliquez simplement sur le bouton "Créer une copie portable".
-Si vous avez déjà fermé ce dialogue ou si vous êtes dans une version installée, allez dans le menu NVDA, cliquez sur "Outils", et choisissez "Créer une copie portable".
+Si vous créez une copie portable directement à partir du package de téléchargement NVDA, appuyez sur le bouton Créer une copie portable.
+Si vous avez déjà fermé ce dialogue ou si vous exécutez une copie installée de NVDA, choisissez l'élément de menu Créer une copie portable qui se trouve sous Outils dans le menu NVDA.
 </P>
 <P>
-Le dialogue qui s'affiche vous permet de choisir où créer la copie portable.
-Celui-ci peut être un répertoire de votre disque dur, un chemin sur une clé USB ou un autre média portable.
-Vous pouvez choisir si oui ou non NVDA doit copier la configuration NVDA de l'utilisateur courant pour l'utiliser avec la copie portable nouvellement créée.
-Cette option n'est disponible que lorsque vous créez une copie portable de NVDA depuis une copie installée, pas quand vous créez une copie portable depuis le paquet téléchargé du lanceur.
-Cliquer sur "Continuer" créera la copie portable.
-Dès que la création est terminée, un message s'affiche.
-Cliquez sur "OK" pour fermer ce dialogue.
+Le dialogue qui apparaît vous permet de choisir où la copie portable doit être créée.
+Il peut s'agir d'un répertoire sur votre disque dur ou d'un emplacement sur une clé USB ou un autre support portable.
+Il existe également une option pour choisir si NVDA doit copier la configuration NVDA actuelle de l'utilisateur connecté pour l'utiliser avec la copie portable nouvellement créée.
+Cette option n'est disponible que lors de la création d'une copie portable à partir d'une copie installée, pas lors de la création à partir du package de téléchargement.
+Appuyer sur Continuer créera la copie portable.
+Une fois la création terminée, un message apparaîtra vous indiquant qu'elle a réussi.
+Appuyez sur OK pour fermer ce dialogue.
 </P>
+<A NAME="PortableAndTemporaryCopyRestrictions"></A>
+<H3>3.3. Restrictions des Versions Portables et Temporaires</H3>
+<P>
+Si vous souhaitez emporter NVDA avec vous sur une clé USB ou un autre support inscriptible, vous devez choisir de créer une copie portable.
+La copie installée est également capable de créer une copie portable d'elle-même à tout moment.
+La copie portable a également la capacité de s'installer sur n'importe quel ordinateur ultérieurement.
+Cependant, si vous souhaitez copier NVDA sur un support en lecture seule tel qu'un CD, vous devez simplement copier le package de téléchargement.
+L'exécution de la version portable directement à partir d'un support en lecture seule n'est pas prise en charge pour le moment.
+L'utilisation de la copie temporaire de NVDA est également une option (par exemple à des fins de démonstration), bien que démarrer NVDA de cette manière à chaque fois puisse prendre beaucoup de temps.
+</P>
+<P>
+Outre l'impossibilité de démarrer automatiquement pendant ou après l'ouverture de session, les versions portables et temporaires de NVDA ont également les restrictions suivantes :
+</P>
+<UL>
+<LI>Impossible d'interagir avec les applications démarrées avec les privilèges administrateur, sauf bien sûr si NVDA a été démarré avec ces privilèges (non recommandé) ;
+<LI>Impossible de lire les écrans de contrôle de compte utilisateur (UAC) lorsque l'on tente de démarrer une application avec les privilèges administrateur ;
+<LI>Windows 8 et au-delà : impossible d'utiliser un écran tactile comme support d'entrée ;
+<LI>Windows 8 et au-delà : impossible de prendre en charge des fonctionnalités comme le mode navigation ou l'annonce des caractères saisis dans les applications du Windows Store.
+<LI>Windows 8 et au-delà : l'atténuation audio n'est pas supportée.
+</UL>
+
+<P></P>
 <A NAME="GettingStartedWithNVDA"></A>
 <H2>4. Prendre en Main NVDA</H2>
 <A NAME="LaunchingNVDA"></A>
@@ -747,6 +1199,12 @@ Quelques touches de commandes utiles pour naviguer avec le focus :
 <TD>NVDA+maj+fin</TD>
 <TD>Lit la barre d'état si NVDA en trouve une. Un double appui épelle l'information. Un triple appui la copie dans le presse-papiers</TD>
 </TR>
+<TR>
+<TD>Annoncer le Raccourci Clavier</TD>
+<TD><CODE>maj+pavnum2</CODE></TD>
+<TD><CODE>NVDA+contrôle+maj+.</CODE></TD>
+<TD>Annonce le raccourci clavier (accélérateur) de l'objet actuellement en focus</TD>
+</TR>
 </TABLE>
 
 <A NAME="SystemCaret"></A>
@@ -862,6 +1320,26 @@ Dans un tableau, vous disposez également des touches de commandes suivantes :
 <TD>Aller à la dernière ligne</TD>
 <TD>contrôle+alt+pageSuiv</TD>
 <TD>Déplace le curseur système à la dernière ligne (en restant sur la même colonne)</TD>
+</TR>
+<TR>
+<TD>Dire tout dans la colonne</TD>
+<TD><CODE>NVDA+contrôle+alt+flècheBas</CODE></TD>
+<TD>Lit la colonne verticalement depuis la cellule courante jusqu'à la dernière cellule de la colonne.</TD>
+</TR>
+<TR>
+<TD>Dire tout dans la ligne</TD>
+<TD><CODE>NVDA+contrôle+alt+flècheDroit</CODE></TD>
+<TD>Lit la ligne horizontalement depuis la cellule courante jusqu'à la dernière cellule de la ligne.</TD>
+</TR>
+<TR>
+<TD>Lire toute la colonne</TD>
+<TD><CODE>NVDA+contrôle+alt+flècheHaut</CODE></TD>
+<TD>Lit la colonne courante verticalement du début à la fin sans déplacer le curseur système.</TD>
+</TR>
+<TR>
+<TD>Lire toute la ligne</TD>
+<TD><CODE>NVDA+contrôle+alt+flècheGauche</CODE></TD>
+<TD>Lit la ligne courante horizontalement de gauche à droite sans déplacer le curseur système.</TD>
 </TR>
 </TABLE>
 
@@ -1098,6 +1576,20 @@ Vous disposez des commandes suivantes pour explorer du texte :
 <TD>NVDA+fin</TD>
 <TD>Aucun</TD>
 <TD>Amène le curseur de revue à la fin de la ligne courante</TD>
+</TR>
+<TR>
+<TD>Aller à la page précédente en revue</TD>
+<TD><CODE>NVDA+pagePrec</CODE></TD>
+<TD><CODE>NVDA+maj+pagePrec</CODE></TD>
+<TD>aucune</TD>
+<TD>Amène le curseur de revue à la page précédente de texte si supporté par l'application</TD>
+</TR>
+<TR>
+<TD>Aller à la page suivante en revue</TD>
+<TD><CODE>NVDA+pageSuiv</CODE></TD>
+<TD><CODE>NVDA+maj+pageSuiv</CODE></TD>
+<TD>aucune</TD>
+<TD>Amène le curseur de revue à la page suivante de texte si supporté par l'application</TD>
 </TR>
 <TR>
 <TD>Dire tout en revue</TD>
@@ -1999,7 +2491,7 @@ Cette émulation se présente sous deux formes : l'attribution d'une entrée br
 <P>
 Les touches couramment utilisées, telles que les touches fléchées ou l'appui sur Alt pour accéder aux menus, peuvent être mappées directement sur la saisie braille.
 Le pilote de chaque afficheur braille est pré-équipé avec certaines de ces affectations.
-Vous pouvez modifier ces affectations ou ajouter de nouvelles touches émulées à partir de la <A HREF="#InputGestures">boîte de dialogue Gestes de commandes</A>.
+Vous pouvez modifier ces affectations ou ajouter de nouvelles touches émulées à partir du <A HREF="#InputGestures">dialogue Gestes de commandes</A>.
 </P>
 <P>
 Bien que cette approche soit utile pour les touches fréquemment pressées ou uniques (telles que la tabulation), vous ne souhaiterez peut-être pas attribuer un ensemble unique de touches à chaque raccourci clavier.
@@ -2721,7 +3213,7 @@ Cependant, certains synthétiseurs utilisant les API de parole Microsoft se comp
 Si vous rencontrez des problèmes à l'épellation de caractères, essayez de désactiver cette option.
 </P>
 <A NAME="delayedCharacterDescriptions"></A>
-<H5>Descriptions différée des caractères lors du mouvement du curseur</H5>
+<H5>Description différée des caractères lors du mouvement du curseur</H5>
 <DL>
 <DT>Défaut</DT><DD>
   Désactivé
@@ -3506,23 +3998,23 @@ Dans ce cas NVDA demandera à Windows de jouer un son par défaut quand une touc
 <A NAME="BrowseModeSettingsAutoFocusFocusableElements"></A>
 <H5>Amener automatiquement le focus système aux éléments focalisables</H5>
 <P>
-touche : NVDA+8
+touche : NVDA+8
 </P>
 <P>
 Désactivée par défaut, cette option vous permet de choisir si le focus système doit être automatiquement positionné aux éléments pouvant prendre le focus système (liens, champs de saisie, etc.) quand on parcourt le contenu avec le curseur de mode navigation.
 Laisser cette option désactivée ne focalisera pas automatiquement les éléments focalisables quand ils seront sélectionnés avec le curseur du mode navigation.
 Cela pourrait apporter une expérience de navigation plus rapide et une meilleure réactivité en mode navigation.
-Le focus sera alors mis à jour lors d'une interaction avec un élément particulier (ex : l'appui d'un bouton, le cochage d'une case à cocher).
+Le focus sera alors mis à jour lors d'une interaction avec un élément particulier (ex : l'appui d'un bouton, le cochage d'une case à cocher).
 Activer cette option peut améliorer le support de quelques sites web au détriment de la performance et de la stabilité.
 </P>
 <A NAME="DocumentFormattingSettings"></A>
 <H4>12.1.15. Mise en Forme des Documents (NVDA+contrôle+d)</H4>
 <P>
-La plupart des cases à cocher de cette catégorie servent à définir quelles informations de mise en forme on souhaite entendre automatiquement lorsqu'on parcourt un document.
+La plupart des options de cette catégorie servent à définir quelles informations de mise en forme vous souhaitez entendre automatiquement lorsque vous parcourez un document.
 Par exemple, si on coche la case "Annoncer le nom de la police", à chaque fois que les flèches amènent sur un texte avec une police différente, le nom de la police est annoncé.
 </P>
 <P>
-Les options de mise en forme des document sont organisées en deux groupes ;
+Les options de mise en forme des document sont organisées par groupes ;
 On peut configurer les annonces suivantes :
 </P>
 <UL>
@@ -3556,7 +4048,7 @@ On peut configurer les annonces suivantes :
 <LI>Informations sur les tableaux
  <UL>
  <LI>Tableaux
- <LI>En-têtes des lignes et colonnes
+ <LI>En-têtes des lignes et colonnes (désactivé, lignes, colonnes, lignes et colonnes)
  <LI>Coordonnées des cellules
  <LI>Bordure des cellules (désactivé, Styles, Couleurs et Styles)
  </UL>
@@ -3650,14 +4142,29 @@ Ce bouton ouvre le répertoire où vous pouvez placer le code personnalisé que 
 Ce bouton n'est disponible que si NVDA est configuré pour permettre le chargement de code personnalisé depuis le répertoire Bloc-notes du développeur.
 </P>
 <A NAME="AdvancedSettingsSelectiveUIAEventRegistration"></A>
-<H5>Activer l'enregistrement sélectif pour les événements UI Automation et les changements de propriétés</H5>
+<H5>Enregistrement des événements et modifications de propriété UI Automation</H5>
+<DL>
+<DT>Par défaut</DT><DD>
+  Automatique
+<DT>Options</DT><DD>
+  Automatique, Sélectif, Global
+</DL>
+
+<P></P>
 <P>
 Cette option change la façon dont NVDA enregistre les événements déclenchés par l'API d'accessibilité UI Automation de Microsoft.
-Quand cette option est désactivée, NVDA enregistre beaucoup dévénements UIA qui sont traités puis supprimés par NVDA lui-même.
-Ceci a un impact négatif majeur sur les performances, en particulier dans les applications telles que Microsoft Visual Studio.
-En revanche, quand cette option est activée, NVDA limitera l'enregistrement des événements au focus système pour la plupart des événements.
-Si vous rencontrez des problèmes de performances dans une ou plusieurs applications, nous vous recommandons d'essayer cette fonctionnalité pour voir si les performances s'améliorent.
+La liste déroulante Enregistrement des événements et modifications de propriété UI Automation a trois options :
 </P>
+<UL>
+<LI>Automatique : "sélectif" sous Windows 11 Sun Valley 2 (version 22H2) et ultérieur, "global" sinon.
+<LI>Sélectif : NVDA limitera l'enregistrement des événements au focus système pour la plupart des événements
+Si vous rencontrez des problèmes de performances dans une ou plusieurs applications, nous vous recommandons d'essayer cette fonctionnalité pour voir si les performances s'améliorent.
+Cependant, sur les anciennes versions de Windows, NVDA peut avoir des difficultés à suivre le focus dans certains contrôles (tels que le gestionnaire de tâches et le panneau emoji).
+<LI>Global : NVDA enregistre de nombreux événements UIA qui sont traités et rejetés dans NVDA lui-même.
+Bien que le suivi du focus soit plus fiable dans un plus grand nombre de situations, les performances sont considérablement dégradées, en particulier dans des applications telles que Microsoft Visual Studio.
+</UL>
+
+<P></P>
 <A NAME="MSWordUIA"></A>
 <H5>Utiliser UI automation pour accéder aux contrôles des documents Microsoft Word</H5>
 <P>
@@ -3691,7 +4198,7 @@ Dans les situations où l'automatisation de l'interface utilisateur n'est pas di
 La liste déroulante de prise en charge de la console Windows comporte trois options :
 </P>
 <UL>
-<LI>Automatique : utilise UI Automation dans la version de la console Windows incluse avec Windows 11 version 22H2 et versions ultérieures.
+<LI>Automatique : utilise UI Automation dans la version de la console Windows incluse avec Windows 11 version 22H2 et versions ultérieures.
 Cette option est recommandée et définie par défaut.
 <LI>UIA si disponible : utilise l'automatisation de l'interface utilisateur dans les consoles si disponible, même pour les versions avec des implémentations incomplètes ou boguées.
 Bien que cette fonctionnalité limitée puisse être utile (et même suffisante pour votre utilisation), l'utilisation de cette option est entièrement à vos risques et périls et aucune assistance ne sera fournie.
@@ -3951,7 +4458,7 @@ Puis, pressez sur le clavier la touche que vous voulez émuler.
 Après ça, la touche sera disponible dans la catégorie Touche émulées du clavier système et vous pourrez lui assigner un geste de commande comme décrit plus haut.
 </P>
 <P>
-Note :
+Note :
 </P>
  <UL>
  <LI>Les touches émulées doivent avoir un geste assigné pour persister lors de la sauvegarde ou de la fermeture du dialogue.
@@ -5192,7 +5699,7 @@ Les terminaux suivants sont également supportés (et ne nécessitent aucun pilo
 Voici les assignations de touches pour Brailliant BI/B et BrailleNote touch sous NVDA.
 Veuillez consulter la documentation du terminal pour savoir où se situent ces touches.
 </P>
-<A NAME="toc139"></A>
+<A NAME="toc156"></A>
 <H4>15.9.1. Assignations des Touches pour tous les Modèles</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -5281,7 +5788,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc140"></A>
+<A NAME="toc157"></A>
 <H4>15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -5302,7 +5809,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc141"></A>
+<A NAME="toc158"></A>
 <H4>15.9.3. Assignations de Touches pour le Brailliant BI 14</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
