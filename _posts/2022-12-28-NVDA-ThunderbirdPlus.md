@@ -1,16 +1,16 @@
 ---
-title: Version 4.3 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
+title: Version 4.3.1 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
 permalink: "/NVDA-ThunderbirdPlus/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 28 Décembre 2022</footer>
+<footer>Publié le Mercredi 28 Décembre 2022 - Dernière mise à jour le Mercredi 4 Janvier 2022</footer>
 
 Coucou mes amis du blog de BlindHelp!    
-Voici une nouvelle Version 4.3 de Thunderbird+, en 3 langues étrangères,, ci-dessous, je vous donne toutes les informations sur cette nouvelle version de l'extension Thunderbird+ pour NVDA transmise par Pierre-Louis.    
+Voici une nouvelle Version 4.3.1 de Thunderbird+, en 3 langues étrangères,, ci-dessous, je vous donne toutes les informations sur cette nouvelle version de l'extension Thunderbird+ pour NVDA transmise par Pierre-Louis.    
 
-## Version 4.3 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
+## Version 4.3.1 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
 
 Bonjour toutes et tous,    
 
@@ -35,7 +35,7 @@ Remarque : La langue de l'interface utilisateur de NVDA doit être la même que 
 
 La mise à jour automatique aura lieu un peu plus tard, voici son lien de téléchargement :    
 
-[Télécharger Thunderbird+ v4.3 ;](http://www.rptools.org/?p=8610)
+[Télécharger Thunderbird+ v4.3.1 ;](http://www.rptools.org/?p=8610)
 
 
 Bien que Control+f1 affiche la documentation, voici les liens :    
@@ -51,7 +51,7 @@ Pierre-Louis
 ---
 
 Grand merci pour leur excellent travail à Yannick alias philaos pour la nouvelle extension chichi pour Thunderbird, à Pierre-Louis et Abdel pour l'extension Thunderbird+ pour NVDA et à tous les traducteurs et développeurs qui ont rendu possible leur intégration des 3 langues étrangères,, à cette nouvelle version 4.3 )! (handshake)    
-J'espère que vous l'apprécierez cette nouvelle version 4.3 et que ceci  soit très utile pour vous!    
+J'espère que vous l'apprécierez cette nouvelle version 4.3.1 et que ceci  soit très utile pour vous!    
 À la prochaine sur un autre post!     
 @+    
 BlindHelp!    
