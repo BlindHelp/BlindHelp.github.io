@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 28 Décembre 2022 - Dernière mise à jour le Mercredi 4 Janvier 2022</footer>
+<footer>Publié le Mercredi 28 Décembre 2022 - Dernière mise à jour le Mercredi 4 Janvier 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une nouvelle Version 4.3.1 de Thunderbird+, en 3 langues étrangères,, ci-dessous, je vous donne toutes les informations sur cette nouvelle version de l'extension Thunderbird+ pour NVDA transmise par Pierre-Louis.    
