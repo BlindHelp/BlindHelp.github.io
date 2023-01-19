@@ -1,16 +1,16 @@
 ---
-title: Version 4.3.1 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
+title: Version 4.4 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
 permalink: "/NVDA-ThunderbirdPlus/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 28 Décembre 2022 - Dernière mise à jour le Mercredi 4 Janvier 2023</footer>
+<footer>Publié le Mercredi 28 Décembre 2022 - Dernière mise à jour le Mercredi 18 Janvier 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
-Voici une nouvelle Version 4.3.1 de Thunderbird+, en 3 langues étrangères,, ci-dessous, je vous donne toutes les informations sur cette nouvelle version de l'extension Thunderbird+ pour NVDA transmise par Pierre-Louis.    
+Voici une nouvelle Version 4.4 de Thunderbird+, en 3 langues étrangères,, ci-dessous, je vous donne toutes les informations sur cette nouvelle version de l'extension Thunderbird+ pour NVDA transmise par Pierre-Louis.    
 
-## Version 4.3.1 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
+## Version 4.4 de Thunderbird+, en 3 langues étrangères,, par Pierre-Louis
 
 Bonjour toutes et tous,    
 
@@ -35,7 +35,7 @@ Remarque : La langue de l'interface utilisateur de NVDA doit être la même que 
 
 La mise à jour automatique aura lieu un peu plus tard, voici son lien de téléchargement :    
 
-[Télécharger Thunderbird+ v4.3.1 ;](http://www.rptools.org/?p=8610)
+[Télécharger Thunderbird+ v4.4 du 17/01/2023 ;](http://www.rptools.org/?p=8610)
 
 
 Bien que Control+f1 affiche la documentation, voici les liens :    
