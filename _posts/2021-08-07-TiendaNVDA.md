@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 7 Août 2021 - Dernière mise à jour le Lundi 27 Juin 2022</footer>
+<footer>Publié le Samedi 7 Août 2021 - Dernière mise à jour le Mercredi 18 Janvier 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé TiendaNVDA créée par le même auteur de l'extension [zUtilidades](https://blindhelp.github.io/zUtilidades/) idéal si vous souhaitez avoir vos extensions officielles / non officielles à jour pour votre version actuelle de NVDA!    
@@ -15,8 +15,8 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension TiendaNVDA: #
 
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
-* Version actuelle: 0.8.4
-* Compatibilité avec NVDA: de 2019.3 à 2022.1
+* Version actuelle: 0.8.5
+* Compatibilité avec NVDA: de 2019.3 à 2022.4
 * Langues supportées: Espagnol, Français et plusieurs autres langues traduites par des membres de la communauté internationale des extensions NVDA
 * [Télécharger](https://nvda.es/files/get.php?file=tienda)
 * [Voir code source sur GitHub](https://github.com/hxebolax/Tienda-para-NVDA)

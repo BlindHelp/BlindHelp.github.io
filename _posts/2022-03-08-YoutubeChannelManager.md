@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 8 Mars 2022 - Dernière mise à jour le Jeudi 22 Décembre 2022</footer>
+<footer>Publié le Mardi 8 Mars 2022 - Dernière mise à jour le Mercredi 18 Janvier 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé YoutubeChannelManager créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin de gérer les chaînes favorites YouTube via une interface invisible et simple.    
@@ -17,7 +17,9 @@ Cette nouvelle extension comporte une interface invisible c'est-à-dire quelle e
 N'oubliez pas que vous devrez activer ladite interface avec le raccourci NVDA + i grec lorsque vous l'utilisez et le désactiver avec la même commande, afin de retrouver l'utilisation correcte des touches par défaut.    
 
 Une dernière chose, le lecteur Web est chargé lorsque vous appuyer sur la lettre r quand vous êtes sur la chaîne que vous voulez écouter depuis la liste des chaînes, et nous ouvrirons celui-ci dans notre navigateur par défaut, veillez à ne pas fermer ledit lecteur Web, lors de la consultation d'une autre page Web avec Alt + f4, car cette commande ferme la fenêtre de la chaîne en cours de lecture, plutôt utiliser Ctrl + w qui fonctionne sur tous les navigateurs, et nous repositionne sur l'onglet précédent, qui est normalement l'onglet de notre lecteur Web.    
- 
+
+Très Important: L'extension pour NVDA YoutubeChannelManager sera abandonnée selon l'auteur car la librairie de base (YT_DLP), a apporté des modifications qui brisent les fonctionnalités de l'extension YoutubeChannelManager. Honnêtement, l'auteur ne domine pas suffisamment cette librairie pour le résoudre à court terme, si vous êtes un développeur et que vous dominez   cette librairie merci de bien contacter l'auteur. Merci encore pour votre aide bien précieuse. 
+
 Je viens de le traduire en français pour le fun, et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
 
 # Informations sur l'extension YoutubeChannelManager: #
