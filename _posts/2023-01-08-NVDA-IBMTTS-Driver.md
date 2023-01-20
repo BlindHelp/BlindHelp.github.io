@@ -1,6 +1,6 @@
 ---
 title: Le synthétiseur IBMTTS pour NVDA, avec une fonction de mise à jour automatique est maintenant disponible en téléchargement
-permalink: "/TeleNVDA/"
+permalink: "/NVDA-IBMTTS-Driver/"
 layout: post
 author: BlindHelp
 ---
@@ -162,6 +162,7 @@ ou [tts.txt.](https://cdn.jsdelivr.net/gh/davidacm/NVDA-IBMTTS-Driver/apiReferen
 ---
 
 Mille merci à <span lang="es"David CM></span> pour l'avoir partagé avec nous tous! :)    
+Je vous souhaite une bonne utilisation du synthétiseur IBMTTS pour NVDA!    
     @+    
 BlindHelp!    
 
