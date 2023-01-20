@@ -161,7 +161,7 @@ ou [tts.txt.](https://cdn.jsdelivr.net/gh/davidacm/NVDA-IBMTTS-Driver/apiReferen
 
 ---
 
-Mille merci à <span lang="es"David CM></span> pour l'avoir partagé avec nous tous! :)    
+Mille merci à <span lang="es">David CM</span> pour l'avoir partagé avec nous tous! :)    
 Je vous souhaite une bonne utilisation du synthétiseur IBMTTS pour NVDA!    
     @+    
 BlindHelp!    
