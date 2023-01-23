@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 8 Janvier 2023 - Dernière mise à jour le Jeudi 12 Janvier 2023</footer>
+<footer>Publié le Dimanche 8 Janvier 2023 - Dernière mise à jour le Samedi 21 Janvier 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 L'auteur du synthétiseur IBMTTS pour NVDA, lequel a communiqué via un e-mail depuis la liste de NVDA en Espagnol le dimanche 08.01.2023 m'a dit qu'il avait apporté des changements importants dans son extension, donc  la fonction de mise à jour automatique, donc, celle-ci a été publiée!    
@@ -72,7 +72,7 @@ Remarque: La fonctionnalité de mise à jour automatique ou manuelle ne supprime
 ### Bibliothèques du synthétiseur IBMTTS.
   Ce n'est que le pilote, vous devez vous procurer les bibliothèques ailleurs.  
   Ce pilote prend en charge  les bibliothèques légèrement plus récentes qui ajoutent un support de langue est-asiatique et disposent de corrections spécifiques pour le codage approprié du texte. Cependant, les bibliothèques les plus anciennes sans cela devraient fonctionner.  
-  À partir de la version 21.03A1, le pilote travaille également avec les bibliothèques encore plus récentes d'IBM, au lieu de seulement les SpeechWorks. Un ensemble de correctifs indépendants pour ces bibliothèques est inclus, et les langues supplémentaires et d'autres différences sont prises en compte. Seules les voix concaténatives sont prises en charge et sont accessibles en définissant le taux d'échantillonnage sur 8 kHz après l'installation de la voix. Pour des meilleurs résultats, utilisez la build de Juin 2005 de ibmeci.dll version 7.0.0.0, car les versions plus anciennes peuvent être instables lors de la réception du texte rapidement, par exemple, en faisant rapidement défiler les éléments dans une liste.
+  À partir de la version 21.03A1, le pilote travaille également avec les bibliothèques encore plus récentes d'IBM, au lieu de seulement les SpeechWorks. Un ensemble de correctifs indépendants pour ces bibliothèques est inclus, et les langues supplémentaires et d'autres différences sont prises en compte. Seules les voix concaténatives sont prises en charge et sont accessibles en définissant le taux d'échantillonnage sur 8 kHz après l'installation de la voix. Pour des meilleurs résultats, utilisez la build de Juin 2005 de ibmeci.dll version 7.0.0.0, car les versions plus anciennes peuvent être instables lors de la réception du texte rapidement, par exemple, en faisant rapidement défiler les éléments dans une liste. Notez également que si vous utilisez des bibliothèques IBMTTS cantonaises ou chinoises de Hong Kong, vous voudrez peut-être désactiver la fonction d'épellation si elle est supportée, pour éviter que certains caractères de ces langues ne soient épelés en utilisant le pinyin quand ils sont convertis en interne.
 
 ## Installation.
   Installez-le simplement comme n'importe quel extension NVDA. Ouvrez ensuite les paramètres du dialogue NVDA et dans la catégorie IBMTTS définissez le chemin des fichiers IBMTTS.
