@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Samedi 29 Mai 2021 - Dernière mise à jour le Mercredi 18 Janvier 2023</footer>
+<footer>Publié le Samedi 29 Mai 2021 - Dernière mise à jour le Lundi 6 Février 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé WhatsApp-desktop créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin d'avoir les raccourcis clavier pour accéder facilement à certaines fonctions de l'application [WhatsApp-desktop pour Windows!](https://www.whatsapp.com/download/)    
@@ -61,7 +61,7 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 # Informations sur l'extension WhatsApp-desktop: #
 
 * Auteur: <span lang="es">Gerar Késsler</span>
-* Version actuelle: 2.2246.10
+* Version actuelle: 2.2305.7
 * Compatibilité avec NVDA: de 2021.3 à 2022.4
 * Langues supportées: Anglais, Espagnol, Français, Italien, Portugais du Brésil et du Portugal, Russe et Turc
 * [Télécharger](https://nvda.es/files/get.php?file=whatsappdesktop)
