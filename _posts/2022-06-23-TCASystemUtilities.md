@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Jeudi 23 Juin 2022 - Dernière mise à jour le Jeudi 27 Octobre 2022</footer>
+<footer>Publié le Jeudi 23 Juin 2022 - Dernière mise à jour le Vendredi 17 Février 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé TCA SystemUtilities créée par <span lang="es">Peter Reina</span> Cette extension propose d'arrêter et redémarrer le PC avec le son classique de Windows. Il permet également d'ouvrir le dossier Roaming et d'exécuter directement certains outils système.    
@@ -15,9 +15,9 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 # Informations sur l'extension TCA SystemUtilities: #
 
 * Auteur: <span lang="es">Peter Reina</span>
-* Version actuelle: 06b6
-* Compatibilité avec NVDA: de 2018.2 à 2022.3
-* Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Brésil, Portugais du Portugal, Roumain et Turc
+* Version actuelle: 07b2
+* Compatibilité avec NVDA: de 2018.2 à 2023.1
+* Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Brésil, Portugais du Portugal, Roumain, Turc et Ukrainien
 * [Télécharger](https://nvda.es/files/get.php?file=TCASystemUtilities)
 * [Voir code source sur GitHub](https://github.com/peterrc87/TCA-SystemUtilities-NVDA-Complemento)
 
