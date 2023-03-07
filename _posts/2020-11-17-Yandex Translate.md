@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 17 Novembre 2020 - Dernière mise à jour le Mercredi 26 Mai 2021</footer>
+<footer>Publié le Mardi 17 Novembre 2020 - Dernière mise à jour le Mercredi Ier Mars 2023</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -14,11 +14,12 @@ Voici une nouvelle mouture de l'extension Yandex Translate  pour NVDA fait  par 
 # Informations sur l'extension Yandex Translate #
 
 * Auteurs : Alekssamos
-* Versions précédentes: 2020.09.04/2020.11.17/2020.12.18    
+* Versions précédentes: 2020.09.04/2020.11.17/2020.12.18/2021.5.26, Etc.    
 Les versions précédentes ne fonctionne plus, besoin de mettre à jour.    
-* Version actuelle: 2021.5.26
+* Version actuelle: 2023.02.19
+
 * Langues: Anglais, Croate, Serbe, Russe, Turc et Ukrainien
-* Compatibilité NVDA: 2019.3 à 2021.1
+* Compatibilité NVDA: 2019.3 à 2023.1
 * Télécharger [version actuelle sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=yandextranslate)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/alekssamos/YandexTranslate)
 

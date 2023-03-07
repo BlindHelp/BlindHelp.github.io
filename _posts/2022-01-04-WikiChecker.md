@@ -5,24 +5,26 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 4 Janvier 2022 - Dernière mise à jour le Mardi 17 Mai 2022</footer>
+<footer>Publié le Mardi 4 Janvier 2022 - Dernière mise à jour le Mardi 7 Mars 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé WikiChecker créée par Antonio Cascales, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin d'accéder rapidement au moteur de recherche des articles dans [Wikipedia](https://wikipedia.org/)    
 
 
-Je viens de le traduire en français pour le fun, et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur de l'extension pour NVDA nommée DLEChecker dans sa version actuelle 1.3.2 (extension seulement en espagnol) par ici: [lien externe via le dépôt de l'auteur sur GitHub](https://nvda.es/files/get.php?file=dlechecker)    
+Je viens de le traduire en français pour le fun, et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur de l'extension pour NVDA nommée DLEChecker dans sa version actuelle 1.3.2.3 (extension seulement en espagnol) par ici: [lien externe via le dépôt de l'auteur sur GitHub](https://nvda.es/files/get.php?file=dlechecker)    
 
 Cette extension permet à n'importe quel utilisateur de NVDA de consultez la définition de tout mot dans le dictionnaire de la langue espagnole de la <span lang="es">Real Academia Española (RAE)</span>
 
 [Voir code source sur GitHub](https://github.com/antramcs/DLEChecker)    
 
+Compatibilité avec NVDA: de 2019.3 à 2023.1
+
 # Informations sur l'extension WikiChecker: #
 
 * Auteur: <span lang="es">Antonio Cascales</span>
-* Version actuelle: 1.2.2
-* Compatibilité avec NVDA: de 2019.1 à 2022.1
-* Langues supportées: Espagnol, Français, Portugais du Brésil et du Portugal
+* Version actuelle: 1.2.3
+* Compatibilité avec NVDA: de 2019.1 à 2023.1
+* Langues supportées: Espagnol, Français, Portugais du Brésil, du Portugal et Ukrainien
 * [Télécharger](https://nvda.es/files/get.php?file=wikichecker)
 * [Voir code source sur GitHub](https://github.com/antramcs/WikiChecker)
 

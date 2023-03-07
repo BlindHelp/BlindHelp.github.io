@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 28 Avril 2021 - Dernière mise à jour le Dimanche 6 Juin 2021</footer>
+<footer>Publié le Mercredi 28 Avril 2021 - Dernière mise à jour le Mercredi Ier Mars 2023</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -53,7 +53,7 @@ installée.
 ---
 
 Cette extension reportPasswords a été traduite en français par: Rémy Ruiz @BlindHelp     
-Merci beaucoup à mon amie <span lang="es">Noelia Ruiz Martínez</span> pour l'avoir adapté à la dernière version de NVDA 2021.1 et avoir apporté ces nouvelles améliorations. 🤗    
+Merci beaucoup à mon amie <span lang="es">Noelia Ruiz Martínez</span> pour l'avoir adapté à la dernière version de NVDA 2023.1 et avoir apporté ces nouvelles améliorations. 🤗    
 
 Je vous souhaite une bonne utilisation de l'extension reportPasswords!    
 @+    

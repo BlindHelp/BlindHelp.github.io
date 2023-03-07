@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 8 Mars 2022 - Dernière mise à jour le Mercredi 18 Janvier 2023</footer>
+<footer>Publié le Mardi 8 Mars 2022 - Dernière mise à jour le Lundi 6 Mars 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une extension non officielle  pour NVDA nommé YoutubeChannelManager créée par Gerar Késsler, membre de la [Communauté de NVDA en espagnol](https://nvda.es/), afin de gérer les chaînes favorites YouTube via une interface invisible et simple.    
@@ -14,19 +14,17 @@ Au préalable il sera nécessaire de supprimer l'extension appelée [YoutubePlay
 
 Cette nouvelle extension comporte une interface invisible c'est-à-dire quelle est en couche de commandes...    
 
-N'oubliez pas que vous devrez activer ladite interface avec le raccourci NVDA + i grec lorsque vous l'utilisez et le désactiver avec la même commande, afin de retrouver l'utilisation correcte des touches par défaut.    
+N'oubliez pas que vous devrez activer ladite interface avec le raccourci préalablement assigné en utilisant le dialogue des Gestes de Commandes pour l'utiliser puis désactiver avec la même commande, afin de retrouver l'utilisation correcte des touches par défaut.    
 
 Une dernière chose, le lecteur Web est chargé lorsque vous appuyer sur la lettre r quand vous êtes sur la chaîne que vous voulez écouter depuis la liste des chaînes, et nous ouvrirons celui-ci dans notre navigateur par défaut, veillez à ne pas fermer ledit lecteur Web, lors de la consultation d'une autre page Web avec Alt + f4, car cette commande ferme la fenêtre de la chaîne en cours de lecture, plutôt utiliser Ctrl + w qui fonctionne sur tous les navigateurs, et nous repositionne sur l'onglet précédent, qui est normalement l'onglet de notre lecteur Web.    
-
-Très Important: L'extension pour NVDA YoutubeChannelManager sera abandonnée selon l'auteur car la librairie de base (YT_DLP), a apporté des modifications qui brisent les fonctionnalités de l'extension YoutubeChannelManager. Honnêtement, l'auteur ne domine pas suffisamment cette librairie pour le résoudre à court terme, si vous êtes un développeur et que vous dominez   cette librairie merci de bien contacter l'auteur. Merci encore pour votre aide bien précieuse. 
 
 Je viens de le traduire en français pour le fun, et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
 
 # Informations sur l'extension YoutubeChannelManager: #
 
 * Auteur: <span lang="es">Gerar Késsler</span>
-* Version actuelle: 1.6
-* Compatibilité avec NVDA: de 2019.3 à 2022.3
+* Version actuelle: 1.7 et plus
+* Compatibilité avec NVDA: de 2022.4 à 2023.1
 * Langues supportées: Arabe, Espagnol, Français, Italien, Portugais du Portugal / Brésil, Turc et Ukrainien
 * [Télécharger](https://nvda.es/files/get.php?file=ytcmanager)
 * [Voir code source sur GitHub](https://github.com/GerardKessler/YoutubeChannelManager)
@@ -40,8 +38,9 @@ Cette extension vous permet de gérer les chaînes favorites de la plate-forme Y
 
 ## Raccourcis de l'extension
 
-* NVDA + i grec; Active et désactive l'interface invisible.
-* Non assigné; Active le lecteur Web personnalisé avec le lien d'une vidéo à partir du presse-papiers.
+* Activer l'interface invisible; Non assigné
+
+Pour activer ou désactiver l'interface invisible, veuillez assigner préalablement un geste personnalisé en utilisant le dialogue des Gestes de Commandes
 
 ## Raccourcis disponibles dans l'interface invisible
 
@@ -55,9 +54,12 @@ Cette extension vous permet de gérer les chaînes favorites de la plate-forme Y
 * n; Ouvre le dialogue pour ajouter une nouvelle chaîne.
 * o; Ouvre le lien de la vidéo dans le navigateur par défaut.
 * r; Ouvre le lien de l'audio dans un lecteur Web personnalisé.
+* control + c; Ouvre le lien du presse-papiers dans le lecteur Web personnalisé.
 * c; Copie le lien de la vidéo dans le presse-papiers.
-t; Copie le titre de la vidéo dans le presse-papiers.
+* t; Copie le titre de la vidéo dans le presse-papiers.
 * d; Obtiens les données de la vidéo et les affichent dans une fenêtre de NVDA.
+* control + d; Télécharge la vidéo dans son format d'origine dans le dossier youtubeDL à la racine de l'utilisateur actuel.
+* control + maj + d; Télécharge la vidéo à partir du presse-papiers dans son format d'origine dans le dossier youtubeDL à la racine de l'utilisateur actuel.
 * b; Active le dialogue de recherche dans la base de données.
 * Contrôle + b; Active le dialogue de recherche générale.
 * f5; Recherche s'il y a de nouvelles vidéos sur la chaîne focalisée.
@@ -69,7 +71,7 @@ t; Copie le titre de la vidéo dans le presse-papiers.
 
 ### Ajouter des chaînes
 
-Pour ajouter une nouvelle chaîne à la base de données, il vous suffit d'ouvrir l'interface virtuelle avec le raccourci pour cette action, par défaut; NVDA + i grec. Et appuyer sur la lettre n.
+Pour ajouter une nouvelle chaîne à la base de données, il vous suffit d'ouvrir l'interface virtuelle avec le raccourci préalablement assigné. Par défaut, l'interface virtuelle n'a pas de geste de commande assigné pour cette action. Une fois assigné et ouverte l'interface virtuelle appuyer sur la lettre n.    
 La fenêtre demande 2 champs. Un nom de la chaîne, et l'URL de celle-ci. Dans ce dernier cas, l'extension permet la saisi des formats d'URL suivants:
 
 * Lien d'une vidéo, qui a généralement le format suivant:
@@ -89,14 +91,14 @@ Cela activera le dialogue pour saisir les données de la chaîne, qui seront aut
 L'extension vous permet de cocher des chaînes comme favorites et d'activer la vérification des nouveautés avec un intervalle de temps stipulée.  
 Pour cocher ou décocher une chaîne comme favorite:  
 
-* Activer l'interface virtuelle avec le geste assigné, par défaut, NVDA + i grec.
+* Activer l'interface virtuelle avec le geste préalablement assigné.
 * Sélectionner la chaîne souhaitée avec les flèches gauche ou droite.
 * Activer la fenêtre de configuration de la chaîne avec la lettre s.
 * Cocher la case correspondante et appuyez sur le bouton pour enregistrer la configuration.
 
 La vérification des nouveautés dans les chaînes favorites est désactivée par défaut. Pour le modifier, vous devez suivre les étapes suivantes:
 
-* Activer l'interface virtuelle avec le geste assigné, par défaut, NVDA + i grec.
+* Activer l'interface virtuelle avec le geste préalablement assigné.
 * Activer la fenêtre de configuration globale avec la lettre g.
 * Tabuler jusqu'à la liste des options, et sélectionner avec les flèches haut  et bas l'intervalle souhaitée.
 * Appuyer sur le bouton pour enregistrer les configurations.
@@ -107,7 +109,7 @@ En trouvant des nouveautés, l'extension émettra un son lors de la mise à jour
 
 L'extension permet de rechercher par mots-clés entre les vidéos des chaînes ajoutées à la base de données.  
 
-* Activer l'interface virtuelle avec le geste assigné, par défaut, NVDA + i grec.
+* Activer l'interface virtuelle avec le geste préalablement assigné.
 * Activer la fenêtre de recherche avec la lettre b.
 * Écrire un mot ou une phrase de référence.
 * Appuyer sur Entrée ou sur le bouton Démarrer la recherche.
@@ -121,7 +123,7 @@ Pour revenir à l'interface des chaînes vous devez appuyer sur la touche efface
 
 Pour effectuer une recherche globale en dehors de la base de données, vous devez procéder comme suit:
 
-* Activer l'interface virtuelle avec le geste assigné, par défaut, NVDA + i grec.
+* Activer l'interface virtuelle avec le geste préalablement assigné.
 * Activer la fenêtre de recherche avec le raccourci contrôle + b.
 * Écrire un mot ou une phrase de référence et sélectionner la quantité de résultats à afficher.
 * Appuyer sur le bouton Démarrer la recherche.
@@ -136,6 +138,11 @@ Comme dans les recherches dans la base de données, pour revenir à la liste des
 
 L'extension enregistre le texte des 20 dernières recherches globales dans la base de données. 
 Pour accéder à l'historique, il vous suffit d'appuyer sur la touche Applications sur le champ d'édition de recherche globale. En appuyant sur celui-ci, un menu contextuel est activé avec les dernières recherches, et en appuyant sur Entrée sur l'un d'eux le champ est complété avec le texte correspondant.
+
+## Téléchargement des vidéos
+
+Cette extension n'est pas destinée à convertir des vidéos, mais la possibilité de télécharger la vidéo dans le format original a été ajoutée.
+Pour ce faire, il vous suffit de chercher la vidéo à télécharger et d'appuyer sur le raccourci control + d. Le fichier va être téléchargé dans le dossier youtubeDL de l'utilisateur actuel.
 
 ## Traducteurs:
 

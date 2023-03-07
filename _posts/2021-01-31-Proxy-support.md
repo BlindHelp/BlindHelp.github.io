@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 31 Janvier 2021 - Dernière mise à jour le Mercredi 26 Mai 2021</footer>
+<footer>Publié le Dimanche 31 Janvier 2021 - Dernière mise à jour le Mercredi Ier Mars 2023</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -17,9 +17,9 @@ Vous trouverez ci-dessous sa description traduite en français par mes soins.
 # Informations sur l'extension Proxy support #
 
 * Auteur: <span lang="es">[Jose Manuel Delicado](mailto:jm.delicado@nvda.es)</span>
-* Version actuelle: 1.0.3
-* Langues: Arabe, Anglais, Espagnol, Français et Portugais-Brésil,  et Portugais-Portugal
-* Compatibilité NVDA: 2019.3 et plus
+* Version actuelle: 1.2 et plus
+* Langues: Arabe, Anglais, Espagnol, Français, Portugais-Brésil, Portugais-Portugal et plusieurs autres langues traduites par des membres de la communauté internationale des extensions NVDA
+* Compatibilité NVDA: 2022.4 et plus
 * Télécharger [version stable sur le dépôt de l'auteur sur GitHub [lien externe]](https://nvda.es/files/get.php?file=proxy)
 * [Voir code source sur le dépôt de l'auteur sur GitHub](https://github.com/nvda-es/nvda-proxy-support)
 
