@@ -17,7 +17,7 @@ Je viens de le traduire en français et l'auteur m'a dit que je pouvais le parta
 * Auteur: <span lang="es">Héctor J. Benítez Corredera</span>
 * Version actuelle: 0.2.8 et plus
 * Compatibilité avec NVDA: de 2019.3 à 2023.1
-* Langues supportées: Espagnol, Français, Danois, Italien, Portugais du Portugal / Brésil, Russe,  Turc et Ukrainien
+* Langues supportées: Anglais, Arabe, Espagnol, Français, Danois, Italien, Portugais du Portugal / Brésil, Russe,  Turc et Ukrainien
 * [Télécharger](https://nvda.es/files/get.php?file=zUtilidades)
 * [Voir code source sur GitHub](https://github.com/hxebolax/zUtilidades-para-NVDA)
 
