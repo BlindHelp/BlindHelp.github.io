@@ -22,7 +22,7 @@ Une autre possibilité est d'utiliser la liste d'éléments, que vous pouvez ouv
 
 * [Guide de l'utilisateur](https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/userGuide.html)
 * [Quoi de neuf](https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/changes.html)
-)* [Résumé des commandes]https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/keyCommands.html)
+* [Résumé des commandes](https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/keyCommands.html)
 
 ### Télécharger la dernière version ###
 
