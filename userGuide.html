@@ -3,10 +3,10 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<LINK REL="stylesheet" TYPE="text/css" HREF="styles.css">
-<TITLE>Guide de l'utilisateur de NVDA 2022.4</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../styles.css">
+<TITLE>Guide de l'utilisateur de NVDA 2023.1-dev</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2022.4</H1>
+<P ALIGN="center"><CENTER><H1>Guide de l'utilisateur de NVDA 2023.1-dev</H1>
 <FONT SIZE="4">
 </FONT></CENTER>
 
@@ -174,8 +174,9 @@
       <LI><A HREF="#InputCompositionSettings">12.1.13. Composition de Saisie</A>
       <LI><A HREF="#BrowseModeSettings">12.1.14. Mode Navigation (NVDA+contrôle+b)</A>
       <LI><A HREF="#DocumentFormattingSettings">12.1.15. Mise en Forme des Documents (NVDA+contrôle+d)</A>
-      <LI><A HREF="#Win10OcrSettings">12.1.16. Reconnaissance Optique de Caractères de Windows</A>
-      <LI><A HREF="#AdvancedSettings">12.1.17. Paramètres Avancés</A>
+      <LI><A HREF="#DocumentNavigation">12.1.16. Navigation dans les Documents</A>
+      <LI><A HREF="#Win10OcrSettings">12.1.17. Reconnaissance Optique de Caractères de Windows</A>
+      <LI><A HREF="#AdvancedSettings">12.1.18. Paramètres Avancés</A>
       </UL>
     <LI><A HREF="#MiscSettings">12.2. Autres Paramètres</A>
       <UL>
@@ -230,9 +231,9 @@
     <LI><A HREF="#HedoMobilLine">15.8. Hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">15.9. HumanWare Séries Brailliant BI/B / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc156">15.9.1. Assignations des Touches pour tous les Modèles</A>
-      <LI><A HREF="#toc157">15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
-      <LI><A HREF="#toc158">15.9.3. Assignations de Touches pour le Brailliant BI 14</A>
+      <LI><A HREF="#toc157">15.9.1. Assignations des Touches pour tous les Modèles</A>
+      <LI><A HREF="#toc158">15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</A>
+      <LI><A HREF="#toc159">15.9.3. Assignations de Touches pour le Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">15.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
     <LI><A HREF="#Seika">15.11. Seika Braille Displays</A>
@@ -248,7 +249,8 @@
     <LI><A HREF="#Eurobraille">15.17. Terminaux Eurobraille Esys/Esytime/Iris</A>
     <LI><A HREF="#NattiqTechnologies">15.18. Afficheurs Nattiq nBraille</A>
     <LI><A HREF="#BRLTTY">15.19. BRLTTY</A>
-    <LI><A HREF="#HIDBraille">15.20. Afficheurs braille au standard HID</A>
+    <LI><A HREF="#Albatross">15.20. Tivomatic Caiku Albatross 46/80</A>
+    <LI><A HREF="#HIDBraille">15.21. Afficheurs braille au standard HID</A>
     </UL>
   <LI><A HREF="#AdvancedTopics">16. Fonctions Avancées</A>
     <UL>
@@ -307,6 +309,7 @@ Ses points forts sont :
   <UL>
   <LI>Pour Windows 7, NVDA requiert le Service Pack 1 ou ultérieur.
   <LI>Pour Windows Server 2008 R2, NVDA requiert le Service Pack 1 ou ultérieur.
+  <LI>les variantes AMD64 et ARM64 de Windows sont prises en charge.
   </UL>
 <LI>au moins 150 Mo d'espace de stockage.
 </UL>
@@ -486,8 +489,8 @@ Celles-ci définissent si NVDA doit démarrer automatiquement.
 <P>
 Le guide de l'utilisateur complet de NVDA contient toutes les commandes NVDA, divisées en différentes sections pour référence.
 Les tableaux de commandes sont également disponibles dans le "Résumé des Commandes".
-Le module de formation NVDA "Basic Training for NVDA" étudie chaque commande plus en profondeur avec des activités étape par étape.
-La "Formation de base pour NVDA" est disponible dans la <A HREF="http://www.nvaccess.org/shop">boutique NV Access</A>.
+Le module de formation NVDA "Basic Training for NVDA" (en anglais) étudie chaque commande plus en profondeur avec des activités étape par étape.
+"Basic Training for NVDA" est disponible dans la <A HREF="http://www.nvaccess.org/shop">boutique NV Access</A>.
 </P>
 <P>
 Voici quelques commandes de base fréquemment utilisées.
@@ -620,6 +623,12 @@ Les commandes réelles ne s'exécuteront pas en mode d'aide à la saisie.
 <TD><CODE>NVDA+f</CODE></TD>
 <TD><CODE>NVDA+f</CODE></TD>
 <TD>Annonce la mise en forme du texte. Un double appui affiche l'information dans une fenêtre</TD>
+</TR>
+<TR>
+<TD>Annoncer le lien de destination</TD>
+<TD><CODE>NVDA+k</CODE></TD>
+<TD><CODE>NVDA+k</CODE></TD>
+<TD>Un appui annonce l'URL de destination du lien dans <A HREF="#ObjectNavigation">l'objet navigateur</A>. Deux appuis l'affichent dans une fenêtre pour une revue plus attentive</TD>
 </TR>
 </TABLE>
 
@@ -778,7 +787,7 @@ Il s'agit d'un examen en ligne que vous pouvez passer pour démontrer vos compé
 Pour obtenir de l'aide sur NVDA, appuyez sur <CODE>NVDA+n</CODE> pour ouvrir le menu, puis sur <CODE>h</CODE> pour obtenir de l'aide.
 À partir de ce sous-menu, vous pouvez accéder au Guide de l'utilisateur, à une référence rapide des commandes, à l'historique des nouvelles fonctionnalités et bien plus encore.
 Ces trois premières options s'ouvrent dans le navigateur Web par défaut.
-Il existe également du matériel de formation plus complet disponible dans la <A HREF="https://www.nvaccess.org/shop">Boutique NV Access</A>.
+Il existe également du matériel de formation plus complet (en anglais) disponible dans la <A HREF="https://www.nvaccess.org/shop">Boutique NV Access</A>.
 </P>
 <P>
 Nous vous recommandons de commencer par le module "Formation de base pour NVDA".
@@ -1202,7 +1211,7 @@ Quelques touches de commandes utiles pour naviguer avec le focus :
 <TR>
 <TD>Annoncer le Raccourci Clavier</TD>
 <TD><CODE>maj+pavnum2</CODE></TD>
-<TD><CODE>NVDA+contrôle+maj+.</CODE></TD>
+<TD><CODE>NVDA+contrôle+maj+point-virgule</CODE></TD>
 <TD>Annonce le raccourci clavier (accélérateur) de l'objet actuellement en focus</TD>
 </TR>
 </TABLE>
@@ -1503,7 +1512,7 @@ Vous disposez des commandes suivantes pour explorer du texte :
 <TR>
 <TD>Annoncer la ligne courante en revue</TD>
 <TD>pavnum8</TD>
-<TD>NVDA+maj+point</TD>
+<TD>NVDA+maj+point-virgule</TD>
 <TD>Aucun</TD>
 <TD>Lit la ligne de texte sous le curseur de revue, un double appui épelle la ligne</TD>
 </TR>
@@ -2033,7 +2042,7 @@ Notez cependant que toutes les équations MathType créées précédemment doive
 Cela peut être fait en sélectionnant chaque équation et en choisissant "Options d'équation", puis "Convertir en Office Math" dans le menu contextuel.
 Assurez-vous que votre version de MathType est la dernière version avant de faire cela.
 Microsoft Word fournit une navigation linéaire basée sur des symboles à travers les équations elles-mêmes et prend en charge la saisie de mathématiques à l'aide de plusieurs syntaxes, y compris LateX.
-Pour plus de détails, veuillez consulter <A HREF="2e00618d-b1fd-49d8-8cb4-8d17f25754f8">Équations au format linéaire utilisant UnicodeMath et LaTeX dans Word https://support.microsoft.com/en-us/office/linear-format-equations-using-unicodemath-and-latex-in-word-</A>
+Pour plus de détails, veuillez consulter <A HREF="https://support.microsoft.com/fr-fr/office/%C3%A9quations-au-format-lin%C3%A9aire-utilisant-unicodemath-et-latex-dans-word-2e00618d-b1fd-49d8-8cb4-8d17f25754f8">Équations au format linéaire utilisant UnicodeMath et LaTeX dans Word</A>
 <LI>Microsoft Powerpoint et les anciennes versions de Microsoft Word :
 NVDA peut lire et parcourir les équations MathType dans Microsoft Powerpoint et Microsoft Word.
 MathType doit être installé pour que cela fonctionne.
@@ -4097,8 +4106,42 @@ La hauteur du son montera pour chaque espace, et pour une tabulation, la hauteur
 </UL>
 
 <P></P>
+<A NAME="DocumentNavigation"></A>
+<H4>12.1.16. Navigation dans les Documents</H4>
+<P>
+Cette catégorie vous permet d'ajuster divers aspects de la navigation dans les documents.
+</P>
+<A NAME="ParagraphStyle"></A>
+<H5>Style des paragraphes</H5>
+<DL>
+<DT>Défaut</DT><DD>
+  Géré par l'application
+<DT>Options</DT><DD>
+  Défaut (Géré par l' application), géré par l' application, Saut de ligne unique, Saut de ligne multiple
+</DL>
+
+<P></P>
+<P>
+Cette liste déroulante vous permet de sélectionner le style de paragraphe à utiliser lors de la navigation par paragraphes avec <CODE>contrôle+flècheHaut</CODE> et <CODE>contrôle+flècheBas</CODE>.
+Les styles de paragraphe disponibles sont :
+</P>
+<UL>
+<LI>Géré par l'application : NVDA laissera l'application déterminer le paragraphe précédent ou suivant, et NVDA lira le nouveau paragraphe lors de la navigation.
+Ce style fonctionne mieux lorsque l'application prend en charge la navigation dans les paragraphes de manière native et est la valeur par défaut.
+<LI>Saut de ligne simple : NVDA tentera de déterminer le paragraphe précédent ou suivant en utilisant un saut de ligne simple comme indicateur de paragraphe.
+Ce style fonctionne mieux lors de la lecture de documents dans une application qui ne prend pas en charge nativement la navigation dans les paragraphes, et dont les paragraphes du document sont marqués par une simple pression sur la touche <CODE>entrer</CODE>.
+<LI>Saut de ligne multiple : NVDA tentera de déterminer le paragraphe précédent ou suivant en utilisant au moins une ligne vierge (deux appuis sur la touche <CODE>entrer</CODE>) comme indicateur de paragraphe.
+Ce style fonctionne mieux lorsque vous travaillez avec des documents qui utilisent des paragraphes de bloc.
+Notez que ce style de paragraphe ne peut pas être utilisé dans Microsoft Word ou Microsoft Outlook, sauf si vous utilisez l'UIA pour accéder aux contrôles de Microsoft Word.
+</UL>
+
+<P></P>
+<P>
+You may toggle through the available paragraph styles from anywhere by assigning a key in the <A HREF="#InputGestures">Input Gestures dialog</A>.
+Vous pouvez basculer entre les styles de paragraphe disponibles de n'importe où en attribuant une touche dans la <A HREF="#InputGestures">boîte de dialogue Gestes de commandes</A>.
+</P>
 <A NAME="Win10OcrSettings"></A>
-<H4>12.1.16. Reconnaissance Optique de Caractères de Windows</H4>
+<H4>12.1.17. Reconnaissance Optique de Caractères de Windows</H4>
 <P>
 Les paramètres de cette catégorie vous permettent de configurer la <A HREF="#Win10Ocr">Reconnaissance de Caractères de Windows</A>.
 Elle contient les options suivantes :
@@ -4109,7 +4152,7 @@ Elle contient les options suivantes :
 Cette liste déroulante vous permet de choisir la langue à utiliser pour la reconnaissance de texte.
 </P>
 <A NAME="AdvancedSettings"></A>
-<H4>12.1.17. Paramètres Avancés</H4>
+<H4>12.1.18. Paramètres Avancés</H4>
 <P>
 Avertissement ! Les paramètres dans cette catégorie sont pour les utilisateurs avancés et peuvent provoquer un mauvais fonctionnement de NVDA si mal configurés.
 Ne modifiez ces paramètres que si vous êtes sûr de ce que vous faites ou si un développeur NVDA vous a demandé de le faire.
@@ -4193,7 +4236,7 @@ Ce paramètre contient les valeurs suivantes :
 <P>
 Cette option sélectionne la façon dont NVDA interagit avec la console Windows utilisée par l'invite de commande, PowerShell et le sous-système Windows pour Linux.
 Cela n'affecte pas le terminal Windows moderne.
-Dans Windows 10 version 1709, Microsoft <A HREF="update/">a ajouté la prise en charge de son API UI Automation à la console https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-</A>, apportant des performances et une stabilité considérablement améliorées pour les lecteurs d'écran qui la prennent en charge.
+Dans Windows 10 version 1709, Microsoft <A HREF="https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-update/">a ajouté la prise en charge de son API UI Automation à la console</A>, apportant des performances et une stabilité considérablement améliorées pour les lecteurs d'écran qui la prennent en charge.
 Dans les situations où l'automatisation de l'interface utilisateur n'est pas disponible ou connue pour entraîner une expérience utilisateur inférieure, la prise en charge de la console héritée de NVDA est disponible comme solution de secours.
 La liste déroulante de prise en charge de la console Windows comporte trois options :
 </P>
@@ -4294,6 +4337,32 @@ Cependant, dans les terminaux, lors de l'insertion ou de la suppression d'un car
 </UL>
 
 <P></P>
+<A NAME="WtStrategy"></A>
+<H5>Annoncez un nouveau texte dans le terminal Windows via</H5>
+<DL>
+<DT>Défaut</DT><DD>
+  Différence
+<DT>Options</DT><DD>
+  Différence, notifications UIA
+</DL>
+
+<P></P>
+<P>
+Cette option sélectionne la façon dont NVDA détermine quel texte est "nouveau" (et donc ce qu'il faut prononcer lorsque "signaler les changements de contenu dynamique" est activé) dans Windows Terminal et le contrôle WPF Windows Terminal utilisé dans Visual Studio 2022.
+Elle n'affecte pas la console Windows (<CODE>conhost.exe</CODE>).
+La liste déroulante annoncer le nouveau texte dans le terminal Windows comporte trois options :
+</P>
+<UL>
+<LI>Par défaut : cette option est actuellement équivalente à "différence", mais il est prévu qu'elle change une fois que la prise en charge des notifications UIA sera développée davantage.
+<LI>Différence : cette option utilise l'algorithme de comparaison sélectionné pour calculer les changements à chaque fois que le terminal affiche un nouveau texte.
+Ceci est identique au comportement de NVDA dans les versions 2022.4 et antérieures.
+<LI>Notifications UIA : Cette option reporte la responsabilité de déterminer quel texte parler au terminal Windows lui-même, ce qui signifie que NVDA n'a plus à déterminer quel texte actuellement à l'écran est "nouveau".
+Cela devrait nettement améliorer les performances et la stabilité de Windows Terminal, mais cette fonctionnalité n'est pas encore complète.
+En particulier, les caractères saisis qui ne s'affichent pas à l'écran, tels que les mots de passe, sont signalés lorsque cette option est sélectionnée.
+De plus, les étendues contiguës d'affichage de plus de 1 000 caractères peuvent ne pas être rapportées avec précision.
+</UL>
+
+<P></P>
 <A NAME="CancelExpiredFocusSpeech"></A>
 <H5>Tenter d'interrompre la parole pour les événements de focus expirés</H5>
 <P>
@@ -4380,7 +4449,7 @@ Ainsi, en utilisant l'exemple précédent de remplacement du mot "oiseau" par le
 <P>
 Une expression régulière est un modèle contenant des symboles particuliers vous permettant de trouver une correspondance sur plus d'un caractère à la fois, ou seulement sur les lettres ou les chiffres etc. 
 Les expressions régulières ne sont pas expliquées dans ce manuel.
-Pour un tutoriel d'introduction, veuillez consulter [<A HREF="https://docs.python.org/3.7/howto/regex.html">https://docs.python.org/3.7/howto/regex.html</A>].
+Pour un tutoriel d'introduction, veuillez consulter [<A HREF="https://docs.python.org/fr/3.7/howto/regex.html">https://docs.python.org/fr/3.7/howto/regex.html</A>].
 </P>
 <A NAME="SymbolPronunciation"></A>
 <H4>12.2.2. Prononciation des Ponctuations et symboles</H4>
@@ -4903,7 +4972,7 @@ Sélectionnez toutes les langues désirées et utilisez le bouton "Ajouter" pour
 Une fois les langues ajoutées, redémarrez NVDA.
 </P>
 <P>
-Veuillez consulter cet article de Microsoft pour une liste de voix disponibles : <A HREF="https://support.microsoft.com/en-us/windows/appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01">https://support.microsoft.com/en-us/windows/appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01</A>
+Veuillez consulter cet article de Microsoft pour une liste de voix disponibles : <A HREF="https://support.microsoft.com/fr-fr/windows/annexe-a-langues-et-voix-prises-en-charge-4486e345-7730-53da-fcfe-55cc64300f01">https://support.microsoft.com/fr-fr/windows/annexe-a-langues-et-voix-prises-en-charge-4486e345-7730-53da-fcfe-55cc64300f01</A>
 </P>
 <A NAME="SupportedbrailleDisplays"></A>
 <H2>15. Terminaux Braille Pris en Charge</H2>
@@ -4931,6 +5000,7 @@ Les terminaux suivants supportent cette fonctionnalité de détection automatiqu
 <LI>Terminaux Eurobraille Esys/Esytime/Iris
 <LI>Afficheurs Nattiq nBraille
 <LI>Seika Notetaker: MiniSeika (16, 24 cellules), V6, et V6Pro (40 cellules)
+<LI>Afficheurs Tivomatic Caiku Albatross 46/80
 <LI>N'importe quel afficheur supportant le protocole standard HID Braille
 </UL>
 
@@ -5699,7 +5769,7 @@ Les terminaux suivants sont également supportés (et ne nécessitent aucun pilo
 Voici les assignations de touches pour Brailliant BI/B et BrailleNote touch sous NVDA.
 Veuillez consulter la documentation du terminal pour savoir où se situent ces touches.
 </P>
-<A NAME="toc156"></A>
+<A NAME="toc157"></A>
 <H4>15.9.1. Assignations des Touches pour tous les Modèles</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -5788,7 +5858,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc157"></A>
+<A NAME="toc158"></A>
 <H4>15.9.2. Assignations de Touches pour les Brailliant BI 32, BI 40 et B 80</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -5809,7 +5879,7 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 </TR>
 </TABLE>
 
-<A NAME="toc158"></A>
+<A NAME="toc159"></A>
 <H4>15.9.3. Assignations de Touches pour le Brailliant BI 14</H4>
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -7570,8 +7640,193 @@ Veuillez consulter les <A HREF="http://mielke.cc/brltty/doc/KeyBindings/">listes
 </TR>
 </TABLE>
 
+<A NAME="Albatross"></A>
+<H3>15.20. Tivomatic Caiku Albatross 46/80</H3>
+<P>
+Les terminaux Caiku Albatross, qui étaient fabriqués par Tivomatic et disponibles en Finlande, peuvent être connectés via USB ou série.
+Vous n'avez pas besoin d'installer de pilote spécifique pour utiliser ces afficheurs.
+Branchez simplement l'afficheur et configurez NVDA pour l'utiliser.
+</P>
+<P>
+Remarque : Un débit de 19 200 bauds est fortement recommandé.
+Si nécessaire, réglez la valeur du débit en bauds sur 19200 dans le menu de l'afficheur braille.
+Bien que le pilote prenne en charge un débit en bauds de 9600, il n'a aucun moyen de contrôler le débit en bauds utilisé par l'affichage.
+Parce que 19200 est le débit en bauds par défaut de l'affichage, le pilote l'essaie d'abord.
+Si les débits en bauds ne sont pas les mêmes, le pilote peut se comporter de manière inattendue.
+</P>
+<P>
+Voici les affectations de touches pour ces afficheurs avec NVDA.
+Veuillez consulter la documentation de l'afficheur pour savoir où trouver ces touches.
+</P>
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Nom</TH>
+<TH>Touche</TH>
+</TR>
+<TR>
+<TD>Aller à la première lige en mode revue</TD>
+<TD><CODE>home1</CODE>, <CODE>home2</CODE></TD>
+</TR>
+<TR>
+<TD>Aller à la dernière ligne en mode revue</TD>
+<TD><CODE>end1</CODE>, <CODE>end2</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'objet navigateur au focus courant</TD>
+<TD><CODE>eCursor1</CODE>, <CODE>eCursor2</CODE></TD>
+</TR>
+<TR>
+<TD>Aller au focus courant</TD>
+<TD><CODE>cursor1</CODE>, <CODE>cursor2</CODE></TD>
+</TR>
+<TR>
+<TD>Amener le pointeur souris à l'objet navigateur courant</TD>
+<TD><CODE>home1+home2</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'objet navigateur à l'objet sous le pointeur souris et l'annoncer</TD>
+<TD><CODE>end1+end2</CODE></TD>
+</TR>
+<TR>
+<TD>Amener le focus à l'objet navigateur courant</TD>
+<TD><CODE>eCursor1+eCursor2</CODE></TD>
+</TR>
+<TR>
+<TD>Basculer le suivi braille</TD>
+<TD><CODE>cursor1+cursor2</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'affichage braille à la ligne précédente</TD>
+<TD><CODE>up1</CODE>, <CODE>up2</CODE>, <CODE>up3</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'affichage braille à la ligne suivante</TD>
+<TD><CODE>down1</CODE>, <CODE>down2</CODE>, <CODE>down3</CODE></TD>
+</TR>
+<TR>
+<TD>Faire défiler l'affichage braille en arrière</TD>
+<TD><CODE>left</CODE>, <CODE>lWheelLeft</CODE>, <CODE>rWheelLeft</CODE></TD>
+</TR>
+<TR>
+<TD>Faire défiler l'affichage braille en avant</TD>
+<TD><CODE>right</CODE>, <CODE>lWheelRight</CODE>, <CODE>rWheelRight</CODE></TD>
+</TR>
+<TR>
+<TD>Aller à la cellule braille</TD>
+<TD><CODE>routing</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer la mise en forme du texte sous la cellule braille</TD>
+<TD><CODE>secondary routing</CODE></TD>
+</TR>
+<TR>
+<TD>Choisir la manière dont l'information contextuelle est présentée en braille</TD>
+<TD><CODE>attribute1+attribute3</CODE></TD>
+</TR>
+<TR>
+<TD>Choisir entre les modes de parole désactivé, bip and parole</TD>
+<TD><CODE>attribute2+attribute4</CODE></TD>
+</TR>
+<TR>
+<TD>Passer au mode de revue précédent (ex : objet, document ou écran)</TD>
+<TD><CODE>f1</CODE></TD>
+</TR>
+<TR>
+<TD>Passer au mode de revue suivant (ex : objet, document ou écran)</TD>
+<TD><CODE>f2</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'objet navigateur à l'objet le contenant</TD>
+<TD><CODE>f3</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'objet navigateur au premier objet qu'il contient</TD>
+<TD><CODE>f4</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'objet navigateur à l'objet précédent</TD>
+<TD><CODE>f5</CODE></TD>
+</TR>
+<TR>
+<TD>Amener l'objet navigateur à l'objet suivant</TD>
+<TD><CODE>f6</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer l'objet navigateur courant</TD>
+<TD><CODE>f7</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer l'information de position du texte ou de l'objet sous le curseur de revue</TD>
+<TD><CODE>f8</CODE></TD>
+</TR>
+<TR>
+<TD>Exécuter l'action par défaut sur l'objet navigateur courant</TD>
+<TD><CODE>f7+f8</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer date/heure</TD>
+<TD><CODE>f9</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer le niveau de batterie et le temps restant si l'alimentation n'est pas branchée</TD>
+<TD><CODE>f10</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer le titre</TD>
+<TD><CODE>f11</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer la barre d'état</TD>
+<TD><CODE>f12</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer la ligne courante sous le curseur d'application</TD>
+<TD><CODE>f13</CODE></TD>
+</TR>
+<TR>
+<TD>Dire tout</TD>
+<TD><CODE>f14</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer le caractère courant sous le curseur de revue</TD>
+<TD><CODE>f15</CODE></TD>
+</TR>
+<TR>
+<TD>Annoncer la ligne de l'objet navigateur courant où se situe le curseur de revue</TD>
+<TD><CODE>f16</CODE></TD>
+</TR>
+<TR>
+<TD>Dir le mot de l'objet navigateur courant où se situe le curseur de revue</TD>
+<TD><CODE>f15+f16</CODE></TD>
+</TR>
+<TR>
+<TD>Amener le curseur de revue à la ligne précédente de l'objet navigateur courant et l'annoncer</TD>
+<TD><CODE>lWheelUp</CODE>, <CODE>rWheelUp</CODE></TD>
+</TR>
+<TR>
+<TD>Amener le curseur de revue à la ligne suivante de l'objet navigateur courant et l'annoncer</TD>
+<TD><CODE>lWheelDown</CODE>, <CODE>rWheelDown</CODE></TD>
+</TR>
+<TR>
+<TD>Touche <CODE>Windows+d</CODE> (minimiser toutes les applications)</TD>
+<TD><CODE>attribute1</CODE></TD>
+</TR>
+<TR>
+<TD>Touche <CODE>Windows+e</CODE> (Ce PC)</TD>
+<TD><CODE>attribute2</CODE></TD>
+</TR>
+<TR>
+<TD>Touche <CODE>Windows+b</CODE> (focus dans la barre d'état)</TD>
+<TD><CODE>attribute3</CODE></TD>
+</TR>
+<TR>
+<TD>Touche <CODE>Windows+i</CODE> (Paramètres Windows)</TD>
+<TD><CODE>attribute4</CODE></TD>
+</TR>
+</TABLE>
+
 <A NAME="HIDBraille"></A>
-<H3>15.20. Afficheurs braille au standard HID</H3>
+<H3>15.21. Afficheurs braille au standard HID</H3>
 <P>
 Il s'agit d'un pilote expérimental pour la nouvelle spécification standard HID Braille, convenue en 2018 par Microsoft, Google, Apple et plusieurs sociétés de technologie d'assistance, dont NV Access.
 L'espoir est que tous les futurs modèles d'afficheurs Braille créés par n'importe quel fabricant utiliseront ce protocole standard qui supprimera le besoin de pilotes Braille spécifiques au fabricant.
@@ -7793,7 +8048,7 @@ Voici les options de ligne de commande de NVDA :
 <TR>
 <TD>-l NIVEAUDEJOURNALISATION</TD>
 <TD>--log-level=NIVEAUDEJOURNALISATION</TD>
-<TD>Le niveau minimal de messages journalisés (débogage 10, info 20, avertissement 30, erreur 40, critique 50, désactivé 100), le défaut est avertissement</TD>
+<TD>Le niveau minimal de messages journalisés (débogage 10, entrées/sorties 12, avertissements de débogage 15, info 20, désactivé 100)</TD>
 </TR>
 <TR>
 <TD>-c CHEMINDECONFIG</TD>
@@ -7917,5 +8172,5 @@ Ce site fournit également des informations concernant le développement de NVDA
 </P>
 
 <!-- html code generated by txt2tags 2.5 (http://txt2tags.sf.net) -->
-<!-- cmdline: txt2tags user_docs\fr\userGuide.t2t -->
+<!-- cmdline: txt2tags -q userGuide.t2t -->
 </BODY></HTML>
