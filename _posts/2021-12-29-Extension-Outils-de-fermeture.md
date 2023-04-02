@@ -1,15 +1,15 @@
 ---
-title: Extension Outils de fermeture v 2.0 pour NVDA par Pierre-Louis 
+title: Extension Outils de fermeture v 2.1 pour NVDA 2023.1 par Pierre-Louis 
 permalink: "/Extension-Outils-de-fermeture/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 29 Décembre 2021</footer>
+<footer>Publié le Mercredi 29 Décembre 2021 - Dernière mise à jour le Mardi 28 Mars 2023</footer>
 
 Bonjour à toutes et tous,
 
-Avec l'arrivée prochaine de NVDA 2022,  c'est l'occasion de vous proposer une mise à jour de l'extension "Outils de fermeture", en grande partie développée par Abdel.  Si vous avez manqué la version 1.0, notez qu'il faudra d'abord désinstaller  l'extension RaccourcisPlus le cas échéant.
+Avec l'arrivée de NVDA 2023.1,  c'est l'occasion de vous proposer une mise à jour de l'extension "Outils de fermeture", en grande partie développée par Abdel.  Si vous avez manqué la version 1.0, notez qu'il faudra d'abord désinstaller  l'extension RaccourcisPlus le cas échéant.
 
 Voici les fonctionnalités de Outils de fermeture aussi nommée ClosingTools :
 
@@ -36,11 +36,11 @@ niveau 1 Vous permet d'ouvrir la boîte de dialogue des paramètres de l'extensi
 
 Certaines actions ci-dessus ne possèdent pas de geste par défaut, vous pouvez leur attribuer vos propres gestes de commande.
 
-Par ici :
+Télécharger ClosingTools 2.1 [par ici](http://www.rptools.org/?p=8702) ;
 
-[Télécharger ClosingTools 2.0](http://www.rptools.org/?p=8702) ;
+Bonne utilisation,
 
-Cordialement, Meilleures voeux  anticipés pour l'année 2022,
+Cordialement,
 
 Pierre-Louis.
 
