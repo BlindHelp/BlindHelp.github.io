@@ -73,7 +73,7 @@ Nous ouvrirons l'éditeur de texte, par exemple le "Bloc-notes" sous Windows.
 C'est-à-dire, vous trouverez l'année où le test a été effectué avec l'extension en utilisant l'année comme version NVDA, par exemple:    
 `lastTestedNVDAVersion = 2022.2`    
 etc, etc...    
-3 Veuillez supprimer l'année affichée et taper l'année utilisée dans la version actuelle de NVDA, par exemple:    
+3. Veuillez supprimer l'année affichée et taper l'année utilisée dans la version actuelle de NVDA, par exemple:    
 `lastTestedNVDAVersion = 2023.1`
 4. Appuyez sur "Ctrl + s" pour enregistrer et confirmer l'action et appuyez sur "F2" pour supprimer l'extension .zip que vous avez mis à la fin de l'extension `.nvda-addon`    
 5. Ensuite, une fois terminé Vous devrez installer votre extension comme d'habitude.
@@ -107,13 +107,12 @@ Pour un suivi de la mise à jour des extensions, n'oubliez pas la page [Extensio
 
 D'un autre côté, je vous apporte de bonnes nouvelles, si vous ne le saviez pas, [NV Access](https://www.nvaccess.org/) a continué à travailler sur son  [add-on store](https://github.com/nvaccess/addon-datastore), que nous pouvons voir intégrés dans NVDA à un moment donné de cette année.
 
-### Quelques liens utiles en bric-à-brac à consulter liées au extensions ###
+### Liens utiles en bric-à-brac liées au extensions ###
 [NVDA - Site francophone](http://www.nvda-fr.org/)
 
 [Extensions sur le site Comunautaire NVDA](http://addons.nvda-project.org/)
 
-## Le coffre des Extensions pour NVDA via BlindHelp.github.io ##
-[Pour accéder cliquez ici !](https://blindhelp.github.io/Le%20coffre%20des%20Modules%20Complementaires%20pour%20NVDA.html)    
+Le coffre des Extensions pour NVDA via BlindHelp.github.io, pour accéder cliquez [ici !](https://blindhelp.github.io/Le%20coffre%20des%20Modules%20Complementaires%20pour%20NVDA.html)    
 
 Voilà, je pense avoir fait le tour de la question de comment rendre ces extensions compatibles avecNVDA ! 🧠    
 Sur ce, je vous souhaite une très bonne utilisation de vos  extensions préférées compatibles avec la dernière version du  lecteur d'écran NVDA gratuit et Open-source pour Microsoft Windows! :)    
