@@ -17,8 +17,8 @@ Habituellement, le problème est toujours le même: l'utilisateur n'a pas [l'Out
 
 Si vous avez une extension qui ne fonctionne pas après la mise à jour, suivez ces étapes dans l'ordre:
 
-1. Installez [TiendaNVDA extension pour NVDA (Boutique pour NVDA.ES)](https://nvda.es/files/get.php?file=tienda) ; (Extension non officielle). Vous pouvez consulter un article dédié à cette extension via BlindHelp.github.io en cliquant [ici] (https://blindhelp.github.io/TiendaNVDA/) Bien que cela s'appelle Tienda (Boutique en français), vous ne vous coûtera pas d'argent. C'est gratuit, et tout ce qui y est offert aussi! ; Pour d'autres instructions, appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions.
-2. Installez [l'Outil de mise à jour des extensions (appelé en anglais Add-on Updater)](https://addons.nvda-project.org/files/get.php?file=addonUpdater) (Extension officielle). Vous pouvez consulter un article dédié à cette extension via le site Comunautaire des Extensions NVDA en cliquant [ici](https://addons.nvda-project.org/addons/addonUpdater.fr.html) Pourquoi un seul installer  pour faire la mise à jour de vos extensions pour NVDA, Quand nous pouvons en avoir deux ? ; Pour d'autres instructions, appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions.     
+1. Installez [TiendaNVDA extension pour NVDA (Boutique pour NVDA.ES)](https://nvda.es/files/get.php?file=tienda) ; (Extension non officielle). Vous pouvez consulter un article dédié à cette extension via BlindHelp.github.io en cliquant [ici](https://blindhelp.github.io/TiendaNVDA/) Bien que cela s'appelle Tienda (Boutique en français), vous ne vous coûtera pas d'argent. C'est gratuit, et tout ce qui y est offert aussi ! ; Pour d'autres instructions, appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions.
+2. Installez [l'Outil de mise à jour des extensions (appelé en anglais Add-on Updater)](https://addons.nvda-project.org/files/get.php?file=addonUpdater) (Extension officielle). Vous pouvez consulter un article dédié à cette extension via le site Comunautaire des Extensions NVDA en cliquant [ici](https://addons.nvda-project.org/addons/addonUpdater.fr.html) Pourquoi un seul installer d'extension pour faire la mise à jour de vos extensions pour NVDA, Quand nous pouvons en avoir deux ? ; Pour d'autres instructions, appuyez sur le bouton Aide de cette extension, dans le Gestionnaire d'Extensions.     
 Pour nous dans cette extension, il y a deux sources principales disponibles qui peut nous intéresser pour faire la mise à jour:    
     * Site Web des extensions de la communauté (défaut)
     * Catalogue des extensions de la communauté espagnole
@@ -64,7 +64,7 @@ Sinon, quel dommage ! ☹ ; Dans ce cas là, vous n'aurez qu'à demander de l'ai
 ## Comment modifier mes manifestes pour les extensions empaquetées sous forme d'extension .nvda-addon manuellement ? ##
 
 Vous pouvez également modifier le manifeste à l'intérieur d'une extension .nvda-addon manuellement, pour cela veuillez procéder comme suit :    
-1. Si vous avez téléchargé une extension récemment et ce n'est pas compatible avec la version NVDA actuelle, vous devrez mettre l'extension .zip à la fin de l'extension .nvda-addon en utilisant la touche "F2", puis ouvrir ledit fichier .zip et modifier manuellement le fichier appelé:    
+1. Si vous avez téléchargé une extension récemment et ce n'est pas compatible avec la version NVDA actuelle, vous devrez mettre l'extension .zip à la fin de l'extension .nvda-addon en utilisant la touche "F2", puis ouvrir ledit fichier .zip et rechercher puis modifier manuellement le fichier appelé:    
 `manifest.ini`    
 Appuyez sur la lettre "m" ou la touche "fin", puis appuyez sur "Entrée" pour l'ouvrir.    
 Nous ouvrirons l'éditeur de texte, par exemple le "Bloc-notes" sous Windows.    
@@ -74,7 +74,7 @@ C'est-à-dire, vous trouverez l'année où le test a été effectué avec l'exte
 `lastTestedNVDAVersion = 2022.2`    
 etc, etc...    
 3 Veuillez supprimer l'année affichée et taper l'année utilisée dans la version actuelle de NVDA, par exemple:    
-`lastTestedNVDAVersion = 2023.1`    
+`lastTestedNVDAVersion = 2023.1`
 4. Appuyez sur "Ctrl + s" pour enregistrer et confirmer l'action et appuyez sur "F2" pour supprimer l'extension .zip que vous avez mis à la fin de l'extension `.nvda-addon`    
 5. Ensuite, une fois terminé Vous devrez installer votre extension comme d'habitude.
 6. Et enfin, testez votre extension pour savoir si fonctionne bien avec la dernière version de NVDA ! (yn)    
@@ -103,7 +103,7 @@ Veuillez consulter la section [Le Gestionnaire d'Extensions Incompatibles](https
 
 Veuillez consulter aussi la section [Avertissement d'extensions incompatibles](https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/userGuide.html#InstallWithIncompatibleAddons) pour plus de détails.
 
-[Pour un suivi de la mise à jour des extensions, n'oubliez pas la page Extensions et versions de rupture de compatibilité de NVDA.](https://addons.nvda-project.org/addons/nvdacompat.fr.html)
+Pour un suivi de la mise à jour des extensions, n'oubliez pas la page [Extensions et versions de rupture de compatibilité de NVDA.](https://addons.nvda-project.org/addons/nvdacompat.fr.html)
 
 D'un autre côté, je vous apporte de bonnes nouvelles, si vous ne le saviez pas, [NV Access](https://www.nvaccess.org/) a continué à travailler sur son  [add-on store](https://github.com/nvaccess/addon-datastore), que nous pouvons voir intégrés dans NVDA à un moment donné de cette année.
 
