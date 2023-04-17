@@ -8,7 +8,7 @@ author: BlindHelp
 <footer>Publié le Jeudi 13 Avril 2023</footer>
 
 Coucou mes amis du blog de BlindHelp!    
-Voici une nouvelle Version intermédiaire 4.5.7 de Thunderbird+, ci-dessous, je vous donne toutes les informations sur cette nouvelle version intermédiaire de l'extension Thunderbird+ pour NVDA transmise par Pierre-Louis.    
+Voici une nouvelle version intermédiaire 4.5.7 de Thunderbird+, ci-dessous, je vous donne toutes les informations sur cette nouvelle version intermédiaire de l'extension Thunderbird+ pour NVDA transmise par Pierre-Louis.    
 
 Si vous avez raté le post précédent et vous aimerez tout savoir sur cette extension Thunderbird+, vous pouvez voir cet article en cliquant sur le lien ci-dessus.    
 
