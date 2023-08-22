@@ -14,6 +14,12 @@ Aujourd'hui, dans cet article, nous traiterons du téléchargement, l'installati
 
 C'est une sorte de récapitulatif.    
 
+Veuillez vous reporter au Guide de l'utilisateur complet pour obtenir des informations plus détaillées sur chaque sujet.    
+
+NonVisual Desktop Access (NVDA) est une revue d'écran gratuite et à source ouverte pour le système d'exploitation Microsoft Windows.    
+
+En donnant des informations via une voix synthétique et le braille, il permet aux personnes aveugles ou malvoyantes d'accéder à un ordinateur sans coût additionnel par rapport à une personne voyante.    
+
 ### Télécharger la dernière version de NVDA ###
 
 Note : le site anglophone [NV Access](https://www.nvaccess.org/) propose toujours la dernière version stable en téléchargement. Il s'agit actuellement de la version 2023.1 publié le Lundi 27 Mars 2023 [comme mentionné sur ce post (en anglais)](https://www.nvaccess.org/post/nvda-2023-1/). La version de NVDA 2023.2 devrait être publiée dans les prochains mois qui suivent et elle sera proposée au téléchargement sur le site anglophone [NV Access](https://www.nvaccess.org/) via la publication d'un nouveau post habituel de qu'elle sera disponible.    
@@ -65,6 +71,16 @@ Une autre possibilité est d'utiliser la liste d'éléments, que vous pouvez ouv
 * [Guide de l'utilisateur](https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/userGuide.html)
 * [Quoi de neuf](https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/changes.html)
 * [Résumé des commandes](https://www.nvaccess.org/files/nvda/releases/stable/documentation/fr/keyCommands.html)
+
+# Avant de commencer avec l'installation de NVDA #
+
+Si vous êtes une personne aveugle ou malvoyante et que vous n'avez personne pour vous aider et que vous souhaitez installer le lecteur d'écran NVDA vous devrait activer le Narrateur sur votre ordinateur.    
+
+Il existe deux méthodes pour démarrer et arrêter le Narrateur.    
+
+* Appuyez sur la touche  de logo Windows + Ctrl + Entrée pour démarrer le Narrateur. Appuyez à nouveau sur ces touches pour arrêter le Narrateur. (Sur les versions antérieures de Windows, la commande était la touche  de logo Windows + Entrée.) Sur de nombreux claviers, la touche de logo Windows se trouve sur la ligne de touches inférieure, à gauche ou à droite de la touche Alt.    
+
+Mais si vous avez des amis ou de la famille dans votre environnement ou si vous avez un assembleur de confiance qui peut vous aider à l'installation de NVDA sur votre ordinateur, Vous n'aurez pas besoin d'activer le Narrateur sur celui-ci, dans ce cas là, vous pouvez sauter cette étape et continuer avec l'installation de NVDA en vous reportant à la section suivante.    
 
 ### Installation de NVDA ###
 
@@ -160,6 +176,7 @@ Et enfin voici les fiches de Daniel Poiraud pour bien configurer Windows 11 avec
 Vous trouverez des informations sur la configuration du lecteur d'écran NVDA avec Windows 11 en cliquant sur le lien ci-dessous.
 
 [Configuration de Windows 11.](https://angouleme.avh.asso.fr/fichesinfo/fiches_nvda/w11/w11_configuration.htm)
+
 Les deux affichages du Panneau de configuration. Désactiver le contrôle de compte utilisateur. Rendre l'affichage compatible avec NVDA. Faire afficher les icônes habituelles sur le bureau. Configurer l'Explorateur de fichiers. Configurer la barre des tâches et la zone de notification.    
 MAJ: 03.11.2021.    
 
