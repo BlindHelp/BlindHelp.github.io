@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 13 Septeembre 2023 - Dernière mise à jour le Mardi 26 Septembre 2023</footer>
+<footer>Publié le Mercredi 13 Septeembre 2023 - Dernière mise à jour le Mardi 3 Octobre 2023</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -25,6 +25,16 @@ NVDA peut maintenant raffraîchir périodiquement le résultat de l'OCR, en anno
 Plusieurs corrections pour le Braille ont été apportées, améliorant la détection des appareils et le mouvement du curseur. Il est maintenant possible d'exclure les pilotes non désirés de la détection automatique, pour en améliorer les performances. De nouvelles commandes BRLTTY sont également présentes.
 
 Sont également présents des correctifs pour l'Add-on Store, Microsoft Office, les menus contextuels de Microsoft Edge, et la calculatrice de Windows.
+
+# Mise à jour de la beta4 du Mardi 3 Octobre 2023 signalé par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2023-3beta4)
+
+NVDA 2023.3beta4 a été publié avec les changements suivants :
+
+• Correction d'un problème avec l'exécution du programme d'installation des anciennes versions de NVDA, une fois la version 2023.3beta3 installée.
+- Correction d'un problème de performances avec le Gestionnaire des tâches Windows et le moniteur de fiabilité.
+- Correction de l'annonce des commandes de formatage de cellule dans Excel.
+- Correction d'une régression qui provoquait des problèmes de support avec Windows 8 et versions antérieures.
+- Mises à jour des traductions.
 
 # Mise à jour de la beta3 du Mardi 26 Septembre 2023 signalé par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2023-3beta3)
 
@@ -49,9 +59,9 @@ NVDA 2023.3beta2 a été publié avec les changements suivants :
 
 # Liens utiles pour télécharger et consulter les dernières changements et informer d'une erreur dans NVDA
 
-- [Télécharger NVDA 2023.3beta3.](https://www.nvaccess.org/files/nvda/releases/2023.3beta3/nvda_2023.3beta3.exe)
-  - SHA256: dc2440ca370b253fb26a44c7fd126618c5ff887ca288e3d3f82473e7118b5508
-- [Quoi de Neuf.](https://www.nvaccess.org/files/nvda/releases/2023.3beta3/documentation/fr/changes.html)
+- [Télécharger NVDA 2023.3beta4.](https://www.nvaccess.org/files/nvda/releases/2023.3beta4/nvda_2023.3beta4.exe)
+  - SHA256 sum: ef50fd0afb0d2edef2d5af4ac67243e08d3318753aa15887a76bd9df74d50e8f
+- [Quoi de Neuf.](https://www.nvaccess.org/files/nvda/releases/2023.3beta4/documentation/fr/changes.html)
 - Veuillez ouvrir un [problème via GitHub.](https://github.com/nvaccess/nvda/issues)
 
 Veuillez noter que toutes les versions béta de NVDA 2023.3 doivent être testées en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.
