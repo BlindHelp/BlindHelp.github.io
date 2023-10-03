@@ -30,7 +30,7 @@ Sont également présents des correctifs pour l'Add-on Store, Microsoft Office, 
 
 NVDA 2023.3beta4 a été publié avec les changements suivants :
 
-• Correction d'un problème avec l'exécution du programme d'installation des anciennes versions de NVDA, une fois la version 2023.3beta3 installée.
+- Correction d'un problème avec l'exécution du programme d'installation des anciennes versions de NVDA, une fois la version 2023.3beta3 installée.
 - Correction d'un problème de performances avec le Gestionnaire des tâches Windows et le moniteur de fiabilité.
 - Correction de l'annonce des commandes de formatage de cellule dans Excel.
 - Correction d'une régression qui provoquait des problèmes de support avec Windows 8 et versions antérieures.
