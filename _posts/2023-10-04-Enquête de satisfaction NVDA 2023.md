@@ -34,17 +34,17 @@ Quentin Christensen
 
 Responsable Formation et Support
 
-[Web](http://www.nvaccess.org/)
+[Web : www.nvaccess.org](http://www.nvaccess.org/)
 
-[Formation](https://www.nvaccess.org/shop/)
+[Formation : https://www.nvaccess.org/shop/](https://www.nvaccess.org/shop/)
 
-[Certification](https://certification.nvaccess.org/)
+[Certification : https://certification.nvaccess.org/](https://certification.nvaccess.org/)
 
-[Groupe d'utilisateurs](https://nvda.groups.io/g/nvda)
+[Groupe d'utilisateurs : https://nvda.groups.io/g/nvda](https://nvda.groups.io/g/nvda)
 
-[Facebook](http://www.facebook .com/NVAccess)
+[Facebook : http://www.facebook.com/NVAccess](http://www.facebook.com/NVAccess)
 
-Twitter](https://twitter.com/NVAccess)
+[Twitter : @NVAccess](https://twitter.com/NVAccess)
 
 ---
 
