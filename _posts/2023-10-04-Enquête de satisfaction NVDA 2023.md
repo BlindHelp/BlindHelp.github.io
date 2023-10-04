@@ -29,8 +29,9 @@ NV Access a le plaisir de vous inviter à participer à l'enquête de satisfacti
 
 Comme l'année dernière, l'enquête se déroule sur Google Forms, mais vous n'avez pas besoin d'avoir un compte Google pour soumettre le formulaire.    
 S'il vous plaît, participez et partagez l'information à d'autres, merci !    
---
-Quentin Christensen    
+
+Quentin Christensen
+
 Responsable Formation et Support
 
 Web : <https://www.nvaccess.org>
