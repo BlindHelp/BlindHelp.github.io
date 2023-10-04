@@ -31,12 +31,18 @@ Comme l'année dernière, l'enquête se déroule sur Google Forms, mais vous n'a
 S'il vous plaît, participez et partagez l'information à d'autres, merci !    
 --
 Quentin Christensen    
-Responsable Formation et Support    
-Web : <www.nvaccess.org>    
-Formation : <https://www.nvaccess.org/shop/>    
-Certification : <https://certification.nvaccess.org/>    
-Groupe d'utilisateurs : <https://nvda.groups.io/g/nvda>    
-Facebook : <http://www.facebook .com/NVAccess>    
+Responsable Formation et Support
+
+Web : <https://www.nvaccess.org>
+
+Formation : <https://www.nvaccess.org/shop/>
+
+Certification : <https://certification.nvaccess.org/>
+
+Groupe d'utilisateurs : <https://nvda.groups.io/g/nvda>
+
+Facebook : <http://www.facebook .com/NVAccess>
+
 Twitter : @NVAccess
 
 ---
