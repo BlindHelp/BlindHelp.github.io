@@ -28,23 +28,23 @@ Bonjour à tous
 NV Access a le plaisir de vous inviter à participer à l'enquête de satisfaction NVDA 2023. Comme les années précédentes, il s'agit d'une enquête simple composée de trois questions. L'enquête est ouverte aux utilisateurs et testeurs de NVDA du monde entier. Nous encourageons tout le monde à répondre à l'enquête de satisfaction NVDA 2023. Vous pouvez trouver l'enquête à l'adresse suivante :  <https://docs.google.com/forms/d/e/1FAIpQLSddLf_Moan23Z2-a7zDo8aNQovD6mj5TQf2dneSaYTSfH008w/viewform>
 
 Comme l'année dernière, l'enquête se déroule sur Google Forms, mais vous n'avez pas besoin d'avoir un compte Google pour soumettre le formulaire.    
-S'il vous plaît, participez et partagez l'information à d'autres, merci !    
+S'il vous plaît, participez et partagez l'information à d'autres, merci !
 
 Quentin Christensen
 
 Responsable Formation et Support
 
-Web : <https://www.nvaccess.org>
+[Web](http://www.nvaccess.org/)
 
-Formation : <https://www.nvaccess.org/shop/>
+[Formation](https://www.nvaccess.org/shop/)
 
-Certification : <https://certification.nvaccess.org/>
+[Certification](https://certification.nvaccess.org/)
 
-Groupe d'utilisateurs : <https://nvda.groups.io/g/nvda>
+[Groupe d'utilisateurs](https://nvda.groups.io/g/nvda)
 
-Facebook : <http://www.facebook .com/NVAccess>
+[Facebook](http://www.facebook .com/NVAccess)
 
-Twitter : @NVAccess
+Twitter](https://twitter.com/NVAccess)
 
 ---
 
