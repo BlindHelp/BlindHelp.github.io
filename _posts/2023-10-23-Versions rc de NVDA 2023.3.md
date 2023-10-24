@@ -36,11 +36,11 @@ Sont également présents des correctifs pour l'Add-on Store, Microsoft Office, 
      - Il peut être ouvert avec ``NVDA+contrôle+u``. (#15497)
      - Une option dans les paramètres audio pour que le volume des sons et des bips NVDA suive le réglage du volume de la voix que vous utilisez. (#1409)
      - Une option dans les paramètres Audio pour configurer séparément le volume des sons NVDA. (#1409, #15038)
-     - Les paramètres permettant de modifier le périphérique de sortie audio et d'activer l'atténuation audio ont été déplacés du dialogue Sélectionner un synthétiseur vers le nouveau dialogue de paramètres audio . (#8711)
+     - Les paramètres permettant de modifier le périphérique de sortie audio et d'activer l'atténuation audio ont été déplacés du dialogue Sélectionner un synthétiseur vers le nouveau dialogue de paramètres audio . (#8711)    
      Ces options seront supprimées du dialogue "Sélectionner un synthétiseur" en 2024.1. (#15486, #8711)
   - NVDA sort désormais l'audio via l'API Windows Audio Session (WASAPI), ce qui peut améliorer la réactivité, les performances et la stabilité de la parole et des sons de NVDA. (#14697, #11169, #11615, #5096, #10185, #11061)
   - Note : WASAPI est incompatible avec certaines extensions.
-  Des mises à jour compatibles sont disponibles pour ces extensions, veuillez les mettre à jour avant NVDA.
+  Des mises à jour compatibles sont disponibles pour ces extensions, veuillez les mettre à jour avant NVDA.    
   Les versions incompatibles de ces extensions seront désactivées lors de la mise à jour de NVDA.
     - Tony's Enhancements version 1.15 ou plus ancien. (#15402)
     - Extension des commandes de base de NVDA 12.0.8 ou plus ancien. (#15443)
@@ -92,32 +92,32 @@ Sont également présents des correctifs pour l'Add-on Store, Microsoft Office, 
 
 ## Changements pour les Développeurs
 Veuillez vous référer au [guide de développement](https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API) pour plus d'informations sur le processus de dépréciation et de suppression de l'API de NVDA.    
-- ``braille.handler.handleUpdate`` et ``braille.handler.handleReviewMove`` ont été modifiés afin de ne pas effectuer de mise à jour instantanée.
-Avant ce changement, lorsque l’une ou l’autre de ces méthodes était appelée très souvent, cela consommait beaucoup de ressources.
-Ces méthodes mettent désormais en file d’attente une mise à jour à la fin de chaque cycle principal.
-Elles doivent également être thread-safe, ce qui permet de les appeler à partir de threads en arrière-plan. (#15163)
-- Ajout d'un support officiel pour enregistrer les pilotes d'afficheur braille personnalisés dans le processus de détection automatique de l'afficheur braille.
-Veuillez consulter la documentation de la classe ``braille.BrailleDisplayDriver`` pour plus de détails.
-Plus particulièrement, l'attribut ``supportsAutomaticDetection`` doit être défini sur ``True`` et la ``classmethod`` ``registerAutomaticDetection`` doit être implémentée. (#15196)
+- ``braille.handler.handleUpdate`` et ``braille.handler.handleReviewMove`` ont été modifiés afin de ne pas effectuer de mise à jour instantanée.    
+Avant ce changement, lorsque l’une ou l’autre de ces méthodes était appelée très souvent, cela consommait beaucoup de ressources.    
+Ces méthodes mettent désormais en file d’attente une mise à jour à la fin de chaque cycle principal.    
+Elles doivent également être thread-safe, ce qui permet de les appeler à partir de threads en arrière-plan. (#15163)    
+- Ajout d'un support officiel pour enregistrer les pilotes d'afficheur braille personnalisés dans le processus de détection automatique de l'afficheur braille.    
+Veuillez consulter la documentation de la classe ``braille.BrailleDisplayDriver`` pour plus de détails.    
+Plus particulièrement, l'attribut ``supportsAutomaticDetection`` doit être défini sur ``True`` et la ``classmethod`` ``registerAutomaticDetection`` doit être implémentée. (#15196)    
 
 ### Dépréciations
-- ``braille.BrailleHandler.handlePendingCaretUpdate`` est désormais obsolète sans remplacement public.
+- ``braille.BrailleHandler.handlePendingCaretUpdate`` est désormais obsolète sans remplacement public.    
 Elle sera supprimé en 2024.1. (#15163)
-- Importer les constantes ``xlCenter``, ``xlJustify``, ``xlLeft``, ``xlRight``, ``xlDistributed``, ``xlBottom``, ``xlTop`` depuis ``NVDAObjects.window .excel`` est obsolète.
-Utilisez les énumérations ``XlHAlign`` ou ``XlVAlign`` à la place. (#15205)
-- Le mapping ``NVDAObjects.window.excel.alignmentLabels`` est obsolète.
-Utilisez les méthodes ``displayString`` des énumérations ``XlHAlign`` ou ``XlVAlign`` à la place. (#15205)
-- ``bdDetect.addUsbDevices`` et ``bdDetect.addBluetoothDevices`` sont obsolètes.
-Les pilotes d'afficheurs braille doivent implémenter la méthode de classe ``registerAutomaticDetection`` à la place.
-Cette méthode reçoit un objet ``DriverRegistrar`` sur lequel les méthodes ``addUsbDevices`` et ``addBluetoothDevices`` peuvent être utilisées. (#15200)
-- L'implémentation par défaut de la méthode check sur ``BrailleDisplayDriver`` utilise ``bdDetect.driverHasPossibleDevices`` pour les périphériques marqués comme thread-safe.
-À partir de NVDA 2024.1, pour que la méthode de base utilise ``bdDetect.driverHasPossibleDevices``, l'attribut ``supportsAutomaticDetection`` doit également être défini sur ``True``. (#15200)
+- Importer les constantes ``xlCenter``, ``xlJustify``, ``xlLeft``, ``xlRight``, ``xlDistributed``, ``xlBottom``, ``xlTop`` depuis ``NVDAObjects.window .excel`` est obsolète.    
+Utilisez les énumérations ``XlHAlign`` ou ``XlVAlign`` à la place. (#15205)    
+- Le mapping ``NVDAObjects.window.excel.alignmentLabels`` est obsolète.    
+Utilisez les méthodes ``displayString`` des énumérations ``XlHAlign`` ou ``XlVAlign`` à la place. (#15205)    
+- ``bdDetect.addUsbDevices`` et ``bdDetect.addBluetoothDevices`` sont obsolètes.    
+Les pilotes d'afficheurs braille doivent implémenter la méthode de classe ``registerAutomaticDetection`` à la place.    
+Cette méthode reçoit un objet ``DriverRegistrar`` sur lequel les méthodes ``addUsbDevices`` et ``addBluetoothDevices`` peuvent être utilisées. (#15200)    
+- L'implémentation par défaut de la méthode check sur ``BrailleDisplayDriver`` utilise ``bdDetect.driverHasPossibleDevices`` pour les périphériques marqués comme thread-safe.    
+À partir de NVDA 2024.1, pour que la méthode de base utilise ``bdDetect.driverHasPossibleDevices``, l'attribut ``supportsAutomaticDetection`` doit également être défini sur ``True``. (#15200)    
 
 # Liens utiles pour télécharger et consulter les dernières changements et informer d'une erreur dans NVDA
 
 - [Télécharger NVDA 2023.3rc1.](https://www.nvaccess.org/files/nvda/releases/2023.3rc1/nvda_2023.3rc1.exe)
   - ```SHA256 sum: e5a2380fc7b9dfd37deab5781e62f7bacfaa5a951a494ada5a6936213f53a5e1```    
-Pour vérifier que le fichier téléchargé n'a pas été modifié, c'est-à-dire pour vérifier son intégrité, vous pouvez confirmer que le SHA256 correspond au précédent. Depuis l'invite de commande Windows, vous pouvez connaître le SHA256 d'un fichier téléchargé à l'aide de la commande suivante :    
+Pour vérifier que le fichier téléchargé n'a pas été modifié, c'est-à-dire pour vérifier son intégrité, vous pouvez confirmer que le SHA256 correspond au précédent. Depuis l'invite de commande de Windows, vous pouvez connaître le SHA256 d'un fichier téléchargé à l'aide de la commande suivante :    
 ```cmd
 certutil -hashfile <PathToDownloadedFile> SHA256
 ```

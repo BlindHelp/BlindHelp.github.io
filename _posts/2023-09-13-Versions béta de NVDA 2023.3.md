@@ -5,12 +5,12 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 13 Septeembre 2023 - Dernière mise à jour le Mardi 3 Octobre 2023</footer>
+<footer>Publié le Mercredi 13 Septembre 2023 - Dernière mise à jour le Mardi 3 Octobre 2023</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
 
-NVDA 2023.3beta1 a été publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2023-3beta1), le Mercredi 13 Septeembre 2023 pour tester des fonctionnalités qui seront incluses dans la prochaine version stable (2023.3).
+NVDA 2023.3beta1 a été publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2023-3beta1), le Mercredi 13 Septembre 2023 pour tester des fonctionnalités qui seront incluses dans la prochaine version stable (2023.3).
 
 Lorsque vous utilisez la version bêta, vous choisirez le canal bêta / RC et vous ne recevrez que des notifications sur les mises à jour disponibles pour ces types de versions.
 
