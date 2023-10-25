@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Lundi 23 Octobre 2023</footer>
+<footer>Publié le Lundi 23 Octobre 2023 - Dernière mise à jour le Mercredi 25 Octobre 2023</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -113,15 +113,21 @@ Cette méthode reçoit un objet ``DriverRegistrar`` sur lequel les méthodes ``a
 - L'implémentation par défaut de la méthode check sur ``BrailleDisplayDriver`` utilise ``bdDetect.driverHasPossibleDevices`` pour les périphériques marqués comme thread-safe.    
 À partir de NVDA 2024.1, pour que la méthode de base utilise ``bdDetect.driverHasPossibleDevices``, l'attribut ``supportsAutomaticDetection`` doit également être défini sur ``True``. (#15200)    
 
+# Mise à jour de la rc2 du Mercredi 25 Octobre 2023 signalé par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2023-3rc2/)
+
+NVDA 2023.3rc2 a été publié avec les changements suivants :
+
+- Mises à jour des traductions.
+
 # Liens utiles pour télécharger et consulter les dernières changements et informer d'une erreur dans NVDA
 
-- [Télécharger NVDA 2023.3rc1.](https://www.nvaccess.org/files/nvda/releases/2023.3rc1/nvda_2023.3rc1.exe)
-  - ```SHA256 sum: e5a2380fc7b9dfd37deab5781e62f7bacfaa5a951a494ada5a6936213f53a5e1```    
+- [Télécharger NVDA 2023.3rc2.](https://www.nvaccess.org/files/nvda/releases/2023.3rc2/nvda_2023.3rc2.exe)
+  - ```SHA256 sum: eeec88ab9ce26780c5cac19c000a347828416d1e6003b0f3bc7b71771c463d56```    
 Pour vérifier que le fichier téléchargé n'a pas été modifié, c'est-à-dire pour vérifier son intégrité, vous pouvez confirmer que le SHA256 correspond au précédent. Depuis l'invite de commande de Windows, vous pouvez connaître le SHA256 d'un fichier téléchargé à l'aide de la commande suivante :    
 ```cmd
-certutil -hashfile <PathToDownloadedFile> SHA256
+certutil -hashfile <CheminVersLeFichierTéléchargé> SHA256
 ```
-- [Quoi de Neuf.](https://www.nvaccess.org/files/nvda/releases/2023.3rc1/documentation/fr/changes.html)
+- [Quoi de Neuf.](https://www.nvaccess.org/files/nvda/releases/2023.3rc2/documentation/fr/changes.html)
 - Veuillez ouvrir un [problème via GitHub.](https://github.com/nvaccess/nvda/issues)
 
 Veuillez noter que toutes les versions rc ou béta de NVDA 2023.3 doivent être testées en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.
