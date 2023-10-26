@@ -8,7 +8,6 @@ author: BlindHelp
 <footer>Publié le Lundi 16 Octobre 2023</footer>
 
 
-
 Salut les amis,    
 
 J'espère que vous allez tous bien, et que vous êtes en pleine forme.
