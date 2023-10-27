@@ -137,13 +137,7 @@ Un fork du dépôt distant sur lequel nous sommes positionnés devrait s'ajouter
 Personnellement, je préfère procéder comme suit, pour éviter les erreurs :
 
 ```cmd
-gh repot fork nomUtilisateur/nomDepotDistantAForker --remote-name "Nom du dépôt distant de notre dépôt forké"
-```
-
-Par exemple, si actuellement nous sommes sur le dépôt "abdel/mp3DirectCut", cela devrait donner ce qui suit :
-
-```
-gh repo fork --repo abdel792/mp3DirectCut --remote-name origin
+gh repot fork
 ```
 
 Si l'on exécute la commande "git remote -v", on devrait trouver 2 dépôts distants :
@@ -159,8 +153,7 @@ git push -u origin votreBranche
 Ceci fait, une fois qu'elle sera poussée sur notre dépôt forké, on devra exécuter la PR suivante.
 
 ```cmd
-gh pr create --repo nomUtilisateurOuOrganisation/nomDepotSurLequelNousSommes --title "Titre de la PR en anglais de préférence" --body "Texte 
-contenu dans la description de la PR" --ref "branche sur laquelle on souhaite fusionner le travail, généralement, il s'agit de main ou master"
+gh pr create --repo nomUtilisateurOuOrganisation/nomDepotSurLequelNousSommes --title "Titre de la PR en anglais de préférence" --body "Texte contenu dans la description de la PR" --base "branche sur laquelle on souhaite fusionner le travail, généralement, il s'agit de main ou master"
 ```
 
 Comme vous pouvez le constater, la branche courante sur laquelle nous sommes positionnés n'a pas à être indiquée, elle sera reconnue automatiquement.
@@ -169,7 +162,61 @@ Si vous souhaitez utiliser une description formatée en Markdown, comme nous l'a
 
 Pour connaître toutes les options de la commande ["gh pr create", c'est par ici.](https://cli.github.com/manual/gh_pr_create)
 
-Voilà donc pour le moment, ce que je puis vous dire concernant GitHub-CLI, je l'utilise personnellement pour publier les mises à jour de mes extensions NVDA via la commande "gh workflow" que je vous décrirais dans un prochain post.
+## Certaines commandes disponibles avec "gh repo"
+
+Comme vous l'avez certainement compris, la commande "gh repo" permet de travailler sur les dépôts ou référentiels.
+
+Elle peut donc nous permettre de créer, éditer, renommer, forker ou même supprimer un dépôt très rapidement.
+
+Pour créer un dépôt :
+
+```cmd
+gh repo create TestOfGitHubCLI --public --description "Testing GitHubCLI" --clone
+```
+
+L'option "--clone" devrait cloner le dépôt nouvellement créé localement.
+
+On pourra alors y accéder avec la commande suivante :
+
+```cmd
+cd TestOfGitHubCLI
+```
+
+Pour renommer le dépôt, après s'y être introduit avec "cd NomDuDépôtLocal" :
+
+```cmd
+gh repo rename NewName
+```
+
+Si vous nêtes pas dans le dépôt en local, il faudra juste citer le nom de l'utilisateur suivi d'une barre oblique, suivi du nom du dépôt que vous souhaitez renommer dans l'option "--repo" comme suit :
+
+```cmd
+gh repo rename NewName --repo abdel792/TestOfGitHubCLI
+```
+
+Pour supprimer un dépôt :
+
+```cmd
+gh repo delete NewName --yes
+```
+
+L'option "--yes" permet d'éviter l'affichage de la demande de confirmation.
+
+Remarque :
+
+Pour la suppression, lors de sa toute première utilisation, vous devrez utiliser un code à usage unique de 8 caractères qui s'affichera dans votre terminal et choisir d'ouvrir le navigateur pour le saisir.
+
+La page suivante devrait alors s'ouvrir pour vous inviter à saisir ce code :
+
+[https://github.com/login/device.](https://github.com/login/device)
+
+Pour rééditer la description de votre dépôt, il faudra utiliser la commande suivante :
+
+```cmd
+gh repo edit --description "New description"
+```
+
+Pour voir toutes les commandes disponibles avec "gh repo", [consultez la page suivante sur la documentation officielle](https://cli.github.com/manual/gh_repo).
 
 Cordialement,    
 Abdel.    
