@@ -47,7 +47,7 @@ Elle ajoute un item	 dans le menu Outils de NVDA nommé «CloserMag».
 
 Lorsque vous validez sur cet item, ces articles devraient s'afficher selon le mode d'affichage que vous aurait choisi dans les paramètres de l'extension.
 
-## Paramètres de l'extension ## {: #closerMagSettings }
+## Paramètres de l'extension ##
 
 Dans le panneau des paramètres de l'extension, vous devriez trouver ce qui suit :
 

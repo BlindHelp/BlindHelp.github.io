@@ -44,7 +44,7 @@ Il ne vous restera alors qu'à valider sur l'intitulé de la saison dont vous so
 
 Si vous choisissez la saison actuelle, vous pourrez visualiser les matchs joués, ainsi que ceux qui ne l'ont pas encore été.
 
-## Paramètres de l'extension ## {: #maxiFootCalendarsSettings }
+## Paramètres de l'extension ##
 
 Dans le panneau des paramètres de l'extension, vous devriez trouver ce qui suit :
 
