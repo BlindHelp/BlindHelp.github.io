@@ -45,7 +45,7 @@ Une fois ceci terminé, suivez la procédure suivante :
 
 * Se rendre sur la page :    
 <https://github.com/settings/security#two-factor-summary>    
-Se connecter si nécessaire.    
+Se connecter si nécessaire.
 * Utiliser le chiffre 3 pour se positionner sur le titre :    
 ```
 Two-factor methods
@@ -134,8 +134,8 @@ A partir de là,  il faut parcourir le texte affiché avec flèche bas.
 On vous demande de vous connecter  avec le deuxième facteur déjà configuré.
 
 Nous devrons nous authentifier sur GitHub (j'ai utilisé mon mot de passe habituel), car j'ai vu la possibilité d'entrer le mot de passe habituel via le bouton situé plus bas.    
-```
-* Use your password
+* ```
+Use your password
 ```    
 c'est un bouton    
 
