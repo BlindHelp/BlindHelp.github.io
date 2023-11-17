@@ -1,4 +1,3 @@
-
 ---
 title: mesFables, une extension NVDA permettant de consulter les fables de La Fontaine depuis le site mesfables.com par Abdel
 permalink: "/mesFables-extension-pour-NVDA-par-Abdel/"
