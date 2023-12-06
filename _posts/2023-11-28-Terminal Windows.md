@@ -63,7 +63,7 @@ Si vous êtes administrateur informatique ou personne du support technique pour 
 
 Remarque: Cette modification peut être appliquée aux stations de travail utilisateur avec stratégie de groupe.
 
-Après avoir installé Windows 11 22H2, les clés de Registre suivantes deviennent disponibles.    
+Après avoir installé Windows 11 22H2, les clés de Registre suivantes deviennent disponibles.
 
 
 
@@ -245,7 +245,7 @@ ensuite le mot: `terminal`
 puis ensuite il nous dit:    
 `(c) Microsoft Corporation. Tous droits réservés.`    
 
-Cette modification fait que notre lecteur d'écran verbalise toutes les informations qui sont saisies dans le terminal en invite de commande, et nous retrouverons également l'interface de l'invite de commande précédente de Windows 10 en faisant la combinaison de touches Alt+Espace, puis trouvez les options avec les flèches directionnelles.
+Cette modification fait que notre lecteur d'écran verbalise toutes les informations qui sont saisies dans le terminal en invite de commande, et nous retrouverons également l'interface de l'invite de commande précédente de Windows 10 en faisant la combinaison de touches Alt+Espace, puis trouvez les options avec les flèches directionnelles.    
 Voilà, donc...    
 Profitez   de cette astuce pour rendre le Terminal Windows accessible pour ouvrir une ligne de commande avec notre lecteur d'écran préféré sous Windows 11! 😄    
 @+    
