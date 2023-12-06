@@ -109,11 +109,14 @@ REG_SZ contenant un GUID
 </p>
 </td>
 </tr>
-</thead>
 </tbody>
 </table>
 
-<p>Les valeurs suivantes sont proposées pour la sélection de l’hôte de console par défaut.</p>
+
+
+Les valeurs suivantes sont proposées pour la sélection de l’hôte de console par défaut.   
+
+ 
 
 <table>
 <thead>
