@@ -77,7 +77,7 @@ Après avoir installé Windows 11 22H2, les clés de Registre suivantes devienne
 </td>
 <td>
 <p>
-`HKCU\Console\%Startup `
+HKCU\Console\%Startup 
 </p>
 </td>
 </tr>
@@ -89,10 +89,10 @@ Après avoir installé Windows 11 22H2, les clés de Registre suivantes devienne
 </td>
 <td>
 <p>
-`DelegationConsole `
+DelegationConsole 
 </p>
 <p>
-`DelegationTerminal `
+DelegationTerminal 
 </p>
 </td>
 </tr>
@@ -104,7 +104,7 @@ Après avoir installé Windows 11 22H2, les clés de Registre suivantes devienne
 </td>
 <td>
 <p>
-`REG_SZ contenant un GUID`
+REG_SZ contenant un GUID
 </p>
 </td>
 </tr>
@@ -135,16 +135,16 @@ Après avoir installé Windows 11 22H2, les clés de Registre suivantes devienne
 </td>
 <td>
 <p>
-<b>`DelegationConsole `</b>
+<b>DelegationConsole </b>
 </p>
 <p>
-`{00000000-0000-0000-0000-000000000000} `
+{00000000-0000-0000-0000-000000000000} 
 </p>
 <p>
-<b>`DelegationTerminal `</b>
+<b>DelegationTerminal </b>
 </p>
 <p>
-`{00000000-0000-0000-0000-000000000000} `
+{00000000-0000-0000-0000-000000000000} 
 </p>
 </td>
 </tr>
@@ -156,16 +156,16 @@ Hôte de console Windows (hérité)
 </td>
 <td>
 <p>
-<b>`DelegationConsole` </b>
+<b>DelegationConsole </b>
 </p>
 <p>
-`{B23D10C0-E52E-411E-9D5B-C09FDF709C7D} `
+{B23D10C0-E52E-411E-9D5B-C09FDF709C7D} 
 </p>
 <p>
-<b>`DelegationTerminal `</b>
+<b>DelegationTerminal </b>
 </p>
 <p>
-`{B23D10C0-E52E-411E-9D5B-C09FDF709C7D} `
+{B23D10C0-E52E-411E-9D5B-C09FDF709C7D} 
 </p>
 </td>
 </tr>
@@ -175,16 +175,16 @@ Hôte de console Windows (hérité)
 </td>
 <td>
 <p>
-<b>`DelegationConsole `</b>
+<b>DelegationConsole </b>
 </p>
 <p>
-`{2EACA947-7F5F-4CFA-BA87-8F7FBEEFBE69} `
+{2EACA947-7F5F-4CFA-BA87-8F7FBEEFBE69} 
 </p>
 <p>
-<b>`DelegationTerminal `</b>
+<b>DelegationTerminal </b>
 </p>
 <p>
-`{E12CFF52-A866-4C77-9A90-F570A7AA2C6B} `
+{E12CFF52-A866-4C77-9A90-F570A7AA2C6B} 
 </p>
 </td>
 </tr>
