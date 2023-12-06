@@ -63,11 +63,11 @@ Si vous êtes administrateur informatique ou personne du support technique pour 
 
 Remarque: Cette modification peut être appliquée aux stations de travail utilisateur avec stratégie de groupe.
 
-Après avoir installé Windows 11 22H2, les clés de Registre suivantes deviennent disponibles.
+Après avoir installé Windows 11 22H2, les clés de Registre suivantes deviennent disponibles.    
+
 
 
 <table>
-<thead>
 <tbody>
 <tr>
 <td>
@@ -111,9 +111,7 @@ REG_SZ contenant un GUID
 </tbody>
 </table>
 
-
 <p>Les valeurs suivantes sont proposées pour la sélection de l’hôte de console par défaut.</p>
-
 
 <table>
 <thead>
@@ -192,15 +190,16 @@ Hôte de console Windows (hérité)
 </table>
 
 
-Source de cette information:
+
+Source de cette information:    
 
 [Invite de commandes et Windows PowerShell pour Windows 11 - Support Microsoft](https://support.microsoft.com/fr-fr/windows/invite-de-commandes-et-windows-powershell-pour-windows-11-6453ce98-da91-476f-8651-5c14d5777c20)
 
-Pour en savoir plus sur le Terminal Windows, vous pouvez consulter la documentation en ligne (PDF), à partir du lien ci-dessous :
+Pour en savoir plus sur le Terminal Windows, vous pouvez consulter la documentation en ligne (PDF), à partir du lien ci-dessous :    
 
 [windows terminal - Microsoft Learn](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Ffr-fr%2Fwindows%2Fterminal%2Ftoc.json)
 
-Vous pouvez utiliser le bouton appelé "Télécharger" sur ladite page pour télécharger cette documentation en PDF  à l'aide de votre navigateur par défaut pour l'enregistrer sous votre disque dur pour une future consultation hors ligne.
+Vous pouvez utiliser le bouton appelé "Télécharger" sur ladite page pour télécharger cette documentation en PDF  à l'aide de votre navigateur par défaut pour l'enregistrer sous votre disque dur pour une future consultation hors ligne.    
 
 # 💡 Astuce Terminal Windows - Quelques manipulations à faire dans Windows 11 pour nous les miro par BlindHelp #
 
