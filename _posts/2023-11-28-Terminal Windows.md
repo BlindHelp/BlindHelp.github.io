@@ -63,11 +63,12 @@ Si vous êtes administrateur informatique ou personne du support technique pour 
 
 Remarque: Cette modification peut être appliquée aux stations de travail utilisateur avec stratégie de groupe.
 
-Après avoir installé Windows 11 22H2, les clés de Registre suivantes deviennent disponibles.    
+Après avoir installé Windows 11 22H2, les clés de Registre suivantes deviennent disponibles.
 
 
 
 <table>
+<thead>
 <tbody>
 <tr>
 <td>
