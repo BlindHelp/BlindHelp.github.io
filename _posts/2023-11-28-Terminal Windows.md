@@ -68,6 +68,7 @@ Après avoir installé Windows 11 22H2, les clés de Registre suivantes devienne
 
 
 <table>
+<thead>
 <tbody>
 <tr>
 <td>
