@@ -109,6 +109,7 @@ REG_SZ contenant un GUID
 </p>
 </td>
 </tr>
+</thead>
 </tbody>
 </table>
 
