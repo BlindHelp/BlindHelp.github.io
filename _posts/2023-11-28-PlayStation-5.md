@@ -34,9 +34,9 @@ Puis n'hésitez pas à suivre  l'actualité pour ne rien manquer à propos de la
 
 Abonnez-vous et activez les notifications pour ne rien manquer. 😸
 
-Source : [PlayStation Blog.](https://blog.playstation.com/2022/08/26/the-last-of-us-part-i-full-list-of-accessibility-features/)
+Source : [THE LAST OF US PART I (post en anglais sur PlayStation Blog.)](https://blog.playstation.com/2022/08/26/the-last-of-us-part-i-full-list-of-accessibility-features/)
 
-[JEUX PS5](https://www.edencast.fr/tag/jeux/)
+[A lire aussi: JEUX PS5](https://www.edencast.fr/tag/jeux/)
 
 Voilà, donc...    
 Bons jeux. 😉    
