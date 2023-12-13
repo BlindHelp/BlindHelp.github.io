@@ -20,11 +20,23 @@ Alors, sans plus attendre, voici quelques-uns de ses posts que vous pouvez consu
 
 [PlayStation 5 en aveugle : Une plateforme multimédia accessible ?](https://www.edencast.fr/ps5-aveugle-plateforme-multimedia-accessible/)
 
+[PLAYSTATION 5 EN AVEUGLE : PREMIER CONTACT](https://www.edencast.fr/playstation-5-aveugle-premier-contact/)
+
+[APERÇU : THE LAST OF US PART I EN AVEUGLE](https://www.edencast.fr/apercu-the-last-of-us-part-i-en-aveugle/)
+
 [PS5 : Bientôt de nouvelles langues pour le lecteur d'écran intégré](https://www.edencast.fr/ps5-bientot-nouvelles-langues-pour-lecteur-ecran/)
+
+[SONY LÈVE ENFIN LE VOILE SUR L'ACCESSIBILITÉ DE SA PLAYSTATION 5](https://www.edencast.fr/sony-accessibilite-playstation-5-annonce/)
 
 Donc, grand merci à Kevin pour le partage! 🕹
 
 Puis n'hésitez pas à suivre  l'actualité pour ne rien manquer à propos de la [PlayStation](https://www.edencast.fr/tag/playstation/), y compris sur [ça chaîne Youtube.](https://www.youtube.com/c/edencast)
+
+Abonnez-vous et activez les notifications pour ne rien manquer. 😸
+
+Source : [PlayStation Blog.](https://blog.playstation.com/2022/08/26/the-last-of-us-part-i-full-list-of-accessibility-features/)
+
+[JEUX PS5](https://www.edencast.fr/tag/jeux/)
 
 Voilà, donc...    
 Bons jeux. 😉    
