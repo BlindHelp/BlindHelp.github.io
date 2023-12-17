@@ -5,7 +5,7 @@ author: BlindHelp
 ---
 
 
-<footer>Dernière mise à jour: le Samedi 4 novembre 2017.</footer>
+<footer>Publié le Samedi 4 Novembre 2017 - Dernière mise à jour le Samedi 4 Novembre 2023</footer>
 
 
 <div>
@@ -26,8 +26,8 @@ Bien entendu, ami des nouvelles technologies, le père noël a tout fait pour qu
 Bref une hotte radio pleines d’étoiles de noël  pour les petits loustics et les grands pour qui noël est toujours une période de rêves et de douceurs.                 
  Comme chaque année le Père Noël attends vos messages sur son répondeur au 01 76 21 18 10.                        
 Voici la même Radio que je vous avez proposer en écoute dans un billet de l'année d'avant:!                     
-Attention - l’adresse d'écoute de la radio du Père Noel à changer depuis le 2014 par se lien:                    
-<a target="_blank" href="http://www.laradioduperenoel.com/players-1">"La radio officielle du Pere Noel - Player. Cliquez sur se lien pour écouter la radio du Père Noel!!!"</a>       
+Attention - l’adresse d'écoute de la radio du Père Noel à changer depuis quelques années par se lien:                    
+<a target="_blank" href="https://c26.radioboss.fm/stream/320">"La radio officielle du Pere Noel - Player. Cliquez sur se lien pour écouter la radio du Père Noel!!!"</a>       
 
 # Source de la radio du Père Noel: #
 <a target="_blank" href="http://www.laradioduperenoel.com/">"Accueil - La radio du Pere Noel"</a>        
