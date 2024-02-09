@@ -37,11 +37,11 @@ Quand il est activé, la liste des radios est lue par NVDA.
 
 Il faut faire un appui sur la touche Tabulation pour avoir cette liste.
 
-Dans certain moments NVDA se plante lors de l'utilisation de la touche de tabulation ( touche TAB).
+Dans certain moments NVDA se plante lors de l'utilisation de la touche de tabulation (touche TAB).
 
 Pour relancer notre lecteur d'écran, nous devrons faire le raccourci clavier Ctrl+Alt+N.
 
-Ce problème ne se posse pas avec JAWS.
+Ce problème ne se posse pas avec notre lecteur d'écran JAWS.
 
 Nous utilisons le menu contextuel pour choisir une option quand on est au dessus du nom de la radio à écouter par exemple.
 
