@@ -105,7 +105,7 @@ Cette partie correspond à la navigation dans l''app iTunes...
 En conclusion j'ai seulement essayé iTunes pour écouter l'option « Radio Internet »... 😏    
 et celui-ci fonctionne bien pour moi...    
 Voilà,    
-Sur ce, je vous souhaite une très bonne utilisation DE votre lecteur iTunes pour Microsoft Windows! :)    
+Sur ce, je vous souhaite une très bonne utilisation de votre lecteur iTunes pour Windows! :)    
 @+    
 BlindHelp!    
 
