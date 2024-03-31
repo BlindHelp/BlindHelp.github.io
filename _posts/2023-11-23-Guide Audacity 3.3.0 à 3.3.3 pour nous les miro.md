@@ -12,7 +12,6 @@ author: BlindHelp
 
 *Auteur: paulber19 (paulber19@laposte.net)*\
 
-[]{#toc}
 
 ## Sommaire
 
@@ -216,9 +215,9 @@ author: BlindHelp
     -   [20.9. Commandes relatives aux Clips](#toc174)
     -   [20.10. Commandes relatives à l\'enregistrement audio](#toc175)
 
-[]{#toc2}
 
-## 1. Introduction
+## 1. Introduction<a id"toc2"></a>
+
 
 Ceci est la traduction du
 [guide](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.3.0-Guide.html)
@@ -258,9 +257,9 @@ Les chapitres de cette introduction sont:
     raccourcis clavier et quelques conseils si vous n\'utilisez pas un
     clavier QWERTY.
 
-[]{#toc3}
 
-### 1.1. Projets Audacity
+### 1.1. Projets Audacity<a id"toc3"></a>
+
 
 Les objets qui sont édités par Audacity sont connus sous le nom de
 projet, de sorte que les projets sont équivalents à des documents
@@ -282,9 +281,9 @@ En principe, Vous n\'avez besoin d\'enregistrer un projet dans ce format
 que si vous avez l\'intention de continuer à travailler ultérieurement
 sur le projet.
 
-[]{#toc4}
 
-### 1.2. Curseur
+### 1.2. Curseur<a id"toc4"></a>
+
 
 Audacity a un curseur pour spécifier un temps particulier pendant
 l\'audio, et cela est similaire au curseur dans Microsoft Word. Le
@@ -293,16 +292,16 @@ début de la lecture, la position où vous voulez commencer à sélectionner
 une plage de temps et l\'endroit où le son est collé depuis le
 presse-papiers.
 
-[]{#toc5}
 
-### 1.3. Les boîtes de message qui peuvent être affichées après l\'ouverture d\'Audacity
+### 1.3. Les boîtes de message qui peuvent être affichées après l\'ouverture d\'Audacity<a id"toc5"></a>
+
 
 Une ou plusieurs des boîtes de message décrites dans les trois chapitres
 suivants peuvent être affichées lorsque vous ouvrez Audacity.
 
-[]{#toc6}
 
-#### 1.3.1. Mises à jour de l\'application
+#### 1.3.1. Mises à jour de l\'application<a id"toc6"></a>
+
 
 Si vous n\'avez jamais utilisé une version d\'Audacity qui a la
 possibilité de vérifier automatiquement les mises à jour, alors lorsque
@@ -320,9 +319,9 @@ pouvez également modifier ce paramètre à tout moment, comme décrit au
 chapitre [\"Vérification automatique des mises à
 jour\"](#HDR-UpdateAutomaticChecking) du chapitre \"Préférences\".
 
-[]{#toc7}
 
-#### 1.3.2. Boite de dialogue de bienvenue
+#### 1.3.2. Boite de dialogue de bienvenue<a id"toc7"></a>
+
 
 Lorsque vous ouvrez Audacity, une boite de dialogue de bienvenue
 s\'affiche qui contient une zone de texte en HTML décrivant des
@@ -336,9 +335,9 @@ montrer ceci au démarrage " Pour empêcher l\'affichage de cette boite de
 dialogue à l\'avenir. Pour être tranquille, cochez la case et appuyez
 sur le bouton OK.
 
-[]{#toc8}
 
-#### 1.3.3. Échec du démarrage de FFmpeg
+#### 1.3.3. Échec du démarrage de FFmpeg<a id"toc8"></a>
+
 
 Si vous installez la version 64 bits d\'Audacity et que vous n\'avez
 précédemment installé que la bibliothèque FFmpeg pour les versions 32
@@ -350,9 +349,9 @@ Cela peut facilement être résolu en installant la version 64 bits de la
 bibliothèque FFmpeg, comme décrit au chapitre [\"Bibliothèque
 FFmpeg\"](#HDR-FFMPEGLibrary) du chapitre \"Préférences\".
 
-[]{#toc9}
 
-### 1.4. Aide
+### 1.4. Aide<a id"toc9"></a>
+
 
 Audacity est un outil extrêmement puissant et ce guide n\'est qu\'une
 introduction. Pour plus d\'informations, voir:
@@ -377,9 +376,8 @@ introduction. Pour plus d\'informations, voir:
     accepter différents termes. Il y a trois cases à cocher qui doivent
     être cochées, et enfin un bouton Suivant pour appuyer.
 
-[]{#toc10}
+### 1.5. Nouvelles fonctionnalités et modifications<a id"toc10"></a>
 
-### 1.5. Nouvelles fonctionnalités et modifications
 
 Les nouvelles fonctionnalités et changements qui ont été introduits dans
 Audacity 3.3.0 incluent ce qui suit :
@@ -401,9 +399,9 @@ Audacity 3.3.0 incluent ce qui suit :
 -   Malheureusement, les changements de cette version d\'Audacity font
     que certaines fonctionnalités du script Jaws ne fonctionnent plus.
 
-[]{#toc11}
 
-### 1.6. Raccourcis par défaut
+### 1.6. Raccourcis par défaut<a id"toc11"></a>
+
 
 Depuis la version 2.2, Audacity installe, par défaut, un minimum de
 raccourcis. Vous pouvez changer cela et installer un jeu complet de
@@ -412,9 +410,8 @@ complet](#HDR-DefaultShortcutsSet)\".
 
 Le reste de ce guide suppose que vous avez installé le jeu complet.
 
-[]{#toc12}
 
-### 1.7. Utilisation d\'un clavier de type autre que QWERTY
+### 1.7. Utilisation d\'un clavier de type autre que QWERTY<a id"toc12"></a>
 
 Si vous utilisez un clavier d\'un autre type que QWERTY, quelques
 commandes clavier ne fonctionnent pas si vous utilisez Audacity avec les
@@ -423,9 +420,8 @@ paramètres par défaut.
 Pour résoudre ce problème, voir le chapitre [\"Les raccourcis
 gênants\"](#HDR-BracketShortcuts).
 
-[]{#toc13}
 
-### 1.8. Script Jaws
+### 1.8. Script Jaws<a id"toc13"></a>
 
 Il existe un script Jaws pour Audacity, et son utilisation apporte la
 fourniture de commentaires supplémentaires et de moyens pratiques
@@ -444,13 +440,11 @@ de crête des compteurs d\'enregistrement et de lecture
 Notez que pour ceux qui utilisent Jaws, le reste du guide ne suppose pas
 que ce script est installé
 
-[]{#toc14}
 
-## 2. Fenêtre principale
+## 2. Fenêtre principale<a id"toc14"></a>
 
-[]{#toc15}
 
-### 2.1. Principaux composants de la fenêtre
+### 2.1. Principaux composants de la fenêtre<a id"toc15"></a>
 
 Les principaux composants de la fenêtre principale d\'Audacity sont:
 
@@ -471,9 +465,8 @@ Les principaux composants de la fenêtre principale d\'Audacity sont:
     l\'état de l\'outils \"Transport\", à savoir celui de l\'arrêt
     d\'Audacity, de la lecture, de l\'enregistrement et ainsi de suite.
 
-[]{#toc16}
 
-### 2.2. Déplacement dans la fenêtre
+### 2.2. Déplacement dans la fenêtre<a id"toc16"></a>
 
 Comme dans n\'importe quelle fenêtre, pour atteindre la barre de menus,
 appuyez sur \"Alt\", et pour la quitter appuyez sur \"Échap\" ou
@@ -489,9 +482,8 @@ parmi:
 En appuyant sur \"Control + majuscule + F6\" vous vous déplacez dans
 l\'ordre inverse.
 
-[]{#toc17}
 
-### 2.3. Lecture de la barre d\'état
+### 2.3. Lecture de la barre d\'état<a id"toc17"></a>
 
 Si vous utilisez Jaws ou NVDA, vous pouvez lire la barre d\'état
 d\'Audacity à l\'aide de la combinaison de touches tandard du lecteur
@@ -506,9 +498,8 @@ champ de la barre d\'état en appuyant sur la touche Narrateur + flèche
 droite, et revenir à la vue piste en appuyant sur la touche Narrateur +
 flèche gauche
 
-[]{#toc18}
 
-## 3. Ouverture d\'un fichier audio
+## 3. Ouverture d\'un fichier audio<a id"toc18"></a>
 
 Pour ouvrir un projet de fichiers audacity ou un fichier audio standard,
 utiliser la boîte de dialogue \"Choisir un ou plusieurs fichier (s)\",
@@ -540,9 +531,8 @@ projet actuel. Dans ce cas, une nouvelle piste est ajoutée dans le
 tableau de pistes pour chaque fichier. Pour plus de détails, voir le
 chapitre [\"Importation de fichiers audio\"](#HDR-AudioFileImport).
 
-[]{#toc19}
 
-### 3.1. Ouverture de fichier audio standards
+### 3.1. Ouverture de fichier audio standards<a id"toc19"></a>
 
 L\'installation par défaut de Audacity permet d\'ouvrir des fichiers
 audio dans les formats audio suivants : WAV, AIFF, AU, MP3, MP2, MPEG,
@@ -555,9 +545,8 @@ wma et m4a, si vous téléchargez et installez la bibliothèque FFmpeg
 Elle n\'est pas incluse dans l\'installation d\'Audacity en raison de
 problèmes juridiques sur les brevets.
 
-[]{#HDR-SavingAudio}
 
-## 4. Sauvegarde audio
+## 4. Sauvegarde audio<a id"HDR-SavingAudio"></a>
 
 Vous pouvez sauvegarder l\'audio dans le format de projet audacity ou
 dans un des formats audio standards comme décrit dans les chapitres
@@ -580,9 +569,7 @@ avant de fermer. Le bouton par défaut est Oui., Mais si vous souhaitez
 sauvegarder le projet comme un fichier audio Audacity, il faut refuser
 avec le bouton \"Non\" pour ensuite l\'exporter.
 
-[]{#toc21}
-
-### 4.1. Sauvegarde dans le format de projet audacity
+### 4.1. Sauvegarde dans le format de projet audacity<a id"toc21"></a>
 
 Pour sauvegarder dans ce format, utilisez le sous-menu \"Sauvegarder le
 projet\" du sous-menu \"Sauvegarder le projet\" du menu \"Fichier\" ou
@@ -595,9 +582,9 @@ vous permet de choisir si vous ne voulez plus cet avertissement à
 nouveau. Si vous appuyez sur le bouton OK, vous obtenez alors le
 dialogue \"Sauvegarder le Projet sous\".
 
-[]{#toc22}
 
-### 4.2. Sauvegarde dans des formats audio
+### 4.2. Sauvegarde dans des formats audio<a id"toc22"></a>
+
 
 L\'installation par défaut d\'Audacity peut enregistrer dans les formats
 standard suivants: WAV, FLAC, MP3, Ogg Vorbis et MP2.
@@ -659,13 +646,13 @@ souvient du dernier format utilisé et que les commandes n\'ont pas de
 raccourcis par défaut, vous pourrez trouver plus commode d\'utiliser la
 boîte de dialogue Exporter l\'Audio qui possède un raccourci.
 
-[]{#HDR-AudioPlayback}
 
-## 5. Lecture audio
+## 5. Lecture audio<a id"HDR-AudioPlayback"></a>
 
-[]{#toc24}
 
-### 5.1. Paramètres de lecture
+
+### 5.1. Paramètres de lecture<a id"toc24"></a>
+
 
 Vous pouvez sélectionner le périphérique de lecture qu\'Audacity utilise
 à plusieurs endroits, notamment dans le panneau supérieur de barres
@@ -702,9 +689,9 @@ supposant que le tableau \"Vue de piste\" a le focus :
     les modifications souhaitées.
 -   Appuyez sur Ctrl + F6 pour revenir à la vue de Piste.
 
-[]{#toc25}
 
-#### 5.1.1. Commandes de lecture et raccourcis
+#### 5.1.1. Commandes de lecture et raccourcis<a id"toc25"></a>
+
 
 Ce sont les touches de commandes de lecture les plus courantes.
 
@@ -752,9 +739,9 @@ spécialisées, qui sont décrites aux endroits appropriés du guide.
 Une liste complète des commandes de lecture est disponible dans la
 rubrique \"Lecture\" du chapitre \"Raccourcis\".
 
-[]{#HDR-TracksTable}
 
-## 6. Tableau \"Vue de pistes\"
+## 6. Tableau \"Vue de pistes\"<a id"HDR-TracksTable"></a>
+
 
 Le tableau \"Vue de pistes\" contient les pistes qui composent le
 projet. Le tableau a une colonne et une ligne pour chacune des pistes.
@@ -781,9 +768,10 @@ La position du curseur et celle de lecture sont disponibles
 respectivement dans la barre d\'outils \"Sélection\" et \"Temps\"
 situées dans le panneau inférieur de barre d\'outils.
 
-[]{#toc27}
 
-### 6.1. Déplacement dans le tableau
+### 6.1. Déplacement dans le tableau<a id"toc27"></a>
+
+
 
 À Chaque fois que le focus est à l\'intérieur du tableau \"Vue de
 piste\" et que le tableau contient une ou plusieurs pistes, l\'une des
@@ -794,9 +782,9 @@ respectivement.
 Vous pouvez également passer à la première ou à la dernière piste par
 \"control + début\" ou \"control + Fin\" respectivement.
 
-[]{#HDR-TracksSelection}
 
-### 6.2. Sélection des piste
+### 6.2. Sélection des piste<a id"HDR-TracksSelection"></a>
+
 
 Vous avez besoin de sélectionner des pistes dans les cas suivants:
 
@@ -824,9 +812,9 @@ Il y a plusieurs manières de sélectionner ou désélectionner des pistes:
 L\'état de sélection (\"sélectionné\") d\'une piste est indiquée à la
 suite de son nom.
 
-[]{#HDR-ToolsBarsGroup}
 
-## 7. Panneaux des Barres d\'outils
+## 7. Panneaux des Barres d\'outils<a id"HDR-ToolsBarsGroup"></a>
+
 
 Il y a deux zones de la fenêtre principale qui contiennent des barres
 d\'outils, et celles-ci seront appelées panneaux de barre d\'outils
@@ -861,9 +849,10 @@ inférieures, puis des sous-chapitres sur certaines barres d\'outils
 individuelles comme la barre d\'outils \"Sélection\", la barre d\'outils
 \"Temps\" et la barre d\'outils \"Lecture à la vitesse\".
 
-[]{#toc30}
 
-### 7.1. Panneau supérieur de barre d\'outils
+### 7.1. Panneau supérieur de barre d\'outils<a id"toc30"></a>
+
+
 
 Les barres d\'outils qui sont affichés par défaut sont:
 
@@ -897,9 +886,9 @@ Les barres d\'outils qui sont affichés par défaut sont:
     sous-menu barres d\'outils du menu \"Affichage\". Cependant, dans ce
     guide, elle ne sera pas utilisée
 
-[]{#toc31}
 
-### 7.2. Panneau inférieur de Barres d\'outils
+### 7.2. Panneau inférieur de Barres d\'outils<a id"toc31"></a>
+
 
 Par défaut, le panneau inférieur de Barres d\'outils contient:
 
@@ -908,9 +897,10 @@ Par défaut, le panneau inférieur de Barres d\'outils contient:
 -   la barre d\'outils \"Sélection\",
 -   La barre d\'outils \"Lecture à la vitesse\"
 
-[]{#toc32}
 
-### 7.3. Barre d\'outils \"Snapping\"
+### 7.3. Barre d\'outils \"Snapping\"<a id"toc32"></a>
+
+
 
 La barre d\'outils d\'\"Snapping\" contient deux commandes :
 
@@ -942,9 +932,9 @@ par la zone de liste déroulante \"Snap to\". De plus, la taille de pas
 minimale est l\'unité spécifiée par la zone de liste déroulante \"Snap
 to\".
 
-[]{#toc33}
 
-### 7.4. Barre d\'outils \"temps\"
+### 7.4. Barre d\'outils \"temps\"<a id"toc33"></a>
+
 
 La barre d\'outils \"temps\" contient un seul contrôle, la boite de
 sélection numérique \"Position audio\". Pendant la lecture ou
@@ -963,9 +953,9 @@ contextuel de cette boite, mais malheureusement il y a un bug qui
 provoque la réinitialisation du format à la valeur par défaut si vous
 ouvrez la boîte de dialogue Préférences et appuyez sur le bouton OK.
 
-[]{#HDR-SelectionBar}
 
-### 7.5. Barre d\'outils \"Sélection\"
+### 7.5. Barre d\'outils \"Sélection\"<a id"HDR-SelectionBar"></a>
+
 
 La barre d\'outils de sélection contient les commandes suivantes :
 
@@ -983,9 +973,9 @@ Si aucune plage de temps n\'est sélectionnée, les boite de sélection
 numérique fléchés de début, de fin ou du centre donnent la position du
 curseur
 
-[]{#HDR-EditSpinBoxes}
 
-#### 7.5.1. Boites de sélection numérique
+#### 7.5.1. Boites de sélection numérique<a id"HDR-EditSpinBoxes"></a>
+
 
 Les controles de la barre d\'outils \"Sélection\" qui sont utilisées
 pour afficher et modifier les temps sont souvent appelées \"boites de
@@ -1086,9 +1076,9 @@ Il y a deux façons de changer la valeur du temps:
     de 1 à 300, 300 correspondant à 3 fois la vitesse de lecture
     normale.
 
-[]{#HDR-MovingCursor}
 
-## 8. Déplacement du curseur
+## 8. Déplacement du curseur<a id"HDR-MovingCursor"></a>
+
 
 Audacity a un curseur pour spécifier un temps donné au cours de
 l\'audio, par exemple, le début de la lecture, la position où vous
@@ -1153,9 +1143,9 @@ Les moyens de déplacement du curseur sont les suivants:
     numérique \"début\"](#HDR-MovingCursorWithSelectionStart)
     ci-dessous.
 
-[]{#toc37}
 
-### 8.1. La boite de sélection numérique de temps quand il y a un curseur
+### 8.1. La boite de sélection numérique de temps quand il y a un curseur<a id"toc37"></a>
+
 
 Dans Audacity, il y a soit un curseur soit une plage de temps
 sélectionnée. Lorsqu\'il y a un curseur, les temps affichées par les
@@ -1165,9 +1155,9 @@ position du curseur. Pour cette raison, nous pouvons utiliser la boite
 de sélection numérique \"Début\" de la sélection pour lire et changer la
 position du curseur, comme décrit dans les deux chapitres suivants
 
-[]{#toc38}
 
-### 8.2. Lecture de la position du curseur
+### 8.2. Lecture de la position du curseur<a id"toc38"></a>
+
 
 Il y a deux façons de lire la position du curseur.
 
@@ -1197,9 +1187,9 @@ de dialogue \"Définir la limite gauche de sélection\":
     dialogue et c\'est justement celui-ci qui reçoit le focus.
 -   Appuyez sur \"Echapp\" pour fermer la boîte de dialogue.
 
-[]{#HDR-MovingCursorWithSelectionStart}
 
-### 8.3. Déplacement du curseur à l\'aide de la boite de sélection numérique \"Début\"
+### 8.3. Déplacement du curseur à l\'aide de la boite de sélection numérique \"Début\"<a id"HDR-MovingCursorWithSelectionStart"></a>
+
 
 -   Appuyez sur \"control + F6\" pour amener le focus dans le panneau
     inférieur de barre d\'outils où la barre d\'outils \"Sélection\" est
@@ -1216,9 +1206,9 @@ de dialogue \"Définir la limite gauche de sélection\":
 -   Pour revenir au tableau \"Vue de piste\", appuyez sur \"control +
     F6\" deux fois ou simplement sur \"control+majuscule+f6\".
 
-[]{#toc40}
 
-#### 8.3.1. Raison pour l\'utilisation de l\'option \"durée\"
+#### 8.3.1. Raison pour l\'utilisation de l\'option \"durée\"<a id"toc40"></a>
+
 
 En supposant qu\'il n\'a pas de plage de temps définie, considérons les
 deux cas suivants:
@@ -1240,9 +1230,9 @@ deux cas suivants:
     numérique \"Fin\" reste inchangée. Vous avez alors accidentellement
     sélectionné une plage de temps.
 
-[]{#HDR-JumpSize}
 
-### 8.4. Longueur des sauts faits avec les flèches droite et gauche
+### 8.4. Longueur des sauts faits avec les flèches droite et gauche<a id"HDR-JumpSize"></a>
+
 
 Cette section décrit comment la longueur des sauts faits avec les
 flèches droite et gauche dépend du niveau de zoom horizontal des données
@@ -1300,9 +1290,9 @@ Comme autre exemple, si vous appuyez sur \"control + 2\" et puis
 \"control + 3\" 7 fois, la longueur du pas est d\'environ une secondes
 et demie.
 
-[]{#HDR-Scrubbing}
 
-### 8.5. Frottement
+### 8.5. Frottement<a id"HDR-Scrubbing"></a>
+
 
 L\'utilisation du mot \"Frottement\"(scrubbing en anglais) dans les
 éditeurs audio provient de l\'édition à l\'aide de magnétophones à
@@ -1381,9 +1371,9 @@ relâchée est conservée. Ce comportement permet le frottement avec l\'une
 des options décrites dans le chapitre [Méthode générale de sélection
 d\'un intervalle de temps](#HDR-GeneralTimeRangeSelection).
 
-[]{#HDR-AudioSelection}
 
-## 9. Sélection audio
+## 9. Sélection audio<a id"HDR-AudioSelection"></a>
+
 
 Dans le cas d\'un éditeur audio qui ne peut éditer qu\'une seule piste
 audio, la sélection de l\'audio consiste simplement en spécifiant le
@@ -1421,9 +1411,9 @@ automatique\"](#HDR-AutoSelect) du chapitre \"Préférences\".
 Toutes les instructions dans le reste de ce guide supposent que
 l\'option est désactivée
 
-[]{#toc44}
 
-### 9.1. Sélection d\'un intervalle de temps
+### 9.1. Sélection d\'un intervalle de temps<a id"toc44"></a>
+
 
 Un moyen rapide de sélectionner l\'ensemble de l\'audio dans le projet
 est d\'utiliser le raccourci \"control + A\": ce raccourci permet de
@@ -1440,9 +1430,9 @@ Il y a deux méthodes pour sélectionner une plage de temps:
     utiles, apportant des ajustements précis aux plages de temps et
     comment désélectionner les plages de temps.
 
-[]{#HDR-GeneralTimeRangeSelection}
 
-#### 9.1.1. Méthode générale de sélection d\'un intervalle de temps
+#### 9.1.1. Méthode générale de sélection d\'un intervalle de temps<a id"HDR-GeneralTimeRangeSelection"></a>
+
 
 La première méthode de sélection d\'un intervalle de temps se compose de
 deux étapes:
@@ -1519,9 +1509,9 @@ extrémité de la sélection:
 Notez que le tableau \"Vue de piste\" doit être sous le focus pour
 l\'utilisation de ces raccourcis.
 
-[]{#toc46}
 
-##### 9.1.1.1. Exemples
+##### 9.1.1.1. Exemples<a id"toc46"></a>
+
 
 Dans les exemples suivants, on suppose qu\'une seule piste est
 sélectionnée.
@@ -1554,9 +1544,9 @@ sélectionnée.
     point où vous voulez être la fin de la sélection, et enfin la barre
     d\'espace pour arrêter la lecture.
 
-[]{#HDR-UsingStoredPositionTimeRangeSelection}
 
-### 9.2. Sélection d\'une plage de temps à l\'aide de la position du curseur mémorisée
+### 9.2. Sélection d\'une plage de temps à l\'aide de la position du curseur mémorisée<a id"HDR-UsingStoredPositionTimeRangeSelection"></a>
+
 
 La seconde méthode générale de sélection d\'un intervalle de temps se
 compose de quatre étapes:
@@ -1590,9 +1580,9 @@ très souvent. De même, pendant la lecture, y compris en pause, le
 sélectionne de la position du curseur de lecture à la position du
 curseur stockée.
 
-[]{#HDR-CheckingSelectedTimeRange}
 
-### 9.3. Commandes de lecture pour la vérification d\'une plage de temps sélectionnée
+### 9.3. Commandes de lecture pour la vérification d\'une plage de temps sélectionnée<a id"HDR-CheckingSelectedTimeRange"></a>
+
 
 Lorsqu\'un intervalle de temps est sélectionné, si vous appuyez sur
 \"Espace\", seulement l\'audio de la plage sélectionnée est lue.
@@ -1614,16 +1604,16 @@ Les longueurs de ces périodes font partie du groupe de paramètres
 \"Aperçu de la coupe\" et se configurent dans la catégorie \"Lecture\"
 des préférences.
 
-[]{#toc49}
 
-### 9.4. Ajustement d\'une plage de temps
+### 9.4. Ajustement d\'une plage de temps<a id"toc49"></a>
+
 
 Il y a plusieurs manières de faire de petits ajustements d\'une plage de
 temps, et elles sont décrites dans les deux chapitres suivants.
 
-[]{#toc50}
 
-#### 9.4.1. Utilisation des raccourcis de déplacement du début et fin de sélection
+#### 9.4.1. Utilisation des raccourcis de déplacement du début et fin de sélection<a id"toc50"></a>
+
 
 Vous pouvez utiliser les touches suivantes pour déplacer le point de
 départ ou de fin de la sélection d\'une petite période de temps:
@@ -1647,9 +1637,9 @@ sauts faits avec les flèches droite et gauche\"](#HDR-JumpSize).
 Note que Les deux raccourcis qui utilisent la touche \"control\",
 contractent la plage de temps, tandis que les deux autres l\'étendent.
 
-[]{#toc51}
 
-#### 9.4.2. Utilisation des boites de sélection numérique
+#### 9.4.2. Utilisation des boites de sélection numérique<a id"toc51"></a>
+
 
 -   Si le focus est sur le tableau \"Vue de piste\", tapez \"control +
     F6\" pour l\'amener dans le panneau inférieur où la première barre
@@ -1673,9 +1663,9 @@ contractent la plage de temps, tandis que les deux autres l\'étendent.
 -   Appuyez sur \"control + F6\" deux fois pour revenir au tableau \"Vue
     de piste\".
 
-[]{#toc52}
 
-### 9.5. Désélection de la plage de temps
+### 9.5. Désélection de la plage de temps<a id"toc52"></a>
+
 
 Le déplacement du curseur à l\'aide de l\'une des touches suivantes,
 supprime la sélection de la plage de temps: \"Début\", \"Fin\", \"J\",
@@ -1689,20 +1679,19 @@ Pour désélectionner toutes les pistes, et désélectionner toute plage de
 temps, appuyez sur \"control + majuscule + A\". La nouvelle position du
 curseur est au début de la plage qui vient d\'être désélectionnée.
 
-[]{#toc53}
 
-## 10. Édition basique
+## 10. Édition basique<a id"toc53"></a>
 
-[]{#toc54}
 
-### 10.1. Annuler et rétablir
+### 10.1. Annuler et rétablir<a id"toc54"></a>
+
 
 Pour annuler appuyez sur \"control + Z\", et pour refaire appuyez sur
 control + Y\".
 
-[]{#toc55}
 
-### 10.2. Supprimer de l\'audio
+### 10.2. Supprimer de l\'audio<a id"toc55"></a>
+
 
 Pour supprimer l\'audio sélectionné, appuyez sur la touche \"Suppr\".
 
@@ -1714,9 +1703,9 @@ La longueur de la période de lecture avant et après la sélection peut
 être définie dans le groupe de paramètres \"Aperçu de la coupe\" situé
 dans la catégorie \"Lecture\" des préférences d\'Audacity.
 
-[]{#toc56}
 
-### 10.3. Couper
+### 10.3. Couper<a id"toc56"></a>
+
 
 Pour couper l\'audio sélectionné, appuyez sur \"control + X\". L\'audio
 sélectionné est retiré de la piste, et placé dans le presse-papier
@@ -1726,16 +1715,16 @@ Comme dans le cas de la suppression de l\'audio, vous pouvez écouter
 l\'effet de votre découpe en appuyant sur \"C\" pour Jouer un aperçu de
 la coupe.
 
-[]{#toc57}
 
-### 10.4. Copier
+### 10.4. Copier<a id"toc57"></a>
+
 
 Pour copier l\'audio sélectionné dans le presse-papier d\'Audacity,
 appuyez sur \"control + C\".
 
-[]{#toc58}
 
-### 10.5. Coller
+### 10.5. Coller<a id"toc58"></a>
+
 
 Pour coller l\'audio du presse-papier d\'Audacity dans la ou les
 piste(s) sélectionnée(s), appuyez sur \"control+ V\".
@@ -1763,9 +1752,9 @@ La durée de la période de lecture avant et après la sélection peut être
 définie dans le groupe de paramètres \"Aperçu de la coupe\" situé dans
 la catégorie \"Lecture\" des préférences d\'Audacity.
 
-[]{#toc59}
 
-### 10.6. Coller de l\'audio à partir d\'un autre projet
+### 10.6. Coller de l\'audio à partir d\'un autre projet<a id"toc59"></a>
+
 
 Lorsque vous collez de l\'audio à partir d\'un autre projet, une boîte
 de dialogue Coller l\'audio peut s\'ouvrir, vous demandant comment vous
@@ -1784,17 +1773,17 @@ Une explication de ce conseil est donnée au chapitre ([\"Coller l\'audio
 d\'un projet différent\"](#HDR-PastingAudioFromOtherProject) dans le
 chapitre \"Préférences\" de ce guide.
 
-[]{#toc60}
 
-### 10.7. Remplacer de l\'audio par du silence
+### 10.7. Remplacer de l\'audio par du silence<a id"toc60"></a>
+
 
 Pour remplacer l\'audio sélectionné avec la même longueur de silence,
 dans le menu \"Edition\", ouvrez le sous-menu \"Suppression spéciale\"
 et choisir le sous-menu \"Silence Audio\" (raccourci \"control+l\").
 
-[]{#toc61}
 
-### 10.8. Insérer un silence
+### 10.8. Insérer un silence<a id"toc61"></a>
+
 
 Pour insérer une période de silence dans les pistes sélectionnées:
 
@@ -1826,9 +1815,9 @@ Toutes les boites de sélection numérique de temps des boîtes de dialogue
 qui sont ouvertes à partir du menu \"Générer\" sont, par défaut, sous le
 format \"secondes\" et le focus est donné au premier chiffre non nul.
 
-[]{#toc62}
 
-### 10.9. Effets
+### 10.9. Effets<a id"toc62"></a>
+
 
 Audacity fournit un grand nombre d\'effets, qui sont disponibles dans le
 menu \"Effets\". Par défaut, les effets sont regroupés par catégorie, et
@@ -1882,9 +1871,9 @@ modifications.
 Ceci est décrit au chapitre [\"Effets en temps
 réel\"](#HDR-RealTimeEffects).
 
-[]{#toc63}
 
-### 10.10. Supprimer des piste
+### 10.10. Supprimer des piste<a id"toc63"></a>
+
 
 Il existe deux façons de supprimer des pistes:
 
@@ -1896,9 +1885,9 @@ Il existe deux façons de supprimer des pistes:
     vous appuyez sur \"control + A\" pour assurer que toutes les pistes
     sont sélectionnées.
 
-[]{#toc64}
 
-### 10.11. Éviter l\'introduction de clics lors de l\'édition
+### 10.11. Éviter l\'introduction de clics lors de l\'édition<a id"toc64"></a>
+
 
 Si vous supprimez ou couper une partie de l\'audio dans une piste, et si
 le début ou la fin de cette partie n\'a pas une amplitude nulle, alors
@@ -1934,9 +1923,9 @@ Afin d\'éviter l\'introduction de clics:
     et avant de le coller, appliquez \"Rechercher les croisements à
     zéro\".
 
-[]{#HDR-LoopPlayback}
 
-### 10.12. Lecture en boucle
+### 10.12. Lecture en boucle<a id"HDR-LoopPlayback"></a>
+
 
 Depuis Audacity 3.1.0, il y a une plage de boucle qui contrôle la
 lecture en boucle, et qui est indépendante de la plage de temps
@@ -1988,17 +1977,17 @@ d\'outils de sélection. Modifiez simplement l\'une des valeurs, puis
 dans le menu \"Transport\", ouvrez le sous-menu \"Bouclage\" et
 choisissez \"Définir la boucle sur la sélection\".
 
-[]{#HDR-AdvancedEdition}
 
-## 11. Édition audio avec plusieurs pistes
+## 11. Édition audio avec plusieurs pistes<a id"HDR-AdvancedEdition"></a>
+
 
 Ce chapitre décrit certaines commandes et certains paramètres qui sont
 pertinents lorsque vous souhaitez travailler sur un projet contenant
 plusieurs pistes.
 
-[]{#HDR-AudioFileImport}
 
-### 11.1. Importation de fichier audio
+### 11.1. Importation de fichier audio<a id"HDR-AudioFileImport"></a>
+
 
 Vous pouvez importer un ou plusieurs fichiers audio et ceux-ci
 deviennent de nouvelles pistes dans le projet existant.
@@ -2013,16 +2002,16 @@ s\'ouvre.
 Note: immédiatement après l\'importation, seule la dernière piste du
 projet est sélectionnée.
 
-[]{#toc68}
 
-### 11.2. Ajout d\'une nouvelle piste vide
+### 11.2. Ajout d\'une nouvelle piste vide<a id"toc68"></a>
+
 
 Pour ajouter une nouvelle piste vide, choisissez une des commandes du
 sous-menu \"Ajouter nouvelle\" du menu \"piste.
 
-[]{#toc69}
 
-### 11.3. Duplication de piste
+### 11.3. Duplication de piste<a id"toc69"></a>
+
 
 Pour dupliquer l\'audio sélectionné dans une ou plusieurs autres pistes,
 ouvrez le menu \"Édition\" et choisissez le sous-menu \"Dupliquer\"
@@ -2032,9 +2021,9 @@ La copie de l\'audio conserve les mêmes timings que ceux de l\'audio
 original, de sorte que dans la ou les nouvelle piste les données audio
 commence au début de la période de temps sélectionnée.
 
-[]{#toc70}
 
-### 11.4. Muet et Solo
+### 11.4. Muet et Solo<a id"toc70"></a>
+
 
 Chaque piste dispose d\'un paramètre muet qui peut être allumé ou
 éteint, et un paramètre \"solo\" qui peut également être activé ou
@@ -2053,9 +2042,9 @@ respectivement \"éteint\" et \"inactif\".
 L\'état actif de ces paramètres (allumé pour \"muet\" et actif pour
 \"solo\") est inscrit après le nom de la piste.
 
-[]{#toc71}
 
-#### 11.4.1. Muet
+#### 11.4.1. Muet<a id"toc71"></a>
+
 
 Si une piste à son paramètre \"Muet\" allumé, elle ne contribue ni à la
 lecture, ni à l\'audio enregistré dans l\'un des formats standard.
@@ -2077,9 +2066,9 @@ paramètres de toutes les pistes:
 Toutes à l\'exception de la première de ces commandes se trouvent dans
 le sous-menu \"Silencer/désilencer\" du menu \"Pistes\".
 
-[]{#toc72}
 
-#### 11.4.2. Solo
+#### 11.4.2. Solo<a id"toc72"></a>
+
 
 Si une ou plusieurs pistes ont leur paramètre \"solo\" activé, seules
 ces pistes contribuent à la lecture, indépendamment du paramètre
@@ -2105,9 +2094,9 @@ Le choix de L\'option pour ce paramètre \"solo\" se fait à l\'aide d\'un
 bouton dans la sous-rubrique \"comportement des pistes\" de la catégorie
 \"Piste\" des préférences d\'Audacity.
 
-[]{#toc73}
 
-### 11.5. Gain de la piste
+### 11.5. Gain de la piste<a id"toc73"></a>
+
 
 Pour modifier le gain de la piste, appuyez sur majuscule + G\".
 
@@ -2124,9 +2113,9 @@ mixage et de rendu.
 Modifier le gain n\'affecte pas l\'amplitude des données audio de la
 piste.
 
-[]{#toc74}
 
-### 11.6. Panoramique de la piste
+### 11.6. Panoramique de la piste<a id"toc74"></a>
+
 
 Pour changer le panoramique de la piste, tapez \"majuscule + p\" ou
 utilisez le sous-menu \"Changer le panoramique sur la piste visée\" du
@@ -2138,9 +2127,9 @@ et un potentiomètre pour changer le panoramique.
 La plage de panoramique va de -1 à 1, ce qui correspond à gauche et à
 droite respectivement.
 
-[]{#toc75}
 
-### 11.7. Menu contextuel d\'une piste
+### 11.7. Menu contextuel d\'une piste<a id"toc75"></a>
+
 
 Vous ouvrez le menu contextuel de la piste sous le focus en appuyant sur
 \"majuscule + M\", ou la touche \"Applications\" ou le raccourci
@@ -2150,9 +2139,9 @@ Les commandes du menu comprennent le changement de nom de la piste, le
 déplacement de la position de la piste dans le tableau \"Vue de piste\".
 Cette dernière commande est décrite dans le chapitre suivant.
 
-[]{#toc76}
 
-### 11.8. Déplacement d\'une piste
+### 11.8. Déplacement d\'une piste<a id"toc76"></a>
+
 
 Les commandes pour déplacer la position de la piste sous le focus sont:
 déplacer la piste vers le haut, déplacer la piste vers le bas, déplacer
@@ -2175,9 +2164,9 @@ convenir sont: \"Control + majuscule + Flèche haut\", \"control +
 majuscule+ Flèche bas\", \"control + majuscule + début\", \"control +
 majuscule + fin\".
 
-[]{#toc77}
 
-### 11.9. Alignement bout à bout de piste
+### 11.9. Alignement bout à bout de piste<a id"toc77"></a>
+
 
 Si vous sélectionnez deux ou plusieurs pistes, vous pouvez aligner
 l\'audio dans ces pistes, de sorte que l\'audio d\'une piste commence à
@@ -2195,9 +2184,9 @@ Note:
 -   La position de l\'audio dans la première piste sélectionnée reste
     inchangé.
 
-[]{#toc78}
 
-### 11.10. Décalage d\'audio
+### 11.10. Décalage d\'audio<a id"toc78"></a>
+
 
 Vous pouvez décalez des données audio dans une ou plusieurs pistes, de
 telle manière que le début ou la fin de l\'audio soit placée à une
@@ -2221,9 +2210,9 @@ utilisées pour vérifier la position de l\'audio décalé:
 Vous pouvez modifier la longueur de la période dans la boîte de dialogue
 \"Préférences\" d\'Audacity, dans la catégorie \"Lecture\".
 
-[]{#toc79}
 
-#### 11.10.1. Exemples
+#### 11.10.1. Exemples<a id"toc79"></a>
+
 
 Premier exemple, pour déplacer l\'audio dans une ou plusieurs piste à
 une position de départ précise:
@@ -2293,9 +2282,9 @@ méthode ci-dessus doit être adaptée comme suit:
 
 Notez qu\'Audacity peut avoir une correction automatique de latence.
 
-[]{#toc80}
 
-### 11.11. Fondus
+### 11.11. Fondus<a id"toc80"></a>
+
 
 Lorsque vous avez plus d\'une piste dans le projet, vous voudrez
 peut-être fondre certaines pistes lorsque l\'audio d\'autres pistes
@@ -2310,9 +2299,9 @@ l\'amplitude d\'origine. Les deux sections suivantes décrivent les
 effets Auto Duck et Adjustable Fade, qui vous permettent d\'effectuer
 des fondus plus complexes.
 
-[]{#toc81}
 
-#### 11.11.1. Effet Auto Duck
+#### 11.11.1. Effet Auto Duck<a id"toc81"></a>
+
 
 L\'effet Auto Duck réduit le volume de l\'audio sélectionné pendant les
 périodes où le niveau d\'une autre piste, dépasse un certain seuil. La
@@ -2374,9 +2363,9 @@ Ce sont les différents paramètres Auto Duck:
     niveau de la piste de contrôle dépasse ce seuil, et sa valeur par
     défaut est de -30 dB.
 
-[]{#toc82}
 
-#### 11.11.2. Effet de fondu ajustable
+#### 11.11.2. Effet de fondu ajustable<a id"toc82"></a>
+
 
 Cet effet peut être utilisé de deux manières, selon le réglage de la
 liste déroulante \"Préréglage pratique\":
@@ -2438,9 +2427,9 @@ niveau jusqu\'à la fin de la piste:
 -   Ouvrez le dialogue \"Fondu ajustable\". Définissez les zones
     d\'édition \"Début\" et \"Fin\" sur 50 %, puis appuyez sur Entrée.
 
-[]{#HDR-TrackSyncLock}
 
-### 11.12. Verrouillage de la synchronisation des pistes
+### 11.12. Verrouillage de la synchronisation des pistes<a id"HDR-TrackSyncLock"></a>
+
 
 L\'idée de verrouillage de la synchronisation des pistes est d\'essayer
 et de garder un groupe de pistes qui se synchronisent les unes avec les
@@ -2485,9 +2474,9 @@ correspondante est affichée dans la piste et l\'indication
 \"verrouillage de synchronisation sélectionné\" est ajouté au nom de la
 piste.
 
-[]{#HDR-Labels}
 
-## 12. Marqueurs
+## 12. Marqueurs<a id"HDR-Labels"></a>
+
 
 Un Marqueur représente un temps précis ou une plage de temps spécifique,
 et peut être nommé.
@@ -2510,9 +2499,8 @@ résultats d\'analyse. Par exemple, l\'outil \"Trouveur de pulsations\"
 génère une piste de marqueurs contenant des marqueurs à des points où
 l\'audio a une pulsation.
 
-[]{#toc85}
+### 12.1. Création d\'un marqueur<a id"toc85"></a>
 
-### 12.1. Création d\'un marqueur
 
 Il existe deux commandes pour créer un marqueur, et les deux se trouvent
 dans le sous-menu \"Marqueurs\" du menu \"Édition\":
@@ -2583,9 +2571,9 @@ fermer la zone d\'édition.
 Pour la commande \"Ajouter un marqueur à la position de lecture\", le
 focus est ensuite renvoyé à la piste d\'origine.
 
-[]{#HDR-MovingToLabel}
 
-### 12.2. Déplacement à un marqueur
+### 12.2. Déplacement à un marqueur<a id"HDR-MovingToLabel"></a>
+
 
 Il existe deux commandes pour aller à un marqueur. Pour déterminer
 quelle est le marqueur le plus proche, la position d\'un marqueur de
@@ -2637,9 +2625,9 @@ Si vous avez besoin de modifier le nom du marqueur, vous pouvez utiliser
 la boîte de dialogue \"Éditer les marqueurs\", décrite dans la section
 suivante.
 
-[]{#toc87}
 
-### 12.3. Édition des marqueurs
+### 12.3. Édition des marqueurs<a id"toc87"></a>
+
 
 L\'utilisation de la boite de dialogue \"Edition des marqueurs\" permet
 le renommage d\'un marqueur, la suppression d\'un marqueur, et
@@ -2691,9 +2679,9 @@ dialogue.
 Cependant, même si vous annulez, le curseur est positionné au temps 0 et
 donc vous perdez la position précédente du curseur.
 
-[]{#toc88}
 
-#### 12.3.1. Tableau des marqueurs
+#### 12.3.1. Tableau des marqueurs<a id"toc88"></a>
+
 
 Le tableau a six colonnes: le nom de la piste de marqueurs, le nom du
 marqueur, le début et la fin de l\'intervalle de temps et les basses et
@@ -2726,9 +2714,9 @@ directement à l\'extérieur du tableau. De n\'importe quelle cellule du
 tableau, \"control + tab\" et \"control + majuscule + Tab\" fait passer,
 respectivement, à l\'élément situé après ou avant le tableau.
 
-[]{#toc89}
 
-#### 12.3.2. Suppression d\'un marqueur
+#### 12.3.2. Suppression d\'un marqueur<a id"toc89"></a>
+
 
 -   Sélectionnez l\'une des cellules de la ligne représentant le
     marqueur.
@@ -2739,9 +2727,9 @@ respectivement, à l\'élément situé après ou avant le tableau.
     -   La deuxième est d\'utiliser la touche d\'accès rapide \"alt+s\"
         pour appuyer sur le bouton \"Supprimer\" sans bouger du tableau.
 
-[]{#toc90}
 
-#### 12.3.3. Modification des cellules
+#### 12.3.3. Modification des cellules<a id"toc90"></a>
+
 
 Le lecteur d\'écran indique toutes les cellules comme étant des zones
 d\'édition. Juste l\'ignorer.
@@ -2760,9 +2748,9 @@ cours, tandis que \"Tab\" fait passer à la prochaine cellule. En outre,
 dans les deux cas, vous pouvez annuler l\'édition en appuyant sur
 «Échapp ».
 
-[]{#toc91}
 
-#### 12.3.4. Modification du nom du marqueur
+#### 12.3.4. Modification du nom du marqueur<a id"toc91"></a>
+
 
 Vous pouvez soit remplacer ou modifier le nom actuel:
 
@@ -2776,9 +2764,9 @@ Vous pouvez soit remplacer ou modifier le nom actuel:
 Pour validez la modification appuyez sur \"Tab\" ou \"Entrée». Pour
 annuler la modification appuyez sur \"Échapp\"
 
-[]{#toc92}
 
-#### 12.3.5. Modification du temps de début et de fin
+#### 12.3.5. Modification du temps de début et de fin<a id"toc92"></a>
+
 
 -   Appuyez Sur \"F2\": Vous pouvez maintenant modifier le temps
     exactement de la même manière que vous le faites pour définir la
@@ -2796,9 +2784,9 @@ s\'applique qu\'aux boites de sélection numérique de la boite de
 dialogue et n\'est pas enregistré lorsque la boîte de dialogue est
 fermée.
 
-[]{#toc93}
 
-### 12.4. Sélection de marqueur
+### 12.4. Sélection de marqueur<a id"toc93"></a>
+
 
 Actuellement, la seule raison pour laquelle un utilisateur de lecteur
 d\'écran sélectionne un marqueur est de pouvoir utiliser les commandes
@@ -2816,9 +2804,9 @@ ces commandes définissent également la position du curseur ou une plage
 de temps sélectionnée, selon que le marqueur sélectionné est
 respectivement un marqueur de point ou de plage.
 
-[]{#HDR-TimeShiftingLabel}
 
-### 12.5. Décalage temporel de marqueurs
+### 12.5. Décalage temporel de marqueurs<a id"HDR-TimeShiftingLabel"></a>
+
 
 Les commandes de Décalage temporel vers la gauche et de Décalage
 temporel vers la droite peuvent être utilisées pour ajuster les
@@ -2836,9 +2824,9 @@ sans ajuster la position de l\'audio ou de toute autre marqueur :
     \"Glissement temporel droit\" pour déplacer le marqueur par une
     petite quantité vers la gauche ou la droite respectivement.
 
-[]{#HDR-Clips}
 
-## 13. Clips
+## 13. Clips<a id"HDR-Clips"></a>
+
 
 Dans le reste de ce document, il a été supposé qu\'une piste audio ne
 contient qu\'un seul tronçon de données audio.
@@ -2874,9 +2862,9 @@ De plus à ces noms générés automatiquement, vous pouvez également
 renommer un clip comme vous le souhaitez, comme décrit au chapitre
 [\"Renommage d\'un clip](#HDR-ClipRenaming) ci-dessous.
 
-[]{#toc96}
 
-### 13.1. Déplacement de curseur
+### 13.1. Déplacement de curseur<a id"toc96"></a>
+
 
 Il y a des commandes pour le déplacement aux limites du clip précédent
 ou suivant que l\'on trouve dans le sous-menu \"Petit saut de curseur
@@ -2899,9 +2887,9 @@ nom de la piste. Dans le cas où deux clips sont immédiatement l\'un à
 côté de l\'autre et que la limite du clip est à la fois la fin d\'un
 clip et le début du suivant, votre lecteur d\'écran le dit.
 
-[]{#toc97}
 
-### 13.2. Sélection d\'une plage de temps
+### 13.2. Sélection d\'une plage de temps<a id"toc97"></a>
+
 
 Il y a deux ensembles de commandes pour la sélection des plages de temps
 qui impliquent les limites de clips.
@@ -2912,9 +2900,9 @@ Dans les deux cas, si des pistes audio sont sélectionnées, les commandes
 utilisent les clips de ces pistes. Sinon, les commandes utilisent les
 clips de toutes les pistes audio.
 
-[]{#toc98}
 
-#### 13.2.1. Sélection du clip précédent ou suivant
+#### 13.2.1. Sélection du clip précédent ou suivant<a id"toc98"></a>
+
 
 Les commandes pour la sélection du clip suivant ou précédent se trouvent
 dans le sous-menu «Délimitation du clip\" du menu \"Sélection\"et sont:
@@ -2931,9 +2919,9 @@ déplacer aux limites du clip. Juste sélectionnez le clip, puis appuyez
 sur \"flèche gauche\" ou \"Flèche droite\" pour annuler la sélection et
 positionner le curseur au début ou la fin du clip respectivement.
 
-[]{#toc99}
 
-#### 13.2.2. Sélection avec les limites du clip
+#### 13.2.2. Sélection avec les limites du clip<a id"toc99"></a>
+
 
 En plus des commandes décrites précédemment, deux autres commandes pour
 la sélection de clip existent.
@@ -2953,9 +2941,9 @@ d\'écran donne les détails de la limite de clip, exactement de la même
 manière que lorsque les commandes de déplacement du curseur sur une
 limite de clip sont utilisé.
 
-[]{#HDR-ClipRenaming}
 
-#### 13.2.3. Renommage d\'un clip
+#### 13.2.3. Renommage d\'un clip<a id"HDR-ClipRenaming"></a>
+
 
 Comme dans le cas de nommer une nouvelle étiquette, pour renommer un
 clip, il y a une option pour savoir si cela est fait en utilisant une
@@ -2979,13 +2967,13 @@ Pour renommer un clip :
     zone d\'édition du nom est initialement sélectionné.
 -   Tapez un nom et appuyez sur Entrée.
 
-[]{#toc101}
 
-### 13.3. Diverses commandes de découpe
+### 13.3. Diverses commandes de découpe<a id"toc101"></a>
 
-[]{#toc102}
 
-#### 13.3.1. Fractionnement
+
+#### 13.3.1. Fractionnement<a id"toc102"></a>
+
 
 Pour fractionner un clip en deux clips d\'une piste sélectionnée:
 
@@ -2996,9 +2984,9 @@ Pour fractionner un clip en deux clips d\'une piste sélectionnée:
 Vous pouvez également fractionner un clip en trois parties à l\'aide de
 cette méthode, si vous sélectionnez un intervalle de temps.
 
-[]{#toc103}
 
-#### 13.3.2. Commandes \"Supprimer-séparer\" et \"couper-séparer\"
+#### 13.3.2. Commandes \"Supprimer-séparer\" et \"couper-séparer\"<a id"toc103"></a>
+
 
 Vous pouvez utiliser les commandes \"supprimer-séparer\" et
 \"couper-séparer\" du sous-menu \"Suppression spéciale\" du menu
@@ -3030,9 +3018,9 @@ commande \"supprimer-séparer\", sauf que l\'audio qui est supprimé est
 placé dans le presse-papier d\'Audacity, plutôt que d\'être tout
 simplement supprimé.
 
-[]{#toc104}
 
-#### 13.3.3. Scinder dans une nouvelle piste
+#### 13.3.3. Scinder dans une nouvelle piste<a id"toc104"></a>
+
 
 La commande \"Scinder dans une nouvelle piste\" du sous-menu
 \"Délimitation du clip\" du menu \"Éédition\" place l\'audio sélectionné
@@ -3051,9 +3039,9 @@ Vous pouvez penser à \"Scinder dans une nouvelle piste\" comme étant
 est collé dans une nouvelle piste à la même position que l\'audio
 sélectionné d\'origine
 
-[]{#toc105}
 
-#### 13.3.4. Détacher aux silences
+#### 13.3.4. Détacher aux silences<a id"toc105"></a>
+
 
 Si l\'audio sélectionné contient des plages de silence complet, c\'est à
 dire que l\'amplitude de l\'audio dans ces plages est 0, alors la
@@ -3066,9 +3054,9 @@ est égal à zéro, les données audio sont supprimés, ce qui donne une
 plage de piste vide et la position d\'une quelconque des données audio
 de la piste est laissé inchangé.
 
-[]{#toc106}
 
-### 13.4. Fusion de clips
+### 13.4. Fusion de clips<a id"toc106"></a>
+
 
 Pour fusionner deux clips d\'une piste sélectionnée:
 
@@ -3085,9 +3073,9 @@ Pour fusionner deux clips d\'une piste sélectionnée:
 Dans la méthode ci-dessus, s\'il y a d\'autres clips entre les deux
 clips, ils seront fusionnés dans le clip final.
 
-[]{#HDR-ClipTimeShifting}
 
-### 13.5. Décalage temporel des clips
+### 13.5. Décalage temporel des clips<a id"HDR-ClipTimeShifting"></a>
+
 
 Il existe deux commandes, \"Glissement temporel gauche\" et \"Glissement
 temporel droit\", qui peuvent être utilisées pour déplacer soit un seul
@@ -3110,9 +3098,9 @@ des sauts faits avec les flèches droite et gauche\"](#HDR-JumpSize).
 Avertissement de bogue. Malheureusement, ces commandes ont fait planter
 Audacity 3.1.0, mais ce problème a été corrigé dans Audacity 3.1.1.
 
-[]{#toc108}
 
-#### 13.5.1. Déplacement d\'un seul clip
+#### 13.5.1. Déplacement d\'un seul clip<a id"toc108"></a>
+
 
 -   Passez à la piste qui contient le clip que vous souhaitez déplacer.
 -   Déplacez le curseur de manière à ce qu\'il se situe dans le clip.
@@ -3137,9 +3125,9 @@ au clip suivant. Le curseur sera considéré comme étant dans ce dernier
 et c\'est ce clip, plutôt que le clip original qui va se déplacer. Il
 est peu probable que cela soit ce que vous voulez.
 
-[]{#toc109}
 
-#### 13.5.2. Déplacement de plusieurs clips adjacents
+#### 13.5.2. Déplacement de plusieurs clips adjacents<a id"toc109"></a>
+
 
 Pour déplacer un certain nombre de clips adjacents dans une piste:
 
@@ -3156,9 +3144,9 @@ Dans le cas où d\'autres pistes sont sélectionnées, en plus de la piste
 sous le focus, tous les clips de ces pistes qui contiennent d\'audio
 sélectionnés sont aussi déplacés.
 
-[]{#toc110}
 
-#### 13.5.3. Déplacement de clips avec le verrouillage de Synchronisation des pistes activée
+#### 13.5.3. Déplacement de clips avec le verrouillage de Synchronisation des pistes activée<a id"toc110"></a>
+
 
 L\'utilisation du verrouillage de synchronisation de piste pour garder
 un groupe de piste synchroniser dans le temps a été décrite dans le
@@ -3182,9 +3170,9 @@ clip dans l\'ensemble de clips d\'origine à déplacer de sorte que chaque
 paire de clips adjacents de cette série se chevauche dans le temps,
 alors ce clip sera également déplacé.
 
-[]{#HDR-RealTimeEffects}
 
-## 14. Effets en temps réel
+## 14. Effets en temps réel<a id"HDR-RealTimeEffects"></a>
+
 
 Vous pouvez désormais ajouter un ou plusieurs effets en temps réel à une
 piste. Contrairement à l\'application d\'un effet à l\'aide du menu
@@ -3208,9 +3196,9 @@ Vous ajoutez et gérez les effets en temps réel pour la piste ciblée à
 l\'aide du \"volet effets en temps réel\", qui est décrit au chapitre
 suivant.
 
-[]{#toc112}
 
-### 14.1. Volet des effets en temps réel
+### 14.1. Volet des effets en temps réel<a id"toc112"></a>
+
 
 Vous pouvez ouvrir le volet des effets en temps réel en ouvrant le menu
 \"Effets\" et en choisissant \"Ajouter des effets en temps réel\", ou en
@@ -3312,9 +3300,9 @@ dialogue non modales. Vous pouvez parcourir la fenêtre principale
 d\'Audacity et toutes les boîtes de dialogue ouvertes sans mode en
 appuyant sur \"Alt + F6\".
 
-[]{#HDR-MetaDataTags}
 
-## 15. Édition des Balises de métadonnées
+## 15. Édition des Balises de métadonnées<a id"HDR-MetaDataTags"></a>
+
 
 Les Métadonnées sont des données qui décrivent d\'autres données et les
 métadonnées pour les fichiers audio se compose d\'un certain nombre de
@@ -3349,9 +3337,9 @@ L\'éditeur de balises de Métadonnées contient les éléments suivants:
     ci-dessous.
 -   une section modèle: non décrites dans ce guide.
 
-[]{#toc114}
 
-### 15.1. Description du tableau
+### 15.1. Description du tableau<a id"toc114"></a>
+
 
 Le tableau a deux colonnes: l\'Étiquette et la Valeur, et les 7
 premières cellules de la colonne \"Étiquette\" contiennent les noms de
@@ -3382,9 +3370,9 @@ directement à l\'extérieur du tableau. À partir de n\'importe quelle
 cellule du tableau, \"control + tab\" et \"control + majuscule + Tab\"
 fait passer à l\'élément avant ou après le tableau.
 
-[]{#toc115}
 
-### 15.2. Modification des valeurs de paramètre
+### 15.2. Modification des valeurs de paramètre<a id"toc115"></a>
+
 
 Toutes les valeurs de balise, à l\'exception des valeurs de balise
 \"genre\", sont modifiables à l\'aide d\'une boite d\'édition. Les
@@ -3422,9 +3410,9 @@ cellule juste après qui est le nom de la balise suivante dans la ligne.
 -   pour confirmer la modification, appuyez sur \"Tab\" ou \"Entrée\".
 -   \"Échapp\" si vous voulez annuler la modification.
 
-[]{#HDR-TagsEditing}
 
-### 15.3. Création et modification de balise
+### 15.3. Création et modification de balise<a id"HDR-TagsEditing"></a>
+
 
 Vous pouvez utiliser les lignes de la table après les balises prédéfinis
 pour créer vos propres balises personnalisées. Ces lignes vous
@@ -3438,9 +3426,9 @@ boutons \"Ajouter\" et \"Retirer\" situés après le tableau. Le bouton
 \"Ajouter\" ajoute une ligne, et le bouton \"Retirer\" supprime la ligne
 personnalisée courante.
 
-[]{#HDR-EditingGenreList}
 
-### 15.4. Édition de la liste des genres
+### 15.4. Édition de la liste des genres<a id"HDR-EditingGenreList"></a>
+
 
 Pour modifier la liste des genres qui est disponible dans la zone
 d\'édition en liste déroulante, quand vous modifiez la valeur du genre:
@@ -3463,9 +3451,9 @@ de message s\'ouvre, pour vous demander si vous êtes sûr que vous
 souhaitez réinitialiser la liste. Tapez \"Entrée\". Pour appuyer sur le
 bouton \"OK\" (bouton par défaut).
 
-[]{#HDR-Recording}
 
-## 16. Enregistrement
+## 16. Enregistrement<a id"HDR-Recording"></a>
+
 
 Les trois prochains chapitres couvrent ce qui est utile dans la plupart
 des enregistrements. À savoir: les paramètres d\'enregistrement, les
@@ -3475,9 +3463,9 @@ Après ceux-ci, un chapitre décrit comment Audacity peut corriger le
 retard dans l\'enregistrement audio lors de l\'enregistrement d\'une
 piste vocale, tout en écoutant les pistes existantes.
 
-[]{#HDR-RecordSettings}
 
-### 16.1. Paramètres d\'enregistrement
+### 16.1. Paramètres d\'enregistrement<a id"HDR-RecordSettings"></a>
+
 
 Il y a un certain nombre de paramètres qui peuvent avoir besoin d\'être
 changés avant de faire un enregistrement, et qui sont décrits dans les
@@ -3485,9 +3473,9 @@ chapitres suivants. Notez que Nombre de ces paramètres peuvent être
 configurés dans la catégorie \"Paramètres audio\" de la boite de
 dialogue \"Préférences\" d\'Audacity ou dans un dialogue particulier .
 
-[]{#hdrAudioInterface}
 
-#### 16.1.1. Interface Audio
+#### 16.1.1. Interface Audio<a id"hdrAudioInterface"></a>
+
 
 Audacity fournit un certain nombre d\'options pour l\'interface du
 logiciel qu\'Audacity utilise pour interagir avec les périphériques de
@@ -3520,9 +3508,9 @@ Note: lorsque vous modifiez cette option, les paramètres de
 l\'enregistrement et des dispositifs de lecture peuvent changer, de
 sorte que vous devriez alors vérifier ces paramètres.
 
-[]{#toc121}
 
-#### 16.1.2. Périphérique d\'enregistrement
+#### 16.1.2. Périphérique d\'enregistrement<a id"toc121"></a>
+
 
 Vous pouvez sélectionner le périphérique d\'enregistrement en utilisant
 la liste déroulante \"Paramètres audio\" d\'enregistrement\" de:
@@ -3556,9 +3544,9 @@ si le périphérique est activé. Cette boîte de dialogue est décrite au
 chapitre [\"Boite de dialogue Son de Windows\"](#HDR-SoundWindowsDialog)
 pour ce familiariser avec elle.
 
-[]{#toc122}
 
-#### 16.1.3. Niveau d\'enregistrement
+#### 16.1.3. Niveau d\'enregistrement<a id"toc122"></a>
+
 
 Ce chapitre décrit les éléments à utiliser pour régler le niveau
 d\'enregistrement. Comment régler le niveau d\'enregistrement de sorte
@@ -3600,9 +3588,9 @@ Le réglage du niveau d\'enregistrement d\'un périphérique avec l\'outil
 de Windows est décrit au chapitre [\"Boite de dialogue Son de
 Windows\"](#HDR-SoundWindowsDialog).
 
-[]{#toc123}
 
-#### 16.1.4. Nombre de canaux d\'enregistrement
+#### 16.1.4. Nombre de canaux d\'enregistrement<a id"toc123"></a>
+
 
 Le nombre de canaux de l\'appareil d\'enregistrement peut être réglé à
 l\'aide de la liste déroulante \"Canaux\":
@@ -3620,9 +3608,9 @@ enregistrez à partir d\'une entrée de ligne, d\'un mixage stéréo ou de
 l\'un des périphériques de bouclage en utilisation WASAPI, le paramètre
 doit être stéréo.
 
-[]{#toc124}
 
-#### 16.1.5. Option Doublage (Overdub)
+#### 16.1.5. Option Doublage (Overdub)<a id"toc124"></a>
+
 
 L\'option \"Doublage\" contrôle si Audacity doit jouer toutes les pistes
 existantes lors d\'un nouvel enregistrement. Vous pouvez cocher ou
@@ -3631,9 +3619,9 @@ décocher cette option avec le sous-menu \"Doublage\" du sous-menu
 \"Doublage\" de la catégorie \"Enregistrement\" de la boite de dialogue
 \"Préférences\".
 
-[]{#toc125}
 
-#### 16.1.6. Option Lecture à travers le logiciel
+#### 16.1.6. Option Lecture à travers le logiciel<a id"toc125"></a>
+
 
 Cette option contrôle si Audacity doit jouer la nouvelle piste alors
 qu\'il est en cours d\'enregistrement. Normalement, cette option doit
@@ -3645,9 +3633,9 @@ Cette option peut être cochée ou décochée en utilisant le sous-menu
 \"Transport\", ou la case à cocher \"Lecture à travers le logiciel\" de
 la catégorie \"Enregistrement\" de la boite de dialogue \"Préférences\".
 
-[]{#HDR-RecordControls}
 
-### 16.2. Commandes d\'enregistrement
+### 16.2. Commandes d\'enregistrement<a id"HDR-RecordControls"></a>
+
 
 Les commandes d\'enregistrement et les raccourcis, utilisant les
 paramètres par défaut sont:
@@ -3698,9 +3686,9 @@ deux commandes pour démarrer l\'enregistrement sont:
     menu \"Transport\", ouvrez le sous-menu \"Enregistrement\" et
     choisissez \"Poursuite de l\'enregistrement\".
 
-[]{#toc127}
 
-### 16.3. Réglage du niveau d\'enregistrement
+### 16.3. Réglage du niveau d\'enregistrement<a id"toc127"></a>
+
 
 Dans l\'outil \"Mesureur d\'enregistrement\" du panneau supérieur de
 barre d\'outils de la fenêtre principale d\'Audacity, il y a le vumètre
@@ -3762,9 +3750,9 @@ mais si vous souhaitez changer l\'échelle:
 -   Réglez les boutons radio \"Type des mesureurs\" sur \"dB\" ou
     \"linéaire\".
 
-[]{#toc128}
 
-### 16.4. Enregistrement Punch and Roll
+### 16.4. Enregistrement Punch and Roll<a id"toc128"></a>
+
 
 L\'enregistrement Punch and Roll vous permet de corriger facilement un
 enregistrement juste après avoir fait une erreur. L\'enregistrement
@@ -3859,9 +3847,9 @@ du fondu enchaîné est de 10 ms, ce qui sera probablement une valeur
 appropriée, mais vous pouvez modifier cette valeur dans la catégorie
 d\'enregistrement de la boîte de dialogue Préférences.
 
-[]{#toc129}
 
-### 16.5. Correction de latence
+### 16.5. Correction de latence<a id"toc129"></a>
+
 
 Si vous enregistrez une piste vocale, tout en écoutant une ou plusieurs
 pistes existantes, en raison de divers retards, le nouvel enregistrement
@@ -3906,9 +3894,9 @@ sections suivantes:
     enregistrée qui correspond au clic à une seconde dans la piste
     générée et faites une nouvelle correction.
 
-[]{#toc130}
 
-#### 16.5.1. Générer une piste de rythme
+#### 16.5.1. Générer une piste de rythme<a id"toc130"></a>
+
 
 -   Choisissez le sous-menu \"Piste de rythme\" du menu \"Générer\".
 -   Le premier controle est la zone d\'édition \"Tempo\" (battements par
@@ -3921,9 +3909,9 @@ sections suivantes:
     et une plage de temps est choisie, qui comprend toutes les données
     audio.
 
-[]{#toc131}
 
-#### 16.5.2. Enregistrer la piste de rythmes
+#### 16.5.2. Enregistrer la piste de rythmes<a id"toc131"></a>
+
 
 Pour enregistrer la piste de rythme en cours de lecture via le casque,
 vous aurez évidemment besoin de l\'enlever temporairement. Si vous
@@ -3945,9 +3933,9 @@ positionnez-le près du casque de sorte qu\'il puisse ramasser les clics.
     -   Dans la boite de dialogue \"Amplifier\", appuyez sur \"Entrée\"
         pour accepter la valeur par défaut.
 
-[]{#toc132}
 
-#### 16.5.3. Trouver la position d\'un clic sur la piste enregistrée
+#### 16.5.3. Trouver la position d\'un clic sur la piste enregistrée<a id"toc132"></a>
+
 
 Les instructions suivantes décrivent comment trouver la position du clic
 enregistré qui correspond au clic à une seconde de la piste générée et
@@ -4019,9 +4007,9 @@ correction de latence dans ces deux cas, sont:
         millisecondes en avance, définir alors la correction a -110
         millisecondes.
 
-[]{#HDR-Plugins}
 
-## 17. Plugins
+## 17. Plugins<a id"HDR-Plugins"></a>
+
 
 Lorsqu\'Audacity est installé, un nombre raisonnable d\'effets, de
 générateurs et d\'analyseurs sont inclus. Vous pouvez également
@@ -4032,9 +4020,9 @@ d\'Audacity](https://plugins.audacityteam.org/).
 La couverture des plugins dans ce guide est limitée aux domaines qui
 intéressent particulièrement les utilisateurs de lecteurs d\'écran.
 
-[]{#toc134}
 
-### 17.1. Plugins Nyquist
+### 17.1. Plugins Nyquist<a id"toc134"></a>
+
 
 Nyquist est un langage de programmation pour traitement audio, et
 Audacity fournit un cadre pour les plugins à écrire dans ce langage. Un
@@ -4060,9 +4048,9 @@ Installez un effet Nyquist que vous avez téléchargé:
     nouvelles de succès et quelques détails. Appuyez sur le bouton OK.
 -   Redémarrez Audacity. Le plugin devrait maintenant être disponible.
 
-[]{#toc135}
 
-### 17.2. Plugins d\'effets VST et VST3
+### 17.2. Plugins d\'effets VST et VST3<a id"toc135"></a>
+
 
 Les plugins Virtual Studio Technology (VST) utilisent une interface
 entre le plugin et un programme tel qu\'Audacity qui a été développé par
@@ -4162,18 +4150,18 @@ malheureusement une valeur de paramètre qui est incorrecte. Pour lire
 une valeur correcte, vous devez taper \"Tab\" loin du contrôle, puis
 \"Majuscule + Tab\" à nouveau.
 
-[]{#HDR-Preferences}
 
-## 18. Préférences
+## 18. Préférences<a id"HDR-Preferences"></a>
+
 
 La boite de dialogue \"Préférences\" d\'Audacity vous permet de régler
 beaucoup de paramètres dans Audacity. Après une brève description de la
 boîte de dialogue, les chapitres suivants décrivent les paramètres les
 plus courants.
 
-[]{#toc137}
 
-### 18.1. Boîte de dialogue Préférences
+### 18.1. Boîte de dialogue Préférences<a id"toc137"></a>
+
 
 Pour ouvrir cette boîte de dialogue, choisissez le sous-menu
 \"Préférences\" du menu \"Édition\" (control + P\").
@@ -4184,9 +4172,9 @@ arborescence se trouvent des commandes pour le réglage des options qui
 correspondent à la catégorie sélectionnée dans l\'arborescence. Le
 bouton par défaut de la boîte de dialogue est le bouton \"OK\".
 
-[]{#HDR-ExtraMenus}
 
-### 18.2. Menus Extra
+### 18.2. Menus Extra<a id"HDR-ExtraMenus"></a>
+
 
 Ce menu n\'est pas affiché, par défaut, dans la barre de menu à
 l\'installation d\'Audacity.
@@ -4196,9 +4184,9 @@ Extra (marche/arrêt)\" du menu \"Affichage\" ou de la case à cocher
 \"Afficher les menus supplémentaires\" de la catégorie \"Interface\" de
 la boite de dialogue \"Préférences\".
 
-[]{#HDR-SeekTimes}
 
-### 18.3. Sauts temporels
+### 18.3. Sauts temporels<a id"HDR-SeekTimes"></a>
+
 
 Durant la lecture, vous pouvez sauter (seek) vers l\'avant ou vers
 l\'arrière par de courte ou de longue durée. Pour définir les valeurs de
@@ -4210,9 +4198,9 @@ courte et de longues périodes:
     contient les deux zones d\'édition de temps \"court\" et \"long\".
     Les deux temps sont donnés en secondes.
 
-[]{#HDR-AutoSelect}
 
-### 18.4. Sélection automatique
+### 18.4. Sélection automatique<a id"HDR-AutoSelect"></a>
+
 
 Cette option n\'est pas activé par défaut. Pour les utilisateurs de
 lecteurs d\'écran, il est recommandé de la laisser désactivée. L\'option
@@ -4253,9 +4241,9 @@ Pour modifier ce paramètre:
 -   trouver la case à cocher \"Sélectionner toute l'audio, si une
     sélection est nécessaire\" laquelle est désactivée par défaut.
 
-[]{#HDR-FFMPEGLibrary}
 
-### 18.5. Bibliothèque FFmpeg
+### 18.5. Bibliothèque FFmpeg<a id"HDR-FFMPEGLibrary"></a>
+
 
 La bibliothèque FFmpeg contient des décodeurs et des encodeurs qui
 permettent à Audacity d\'ouvrir et d\'enregistrer des fichiers dans des
@@ -4291,9 +4279,9 @@ l\'autre version de la bibliothèque FFmpeg sont les suivantes:
 Notez qu\'il n\'y a aucun problème à avoir les deux versions installées
 en même temps.
 
-[]{#HDR-MetaDataTagEditor}
 
-### 18.6. Ouverture automatique de l\'éditeur de Balises de métadonnées à l\'exportation audio
+### 18.6. Ouverture automatique de l\'éditeur de Balises de métadonnées à l\'exportation audio<a id"HDR-MetaDataTagEditor"></a>
+
 
 Pour que l\'éditeur de balises de Métadonnées s\'ouvre automatiquement à
 chaque exportation audio:
@@ -4303,9 +4291,9 @@ chaque exportation audio:
 -   trouvez la case à cocher \"Ouvrir l\'éditeur de balises de
     métadonnées avant d\'exporter\". Cette case est cochée par défaut.
 
-[]{#toc143}
 
-### 18.7. Dossiers par défaut
+### 18.7. Dossiers par défaut<a id"toc143"></a>
+
 
 Par défaut, lorsque vous exécutez l\'une des commandes ouvrir,
 enregistrer, importer ou exporter, et qu\'une boîte de dialogue s\'ouvre
@@ -4330,9 +4318,9 @@ défaut pour qu\'il soit toujours un dossier particulier. Pour ce faire :
     de dialogue Choisir un emplacement, dans laquelle vous pouvez
     sélectionner un dossier.
 
-[]{#toc144}
 
-### 18.8. Option \"Utiliser un dialogue pour nommer un nouveau marqueur\"
+### 18.8. Option \"Utiliser un dialogue pour nommer un nouveau marqueur\"<a id"toc144"></a>
+
 
 Cette option est décrite dans le chapitre [\"Marqueurs\"](#HDR-Labels).
 
@@ -4349,9 +4337,9 @@ nom d\'un clip.
 -   Cochez la case \"Utiliser un dialogue pour nommer un nouveau
     marqueur\".
 
-[]{#toc145}
 
-### 18.9. Taper pour créer un marqueur
+### 18.9. Taper pour créer un marqueur<a id"toc145"></a>
+
 
 Lorsqu\'une piste d\'étiquette est mise en évidence, si l\'option
 \"Taper pour créer un marqueur\" est activée, appuyer sur n\'importe
@@ -4366,9 +4354,9 @@ Cependant, si vous souhaitez modifier cette option:
 -   Dans cette catégorie, il y a la case à cocher «Taper pour créer un
     marqueur ».
 
-[]{#HDR-PastingAudioFromOtherProject}
 
-### 18.10. Coller l\'audio d\'un projet différent
+### 18.10. Coller l\'audio d\'un projet différent<a id"HDR-PastingAudioFromOtherProject"></a>
+
 
 Après l\'édition, vous vous retrouvez souvent avec une ou plusieurs
 sections de données audio (clips), qui faisaient chacune à l\'origine
@@ -4405,9 +4393,9 @@ projet Audacity\", il y a trois boutons radio :
     lorsque vous collez l\'audio d\'un projet différent, vous demandant
     comment vous voulez coller l\'audio. Ceci est l\'option par défaut.
 
-[]{#HDR-ClipShifting}
 
-### 18.11. Déplacement des clips suivants lors de l\'ajout ou suppression de l\'audio
+### 18.11. Déplacement des clips suivants lors de l\'ajout ou suppression de l\'audio<a id"HDR-ClipShifting"></a>
+
 
 Dans la boîte de dialogue \"Préférences\", dans la catégorie
 \"Comportements de piste\", il y a une case à cocher \"L\'édition d\'un
@@ -4433,9 +4421,9 @@ vous obtiendrez une boîte de dialogue d\'avertissement vous indiquant
 qu\'il n\'y a pas assez de place disponible pour coller la sélection ou
 générer l\'audio.
 
-[]{#HDR-SortEffectMenu}
 
-### 18.12. Tri ou regroupement du menu Effet
+### 18.12. Tri ou regroupement du menu Effet<a id"HDR-SortEffectMenu"></a>
+
 
 Il existe un certain nombre d\'options possibles pour la manière dont
 les effets du menu \"Effet\" sont regroupés ou triés. L\'option par
@@ -4448,18 +4436,18 @@ l\'option par défaut décrite ci-dessus. Les options alternatives
 incluent \"Trier par nom d\'effet\", qui était en fait la valeur par
 défaut avant la version 3.2.0 d\'Audacity.
 
-[]{#toc149}
 
-### 18.13. Options d\'enregistrement
+### 18.13. Options d\'enregistrement<a id"toc149"></a>
+
 
 Les options d\'enregistrement sont configurables dans la boîte de
 dialogue \"Préférences\" et elles sont décrites au chapitre
 [\"Paramètres d\'enregistrements\"](#HDR-RecordSettings) du chapitre
 [\"Enregistrement\"](#HDR-Recording).
 
-[]{#toc150}
 
-### 18.14. Modification ou création de raccourcis clavier
+### 18.14. Modification ou création de raccourcis clavier<a id"toc150"></a>
+
 
 La catégorie \"Clavier\" de la boite de dialogue \"Préférences\"
 d\'Audacity vous permet de changer les raccourci clavier des commandes
@@ -4489,9 +4477,9 @@ Les trois premiers éléments de cette catégorie sont les suivants:
 -   Une arborescence ou une liste de commandes, suivant la vue défini
     par le bouton radio.
 
-[]{#toc151}
 
-#### 18.14.1. Vue en arborescence
+#### 18.14.1. Vue en arborescence<a id"toc151"></a>
+
 
 Les commandes sont affichées dans une arborescence, et si une commande a
 un raccourci, il apparait à la suite du nom de la commande. La
@@ -4502,9 +4490,9 @@ menus dans la barre de menus. Chacun de ces noms contient les commandes
 de ce menu, et les noms de tous les sous-menus contiennent les commandes
 de ce sous-menu
 
-[]{#toc152}
 
-#### 18.14.2. Vue par nom
+#### 18.14.2. Vue par nom<a id"toc152"></a>
+
 
 Les commandes sont affichées sous forme de liste triée par ordre
 alphabétique du nom de la commande. Si un raccourci est attribué à une
@@ -4515,9 +4503,9 @@ du nom du sous-menu, par exemple \"Ajouter nouveau - Piste audio\". Ceci
 afin que les commandes qui ont le même nom, mais qui apparaissent dans
 des sous-menus différents puissent être distinguées les unes des autres
 
-[]{#toc153}
 
-#### 18.14.3. Vue par touche
+#### 18.14.3. Vue par touche<a id"toc153"></a>
+
 
 Les commandes sont affichées sous la forme d\'une liste et si la
 commande a un raccourci qui lui est assignée, il est affiché devant son
@@ -4526,9 +4514,9 @@ triés par ordre alphabétique du nom du raccourci. Les commandes sans
 Raccourcis sont ensuite classés par ordre alphabétique selon le nom de
 la commande.
 
-[]{#HDR-CommandSearch}
 
-#### 18.14.4. Recherche de commande
+#### 18.14.4. Recherche de commande<a id"HDR-CommandSearch"></a>
+
 
 Vous pouvez rechercher une commande ou des commandes à l\'aide du Filtre
 de la boîte d\'édition. Les résultats de recherche sont affichés dans
@@ -4543,9 +4531,9 @@ recherche dépend de la vue:
 -   vue par touche: La touche ou la combinaison de touches n\'est
     comparé qu\'avec les raccourcis.
 
-[]{#toc155}
 
-#### 18.14.5. Création ou modification d\'un raccourci
+#### 18.14.5. Création ou modification d\'un raccourci<a id"toc155"></a>
+
 
 Pour créer un raccourci:
 
@@ -4565,9 +4553,9 @@ Pour effacer un raccourci:
     raccourci que vous souhaitez supprimer.
 -   tabulez jusqu\'au bouton \"Effacer\", puis appuyez dessus.
 
-[]{#HDR-DefaultShortcutsSet}
 
-### 18.15. Jeu de raccourcis standard ou complet
+### 18.15. Jeu de raccourcis standard ou complet<a id"HDR-DefaultShortcutsSet"></a>
+
 
 Il y a deux ensembles de raccourcis par défaut:
 
@@ -4597,13 +4585,13 @@ complet aux valeurs par défaut:
     s\'ouvre.
 -   Choisissez Standard ou Complet
 
-[]{#HDR-BracketShortcuts}
 
-### 18.16. Les Raccourci gênants avec un clavier Azerty
+### 18.16. Les Raccourci gênants avec un clavier Azerty<a id"HDR-BracketShortcuts"></a>
 
-[]{#toc158}
 
-#### 18.16.1. les crochets gauche et droite
+
+#### 18.16.1. les crochets gauche et droite<a id"toc158"></a>
+
 
 Audacity installe par défaut des raccourcis utilisant les crochets pour
 les commandes suivantes:
@@ -4645,9 +4633,9 @@ donc:
 -   affecter le raccourci \"control +h\" à la commande \"Saut vers la
     fin de la sélection\".
 
-[]{#toc159}
 
-#### 18.16.2. le caractère \"point\"
+#### 18.16.2. le caractère \"point\"<a id"toc159"></a>
+
 
 Audacity installe par défaut des raccourcis utilisant le caractère \".\"
 pour les commandes suivantes:
@@ -4663,9 +4651,9 @@ pour les commandes suivantes:
     (pour avoir une cohérence avec la précédente redéfinition).
 -   \"Alt + ;\" à la - commande \"clip suivant\".
 
-[]{#HDR-UpdateAutomaticChecking}
 
-### 18.17. Vérification automatique des mises à jour
+### 18.17. Vérification automatique des mises à jour<a id"HDR-UpdateAutomaticChecking"></a>
+
 
 Par défaut, Audacity vérifie maintenant périodiquement si une nouvelle
 version est disponible. Lorsqu\'elle est disponible, une boîte de
@@ -4675,9 +4663,9 @@ se produise, dans la boîte de dialogue \"Préférences\", dans la
 catégorie \"Application\", il y a une case à cocher Vérifier les mises à
 jour. Par défaut cette case est cochée.
 
-[]{#HDR-SoundWindowsDialog}
 
-## 19. Boite de dialogue Son de Windows
+## 19. Boite de dialogue Son de Windows<a id"HDR-SoundWindowsDialog"></a>
+
 
 Dans Windows 7 ou dans les versions ultérieures de Windows, la boite de
 dialogue \"Son\" a quatre onglets: Lecture, Enregistrement, Sons et
@@ -4685,9 +4673,9 @@ Communications. Les sections suivantes décrivent comment ouvrir cette
 boîte de dialogue, les éléments de l\'onglet \"Enregistrement\", et la
 manière de ajuster le niveau d\'entrée d\'un périphérique.
 
-[]{#toc162}
 
-### 19.1. Boite de dialogue Son
+### 19.1. Boite de dialogue Son<a id"toc162"></a>
+
 
 Voici deux manières d\'ouvrir la boîte de dialogue,
 
@@ -4702,9 +4690,9 @@ Voici deux manières d\'ouvrir la boîte de dialogue,
     résultat de la recherche. Appuyez sur Entrée. La boîte de dialogue
     \"Son\" s\'ouvre sur l\'onglet \"Lecture\".
 
-[]{#toc163}
 
-### 19.2. Onglet enregistrement
+### 19.2. Onglet enregistrement<a id"toc163"></a>
+
 
 L\'onglet \"enregistrement\" contient la liste des périphériques et le
 cas échéant, un ou plusieurs boutons: Configuration, par Défaut,
@@ -4733,9 +4721,9 @@ De plus, si vous ouvrez le menu contextuel de l\'élément, il y aura une
 commande d\'activation ou de désactivation, qui vous indiquera si
 l\'élément est désactivé ou activé, respectivement.
 
-[]{#toc164}
 
-### 19.3. Boite de dialogue Propriétés d\'un périphérique
+### 19.3. Boite de dialogue Propriétés d\'un périphérique<a id"toc164"></a>
+
 
 Pour connaitre les propriétés d\'un des périphériques de la liste de
 l\'onglet \"Enregistrement\", sélectionnez-le et appuyez sur la barre
@@ -4747,9 +4735,9 @@ de cette boîte de dialogue. Pour La plupart des appareils, il n\'y a
 qu\'un seul potentiomètre, mais certains microphones ont un
 potentiomètre \"boost\".
 
-[]{#toc165}
 
-## 20. Raccourcis
+## 20. Raccourcis<a id"toc165"></a>
+
 
 Ce sont les raccourcis du jeu complet installé par défaut par Audacity.
 Certains raccourcis ne sont pas inclus dans le jeu standard.
@@ -4758,9 +4746,9 @@ Pour plus d\'informations sur ces deux jeux de raccourcis installés par
 défaut et comment faire pour changer de jeu voir le chapitre [\"Jeu de
 raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
 
-[]{#toc166}
 
-### 20.1. Commandes générales
+### 20.1. Commandes générales<a id"toc166"></a>
+
 
   ----------------------------------------------------------------------------------------------------------------------------------------- -------------------------
   Commande                                                                                                                                  Raccourci
@@ -4779,9 +4767,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Zoom arrière                                                                                                                              control + 3
   ----------------------------------------------------------------------------------------------------------------------------------------- -------------------------
 
-[]{#toc167}
 
-### 20.2. Commandes relatives à la lecture audio
+### 20.2. Commandes relatives à la lecture audio<a id"toc167"></a>
+
 
   ------------------------------------------------------------------ ---------------------------------------------------------------
   Commande                                                           Raccourci
@@ -4807,9 +4795,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Jouer une courte période avant et après la fin de la sélection     control + majuscule + F7
   ------------------------------------------------------------------ ---------------------------------------------------------------
 
-[]{#toc168}
 
-### 20.3. Commandes relatives au Tableau de pistes
+### 20.3. Commandes relatives au Tableau de pistes<a id"toc168"></a>
+
 
   ------------------------------------------------------------------------------------------ ------------------------------------------
   Commande                                                                                   Raccourci
@@ -4825,9 +4813,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Fermer (Supprimer) la piste sous le focus                                                  majuscule + C
   ------------------------------------------------------------------------------------------ ------------------------------------------
 
-[]{#toc169}
 
-### 20.4. Commandes relatives à une piste Audio
+### 20.4. Commandes relatives à une piste Audio<a id"toc169"></a>
+
 
   ---------------------------------------------------------------------- ------------------------------
   Commande                                                               Raccourci
@@ -4842,9 +4830,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Ouvrir/fermer le volet des effets en temps réel pour la piste ciblée   e
   ---------------------------------------------------------------------- ------------------------------
 
-[]{#toc170}
 
-### 20.5. Commandes relatives au Déplacement du curseur
+### 20.5. Commandes relatives au Déplacement du curseur<a id"toc170"></a>
+
 
   ------------------------------------------------------- ----------------------------------
   Command                                                 Raccourci
@@ -4864,9 +4852,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Curseur à droite par une petite quantité                Flèche Droite
   ------------------------------------------------------- ----------------------------------
 
-[]{#toc171}
 
-### 20.6. Commande relatives à la sélection d\'une plage de temps
+### 20.6. Commande relatives à la sélection d\'une plage de temps<a id"toc171"></a>
+
 
   --------------------------------------------------------------------------- -------------------------------------
   Commande                                                                    Raccourci
@@ -4882,9 +4870,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Contracter la sélection à gauche                                            control + majuscule + flèche droite
   --------------------------------------------------------------------------- -------------------------------------
 
-[]{#toc172}
 
-### 20.7. Commandes relatives à l\'édition audio
+### 20.7. Commandes relatives à l\'édition audio<a id"toc172"></a>
+
 
   ----------------------------------------------- ---------------
   Commande                                        Raccourci
@@ -4900,9 +4888,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Rechercher les croisements avec le zéro         Z
   ----------------------------------------------- ---------------
 
-[]{#toc173}
 
-### 20.8. Commandes relatives aux Marqueurs
+### 20.8. Commandes relatives aux Marqueurs<a id"toc173"></a>
+
 
   ---------------------------------------------- ---------------------
   Commande                                       Raccourci
@@ -4914,9 +4902,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Sélectionnez le marqueur précédent             majuscule + tab
   ---------------------------------------------- ---------------------
 
-[]{#toc174}
 
-### 20.9. Commandes relatives aux Clips
+### 20.9. Commandes relatives aux Clips<a id"toc174"></a>
+
 
   -------------------------------- -------------------
   Commande                         Raccourci
@@ -4931,9 +4919,9 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
   Fusionner                        control + J
   -------------------------------- -------------------
 
-[]{#toc175}
 
-### 20.10. Commandes relatives à l\'enregistrement audio
+### 20.10. Commandes relatives à l\'enregistrement audio<a id"toc175"></a>
+
 
   ------------------------------------------------------------------- ---------------
   Commande                                                            Raccourci
