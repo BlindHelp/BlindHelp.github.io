@@ -216,7 +216,8 @@ author: BlindHelp
     -   [20.10. Commandes relatives à l\'enregistrement audio](#toc175)
 
 
-## 1. Introduction <a id"toc2"></a>
+## 1. Introduction\<a id"toc2"></a>
+
 Ceci est la traduction du
 [guide](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.3.0-Guide.html)
 pour les utilisateurs des lecteurs d\'écran Jaws, NVDA et Narrator,
