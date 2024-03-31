@@ -216,7 +216,7 @@ author: BlindHelp
     -   [20.10. Commandes relatives à l\'enregistrement audio](#toc175)
 
 
-## [1. Introduction]{#toc2}
+## 1. Introduction
 
 
 Ceci est la traduction du
