@@ -4765,178 +4765,178 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
 ### 20.1. Commandes générales<a id="toc166"></a>
 
 
-  Commande                                                                                                                                  Raccourci
-  ----------------------------------------------------------------------------------------------------------------------------------------- -------------------------
-  Ouvrir un fichier audio                                                                                                                   control + O
-  Importer un fichier audio                                                                                                                 control + majuscule + I
-  Nouveau projet                                                                                                                            control + N
-  Sauvegarder le projet                                                                                                                     control + S
-  Exporter Audio                                                                                                                            control + majuscule + E
-  Boîte de dialogue \"Préférences\"                                                                                                         control + P
-  Tourner en avant entre le panneau supérieur de barres d\'outils,le tableau \"Vue de piste\" et le panneau inférieur de barre d\'outils    control + F6
-  Tourner en arrière entre le panneau supérieur de barres d\'outils, le tableau \"Vue de piste\", le panneau inférieur de barre d\'outils   control + majuscule +F6
-  Tourner en avant entre la fenêtre principale d\'Audacity et les fenêtres non modales                                                      Alt + F6
-  Tourner en arrière entre la fenêtre principale d\'Audacity et les fenêtres non modales                                                    Alt + majuscule + F6
-  Zoom normal                                                                                                                               control + 2
-  Zoom Avant                                                                                                                                control + 1
-  Zoom arrière                                                                                                                              control + 3
+  Commande                                                                                                                         \         Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Ouvrir un fichier audio                                                                                                                   \ control + O
+  Importer un fichier audio                                                                                                                 \ control + majuscule + I
+  Nouveau projet                                                                                                                            \ control + N
+  Sauvegarder le projet                                                                                                                     \ control + S
+  Exporter Audio                                                                                                                            \ control + majuscule + E
+  Boîte de dialogue \"Préférences\"                                                                                                       \  control + P
+  Tourner en avant entre le panneau supérieur de barres d\'outils,le tableau \"Vue de piste\" et le panneau inférieur de barre d\'outils    \ control + F6
+  Tourner en arrière entre le panneau supérieur de barres d\'outils, le tableau \"Vue de piste\", le panneau inférieur de barre d\'outils  \ control + majuscule +F6
+  Tourner en avant entre la fenêtre principale d\'Audacity et les fenêtres non modales                                                      \ Alt + F6
+  Tourner en arrière entre la fenêtre principale d\'Audacity et les fenêtres non modales                                                    \ Alt + majuscule + F6
+  Zoom normal                                                                                                                               \ control + 2
+  Zoom Avant                                                                                                                                \ control + 1
+  Zoom arrière                                                                                                                              \ control + 3
 
 
 ### 20.2. Commandes relatives à la lecture audio<a id="toc167"></a>
 
 
-  Commande                                                           Raccourci
-  ------------------------------------------------------------------ ---------------------------------------------------------------
-  Démarrage/Arrêt                                                    barre d\'espace
-  Démarrage/Arrêt avec déplacement du curseur                        X
-  frottement vers l\'arrière                                         Appuyez et maintenez la touche \"U\"
-  Frottement vers l\'avant                                           Appuyez et maintenez la touche \"i\"
-  Pause/reprendre                                                    P
-  Petit Saut arrière pendant la lecture                              Flèche gauche
-  Petit saut avant pendant la lecture                                Flèche droite
-  Grand saut arrière pendant la lecture                              majuscule + Flèche gauche
-  Grand saut avant pendant la lecture                                majuscule + Flèche Droite
-  Basculer entre la lecture en boucle et la lecture standard         l
-  Définiir la plage de boucle sur la plage de temps sélectionnée     majuscule + l (disponible dans 3.1.3 et versions ultérieures)
-  Jouer la plage en boucle une fois                                  majuscule + barre d\'espace
-  Boite de dialogue \"Sélection du Périphérique de Lecture\"         majuscule + O
-  Jouer l\'aperçu de coupe/suppression                               C
-  Jouer une courte période avant le début de la sélection            majuscule + F5
-  Jouer une courte période après le début de la sélection            majuscule + F6
-  Jouer une courte période avant la fin de la sélection              majuscule + F7
-  Jouer une courte période après la fin de la sélection              majuscule + F8
-  Jouer une courte période avant et après le début de la sélection   control + majuscule + F5
-  Jouer une courte période avant et après la fin de la sélection     control + majuscule + F7
+  Commande                                                           \ Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Démarrage/Arrêt                                                    \ barre d\'espace
+  Démarrage/Arrêt avec déplacement du curseur                       \ X
+  frottement vers l\'arrière                                         \ Appuyez et maintenez la touche \"U\"
+  Frottement vers l\'avant                                           \ Appuyez et maintenez la touche \"i\"
+  Pause/reprendre                                                   \ P
+  Petit Saut arrière pendant la lecture                              \ Flèche gauche
+  Petit saut avant pendant la lecture                               \ Flèche droite
+  Grand saut arrière pendant la lecture                              \ majuscule + Flèche gauche
+  Grand saut avant pendant la lecture                                \ majuscule + Flèche Droite
+  Basculer entre la lecture en boucle et la lecture standard        \ l
+  Définiir la plage de boucle sur la plage de temps sélectionnée    \ majuscule + l (disponible dans 3.1.3 et versions ultérieures)
+  Jouer la plage en boucle une fois                                 \ majuscule + barre d\'espace
+  Boite de dialogue \"Sélection du Périphérique de Lecture\"         \ majuscule + O
+  Jouer l\'aperçu de coupe/suppression                              \ C
+  Jouer une courte période avant le début de la sélection            \ majuscule + F5
+  Jouer une courte période après le début de la sélection            \ majuscule + F6
+  Jouer une courte période avant la fin de la sélection              \ majuscule + F7
+  Jouer une courte période après la fin de la sélection              \ majuscule + F8
+  Jouer une courte période avant et après le début de la sélection   \ control + majuscule + F5
+  Jouer une courte période avant et après la fin de la sélection     \ control + majuscule + F7
 
 
 ### 20.3. Commandes relatives au Tableau de pistes<a id="toc168"></a>
 
 
-  Commande                                                                                   Raccourci
-  ------------------------------------------------------------------------------------------ ------------------------------------------
-  Passer à la piste précédente                                                               Flèche haut
-  passer à la piste suivante                                                                 Flèche Bas
-  Se déplacer à la première piste                                                            control + Début
-  Se déplacer à la dernière piste                                                            control + Fin
-  Sélectionner/désélectionner la piste                                                       Entrée
-  Sélectionnez toutes les pistes (une plage de temps comprend alors tout l\'audio)           control + A\|
-  Désélectionner toutes les pistes (toutes les plages de temps sont aussi désélectionnées)   control + majuscule + A
-  Sélectionnez toutes les pistes                                                             control + majuscule + K
-  Ouvrir le menu contextuel de la piste sous le focus                                        majuscule + M ou Touche \"Applications\"
-  Fermer (Supprimer) la piste sous le focus                                                  majuscule + C
+  Commande                                                                                  \ Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Passer à la piste précédente                                                               \ Flèche haut
+  passer à la piste suivante                                                                 \ Flèche Bas
+  Se déplacer à la première piste                                                            \ control + Début
+  Se déplacer à la dernière piste                                                            \ control + Fin
+  Sélectionner/désélectionner la piste                                                       \ Entrée
+  Sélectionnez toutes les pistes (une plage de temps comprend alors tout l\'audio)           \ control + A\|
+  Désélectionner toutes les pistes (toutes les plages de temps sont aussi désélectionnées)   \ control + majuscule + A
+  Sélectionnez toutes les pistes                                                             \ control + majuscule + K
+  Ouvrir le menu contextuel de la piste sous le focus                                        \ majuscule + M ou Touche \"Applications\"
+  Fermer (Supprimer) la piste sous le focus                                                  \ majuscule + C
 
 
 ### 20.4. Commandes relatives à une piste Audio<a id="toc169"></a>
 
 
-  Commande                                                               Raccourci
-  ---------------------------------------------------------------------- ------------------------------
-  Changer le gain de la piste sous le focus                              majuscule + G
-  Changer le panoramique de la piste sous le focus                       majuscule + P
-  Couper/rétablir le son de la piste sous le focus                       majuscule + U
-  couper le son de toutes les pistes                                     control + U
-  Activer le son de toutes les pistes                                    control + majuscule + U
-  Couper le son de toutes les pistes sélectionnées                       control + alt + u
-  Activer le son de toutes les pistes sélectionnées                      control + alt + majuscule +u
-  Activer/désactiver Solo pour la piste sous le focus                    majuscule + S
-  Ouvrir/fermer le volet des effets en temps réel pour la piste ciblée   e
+  Commande                                                               \ Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Changer le gain de la piste sous le focus                              \ majuscule + G
+  Changer le panoramique de la piste sous le focus                       \ majuscule + P
+  Couper/rétablir le son de la piste sous le focus                       \ majuscule + U
+  couper le son de toutes les pistes                                     \ control + U
+  Activer le son de toutes les pistes                                    \ control + majuscule + U
+  Couper le son de toutes les pistes sélectionnées                       \ control + alt + u
+  Activer le son de toutes les pistes sélectionnées                      \ control + alt + majuscule +u
+  Activer/désactiver Solo pour la piste sous le focus                    \ majuscule + S
+  Ouvrir/fermer le volet des effets en temps réel pour la piste ciblée   \ e
 
 
 ### 20.5. Commandes relatives au Déplacement du curseur<a id="toc170"></a>
 
 
-  Command                                                 Raccourci
-  ------------------------------------------------------- ----------------------------------
-  Aller au début de pistes (temps zéro)                   Début
-  Aller à la fin de tout audio                            Fin
-  Aller au début de l\'audio de la pistes sélectionnées   J
-  Aller à la fin de l\'audio de la pistes sélectionnées   K
-  Nouvelle position du curseur à la position de lecture   \[
-  Arrêt de la lecture avec déplacement du curseur         X
-  Frottement en arrière                                   Appuyez et maintenez la touche u
-  Frottement en avant                                     Appuyez et maintenez la touche i
-  Petit saut arrière                                      Virgule
-  Petit Saut avant                                        Point
-  Grand saut arrière                                      majuscule + Virgule
-  Grand saut avant                                        majuscule + Point
-  Curseur vers la gauche par une petite quantité          Flèche Gauche
-  Curseur à droite par une petite quantité                Flèche Droite
+  Command                                                 \ Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Aller au début de pistes (temps zéro)                   \ Début
+  Aller à la fin de tout audio                            \ Fin
+  Aller au début de l\'audio de la pistes sélectionnées   \ J
+  Aller à la fin de l\'audio de la pistes sélectionnées   \ K
+  Nouvelle position du curseur à la position de lecture \  \[
+  Arrêt de la lecture avec déplacement du curseur         \ X
+  Frottement en arrière                                  \ Appuyez et maintenez la touche u
+  Frottement en avant                                     \ Appuyez et maintenez la touche i
+  Petit saut arrière                                      \ Virgule
+  Petit Saut avant                                        \ Point
+  Grand saut arrière                                      \ majuscule + Virgule
+  Grand saut avant                                        \ majuscule + Point
+  Curseur vers la gauche par une petite quantité          \ Flèche Gauche
+  Curseur à droite par une petite quantité                \ Flèche Droite
 
 
 ### 20.6. Commande relatives à la sélection d\'une plage de temps<a id="toc171"></a>
 
 
-  Commande                                                                    Raccourci
-  --------------------------------------------------------------------------- -------------------------------------
-  Sélectionner la plage de temps qui comprend l\'audio de toutes les pistes   control + A
-  Début de la Sélection au départ des pistes (temps zéro)                     majuscule + Début
-  Fin de la Sélection à la fin de l\'audio                                    majuscule + Fin
-  Fin de la Sélection à la position de lecture                                \]
-  Début de la sélection au début de l\'audio des pistes sélectionnées         majuscule + J
-  Fin de la Sélection à la fin de l\'audio des pistes sélectionnées           majuscule + K
-  Étendre la sélection à droite                                               majuscule + flèche droite
-  Étendre la sélection à gauche                                               majuscule + flèche gauche
-  Contracter la sélection à droite                                            control + majuscule + flèche gauche
-  Contracter la sélection à gauche                                            control + majuscule + flèche droite
+  Commande                                                                    \ Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Sélectionner la plage de temps qui comprend l\'audio de toutes les pistes   \ control + A
+  Début de la Sélection au départ des pistes (temps zéro)                     \ majuscule + Début
+  Fin de la Sélection à la fin de l\'audio                                    \ majuscule + Fin
+  Fin de la Sélection à la position de lecture                               \ \]
+  Début de la sélection au début de l\'audio des pistes sélectionnées         \ majuscule + J
+  Fin de la Sélection à la fin de l\'audio des pistes sélectionnées           \ majuscule + K
+  Étendre la sélection à droite                                               \ majuscule + flèche droite
+  Étendre la sélection à gauche                                               \ majuscule + flèche gauche
+  Contracter la sélection à droite                                            \ control + majuscule + flèche gauche
+  Contracter la sélection à gauche                                            \ control + majuscule + flèche droite
 
 
 ### 20.7. Commandes relatives à l\'édition audio<a id="toc172"></a>
 
 
-  Commande                                        Raccourci
-  ----------------------------------------------- ---------------
-  Annuler                                         control + Z
-  Rétablir                                        control + Y
-  Supprimer la sélection audio                    Supp
-  Couper l\'audio sélectionné                     control + X
-  Copier l\'audio sélectionné                     control + C
-  Coller                                          control + V
-  Remplacer l\'audio sélectionné par du silence   control + L
-  Dupliquer l\'audio sélectionné                  control + D
-  Fermer (Supprimer) la piste                     majuscule + C
-  Rechercher les croisements avec le zéro         Z
+  Commande                                        \ Raccourci
+  -----------------------------------------------  \  ---------------
+  Annuler                                         \ control + Z
+  Rétablir                                        \ control + Y
+  Supprimer la sélection audio                    \ Supp
+  Couper l\'audio sélectionné                     \ control + X
+  Copier l\'audio sélectionné                     \ control + C
+  Coller                                          \ control + V
+  Remplacer l\'audio sélectionné par du silence   \ control + L
+  Dupliquer l\'audio sélectionné                  \ control + D
+  Fermer (Supprimer) la piste                     \ majuscule + C
+  Rechercher les croisements avec le zéro        \ Z
 
 
 ### 20.8. Commandes relatives aux Marqueurs<a id="toc173"></a>
 
 
-  Commande                                       Raccourci
-  ---------------------------------------------- ---------------------
-  Ajouter un marqueur à la sélection             control + B
-  Ajouter un marqueur à la position de lecture   control + M
-  Se Déplacer au marqueur suivant                Alt + Flèche droite
-  Se déplacer au marqueur précédent              Alt + Flèche Gauche
-  Sélectionnez le marqueur suivant               tab
-  Sélectionnez le marqueur précédent             majuscule + tab
+  Commande                                       \ Raccourci
+  ----------------------------------------------  \  ---------------------
+  Ajouter un marqueur à la sélection            \ control + B
+  Ajouter un marqueur à la position de lecture  \ control + M
+  Se Déplacer au marqueur suivant                \ Alt + Flèche droite
+  Se déplacer au marqueur précédent              \ Alt + Flèche Gauche
+  Sélectionnez le marqueur suivant               \ tab
+  Sélectionnez le marqueur précédent             \ majuscule + tab
 
 
 ### 20.9. Commandes relatives aux Clips<a id="toc174"></a>
 
 
-  Commande                         Raccourci
-  -------------------------------- -------------------
-  Sélectionner le clip précédent   Alt + ,
-  Sélectionner le clip suivant     Alt + .
-  Renommer le clip sélectionné     contrôle + F2
-  Scinder                          control + I
-  supprimer - séparer              control + Alt + K
-  couper - séparer                 control + Alt + X
-  Scinder comme nouveau            control + Alt + I
-  Scinder aux silences             control + Alt + J
-  Fusionner                        control + J
+  Commande                         \ Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Sélectionner le clip précédent   \ Alt + ,
+  Sélectionner le clip suivant     \ Alt + .
+  Renommer le clip sélectionné     \ contrôle + F2
+  Scinder                          \ control + I
+  supprimer - séparer              \ control + Alt + K
+  couper - séparer                 \ control + Alt + X
+  Scinder comme nouveau            \ control + Alt + I
+  Scinder aux silences             \ control + Alt + J
+  Fusionner                        \ control + J
 
 
 ### 20.10. Commandes relatives à l\'enregistrement audio<a id="toc175"></a>
 
 
-  Commande                                                            Raccourci
-  ------------------------------------------------------------------- ---------------
-  Ajouter un enregistrement                                           R
-  Enregistrer dans une nouvelle Piste                                 majuscule + R
-  Enregistrement Punch and Roll                                       majuscule +d
-  Pause/reprendre                                                     P
-  Arrêter                                                             Espace
-  Boite de dialogue \"sélection de l\'hôte audio\"                    majuscule + H
-  Boite de dialogue \"Sélection du Périphérique d\'Enregistrement\"   majuscule + I
-  Boite de dialogue \"Sélection des Canaux d\'Enregistrement\"        majuscule + N
+  Commande                                                            \ Raccourci
+  -------------------------------------------------------------------  \  ---------------
+  Ajouter un enregistrement                                           \ R
+  Enregistrer dans une nouvelle Piste                                 \ majuscule + R
+  Enregistrement Punch and Roll                                       \ majuscule +d
+  Pause/reprendre                                                     \ P
+  Arrêter                                                             \ Espace
+  Boite de dialogue \"sélection de l\'hôte audio\"                    \ majuscule + H
+  Boite de dialogue \"Sélection du Périphérique d\'Enregistrement\"   \ majuscule + I
+  Boite de dialogue \"Sélection des Canaux d\'Enregistrement\"        \ majuscule + N
 
