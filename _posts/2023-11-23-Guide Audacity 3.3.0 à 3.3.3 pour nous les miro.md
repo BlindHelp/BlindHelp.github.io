@@ -1065,8 +1065,13 @@ Il y a deux façons de changer la valeur du temps:
     chiffres suivants: \"00320000\". Cela remplace complètement le temps
     avec le temps de 32 minutes. Si vous utilisez le lecteur d\'écran
     Jaws ou NVDA, vous pouvez toujours lire l\'intégralité du temps en
-    appuyant sur la commande de lecture de la ligne actuelle. ++ Barre
-    d\'outils \"Lecture à-la-vitesse\" ++ En plus de la lecture à la
+    appuyant sur la commande de lecture de la ligne actuelle.
+
+
+## Barre d\'outils \"Lecture à-la-vitesse\" ##
+
+
+En plus de la lecture à la
     vitesse normale, vous pouvez également lire l\'audio à des vitesses
     variant de très lentes à trois fois la vitesse de lecture normale.
     Vous pouvez le faire soit en utilisant la barre d\'outils \"Lecture
