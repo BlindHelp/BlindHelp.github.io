@@ -157,7 +157,7 @@ Si nous faisons flèche bas, nous aurons les autres heures comme suit :
 Une fois l'heure choisie dans ladite liste, nous appuierons sur la touche de tabulation pour avoir les mêmes boutons mentionnés ci-dessus :    
 `OK bouton`    
 `Annuler bouton`    
-Inutile de réexpliquer à quoi ils servent.
+Inutile de réexpliquer à quoi ils servent.    
 Vous avez probablement une fenêtre comme nom : `clocksnd`    
 Vous pouvez utiliser les flèches haut ou bas pour naviguer entre les éléments du programme.    
 Si ce n'était pas le cas, faire de nouveau  Insert+F11 et suivez les mêmes instructions ci-dessus pour retrouver l'éléments appelé :    
