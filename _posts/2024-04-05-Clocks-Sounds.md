@@ -27,7 +27,7 @@ Faites la barre d'espace pour le sélectionner.
 Cliquez avec le bouton droit de la souris dessus. (Si vous avez installé le lecteur  d'écran NVDA, l'équivalent est : Simple clic droit de la souris à sa position courante : pavNum multiplié).    
 Ceci ouvrira le menu contextuel.    
 `Contexte menu`    
-Vous y trouverez les éléments suivants     :
+Vous y trouverez les éléments suivants     :    
 `A propos... a`    
 En appuyant sur la lettre a sur notre clavier Cet élément nous sera ouvert.    
 Vous y trouverez les informations suivantes :    
