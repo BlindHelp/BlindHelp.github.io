@@ -1859,7 +1859,7 @@ paramètres, il y a trois boutons :
     de l\'effet appliqué à l\'audio sélectionné. La durée par défaut de
     l\'aperçu est de 6 secondes, mais vous pouvez la modifier dans la
     boîte de dialogue \"Préférences\", où dans la catégorie \"Lecture\",
-    dans le groupe \"Aperçu des effet\"s, il y a une zone d\'édition
+    dans le groupe \"Aperçu des effets\", il y a une zone d\'édition
     Longueur. Notez que dans la version 3.3.0 d\'Audacity, mais pas dans
     les versions ultérieures, pour un petit nombre d\'effets, après
     avoir appuyé sur le bouton Aperçu, il se transforme en un bouton
@@ -1981,7 +1981,7 @@ Il existe plusieurs façons de régler la plage de boucle :
 
 Vous pouvez lire l\'audio entre le début et la fin de la boucle une fois
 en utilisant le menu \"Transport\", en ouvrant le sous-menu \"Lecture\"
-et en choisissant \"Lire une fois /Stop\" (Maj + Barre d\'espace).
+et en choisissant \"Lire une fois/Stop\" (Maj + Barre d\'espace).
 
 Notez que dans les versions d\'Audacity antérieures à la 3.1.0, \"Maj +
 Espace\" était le raccourci par défaut de la commande Lecture en boucle,
@@ -2082,7 +2082,7 @@ Toutes à l\'exception de la première de ces commandes se trouvent dans
 le sous-menu \"Silencer/désilencer\" du menu \"Pistes\".
 
 
-#### 11.4.2. Solo<a id"toc73"></a>
+#### 11.4.2. Solo<a id="toc73"></a>
 
 
 Si une ou plusieurs pistes ont leur paramètre \"solo\" activé, seules
@@ -2394,14 +2394,14 @@ liste déroulante \"Préréglage pratique\" :
     terminent à zéro ou à 100 % de l\'amplitude d\'origine.
 
 La boîte de dialogue \"Fondu ajustable\" contient les commandes
-suivantes : - la liste déroulante \"Type de fondu\". Les types \"Fondu
+suivantes :
+-   la liste déroulante \"Type de fondu\". Les types \"Fondu
 en ouverture\" ou \"Fondu en fermeture\" sont des fondus linéaires. Pour
 les types \"Courbe-s vers le haut\" et \"Courbe-s vers le bas\", le taux
 de changement du gain varie tout au long du fondu : il commence à un
 petit taux de changement, augmente jusqu\'à un maximum à mi-chemin, puis
 diminue jusqu\'à un petit à la fin. Vous constaterez peut-être qu\'ils
 sonnent mieux que les types linéaires.
-
 -   la Zone d\'édition et le curseur \"Ajustement fondu milieu (%)\". La
     valeur par défaut de la zone d\'édition est de zéro pour cent et
     l\'utilisation d\'autres valeurs ne sera pas décrite dans ce guide.
