@@ -3741,7 +3741,8 @@ d\'enregistrement :
     d\'enregistrement\" et choisissez \"Démarrer le monitoring\".
 -   Faites quelques sons représentatifs pendant un court instant.
 -   Appuyez de nouveau sur le bouton déroulant et choisissez \"Arrêter
-    le monitoring\"Le nom du bouton déroulant inclut le niveau de crête
+    le monitoring\"
+Le nom du bouton déroulant inclut le niveau de crête
     pendant cette surveillance.
 
 Normalement, une bonne valeur du niveau de crête à viser est d\'environ
@@ -4009,9 +4010,6 @@ correction de latence dans ces deux cas, sont :
         millisecondes en retard, définir alors la correction a -170
         millisecondes.
 
-```{=html}
-<!-- -->
-```
 -   second cas : trouver la position du clic enregistré quand il arrive
     plus tôt que le clic original :
     -   placer vous sur le chiffre des dixièmes de millisecondes de la
