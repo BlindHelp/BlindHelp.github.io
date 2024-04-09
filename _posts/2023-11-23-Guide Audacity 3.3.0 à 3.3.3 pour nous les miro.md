@@ -3,17 +3,19 @@ title: Guide Audacity 3.3.0 à 3.3.3 pour nous les miro
 permalink: "/Guide-Audacity-3.3.0-a-3.3.3/"
 layout: post
 author: BlindHelp
-encoding: utf-8
-options: \--toc
-style: ..\\style_t2t.css
-target: html
 ---
 
 <footer>Publié le Jeudi 23 Novembre 2023 - Dernière révision le Jeudi 4 Avril 2024</footer>
 
 
+---
+author:
 - "Auteur: paulber19 (paulber19@laposte.net)"
-# Guide d\'introduction à Audacity
+encoding: utf-8
+options: \--toc
+style: ..\\style_t2t.css
+target: html
+title: Guide d\'introduction à Audacity
 ---
 
 -   [[1]{.toc-section-number} Sommaire](#toc){#toc-toc}
