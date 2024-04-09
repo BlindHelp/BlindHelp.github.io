@@ -4705,17 +4705,17 @@ raccourcis standard ou complet\"](#HDR-DefaultShortcutsSet).
 
 ## Commandes relatives à l\'enregistrement audio
 
-                               Commande                                  Raccourci
-  ------------------------------------------------------------------- ---------------
-                       Ajouter un enregistrement                             R
-                  Enregistrer dans une nouvelle Piste                  majuscule + R
-                     Enregistrement Punch and Roll                     majuscule +d
-                            Pause/reprendre                                  P
-                                Arrêter                                   Espace
-           Boite de dialogue \"sélection de l\'hôte audio\"            majuscule + H
-   Boite de dialogue \"Sélection du Périphérique d\'Enregistrement\"   majuscule + I
-     Boite de dialogue \"Sélection des Canaux d\'Enregistrement\"      majuscule + N
+|                               Commande                                  | Raccourci |
+|  ------------------------------------------------------------------- | --------------- |
+|                       Ajouter un enregistrement                             | R |
+|                  Enregistrer dans une nouvelle Piste                  | majuscule + R |
+|                     Enregistrement Punch and Roll                     | majuscule +d |
+|                            Pause/reprendre                                  | P |
+|                                Arrêter                                   | Espace |
+|           Boite de dialogue \"sélection de l\'hôte audio\"            | majuscule + H |
+|   Boite de dialogue \"Sélection du Périphérique d\'Enregistrement\"   | majuscule + I |
+|     Boite de dialogue \"Sélection des Canaux d\'Enregistrement\"      | majuscule + N |
 
 
---
+---
 
