@@ -9,14 +9,9 @@ author: BlindHelp
 
 
 ---
-author:
+
 - "Auteur: paulber19 (paulber19@laposte.net)"
-encoding: utf-8
-options: \--toc
-style: ..\\style_t2t.css
-target: html
-title: Guide d\'introduction à Audacity
----
+# Guide d\'introduction à Audacity
 
 -   [[1]{.toc-section-number} Sommaire](#toc){#toc-toc}
 -   [2]{.toc-section-number} Introduction
