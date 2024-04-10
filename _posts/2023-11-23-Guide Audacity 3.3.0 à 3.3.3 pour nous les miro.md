@@ -8,7 +8,7 @@ author: BlindHelp
 <footer>Publié le Jeudi 23 Novembre 2023 - Dernière révision le Jeudi 4 Avril 2024</footer>
 
 
-*Auteur: paulber19 (paulber19@laposte.net)*\
+- Auteur: paulber19 (paulber19@laposte.net)
 
 # Guide d\'introduction à Audacity
 
