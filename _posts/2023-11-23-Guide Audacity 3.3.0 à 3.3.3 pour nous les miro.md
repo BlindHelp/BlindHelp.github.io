@@ -8,12 +8,12 @@ author: BlindHelp
 <footer>Publié le Jeudi 23 Novembre 2023 - Dernière révision le Jeudi 4 Avril 2024</footer>
 
 
----
+*Auteur: paulber19 (paulber19@laposte.net)*\
 
-- "Auteur: paulber19 (paulber19@laposte.net)"
 # Guide d\'introduction à Audacity
 
--   [[1]{.toc-section-number} Sommaire](#toc){#toc-toc}
+
+-   [1]{.toc-section-number} Sommaire](#toc){#toc-toc}
 -   [2]{.toc-section-number} Introduction
     -   [2.1]{.toc-section-number} Projets Audacity
     -   [2.2]{.toc-section-number} Curseur
