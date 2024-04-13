@@ -13,7 +13,7 @@ Aujourd'hui, je vous apporte un outil Python pour compiler des Tables des Matiè
 
 Ci-dessous je colle les informations trouvées sur cet outil réalisées par son auteur.
 
-Merci à lui, donc ! ( bow)
+Merci à lui, donc ! (bow)
 
 # Markdown-Table-of-Contents
 Outil Python pour compiler des Tables des Matières avec liens hypertextes en Markdown (GitHub-Flavoured-Markdown)
