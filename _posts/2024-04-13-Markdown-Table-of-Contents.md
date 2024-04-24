@@ -36,9 +36,9 @@ Regarder sur GitHub:
 
 * [Markdown-Table-of-Contents](#markdown-table-of-contents)
     * [Sommaire](#sommaire)
-    * [Qu\'est-ce que c\'est ?](#qu\'est-ce-que-c\'est-)
+    * [Qu\'est-ce que c\'est ?](#qu-est-ce-que-c-est-)
     * [Comment ça marche ?](#comment-ça-marche-)
-    * [Comment l\'utiliser ?](#comment-l\'utiliser-)
+    * [Comment l\'utiliser ?](#comment-l-utiliser-)
     * [Arguments pour la ligne de commande](#arguments-pour-la-ligne-de-commande)
     * [Spécifications](#spécifications)
     * [Fonctionnalités manquantes](#fonctionnalités-manquantes)
@@ -46,7 +46,7 @@ Regarder sur GitHub:
 
 <!-- table of contents created by Adrian Bonnet, see https://Relex12.github.io/Markdown-Table-of-Contents for more -->
 
-## Qu\'est-ce que c'est ?
+## Qu\'est-ce que c\'est ?
 
 **N\'avez-vous jamais été frustré de ne pas pouvoir créer de table des matières dynamiques en Markdown ?**
 
@@ -246,7 +246,7 @@ J'ai obtenu le même résultat que celui trouvé dans le fichier README.md en an
 Je pense que l'auteur a traduit le fichier README.md en français ensuite l'auteur l'a renommé en README-fr.md, c'est peut-être pour cela que ce problème d'encodage n'est pas reflété avec des séries de caractères exotiques qui ne s'affichent pas correctement une fois le fichier converti avec le script toc.py...
 ```
 
-Après cette mise en garde par mes soins, si votre document Markdown (fichier.md) est rédigé en anglais vous ne rencontrerez pas de problème lors de l\'exécution dudit outil (toc.py), sinon si vous utilisez la langue en français, espagnol, etc... vous devrez faire les corrections manuellement dans la partie des noms des liens généré par ledit script selon le vrai nom du titre avant de le publier sur GitHub.
+Après cette mise en garde par mes soins, si votre document Markdown (fichier.md) est rédigé en anglais vous ne rencontrerez pas de problème lors de l\'exécution dudit outil (toc.py), sinon si vous utilisez la langue en français, espagnol, etc... vous devrez faire les corrections manuellement dans la partie des noms des liens généré par ledit script selon le vrai nom du titre avec ses lettres accentuées avant de le publier sur GitHub.
 
 Dans le cas de la langue française qui utilise le signe apostrophe \' vous devrez préfixer le signe barre oblique inversée, soit :
 
