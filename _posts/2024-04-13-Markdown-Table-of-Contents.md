@@ -15,6 +15,8 @@ Ci-dessous je colle les informations trouvées sur cet outil réalisées par son
 
 Merci à lui, donc ! (bow)
 
+A la fin du post vous trouverez mes conclusions et tests dudit outil.
+
 # Markdown-Table-of-Contents
 Outil Python pour compiler des Tables des Matières avec liens hypertextes en Markdown (GitHub-Flavoured-Markdown)
 
@@ -112,6 +114,141 @@ Aussi, la liste des comportements inattendus à cause des caractères spéciaux 
 ## Licence
 
 Ce projet est un petit projet. Le code source est donné librement à la communauté GitHub, sous la seule licence MIT, qui n'est pas trop restrictive.
+
+---
+
+## Conclusions et tests effectués par BlindHelp
+
+```
+POUR VOTRE INFORMATION
+
+Cette commande n'est pas reconnue  en utilisant : python3
+
+Comme seul python est installé sur mon système, je l'ai remplacé par la commande :
+python toc.py FileName.md -o FileName.md
+
+Afin de ne pas altérer le fichier original j'ai modifié le fichier en sortie avec un autre nom :
+
+python toc.py FileName.md -o test.md
+
+Vous pouvez renommer le fichier FileName.md sous un autre nom.
+
+Explications rapides 
+
+Pour tester cela, j'ai fait ce qui suit :
+
+J'ai pris le fichier qui se trouvait dans le dépôt de l'auteur appelé :
+README-fr.md
+J'ai précédemment supprimé ces parties du fichier appelé README-fr.md
+* [Markdown-Table-of-Contents](#markdown-table-of-contents)
+    * [Sommaire](#sommaire)
+    * [Qu'est-ce que c'est ?](#qu'est-ce-que-c'est-)
+    * [Comment ça marche ?](#comment-ça-marche-)
+    * [Comment l'utiliser ?](#comment-l'utiliser-)
+    * [Arguments pour la ligne de commande](#arguments-pour-la-ligne-de-commande)
+    * [Spécifications](#spécifications)
+    * [Fonctionnalités manquantes](#fonctionnalités-manquantes)
+    * [Licence](#licence)
+
+<!-- table of contents created by Adrian Bonnet, see https://Relex12.github.io/Markdown-Table-of-Contents for more -->
+
+Puis Ctrl+s pour enregistrer ces changements.
+
+Et renommé le fichier par :
+FileName.md
+
+Vous pouvez renommer le fichier FileName.md sous un autre nom.
+
+J'ai également placé au même niveau le fichier appelé :
+toc.py
+
+J'ai ouvert le fichier que je viens de renommer :
+FileName.md
+
+Vous pouvez renommer le fichier FileName.md sous un autre nom.
+
+J'ai laissé en tant que tel le premier titre de niveau 1 appelé :
+# Markdown-Table-of-Contents
+Celui-ci est situé au début du fichier.
+
+J'ai fait la même chose avec le titre de niveau 2 appelé :
+## Sommaire
+
+J'ai laissé une ligne vide puis j'ai ajouté ceci :
+[toc]## Sommaire
+
+J'ai immédiatement laissé en tant que tel deuxième titre de niveau 2 appelé :
+
+## Qu'est-ce que c'est ?
+
+Cela ressemblerait à ceci :
+
+## Sommaire
+
+[toc]## Sommaire
+
+## Qu'est-ce que c'est ?
+
+Puis en ligne de commande j'ai tapé :
+
+python toc.py FileName.md -o test.md
+
+Vous pouvez renommer le fichier FileName.md sous un autre nom.
+
+Le résultat se trouve dans le fichier appelé :
+test.md
+
+Malheureusement certains caractères ne sont pas bien encodés, je ne sais pas comment l'auteur a fait pour qu'ils s'affichent correctement dans son fichier appelé README-fr.md (pour le français).
+
+J'imagine que ce problème n'existe pas dans le fichier anglais appelé :
+README.md
+
+Je viens de faire un test en utilisant le fichier en anglais appelé :
+README.md
+
+J'ai supprimé les parties insérées par le script :
+## Summary
+
+* [Markdown-Table-of-Contents](#markdown-table-of-contents)
+    * [Summary](#summary)
+    * [What is it?](#what-is-it)
+    * [How does it work?](#how-does-it-work)
+    * [How to use it?](#how-to-use-it)
+    * [CLI arguments](#cli-arguments)
+    * [Specifications](#specifications)
+    * [Missing features](#missing-features)
+    * [License](#license)
+
+<!-- table of contents created by Adrian Bonnet, see https://github.com/Relex12/Markdown-Table-of-Contents for more -->
+
+## What is it?
+
+J'ai laissé en tant que tel le deuxième titre de niveau 2 appelé :
+## Summary
+puis le deuxième titre de niveau 2 appelé :
+## What is it?
+
+Cela ressemblerait à ceci :
+
+## Summary
+
+[toc]## Summary
+
+## What is it?
+
+Puis en ligne de commande j'ai tapé :
+
+python toc.py FileName.md -o test.md
+
+Vous pouvez renommer le fichier FileName.md sous un autre nom.
+
+J'ai obtenu le même résultat que celui trouvé dans le fichier README.md en anglais réalisé par l'auteur sans aucun problème de codage.
+Je pense que l'auteur a traduit le fichier README.md en français ensuite l'auteur l'a renommé en README-fr.md, c'est peut-être pour cela que ce problème d'encodage n'est pas reflété avec des séries de caractères exotiques qui ne s'affichent pas correctement une fois le fichier converti avec le script toc.py...
+```
+
+Après cette mise en garde par mes soins, si votre document Markdown (fichier.md) est rédigé en anglais vous ne rencontrerez pas de problème lors de l'exécution dudit outil (toc.py), sinon si vous utilisez la langue en français, en espagnol, etc... vous devrez faire les corrections manuellement dans la partie des noms des liens généré par ledit script selon le vrai nom du titre avant de le publier sur GitHub.
+
+Voilà qui est dit !
 
 ---
 
