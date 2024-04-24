@@ -248,7 +248,7 @@ Je pense que l'auteur a traduit le fichier README.md en français ensuite l'aute
 
 Après cette mise en garde par mes soins, si votre document Markdown (fichier.md) est rédigé en anglais vous ne rencontrerez pas de problème lors de l\'exécution dudit outil (toc.py), sinon si vous utilisez la langue en français, espagnol, etc... vous devrez faire les corrections manuellement dans la partie des noms des liens généré par ledit script selon le vrai nom du titre avec ses lettres accentuées et N'oubliez pas de supprimé toute apostrof dans le nom du lien cliquable dudit titre avant de le publier sur GitHub.
 
-Dans le cas de la langue française qui utilise le signe apostrophe \' vous devrez préfixer le signe barre oblique inversée, soit en mettant :
+Dans le cas de la langue française qui utilise le signe apostrophe (\') vous devrez préfixer le signe barre oblique inversée, soit en mettant :
 
 ```
 \'
@@ -260,7 +260,7 @@ Par exemple :
 d\'autres lecteurs
 ```
 
-Vous trouverez ci-dessous par exemple la manière de mettre ces syntaxes et d'éviter les apostrophes dans les noms des titres qui se présentent sous forme de lien :
+Vous trouverez ci-dessous par exemple la manière de mettre ces syntaxes et d\'éviter les apostrophes dans les noms des titres qui se présentent sous forme de lien cliquable :
 
 ```
 ## Sommaire
