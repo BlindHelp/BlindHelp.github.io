@@ -246,9 +246,9 @@ J'ai obtenu le même résultat que celui trouvé dans le fichier README.md en an
 Je pense que l'auteur a traduit le fichier README.md en français ensuite l'auteur l'a renommé en README-fr.md, c'est peut-être pour cela que ce problème d'encodage n'est pas reflété avec des séries de caractères exotiques qui ne s'affichent pas correctement une fois le fichier converti avec le script toc.py...
 ```
 
-Après cette mise en garde par mes soins, si votre document Markdown (fichier.md) est rédigé en anglais vous ne rencontrerez pas de problème lors de l\'exécution dudit outil (toc.py), sinon si vous utilisez la langue en français, espagnol, etc... vous devrez faire les corrections manuellement dans la partie des noms des liens généré par ledit script selon le vrai nom du titre avec ses lettres accentuées avant de le publier sur GitHub.
+Après cette mise en garde par mes soins, si votre document Markdown (fichier.md) est rédigé en anglais vous ne rencontrerez pas de problème lors de l\'exécution dudit outil (toc.py), sinon si vous utilisez la langue en français, espagnol, etc... vous devrez faire les corrections manuellement dans la partie des noms des liens généré par ledit script selon le vrai nom du titre avec ses lettres accentuées et N'oubliez pas de supprimé toute apostrof dans le nom du lien cliquable dudit titre avant de le publier sur GitHub.
 
-Dans le cas de la langue française qui utilise le signe apostrophe \' vous devrez préfixer le signe barre oblique inversée, soit :
+Dans le cas de la langue française qui utilise le signe apostrophe \' vous devrez préfixer le signe barre oblique inversée, soit en mettant :
 
 ```
 \'
@@ -260,9 +260,28 @@ Par exemple :
 d\'autres lecteurs
 ```
 
-pour qu\'il s'affiche correctement dans un post sur GitHub (y compris les noms des titres qui les contiennent sous-forme de lien qui sont générés par le script).
+Vous trouverez ci-dessous par exemple la manière de mettre ces syntaxes et d'éviter les apostrophes dans les noms des titres qui se présentent sous forme de lien :
 
-Voilà qui est dit !
+```
+## Sommaire
+
+* [Markdown-Table-of-Contents](#markdown-table-of-contents)
+    * [Sommaire](#sommaire)
+    * [Qu\'est-ce que c\'est ?](#quest-ce-que-cest-)
+    * [Comment ça marche ?](#comment-ça-marche-)
+    * [Comment l\'utiliser ?](#comment-lutiliser-)
+    * [Arguments pour la ligne de commande](#arguments-pour-la-ligne-de-commande)
+    * [Spécifications](#spécifications)
+    * [Fonctionnalités manquantes](#fonctionnalités-manquantes)
+    * [Licence](#licence)
+```
+
+pour qu\'il s'affiche correctement dans un post sur GitHub (y compris les noms des titres qui les contiennent sous-forme de lien cliquable qui sont générés par le script). 😄
+
+Voilà qui est dit !   
+Profitez   de l\'outil Python pour compiler des Tables des Matières avec liens hypertextes en Markdown par Adrian Bonnet 🇫🇷    
+@+    
+BlindHelp    
 
 ---
 
