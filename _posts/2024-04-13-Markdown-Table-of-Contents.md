@@ -36,9 +36,9 @@ Regarder sur GitHub:
 
 * [Markdown-Table-of-Contents](#markdown-table-of-contents)
     * [Sommaire](#sommaire)
-    * [Qu\'est-ce que c\'est ?](#qu-est-ce-que-c-est-)
+    * [Qu\'est-ce que c\'est ?](#qu-est-ce-que-cest-)
     * [Comment ça marche ?](#comment-ça-marche-)
-    * [Comment l\'utiliser ?](#comment-l-utiliser-)
+    * [Comment l\'utiliser ?](#comment-lutiliser-)
     * [Arguments pour la ligne de commande](#arguments-pour-la-ligne-de-commande)
     * [Spécifications](#spécifications)
     * [Fonctionnalités manquantes](#fonctionnalités-manquantes)
