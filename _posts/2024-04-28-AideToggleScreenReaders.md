@@ -1,5 +1,5 @@
 ---
-title: ToggleScreenReaders - basculer entre Jaws, NVDA et le Narrateur avec un seul raccourci clavier par Pierre-Louis R
+title: ToggleScreenReaders - basculer entre Jaws, NVDA et le Narrateur avec un seul raccourci-clavier par Pierre-Louis R@RPTools
 permalink: "/ToggleScreenReaders/"
 layout: post
 author: BlindHelp
