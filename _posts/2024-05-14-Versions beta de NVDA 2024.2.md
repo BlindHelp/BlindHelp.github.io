@@ -6,27 +6,29 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mardi 14 Mai 2024 - Dernière mise à jour le Lundi 20 Mai 2024</footer>
+<footer>Publié le Mardi 14 Mai 2024 - Dernière mise à jour le Lundi 27 Mai 2024</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 2 de NVDA 2024.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-2beta2/) le Lundi 20.05.2024.    
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette deuxième béta et à faire part de ses commentaires.    
+NV Access vient de publier la béta 3 de NVDA 2024.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-2beta3/) le Lundi 27.05.2024.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette troisième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
 Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière version stable.
 
+# Publication de la deuxième version béta NVDA 2024.2 du Lundi 20 Mai 2024, voir ce poste (en anglais) de NV Access [en cliquant ici](https://www.nvaccess.org/post/nvda-2024-2beta2/)
+
 # Publication de la première version béta NVDA 2024.2 du Mardi 14 Mai 2024, voir ce poste (en anglais) de NV Access [en cliquant ici](https://www.nvaccess.org/post/nvda-2024-2beta1/)
 
 ### Liens utiles de NV Access
 
-- [NVDA 2024.2 Béta 2 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/nvda_2024.2beta2.exe).
-  - SHA256: d0c54faf3910b389c04249b753cbfe90987b8703b3efddedaaa113732bd8fe43
-- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/documentation/fr/changes.html).
+- [NVDA 2024.2 Béta 3 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.2beta3/nvda_2024.2beta3.exe).
+  - SHA256: ad045686108984b4cc5d2cfb64e8c757494bb6448d97adfe725288c0a4419669
+- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.2beta3/documentation/fr/changes.html).
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues).
 
-Veuillez noter que NVDA 2024.2 béta 2 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2024.2 béta 3 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
