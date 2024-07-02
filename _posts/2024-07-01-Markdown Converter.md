@@ -1,5 +1,5 @@
 ---
-title: Markdown Converter - Extension pour NVDA
+title: Markdown Converter, une extension pour NVDA permettant de convertir du texte formaté au format Markdown au format HTML
 permalink: "/markdown-converter/"
 layout: post
 author: BlindHelp
