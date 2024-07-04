@@ -11,13 +11,12 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous présente une nouvelle extension NVDA appelée radioCenter    
-Cette extension vous permet d'écouter des stations de radio en ligne et d'enregistrer le flux audio dans un fichier    
-Aussi nous permet d'ajouter des stations de radio à la carte, c'est-à-dire, par exemple si  vous connaissez le flux d'écoute de la radio vous pouvez l'ajouter manuellement dans l'extension.    
+Cette extension vous permet d'écouter des stations de radio en ligne et d'enregistrer le flux audio dans un fichier.    
+Aussi nous permet d'ajouter des stations de radio à la carte, c'est-à-dire, par exemple si  vous connaissez le flux d'écoute de la radio vous pouvez l'ajouter individuellement dans l'extension, en faisant également référence à la recherche par Internet des pages qui nous fournissent de telles informations.    
 L'extension radioCenter par défaut ne contient pas de stations de radio ajoutés dans la liste des stations laquelle est vide.    
-De même, radioCenter nous permet d’ajouter des flux d'écoute des stations de radio individuellement, en faisant également référence à la recherche par Internet des pages qui nous fournissent de telles informations.    
 radioCenter est comme cet agenda que nous achetons ou ce journal que nous avons commencé et que nous devons remplir à notre guise.    
 C'est un bon moyen de gérer nos stations de radios facilement.    
-* Auteur: <span lang="uk">Ruslan Dolovaniuk</span>    
+* Auteur: Ruslan Dolovaniuk
 * Compatible NVDA: 2021.2 à 2024.1
 * Version actuelle: 2.1.0 (comprend la traduction en espagnol et en français fait par mes soins envoyé à l'auteur en privé).
 * Extension disponible sur [l'Add-on Store](https://nvdaes.github.io/nvdastore/) comme nom: radioCenter
@@ -126,7 +125,7 @@ Exécuter le script Alt+e
 Si ce geste de commande ne vous convient pas, vous pouvez  le changer dans le dialogue Gestes de commandes de NVDA sous la catégorie radioCenter et chercher: open radio window ou ouvrir la fenêtre Contrôle Radio Center    
 Je pense que l'on peut faire la même chose avec les autres gestes de commandes décrits dans la documentation…    
 
-Rappelez-vous que la combinaison de touches ne soit pas assignée à une autre fonction d'une autre extension ou ne se chevauchent pas avec l'une des applications que nous utilisons.     
+Rappelez-vous que la combinaison de touches ne soit pas assignée à une autre fonction d'une autre extension ou ne se chevauchent pas avec l'une des applications que nous utilisons.    
 
 Si vous avez l'extension de Paul ber qui s'appelle : Extension des commandes de base de NVDA installée, elle peut faire l'affaire.    
 
@@ -143,10 +142,10 @@ Et enfin, j'ai oublié de vous dire que pour enregistrer la station en cours de 
 Une fois cela fait, dans cette fenêtre, le bouton appelé : Record ou Enregistrer apparaîtra.    
 
 Dans le dossier nvda nous trouverons le fichier appelé :    
-radio_center.dat
+radio_center.dat    
 Celui-ci contient toutes nos modifications et radios ajoutées dans l'extension radioCenter.    
 
-Je pense avoir fait le tour de cette extension radioCenter!
+Je pense avoir fait le tour de cette extension radioCenter!    
 Voila, je vous  souhaite une bbonne utilisation de l'extension radioCenter! :)    
 Bien amicalement,    
 Rémy (BlindHelp).    
