@@ -57,6 +57,11 @@ Lors d'un tri manuel dans la liste des stations:
 * manuellement;
 
 ## Liste des changements:
+### Version 2.1.0
+* ajout d'une vérification et d'une correction si des erreurs sont trouvées dans l'indexation des stations ;
+* ajout de la localisation espagnole (Rémy Ruiz) ;
+* ajout de la localisation française (Rémy Ruiz);
+
 ### Version 2.0.0
 * ajout de la possibilité d'enregistrer un flux audio dans un fichier;
 
