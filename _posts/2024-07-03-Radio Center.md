@@ -13,6 +13,9 @@ Coucou mes amis du blog de BlindHelp!
 Aujourd'hui, je vous présente une nouvelle extension NVDA appelée radioCenter    
 Cette extension vous permet d'écouter des stations de radio en ligne et d'enregistrer le flux audio dans un fichier.    
 Aussi nous permet d'ajouter des stations de radio à la carte, c'est-à-dire, par exemple si  vous connaissez le flux d'écoute de la radio vous pouvez l'ajouter individuellement dans l'extension, en faisant également référence à la recherche par Internet des pages qui nous fournissent de telles informations.    
+Par exemple, voici un lien d'une page Web pour chercher des flux radio:    
+[Flux Radios: France](https://fluxradios.blogspot.com/p/flux-radios-francaise.html)    
+Consultez ce même lien pour rechercher plus de flux radios d'ici ou d'ailleurs. Il y a une flopée ! 😏    
 L'extension radioCenter par défaut ne contient pas de stations de radio ajoutés dans la liste des stations laquelle est vide.    
 radioCenter est comme cet agenda que nous achetons ou ce journal que nous avons commencé et que nous devons remplir à notre guise.    
 C'est un bon moyen de gérer nos stations de radios facilement.    
