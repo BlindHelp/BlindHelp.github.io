@@ -23,7 +23,7 @@ C'est un bon moyen de gérer nos stations de radios facilement.
 * Voir son repos sur [GitHub](https://github.com/DollaR84/radioCenter)
 
 , si vous souhaitez en savoir plus n'hésitez pas à lire la documentation trouvée ci-dessous désormais traduite en français ! Vous la trouverez également dans l'extension radioCenter dans le dossier doc, fr    
-Et en bonus après cette documentation vous trouverez comment ajouter des flux radio dans la section [Configuration rapide par BlindHelp](#configuration-rapide-par-blindhelp) pour vous faciliter la tâche.    
+Et en bonus après cette documentation vous trouverez comment ajouter des flux radio dans la section [Configuration rapide par BlindHelp](#configuration-rapide-par-blindhelp) et autres paramétrages à faire pour vous faciliter la tâche.    
 
 # radioCenter
 
@@ -93,47 +93,114 @@ Lors d'un tri manuel dans la liste des stations:
 ### Version 1.0.0
 * création d'une radio en ligne sur le lecteur VLC de base;
 
+---
+
 ### Configuration rapide par BlindHelp<a name=" configuration-rapide-par-blindhelp"></a>
 
-Une fois cette extension installée, vous devez ouvrir la fenêtre Radio Center Control ou Contrôle Radio Center en cliquant sur l'élément: open radio window ou ouvrir la fenêtre Contrôle Radio Center    
+Une fois cette extension installée vous devrez d'abord mettre le chemin du répertoire de sortie d'enregistrement dans dans les Préférences de NVDA, Paramètres… sous la catégorie RadioCenter, pour que le bouton d'enregistrement soit affiché lors de l'écoute d'un flux radio Quand on ouvre la fenêtre Contrôle Radio Center  en cliquant sur l'élément:    
+ouvrir la fenêtre Contrôle Radio Center    
+En utilisant le geste de commande:    
 NVDA+alt+r (clavier, toutes les dispositions)    
-Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie radioCenter et chercher: open radio window ou ouvrir la fenêtre Contrôle Radio Center    
+Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie RadioCenter et chercher:    
+ouvrir la fenêtre Contrôle Radio Center    
 Faire une fois Tab, puis cliquez sur le bouton:    
 Exécuter le script Alt+e    
-Une fois la fenêtre ouverte Radio Center Control ou Contrôle Radio Center    
-Dans le champ station name ou nom de la station:" on met le nom de la station, par exemple:    
+
+Vous devrez ensuite mettre les flux d'écoute radio dans l'extension radioCenter pour que cette extension puisse les lire.    
+Pour cela, vous devez ouvrir la fenêtre Contrôle Radio Center  en cliquant sur l'élément:    
+ouvrir la fenêtre Contrôle Radio Center    
+Faire une fois Tab, puis cliquez sur le bouton:    
+Exécuter le script Alt+e    
+ 
+Une fois la fenêtre Contrôle Radio Center ouverte:    
+1. Dans le champ nom de la station: on met le nom de la station, par exemple:    
 Radio Paradise    
-Vérifiez que le nom de la station est correctement orthographié.    
-Dans le champ station url ou url de la station:" On met le lien d'écoute directe, par exemple pour la radio que l'on ajoute celui-ci est:    
+Vérifiez que le nom de la station que vous avez écrit est correct.    
+2. Dans le champ url de la station: on met le lien d'écoute directe, par exemple pour la radio Radio Paradise    le lien serait le suivant:    
 http://stream-tx4.radioparadise.com/aac-320    
 Vérifiez que le lien que vous avez écrit est correct.    
-Faire Entrée…    
+3. Faire Entrée.     
 Vous serez averti par un message si la radio est fonctionnelle ou non.    
-Si la station a été ajouté avec succès, dans la liste nous avons notre nouvelle station ajoutée par ordre alphabétique.    
+Le lien vers le flux audio de la station radio a été vérifié avec succès    
+ou:    
+Le lien vers le flux audio de la station radio ne fonctionne pas    
+
+Si la station a été ajouté avec succès, dans la liste nous avons notre nouvelle station ajoutée par ordre alphabétique ou non.    
 Sachant que l'extension est livrée sans aucun flux d'écoute, une fois notre lien d'écoute ajouté, celui-ci sera affiché de cette façon:    
 Radio Paradise: http://stream-tx4.radioparadise.com/aac-320    
 
-Toujours dans la fenêtre Radio Center Control ou Contrôle Radio Center    
-Une fois notre curseur sur le nom et le lien de notre station dans la liste des stations, nous pouvons cliquer sur le bouton: Play ou Lire pour lire celle-ci.    
-Lorsque la station est en cours de lecture, en faisant Tab, vous trouverez le bouton: Pause pour la mettre en pause et il faut appuyer sur le bouton: Play ou Lire pour commencer la lecture depuis ladite station ou une autre selon l'endroit où se trouve le curseur dans la liste des stations.    
-Puis en faisant une fois de plus Tab, vous trouverez le bouton: Stop ou Arrêter pour arrêter la station en cours de lecture.    
-En faisant une fois de plus Tab, si la station est en cours de lecture vous trouverez le bouton: Mute ou Couper le son pour couper le son et pour rétablir le son, appuyez sur le bouton: Unmute ou Rétablir le son    
-Si nous tabulons, Vous trouverez le bouton : Remove ou Supprimer pour supprimer la station de la liste des stations (ceci est irréversible) ( Attention : pour ce faire, vous devez avoir la station arrêtée, c'est-à-dire pas en cours de lecture.    
-Puis en faisant une fois de plus Tab, vous trouverez le bouton: Close ou Fermer pour fermer la fenêtre Radio Center Control ou Contrôle Radio Center    
+Toujours dans la fenêtre Contrôle Radio Center Une fois notre curseur sur le nom et le lien de notre station dans la liste des stations, nous aurons les boutons:    
+Lire pour lire la station de radio.    
+Lorsque la station est en cours de lecture, en faisant Tab, vous trouverez le bouton:    
+Pause pour mettre en pause celle-ci.    
+Il faudra appuyer sur le bouton:    
+Lire pour continuer la lecture depuis ladite station ou une autre selon l'endroit où se trouve le curseur dans la liste des stations.    
+Puis en faisant une fois de plus Tab, vous trouverez le bouton:    
+Arrêter pour arrêter la station en cours de lecture.    
+En faisant une fois de plus Tab, si la station est en cours de lecture vous trouverez le bouton:    
+Couper le son    
+Une fois cliqué sur lui  ce bouton deviendra:    
+Rétablir le son    
+Si nous tabulons, Vous trouverez le bouton:    
+Supprimer pour supprimer la station de la liste des stations (ceci est irréversible) ( Attention : pour ce faire, vous devez avoir la station arrêtée, c'est-à-dire pas en cours de lecture.    
+Nous aurons également les boutons:    
+Ajouter pour ajouter un flux d'une station de radio.    
+Modifier pour modifier celle-ci.    
+Enregistrer pour enregistrer la station en cours de lecture, sans oublier que vous devez d'abord définir le chemin dans les Préférences de NVDA, Paramètres… sous la catégorie RadioCenter    
+Catégories : liste Alt+ c    
+RadioCenter    
+Faire Tab:    
+RadioCenter page de propriété    
+Trier par: liste déroulante rien réduit    
+Chemin d'accès au dossier d'enregistrement groupe    
+Par exemple:    
+édition sélectionné `C:\Users\NomUtilisateur\Documents`    
+Parcourir... bouton    
+Ok bouton    
+Annuler bouton    
 
-Remarque : S'il y a une station en cours de lecture et la fenêtre Radio Center Control ou Contrôle Radio Center est fermée, la station de radio continuera à être diffusée en arrière-plan. Vous devez ouvrir la fenêtre Radio Center Control ou Contrôle Radio Center en cliquant sur l'élément: open radio window ou ouvrir la fenêtre Contrôle Radio Center en utilisant le geste de commande:    
+Une fois cela fait, dans la fenêtre Contrôle Radio Center, le bouton appelé : Enregistrer apparaîtra en écoutant un flux radio.    
+
+Quand on clique sur le bouton:    
+Enregistrer    
+Ce bouton deviendra:    
+Arrêter l'enregistrement    
+
+Quand on clique sur le bouton:    
+Arrêter l'enregistrement    
+Ce bouton deviendra:    
+Enregistrer    
+
+Ensuite une boîte de dialogue s'ouvre comme nnom:    
+Sélectionner le fichier à enregistrer dialogue    
+Nom du fichier : liste déroulante    
+édition ALT+ N sélectionné 00000001.aac    
+Type : liste déroulante Fichiers audio (*.mp3;*.aac    
+Enregistrer bouton Alt+ e    
+
+Voilà que notre fichier audio est enregistré dans le chemin que nous avons défini dans les Préférences de NVDA, Paramètres… sous la catégorie RadioCenter    
+
+Nous avons aussi le bouton Fermer pour fermer la fenêtre Contrôle Radio Center    
+
+Remarque : S'il y a une station en cours de lecture et la fenêtre Contrôle Radio Center est fermée, la station de radio continuera à être diffusée en arrière-plan. Vous devez ouvrir la fenêtre Contrôle Radio Center en cliquant sur l'élément:    
+ouvrir la fenêtre Contrôle Radio Center    
+en utilisant le geste de commande:    
 NVDA+alt+r (clavier, toutes les dispositions)    
-Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie radioCenter et chercher: open radio window ou ouvrir la fenêtre Contrôle Radio Center    
+Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie RadioCenter et chercher:    
+ouvrir la fenêtre Contrôle Radio Center    
 Faire une fois Tab, puis cliquez sur le bouton:    
 Exécuter le script Alt+e    
 
-Si ce geste de commande ne vous convient pas, vous pouvez  le changer dans le dialogue Gestes de commandes de NVDA sous la catégorie radioCenter et chercher: open radio window ou ouvrir la fenêtre Contrôle Radio Center    
-Je pense que l'on peut faire la même chose avec les autres gestes de commandes décrits dans la documentation…    
+Si ce geste de commande ne vous convient pas, vous pouvez  le changer dans le dialogue Gestes de commandes de NVDA sous la catégorie RadioCenter et chercher:    
+ouvrir la fenêtre Contrôle Radio Center    
+Je pense que l'on peut faire la même chose avec les autres gestes de commandes décrits dans la documentation.    
 
 Rappelez-vous que la combinaison de touches ne soit pas assignée à une autre fonction d'une autre extension ou ne se chevauchent pas avec l'une des applications que nous utilisons.    
 
 Si vous avez l'extension de Paul ber qui s'appelle : Extension des commandes de base de NVDA installée, elle peut faire l'affaire.    
-
+* Version actuelle: [13.3](https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon)
+* Compatible NVDA: 2022.1 à 2024.1    
+* Voir son repos sur [GitHub](https://github.com/paulber19/NVDAExtensionGlobalPlugin)
 Si cette extension n'est pas installée, vous pouvez également utiliser l'extension de <span lang="es">Javi Dominguez</span> appelée commandHelper (Assistant de commandes) Cette extension fait également son job.    
 * Compatible NVDA: 2023.1 à 2024.1    
 * Voici une brève description: Fournit une autre méthode d'exécution de scripts pour les personnes qui ont des difficultés à appuyer sur des combinaisons de touches compliquées.    
@@ -142,16 +209,37 @@ Si cette extension n'est pas installée, vous pouvez également utiliser l'exten
 
 Malheureusement c'est le cas de cette extension appelée: radioCenter que ses gestes sont compliqués à faire mais avec ces deux extensions citées ci-dessus on peut utiliser l'extension sans problème.    
 
-Et enfin, j'ai oublié de vous dire que pour enregistrer la station en cours de lecture, vous devez d'abord définir le chemin du répertoire de sortie d'enregistrement dans les Paramètres de NVDA, sous la catégorie RadioCenter, pour que le contrôle d'enregistrement soit affiché dans la fenêtre Radio Center Control ou Contrôle Radio Center    
-
-Une fois cela fait, dans cette fenêtre, le bouton appelé : Record ou Enregistrer apparaîtra.    
-
 Dans le dossier nvda nous trouverons le fichier appelé :    
 radio_center.dat    
 Celui-ci contient toutes nos modifications et radios ajoutées dans l'extension radioCenter.    
 
-Je pense avoir fait le tour de cette extension radioCenter!    
-Voila, je vous  souhaite une bbonne utilisation de l'extension radioCenter! :)    
+Et finalement il me manque de vous dire que dans le dialogue Contrôle Radio Center nous aurons deux listes déroulantes  comme suit:    
+
+La première liste déroulante  pour définir le type de priorité pour déplacer la station vers une position comme suit:    
+Priorité: liste déroulante milieu réduit    
+(valeur par défaut)    
+Utilisez les touches fléchées pour choisir entre:     
+haut    
+milieu    
+bas    
+
+La deuxième liste déroulante  pour trier les stations comme suit:    
+Trier par: liste déroulante rien réduit    
+(valeur par défaut)    
+Utilisez les touches fléchées pour choisir entre:     
+rien 
+nom croissant (de A à Z)    
+nom décroissant (de Z à A)    
+priorité croissante (de A à Z)    
+priorité décroissante (de Z à A)    
+manuel    
+
+Cette dernière consiste à trier manuellement la liste des stations.    
+
+---
+
+Je pense avoir fait le tour de cette extension radioCenter !    
+Voila, je vous  souhaite une bbonne utilisation de l'extension radioCenter ! :)    
 Bien amicalement,    
 Rémy (BlindHelp).    
 
