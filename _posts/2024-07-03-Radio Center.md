@@ -204,6 +204,7 @@ Si vous avez l'extension de Paul ber qui s'appelle : Extension des commandes de 
 * Version actuelle: [13.3](https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon)
 * Compatible NVDA: 2022.1 à 2024.1    
 * Voir son repos sur [GitHub](https://github.com/paulber19/NVDAExtensionGlobalPlugin)
+
 Si cette extension n'est pas installée, vous pouvez également utiliser l'extension de <span lang="es">Javi Dominguez</span> appelée commandHelper (Assistant de commandes) Cette extension fait également son job.    
 * Compatible NVDA: 2023.1 à 2024.1    
 * Voici une brève description: Fournit une autre méthode d'exécution de scripts pour les personnes qui ont des difficultés à appuyer sur des combinaisons de touches compliquées.    
