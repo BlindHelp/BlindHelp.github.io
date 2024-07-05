@@ -48,7 +48,7 @@ Même avec 1000ms, votre application pourra démarrer après plusieurs secondes.
 Si vous écrivez :    
 * Un chemin invalide : StartLater émettra un bip chaque seconde jusqu'à atteindre le délai indiqué dans la variable DelayMS. Vous saurez alors que Windows a terminé le chargement des applications invisibles ;
 * Le chemin valide d'une application : StartLater lancera l'application après les bips ;
-*  le chemin d'un fichier audio :  StartLater jouera le fichier audio dans votre lecteur audio par défaut ;
+* le chemin d'un fichier audio :  StartLater jouera le fichier audio dans votre lecteur audio par défaut ;
 
 ### Télécharger StartLater
 [Par ici ](https://www.rptools.org/?p=8790)
