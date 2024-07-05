@@ -227,7 +227,7 @@ La deuxième liste déroulante  pour trier les stations comme suit:
 Trier par: liste déroulante rien réduit    
 (valeur par défaut)    
 Utilisez les touches fléchées pour choisir entre:     
-rien 
+rien    
 nom croissant (de A à Z)    
 nom décroissant (de Z à A)    
 priorité croissante (de A à Z)    
