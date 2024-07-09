@@ -6,16 +6,18 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Lundi Ier Juillet 2024</footer>
+<footer>Publié le Lundi Ier Juillet 2024 - Dernière mise à jour le 8 Juillet 2024</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 1 de NVDA 2024.3 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-3beta1/) le Lundi 01.07.2024.    
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette première béta et à faire part de ses commentaires.    
+NV Access vient de publier la béta 2 de NVDA 2024.3 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-3beta2/) le Lundi 08.07.2024.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette deuxième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
 Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière version stable.
+
+NV Access vient de publier la  béta 1 de NVDA 2024.3 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-3beta1/) le Lundi 01.07.2024.    
 
 ### Points forts
 
@@ -35,14 +37,22 @@ eSpeak a été mis à jour, ajoutant la prise en charge de la langue Karakalpako
 
 Le référentiel Unicode CLDR a également été mis à jour.
 
+### Changements de la béta 2:
+
+* Correction de la lecture des messages dans Courrier Windows.
+* La table braille de l'alphabet phonétique international est ajoutée.
+* Correction d'un bug dans la sortie audio sur les périphériques mono.
+* Correctifs de normalisation Unicode.
+* Traductions mises à jour.
+
 ### Liens utiles de NV Access
 
-- [NVDA 2024.3 Béta 1 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.3beta1/nvda_2024.3beta1.exe).
-  - SHA256: e6f5994bd82bec13f8dd2d27eb31498645ca55e2888da0ff88631933a48b2dd3
-- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.3beta1/documentation/fr/changes.html).
+- [NVDA 2024.3 Béta 2 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.3beta2/nvda_2024.3beta2.exe).
+  - SHA256: 6fb3e9412506843665c18eee67c10497ad70b879af8a745dae1cf718b78167a2
+- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.3beta2/documentation/fr/changes.html).
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues).
 
-Veuillez noter que NVDA 2024.3 béta 1 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2024.3 béta 2 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
