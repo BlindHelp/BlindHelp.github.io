@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Jeudi 4 Juillet 2024</footer>
+<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Mercredi 17 Juillet 2024</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -19,82 +19,114 @@ Consultez ce même lien pour rechercher plus de flux radios d'ici ou d'ailleurs.
 L'extension radioCenter par défaut ne contient pas de stations de radio ajoutés dans la liste des stations laquelle est vide.    
 radioCenter est comme cet agenda que nous achetons ou ce journal que nous avons commencé et que nous devons remplir à notre guise.    
 C'est un bon moyen de gérer nos stations de radios facilement.    
-* Auteur: Ruslan Dolovaniuk
+Il faut cependant noter que depuis la version 3.0.x nous avons la possibilité de charger des stations radio et de les mettre dans cette liste générale initialement vide, Ci-dessous, j'explique tout ce que vous devez savoir et bien plus encore ! 😁    
+* Auteur: Ruslan Dolovaniuk 🇺🇦
 * Compatible NVDA: 2021.2 à 2024.1
-* Version actuelle: 2.1.0 (comprend la traduction en espagnol et en français fait par mes soins envoyé à l'auteur en privé).
+* Version actuelle: 3.0.3 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
 * Extension disponible sur [l'Add-on Store](https://nvdaes.github.io/nvdastore/) comme nom: radioCenter
 * Voir son repos sur [GitHub](https://github.com/DollaR84/radioCenter)
 
+Lorsque cette extension est mise à jour, elle ne doit pas être en cours d'exécution, c'est-à-dire qu'aucune radio ne doit être en cours de lecture/enregistrement.    
+
 , si vous souhaitez en savoir plus n'hésitez pas à lire la documentation trouvée ci-dessous désormais traduite en français ! Vous la trouverez également dans l'extension radioCenter dans le dossier doc, fr    
-Et en bonus après cette documentation vous trouverez comment ajouter des flux radio dans la section [Configuration rapide par BlindHelp](#configuration-rapide-par-blindhelp) et autres paramétrages à faire pour vous faciliter la tâche.    
+Et en bonus après cette documentation vous trouverez comment ajouter des flux radio dans la section [Configuration rapide par BlindHelp](#configuration-rapide-par-blindhelp) et autres paramétrages à faire pour vous faciliter la tâche, inclus comment mettre à jour les collections de radio et beaucoup plus.    
 
 # radioCenter
 
 * Auteur: Ruslan Dolovaniuk (Ukraine)
 * PayPal: ruslan.dolovaniuk84@gmail.com
+* Numéro de carte bancaire: 5375 4199 0919 2831
 
 cette extension vous permet d'écouter des stations de radio en ligne et d'enregistrer le flux audio dans un fichier.
 L'enregistrement d'une station de radio n'interfère pas avec l'écoute d'une autre station de radio.
 
+Avertissements!
+Vérifier les stations de radio à partir des collections est un processus assez long et gourmand en ressources.
+Il est recommandé de l'exécuter par parties, en fermant périodiquement la fenêtre, et de le réexécuter plus tard.
+Après avoir rouvert la fenêtre des collections, les tests se poursuivront jusqu'à ce que toutes les stations de radio aient été vérifiées.
+De plus, l'état de santé des liens change souvent, il est donc recommandé de vérifier l'état du lien sur le moment avant de l'ajouter à la liste générale.
+
 
 ## Liste des raccourcis clavier:
-* NVDA+ALT+P: lire/mettre en pause la radio;
-* NVDA+ALT+M: activer/désactiver le mode sourdine;
-* NVDA+ALT+Flèche Haut: augmenter le volume;
-* NVDA+ALT+Flèche Bas: réduire le volume;
-* NVDA+ALT+Flèche Droit: station suivante;
-* NVDA+ALT+Flèche Gauche: station précédente;
-* NVDA+ALT+O: obtenir des informations sur la station;
-* NVDA+ALT+R: ouvrir la fenêtre Contrôle Radio Center;
+* NVDA+ALT+P: lire/mettre en pause la radio ;
+* NVDA+ALT+P double clic: désactiver la radio ;
+* NVDA+ALT+M: activer/désactiver le mode sourdine ;
+* NVDA+ALT+Flèche Haut: augmenter le volume ;
+* NVDA+ALT+Flèche Bas: réduire le volume ;
+* NVDA+ALT+Flèche Droit: station suivante ;
+* NVDA+ALT+Flèche Gauche: station précédente ;
+* NVDA+ALT+O: obtenir des informations sur la station ;
+* NVDA+ALT+R: ouvrir la fenêtre Contrôle Radio Center ;
+* ÉCHAP: fermer les fenêtres Contrôle Radio Center et Collections de Radio ;
+* CTRL+C: copier le lien de la station de radio dans le presse-papiers ;
 
 Lors d'un tri manuel dans la liste des stations:
-* ALT+Flèche Haut: déplacer la station vers une position plus haute;
-* ALT+Flèche Bas: déplacer la station vers une position plus basse;
+* ALT+Flèche Haut: déplacer la station vers une position plus haute ;
+* ALT+Flèche Bas: déplacer la station vers une position plus basse ;
+
+Dans les listes de collections:
+* ALT+Flèche Haut ou ALT+Flèche Droit: basculer vers le suivant lien (si la radio dispose de plusieurs liens vers le flux audio) ;
+* ALT+Flèche Bas ou ALT+Flèche Gauche: basculer vers le précédent lien (si la radio dispose de plusieurs liens vers le flux audio) ;
+* CTRL+C: copier le lien de la station dans le presse-papiers ;
 
 ## Tri des stations:
-* sans trier;
-* par nom croissant (de A à Z);
-* par nom décroissant (de Z à A);
-* par priorité et par nom croissant (de A à Z);
-* par priorité et nom décroissant (de Z à A);
-* manuellement;
+* sans trier ;
+* par nom croissant (de A à Z) ;
+* par nom décroissant (de Z à A) ;
+* par priorité et par nom croissant (de A à Z) ;
+* par priorité et nom décroissant (de Z à A) ;
+* manuellement ;
 
 ## Liste des changements:
+### Version 3.0.0
+* créé un mécanisme de collection pour sélectionner les stations de radio à partir des catalogues ;
+* ajouté 3 collections avec des stations de radio ;
+* créé un mécanisme pour vérifier automatiquement la fonctionnalité de chaque station de radio dans les collections ;
+* ajout d'une vérification manuelle de la fonctionnalité de la station de radio ;
+* ajout de la lecture de la radio directement dans la liste des collections ;
+* ajout de la sauvegarde des stations de radio à partir de la collection vers la liste générale ;
+* ajout d'un filtrage dans les collections par statut ;
+* ajout du filtrage dans les collections par texte dans le titre ;
+* ajout du filtrage dans les collections par texte dans les informations supplémentaires ;
+* ajout de la fermeture des dialogues en appuyant sur ÉCHAP ;
+* ajout de la copie du lien de la station de radio dans le presse-papiers dans la liste principale et dans les listes de collection ;
+* basculement  des stations améliorées à l'aide de touches de raccourci, car auparavant, elles ne basculent pas toujours ;
+
 ### Version 2.1.0
 * ajout d'une vérification et d'une correction si des erreurs sont trouvées dans l'indexation des stations ;
-* ajout de la localisation espagnole (Rémy Ruiz) ;
-* ajout de la localisation française (Rémy Ruiz);
+* ajout de la localisation espagnole (Rémy Ruiz) ;
+* ajout de la localisation française (Rémy Ruiz) ;
 
 ### Version 2.0.0
-* ajout de la possibilité d'enregistrer un flux audio dans un fichier;
+* ajout de la possibilité d'enregistrer un flux audio dans un fichier ;
 
 ### Version 1.5.3
-* ajout de la localisation tchèque (Jiri Holz);
+* ajout de la localisation tchèque (Jiri Holz) ;
 
 ### Version 1.5.1
-* ajout d'une vérification de la fonctionnalité du lien avant d'ajouter une nouvelle station de radio;
-* ajout d'une vérification de la fonctionnalité du lien avant de modifier le lien de la station de radio;
-* correction d'un certain nombre d'erreurs mineures de fonctionnement;
+* ajout d'une vérification de la fonctionnalité du lien avant d'ajouter une nouvelle station de radio ;
+* ajout d'une vérification de la fonctionnalité du lien avant de modifier le lien de la station de radio ;
+* correction d'un certain nombre d'erreurs mineures de fonctionnement ;
 
 ### Version 1.4.2
-* ajout du tri manuel des stations;
-* ajout d'une combinaison de touches pour le mode muet;
+* ajout du tri manuel des stations ;
+* ajout d'une combinaison de touches pour le mode muet ;
 
 ### Version 1.2.5
-* paramètres ajoutés au panneau de paramètres NVDA;
-* ajout de la possibilité de modifier une station de radio existante;
-* ajout de plusieurs options pour trier les stations de radio;
-* changé la fonction de sourdine;
-* correction du problème d'ouverture de plusieurs fenêtres de contrôle;
+* paramètres ajoutés au panneau de paramètres NVDA ;
+* ajout de la possibilité de modifier une station de radio existante ;
+* ajout de plusieurs options pour trier les stations de radio ;
+* changé la fonction de sourdine ;
+* correction du problème d'ouverture de plusieurs fenêtres de contrôle; 
 
 ### Version 1.1.1
-* ajout de la localisation turque (Umut Korkmaz);
+* ajout de la localisation turque (Umut Korkmaz) ;
 
 ### Version 1.1.0
-* ajout du GUI au Control Radio Center;
+* ajout du GUI au Control Radio Center ;
 
 ### Version 1.0.0
-* création d'une radio en ligne sur le lecteur VLC de base;
+* création d'une radio en ligne sur le lecteur VLC de base ;
 
 ---
 
@@ -129,8 +161,10 @@ ou:
 Le lien vers le flux audio de la station radio ne fonctionne pas    
 
 Si la station a été ajouté avec succès, dans la liste nous avons notre nouvelle station ajoutée par ordre alphabétique ou non.    
-Sachant que l'extension est livrée sans aucun flux d'écoute, une fois notre lien d'écoute ajouté, celui-ci sera affiché de cette façon:    
+Sachant que l'extension est livrée sans aucun flux d'écoute dans cette liste générale, une fois notre lien d'écoute ajouté, celui-ci sera affiché de cette façon:    
 Radio Paradise: http://stream-tx4.radioparadise.com/aac-320    
+
+Il faut cependant noter que depuis la version 3.0.x nous avons la possibilité de charger des stations radio et de les mettre dans cette liste générale initialement vide, j'expliquerai cette partie ci-dessous.    
 
 Toujours dans la fenêtre Contrôle Radio Center Une fois notre curseur sur le nom et le lien de notre station dans la liste des stations, nous aurons les boutons:    
 Lire pour lire la station de radio.    
@@ -139,7 +173,8 @@ Pause pour mettre en pause celle-ci.
 Il faudra appuyer sur le bouton:    
 Lire pour continuer la lecture depuis ladite station ou une autre selon l'endroit où se trouve le curseur dans la liste des stations.    
 Puis en faisant une fois de plus Tab, vous trouverez le bouton:    
-Arrêter pour arrêter la station en cours de lecture.    
+Arrêter pour arrêter ou plutôt dit désactiver la station en cours de lecture.    
+
 En faisant une fois de plus Tab, si la station est en cours de lecture vous trouverez le bouton:    
 Couper le son    
 Une fois cliqué sur lui  ce bouton deviendra:    
@@ -217,7 +252,7 @@ Dans le dossier nvda nous trouverons le fichier appelé :
 radio_center.dat    
 Celui-ci contient toutes nos modifications et radios ajoutées dans l'extension radioCenter.    
 
-Et finalement il me manque de vous dire que dans le dialogue Contrôle Radio Center nous aurons deux listes déroulantes  comme suit:    
+J'ai aussi oublié de vous dire que dans le dialogue Contrôle Radio Center nous aurons deux listes déroulantes  comme suit:    
 
 La première liste déroulante  pour définir le type de priorité pour déplacer la station vers une position comme suit:    
 Priorité: liste déroulante milieu réduit    
@@ -240,9 +275,224 @@ manuel
 
 Cette dernière consiste à trier manuellement la liste des stations.    
 
+Comme je l'ai dit presque au début du post, radioCenter et globalement une excellente extension, presque subliminal, maintenant elle nous donne la possibilité de charger des radios, en utilisant trois services depuis la version 3.0.x...    
+Lorsqu'on clique sur Contrôle Radio Center    
+Nous allons maintenant trouver un nouvel élément appelé :    
+Collections bouton    
+Si nous cliquons sur ce bouton, une fenêtre s'ouvrira comme nom :    
+Collections de Radio    
+Ensuite, nous retrouverons trois onglets :    
+
+* Radio Browser
+* Internet Radio Streams
+* Mp3 Radio Stations
+
+Appuyez sur "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les éléments de l'onglet respectif.
+
+Liste des stations : groupe    
+liste    
+Celle-ci est vide par défaut.    
+Mise à jour bouton    
+Fermer bouton    
+Filtrer par type de statut : liste déroulante tous réduit    
+(Celui-ci est le choix par défaut)    
+Utilisez les touches fléchées pour trouver les autres types de statut :    
+non vérifié    
+Cela signifie que le flux radio n'est pas vérifié.    
+ne fonctionne pas    
+Cela signifie que le flux radio ne fonctionne pas.    
+fonctionne    
+Cela signifie que le flux radio fonctionne.    
+
+Remarque : ce filtrage par type de statut sera modifié de la même manière selon votre choix pour les trois onglets respectifs.    
+tous    
+non vérifié    
+ne fonctionne pas    
+fonctionne    
+
+On retrouvera également deux champs d'édition :    
+Filtrer par nom : édition ligne 1 vide    
+Je pense qu'on peut taper le nom d'une station par exemple.    
+
+Filtrer par informations : édition ligne 1 vide    
+Je pense qu'on peut taper les information que nous souhaitons par exemple le nom du pays.    
+
+Une fois ces étapes franchies appuyez sur :    
+Mise à jour bouton    
+
+La liste sera chargée avec toutes les stations selon l'onglet choisi.    
+Vous pouvez maintenant rechercher la station dans la liste, vous pouvez par exemple taper sa lettre initiale.    
+j pour jazz par exemple.    
+Jazz; Statut: fonctionne; Informations: France; FR; 192; MP3; URL: https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3    
+Une fois que vous placez le curseur sur la station souhaitée, si nous tabulons, nous trouverons les boutons :    
+Test bouton    
+Il est préférable de cliquer sur ce bouton pour tester la station pour savoir avant tout si elle est fonctionnelle.    
+Lire bouton    
+Cliquez sur ce bouton pour commencer à écouter cette station.    
+Une fois que vous placez le curseur sur la station souhaitée, vous pouvez copier son lien dans le presse-papiers si vous souhaitez le partager avec vos amis, par exemple en appuyant sur Ctrl+c, en obtenant le message suivant :    
+Lien copié dans le presse-papiers    
+Ce bouton une fois la lecture démarrée deviendra:    
+Arrêter bouton    
+Une fois que nous aurons cliqué sur ce bouton, nous aurons le message suivant :    
+la radio est désactivé    
+Cliquez sur le bouton :    
+Fermer    
+Pour fermer la fenêtre appelée :    
+Collections de Radio    
+Maintenant, nous allons nous retrouver dans la fenêtre :    
+Contrôle Radio Center    
+Cherchez et cliquez sur le bouton :    
+Fermer    
+Pour fermer ladite fenêtre.    
+
+Ne le faites que si vous n'avez pas besoin de mettre à jour les flux des radios depuis la fenêtre appelée Collections de Radio à l'aide du bouton :    
+    Collections    
+
+Note :    
+Il est possible que lors d'une mise à jour des stations de radio la liste des radios soit vide dans un des trois onglets ou peut-être tous.    
+Même si j'ai cliqué sur :    
+Mise à jour bouton    
+Je reçois bien le message :    
+Mise à jour des données de collection  maintenant    
+
+Il faut insister en cliquant sur ledit bouton, et vous obtiendrez le message suivant :    
+Données de collection mises à jour avec succès    
+
+Note : dans l'onglet: Radio Browser    
+Le bouton Lire ou Arrêter parfois Il est étiqueté comme : bouton focalisé    
+
+Dans l'onglet: Internet Radio Streams    
+Nous retrouverons quelques radios de la BBC par exemple.    
+
+Dans l'onglet: Radio Browser    
+Nous retrouverons une radio de la BBC par exemple.    
+
+Le contenu des radios qui apparaissent dans chaque liste selon l'onglet choisi peut changer.    
+
+Quand on est placé dans la liste des radio d'un des trois onglets :    
+
+* Radio Browser
+* Internet Radio Streams
+* Mp3 Radio Stations
+
+On retrouvera le bouton :    
+Ajouter station    
+Une fois cliqué dessus, nous aurons le message suivant :    
+La station a été ajoutée à la liste générale    
+
+Cette liste générale se trouve dans la fenêtre :    
+Contrôle Radio Center    
+
+Si vous vous souvenez bien, cette liste est vide par défaut et vous pouvez ajouter une station manuellement en plaçant son flux d'écoute dans cette liste qu'on appelle liste générale.    
+
+Il faut cependant noter que depuis la version 3.0.x nous avons la possibilité de charger des stations radio et de les mettre dans cette liste générale initialement vide comme expliqué ci-dessus.    
+
+La station ajoutée sera enregistré dans le fichier : radio_center.dat    
+
+Aussi, après avoir effectué tous les ajouts, je vous conseille de sauvegarder ce fichier au cas où.    
+
+Vous pouvez aussi utiliser la touche ÉCHAP pour fermer les fenêtres Contrôle Radio Center et Collections de Radio.    
+
+Également dans le dialogue Gestes de commandes de NVDA, il existe une section Radio Center, où vous pouvez modifier les combinaisons de touches pour les actions de base.    
+
+Quelques conseils donnés par l'auteur de l'extension    
+
+A propos de la mise à jour dans les onglets à partir de  Collections de Radio.    
+
+Le bouton Mise à jour met à jour les données uniquement pour l'onglet actuellement ouvert.    
+
+Ainsi, il faut le lancer 3 fois, pour chaque onglet ouvert séparément.    
+
+Mais vous n'êtes pas obligé de le faire en même temps, un à la fois.    
+
+Après chaque mise à jour, une vérification de la fonctionnalité de tous les liens démarrera automatiquement.    
+
+Il s'agit d'un processus assez gourmand en ressources, je vous conseille donc de mettre à jour l'onglet suivant après avoir vérifié toutes les stations de radio de l'onglet précédent.    
+
+Je vous conseille également de lire les stations après avoir effectué la vérification.    
+
+Le nombre de stations de radio déjà vérifiées peut être vu grâce au statut de la station dans la liste.    
+
+S'il y a des stations avec le statut : "non vérifié",    
+
+Cela signifie que la station n'a pas encore été vérifiée jusqu'à ce que son statut passe à : « fonctionne » ou « ne fonctionne pas ».    
+
+Aussi, pour éviter les blocages, je vous conseille d'effectuer la vérification par parties, en fermant parfois la fenêtre de Collections de Radio et en la redémarrant après un certain temps, ou mieux encore, après avoir redémarré nvda.    
+
+Une fois terminé, le résultat de la vérification sera enregistré dans le fichier : radio_collections.dat.    
+
+Aussi, après avoir effectué toutes les vérifications, je vous conseille de sauvegarder ce fichier au cas où.    
+
+Je vais aussi réfléchir à la façon de réduire la charge lors des vérifications pour que NVDA ne plante pas, mais jusqu'à présent, cela ressemble à un défaut de python : avec un grand nombre de processus, la mémoire occupée par les processus de vérification déjà terminés n'est pas complètement libéré.    
+
+A propos de : "certains éléments qui apparaissent dans la documentation et ne sont pas dans l'interface radioCenter"    
+
+Certaines combinaisons sont ajoutées par wxpython lui-même sans la fonctionnalité NVDA, il n'y a donc aucun moyen de les ajouter aux gestes de commandes NVDA.    
+
+Par exemple :    
+
+* NVDA+ALT+P double clic: désactiver la radio ;
+* CTRL+C: copier le lien de la station de radio dans le presse-papiers ;
+
+Etc, Etc, Etc...    
+
+Les gestes de commandes NVDA qui apparaissent à l'ouverture de la catégorie Radio Center dans le dialogue Gestes de commandes, pour le moment il y en a huit, donc les voici :    
+
+Radio Center développé  (le numéro de l'extension installée est affiché puis le nombre d'extensions que vous avez installées est affiché par exemple, 26 sur 32 niveau 0    
+niveau 1 augmenter le volume réduit 1 sur 8    
+Une fois développé  voici son geste de commande par défaut :    
+NVDA+alt+flèche haut (clavier, toutes les dispositions)    
+
+couper/rétablir le son réduit 2 sur 8 niveau 1    
+Une fois développé  voici son geste de commande par défaut :    
+NVDA+alt+m (clavier, toutes les dispositions)    
+
+lire/mettre en pause la radio réduit 3 sur 8 niveau 1    
+Une fois développé  voici son geste de commande par défaut :    
+NVDA+alt+p (clavier, toutes les dispositions)    
+
+obtenir des informations sur la station réduit 4 sur 8 niveau 1    
+Une fois développé  voici son geste de commande par défaut :    
+NVDA+alt+o (clavier, toutes les dispositions)    
+
+ouvrir la fenêtre Contrôle Radio Center réduit 5 sur 8 niveau 1    
+Une fois développé  voici son geste de commande par défaut :    
+NVDA+alt+r (clavier, toutes les dispositions)    
+
+réduire le volume réduit 6 sur 8 niveau 1    
+Une fois développé  voici son geste de commande par défaut :     
+NVDA+alt+flèche bas (clavier, toutes les dispositions)    
+
+station précédente réduit 7 sur 8 niveau 1    
+Une fois développé  voici son geste de commande par défaut :    
+NVDA+alt+flèche gauche (clavier, toutes les dispositions)    
+
+station suivante réduit 8 sur 8 niveau 1    
+Une fois développé  voici son geste de commande par défaut :    
+NVDA+alt+flèche droite (clavier, toutes les dispositions)    
+
+Voici donc les combinaisons qui sont ajoutées par wxpython lui-même sans la fonctionnalité NVDA, il n'y a donc aucun moyen de les ajouter aux gestes de commandes NVDA :    
+
+* NVDA+ALT+P double clic: désactiver la radio ;
+* CTRL+C: copier le lien de la station de radio dans le presse-papiers ;
+
+Lors d'un tri manuel dans la liste des stations:
+
+* ALT+Flèche Haut: déplacer la station vers une position plus haute;
+* ALT+Flèche Bas: déplacer la station vers une position plus basse;
+
+Dans les listes de collections:
+
+* ALT+Flèche Haut ou ALT+Flèche Droit: basculer vers le suivant lien (si la radio dispose de plusieurs liens vers le flux audio) ;
+* ALT+Flèche Bas ou ALT+Flèche Gauche: basculer vers le précédent lien (si la radio dispose de plusieurs liens vers le flux audio) ;
+* CTRL+C: copier le lien de la station dans le presse-papiers ;
+
+Et enfin, n'oubliez pas d'utiliser la touche ÉCHAP pour fermer les fenêtres Contrôle Radio Center et Collections de Radio.    
+
 ---
 
 Je pense avoir fait le tour de cette extension radioCenter !    
+En espérant que cela vous aide, et maintenant c'est à votre tour de profiter davantage de cette extension radioCenter pour NVDA en écoutant une multitude de stations de radio ! 😏    
 Voila, je vous  souhaite une bbonne utilisation de l'extension radioCenter ! :)    
 Bien amicalement,    
 Rémy (BlindHelp).    
