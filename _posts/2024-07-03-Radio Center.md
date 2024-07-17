@@ -276,7 +276,7 @@ manuel
 Cette dernière consiste à trier manuellement la liste des stations.    
 
 Comme je l'ai dit presque au début du post, radioCenter et globalement une excellente extension, presque subliminal, maintenant elle nous donne la possibilité de charger des radios, en utilisant trois services depuis la version 3.0.x...    
-Lorsqu'on clique sur Contrôle Radio Center    
+Lorsqu'on clique sur ouvrir la fenêtre Contrôle Radio Center    
 Nous allons maintenant trouver un nouvel élément appelé :    
 Collections bouton    
 Si nous cliquons sur ce bouton, une fenêtre s'ouvrira comme nom :    
@@ -419,7 +419,7 @@ Cela signifie que la station n'a pas encore été vérifiée jusqu'à ce que son
 
 Aussi, pour éviter les blocages, je vous conseille d'effectuer la vérification par parties, en fermant parfois la fenêtre de Collections de Radio et en la redémarrant après un certain temps, ou mieux encore, après avoir redémarré nvda.    
 
-Une fois terminé, le résultat de la vérification sera enregistré dans le fichier : radio_collections.dat.    
+Une fois terminé, le résultat de la vérification sera enregistré dans le fichier : radio_collections.dat    
 
 Aussi, après avoir effectué toutes les vérifications, je vous conseille de sauvegarder ce fichier au cas où.    
 
@@ -495,7 +495,7 @@ Je pense avoir fait le tour de cette extension radioCenter !
 En espérant que cela vous aide, et maintenant c'est à votre tour de profiter davantage de cette extension radioCenter pour NVDA en écoutant une multitude de stations de radio ! 😏    
 Voila, je vous  souhaite une bbonne utilisation de l'extension radioCenter ! :)    
 Bien amicalement,    
-Rémy (BlindHelp).    
+Rémy (BlindHelp). 🇫🇷    
 
 ---
 
