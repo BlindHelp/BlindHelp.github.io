@@ -371,7 +371,7 @@ Il faut insister en cliquant sur ledit bouton, et vous obtiendrez le message sui
 Données de collection mises à jour avec succès    
 
 Maintenant, ce bug a été corrigé dans la version 3.6.0    
-Maintenant, sans aucun problème, vous pouvez cliquer sur l'élément appelé :
+Maintenant, sans aucun problème, vous pouvez cliquer sur l'élément appelé :    
 Mise à jour bouton    
 Une fois l'extension mise à jour, vous devrez cliquer sur ledit bouton dans chaque onglet pour avoir la liste des stations mises à jour.    
 
