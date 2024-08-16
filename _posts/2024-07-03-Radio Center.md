@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Mercredi 17 Juillet 2024</footer>
+<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Samedi 10 Août 2024</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -21,8 +21,8 @@ radioCenter est comme cet agenda que nous achetons ou ce journal que nous avons 
 C'est un bon moyen de gérer nos stations de radios facilement.    
 Il faut cependant noter que depuis la version 3.0.x nous avons la possibilité de charger des stations radio et de les mettre dans cette liste générale initialement vide, Ci-dessous, j'explique tout ce que vous devez savoir et bien plus encore ! 😁    
 * Auteur: Ruslan Dolovaniuk 🇺🇦
-* Compatible NVDA: 2021.2 à 2024.1
-* Version actuelle: 3.0.3 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
+* Compatible NVDA: 2023.2 à 2024.2
+* Version actuelle: 3.6.0 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
 * Extension disponible sur [l'Add-on Store](https://nvdaes.github.io/nvdastore/) comme nom: radioCenter
 * Voir son repos sur [GitHub](https://github.com/DollaR84/radioCenter)
 
@@ -35,7 +35,6 @@ Et en bonus après cette documentation vous trouverez comment ajouter des flux r
 
 * Auteur: Ruslan Dolovaniuk (Ukraine)
 * PayPal: ruslan.dolovaniuk84@gmail.com
-* Numéro de carte bancaire: 5375 4199 0919 2831
 
 cette extension vous permet d'écouter des stations de radio en ligne et d'enregistrer le flux audio dans un fichier.
 L'enregistrement d'une station de radio n'interfère pas avec l'écoute d'une autre station de radio.
@@ -78,6 +77,19 @@ Dans les listes de collections:
 * manuellement ;
 
 ## Liste des changements:
+### Version 3.6.0
+* apporté des modifications pour la compatibilité avec nvda 2023 (les collections sont désactivées pour la version 2023) ;
+* ajout de la prise en charge des liens m3u ;
+* ajout d'ignorer la casse lors du filtrage par nom et/ou information ;
+* ajout de la suppression des espaces au début et à la fin des noms des stations de radio lors de l'analyse dans les collections ;
+* ajout de la prononciation de l'état de la station lors de la vérification manuelle à l'aide du bouton de test dans les collections ;
+* correction d'une erreur flottante lors de la mise à jour des collections ;
+
+### Version 3.2.0
+* ajout de la prise en charge des liens .pls ;
+* ajout d'un nom à partir des informations du flux audio lors de la sauvegarde du fichier enregistré ;
+* ajout de la gestion des erreurs lorsque l'enregistrement ne peut pas être démarré ;
+
 ### Version 3.0.0
 * créé un mécanisme de collection pour sélectionner les stations de radio à partir des catalogues ;
 * ajouté 3 collections avec des stations de radio ;
@@ -132,11 +144,11 @@ Dans les listes de collections:
 
 ### Configuration rapide par BlindHelp<a name=" configuration-rapide-par-blindhelp"></a>
 
-Une fois cette extension installée vous devrez d'abord mettre le chemin du répertoire de sortie d'enregistrement dans dans les Préférences de NVDA, Paramètres… sous la catégorie RadioCenter, pour que le bouton d'enregistrement soit affiché lors de l'écoute d'un flux radio Quand on ouvre la fenêtre Contrôle Radio Center  en cliquant sur l'élément:    
+Une fois cette extension installée vous devrez d'abord mettre le chemin du répertoire de sortie d'enregistrement dans dans les Préférences de NVDA, Paramètres… sous la catégorie Radio Center, pour que le bouton d'enregistrement soit affiché lors de l'écoute d'un flux radio Quand on ouvre la fenêtre Contrôle Radio Center  en cliquant sur l'élément:    
 ouvrir la fenêtre Contrôle Radio Center    
 En utilisant le geste de commande:    
 NVDA+alt+r (clavier, toutes les dispositions)    
-Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie RadioCenter et chercher:    
+Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie Radio Center et chercher:    
 ouvrir la fenêtre Contrôle Radio Center    
 Faire une fois Tab, puis cliquez sur le bouton:    
 Exécuter le script Alt+e    
@@ -184,11 +196,11 @@ Supprimer pour supprimer la station de la liste des stations (ceci est irrévers
 Nous aurons également les boutons:    
 Ajouter pour ajouter un flux d'une station de radio.    
 Modifier pour modifier celle-ci.    
-Enregistrer pour enregistrer la station en cours de lecture, sans oublier que vous devez d'abord définir le chemin dans les Préférences de NVDA, Paramètres… sous la catégorie RadioCenter    
+Enregistrer pour enregistrer la station en cours de lecture, sans oublier que vous devez d'abord définir le chemin dans les Préférences de NVDA, Paramètres… sous la catégorie Radio Center    
 Catégories : liste Alt+ c    
-RadioCenter    
+Radio Center    
 Faire Tab:    
-RadioCenter page de propriété    
+Radio Center page de propriété    
 Trier par: liste déroulante rien réduit    
 Chemin d'accès au dossier d'enregistrement groupe    
 Par exemple:    
@@ -216,7 +228,7 @@ Nom du fichier : liste déroulante
 Type : liste déroulante Fichiers audio (*.mp3;*.aac    
 Enregistrer bouton Alt+ e    
 
-Voilà que notre fichier audio est enregistré dans le chemin que nous avons défini dans les Préférences de NVDA, Paramètres… sous la catégorie RadioCenter    
+Voilà que notre fichier audio est enregistré dans le chemin que nous avons défini dans les Préférences de NVDA, Paramètres… sous la catégorie Radio Center    
 
 Nous avons aussi le bouton Fermer pour fermer la fenêtre Contrôle Radio Center    
 
@@ -224,12 +236,12 @@ Remarque : S'il y a une station en cours de lecture et la fenêtre Contrôle Ra
 ouvrir la fenêtre Contrôle Radio Center    
 en utilisant le geste de commande:    
 NVDA+alt+r (clavier, toutes les dispositions)    
-Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie RadioCenter et chercher:    
+Aller dans le menu NVDA puis dans Préférences puis Gestes de commandes sous la catégorie Radio Center et chercher:    
 ouvrir la fenêtre Contrôle Radio Center    
 Faire une fois Tab, puis cliquez sur le bouton:    
 Exécuter le script Alt+e    
 
-Si ce geste de commande ne vous convient pas, vous pouvez  le changer dans le dialogue Gestes de commandes de NVDA sous la catégorie RadioCenter et chercher:    
+Si ce geste de commande ne vous convient pas, vous pouvez  le changer dans le dialogue Gestes de commandes de NVDA sous la catégorie Radio Center et chercher:    
 ouvrir la fenêtre Contrôle Radio Center    
 Je pense que l'on peut faire la même chose avec les autres gestes de commandes décrits dans la documentation.    
 
@@ -348,14 +360,22 @@ Pour fermer ladite fenêtre.
 Ne le faites que si vous n'avez pas besoin de mettre à jour les flux des radios depuis la fenêtre appelée Collections de Radio à l'aide du bouton :    
     Collections    
 
-Note :    
-Il est possible que lors d'une mise à jour des stations de radio la liste des radios soit vide dans un des trois onglets ou peut-être tous.    
+Note : Dans les versions précédentes de cette extension, il y avait un bug lorsque nous voulions mettre à jour le contenu de chaque onglet. Laissez-moi mieux vous expliquer :    
+C'est-à-dire qu'il était possible que lors d'une mise à jour des stations de radio la liste des radios soit vide dans un des trois onglets ou peut-être tous.    
 Même si j'ai cliqué sur :    
 Mise à jour bouton    
 Je reçois bien le message :    
 Mise à jour des données de collection  maintenant    
 
 Il faut insister en cliquant sur ledit bouton, et vous obtiendrez le message suivant :    
+Données de collection mises à jour avec succès    
+
+Maintenant, ce bug a été corrigé dans la version 3.6.0    
+Maintenant, sans aucun problème, vous pouvez cliquer sur l'élément appelé :
+Mise à jour bouton    
+Une fois l'extension mise à jour, vous devrez cliquer sur ledit bouton dans chaque onglet pour avoir la liste des stations mises à jour.    
+
+Vous recevrez le message suivant pour chaque onglet une fois la mise à jour terminée :    
 Données de collection mises à jour avec succès    
 
 Note : dans l'onglet: Radio Browser    
