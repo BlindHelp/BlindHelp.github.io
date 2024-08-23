@@ -26,6 +26,9 @@ Il faut cependant noter que depuis la version 3.0.x nous avons la possibilité d
 * Extension disponible sur [l'Add-on Store](https://nvdaes.github.io/nvdastore/) comme nom: radioCenter
 * Voir son repos sur [GitHub](https://github.com/DollaR84/radioCenter)
 
+Avertissement: 💀    
+Le blog de BlindHelp n’est pas responsable des dommages causés par une mauvaise utilisation de l’extension téléchargé ni des informations ce trouvant sur la documentation dédié et l’utilisation de l’extension téléchargé est à vos risques et périls. ☠    
+
 Lorsque cette extension est mise à jour, elle ne doit pas être en cours d'exécution, c'est-à-dire qu'aucune radio ne doit être en cours de lecture/enregistrement.    
 
 , si vous souhaitez en savoir plus n'hésitez pas à lire la documentation trouvée ci-dessous désormais traduite en français ! Vous la trouverez également dans l'extension radioCenter dans le dossier doc, fr    
@@ -496,7 +499,72 @@ Cherchez et cliquez sur le bouton :
 Fermer    
 Pour fermer ladite fenêtre.    
 
-Voilà, maintenant tu sais comment ajouter un répertoire local avec des fichiers m3u contenant les flux des stations de radio.😏     
+## Certains flux d'écoute ne fonctionnent pas dans le répertoire local avec des fichiers m3u contenant les flux des stations de radio... Puis-je les réparer ? par BlindHelp
+
+Avertissement: 💀    
+
+Il est probable que certaines stations de radio (fichier avec l'extension .m3u) trouvées dans l'archive  zip que vous venez juste de téléchargé ne soient pas à jour et lors du test, elles vous donneront un message d'erreur. :(    
+
+En cliquant sur :    
+`Test bouton`    
+Nous aurons le message suivant :    
+`la vérification des liens a commencé`    
+Eh bien, à la fin, nous aurons le message suivant :    
+`Le lien vers le flux audio de la station radio ne fonctionne pas`    
+
+Vous pouvez le résoudre de la manière suivante, soit en recherchant le bon flux d'écoute de la station de radio comme indiqué au début du post puis l'éditer manuellement dans chacun des fichiers m3u qui provoquent une erreur lors du test d'écoute.    
+
+Ces fichiers m3u On les retrouve dans chaque dossier placé à l'intérieur du répertoire local"Web Radios Francophones"   
+Exemple :    
+`C:\Web Radios Francophones\radio France\france info.m3u`    
+
+Dans notre exemple le flux d'écoute du fichier : france info.m3u ne fonctionne pas avec l'extension radioCenter mais cela fonctionne dans un autre lecteur. 😕    
+
+La deuxième solution serait de le rechercher dans un des trois onglets :    
+
+* Radio Browser
+* Internet Radio Streams
+* Mp3 Radio Stations
+
+Dans notre exemple où le flux d'écoute pour la radio France info ne fonctionne pas, nous l'avons trouvé en cherchant dans la liste des stations dans l'onglet :    
+`Radio Browser`    
+
+Une fois que vous placez le curseur sur la station souhaitée, si nous tabulons, nous trouverons les boutons :    
+Test bouton    
+Il est préférable de cliquer sur ce bouton pour tester la station pour savoir avant tout si elle est fonctionnelle.    
+Lire bouton    
+Cliquez sur ce bouton pour commencer à écouter cette station.    
+Une fois que vous placez le curseur sur la station souhaitée, vous pouvez copier son lien dans le presse-papiers en appuyant sur Ctrl+c, en obtenant le message suivant :    
+Lien copié dans le presse-papiers    
+
+Ensuite, nous avons édité manuellement le fichier france info.m3u contenant le bon flux d'écoute.    
+`https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.m3u8?id=radiofrance`    
+
+Vous pouvez supprimer les autres flux qui sont obsolètes dans ledit fichier m3u et coller le bon flux d'écoute de ladite station de radio en vous assurant qu'ils fonctionnent sur un autre lecteur avant de les supprimer définitivement mais bien sûr, les laissez ça ne mange pas de pain.    
+
+Il est probable que le flux d'écoute fonctionne dans d'autres lecteurs et non dans l'extension radioCenter, vous pouvez ajouter le lien fonctionnel à la fin des autres en suivant la même syntaxe.    
+Une fois que vous avez corrigé tous les liens obsolètes pour chaque fichier m3u, il vous suffit de le mettre à jour à nouveau comme indiqué ci-dessus en cherchant le quatrième onglet appelé :    
+`File System`    
+
+Dans la liste des stations mises à jour, il apparaîtra comme :    
+`france info; Statut: non vérifié; URL: https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.m3u8?id=radiofrance`    
+En cliquant maintenant sur :    
+`Test bouton`    
+Nous aurons le message suivant :    
+`la vérification des liens a commencé`    
+Eh bien, à la fin, nous aurons le message suivant :    
+`Le lien vers le flux audio de la station radio a été vérifié avec succès`    
+Il est préférable de cliquer sur ce bouton pour tester la station pour savoir avant tout si elle est fonctionnelle.    
+
+N'oubliez pas qu'il est toujours bon de sauvegarder de temps en temps les fichiers appelés :    
+`radio_center.dat`    
+`radio_collections.dat`    
+que l'on trouve dans la racine du dossier: `nvda`    
+
+Voilà, maintenant vous savez comment ajouter un répertoire local avec des fichiers m3u contenant les flux des stations de radio.😏     
+Et en même temps pouvoir les corriger avec les bons flux d'écoute!    
+
+Dans tous les cas, il faut être très prudent avant de faire cette manipulation ! 😔    
 
 ### Quelques conseils donnés par l'auteur de l'extension radioCenter
 
@@ -591,6 +659,8 @@ Dans les listes de collections:
 * CTRL+C: copier le lien de la station dans le presse-papiers ;
 
 Et enfin, n'oubliez pas d'utiliser la touche ÉCHAP pour fermer les fenêtres Contrôle Radio Center et Collections de Radio.    
+
+À partir de la version 4.0.0, nous pouvons désormais accéder aux commandes de l'extension radioCenter depuis le menu NVDA, Outils sous-menu puis Radio Center, C'est idéal pour les amis qui ont des problèmes avec les gestes de commandes ! 🛟    
 
 ---
 
