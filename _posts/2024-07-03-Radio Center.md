@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Samedi 10 Août 2024</footer>
+<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Lundi 19 Août 2024</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -22,7 +22,7 @@ C'est un bon moyen de gérer nos stations de radios facilement.
 Il faut cependant noter que depuis la version 3.0.x nous avons la possibilité de charger des stations radio et de les mettre dans cette liste générale initialement vide, Ci-dessous, j'explique tout ce que vous devez savoir et bien plus encore ! 😁    
 * Auteur: Ruslan Dolovaniuk 🇺🇦
 * Compatible NVDA: 2023.2 à 2024.2
-* Version actuelle: 3.6.0 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
+* Version actuelle: 4.0.1 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
 * Extension disponible sur [l'Add-on Store](https://nvdaes.github.io/nvdastore/) comme nom: radioCenter
 * Voir son repos sur [GitHub](https://github.com/DollaR84/radioCenter)
 
@@ -38,6 +38,10 @@ Et en bonus après cette documentation vous trouverez comment ajouter des flux r
 
 cette extension vous permet d'écouter des stations de radio en ligne et d'enregistrer le flux audio dans un fichier.
 L'enregistrement d'une station de radio n'interfère pas avec l'écoute d'une autre station de radio.
+
+Dans les collections, en plus des annuaires Internet, il est également possible d'ajouter un répertoire local avec des fichiers m3u.
+Pour obtenir une collection locale, vous devez spécifier le chemin de base du répertoire dans les paramètres.
+Tous les fichiers m3u de ce répertoire et tous ses sous-répertoires seront automatiquement analysés.
 
 Avertissements!
 Vérifier les stations de radio à partir des collections est un processus assez long et gourmand en ressources.
@@ -77,6 +81,14 @@ Dans les listes de collections:
 * manuellement ;
 
 ## Liste des changements:
+### Version 4.0.0
+* pour NVDA 2023, les collections sont compatibles, à l'exception d'un navigateur radio ;
+* créé une collection de vérification des fichiers m3u sur le stockage local ;
+* ajout d'un menu de contrôle au menu NVDA ;
+* filtres déplacés vers une boîte de dialogue séparée ;
+* ajout de la lecture sonore lors de la vérification manuelle d'une station dans les collections ;
+* correction d'une erreur de vérification de la station flottante après l'application de filtres ;
+
 ### Version 3.6.0
 * apporté des modifications pour la compatibilité avec nvda 2023 (les collections sont désactivées pour la version 2023) ;
 * ajout de la prise en charge des liens m3u ;
@@ -287,6 +299,8 @@ manuel
 
 Cette dernière consiste à trier manuellement la liste des stations.    
 
+### Charger des stations radio et de les mettre dans cette liste générale initialement vide depuis la version 3.0.x par BlindHelp
+
 Comme je l'ai dit presque au début du post, radioCenter et globalement une excellente extension, presque subliminal, maintenant elle nous donne la possibilité de charger des radios, en utilisant trois services depuis la version 3.0.x...    
 Lorsqu'on clique sur ouvrir la fenêtre Contrôle Radio Center    
 Nous allons maintenant trouver un nouvel élément appelé :    
@@ -415,7 +429,76 @@ Vous pouvez aussi utiliser la touche ÉCHAP pour fermer les fenêtres Contrôle 
 
 Également dans le dialogue Gestes de commandes de NVDA, il existe une section Radio Center, où vous pouvez modifier les combinaisons de touches pour les actions de base.    
 
-Quelques conseils donnés par l'auteur de l'extension    
+### Ajouter un répertoire local avec des fichiers m3u contenant les flux des stations de radio depuis la version 4.0.0 par BlindHelp
+
+À partir de la nouvelle version 4.0.0 dans les collections, en plus des annuaires Internet, il est également possible d'ajouter un répertoire local avec des fichiers m3u contenant les flux des stations de radio.    
+Pour obtenir une collection locale, vous devez spécifier le chemin de base du répertoire dans les paramètres de NVDA dans la catégorie Radio Center.    
+
+Par exemple, dans ma configuration de la nouvelle extension radioCenter cela ressemble à ceci :    
+`Radio Center page de propriété`    
+`Trier par: liste déroulante rien réduit`    
+`Chemin d'accès au dossier d'enregistrement groupe`    
+Par exemple:    
+édition sélectionné `C:\Users\NomUtilisateur\Documents`    
+`Parcourir... bouton`    
+`Chemin d'accès au répertoire de base de la collection du système de fichiers groupe`    
+Par exemple:    
+édition `C:\Web Radios Francophones`    
+`Parcourir... bouton`    
+`Ok bouton`    
+`Annuler bouton`    
+
+Sans oublier que vous devez sauvegarder les nouveaux paramètres NVDA, donc pour ce faire:    
+Allez au Menu NVDA (nvda+n)    
+Et faites Entrée sur l'élément appelé :    
+`Sauvegarder la configuration s`
+
+Dans notre cas une fois configuré le chemin du répertoire locale avec des fichiers m3u contenant les flux des stations de radio nous trouverons un nouvel onglet appelé :    
+`File System`    
+
+## Comment ajouter un répertoire local avec des fichiers m3u contenant les flux des stations de radio pas à pas par BlindHelp
+
+1. Vous devez d'abord télécharger et décompresser l'archive zip appelé :    
+[Web-Radios-Francophones.zip](https://blindhelp.github.io/Web-Radios-Francophones.zip)    
+2. Une fois que vous avez décompressé l'archive zip vous trouverez un répertoire appelé :    
+`Web Radios Francophones`
+3. Vous pouvez mettre ce répertoire par exemple dans le chemin :    
+`C:\Web Radios Francophones`    
+4. Configurez le chemin comme indiqué ci-dessus dans les paramètres NVDA pour ledit répertoire.    
+5. Cliquez sur le bouton `Collections`    
+Si nous cliquons sur ce bouton, une fenêtre s'ouvrira comme nom :    
+`Collections de Radio`    
+6. Recherchez le quatrième onglet appelé :    
+`File System`    
+7. Une fois ces étapes franchies appuyez sur :    
+`Mise à jour bouton`    
+8. Vous recevrez le message suivant pour l'onglet `File System` une fois la mise à jour terminée :    
+`Données de collection mises à jour avec succès`    
+9. La liste sera chargée avec toutes les stations trouvés dans le répertoire locale avec des fichiers m3u contenant les flux des stations de radio.    
+10. Une fois que vous placez le curseur sur la station souhaitée, si nous tabulons, nous trouverons les boutons :    
+Test bouton    
+Il est préférable de cliquer sur ce bouton pour tester la station pour savoir avant tout si elle est fonctionnelle.    
+Lire bouton    
+Cliquez sur ce bouton pour commencer à écouter cette station.    
+Une fois que vous placez le curseur sur la station souhaitée, vous pouvez copier son lien dans le presse-papiers si vous souhaitez le partager avec vos amis, par exemple en appuyant sur Ctrl+c, en obtenant le message suivant :    
+Lien copié dans le presse-papiers    
+Ce bouton une fois la lecture démarrée deviendra:    
+Arrêter bouton    
+Une fois que nous aurons cliqué sur ce bouton, nous aurons le message suivant :    
+la radio est désactivé    
+Cliquez sur le bouton :    
+Fermer    
+Pour fermer la fenêtre appelée :    
+Collections de Radio    
+Maintenant, nous allons nous retrouver dans la fenêtre :    
+Contrôle Radio Center    
+Cherchez et cliquez sur le bouton :    
+Fermer    
+Pour fermer ladite fenêtre.    
+
+Voilà, maintenant tu sais comment ajouter un répertoire local avec des fichiers m3u contenant les flux des stations de radio.😏     
+
+### Quelques conseils donnés par l'auteur de l'extension radioCenter
 
 A propos de la mise à jour dans les onglets à partir de  Collections de Radio.    
 
