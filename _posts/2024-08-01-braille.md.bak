@@ -674,7 +674,7 @@ Pour construire ces symboles, on utilise les points situés à droite de la cell
 * Lettre modificative accent circonflexe et petit tilde avec chasse : sont basés sur des combinaisons du braille six points auxquelles on ajoute le point 7 ou le point 8.
 * macron avec chasse : il est tout naturellement dérivé du caractère m.
 
-# Tableau
+
 |    Numéro de code    |    Caractère imprimé    |    Description    |    Table TBFR2007    |
 |   ------    |     ------    |    ------    |     ------    |
 | 94 | `^` | accent circonflexe | 4 |
