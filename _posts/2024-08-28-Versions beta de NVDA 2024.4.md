@@ -6,16 +6,18 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mercredi 28 Août 2024</footer>
+<footer>Publié le Mercredi 28 Août 2024 - Dernière mise à jour le Mardi 3 Septembre 2024</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 1 de NVDA 2024.4 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-4beta1/) le Mercredi 28.08.2024.    
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette première béta et à faire part de ses commentaires.    
+NV Access vient de publier la béta 2 de NVDA 2024.4 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-4beta2/) le Mardi 03.09.2024.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette deuxième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
 Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière version stable.
+
+NV Access vient de publier la  béta 1 de NVDA 2024.4 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-4beta1/) le Mercredi 28.08.2024.    
 
 ### Points forts
 
@@ -27,14 +29,21 @@ Vous pouvez maintenant configurer la façon dont NVDA affiche le formatage du te
 
 eSpeak NG a été mis à jour, ajoutant la prise en charge des langues féroïen et xextan. Il y a également eu un certain nombre de correctifs, notamment concernant le suivi de la souris dans Firefox, et le mode de parole "à la demande".
 
+### Changements de la béta 2:
+
+* La stabilité du support NVDA pour Poedit a été améliorée, mais il y a un effet secondaire : la version minimale requise de Poedit est désormais la 3.5.
+* NVDA n'est plus aussi lent lors du défilement avec les flèches haut et bas dans des fichiers volumineux dans VSCode.
+* NVDA ne plante plus lors de la vérification des mises à jour des extensions.
+* Traductions mises à jour.
+
 ### Liens utiles de NV Access
 
-- [NVDA 2024.4 Béta 1 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.4beta1/nvda_2024.4beta1.exe).
-  - SHA256: 5a5952bc14ca1586db7a74a0b8d29726dea325babd128e9490978970a942de93
-- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.4beta1/documentation/fr/changes.html).
+- [NVDA 2024.4 Béta 2 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.4beta2/nvda_2024.4beta2.exe).
+  - SHA256: fec011fd210e56d1f0c40f9b202d5e7cd516721a6282b981ae829ec4c49897d9
+- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.4beta2/documentation/fr/changes.html).
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues).
 
-Veuillez noter que NVDA 2024.4 béta 1 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2024.4 béta 2 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
