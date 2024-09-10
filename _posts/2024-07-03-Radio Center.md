@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Lundi 19 Août 2024</footer>
+<footer> Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Lundi 9 Septembre 2024</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -22,7 +22,7 @@ C'est un bon moyen de gérer nos stations de radios facilement.
 Il faut cependant noter que depuis la version 3.0.x nous avons la possibilité de charger des stations radio et de les mettre dans cette liste générale initialement vide, Ci-dessous, j'explique tout ce que vous devez savoir et bien plus encore ! 😁    
 * Auteur: Ruslan Dolovaniuk 🇺🇦
 * Compatible NVDA: 2023.2 à 2024.2
-* Version actuelle: 4.0.1 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
+* Version actuelle: 4.2.1 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
 * Extension disponible sur [l'Add-on Store](https://nvdaes.github.io/nvdastore/) comme nom: radioCenter
 * Voir son repos sur [GitHub](https://github.com/DollaR84/radioCenter)
 
@@ -84,6 +84,12 @@ Dans les listes de collections:
 * manuellement ;
 
 ## Liste des changements:
+###Version 4.2.1
+* ajout de l'extraction du nom de la station, le cas échéant, lors du traitement du fichier m3u ;
+* Ajout d'une option aux paramètres permettant d'afficher ou non un lien vers la station ;
+* une option a été ajoutée aux paramètres pour le nombre de stations par portion à vérifier ;
+* correction de quelques erreurs lors de la vérification automatique des stations ;
+
 ### Version 4.0.0
 * pour NVDA 2023, les collections sont compatibles, à l'exception d'un navigateur radio ;
 * créé une collection de vérification des fichiers m3u sur le stockage local ;
