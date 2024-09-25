@@ -90,7 +90,7 @@ Ce moteur utilise une clé de déchiffrement extraite des fichiers système pour
 
 Actuellement, Microsoft n'autorise pas les programmes tiers à utiliser Narrator Voice et Edge Voice. Par conséquent, ce moteur peut cesser de fonctionner à tout moment après une mise à jour du système.
 
-##Installation
+## Installation
 
 1. Téléchargez le fichier zip depuis la section [Releases][6].
 2. Extrayez les fichiers dans un dossier. Assurez-vous de ne pas déplacer ou renommer les fichiers après l'installation.
