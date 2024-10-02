@@ -6,12 +6,12 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mercredi 28 Août 2024 - Dernière mise à jour le Mardi 17 Septembre 2024</footer>
+<footer>Publié le Mercredi 28 Août 2024 - Dernière mise à jour le Mercredi 2 Octobre 2024</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 4 de NVDA 2024.4 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-4beta4/) le Mardi 17.09.2024.    
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette quatrième béta et à faire part de ses commentaires.    
+NV Access vient de publier la béta 5 de NVDA 2024.4 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-4beta5/) le Mercredi 02.10.2024.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette cinquième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
@@ -28,6 +28,11 @@ Un nouveau paramètre a été ajouté pour configurer le délai d'attente pour e
 Vous pouvez maintenant configurer la façon dont NVDA affiche le formatage du texte en braille et configurer NVDA pour qu'il affiche le début des paragraphes en braille. NVDA peut désormais lire le caractère sous le curseur  lors de l'exécution d'une action de routage du curseur braille. La fiabilité du routage du curseur a été améliorée et la prise en charge des touches de routage dans PowerPoint a été ajoutée. Toutes les lignes de cellules seront désormais utilisées lors de l'utilisation d'un afficheur braille multiligne via le braille HID. NVDA n'est plus instable après le redémarrage de NVDA lors d'une détection automatique  du braille Bluetooth.
 
 eSpeak NG a été mis à jour, ajoutant la prise en charge des langues féroïen et xextan. Il y a également eu un certain nombre de correctifs, notamment concernant le suivi de la souris dans Firefox, et le mode de parole "à la demande".
+
+### Changements de la béta 5 de NVDA 2024.4 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-4beta5/) le Mercredi 02.10.2024.    
+
+* Correction d'un problème où les délais d'attente pour effectuez plusieurs gestes de commande personnalisés n'étaient pas respectés lors de l'appui répété sur la touche NVDA.
+* Traductions mises à jour.
 
 ### Changements de la béta 4 de NVDA 2024.4 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2024-4beta4/) le Mardi 17.09.2024.    
 
@@ -49,12 +54,12 @@ eSpeak NG a été mis à jour, ajoutant la prise en charge des langues féroïen
 
 ### Liens utiles de NV Access
 
-- [NVDA 2024.4 Béta 4 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.4beta4/nvda_2024.4beta4.exe).
-  - SHA256: 7968a514020d27ce7c7cc842ce7c6bb36625cf21fc122a2204fb8a26057af489
-- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.4beta4/documentation/fr/changes.html).
+- [NVDA 2024.4 Béta 5 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://www.nvaccess.org/files/nvda/releases/2024.4beta5/nvda_2024.4beta5.exe).
+  - SHA256: e3b862a2137a45ef1ca0e7b71edaca2697c725f4f9f50ef36e5043f326c76b57
+- [Quoi de Neuf](https://www.nvaccess.org/files/nvda/releases/2024.4beta5/documentation/fr/changes.html).
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues).
 
-Veuillez noter que NVDA 2024.4 béta 4 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2024.4 béta 5 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
