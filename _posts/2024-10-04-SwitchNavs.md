@@ -24,7 +24,8 @@ Les changement de cette version sont les suivants :
 
 [Visiter la page d'aide et de téléchargement](https://www.rptools.org/access/?p=switchnavs)
 
-Cordialement,Bonne utilisation,    
+Cordialement,    
+Bonne utilisation,    
 Pierre-Louis    
 
 ---
