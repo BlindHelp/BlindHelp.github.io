@@ -56,7 +56,8 @@ author: BlindHelp
 <P>Éditeur de texte Notepad++: compléments d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
 <P>Description :</P>
-<OL><P>Fonctionnalités:</P>
+<OL>
+<P>Fonctionnalités:</P>
 <P>Cette extension a pour objectif d'améliorer l'accessibilité de l'éditeur de texte  Notepad++ et ajouter des fonctionnalités pour faciliter l'édition de  fichiers utilisés en langage Python et des fichiers écrit en langage markdown.</P>
 <P>Elle reprend  la plupart des compléments apportées par l'extension NVDA_notepadPlusPlus créé par  Derek Riemer et Tuukka Ojala, puis modifiée par Robert Hänggi et Andre9642 <https://github.com/derekriemer/nvda-notepadPlusPlus>.</P>
 <P>À savoir:</P>
@@ -86,13 +87,15 @@ author: BlindHelp
 <LI>Comparaison du texte sélectionné avec celui  du  presse-papier,,</LI>
 <LI>aller à la prochaine ligne se terminant par au moins une tabulation ou un espace,,</LI>
 <LI>arrangement de l'annonce du nom des documents:,</LI>
-<LI>annonce réduite du chemin des fichiers,
-<LI>annonce du nom du fichier avant son chemin,
-<LI> non diction des barres obliques inversées du chemin.
+<LI>annonce réduite du chemin des fichiers,</LI>
+<LI>annonce du nom du fichier avant son chemin,</LI>
+<LI>non diction des barres obliques inversées du chemin.</LI>
 </UL>
-<OL><P>Compatibilité:</P>
+<OL>
+<P>Compatibilité:</P>
 <P>Cette extension a été testé avec Notepad++ version 8.4.2.</P>
-<OL><P>Contraintes:</P>
+<OL>
+<P>Contraintes:</P>
 <P>Cette extension utilise et intercepte les raccourcis de Notepad++ configuré par défaut. Il est donc vivement conseillé, pour son bon fonctionnement, de ne pas modifier ces raccourcis.</P>
 </OL>
 <P>URL: <A HREF="https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git">https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git</A></P>
@@ -102,14 +105,10 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/notepadPlusPlusAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
 <H1>NVDAExtensionGlobalPlugin-13.4</H1>
-
-Extension des commandes de base de NVDA
-
-Compatibilité avec NVDA : de la 2022.1 à la 2024.4
-
-Description : Cet extension apporte à NVDA une multitude de fonctionnalités qui peuvent être activées ou désactivées individuellement en fonction du besoin.
-
-En voici quelques unes:
+<P>Extension des commandes de base de NVDA</P>
+<P>Compatibilité avec NVDA : de la 2022.1 à la 2024.4</P>
+<P>Description : Cet extension apporte à NVDA une multitude de fonctionnalités qui peuvent être activées ou désactivées individuellement en fonction du besoin.</P>
+<P>En voici quelques unes:</P>
 
 * Affichage de la liste des icônes de la zone de notification ou des fenêtres des applications lancées,
 * Aide à la composition d'un symbole complexe comme par exemple un a e lié, un symbole puissance 2 et possibilité d'ajouter ses propres catégories et symboles,
