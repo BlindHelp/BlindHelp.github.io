@@ -18,10 +18,11 @@ ApprentiClavier: compléments d'accessibilité
 
 Compatibilité avec NVDA : de la 2022.1 à la 2024.1
 
-Description : Cette extension Apporte une assistance vocale pour ApprentiClavier, logiciel d'apprentissage du clavier  (uniquement la version française).    
-Elle n'ajoute aucun script.    
-Elle est Compatible et testée avec ApprentiClavier version  française 1.0.9 et 1.0.10.    
+Description : Cette extension Apporte une assistance vocale pour ApprentiClavier, logiciel d'apprentissage du clavier  (uniquement la version française).
 
+Elle n'ajoute aucun script.
+
+Elle est Compatible et testée avec ApprentiClavier version  française 1.0.9 et 1.0.10.<BR>
 
 <P>
 URL : <A HREF="https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git">https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git</A>
@@ -34,7 +35,7 @@ Téléchargement:
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.10.nvda-addon">Version stable précédente: 1.10</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ## audacityAccessEnhancement-3.2
 
@@ -42,7 +43,7 @@ Téléchargement:
 
 Compatibilité avec NVDA : de la 2022.1 à la 2024.1
 
-Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:    
+Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:
 
 * un script  pour annoncer la position audio,
 * un script  pour annoncer la sélection,
@@ -57,9 +58,9 @@ Description : Cette extension améliore l'accessiblité du logiciel Audacity en 
 * un  script pour afficher le manuel utilisateur de l'extension,
 * un script pour afficher le guide d'audacity écrit par  David Bailes.
 
+Cette version de l'extension a été testée avec audacity 3.6.2 x64, 3.5.1 x64, 3.4.2 x64, 3.3.3 et 3.3.0.
 
-Cette version de l'extension a été testée avec audacity 3.6.2 x64, 3.5.1 x64, 3.4.2 x64, 3.3.3 et 3.3.0.    
-Les versions d'Audacity antérieures à la 3.3.0 ne sont pas supportées.    
+Les versions d'Audacity antérieures à la 3.3.0 ne sont pas supportées.<BR>
 
 <P>
 URL: <A HREF="https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git">https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git</A>
@@ -72,7 +73,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.1.1.nvda-addon">Version stable précédente : 3.1.1</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/audacityAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ## notepadPlusPlusAccessEnhancement-2.7
 
@@ -80,7 +81,8 @@ Téléchargement :
 
 Compatibilité avec NVDA : de la 2023.1 à la 2024.4
 
-Description :    
+Description :
+
 1- Fonctionnalités:
 
 Cette extension a pour objectif d'améliorer l'accessibilité de l'éditeur de texte  Notepad++ et ajouter des fonctionnalités pour faciliter l'édition de  fichiers utilisés en langage Python et des fichiers écrit en langage markdown.
@@ -96,19 +98,15 @@ Elle reprend  la plupart des compléments apportées par l'extension NVDA_notepa
 * accessibilité à la recherche incrémentielle,
 * Prise en charge de la fonction de recherche précédente / suivant.
 
-
 Pour les fichiers Python, elle apporte:
 
 * déplacement à la prochaine class ou méthode,
 * importation du code  de la fenêtre d'édition.
 
-
 Pour les fichiers Markdown ou txt2tags:
 
 * prévisualisation  du résultat de la conversion en HTML dans le tampon virtuel de NVDA ou dans le navigateur par défaut,
 * ajout du mode navigation pour les titres, liens, citations.
-
-
 
 Et enfin:
 
@@ -122,12 +120,10 @@ Et enfin:
 	* annonce du nom du fichier avant son chemin,
 	* non diction des barres obliques inversées du chemin.
 
-
 2- Compatibilité:
 Cette extension a été testé avec Notepad++ version 8.4.2.
 
-
-3-- Contraintes:
+3- Contraintes:
 Cette extension utilise et intercepte les raccourcis de Notepad++ configuré par défaut. Il est donc vivement conseillé, pour son bon fonctionnement, de ne pas modifier ces raccourcis.
 
 <P>
@@ -140,7 +136,7 @@ Téléchargement:
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/notepadPlusPlusAccessEnhancement/notepadPlusPlusAccessEnhancement-2.7.nvda-addon">Version stable actuelle: 2.7</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/notepadPlusPlusAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ## NVDAExtensionGlobalPlugin-13.4
 
@@ -148,8 +144,10 @@ Extension des commandes de base de NVDA
 
 Compatibilité avec NVDA : de la 2022.1 à la 2024.4
 
-Description : Cet extension apporte à NVDA une multitude de fonctionnalités qui peuvent être activées ou désactivées individuellement en fonction du besoin.    
-En voici quelques unes:    
+Description : Cet extension apporte à NVDA une multitude de fonctionnalités qui peuvent être activées ou désactivées individuellement en fonction du besoin.
+
+En voici quelques unes:
+
 * Affichage de la liste des icônes de la zone de notification ou des fenêtres des applications lancées,
 * Aide à la composition d'un symbole complexe comme par exemple un a e lié, un symbole puissance 2 et possibilité d'ajouter ses propres catégories et symboles,
 * Extension de la fonctionnalité du buffer virtuel pour navigateur :
@@ -188,7 +186,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon">Version précédente : 13.3</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/NVDAExtensionGlobalPlugin/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ## radioSureAccessEnhancement-2.9
 
@@ -196,7 +194,7 @@ Lecteur de radios internet  RadioSure: complément d'accessibilité
 
 Compatibilité avec NVDA : de la 2023.1 à la 2024.4
 
-Description : Cette extension améliore l'accessibilité du logiciel RadioSure,  lecteur de web radios avec NVDA.    
+Description : Cette extension améliore l'accessibilité du logiciel RadioSure,  lecteur de web radios avec NVDA.
 
 Compatible avec RadioSure 2.2.
 
@@ -215,7 +213,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.8.nvda-addon">Version stable précédente : 2.8</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/radioSureAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ## recuvaAccessEnhancement-1.9
 
@@ -223,7 +221,7 @@ Logiciel de rrécupération de fichiers Recuva: complément d'accessibilité
 
 Compatibilité avec NVDA : de la 2023.1 à la 2024.4
 
-Description : Bien que cette application soit relativement bien accessible, cette extension  tente  d'améliorer l'accessibilité du logiciel de récupération de fichiers Recuva en:    
+Description : Bien que cette application soit relativement bien accessible, cette extension  tente  d'améliorer l'accessibilité du logiciel de récupération de fichiers Recuva en:
 
 * nommant certains objets non étiquetés,
 * empêchant le placement inutile du focus sur des objets inconnus,
@@ -241,7 +239,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.8.nvda-addon">Version stable précédente : 1.8</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/recuvaAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ## VLCAccessEnhancement-2.12
 
@@ -249,7 +247,8 @@ Lecteur multimédia VLC: compléments d'accessibilité
 
 Compatibilité avec NVDA : de la 2023.1 à la 2024.4
 
-Description : Cette extension ajoute diverses commandes pour faciliter la lecture des médias:    
+Description : Cette extension ajoute diverses commandes pour faciliter la lecture des médias:
+
 - script  pour annoncer la durée du média  déjà lue,
 - script pour annoncer la durée du média restante à lire,
 - script pour annoncer la durée totale du média,
@@ -284,7 +283,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.11.nvda-addon">Version précédente : 2.11</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/VLCAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ## wordAccessEnhancement-3.6
 
@@ -292,7 +291,8 @@ Téléchargement :
 
 Compatibilité avec NVDA : de la 2023.1 à la 2024.4
 
-Description : Cette extension complète les scripts intégrés dans la version de base de NVDA et apporte:    
+Description : Cette extension complète les scripts intégrés dans la version de base de NVDA et apporte:
+
 * le script("windows+alt+F5") pour obtenir la liste de divers objets Word (commentaires, modifications, signets, champs, note de fin,  note de bas de page, mots mal orthographiés, erreurs de grammaire...),
 * le script ("Alt+éfacement") pour connaitre suivant le cas: le numéro de ligne, colonne  et de page de la position du curseur système,  le début  et la fin de la sélection, ou le numéro de ligne et colonne de la cellule courante d'un tableau (avec indication éventuelle de la position  par rapport au bord gauche et supérieur),
 * le script ("windows+alt+f2") pour insérer un commentaire  à la position du curseur,
@@ -321,7 +321,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.5.nvda-addon">Version stable précédente : 3.5</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/wordAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<BR>
 
 ---
 
