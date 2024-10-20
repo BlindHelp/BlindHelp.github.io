@@ -29,26 +29,26 @@ author: BlindHelp
 <P>Éditeur multipiste Audacity: complément d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2022.1 à la 2024.1</P>
 <P>Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:<P>
-<UL><LI>un script  pour annoncer la position audio,
-<UL><LI>un script  pour annoncer la sélection,
-<UL><LI>un script pour annoncer l'état des boutons "Pause", "Lecture" et "Enregistrement",
-<UL><LI>l'annonce automatique des changements de la position audio,
-<UL><LI>l'annonce automatique des changements de la sélection (désactivable),
-<UL><LI>le support vocal pour les boite de sélection définissant un temps ou une durée Audacity,
-<UL><LI>l'utilisation possible de la barre d'espace pour appuyer sur un bouton,
-<UL><LI>un  script pour lire le niveau courant des vu-mètres de crète  en lecture ou enregistrement,
-<UL><LI>un  script pour lire le niveau courant des potentiomètres de lecture ou d'enregistrement,
-<UL><LI>un  script pour lire  la vitesse de lecture,
-<UL><LI>un  script pour afficher le manuel utilisateur de l'extension,
-<UL><LI>un script pour afficher le guide d'audacity écrit par  David Bailes.<LI>
+<UL><LI>un script  pour annoncer la position audio,</LI>
+<UL><LI>un script  pour annoncer la sélection,</LI>
+<UL><LI>un script pour annoncer l'état des boutons "Pause", "Lecture" et "Enregistrement",</LI>
+<UL><LI>l'annonce automatique des changements de la position audio,</LI>
+<UL><LI>l'annonce automatique des changements de la sélection (désactivable),</LI>
+<UL><LI>le support vocal pour les boite de sélection définissant un temps ou une durée Audacity,</LI>
+<UL><LI>l'utilisation possible de la barre d'espace pour appuyer sur un bouton,</LI>
+<UL><LI>un  script pour lire le niveau courant des vu-mètres de crète  en lecture ou enregistrement,</LI>
+<UL><LI>un  script pour lire le niveau courant des potentiomètres de lecture ou d'enregistrement,</LI>
+<UL><LI>un  script pour lire  la vitesse de lecture,</LI>
+<UL><LI>un  script pour afficher le manuel utilisateur de l'extension,</LI>
+<UL><LI>un script pour afficher le guide d'audacity écrit par  David Bailes.</LI>
 </UL>
 <P>Cette version de l'extension a été testée avec audacity 3.6.2 x64, 3.5.1 x64, 3.4.2 x64, 3.3.3 et 3.3.0.</P>
 <P>Les versions d'Audacity antérieures à la 3.3.0 ne sont pas supportées.</P>
 <P>URL: <A HREF="https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git">https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement :</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.2.nvda-addon">Version stable actuelle : 3.2</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.1.1.nvda-addon">Version stable précédente : 3.1.1</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.2.nvda-addon">Version stable actuelle : 3.2</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.1.1.nvda-addon">Version stable précédente : 3.1.1</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/audacityAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
 <H1>notepadPlusPlusAccessEnhancement-2.7</H1>
