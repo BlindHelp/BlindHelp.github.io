@@ -57,7 +57,7 @@ author: BlindHelp
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
 <P>Description :</P>
 <OL>
-<P>Fonctionnalités:</P>
+<LI>Fonctionnalités:</LI>
 <P>Cette extension a pour objectif d'améliorer l'accessibilité de l'éditeur de texte  Notepad++ et ajouter des fonctionnalités pour faciliter l'édition de  fichiers utilisés en langage Python et des fichiers écrit en langage markdown.</P>
 <P>Elle reprend  la plupart des compléments apportées par l'extension NVDA_notepadPlusPlus créé par  Derek Riemer et Tuukka Ojala, puis modifiée par Robert Hänggi et Andre9642 <https://github.com/derekriemer/nvda-notepadPlusPlus>.</P>
 <P>À savoir:</P>
@@ -92,10 +92,10 @@ author: BlindHelp
 <LI>non diction des barres obliques inversées du chemin.</LI>
 </UL>
 <OL>
-<P>Compatibilité:</P>
+<LI>Compatibilité:</LI>
 <P>Cette extension a été testé avec Notepad++ version 8.4.2.</P>
 <OL>
-<P>Contraintes:</P>
+<LI>Contraintes:</LI>
 <P>Cette extension utilise et intercepte les raccourcis de Notepad++ configuré par défaut. Il est donc vivement conseillé, pour son bon fonctionnement, de ne pas modifier ces raccourcis.</P>
 </OL>
 <P>URL: <A HREF="https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git">https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git</A></P>
@@ -109,48 +109,40 @@ author: BlindHelp
 <P>Compatibilité avec NVDA : de la 2022.1 à la 2024.4</P>
 <P>Description : Cet extension apporte à NVDA une multitude de fonctionnalités qui peuvent être activées ou désactivées individuellement en fonction du besoin.</P>
 <P>En voici quelques unes:</P>
-
-* Affichage de la liste des icônes de la zone de notification ou des fenêtres des applications lancées,
-* Aide à la composition d'un symbole complexe comme par exemple un a e lié, un symbole puissance 2 et possibilité d'ajouter ses propres catégories et symboles,
-* Extension de la fonctionnalité du buffer virtuel pour navigateur :
- * nouvelles commandes pour le mode navigation (paragraphe, division, ancre, repère principal),
- * nouveaux types d'éléments pour la boîte de dialogue ouverte par "NVDA+F7" (bouton radio, paragraphe, cadre, checkBox, etc) avec annonce du nombre d'éléments trouvés,
- * option pour parcourir en boucle à la recherche d'un élément suivant ou précédent,
- * nouveaux scripts pour tableau : annonce cellule/ligne/colonne, passage à la colonne/ligne suivante ou précédente avec annonce des cellules la composant,
-* annonce intelligente de la fonction d'édition des commandes comme Copier, Couper ou Coller et amélioration du script de base NVDA qui annonce le texte dans le presse-papier("NVDA+c" ),
-* historique des annonces,
-* renommage des touches du clavier,
-* annonce sélective des touches de commande,
-* affichage des éléments visibles composant l'objet au premier plan et possibilité de se déplacer ou de cliquer sur les éléments,
-* changement rapide de profil vocal,
-* rémanence des touches de modification et rémanence spécifique pour le site gmail.com,
-* arrêt, redémarrage ou mise en veille prolongée de l'ordinateur,
-* gestion des gestes de commandes configurés par l'utilisateur,
-* Contrôle du son : changements rapides du volume du système, NVDA ou application, séparation  audio, commutation temporaire du périphérique de sortie audio,
-* gestion des configurations utilisateurs et redémarrage de NVDA avec une configuration précise,
-* analyseur de texte,
-* activation/désactivation rapide des modules complémentaires,
-* Annonce ou affichage d'informations sur l'application sous le focus, telles que sa version, le profil de configuration actif, le module complémentaire chargé,
-* utilisation possible du pavé numérique comme clavier numérique standard,
-* possibilité d'exécuter des scripts depuis la boîte de dialogue "Gestes de commandes",
-* et plus.
-
-Pour la liste complète des fonctionnalités de l'extension et leur description, consultez son manuel utilisateur.
-
-<P>
-URL : <A HREF="https://github.com/paulber19/NVDAExtensionGlobalPlugin.git">https://github.com/paulber19/NVDAExtensionGlobalPlugin.git</A>
-</P>
-<P>
-Téléchargement :
-</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.4.nvda-addon">Version actuelle : 13.4</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon">Version précédente : 13.3</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/NVDAExtensionGlobalPlugin/dev">versions de développement</A>
+<LI>Affichage de la liste des icônes de la zone de notification ou des fenêtres des applications lancées,</LI>
+<LI>Aide à la composition d'un symbole complexe comme par exemple un a e lié, un symbole puissance 2 et possibilité d'ajouter ses propres catégories et symboles,</LI>
+<LI>Extension de la fonctionnalité du buffer virtuel pour navigateur :<LI>
+<LI>nouvelles commandes pour le mode navigation (paragraphe, division, ancre, repère principal),</LI>
+<LI>nouveaux types d'éléments pour la boîte de dialogue ouverte par "NVDA+F7" (bouton radio, paragraphe, cadre, checkBox, etc) avec annonce du nombre d'éléments trouvés,</LI>
+<LI>option pour parcourir en boucle à la recherche d'un élément suivant ou précédent,</LI>
+<LI>nouveaux scripts pour tableau : annonce cellule/ligne/colonne, passage à la colonne/ligne suivante ou précédente avec annonce des cellules la composant,</LI>
+<LI>annonce intelligente de la fonction d'édition des commandes comme Copier, Couper ou Coller et amélioration du script de base NVDA qui annonce le texte dans le presse-papier("NVDA+c" ),</LI>
+<LI>historique des annonces,</LI>
+<LI>renommage des touches du clavier,</LI>
+<LI>annonce sélective des touches de commande,</LI>
+<LI>affichage des éléments visibles composant l'objet au premier plan et possibilité de se déplacer ou de cliquer sur les éléments,</LI>
+<LI>changement rapide de profil vocal,</LI>
+<LI>rémanence des touches de modification et rémanence spécifique pour le site gmail.com,</LI>
+<LI>arrêt, redémarrage ou mise en veille prolongée de l'ordinateur,</LI>
+<LI>gestion des gestes de commandes configurés par l'utilisateur,</LI>
+<LI>Contrôle du son : changements rapides du volume du système, NVDA ou application, séparation  audio, commutation temporaire du périphérique de sortie audio,</LI>
+<LI>gestion des configurations utilisateurs et redémarrage de NVDA avec une configuration précise,</LI>
+<LI>analyseur de texte,</LI>
+<LI>activation/désactivation rapide des modules complémentaires,</LI>
+<LI>Annonce ou affichage d'informations sur l'application sous le focus, telles que sa version, le profil de configuration actif, le module complémentaire chargé,</LI>
+<LI>utilisation possible du pavé numérique comme clavier numérique standard,</LI>
+<LI>possibilité d'exécuter des scripts depuis la boîte de dialogue "Gestes de commandes",</LI>
+<LI>et plus.</LI>
 </UL>
-</LI>
-<BR>
-
+<P>Pour la liste complète des fonctionnalités de l'extension et leur description, consultez son manuel utilisateur.</P>
+<P>URL : <A HREF="https://github.com/paulber19/NVDAExtensionGlobalPlugin.git">https://github.com/paulber19/NVDAExtensionGlobalPlugin.git</A></P>
+<P>Téléchargement :</P>
+<UL>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.4.nvda-addon">Version actuelle : 13.4</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon">Version précédente : 13.3</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/NVDAExtensionGlobalPlugin/dev">versions de développement</A></LI>
+</UL>
 ## radioSureAccessEnhancement-2.9
 
 Lecteur de radios internet  RadioSure: complément d'accessibilité
