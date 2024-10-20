@@ -13,44 +13,22 @@ author: BlindHelp
 <I>Auteur : paulber19 (paulber19@laposte.net)</I><BR>
 
 <H1>apprentiClavierAccessEnhancement-1.11</H1>
-<P>
-ApprentiClavier: compléments d'accessibilité
-</P>
-<P>
-Compatibilité avec NVDA : de la 2022.1 à la 2024.1
-</P>
-<P>
-Description : Cette extension Apporte une assistance vocale pour ApprentiClavier, logiciel d'apprentissage du clavier  (uniquement la version française).
-</P>
-<P>
-Elle n'ajoute aucun script.
-</P>
-<P>
-Elle est Compatible et testée avec ApprentiClavier version  française 1.0.9 et 1.0.10.
-</P>
-<P>
-URL : <A HREF="https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git">https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git</A>
-</P>
-<P>
-Téléchargement:
-</P>
+<P>ApprentiClavier: compléments d'accessibilité</P>
+<P>Compatibilité avec NVDA : de la 2022.1 à la 2024.1</P>
+<P>Description : Cette extension Apporte une assistance vocale pour ApprentiClavier, logiciel d'apprentissage du clavier  (uniquement la version française).</P>
+<P>Elle n'ajoute aucun script.</P>
+<P>Elle est Compatible et testée avec ApprentiClavier version  française 1.0.9 et 1.0.10.</P>
+<P>URL : <A HREF="https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git">https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git</A></P>
+<P>Téléchargement:</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.11.nvda-addon">Version stable actuelle: 1.11</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.10.nvda-addon">Version stable précédente: 1.10</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.11.nvda-addon">Version stable actuelle: 1.11</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.10.nvda-addon">Version stable précédente: 1.10</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
-<P>
 <H1>audacityAccessEnhancement-3.2</H1>
-</P>
-<p>
-Éditeur multipiste Audacity: complément d'accessibilité
-</p>
-<P>
-Compatibilité avec NVDA : de la 2022.1 à la 2024.1
-</P>
-<P>
-Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:
-</P>
+<P>Éditeur multipiste Audacity: complément d'accessibilité</P>
+<P>Compatibilité avec NVDA : de la 2022.1 à la 2024.1</P>
+<P>Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:<P>
 <UL><LI>un script  pour annoncer la position audio,
 <UL><LI>un script  pour annoncer la sélection,
 <UL><LI>un script pour annoncer l'état des boutons "Pause", "Lecture" et "Enregistrement",
@@ -62,40 +40,23 @@ Description : Cette extension améliore l'accessiblité du logiciel Audacity en 
 <UL><LI>un  script pour lire le niveau courant des potentiomètres de lecture ou d'enregistrement,
 <UL><LI>un  script pour lire  la vitesse de lecture,
 <UL><LI>un  script pour afficher le manuel utilisateur de l'extension,
-<UL><LI>un script pour afficher le guide d'audacity écrit par  David Bailes.
-<P>
-Cette version de l'extension a été testée avec audacity 3.6.2 x64, 3.5.1 x64, 3.4.2 x64, 3.3.3 et 3.3.0.
-</P>
-<P>
-Les versions d'Audacity antérieures à la 3.3.0 ne sont pas supportées.
-</P>
-<P>
-URL: <A HREF="https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git">https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git</A>
-</P>
-<P>
-Téléchargement :
-</P>
+<UL><LI>un script pour afficher le guide d'audacity écrit par  David Bailes.<LI>
+</UL>
+<P>Cette version de l'extension a été testée avec audacity 3.6.2 x64, 3.5.1 x64, 3.4.2 x64, 3.3.3 et 3.3.0.</P>
+<P>Les versions d'Audacity antérieures à la 3.3.0 ne sont pas supportées.</P>
+<P>URL: <A HREF="https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git">https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git</A></P>
+<P>Téléchargement :</P>
 <UL>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.2.nvda-addon">Version stable actuelle : 3.2</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.1.1.nvda-addon">Version stable précédente : 3.1.1</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/audacityAccessEnhancement/dev">versions de développement</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/audacityAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
-</LI>
-<P>
 <H1>notepadPlusPlusAccessEnhancement-2.7</H1>
-<P>
-Éditeur de texte Notepad++: compléments d'accessibilité
-</P>
-<P>
-Compatibilité avec NVDA : de la 2023.1 à la 2024.4
-</P>
-<P>
-Description :
-</P>
+<P>Éditeur de texte Notepad++: compléments d'accessibilité</P>
+<P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
+<P>Description :</P>
 <OL><LI>Fonctionnalités:
-<P>
 Cette extension a pour objectif d'améliorer l'accessibilité de l'éditeur de texte  Notepad++ et ajouter des fonctionnalités pour faciliter l'édition de  fichiers utilisés en langage Python et des fichiers écrit en langage markdown.
-
 Elle reprend  la plupart des compléments apportées par l'extension NVDA_notepadPlusPlus créé par  Derek Riemer et Tuukka Ojala, puis modifiée par Robert Hänggi et Andre9642 <https://github.com/derekriemer/nvda-notepadPlusPlus>.
 
 À savoir:
