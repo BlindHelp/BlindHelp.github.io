@@ -27,6 +27,7 @@ Elle n'ajoute aucun script.
 </P>
 <P>
 Elle est Compatible et testée avec ApprentiClavier version  française 1.0.9 et 1.0.10.
+</P>
 <P>
 URL : <A HREF="https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git">https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git</A>
 </P>
@@ -38,12 +39,14 @@ Téléchargement:
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.10.nvda-addon">Version stable précédente: 1.10</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A>
 </UL>
-
+<P>
 <H1>audacityAccessEnhancement-3.2</H1>
 <p>
 Éditeur multipiste Audacity: complément d'accessibilité
 </p>
+<P>
 Compatibilité avec NVDA : de la 2022.1 à la 2024.1
+</P>
 
 Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:
 
