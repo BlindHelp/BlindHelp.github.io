@@ -8,10 +8,11 @@ author: BlindHelp
 <footer>Publié le Samedi 19 Octobre 2024</footer>
 
 
-- Auteur: paulber19 (paulber19@laposte.net)
-
-# Guide d\'introduction à Audacity
-
+<BODY BGCOLOR="white" TEXT="black">
+<P ALIGN="center"><CENTER><H1>Guide d'introduction à Audacity</H1>
+<FONT SIZE="4">
+<I>Auteur: paulber19 (paulber19@laposte.net)</I><BR>
+</FONT></CENTER>
 
 <A NAME="toc"></A>
 <H2>Sommaire</H2>
@@ -3961,10 +3962,4 @@ Pour plus d'informations sur ces deux jeux de raccourcis installés par défaut 
 <TD>majuscule + N</TD>
 </TR>
 </TABLE>
-
-
-
-
----
-
 
