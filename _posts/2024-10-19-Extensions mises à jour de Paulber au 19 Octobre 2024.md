@@ -35,6 +35,7 @@ Téléchargement:
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.10.nvda-addon">Version stable précédente: 1.10</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A>
 </UL>
+</LI>
 <BR>
 
 ## audacityAccessEnhancement-3.2
@@ -73,6 +74,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.1.1.nvda-addon">Version stable précédente : 3.1.1</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/audacityAccessEnhancement/dev">versions de développement</A>
 </UL>
+</LI>
 <BR>
 
 ## notepadPlusPlusAccessEnhancement-2.7
@@ -136,6 +138,7 @@ Téléchargement:
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/notepadPlusPlusAccessEnhancement/notepadPlusPlusAccessEnhancement-2.7.nvda-addon">Version stable actuelle: 2.7</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/notepadPlusPlusAccessEnhancement/dev">versions de développement</A>
 </UL>
+</LI>
 <BR>
 
 ## NVDAExtensionGlobalPlugin-13.4
@@ -186,6 +189,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon">Version précédente : 13.3</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/NVDAExtensionGlobalPlugin/dev">versions de développement</A>
 </UL>
+</LI>
 <BR>
 
 ## radioSureAccessEnhancement-2.9
@@ -213,6 +217,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.8.nvda-addon">Version stable précédente : 2.8</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/radioSureAccessEnhancement/dev">versions de développement</A>
 </UL>
+<LI>
 <BR>
 
 ## recuvaAccessEnhancement-1.9
@@ -239,6 +244,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.8.nvda-addon">Version stable précédente : 1.8</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/recuvaAccessEnhancement/dev">versions de développement</A>
 </UL>
+</LI>
 <BR>
 
 ## VLCAccessEnhancement-2.12
@@ -283,6 +289,7 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.11.nvda-addon">Version précédente : 2.11</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/VLCAccessEnhancement/dev">versions de développement</A>
 </UL>
+</LI>
 <BR>
 
 ## wordAccessEnhancement-3.6
@@ -321,7 +328,9 @@ Téléchargement :
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.5.nvda-addon">Version stable précédente : 3.5</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/wordAccessEnhancement/dev">versions de développement</A>
 </UL>
+</LI>
 <BR>
+
 
 ---
 
