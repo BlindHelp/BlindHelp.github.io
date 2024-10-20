@@ -29,18 +29,19 @@ author: BlindHelp
 <P>Éditeur multipiste Audacity: complément d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2022.1 à la 2024.1</P>
 <P>Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:<P>
-<UL><LI>un script  pour annoncer la position audio,</LI>
-<UL><LI>un script  pour annoncer la sélection,</LI>
-<UL><LI>un script pour annoncer l'état des boutons "Pause", "Lecture" et "Enregistrement",</LI>
-<UL><LI>l'annonce automatique des changements de la position audio,</LI>
-<UL><LI>l'annonce automatique des changements de la sélection (désactivable),</LI>
-<UL><LI>le support vocal pour les boite de sélection définissant un temps ou une durée Audacity,</LI>
-<UL><LI>l'utilisation possible de la barre d'espace pour appuyer sur un bouton,</LI>
-<UL><LI>un  script pour lire le niveau courant des vu-mètres de crète  en lecture ou enregistrement,</LI>
-<UL><LI>un  script pour lire le niveau courant des potentiomètres de lecture ou d'enregistrement,</LI>
-<UL><LI>un  script pour lire  la vitesse de lecture,</LI>
-<UL><LI>un  script pour afficher le manuel utilisateur de l'extension,</LI>
-<UL><LI>un script pour afficher le guide d'audacity écrit par  David Bailes.</LI>
+<UL>
+<LI>un script  pour annoncer la position audio,</LI>
+<LI>un script  pour annoncer la sélection,</LI>
+<LI>un script pour annoncer l'état des boutons "Pause", "Lecture" et "Enregistrement",</LI>
+<LI>l'annonce automatique des changements de la position audio,</LI>
+<LI>l'annonce automatique des changements de la sélection (désactivable),</LI>
+<LI>le support vocal pour les boite de sélection définissant un temps ou une durée Audacity,</LI>
+<LI>l'utilisation possible de la barre d'espace pour appuyer sur un bouton,</LI>
+<LI>un  script pour lire le niveau courant des vu-mètres de crète  en lecture ou enregistrement,</LI>
+<LI>un  script pour lire le niveau courant des potentiomètres de lecture ou d'enregistrement,</LI>
+<LI>un  script pour lire  la vitesse de lecture,</LI>
+<LI>un  script pour afficher le manuel utilisateur de l'extension,</LI>
+<LI>un script pour afficher le guide d'audacity écrit par  David Bailes.</LI>
 </UL>
 <P>Cette version de l'extension a été testée avec audacity 3.6.2 x64, 3.5.1 x64, 3.4.2 x64, 3.3.3 et 3.3.0.</P>
 <P>Les versions d'Audacity antérieures à la 3.3.0 ne sont pas supportées.</P>
@@ -55,61 +56,52 @@ author: BlindHelp
 <P>Éditeur de texte Notepad++: compléments d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
 <P>Description :</P>
-<OL><LI>Fonctionnalités:
-Cette extension a pour objectif d'améliorer l'accessibilité de l'éditeur de texte  Notepad++ et ajouter des fonctionnalités pour faciliter l'édition de  fichiers utilisés en langage Python et des fichiers écrit en langage markdown.
-Elle reprend  la plupart des compléments apportées par l'extension NVDA_notepadPlusPlus créé par  Derek Riemer et Tuukka Ojala, puis modifiée par Robert Hänggi et Andre9642 <https://github.com/derekriemer/nvda-notepadPlusPlus>.
-
-À savoir:
-
-* vocalisation du résultat de la commande "control+b" qui permet de se déplacer au délimiteur symétrique,
-* vocalisation du déplacement au prochain ou précédent signet par "F2" ou "majuscule+f2",
-* signalement des lignes trop longues,
-* accessibilité à la saisie semi-automatique,
-* accessibilité à la recherche incrémentielle,
-* Prise en charge de la fonction de recherche précédente / suivant.
-
-Pour les fichiers Python, elle apporte:
-
-* déplacement à la prochaine class ou méthode,
-* importation du code  de la fenêtre d'édition.
-
-Pour les fichiers Markdown ou txt2tags:
-
-* prévisualisation  du résultat de la conversion en HTML dans le tampon virtuel de NVDA ou dans le navigateur par défaut,
-* ajout du mode navigation pour les titres, liens, citations.
-
-Et enfin:
-
-* Annonce du numéro et du retrait de chaque ligne,
-* scripts pour fixer l'indentation,
-* Vocalisation du déplacement du focus par touche "Début" ,
-* Comparaison du texte sélectionné avec celui  du  presse-papier,
-* aller à la prochaine ligne se terminant par au moins une tabulation ou un espace,
-* arrangement de l'annonce du nom des documents:
-	* annonce réduite du chemin des fichiers,
-	* annonce du nom du fichier avant son chemin,
-	* non diction des barres obliques inversées du chemin.
-
-2- Compatibilité:
-Cette extension a été testé avec Notepad++ version 8.4.2.
-
-3- Contraintes:
-Cette extension utilise et intercepte les raccourcis de Notepad++ configuré par défaut. Il est donc vivement conseillé, pour son bon fonctionnement, de ne pas modifier ces raccourcis.
-
-<P>
-URL: <A HREF="https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git">https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git</A>
-</P>
-<P>
-Téléchargement:
-</P>
+<OL><P>Fonctionnalités:</P>
+<P>Cette extension a pour objectif d'améliorer l'accessibilité de l'éditeur de texte  Notepad++ et ajouter des fonctionnalités pour faciliter l'édition de  fichiers utilisés en langage Python et des fichiers écrit en langage markdown.</P>
+<P>Elle reprend  la plupart des compléments apportées par l'extension NVDA_notepadPlusPlus créé par  Derek Riemer et Tuukka Ojala, puis modifiée par Robert Hänggi et Andre9642 <https://github.com/derekriemer/nvda-notepadPlusPlus>.</P>
+<P>À savoir:</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/notepadPlusPlusAccessEnhancement/notepadPlusPlusAccessEnhancement-2.7.nvda-addon">Version stable actuelle: 2.7</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/notepadPlusPlusAccessEnhancement/dev">versions de développement</A>
+<LI>vocalisation du résultat de la commande "control+b" qui permet de se déplacer au délimiteur symétrique,</LI>
+<LI>vocalisation du déplacement au prochain ou précédent signet par "F2" ou "majuscule+f2",</LI>
+<LI>signalement des lignes trop longues,</LI>
+<LI>accessibilité à la saisie semi-automatique,</LI>
+<LI>accessibilité à la recherche incrémentielle,</LI>
+<LI>Prise en charge de la fonction de recherche précédente / suivant.</LI>
 </UL>
-</LI>
-<BR>
-
-## NVDAExtensionGlobalPlugin-13.4
+<P>Pour les fichiers Python, elle apporte:</P>
+<UL>
+<LI>déplacement à la prochaine class ou méthode,</LI>
+<LI>importation du code  de la fenêtre d'édition.</LI>
+</UL>
+<P>Pour les fichiers Markdown ou txt2tags:</P>
+<UL>
+<LI>prévisualisation  du résultat de la conversion en HTML dans le tampon virtuel de NVDA ou dans le navigateur par défaut,</LI>
+<LI>ajout du mode navigation pour les titres, liens, citations.</LI>
+</UL>
+<P>Et enfin:</P>
+<UL>
+<LI>Annonce du numéro et du retrait de chaque ligne,</LI>
+<LI>scripts pour fixer l'indentation,,</LI>
+<LI>Vocalisation du déplacement du focus par touche "Début" ,,</LI>
+<LI>Comparaison du texte sélectionné avec celui  du  presse-papier,,</LI>
+<LI>aller à la prochaine ligne se terminant par au moins une tabulation ou un espace,,</LI>
+<LI>arrangement de l'annonce du nom des documents:,</LI>
+<LI>annonce réduite du chemin des fichiers,
+<LI>annonce du nom du fichier avant son chemin,
+<LI> non diction des barres obliques inversées du chemin.
+</UL>
+<OL><P>Compatibilité:</P>
+<P>Cette extension a été testé avec Notepad++ version 8.4.2.</P>
+<OL><P>Contraintes:</P>
+<P>Cette extension utilise et intercepte les raccourcis de Notepad++ configuré par défaut. Il est donc vivement conseillé, pour son bon fonctionnement, de ne pas modifier ces raccourcis.</P>
+</OL>
+<P>URL: <A HREF="https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git">https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git</A></P>
+<P>Téléchargement:</P>
+<UL>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/notepadPlusPlusAccessEnhancement/notepadPlusPlusAccessEnhancement-2.7.nvda-addon">Version stable actuelle: 2.7</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/notepadPlusPlusAccessEnhancement/dev">versions de développement</A></LI>
+</UL>
+<H1>NVDAExtensionGlobalPlugin-13.4</H1>
 
 Extension des commandes de base de NVDA
 
