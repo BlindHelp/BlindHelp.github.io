@@ -12,18 +12,21 @@ author: BlindHelp
 
 <I>Auteur : paulber19 (paulber19@laposte.net)</I><BR>
 
-## apprentiClavierAccessEnhancement-1.11
-
+<H1>apprentiClavierAccessEnhancement-1.11</H1>
+<P>
 ApprentiClavier: compléments d'accessibilité
-
+</P>
+<P>
 Compatibilité avec NVDA : de la 2022.1 à la 2024.1
-
+</P>
+<P>
 Description : Cette extension Apporte une assistance vocale pour ApprentiClavier, logiciel d'apprentissage du clavier  (uniquement la version française).
-
+</P>
+<P>
 Elle n'ajoute aucun script.
-
-Elle est Compatible et testée avec ApprentiClavier version  française 1.0.9 et 1.0.10.<BR>
-
+</P>
+<P>
+Elle est Compatible et testée avec ApprentiClavier version  française 1.0.9 et 1.0.10.
 <P>
 URL : <A HREF="https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git">https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git</A>
 </P>
@@ -35,13 +38,11 @@ Téléchargement:
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.10.nvda-addon">Version stable précédente: 1.10</A>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A>
 </UL>
-</LI>
-<BR>
 
-## audacityAccessEnhancement-3.2
-
+<H1>audacityAccessEnhancement-3.2</H1>
+<p>
 Éditeur multipiste Audacity: complément d'accessibilité
-
+</p>
 Compatibilité avec NVDA : de la 2022.1 à la 2024.1
 
 Description : Cette extension améliore l'accessiblité du logiciel Audacity en apportant:
