@@ -174,92 +174,66 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.8.nvda-addon">Version stable précédente : 1.8</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/recuvaAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
-
-
-
-## VLCAccessEnhancement-2.12
-
-Lecteur multimédia VLC: compléments d'accessibilité
-
-Compatibilité avec NVDA : de la 2023.1 à la 2024.4
-
-Description : Cette extension ajoute diverses commandes pour faciliter la lecture des médias:
-
-- script  pour annoncer la durée du média  déjà lue,
-- script pour annoncer la durée du média restante à lire,
-- script pour annoncer la durée totale du média,
-- script pour annoncer la vitesse courante,
-- annonce automatique des changements d'état comme la mise en pause , la coupure du son, la modification de la hauteur du son ou de la vitesse de lecture, la  mise en lecture répétée ou aléatoire,
-- annonce automatique de la durée après une commande  de saut,
-- scripts pour marquer une position de lecture et relancer la lecture  à cette position,
-- script pour reprendre la lecture interrompue au temps mémorisé par VLC,
-- lecture correcte de la barre d'état,
-- possibilité de modification de certains raccourcis clavier génants de VLC.
-- et autres améliorations:
- - l'accès aux contrôles de lecture(idée de fonctionnalité de Javi Dominguez),
- - accès aux dialogue "Effets et filtres",
- - annonce correcte du nom et de la valeur des potentiomètres,
- - la suppression de texte html inutile dans la description de certaints objets (code source de Javi Dominguez).
-
-La liste des commandes est obtenue par Control+NVDA+H    
-Compatible avec VLC 3.0.    
-
-<P>
-URL: <A HREF="https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git">https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git</A>
-</P>
-<P>
-Téléchargement :
-</P>
+<H1>VLCAccessEnhancement-2.12</H1>
+<P>Lecteur multimédia VLC: compléments d'accessibilité</P>
+<P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
+<P>Description : Cette extension ajoute diverses commandes pour faciliter la lecture des médias:</P>
 <UL>
-<LI>Version actuelle : 2.12
- <UL>
- <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.12.nvda-addon">serveur de téléchargement 1</A>
- <LI><A HREF="http://angouleme.avh.asso.fr/fichesinfo/fiches_nvda/data/VLCAccessEnhancement-2.12.nvda-addon">serveur de téléchargement 2</A>
- </UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.11.nvda-addon">Version précédente : 2.11</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/VLCAccessEnhancement/dev">versions de développement</A>
+<LI>script  pour annoncer la durée du média  déjà lue,</LI>
+<LI>script pour annoncer la durée du média restante à lire,</LI>
+<LI>script pour annoncer la durée totale du média,</LI>
+<LI>script pour annoncer la vitesse courante,</LI>
+<LI>annonce automatique des changements d'état comme la mise en pause , la coupure du son, la modification de la hauteur du son ou de la vitesse de lecture, la  mise en lecture répétée ou aléatoire,</LI>
+<LI>annonce automatique de la durée après une commande  de saut,</LI>
+<LI>scripts pour marquer une position de lecture et relancer la lecture  à cette position,</LI>
+<LI>script pour reprendre la lecture interrompue au temps mémorisé par VLC,</LI>
+<LI>lecture correcte de la barre d'état,</LI>
+<LI>possibilité de modification de certains raccourcis clavier génants de VLC.</LI>
+<LI>et autres améliorations:</LI>
+<LI>l'accès aux contrôles de lecture(idée de fonctionnalité de Javi Dominguez),</LI>
+<LI>accès aux dialogue "Effets et filtres",</LI>
+<LI>annonce correcte du nom et de la valeur des potentiomètres,</LI>
+<LI>la suppression de texte html inutile dans la description de certaints objets (code source de Javi Dominguez).</LI>
 </UL>
-</LI>
-<BR>
-
-## wordAccessEnhancement-3.6
-
-Éditeur de texte Microsoft Word: complément d'accessibilité
-
-Compatibilité avec NVDA : de la 2023.1 à la 2024.4
-
-Description : Cette extension complète les scripts intégrés dans la version de base de NVDA et apporte:
-
-* le script("windows+alt+F5") pour obtenir la liste de divers objets Word (commentaires, modifications, signets, champs, note de fin,  note de bas de page, mots mal orthographiés, erreurs de grammaire...),
-* le script ("Alt+éfacement") pour connaitre suivant le cas: le numéro de ligne, colonne  et de page de la position du curseur système,  le début  et la fin de la sélection, ou le numéro de ligne et colonne de la cellule courante d'un tableau (avec indication éventuelle de la position  par rapport au bord gauche et supérieur),
-* le script ("windows+alt+f2") pour insérer un commentaire  à la position du curseur,
-* le script ("windows+alt+m") pour lire la modification de texte à la position du curseur,
-* le script ("windows+alt+n") pour lire la note de bas de page ou de fin à la position du curseur,
-* ajout dans les scripts de base  de déplacement de paragraphe en paragraphe ("Control+Flèche bas ou haut"), la possiblité configurable  de sauter  les paragraphes vides,
-* les scripts pour se déplacer dans un tableau ou lire ses éléments (ligne, colonne, cellule),
-* complète le mode "navigation" de NVDA par de nouvelles commandes propre à Microsoft Word,
-* le déplacement de phrase en phrase ("alt+ flèche bas ou haut"),
-* le script pour afficher quelques informations sur le document ("windows+alt+f1"),
-* amélioration de l'accessibilité du correcteur orthographique de Word 2013 et 2016:
-	* le script ("NVDA+majuscule+f7") pour annoncer  l'erreur et la suggestion,
-	* le script (NVDA+control+f7") pour annoncer la phrase courante sous le focus.
-* lecture automatique de certains éléments comme les commentaires,  notes de bas de page  ou notes de fin.
-
-Cette extension a été testée avec Word 2019, 2016 et 2013 (marche peut-être aussi avec Word 365).
-
-<P>
-URL: <A HREF="https://github.com/paulber19/wordAccessEnhancementNVDAAddon.git">https://github.com/paulber19/wordAccessEnhancementNVDAAddon.git</A>
-</P>
-<P>
-Téléchargement :
-</P>
+<P>La liste des commandes est obtenue par Control+NVDA+H</P>
+<P>Compatible avec VLC 3.0.</P>
+<P>URL: <A HREF="https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git">https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git</A></P>
+<P>Téléchargement :</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.6.nvda-addon">Version stable actuelle : 3.6</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.5.nvda-addon">Version stable précédente : 3.5</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/wordAccessEnhancement/dev">versions de développement</A>
+<LI>Version actuelle : 2.12</LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.12.nvda-addon">serveur de téléchargement 1</A></LI>
+<LI><A HREF="http://angouleme.avh.asso.fr/fichesinfo/fiches_nvda/data/VLCAccessEnhancement-2.12.nvda-addon">serveur de téléchargement 2</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.11.nvda-addon">Version précédente : 2.11</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/VLCAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
-</LI>
-<BR>
+<H1>wordAccessEnhancement-3.6</H1>
+<P>Éditeur de texte Microsoft Word: complément d'accessibilité</P>
+<P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
+<P>Description : Cette extension complète les scripts intégrés dans la version de base de NVDA et apporte:</P>
+<UL>
+<LI>le script("windows+alt+F5") pour obtenir la liste de divers objets Word (commentaires, modifications, signets, champs, note de fin,  note de bas de page, mots mal orthographiés, erreurs de grammaire...),</LI>
+<LI>le script ("Alt+éfacement") pour connaitre suivant le cas: le numéro de ligne, colonne  et de page de la position du curseur système,  le début  et la fin de la sélection, ou le numéro de ligne et colonne de la cellule courante d'un tableau (avec indication éventuelle de la position  par rapport au bord gauche et supérieur),</LI>
+<LI>le script ("windows+alt+f2") pour insérer un commentaire  à la position du curseur,</LI>
+<LI>le script ("windows+alt+m") pour lire la modification de texte à la position du curseur,</LI>
+<LI>le script ("windows+alt+n") pour lire la note de bas de page ou de fin à la position du curseur,</LI>
+<LI>ajout dans les scripts de base  de déplacement de paragraphe en paragraphe ("Control+Flèche bas ou haut"), la possiblité configurable  de sauter  les paragraphes vides,</LI>
+<LI>les scripts pour se déplacer dans un tableau ou lire ses éléments (ligne, colonne, cellule),</LI>
+<LI>complète le mode "navigation" de NVDA par de nouvelles commandes propre à Microsoft Word,</LI>
+<LI>le déplacement de phrase en phrase ("alt+ flèche bas ou haut"),</LI>
+<LI>le script pour afficher quelques informations sur le document ("windows+alt+f1"),</LI>
+<LI>amélioration de l'accessibilité du correcteur orthographique de Word 2013 et 2016:</LI>
+<LI>le script ("NVDA+majuscule+f7") pour annoncer  l'erreur et la suggestion,</LI>
+<LI>le script (NVDA+control+f7") pour annoncer la phrase courante sous le focus.</LI>
+<LI>lecture automatique de certains éléments comme les commentaires,  notes de bas de page  ou notes de fin.</LI>
+</UL>
+<P>Cette extension a été testée avec Word 2019, 2016 et 2013 (marche peut-être aussi avec Word 365).</P>
+<P>URL: <A HREF="https://github.com/paulber19/wordAccessEnhancementNVDAAddon.git">https://github.com/paulber19/wordAccessEnhancementNVDAAddon.git</A></P>
+<P>Téléchargement :</P>
+<UL>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.6.nvda-addon">Version stable actuelle : 3.6</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.5.nvda-addon">Version stable précédente : 3.5</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/wordAccessEnhancement/dev">versions de développement</A></LI>
+</UL>
 
 
 ---
