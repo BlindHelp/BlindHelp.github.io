@@ -25,6 +25,7 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.10.nvda-addon">Version stable précédente: 1.10</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
+</LI>
 <H1>audacityAccessEnhancement-3.2</H1>
 <P>Éditeur multipiste Audacity: complément d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2022.1 à la 2024.1</P>
@@ -43,6 +44,7 @@ author: BlindHelp
 <LI>un  script pour afficher le manuel utilisateur de l'extension,</LI>
 <LI>un script pour afficher le guide d'audacity écrit par  David Bailes.</LI>
 </UL>
+</LI>
 <P>Cette version de l'extension a été testée avec audacity 3.6.2 x64, 3.5.1 x64, 3.4.2 x64, 3.3.3 et 3.3.0.</P>
 <P>Les versions d'Audacity antérieures à la 3.3.0 ne sont pas supportées.</P>
 <P>URL: <A HREF="https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git">https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git</A></P>
@@ -52,6 +54,7 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.1.1.nvda-addon">Version stable précédente : 3.1.1</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/audacityAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
+</LI>
 <H1>notepadPlusPlusAccessEnhancement-2.7</H1>
 <P>Éditeur de texte Notepad++: compléments d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
@@ -69,16 +72,19 @@ author: BlindHelp
 <LI>accessibilité à la recherche incrémentielle,</LI>
 <LI>Prise en charge de la fonction de recherche précédente / suivant.</LI>
 </UL>
+</LI>
 <P>Pour les fichiers Python, elle apporte:</P>
 <UL>
 <LI>déplacement à la prochaine class ou méthode,</LI>
 <LI>importation du code  de la fenêtre d'édition.</LI>
 </UL>
+</LI>
 <P>Pour les fichiers Markdown ou txt2tags:</P>
 <UL>
 <LI>prévisualisation  du résultat de la conversion en HTML dans le tampon virtuel de NVDA ou dans le navigateur par défaut,</LI>
 <LI>ajout du mode navigation pour les titres, liens, citations.</LI>
 </UL>
+</LI>
 <P>Et enfin:</P>
 <UL>
 <LI>Annonce du numéro et du retrait de chaque ligne,</LI>
@@ -91,6 +97,7 @@ author: BlindHelp
 <LI>annonce du nom du fichier avant son chemin,</LI>
 <LI>non diction des barres obliques inversées du chemin.</LI>
 </UL>
+</LI>
 <OL>
 <LI>Compatibilité:</LI>
 <P>Cette extension a été testé avec Notepad++ version 8.4.2.</P>
@@ -98,12 +105,14 @@ author: BlindHelp
 <LI>Contraintes:</LI>
 <P>Cette extension utilise et intercepte les raccourcis de Notepad++ configuré par défaut. Il est donc vivement conseillé, pour son bon fonctionnement, de ne pas modifier ces raccourcis.</P>
 </OL>
+</LI>
 <P>URL: <A HREF="https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git">https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement:</P>
 <UL>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/notepadPlusPlusAccessEnhancement/notepadPlusPlusAccessEnhancement-2.7.nvda-addon">Version stable actuelle: 2.7</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/notepadPlusPlusAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
+</LI>
 <H1>NVDAExtensionGlobalPlugin-13.4</H1>
 <P>Extension des commandes de base de NVDA</P>
 <P>Compatibilité avec NVDA : de la 2022.1 à la 2024.4</P>
@@ -135,6 +144,7 @@ author: BlindHelp
 <LI>possibilité d'exécuter des scripts depuis la boîte de dialogue "Gestes de commandes",</LI>
 <LI>et plus.</LI>
 </UL>
+</LI>
 <P>Pour la liste complète des fonctionnalités de l'extension et leur description, consultez son manuel utilisateur.</P>
 <P>URL : <A HREF="https://github.com/paulber19/NVDAExtensionGlobalPlugin.git">https://github.com/paulber19/NVDAExtensionGlobalPlugin.git</A></P>
 <P>Téléchargement :</P>
@@ -143,6 +153,7 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon">Version précédente : 13.3</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/NVDAExtensionGlobalPlugin/dev">versions de développement</A></LI>
 </UL>
+</LI>
 <H1>radioSureAccessEnhancement-2.9</H1>
 <P>Lecteur de radios internet  RadioSure: complément d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
@@ -157,6 +168,7 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.8.nvda-addon">Version stable précédente : 2.8</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/radioSureAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
+</LI>
 <H1>recuvaAccessEnhancement-1.9</H1>
 <P>Logiciel de rrécupération de fichiers Recuva: complément d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
@@ -167,6 +179,7 @@ author: BlindHelp
 <LI>ajoutant le script "KEY_Search_RESULT" pour relire le résultat global de la recherche,</LI>
 <LI>maximisant automatiquement la fenêtre affichant le  résultat de la recherche.</LI>
 </UL>
+</LI>
 <P>URL: <A HREF="https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git">https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement :</P>
 <UL>
@@ -174,6 +187,7 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.8.nvda-addon">Version stable précédente : 1.8</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/recuvaAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
+</LI>
 <H1>VLCAccessEnhancement-2.12</H1>
 <P>Lecteur multimédia VLC: compléments d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
@@ -195,6 +209,7 @@ author: BlindHelp
 <LI>annonce correcte du nom et de la valeur des potentiomètres,</LI>
 <LI>la suppression de texte html inutile dans la description de certaints objets (code source de Javi Dominguez).</LI>
 </UL>
+</LI>
 <P>La liste des commandes est obtenue par Control+NVDA+H</P>
 <P>Compatible avec VLC 3.0.</P>
 <P>URL: <A HREF="https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git">https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git</A></P>
@@ -206,6 +221,7 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.11.nvda-addon">Version précédente : 2.11</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/VLCAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
+</LI>
 <H1>wordAccessEnhancement-3.6</H1>
 <P>Éditeur de texte Microsoft Word: complément d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
@@ -226,6 +242,7 @@ author: BlindHelp
 <LI>le script (NVDA+control+f7") pour annoncer la phrase courante sous le focus.</LI>
 <LI>lecture automatique de certains éléments comme les commentaires,  notes de bas de page  ou notes de fin.</LI>
 </UL>
+</LI>
 <P>Cette extension a été testée avec Word 2019, 2016 et 2013 (marche peut-être aussi avec Word 365).</P>
 <P>URL: <A HREF="https://github.com/paulber19/wordAccessEnhancementNVDAAddon.git">https://github.com/paulber19/wordAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement :</P>
@@ -234,14 +251,10 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.5.nvda-addon">Version stable précédente : 3.5</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/wordAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
-<HR>
-
-
-
-
-Nous espérons vous revoir bientôt sur le      
-[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
-ou sur  votre nouveau espace via GitHub:                     
-[BlindHelp.github.io](https://blindhelp.github.io)                    
-
----
+</LI>
+<hr />
+<p>Nous espérons vous revoir bientôt sur le<br />
+<a href="http://blindhelp.blogspot.fr/">Blog de BlindHelp!</a><br />
+ou sur  votre nouveau espace via GitHub:<br />
+<a href="https://blindhelp.github.io">BlindHelp.github.io</a></p>
+<hr />
