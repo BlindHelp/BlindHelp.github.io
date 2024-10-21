@@ -234,9 +234,10 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/wordAccessEnhancement/wordAccessEnhancement-3.5.nvda-addon">Version stable précédente : 3.5</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/wordAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
+<HR>
 
 
----
+
 
 Nous espérons vous revoir bientôt sur le      
 [Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
