@@ -57,12 +57,11 @@ author: BlindHelp
 <P>Éditeur de texte Notepad++: compléments d'accessibilité</P>
 <P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
 <P>Description :</P>
-<OL>
-<LI>Fonctionnalités:</LI>
+<UL>
+<LI>1. Fonctionnalités:</LI>
 <P>Cette extension a pour objectif d'améliorer l'accessibilité de l'éditeur de texte  Notepad++ et ajouter des fonctionnalités pour faciliter l'édition de  fichiers utilisés en langage Python et des fichiers écrit en langage markdown.</P>
 <P>Elle reprend  la plupart des compléments apportées par l'extension NVDA_notepadPlusPlus créé par  Derek Riemer et Tuukka Ojala, puis modifiée par Robert Hänggi et Andre9642 <https://github.com/derekriemer/nvda-notepadPlusPlus>.</P>
 <P>À savoir:</P>
-<UL>
 <LI>vocalisation du résultat de la commande "control+b" qui permet de se déplacer au délimiteur symétrique,</LI>
 <LI>vocalisation du déplacement au prochain ou précédent signet par "F2" ou "majuscule+f2",</LI>
 <LI>signalement des lignes trop longues,</LI>
@@ -70,17 +69,12 @@ author: BlindHelp
 <LI>accessibilité à la recherche incrémentielle,</LI>
 <LI>Prise en charge de la fonction de recherche précédente / suivant.</LI>
 <P>Pour les fichiers Python, elle apporte:</P>
-<UL>
 <LI>déplacement à la prochaine class ou méthode,</LI>
 <LI>importation du code  de la fenêtre d'édition.</LI>
-</UL>
 <P>Pour les fichiers Markdown ou txt2tags:</P>
-<UL>
 <LI>prévisualisation  du résultat de la conversion en HTML dans le tampon virtuel de NVDA ou dans le navigateur par défaut,</LI>
 <LI>ajout du mode navigation pour les titres, liens, citations.</LI>
-</UL>
 <P>Et enfin:</P>
-<UL>
 <LI>Annonce du numéro et du retrait de chaque ligne,</LI>
 <LI>scripts pour fixer l'indentation,,</LI>
 <LI>Vocalisation du déplacement du focus par touche "Début" ,,</LI>
@@ -90,13 +84,11 @@ author: BlindHelp
 <LI>annonce réduite du chemin des fichiers,</LI>
 <LI>annonce du nom du fichier avant son chemin,</LI>
 <LI>non diction des barres obliques inversées du chemin.</LI>
-</UL>
-<OL>
-<LI>Compatibilité:</LI>
+<LI>2. Compatibilité:</LI>
 <P>Cette extension a été testé avec Notepad++ version 8.4.2.</P>
-<OL>
-<LI>Contraintes:</LI>
+<LI>3. Contraintes:</LI>
 <P>Cette extension utilise et intercepte les raccourcis de Notepad++ configuré par défaut. Il est donc vivement conseillé, pour son bon fonctionnement, de ne pas modifier ces raccourcis.</P>
+</UL>
 <P>URL: <A HREF="https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git">https://github.com/paulber19/notepadPlusPlusAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement:</P>
 <UL>
