@@ -8,10 +8,8 @@ author: BlindHelp
 <footer> Publié le Samedi 19 Octobre 2024</footer>
 
 
-<H1>Extensions mises à jour de Paulber au 19 Octobre 2024</H1>
-
 <BODY BGCOLOR="white" TEXT="black">
-<P ALIGN="center"><CENTER><H1>Éditeur de texte Notepad++: compléments d'accessibilité - Historique</H1>
+<P ALIGN="center"><CENTER><H1>Extensions mises à jour de Paulber au 19 Octobre 2024</H1>
 <FONT SIZE="4">
 <I>Auteur: paulber19 (paulber19@laposte.net)</I><BR>
 
