@@ -101,8 +101,8 @@ author: BlindHelp
 <P>Téléchargement:</P>
 <UL>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/notepadPlusPlusAccessEnhancement/notepadPlusPlusAccessEnhancement-2.7.nvda-addon">Version stable actuelle: 2.7</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/notepadPlusPlusAccessEnhancement/notepadPlusPlusAccessEnhancement-2.6.nvda-addon">Version stable précédente : 2.6</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/notepadPlusPlusAccessEnhancement/dev">versions de développement</A></LI>
-</OL>
 </UL>
 <H1>NVDAExtensionGlobalPlugin-13.4</H1>
 <P>Extension des commandes de base de NVDA</P>
