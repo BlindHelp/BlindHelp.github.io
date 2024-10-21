@@ -112,7 +112,7 @@ author: BlindHelp
 <UL>
 <LI>Affichage de la liste des icônes de la zone de notification ou des fenêtres des applications lancées,</LI>
 <LI>Aide à la composition d'un symbole complexe comme par exemple un a e lié, un symbole puissance 2 et possibilité d'ajouter ses propres catégories et symboles,</LI>
-<LI>Extension de la fonctionnalité du buffer virtuel pour navigateur :<LI>
+<LI>Extension de la fonctionnalité du buffer virtuel pour navigateur :</LI>
 <LI>nouvelles commandes pour le mode navigation (paragraphe, division, ancre, repère principal),</LI>
 <LI>nouveaux types d'éléments pour la boîte de dialogue ouverte par "NVDA+F7" (bouton radio, paragraphe, cadre, checkBox, etc) avec annonce du nombre d'éléments trouvés,</LI>
 <LI>option pour parcourir en boucle à la recherche d'un élément suivant ou précédent,</LI>
@@ -143,60 +143,39 @@ author: BlindHelp
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/NVDAExtensionGlobalPlugin/NVDAExtensionGlobalPlugin-13.3.nvda-addon">Version précédente : 13.3</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/NVDAExtensionGlobalPlugin/dev">versions de développement</A></LI>
 </UL>
-## radioSureAccessEnhancement-2.9
-
-Lecteur de radios internet  RadioSure: complément d'accessibilité
-
-Compatibilité avec NVDA : de la 2023.1 à la 2024.4
-
-Description : Cette extension améliore l'accessibilité du logiciel RadioSure,  lecteur de web radios avec NVDA.
-
-Compatible avec RadioSure 2.2.
-
-Les versions antérieures ne sont pas supportées.
-
-Voir le manuel utilisateur pour plus d'informations.
-
-<P>
-URL: <A HREF="https://github.com/paulber19/radioSureAccessEnhancementNVDAAddon.git">https://github.com/paulber19/radioSureAccessEnhancementNVDAAddon.git</A>
-</P>
-<P>
-Téléchargement :
-</P>
+<H1>radioSureAccessEnhancement-2.9</H1>
+<P>Lecteur de radios internet  RadioSure: complément d'accessibilité</P>
+<P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
+<P>Description : Cette extension améliore l'accessibilité du logiciel RadioSure,  lecteur de web radios avec NVDA.</P>
+<P>Compatible avec RadioSure 2.2.</P>
+<P>Les versions antérieures ne sont pas supportées.</P>
+<P>Voir le manuel utilisateur pour plus d'informations.</P>
+<P>URL: <A HREF="https://github.com/paulber19/radioSureAccessEnhancementNVDAAddon.git">https://github.com/paulber19/radioSureAccessEnhancementNVDAAddon.git</A></P>
+<P>Téléchargement :</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.9.nvda-addon">Version stable actuelle : 2.9</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.8.nvda-addon">Version stable précédente : 2.8</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/radioSureAccessEnhancement/dev">versions de développement</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.9.nvda-addon">Version stable actuelle : 2.9</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.8.nvda-addon">Version stable précédente : 2.8</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/radioSureAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
-<LI>
-<BR>
-
-## recuvaAccessEnhancement-1.9
-
-Logiciel de rrécupération de fichiers Recuva: complément d'accessibilité
-
-Compatibilité avec NVDA : de la 2023.1 à la 2024.4
-
-Description : Bien que cette application soit relativement bien accessible, cette extension  tente  d'améliorer l'accessibilité du logiciel de récupération de fichiers Recuva en:
-
-* nommant certains objets non étiquetés,
-* empêchant le placement inutile du focus sur des objets inconnus,
-* ajoutant le script "KEY_Search_RESULT" pour relire le résultat global de la recherche,
-* maximisant automatiquement la fenêtre affichant le  résultat de la recherche.
-
-<P>
-URL: <A HREF="https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git">https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git</A>
-</P>
-<P>
-Téléchargement :
-</P>
+<H1>recuvaAccessEnhancement-1.9</H1>
+<P>Logiciel de rrécupération de fichiers Recuva: complément d'accessibilité</P>
+<P>Compatibilité avec NVDA : de la 2023.1 à la 2024.4</P>
+<P>Description : Bien que cette application soit relativement bien accessible, cette extension  tente  d'améliorer l'accessibilité du logiciel de récupération de fichiers Recuva en:</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.9.nvda-addon">Version stable actuelle : 1.9</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.8.nvda-addon">Version stable précédente : 1.8</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/recuvaAccessEnhancement/dev">versions de développement</A>
+<LI>nommant certains objets non étiquetés,</LI>
+<LI>empêchant le placement inutile du focus sur des objets inconnus,</LI>
+<LI>ajoutant le script "KEY_Search_RESULT" pour relire le résultat global de la recherche,</LI>
+<LI>maximisant automatiquement la fenêtre affichant le  résultat de la recherche.</LI>
 </UL>
-</LI>
-<BR>
+<P>URL: <A HREF="https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git">https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git</A></P>
+<P>Téléchargement :</P>
+<UL>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.9.nvda-addon">Version stable actuelle : 1.9</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.8.nvda-addon">Version stable précédente : 1.8</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/recuvaAccessEnhancement/dev">versions de développement</A></LI>
+</UL>
+
+
 
 ## VLCAccessEnhancement-2.12
 
