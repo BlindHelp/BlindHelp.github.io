@@ -54,12 +54,14 @@ Par contre il y a le lien nommé :
 Placez le curseur sur la S de Save puis menu contextuel puis choisire :    
 `Copier l'adresse du lien` (option de Google Chrome)    
 Faites de même et cliquez sur l'élément utilisé à cet effet en fonction de votre navigateur Web utilisé.    
-Le flux d'écoute de cette radio est :     
+Le flux d'écoute de cette radio est :    
 <http://direct.franceinfo.fr/live/franceinfo-midfi.mp3>    
-Vous pouvez le mettre dans votre lecteur de flux audio favori par exemple, ou copiez-le dans le Bloc-notes pour créer plus tard une playlist avec l'extension m3u     
+Vous pouvez le mettre dans votre lecteur de flux audio favori par exemple, ou copiez-le dans le Bloc-notes pour créer plus tard une playlist avec l'extension m3u    
 
-Note : Vous auriez aussi pu ouvrir ce lien Sav dans une autre fenêtre et pouvoir savoir si le flux d'écoute de cette radio est fonctionnel.     
-Le lien nommé  Homepage Il vous amènera à la page d'accueil de la radio , dans notre cas celui-ci est :    
+Note : Vous auriez aussi pu ouvrir ce lien Sav dans une autre fenêtre et pouvoir savoir si le flux d'écoute de cette radio est fonctionnel.    
+Le lien nommé :    
+`Homepage`    
+Il vous amènera à la page d'accueil de la radio , dans notre cas celui-ci est :    
 <https://www.francetvinfo.fr/>    
 Vous devez ouvrir le lien dans une nouvelle page en utilisant votre navigateur Web préféré.    
 
