@@ -10,21 +10,21 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Aujourd'hui, je vous apporte une petite astuce pour que vous puissiez rechercher les flux d'écoute de vos radios (si disponibles) en utilisant le site [radio-browser.info](](https://www.radio-browser.info/#/)), Vous trouverez ci-dessous un mini tutoriel fait par mes soins , j'espère qu'il vous aidera.    
+Aujourd'hui, je vous apporte une petite astuce pour que vous puissiez rechercher les flux d'écoute de vos radios (si disponibles) en utilisant le site [radio-browser.info](https://www.radio-browser.info/#/). Vous trouverez ci-dessous un mini tutoriel fait par mes soins , j'espère qu'il vous aidera.    
 
-# Recherche de flux radio depuis le site [radio-browser.info](](https://www.radio-browser.info/#/))
+# Recherche de flux radio depuis le site [radio-browser.info](https://www.radio-browser.info/#/)
 
 Pour rechercher un flux radio, nous allons utiliser le site Web de [radio-browser.info (page en anglais)](https://www.radio-browser.info/#/)
 
-Une fois la page ouverte cliquez sur le lien nommé:    
+Une fois la page ouverte cliquez sur le lien nommé :    
 `By category` (celui-ci est développé).    
-On retrouvera les boutons suivants :    
+On retrouvera les boutons suivants :    
 `By country`    
 `By language`    
 `By tag`    
 `By codec`    
 
-Par exemple, si vous souhaitez trouver des radios algériennes et marocaines, vous devez cliquer sur le bouton:    
+Par exemple, si vous souhaitez trouver des radios algériennes et marocaines, vous devez cliquer sur le bouton :    
 `By country`    
 
 Une nouvelle page (toujours en anglais) s'ouvrira depuis le lien :    
@@ -47,7 +47,7 @@ Par exemple pour la France le lien est :
 Il faudra chercher le nom de la station, par exemple :    
 `France Info`    
 puis cliquez sur le bouton :    
-	Play`    
+`Play`    
 Il diffusera la radio choisie mais je n'ai pas trouvé de moyen de la mettre en pause (le bouton Play ne fait aucune autre action que de lire la radio sélectionnée).    
 Par contre il y a le lien nommé :    
 `Save`    
@@ -68,7 +68,7 @@ Vous pouvez parcourir la liste des stations suivante ou précédente en cliquant
 `Next page`    
 avec la barre espace.     
 
-Voilà la façon de rechercher des flux radio depuis le site [radio-browser.info]](](https://www.radio-browser.info/#/)) 😊     
+Voilà la façon de rechercher des flux radio depuis le site [radio-browser.info](https://www.radio-browser.info/#/) 😊     
 C'est vrai que pour notre beau pays, la France🇫🇷, il y a beaucoup de flux radios sur ce site et il faut être patient pour trouver ce qui nous plaît ! J'imagine aussi que c'est pareil pour les autres pays amis ! 😲     
 
 Vous trouverez ci-dessous un article qui peut vous donner des lignes directrices pour créer une playlist avec vos stations de radio préférées.    
