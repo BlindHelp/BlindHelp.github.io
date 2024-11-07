@@ -58,7 +58,7 @@ Le flux d'écoute de cette radio est :
 <http://direct.franceinfo.fr/live/franceinfo-midfi.mp3>    
 Vous pouvez le mettre dans votre lecteur de flux audio favori par exemple, ou copiez-le dans le Bloc-notes pour créer plus tard une playlist avec l'extension m3u     
 
-Note: Vous auriez aussi pu ouvrir ce lien Sav dans une autre fenêtre et pouvoir savoir si le flux d'écoute de cette radio est fonctionnel.     
+Note : Vous auriez aussi pu ouvrir ce lien Sav dans une autre fenêtre et pouvoir savoir si le flux d'écoute de cette radio est fonctionnel.     
 Le lien nommé  Homepage Il vous amènera à la page d'accueil de la radio , dans notre cas celui-ci est :    
 <https://www.francetvinfo.fr/>    
 Vous devez ouvrir le lien dans une nouvelle page en utilisant votre navigateur Web préféré.    
