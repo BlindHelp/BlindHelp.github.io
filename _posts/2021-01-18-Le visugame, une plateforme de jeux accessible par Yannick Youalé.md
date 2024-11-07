@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Lundi 18 Janvier 2021</footer>
+<footer>Publié le Lundi 18 Janvier 2021 - Dernière mise à jour le Jeudi 7 Novembre 2024</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
@@ -19,11 +19,11 @@ Fonctionnant directement à partir du navigateur web, ces jeux sont accessibles 
 
 Pour directement accéder aux jeux, il y a le lien:
 
-<https://www.stsolution.org/visugame/index3.php>
+<https://stsolution2.org/visuweb/users/18/game/>
 
 Pour accéder à la page d'accueil du site web, il y a le lien:
 
-<https://www.stsolution.org/visugame/>
+<https://stsolution2.org/visugame/>
 
 Les jeux disponibles sont actuellement au nombre de 13. La plupart sont compatibles avec les téléphone portables. Vous reconnaîtrez ces derniers dans la liste des jeux par le fait qu'ils sont marqués d'un astérisque (`*`).
 
@@ -75,7 +75,7 @@ L'auteur m'a informé qu'il avait prévu d'inclure la langue en espagnole sur la
 
 Merci de partager un maximum ce poste autour de vous afin de faire connaître la plateforme de jeux accessible en ligne appelé visugame! 😉    
 
-[Vous pouvez visiter son site ST Solution, en cliquant ici](https://www.stsolution.org/home.php)    
+[Vous pouvez visiter son site ST Solution, en cliquant ici](https://stsolution2.org/home.php)    
 Je vous suggère d'y jeter un coup d'œil car le site regorge d'informations pertinentes pour nous les déficients visuels .     
 Encore Mille Merci à Yannick Daniel Youalé ;)    
 Voilà donc,  tout est dit au sujet du visugame, une plateforme de jeux  accessible en ligne développé par Yannick Youalé!           
