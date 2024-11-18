@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Vendredi 15 Novembre 2024</footer>
+<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Dimanche 17 Novembre 2024</footer>
 
 
 # ReminderApp (Application de Rappel) par Adriano Barbieri 🇮🇹 :
@@ -23,9 +23,24 @@ Mais je ne peux pas entrer plus dans les détails ici, lisez le manuel d'utilisa
 Le programme est portable et ne nécessite aucune installation.    
 Merci de votre attention et bonne journée.    
 
+# Journal des changements
+
+# Version: 1.0 du Vendredi 15 Novembre 2024
+
+* Publié la version internationale le Vendredi 15 Novembre 2024 via GitHub
+
+# Version: 1.0 du Dimanche 17 Novembre 2024
+
+* Mise à jour de la documentation tchèque et slovaque grâce à Pavel.
+* Documentation allemande mise à jour grâce à Karl.
+* Correction d'une condition `>` à `>=` pour présenter des rappels répétitifs jusqu'à une date spécifique ; désormais, le rappel répété s'affiche correctement même jusqu'à la date réglée incluse.
+* L'archive est passée du format .rar au format .zip ; Certains utilisateurs ont du mal à extraire le format .rar.
+
+Nouveau lien direct, à mettre à jour dans vos listes de communauté si vous avez déjà passé l'ancien qui ne fonctionnera plus prochainement.
+
 Lien de téléchargement:     
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/refs/heads/main/ReminderApp.rar>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/refs/heads/main/ReminderApp.zip>
 
 Adriano    
 
