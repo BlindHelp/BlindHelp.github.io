@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Dimanche 17 Novembre 2024</footer>
+<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Mercredi 27 Novembre 2024</footer>
 
 
 # ReminderApp (Application de Rappel) par Adriano Barbieri 🇮🇹 :
@@ -42,8 +42,26 @@ Lien de téléchargement:
 
 <https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/refs/heads/main/ReminderApp.zip>
 
-Adriano    
+# Version: 1.1 du Mercredi 27 Novembre 2024
 
+* Ajout de la capacité de mise à jour automatique.
+* Ajout de la localisation arabe, grâce à Atoon.
+* Toute la documentation et les localisations présentes sont complètes.
+* Autres améliorations du code.
+
+Remarque :    
+L'archive contient un dossier "ReminderApp".    
+Vous pouvez extraire le dossier où vous le souhaitez, puis copier les dossiers ReminderApp_config et Sounds à l'intérieur, supprimer votre précédent dossier ReminderApp et déplacer le nouveau configuré à la place de celui supprimé ; si vous avez créé un raccourci sur le bureau, il fonctionnera toujours sans avoir à le recréer.    
+C'est nécessaire pour cette première fois car j'ai utilisé pyinstaller qui créait 29 fichiers, contrairement à py2exe qui en nécessitait 31.    
+Rien ne se passera si vous copiez simplement les nouveaux fichiers sans supprimer les précédents, seulement vous aurez des fichiers orphelins qui n'occuperont que de l'espace disque.    
+
+Lien de téléchargement de cette nouvelle version 1.1:     
+
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-1.1.zip>
+
+Merci à tous pour votre soutien.    
+Cordialement,    
+Adriano    
 
 ---
 
