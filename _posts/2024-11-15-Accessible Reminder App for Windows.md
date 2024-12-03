@@ -88,19 +88,19 @@ Vous devez dire à l'antivirus Microsoft Defender  de restaurer le fichier en qu
 5. Faites défiler vers le bas avec les flèches jusqu'à "Historique de protection".     
 6. Faites défiler vers le bas avec les flèches jusqu'à ce que vous trouviez "Menace mise en quarantaine" ou "Menace bloquée", c'est-à-dire vous pouvez trouver par exemple     :    
 Menace mise en quarantaine,  suivi de la date et de l'heure, Grave,    
-ou    
+ou :    
 Menace bloquée, suivi de la date et de l'heure, Grave,    
 7. un par un, faites  Entrée pour voir à quel fichier ces entrées font référence ;    
 et déplacez-vous avec les flèches vers le bas d'une ligne, où vous pourrez lire de quel fichier il s'agit.    
 Si vous trouvez par exemple: ReminderApp-1.2.zip, ou un autre fichier de ReminderApp dont vous savez qu'il ne constitue pas une menace, vous devez leur dire :    
-Pour lui dire, vous devez faire Entrée sur le fichier concerné, puis :    
+Pour le signaler, vous devez faire Entrée sur le fichier concerné, puis :    
 vous descendez toujours avec les flèches jusqu'à ce que vous trouviez un bouton "Actions".    
 Appuyez dessus et dites-lui quoi faire, vous pouvez faire Entrée soit sur "Restaurer", "Supprimer" ou autre.    
 C'est fait, souvenez-vous de ces étapes car je pense que vous aurez souvent ces problèmes avec l'antivirus Microsoft Defender.     
 Bon courage.    
 Adriano    
 
-# Dans le cas du téléchargement de l'archive .ZIP lors de l'extraction de l'archive .ZIP pendant la mise à jour du programme
+# Dans le cas de l'extraction de l'archive .ZIP après le téléchargement decelui-ci pendant la mise à jour du programme
 
 Je pense que l'antivirus Microsoft Defender l'a mis en quarantaine pour vous, le fichier a définitivement été téléchargé.
 
@@ -111,9 +111,9 @@ Fais-moi confiance, fais-le comme ça:
 3. Faites Entrée sur "Protection contre les virus et menaces, Action recommandée.".    
 4. Faites Entrée sur "Historique de protection".    
 5. Avec TAB déplacez-vous jusqu'à ce que vous trouviez la menace d'aujourd'hui qui a été bloquée, appuyez sur Entrée pour la développer.    
-`Menace bloquée, 02/12/2024 15:28 , Grave,`    
-ou:    
-`Menace mise en quarantaine, 02/12/2024 15:28 , Grave,`    
+`Menace bloquée, 01/12/2024 15:28 , Grave,`    
+ou :    
+`Menace mise en quarantaine, 01/12/2024 15:28 , Grave,`    
 6. Appuyez à nouveau  Tab et vous verrez ReminderApp-1.2.zip qui serait l'élément concerné.    
 vous descendez toujours avec les flèches jusqu'à ce que vous trouviez un bouton "Actions".    
 7. Appuyez sur TAB sur le bouton "Restaurer" et appuyez dessus.    
@@ -125,7 +125,7 @@ Note : Si vous ne trouvez pas l'option "Restaurer"après avoir appuyé sur le bo
 `Autoriser sur l’appareil  3 sur 3`    
 J'ai fait Entrée sur cet élément:    
 `Autoriser sur l’appareil  3 sur 3`    
-Ce choix c'est quand le fichier est bloqué lors de l'extraction du programme de mise à jour automatique.    
+Ce choix c'est quand l'archive est bloqué lors de l'extraction du programme lors de la mise à jour automatique.    
 Cependant, lorsque j'ai essayé de l'extraire après l'avoir téléchargé, il l'a mis en quarantaine pour moi ; Je lui ai dit de le restaurer et il l'a fait ; puis quand j'ai essayé de lancer l'exécutable, il m'a ennuyé du fait que l'auteur est inconnu, etc.    
 
 # Avertissement
@@ -152,7 +152,7 @@ Pour vérifier que vous disposez de la dernière version en date, allez dans le 
 `Informations sur le programme...	F1 i`    
 Une boîte de dialogue apparaît avec le message suivant :    
 `Informations sur le programme: Rappel dialogue Programme de gestion de différents types de rappels,complet avec un carnet de contacts.Version: 1.2Copyright (c) 2024 par Adriano Barbieridernière_modification: Dimanche Décembre 1, 2024Dédié à Miriam, le grand amour de ma vie.`    
-Appuyez sur le bouton Fermer ou appuyez sur la touche chap pour fermer cette boîte de dialogue.    
+Appuyez sur le bouton Fermer ou appuyez sur la touche Échap pour fermer cette boîte de dialogue.    
 
 # Description et affichage the la documentation et premier démarrage  de ReminderApp
 
