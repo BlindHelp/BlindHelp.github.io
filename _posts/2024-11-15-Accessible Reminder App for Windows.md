@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Mercredi 27 Novembre 2024</footer>
+<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Dimanche 1 Décembre 2024</footer>
 
 
 # ReminderApp (Application de Rappel) par Adriano Barbieri 🇮🇹 :
@@ -25,9 +25,30 @@ Merci de votre attention et bonne journée.
 
 # Journal des changements
 
-# Version: 1.0 du Vendredi 15 Novembre 2024
+# Version: 1.2 du Dimanche 1 Décembre 2024
+* Un bug dans la lecture de la liste des mois traduite, qui affectait les rappels annuels, a été corrigé.
+* Le code a été recompilé avec py2exe, le rendant plus compatible et convivial pour Windows Defender.
 
-* Publié la version internationale le Vendredi 15 Novembre 2024 via GitHub
+La mise à jour est automatique, cependant voici le lien:
+
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-1.2.zip>
+
+# Version: 1.1 du Mercredi 27 Novembre 2024
+
+* Ajout de la capacité de mise à jour automatique.
+* Ajout de la localisation arabe, grâce à Atoon.
+* Toute la documentation et les localisations présentes sont complètes.
+* Autres améliorations du code.
+
+Lien de téléchargement de cette nouvelle version 1.1:     
+
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-1.1.zip>
+
+Remarque :    
+L'archive contient un dossier "ReminderApp".    
+Vous pouvez extraire le dossier où vous le souhaitez, puis copier les dossiers ReminderApp_config et Sounds à l'intérieur, supprimer votre précédent dossier ReminderApp et déplacer le nouveau configuré à la place de celui supprimé ; si vous avez créé un raccourci sur le bureau, il fonctionnera toujours sans avoir à le recréer.    
+C'est nécessaire pour cette première fois car j'ai utilisé pyinstaller qui créait 29 fichiers, contrairement à py2exe qui en nécessitait 31.    
+Rien ne se passera si vous copiez simplement les nouveaux fichiers sans supprimer les précédents, seulement vous aurez des fichiers orphelins qui n'occuperont que de l'espace disque.    
 
 # Version: 1.0 du Dimanche 17 Novembre 2024
 
@@ -42,22 +63,127 @@ Lien de téléchargement:
 
 <https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/refs/heads/main/ReminderApp.zip>
 
-# Version: 1.1 du Mercredi 27 Novembre 2024
+# Version: 1.0 du Vendredi 15 Novembre 2024
 
-* Ajout de la capacité de mise à jour automatique.
-* Ajout de la localisation arabe, grâce à Atoon.
-* Toute la documentation et les localisations présentes sont complètes.
-* Autres améliorations du code.
+* Publié la version internationale le Vendredi 15 Novembre 2024 via GitHub
 
-Remarque :    
-L'archive contient un dossier "ReminderApp".    
-Vous pouvez extraire le dossier où vous le souhaitez, puis copier les dossiers ReminderApp_config et Sounds à l'intérieur, supprimer votre précédent dossier ReminderApp et déplacer le nouveau configuré à la place de celui supprimé ; si vous avez créé un raccourci sur le bureau, il fonctionnera toujours sans avoir à le recréer.    
-C'est nécessaire pour cette première fois car j'ai utilisé pyinstaller qui créait 29 fichiers, contrairement à py2exe qui en nécessitait 31.    
-Rien ne se passera si vous copiez simplement les nouveaux fichiers sans supprimer les précédents, seulement vous aurez des fichiers orphelins qui n'occuperont que de l'espace disque.    
+Lien de téléchargement:     
 
-Lien de téléchargement de cette nouvelle version 1.1:     
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/refs/heads/main/ReminderApp.rar>
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-1.1.zip>
+# Antivirus Microsoft Defender, restaurer le fichier en quarantaine Par Adriano Barbieri 🇮🇹
+
+Adapté en français par Rémy Ruiz (BlindHelp). 🇫🇷    
+
+# Dans le cas du téléchargement de l'archive .ZIP
+
+J'ai le message suivant qui apparaît lorsque je télécharge un fichier .exe d'une personne en qui j'ai confiance:    
+`Nouvelle notification de Sécurité Windows, Menaces détectées, L'antivirus Microsoft Defender a détecté des menaces. Obtenir des détails... .`    
+
+Vous devez dire à l'antivirus Microsoft Defender  de restaurer le fichier en quarantaine, je vais essayer de vous expliquer étape par étape :    
+1. Appuyez sur Windows+b.    
+2. Déplacez-vous vers l'icône "Sécurité Windows - Actions recommandées".    
+3. utilisez le menu contextuel puis faites Entrée sur "Afficher le tableau de bord de sécurité".    
+4. Entrée sur Protection contre les virus et menaces, Action recommandée.".    
+5. Faites défiler vers le bas avec les flèches jusqu'à "Historique de protection".     
+6. Faites défiler vers le bas avec les flèches jusqu'à ce que vous trouviez "Menace mise en quarantaine" ou "Menace bloquée", c'est-à-dire vous pouvez trouver par exemple     :    
+Menace mise en quarantaine,  suivi de la date et de l'heure, Grave,    
+ou    
+Menace bloquée, suivi de la date et de l'heure, Grave,    
+7. un par un, faites  Entrée pour voir à quel fichier ces entrées font référence ;    
+et déplacez-vous avec les flèches vers le bas d'une ligne, où vous pourrez lire de quel fichier il s'agit.    
+Si vous trouvez par exemple: ReminderApp-1.2.zip, ou un autre fichier de ReminderApp dont vous savez qu'il ne constitue pas une menace, vous devez leur dire :    
+Pour lui dire, vous devez faire Entrée sur le fichier concerné, puis :    
+vous descendez toujours avec les flèches jusqu'à ce que vous trouviez un bouton "Actions".    
+Appuyez dessus et dites-lui quoi faire, vous pouvez faire Entrée soit sur "Restaurer", "Supprimer" ou autre.    
+C'est fait, souvenez-vous de ces étapes car je pense que vous aurez souvent ces problèmes avec l'antivirus Microsoft Defender.     
+Bon courage.    
+Adriano    
+
+# Dans le cas du téléchargement de l'archive .ZIP lors de l'extraction de l'archive .ZIP pendant la mise à jour du programme
+
+Je pense que l'antivirus Microsoft Defender l'a mis en quarantaine pour vous, le fichier a définitivement été téléchargé.
+
+Fais-moi confiance, fais-le comme ça:
+
+1. Appuyez sur Windows+b et appuyez sur le menu contextuel sur l'icône de "Sécurité Windows - Actions recommandées".    
+2. Faites Entrée sur "Afficher le tableau de bord de sécurité".    
+3. Faites Entrée sur "Protection contre les virus et menaces, Action recommandée.".    
+4. Faites Entrée sur "Historique de protection".    
+5. Avec TAB déplacez-vous jusqu'à ce que vous trouviez la menace d'aujourd'hui qui a été bloquée, appuyez sur Entrée pour la développer.    
+`Menace bloquée, 02/12/2024 15:28 , Grave,`    
+ou:    
+`Menace mise en quarantaine, 02/12/2024 15:28 , Grave,`    
+6. Appuyez à nouveau  Tab et vous verrez ReminderApp-1.2.zip qui serait l'élément concerné.    
+vous descendez toujours avec les flèches jusqu'à ce que vous trouviez un bouton "Actions".    
+7. Appuyez sur TAB sur le bouton "Restaurer" et appuyez dessus.    
+À ce stade, vous trouverez ReminderApp-1.2.zip dans le chemin où vous l'avez téléchargé.    
+Non seulement cela, je jetterais un œil dans `%temp%`, vous devriez y trouver le dossier `"update\ReminderApp"`, c'est-à-dire le dossier extrait du programme.    
+Note : Si vous ne trouvez pas l'option "Restaurer"après avoir appuyé sur le bouton "Actions", Vous avez probablement les éléments suivants affichés:    
+`Quarantaine 1 sur 3`    
+`Supprimer 2 sur 3`    
+`Autoriser sur l’appareil  3 sur 3`    
+J'ai fait Entrée sur cet élément:    
+`Autoriser sur l’appareil  3 sur 3`    
+Ce choix c'est quand le fichier est bloqué lors de l'extraction du programme de mise à jour automatique.    
+Cependant, lorsque j'ai essayé de l'extraire après l'avoir téléchargé, il l'a mis en quarantaine pour moi ; Je lui ai dit de le restaurer et il l'a fait ; puis quand j'ai essayé de lancer l'exécutable, il m'a ennuyé du fait que l'auteur est inconnu, etc.    
+
+# Avertissement
+
+Le fichier ReminderApp-1.2.zip, une fois extrait, contiendra son exécutable appelé ReminderApp.exe, qui sera déclaré faux positif par votre antivirus lors de son exécution pour la première fois !    
+
+Cela se produit avec l'antivirus Windows Defender par exemple.    
+
+Comment autoriser l’antivirus Windows Defender à exécuter le programme quand même ?    
+
+Pour permettre au programme de s'exécuter quand même avec Windows Defender, il faut cliquer sur "Informations complémentaires". Un bouton "Exécuter quand même" apparaît alors, il suffit de cliquer dessus pour lancer l'exécution du programme sur Windows.    
+
+Cela doit être fait chaque fois que le nouveau fichier exécutable ReminderApp.exe est installé dans le dossier ReminderApp.    
+
+# Quelques tests complémentaires pour savoir si je suis à jour avec le dernier fichier téléchargé
+
+pour savoir si vous avez obtenu la dernière version, allez dans le menu Aide et sélectionnez en cliquant sur Entrée sur l'élément:    
+`Rechercher des mises à jour...	Ctrl+Shift+U`    
+Une boîte de dialogue apparaît avec le message suivant :    
+`Rechercher des mises à jour dialogue Désolé, mais aucune mise à jour n'est disponible pour le moment.`    
+`OK`    
+ 
+Pour vérifier que vous disposez de la dernière version en date, allez dans le menu Aide et sélectionnez en cliquant sur Entrée sur l'élément:    
+`Informations sur le programme...	F1 i`    
+Une boîte de dialogue apparaît avec le message suivant :    
+`Informations sur le programme: Rappel dialogue Programme de gestion de différents types de rappels,complet avec un carnet de contacts.Version: 1.2Copyright (c) 2024 par Adriano Barbieridernière_modification: Dimanche Décembre 1, 2024Dédié à Miriam, le grand amour de ma vie.`    
+Appuyez sur le bouton Fermer ou appuyez sur la touche chap pour fermer cette boîte de dialogue.    
+
+# Description et affichage the la documentation et premier démarrage  de ReminderApp
+
+Avec ReminderApp (Rappel), plus d'oubli !    
+Rassurez-vous, ce programme est là pour vous rappeler tout ce qui est important grâce aux rappels telles que (ex : prendre ses médicaments, ne pas oublier un rendez-vous ou la visite de quelqu'un, avec la baby-sitter, l'aide ménagère, l'infirmière, etc.).    
+Même des rappels d'un anniversaire !    
+Nous avons tous vécu ce moment embarrassant au moins une fois dans notre vie : oublier l'anniversaire d'un proche ! Il faut dire qu'il n'est pas toujours évident de se souvenir des dates d'anniversaire de toutes les personnes que l'on a l'habitude de côtoyer (surtout lorsqu'on est issu d'une famille nombreuse ou qu'on fait partie d'une grande bande de copains).    
+C'est vous qui entrez les dates d'anniversaire de toute la famille et le programme se charge de vous les rappeler tous les ans avec une alarme, y compris des rappels d'une  célébration !    
+Ce programme contient aussi un carnet d'adresses !    
+
+Pour en savoir plus et configurer ce programme Veuillez lire cette documentation dans son intégralité. Merci.    
+
+Vous pouvez trouver celle-ci dans le menu Aide en cliquant dans l'élément :    
+`Manuel d'utilisation...	Shift+F1`    
+
+À savoir qu'au premier démarrage du programme, la langue est l'anglais, vous devez la configurer en français pour avoir l'interface et la documentation dans cette langue.    
+
+Pour cela vous devez vous rendre dans l'élément: `Settings sous-Menu Alt+ s`    
+Puis en cliquant sur l'élément: `Set language	Ctrl+Shift+L`    
+Une boîte de dialogue apparaît en anglais comme titre:    
+`Select a language: dialogue`    
+`Available languages ​​(requires reboot to take effect): liste`    
+Appuyez sur la lettre f pour obtenir la langue:    
+`French, fr`    
+Appuyez sur Entrée    
+Une boîte de dialogue apparaît avec le message suivant en anglais :    
+`Language setting dialogue It is necessary to restart the program.`    
+`OK bouton`    
+En cliquant sur le bouton OK, vous redémarrerez le programme avec l'interface et la documentation dans notre belle langue, le français. 🇫🇷    
+
+---
 
 Merci à tous pour votre soutien.    
 Cordialement,    
