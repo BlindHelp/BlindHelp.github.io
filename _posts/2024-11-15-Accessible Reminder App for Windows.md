@@ -104,7 +104,7 @@ Adriano
 
 Je pense que l'antivirus Microsoft Defender l'a mis en quarantaine pour vous, le fichier a définitivement été téléchargé.
 
-Fais-moi confiance, fais-le comme ça:
+Faites-moi  confiance, faites-le de cette manière :
 
 1. Appuyez sur Windows+b et appuyez sur le menu contextuel sur l'icône de "Sécurité Windows - Actions recommandées".    
 2. Faites Entrée sur "Afficher le tableau de bord de sécurité".    
@@ -152,7 +152,7 @@ En cliquant sur le bouton OK, vous fermez cette boîte de dialogue.
  
 Pour vérifier que vous disposez de la dernière version en date, allez dans le menu "Aide" et sélectionnez l'élément :    
 `Informations sur le programme...	F1 i`    
-Puis cliquez Entrée sur lui.
+Puis cliquez Entrée sur lui.    
 Une boîte de dialogue apparaît avec le message suivant :    
 `Informations sur le programme: Rappel dialogue Programme de gestion de différents types de rappels,complet avec un carnet de contacts.Version: 1.2Copyright (c) 2024 par Adriano Barbieridernière_modification: Dimanche Décembre 1, 2024Dédié à Miriam, le grand amour de ma vie.`    
 Appuyez sur le bouton Fermer ou appuyez sur la touche Échap pour fermer cette boîte de dialogue.    
