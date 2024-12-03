@@ -100,7 +100,7 @@ C'est fait, souvenez-vous de ces étapes car je pense que vous aurez souvent ces
 Bon courage.    
 Adriano    
 
-# Dans le cas de l'extraction de l'archive .ZIP après le téléchargement decelui-ci pendant la mise à jour du programme
+# Dans le cas de l'extraction de l'archive .ZIP après le téléchargement de celui-ci pendant la mise à jour automatique du programme
 
 Je pense que l'antivirus Microsoft Defender l'a mis en quarantaine pour vous, le fichier a définitivement été téléchargé.
 
@@ -114,7 +114,7 @@ Fais-moi confiance, fais-le comme ça:
 `Menace bloquée, 01/12/2024 15:28 , Grave,`    
 ou :    
 `Menace mise en quarantaine, 01/12/2024 15:28 , Grave,`    
-6. Appuyez à nouveau  Tab et vous verrez ReminderApp-1.2.zip qui serait l'élément concerné.    
+6. Appuyez à nouveau  sur Tab et vous verrez ReminderApp-1.2.zip qui serait l'élément concerné.    
 vous descendez toujours avec les flèches jusqu'à ce que vous trouviez un bouton "Actions".    
 7. Appuyez sur TAB sur le bouton "Restaurer" et appuyez dessus.    
 À ce stade, vous trouverez ReminderApp-1.2.zip dans le chemin où vous l'avez téléchargé.    
