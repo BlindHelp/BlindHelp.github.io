@@ -142,14 +142,17 @@ Cela doit être fait chaque fois que le nouveau fichier exécutable ReminderApp.
 
 # Quelques tests complémentaires pour savoir si je suis à jour avec le dernier fichier téléchargé
 
-pour savoir si vous avez obtenu la dernière version, allez dans le menu Aide et sélectionnez en cliquant sur Entrée sur l'élément:    
+pour savoir si vous avez obtenu la dernière version en date du programme, allez dans le menu "Aide" et sélectionnez l'élément :    
 `Rechercher des mises à jour...	Ctrl+Shift+U`    
+Puis cliquez Entrée sur lui.    
 Une boîte de dialogue apparaît avec le message suivant :    
 `Rechercher des mises à jour dialogue Désolé, mais aucune mise à jour n'est disponible pour le moment.`    
-`OK`    
+`OK bouton`    
+En cliquant sur le bouton OK, vous fermez cette boîte de dialogue.    
  
-Pour vérifier que vous disposez de la dernière version en date, allez dans le menu Aide et sélectionnez en cliquant sur Entrée sur l'élément:    
+Pour vérifier que vous disposez de la dernière version en date, allez dans le menu "Aide" et sélectionnez l'élément :    
 `Informations sur le programme...	F1 i`    
+Puis cliquez Entrée sur lui.
 Une boîte de dialogue apparaît avec le message suivant :    
 `Informations sur le programme: Rappel dialogue Programme de gestion de différents types de rappels,complet avec un carnet de contacts.Version: 1.2Copyright (c) 2024 par Adriano Barbieridernière_modification: Dimanche Décembre 1, 2024Dédié à Miriam, le grand amour de ma vie.`    
 Appuyez sur le bouton Fermer ou appuyez sur la touche Échap pour fermer cette boîte de dialogue.    
@@ -165,17 +168,18 @@ Ce programme contient aussi un carnet d'adresses !
 
 Pour en savoir plus et configurer ce programme Veuillez lire cette documentation dans son intégralité. Merci.    
 
-Vous pouvez trouver celle-ci dans le menu Aide en cliquant dans l'élément :    
+Vous pouvez trouver celle-ci dans le menu "Aide" en cliquant sur l'élément :    
 `Manuel d'utilisation...	Shift+F1`    
+Cette documentation s'affichera par défaut dans votre navigateur en langue française y compris l'interface dans la même langue, s'il a été configuré comme expliqué ci-dessous.    
 
 À savoir qu'au premier démarrage du programme, la langue est l'anglais, vous devez la configurer en français pour avoir l'interface et la documentation dans cette langue.    
 
-Pour cela vous devez vous rendre dans l'élément: `Settings sous-Menu Alt+ s`    
+Pour cela vous devez vous rendre dans l'élément : `Settings sous-Menu Alt+ s`    
 Puis en cliquant sur l'élément: `Set language	Ctrl+Shift+L`    
-Une boîte de dialogue apparaît en anglais comme titre:    
+Une boîte de dialogue apparaît en anglais comme titre :    
 `Select a language: dialogue`    
 `Available languages ​​(requires reboot to take effect): liste`    
-Appuyez sur la lettre f pour obtenir la langue:    
+Appuyez sur la lettre f pour obtenir la langue :    
 `French, fr`    
 Appuyez sur Entrée    
 Une boîte de dialogue apparaît avec le message suivant en anglais :    
