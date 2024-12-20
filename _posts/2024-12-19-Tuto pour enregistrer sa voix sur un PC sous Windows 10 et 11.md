@@ -223,6 +223,10 @@ Dans mon cas le seule périphérique que j'ai par défaut est:
 
 Remarque : Pour fermer la fenêtre  de l'application Enregistreur vocal faites Alt+F4
 
+Puis malgré mes explications trouvées plus haut, si vous ne trouvez toujours pas l'application Enregistreur vocal sur votre ordinateur vous trouverez un lien ci-dessous depuis le Microsoft Store pour le télécharger et l'installer.
+
+[`Enregistreur vocal Windows : téléchargement et installation gratuits sous Windows | Microsoft Store`](https://apps.microsoft.com/detail/9WZDNCRFHWKN?hl=fr-fr&gl=FR&ocid=pdpshare)
+
 Cette application Enregistreur vocal a été testée avec un Windows 11 pro de bureau et le lecteur d'écran NVDA dans sa dernière version.
 
 Comme vous le voyez c'est un outil Windows très simple d'utilisation pour introduire l'audio dans votre pédagogie et bien plus encore ! 😉    
