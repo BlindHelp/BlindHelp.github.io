@@ -1,0 +1,28 @@
+#EXTM3U
+#EXTINF:0,Alpes 1 Christmas Songs (🇫🇷)
+http://alpes-1-thema.ice.infomaniak.ch/alpes-1-thema.mp3
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,La Radio Plus Christmas (🇫🇷)
+http://la-radio-plus-thema.ice.infomaniak.ch/la-radio-plus-thema.mp3
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,ODS Radio Christmas Songs (🇫🇷)
+http://odsradio-thema.ice.infomaniak.ch/odsradio-thema.mp3
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,Radio Espace Christmas Songs (🇫🇷)
+http://radio-espace-thema.ice.infomaniak.ch/radio-espace-thema.mp3
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,Radio RVA Christmas Songs (🇫🇷)
+http://rva-thema.ice.infomaniak.ch/rva-thema.mp3
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,RFM Christmas (🇫🇷)
+http://stream.rfm.fr/rfm-wr15.mp3
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,Oüi FM Christmas Rock (🇫🇷)
+http://ouifmnoel.ice.infomaniak.ch/ouifmnoel-128.mp3
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,Nostalgie Christmas (🇧🇪)
+http://stream.rcs.revma.com/hdv48cq4ehuvv
+#EXTVLCOPT:network-caching=1000
+#EXTINF:0,Hotmix Christmas (🇫🇷)
+http://stream.rcs.revma.com/kcachd3nx7uvv
+#EXTVLCOPT:network-caching=1000
