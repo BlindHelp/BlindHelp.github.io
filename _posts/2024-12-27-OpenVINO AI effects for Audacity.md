@@ -85,17 +85,16 @@ Nous devons maintenant configurer notre version d'Audacity pour activer ledit pl
 2. Ouvrir les préférences avec Ctrl+P
 3. Aller à l'élément :    
 `Modules`    
-Faire Tab    
+4. Faire Tab    
 `Préférences : Modules`    
-Choisissez dans la liste des modules :    
+5. Choisissez dans la liste des modules :    
 `mod-openvino No choice made`    
 Il faudra le mettre avec flèche haut sur Activé""    
 Celui-ci une fois modifié sera indiqué comme :    
 `mod-openvino Activé`    
-Faire Tab et appuyez sur le bouton :
+6. Faire Tab et appuyez sur le bouton :
 `Valider`    
-
-Et fermez le programme Audacity pour que ces changements prennent effet.
+7. Et enfin, fermez le programme Audacity pour que ces changements prennent effet.
 
 Ouvrez à nouveau Audacity s'il ne vous donne aucun message d'erreur indiquant que ledit plugin ne peut pas être chargé, tout est maintenant parfait pour son utilisation.
 
@@ -107,13 +106,13 @@ Cette explication qui suit ne vient pas de moi !
 
 ## Comment utiliser la transcription OpenVino Whisper dans Audacity
 
-Étape 1 : Sélectionnez le fichier audio, puis choisissez Analyser dans le menu déroulant -> Transcription OpenVino Whisper.
-Étape 2 : Choisissez le modèle "Large" et effectuez le rendu.
-Étape 3 : Sélectionnez le nouveau fichier de transcription sous la chanson, allez dans Fichier, Export Other -> Exporter les marqueurs.
-Étape 4 : Le fichier par défaut est au format .txt. Changez-le en .SRT et enregistrez.
-Étape 5 : Ouvrez le fichier .SRT dans le bloc-notes et modifiez les paroles si nécessaire.
-Étape 6 : Importez le fichier .SRT dans CapCut ou tout autre programme de montage vidéo pour afficher vos paroles.
-Résultat final si curieux : <https://youtu.be/BEx2Nlx7t8c?si=ZyEiej_MfnMJNRCT>
+* Étape 1 : Sélectionnez le fichier audio, puis choisissez Analyser dans le menu déroulant -> Transcription OpenVino Whisper.
+* Étape 2 : Choisissez le modèle "Large" et effectuez le rendu.
+* Étape 3 : Sélectionnez le nouveau fichier de transcription sous la chanson, allez dans Fichier, Export Other -> Exporter les marqueurs.
+* Étape 4 : Le fichier par défaut est au format .txt. Changez-le en .SRT et enregistrez.
+* Étape 5 : Ouvrez le fichier .SRT dans le bloc-notes et modifiez les paroles si nécessaire.
+* Étape 6 : Importez le fichier .SRT dans CapCut ou tout autre programme de montage vidéo pour afficher vos paroles.
+* Résultat final si curieux : <https://youtu.be/BEx2Nlx7t8c?si=ZyEiej_MfnMJNRCT>
 
 Cette dernière information a été trouvée sur le Web.
 
