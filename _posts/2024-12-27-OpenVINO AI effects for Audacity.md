@@ -34,12 +34,10 @@ Pour le contenu de créations vocales, les effets OpenVINO contiennent une suppr
 
 Pour la musique, les plugins de génération et de séparation font partie des effets OpenVINO.
 
-1. Music Generation `&` Continuation: Utilise le modèle MusicGen LLM de Meta pour générer des extraits de musique ou pour générer une continuation d'un extrait de musique existant.
-
+1. Music Generation `&` Continuation: Utilise le modèle MusicGen LLM de Meta pour générer des extraits de musique ou pour générer une continuation d'un extrait de musique existant.    
 Cette fonctionnalité est particulièrement utile pour les créateurs cherchant à générer de nouvelles idées musicales ou à étendre leurs compositions actuelles.
 
-2. Music Separation: Permet de séparer une piste mono ou stéréo en stems individuels : batterie, basse, voix et autres instruments.
-
+2. Music Separation: Permet de séparer une piste mono ou stéréo en stems individuels : batterie, basse, voix et autres instruments.    
 Ce processus utilise le modèle Demucs v4 de Meta pour effectuer la séparation.
 
 Les plugins OpenVINO peuvent être téléchargés sur la page GitHub prévue à cet effet (voir le lien de la page du dépôt sur GitHub ci-dessous).
