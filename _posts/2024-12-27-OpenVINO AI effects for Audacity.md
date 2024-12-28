@@ -126,8 +126,8 @@ Celui-ci une fois modifié sera indiqué comme :
 `Valider`    
 7. Et enfin, fermez le programme Audacity pour que ces changements prennent effet.
 
-Assurez-vous que le plugin est fonctionnel, pour ça
-1. Ouvrez à nouveau Audacity s'il ne vous donne aucun message d'erreur indiquant que ledit plugin ne peut pas être chargé, tout est maintenant parfait pour son utilisation.
+Assurez-vous que le plugin est fonctionnel, pour ça :    
+1. Ouvrez à nouveau Audacity s'il ne vous donne aucun message d'erreur indiquant que ledit plugin ne peut pas être chargé, tout est maintenant parfait pour son utilisation.    
 Note : Si vous recevez un message vous indiquant que ledit plugin ne peut pas être chargé, validez sur le bouton indiqué et vérifiez soigneusement si votre version d'Audacity correspond à celle du plugin téléchargé et réitérez les directives indiquées ci-dessus, c'est-à-dire recherchez la version du plugin et recherchez-le sur la page où ledit plugin est hébergé pour le télécharger et l'installer à nouveau.
 
 Téléchargez Audacity pour Windows depuis son [site officiel (page en anglais)](https://www.audacityteam.org/download/windows/)
