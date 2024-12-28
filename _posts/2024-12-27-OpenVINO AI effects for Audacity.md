@@ -63,7 +63,7 @@ Si vous possédez la version d'Audacity 3.6.4, voici ci-dessous le lien de tél�
 
 Une fois le téléchargement terminé avant de cliquer sur l'exécutable (.exe) eh bien, il est recommandé de fermer toutes les applications ouvertes avant de continuer avec l'installation du plugin.
 
-L'installation est en anglais au cas où, L'assistant d'installation affichera le message suivant une fois que vous aurez cliqué sur l'exécutable  comme nom :
+L'installation est en anglais au cas où, l'assistant d'installation affichera le message suivant une fois que vous aurez cliqué sur l'exécutable  comme nom :
 
 `audacity-win-v3.6.4-R3.4-64bit-OpenVINO-AI-Plugins.exe`    
 `Setup`    
@@ -181,7 +181,7 @@ Vous trouverez ici les options suivantes où vous pourrez attribuer un raccourci
 Dans ce champ d'édition, vous devrez cliquer sur les touches que vous souhaitez utiliser pour déclencher cette action.    
 8. Faire Tab et validez sur le bouton appelé :    
 `Attribuer bouton Alt+ a`    
-Note: Si le raccourci ne vous convient pas, vous pouvez cliquer sur le bouton intitulé :
+Note : Si le raccourci ne vous convient pas, vous pouvez cliquer sur le bouton intitulé :
 `Effacer bouton Alt+ e`    
 9. En faisant Tab, vous retrouverez également les boutons appelés :    
 `Importer… bouton Alt+ i`    
