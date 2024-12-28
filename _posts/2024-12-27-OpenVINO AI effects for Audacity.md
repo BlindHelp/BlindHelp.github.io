@@ -18,11 +18,11 @@ Intel a créé une suite d'outils qui intègre l'intelligence artificielle (IA) 
 
 ## Outils qui intègre l'intelligence artificielle (IA) pour les podcasts
 
-Pour le contenu de créations parlés, les effets OpenVINO contiennent une suppression du bruit et un plugin de transcription.
+Pour le contenu de créations vocales, les effets OpenVINO contiennent une suppression du bruit et un plugin de transcription.
 
 La suppression du bruit (Noise Suppression) balai: Supprime le bruit de fond d'un échantillon audio. En tant que tel, il se comporte de manière similaire à l’effet de suppression du bruit intégré d'Audacity.
 
-Whisper Transcription microphone: Utilise [whisper.cpp](https://github.com/ggerganov/whisper.cpp) pour générer une piste d'étiquette contenant la transcription ou la traduction d'une sélection donnée d'audio parlé sélection d'audio parlé ou de chant. Si vous souhaitez exporter ces transcriptions, vous pouvez le faire via Fichier → Export Other → Exporter les marqueurs.
+Whisper Transcription microphone: Utilise [whisper.cpp](https://github.com/ggerganov/whisper.cpp) pour générer une piste d'étiquette contenant la transcription ou la traduction d'une sélection donnée d'audio parlé ou vocales. Si vous souhaitez exporter ces transcriptions, vous pouvez le faire via Fichier → Export Other → Exporter les marqueurs.
 
 ## Outils qui intègre l'intelligence artificielle (IA pour la musique
 
@@ -32,7 +32,7 @@ Music Separation Séparez une piste mono ou stéréo en stems individuels : bat
 
 Les plugins OpenVINO peuvent être téléchargés sur la page GitHub prévue à cet effet (voir le lien de la page du dépôt sur GitHub ci-dessous).
 
-Vous pouvez également voir ces explications en anglais, en cliquant sur le lien suivant
+Vous pouvez également voir d'autres explications en anglais, en cliquant sur le lien suivant
 
 [`Audacity ® | Introducing OpenVINO AI effects for Audacity`](https://www.audacityteam.org/blog/openvino-ai-effects/)
 
