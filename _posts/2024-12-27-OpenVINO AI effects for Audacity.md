@@ -12,6 +12,12 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 L'intelligence artificielle débarque chez Audacity avec le module OpenVINO !
 
+C'est un plugin pour tous les créateurs.
+
+Le plugin OpenVINO pour Audacity est idéal pour une grande variété d'utilisateurs, des débutants aux professionnels chevronnés. Que vous éditiez des podcasts, enregistriez de la musique ou que vous expérimentiez simplement le son, ce plugin vous donnera les outils dont vous avez besoin pour créer des résultats impressionnants. Faites passer votre montage audio vers le futur.
+
+Avec l'intégration de l'intelligence artificielle (IA) dans le montage audio, le plugin OpenVINO pour Audacity cela marque un avant et un après. Téléchargez ce plugin gratuit à partir du lien ci-dessous et découvrez un monde de possibilités pour améliorer vos créations sonores.
+
 C'est un excellent plugin pour Audacity, et un moyen très simple de transcrire de l'audio en texte.
 
 Intel a créé une suite d'outils qui intègre l'intelligence artificielle (IA) pour [Audacity®](https://www.audacityteam.org/), utiles aussi bien pour l'audio que pour la musique. Ces fonctionnalités contenant l'intelligence artificielle (IA) s'exécutent à 100 % localement sur votre PC. Aucune connexion Internet nécessaire ! [OpenVINO™](https://github.com/openvinotoolkit/openvino) est utilisé pour exécuter des modèles d'intelligence artificielle (IA) sur les accélérateurs pris en charge trouvés sur le système de l'utilisateur, tels que le CPU, le GPU et le NPU.
@@ -20,15 +26,21 @@ Intel a créé une suite d'outils qui intègre l'intelligence artificielle (IA) 
 
 Pour le contenu de créations vocales, les effets OpenVINO contiennent une suppression du bruit et un plugin de transcription.
 
-La suppression du bruit (Noise Suppression) balai: Supprime le bruit de fond d'un échantillon audio. En tant que tel, il se comporte de manière similaire à l’effet de suppression du bruit intégré d'Audacity.
+1. La suppression du bruit (Noise Suppression) balai: Supprime le bruit de fond d'un échantillon audio en utilisant des modèles comme DeepFilter2 et DeepFilter3, qui sont plus rapides et produisent des résultats de meilleure qualité par rapport aux modèles précédents. En tant que tel, il se comporte de manière similaire à l’effet de suppression du bruit intégré d'Audacity.
 
-Whisper Transcription microphone: Utilise [whisper.cpp](https://github.com/ggerganov/whisper.cpp) pour générer une piste d'étiquette contenant la transcription ou la traduction d'une sélection donnée d'audio parlé ou vocales. Si vous souhaitez exporter ces transcriptions, vous pouvez le faire via Fichier → Export Other → Exporter les marqueurs.
+2. Whisper Transcription: microphone: Utilise le modèle [whisper.cpp](https://github.com/ggerganov/whisper.cpp) pour générer une piste d'étiquette contenant la transcription ou la traduction des sélections d'audio parlées ou vocales, qui peut gérer différentes tailles de modèles (petites, moyennes et grandes) selon les besoins de l'utilisateur. Si vous souhaitez exporter ces transcriptions, vous pouvez le faire via Fichier → Export Other → Exporter les marqueurs.
 
 ## Outils qui intègre l'intelligence artificielle (IA pour la musique
 
-Pour la musique, les plugins de génération et de séparation font partie des effets OpenVINO. Music Generation Utilise MusicGen LLM pour générer des extraits de musique ou pour générer une continuation d'un extrait de musique existant.
+Pour la musique, les plugins de génération et de séparation font partie des effets OpenVINO.
 
-Music Separation Séparez une piste mono ou stéréo en stems individuels : batterie, basse, voix et autres instruments.
+1. Music Generation `&` Continuation: Utilise le modèle MusicGen LLM de Meta pour générer des extraits de musique ou pour générer une continuation d'un extrait de musique existant.
+
+Cette fonctionnalité est particulièrement utile pour les créateurs cherchant à générer de nouvelles idées musicales ou à étendre leurs compositions actuelles.
+
+2. Music Separation: Permet de séparer une piste mono ou stéréo en stems individuels : batterie, basse, voix et autres instruments.
+
+Ce processus utilise le modèle Demucs v4 de Meta pour effectuer la séparation.
 
 Les plugins OpenVINO peuvent être téléchargés sur la page GitHub prévue à cet effet (voir le lien de la page du dépôt sur GitHub ci-dessous).
 
