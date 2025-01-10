@@ -1,0 +1,63 @@
+---
+title: OpenAI pour NVDA, ou quand ChatGPT devient une extension de votre lecteur d'écran pour Windows par Oxytude
+permalink: "/openai-extension-pour-nvda/"
+layout: post
+author: BlindHelp
+---
+
+<footer>Publié le Lundi 30 Décembre 2024</footer>
+
+
+Coucou mes amis du blog de BlindHelp!    
+Pour continuer la saga de l'IA (Intelligence Artificielle) je vous propose une extension pour NVDA appelée OpenAI, donc voici les infos de cette extension fournie par l'auteur.
+
+Open AI est une extension NVDA conçue pour intégrer de manière transparente les fonctionnalités de l'API d'Open AI dans votre flux de travail. Que vous souhaitiez rédiger un texte complet, traduire des passages avec précision, résumer de manière concise des documents ou même interpréter et décrire du contenu visuel, cette extension fait tout cela facilement.    
+Le module complémentaire prend également en charge l'intégration avec les services Mistral et OpenRouter, grâce à leur format d'API commun.    
+
+* Éditeur : aaclause
+* Version disponible : 24.06.29
+* Canal : Dev
+* Page web : <https://andreabc.net/projects/NVDA_addons/OpenAI>
+* Licence : GPL v2
+* URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
+* URL de téléchargement : <https://github.com/aaclause/nvda-OpenAI/releases/download/1.0b7/OpenAI-24.06.29.nvda-addon>
+* URL du code source : <https://github.com/aaclause/nvda-OpenAI/>
+* URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/2065>
+
+Voici plus bas un podcast à écouter dédié à l'extension OpenAI fait par Sof via Oxytude.
+
+# Présentation de l'extension OpenAI pour NVDA, ou quand ChatGPT devient une extension de votre lecteur d'écran pour Windows  via Oxytude rédigé par Sof
+
+Dans ce podcast, on se plonge une nouvelle fois dans le monde de l'intelligence artificielle, avec une extension NVDA qui intègre la puissance de ChatGPT directement sur votre PC. Par le biais de quelques raccourcis clavier, vous allez pouvoir non seulement interagir textuellement avec lui comme on peut le faire avec les applis mobile ou le navigateur, mais également exploiter des images et de l'audio avec une simplicité déconcertante.    
+
+Bonne écoute et surtout mettez-nous en commentaire en utilisant le lien ci-dessous qui vous mènera à la page originale de l'article via Oxytude ce que vous en avez pensez: De l'extension, du podcast… On prend tout ! 😉    
+
+<https://www.oxytude.org/presentation-de-lextension-openai-pour-nvda-ou-quand-chatgpt-devient-une-extension-de-votre-lecteur-decran-pour-windows/>
+
+# Prérequis pour l'utilisation
+
+* Obtenez une clé API en vous inscrivant à un [compte OpenAI](https://platform.openai.com/api-keys).
+
+<audio controls="controls">
+<source src="https://www.oxytude.org/audio/2024/24-04_nvda_openai.mp3" type="audio/mp3" />
+Votre navigateur ne supporte pas le tag <audio>.
+</audio>
+
+# Source de l'info :
+
+[OXYTUDE](https://www.oxytude.org/)    
+Accessibilité, informatique et nouvelles technologies    
+
+Je vous souhaite une bonne utilisation de l'extension OpenAI pour NVDA !    
+Bonne découverte !    
+@+    
+BlindHelp!    
+
+---
+
+Nous espérons vous revoir bientôt sur le      
+[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
+ou sur  votre nouvel espace via GitHub:                     
+[BlindHelp.github.io](https://blindhelp.github.io)                    
+
+---
