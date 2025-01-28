@@ -11,6 +11,20 @@ var firstTime = true;
 var arrRadios = [];
 var tmrDelay = -1; // the timer to delay the recording of some parameters
 var beSilent = false;
+// for audio record
+var recorder;
+var chunks = [];
+  var audio_context;
+var source;
+var processor;
+
+		  window.AudioContext = window.AudioContext || window.webkitAudioContext;
+		  navigator.getUserMedia = (navigator.getUserMedia ||
+		  navigator.webkitGetUserMedia ||
+		  navigator.msGetUserMedia ||
+		  navigator.mediaDevices.mozGetUserMedia ||
+		  navigator.mediaDevices.getUserMedia);
+		  window.URL = window.URL || window.webkitURL;
 
 function stopAction(e){
 e.stopPropagation();
@@ -392,7 +406,7 @@ saystring("Play");
 function btVolumeUp_Click(e){
 //
 var aud = document.getElementById("lecteur");
-var v = aud.volume + 0.1;
+var v = aud.volume + 0.05;
 if(v > 1){
 v = 1
 } // End If
@@ -410,7 +424,7 @@ saveParameters();
 function btVolumeDown_Click(e){
 //
 var aud = document.getElementById("lecteur");
-var v = aud.volume - 0.1;
+var v = aud.volume - 0.05;
 if(v > 1){
 v = 1
 } // End If
@@ -597,6 +611,85 @@ return false;
 bt.click();
 
 } // End Function
+
+function mergeBuffers(bufferList) {
+    const length = bufferList.reduce((sum, buf) => sum + buf.length, 0);
+    const buffer = new Float32Array(length);
+    let offset = 0;
+    for (let i = 0; i < bufferList.length; i++) {
+        buffer.set(bufferList[i], offset);
+        offset += bufferList[i].length;
+    }
+    return buffer;
+} // end function
+
+function btRecord_Click(e){
+//
+var bt = e.target;
+var audioElement = document.getElementById("lecteur");
+
+if(bt.style.backgroundColor == "green"){
+// a recording is running
+// we try to stop it
+bt.style.backgroundColor = "";
+bt.setAttribute("aria-pressed", "false");
+// recorder.stop();
+        // Arr�ter l'enregistrement et cr�er un blob
+        processor.disconnect();
+        source.disconnect();
+        audioContext.close();
+        const buffer = mergeBuffers(recorder);
+        const blob = new Blob([buffer], { type: 'audio/wav' }); // Vous pouvez changer le format ici
+        const url = URL.createObjectURL(blob);
+        const audio = new Audio(url);
+        audio.play();
+return;
+} // end if
+
+// we put the background of the button in green
+bt.style.backgroundColor = "green";
+bt.setAttribute("aria-pressed", "true");
+
+audioContext = new AudioContext();
+audioElement.crossOrigin = "anonymous"; // Pour �viter les erreurs de CORS
+audioElement.setAttribute("crossOrigin", "anonymous"); // Pour �viter les erreurs de CORS
+
+source = audioContext.createMediaElementSource(audioElement);
+processor = audioContext.createScriptProcessor(4096, 1, 1);
+recorder = [];
+
+    processor.onaudioprocess = (e) => {
+        recorder.push(e.inputBuffer.getChannelData(0));
+    };
+
+    source.connect(processor);
+    processor.connect(audioContext.destination);
+
+if(true){
+return;
+} // end if
+
+    navigator.mediaDevices.getUserMedia({ audio: true })
+        .then(stream => {
+            recorder = new MediaRecorder(audio.stream);
+            recorder.ondataavailable = (e) => {
+                chunks.push(e.data);
+            };
+            recorder.onstop = () => {
+                const blob = new Blob(chunks, { 'type': 'audio/ogg; codecs=opus' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = 'enregistrement.ogg';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                chunks = [];
+            };
+            recorder.start();
+        });
+} // end function
 
 function dlgTmpMessage(
 	msg,
@@ -801,6 +894,7 @@ Donc, même les appareils mobiles peuvent être ciblés.<br />
 <td>Aller au champ d'édition Filtre</td>
 <td>Alt+ f</td>
 <td>Une fois dans le champ d'édition vous pouvez taper ici les termes a rechercher pour filtrer la liste des radios puis Une fois finalisé appuyer sur Entrée pour lancer la recherche puis tabulation pour aller à la liste des résultats filtrés. Lorsque vous obtenez les résultats, vous trouverez le nom de la station de radio. Vous pouvez utiliser les flèches pour naviguer dans le contenu de la fenêtre des résultats filtrés alors il suffit d'appuyer sur Entrée pour lancer la radio.</td>
+</tr>
 <tr>
 <td>Bouton Play / Pause</td>
 <td>Alt+ p</td>
@@ -821,20 +915,17 @@ Donc, même les appareils mobiles peuvent être ciblés.<br />
 <td>Alt+ m</td>
 <td>Cela va couper ou remettre le son de la stations de radio en cours de lecture.</td>
 </tr>
+<tr>
 <td>Bouton Suivant</td>
 <td>Alt+ 5</td>
 <td>Il diffusera la suivante station de radio trouvée dans la liste.</td>
-
 </tr>
-<td>Bouton Suivant</td>
-<td>Alt+ 5</td>
-<td>Il diffusera la suivante station de radio trouvée dans la liste.</td>
-
-</tr>
+<tr>
 <td>Bouton Précédent</td>
 <td>Alt+ 4</td>
 <td>Il diffusera la précédente station de radio trouvée dans la liste.</td>
 </tr>
+<tr>
 <td>Bouton Copy</td>
 <td>Alt+ c</td>
 <td>Il copiera le lien direct d'écoute  de la stations de radio en cours de lecture dans le presse-papiers puis vous pouvez le mettre dans votre lecteur favori afin de l'écouter ultérieurement en dehors de cette page Web. Vous pouvez également coller le lien dans un document texte et changer l'extension en m3u, et hop voilà votre radio lu par votre lecteur préféré.</td>
@@ -2557,6 +2648,10 @@ Ajouter aux favorits
 <button id="btCopyURL" accesskey="c" onclick="btCopyURL_Click(event);"
 title="Copier l'adresse de la station dans le presse-papier"_-k>
 Copy
+</button>
+<button id="btRecord" onclick="btRecord_Click(event);"
+title="Lancer ou arreter l'enregistrement de la radio en cours">
+Enregistrer
 </button>
 </p>
 </div>
