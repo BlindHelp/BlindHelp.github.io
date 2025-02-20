@@ -11,7 +11,7 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Pour continuer la saga de l'IA (Intelligence Artificielle) je vous propose ChatGPT qui est le chatbot d'OpenAI, basé sur le modèle d'intelligence artificielle GPT, permettant de répondre à toutes sortes de questions ou requêtes. Disponible en version gratuite en ligne.
 
-Voir plus bas le titre de la tuto appelée: [Utiliser simplement ChatGPT en ligne par @micheltardy85](#chat-jpt-en-ligne)
+Reportez-vous à la section: [Utiliser simplement ChatGPT en ligne par @micheltardy85](#chat-jpt-en-ligne)
 
 # Compatible:
 Windows 10/11 (Microsoft Store
@@ -54,7 +54,7 @@ Le moteur de recherche Microsoft Bing intègre aussi un chatbot, basé sur une p
 ## Télécharger ChatGPT Installer pour Windows
 Vous pouvez télécharger aussi l'archive ChatGPT Installer.zip via votre nouveau espace GitHub BlindHelp.github.io en cliquant [ici](https://blindhelp.github.io/ChatGPT Installer.zip)    
 
-C'est le même programme ChatGPT pour Windows Partagé par notre ami Michel, Qui a également partagé un tuto sans installer ce programme, voyez ceci ci-dessous.    
+C'est le même programme ChatGPT Installer pour Windows Partagé par notre ami Michel, Qui a également partagé un tuto sans installer celui-ci, veuillez consulter la section ci-dessous.    
 
 ## Source:
 
