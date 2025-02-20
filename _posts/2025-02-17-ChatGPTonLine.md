@@ -11,7 +11,7 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Pour continuer la saga de l'IA (Intelligence Artificielle) je vous propose ChatGPT qui est le chatbot d'OpenAI, basé sur le modèle d'intelligence artificielle GPT, permettant de répondre à toutes sortes de questions ou requêtes. Disponible en version gratuite en ligne.
 
-Voir plus bas le titre tuto Utiliser simplement ChatGPT en ligne par @micheltardy85
+Voir plus bas le titre de la tuto appelée: [Utiliser simplement ChatGPT en ligne par @micheltardy85](#chat-jpt-en-ligne)
 
 # Compatible:
 Windows 10/11 (Microsoft Store
@@ -73,7 +73,7 @@ Voir le lien de la page officielle OpenAI (en anglais) pour le téléchargement 
 
 <https://openai.com/chatgpt/download/>    
 
-# Utiliser simplement ChatGPT en ligne par @micheltardy85
+# Utiliser simplement ChatGPT en ligne par @micheltardy85<a id="chat-jpt-en-ligne"></a>
 
 Bonjour à tous,    
 Je m'adresse aux nombreuses personnes qui m'ont contacter en perso pour avoir le programme ChatGPT, et que je leur ai envoyé, et aussi à tous les autres qui ne se sont pas encore lancés avec une A I.    
@@ -111,6 +111,7 @@ Quelques secondes après on obtien le résultat.
 Faire échappe pour mieux lire les infos, et copier si désiré.    
 Fin du tuto.    
 Michel.    
+
 ---
 
 Mille merci à notre ami @micheltardy85 pour l'avoir partagé avec nous tous! :)
