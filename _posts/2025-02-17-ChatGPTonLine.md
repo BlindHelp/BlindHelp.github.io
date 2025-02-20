@@ -18,7 +18,7 @@ Windows 10/11 (Microsoft Store
 
 # Description:
 ChatGPT est un agent conversationnel destiné à répondre à toutes vos questions ou requêtes, aussi appelées “prompts”, écrites en langage naturel. Qu'il s'agisse de trouver la capitale d'un pays, de rédiger une lettre de motivation ou de générer un quiz sur une célébrité, ChatGPT peut vous aider. Pour le grand public, il se présente sous la forme d'un service en ligne gratuit.    
-Outre la partie chatbot, ChatGPT est aussi capable d'aller effecteur pour vous une recherche sur internet. Ce module, concurrent direct des moteurs de recherche habituels, est capable de synthétiser une large quantité d'information et de vous donner la liste des sources qu'il a utilisées.    
+Outre la partie chatbot, ChatGPT est aussi capable d'aller effectuer pour vous une recherche sur internet. Ce module, concurrent direct des moteurs de recherche habituels, est capable de synthétiser une large quantité d'information et de vous donner la liste des sources qu'il a utilisées.    
 ChatGPT est donc un chatbot, alimenté par une intelligence artificielle, développée par OPenAI, à qui l'on doit aussi DALL-E, une application en ligne génératrice d'image. Là où DALL-E produit des images originales et uniques en fonction des instructions et des détails fournis par l'utilisateur, ChatGPT produit du contenu textuel.    
 
 # Pourquoi utiliser ChatGPT ?
@@ -114,7 +114,7 @@ Michel.
 
 ---
 
-Mille merci à notre ami @micheltardy85 pour l'avoir partagé avec nous tous! :)
+Mille merci à notre ami @micheltardy85 pour l'avoir partagé avec nous tous! :)    
 Bonne découverte !    
 @+    
 BlindHelp!  🇫🇷    
