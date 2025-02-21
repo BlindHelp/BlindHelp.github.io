@@ -23,8 +23,9 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 
 # Utilisation de YT-DLP sous Windows par nous les miro<a id="utilisation-de-yt-dlp"></a>
 
-<a target="_blank" href="https://blindhelp.github.io/Utilisation-de-YT-DLP.html">Vous pouvez cliquer ici pour voir cette documentation dédiée à YT-DLP (Cela s'ouvrira dans une nouvelle fenêtre)</a>
+Vous pouvez cliquer sur le lien suivant pour voir cette documentation dédiée à YT-DLP (Cela s'ouvrira dans une nouvelle fenêtre dans votre navigateur Web)    
 
+<a href="https://blindhelp.github.io/Utilisation-de-YT-DLP.html" target="_blank">Utilisation de YT-DLP sous Windows par nous les miro</a>
 
 Bonne découverte !    
 @+    

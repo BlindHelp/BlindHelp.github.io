@@ -27,8 +27,9 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 
 # Utilisation de FreeTube sous Windows par nous les miro<a id="utilisation-de-freetube"></a>
 
-<a target="_blank" href="https://blindhelp.github.io/Utilisation-de-FreeTube.html">Vous pouvez cliquer ici pour voir cette documentation dédiée à FreeTube (Cela s'ouvrira dans une nouvelle fenêtre)</a>
+Vous pouvez cliquer sur le lien suivant pour voir cette documentation dédiée à FreeTube (Cela s'ouvrira dans une nouvelle fenêtre dans votre navigateur Web)    
 
+<a href="https://blindhelp.github.io/Utilisation-de-FreeTube.html" target="_blank">Utilisation de FreeTube sous Windows par nous les miro</a>
 
 Bonne découverte !    
 @+    
