@@ -24,18 +24,18 @@ le fichier dll en français qu'il vous faudra ensuite placer dans le dossier où
 
 Voici le post du programme sur GitHub (en anglais):    
 
-[Welcome to Open-Shell | Classic Shell Reborn.](https://open-shell.github.io/Open-Shell-Menu/)
+[Welcome to Open-Shell `|` Classic Shell Reborn.](https://open-shell.github.io/Open-Shell-Menu/)    
 
 puis le dépôt du programme sur GitHub (en anglais):    
 
 <https://github.com/Open-Shell/Open-Shell-Menu>
 
 # Release 4.4.195 · Open-Shell/Open-Shell-Menu #
-[OpenShellSetup_4_4_195.exe](https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.195/OpenShellSetup_4_4_195.exe)
+[OpenShellSetup_4_4_195.exe](https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.195/OpenShellSetup_4_4_195.exe)    
 7.27 MB    
 
 # Temporary Translation/Language Solution #
-1. Download language DLL    
+`1. Download language DLL`    
 
 <https://coddec.github.io/Classic-Shell/www.classicshell.net/translations/index.html>
 
@@ -43,11 +43,11 @@ Original Page: <http://www.classicshell.net>
 
 Original Author: Ivo Beltchev    
 
-# Classic Shell: Translations #
+Classic Shell: Translations    
 
 <https://coddec.github.io/Classic-Shell/www.classicshell.net/translations/index.html>
 
-# Classic Shell en français: #
+Classic Shell en français:    
 
 <https://coddec.github.io/Classic-Shell/download650.mediafire.com/v89rfq4zxkmg/lkdas473ovedim8/ClassicShellSetup_4_3_1-fr.exe>
 
@@ -57,13 +57,13 @@ Vous pouvez également télécharger et installer manuellement la mise à jour. 
 
 French    
 4.3.1    
-fr-FR.DLL     
+fr-FR.DLL    
 
 <https://coddec.github.io/Classic-Shell/download1348.mediafire.com/4foo9lw2juug/nt0lxo6ely6kgwu/fr-FR.dll>
 
 by largo, Fabien COMMAN, TMTisFree    
 
-2. `Place it either in the Open-Shell’s install folder or in the %ALLUSERSPROFILE%\Open-Shell\Languages folder.`
+`2. Place it either in the Open-Shell’s install folder or in the %ALLUSERSPROFILE%\Open-Shell\Languages folder.`
 
 For archival reasons, we have a mirror of `www.classicshell.net` here.
 
