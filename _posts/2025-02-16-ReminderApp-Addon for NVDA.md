@@ -44,7 +44,7 @@ Adriano
 
 Remarque: Ici, vous pouvez télécharger la dernière version portable exécutable pour Windows qui a donné naissance   à l'extension:    
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-1.8.zip>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-1.9.zip>
 
 Note par blindhelp 🇫🇷    
 Si vous souhaitez en savoir plus sur cette application, vous pouvez cliquer sur le lien ci-dessous Pour ouvrir le post dédié à cette application.    
