@@ -90,7 +90,7 @@ Cependant, lorsque j'ai essayé de l'extraire après l'avoir téléchargé, il l
 
 # Avertissement
 
-Le fichier ReminderApp-1.2.zip ou plus , une fois extrait, contiendra son exécutable appelé ReminderApp.exe, qui sera déclaré faux positif par votre antivirus lors de son exécution pour la première fois !    
+Le fichier ReminderApp-1.2.zip ou plus, une fois extrait, contiendra son exécutable appelé ReminderApp.exe, qui sera déclaré faux positif par votre antivirus lors de son exécution pour la première fois !    
 
 Cela se produit avec l'antivirus Windows Defender par exemple.    
 
