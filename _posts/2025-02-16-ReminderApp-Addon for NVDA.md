@@ -18,7 +18,7 @@ Je viens de le traduire en français et en espagnol pour le fun, et l'auteur m'a
 
 * Auteur: <span lang="it">Adriano Barbieri</span>
 * Version actuelle: 1.3
-* Compatibilité NVDA: 2020.4 au-delà
+* Compatibilité avec NVDA: de 2020.4 à 2024.4
 * Langues supportées: Espagnol, Français,et plusieurs autres langues
 * Description:    
 Cette extension  est conçu pour gérer les rappels, les rendez-vous, les célébrations et les anniversaires d'une manière originale et intuitive.    
