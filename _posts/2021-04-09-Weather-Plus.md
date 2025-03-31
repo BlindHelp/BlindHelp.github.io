@@ -175,8 +175,6 @@ Pour ajouter une nouvelle ville : appuyer sur l'élément suivant :
 * "Weather.default": Votre ville par défaut.
 * "Weather_searchkey": mots-clés de recherche enregistrées.
 
---------------------------------------------------------------------------------
-
 [1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus
 
 ---
