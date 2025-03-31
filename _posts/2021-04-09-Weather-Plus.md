@@ -5,13 +5,13 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Lundi 8 Mai 2023</footer>
+<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Mercredi 26 Mars 2025</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
 Je vous apporte de bonnes nouvelles concernant l'extension Weather Plus pour NVDA...             
 Weather Plus est maintenant compatible avec NVDA2021.1 et plus!             
-Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 9.5.    
+Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 9.9.    
 
 Voir son descriptive ci-dessous.    
 
@@ -31,7 +31,7 @@ Voir son descriptive ci-dessous.
   suivants :
 * [https://www.weatherapi.com/](https://www.weatherapi.com/)
 * [http://www.geonames.org/](http://www.geonames.org/)
-* [http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)
+* [https://api.open-meteo.com/v1/elevation/](https://api.open-meteo.com/v1/elevation/)
 * [https://www.nvda.it/](https://www.nvda.it/)
 
 # UTILISATION : #
@@ -175,6 +175,10 @@ Pour ajouter une nouvelle ville : appuyer sur l'élément suivant :
 * "Weather.default": Votre ville par défaut.
 * "Weather_searchkey": mots-clés de recherche enregistrées.
 
+--------------------------------------------------------------------------------
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus
+
 ---
 
 Remarque:     
@@ -195,9 +199,9 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 
 * Sur les écrans sécurisés, WP avec cette version ne vous permettra pas d'ouvrir les boîtes de dialogue des fichiers de quelque nature que ce soit, c'est-à-dire qu'il ne sera pas possible d'importer ni d'exporters la liste des villes, d'installer des effets sonores ou des mises à jour.
 
-[Télécharger l'extension Weather_Plus9.5.nvda-addon par ici: [lien externe]][1]    
+[Télécharger l'extension Weather_Plus9.9'.nvda-addon par ici: [lien externe]][2]    
 
-[1]: https://www.nvda.it/files/plugin/weather_plus9.5.nvda-addon
+[2]: https://www.nvda.it/files/plugin/weather_plus9.9'.nvda-addon
 
 [ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
 
@@ -206,7 +210,7 @@ renommez-le en .nvda-addon.
 Merci    
 
 Pour plus d'informations vous pouvez consulter la documentation pour    
-    la version 9.5 depuis le Gestionnaire d'Extensions    
+    la version 9.9' depuis le Gestionnaire d'Extensions    
     (dans Gérer les extensions)    
     Chercher le nom de l'extension nommé:    
     Weather_Plus    
