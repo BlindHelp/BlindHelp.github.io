@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Jeudi 20 Mars 2025</footer>
+<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Mercredi 9 Avril 2025</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -44,7 +44,7 @@ Adriano
 
 Remarque: Ici, vous pouvez télécharger la dernière version portable exécutable pour Windows qui a donné naissance   à l'extension:    
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.0.zip>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.1.zip>
 
 Note par blindhelp 🇫🇷    
 Si vous souhaitez en savoir plus sur cette application, vous pouvez cliquer sur le lien ci-dessous Pour ouvrir le post dédié à cette application.    
