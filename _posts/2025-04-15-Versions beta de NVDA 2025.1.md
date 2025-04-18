@@ -6,11 +6,11 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mercredi 15 Avril 2025</footer>
+<footer>Publié le Mardi 15 Avril 2025</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 1 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta1) le Mercredi 15.04.2025.    
+NV Access vient de publier la béta 1 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta1) le Mardi 15.04.2025.    
 
 Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette première béta et à faire part de ses commentaires.    
 
