@@ -14,7 +14,7 @@ Aujourd'hui, je vous apporte une  procédure pour que vous puissiez réparer vot
 Ci-dessous, j'explique pas à pas sur la façon de résoudre les problèmes les plus courants de la version 3.    
 
 Si le programme TCA-Media Downloader ne fonctionne pas lorsque vous cliquez sur le fichier appelé "TCA-MediaDownloader.exe", ils faudra faire ce qui suit:    
-Une fois le fichier VisualC++_2023.7z contenant les bibliothèques téléchargé puis décompressé:    
+Une fois le fichier VisualC++_2023.7z contenant les librairies téléchargé puis décompressé:    
 Ouvrez le dossier appelé:    
 `VisualC++_2023`    
 Cherchez le premier fichier appelé:    
@@ -28,7 +28,7 @@ Si vous avez désactivé l'UAC, il sautera cette demande.
 Une barre de progression se remplit au fur et à mesure de l'installation des librairies.    
 Vous devez redémarrer votre ordinateur (Action recommandée) une fois terminé.    
 Une fois l'ordinateur redémarré, cliquez sur le fichier appelé "TCA-MediaDownloader.exe", Maintenant, le programme TCA-Media Downloader s'exécutera normalement.    
-Ce qui se produit est que le programme TCA-Media Downloader  en soi même fonctionne mais il manquait les librairie VisualC++_2023 pour travailler correctement sur le système (par exemple sous un Windows 10.    
+Ce qui se produit est que le programme TCA-Media Downloader  en soi même fonctionne mais il manquait les librairies VisualC++_2023 pour travailler correctement sur le système (par exemple sous un Windows 10.    
 
 Le problème pourrait également être dû que vous n'avez pas la dernière version du programme TCA-Media Downloader à jour et vous devez mettre à jour celui-ci car la version de TCA-Media Downloader 3.0.2.1 : qui ce trouve sur la Web est obsolète (version stable, pas béta).    
 
@@ -176,7 +176,7 @@ Une boîte de dialogue s'ouvre avec le message:
 `Si te gusta este contenido: 🤚`    
 `Nos puedes apoyar invitándonos a un café (PayPal):`    
 `https://www.paypal.com/paypalme/REINACOLOBON?country.x=ES&locale.x=es_ES`    
-`  compártelo en: Facebook; Instagram; X y  Google+.`    
+`compártelo en: Facebook; Instagram; X y  Google+.`    
 `También, suscríbete al canal y danos Like, así nos apoyas 👌`    
 `Nos puedes seguir en X:⬇️`    
 ` @TecnoConoAccesi https://x.com/TecnoConoAccesi`    
@@ -184,7 +184,7 @@ Une boîte de dialogue s'ouvre avec le message:
 `X`    
 `https://x.com `    
 `Ahora también puedes seguirnos en facebook:⬇️`    
-`https://www.facebook.com/profile.php?id=61571759852732 `    
+`https://www.facebook.com/profile.php?id=61571759852732`    
 `O escríbenos a:👇 `    
 `tecnoconocimientoaccesible@gmail.com`    
 `A continuación el link al contenido, que lo disfruten! ⏬`    
