@@ -6,12 +6,12 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mardi 15 Avril 2025 - Dernière mise à jour le Lundi 28 Avril 2025</footer>
+<footer>Publié le Mardi 15 Avril 2025 - Dernière mise à jour le Lundi 5 Mai 2025</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 3 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta3) le Lundi 28.04.2025.    
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette troisième béta et à faire part de ses commentaires.    
+NV Access vient de publier la béta 4 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta4) le Lundi 05.05.2025.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette quatrième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
@@ -42,10 +42,18 @@ Les tables braille de saisie et d'affichage par défaut peuvent désormais être
 
 Le traducteur braille LibLouis, eSpeak-NG et Unicode CLDR ont été mis à jour. De nouvelles tables braille sont disponibles : copte, cunéiforme compact et braille informatique portugais 6 points.
 
+### Changements introduits dans la béta 4 de NVDA 2025.1 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta4) le Lundi 05.05.2025.    
+
+* Traductions mises à jour.
+* Correction d'un problème de sécurité qui a permis à un processus arbitraire de se connecter à une session d'accès à distance en cours d'exécution sur un écran sécurisé.
+* Permettre aux contrôleurs d'accès à distance de reprendre le contrôle après que le dernier appareil contrôlé s'est déconnecté.
+* Améliorations dans la gestion du focus dans le dialogue de connexion de l'accès à distance.
+* Ne pas basculer l'option muet de l'accès à distance lorsque l'appareil distant n'est pas connecté.
+
 ### Changements introduits dans la béta 3 de NVDA 2025.1 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta3) le Lundi 28.04.2025.    
 
 * Traductions mises à jour.
-* Interdire le lancement d'une nouvelle session d'accès à distance en mode sécurisé.
+* Empêcher le lancement d'une nouvelle session d'accès à distance en mode sécurisé.
 * Mises à jour de l'interface de l'accès à distance.
 * Des commandes non assignées ont été ajoutées pour afficher les paramètres d'accès à distance.
 * Correction mineure dans les voix SAPI 4.
@@ -57,12 +65,12 @@ Le traducteur braille LibLouis, eSpeak-NG et Unicode CLDR ont été mis à jour.
 
 ### Liens utiles de NV Access
 
-- [NVDA 2025.1beta3 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.1beta3/nvda_2025.1beta3.exe)
-   - SHA256: 59f47cbb18d2a3c8f391019b58f665d0e204ed950f6f49094e51c02cfeb89292
-- [Quoi de Neuf](https://download.nvaccess.org/releases/2025.1beta3/documentation/fr/changes.html)
+- [NVDA 2025.1beta4 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.1beta4/nvda_2025.1beta4.exe)
+   - SHA256: 888a5d232aa06234051c73b2430362ecd2f77bf1a9e891a78c8e05606b0e74fc
+- [Quoi de Neuf](https://download.nvaccess.org/releases/2025.1beta4/documentation/fr/changes.html)
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues)
 
-Veuillez noter que NVDA 2025.1 béta 3 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2025.1 béta 4 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
