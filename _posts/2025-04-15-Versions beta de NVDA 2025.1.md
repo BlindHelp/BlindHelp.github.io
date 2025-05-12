@@ -6,12 +6,12 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mardi 15 Avril 2025 - Dernière mise à jour le Lundi 5 Mai 2025</footer>
+<footer>Publié le Mardi 15 Avril 2025 - Dernière mise à jour le Lundi 12 Mai 2025</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 4 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta4) le Lundi 05.05.2025.    
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette quatrième béta et à faire part de ses commentaires.    
+NV Access vient de publier la béta 5 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta5) le Lundi 12.05.2025.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette cinquième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
@@ -42,6 +42,12 @@ Les tables braille de saisie et d'affichage par défaut peuvent désormais être
 
 Le traducteur braille LibLouis, eSpeak-NG et Unicode CLDR ont été mis à jour. De nouvelles tables braille sont disponibles : copte, cunéiforme compact et braille informatique portugais 6 points.
 
+### Changements introduits dans la béta 5 de NVDA 2025.1 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta5) le Lundi 12.05.2025.    
+
+* Traductions mises à jour.
+* Corrections lors de la lecture des attributs mathématiques dans des documents PDF.
+* Améliorations mineures de l'expérience utilisateur de l'accès à distance.
+
 ### Changements introduits dans la béta 4 de NVDA 2025.1 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta4) le Lundi 05.05.2025.    
 
 * Traductions mises à jour.
@@ -65,12 +71,12 @@ Le traducteur braille LibLouis, eSpeak-NG et Unicode CLDR ont été mis à jour.
 
 ### Liens utiles de NV Access
 
-- [NVDA 2025.1beta4 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.1beta4/nvda_2025.1beta4.exe)
-   - SHA256: 888a5d232aa06234051c73b2430362ecd2f77bf1a9e891a78c8e05606b0e74fc
-- [Quoi de Neuf](https://download.nvaccess.org/releases/2025.1beta4/documentation/fr/changes.html)
+- [NVDA 2025.1beta5 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.1beta5/nvda_2025.1beta5.exe)
+   - SHA256: 6b4d5037222e1a8211ae117efd7f52b81ed56dc9d60eb812352ffbb5b6b81caf
+- [Quoi de Neuf](https://download.nvaccess.org/releases/2025.1beta5/documentation/fr/changes.html)
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues)
 
-Veuillez noter que NVDA 2025.1 béta 4 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2025.1 béta 5 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
