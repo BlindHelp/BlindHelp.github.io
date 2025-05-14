@@ -5,13 +5,13 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Mercredi 26 Mars 2025</footer>
+<footer>Publié le Vendredi 9 Avril 2021 - Dernière modification le Mercredi 14 Mai 2025</footer>
 
 
 Coucou mes amis du blog de BlindHelp!               
 Je vous apporte de bonnes nouvelles concernant l'extension Weather Plus pour NVDA...             
 Weather Plus est maintenant compatible avec NVDA2021.1 et plus!             
-Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 9.9.    
+Après sa dernière version 7.7, Weather Plus fait peau neuve et il vient de sortir en version 10.1    
 
 Voir son descriptive ci-dessous.    
 
@@ -19,7 +19,6 @@ Voir son descriptive ci-dessous.
 
 * Auteur : Adriano Barbieri
 * Compatibilité NVDA : 2017.3 au-delà
-* Télécharger : [Version stable][1]
 
 # À propos de Weather Plus : #
 
@@ -175,13 +174,10 @@ Pour ajouter une nouvelle ville : appuyer sur l'élément suivant :
 * "Weather.default": Votre ville par défaut.
 * "Weather_searchkey": mots-clés de recherche enregistrées.
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus
-
 ---
 
 Remarque:     
-Si vous avez installé une version antérieure de Weather Plus, celui-ci peut se mettre à jour seul, cependant, il est possible de télécharger
-manuellement à partir des liens suivants:    
+Si vous avez installé une version antérieure de Weather Plus, celui-ci peut se mettre à jour seul jusqu'à la version 9.9, cependant, Vous devrez télécharger impérativement  la version 10.1 manuellement  en raison d'un bogue corrigé dans cette dernière version:    
 Mise en garde:    
 Si vous n'utilisez pas la mise à jour automatique, vous devez d'abord désinstaller chaque ancienne version de Weather_Plus!    
 
@@ -197,9 +193,9 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 
 * Sur les écrans sécurisés, WP avec cette version ne vous permettra pas d'ouvrir les boîtes de dialogue des fichiers de quelque nature que ce soit, c'est-à-dire qu'il ne sera pas possible d'importer ni d'exporters la liste des villes, d'installer des effets sonores ou des mises à jour.
 
-[Télécharger l'extension Weather_Plus9.9'.nvda-addon par ici: [lien externe]][2]    
+[Télécharger l'extension Weather_Plus10.1.nvda-addon par ici: [lien externe]][1]    
 
-[2]: https://www.nvda.it/files/plugin/weather_plus9.9'.nvda-addon
+[1]: https://www.nvda.it/sites/default/files/plugin/weather_plus10.1.nvda-addon
 
 [ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
 
@@ -208,7 +204,7 @@ renommez-le en .nvda-addon.
 Merci    
 
 Pour plus d'informations vous pouvez consulter la documentation pour    
-    la version 9.9' depuis le Gestionnaire d'Extensions    
+    la version 10.1 depuis le Gestionnaire d'Extensions    
     (dans Gérer les extensions)    
     Chercher le nom de l'extension nommé:    
     Weather_Plus    
