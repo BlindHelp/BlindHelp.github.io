@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Samedi 12 Avril 2025</footer>
+<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Jeudi 15 Mai 2025</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -17,7 +17,7 @@ Je viens de le traduire en français et en espagnol pour le fun, et l'auteur m'a
 # Informations sur l'extension ReminderApp: #
 
 * Auteur: <span lang="it">Adriano Barbieri</span>
-* Version actuelle: 1.4
+* Version actuelle: 1.8
 * Compatibilité avec NVDA: 2020.4 au-delà
 * Langues supportées: Espagnol, Français,et plusieurs autres langues
 * Description:    
@@ -27,7 +27,7 @@ NVDA+Maj+F1, arrête l'alarme en cours.
 NVDA+Maj+F2, ouvre l'interface graphique de ReminderApp, si vous pressé 2 fois, la minimise.    
 NVDA+Maj+F3, affiche un aperçu du rappel de la journée.    
 Pour d'autres instructions, vous pouvez aussi presser le bouton d'aide de l'extension dans le Gestionnaire d'Extensions.    
-* [Télécharger](https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-1.4.nvda-addon)
+* [Télécharger](https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-1.8.nvda-addon)
 * [Voir code source sur GitHub](https://github.com/Adriano-Barbieri62/ReminderApp-Addon)
 
 # ReminderApp-Addon pour NVDA par Adriano Barbieri 🇮🇹 :
@@ -37,7 +37,7 @@ Est conçu pour gérer divers types de rappels, tels que des rendez-vous, des c�
 Avec ReminderApp, non seulement vous pouvez créer et organiser facilement vos rappels, mais vous aurez également un carnet d'adresses pratique à portée de main.    
 Vous pouvez choisir parmi différentes mélodies pour les célébrations ou les anniversaires, ainsi que divers types d'alarmes, définir les répétitions d'alarme et définir l'intervalle entre les répétitions.    
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-1.4.nvda-addon>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-1.8.nvda-addon>
 
 Salutations    
 Adriano    
