@@ -178,6 +178,7 @@ Pour ajouter une nouvelle ville : appuyer sur l'élément suivant :
 
 Remarque:     
 Si vous avez installé une version antérieure de Weather Plus, celui-ci peut se mettre à jour seul jusqu'à la version 9.9, cependant, Vous devrez télécharger impérativement  la version 10.1 manuellement  en raison d'un bogue corrigé dans cette dernière version:    
+Lien de téléchargement supprimé du fichier readme, le lien de téléchargement pour les futures mises à jour ne sera désormais disponible que dans l'add-on store.    
 Mise en garde:    
 Si vous n'utilisez pas la mise à jour automatique, vous devez d'abord désinstaller chaque ancienne version de Weather_Plus!    
 
@@ -194,10 +195,19 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 * Sur les écrans sécurisés, WP avec cette version ne vous permettra pas d'ouvrir les boîtes de dialogue des fichiers de quelque nature que ce soit, c'est-à-dire qu'il ne sera pas possible d'importer ni d'exporters la liste des villes, d'installer des effets sonores ou des mises à jour.
 
 [Télécharger l'extension Weather_Plus10.1.nvda-addon par ici: [lien externe]][1]    
+Faire menu contextuel et choisir `Enregistrer le lien sous…`    
+`weather_plus10.1.nvda-addon`    
+puis faire Entrée.    
+et enfin le téléchargement commence…    
 
 [1]: https://www.nvda.it/sites/default/files/plugin/weather_plus10.1.nvda-addon
 
-[ou à partir de la page Web en Italien de l'extension Weather Plus:](http://www.nvda.it/weather-plus)
+Vous pouvez également télécharger les futures versions de l'extension Weather_Plus [à partir de la page Web en Italien de l'extension dédié à Weather Plus:](http://www.nvda.it/weather-plus)
+
+Une fois que vous êtes situé sur le lien de téléchargement, n'oubliez pas de faire menu contextuel et choisir :    
+`Enregistrer le lien sous…`    
+puis faire Entrée.
+et enfin le téléchargement commence…    
 
 Assurez-vous que l'extension du fichier téléchargé est correcte, sinon    
 renommez-le en .nvda-addon.    
