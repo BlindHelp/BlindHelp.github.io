@@ -21,12 +21,12 @@ Je viens de le traduire en français et en espagnol pour le fun, et l'auteur m'a
 * Compatibilité avec NVDA: 2020.4 au-delà
 * Langues supportées: Espagnol, Français,et plusieurs autres langues
 * Description:    
-Cette extension  est conçu pour gérer les rappels, les rendez-vous, les célébrations et les anniversaires d'une manière originale et intuitive.    
-Avec ReminderApp, vous pourrez non seulement créer et organiser vos rappels, mais vous aurez également un carnet d'adresses pour vos contacts.    
-NVDA+Maj+F1, arrête l'alarme en cours.    
-NVDA+Maj+F2, ouvre l'interface graphique de ReminderApp, si vous pressé 2 fois, la minimise.    
-NVDA+Maj+F3, affiche un aperçu du rappel de la journée.    
-Pour d'autres instructions, vous pouvez aussi presser le bouton d'aide de l'extension dans le Gestionnaire d'Extensions.    
+Cette extension est conçue pour gérer les rappels, les rendez-vous, les célébrations et les anniversaires de manière originale et intuitive.    
+Avec ReminderApp, vous ne pourrez pas seulement créer et organiser vos rappels, mais vous aurez également un carnet d'adresses à portée de main pour vos contacts.    
+NVDA+Shift+F1, Arrêter l'alarme en cours.    
+NVDA+Shift+F2, Ouvrir l'interface graphique de ReminderApp, si appuyé deux fois, la fermer.    
+NVDA+Shift+F3, Affiche un aperçu du rappel du jour.    
+Pour d'autres instructions, vous pouvez également appuyer sur le bouton d'aide de l'extension dans le gestionnaire d'extensions.    
 * [Télécharger](https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-1.8.nvda-addon)
 * [Voir code source sur GitHub](https://github.com/Adriano-Barbieri62/ReminderApp-Addon)
 
