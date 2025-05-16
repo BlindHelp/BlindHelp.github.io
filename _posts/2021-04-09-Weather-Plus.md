@@ -187,7 +187,8 @@ J'ajoute seulement pour ceux qui ont encore des problèmes, comme déjà suggér
 1. Appuyez sur la touche gauche de Windows+r.
 2. Collez la ligne:    
 `%appdata%\nvda\`
-3. Supprimez le fichier weather.ini.
+3. Supprimez le fichier weather.ini.    
+Remarque: Depuis la version 9.6 de l'extension Weather_Plus, tous les fichiers de configuration ont été regroupés dans le dossier Weather_config.    
 4. Appuyez sur nvda+ctrl+f3 et reconfigurez l'extension normalement.
 
 # Note importante de l'auteur:
