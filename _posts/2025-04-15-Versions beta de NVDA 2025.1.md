@@ -6,12 +6,12 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mardi 15 Avril 2025 - Dernière mise à jour le Lundi 12 Mai 2025</footer>
+<footer>Publié le Mardi 15 Avril 2025 - Dernière mise à jour le Lundi 19 Mai 2025</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 5 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta5) le Lundi 12.05.2025.    
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette cinquième béta et à faire part de ses commentaires.    
+NV Access vient de publier la béta 6 de NVDA 2025.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta6) le Lundi 19.05.2025.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette sixième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
@@ -42,6 +42,14 @@ Les tables braille de saisie et d'affichage par défaut peuvent désormais être
 
 Le traducteur braille LibLouis, eSpeak-NG et Unicode CLDR ont été mis à jour. De nouvelles tables braille sont disponibles : copte, cunéiforme compact et braille informatique portugais 6 points.
 
+### Changements introduits dans la béta 6 de NVDA 2025.1 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta6) le Lundi 19.05.2025.    
+
+* Traductions mises à jour.
+* Correction dans l'outil COM Registration Fixing: Il n'est plus exécuté lors de l'annulation lors de l'appui sur Alt + F4.
+* Correction mineure dans les voix SAPI 4.
+* Correction pour la détection des afficheurs Braille.
+* Améliorations mineures de l'expérience utilisateur de l'accès à distance.
+
 ### Changements introduits dans la béta 5 de NVDA 2025.1 publié par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-1beta5) le Lundi 12.05.2025.    
 
 * Traductions mises à jour.
@@ -71,12 +79,12 @@ Le traducteur braille LibLouis, eSpeak-NG et Unicode CLDR ont été mis à jour.
 
 ### Liens utiles de NV Access
 
-- [NVDA 2025.1beta5 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.1beta5/nvda_2025.1beta5.exe)
-   - SHA256: 6b4d5037222e1a8211ae117efd7f52b81ed56dc9d60eb812352ffbb5b6b81caf
-- [Quoi de Neuf](https://download.nvaccess.org/releases/2025.1beta5/documentation/fr/changes.html)
+- [NVDA 2025.1beta6 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.1beta6/nvda_2025.1beta6.exe)
+   - SHA256: 5c4e7d04c31fbee7016434e6e61c02483c402b0fae6cc42597e90b41e673a51f
+- [Quoi de Neuf](https://download.nvaccess.org/releases/2025.1beta6/documentation/fr/changes.html)
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues)
 
-Veuillez noter que NVDA 2025.1 béta 5 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2025.1 béta 6 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
