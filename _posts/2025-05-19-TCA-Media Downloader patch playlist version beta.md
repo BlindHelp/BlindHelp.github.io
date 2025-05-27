@@ -40,8 +40,8 @@ Nom de l'archive à télécharger:
 4. Une boîte de dialogue s'ouvre comme nom:    
 `Options dialogue`    
 Faire Tab Jusqu'à l'élément appelé:    
-`Basculer la branche de développement bouton Alt+ d`
-Puis faire Entrée ou barre d'espace.
+`Basculer la branche de développement bouton Alt+ d`    
+Puis faire Entrée ou barre d'espace.    
 5. Le Contexte menu s'ouvre, En principe, cet élément est coché:    
 `Branche finale (recommandé) coché f`    
 `Branche bêta b`    
@@ -49,19 +49,19 @@ Faire flèche bas puis coché l'élément:
 `Branche bêta b`    
 Une fois cela fait, cela sera annoncé comme:    
 `Branche bêta coché b`    
-Un dialogue de confirmation vous demandera si vous souhaitez effectuer ce changement, faire Entrer ou barre d'espace sur le bouton:    
+Un dialogue de confirmation vous demandera si vous souhaitez effectuer ce changement, faire Entrée ou barre d'espace sur le bouton:    
 `Oui`    
 Ensuite le téléchargement commence…    
 Une fois terminé …    
 Faire Tab Jusqu'à l'élément appelé:    
 `OK bouton Alt+ o`    
-puis faire Entrée ou barre d'espace.    
+Puis faire Entrée ou barre d'espace.    
 En principe nous aurons comme version:    
 `TCA-Media Downloader 3.0.8.2`    
 6. Faire à nouveau Alt+M (Contexte menu).
 7. Aller sur `Rechercher des mises à jour r` puis faire Entrée ou barre d'espace.    
 Suivez les instructions à l'écran.    
-8. Nous fermons maintenant le programme avec Alt + F4.
+8. Nous fermons maintenant le programme avec Alt + F4.    
 Maintenant, nous avons cette première partie faites. 👌    
 
 ## Deuxième partie:
@@ -82,14 +82,14 @@ Attendez quelques secondes et le tour est joué! 😊
 
 Fermer le tout par Alt+F4.    
 
-Maintenant, nous devrons lancer le programme TCA-MediaDownloader.
+Maintenant, nous devrons lancer le programme TCA-MediaDownloader.    
 Puis ensuite aller sur l'onglet:    
 `Recherche (Alt+2)`    
 `Saisissez une recherche : édition Alt+ r ligne 1 vide`    
 Tapez ce que vous voulez rechercher.    
 Par exemple, pour les amis qui savent l'espagnol ceci pourrait  être comme recherche:    
 `tecnoconocimientoaccesible`    
-puis faire Entrée.    
+Puis faire Entrée.    
 Le Contexte menu s'ouvre, faire Entrée sur l'élément appelé:    
 `Rechercher des listes de lecture l`    
 Une boîte de dialogue s'ouvre, attendez quelques instants.    
