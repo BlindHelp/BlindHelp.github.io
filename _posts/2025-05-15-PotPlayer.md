@@ -1898,188 +1898,168 @@ Remarque : Lorsque nous sommes sur l'interface principale du programme PotPlayer
 </table>
 <hr>
 
-<H2>Comment configurer les raccourcis clavier dans PotPlayer</h2>
-
-Eh bien, les raccourcis clavier prédéterminés de PotPlayer comme mentionné dans les tableaux ci-dessus peuvent être utilisés à partir de la fenêtre principale du programme.    
-
-Voyons maintenant comment nous pouvons configurer nos propres raccourcis clavier en PotPlayer.    
-
-Pour ce faire, allez aux `Préférences… F5`    
-Un dialogue apparaît comme message :    
-`Préférences(250515) - *Préréglage par défaut dialogue`    
-`Arborescence`    
-`niveau 0 Général développé 1 sur 13`    
-Remarque : Si l'élément d'arborescence est réduit faire flèche droite pour le développé.    
-De même, si l'élément d'arborescence est déjà dans son état "développé", faire flèche gauche pour le mettre dans son état "réduit".    
-`Général élément d'Arborescence réduit 1 sur 13 niveau 0`    
-`Faire ➔ pour avoir l'état :`    
-`développé`    
-Une fois que vous êtes dans l'élément d'arborescence "Général" indiqué l'état "développé" utilisez les touches fléchées pour vous déplacer dans la liste.    
-`11 éléments`    
-`niveau 1 Démarrage 1 sur 11`    
-`Clavier 2 sur 11 niveau 1`    
-Appuyez sur Tabulation pour afficher ledit contenu comme suit :    
-`onglet`    
-`Raccourcis clavier personnalisés groupe`    
-`Définissez vos propres raccourcis clavier pour exécuter chaque fonction du programme. Vos raccourcis personnels auront priorité sur ceux par défaut. liste`    
-`Désactiver les raccourcis... case à cocher non coché`    
-(valeur par défaut)    
-`Ajouter… bouton`    
-`Supprim... bouton`    
-`Modifier… bouton`    
-`Monter bouton`    
-`Descendre bouton`    
-`Clavier multimédia groupe`    
-`Supporter le clavier multimédia case à cocher coché`    
-(valeur par défaut)    
-`Activer les touches de contrôle multimédia globales case à cocher non coché`    
-(valeur par défaut)    
-`Activer les touches de contrôle du volume case à cocher non coché`    
-(valeur par défaut)    
-`Activer les touches de navigation case à cocher coché`    
-(valeur par défaut)    
-`Réinitialiser bouton Alt+ r`    
-`Exporter les réglages… bouton Alt+ e`    
-`OK bouton Alt+ o`    
-`Annuler bouton Alt+ a`    
-`Appliquer bouton Alt+ a`    
-
-Remarque : Comme j'indique ici, ce sont les éléments affichés dans ce dialogue sans avoir apporté aucune modification de notre part.    
-Maintenant, nous allons là où il est annoncé le message :    
-`Définissez vos propres raccourcis clavier pour exécuter chaque fonction du programme. Vos raccourcis personnels auront priorité sur ceux par défaut. liste`    
-Ensuite faire Tabulation jusqu'à l'élément appelé :    
-`	Désactiver les raccourcis... case à cocher non coché`    
-Puis appuyez sur la barre d'espace pour la cocher.    
-Ensuite faire à nouveau Tabulation jusqu'à l'élément appelé :    
-`Ajouter… bouton`    
-Appuyez sur barre d'espace pour sélectionner ce bouton.    
-Un nouveau dialogue s'ouvre comme message :    
-`Personnaliser un nouveau raccourci clavier dialogue`    
-`Raccourci groupe`    
-`Raccourci global (Utilisable depuis tout environnement) case à cocher non coché`    
-(valeur par défaut)    
-Nous le laissons tel quel.    
-Ensuite faire à nouveau Tabulation jusqu'à :    
-`Raccourci : liste déroulante réduit`    
-`édition ligne 1 vide`    
-Ensuite faire à nouveau Tabulation jusqu'à :    
-`Arborescence`    
-Utilisez les touches fléchées pour vous déplacer dans la liste.    
-Remarque : Si l'élément d'arborescence est réduit faire flèche droite pour le développé.    
-De même, si l'élément d'arborescence est déjà dans son état "développé", faire flèche gauche pour le mettre dans son état "réduit".    
-`niveau 0 Ne rien faire 1 sur 30`    
-`Menu contextuel 2 sur 30 niveau 0`    
-`Focaliser 3 sur 30 niveau 0`    
-`Ouvrir des fichiers… F3 4 sur 30 niveau 0`    
-`Ouvrir réduit 5 sur 30 niveau 0`    
-`Diffusion réduit 6 sur 30 niveau 0`    
-`Album/Favoris réduit 7 sur 30 niveau 0`    
-`Arrêter la lecture F4 8 sur 30 niveau 0`    
-`Visualisation réduit 9 sur 30 niveau 0`    
-`TV (WDM/BDA) réduit 10 sur 30 niveau 0`    
-`Contrôle DVD réduit 11 sur 30 niveau 0`    
-`Lecture réduit 12 sur 30 niveau 0`    
-`Sous-titres réduit 13 sur 30 niveau 0`    
-`Vidéo réduit 14 sur 30 niveau 0`    
-`Audio réduit 15 sur 30 niveau 0`    
-`Filtres réduit 16 sur 30 niveau 0`    
-`Thèmes réduit 17 sur 30 niveau 0`    
-`Actions / Langue / Divers réduit 18 sur 30 niveau 0`    
-`Taille du cadre réduit 19 sur 30 niveau 0`    
-`Format (Rapport L/H de l'image) réduit 20 sur 30 niveau 0`    
-`Taille de la fenêtre réduit 21 sur 30 niveau 0`    
-`Plein écran (garder le format) Entrée 22 sur 30 niveau 0`    
-`Plein écran (étiré) Ctrl+Entrée 23 sur 30 niveau 0`    
-`Préférences… F5 24 sur 30 niveau 0`    
-`Liste de lecture… F6 25 sur 30 niveau 0`    
-`Panneau de contrôle… F7 26 sur 30 niveau 0`    
-`Informations lecture/fichier/système… Ctrl+F1 27 sur 30 niveau 0`    
-`A propos… F1 28 sur 30 niveau 0`    
-`Identification… 29 sur 30 niveau 0`    
-`Quitter Alt+F4 30 sur 30 niveau 0`    
-
-Remarque : Cette partie affiche les raccourcis qui viennent tel quel par défaut dans le programme PotPlayer sans avoir fait aucune modification de notre part.    
-
-Si nous faisons Tabulation, nous trouverons les fameux boutons comme noms :    
-`OK bouton`    
-Appuyez sur le bouton "OK" pour valider vos modifications.    
-`Annuler bouton Alt+ a`    
-Pour annuler les modifications, appuyez sur le bouton "Annuler".    
-`Appliquer bouton Alt+ a`    
-Vous pouvez activer le bouton Appliquer pour que les paramètres prennent effet immédiatement sans fermer le dialogue.     
-
-Le seul conseil que je peux vous donner est de suivre un ordre très  méthodique et corrélative afin de ne pas faire d'erreurs pendant l'attribut d'un raccourci clavier.    
-
-Rappelez-vous que la combinaison de touches ne soit pas assignée  à une autre fonction ou ne se chevauchent pas avec l'une des applications que nous utilisons.    
-
-Par exemple, si nous voulons modifier le raccourci prédéterminé qui vient dans l'élément appelé :
-`Préférences… F5 24 sur 30 niveau 0`    
-Faire Tabulation jusqu'à l'élément appelé :    
-`Raccourci global (Utilisable depuis tout environnement) case à cocher non coché`    
-(valeur par défaut)    
-Nous le laissons tel quel.    
-Faire à nouveau Tabulation jusqu'à :    
-`Raccourci : liste déroulante réduit`    
-`édition ligne 1 vide`    
-Gardez à l'esprit que pour que ce programme fonctionne il y a une astuce pour insérer une touche supplémentaire lors de l'édition du raccourci dans le cas contraire, ce nouveau raccourci n'est pas pris en compte.    
-Donc, lorsque vous êtes dans le champ d'édition vous devrez appuyer simultanément la combinaison à insérer plus la touche Tabulation.    
-PAR EXEMPLE :    
-`Ctrl+Tab+F5`    
-`Arborescence`    
-Une fois fini, faire Maj+Tab jusqu'à atteindre l'élément :    
-`Raccourci : liste déroulante réduit	`    
-Maintenant, dans le champ d'édition vous écouterez via le lecteur d'écran le nouveau raccourci que vous venez d'attribuer à cet élément.    
+<h2>Comment configurer les raccourcis clavier dans PotPlayer</h2>
+<p>Eh bien, les raccourcis clavier prédéterminés de PotPlayer comme mentionné dans les tableaux ci-dessus peuvent être utilisés à partir de la fenêtre principale du programme.</p>
+<p>Voyons maintenant comment nous pouvons configurer nos propres raccourcis clavier en PotPlayer.</p>
+<p>Pour ce faire, allez aux <code>Préférences… F5</code><br />
+Un dialogue apparaît comme message :<br />
+<code>Préférences(250515) - *Préréglage par défaut dialogue</code><br />
+<code>Arborescence</code><br />
+<code>niveau 0 Général développé 1 sur 13</code><br />
+Remarque : Si l'élément d'arborescence est réduit faire flèche droite pour le développé.<br />
+De même, si l'élément d'arborescence est déjà dans son état &quot;développé&quot;, faire flèche gauche pour le mettre dans son état &quot;réduit&quot;.<br />
+<code>Général élément d'Arborescence réduit 1 sur 13 niveau 0</code><br />
+<code>Faire ➔ pour avoir l'état :</code><br />
+<code>développé</code><br />
+Une fois que vous êtes dans l'élément d'arborescence &quot;Général&quot; indiqué l'état &quot;développé&quot; utilisez les touches fléchées pour vous déplacer dans la liste.<br />
+<code>11 éléments</code><br />
+<code>niveau 1 Démarrage 1 sur 11</code><br />
+<code>Clavier 2 sur 11 niveau 1</code><br />
+Appuyez sur Tabulation pour afficher ledit contenu comme suit :<br />
+<code>onglet</code><br />
+<code>Raccourcis clavier personnalisés groupe</code><br />
+<code>Définissez vos propres raccourcis clavier pour exécuter chaque fonction du programme. Vos raccourcis personnels auront priorité sur ceux par défaut. liste</code><br />
+<code>Désactiver les raccourcis... case à cocher non coché</code><br />
+(valeur par défaut)<br />
+<code>Ajouter… bouton</code><br />
+<code>Supprim... bouton</code><br />
+<code>Modifier… bouton</code><br />
+<code>Monter bouton</code><br />
+<code>Descendre bouton</code><br />
+<code>Clavier multimédia groupe</code><br />
+<code>Supporter le clavier multimédia case à cocher coché</code><br />
+(valeur par défaut)<br />
+<code>Activer les touches de contrôle multimédia globales case à cocher non coché</code><br />
+(valeur par défaut)<br />
+<code>Activer les touches de contrôle du volume case à cocher non coché</code><br />
+(valeur par défaut)<br />
+<code>Activer les touches de navigation case à cocher coché</code><br />
+(valeur par défaut)<br />
+<code>Réinitialiser bouton Alt+ r</code><br />
+<code>Exporter les réglages… bouton Alt+ e</code><br />
+<code>OK bouton Alt+ o</code><br />
+<code>Annuler bouton Alt+ a</code><br />
+<code>Appliquer bouton Alt+ a</code></p>
+<p>Remarque : Comme j'indique ici, ce sont les éléments affichés dans ce dialogue sans avoir apporté aucune modification de notre part.<br />
+Maintenant, nous allons là où il est annoncé le message :<br />
+<code>Définissez vos propres raccourcis clavier pour exécuter chaque fonction du programme. Vos raccourcis personnels auront priorité sur ceux par défaut. liste</code><br />
+Ensuite faire Tabulation jusqu'à l'élément appelé :<br />
+<code>	Désactiver les raccourcis... case à cocher non coché</code><br />
+Puis appuyez sur la barre d'espace pour la cocher.<br />
+Ensuite faire à nouveau Tabulation jusqu'à l'élément appelé :<br />
+<code>Ajouter… bouton</code><br />
+Appuyez sur barre d'espace pour sélectionner ce bouton.<br />
+Un nouveau dialogue s'ouvre comme message :<br />
+<code>Personnaliser un nouveau raccourci clavier dialogue</code><br />
+<code>Raccourci groupe</code><br />
+<code>Raccourci global (Utilisable depuis tout environnement) case à cocher non coché</code><br />
+(valeur par défaut)<br />
+Nous le laissons tel quel.<br />
+Ensuite faire à nouveau Tabulation jusqu'à :<br />
+<code>Raccourci : liste déroulante réduit</code><br />
+<code>édition ligne 1 vide</code><br />
+Ensuite faire à nouveau Tabulation jusqu'à :<br />
+<code>Arborescence</code><br />
+Utilisez les touches fléchées pour vous déplacer dans la liste.<br />
+Remarque : Si l'élément d'arborescence est réduit faire flèche droite pour le développé.<br />
+De même, si l'élément d'arborescence est déjà dans son état &quot;développé&quot;, faire flèche gauche pour le mettre dans son état &quot;réduit&quot;.<br />
+<code>niveau 0 Ne rien faire 1 sur 30</code><br />
+<code>Menu contextuel 2 sur 30 niveau 0</code><br />
+<code>Focaliser 3 sur 30 niveau 0</code><br />
+<code>Ouvrir des fichiers… F3 4 sur 30 niveau 0</code><br />
+<code>Ouvrir réduit 5 sur 30 niveau 0</code><br />
+<code>Diffusion réduit 6 sur 30 niveau 0</code><br />
+<code>Album/Favoris réduit 7 sur 30 niveau 0</code><br />
+<code>Arrêter la lecture F4 8 sur 30 niveau 0</code><br />
+<code>Visualisation réduit 9 sur 30 niveau 0</code><br />
+<code>TV (WDM/BDA) réduit 10 sur 30 niveau 0</code><br />
+<code>Contrôle DVD réduit 11 sur 30 niveau 0</code><br />
+<code>Lecture réduit 12 sur 30 niveau 0</code><br />
+<code>Sous-titres réduit 13 sur 30 niveau 0</code><br />
+<code>Vidéo réduit 14 sur 30 niveau 0</code><br />
+<code>Audio réduit 15 sur 30 niveau 0</code><br />
+<code>Filtres réduit 16 sur 30 niveau 0</code><br />
+<code>Thèmes réduit 17 sur 30 niveau 0</code><br />
+<code>Actions / Langue / Divers réduit 18 sur 30 niveau 0</code><br />
+<code>Taille du cadre réduit 19 sur 30 niveau 0</code><br />
+<code>Format (Rapport L/H de l'image) réduit 20 sur 30 niveau 0</code><br />
+<code>Taille de la fenêtre réduit 21 sur 30 niveau 0</code><br />
+<code>Plein écran (garder le format) Entrée 22 sur 30 niveau 0</code><br />
+<code>Plein écran (étiré) Ctrl+Entrée 23 sur 30 niveau 0</code><br />
+<code>Préférences… F5 24 sur 30 niveau 0</code><br />
+<code>Liste de lecture… F6 25 sur 30 niveau 0</code><br />
+<code>Panneau de contrôle… F7 26 sur 30 niveau 0</code><br />
+<code>Informations lecture/fichier/système… Ctrl+F1 27 sur 30 niveau 0</code><br />
+<code>A propos… F1 28 sur 30 niveau 0</code><br />
+<code>Identification… 29 sur 30 niveau 0</code><br />
+<code>Quitter Alt+F4 30 sur 30 niveau 0</code></p>
+<p>Remarque : Cette partie affiche les raccourcis qui viennent tel quel par défaut dans le programme PotPlayer sans avoir fait aucune modification de notre part.</p>
+<p>Si nous faisons Tabulation, nous trouverons les fameux boutons comme noms :<br />
+<code>OK bouton</code><br />
+Appuyez sur le bouton &quot;OK&quot; pour valider vos modifications.<br />
+<code>Annuler bouton Alt+ a</code><br />
+Pour annuler les modifications, appuyez sur le bouton &quot;Annuler&quot;.<br />
+<code>Appliquer bouton Alt+ a</code><br />
+Vous pouvez activer le bouton Appliquer pour que les paramètres prennent effet immédiatement sans fermer le dialogue.</p>
+<p>Le seul conseil que je peux vous donner est de suivre un ordre très  méthodique et corrélative afin de ne pas faire d'erreurs pendant l'attribut d'un raccourci clavier.</p>
+<p>Rappelez-vous que la combinaison de touches ne soit pas assignée  à une autre fonction ou ne se chevauchent pas avec l'une des applications que nous utilisons.</p>
+<p>Par exemple, si nous voulons modifier le raccourci prédéterminé qui vient dans l'élément appelé :
+<code>Préférences… F5 24 sur 30 niveau 0</code><br />
+Faire Tabulation jusqu'à l'élément appelé :<br />
+<code>Raccourci global (Utilisable depuis tout environnement) case à cocher non coché</code><br />
+(valeur par défaut)<br />
+Nous le laissons tel quel.<br />
+Faire à nouveau Tabulation jusqu'à :<br />
+<code>Raccourci : liste déroulante réduit</code><br />
+<code>édition ligne 1 vide</code><br />
+Gardez à l'esprit que pour que ce programme fonctionne il y a une astuce pour insérer une touche supplémentaire lors de l'édition du raccourci dans le cas contraire, ce nouveau raccourci n'est pas pris en compte.<br />
+Donc, lorsque vous êtes dans le champ d'édition vous devrez appuyer simultanément la combinaison à insérer plus la touche Tabulation.<br />
+PAR EXEMPLE :<br />
+<code>Ctrl+Tab+F5</code><br />
+<code>Arborescence</code><br />
+Une fois fini, faire Maj+Tab jusqu'à atteindre l'élément :<br />
+<code>Raccourci : liste déroulante réduit	</code><br />
+Maintenant, dans le champ d'édition vous écouterez via le lecteur d'écran le nouveau raccourci que vous venez d'attribuer à cet élément.<br />
 PAR EXEMPLE :
-Ctrl+F5 bla bla bla…    
-Si ce raccourci n'est pas bien verbalisé et verbalise le raccourci précédent, faire Maj+Tab et revenez au champ d'édition pour vérifier maintenant s'il est verbalisé correctement.    
-Si tel était le bon raccourci attribué par vous, atteindre le bouton :    
-`OK bouton`    
-Puis faire Entrée sur ce bouton.    
-Ensuite faire Maj+Tab jusqu'à atteindre le bouton :    
-`Appliquer bouton Alt+ a`    
-Puis faire barre d'espace sur ce bouton.    
-Ensuite faire Maj+Tab jusqu'à atteindre le bouton :    
-`OK bouton`    
-Puis faire Entrée sur ce bouton.    
-
-Une fois que vous êtes dans la fenêtre principale de PotPlayer, vous pouvez tester le nouveau raccourci dont vous venez d'attribuer à cet élément appelé "Préférences".    
-PAR EXEMPLE :    
-`Ctrl+F5`    
-
-N'oubliez pas que vous devez suivre un ordre corrélatif et d'une manière méthodique pour faire ces nouveaux changements dans vos propres raccourcis clavier afin de ne pas faire d'erreurs pendant l'attribut d'un raccourci clavier puis que la combinaison de touches ne soit pas assignée  à une autre fonction ou ne se chevauchent pas avec l'une des applications que nous utilisons.    
-
-Je sais que nous pouvons mélanger l'utilisation des propres raccourcis du programme par défaut avec nos propres raccourcis Que nous allons personnaliser afin d'utiliser les deux d'une manière hybride, c'est-à-dire en utilisant des raccourcis global  et locale Pour que ce programme soit le plus polyvalent, dynamique et accessible ! 😏    
-
-Au bout du compte c'est à vous de voir si cela vous convient de le faire ou non ! 😉    
-
-Je donne cela seulement à des fins de présentation dans ce billet dédié à PotPlayer, pour ma part, je n'ai laissé que les raccourcis prédéterminés par le programme PotPlayer.    
-
-Remarque : J'ai réalisé que les raccourcis de PotPlayer sont également répertoriés lorsque vous appuyez sur l'élément appelé :    
-`A propos… F1`    
-Une fois ce dialogue ouvert, il suffit de faire Tabulation et d'appuyer sur l'élément appelé :    
-`Raccourcis clavier bouton`    
-Une fois appuyé sur ce bouton, vous trouverez les raccourcis clavier de PotPlayer dans une liste !    
-Vous pouvez également faire Tabulation une fois que vous êtes sur ledit bouton.    
-Une fois la liste des raccourcis clavier consultée, vous pouvez fermer celui-ci en appuyant sur l'élément appelé :    
-`Fermer bouton Alt+f`    
-
-Et pour conclure, cela me semble intéressant de jeter un coup d'œil à l'élément appelé :    
-`Accessibilité 9 sur 13 niveau 0`    
-En appuyant sur :    
-`Préférences… F5`    
-
-Cette partie ne sera pas traitée ici, je vous laisse découvrir par vous-même ! :)   
-Voilà,    
-J'espère que vous apprécierez le logiciel PotPlayer, un lecteur accessible pour nous les miro et que ceci  soit très utile pour vous!    
-À la prochaine sur un autre post!    
-@+    
-BlindHelp!  🇫🇷    
-
----
-
-Nous espérons vous revoir bientôt sur le      
-[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
-ou sur  votre nouvel espace via GitHub:                     
-[BlindHelp.github.io](https://blindhelp.github.io)                    
-
----
+Ctrl+F5 bla bla bla…<br />
+Si ce raccourci n'est pas bien verbalisé et verbalise le raccourci précédent, faire Maj+Tab et revenez au champ d'édition pour vérifier maintenant s'il est verbalisé correctement.<br />
+Si tel était le bon raccourci attribué par vous, atteindre le bouton :<br />
+<code>OK bouton</code><br />
+Puis faire Entrée sur ce bouton.<br />
+Ensuite faire Maj+Tab jusqu'à atteindre le bouton :<br />
+<code>Appliquer bouton Alt+ a</code><br />
+Puis faire barre d'espace sur ce bouton.<br />
+Ensuite faire Maj+Tab jusqu'à atteindre le bouton :<br />
+<code>OK bouton</code><br />
+Puis faire Entrée sur ce bouton.</p>
+<p>Une fois que vous êtes dans la fenêtre principale de PotPlayer, vous pouvez tester le nouveau raccourci dont vous venez d'attribuer à cet élément appelé &quot;Préférences&quot;.<br />
+PAR EXEMPLE :<br />
+<code>Ctrl+F5</code></p>
+<p>N'oubliez pas que vous devez suivre un ordre corrélatif et d'une manière méthodique pour faire ces nouveaux changements dans vos propres raccourcis clavier afin de ne pas faire d'erreurs pendant l'attribut d'un raccourci clavier puis que la combinaison de touches ne soit pas assignée  à une autre fonction ou ne se chevauchent pas avec l'une des applications que nous utilisons.</p>
+<p>Je sais que nous pouvons mélanger l'utilisation des propres raccourcis du programme par défaut avec nos propres raccourcis Que nous allons personnaliser afin d'utiliser les deux d'une manière hybride, c'est-à-dire en utilisant des raccourcis global  et locale Pour que ce programme soit le plus polyvalent, dynamique et accessible ! 😏</p>
+<p>Au bout du compte c'est à vous de voir si cela vous convient de le faire ou non ! 😉</p>
+<p>Je donne cela seulement à des fins de présentation dans ce billet dédié à PotPlayer, pour ma part, je n'ai laissé que les raccourcis prédéterminés par le programme PotPlayer.</p>
+<p>Remarque : J'ai réalisé que les raccourcis de PotPlayer sont également répertoriés lorsque vous appuyez sur l'élément appelé :<br />
+<code>A propos… F1</code><br />
+Une fois ce dialogue ouvert, il suffit de faire Tabulation et d'appuyer sur l'élément appelé :<br />
+<code>Raccourcis clavier bouton</code><br />
+Une fois appuyé sur ce bouton, vous trouverez les raccourcis clavier de PotPlayer dans une liste !<br />
+Vous pouvez également faire Tabulation une fois que vous êtes sur ledit bouton.<br />
+Une fois la liste des raccourcis clavier consultée, vous pouvez fermer celui-ci en appuyant sur l'élément appelé :<br />
+<code>Fermer bouton Alt+f</code></p>
+<p>Et pour conclure, cela me semble intéressant de jeter un coup d'œil à l'élément appelé :<br />
+<code>Accessibilité 9 sur 13 niveau 0</code><br />
+En appuyant sur :<br />
+<code>Préférences… F5</code></p>
+<p>Cette partie ne sera pas traitée ici, je vous laisse découvrir par vous-même ! :)</p>
+<p>Voilà,<br />
+J'espère que vous apprécierez le logiciel PotPlayer, un lecteur accessible pour nous les miro et que ceci  soit très utile pour vous!<br />
+À la prochaine sur un autre post!<br />
+@+<br />
+BlindHelp!  🇫🇷</p>
+<hr />
+<p>Nous espérons vous revoir bientôt sur le<br />
+<a href="http://blindhelp.blogspot.fr/">Blog de BlindHelp!</a><br />
+ou sur  votre nouvel espace via GitHub:<br />
+<a href="https://blindhelp.github.io">BlindHelp.github.io</a></p>
+<hr />
