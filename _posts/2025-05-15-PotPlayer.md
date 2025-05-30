@@ -1898,9 +1898,7 @@ Remarque : Lorsque nous sommes sur l'interface principale du programme PotPlayer
 </table>
 <hr>
 
-
-
-## Comment configurer les raccourcis clavier dans PotPlayer
+<H2>Comment configurer les raccourcis clavier dans PotPlayer</h2>
 
 Eh bien, les raccourcis clavier prédéterminés de PotPlayer comme mentionné dans les tableaux ci-dessus peuvent être utilisés à partir de la fenêtre principale du programme.    
 
