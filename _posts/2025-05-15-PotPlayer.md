@@ -232,8 +232,8 @@ Si je ne me trompe pas et si vous souhaitez installer un codec additionel vous d
 avant de appuyer sur :    
 `Fermer bouton Alt+ f`    
 
-Il me semble qu'une autre fenêtre apparaît pour appuyer sur le bouton "I Agree" Alt+ a.
-Faire Espace sur ce bouton pour accepter la licence.
+Il me semble qu'une autre fenêtre apparaît pour appuyer sur le bouton "I Agree" Alt+ a.    
+Faire Espace sur ce bouton pour accepter la licence.    
 
 Ensuite faire Tab pour atteindre le bouton"Next >", puis faire Entrée sur :    
 `Next > bouton Alt+ n`    
@@ -277,7 +277,7 @@ Voici les commandes clavier / les menus disponibles de PotPlayer dans le menu co
 `Liste de lecture… F6`    
 `Panneau de contrôle… F7`    
 `Informations lecture/fichier/système… Ctrl+F1`    
-A propos… F1`    
+`A propos… F1`    
 `Quitter Alt+F4`    
 `Ouvrir des fichiers… F3`    
 `Ouvrir menu`    
