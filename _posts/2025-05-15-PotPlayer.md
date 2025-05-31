@@ -2036,7 +2036,7 @@ Puis faire Entrée sur ce bouton.</p>
 PAR EXEMPLE :<br />
 <code>Ctrl+F5</code></p>
 <p>N'oubliez pas que vous devez suivre un ordre corrélatif et d'une manière méthodique pour faire ces nouveaux changements dans vos propres raccourcis clavier afin de ne pas faire d'erreurs pendant l'attribut d'un raccourci clavier puis que la combinaison de touches ne soit pas assignée  à une autre fonction ou ne se chevauchent pas avec l'une des applications que nous utilisons.</p>
-<p>Je sais que nous pouvons mélanger l'utilisation des propres raccourcis du programme par défaut avec nos propres raccourcis Que nous allons personnaliser afin d'utiliser les deux d'une manière hybride, c'est-à-dire en utilisant des raccourcis global  et locale Pour que ce programme soit le plus polyvalent, dynamique et accessible ! 😏</p>
+<p>Je sais que nous pouvons mélanger l'utilisation des propres raccourcis du programme par défaut avec nos propres raccourcis Que nous allons personnaliser afin d'utiliser les deux d'une manière hybride, c'est-à-dire en utilisant des raccourcis global et local pour que ce programme soit le plus polyvalent, dynamique et accessible ! 😏</p>
 <p>Au bout du compte c'est à vous de voir si cela vous convient de le faire ou non ! 😉</p>
 <p>Je donne cela seulement à des fins de présentation dans ce billet dédié à PotPlayer, pour ma part, je n'ai laissé que les raccourcis prédéterminés par le programme PotPlayer.</p>
 <p>Remarque : J'ai réalisé que les raccourcis de PotPlayer sont également répertoriés lorsque vous appuyez sur l'élément appelé :<br />
