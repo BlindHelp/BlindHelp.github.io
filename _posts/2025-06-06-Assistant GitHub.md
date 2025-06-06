@@ -11,7 +11,7 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Voici un moyen accessible d'utiliser La plate-forme de GitHub avec un lecteur d'écran via un Assistant GitHub...    
 
-Je donne ces informations à titre informatifplus bas, je ne l'ai pas essayé.    
+Je donne ces informations à titre informatif ci-dessous, je ne l'ai pas essayé.    
 
 ## Github Assistant - An accessible way to use github with ScreenReader - AppleVis
 
