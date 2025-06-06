@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Samedi 12 Avril 2025</footer>
+<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Vendredi 6 Juin 2025</footer>
 
 
 # ReminderApp (Application de Rappel) par Adriano Barbieri 🇮🇹 :
@@ -29,7 +29,7 @@ Merci de votre attention et bonne journée.
 
 La mise à jour est automatique Si vous avez téléchargé l'application portable  pour Windows à partir du dépôt sur GitHub, cependant voici le lien pour la dernière version en date :
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.2.zip>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.3.zip>
 
 # Antivirus Microsoft Defender, restaurer le fichier en quarantaine Par Adriano Barbieri 🇮🇹
 
@@ -117,7 +117,7 @@ Une boîte de dialogue apparaît avec le message suivant :
 `Informations sur le programme: Rappel dialogue Programme de gestion de différents types de rappels,complet avec un carnet de contacts.Version: 1.2Copyright (c) 2024 par Adriano Barbieridernière_modification: Dimanche Décembre 1, 2024Dédié à Miriam, le grand amour de ma vie.`    
 Appuyez sur le bouton Fermer ou appuyez sur la touche Échap pour fermer cette boîte de dialogue.    
 
-# Description et affichage the la documentation et premier démarrage  de ReminderApp
+# Description et affichage  de la documentation et premier démarrage  de ReminderApp
 
 Avec ReminderApp (Rappel), plus d'oubli !    
 Rassurez-vous, ce programme est là pour vous rappeler tout ce qui est important grâce aux rappels telles que (ex : prendre ses médicaments, ne pas oublier un rendez-vous ou la visite de quelqu'un, avec la baby-sitter, l'aide ménagère, l'infirmière, etc.).    
