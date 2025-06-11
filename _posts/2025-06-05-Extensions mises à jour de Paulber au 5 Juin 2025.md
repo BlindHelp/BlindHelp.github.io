@@ -144,8 +144,8 @@ author: BlindHelp
 <P>URL: <A HREF="https://github.com/paulber19/radioSureAccessEnhancementNVDAAddon.git">https://github.com/paulber19/radioSureAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement :</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.10.nvda-addon">Version stable actuelle : 2.10</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.9.1.nvda-addon">Version stable précédente : 2.9.1</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.10.nvda-addon">Version stable actuelle : 2.10</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/radioSureAccessEnhancement/radioSureAccessEnhancement-2.9.1.nvda-addon">Version stable précédente : 2.9.1</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/radioSureAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
 <H1>recuvaAccessEnhancement-1.10</H1>
@@ -161,8 +161,8 @@ author: BlindHelp
 <P>URL: <A HREF="https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git">https://github.com/paulber19/recuvaAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement :</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.10.nvda-addon">Version stable actuelle : 1.10</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.9.1.nvda-addon">Version stable précédente : 1.9.1</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.10.nvda-addon">Version stable actuelle : 1.10</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/recuvaAccessEnhancement/recuvaAccessEnhancement-1.9.1.nvda-addon">Version stable précédente : 1.9.1</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/recuvaAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
 <H1>VLCAccessEnhancement-2.13</H1>
@@ -191,13 +191,11 @@ author: BlindHelp
 <P>URL: <A HREF="https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git">https://github.com/paulber19/VLCAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement :</P>
 <UL>
-<LI>Version actuelle : 2.13
- <UL>
- <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.13.nvda-addon">serveur de téléchargement 1</A>
- <LI><A HREF="http://angouleme.avh.asso.fr/fichesinfo/fiches_nvda/data/VLCAccessEnhancement-2.13.nvda-addon">serveur de téléchargement 2</A>
- </UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.12.2.nvda-addon">Version précédente : 2.12.2</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/VLCAccessEnhancement/dev">versions de développement</A>
+<LI>Version actuelle : 2.13</LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.13.nvda-addon">serveur de téléchargement 1</A></LI>
+<LI><A HREF="http://angouleme.avh.asso.fr/fichesinfo/fiches_nvda/data/VLCAccessEnhancement-2.13.nvda-addon">serveur de téléchargement 2</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/VLCAccessEnhancement/VLCAccessEnhancement-2.12.2.nvda-addon">Version précédente : 2.12.2</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/VLCAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
 <H1>wordAccessEnhancement-3.7</H1>
 <P>Éditeur de texte Microsoft Word: complément d'accessibilité</P>
