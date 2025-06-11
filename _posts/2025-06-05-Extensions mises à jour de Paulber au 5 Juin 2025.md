@@ -22,8 +22,8 @@ author: BlindHelp
 <P>URL : <A HREF="https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git">https://github.com/paulber19/apprentiClavierAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement:</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.13.1.nvda-addon">Version stable actuelle: 1.13.1</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.12.nvda-addon">Version stable précédente: 1.12</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.13.1.nvda-addon">Version stable actuelle: 1.13.1</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.12.nvda-addon">Version stable précédente: 1.12</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/apprentiClavierAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
 <H1>audacityAccessEnhancement-3.3</H1>
@@ -48,8 +48,8 @@ author: BlindHelp
 <P>URL: <A HREF="https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git">https://github.com/paulber19/audacityAccessEnhancementNVDAAddon.git</A></P>
 <P>Téléchargement :</P>
 <UL>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.3.nvda-addon">Version stable actuelle : 3.3</A>
-<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.2.1.nvda-addon">Version stable précédente : 3.2.1</A>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.3.nvda-addon">Version stable actuelle : 3.3</A></LI>
+<LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/raw/master/audacityAccessEnhancement/audacityAccessEnhancement-3.2.1.nvda-addon">Version stable précédente : 3.2.1</A></LI>
 <LI><A HREF="https://github.com/paulber007/AllMyNVDAAddons/tree/master/audacityAccessEnhancement/dev">versions de développement</A></LI>
 </UL>
 <H1>notepadPlusPlusAccessEnhancement-2.8</H1>
