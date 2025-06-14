@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Vendredi 6 Juin 2025</footer>
+<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Vendredi 13 Juin 2025</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -17,7 +17,7 @@ Je viens de le traduire en français et en espagnol pour le fun, et l'auteur m'a
 # Informations sur l'extension ReminderApp: #
 
 * Auteur: <span lang="it">Adriano Barbieri</span>
-* Version actuelle: 1.9
+* Version actuelle: 2.0
 * Compatibilité avec NVDA: 2020.4 au-delà
 * Langues supportées: Espagnol, Français,et plusieurs autres langues
 * Description:    
@@ -27,7 +27,7 @@ NVDA+Shift+F1, Arrêter l'alarme en cours.
 NVDA+Shift+F2, Ouvrir l'interface graphique de ReminderApp, si appuyé deux fois, la fermer.    
 NVDA+Shift+F3, Affiche un aperçu du rappel du jour.    
 Pour d'autres instructions, vous pouvez également appuyer sur le bouton d'aide de l'extension dans le gestionnaire d'extensions.    
-* [Télécharger](https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-1.9.nvda-addon)
+* [Télécharger](https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.0.nvda-addon)
 * [Voir code source sur GitHub](https://github.com/Adriano-Barbieri62/ReminderApp-Addon)
 
 # ReminderApp-Addon pour NVDA par Adriano Barbieri 🇮🇹 :
@@ -37,14 +37,14 @@ Est conçu pour gérer divers types de rappels, tels que des rendez-vous, des c�
 Avec ReminderApp, non seulement vous pouvez créer et organiser facilement vos rappels, mais vous aurez également un carnet d'adresses pratique à portée de main.    
 Vous pouvez choisir parmi différentes mélodies pour les célébrations ou les anniversaires, ainsi que divers types d'alarmes, définir les répétitions d'alarme et définir l'intervalle entre les répétitions.    
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-1.9.nvda-addon>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.0.nvda-addon>
 
 Salutations    
 Adriano    
 
 Remarque: Ici, vous pouvez télécharger la dernière version portable exécutable pour Windows qui a donné naissance   à l'extension:    
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.3.zip>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.4.zip>
 
 Note par blindhelp 🇫🇷    
 Si vous souhaitez en savoir plus sur cette application, vous pouvez cliquer sur le lien ci-dessous Pour ouvrir le post dédié à cette application.    
