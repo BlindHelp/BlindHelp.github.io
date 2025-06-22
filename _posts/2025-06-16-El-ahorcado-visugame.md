@@ -27,7 +27,7 @@ Vous trouverez ci-dessous sa description faite par le même auteur.
 >    
 > Voici l'adresse directe:    
 >    
-> El ahorcado v 0.1 - visugame</span>    
+> <span lang="es">El ahorcado v 0.1 - visugame</span>    
 > <https://stsolution2.org/visuweb/users/18/game/index.php?lang=es&game2=g_hangman-18>    
 > Cordialement,    
 >    
@@ -43,7 +43,7 @@ Voici plus bas un commentaire de mon ami <span lang="es">Sergio G. C.</span> �
 > <span lang="es">El de El Ahorcado consiste en que, si eliges Jugar contra la computadora, él te dice que tienes que pasar 10 fases en las que tienes varios intentos; te muestra una tabla con las letras del abecedario y para confirmar usas la tecla enter (él te va mostrando los mensajes emergentes). Yo he conseguido a la primera hacer 7 de 10 (en el 8 me había engañado, el resultado era "A lo largo de", lo cual no es una palabra de trece letras como me había dicho; son cuatro palabras), pero esto está de perlas.</span>    
 >    
 > <span lang="es">Estoy jugando a este y a otros juegos y esto es estimulante, en especial este y el de cálculos que hay en la lista de videojuegos, que te hacen trabajar la mente.</span>     
-> <span>  lang="es">Quienes los han desarrollado son unos genios.</span>     
+> <span lang="es">Quienes los han desarrollado son unos genios.</span>     
 >    
 > <span lang="es">Gracias por enviarme esto, lo he agregado a Favoritos porque jugaré a menudo para matar el tiempo cuando no tenga que hacer nada.</span>     
 >    
