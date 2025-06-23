@@ -27,7 +27,7 @@ NVDA+Shift+F1, Arrêter l'alarme en cours.
 NVDA+Shift+F2, Ouvrir l'interface graphique de ReminderApp, si appuyé deux fois, la fermer.    
 NVDA+Shift+F3, Affiche un aperçu du rappel du jour.    
 Pour d'autres instructions, vous pouvez également appuyer sur le bouton d'aide de l'extension dans le gestionnaire d'extensions.    
-* [Télécharger](https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.1.nvda-addon)
+* Télécharger [version stable][1]
 * [Voir code source sur GitHub](https://github.com/Adriano-Barbieri62/ReminderApp-Addon)
 
 # ReminderApp-Addon pour NVDA par Adriano Barbieri 🇮🇹 :
@@ -37,7 +37,9 @@ Est conçu pour gérer divers types de rappels, tels que des rendez-vous, des c�
 Avec ReminderApp, non seulement vous pouvez créer et organiser facilement vos rappels, mais vous aurez également un carnet d'adresses pratique à portée de main.    
 Vous pouvez choisir parmi différentes mélodies pour les célébrations ou les anniversaires, ainsi que divers types d'alarmes, définir les répétitions d'alarme et définir l'intervalle entre les répétitions.    
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.1.nvda-addon>
+Télécharger la dernière version stable en cliquant [ici][1]
+
+[1]: https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.1.nvda-addon
 
 Salutations    
 Adriano    
@@ -50,7 +52,22 @@ Note par blindhelp 🇫🇷
 Si vous souhaitez en savoir plus sur cette application, vous pouvez cliquer sur le lien ci-dessous Pour ouvrir le post dédié à cette application.    
 [Application de rappel accessible pour Windows par Adriano Barbieri 🇮🇹](https://blindhelp.github.io/Accessible-ReminderApp-for-Windows/)    
 
-Mille merci à notre ami <span lang="it">Adriano Barbieri</span> pour l'avoir partagé avec nous tous! :)    
+# Pour mettre à jour la nouvelle version  de l'application ou l'extension ReminderApp sans attendre le lendemain par blindhelp 🇫🇷
+C'est très simple.    
+Faire Windows+r et taper `%temp%`    
+Faire Entrée    
+Taper la lettre `u`    
+Puis supprimer les deux fichiers:    
+`updatereminderapp.json`    
+Celui-ci est pour l'application.    
+`updatereminderappaddon.json`    
+Celui-ci est pour l'extension NVDA.    
+Une fois supprimé l'un de ces fichiers ou les deux selon le cas fermer par Alt+F4    
+Relancer l'application ou l'extension ReminderApp pour mettre à jour la nouvelle version sans attendre le lendemain. :)    
+Un grand merci à <span lang="it">Adriano Barbieri</span> de nous avoir donné ces conseils!    
+Enjoy! 😃    
+
+Mille merci à nouveau à notre ami <span lang="it">Adriano Barbieri</span> pour l'avoir partagé avec nous tous! :)    
 P.S : En remerciant également a notre ami Cyrille, qu'il a résolu certains problèmes liés à l'extension conjointement avec Adriano en privé. (handshake)    
 Profitez donc de l'extension ReminderApp qui est une combinaison de l'agenda et un carnet d'adresses pour NVDA.    
 Je vous souhaite un bon usage !    

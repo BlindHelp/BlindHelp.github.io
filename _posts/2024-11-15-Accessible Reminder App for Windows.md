@@ -147,6 +147,25 @@ Une boîte de dialogue apparaît avec le message suivant en anglais :
 `OK bouton`    
 En cliquant sur le bouton OK, vous redémarrerez le programme avec l'interface et la documentation dans notre belle langue, le français. 🇫🇷    
 
+# Pour mettre à jour la nouvelle version  de l'application ou l'extension ReminderApp sans attendre le lendemain par blindhelp 🇫🇷
+C'est très simple.    
+Faire Windows+r et taper `%temp%`    
+Faire Entrée    
+Taper la lettre `u`    
+Puis supprimer les deux fichiers:    
+`updatereminderapp.json`    
+Celui-ci est pour l'application.    
+`updatereminderappaddon.json`    
+Celui-ci est pour l'extension NVDA.    
+Une fois supprimé l'un de ces fichiers ou les deux selon le cas fermer par Alt+F4    
+Relancer l'application ou l'extension ReminderApp pour mettre à jour la nouvelle version sans attendre le lendemain. :)    
+Un grand merci à <span lang="it">Adriano Barbieri</span> de nous avoir donné ces conseils!    
+Enjoy! 😃    
+
+Note par blindhelp 🇫🇷    
+Si vous souhaitez en savoir plus sur cette extension pour NVDA, vous pouvez cliquer sur le lien ci-dessous Pour ouvrir le post dédié à cette extension.    
+[ReminderApp-Addon pour NVDA par Adriano Barbieri 🇮🇹](https://blindhelp.github.io/ReminderApp-Addon-pour-NVDA/)    
+
 ---
 
 Merci à tous pour votre soutien.    
