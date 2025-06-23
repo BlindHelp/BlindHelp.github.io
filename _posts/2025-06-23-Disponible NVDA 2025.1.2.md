@@ -1,20 +1,20 @@
 ---
-title: Disponible NVDA 2025.1.1
-permalink: "/nvda-2025-1-1/"
+title: Disponible NVDA 2025.1.2
+permalink: "/nvda-2025-1-2/"
 layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 17 Juin 2025</footer>
+<footer>Publié le Lundi 23 Juin 2025</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access a le plaisir de vous informer que la version  NVDA 2025.1.1 le lecteur d'écran gratuit pour Microsoft Windows, est désormais disponible en téléchargement [comme mentionné sur ce post (en anglais)](https://www.nvaccess.org/post/nvda-2025-1-1/) sortie le Mardi 17.06.2025. NV Access encourage tous les utilisateurs à passer à cette version.    
+NV Access a le plaisir de vous informer que la version  NVDA 2025.1.2 le lecteur d'écran gratuit pour Microsoft Windows, est désormais disponible en téléchargement [comme mentionné sur ce post (en anglais)](https://www.nvaccess.org/post/nvda-2025-1-2/) sortie le Lundi 23.06.2025. NV Access encourage tous les utilisateurs à passer à cette version.    
 
 # Points forts
 
-Cette version corrige une erreur dans la traduction coréenne qui a empêché les utilisateurs de cette langue d'utiliser l'Addon Store.
+Cette version comprend un correctif pour un bogue mineur qui empêché l'ouverture de certaines versions de Microsoft Word avant la 16.0.18226.
 
 ## 2025.1
 
@@ -43,7 +43,7 @@ Le traducteur braille LibLouis, eSpeak-NG et Unicode CLDR ont été mis à jour.
 ---
 
 
-Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version stable en configurant le canal stable avant cette mise à jour et ensuite en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous aviez déjà la version NVDA 2025.1 ou une version stable précédente il suffira de appuyez sur l'option "Rechercher une mise à jour..." sans avoir besoin de cette extension. Cependant, si vous trouvez un problème lors de la mise à jour ou si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien direct ci-dessous:
+Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version stable en configurant le canal stable avant cette mise à jour et ensuite en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous aviez déjà la version NVDA 2025.1.1 ou une version stable précédente il suffira de appuyez sur l'option "Rechercher une mise à jour..." sans avoir besoin de cette extension. Cependant, si vous trouvez un problème lors de la mise à jour ou si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien direct ci-dessous:
 
 Avertissement: 💀  
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension téléchargé est à vos risques et périls. ☠  
@@ -62,25 +62,25 @@ Veuillez noter qu'après la mise à jour de tout logiciel, il est conseillé de 
 
 Si vous voulez l'installer et que vous avez une version stable, vous pouvez télécharger le fichier d'installation depuis le lien ci-dessous qui vous mènera à la page habituelle de téléchargement  de NV Access (en anglais) ou utilisez autrement le lien direct ci-dessous fourni par NV Access.    
 
-###  Pour télécharger NVDA 2025.1.1 ###
+###  Pour télécharger NVDA 2025.1.2 ###
 
-La version stable de NVDA 2025.1.1 est maintenant disponible pour le téléchargement.    
+La version stable de NVDA 2025.1.2 est maintenant disponible pour le téléchargement.    
 
 [Procédure de téléchargement préféré par NV Access](https://groups.io/g/nvda-devel/message/45172) (en anglais)    
 [(et la dernière procédure de téléchargement approuvée par NV Access)](https://groups.io/g/nvda-devel/message/46527) (en anglais)    
 
-Pour télécharger la version de NVDA 2025.1.1:    
+Pour télécharger la version de NVDA 2025.1.2:    
 
-# Depuis la page du poste NV Access NVDA 2025.1.1 #
+# Depuis la page du poste NV Access NVDA 2025.1.2 #
 
-1. Accédez à la [page du poste de NV Access pour télécharger NVDA 2025.1.1](https://www.nvaccess.org/post/nvda-2025-1-1/)    
-2. chercher puis appuyez sur le lien "Download NVDA 2025.1.1".               
+1. Accédez à la [page du poste de NV Access pour télécharger NVDA 2025.1.2](https://www.nvaccess.org/post/nvda-2025-1-2/)    
+2. chercher puis appuyez sur le lien "Download NVDA 2025.1.2".               
 
 # Depuis le serveur de NV Access #
   
-[Téléchargement direct de NVDA 2025.1.1 à partir du serveur de NV Access](https://www.nvaccess.org/download/nvda/releases/2025.1.1/nvda_2025.1.1.exe)
+[Téléchargement direct de NVDA 2025.1.2 à partir du serveur de NV Access](https://www.nvaccess.org/download/nvda/releases/2025.1.2/nvda_2025.1.2.exe)
 
-```SHA256 sum: 244d53eb9775493fd4bdd36b7341f23835e1d3ac0dad97cc5b8a1058d6c9a480```
+```SHA256 sum: 6d1a7ed2e7e15f8db52e111abdb2b36daac0b170ee1657781d526bee967f8a3c```
 
 Pour vérifier que le fichier téléchargé n'a pas été modifié, c'est-à-dire pour vérifier son intégrité, vous pouvez confirmer que le SHA256 correspond au précédent. Depuis l'invite de commande de Windows, vous pouvez connaître le SHA256 d'un fichier téléchargé à l'aide de la commande suivante :    
 ```cmd
