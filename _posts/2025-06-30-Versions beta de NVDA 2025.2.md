@@ -6,17 +6,27 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Lundi 30 Juin 2025</footer>
+<footer>Publié le Lundi 30 Juin 2025 - Dernière mise à jour le Mardi 8 Juillet 2025</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 1 de NVDA 2025.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-2beta1) le Lundi 30.06.2025.    
+NV Access vient de publier la béta 2 de NVDA 2025.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-2beta2) le Mardi 08.07.2025.    
 
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette première béta et à faire part de ses commentaires.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette deuxième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
 Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière version stable.
+
+## Modifications introduites dans la béta 2 de NVDA 2025.2 signalé par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-2beta2) le Mardi 08.07.2025.
+
+* Lors de la saisie dans une cellule de Microsoft Excel, l'affichage en braille est désormais correctement mis à jour pour afficher le nouveau contenu.
+* Correction d'un bug où le pilote de l'afficheur braille NLS eReader Zoomax n'a pas fonctionné avec tous les appareils.
+* Correction d'erreurs dans la navigation par objet avec braille dans les contrôles de texte statique XAML.
+* Correction des problèmes de certificat à la racine de l'Add-on Store.
+* Mises à jour des traductions.
+
+NV Access vient de publier la béta 1 de NVDA 2025.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-2beta1) le Lundi 30.06.2025.    
 
 ### Points forts
 
@@ -30,16 +40,18 @@ Sous Windows 11, NVDA n'annonce plus deux fois les éléments du panneau Emoji l
 
 La prise en charge de l'afficheur braille NLS eReader Zoomax a été ajoutée. Le routage du curseur par les touches d'action point et clic sur les afficheurs braille Humanware Monarch a également été pris en charge.
 
-LibLouis a été mis à jour, ajoutant de nouvelles tables braille pour  l'hébreu biblique, russe Braille informatique 6 points et le braille thaï grade 2. eSpeak NG a été mis à jour, ajoutant la prise en charge l'Arrumano, tatar de Crimée, mongol et pastu. Il y a également eu un certain nombre d'autres correctifs et améliorations, notamment concernant la souris et l'interaction tactile, le Bloc-notes de Windows 11 et Google Chrome.
+LibLouis a été mis à jour, ajoutant de nouvelles tables braille pour  l'hébreu biblique, russe Braille informatique 6 points et le braille thaï grade 2. eSpeak NG a été mis à jour, ajoutant la prise en charge l'Arrumano, tatar de Crimée, mongol et pastu.
+
+Il y a également eu un certain nombre d'autres correctifs et améliorations, notamment concernant la souris et l'interaction tactile, le Bloc-notes de Windows 11 et Google Chrome.
 
 ### Liens utiles de NV Access
 
-- [NVDA 2025.2beta1 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.2beta1/nvda_2025.2beta1.exe)
-   - SHA256: 4c6937ae8d35edf49c2e02101133e116e33ca44bd115679367c715587a5e39af
+- [NVDA 2025.2beta2 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.2beta2/nvda_2025.2beta2.exe)
+   - SHA256: 1b8635bb951ea9313bb6ee625433e5617be558770d079ce8efd22e8e7b2aa632
 - [Quoi de Neuf](https://download.nvaccess.org/documentation/fr/changes.html)
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues)
 
-Veuillez noter que NVDA 2025.2 béta 1 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2025.2 béta 2 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
