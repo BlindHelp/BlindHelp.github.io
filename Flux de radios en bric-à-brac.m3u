@@ -1000,7 +1000,8 @@ http://direct.francebleu.fr/live/fbnord-midfi.mp3
 http://direct.francebleu.fr/live/fbbassenormandie-midfi.mp3
 #EXTINF:-1,Ici Normandie (Seine-Maritime - Eure) (ex France Bleu) (Haute Normandie) (🇫🇷)
 http://direct.francebleu.fr/live/fbhautenormandie-midfi.mp3
-http://direct.francebleu.fr/live/fbtoulouse-midfi.mp3#EXTINF:-1,Ici Occitanie (ex France Bleu) (🇫🇷)
+#EXTINF:-1,Ici Occitanie (ex France Bleu) (🇫🇷)
+http://direct.francebleu.fr/live/fbtoulouse-midfi.mp3
 #EXTINF:-1,Ici Orléans (ex France Bleu) (🇫🇷)
 http://direct.francebleu.fr/live/fborleans-midfi.mp3
 #EXTINF:-1,Ici Paris Île-de-France (ex France Bleu) (107.1) (🇫🇷)
