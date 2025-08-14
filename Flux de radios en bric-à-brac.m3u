@@ -81,8 +81,10 @@ http://dreamsiteradiocp6.com/proxy/rmfrance1
 http://novazz.ice.infomaniak.ch/novazz-128.mp3
 #EXTINF:-1,Radio Orient (🇫🇷)
 http://n04a-eu.rcs.revma.com/7hnrkawf4p8uv.mp3
-#EXTINF:-1,Radio Pitchoun (🇫🇷)http://rcf.streamakaci.com/rcf.mp3#EXTINF:-1,RCF France (🇫🇷)
+#EXTINF:-1,Radio Pitchoun (🇫🇷)
 https://webradio.tvradio-pitchoun.fr:8443/radiopitchoun.aac
+#EXTINF:-1,RCF France (🇫🇷)
+http://rcf.streamakaci.com/rcf.mp3
 #EXTINF:-1,RFI (🇫🇷)
 http://live02.rfi.fr/rfimonde-96k.mp3
 #EXTINF:-1,RFI Musique (🇫🇷)
