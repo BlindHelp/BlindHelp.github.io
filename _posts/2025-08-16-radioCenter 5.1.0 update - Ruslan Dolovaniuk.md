@@ -123,7 +123,6 @@ Tous les fichiers m3u de ce répertoire et tous ses sous-répertoires seront aut
 * Ajout de la localisation roumaine (Nicu Untilă);  
 
 ### Version 4.5.0
->>>>>>> main
 * ajout d'un menu contextuel à la liste des stations de radio dans la fenêtre principale ;
 * ajout d'une combinaison de touches pour enregistrer une station de radio ;
 * disponibilité fixe de l'enregistrement sans qu'il soit nécessaire de commencer à écouter la station de radio ;
