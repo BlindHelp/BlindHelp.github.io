@@ -67,12 +67,12 @@ Cordialement, Ruslan.
 <span lang="en">Best regards, Ruslan.</span>    
 
 ## Quelques notes importantes par Rémy (BlindHelp). 🇫🇷
-Pour ma part, je ne l'ai pas utilisé cette nouvelle version radioCenter 5.0.0, je vous en informe simplement pour que vous sachiez que celle-ci est maintenant disponible sur la chaîne télégramme et le groupe de l'auteur.    
+Pour ma part, je n'ai pas encore Fait la mise à jour de cette nouvelle version de l'extension radioCenter 5.0.0, je vous en informe simplement pour que vous sachiez que celle-ci est maintenant disponible sur la chaîne télégramme et le groupe de l'auteur.    
 Notez également que les liens cités ci-dessus pointent vers les pages en anglais fourni également par l'auteur.    
 À savoir que  le dépôt sur GitHub pour l'extension radioCenter:    
 <https://github.com/DollaR84/radioCenter>    
 à l'heure actuelle il n'est plus répertorié sur GitHub.    
-Si vous pensez que l'extension radioCenter ne fonctionne pas correctement avec votre version NVDA actuelle et ne parvient pas à mettre à jour les services pour les stations de radio et que vous avez un compte Telegram vous pouvez mettre à jour vers la nouvelle version, puis vous inscrire sur la page comme indiqué ci-dessus par l'auteur, à la bonne heure, mais sinon si vous ne voulez pas le faire, vous pouvez toujours la désinstallée, peut-être la désactivée si vous n'en avez tout simplement pas besoin pendant une période prolongée, si vous voulez vraiment désactiver/supprimer cette extension, vous pouvez le faire en utilisant l'Add-on Store laquelle est accessible depuis le sous-menu Outils du menu NVDA.    
+Si vous pensez que l'extension radioCenter ne fonctionne pas correctement avec votre version NVDA actuelle et ne parvient pas à mettre à jour les services pour les stations de radio et que vous avez un compte Telegram vous pouvez mettre à jour vers la nouvelle version, puis vous inscrire sur la page comme indiqué ci-dessus par l'auteur, à la bonne heure, mais sinon si vous ne voulez pas le faire, vous pouvez toujours la désinstallée (Quel dommage :(), peut-être la désactivée si vous n'en avez tout simplement pas besoin pendant une période prolongée ou si vous allez la mettre à jour plus tard, si vous voulez vraiment désactiver/supprimer cette extension, vous pouvez le faire en passant par l'Add-on Store laquelle est accessible depuis le sous-menu Outils du menu NVDA.    
 C'est à vous de voir cela, je ne vous donne qu'un simple conseil.    
 Avertissement: 💀    
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension radioCenter  pour NVDA téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension radioCenter téléchargé est à vos risques et périls. ☠    
