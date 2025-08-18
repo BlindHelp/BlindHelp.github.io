@@ -11,11 +11,137 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte des informations toutes fraîches sur lla nouvelle version 5.1.0 de l'extension radioCenter pour NVDA, reçu en privé par Ruslan Dolovaniukque et je vous le partage avec vous tous.    
 Il faut cependant noter que depuis la version 5.0.0 vous devrez vous inscrire sur le site en question (vvoir le lien plus bas) qui est effectivement facile d'usage selon mon ami Paul du Canada. 🇨🇦    
+Et je peux le confirmer depuis que je viens de le faire. ✌    
 
 ## Quelques notes importantes par Rémy (BlindHelp). 🇫🇷
-Pour ma part, je ne l'ai pas utilisé cette nouvelle version radioCenter 5.1.0, je vous en informe simplement pour que vous sachiez que celle-ci est maintenant disponible sur la chaîne télégramme et le groupe de l'auteur.    
+Pour ma part, je viens de l'utiliser cette nouvelle version radioCenter 5.1.0 et elle me semble phénoménale, et je vous en informe simplement pour que vous sachiez que celle-ci est maintenant disponible sur la chaîne télégramme et le groupe de l'auteur.    
 Notez également que les liens cités dans ce billet pointent vers les pages en anglais fourni également par l'auteur.    
 
+## Comment effectuer l'inscription à partir de la page RadioCollectionService par Rémy (BlindHelp). 🇫🇷
+Eh bien, comme je l'ai dit déjà sur le post précédent surtout, le fonctionnement avec les collections est déplacé vers un serveur séparé: <https://elrus.pp.ua>.    
+Vous devez vous inscrire sur ce site et spécifier votre ID de connexion et votre mot de passe pour la connexion dans les paramètres, après quoi tous les services des stations seront disponibles dans les collections de l'extension.    
+Pour ce faire, voici les recommandations données par l'auteur de l'extension radioCenter en privé une fois cette page en anglais RadioCollectionService ouverte:    
+
+* La principale chose pour l'inscription est un e-mail correct.
+* Le mot de passe doit comporter au moins 5 caractères, mais pas plus de 50.
+* Pour le nom d'utilisateur, la seule limitation est que celui-ci ne dépasse pas 50 caractères.
+* Mais pour l'autorisation de l'extension, c'est l'e-mail et le mot de passe qui sont importants.
+
+La première chose à faire une fois que la page est ouverte est de rechercher puis appuyer sur Entrée sur le lien appelé:    
+`Login to start listening`    
+dont le lien serait le suivant::    
+<https://elrus.pp.ua/login>    
+Une fois cette page ouverte, vous devez rechercher l'élément appelé:    
+`titre  niveau 1 Login`    
+Sous ce titre niveau 1 si vous faites plusieurs flèches bas vous trouverez les différents champs d'édition à remplir (Dans le cas où vous vous êtes déjà inscrit sur cette page.):    
+Le premier est:    
+`Email`    
+`édition obligatoire  Email`    
+Et le second est:    
+`Password`    
+`édition protégé obligatoire  Password`    
+Une fois que ces champs d'édition sont remplis, appuyez sur l'élément appelé:    
+`bouton  Login`    
+
+Une fois appuyé sur ce bouton, vous aurez une nouvelle page ouverte, vous devez rechercher l'élément appelé:    
+`titre  niveau 1 User Profile`    
+`Status:default`    
+`Username *`    
+`Username édition obligatoire (Ici s'affichera votre nom d'utilisateur)`    
+`First Name`    
+`First Name édition`    
+Ici, vous pouvez insérer votre prénom    
+`Last Name`    
+`Last Name édition`    
+Ici, vous pouvez insérer votre nom de famille    
+`Email`    
+`Email (read-only) édition non disponible  tartempion@gmail.com (Ici s'affichera votre e-mail utilisé lors de l'inscription à la page)`    
+`Email cannot be changed`    
+Cela ne peut pas être modifié et ceci est uniquement en lecture.    
+`bouton non disponible  Save changes`    
+Dans le cas où vous avez inséré votre prénom et votre nom de famille, vous devrez enregistrer les modifications en appuyant sur l'élément appelé:    
+`bouton Save changes`    
+Dans le cas où vous n'avez pas modifié ces champs d'édition, ce bouton ne sera pas disponible.    
+`bouton  Logout`    
+Appuyez sur ce bouton uniquement si vous souhaitez vous déconnecter de la page.    
+Dans le cas où vous n'avez pas encore créé de compte, vous devez faire ce qui suit:    
+Après l'élément appelé:    
+`bouton  Login`    
+Si vous faites une flèche bas, vous trouverez la question suivante en anglais:    
+`Don't have an account?`    
+Suivi du lien appelé:    
+`Sign up`    
+dont le lien serait le suivant::    
+<https://elrus.pp.ua/signup>
+Une fois cette page ouverte, vous devez rechercher l'élément appelé:    
+`titre  niveau 1 Create Account`    
+Sous ce titre niveau 1 si vous faites plusieurs flèches bas vous trouverez les différents champs d'édition à remplir (Dans le cas où vous n'avez pas de compte enregistré pour cette page)):    
+Le premier est:    
+`Username`    
+`édition obligatoire  Username`    
+Et le second est:    
+`Email`    
+`édition obligatoire  Email`    
+Et le troisième est:    
+`Password`    
+`édition protégé obligatoire  Password`    
+Et le quatrième et dernier est:    
+`Confirm Password`    
+`édition protégé obligatoire  Confirm Password`    
+Une fois que ces champs d'édition sont remplis, appuyez sur l'élément appelé:    
+`bouton  Sign Up`    
+Ensuite, une nouvelle page s'ouvrira où vous devrez insérer votre e-mail et votre mot de passe.    
+Si vous avez déjà un compte créé pour cette page il vous suffit de vous connecter avec votre e-mail correct et votre mot de passe utilisés lors de la création de votre compte pour cette page:    
+Si vous faites une flèche bas, vous trouverez la question suivante en anglais:    
+`Already have an account?`    
+Suivi du lien appelé:    
+`Log in`    
+dont le lien serait le suivant::    
+<https://elrus.pp.ua/login>    
+Suivez les instructions ci-dessus une fois appuyées sur ledit lien.    
+Fermez cette page en appuyant sur Alt+F4    
+Eh bien, je pense que c'est tout ce que je peux vous dire sur la façon d'effectuer l'inscription à partir de la page RadioCollectionService    
+
+## Comment effectuer la configuration pour la connexion à la page RadioCollectionService à partir de l'extension radioCenter par Rémy (BlindHelp). 🇫🇷
+Maintenant que vous vous êtes inscrit sur cette page, vous pouvez mettre à jour allègrement ladite extension radioCenter depuis la dernière version disponible comme nom:    
+`radioCenter-5.1.0.nvda-addon`    
+
+Pour configurer cela dans l'extension, suivez les étapes suivantes:    
+N'oubliez pas que pour l'autorisation de l'extension vers la page RadioCollectionService, c'est l'e-mail et le mot de passe qui sont importants pour la connexion dans les paramètres, après quoi tous les services des stations seront disponibles dans les collections de l'extension.    
+Ceci est valide à partir de la version 5.0.0 de l'extension radioCenter.    
+
+Appuyez sur NVDA+n pour ouvrir le menu NVDA, puis Préférences puis Paramètres…    
+`Catégories : liste Alt+ c`    
+Appuyez sur la lettre r jusqu'à  atteindre la catégorie appelée: Radio Center    
+Notre lecteur d'écran NVDA annoncera ceci comme:    
+`Paramètres de NVDA: Radio Center (configuration normale)`    
+puis faire tabulation jusqu'à atteindre les deux champs d'édition suivants:    
+`e-mail édition ligne 1 vide`    
+`mot de passe édition ligne 1 vide`    
+P.S: Cette chaîne n'a pas encore été mise à jour dans l'extension traduites par mes soins en français puis envoyé à l'auteur récemment en privé, (Cette traduction c'est en russe).    
+Remplissez les deux champs prévus avec l'e-mail et le mot de passe  utilisés lors de la création de votre compte pour cette page RadioCollectionService    
+Une fois que vous avez terminé n'oubliez pas d'appuyer sur le bouton OK    
+Une fois cela fait, cette boîte de dialogue se ferme.    
+Ensuite utilisez l'élément "Sauvegarder la configuration" dans le menu NVDA.    
+
+Lorsque vous appuyez sur le bouton appelé::    
+`Collections bouton`    
+Vous n'aurez que deux onglets, le premier appelé:    
+`Service`    
+Depuis cette nouvelle version nous trouverons cette nouvel onglet.    
+Et le deuxième onglet appelé:    
+`File System`    
+Dans notre cas une fois configuré le chemin du répertoire locale avec des fichiers m3u contenant les flux des stations de radio nous trouverons Cet onglet.    
+Le bouton Mise à jour met à jour les données uniquement pour l'onglet actuellement ouvert.    
+Vous devrez mettre à jour les deux onglets séparément, (Seul le premier onglet sera affiché dans le cas que vous n'avez pas configuré le chemin du répertoire locale avec des fichiers m3u.    
+
+À l'avenir, il est prévu d'ajouter plus de fonctionnalités pour l'interaction entre l'extension et le service.    
+
+Eh bien, je pense que c'est tout ce que je peux vous dire sur la façon d'effectuer la configuration de l'extension radioCenter vers la page RadioCollectionService    
+
+Nous réitérons de nouveaux un grand merci à l'auteur Ruslan Dolovaniuk 🇺🇦 pour son bon travail de programmation de cette nouvelle version de l'extension radioCenter et pour l'avoir partagé avec nous tous !(handshake)     
+
+## Informations sur cette extension radioCenter
 * Auteur: Ruslan Dolovaniuk 🇺🇦
 * Compatible NVDA: 2023.2 à 2025.1.2
 * Version actuelle: 5.1.0 (comprend la traduction en espagnol et en français depuis la  version 2.1.0, fait par mes soins envoyé à l'auteur en privé).
