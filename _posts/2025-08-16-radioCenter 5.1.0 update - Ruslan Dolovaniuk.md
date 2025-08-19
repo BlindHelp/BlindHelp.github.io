@@ -72,7 +72,7 @@ Si vous faites une flèche bas, vous trouverez la question suivante en anglais:
 Suivi du lien appelé:    
 `Sign up`    
 dont le lien serait le suivant::    
-<https://elrus.pp.ua/signup>
+<https://elrus.pp.ua/signup>    
 Une fois cette page ouverte, vous devez rechercher l'élément appelé:    
 `titre  niveau 1 Create Account`    
 Sous ce titre niveau 1 si vous faites plusieurs flèches bas vous trouverez les différents champs d'édition à remplir (Dans le cas où vous n'avez pas de compte enregistré pour cette page)):    
@@ -118,7 +118,7 @@ Notre lecteur d'écran NVDA annoncera ceci comme:
 puis faire tabulation jusqu'à atteindre les deux champs d'édition suivants:    
 `e-mail édition ligne 1 vide`    
 `mot de passe édition ligne 1 vide`    
-P.S: Cette chaîne n'a pas encore été mise à jour dans l'extension traduites par mes soins en français puis envoyé à l'auteur récemment en privé, (Cette traduction c'est en russe).    
+P.S: Cette chaîne n'a pas encore été mise à jour dans l'extension traduites par mes soins en français puis envoyé à l'auteur récemment en privé ; (cette traduction est toujours en russe).    
 Remplissez les deux champs prévus avec l'e-mail et le mot de passe  utilisés lors de la création de votre compte pour cette page RadioCollectionService    
 Une fois que vous avez terminé n'oubliez pas d'appuyer sur le bouton OK    
 Une fois cela fait, cette boîte de dialogue se ferme.    
@@ -128,10 +128,10 @@ Lorsque vous appuyez sur le bouton appelé::
 `Collections bouton`    
 Vous n'aurez que deux onglets, le premier appelé:    
 `Service`    
-Depuis cette nouvelle version nous trouverons cette nouvel onglet.    
+Depuis cette nouvelle version nous trouverons cette nouvel onglet où tous les flux des stations de radio seront regroupés.    
 Et le deuxième onglet appelé:    
 `File System`    
-Dans notre cas une fois configuré le chemin du répertoire locale avec des fichiers m3u contenant les flux des stations de radio nous trouverons Cet onglet.    
+Dans notre cas une fois configuré le chemin du répertoire locale avec des fichiers m3u contenant les flux des stations de radio nous trouverons Cet onglet où tous les flux des stations de radio comme extension m3u seront regroupés.    
 Le bouton Mise à jour met à jour les données uniquement pour l'onglet actuellement ouvert.    
 Vous devrez mettre à jour les deux onglets séparément, (Seul le premier onglet sera affiché dans le cas que vous n'avez pas configuré le chemin du répertoire locale avec des fichiers m3u.    
 
@@ -139,7 +139,7 @@ Vous devrez mettre à jour les deux onglets séparément, (Seul le premier ongle
 
 Eh bien, je pense que c'est tout ce que je peux vous dire sur la façon d'effectuer la configuration de l'extension radioCenter vers la page RadioCollectionService    
 
-Nous réitérons de nouveaux un grand merci à l'auteur Ruslan Dolovaniuk 🇺🇦 pour son bon travail de programmation de cette nouvelle version de l'extension radioCenter et pour l'avoir partagé avec nous tous !(handshake)     
+Nous réitérons de nouveaux un grand merci à l'auteur Ruslan Dolovaniuk 🇺🇦 pour son bon travail de programmation de cette nouvelle version de l'extension radioCenter et pour l'avoir partagé avec nous tous! (handshake)    
 
 ## Informations sur cette extension radioCenter
 * Auteur: Ruslan Dolovaniuk 🇺🇦
