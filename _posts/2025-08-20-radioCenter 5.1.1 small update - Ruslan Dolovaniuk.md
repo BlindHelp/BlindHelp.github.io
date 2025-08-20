@@ -10,7 +10,7 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!    
 Comment allez-vous ?    
-Si vous vous souvenez bien nous traitons sur ce blog [BlindHelp.github.io](https://blindhelp.github.io) il y a deux jours un article sur:    
+Si vous vous souvenez bien nous traitons sur ce blog [BlindHelp.github.io](https://blindhelp.github.io) il y a quatre jours un article sur:    
 [Nouvelle version 5.1.0 de l'extension radioCenter pour NVDA, par Ruslan Dolovaniuk](https://blindhelp.github.io/radioCenter-5-1-0-update-by-Ruslan-Dolovaniuk/)    
 Publié le Samedi 16 Août 2025    
 Et je vous informe que j'ai reçu un message en privé aujourd'hui de la part de l'auteur qui m'a dit ce qui suit sur cette nouvelle petite mise à jour 5.1.1 (voir le message traduit de l'anglais vers le français par mes soins ci-dessous):    
