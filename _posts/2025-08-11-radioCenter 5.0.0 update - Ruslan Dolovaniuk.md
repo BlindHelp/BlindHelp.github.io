@@ -26,7 +26,6 @@ Et vous pouvez choisir tous les modificateurs pratiques pour eux: CTRL, Shift, W
 Eh bien, et surtout, le fonctionnement avec les collections est déplacé vers un serveur séparé: <https://elrus.pp.ua>.    
 Vous devez vous inscrire sur ce site et spécifier votre ID de connexion et votre mot de passe pour la connexion dans les paramètres, après quoi tous les services des stations seront disponibles dans les collections de l'extension.    
 À l'avenir, il est prévu d'ajouter plus de fonctionnalités pour l'interaction entre l'extension et le service.    
-
 Fichier sur ma chaîne télégramme et mon groupe    
 Chaîne Telegram: <https://t.me/elrusapps>    
 Groupe Telegram: <https://t.me/elrus_apps>    
@@ -67,12 +66,29 @@ Cordialement, Ruslan.
 <span lang="en">Best regards, Ruslan.</span>    
 
 ## Quelques notes importantes par Rémy (BlindHelp). 🇫🇷
+L'auteur de l'extension m'a également informé que:    
+Le fichier radio_collections.dat n'est plus utilisé et peut être supprimé.    
+Puisqu'il y avait des problèmes avec ce fichier et qu'il perdait périodiquement son contenu lors de la mise à jour et de l'enregistrement des données, c'est pourquoi l'auteur a déplacé les collections vers le serveur.    
+Et chaque fois que vous entrez dans les collections, vous devez appuyer sur le bouton Mise à jour  c'est normal, , car les collections ne sont plus stockées localement.    
+Sur le serveur, toutes les stations sont stockées dans une base de données à part entière, constamment mise à jour avec de nouvelles stations.    
+De plus, l'état des stations est constamment vérifié et mis à jour.    
+Pour ces raisons, vous devez demander les données au serveur à chaque fois. Mais cela se produit plus vite qu'auparavant.    
+Ces stations se trouvent maintenant uniquement dans l'onglet Service une fois cette mise à jour faite.    
+Cela comprend également les fichiers M3U qui ont été répertoriés dans l'onglet File System c'est pourquoi vous devez appuyer sur le bouton Mise à jour  pour les voir à nouveau là dans le cas où vous l'avez configuré dans l'extension.    
+N'oubliez pas de le faire chaque fois que vous souhaitez voir ces stations sur les deux onglets à chaque lancement de l'extension.
+Ce que l'auteur nous dit aussi à propos de l'affichage de l'indicateur des favoris    
+L'affichage de l'indicateur des favoris sert à l'objectif suivant.    
+Lorsqu'il est désactivé, toutes les stations du répertoire du serveur sont affichées dans la liste. C'est environ 50 000 stations.    
+Lorsque vous définissez l'affichage de l'indicateur des favoris, seules les stations que vous avez ajoutées à vos favoris sur le site sont affichées dans la liste.    
+Cela vous permet de rechercher des stations que vous aimez sur le site, de les enregistrer dans vos favoris, puis de les ajouter à l'extension.    
+Voilà pour la petite mise au point fait par l'auteur de l'extension  à propos de la nouvelle version qui vient de sortir inclus quelques notes glissées par mes soins.    
 Pour ma part, je n'ai pas encore Fait la mise à jour de cette nouvelle version de l'extension radioCenter 5.0.0, je vous en informe simplement pour que vous sachiez que celle-ci est maintenant disponible sur la chaîne télégramme et le groupe de l'auteur.    
+Mais ne vous inquiétez pas, je ne vais pas tarder à le faire pour l'essayer et vous donnez ainsi plus de conseils...    
 Notez également que les liens cités ci-dessus pointent vers les pages en anglais fourni également par l'auteur.    
 À savoir que  le dépôt sur GitHub pour l'extension radioCenter:    
 <https://github.com/DollaR84/radioCenter>    
 à l'heure actuelle il n'est plus répertorié sur GitHub.    
-Si vous pensez que l'extension radioCenter ne fonctionne pas correctement avec votre version NVDA actuelle et ne parvient pas à mettre à jour les services pour les stations de radio et que vous avez un compte Telegram vous pouvez mettre à jour vers la nouvelle version, puis vous inscrire sur la page comme indiqué ci-dessus par l'auteur, à la bonne heure, mais sinon si vous ne voulez pas le faire, vous pouvez toujours la désinstallée (Quel dommage :(), peut-être la désactivée si vous n'en avez tout simplement pas besoin pendant une période prolongée ou si vous allez la mettre à jour plus tard, si vous voulez vraiment désactiver/supprimer cette extension, vous pouvez le faire en passant par l'Add-on Store laquelle est accessible depuis le sous-menu Outils du menu NVDA.    
+Si vous pensez  que l'ancienne version de l'extension radioCenter ne fonctionne pas correctement avec votre version NVDA actuelle et ne parvient pas à mettre à jour les services pour les stations de radio et que vous avez un compte Telegram vous pouvez mettre à jour vers la nouvelle version, puis vous inscrire sur la page comme indiqué ci-dessus par l'auteur, à la bonne heure, mais sinon si vous ne voulez pas le faire, vous pouvez toujours la désinstallée (Quel dommage :(), peut-être la désactivée si vous n'en avez tout simplement pas besoin pendant une période prolongée ou si vous allez la mettre à jour plus tard, si vous voulez vraiment désactiver/supprimer cette extension, vous pouvez le faire en passant par l'Add-on Store laquelle est accessible depuis le sous-menu Outils du menu NVDA.    
 C'est à vous de voir cela, je ne vous donne qu'un simple conseil.    
 Avertissement: 💀    
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension radioCenter  pour NVDA téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension radioCenter téléchargé est à vos risques et périls. ☠    
