@@ -74,8 +74,8 @@ Sur le serveur, toutes les stations sont stockées dans une base de données à 
 De plus, l'état des stations est constamment vérifié et mis à jour.    
 Pour ces raisons, vous devez demander les données au serveur à chaque fois. Mais cela se produit plus vite qu'auparavant.    
 Ces stations se trouvent maintenant uniquement dans l'onglet Service une fois cette mise à jour faite.    
-Cela comprend également les fichiers M3U qui ont été répertoriés dans l'onglet File System c'est pourquoi vous devez appuyer sur le bouton Mise à jour  pour les voir à nouveau là dans le cas où vous l'avez configuré dans l'extension.    
-N'oubliez pas de le faire chaque fois que vous souhaitez voir ces stations sur les deux onglets à chaque lancement de l'extension.
+Cela comprend également les fichiers M3U qui ont été répertoriés dans l'onglet File System, c'est pourquoi vous devez appuyer sur le bouton Mise à jour  pour les voir à nouveau là dans le cas où vous l'avez configuré dans l'extension.    
+N'oubliez pas de le faire chaque fois que vous souhaitez voir ces stations sur les deux onglets à chaque lancement de l'extension après le démarrage ou le redémarrage  de NVDA.    
 Ce que l'auteur nous dit aussi à propos de l'affichage de l'indicateur des favoris    
 L'affichage de l'indicateur des favoris sert à l'objectif suivant.    
 Lorsqu'il est désactivé, toutes les stations du répertoire du serveur sont affichées dans la liste. C'est environ 50 000 stations.    

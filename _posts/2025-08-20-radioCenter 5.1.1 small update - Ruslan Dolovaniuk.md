@@ -60,6 +60,23 @@ Traduction mise à jour en français pour le fichier d'interface inclus dans cet
 À savoir que  le dépôt sur GitHub pour l'extension radioCenter:    
 <https://github.com/DollaR84/radioCenter>    
 à l'heure actuelle il n'est plus répertorié sur GitHub.    
+Voici une Piqûre de rappel de quelques conseils donné par l'auteur quand cette nouvelle version de l'extension est sortie.    
+L'auteur de l'extension m'a également informé que:    
+Le fichier radio_collections.dat n'est plus utilisé et peut être supprimé.    
+Puisqu'il y avait des problèmes avec ce fichier et qu'il perdait périodiquement son contenu lors de la mise à jour et de l'enregistrement des données, c'est pourquoi l'auteur a déplacé les collections vers le serveur.    
+Et chaque fois que vous entrez dans les collections, vous devez appuyer sur le bouton Mise à jour  c'est normal, , car les collections ne sont plus stockées localement.    
+Sur le serveur, toutes les stations sont stockées dans une base de données à part entière, constamment mise à jour avec de nouvelles stations.    
+De plus, l'état des stations est constamment vérifié et mis à jour.    
+Pour ces raisons, vous devez demander les données au serveur à chaque fois. Mais cela se produit plus vite qu'auparavant.    
+Ces stations se trouvent maintenant uniquement dans l'onglet Service une fois cette mise à jour faite.    
+Cela comprend également les fichiers M3U qui ont été répertoriés dans l'onglet File System, c'est pourquoi vous devez appuyer sur le bouton Mise à jour  pour les voir à nouveau là dans le cas où vous l'avez configuré dans l'extension.    
+N'oubliez pas de le faire chaque fois que vous souhaitez voir ces stations sur les deux onglets à chaque lancement de l'extension après le démarrage ou le redémarrage  de NVDA.    
+Ce que l'auteur nous dit aussi à propos de l'affichage de l'indicateur des favoris    
+L'affichage de l'indicateur des favoris sert à l'objectif suivant.    
+Lorsqu'il est désactivé, toutes les stations du répertoire du serveur sont affichées dans la liste. C'est environ 50 000 stations.    
+Lorsque vous définissez l'affichage de l'indicateur des favoris, seules les stations que vous avez ajoutées à vos favoris sur le site sont affichées dans la liste.    
+Cela vous permet de rechercher des stations que vous aimez sur le site, de les enregistrer dans vos favoris, puis de les ajouter à l'extension.    
+Voilà pour la petite mise au point fait par l'auteur de l'extension  à propos de la nouvelle version qui vient de sortir inclus quelques notes glissées par mes soins.    
 Vous pouvez également consulter le premier article dédié à l'extension radioCenter sur:    
 [radioCenter, extension pour NVDA permettant d'écouter des stations de radio en ligne et d'enregistrer le flux audio dans un fichier](https://blindhelp.github.io/radioCenter/)    
 Publié le Mercredi 3 Juillet 2024 - Dernière mise à jour le Dimanche 6 Octobre 2024    
