@@ -92,6 +92,7 @@ Voici plus d'informations concernant les favoris par notre amie Isabelle Delarue
 Et voilà, j'ai le fin mot de l'histoire concernant les favoris ! Après échange avec le développeur, voici la marche à suivre pour utiliser la case « Afficher les favoris » :    
 1. Cocher la case « Afficher les favoris ».
 2. Cliquer ensuite sur le bouton « Mettre à jour » : l’extension va alors chercher la liste de vos favoris directement sur le serveur.
+
 👉 À savoir :    
 * Cette opération est à refaire à chaque démarrage de l’extension, car par défaut, elle charge toujours l’intégralité de l’annuaire (environ 50 000 stations).
 * C’est la raison pour laquelle la case « Afficher les favoris » ne reste pas cochée.
