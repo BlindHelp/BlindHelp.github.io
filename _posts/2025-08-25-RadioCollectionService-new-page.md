@@ -43,7 +43,7 @@ Ensuite vient une liste déroulante avec les options suivantes:
 `Not Verified`    
 puis le bouton:    
 `Reset Filters`    
-C'est-à-dire Ce bouton une fois appuyé sert à réinitialiser les filtres.
+C'est-à-dire Ce bouton une fois appuyé sert à réinitialiser les filtres.    
 Sous ce bouton, nous trouverons le mot:    
 `Show:`    
 Ensuite vient une liste déroulante avec les nombres des stations à afficher par page:    
@@ -60,7 +60,7 @@ Ensuite vient une liste déroulante avec les nombres des stations à afficher pa
 Dans le cas où vous n'avez pas ajouté de stations à vos favoris, le message suivant sera affiché:    
 `You don't have any favorite stations yet`    
 `👤 Profile`    
-Une fois ce lien ouvert votre profil s'affichera avec vos informations.
+Une fois ce lien ouvert votre profil s'affichera avec vos informations.    
 `⬆️ Upload stations`    
 Une fois ce lien ouvert  vous pouvez envoyer des stations à cette page.    
 Rechercher dans cette page:    
@@ -70,23 +70,23 @@ Sous ce titre, vous trouverez le bouton:
 Une fois appuyé sur ce bouton, vous devrez remplir les champs prévus.    
 Une fois terminé, vous devrez appuyer sur le bouton:    
 `bouton 💾 Send stations`    
-Pour envoyer la station de radio.    
+Pour envoyer la station de radio vers le serveur.    
 Si les champs prévus n'ont pas été remplis, ce bouton aura la mention:    
 `non disponible`    
-Je vous informe de cela mais je ne l'ai pas essayé
+Je vous informe de cela mais je ne l'ai pas essayé.    
 Et enfin vous trouverez le bouton:    
 `bouton  📂 Upload playlist`    
-Une fois appuyé sur ce bouton la boîte de dialogue de recherche de Windows s'affiche:    
+Une fois appuyé sur ce bouton la boîte de dialogue de recherche classique de Windows s'affiche:    
 `Ouvrir dialogue Nom du fichier :`    
 `Nom du fichier : liste déroulante réduit`    
 `édition Alt+ n ligne 1 vide`    
 `Types de fichiers : liste déroulante Fichiers personnalisés (*.m3u;*.pls;*.json) réduit Alt+ t`    
 `Ouvrir bouton Alt+ v`    
 `Annuler bouton`    
-Il chargera vers le serveur la playlist de type: (*.m3u;*.pls;*.json).
-Je vous informe de cela mais je ne l'ai pas essayé.
+Il chargera vers le serveur la playlist de type: `(*.m3u;*.pls;*.json)`.    
+Je vous informe de cela mais je ne l'ai pas essayé.    
 
-Cette page web RadioCollectionService comporte deux langues:    
+Notez que cette page web RadioCollectionService comporte deux langues:    
 `Select language liste déroulante réduit`    
 `🇺🇸 English`    
 (par défaut)    
