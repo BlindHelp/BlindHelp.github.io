@@ -1,50 +1,27 @@
 ---
-
 title: navSounds - Une extension sympa pour NVDA
-
 permalink: "/navSounds-add-on-for-NVDA/"
-
 layout: post
-
 author: BlindHelp
 
 ---
 
-
-
 <footer>Publié le Vendredi 11 Octobre 2024 - Dernière mise à jour le Lundi 16 Juin 2025</footer>
 
-
-
-
-
 Coucou mes amis du blog de BlindHelp!    
-
 Aujourd'hui je vous apporte une  extension sympa pour NVDA appelé navSounds    
-
 Je viens de le traduire en français et en espagnol pour le fun, et l'auteur m'a dit que je pouvais le partager avec vous tous, au-dessous je vous laisse le lien de téléchargement et sa description faite par le même auteur.    
 
+# Informations sur l'extension navSounds
 
-
-\# Informations sur l'extension navSounds
-
-
-
-\* Auteur: Ahmed Samy
-
-\* Version actuelle: 1.5.2 stable
-
-\* Compatibilité avec NVDA: 2019.3 au-delà
-
-\* Langues supportées: Espagnol, Français,et plusieurs autres langues
-
-\* \[Télécharger version stable](https://nvda.es/files/get.php?file=navsounds)
-
-\* \[Voir code source sur GitHub](https://github.com/ahmedthebest31/navsounds)
+* Auteur: Ahmed Samy
+* Version actuelle: 1.5.2 stable
+* Compatibilité avec NVDA: 2019.3 au-delà
+* Langues supportées: Espagnol, Français,et plusieurs autres langues
+* [Télécharger version stable](https://nvda.es/files/get.php?file=navsounds)
+* [Voir code source sur GitHub](https://github.com/ahmedthebest31/navsounds)
 
 ---
-
-
 
 nav Sounds
 Il s'agit d'une extension pour NVDA qui fournit des sons de navigation et des sons de frappe au clavier.
@@ -66,35 +43,19 @@ Comprend une sélection de packages de sons / effets de sons de frappe et vous p
 Les contributions à ce projet sont les bienvenues! Si vous trouvez un bogue, vous avez une idée d'amélioration ou que vous souhaitez collaborer d'une autre manière, n'hésitez pas à ouvrir  une incidence (issue)ou une demande via une pull request en toute liberté.
 Remerciement spécial à mesteranas pour ces merveilleuses contributions dans le développement de cette extension.
 
-
-
 ---
-
-
 
 Mille merci à notre ami <span lang="ar">Ahmed Samy</span> pour partagé ces informations avec nous tous! :)    
-
 Je vous souhaite à tous une bonne utilisation de cette extension navSounds pour NVDA 🆒    
-
 Bien amicalement,    
-
 Rémy (BlindHelp). 🇫🇷    
-
-
 
 ---
 
-
-
 Nous espérons vous revoir bientôt sur le      
-
-\[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
-
+[Blog de BlindHelp!](http://blindhelp.blogspot.fr/)                    
 ou sur  votre nouvel espace via GitHub:                     
-
-\[BlindHelp.github.io](https://blindhelp.github.io)                    
-
-
+[BlindHelp.github.io](https://blindhelp.github.io)                    
 
 ---
 
