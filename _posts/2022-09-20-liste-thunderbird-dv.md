@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mardi 20 Septembre 2022</footer>
+<footer>Publié le Mardi 20 Septembre 2022 - Dernière mise à jour le Jeudi 5 décembre 2024</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Voici une nouvelle liste dédié à Thunderbird pour nous les miro, ci-dessous, je vous donne toutes les informations sur cette nouvelle liste transmise par Pierre-Louis.    
@@ -28,26 +28,17 @@ Le groupe thunderbird-dv permet de discuter et de trouver des solutions sur l'ut
 
 # Source : Page officielle du groupe
 
-<https://www.freelists.org/list/thunderbird-dv>
+<https://groups.google.com/g/thunderbird-dv>
 
 # Inscription au groupe
-Pour vous inscrire au groupe, cliquez sur le lien ci dessous puis envoyez directement le message:    
-<a href="mailto:thunderbird-dv-request@freelists.org?subject=subscribe">S'inscrire à thunderbird-dv</a>
+Pour vous inscrire au groupe thunderbird-dv, cliquez sur le lien ci dessous puis envoyez directement le message:    
+<a href="mailto:thunderbird-dv+subscribe@googlegroups.com">thunderbird-dv+subscribe@googlegroups.com</a>
 <br>
-Cela fait, vous recevrez immédiatement un message de la part de FreeLists Mailing List Manager intitulé " Ecartis command results: subscribe".    
-Ce message vous invitera à attendre la validation de votre inscription par le modérateur.    
-
-# Commandes du groupe
-
-<a href="mailto:thunderbird-dv-request@freelists.org?subject=set digest2">Passer en mode digest avec résumés</a>
+Pour écrire au groupe:    
+<a href="mailto:thunderbird-dv@googlegroups.com">thunderbird-dv@googlegroups.com</a>
 <br>
-<a href="mailto:thunderbird-dv-request@freelists.org?subject=unset digest2">Revenir aux mails individuels à partir du mode digest</a>
-<br>
-<a href="mailto:thunderbird-dv-request@freelists.org?subject=set vacation">Activer le mode vacances</a> : suspend la réception des mails du groupe tant que ce mode est actif. A votre retour, vous pourrez consulter les archives du groupe ou le flux RSS pour lire les mails que vous avez manqués en votre absence.
-<br>
-<a href="mailto:thunderbird-dv-request@freelists.org?subject=unset vacation">Désactiver le mode vacances</a>
-<br>
-<a href="mailto:thunderbird-dv-request@freelists.org?subject=unsubscribe">Se désinscrire du groupe</a>
+Pour se désinscrire du groupe (dommage !), cliquez sur le lien ci dessous puis envoyez directement le message:    
+<a href="mailto:thunderbird-dv+unsubscribe@googlegroups.com">thunderbird-dv+unsubscribe@googlegroups.com</a>
 <br>
 Si vous êtes utilisateur de l'extension Thunderbird+, vous êtes vivement encouragés à rejoindre ce groupe.    
 S'agissant de Thunderbird, je communiquerai principalement sur cette liste.    
