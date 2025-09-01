@@ -6,19 +6,24 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Lundi 18 Août 2025 - Dernière mise à jour le Lundi 25 Août 2025</footer>
+<footer>Publié le Lundi 18 Août 2025 - Dernière mise à jour le Lundi Ier Septembre 2025</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 2 de NVDA 2025.3 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-3beta2) le Lundi 25.08.2025.    
+NV Access vient de publier la béta 3 de NVDA 2025.3 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-3beta3) le Lundi 01.09.2025.    
 
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette deuxième béta et à faire part de ses commentaires.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette troisième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
 Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière version stable.
 
-## Modifications introduites dans la béta 2 de NVDA 2025.3 signalé par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-3beta2) le Lundi 28.07.2025.
+## Modifications introduites dans la béta 3 de NVDA 2025.3 signalé par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-3beta3) le Lundi 01.09.2025.
+
+* Mises à jour des traductions.
+* Correction de bogues pour SAPI 5 qui empêchait que NVDA annonce certains gestes.
+
+## Modifications introduites dans la béta 2 de NVDA 2025.3 signalé par [NV Access sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2025-3beta2) le Lundi 25.08.2025.
 
 * Mises à jour des traductions.
 * Correction de bugs pour les tables braille turque.
@@ -42,12 +47,12 @@ eSpeak-NG et Unicode CLDR ont été mis à jour. Des données de localisation po
 
 ### Liens utiles de NV Access
 
-- [NVDA 2025.3beta2 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.3beta2/nvda_2025.3beta2.exe)
-   - SHA256: 70ffdc0a0c7cca5bc3801bb196513a2c5f0c0d285d71c4ee1196e3c628f752f7
+- [NVDA 2025.3beta3 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2025.3beta3/nvda_2025.3beta3.exe)
+   - SHA256 sum: 0b5917ff8ba430b5f36526607784ebc4545af2fc529d378e15108d55ca64ea70
 - [Quoi de Neuf](https://download.nvaccess.org/documentation/fr/changes.html)
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues)
 
-Veuillez noter que NVDA 2025.3 béta 2 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2025.3 béta 3 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
