@@ -22,7 +22,7 @@ ce son plus précisément trouvé dans les sous répertoires:
 `nvda\miscDeps\launcher\nvda_logo.wav`    
 
 Pour en savoir plus à ce sujet, vous pouvez consulter cette incidence de [NV Access sur GitHub](https://github.com/nvaccess) en anglais à partir du lien ci-dessous:    
-Use shorter startup sound for NVDA launcher `#`14068](https://github.com/nvaccess/nvda/issues/14068)    
+[Use shorter startup sound for NVDA launcher `#`14068](https://github.com/nvaccess/nvda/issues/14068)    
 
 Notez que actuellement ce fichier nvda_logo.wav ne se trouve plus dans l'installer de NVDA lors de l'installation de NVDA, nous pouvons dire que c'était un son emblématique lorsque NVDA a été conçu en avril 2006, et quand nous exécutions le fichier d'installation (.exe)    
 
