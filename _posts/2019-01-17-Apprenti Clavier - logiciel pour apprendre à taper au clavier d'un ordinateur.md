@@ -40,7 +40,7 @@ Merci à Daniel !😉
 
 La cerise sur le gâteau , maintenant vous pouvez également l'utiliser sous NVDA!                   
 Grâce à une extension développée par son auteur:                    
-paulber19 , de la liste script nvda.                 
+paulber19, de la liste script nvda.                 
 Cette extension tente de rendre le plus accessible possible le logiciel [ApprentiClavier](https://sensibiliser.avh.asso.fr/fiches-informatique-adaptee/apprenticlavier/index.html) sous NVDA. Cette extension n'ajoute aucun script .                
 Pour ceux qui utilisent le logiciel ApprentiClavier, voici la mise à jour de l'extension NVDA compatible avec la version 2024.1 et plus.    
 Les versions de NVDA antérieures à la 2024.1 ne sont plus supportées.    
