@@ -25,7 +25,7 @@ Cette extension est conçue pour gérer les rappels, les rendez-vous, les célé
 Avec ReminderApp, vous ne pourrez pas seulement créer et organiser vos rappels, mais vous aurez également un carnet d'adresses à portée de main pour vos contacts.    
 NVDA+Shift+F1, Arrêter l'alarme en cours.    
 NVDA+Shift+F2, Ouvrir l'interface graphique de ReminderApp, si appuyé deux fois, la fermer.    
-NVDA+Shift+F3, Affiche un aperçu du rappel du jour.    
+NVDA+Shift+F3, Affiche un aperçu du rappel du jour, si appuyé deux fois, la fermer.    
 Pour d'autres instructions, vous pouvez également appuyer sur le bouton d'aide de l'extension dans le gestionnaire d'extensions.    
 * Télécharger [version stable][1]
 * [Voir code source sur GitHub](https://github.com/Adriano-Barbieri62/ReminderApp-Addon)
