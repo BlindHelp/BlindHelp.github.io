@@ -19,9 +19,11 @@ Coucou mes amis du blog de BlindHelp !
 
 
 
-Aujourd'hui, je vous présente une documentation non officielle de PyRadio en français pour la version 0.9.3.11.17 publié le Jeudi 9 Octobre 2025 afin que vous puissiez le consulter à tout moment sous forme de fiches téléchargeables lorsque vous devez l'utiliser avec le lecteur de radio Internet appelé \[PyRadio](https://github.com/coderholic/pyradio), utilisable seulement en ligne de commande sur Windows.    
+Aujourd'hui, je vous présente une documentation non officielle de PyRadio en français pour la version 0.9.3.11.17 publié le Jeudi 9 Octobre 2025 afin que vous puissiez le consulter à tout moment sous forme de fiches téléchargeables lorsque vous devez l'utiliser avec le lecteur de radio Internet appelé [PyRadio](https://github.com/coderholic/pyradio), utilisable seulement en ligne de commande sur Linux, macOS et Windows.    
 
 Voici le lien pour télécharger la documentation en traduction automatisée non officielle en français pour le lecteur de radio Internet en ligne de commande appelé PyRadio pour la version 0.9.3.11.17 publié le Jeudi 9 Octobre 2025    
+
+Cette documentation contient également des informations pour utiliser PyRadio sur Linux, macOS et Windows    
 
 <https://blindhelp.github.io/docs-fr-pyradio-0.9.3.11.17.zip>    
 
@@ -36,15 +38,17 @@ Les pages pour cette documentation ont été traduites de l'anglais vers le fran
 
 Certaines parties liées à la documentation de PyRadio ont été laissées en anglais car la traduction en français était très complexe à faire.    
 
-Il se peut que certains liens pour consulter certaines parties de la documentation vous renvoient des erreurs, ignorez-les et recherchez la section manuellement.    
+Il se peut que certains liens pour consulter certaines parties de la documentation vous renvoient des erreurs, ignorez-les et recherchez la section manuellement. Merci.   
 
-Veuillez noter que j'ai calqué la documentation des fichiers `*.md` et je les ai convertis avec pandoc en fichiers `*.html`, et puis j'ai immédiatement procédé à sa traduction de l'anglais vers le français comme expliqué ci-dessus.    
+Veuillez noter que j'ai calqué la documentation des fichiers `*.md` et je les ai convertis avec [pandoc](https://pandoc.org/) en fichiers `*.html`, et puis j'ai immédiatement procédé à sa traduction de l'anglais vers le français comme expliqué ci-dessus.    
 
 Je voulais juste souligner cela puisque les fichiers `*.md` pour PyRadio originaux réalisés par l'auteur ne sont pas bien structurés en markdown et les corriger à nouveau est un peu une mission impossible. ☹    
 
 Remarque par BlindHelp !
 
 Ces fichiers seront trouvés une fois que vous avez cloné le dépôt contenant les dernières sources de PyRadio avec GIT, ils se trouvent également dans l'archive ZIP contenant les dernières sources de PyRadio.
+
+Mais la documentation originale est en anglais bien sûr puisque la documentation a été écrite par le même auteur de PyRadio.
 
 Vous pouvez cloner ce dépôt contenant les dernières sources de PyRadio à l'aide de la commande Git:
 
@@ -66,16 +70,17 @@ Ben Dowling - [https://github.com/coderholic](https://github.com/coderholic)
 
 Pour commencer
 
-Donc, trêve au bavardage, pour mettre en route la documentation pour PyRadio...
+Donc, trêve au bavardage, pour mettre en route la documentation en traduction automatisée non officielle en français pour PyRadio...
 
 Une fois l'archive intitulé docs-fr-pyradio-0.9.3.11.17.zip téléchargé via le lien de notre espace GitHub, il vous suffit d'extraire son contenu, vous pouvez mettre celui-ci dans mes documents ou n'importe où sur votre ordinateur.    
 
 Lorsque vous l'avez extrait, vous aurez le dossier appelé:    
-`docs-fr-pyradio-0.9.3`    
+`docs-fr-pyradio-0.9.3.11.17`    
 Ce dossier contient la dernière mise à jour de la documentation de PyRadio  0.9.3.11.17 non officielle en français faite par mes soins.    
 À ce même niveau se trouve le fichier appelé:    
 `readme.html`    
 Ce fichier expliquera grossièrement ce que fait l'application en ligne de commande **PyRadio**.
+Et bien plus encore...
 
 Au même niveau dudit fichier vous trouverez le dossier appelé :
 `docs`    
