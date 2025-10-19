@@ -9,21 +9,36 @@ author: BlindHelp
 <footer>Publié le Lundi 13 Octobre 2025 - Dernière mise à jour le Vendredi 17 Octobre 2025</footer>
 
 Coucou mes amis du blog de BlindHelp !    
-Voici un module pour Thunderbird appelé: AI Anywhere for ChatGPT    
+Voici un module complémentaire pour Thunderbird appelé: AI Anywhere for ChatGPT    
 
 Intègre ChatGPT à Thunderbird pour un accès rapide et facile à son IA conversationnelle.    
 
-Cela signifie que vous aurez accès à Chat GPT directement depuis la fenêtre de Thunderbird, ce qui est effectivement pratique.    
+Cela signifie que vous aurez accès à ChatGPT directement depuis la fenêtre de Thunderbird, ce qui est effectivement pratique.    
 
-C'est pour les fans d'intelligence artificielle (IA).    
+C'est pour les fans d'intelligence artificielle (IA). 😉    
+
+## Mais qu'est-ce que AI AI Anywhere for ChatGPT ?
+AI AI Anywhere for ChatGPT est un module complémentaire gratuit pour Mozilla Thunderbird qui intègre l'intelligence artificielle directement dans votre dossier Courrier entrant.    
+Avec lui, vous pouvez:    
+* Résumer (Summarize);
+* Expliquer (Explain);
+* Écrire une réponse (Write reply to this message);
+* Traduire (Translate);    
+le texte de n'importe quel e-mail en le sélectionnant simplement et en utilisant le menu contextuel ou les raccourcis clavier.    
+
+Vous pouvez également ouvrir une fenêtre ChatGPT  sans quitter Thunderbird en utilisant Alt + I, ou changer de fournisseur d'IA (comme Gemini, Claude ou Perplexity) avec Alt + Flèche haut ou Flèche bas.    
+
+Si vous utilisez Mozilla Thunderbird pour gérer votre courrier, l'extension AI Anywhere for ChatGPT peut être très utile. Ce module complémentaire vous permet d'exploiter la puissance de ChatGPT et d'autres modèles d'IA directement dans Thunderbird, sans avoir à ouvrir le navigateur.    
+
+___
 
 ## Conditions d'utilisation pour le module pour Thunderbird appelé: AI Anywhere for ChatGPT
 Nous aurons besoin de :    
 * Mozilla Thunderbird 128.0 ou supérieur.
 * Windows, macOS ou Linux.
 * Connexion Internet active.
-* Cookies activés dans Thunderbird (obligatoires pour se connecter à Chat-Gpt ou à d'autres services).
-* Un compte Chat-Gpt (ou autre fournisseur d'IA pris en charge) actif.    
+* Cookies activés dans Thunderbird (obligatoires pour se connecter à ChatGPT ou à d'autres services).
+* Un compte ChatGPT (ou autre fournisseur d'IA pris en charge) actif.    
 Si les cookies sont bloqués, l'extension ne pourra pas s'authentifier correctement auprès des services d'IA.
 
 ___
