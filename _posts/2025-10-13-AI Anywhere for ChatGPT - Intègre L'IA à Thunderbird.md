@@ -116,7 +116,7 @@ J'espère que vous l'apprécierez et que ceci  soit très utile pour vous!
 
 @+    
 
-BlindHelp!  🇫🇷
+BlindHelp! 🇫🇷
 
 
 
