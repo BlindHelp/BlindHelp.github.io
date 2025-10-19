@@ -8,7 +8,7 @@ author: BlindHelp
 
 <footer>Publié le Lundi 13 Octobre 2025 - Dernière mise à jour le Vendredi 17 Octobre 2025</footer>
 
-Coucou mes amis du blog de BlindHelp !
+Coucou mes amis du blog de BlindHelp !    
 Voici un module pour Thunderbird appelé: AI Anywhere for ChatGPT    
 
 Intègre ChatGPT à Thunderbird pour un accès rapide et facile à son IA conversationnelle.    
@@ -23,7 +23,7 @@ Nous aurons besoin de :
 * Windows, macOS ou Linux.
 * Connexion Internet active.
 * Cookies activés dans Thunderbird (obligatoires pour se connecter à Chat-Gpt ou à d'autres services).
-* Un compte Chat-Gpt (ou autre fournisseur d'IA pris en charge) actif.
+* Un compte Chat-Gpt (ou autre fournisseur d'IA pris en charge) actif.    
 Si les cookies sont bloqués, l'extension ne pourra pas s'authentifier correctement auprès des services d'IA.
 
 ___
@@ -51,8 +51,8 @@ Voici comment installer un module xpi téléchargé au préalable.
 * Se placer dans l'onglet extensions ,
 * Tabuler jusqu'au bouton : Outils pour tous les modules bouton réduit sous-Menu 
 * Presser entrée et choisir un module depuis un fichier… dans la liste reproduite ci-dessous.
-Rechercher des mises à jour 1 sur 2
-Afficher les mises à jour récentes 2 sur 2
+Rechercher des mises à jour 1 sur 2    
+Afficher les mises à jour récentes 2 sur 2    
 Installer un module depuis un fichier… 1 sur 2
 
 ___
