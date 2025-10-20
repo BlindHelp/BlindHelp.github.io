@@ -75,7 +75,7 @@ Clavier+ est compatible avec Windows 7 et versions ultérieures.
 Ce logiciel est soumis à la licence GPLv3,    
 <https://www.gnu.org/licenses/gpl-3.0.fr.html>    
 dont vous pouvez consulter le texte original officiel, en anglais.    
-<https://www.gnu.org/licenses/gpl-3.0.html>
+<https://www.gnu.org/licenses/gpl-3.0.html>    
 En particulier, mais pas seulement :    
 * Cela vous donne en particulier le droit d’utiliser, copier, distribuer, ou modifier le logiciel, chez vous ou en entreprise, le tout gratuitement et sans avoir à me demander la permission, sous réserve de vous conformer aux conditions de la license.
 * Ce programme est fourni sans aucune garantie, je ne pourrai être tenu pour responsable des éventuels préjudices imputables à son usage.
