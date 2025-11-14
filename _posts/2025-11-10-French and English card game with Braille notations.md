@@ -142,6 +142,22 @@ Nom de la valeur    |    Symbole typographique    |    Caractère braille    |  
 `Dame de trèfle`    |    la lettre `D` écrit en braille signifie  Dame et la lettre `T` écrit en braille signifie Trèfle.    |    `⠙⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `Roi de trèfle`    |    la lettre `R` écrit en braille signifie Roi et la lettre `T` écrit en braille signifie Trèfle.    |    `⠗⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 
+# Jeu de Cartes  anglaise en Braille
+
+👉 À savoir :    
+
+Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaise a été acheté avec l\'impression  en braille incluse.    
+
+En anglais les noms des cartes seraient les suivants:    
+
+<span lang="en">Ace, King, Queen</span> et <span lang="en">Jack</span> (ou, moins souvent, <span lang="en">Knave</span>)    
+
+Pour votre information, la traduction française dans le même ordre serait la suivante :    
+
+As, Roi, Dame et Valet    
+
+La partie  Jeu de Cartes  anglaise en Braille Il est encore en construction, merci de le consulter plus tard.
+
 ## Références externes à consulter:
 [Jeu de cartes français — Wikipédia](https://fr.wikipedia.org/wiki/Jeu\_de\_cartes\_fran%C3%A7ais)
 [Jeu de 54 cartes braille pour non-voyants - AVH](https://magasin.avh.asso.fr/p/207-jeu-de-54-cartes-braille.html)    
