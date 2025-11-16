@@ -36,6 +36,8 @@ Avec cette inscription en braille dans leurs jeu de cartes, ils ont pu jouer à 
 POUR VOTRE INFORMATION    
 Belote: Jeu de cartes par levées et combinaisons, joué avec 32 cartes. Belote sans atout ou tout atout.    
 
+___
+
 ## De quoi aurons-nous besoin pour réaliser ledit marquage braille de manière artisanale ?
 
 L\'outil le plus simple est d\'utilisé une tablette munie de guides normalisés (avec des lignes de six points) et d\'un poinçon.     
@@ -169,7 +171,7 @@ ___
 
 👉 À savoir :    
 
-Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaise a été acheté avec l\'impression  en braille incluse.    
+Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaise a été acheté avec l\'impression  en braille incluse par le fabricant.    
 
 En anglais les noms des cartes seraient les suivants:    
 
