@@ -186,20 +186,20 @@ ___
 # Comment lire les cartes en anglais à jouer en braille ?
 
 Utilisez ces chiffres/lettres pour chaque carte:    
-1 = As, x = 10, j = Valet, q = Dame, k = Roi. Les chiffres de 2 à 9 correspondent aux cartes numérotées.    
-
-Pour votre information, la traduction anglaise dans le même ordre serait la suivante :    
-
-<span lang="en">Ace, Jack, Queen, King</span>    
-
-Voici les lettres pour chacune des quatre marques du jeu de cartes en anglais:    
-<span lang="en">s = Spade, h = Heart, d = Diamond, c = Club</span>    
+1 = <span lang="en">Ace</span>, X = 10, J = <span lang="en">Jack</span>, Q = <span lang="en">Queen</span>, K = <span lang="en">King</span>. Les chiffres de 2 à 9 correspondent aux cartes numérotées.    
 
 Pour votre information, la traduction française dans le même ordre serait la suivante :    
 
-Pique, Cœur, Carreau, Trèfle    
+As, Valet, Dame, Roi.     
 
-Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres: jo    
+Voici les lettres pour chacune des quatre marques du jeu de cartes en anglais:    
+S = <span lang="en">Spade</span>, H = <span lang="en">Heart</span>, D = <span lang="en">Diamond</span>, C = <span lang="en">Club</span>.    
+
+Pour votre information, la traduction française dans le même ordre serait la suivante :    
+
+Pique, Cœur, Carreau, Trèfle.    
+
+Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres: JO    
 
 La partie  Jeu de Cartes  anglaise en Braille Il est encore en construction, merci de le consulter plus tard.
 
