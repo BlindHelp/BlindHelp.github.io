@@ -197,6 +197,8 @@ Pour votre information, la traduction française dans le même ordre serait la s
 
 Pique, Cœur, Carreau, Trèfle    
 
+Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres: jo    
+
 La partie  Jeu de Cartes  anglaise en Braille Il est encore en construction, merci de le consulter plus tard.
 
 ___
