@@ -169,7 +169,7 @@ ___
 
 # Jeu de Cartes  anglaise en Braille
 
-👉 À savoir :    
+👉 À savoir:    
 
 Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaise a été acheté avec l\'impression  en braille incluse par le fabricant.    
 
@@ -177,7 +177,7 @@ En anglais les noms des cartes seraient les suivants:
 
 <span lang="en">Ace, King, Queen</span> et <span lang="en">Jack</span> (ou, moins souvent, <span lang="en">Knave</span>)    
 
-Pour votre information, la traduction française dans le même ordre serait la suivante :    
+Pour votre information, la traduction française dans le même ordre serait la suivante:    
 
 As, Roi, Dame et Valet    
 
@@ -188,16 +188,16 @@ ___
 Utilisez ces chiffres/lettres pour chaque carte:    
 1 = <span lang="en">Ace</span>, X = 10, J = <span lang="en">Jack</span>, Q = <span lang="en">Queen</span>, K = <span lang="en">King</span>. Les chiffres de 2 à 9 correspondent aux cartes numérotées.    
 
-Pour votre information, la traduction française dans le même ordre serait la suivante :    
+Pour votre information, la traduction française dans le même ordre serait la suivante:    
 
 As, Valet, Dame, Roi     
 
 Voici les lettres pour chacune des quatre marques du jeu de cartes en anglais:    
 S = <span lang="en">Spade</span>, H = <span lang="en">Heart</span>, D = <span lang="en">Diamond</span>, C = <span lang="en">Club</span>    
 
-Pour votre information, la traduction française dans le même ordre serait la suivante :    
+Pour votre information, la traduction française dans le même ordre serait la suivante:    
 
-Pique, Cœur, Carreau, Trèfle.    
+Pique, Cœur, Carreau, Trèfle    
 
 Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres: JO    
 
