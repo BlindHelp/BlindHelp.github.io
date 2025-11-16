@@ -190,10 +190,10 @@ Utilisez ces chiffres/lettres pour chaque carte:
 
 Pour votre information, la traduction française dans le même ordre serait la suivante :    
 
-As, Valet, Dame, Roi.     
+As, Valet, Dame, Roi     
 
 Voici les lettres pour chacune des quatre marques du jeu de cartes en anglais:    
-S = <span lang="en">Spade</span>, H = <span lang="en">Heart</span>, D = <span lang="en">Diamond</span>, C = <span lang="en">Club</span>.    
+S = <span lang="en">Spade</span>, H = <span lang="en">Heart</span>, D = <span lang="en">Diamond</span>, C = <span lang="en">Club</span>    
 
 Pour votre information, la traduction française dans le même ordre serait la suivante :    
 
