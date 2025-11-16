@@ -179,12 +179,34 @@ Pour votre information, la traduction française dans le même ordre serait la s
 
 As, Roi, Dame et Valet    
 
+___
+
+# Comment lire les cartes en anglais à jouer en braille ?
+
+Utilisez ces chiffres/lettres pour chaque carte:    
+1 = As, x = 10, j = Valet, q = Dame, k = Roi. Les chiffres de 2 à 9 correspondent aux cartes numérotées.    
+
+Pour votre information, la traduction anglaise dans le même ordre serait la suivante :    
+
+<span lang="en">Ace, Jack, Queen, King</span>    
+
+Voici les lettres pour chacune des quatre marques du jeu de cartes en anglais:    
+<span lang="en">s = Spade, h = Heart, d = Diamond, c = Club</span>    
+
+Pour votre information, la traduction française dans le même ordre serait la suivante :    
+
+Pique, Cœur, Carreau, Trèfle    
+
 La partie  Jeu de Cartes  anglaise en Braille Il est encore en construction, merci de le consulter plus tard.
+
+___
 
 ## Références externes à consulter:
 [Jeu de cartes français — Wikipédia](https://fr.wikipedia.org/wiki/Jeu\_de\_cartes\_fran%C3%A7ais)
 [Jeu de 54 cartes braille pour non-voyants - AVH](https://magasin.avh.asso.fr/p/207-jeu-de-54-cartes-braille.html)    
 Boutique Valentin Haüy 3, rue Duroc 75343 - Paris Cedex 07 01 44 49 27 37 – Fax : 01 44 49 27 20 [magasin@avh.asso.fr](mailto:magasin@avh.asso.fr) – [magasin.avh.asso.fr](mailto:magasin.avh.asso.fr)     
+
+___
 
 J\'espère que vous apprécierez ce jeu de 54 cartes classiques maintenant avec leurs propres notations en Braille en français ou anglais lequel vous permettra également de jouer avec des personnes voyantes. 🆒    
    
