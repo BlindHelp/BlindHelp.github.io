@@ -15,7 +15,11 @@ Nous allons plutôt traiter aujourd\'hui sur l\'utilisation du Braille dans le j
 Avertissement: 💀  
 Le blog de BlindHelp n\'est pas responsable des informations dédié au jeu de cartes avec leurs notations en Braille retranscrites sur ce post à partir de mes notes personnelles que je partage avec vous. ☠  
 
-Pour commencer, j\'ai dû acheter un jeu de cartes françaises plastifiées en carton dans un magasin de jouets spécialisé.    
+___
+
+## Un peu d\'histoire
+
+Pour commencer, j\'ai dû acheter un jeu de cartes françaises en carton plastifié dans un magasin de jouets spécialisé.    
 
 Cela remonte à plusieurs années, maintenant si je ne me trompe pas, il peut être acheté dans les magasins spécialisés dans la vente de matériel pour les personnes aveugles ou malvoyantes et le marquage en braille  est inclus dans ce jeu de cartes françaises pour apprendre et s\'amuser.    
 Voir la section "Références externes à consulter" qui se trouve à la fin de cet article. Merci.    
@@ -39,9 +43,11 @@ L\'outil le plus simple est d\'utilisé une tablette munie de guides normalisés
 Le jeu de cartes français ou jeu de 54 cartes est un jeu de cartes organisées en quatre figures: trèfle (noir), carreau (rouge), cœur (rouge), pique (noir). Les figures sont plus généralement appelées couleurs. Dans le contexte du jeu de cartes, le terme couleur n\'a donc pas le même sens que dans le langage commun (dans ce dernier, on dirait qu\'il n\'y a que deux couleurs : le rouge et le noir).    
 Il comporte 52 cartes à jouer réparties en quatre familles de treize valeurs, plus deux jokers.    
 
+___
+
 # Jeu de Cartes françaises en Braille
 
-Les quatre familles pourrait être répertorié avec les jokers comme suit:    
+Les quatre familles pourrait être répertorié comme suit:    
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
@@ -58,7 +64,16 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Valet`    |    Les valets représentent chacun un personnage, typiquement un homme jeune en costume associé à l\'Europe des XVI e et XVII e siècles, peut-être un domestique, un cavalier à pied ou un écuyer.   |   La lettre `V` est utilisé pour les cartes contenant les valets. | `⠧`    |    Le valet est une figure de carte à jouer. Représentant généralement un jeune homme, il s\'agit souvent de la figure la plus faible.
 `Dame`    | Chacune des quatre figures d\'un jeu de cartes, figurant une dame.    | La dame est une reine, mais en français ce nom avait l\'inconvénient de commencer par la même lettre que roi. C\'est pourquoi nous avons utilisé la lettre `D` pour les cartes contenant les dames.     |    `⠙`    |    La dame ou reine est une figure de carte à jouer, représentant généralement une femme noble.
 `Roi`    | Chacune des quatre figures d\'un jeu de cartes, figurant un roi. |   La lettre `R` est utilisé pour les cartes contenant les rois.     |    `⠗`    |    Le roi est une figure de carte à jouer, représentant généralement un homme noble.
+
+___
+
+## Jokers
+
+Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
+---    |    ---    |    ---    |    ---
 `Joker`    | Carte portant la figure d\'un bouffon et susceptible de prendre à certains jeux la valeur que lui donne celui qui la détient. Ces cartes sont également appelés: fous. |    Nous avons utilisé les lettres `JO` pour les deux cartes contenant un joker.   |    `⠚⠕`    |    Le joker est généralement représenté par un bouffon, orné de son chapeau à clochettes ; il est parfois accompagné de cartes à jouer.
+
+___
 
 # Jeu de Cartes françaises en Braille contenant les figures
 
@@ -82,6 +97,8 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Dame de pique`    | Aucune description apparente. | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `P` écrite en braille qui signifie Pique.    |    `⠙⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `Roi de pique`    | Aucune description apparente.    | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `P` écrite en braille qui signifie Pique.    |    `⠗⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 
+___
+
 ## Cœurs
 
 Les figures indiquées sur le jeu de cartes français telles que les Cœurs ils sont répertoriés comme suit:
@@ -101,6 +118,8 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Valet de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `V` écrite en braille qui signifie Valet et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠧⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `Dame de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠙⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `Roi de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠗⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+
+___
 
 ## Carreaux
 
@@ -122,6 +141,8 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Dame de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠙⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `Roi de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠗⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 
+___
+
 ## Trèfles
 
 Les figures indiquées sur le jeu de cartes français telles que les Trèfles ils sont répertoriés comme suit:
@@ -141,6 +162,8 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Valet de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `V` écrite en braille qui signifie Valet et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠧⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `Dame de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠙⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `Roi de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠗⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+
+___
 
 # Jeu de Cartes  anglaise en Braille
 
