@@ -185,83 +185,81 @@ As, Roi, Dame et Valet
 
 # Comment lire les cartes en anglais à jouer en braille ?
 
-Utilisez ces chiffres/lettres pour chaque carte:    
+Utilisez ces chiffres/lettres en braille pour chaque carte:    
 1 = <span lang="en">Ace</span>, X = 10, J = <span lang="en">Jack</span>, Q = <span lang="en">Queen</span>, K = <span lang="en">King</span>. Les chiffres de 2 à 9 correspondent aux cartes numérotées.    
 
 Pour votre information, la traduction française dans le même ordre serait la suivante:    
 
 As, Valet, Dame, Roi     
 
-Voici les lettres pour chacune des quatre marques du jeu de cartes en anglais:    
+Voici les lettres en braille pour chacune des quatre marques du jeu de cartes en anglais:    
 S = <span lang="en">Spade</span>, H = <span lang="en">Heart</span>, D = <span lang="en">Diamond</span>, C = <span lang="en">Club</span>    
 
 Pour votre information, la traduction française dans le même ordre serait la suivante:    
 
 Pique, Cœur, Carreau, Trèfle    
 
-Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres: JO    
+Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres en braille: JO    
 
 ---
 
-Nom anglais de la carte à jouer | Équivalence en français de la carte à jouer |Informations sur le caractère braille marqué par le fabricant | Caractère braille marqué par le fabricant
+# Récapitulatif du jeu de Cartes  anglaise en Braille
+
+Nom anglais de la carte à jouer | Équivalence en français de la carte à jouer | Informations sur le caractère braille marqué par le fabricant | Caractère braille marqué par le fabricant
 --- | --- | --- | ---
-<span lang="en">Ace of spades</span> | As de pique | AS | 
-<span lang="en">2 of spades</span> | 2 de pique | 2S | 
-<span lang="en">3 of spades</span> | 3 de pique | 3S | 
-<span lang="en">4 of spades</span> | 4 de pique | 4S | 
-<span lang="en">5 of spades</span> | 5 de pique | 5S | 
-<span lang="en">6 of spades</span> | 6 de pique | 6S | 
-<span lang="en">7 of spades</span> | 7 de pique | 7S | 
-<span lang="en">8 of spades</span> | 8 de pique | 8S | 
-<span lang="en">9 of spades</span> | 9 de pique | 9S | 
-<span lang="en">10 of spades</span> | 10 de pique | Xs| 
-<span lang="en">Jack of spades</span> | As de pique | JS | 
-<span lang="en">Queen of spades</span> | Dame de pique | QS | 
-<span lang="en">King of spades</span> | Roi de pique | KS | 
-
-<span lang="en">Ace of hearts</span> | As de cœur | AH | 
-<span lang="en">2 of hearts</span> | 2 de cœur | 2H | 
-<span lang="en">3 of hearts</span> | 3 de cœur | 3H | 
-<span lang="en">4 of hearts</span> | 4 de cœur | 4H | 
-<span lang="en">5 of hearts</span> | 5 de cœur | 5H | 
-<span lang="en">6 of hearts</span> | 6 de cœur | 6H | 
-<span lang="en">7 of hearts</span> | 7 de cœur | 7H | 
-<span lang="en">8 of hearts</span> | 8 de cœur | 8H | 
-<span lang="en">9 of hearts</span> | 9 de cœur | 9H | 
-<span lang="en">10 of hearts</span> | 10 de cœur | 10H | 
-<span lang="en">Jack of hearts</span> | Valet de cœur | JH | 
-<span lang="en">Queen of hearts</span> | Dame de cœur | QH | 
-<span lang="en">King of hearts</span> | Roi de cœur | KH | 
-
-<span lang="en">Ace of diamonds</span> | As de carreau | AD | 
-<span lang="en">2 of diamonds</span> | 2 de carreau | 2D | 
-<span lang="en">3 of diamonds</span> | 3 de carreau | 3D | 
-<span lang="en">4 of diamonds</span> | 4 de carreau | 4D | 
-<span lang="en">5 of diamonds</span> | 5 de carreau | 5D | 
-<span lang="en">6 of diamonds</span> | 6 de carreau | 6D | 
-<span lang="en">7 of diamonds</span> | 7 de carreau | 7D | 
-<span lang="en">8 of diamonds</span> | 8 de carreau | 8D | 
-<span lang="en">9 of diamonds</span> | 9 de carreau | 9D | 
-<span lang="en">10 of diamonds</span> | 10 de carreau | XD | 
-<span lang="en">Jack of diamonds</span> | Valet de carreau| JD | 
-<span lang="en">Queen of diamonds</span> | Dame de carreau | QD | 
-<span lang="en">King of diamonds</span> | Roi de carreau | KD | 
-
-<span lang="en">Ace of clubs</span> | As de trèfle | AC | 
-<span lang="en">2 of clubs</span> | 2 de trèfle | 2C | 
-<span lang="en">3 of clubs</span> | 3 de trèfle | 3C | 
-<span lang="en">4 of clubs</span> | 4 de trèfle | 4C | 
-<span lang="en">5 of clubs</span> | 5 de trèfle | 5C | 
-<span lang="en">6 of clubs</span> | 6 de trèfle | 6C | 
-<span lang="en">7 of clubs</span> | 7 de trèfle | 7C | 
-<span lang="en">8 of clubs</span> | 8 de trèfle | 8C | 
-<span lang="en">9 of clubs</span> | 9 de trèfle | 9C | 
-<span lang="en">10 of clubs</span> | 10 de trèfle | XC | 
-<span lang="en">Jack of clubs</span> | Valet de trèfle | JC | 
-<span lang="en">Queen of clubs</span> | Dame de trèfle | QC | 
-<span lang="en">King of clubs</span> | Roi de trèfle | KC | 
-
-La partie  Jeu de Cartes  anglaise en Braille Il est encore en construction, merci de le consulter plus tard.
+<span lang="en">Ace of spades</span> | As de pique | AS | ⠁⠎
+<span lang="en">2 of spades</span> | 2 de pique | 2S | ⠃⠎
+<span lang="en">3 of spades</span> | 3 de pique | 3S | ⠉⠎
+<span lang="en">4 of spades</span> | 4 de pique | 4S | ⠙⠎
+<span lang="en">5 of spades</span> | 5 de pique | 5S | ⠑⠎
+<span lang="en">6 of spades</span> | 6 de pique | 6S | ⠋⠎
+<span lang="en">7 of spades</span> | 7 de pique | 7S | ⠛⠎
+<span lang="en">8 of spades</span> | 8 de pique | 8S | ⠓⠎
+<span lang="en">9 of spades</span> | 9 de pique | 9S | ⠊⠎
+<span lang="en">10 of spades</span> | 10 de pique | XS | ⠭⠎
+<span lang="en">Jack of spades</span> | As de pique | JS | ⠚⠎
+<span lang="en">Queen of spades</span> | Dame de pique | QS | ⠟⠎
+<span lang="en">King of spades</span> | Roi de pique | KS | ⠅⠎
+<span lang="en">Ace of hearts</span> | As de cœur | AH | ⠁⠓
+<span lang="en">2 of hearts</span> | 2 de cœur | 2H | ⠃⠓
+<span lang="en">3 of hearts</span> | 3 de cœur | 3H | ⠉⠓
+<span lang="en">4 of hearts</span> | 4 de cœur | 4H | ⠙⠓
+<span lang="en">5 of hearts</span> | 5 de cœur | 5H | ⠑⠓
+<span lang="en">6 of hearts</span> | 6 de cœur | 6H | ⠋⠓
+<span lang="en">7 of hearts</span> | 7 de cœur | 7H | ⠛⠓
+<span lang="en">8 of hearts</span> | 8 de cœur | 8H | ⠓⠓
+<span lang="en">9 of hearts</span> | 9 de cœur | 9H | ⠊⠓
+<span lang="en">10 of hearts</span> | 10 de cœur | XH | ⠭⠓
+<span lang="en">Jack of hearts</span> | Valet de cœur | JH | ⠚⠓
+<span lang="en">Queen of hearts</span> | Dame de cœur | QH | ⠟⠓
+<span lang="en">King of hearts</span> | Roi de cœur | KH | ⠅⠓
+<span lang="en">Ace of diamonds</span> | As de carreau | AD | ⠁⠙
+<span lang="en">2 of diamonds</span> | 2 de carreau | 2D | ⠃⠙
+<span lang="en">3 of diamonds</span> | 3 de carreau | 3D | ⠉⠙
+<span lang="en">4 of diamonds</span> | 4 de carreau | 4D | ⠙⠙
+<span lang="en">5 of diamonds</span> | 5 de carreau | 5D | ⠑⠙
+<span lang="en">6 of diamonds</span> | 6 de carreau | 6D | ⠋⠙
+<span lang="en">7 of diamonds</span> | 7 de carreau | 7D | ⠛⠙
+<span lang="en">8 of diamonds</span> | 8 de carreau | 8D | ⠓⠙
+<span lang="en">9 of diamonds</span> | 9 de carreau | 9D | ⠊⠙
+<span lang="en">10 of diamonds</span> | 10 de carreau | XD | ⠭⠙
+<span lang="en">Jack of diamonds</span> | Valet de carreau | JD | ⠚⠙
+<span lang="en">Queen of diamonds</span> | Dame de carreau | QD | ⠟⠙
+<span lang="en">King of diamonds</span> | Roi de carreau | KD | ⠅⠙
+<span lang="en">Ace of clubs</span> | As de trèfle | AC | ⠁⠉
+<span lang="en">2 of clubs</span> | 2 de trèfle | 2C | ⠃⠉
+<span lang="en">3 of clubs</span> | 3 de trèfle | 3C | ⠉⠉
+<span lang="en">4 of clubs</span> | 4 de trèfle | 4C | ⠙⠉
+<span lang="en">5 of clubs</span> | 5 de trèfle | 5C | ⠑⠉
+<span lang="en">6 of clubs</span> | 6 de trèfle | 6C | ⠋⠉
+<span lang="en">7 of clubs</span> | 7 de trèfle | 7C | ⠛⠉
+<span lang="en">8 of clubs</span> | 8 de trèfle | 8C | ⠓⠉
+<span lang="en">9 of clubs</span> | 9 de trèfle | 9C | ⠊⠉
+<span lang="en">10 of clubs</span> | 10 de trèfle | XC | ⠭⠉
+<span lang="en">Jack of clubs</span> | Valet de trèfle | JC | ⠚⠉
+<span lang="en">Queen of clubs</span> | Dame de trèfle | QC | ⠟⠉
+<span lang="en">King of clubs</span> | Roi de trèfle | KC | ⠅⠉
+<span lang="en">Joker</span> | Joker | JO | ⠚⠕
 
 ---
 
