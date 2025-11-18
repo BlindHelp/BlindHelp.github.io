@@ -15,7 +15,7 @@ Nous allons plutôt traiter aujourd\'hui sur l\'utilisation du Braille dans le j
 Avertissement: 💀  
 Le blog de BlindHelp n\'est pas responsable des informations dédié au jeu de cartes avec leurs notations en Braille retranscrites sur ce post à partir de mes notes personnelles que je partage avec vous. ☠  
 
-___
+---
 
 ## Un peu d\'histoire
 
@@ -36,7 +36,7 @@ Avec cette inscription en braille dans leurs jeu de cartes, ils ont pu jouer à 
 POUR VOTRE INFORMATION    
 Belote: Jeu de cartes par levées et combinaisons, joué avec 32 cartes. Belote sans atout ou tout atout.    
 
-___
+---
 
 ## De quoi aurons-nous besoin pour réaliser ledit marquage braille de manière artisanale ?
 
@@ -45,7 +45,7 @@ L\'outil le plus simple est d\'utilisé une tablette munie de guides normalisés
 Le jeu de cartes français ou jeu de 54 cartes est un jeu de cartes organisées en quatre figures: trèfle (noir), carreau (rouge), cœur (rouge), pique (noir). Les figures sont plus généralement appelées couleurs. Dans le contexte du jeu de cartes, le terme couleur n\'a donc pas le même sens que dans le langage commun (dans ce dernier, on dirait qu\'il n\'y a que deux couleurs : le rouge et le noir).    
 Il comporte 52 cartes à jouer réparties en quatre familles de treize valeurs, plus deux jokers.    
 
-___
+---
 
 # Jeu de Cartes françaises en Braille
 
@@ -67,7 +67,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Dame`    | Chacune des quatre figures d\'un jeu de cartes, figurant une dame.    | La dame est une reine, mais en français ce nom avait l\'inconvénient de commencer par la même lettre que roi. C\'est pourquoi nous avons utilisé la lettre `D` pour les cartes contenant les dames.     |    `⠙`    |    La dame ou reine est une figure de carte à jouer, représentant généralement une femme noble.
 `Roi`    | Chacune des quatre figures d\'un jeu de cartes, figurant un roi. |   La lettre `R` est utilisé pour les cartes contenant les rois.     |    `⠗`    |    Le roi est une figure de carte à jouer, représentant généralement un homme noble.
 
-___
+---
 
 ## Jokers
 
@@ -75,7 +75,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 ---    |    ---    |    ---    |    ---
 `Joker`    | Carte portant la figure d\'un bouffon et susceptible de prendre à certains jeux la valeur que lui donne celui qui la détient. Ces cartes sont également appelés: fous. |    Nous avons utilisé les lettres `JO` pour les deux cartes contenant un joker.   |    `⠚⠕`    |    Le joker est généralement représenté par un bouffon, orné de son chapeau à clochettes ; il est parfois accompagné de cartes à jouer.
 
-___
+---
 
 # Jeu de Cartes françaises en Braille contenant les figures
 
@@ -99,7 +99,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Dame de pique`    | Aucune description apparente. | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `P` écrite en braille qui signifie Pique.    |    `⠙⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `Roi de pique`    | Aucune description apparente.    | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `P` écrite en braille qui signifie Pique.    |    `⠗⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 
-___
+---
 
 ## Cœurs
 
@@ -121,7 +121,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Dame de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠙⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `Roi de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠗⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 
-___
+---
 
 ## Carreaux
 
@@ -143,7 +143,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Dame de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠙⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `Roi de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠗⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 
-___
+---
 
 ## Trèfles
 
@@ -165,7 +165,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Dame de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠙⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `Roi de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠗⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 
-___
+---
 
 # Jeu de Cartes  anglaise en Braille
 
@@ -181,7 +181,7 @@ Pour votre information, la traduction française dans le même ordre serait la s
 
 As, Roi, Dame et Valet    
 
-___
+---
 
 # Comment lire les cartes en anglais à jouer en braille ?
 
@@ -201,16 +201,76 @@ Pique, Cœur, Carreau, Trèfle
 
 Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres: JO    
 
+---
+
+Nom anglais de la carte à jouer | Équivalence en français de la carte à jouer |Informations sur le caractère braille marqué par le fabricant | Caractère braille marqué par le fabricant
+--- | --- | --- | ---
+<span lang="en">Ace of spades</span> | As de pique | AS | 
+<span lang="en">2 of spades</span> | 2 de pique | 2S | 
+<span lang="en">3 of spades</span> | 3 de pique | 3S | 
+<span lang="en">4 of spades</span> | 4 de pique | 4S | 
+<span lang="en">5 of spades</span> | 5 de pique | 5S | 
+<span lang="en">6 of spades</span> | 6 de pique | 6S | 
+<span lang="en">7 of spades</span> | 7 de pique | 7S | 
+<span lang="en">8 of spades</span> | 8 de pique | 8S | 
+<span lang="en">9 of spades</span> | 9 de pique | 9S | 
+<span lang="en">10 of spades</span> | 10 de pique | Xs| 
+<span lang="en">Jack of spades</span> | As de pique | JS | 
+<span lang="en">Queen of spades</span> | Dame de pique | QS | 
+<span lang="en">King of spades</span> | Roi de pique | KS | 
+
+<span lang="en">Ace of hearts</span> | As de cœur | AH | 
+<span lang="en">2 of hearts</span> | 2 de cœur | 2H | 
+<span lang="en">3 of hearts</span> | 3 de cœur | 3H | 
+<span lang="en">4 of hearts</span> | 4 de cœur | 4H | 
+<span lang="en">5 of hearts</span> | 5 de cœur | 5H | 
+<span lang="en">6 of hearts</span> | 6 de cœur | 6H | 
+<span lang="en">7 of hearts</span> | 7 de cœur | 7H | 
+<span lang="en">8 of hearts</span> | 8 de cœur | 8H | 
+<span lang="en">9 of hearts</span> | 9 de cœur | 9H | 
+<span lang="en">10 of hearts</span> | 10 de cœur | 10H | 
+<span lang="en">Jack of hearts</span> | Valet de cœur | JH | 
+<span lang="en">Queen of hearts</span> | Dame de cœur | QH | 
+<span lang="en">King of hearts</span> | Roi de cœur | KH | 
+
+<span lang="en">Ace of diamonds</span> | As de carreau | AD | 
+<span lang="en">2 of diamonds</span> | 2 de carreau | 2D | 
+<span lang="en">3 of diamonds</span> | 3 de carreau | 3D | 
+<span lang="en">4 of diamonds</span> | 4 de carreau | 4D | 
+<span lang="en">5 of diamonds</span> | 5 de carreau | 5D | 
+<span lang="en">6 of diamonds</span> | 6 de carreau | 6D | 
+<span lang="en">7 of diamonds</span> | 7 de carreau | 7D | 
+<span lang="en">8 of diamonds</span> | 8 de carreau | 8D | 
+<span lang="en">9 of diamonds</span> | 9 de carreau | 9D | 
+<span lang="en">10 of diamonds</span> | 10 de carreau | XD | 
+<span lang="en">Jack of diamonds</span> | Valet de carreau| JD | 
+<span lang="en">Queen of diamonds</span> | Dame de carreau | QD | 
+<span lang="en">King of diamonds</span> | Roi de carreau | KD | 
+
+<span lang="en">Ace of clubs</span> | As de trèfle | AC | 
+<span lang="en">2 of clubs</span> | 2 de trèfle | 2C | 
+<span lang="en">3 of clubs</span> | 3 de trèfle | 3C | 
+<span lang="en">4 of clubs</span> | 4 de trèfle | 4C | 
+<span lang="en">5 of clubs</span> | 5 de trèfle | 5C | 
+<span lang="en">6 of clubs</span> | 6 de trèfle | 6C | 
+<span lang="en">7 of clubs</span> | 7 de trèfle | 7C | 
+<span lang="en">8 of clubs</span> | 8 de trèfle | 8C | 
+<span lang="en">9 of clubs</span> | 9 de trèfle | 9C | 
+<span lang="en">10 of clubs</span> | 10 de trèfle | XC | 
+<span lang="en">Jack of clubs</span> | Valet de trèfle | JC | 
+<span lang="en">Queen of clubs</span> | Dame de trèfle | QC | 
+<span lang="en">King of clubs</span> | Roi de trèfle | KC | 
+
 La partie  Jeu de Cartes  anglaise en Braille Il est encore en construction, merci de le consulter plus tard.
 
-___
+---
 
 ## Références externes à consulter:
 [Jeu de cartes français — Wikipédia](https://fr.wikipedia.org/wiki/Jeu\_de\_cartes\_fran%C3%A7ais)
 [Jeu de 54 cartes braille pour non-voyants - AVH](https://magasin.avh.asso.fr/p/207-jeu-de-54-cartes-braille.html)    
 Boutique Valentin Haüy 3, rue Duroc 75343 - Paris Cedex 07 01 44 49 27 37 – Fax : 01 44 49 27 20 [magasin@avh.asso.fr](mailto:magasin@avh.asso.fr) – [magasin.avh.asso.fr](mailto:magasin.avh.asso.fr)     
 
-___
+---
 
 J\'espère que vous apprécierez ce jeu de 54 cartes classiques maintenant avec leurs propres notations en Braille en français ou anglais lequel vous permettra également de jouer avec des personnes voyantes. 🆒    
    
