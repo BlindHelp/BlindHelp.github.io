@@ -167,6 +167,31 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ---
 
+## Images du jeu de cartes française en Braille
+
+👉 À savoir:    
+
+Comme je l\'ai déjà dit avant, j\'ai dû acheter un jeu de cartes française classiques (54 cartes) et les marquer en braille (fabriqué maison).    
+
+Ce jeu de cartes française diffère quelque peu par son marquage braille, comme le montre le tableau ci-dessus.    
+
+Le marquage braille présenté dans le tableau ci-dessous commence plutôt par la lettre en braille indiquer en haut  de la carte indiquant   la figure.    
+
+Ensuite il est séparé par une ligne vide.    
+
+Ensuite il est marqué par le chiffre ou la lettre en Braille indiquer en bas de la carte indiquant  le numéro ou la figure qui correspond a la carte sauf pour l\'As    
+
+Description de l\'image | Parfois, une image vaut 1000 mots
+--- | ---
+Cette image montre une série de cartes à jouer, toutes de couleur noire et appartenant à la famille des piques. Les cartes sont placées en éventail sur une surface en bois brun. On peut voir les cartes du roi (R), la dame (D), le valet (V), puis les cartes numériques de 10 à 1. Les faces incluent des illustrations colorées et chaque carte comporte des points en relief en braille, permettant l\'identification tactile. | ![Piques_FR.jpeg](https://blindhelp.github.io/Piques_FR.jpeg)
+Dans cette image, il y a un éventail de cartes à jouer, toutes de la couleur cœur, disposées sur une table en bois. Les cartes incluent des chiffres allant de deux à dix, ainsi que des figures, et elles ont des marques en braille pour les personnes malvoyantes. | ![Coeurs_FR.jpeg](https://blindhelp.github.io/Coeurs_FR.jpeg)
+L\'image montre un ensemble de cartes à jouer étalées sur une table en bois. Toutes les cartes appartiennent à la couleur des carreaux, allant de l\'As jusqu'au Roi. Les cartes sont disposées en éventail, révélant clairement chaque valeur. On distingue aussi des marques en braille sur les cartes, adaptées pour les personnes malvoyantes ou aveugles. | ![Carreaux_FR.jpeg](https://blindhelp.github.io/Carreaux_FR.jpeg)
+Cette image montre un éventail de cartes à jouer, toutes de la couleur trèfle, étalées sur une surface en bois brun. On peut voir les cartes allant de l\'As au roi, disposées en ordre croissant. Les cartes sont blanches avec des motifs noirs et quelques couleurs sur les figures. | ![Trefles_FR.jpeg](https://blindhelp.github.io/Trefles_FR.jpeg)
+Dans cette image, il y a deux cartes à jouer de joker posées sur une table en bois. Les cartes représentent un bouffon souriant avec un chapeau de fou de couleurs vives (rouge, bleu et jaune), et son col est fait de petites cartes à jouer. Les deux cartes sont presque identiques, mais l\'une a des symboles noirs et l\'autre des symboles rouges, et l\'inscription « THE JOLLY JOKER » apparaît sur chacune. | ![Jokers_FR.jpeg](https://blindhelp.github.io/Jokers_FR.jpeg)
+Cette image montre les instructions en français pour le jeu de bridge, avec des tableaux de points imprimés en rouge et noir posée sur une table en bois. | ![Instructions_Bridge_FR.jpeg](https://blindhelp.github.io/Instructions_Bridge_FR.jpeg)
+
+---
+
 # Jeu de Cartes  anglaise en Braille
 
 👉 À savoir:    
@@ -263,12 +288,31 @@ Nom anglais de la carte à jouer | Équivalence en français de la carte à joue
 
 ---
 
+## Images du jeu de cartes anglaise en Braille
+
+Parfois, une image vaut 1000 mots
+
+Spades_English.jpeg
+Hearts_English.jpeg
+Diamonds_English.jpeg
+Clubs_English.jpeg
+Jokers_English.jpeg
+Braille_Playing_Cards_English.jpeg
+
+---
+
 ## Références externes à consulter:
 [Jeu de cartes français — Wikipédia](https://fr.wikipedia.org/wiki/Jeu\_de\_cartes\_fran%C3%A7ais)
 [Jeu de 54 cartes braille pour non-voyants - AVH](https://magasin.avh.asso.fr/p/207-jeu-de-54-cartes-braille.html)    
 Boutique Valentin Haüy 3, rue Duroc 75343 - Paris Cedex 07 01 44 49 27 37 – Fax : 01 44 49 27 20 [magasin@avh.asso.fr](mailto:magasin@avh.asso.fr) – [magasin.avh.asso.fr](mailto:magasin.avh.asso.fr)     
 
 ---
+
+## Remerciements et conclusions finales
+
+Cet article est dédié à ma femme Norma, le grand amour de ma vie. ❤‍🔥    
+
+Sans son aide précieuse, il n\'aurait pas été possible d\'incorporer les images du jeu de cartes français et anglais avec leurs notations en Braille ! 🤝    
 
 J\'espère que vous apprécierez ce jeu de 54 cartes classiques maintenant avec leurs propres notations en Braille en français ou anglais lequel vous permettra également de jouer avec des personnes voyantes. 🆒    
    
