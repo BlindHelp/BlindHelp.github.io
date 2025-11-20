@@ -28,7 +28,7 @@ Dans mon cas celui-ci n\'a pas de notation en Braille, j\'ai dû les adapter com
 
 S\'il vous plaît, vous devriez vous aider d\'une personne voyante  pour le marquage en Braille, autrement dit, il devra vous dire le type de figure et sa valeur (Les numéros des cartes) écrite afin que vous puissiez l\'écrire correctement en Braille.    
 
-Ce marquage braille pour le jeu de cartes français s\'inspire de mes professeurs de Braille Alain Lebraud et Bernard Coynel de [l\'Association Valentin Hauy (AVH de l\'Isère)](https://grenoble.avh.asso.fr/)    
+Ce marquage braille pour le jeu de cartes françaises s\'inspire de mes professeurs de Braille Alain Lebraud et Bernard Coynel de [l\'Association Valentin Hauy (AVH de l\'Isère)](https://grenoble.avh.asso.fr/)    
 lesquels je remercie pour leurs bonnes initiatives! (handshake)    
 
 Avec cette inscription en braille dans leurs jeu de cartes, ils ont pu jouer à la [Belote](https://fr.wikipedia.org/wiki/Belote) avec des amis voyants les lundis de chaque semaine tranquillement.    
@@ -42,7 +42,7 @@ Belote: Jeu de cartes par levées et combinaisons, joué avec 32 cartes. Belote 
 
 L\'outil le plus simple est d\'utilisé une tablette munie de guides normalisés (avec des lignes de six points) et d\'un poinçon.     
 
-Le jeu de cartes français ou jeu de 54 cartes est un jeu de cartes organisées en quatre figures: trèfle (noir), carreau (rouge), cœur (rouge), pique (noir). Les figures sont plus généralement appelées couleurs. Dans le contexte du jeu de cartes, le terme couleur n\'a donc pas le même sens que dans le langage commun (dans ce dernier, on dirait qu\'il n\'y a que deux couleurs : le rouge et le noir).    
+Le jeu de cartes françaises ou jeu de 54 cartes est un jeu de cartes organisées en quatre figures: trèfle (noir), carreau (rouge), cœur (rouge), pique (noir). Les figures sont plus généralement appelées couleurs. Dans le contexte du jeu de cartes, le terme couleur n\'a donc pas le même sens que dans le langage commun (dans ce dernier, on dirait qu\'il n\'y a que deux couleurs : le rouge et le noir).    
 Il comporte 52 cartes à jouer réparties en quatre familles de treize valeurs, plus deux jokers.    
 
 ---
@@ -81,7 +81,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ## Piques
 
-Les figures indiquées sur le jeu de cartes français telles que les Piques ils sont répertoriés comme suit:
+Les figures indiquées sur le jeu de cartes françaises telles que les Piques ils sont répertoriés comme suit:
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
@@ -103,7 +103,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ## Cœurs
 
-Les figures indiquées sur le jeu de cartes français telles que les Cœurs ils sont répertoriés comme suit:
+Les figures indiquées sur le jeu de cartes françaises telles que les Cœurs ils sont répertoriés comme suit:
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
@@ -125,7 +125,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ## Carreaux
 
-Les figures indiquées sur le jeu de cartes français telles que les Carreaux ils sont répertoriés comme suit:
+Les figures indiquées sur le jeu de cartes françaises telles que les Carreaux ils sont répertoriés comme suit:
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
@@ -147,7 +147,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ## Trèfles
 
-Les figures indiquées sur le jeu de cartes français telles que les Trèfles ils sont répertoriés comme suit:
+Les figures indiquées sur le jeu de cartes françaises telles que les Trèfles ils sont répertoriés comme suit:
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
@@ -167,19 +167,35 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ---
 
-## Images du jeu de cartes française en Braille
+## Images du jeu de cartes françaises en Braille
 
 👉 À savoir:    
 
-Comme je l\'ai déjà dit avant, j\'ai dû acheter un jeu de cartes française classiques (54 cartes) et les marquer en braille (fabriqué maison).    
+Comme je l\'ai déjà dit avant, j\'ai dû acheter un jeu de cartes françaises classiques (54 cartes) et les marquer en braille (fabriqué maison).    
 
-Ce jeu de cartes française diffère quelque peu par son marquage braille, comme le montre le tableau ci-dessus.    
+Ce jeu de cartes françaises diffère quelque peu par son marquage braille, comme le montre le tableau ci-dessus.    
 
 Le marquage braille présenté dans le tableau ci-dessous commence plutôt par la lettre en braille indiquer en haut  de la carte indiquant   la figure.    
 
+* La lettre P en braille = pique (noir).
+* La lettre C en braille = cœur (rouge).
+* La lettre K en braille = carreau (rouge). Nous avons mis cette lettre pour la différencier de la lettre C de la figure cœur.
+* La lettre T en braille = trèfle (noir).
+
 Ensuite il est séparé par une ligne vide.    
 
-Ensuite il est marqué par le chiffre ou la lettre en Braille indiquer en bas de la carte indiquant  le numéro ou la figure qui correspond a la carte sauf pour l\'As    
+Ensuite il est marqué par le chiffre ou la lettre en Braille indiquer en bas de la carte indiquant  le numéro ou la figure qui correspond a la carte sauf pour l\'As ; Les cartes françaises  contiendra le chiffre 1 imprimé sur ladite carte à la place de la lettre A utilisée sur les cartes anglaises.    
+* As (n'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrit en Braille.
+* Les chiffres de 2 à 9 en braille correspondent aux cartes numérotées.    
+Remarque: Les numéros des cartes: 2 3 5 6 7 8 9    
+son remplacez par leurs équivalence des lettres de l\'alphabet Braille.    
+Remarque: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹    
+pour le différencier de la dame qui commence par la lettre d, c'est-à-dire les ⠙    
+* Pour indiquer le numéro dix dans toutes les cartes nous l\'avons écrit avec les ⠚ c\'est-à-dire la lettre j en alphabet Braille.
+* La lettre V en braille = valet
+* La lettre D en braille  = dame
+* La lettre R en braille = roi
+* Le Joker dans le jeu de cartes en français, il est marqué avec les lettres en braille JO
 
 Description de l\'image | Parfois, une image vaut 1000 mots
 --- | ---
@@ -192,11 +208,11 @@ Cette image montre les instructions en français pour le jeu de bridge, avec des
 
 ---
 
-# Jeu de Cartes  anglaise en Braille
+# Jeu de Cartes  anglaises en Braille
 
 👉 À savoir:    
 
-Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaise a été acheté avec l\'impression  en braille incluse par le fabricant.    
+Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaises a été acheté avec l\'impression  en braille incluse par le fabricant.    
 
 En anglais les noms des cartes seraient les suivants:    
 
@@ -228,7 +244,7 @@ Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres en br
 
 ---
 
-# Récapitulatif du jeu de Cartes  anglaise en Braille
+# Récapitulatif du jeu de Cartes  anglaises en Braille
 
 Nom anglais de la carte à jouer | Équivalence en français de la carte à jouer | Informations sur le caractère braille marqué par le fabricant | Caractère braille marqué par le fabricant
 --- | --- | --- | ---
@@ -288,7 +304,9 @@ Nom anglais de la carte à jouer | Équivalence en français de la carte à joue
 
 ---
 
-## Images du jeu de cartes anglaise en Braille
+## Images du jeu de cartes anglaises en Braille
+
+Veuillez noter que ce jeu de cartes anglaises est déjà imprimé en braille par le fabricant.    
 
 Description de l\'image | Parfois, une image vaut 1000 mots
 --- | ---
@@ -314,7 +332,7 @@ Si vous n\'avez pas encore trouvé le jeu de cartes en braille, et si vous dispo
 
 Cet article est dédié à ma femme Norma, le grand amour de ma vie. ❤‍🔥    
 
-Sans son aide précieuse, il n\'aurait pas été possible d\'incorporer les images du jeu de cartes français et anglais avec leurs notations en Braille ! 🤝    
+Sans son aide précieuse, il n\'aurait pas été possible d\'incorporer les images du jeu de cartes françaises et anglaises avec leurs notations en Braille ! 🤝 👍 ✌  
 
 J\'espère que vous apprécierez ce jeu de 54 cartes classiques maintenant avec leurs propres notations en Braille en français ou anglais lequel vous permettra également de jouer avec des personnes voyantes. 🆒    
    
