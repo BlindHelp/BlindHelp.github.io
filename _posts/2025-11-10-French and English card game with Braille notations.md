@@ -293,11 +293,11 @@ Nom anglais de la carte à jouer | Équivalence en français de la carte à joue
 Description de l\'image | Parfois, une image vaut 1000 mots
 --- | ---
 Cette image montre un éventail de cartes à jouer posées sur une table en bois. Les cartes sont toutes de la couleur pique, allant de l\'As au Roi. Les cartes sont en braille, permettant aux personnes aveugles ou malvoyantes de les utiliser. | ![Spades_English.jpeg](https://blindhelp.github.io/Spades_English.jpeg)
-Cette image montre un ensemble de cartes à jouer étalées en éventail sur une table en bois. Toutes les cartes sont de la couleur cœur, allant de l'\As jusqu'au Roi. Les chiffres et les symboles sont rouges, et les cartes ont des points en braille pour les personnes aveugles ou malvoyantes. | ![Hearts_English.jpeg>](https://blindhelp.github.io/Hearts_English.jpeg)
+Cette image montre un ensemble de cartes à jouer étalées en éventail sur une table en bois. Toutes les cartes sont de la couleur cœur, allant de l\'As jusqu'au Roi. Les chiffres et les symboles sont rouges, et les cartes ont des points en braille pour les personnes aveugles ou malvoyantes. | ![Hearts_English.jpeg](https://blindhelp.github.io/Hearts_English.jpeg)
 Cette image montre une série de cartes à jouer étalées en éventail sur une table en bois. Toutes les cartes appartiennent à la famille des carreaux, allant de l\'As jusqu'au Roi. On distingue aussi des marques en braille pour les personnes malvoyantes ou aveugles. | ![Diamonds_English.jpeg](https://blindhelp.github.io/Diamonds_English.jpeg)
 L\'image montre une série de cartes à jouer étalées en éventail sur une table en bois. Toutes les cartes sont de la même couleur, trèfle, allant de l\'As jusqu'au Roi, placées dans l'ordre croissant de droite à gauche. Les cartes sont blanches avec des motifs noirs. On distingue aussi des marques en braille sur les cartes, adaptées pour les personnes malvoyantes ou aveugles. | ![Clubs_English.jpeg](https://blindhelp.github.io/Clubs_English.jpeg)
 Cette image montre deux cartes Joker posées sur une surface en bois. Les cartes sont de couleur beige avec des dessins noirs, représentant un personnage de joker sur un vélo. Il y a également des grands symboles de dollar "$" sur chaque carte. Une des cartes contient un texte de garantie (en anglais). Des signes en braille sont visibles sur les jokers, indiquant que les cartes sont adaptées aux personnes malvoyantes ou aveugles. | ![Jokers_English.jpeg](https://blindhelp.github.io/Jokers_English.jpeg)
-Cette image montre une boîte de cartes à jouer Bicycle braille posée sur une table en bois. La boîte est principalement rouge avec des inscriptions dorées, indiquant qu\'il s\'agit de cartes adaptées aux personnes malvoyantes. | ![Braille_Playing_Cards_English.jpeg](https://blindhelp.github.io/Braille_Playing_Cards_English.jpeg)
+Cette image montre une boîte de cartes à jouer Bicycle braille posée sur une table en bois. La boîte est principalement rouge avec des inscriptions dorées, indiquant qu\'il s\'agit de cartes adaptées aux personnes malvoyantes ou aveugles. | ![Braille_Playing_Cards_English.jpeg](https://blindhelp.github.io/Braille_Playing_Cards_English.jpeg)
 
 ---
 
@@ -305,6 +305,8 @@ Cette image montre une boîte de cartes à jouer Bicycle braille posée sur une 
 [Jeu de cartes français — Wikipédia](https://fr.wikipedia.org/wiki/Jeu\_de\_cartes\_fran%C3%A7ais)
 [Jeu de 54 cartes braille pour non-voyants - AVH](https://magasin.avh.asso.fr/p/207-jeu-de-54-cartes-braille.html)    
 Boutique Valentin Haüy 3, rue Duroc 75343 - Paris Cedex 07 01 44 49 27 37 – Fax : 01 44 49 27 20 [magasin@avh.asso.fr](mailto:magasin@avh.asso.fr) – [magasin.avh.asso.fr](mailto:magasin.avh.asso.fr)     
+Si vous n\'avez pas encore trouvé le jeu de cartes en braille, et si vous disposez d\'un compte [Amazon.fr](https://www.amazon.fr/) vous pouvez écrire dans le champ d'édition votre propre recherche.    
+[Amazon.fr : livres, DVD, jeux vidéo, musique, high-tech, informatique, jouets, vêtements, chaussures, sport, bricolage, maison, beauté, puériculture, épicerie et plus encore !](https://www.amazon.fr/)    
 
 ---
 
