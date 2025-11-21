@@ -37,7 +37,7 @@ Le blog de BlindHelp n\'est pas responsable des informations dédié au jeu de c
 
 ---
 
-## Un peu d\'histoire
+## Un peu d\'histoire <a id="mark1"></a>
 
 Pour commencer, j\'ai dû acheter un jeu de cartes françaises en carton plastifié dans un magasin de jouets spécialisé.    
 
@@ -58,7 +58,7 @@ Belote: Jeu de cartes par levées et combinaisons, joué avec 32 cartes. Belote 
 
 ---
 
-## De quoi aurons-nous besoin pour réaliser ledit marquage braille de manière artisanale ?
+## De quoi aurons-nous besoin pour réaliser ledit marquage braille de manière artisanale ? <a id="mark2"></a>
 
 L\'outil le plus simple est d\'utilisé une tablette munie de guides normalisés (avec des lignes de six points) et d\'un poinçon.     
 
@@ -67,7 +67,7 @@ Il comporte 52 cartes à jouer réparties en quatre familles de treize valeurs, 
 
 ---
 
-# Jeu de Cartes françaises en Braille
+# Jeu de Cartes françaises en Braille <a id="mark3"></a>
 
 Les quatre familles pourrait être répertorié comme suit:    
 
@@ -90,9 +90,9 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ---
 
-# Jeu de Cartes françaises en Braille contenant les figures
+# Jeu de Cartes françaises en Braille contenant les figures <a id="mark4"></a>
 
-## Piques
+## Piques <a id="mark5"></a>
 
 Les figures indiquées sur le jeu de cartes françaises telles que les Piques ils sont répertoriés comme suit:
 
@@ -114,7 +114,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ---
 
-## Cœurs
+## Cœurs <a id="mark6"></a>
 
 Les figures indiquées sur le jeu de cartes françaises telles que les Cœurs ils sont répertoriés comme suit:
 
@@ -136,7 +136,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ---
 
-## Carreaux
+## Carreaux <a id="mark7"></a>
 
 Les figures indiquées sur le jeu de cartes françaises telles que les Carreaux ils sont répertoriés comme suit:
 
@@ -158,7 +158,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ---
 
-## Trèfles
+## Trèfles <a id="mark8"></a>
 
 Les figures indiquées sur le jeu de cartes françaises telles que les Trèfles ils sont répertoriés comme suit:
 
@@ -180,7 +180,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 ---
 
-## Images du jeu de cartes françaises en Braille
+## Images du jeu de cartes françaises en Braille <a id="mark9"></a>
 
 👉 À savoir:    
 
@@ -198,8 +198,8 @@ Le marquage braille présenté dans le tableau ci-dessous commence plutôt par l
 Ensuite il est séparé par une ligne vide.    
 
 Ensuite il est marqué par le chiffre ou la lettre en Braille indiquer en bas de la carte indiquant  le numéro ou la figure qui correspond a la carte sauf pour l\'As ; Les cartes françaises  contiendra le chiffre 1 imprimé sur ladite carte à la place de la lettre A utilisée sur les cartes anglaises.    
-* As (n'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrit en Braille.
-* Les chiffres de 2 à 9 en braille correspondent aux cartes numérotées.    
+* As (n'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille.
+* Les chiffres de 2 à 9 en braille (sauf pour le chiffre 4 en braille) correspondent aux cartes numérotées.    
 Remarque: Les numéros des cartes: 2 3 5 6 7 8 9    
 son remplacez par leurs équivalence des lettres de l\'alphabet Braille.    
 Remarque: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹    
@@ -221,7 +221,7 @@ Cette image montre les instructions en français pour le jeu de bridge, avec des
 
 ---
 
-# Jeu de Cartes  anglaises en Braille
+# Jeu de Cartes  anglaises en Braille <a id="mark"></a>
 
 👉 À savoir:    
 
@@ -237,7 +237,7 @@ As, Roi, Dame et Valet
 
 ---
 
-# Comment lire les cartes en anglais à jouer en braille ?
+# Comment lire les cartes en anglais à jouer en braille ?  <a id="mark"></a>
 
 Utilisez ces chiffres/lettres en braille pour chaque carte:    
 1 = <span lang="en">Ace</span>, X = 10, J = <span lang="en">Jack</span>, Q = <span lang="en">Queen</span>, K = <span lang="en">King</span>. Les chiffres de 2 à 9 correspondent aux cartes numérotées.    
@@ -257,7 +257,7 @@ Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres en br
 
 ---
 
-# Récapitulatif du jeu de Cartes  anglaises en Braille
+# Récapitulatif du jeu de Cartes  anglaises en Braille  <a id="mark"></a>
 
 Nom anglais de la carte à jouer | Équivalence en français de la carte à jouer | Informations sur le caractère braille marqué par le fabricant | Caractère braille marqué par le fabricant
 --- | --- | --- | ---
@@ -317,7 +317,7 @@ Nom anglais de la carte à jouer | Équivalence en français de la carte à joue
 
 ---
 
-## Images du jeu de cartes anglaises en Braille
+## Images du jeu de cartes anglaises en Braille <a id="mark"></a>
 
 Veuillez noter que ce jeu de cartes anglaises est déjà imprimé en braille par le fabricant.    
 
@@ -332,7 +332,8 @@ Cette image montre une boîte de cartes à jouer Bicycle braille posée sur une 
 
 ---
 
-## Références externes à consulter:
+## Références externes à consulter <a id="mark"></a>
+
 [Jeu de cartes français — Wikipédia](https://fr.wikipedia.org/wiki/Jeu\_de\_cartes\_fran%C3%A7ais)
 [Jeu de 54 cartes braille pour non-voyants - AVH](https://magasin.avh.asso.fr/p/207-jeu-de-54-cartes-braille.html)    
 Boutique Valentin Haüy 3, rue Duroc 75343 - Paris Cedex 07 01 44 49 27 37 – Fax : 01 44 49 27 20 [magasin@avh.asso.fr](mailto:magasin@avh.asso.fr) – [magasin.avh.asso.fr](mailto:magasin.avh.asso.fr)     
@@ -341,7 +342,7 @@ Si vous n\'avez pas encore trouvé le jeu de cartes en braille, et si vous dispo
 
 ---
 
-## Remerciements et conclusions finales
+## Remerciements et conclusions finales <a id="mark"></a>
 
 Cet article est dédié à ma femme Norma, le grand amour de ma vie. ❤‍🔥    
 
