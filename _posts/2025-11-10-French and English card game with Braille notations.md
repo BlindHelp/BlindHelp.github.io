@@ -1,5 +1,5 @@
 ---
-title: Jeu de cartes français et anglais avec leurs notations en Braille
+title: Jeu de cartes en français et en anglais avec leurs notations en Braille
 
 permalink: "/French-and-English-card-game-with-Braille-notations/"
 layout: post
@@ -10,10 +10,30 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd\'hui, nous n\'aborderons pas un sujet informatique comme c'est le cas  habituellement sur notre blog.    
-Nous allons plutôt traiter aujourd\'hui sur l\'utilisation du Braille dans le jeu de cartes français et anglais avec leurs notations en Braille.    
+Nous allons plutôt traiter aujourd\'hui sur l\'utilisation du Braille dans le jeu de cartes en français et en anglais avec leurs notations en Braille.    
 
 Avertissement: 💀  
 Le blog de BlindHelp n\'est pas responsable des informations dédié au jeu de cartes avec leurs notations en Braille retranscrites sur ce post à partir de mes notes personnelles que je partage avec vous. ☠  
+
+---
+
+
+## Table des matières
+* [Un peu d\'histoire](#mark1)
+* [De quoi aurons-nous besoin pour réaliser ledit marquage braille de manière artisanale ?](#mark2)
+* [Jeu de Cartes françaises en Braille](#mark3)
+* [Jeu de Cartes françaises en Braille contenant les figures](#mark4)
+    * [Piques](#mark5)
+    * [Cœurs](#mark6)
+    * [Carreaux](#mark7)
+    * [Trèfles](#mark8)
+* [Images du jeu de cartes françaises en Braille](#mark9)
+* [Jeu de Cartes anglaises en Braille](#)
+* [Comment lire les cartes en anglais à jouer en braille ?](#)
+* [Récapitulatif du jeu de Cartes anglaises en Braille](#)
+* [Images du jeu de cartes anglaises en Braille](#)
+* [Références externes à consulter](#) 
+* [Remerciements et conclusions finales](#)
 
 ---
 
@@ -22,7 +42,7 @@ Le blog de BlindHelp n\'est pas responsable des informations dédié au jeu de c
 Pour commencer, j\'ai dû acheter un jeu de cartes françaises en carton plastifié dans un magasin de jouets spécialisé.    
 
 Cela remonte à plusieurs années, maintenant si je ne me trompe pas, il peut être acheté dans les magasins spécialisés dans la vente de matériel pour les personnes aveugles ou malvoyantes et le marquage en braille  est inclus dans ce jeu de cartes françaises pour apprendre et s\'amuser.    
-Voir la section "Références externes à consulter" qui se trouve à la fin de cet article. Merci.    
+Voir la section ["Références externes à consulter"](#) qui se trouve à la fin de cet article. Merci.    
 
 Dans mon cas celui-ci n\'a pas de notation en Braille, j\'ai dû les adapter comme je l\'expliquerai ci-dessous.    
 
@@ -66,13 +86,6 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 `Valet`    |    Les valets représentent chacun un personnage, typiquement un homme jeune en costume associé à l\'Europe des XVI e et XVII e siècles, peut-être un domestique, un cavalier à pied ou un écuyer.   |   La lettre `V` est utilisé pour les cartes contenant les valets. | `⠧`    |    Le valet est une figure de carte à jouer. Représentant généralement un jeune homme, il s\'agit souvent de la figure la plus faible.
 `Dame`    | Chacune des quatre figures d\'un jeu de cartes, figurant une dame.    | La dame est une reine, mais en français ce nom avait l\'inconvénient de commencer par la même lettre que roi. C\'est pourquoi nous avons utilisé la lettre `D` pour les cartes contenant les dames.     |    `⠙`    |    La dame ou reine est une figure de carte à jouer, représentant généralement une femme noble.
 `Roi`    | Chacune des quatre figures d\'un jeu de cartes, figurant un roi. |   La lettre `R` est utilisé pour les cartes contenant les rois.     |    `⠗`    |    Le roi est une figure de carte à jouer, représentant généralement un homme noble.
-
----
-
-## Jokers
-
-Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
----    |    ---    |    ---    |    ---
 `Joker`    | Carte portant la figure d\'un bouffon et susceptible de prendre à certains jeux la valeur que lui donne celui qui la détient. Ces cartes sont également appelés: fous. |    Nous avons utilisé les lettres `JO` pour les deux cartes contenant un joker.   |    `⠚⠕`    |    Le joker est généralement représenté par un bouffon, orné de son chapeau à clochettes ; il est parfois accompagné de cartes à jouer.
 
 ---
