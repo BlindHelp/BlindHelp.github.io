@@ -17,8 +17,9 @@ Le blog de BlindHelp n\'est pas responsable des informations dédié au jeu de c
 
 ---
 
+Sommaire <a id="Sommaire"></a>
+-------------
 
-## Table des matières
 * [Un peu d\'histoire](#mark1)
 * [De quoi aurons-nous besoin pour réaliser ledit marquage braille de manière artisanale ?](#mark2)
 * [Jeu de Cartes françaises en Braille](#mark3)
@@ -56,14 +57,18 @@ Avec cette inscription en braille dans leurs jeu de cartes, ils ont pu jouer à 
 POUR VOTRE INFORMATION    
 Belote: Jeu de cartes par levées et combinaisons, joué avec 32 cartes. Belote sans atout ou tout atout.    
 
+[Retour au sommaire](#Sommaire)
+
 ---
 
 ## De quoi aurons-nous besoin pour réaliser ledit marquage braille de manière artisanale ? <a id="mark2"></a>
 
 L\'outil le plus simple est d\'utilisé une tablette munie de guides normalisés (avec des lignes de six points) et d\'un poinçon.     
 
-Le jeu de cartes françaises ou jeu de 54 cartes est un jeu de cartes organisées en quatre figures: trèfle (noir), carreau (rouge), cœur (rouge), pique (noir). Les figures sont plus généralement appelées couleurs. Dans le contexte du jeu de cartes, le terme couleur n\'a donc pas le même sens que dans le langage commun (dans ce dernier, on dirait qu\'il n\'y a que deux couleurs : le rouge et le noir).    
+Le jeu de cartes françaises ou jeu de 54 cartes est un jeu de cartes organisées en quatre figures: pique (noir), cœur (rouge), carreau (rouge), trèfle (noir). Les figures sont plus généralement appelées couleurs. Dans le contexte du jeu de cartes, le terme couleur n\'a donc pas le même sens que dans le langage commun (dans ce dernier, on dirait qu\'il n\'y a que deux couleurs : le rouge et le noir).    
 Il comporte 52 cartes à jouer réparties en quatre familles de treize valeurs, plus deux jokers.    
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -73,20 +78,22 @@ Les quatre familles pourrait être répertorié comme suit:
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As`    |   As au style français, la valeur de la carte étant indiquée par le nombre `1` plutôt que la lettre `A`     | Aucune information apparente. |    `⠁`    |    L\'As est une valeur de carte à jouer, correspondant au nombre 1.
-`2`    |    Nombre `2`    | Aucune information apparente. |    `⠃`    |    Le deux est une valeur de carte à jouer.
-`3`    |    Nombre `3`     | Aucune information apparente. |    `⠉`    |    Le trois est une valeur de carte à jouer.
-`4`    |    Nombre `4`    | Aucune information apparente. |     `⠙`    |    Le quatre est une valeur de carte à jouer.
-`5`    |    Nombre `5`    | Aucune information apparente. |    `⠑`    |    Le cinq est une valeur de carte à jouer.
-`6`    |    Nombre `6`    | Aucune information apparente. |    `⠋`    |    Le six est une valeur de carte à jouer.
-`7`    |    Nombre `7`    | Aucune information apparente. |    `⠛`    |    Le sept est une valeur de carte à jouer.
-`8`    |    Nombre `8`    | Aucune information apparente. |    `⠓`    |    Le huit est une valeur de carte à jouer.
-`9`    |    Nombre `9`    | Aucune information apparente. |    `⠊`    |    Le neuf est une valeur de carte à jouer.
-`10`    |    Nombre `10`   |    La lettre `j` est utilisé pour le nombre `10` | `⠚`    |    Le dix est une valeur de carte à jouer.
+`As`    |   As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`     | As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. |    `⠁` n\'est pas indiqué en braille pour les cartes françaises.   |    L\'As est une valeur de carte à jouer, correspondant au chiffre 1.
+`2`    |    Chiffre `2`    | Aucune information apparente. |    `⠃`    |    Le deux est une valeur de carte à jouer.
+`3`    |    Chiffre `3`     | Aucune information apparente. |    `⠉`    |    Le trois est une valeur de carte à jouer.
+`4`    |    Chiffre `4`    | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ |     `⠹`    |    Le quatre est une valeur de carte à jouer.
+`5`    |    Chiffre `5`    | Aucune information apparente. |    `⠑`    |    Le cinq est une valeur de carte à jouer.
+`6`    |    Chiffre `6`    | Aucune information apparente. |    `⠋`    |    Le six est une valeur de carte à jouer.
+`7`    |    Chiffre `7`    | Aucune information apparente. |    `⠛`    |    Le sept est une valeur de carte à jouer.
+`8`    |    Chiffre `8`    | Aucune information apparente. |    `⠓`    |    Le huit est une valeur de carte à jouer.
+`9`    |    Chiffre `9`    | Aucune information apparente. |    `⠊`    |    Le neuf est une valeur de carte à jouer.
+`10`    |    Nombre `10`   |    La lettre `j` est utilisé pour le chiffre `10` | `⠚`    |    Le dix est une valeur de carte à jouer.
 `Valet`    |    Les valets représentent chacun un personnage, typiquement un homme jeune en costume associé à l\'Europe des XVI e et XVII e siècles, peut-être un domestique, un cavalier à pied ou un écuyer.   |   La lettre `V` est utilisé pour les cartes contenant les valets. | `⠧`    |    Le valet est une figure de carte à jouer. Représentant généralement un jeune homme, il s\'agit souvent de la figure la plus faible.
 `Dame`    | Chacune des quatre figures d\'un jeu de cartes, figurant une dame.    | La dame est une reine, mais en français ce nom avait l\'inconvénient de commencer par la même lettre que roi. C\'est pourquoi nous avons utilisé la lettre `D` pour les cartes contenant les dames.     |    `⠙`    |    La dame ou reine est une figure de carte à jouer, représentant généralement une femme noble.
 `Roi`    | Chacune des quatre figures d\'un jeu de cartes, figurant un roi. |   La lettre `R` est utilisé pour les cartes contenant les rois.     |    `⠗`    |    Le roi est une figure de carte à jouer, représentant généralement un homme noble.
 `Joker`    | Carte portant la figure d\'un bouffon et susceptible de prendre à certains jeux la valeur que lui donne celui qui la détient. Ces cartes sont également appelés: fous. |    Nous avons utilisé les lettres `JO` pour les deux cartes contenant un joker.   |    `⠚⠕`    |    Le joker est généralement représenté par un bouffon, orné de son chapeau à clochettes ; il est parfois accompagné de cartes à jouer.
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -98,19 +105,21 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Piques il
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de pique`    |    Aucune description apparente.  | Nous avons utilisé le nombre `1` pour `As` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠁⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`2 de pique`     | Aucune description apparente.    | Nous avons utilisé le nombre `2` pour le `2` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠃⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`3 de pique`    | Aucune description apparente. | Nous avons utilisé le nombre `3` pour le `3` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠉⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`4 de pique`    | Aucune description apparente. | Nous avons utilisé le nombre `4` pour le `4` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠙⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`5 de pique`    | Aucune description apparente. | Nous avons utilisé le nombre `5` pour le `5` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠑⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`6 de pique`    | Aucune description apparente.     | Nous avons utilisé le nombre `6` pour le `6` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠋⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`7 de pique`    |    Aucune description apparente.  | Nous avons utilisé le nombre `7` pour le `7` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠛⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`8 de pique`    |    Aucune description apparente.  | Nous avons utilisé le nombre `8` pour le `8` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠓⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`9 de pique`    | Aucune description apparente.     | Nous avons utilisé le nombre `9` pour le `9` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠊⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
-`10 de pique`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le nombre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `P` écrite en braille qui signifie Pique.    |    `⠚⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`As de pique`    |   As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`   |  `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `P` écrite en braille qui signifie Pique.    |    `⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`2 de pique`     | Aucune description apparente.    | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠃⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`3 de pique`    | Aucune description apparente. | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠉⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`4 de pique`    | Aucune description apparente. | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `P` écrite en braille qui signifie Pique.     |     `⠹⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`5 de pique`    | Aucune description apparente. | Nous avons utilisé le chiffre `5` pour le `5` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠑⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`6 de pique`    | Aucune description apparente.     | Nous avons utilisé le chiffre `6` pour le `6` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠋⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`7 de pique`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `7` pour le `7` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠛⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`8 de pique`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `8` pour le `8` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠓⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`9 de pique`    | Aucune description apparente.     | Nous avons utilisé le chiffre `9` pour le `9` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠊⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`10 de pique`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le chiffre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `P` écrite en braille qui signifie Pique.    |    `⠚⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `Valet de pique`    | Aucune description apparente.    | Nous avons utilisé la lettre `V` écrite en braille qui signifie Valet et la lettre `P` écrite en braille qui signifie Pique.    |    `⠧⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `Dame de pique`    | Aucune description apparente. | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `P` écrite en braille qui signifie Pique.    |    `⠙⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `Roi de pique`    | Aucune description apparente.    | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `P` écrite en braille qui signifie Pique.    |    `⠗⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -120,19 +129,21 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Cœurs il
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de cœur`         | Aucune description apparente.  | Nous avons utilisé le nombre `1` pour `As` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠁⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`2 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `2` pour le `2` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠃⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`3 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `3` pour le `3` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠉⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`4 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `4` pour le `4` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠙⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`5 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `5` pour le `5` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠑⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`6 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `6` pour le `6` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠋⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`7 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `7` pour le `7` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠛⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`8 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `8` pour le `8` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠓⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`9 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le nombre `9` pour le `9` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠊⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
-`10 de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le nombre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠚⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`As de cœur`         | As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`  | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `C` écrite en braille qui signifie Cœur.    |    `⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`2 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠃⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`3 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠉⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`4 de cœur`    |    Aucune description apparente.  | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠹⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`5 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `5` pour le `5` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠑⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`6 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `6` pour le `6` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠋⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`7 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `7` pour le `7` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠛⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`8 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `8` pour le `8` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠓⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`9 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `9` pour le `9` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠊⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`10 de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le chiffre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠚⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `Valet de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `V` écrite en braille qui signifie Valet et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠧⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `Dame de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠙⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `Roi de cœur`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠗⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -142,19 +153,21 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Carreaux 
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `1` pour `As` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.    |    `⠁⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`2 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `2` pour le `2` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.         |    `⠃⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`3 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `3` pour le `3` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠉⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`4 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `4` pour le `4` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠙⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`5 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `5` pour le `5` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠑⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`6 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `6` pour le `6` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠋⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`7 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `7` pour le `7` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠛⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`8 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `8` pour le `8` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠓⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`9 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le nombre `9` pour le `9` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠊⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
-`10 de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le nombre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠚⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`As de carreau`    |    As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`  | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.    |    `⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`2 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.         |    `⠃⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`3 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠉⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`4 de carreau`    |    Aucune description apparente.  | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠹⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`5 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `5` pour le `5` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠑⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`6 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `6` pour le `6` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠋⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`7 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `7` pour le `7` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠛⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`8 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `8` pour le `8` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠓⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`9 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `9` pour le `9` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠊⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`10 de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le chiffre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠚⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `Valet de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `V` écrite en braille qui signifie Valet et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠧⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `Dame de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠙⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `Roi de carreau`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠗⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -164,19 +177,21 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Trèfles 
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `1` pour `As` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠁⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`2 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `2` pour le `2` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠃⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`3 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `3` pour le `3` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠉⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`4 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `4` pour le `4` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠙⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`5 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `5` pour le `5` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠑⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`6 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `6` pour le `6` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠋⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`7 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `7` pour le `7` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠛⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`8 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `8` pour le `8` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠓⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`9 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le nombre `9` pour le `9` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠊⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
-`10 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le nombre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠚⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`As de trèfle`    |    As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`  | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`2 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠃⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`3 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠉⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`4 de trèfle`    |    Aucune description apparente.  | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠹⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`5 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `5` pour le `5` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠑⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`6 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `6` pour le `6` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠋⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`7 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `7` pour le `7` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠛⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`8 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `8` pour le `8` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠓⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`9 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `9` pour le `9` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠊⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`10 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `j` pour indiquer le chiffre `10` ; c\'est-à-dire la dixième lettre de l\'écriture noir écrite  en alphabet Braille et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠚⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `Valet de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `V` écrite en braille qui signifie Valet et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠧⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `Dame de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `D` écrite en braille qui signifie Dame et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠙⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `Roi de trèfle`    |    Aucune description apparente.  | Nous avons utilisé la lettre `R` écrite en braille qui signifie Roi et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠗⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -186,7 +201,7 @@ Nom de la valeur    |    Description du symbole typographique    | Informations 
 
 Comme je l\'ai déjà dit avant, j\'ai dû acheter un jeu de cartes françaises classiques (54 cartes) et les marquer en braille (fabriqué maison).    
 
-Ce jeu de cartes françaises diffère quelque peu par son marquage braille, comme le montre le tableau ci-dessus.    
+Ce jeu de cartes françaises diffère quelque peu par son marquage braille qui est inversé, comme le montre le tableau ci-dessus.    
 
 Le marquage braille présenté dans le tableau ci-dessous commence plutôt par la lettre en braille indiquer en haut  de la carte indiquant   la figure.    
 
@@ -219,6 +234,8 @@ Cette image montre un éventail de cartes à jouer, toutes de la couleur trèfle
 Dans cette image, il y a deux cartes à jouer de joker posées sur une table en bois. Les cartes représentent un bouffon souriant avec un chapeau de fou de couleurs vives (rouge, bleu et jaune), et son col est fait de petites cartes à jouer. Les deux cartes sont presque identiques, mais l\'une a des symboles noirs et l\'autre des symboles rouges, et l\'inscription « THE JOLLY JOKER » apparaît sur chacune. | ![Jokers_FR.jpeg](https://blindhelp.github.io/Jokers_FR.jpeg)
 Cette image montre les instructions en français pour le jeu de bridge, avec des tableaux de points imprimés en rouge et noir posée sur une table en bois. | ![Instructions_Bridge_FR.jpeg](https://blindhelp.github.io/Instructions_Bridge_FR.jpeg)
 
+[Retour au sommaire](#Sommaire)
+
 ---
 
 # Jeu de Cartes  anglaises en Braille <a id="mark"></a>
@@ -234,6 +251,8 @@ En anglais les noms des cartes seraient les suivants:
 Pour votre information, la traduction française dans le même ordre serait la suivante:    
 
 As, Roi, Dame et Valet    
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -254,6 +273,8 @@ Pour votre information, la traduction française dans le même ordre serait la s
 Pique, Cœur, Carreau, Trèfle    
 
 Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres en braille: JO    
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -315,6 +336,8 @@ Nom anglais de la carte à jouer | Équivalence en français de la carte à joue
 <span lang="en">King of clubs</span> | Roi de trèfle | KC | ⠅⠉
 <span lang="en">Joker</span> | Joker | JO | ⠚⠕
 
+[Retour au sommaire](#Sommaire)
+
 ---
 
 ## Images du jeu de cartes anglaises en Braille <a id="mark"></a>
@@ -330,6 +353,8 @@ L\'image montre une série de cartes à jouer étalées en éventail sur une tab
 Cette image montre deux cartes Joker posées sur une surface en bois. Les cartes sont de couleur beige avec des dessins noirs, représentant un personnage de joker sur un vélo. Il y a également des grands symboles de dollar "$" sur chaque carte. Une des cartes contient un texte de garantie (en anglais). Des signes en braille sont visibles sur les jokers, indiquant que les cartes sont adaptées aux personnes malvoyantes ou aveugles. | ![Jokers_English.jpeg](https://blindhelp.github.io/Jokers_English.jpeg)
 Cette image montre une boîte de cartes à jouer Bicycle braille posée sur une table en bois. La boîte est principalement rouge avec des inscriptions dorées, indiquant qu\'il s\'agit de cartes adaptées aux personnes malvoyantes ou aveugles. | ![Braille_Playing_Cards_English.jpeg](https://blindhelp.github.io/Braille_Playing_Cards_English.jpeg)
 
+[Retour au sommaire](#Sommaire)
+
 ---
 
 ## Références externes à consulter <a id="mark"></a>
@@ -339,6 +364,8 @@ Cette image montre une boîte de cartes à jouer Bicycle braille posée sur une 
 Boutique Valentin Haüy 3, rue Duroc 75343 - Paris Cedex 07 01 44 49 27 37 – Fax : 01 44 49 27 20 [magasin@avh.asso.fr](mailto:magasin@avh.asso.fr) – [magasin.avh.asso.fr](mailto:magasin.avh.asso.fr)     
 Si vous n\'avez pas encore trouvé le jeu de cartes en braille, et si vous disposez d\'un compte [Amazon.fr](https://www.amazon.fr/) vous pouvez écrire dans le champ d'édition votre propre recherche.    
 [Amazon.fr : livres, DVD, jeux vidéo, musique, high-tech, informatique, jouets, vêtements, chaussures, sport, bricolage, maison, beauté, puériculture, épicerie et plus encore !](https://www.amazon.fr/)    
+
+[Retour au sommaire](#Sommaire)
 
 ---
 
@@ -355,6 +382,8 @@ Voilà c\'est fini, 🔐
 À la prochaine sur un autre post!    
 @+
 BlindHelp!  🇫🇷
+
+[Retour au sommaire](#Sommaire)
 
 ----
 
