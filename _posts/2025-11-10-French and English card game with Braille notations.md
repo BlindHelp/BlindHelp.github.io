@@ -29,12 +29,12 @@ Sommaire <a id="Sommaire"></a>
     * [Carreaux](#mark7)
     * [Trèfles](#mark8)
 * [Images du jeu de cartes françaises en Braille](#mark9)
-* [Jeu de Cartes anglaises en Braille](#)
-* [Comment lire les cartes en anglais à jouer en braille ?](#)
-* [Récapitulatif du jeu de Cartes anglaises en Braille](#)
-* [Images du jeu de cartes anglaises en Braille](#)
-* [Références externes à consulter](#) 
-* [Remerciements et conclusions finales](#)
+* [Jeu de Cartes anglaises en Braille](#mark10)
+* [Comment lire les cartes en anglais à jouer en braille ?](#mark11)
+* [Récapitulatif du jeu de Cartes anglaises en Braille](#mark12)
+* [Images du jeu de cartes anglaises en Braille](#mark13)
+* [Références externes à consulter](#mark14) 
+* [Remerciements et conclusions finales](#mark15)
 
 ---
 
@@ -43,7 +43,7 @@ Sommaire <a id="Sommaire"></a>
 Pour commencer, j\'ai dû acheter un jeu de cartes françaises en carton plastifié dans un magasin de jouets spécialisé.    
 
 Cela remonte à plusieurs années, maintenant si je ne me trompe pas, il peut être acheté dans les magasins spécialisés dans la vente de matériel pour les personnes aveugles ou malvoyantes et le marquage en braille  est inclus dans ce jeu de cartes françaises pour apprendre et s\'amuser.    
-Voir la section ["Références externes à consulter"](#) qui se trouve à la fin de cet article. Merci.    
+Voir la section ["Références externes à consulter"](#mark14) qui se trouve à la fin de cet article. Merci.    
 
 Dans mon cas celui-ci n\'a pas de notation en Braille, j\'ai dû les adapter comme je l\'expliquerai ci-dessous.    
 
@@ -78,7 +78,7 @@ Les quatre familles pourrait être répertorié comme suit:
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As`    |   As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`     | As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. |    `⠁` n\'est pas indiqué en braille pour les cartes françaises.   |    L\'As est une valeur de carte à jouer, correspondant au chiffre 1.
+`As`    |   As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A` utilisé dans les cartes anglaises.    | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille.         | |    L\'As est une valeur de carte à jouer, correspondant au chiffre 1.
 `2`    |    Chiffre `2`    | Aucune information apparente. |    `⠃`    |    Le deux est une valeur de carte à jouer.
 `3`    |    Chiffre `3`     | Aucune information apparente. |    `⠉`    |    Le trois est une valeur de carte à jouer.
 `4`    |    Chiffre `4`    | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ |     `⠹`    |    Le quatre est une valeur de carte à jouer.
@@ -105,7 +105,7 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Piques il
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de pique`    |   As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`   |  `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `P` écrite en braille qui signifie Pique.    |    `⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
+`As de pique`    |   As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A` utilisé dans les cartes anglaises.    |  `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `P` écrite en braille qui signifie Pique.    |    `⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `2 de pique`     | Aucune description apparente.    | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠃⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `3 de pique`    | Aucune description apparente. | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `P` écrite en braille qui signifie Pique.    |    `⠉⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
 `4 de pique`    | Aucune description apparente. | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `P` écrite en braille qui signifie Pique.     |     `⠹⠏`    |    Une des quatre couleurs du jeu de cartes, dont le dessin évoque un fer de pique noir ; carte de cette couleur.
@@ -129,7 +129,7 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Cœurs il
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de cœur`         | As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`  | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `C` écrite en braille qui signifie Cœur.    |    `⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
+`As de cœur`         | As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A` utilisé dans les cartes anglaises.     | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `C` écrite en braille qui signifie Cœur.    |    `⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `2 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠃⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `3 de cœur`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠉⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
 `4 de cœur`    |    Aucune description apparente.  | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `C` écrite en braille qui signifie Cœur.    |    `⠹⠉`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un cœur rouge stylisé ; carte de cette couleur.
@@ -153,7 +153,7 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Carreaux 
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de carreau`    |    As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`  | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.    |    `⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
+`As de carreau`    |    As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A` utilisé dans les cartes anglaises.      | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.    |    `⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `2 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.         |    `⠃⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `3 de carreau`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠉⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
 `4 de carreau`    |    Aucune description apparente.  | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `K` écrite en braille qui signifie Carreau ; Notez que  nous avons mis la lettre `K` en braille (⠅) pour la différencier de la lettre `C` en braille (⠉) utilisée dans les cartes contenant le Cœur.        |    `⠹⠅`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un losange rouge ; carte de cette couleur.
@@ -177,7 +177,7 @@ Les figures indiquées sur le jeu de cartes françaises telles que les Trèfles 
 
 Nom de la valeur    |    Description du symbole typographique    | Informations sur le caractère braille utilisé dans le marquage      |    Caractère braille utilisé dans le marquage   |    Description de la valeur
 ---    |    ---    |    ---    |    ---
-`As de trèfle`    |    As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A`  | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
+`As de trèfle`    |    As au style français, la valeur de la carte étant indiquée par le chiffre `1` plutôt que la lettre `A` utilisé dans les cartes anglaises.     | `⠁` n\'est pas indiqué en braille pour les cartes françaises. As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille. Nous avons utilisé la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `2 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `2` pour le `2` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠃⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `3 de trèfle`    |    Aucune description apparente.  | Nous avons utilisé le chiffre `3` pour le `3` et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠉⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
 `4 de trèfle`    |    Aucune description apparente.  | Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙ et la lettre `T` écrite en braille qui signifie Trèfle.    |    `⠹⠞`    |    Une des quatre couleurs du jeu de cartes, dont la marque est un trèfle noir ; carte de cette couleur.
@@ -227,7 +227,7 @@ pour le différencier de la dame qui commence par la lettre d, c'est-à-dire les
 
 Description de l\'image | Parfois, une image vaut 1000 mots
 --- | ---
-Cette image montre une série de cartes à jouer, toutes de couleur noire et appartenant à la famille des piques. Les cartes sont placées en éventail sur une surface en bois brun. On peut voir les cartes du roi (R), la dame (D), le valet (V), puis les cartes numériques de 10 à 1. Les faces incluent des illustrations colorées et chaque carte comporte des points en relief en braille, permettant l\'identification tactile. | ![Piques_FR.jpeg](https://blindhelp.github.io/Piques_FR.jpeg)
+Cette image montre une série de cartes à jouer, toutes de couleur noire et appartenant à la famille des piques. Les cartes sont placées en éventail sur une surface en bois brun. On peut voir les cartes du roi (R), la dame (D), le valet (V), puis les cartes numérotées de 10 à 1. Les faces incluent des illustrations colorées et chaque carte comporte des points en relief en braille, permettant l\'identification tactile. | ![Piques_FR.jpeg](https://blindhelp.github.io/Piques_FR.jpeg)
 Dans cette image, il y a un éventail de cartes à jouer, toutes de la couleur cœur, disposées sur une table en bois. Les cartes incluent des chiffres allant de deux à dix, ainsi que des figures, et elles ont des marques en braille pour les personnes malvoyantes. | ![Coeurs_FR.jpeg](https://blindhelp.github.io/Coeurs_FR.jpeg)
 L\'image montre un ensemble de cartes à jouer étalées sur une table en bois. Toutes les cartes appartiennent à la couleur des carreaux, allant de l\'As jusqu'au Roi. Les cartes sont disposées en éventail, révélant clairement chaque valeur. On distingue aussi des marques en braille sur les cartes, adaptées pour les personnes malvoyantes ou aveugles. | ![Carreaux_FR.jpeg](https://blindhelp.github.io/Carreaux_FR.jpeg)
 Cette image montre un éventail de cartes à jouer, toutes de la couleur trèfle, étalées sur une surface en bois brun. On peut voir les cartes allant de l\'As au roi, disposées en ordre croissant. Les cartes sont blanches avec des motifs noirs et quelques couleurs sur les figures. | ![Trefles_FR.jpeg](https://blindhelp.github.io/Trefles_FR.jpeg)
@@ -238,11 +238,11 @@ Cette image montre les instructions en français pour le jeu de bridge, avec des
 
 ---
 
-# Jeu de Cartes  anglaises en Braille <a id="mark"></a>
+# Jeu de Cartes  anglaises en Braille <a id="mark10"></a>
 
 👉 À savoir:    
 
-Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaises a été acheté avec l\'impression  en braille incluse par le fabricant.    
+Pour ma part, si ma mémoire est bonne, ce jeu de cartes anglaises a été acheté avec l\'impression  en braille incluse par le fabricant (Bicycle ).    
 
 En anglais les noms des cartes seraient les suivants:    
 
@@ -256,7 +256,7 @@ As, Roi, Dame et Valet
 
 ---
 
-# Comment lire les cartes en anglais à jouer en braille ?  <a id="mark"></a>
+# Comment lire les cartes en anglais à jouer en braille ?  <a id="mark11"></a>
 
 Utilisez ces chiffres/lettres en braille pour chaque carte:    
 1 = <span lang="en">Ace</span>, X = 10, J = <span lang="en">Jack</span>, Q = <span lang="en">Queen</span>, K = <span lang="en">King</span>. Les chiffres de 2 à 9 correspondent aux cartes numérotées.    
@@ -278,7 +278,7 @@ Le Joker dans le jeu de cartes en anglais, il est marqué avec les lettres en br
 
 ---
 
-# Récapitulatif du jeu de Cartes  anglaises en Braille  <a id="mark"></a>
+# Récapitulatif du jeu de Cartes  anglaises en Braille  <a id="mark12"></a>
 
 Nom anglais de la carte à jouer | Équivalence en français de la carte à jouer | Informations sur le caractère braille marqué par le fabricant | Caractère braille marqué par le fabricant
 --- | --- | --- | ---
@@ -340,9 +340,9 @@ Nom anglais de la carte à jouer | Équivalence en français de la carte à joue
 
 ---
 
-## Images du jeu de cartes anglaises en Braille <a id="mark"></a>
+## Images du jeu de cartes anglaises en Braille <a id="mark13"></a>
 
-Veuillez noter que ce jeu de cartes anglaises est déjà imprimé en braille par le fabricant.    
+Veuillez noter que ce jeu de cartes anglaises est déjà imprimé en braille par le fabricant (Bicycle).    
 
 Description de l\'image | Parfois, une image vaut 1000 mots
 --- | ---
@@ -357,7 +357,7 @@ Cette image montre une boîte de cartes à jouer Bicycle braille posée sur une 
 
 ---
 
-## Références externes à consulter <a id="mark"></a>
+## Références externes à consulter <a id="mark14"></a>
 
 [Jeu de cartes français — Wikipédia](https://fr.wikipedia.org/wiki/Jeu\_de\_cartes\_fran%C3%A7ais)
 [Jeu de 54 cartes braille pour non-voyants - AVH](https://magasin.avh.asso.fr/p/207-jeu-de-54-cartes-braille.html)    
@@ -369,7 +369,7 @@ Si vous n\'avez pas encore trouvé le jeu de cartes en braille, et si vous dispo
 
 ---
 
-## Remerciements et conclusions finales <a id="mark"></a>
+## Remerciements et conclusions finales <a id="mark15"></a>
 
 Cet article est dédié à ma femme Norma, le grand amour de ma vie. ❤‍🔥    
 
