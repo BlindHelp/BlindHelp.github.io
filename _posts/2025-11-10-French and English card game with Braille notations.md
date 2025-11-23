@@ -56,19 +56,22 @@ Et la partie inférieure contenant la figure qui  se voit inversé peut être vu
 Vous pouvez marquer le signe de codage en braille c\'est-à-dire une chiffre ou une lettre en haut à gauche / droit (facultatif) de la carte c\'est-à-dire la partie supérieure où est la figure devant vous, et lorsque vous inverserez cette figure dans l\'autre sens (quand elle est tournée) l\'autre marquage  en braille se trouvera sur votre carte en bas du côté droit / gauche (facultatif) ; en d\'autres mots c\'est la partie inférieure où l\'adversaire peut voir les figures / toucher les notations Braille des cartes quand cette carte est devant lui.    
 Le jeu de cartes est codifié suivant un système simple qui permet, en 1 seul caractère de savoir de quelle carte il s\'agit.    
 Par exemple, voici la couleur de la carte divisé en quatre familles:    
-La lettre `P= ⠏` pour pique (noir), La lettre `C = ⠉` pour  cœur (rouge), La lettre `K = ⠅` pour  carreau (rouge), La lettre `T = ⠞` pour trèfle (noir).    
+* La lettre `P = ⠏` pour pique (noir),    
+* La lettre `C = ⠉` pour  cœur (rouge),    
+* La lettre `K = ⠅` pour  carreau (rouge),    
 Nous avons mis la lettre K pour la différencier de la lettre C de la figure cœur.    
-Voici les chiffres: `2 = ⠃`, `3 = ⠉`, `5 = ⠑`, `6= ⠋`, `7 = ⠛`, `8 = ⠓`, `9 = ⠊`    
-Les chiffres de 2 à 9 en braille (sauf pour le chiffre 4 en braille) correspondent aux cartes numérotées.    
+* La lettre `T = ⠞` pour trèfle (noir).    
+* Voici les chiffres: `2 = ⠃`, `3 = ⠉`, `5 = ⠑`, `6= ⠋`, `7 = ⠛`, `8 = ⠓`, `9 = ⠊`    
+* Les chiffres de 2 à 9 en braille (sauf pour le chiffre 4 en braille) correspondent aux cartes numérotées.    
 Remarque: Les numéros des cartes: 2 3 5 6 7 8 9    
 son remplacez par leurs équivalence des lettres de l\'alphabet Braille.    
 Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹ pour le différencier de la dame qui commence par la lettre D, c\'est-à-dire les ⠙    
-Pour indiquer le numéro dix dans toutes les cartes nous l\'avons écrit avec les ⠚ c\'est-à-dire la lettre j en alphabet Braille.    
-As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille.     
-La lettre V en braille ⠧ = valet    
-La lettre D en braille ⠙ = dame    
-La lettre R en braille ⠗ = roi    
-Les points braille pour désigner le Joker: ⠚⠕  sont serrés.    
+* Pour indiquer le numéro dix dans toutes les cartes nous l\'avons écrit avec les ⠚ c\'est-à-dire la lettre j en alphabet Braille.    
+* As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille.     
+* La lettre V en braille ⠧ = valet    
+* La lettre D en braille ⠙ = dame    
+* La lettre R en braille ⠗ = roi    
+* Les points braille pour désigner le Joker: ⠚⠕  sont serrés.    
 
 Ce marquage braille pour le jeu de cartes françaises s\'inspire de mes professeurs de Braille Alain Lebraud et Bernard Coynel de [l\'Association Valentin Hauy (AVH de l\'Isère)](https://grenoble.avh.asso.fr/)    
 lesquels je remercie pour leurs bonnes initiatives! (handshake)    
@@ -226,17 +229,17 @@ Ce jeu de cartes françaises diffère quelque peu par son marquage braille qui e
 
 Le marquage braille présenté dans le tableau ci-dessous commence plutôt par la lettre en braille indiquer en haut  de la carte indiquant   la figure.    
 
-* La lettre P en braille = pique (noir).
-* La lettre C en braille = cœur (rouge).
-* La lettre K en braille = carreau (rouge). Nous avons mis cette lettre pour la différencier de la lettre C de la figure cœur.
-* La lettre T en braille = trèfle (noir).
+* La lettre P en braille ⠏ = pique (noir).
+* La lettre C en braille ⠉ = cœur (rouge).
+* La lettre K en braille ⠅ = carreau (rouge). Nous avons mis cette lettre pour la différencier de la lettre C de la figure cœur.
+* La lettre T en braille ⠞ = trèfle (noir).
 
 Ensuite il est séparé par une ligne vide.    
 
 Ensuite il est marqué par le chiffre ou la lettre en Braille indiquer en bas de la carte indiquant  le numéro ou la figure qui correspond a la carte sauf pour l\'As ; Les cartes françaises  contiendra le chiffre 1 imprimé sur ladite carte à la place de la lettre A utilisée sur les cartes anglaises.    
 * As (n\'est pas marquez en Braille) mais la marque en Braille pour indiquer les figures est écrite en Braille.
 * Les chiffres de 2 à 9 en braille (sauf pour le chiffre 4 en braille) correspondent aux cartes numérotées.    
-Remarque: Les numéros des cartes: 2 3 5 6 7 8 9    
+Remarque: Les numéros des cartes: `2 = ⠃`, `3 = ⠉`, `5 = ⠑`, `6= ⠋`, `7 = ⠛`, `8 = ⠓`, `9 = ⠊`    
 son remplacez par leurs équivalence des lettres de l\'alphabet Braille.    
 Remarque: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écrit avec les ⠹    
 pour le différencier de la dame qui commence par la lettre d, c'est-à-dire les ⠙    
