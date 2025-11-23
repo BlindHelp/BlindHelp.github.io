@@ -53,8 +53,8 @@ La figure de la carte à jouer doit être placée face à vous.
 Nous pouvons diviser cette carte mentalement en une partie supérieure et une partie inférieure.    
 La partie supérieure est celle de la figure placée face à vous.    
 Et la partie inférieure contenant la figure qui  se voit inversé peut être vu par  votre adversaire qui est devant vous (par exemple une personne voyante).    
-Vous pouvez marquer le signe de codage en braille c\'est-à-dire une chiffre ou une lettre en haut à gauche / droite (facultatif) de la carte c\'est-à-dire la partie supérieure où est la figure devant vous, et lorsque vous inverserez cette figure dans l\'autre sens (quand il est tourné) l'autre marquage  en braille se trouvera sur votre carte en bas du côté droit / gauche (facultatif) ; en d\'autres mots c\'est la partie inférieure où l\'adversaire peut voir les figures / toucher les notations Braille des cartes à jouer quand cette carte est devant lui.    
-Le jeu de cartes est codifié suivant un système simple qui permet, en 1 seul caractère de savoir de quelle carte il s'\agit.    
+Vous pouvez marquer le signe de codage en braille c\'est-à-dire une chiffre ou une lettre en haut à gauche / droit (facultatif) de la carte c\'est-à-dire la partie supérieure où est la figure devant vous, et lorsque vous inverserez cette figure dans l\'autre sens (quand elle est tournée) l\'autre marquage  en braille se trouvera sur votre carte en bas du côté droit / gauche (facultatif) ; en d\'autres mots c\'est la partie inférieure où l\'adversaire peut voir les figures / toucher les notations Braille des cartes quand cette carte est devant lui.    
+Le jeu de cartes est codifié suivant un système simple qui permet, en 1 seul caractère de savoir de quelle carte il s\'agit.    
 Par exemple, voici la couleur de la carte divisé en quatre familles:    
 La lettre `P= ⠏` pour pique (noir), La lettre `C = ⠉` pour  cœur (rouge), La lettre `K = ⠅` pour  carreau (rouge), La lettre `T = ⠞` pour trèfle (noir).    
 Nous avons mis la lettre K pour la différencier de la lettre C de la figure cœur.    
