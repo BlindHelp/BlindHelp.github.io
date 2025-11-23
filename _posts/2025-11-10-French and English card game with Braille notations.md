@@ -71,7 +71,7 @@ Note: pour indiquer le numéro quatre dans toutes les cartes nous l\'avons écri
 * La lettre V en braille ⠧ = valet    
 * La lettre D en braille ⠙ = dame    
 * La lettre R en braille ⠗ = roi    
-* Les points braille pour désigner le Joker: ⠚⠕  sont serrés.    
+* Les points braille pour désigner le Joker avec les lettres en braille: JO : ⠚⠕ sont serrés.    
 
 Ce marquage braille pour le jeu de cartes françaises s\'inspire de mes professeurs de Braille Alain Lebraud et Bernard Coynel de [l\'Association Valentin Hauy (AVH de l\'Isère)](https://grenoble.avh.asso.fr/)    
 lesquels je remercie pour leurs bonnes initiatives! (handshake)    
