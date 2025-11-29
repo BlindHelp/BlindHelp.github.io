@@ -1,0 +1,648 @@
+<h1 id="documentation-de-ml-player">Documentation de ML-Player</h1>
+<p>Remarque par BlindHelp !</p>
+<p>Voici la documentation en traduction automatisée non officielle en
+français pour le programme ML Player</p>
+<p>Cette documentation est une reprise de la documentation officielle en
+espagnol.</p>
+<p>Avant de commencer je tiens à vous préciser que le programme ne
+contient pas la langue en français, cependant pour les gens comme moi
+qui parlent espagnol la langue en espagnole est proposée lors de son
+installation, il y a aussi les langues: anglais, portugais (Brésil et
+Portugal).</p>
+<p>Je voulez vous dire aussi que la documentation (F1) se trouvant dans
+le menu Aide (Menú de Ayuda)n’existe qu’en espagnol.</p>
+<p>Si vous le souhaitez, vous pouvez également consulter le lien
+ci-dessous que vous mènera à la page officielle du programme ML Player
+en espagnol.<br />
+<a href="https://marco-ml.com/ml-player/"><span lang="es">ML Player -
+Página Oficial</span></a></p>
+<p>Développeur du programme ML Player: <span lang="es">Marco António
+Molina Leija</span></p>
+<p>Et pour conclure avec cette partie intéductive vous pouvez consulter
+le post dédié à ce lecteur fait par mes soins.<br />
+<a href="https://blindhelp.github.io/ML-Player/">ML-Player, Un lecteur
+100% accessible, basé sur VLC et doté de super fonctionnalités</a><br />
+Publié le Lundi 27 Octobre 2025<br />
+Source:<br />
+<a href="https://blindhelp.github.io/">BlindHelp.github.io</a><br />
+ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET)</p>
+<p>Avertissement: 💀<br />
+Le blog de BlindHelp n’est pas responsable des dommages causés par une
+mauvaise utilisation de ML-Player téléchargé ni des informations ce
+trouvant sur la documentation dédié et l’utilisation de ML-Player
+téléchargé est à vos risques et périls. ☠</p>
+<p>POUR VOTRE INFORMATION</p>
+<p>Le contenu de cette documentation a été traduit de l’esppagnol vers
+le français par <a href="https://translate.google.fr/">Google
+Traduction</a></p>
+<p>J’ai laissé certains termes utilisés dans le programme en espagnol
+comme les noms des menus et mis leur signification en français entre
+parenthèses.</p>
+<p>Donc, trêve au bavardage, voici le début de ladite documentation en
+traduction automatisée non officielle en français de ML-Player fait par
+mes soins, sur ce je vous souhaite une bonne lecture.</p>
+<hr />
+<p>Un lecteur multimédia accessible et puissant, propulsé par VLC.</p>
+<h2 id="sommaire">Sommaire <a id="Sommaire"></a></h2>
+<ul>
+<li><a href="#funciones">Fonctionnalités de base</a></li>
+<li><a href="#otras-funciones">Autres fonctionnalités</a></li>
+<li><a href="#plugins">Plugins</a></li>
+<li><a href="#uso">Comment l’utiliser ?</a></li>
+<li><a href="#reproduciendo-url">Lecture à partir d’une URL</a></li>
+<li><a href="#atajos">Raccourcis clavier</a></li>
+<li><a href="#formatos">Formats pris en charge</a></li>
+<li><a href="#futuro">L’avenir de ML-Player</a></li>
+<li><a href="#cambios">Modifications récentes</a></li>
+<li><a href="#donaciones">Dons</a></li>
+</ul>
+<hr />
+<p>Ce lecteur est propulsé par <a
+href="https://www.videolan.org/vlc/index.fr.html">VLC media player</a>,
+en utilisant Python en tant que langage et la bibliothèque
+<code>python-vlc</code>. L’interface graphique il est conçu avec
+wxPython pour garantir une plus grande accessibilité.</p>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="fonctionnalités-de-base">Fonctionnalités de base
+<a id="funciones"></a></h2>
+<p>L’application possède les fonctions essentielles de tout lecteur
+multimédia:</p>
+<ul>
+<li>Mettre en pause/Reprendre la lecture</li>
+<li>Arrêter</li>
+<li>Contrôle du volume</li>
+<li>Avancer/Reculer</li>
+<li>Média Précédent /Suivant</li>
+<li>Couper/Remettre le son</li>
+</ul>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="autres-fonctionnalités">Autres fonctionnalités
+<a id="otras-funciones"></a></h2>
+<ul>
+<li>Contrôle de la vitesse de lecture (Augmenter, Diminuer, Revenir à la
+vitesse normale ).</li>
+<li>Aller à un temps spécifié (format hh:mm:ss).</li>
+<li>Mode Aléatoire et mode Répéter.</li>
+<li>Prise en charge des listes de lecture générées lors du
+téléchargement d’un dossier.</li>
+<li>Télécharger des vidéos depuis YouTube.</li>
+</ul>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="plugins-capacités-étendues">Plugins: Capacités étendues
+<a id="plugins"></a></h2>
+<p>Depuis la version 3.6, ML-Player intègre un système de plugins
+permettant à la communauté des développeurs d’étendre et d’ajouter de
+nouveaux fonctionnalités au lecteur. Vous pouvez installer les
+fonctionnalités créées par d’autres pour personnaliser votre
+expérience.</p>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="comment-lutiliser">Comment l’utiliser ? <a id="uso"></a></h2>
+<p>Le lecteur est principalement contrôlé via sa barre de menu,
+accessible avec la touche <kbd>Alt</kbd>. Les menus disponibles sont
+détaillés ci-dessous.</p>
+<h3 id="menú-archivo-menu-fichier"><span lang="es">Menú Archivo</span>
+(Menu Fichier)</h3>
+<p>Contient des actions pour charger du contenu multimédia:</p>
+<ul>
+<li><span lang="es">Cargar archivo, carpeta o lista
+M3U/M3U8</span><br />
+(Charger le fichier, Charger le dossier, Charger la liste M3U).<br />
+</li>
+<li><span lang="es">Cargar pista de subtítulos</span><br />
+(Charger les sous-titres): Vous permet de sélectionner un fichier de
+sous-titres (par exemple <code>.srt</code>) depuis votre ordinateur pour
+une vidéo en cours de lecture.<br />
+</li>
+<li><span lang="es">Reproducir desde una URL o un enlace de
+YouTube</span><br />
+(Lire à partir de l’URL ou Lire depuis YouTube).<br />
+</li>
+<li><span lang="es">Salir de la aplicación</span><br />
+Sortir).</li>
+</ul>
+<h3 id="menú-reproducción-menu-lecture"><span lang="es">Menú
+Reproducción</span> (Menu Lecture)</h3>
+<p>Options pour contrôler la lecture en cours:</p>
+<ul>
+<li>Contrôles de base (<span lang="es">Reproducir/Pausar, Detener,
+Anterior, Siguiente</span>)<br />
+(Lire/Pause, Arrêter, Précédent, Suivant).<br />
+</li>
+<li><span lang="es">Modos Aleatorio y Repetir</span><br />
+(Mode Aléatoire et Répéter).<br />
+</li>
+<li><span lang="es">Temporizador de apagado para programar el cierre de
+la aplicación</span><br />
+(Minuterie de mise en veille pour programmer la fermeture de
+l’application).</li>
+</ul>
+<h3 id="menú-audio-menu-audio"><span lang="es">Menú Audio</span> (Menu
+Audio)</h3>
+<ul>
+<li><span lang="es">Seleccionar pista de audio (para archivos con
+múltiples idiomas)</span><br />
+(Sélectionnez la piste audio pour les fichiers avec plusieurs
+langues).<br />
+</li>
+<li><span lang="es">Seleccionar dispositivo de salida de
+audio</span><br />
+(Sélectionnez le périphérique de sortie).<br />
+</li>
+<li><span lang="es">Ecualizador de audio de 5 bandas</span><br />
+(Égaliseur).<br />
+</li>
+<li><span lang="es">Seleccionar pista de subtítulos: Si el video que
+estás viendo ya incluye subtítulos integrados, esta opción te permite
+elegir cuál mostrar.</span><br />
+(Sélectionnez la piste de sous-titres: Si la vidéo que vous regardez
+déjà inclut des sous-titres intégrés, cette option vous permet de
+choisir lequel montrer).<br />
+<span lang="es"><strong>Diferencia clave:</strong> <em>Cargar
+subtítulos</em> es para añadir un archivo externo desde tu PC, mientras
+que <em>Seleccionar subtítulos</em> es para cambiar entre los que ya
+vienen dentro del propio video.</span><br />
+<strong>Différence clé:</strong> <em>Charger les sous-titres</em> est
+pour ajouter un fichier externe depuis votre PC, tandis que
+<em>Sélectionnez la piste de sous-titres</em> est pour changement entre
+ceux qui figurent déjà dans la vidéo elle-même.</li>
+</ul>
+<h3 id="menú-playlists-menu-playlists"><span lang="es">Menú
+Playlists</span> (Menu Playlists)</h3>
+<p>Gestiona tus listas de reproducción:</p>
+<ul>
+<li>Seleccionar, mostrar, crear, renombrar o eliminar listas.</li>
+<li>Añadir o eliminar archivos de una lista existente.</li>
+</ul>
+<p>Gérer la playlist:</p>
+<ul>
+<li>Sélectionner, afficher, créer, renommer ou supprimer des
+listes.</li>
+<li>Ajouter ou supprimer des fichiers d’une liste existante.</li>
+</ul>
+<h3 id="menú-audiocinemateca"><span lang="es">Menú <a
+href="https://audiocinemateca.com">Audiocinemateca</a></h3>
+<p>Accede al catálogo de <a
+href="https://audiocinemateca.com">Audiocinemateca</a></p>
+<p>Ce menu appelé Audiocinemateca<br />
+contient un catalogue à explorer.</p>
+<p>J’ai laissé cette partie en espagnol.</p>
+<ul>
+<li><span lang="es"><strong>Explorar Catálogo:</strong> Navega por
+series y películas, con opciones de búsqueda y filtrado.</span></li>
+<li><span lang="es"><strong>Mis Favoritos:</strong> Gestiona y reproduce
+tus contenidos guardados de <a
+href="https://audiocinemateca.com">Audiocinemateca</a></li>
+<li><span lang="es"><strong>Cerrar Sesión:</strong> Desconecta tu cuenta
+de Audiocinemateca.</span></li>
+</ul>
+<h3 id="menú-librivox-menu-librivox"><span lang="es">Menú
+LibriVox</span> (Menu LibriVox)</h3>
+<p>Ce menu appelé LibriVox<br />
+contient un catalogue à explorer.</p>
+<p>J’ai laissé cette partie en espagnol.</p>
+<p>Explora y gestiona audiolibros de dominio público:</p>
+<ul>
+<li><span lang="es"><strong>Explorar Catálogo:</strong> Busca
+audiolibros por título o género.</li>
+<li><span lang="es"><strong>Explorar por Género:</strong> Navega por los
+audiolibros organizados por categorías temáticas.</li>
+<li><span lang="es"><strong>Últimos Lanzamientos:</strong> Descubre los
+audiolibros más recientes.</li>
+</ul>
+<h3 id="menú-herramientas-menu-outils"><span lang="es">Menú
+Herramientas</span> (Menu Outils)</h3>
+<ul>
+<li><span lang="es"><strong>Marcadores:</strong> Añade y gestiona
+marcadores en tus archivos de audio/video.</span><br />
+<strong>Marqueurs:</strong> Ajoutez et gérez les favoris dans vos
+fichiers audio/vidéo.<br />
+</li>
+<li><span lang="es"><strong>Historial:</strong> Revisa y reproduce
+elementos de tu historial.</span><br />
+<strong>Historique:</strong> Consultez et lisez les éléments de votre
+historique.<br />
+</li>
+<li><span lang="es"><strong>Copias de seguridad:</strong> Importa o
+exporta la configuración de la aplicación.</span><br />
+<strong>Sauvegardes:</strong> Importer ou exporter la configuration de
+l’application.</li>
+<li><span lang="es"><strong>Búsqueda de Contenido:</strong> Busca y
+reproduce videos directamente desde YouTube.</span>
+<strong>Recherche:</strong> Recherchez et lisez des vidéos directement
+depuis YouTube</li>
+<li><span lang="es"><strong>Preferencias:</strong> Configura el
+comportamiento del reproductor.</span> <strong>Préférences:</strong>
+Configurer le comportement du lecteur.</li>
+</ul>
+<h3 id="menú-contenido-para-adultos-menu-de-contenu-pour-adultes"><span
+lang="es">Menú Contenido para Adultos</span> (Menu de contenu pour
+adultes)</h3>
+<p><span lang="es">Este menú agrupa las opciones de búsqueda de
+contenido para adultos (XNXX, Xvideos, Pornhub).</span></p>
+<p>Ce menu regroupe les options de recherche de contenu pour adulte
+(XNXX, Xvideos, Pornhub).</p>
+<p>J’ai laissé cette partie en espagnol.</p>
+<p><span lang="es"><strong>Nota Importante:</strong> Este menú está
+<strong>oculto por defecto</strong>. Para mostrarlo u ocultarlo, ve a
+<code>Menú -&gt; Herramientas -&gt; Preferencias</code> y en la pestaña
+<code>General</code>, marca o desmarca la opción
+<code>Mostrar contenido para adultos (+18)</code>.</span></p>
+<h3 id="menú-actualización-menu-mise-à-jour"><span lang="es">Menú
+Actualización</span> (Menu Mise à jour)</h3>
+<ul>
+<li><span lang="es">Permite buscar y actualizar la herramienta
+<code>yt-dlp</code> a su última versión.</span><br />
+</li>
+<li><span lang="es">Permite buscar actualizaciones para el
+reproductor.</span></li>
+</ul>
+<p>Dans ce menu nous retrouverons deux éléments:</p>
+<ul>
+<li><span lang="es">Actualizar <code>yt-dlp</code></span><br />
+(Mise à jour <code>yt-dlp</code>)<br />
+Vous permet de rechercher et de mettre à jour l’outil
+<code>yt-dlp</code> à sa dernière version.</li>
+<li><span lang="es">Buscar actualizaciones del reproductor</span><br />
+(Rechercher des mises à jour du lecteur)<br />
+Vous permet de vérifier les mises à jour du lecteur.</li>
+</ul>
+<h3 id="menú-plugins-menu-plugins"><span lang="es">Menú Plugins</span>
+(Menu Plugins)</h3>
+<p><span lang="es">Gestiona tus plugins:</span></p>
+<ul>
+<li><span lang="es">Ver, habilitar o deshabilitar plugins
+instalados.</li>
+<li><span lang="es">Instalar un nuevo plugin desde un archivo
+<code>.ml-plugin</code>.</span></li>
+<li><span lang="es">Eliminar plugins que ya no necesites.</span></li>
+</ul>
+<p>Dans le Menu Plugins, vous aurez l’élément appelé:<br />
+<span lang="es">Ver plugins</span><br />
+(Voir plugins)</p>
+<p>Gérez vos plugins</p>
+<ul>
+<li>Afficher, activer ou désactiver les plugins installés.</li>
+<li>Installer un nouveau plugin à partir d’un fichier
+<code>.ml-plugin</code>.</li>
+<li>Supprimez les plugins dont vous n’avez plus besoin.</li>
+</ul>
+<h3 id="menú-ayuda-menu-aide"><span lang="es">Menú Ayuda</span> (Menu
+Aide)</h3>
+<ul>
+<li>Accès à la documentation en espagnol en cliquant sur l’élément
+intitulé: <span lang="es">Documentación</span></li>
+<li>Informations sur l’application en espagnol en cliquant sur l’élément
+intitulé: <span lang="es">Acerca de</span></li>
+</ul>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="lecture-à-partir-dune-url">Lecture à partir d’une URL
+<a id="reproduciendo-url"></a></h2>
+<p>Vous trouverez ci-dessous les explications en espagnol de l’auteur
+sur la lecture à partir d’une URL suivi de ma traduction.</p>
+<p><span lang="es">Reproduciendo desde URL</span></p>
+<p><span lang="es">Al intentar reproducir desde una URL, el programa te
+preguntará si requiere autenticación. Si respondes "Sí", te pedirá la
+URL, el usuario y la contraseña. Si respondes "No", solo solicitará el
+enlace al archivo multimedia.</span></p>
+<p><span lang="fr">Lorsque vous essayez de lire à partir d’une URL, le
+programme vous demandera si nécessite une authentification. Si vous
+répondez "Oui", il vous demandera l’URL, le nom d’utilisateur et mot de
+passe. Si vous répondez « Non », il vous demandera uniquement le lien du
+fichier multimédia.</span></p>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="raccourcis-clavier">Raccourcis clavier <a id="atajos"></a></h2>
+<p>Vous trouverez ci-dessous les explications en espagnol de l’auteur
+sur les raccourcis clavier suivi de ma traduction.</p>
+<p><span lang="es">Atajos de teclado</span></p>
+<p><span lang="es"><strong>Nota Importante:</strong> A partir de la
+versión 3.6, la mayoría de estos atajos son personalizables en
+<code>Menú -&gt; Herramientas -&gt; Preferencias -&gt; Atajos de teclado</code>.
+Además, puedes activar la "Ayuda de entrada" con <kbd>Ctrl+Shift+M</kbd>
+para que el reproductor anuncie la acción de cada atajo en lugar de
+ejecutarla.</span></p>
+<p><span lang="fr"><strong>Remarque importante :</strong> À partir de la
+version 3.6, la plupart de ces raccourcis sont personnalisables dans
+<span
+lang="es"><code>Menú -&gt; Herramientas -&gt; Preferencias -&gt; Atajos de teclado</code>.</span>
+De plus, vous pouvez activer "Aide à la saisie" avec
+<kbd>Ctrl+Shift+M</kbd> pour que le lecteur annonce l’action de chaque
+raccourci au lieu de l’exécuter.</span></p>
+<h3
+id="controles-básicos-de-reproducción-contrôles-de-base-de-lecture">1.
+<span lang="es">Controles básicos de reproducción</span> (Contrôles de
+base de lecture)</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span lang="es">Atajo</span></th>
+<th><span lang="es">Acción</span></th>
+<th><span lang="fr">Remarks</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span lang="es"><kbd>Espacio</kbd></span></td>
+<td><span lang="es">Pausa / Reanuda</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>Espace</kbd>
+pour mettre en pause/Reprendre la lecture.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>S</kbd></span></td>
+<td><span lang="es">Detiene la reproducción</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>S</kbd> pour
+arrêter la lecture.</span></td>
+</tr>
+<tr class="odd">
+<td><span lang="es"><kbd>P</kbd></span></td>
+<td><span lang="es">Pista anterior</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>P</kbd> pour
+aller à la piste précédente.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>N</kbd></span></td>
+<td><span lang="es">Pista siguiente</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>N</kbd> pour
+aller à la piste suivante.</span></td>
+</tr>
+<tr class="odd">
+<td><span lang="es"><kbd>R</kbd></span></td>
+<td><span lang="es">Modo repetir</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>R</kbd> pour
+activer le Mode Répéter.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>Ctrl+R</kbd></span></td>
+<td><span lang="es">Modo aleatorio</span></td>
+<td><span lang="fr">Vous pouvez utiliser les touches <kbd>Ctrl+R</kbd>
+pour activer le Mode Aléatoire.</span></td>
+</tr>
+</tbody>
+</table>
+<h3
+id="control-de-tiempo-y-navegación-contrôle-du-temps-et-navigation">2.
+<span lang="es">Control de tiempo y navegación</span> (Contrôle du temps
+et navigation)</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span lang="es">Atajo</span></th>
+<th><span lang="es">Acción</span></th>
+<th><span lang="fr">Remarks</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span lang="es"><kbd>Flecha Derecha</kbd></span></td>
+<td><span lang="es">Adelanta</span></td>
+<td><span lang="fr">Vous pouvez utiliser la <kbd>Flèche Droite</kbd>
+pour avancer.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>Flecha Izquierda</kbd></span></td>
+<td><span lang="es">Retrocede</span></td>
+<td><span lang="fr">Vous pouvez utiliser la <kbd>Flèche Gauche</kbd>
+pour reculer.</span></td>
+</tr>
+<tr class="odd">
+<td><span lang="es"><kbd>G</kbd></span></td>
+<td><span lang="es">Ir a un tiempo específico</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>G</kbd> pour
+aller à un temps spécifié.</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="control-de-audio-contrôle-audio">3. <span lang="es">Control de
+audio</span> (Contrôle audio)</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span lang="es">Atajo</span></th>
+<th><span lang="es">Acción</span></th>
+<th><span lang="fr">Remarks</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span lang="es"><kbd>Flecha Arriba</kbd></span></td>
+<td><span lang="es">Sube volumen</span></td>
+<td><span lang="fr">Vous pouvez utiliser la <kbd>Flèche Haute</kbd> pour
+augmenter le volume.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>Flecha Abajo</kbd></span></td>
+<td><span lang="es">Baja volumen</span></td>
+<td><span lang="fr">Vous pouvez utiliser la <kbd>Flèche Basse</kbd> pour
+diminuer le volume.</span></td>
+</tr>
+<tr class="odd">
+<td><span lang="es"><kbd>M</kbd></span></td>
+<td><span lang="es">Silenciar</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>M</kbd> pour
+couper/remettre le son.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>Z</kbd></span></td>
+<td><span lang="es">Normaliza la velocidad</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>Z</kbd> pour
+revenir à la vitesse normale.</span></td>
+</tr>
+<tr class="odd">
+<td><span lang="es"><kbd>X</kbd></span></td>
+<td><span lang="es">Disminuye la velocidad</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>X</kbd> pour
+diminuer la vitesse.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>C</kbd></span></td>
+<td><span lang="es">Aumenta la velocidad</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>C</kbd> pour
+augmenter la vitesse.</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="información-y-verbalizaciones-informations-et-verbalisations">4.
+<span lang="es">Información y verbalizaciones</span> (Informations et
+verbalisations)</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span lang="es">Atajo</span></th>
+<th><span lang="es">Acción</span></th>
+<th><span lang="fr">Remarks</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span lang="es"><kbd>V</kbd></span></td>
+<td><span lang="es">Verbaliza volumen</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>V</kbd> pour
+verbaliser le volume.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>Shift+V</kbd></span></td>
+<td><span lang="es">Verbaliza velocidad</span></td>
+<td><span lang="fr">Vous pouvez utiliser les touches <kbd>Shift+V</kbd>
+pour verbaliser la vitesse.</span></td>
+</tr>
+<tr class="odd">
+<td><span lang="es"><kbd>T</kbd></span></td>
+<td><span lang="es">Verbaliza tiempo</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>T</kbd> pour
+verbaliser le temps.</span></td>
+</tr>
+<tr class="even">
+<td><span lang="es"><kbd>Ctrl+T</kbd></span></td>
+<td><span lang="es">Verbaliza título</span></td>
+<td><span lang="fr">Vous pouvez utiliser les touches <kbd>Ctrl+T</kbd>
+pour verbaliser le titre.</span></td>
+</tr>
+<tr class="odd">
+<td><span lang="es"><kbd>L</kbd></span></td>
+<td><span lang="es">Muestra lista de reproducción</span></td>
+<td><span lang="fr">Vous pouvez utiliser la touche <kbd>L</kbd> pour
+afficher la liste de lecture.</span></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="formats-pris-en-charge">Formats pris en charge
+<a id="formatos"></a></h2>
+<p>Vous trouverez ci-dessous les explications en espagnol de l’auteur
+sur les formats pris en charge suivi de ma traduction.</p>
+<p><span lang="es">Formatos soportados</span></p>
+<p><span lang="es">ML-Player es compatible con una amplia variedad de
+formatos de audio y video, incluyendo:</span></p>
+<ul>
+<li><span lang="es">MP3</span></li>
+<li><span lang="es">MP4</span></li>
+<li><span lang="es">M4A</span></li>
+<li><span lang="es">WAV</span></li>
+<li><span lang="es">MKV</span></li>
+<li><span lang="es">Opus</span></li>
+<li><span lang="es">OGG</span></li>
+<li><span lang="es">FLAC</span></li>
+<li><span lang="es">AVI</span></li>
+</ul>
+<p>ML-Player prend en charge une grande variété de formats audio et
+vidéo, comprenant :</p>
+<ul>
+<li>MP3</li>
+<li>MP4</li>
+<li>M4A</li>
+<li>WAV</li>
+<li>MKV</li>
+<li>Opus</li>
+<li>OGG</li>
+<li>FLAC</li>
+<li>AVI</li>
+</ul>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="lavenir-de-ml-player">L’avenir de ML-Player
+<a id="futuro"></a></h2>
+<p>Vous trouverez ci-dessous les explications en espagnol de l’auteur
+sur l’avenir de ML-Player suivi de ma traduction.</p>
+<p><span lang="es">El futuro de ML-Player</span></p>
+<p><span lang="es">Una nota sobre el futuro de ML-Player</span></p>
+<p><span lang="es">Con el lanzamiento de la versión 3.6, el ciclo de
+desarrollo activo y las actualizaciones frecuentes de ML-Player entrarán
+en una pausa. Esto no significa que sea la versión final, pero el
+desarrollo de nuevas funcionalidades se ralentizará durante un tiempo.
+Agradecemos a todos los usuarios por su apoyo y sus
+sugerencias.</span></p>
+<p>Une note sur l’avenir de ML-Player</p>
+<p>Avec la sortie de la version 3.6, le cycle de développement actif et
+Les mises à jour fréquentes de ML-Player seront interrompues. Ceci ne
+signifie pas qu’il s’agit de la version finale, mais du développement de
+nouveaux la fonctionnalité ralentira pendant un certain temps. Nous
+remercions tout le monde utilisateurs pour leur soutien et leurs
+suggestions.</p>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="modifications-récente">Modifications récente
+<a id="cambios"></a></h2>
+<p>Cette partie sur les récentes modifications apportées au programme
+par les auteurs n’a pas été traduite en français car elle serait trop
+longue, cependant je vous invite à la consulter dans la langue originale
+en espagnol en cliquant sur l’élément intitulé:<br />
+<span lang="es">Documentación</span> ➔ <span lang="es">Menú Ayuda</span>
+(Menu Aide)</p>
+<p>Une fois cette documentation ouverte, vous devrez rechercher le titre
+niveau 2 appelé en espagnol :</p>
+<p><span lang="es">Cambios recientes</span></p>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<h2 id="dons">Dons <a id="donaciones"></a></h2>
+<p>Vous trouverez ci-dessous quelques mots sur la façon de faire un don
+puis quelques informations utiles données par l’auteur suivi de ma
+traduction.</p>
+<p><span lang="es">Donaciones</span></p>
+<p><span lang="es">Si deseas apoyar la mejora constante de este y otros
+proyectos, te invito a considerar una donación.</span></p>
+<p><span lang="fr">Dons</span></p>
+<p><span lang="fr">Si vous souhaitez soutenir l’amélioration constante
+de ce projet et d’autres, je vous invite à envisager un don.</span></p>
+<p>Vous pouvez le faire en allant sur la documentation en espagnol comme
+expliqué ci-dessus :</p>
+<p><span lang="es">Documentación</span> ➔ <span lang="es">Menú
+Ayuda</span> (Menu Aide)</p>
+<p>Une fois cette documentation ouverte, vous devrez rechercher le titre
+niveau 2 appelé en espagnol :</p>
+<p><span lang="es">Donaciones</span></p>
+<p>Et ci-dessous vous trouverez le bouton appelé en espagnol:<br />
+<span lang="es">Donar con el botón de PayPal</span></p>
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<p>Il est évident que les informations ci-dessous sont faciles à
+comprendre et que celle-ci n’a pas besoin d’être traduite.</p>
+<hr />
+<p><span lang="es">Aplicación desarrollada por Marco Antonio Molina
+Leija.</span></p>
+<p><span lang="es">Visita mi sitio web: <a
+href="https://marco-ml.com">Marco-ML.com</a></span></p>
+<p><span lang="es"><a
+href="https://www.linkedin.com/in/marcomolinaleija/">LinkedIn</a></span></p>
+<p><span lang="es"><a
+href="https://github.com/marcomolinaleija">GitHub</a></span></p>
+<p><span lang="es"><a href="https://x.com/marco_mlj">X
+(Twitter)</a></span></p>
+<p><span lang="es"><a
+href="mailto:contacto@marco-ml.com">Correo</a></span></p>
+<hr />
+<p><span lang="es">Muchas gracias por descargar y probar este
+reproductor.</span></p>
+<hr />
+<p><a href="#Sommaire">Retour au sommaire</a></p>
+<hr />
+<p>Nous espérons vous revoir bientôt sur le<br />
+<a href="http://blindhelp.blogspot.fr/">Blog de BlindHelp!</a><br />
+ou sur votre nouvel espace via GitHub:<br />
+<a href="https://blindhelp.github.io">BlindHelp.github.io</a></p>
+<hr />
