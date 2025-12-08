@@ -301,10 +301,12 @@ Placez le curseur au début du lien et menu contextuel pour cliquer sur "Enregis
 
 ---
 
+## Images du jeu de dominos en bois pour nous les miro
+
 Description de l\'image | Parfois, une image vaut 1000 mots
 --- | ---
-Cette image montre le jeu de dominos où les pièces sont rangées dans une boîte de haute qualité, avec couvercle glissant. | ![IMG_domino1.jpeg](https://blindhelp.github.io/IMG_domino1.jpeg)
-Cette image montre un jeu de dominos posées sur une nappe crochetée blanche au milieu d\'une partie de dominos. | ![IMG_domino2.jpeg](https://blindhelp.github.io/IMG_domino2.jpeg)
+Cette image montre le jeu de dominos en bois où les pièces sont rangées dans une boîte de haute qualité, avec couvercle glissant. | ![IMG_domino1.jpeg](https://blindhelp.github.io/IMG_domino1.jpeg)
+Cette image montre un jeu de dominos en bois posées sur une nappe crochetée blanche au milieu d\'une partie de dominos. | ![IMG_domino2.jpeg](https://blindhelp.github.io/IMG_domino2.jpeg)
 Cette image montre un ensemble de dominos en bois posés côte à côte sur une nappe crochetée blanche. Chaque domino a des points noirs en relief sur sa surface, représentant différentes valeurs, et le tout est placé sur une table en bois. | ![IMG_domino3.jpeg](https://blindhelp.github.io/IMG_domino3.jpeg)
 
 ---
