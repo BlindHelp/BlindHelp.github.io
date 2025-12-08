@@ -404,8 +404,8 @@ J\'espère que vous apprécierez ce jeu de 54 cartes classiques maintenant avec 
 Voilà c\'est fini, 🔐    
  
 À la prochaine sur un autre post!    
-@+
-BlindHelp!  🇫🇷
+@+    
+BlindHelp! 🇫🇷    
 
 [Retour au sommaire](#Sommaire)
 
