@@ -28,7 +28,7 @@ Mario Loreti, un programmeur italien aveugle, nous propose un client Telegram ac
     *   `M`, `A`, `P`: Mettre en sommeil  (Mute), Archive, ou Épingler les discussions directement depuis la liste.
     *   Interaction avec les bots et les boutons en ligne.
 *   **Portable**: Aucune installation requise. S\'exécute directement à partir du dossier.
-*   **Multilingue**: .
+*   **Multilingue**: Entièrement localisé en anglais, italien et espagnol.
 
 ## 📥 Installation
 
