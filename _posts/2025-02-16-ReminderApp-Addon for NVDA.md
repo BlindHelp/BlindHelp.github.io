@@ -41,12 +41,20 @@ Télécharger la dernière version stable en cliquant [ici][1]
 
 [1]: https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.4.nvda-addon
 
+Version: 2.4    
+Copyright (c) 2024 - 2026 par Adriano Barbieri.    
+Dernière modification: Mercredi 17 Septembre 2025    
+
 Salutations    
 Adriano    
 
 Remarque: Ici, vous pouvez télécharger la dernière version portable exécutable pour Windows qui a donné naissance   à l'extension:    
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.6.zip>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.8.zip>
+
+Version: 2.8    
+Copyright (c) 2024 - 2026 par Adriano Barbieri    
+dernière_modification: Dimanche 18 Janvier 2026    
 
 Note par blindhelp 🇫🇷    
 Si vous souhaitez en savoir plus sur cette application, vous pouvez cliquer sur le lien ci-dessous Pour ouvrir le post dédié à cette application.    

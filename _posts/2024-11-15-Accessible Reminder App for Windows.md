@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Dimanche 27 Juillet 2025</footer>
+<footer> Publié le Vendredi 15 Novembre 2024 - Dernière mise à jour le Dimanche 18 Janvier 2026</footer>
 
 
 # ReminderApp (Application de Rappel) par Adriano Barbieri 🇮🇹 :
@@ -29,7 +29,11 @@ Merci de votre attention et bonne journée.
 
 La mise à jour est automatique Si vous avez téléchargé l'application portable  pour Windows à partir du dépôt sur GitHub, cependant voici le lien pour la dernière version en date :
 
-<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.6.zip>
+<https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp/main/ReminderApp-2.8.zip>
+
+Version: 2.8    
+Copyright (c) 2024 - 2026 par Adriano Barbieri    
+dernière_modification: Dimanche 18 Janvier 2026    
 
 # Antivirus Microsoft Defender, restaurer le fichier en quarantaine Par Adriano Barbieri 🇮🇹
 
