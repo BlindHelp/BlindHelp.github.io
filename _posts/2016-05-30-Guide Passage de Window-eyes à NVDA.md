@@ -9,7 +9,7 @@ author: BlindHelp
 
 ### Guide Passage de Window-eyes à NVDA
 Traduit en Français Par Rémy Ruíz(BlindHelp). Si vous le souhaitez, vous pouvez consulter la version originale en anglais                
-[Switching from Window Eyes to NVDA.](https://github.com/nvaccess/nvda-community/wiki/Switching-from-Window-Eyes-to-NVDA)        
+[Switching from Window Eyes to NVDA.](https://github.com/nvaccess/nvda/wiki/Switching-from-Window-Eyes-to-NVDA)        
 
 # Note de traduction :
 

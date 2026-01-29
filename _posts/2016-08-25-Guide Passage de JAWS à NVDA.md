@@ -9,7 +9,7 @@ author: BlindHelp
 
 ### Passage de  JAWS à NVDA ###
 Traduit en Français Par Rémy Ruíz(BlindHelp). Si vous le souhaitez, vous pouvez consulter la version originale en anglais
-[Switching From JAWS To NVDA.](http://community.nvda-project.org/wiki/SwitchingFromJawsToNVDA#SwitchingFromJAWSToNVDA)
+[Switching From JAWS To NVDA.](https://github.com/nvaccess/nvda/wiki/SwitchingFromJawsToNVDA)
 
 # Passage de  JAWS à NVDA #
 
