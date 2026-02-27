@@ -1,6 +1,6 @@
 ---
-title: Nouvelles mises à jour de les extensions de Paulber à installer d'urgence
-permalink: "/nouvelles-maj-de-les-extensions- de- Paulber/"
+title: Nouvelles Mises à jour de les extensions de Paulber à installer d'urgence
+permalink: "/nouvelles-maj-de-les-extensions-de-paulber/"
 layout: post
 author: BlindHelp
 ---
@@ -22,7 +22,7 @@ BlindHelp!
 > Certains d'entre vous l'ont peut- être remarqué, mes extensions ne peuvent plus rechercher les mises à jour.    
 > En fait, le site qu'utilisait mes extensions pour vérifier les nouvelles mises à jour a fermé,.    
 > J'ai donc  du toutes les modifier pour résoudre le problème.    
-> L'inconvénient est qu'il faut les télécharger et les installer manuellement.Ensuite le fonctionnement habituel reprendra.    
+> L'inconvénient est qu'il faut les télécharger et les installer manuellement. Ensuite le fonctionnement habituel reprendra.    
 >    
 > Voici les liens :    
 > [apprentiClavierAccessEnhancement-1.13.4.nvda-addon](https://github.com/paulber007/AllMyNVDAAddons/raw/master/apprentiClavierAccessEnhancement/apprentiClavierAccessEnhancement-1.13.4.nvda-addon)    
