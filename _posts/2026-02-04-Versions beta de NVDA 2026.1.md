@@ -20,7 +20,7 @@ Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière
 
 ### Remarques importantes:
 
-* Cette version rompt la compatibilité avec les extensions créés pour NVDA 2025.3.2 et versions antérieures.
+* Cette version rompt la compatibilité avec les extensions créés pour NVDA 2025.3.3 et versions antérieures.
 * Windows 8.1 n'est plus pris en charge. Windows 10 est la version minimale de Windows prise en charge. Nous vous recommandons de mettre à jour vers Windows 11, ou lorsque cela n'est pas possible, vers la dernière version de Windows 10 (22H2).
 * Windows 32 bits n'est plus pris en charge. Windows 10 sur ARM n'est également plus pris en charge.
 * Wiris MathPlayer n'est plus pris en charge.
