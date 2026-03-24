@@ -6,13 +6,13 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mercredi 4 Février 2026 - Dernière mise à jour le Mercredi 18 Mars 2026</footer>
+<footer>Publié le Mercredi 4 Février 2026 - Dernière mise à jour le Lundi 23 Mars 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Quentin Christensen (NV Access), donc la voici :    
-NV Access vient de publier la béta 7 de NVDA 2026.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2026-1beta7) le Mercredi 18.03.2026.    
+NV Access vient de publier la béta 8 de NVDA 2026.1 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2026-1beta8) le Lundi 23.03.2026.    
 
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette septième béta et à faire part de ses commentaires.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette huitième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
@@ -24,6 +24,12 @@ Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière
 * Windows 8.1 n'est plus pris en charge. Windows 10 est la version minimale de Windows prise en charge. Nous vous recommandons de mettre à jour vers Windows 11, ou lorsque cela n'est pas possible, vers la dernière version de Windows 10 (22H2).
 * Windows 32 bits n'est plus pris en charge. Windows 10 sur ARM n'est également plus pris en charge.
 * Wiris MathPlayer n'est plus pris en charge.
+
+#### Changements introduits dans la béta 8:
+
+Les changements introduits dans cette huitième version béta sont consultables  à partir du lien du post (en anglais) ci-dessous publié par [NV Access](https://www.nvaccess.org/) le Lundi 23 Mars 2026 à 15h14. Merci.
+
+[<span lang="en">NVDA 2026.1beta8 available for testing</span>](https://www.nvaccess.org/post/nvda-2026-1beta8/)
 
 #### Changements introduits dans la béta 7:
 
@@ -69,12 +75,12 @@ Les changements introduits dans cette première version béta sont consultables 
 
 ### Liens utiles de NV Access
 
-- [NVDA 2026.1beta7 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2026.1beta7/nvda_2026.1beta7.exe)
-   - SHA256 sum: 2c7a1114311bb93f80778c440fdbf35d37824c59070cac594f2d529d16bbb78b
+- [NVDA 2026.1beta8 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2026.1beta8/nvda_2026.1beta8.exe)
+   - SHA256 sum: 99bb6428e628a58619bbd3e102bd74fe03014b1c035b0b7b461d52960e570ec3
 - [Quoi de Neuf](https://download.nvaccess.org/documentation/fr/changes.html)
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues)
 
-Veuillez noter que NVDA 2026.1 béta 7 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2026.1 béta 8 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
