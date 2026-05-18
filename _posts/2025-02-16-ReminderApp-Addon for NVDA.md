@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Mercredi 17 Septembre 2025</footer>
+<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Vendredi 15 Mai 2026</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
