@@ -60,7 +60,7 @@ FreeRadio utilise la base de données ouverte  de [Radio Browser](https://www.ra
 
 Si une station que vous recherchez ne figure pas dans l'annuaire de Radio Browser, vous pouvez la soumettre vous-même à [https://www.radio-browser.info/add](https://www.radio-browser.info/add). Aucun compte ou inscription n’est nécessaire.
 
-👉 À savoir : Cette page est en anglais bien sûr.
+Note du traducteur (NDT): 👉 À savoir : Cette page est en anglais bien sûr.
 
 Remplissez le formulaire sur cette page :
 
@@ -86,6 +86,8 @@ Téléchargez le fichier `.nvda-addon`, appuyez dessus sur Entrée et redémarre
 ## Raccourcis clavier
 
 Tous les raccourcis peuvent être réassignés depuis le Menu NVDA → Préférences → Gestes de commandes → FreeRadio. Ces raccourcis fonctionnent de n'importe où, quelle que soit la fenêtre ayant le focus.
+
+Note du traducteur (NDT): 👉 À savoir : Le contenu répertorié dans les tableaux suivants comme: Shortcut, Function, Description, Etc. ci-dessous jusqu'à la fin du post données par l’auteur je l’ai laissé en anglais.
 
 | Shortcut | Function | Description |
 |---|---|---|
@@ -338,6 +340,14 @@ FreeRadio automatically checks for new versions via GitHub.
 ## License
 
 GPL v2
+
+---
+
+Voilà c'est fini, 🔐    
+Sur ce, je vous souhaite une bonne utilisation de cette nouvelle extension FreeRadio pour NVDA :)    
+À la prochaine sur un autre post!    
+Bien amicalement,    
+Rémy (BlindHelp). 🇫🇷 👨‍🦯
 
 ---
 
