@@ -107,11 +107,11 @@ Next / previous shortcuts only navigate the favourites list; they do not work wi
 
 ## Station Browser
 
-FreeRadio ajoute également un sous-menu **FreeRadio** au menu Outils de NVDA. De là, vous pouvez ouvrir directement les éléments appelés Station Browser et FreeRadio Settings.
+FreeRadio also adds a **FreeRadio** submenu to the NVDA Tools menu. From there you can directly open the Station Browser and FreeRadio Settings.
 
-La fenêtre une fois ouverte avec `Ctrl+Win+R` contient cinq onglets : All Stations, Favourites, Recording, Timer, et Liked Songs. Vous pouvez naviguer entre les onglets avec `Ctrl+Tab`.
+The window opened with `Ctrl+Win+R` contains five tabs: All Stations, Favourites, Recording, Timer, and Liked Songs. You can navigate between tabs with `Ctrl+Tab`.
 
-Lorsque l'onglet All Stations s'ouvre, le top 1,000 most-voted stations Radio Browser. En sélectionnant un pays (country) dans la liste déroulante met à jour la liste pour afficher les stations de ce pays. En tapant dans le champ de recherche effectue instantanément une recherche complète dans toute la base de données de Radio Browser simultanément par nom (name), pays (country) et genre (genre).
+When the All Stations tab opens, the top 1,000 most-voted stations are automatically loaded from Radio Browser. Selecting a country from the dropdown updates the list to show that country's stations. Typing in the search field instantly  performs a full search across the entire Radio Browser database simultaneously by name, country and genre.
 
 The **Output Device** dropdown at the bottom of the browser window — outside the tabs — lists all BASS-recognised audio output devices. Selecting a device immediately redirects audio output to it and saves the choice permanently; the same device is used automatically in the next session. If the selected device is not connected, the add-on falls back to the system default automatically. This control is only functional when the BASS backend is active.
 
@@ -181,7 +181,7 @@ To delete a station from the favourites list, select it and press the **Delete S
 
 ### Reordering Favourites
 
-With a station selected in the Favourites tab, press `*` to enter move mode — you will hear a beep. Navigate to the target position with the arrow keys, then press `*` again. The station is placed at the chosen position and the new order is saved immediately. Pressing `*` again at the same position cancels the move.
+With a station selected in the Favourites tab, press `comma` to enter move mode — you will hear a beep. Navigate to the target position with the arrow keys, then press `comma` again. The station is placed at the chosen position and the new order is saved immediately. Pressing `comma` again at the same position cancels the move.
 
 ### Adding a Custom Station
 
@@ -335,7 +335,7 @@ FreeRadio automatically checks for new versions via GitHub.
 
 **To disable automatic checks:** Turn off the **Check for updates automatically** option from NVDA Menu → Preferences → Settings → FreeRadio.
 
-## Licence 
+## License
 
 GPL v2
 
