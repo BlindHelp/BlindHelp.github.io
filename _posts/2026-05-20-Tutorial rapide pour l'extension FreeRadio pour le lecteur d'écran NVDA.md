@@ -5,12 +5,12 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Mercredi 20 Mai 2026</footer>
+<footer>Publié le Mercredi 20 Mai 2026 - Dernière mise à jour le Mardi 2 Juin 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Si vous avez lu l'article intitulé:    
 [Nouvelle extension FreeRadio pour NVDA](https://blindhelp.github.io/nouvelle-extension-freeradio-pour-nvda/)    
-Publié le Lundi 18 Mai 2026    
+Publié le Lundi 18 Mai 2026 - Dernière mise à jour le Mardi 2 Juin 2026    
 sur [BlindHelp.github.io](https://blindhelp.github.io/)    
 ASTUCE EN INFORMATIQUE ADAPTÉE ET INFOS DIVERS (HORS SUJET)    
 Nous ne sommes pas affiliés à Blind Help Project (BHP) (organisation pakistanaise qui est une initiative bénévole qui existe depuis 2014 en Pakistan 🇵🇰).    
@@ -22,7 +22,7 @@ Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise
 
 Une fois notre lecteur d'écran NVDA lancé et vous souhaitez utiliser son extension appelée FreeRadio, procédez comme suit:    
 
-👉 À savoir : Cette interface de ladite extension est en anglais bien sûr.    
+👉 À savoir : Cette interface de ladite extension est traduit en français à partir de la version 2026.19.7, cependant, mes explications ci-dessous concernent la version précédente, c'est-à-dire la version 2026.19.6 qui est en anglais bien sûr.    
 
 Pour ouvrir l'interface de cette extension on atteint plus rapidement le menu en frappant Windows + Ctrl + R. Là, on se trouve par défaut dans le premier onglet appelé: `All Stations`    
 

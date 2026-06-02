@@ -5,17 +5,23 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Lundi 18 Mai 2026</footer>
+<footer>Publié le Lundi 18 Mai 2026 - Dernière mise à jour le Mardi 2 Juin 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
-Aujourd'hui, je vous présente une nouvelle extension pour notre lecteur d'écran NVDA appelée: FreeRadio;.
+Aujourd'hui, je vous présente une nouvelle extension pour notre lecteur d'écran NVDA appelée: FreeRadio et pour en savoir plus sur cette extension, je vous invite à lire cet article dans son intégralité. Merci.    
 
-Je vous informe de cela mais je ne l'ai pas essayé.
+Je suis heureux de vous annoncer que FreeRadio 2026.19.7 vient de sortir et que mes traductions en français et espagnol sont incluses ! 👍
+
+J'en profite également pour remercier l'auteur de ladite extension pour sa confiance, et pour avoir été réactif dans nos échanges privés et pour avoir intégré mes traductions dans les deux langues. (handshake)
+
+Et c'est pourquoi je partage cette nouvelle aujourd'hui avec vous, mes amis du blog de BlindHelp !
+
+Sans aucun doute cette extension pour NVDA sera imbattable, d'après le peu que je l'ai essayée elle fait bien son travail !
 
 Avertissement: 💀    
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension FreeRadio téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension FreeRadio téléchargé est à vos risques et périls. ☠
 
-Les langues disponibles pour cette extension sont l'anglais, le portugais et le turc.
+Les langues disponibles pour cette extension jusqu'à la date d'aujourd'hui sont l'anglais, l'arabe, le tchèque, l'espagnol, le français, le khmer (Cambodge), le portugais, le russe et le turc.
 
 Vous trouverez cette extension à partir de l'Add-on Store.
 
@@ -25,33 +31,33 @@ Pour rechercher cette  extension, utilisez la zone de texte "Rechercher". Vous p
 
 Sélectionnez l'extension freeradio dans l'onglet "Extensions disponibles" ensuite ces actions sont accessibles via un menu qu'on ouvre en appuyant sur la touche applications, entrée, un clic droit ou un double-clic sur l'extension freeradio. Ce menu est également accessible par un bouton Actions dans les détails de l'extension sélectionnée.
 
-Voici les informations en anglais trouvés dans l'Add-on Store à propos de cette extension:
+Voici les informations en français trouvés dans l'Add-on Store à propos de cette extension:
 
 # Description :
 
-FreeRadio is an internet radio add-on for NVDA that provides seamless access to thousands of stations via the Radio Browser open directory. It features a fully accessible station browser with search, country filter, favourites management, and per-station audio profiles. Playback is handled by a prioritised backend chain (BASS, VLC, PotPlayer, Windows Media Player) with support for volume control, audio effects, output device selection, and simultaneous audio mirroring to a second device. Additional features include instant and scheduled recording, sleep and alarm timers, automatic ICY metadata announcements, Shazam-based music recognition, and a liked-songs log. All controls and shortcuts are designed for NVDA accessibility.
+FreeRadio est une extension de radio Internet pour NVDA qui offre un accès continu à des milliers de stations via l'annuaire ouvert de Radio Browser. Il dispose d'un navigateur de stations entièrement accessible avec recherche, filtre de pays, gestion des favoris et profils audio par station. La lecture est gérée par une chaîne backend prioritaire (BASS, VLC, PotPlayer, Windows Media Player) avec prise en charge du contrôle du volume, des effets audio, de la sélection du périphérique de sortie et de la mise en miroir audio simultanée sur un deuxième périphérique. Les fonctionnalités supplémentaires incluent l'enregistrement instantané et planifié, des minuteries de mise en veille et d'alarme, des annonces automatiques de métadonnées ICY, une reconnaissance musicale basée sur Shazam et un journal des morceaux aimés. Tous les contrôles et raccourcis sont conçus pour l'accessibilité de NVDA.
 
 # Autres détails :
 
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.19.5
+* Version installée : 2026.19.7
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.19.5/freeradio-2026.19.5.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.19.7/freeradio-2026.19.6.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date d'installation : 19/05/2026
-* Date de publication : 18/05/2026
+* Date d'installation : 02/06/2026
+* Date de publication : 02/06/2026
 * Résultats de l'analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 66).
 * URL de l'analyse par VirusTotal : <https://www.virustotal.com/gui/file/a257978c94148dbd7ccf7e2aac50022368e1b6481f7f546bc1e6f0baf5a5aa43>
 
-Voici ci-dessous la description de l'extension FreeRadio en utilisant le fichier appelé readme.md en anglais traduit uniquement pour cet article de l'anglais vers le français fait par mes soins pour une meilleure compréhension.
+Voici ci-dessous la documentation de l'extension FreeRadio en français de la nouvelle version 2026.19.7 publiée le Mardi 2 Juin 2026 traduit par mes soins .
 
 # FreeRadio — NVDA Add-on
 
@@ -59,21 +65,19 @@ FreeRadio est une extension de radio Internet pour le lecteur d'écran NVDA. Son
 
 ## L'Annuaire de Radio Browser
 
-FreeRadio utilise la base de données ouverte  de [Radio Browser](https://www.radio-browser.info/) pour son catalogue de stations. Radio Browser est un annuaire gratuit et géré par la communauté hébergeant plus de 50 000 stations de radio Internet du monde entier. Aucune inscription ni compte n'est requis et son API est ouverte à tous. Chaque station comprend des informations sur l'adresse, le pays, le genre, la langue et le débit binaire ; les stations sont classées par votes des utilisateurs. FreeRadio se connecte à cette API via des serveurs miroir situés en Allemagne, aux Pays-Bas et en Autriche ; si un serveur est inaccessible, il passe automatiquement au suivant.
+FreeRadio utilise la base de données ouverte de [Radio Browser](https://www.radio-browser.info/) pour son catalogue de stations. Radio Browser est un annuaire gratuit et géré par la communauté hébergeant plus de 50 000 stations de radio Internet du monde entier. Aucune inscription ni compte n'est requis et son API est ouverte à tous. Chaque station comprend des informations sur l'adresse, le pays, le genre, la langue et le bitrate ; les stations sont classées par votes des utilisateurs. FreeRadio se connecte à cette API via des serveurs miroir situés en Allemagne, aux Pays-Bas et en Autriche ; si un serveur est inaccessible, il passe automatiquement au suivant.
 
-## Ajouter une station à Radio Browser
+## Ajout d'une station à Radio Browser
 
 Si une station que vous recherchez ne figure pas dans l'annuaire de Radio Browser, vous pouvez la soumettre vous-même à [https://www.radio-browser.info/add](https://www.radio-browser.info/add). Aucun compte ou inscription n'est nécessaire.
 
-Note du traducteur (NDT): 👉 À savoir : Cette page est en anglais bien sûr.
-
 Remplissez le formulaire sur cette page :
 
-- **Stream URL** *(required)* — l'URL directe du flux audio, se terminant par `.mp3`, `.aac`, `.ogg` ou similaire. Il ne s'agit pas de l'adresse du site Web de la station ; c'est l'adresse du flux brut que vous colleriez dans un lecteur multimédia. La plupart des stations publient l'URL de leur flux sur leur site Web ou dans leur section "Écouter en direct".
-- **Station name** *(required)* — le nom de la station tel qu'il doit apparaître dans l'annuaire.
+- **Stream URL** *(requis)* — l'URL directe du flux audio, se terminant par `.mp3`, `.aac`, `.ogg` ou similaire. Il ne s'agit pas de l'adresse du site Web de la station ; c'est l'adresse du flux brut que vous colleriez dans un lecteur multimédia. La plupart des stations publient l'URL de leur flux sur leur site Web ou dans leur section "Écouter en direct".
+- **Station name** *(requis)* — le nom de la station tel qu'il doit apparaître dans l'annuaire.
 - **Homepage** — l'adresse du site Internet de la station.
 - **Country and language** — sélectionnez le pays et la langue de diffusion dans les listes déroulantes.
-- **Tags** — des mots-clés séparés par des virgules, pour  le genre ou topic  par exemple `news`, `jazz`, `classical`. Ceux-ci sont utilisés pour la recherche et le filtrage.
+- **Tags** — des mots-clés séparés par des virgules, pour  le genre ou topic par exemple `news`, `jazz`, `classical`. Ceux-ci sont utilisés pour la recherche et le filtrage.
 - **Logo URL** — un lien direct vers l'image du logo de la station, si disponible.
 
 Après soumission, la station est revue et ajoutée à l'annuaire public. Une fois accepté, il apparaîtra dans la recherche de FreeRadio et les listes de pays automatiquement, puisque l'annuaire est actualisé à partir de l'API en direct.
@@ -92,257 +96,255 @@ Téléchargez le fichier `.nvda-addon`, appuyez dessus sur Entrée et redémarre
 
 Tous les raccourcis peuvent être réassignés depuis le Menu NVDA → Préférences → Gestes de commandes → FreeRadio. Ces raccourcis fonctionnent de n'importe où, quelle que soit la fenêtre ayant le focus.
 
-Note du traducteur (NDT): 👉 À savoir : Le contenu répertorié dans les tableaux suivants comme: Shortcut, Function, Description, Etc. ci-dessous jusqu'à la fin du post données par l'auteur je l'ai laissé en anglais.
-
-| Shortcut | Function | Description |
+| Raccourci | Fonction | Description |
 |---|---|---|
-| `Ctrl+Win+R` | Open station browser | Opens the browser window if closed, or brings it to the foreground if already open. |
-| `Ctrl+Win+P` | Pause / resume | Pauses the current station if playing; resumes if paused. If nothing is playing, starts the last station or opens the favourites list depending on your setting. Pressing twice in quick succession jumps directly to a tab of your choice. Pressing three times can trigger a separate action depending on your setting. |
-| `Ctrl+Win+S` | Stop | Fully stops the current station and resets the player. |
-| `Ctrl+Win+→` | Next favourite | Moves to the next station in the favourites list. Wraps around to the beginning at the end of the list. |
-| `Ctrl+Win+←` | Previous favourite | Moves to the previous station in the favourites list. Jumps to the end when at the beginning. |
-| `Ctrl+Win+↑` | Volume up | Increases volume by 10; maximum 100. |
-| `Ctrl+Win+↓` | Volume down | Decreases volume by 10; minimum 0. |
-| `Ctrl+Win+V` | Add to favourites | Adds the currently playing station to the favourites list. Announces if the station is already in the list. |
-| `Ctrl+Win+I` | Station info | Announces the currently playing station name. Press twice to show details such as country, genre and bitrate in a dialog. Press three times to copy the current track info (ICY metadata) to the clipboard if available; if no metadata is present, starts Shazam music recognition instead. Press four times to force music recognition in case of wrong ICY metadata. |
-| `Ctrl+Win+M` | Audio mirror | Mirrors the current stream to an additional audio output device simultaneously. Press again to stop mirroring. |
-| `Ctrl+Win+E` | Instant recording | Press once to start recording the current station; press again to stop. Press **twice** to start a **song recording** — the file is named after the current track and the recording stops automatically when the track changes. Press twice again while a song recording is active to stop it early. Playback continues uninterrupted in all recording modes. Only available for stations that broadcast ICY metadata. |
-| `Ctrl+Win+W` | Open recordings folder | Opens the folder containing recorded files in File Explorer. |
-| *(unassigned)* | Toggle mute notifications | Toggles the Mute Notifications setting on the fly. Assign a key combination via NVDA Menu → Preferences → Input Gestures → FreeRadio. |
+| `Ctrl+Win+R` | Ouvrir le navigateur de stations | Ouvre la fenêtre du navigateur si elle est fermée, ou la met au premier plan si elle est déjà ouverte. |
+| `Ctrl+Win+P` | Mettre en pause / reprendre | Met en pause la station actuelle si elle est en cours de lecture ; reprend en cas de pause. Si rien ne joue, démarre la dernière station ou ouvre la liste des favoris en fonction de votre réglage. En appuyant deux fois de suite, vous accédez directement à un onglet de votre choix. Appuyer trois fois peut déclencher une action distincte en fonction de votre réglage. |
+| `Ctrl+Win+S` | Arrêter | Arrête complètement la station actuelle et réinitialise le lecteur. |
+| `Ctrl+Win+→` | Suivant favori | Passe à la station suivante dans la liste des favoris. Revient  au début et à la fin de la liste. |
+| `Ctrl+Win+←` | Favoris précédent | Passe à la station précédente dans la liste des favoris. Saute à la fin quand on est au début. |
+| `Ctrl+Win+↑` | Augmenter le volume | Augmente le volume de 10 ; maximum 100. |
+| `Ctrl+Win+↓` | Diminuer le volume | Diminue le volume de 10 ; minimum 0. |
+| `Ctrl+Win+V` | Ajouter aux favoris | Ajoute la station en cours de lecture à la liste des favoris. Annonce si la station est déjà dans la liste. |
+| `Ctrl+Win+I` | Informations sur la Station | Annonce le nom de la station en cours de lecture. Appuyez deux fois pour afficher des détails tels que le pays, le genre et le bitrate dans un dialogue. Appuyez trois fois pour copier les informations de la piste actuelle (métadonnées ICY) dans le presse-papiers si disponible ; si aucune métadonnée n'est présente, démarre la reconnaissance musicale Shazam à la place. Appuyez quatre fois pour forcer la reconnaissance musicale en cas de métadonnées ICY erronées. |
+| `Ctrl+Win+M` | Miroir audio | Mettre en miroir le flux actuel vers un périphérique de sortie audio supplémentaire simultanément. Appuyez à nouveau pour arrêter la mise en miroir. |
+| `Ctrl+Win+E` | Enregistrement instantané | Appuyez une fois pour commencer à enregistrer la station actuelle ; appuyez à nouveau pour arrêter. Appuyez **deux fois** pour démarrer un **enregistrement d'un morceau**: le fichier porte le nom de la piste actuelle et l'enregistrement s'arrête automatiquement lorsque la piste change. Appuyez à nouveau deux fois pendant qu'un enregistrement d'un morceau est actif pour l'arrêter plus tôt. La lecture continue sans interruption dans tous les modes d'enregistrement. Uniquement disponible pour les stations qui diffusent des métadonnées ICY. |
+| `Ctrl+Win+W` | Ouvrir le dossier des enregistrements | Ouvre le dossier contenant les fichiers enregistrés dans l'Explorateur de fichiers. |
+| *(non assigné)* | Activer/désactiver les notifications muettes | Active/désactive le paramètre Muet des notifications à la volée. Assigner une combinaison de touches via NVDA Menu → Préférences → Gestes de commandes → FreeRadio. |
 
-Next / previous shortcuts only navigate the favourites list; they do not work with the all stations list. When a list is focused in the browser window, the left and right arrow keys serve the same purpose — see In-Dialog Shortcuts.
+Les raccourcis suivant/précédent parcourent uniquement la liste des favoris ; ils ne fonctionnent pas avec la liste de toutes les stations. Quand une liste ayant le focus dans la fenêtre du navigateur, les touches fléchées gauche et droite ont le même objectif — voir la section Raccourcis dans la boîte de dialogue.
 
-## Station Browser
+## Navigateur de Stations
 
-FreeRadio also adds a **FreeRadio** submenu to the NVDA Tools menu. From there you can directly open the Station Browser and FreeRadio Settings.
+FreeRadio ajoute également un sous-menu **FreeRadio** au menu Outils NVDA. De là, vous pouvez ouvrir directement le Navigateur de Stations et les Paramètres de FreeRadio.
 
-The window opened with `Ctrl+Win+R` contains five tabs: All Stations, Favourites, Recording, Timer, and Liked Songs. You can navigate between tabs with `Ctrl+Tab`.
+La fenêtre ouverte avec `Ctrl+Win+R` contient cinq onglets : Toutes les stations, Favoris, Enregistrement, Minuterie et Morceaux aimés. Vous pouvez naviguer entre les onglets avec `Ctrl+Tab`.
 
-When the All Stations tab opens, the top 1,000 most-voted stations are automatically loaded from Radio Browser. Selecting a country from the dropdown updates the list to show that country's stations. Typing in the search field instantly  performs a full search across the entire Radio Browser database simultaneously by name, country and genre.
+Lorsque l'onglet Toutes les stations s'ouvre, le top 1 000 des stations les plus votées sont automatiquement chargées à partir de Radio Browser. La sélection d'un pays dans la liste déroulante met à jour la liste pour montrer les stations de ce pays. Taper dans le champ de recherche effectue instantanément une recherche complète dans toute la base de données de Radio Browser simultanément par nom, pays et genre.
 
-The **Output Device** dropdown at the bottom of the browser window — outside the tabs — lists all BASS-recognised audio output devices. Selecting a device immediately redirects audio output to it and saves the choice permanently; the same device is used automatically in the next session. If the selected device is not connected, the add-on falls back to the system default automatically. This control is only functional when the BASS backend is active.
+La liste déroulante **Périphérique de sortie** en bas de la fenêtre du navigateur (en dehors des onglets) répertorie tous les périphériques de sortie audio reconnus par BASS. La sélection d'un périphérique redirige immédiatement la sortie audio vers celui-ci et enregistre le choix de manière permanente ; le même périphérique est utilisé automatiquement lors de la session suivante. Si le périphérique sélectionné n'est pas connecté, l'extension revient automatiquement au valeur système par défaut. Ce contrôle n'est fonctionnel que lorsque le BASS backend est actif.
 
-The **Volume** (0–200) and **Effects** controls in the same area can be adjusted at any time while the window is open. From the Effects list, Chorus, Compressor, Distortion, Echo, Flanger, Gargle, Reverb, EQ: Bass Boost, EQ: Treble Boost and EQ: Vocal Boost can be enabled simultaneously; changes are applied to the active stream instantly. These controls are fully functional only when the BASS backend is active.
+Les contrôles de **Volume** (0–200) et **Effets** dans la même zone peut être ajusté à tout moment lorsque la fenêtre est ouverte. Depuis la liste des Effets, Chœur, Compression, Distorsion, Echo, Flanger, Gargle, Réverbération, EQ: Bass Boost, EQ: Treble Boost et EQ: Vocal Boost peut être activé simultanément ; les modifications sont appliquées instantanément au flux actif. Ces contrôles ne sont pleinement fonctionnelles que lorsque le BASS backend est actif.
 
-The **Play/Pause** button is also located at the bottom of the window. If no station is playing it starts the selected station; if a station is already playing it pauses playback.
+Le bouton **Lecture/Pause** est également situé en bas de la fenêtre. Si aucune station n'est en cours de lecture, la station sélectionnée démarre ; si une station est déjà en cours de lecture, la lecture est interrompue.
 
-When a station is selected in the list, the **Station Details** button displays information such as country, language, genre, format, bitrate, website and stream URL in a separate dialog. Each field appears in its own read-only text box; you can move between fields with Tab and copy all information to the clipboard at once with the **Copy all to clipboard** button. This button is available in both the All Stations and Favourites tabs.
+Lorsqu'une station est sélectionnée dans la liste, le bouton **Détails de la Station** affiche des informations telles que le pays, la langue, le genre, le format, le bitrate, le site web et le flux URL dans une boîte de dialogue séparée. Chaque champ apparaît dans sa propre zone de texte en lecture seule ; vous pouvez vous déplacer entre les champs avec Tab et copier toutes les informations dans le presse-papiers en même temps avec le bouton **Copier tout dans le presse-papier**. Ce bouton est disponible dans les onglets Toutes les stations et Favoris.
 
-### In-Dialog Shortcuts
+### Raccourcis dans la boîte de dialogue
 
-The following keys work only while the Station Browser window is active.
+Les touches suivantes fonctionnent uniquement lorsque la fenêtre Navigateur de Stations est active.
 
-### F Keys
+### Touches F
 
-| Shortcut | Function | Description |
+| Raccourci | Fonction | Description |
 |---|---|---|
-| `F1` | Help guide | Opens the add-on's help file in the default browser. The guide for the active NVDA language is searched first; if not found, the default guide is opened. |
-| `F2` | Now playing | Announces the current station name and ICY metadata track info if available. |
-| `F3` | Previous station | Moves to the previous station in the All Stations or Favourites tab and starts playing immediately. Jumps to the end when at the beginning of the list. |
-| `F4` | Next station | Moves to the next station in the All Stations or Favourites tab and starts playing immediately. Wraps to the beginning at the end of the list. |
-| `F5` | Volume down | Decreases volume by 10 (minimum 0). |
-| `F6` | Volume up | Increases volume by 10 (maximum 200). |
-| `F7` | Pause / resume | Pauses if a station is playing; resumes if paused and media is loaded. |
-| `F8` | Stop | Fully stops the current station and resets the player. |
-| `F9` | Rename | Opens rename dialog for focused station in favorits tab. |
+| `F1` | Guide d'aide | Ouvre le fichier d'aide de l'extension dans le navigateur par défaut. Le guide de la langue de NVDA actif est recherché en premier ; s'il n'est pas trouvé, le guide par défaut est ouvert. |
+| `F2` | qu'est-ce qui se joue | Annonce la station en cours de lecture et le nom de la piste. Appuyez deux fois pour afficher des détails tels que le pays, le genre et le bitrate dans un dialogue. Appuyez trois fois pour copier les informations de la piste actuelle (métadonnées ICY) dans le presse-papiers si disponible ; si aucune métadonnée n'est présente, démarre la reconnaissance musicale Shazam à la place. Appuyez quatre fois pour forcer la reconnaissance musicale en cas de métadonnées ICY erronées. |
+| `F3` | Station précédente | Passe à la station précédente dans l'onglet Toutes les stations ou Favoris et commence à jouer immédiatement. Saute à la fin quand on est au début de la liste. |
+| `F4` | Station suivante | Passe à la station suivante dans l'onglet Toutes les stations ou Favoris et commence à jouer immédiatement. Revient  au début et à la fin de la liste. |
+| `F5` | Diminuer le volume | Diminue le volume de 10 (minimum 0). |
+| `F6` | Augmenter le volume | Augmente le volume de 10 (maximum 200). |
+| `F7` | Mettre en pause / reprendre | Met en pause la station actuelle si elle est en cours de lecture ; reprend en cas de pause et le média est chargé. |
+| `F8` | Arrêter | Arrête complètement la station actuelle et réinitialise le lecteur. |
+| `F9` | Renommer | Ouvre la boîte de dialogue  pour renommer la station ayant le focus dans l'onglet favoris. |
 
-### List and Navigation Shortcuts
+### Liste et Raccourcis de Navigation
 
-| Shortcut | Function | Description |
+| Raccourci | Fonction | Description |
 |---|---|---|
-| `→` | Next station | When the All Stations or Favourites list is focused, moves to the next station and plays it immediately. Wraps to the beginning at the end of the list. |
-| `←` | Previous station | When the All Stations or Favourites list is focused, moves to the previous station and plays it immediately. Jumps to the end when at the beginning. |
-| `Enter` | Play | When the All Stations or Favourites list is focused, starts playing the selected station immediately. Switches to the selected station even if another station is already playing. |
-| `Space` | Play / Pause | Pauses if a station is playing; otherwise starts playing the selected station. |
-| `Ctrl+Tab` | Next tab | Switches to the next tab (All Stations → Favourites → Recording → Timer → Liked Songs). |
-| `Ctrl+Shift+Tab` | Previous tab | Switches to the previous tab. |
-| `Escape` | Hide | Hides the window; the add-on continues playing in the background. |
+| `→` | Station suivante | Lorsque la liste Toutes les stations ou Favoris est focalisé, passe à la station suivante et la joue immédiatement. Revient  au début et à la fin de la liste. |
+| `←` | Station précédente | Lorsque la liste Toutes les stations ou Favoris est focalisé, passe à la station précédente et la joue immédiatement. Saute à la fin quand on est au début. |
+| `Entrée` | Lecture | Lorsque la liste Toutes les stations ou Favoris est focalisé, commence à jouer immédiatement la station sélectionnée. Passe à la station sélectionnée même si une autre station est déjà en cours de lecture. |
+| `Espace` | Lecture / Pause | Met en pause si une station est en cours de lecture ; sinon, commence la lecture de la station sélectionnée. |
+| `Ctrl+Tab` | Onglet suivant | Passe à l'onglet suivant (Toutes les stations → Favoris → Enregistrement → Minuterie → Morceaux aimés). |
+| `Ctrl+Shift+Tab` | Onglet précédent | Passe à l'onglet précédent. |
+| `Echap` | Cacher | Cache la fenêtre ; l'extension continue de jouer en arrière-plan. |
 
-### Volume Shortcuts
+### Raccourcis de Volume
 
-| Shortcut | Function | Description |
+| Raccourci | Fonction | Description |
 |---|---|---|
-| `Ctrl+↑` | Volume up | Increases volume by 10. Only works while the browser window is open. |
-| `Ctrl+↓` | Volume down | Decreases volume by 10. Only works while the browser window is open. |
+| `Ctrl+↑` | Augmenter le volume | Augmente le volume de 10. Fonctionne uniquement lorsque la fenêtre du navigateur est ouverte. |
+| `Ctrl+↓` | Diminuer le volume | Diminue le volume de 10. Fonctionne uniquement lorsque la fenêtre du navigateur est ouverte. |
 
-### Alt Key Shortcuts
+### Raccourcis de la Touche Alt
 
-| Shortcut | Function | Description |
+| Raccourci | Fonction | Description |
 |---|---|---|
-| `Alt+R` | Go to search field | Moves focus to the search text box. Searches Radio Browser with the text in the search field; name, country and genre are searched simultaneously. |
-| `Alt+V` | Add / remove favourite | Adds the selected station to favourites; removes it if already in the list. |
-| `Alt+1` | All Stations | Switches to the All Stations tab. |
-| `Alt+2` | Favourites | Switches to the Favourites tab. |
-| `Alt+3` | Recording | Switches to the Recording tab. |
-| `Alt+4` | Timer | Switches to the Timer tab. |
-| `Alt+5` | Liked Songs | Switches to the Liked Songs tab. |
-| `Alt+K` | Close | Closes the window; the add-on continues playing in the background. |
+| `Alt+R` | Aller au champ de recherche | Déplace le focus sur la zone de texte de recherche. Recherche sur Radio Browser avec le texte dans le champ de recherche ; le nom, le pays et le genre sont recherchés simultanément. |
+| `Alt+V` | Ajouter/supprimer un favori | Ajoute la station sélectionnée aux favoris ; le supprime s'il est déjà dans la liste. |
+| `Alt+1` | Toutes les stations | Passe à l'onglet Toutes les stations. |
+| `Alt+2` | Favoris | Passe à l'onglet Favoris. |
+| `Alt+3` | Enregistrement | Passe à l'onglet Enregistrement. |
+| `Alt+4` | Minuterie | Passe à l'onglet Minuterie. |
+| `Alt+5` | Morceaux aimés | Passe à l'onglet Morceaux aimés. |
+| `Alt+K` | Fermer | Ferme la fenêtre ; l'extension continue de jouer en arrière-plan. |
 
-## Favourites
+## Favoris
 
-The favourites list is a personal station collection stored permanently. To add a station, select it in the list and press the Add to Favourites button or use the `Alt+V` shortcut. The same shortcut removes a station that is already in the list when it is selected.
+La liste des favoris est une collection de stations personnelles stockée en permanence. Pour ajouter une station, sélectionnez-la dans la liste et appuyez sur le bouton Ajouter aux Favoris ou utilisez le raccourci `Alt+V`. Le même raccourci supprime une station déjà dans la liste lorsqu'elle est sélectionnée.
 
-Favourites can be played with `Ctrl+Win+→` and `Ctrl+Win+←`; these shortcuts work even when the browser window is not open.
+Les favoris peuvent être lus avec `Ctrl+Win+→` et `Ctrl+Win+←`; ces raccourcis fonctionnent même lorsque la fenêtre du navigateur n'est pas ouverte.
 
-To delete a station from the favourites list, select it and press the **Delete Station** button or the `Delete` key. After deletion, focus and selection automatically move to the next station in the list. If the deleted station was the last one, focus moves to the previous station. If the list becomes empty, focus moves to the Play button.
+Pour supprimer une station de la liste des favoris, sélectionnez-la et appuyez sur le bouton **Supprimer la station** ou sur la touche `Supprimer`. Après la suppression, le focus et la sélection passent automatiquement à la station suivante dans la liste. Si la station supprimée était la dernière, le focus se déplace sur la station précédente. Si la liste devient vide, le focus se déplace vers le bouton Lecture.
 
-### Reordering Favourites
+### Réorganisation des Favoris
 
-With a station selected in the Favourites tab, press `comma` to enter move mode — you will hear a beep. Navigate to the target position with the arrow keys, then press `comma` again. The station is placed at the chosen position and the new order is saved immediately. Pressing `comma` again at the same position cancels the move.
+Une station étant sélectionnée dans l'onglet Favoris, appuyez sur la `virgule` pour entrer en mode déplacement — vous entendrez un bip. Accédez à la position cible avec les touches fléchées, puis appuyez à nouveau sur la `virgule`. La station est placée à l'emplacement choisi et la nouvelle organisation est immédiatement enregistrée. En appuyant à nouveau sur la `virgule` à la même position annule le déplacement.
 
-### Adding a Custom Station
+### Ajout d'une Station Personnalisée
 
-To add a station that is not in Radio Browser, use the Add Custom Station button. In the dialog that appears, enter the station name and stream URL to add it directly to your favourites. Custom stations can be played and reordered just like any other favourite.
+Pour ajouter une station qui n'est pas dans Radio Browser, utilisez le bouton Ajouter une station personnalisée. Dans la boîte de dialogue qui apparaît, saisissez le nom de la station et l'URL du flux pour l'ajouter directement à vos favoris. Les stations personnalisées peuvent être écoutées et réorganisées comme n'importe quel autre favori.
 
-### Station Audio Profile
+### Profil Audio de la Station
 
-The Favourites tab includes two buttons for managing per-station audio settings:
+L'onglet Favoris comprend deux boutons pour gérer les paramètres audio par station:
 
-**Save Audio Profile for This Station** — saves the current volume level and active effects (chorus, EQ, etc.) as a profile tied to that specific station. Whenever that station starts playing, its saved volume and effects are automatically applied, overriding the global defaults.
+**Enregistrer le profil audio de cette station** — enregistre le niveau de volume actuel et les effets actifs (chœur, EQ, etc.) en tant que profil lié à cette station spécifique. Chaque fois que cette station commence à jouer, son volume et ses effets enregistrés sont automatiquement appliqués, remplaçant les valeurs par défaut globales.
 
-**Clear Audio Profile** — removes the saved audio profile from the selected station. After clearing, the station reverts to the global volume and effects settings. This button is only active when the selected station already has a saved profile.
+**Effacer le profil audio** — supprime le profil audio enregistré de la station sélectionnée. Après l'effacement, la station revient aux paramètres globaux de volume et d'effets. Ce bouton n'est actif que lorsque la station sélectionnée possède déjà un profil enregistré.
 
-Both buttons are located below the favourites list and are only enabled when a station in the list is selected.
+Les deux boutons sont situés sous la liste des favoris et ne sont activés que lorsqu'une station de la liste est sélectionnée.
 
-## Music Recognition
+## Reconnaissance Musicale
 
-Pressing `Ctrl+Win+I` three times triggers Shazam-based music recognition for the currently playing stream. Recognition only starts when no ICY metadata (track info broadcast by the station) is available; if metadata is present, it is copied to the clipboard instead.
+Appuyer trois fois sur `Ctrl+Win+I` déclenche la reconnaissance musicale basée sur Shazam pour le flux en cours de lecture. La reconnaissance ne démarre que lorsqu'aucune métadonnée ICY (informations sur la piste diffusées par la station) n'est disponible ; si des métadonnées sont présentes, elles sont copiées dans le presse-papiers à la place.
 
-Recognition works as follows: a short audio sample is captured from the stream using ffmpeg, the Shazam fingerprinting algorithm is applied, and the result is sent to Shazam's servers. If recognition succeeds, the track title, artist, album and release year are announced by NVDA and automatically copied to the clipboard. If the **Save liked songs to a text file** option is enabled, the recognition result is also appended to `likedSongs.txt`.
+La reconnaissance fonctionne comme suit : un court échantillon audio est capturé à partir du flux à l'aide de ffmpeg, l'algorithme d'empreinte digitale Shazam est appliqué et le résultat est envoyé aux serveurs de Shazam. Si la reconnaissance réussit, le titre du morceau, l'artiste, l'album et l'année de sortie sont annoncés par NVDA et automatiquement copiés dans le presse-papiers. Si l'option **Enregistrer les morceaux aimés dans un fichier texte** est activée, le résultat de la reconnaissance est également ajouté à `likedSongs.txt`.
 
-**Audio feedback:** Two rising beeps sound when recognition starts, and two falling beeps when it ends. A short beep plays every 2 seconds while the process is running.
+**Retour audio:** Deux bips montants retentissent lorsque la reconnaissance démarre et deux bips descendants lorsqu'elle se termine. Un bip court retentit toutes les 2 secondes pendant que le processus est en cours.
 
-**Requirement:** ffmpeg.exe is required. An ffmpeg.exe placed in the add-on folder is used automatically; if it is in a different location, the path can be set in Settings. Download ffmpeg from [ffmpeg.org](https://ffmpeg.org/download.html).
+**Exigence:** ffmpeg.exe est requis. Un ffmpeg.exe placé dans le dossier de l'extension est utilisé automatiquement ; s'il se trouve à un emplacement différent, le chemin peut être défini dans les Paramètres. Téléchargez ffmpeg depuis [ffmpeg.org](https://ffmpeg.org/download.html).
 
-## Audio Mirror
+## Miroir Audio
 
-The `Ctrl+Win+M` shortcut mirrors the currently playing stream to a second audio output device simultaneously. This is useful for listening on two different devices at the same time, such as speakers and headphones.
+Le raccourci `Ctrl+Win+M` met les miroirs du flux en cours de lecture vers un deuxième périphérique de sortie audio simultanément. Ceci est utile pour écouter sur deux périphériques différents en même temps, tel que des haut-parleurs et écouteurs.
 
-On first press, a selection dialog listing the available output devices appears. Once a device is chosen, mirroring begins and main playback continues uninterrupted. Pressing the shortcut again stops mirroring.
+Au premier appui, une boîte de dialogue de sélection répertoriant les périphériques de sortie disponibles apparaît. Une fois le périphérique choisi, la mise en miroir commence et la lecture principale se poursuit sans interruption. Appuyer à nouveau sur le raccourci arrête la mise en miroir.
 
-**Use cases:**
-- **Speakers + headphones** — Let a guest follow the same broadcast on headphones while you listen through the computer speakers.
-- **Recording setup** — Route the main output to speakers and the second output to an external recorder or audio interface for external capture.
-- **Multi-room** — Play through a Bluetooth speaker and the built-in speaker simultaneously; no extra software needed to carry audio to another room.
-- **Remote monitoring** — In a screen-sharing or remote desktop session, both the local and remote sides can hear the same stream simultaneously.
+**Cas d'utilisation:**
+- **Haut-parleurs + écouteurs** — Laissez un invité suivre la même émission avec des écouteurs pendant que vous écoutez via les haut-parleurs de l'ordinateur.
+- **Configuration d'enregistrement** — Acheminez la sortie principale vers des haut-parleurs et la deuxième sortie vers un enregistreur externe ou une interface audio pour une capture externe.
+- **Multi-pièces** — Jouez simultanément via un haut-parleur Bluetooth et le haut-parleur intégré ; aucun logiciel supplémentaire n'est nécessaire pour transporter l'audio dans une autre pièce.
+- **Surveillance à distance** — Dans une session de partage d'écran ou de bureau à distance, les côtés local et distant peuvent entendre le même flux simultanément.
 
-> **Note:** Audio mirroring is only available when the BASS backend is active. If the volume is changed while mirroring is active, both outputs are updated simultaneously.
+> **Note:** La mise en miroir audio n'est disponible que lorsque le BASS backend est actif. Si le volume est modifié alors que la mise en miroir est active, les deux sorties sont mises à jour simultanément.
 
-## Recording
+## Enregistrement
 
-Recordings are saved to `Documents\FreeRadio Recordings\` by default. The filename includes the station name (or song title, in song recording mode) and the recording start time. The recordings folder can be changed at any time from NVDA Menu → Preferences → Settings → FreeRadio → **Recordings folder**. Because the recording engine connects directly to the stream, the audio is written to disk as received — no processing or re-encoding is applied; recording quality is identical to the broadcast quality.
+Les enregistrements sont enregistrés par défaut dans `Documents\FreeRadio Recordings\`. Le nom du fichier inclut le nom de la station (ou le titre du morceau, en mode enregistrement de morceau) et l'heure de début de l'enregistrement. Le dossier des enregistrements peut être modifié à tout moment depuis NVDA Menu → Préférences → Paramètres → FreeRadio → **Dossier des enregistrements**. Étant donné que le moteur d'enregistrement se connecte directement au flux, l'audio est écrit sur le disque tel qu'il est reçu — aucun traitement ni réencodage n'est appliqué ; la qualité d'enregistrement est identique à la qualité de diffusion.
 
-**Instant recording:** While a station is playing, press `Ctrl+Win+E` once. Press again to stop. Playback continues uninterrupted throughout.
+**Enregistrement instantané:** Pendant la lecture d'une station, appuyez une fois sur `Ctrl+Win+E`. Appuyez à nouveau pour arrêter. La lecture se poursuit sans interruption.
 
-**Song recording:** Press `Ctrl+Win+E` **twice** in quick succession while a station that broadcasts ICY metadata is playing. The recording starts immediately and is named after the current track title. When the track changes, the recording stops automatically and NVDA announces the saved filename. If you want to end the recording early before the track finishes, press `Ctrl+Win+E` twice again. If the current station does not broadcast ICY metadata, song recording is not available and NVDA will inform you.
+**Enregistrement du morceau :** Appuyez sur `Ctrl+Win+E` **deux fois** de suite pendant qu'une station qui diffuse des métadonnées ICY est en cours de lecture. L'enregistrement démarre immédiatement et porte le nom du titre de la piste actuelle. Lorsque la piste change, l'enregistrement s'arrête automatiquement et NVDA annonce le nom du fichier enregistré. Si vous souhaitez terminer l'enregistrement plus tôt avant la fin de la piste, appuyez à nouveau deux fois sur `Ctrl+Win+E`. Si la station actuelle ne diffuse pas de métadonnées ICY, l'enregistrement du morceau n'est pas disponible et NVDA vous en informera.
 
-**Scheduled recording:** Open the Recording tab in the browser. Select a station from your favourites, enter the start time in HH:MM format and the duration in minutes, then choose a recording mode:
+**Enregistrement planifié:** Ouvrez l'onglet Enregistrement dans le navigateur. Sélectionnez une station parmi vos favoris, entrez l'heure de début en format HH:MM et la durée en minutes, puis choisissez un mode d'enregistrement:
 
-- **Record while listening** — plays and records simultaneously. A playback backend is started using the BASS → VLC → PotPlayer → Windows Media Player priority order.
-- **Record only** — records silently in the background without any audio output; the recording engine connects directly to the stream.
+- **Enregistrer pendant l'écoute** — joue et enregistre simultanément. Un backend de lecture est démarré en utilisant l'ordre de priorité BASS → VLC → PotPlayer → Windows Media Player.
+- **Enregistrer seulement** — enregistre silencieusement en arrière-plan sans aucune sortie audio; le moteur d'enregistrement se connecte directement au flux.
 
-If the entered time has already passed, the recording is scheduled for the following day. NVDA announces when a recording starts and when it finishes.
+Si l'heure saisie est déjà dépassée, l'enregistrement est planifié pour le lendemain. NVDA annonce quand un enregistrement commence et quand il se termine.
 
-## Timer
+## Minuterie
 
-Open the Timer tab in the station browser (`Alt+4`). Two types of timer can be added:
+Ouvrez l'onglet Minuterie dans le navigateur de stations (`Alt+4`). Deux types de minuterie peuvent être ajoutés:
 
-**Alarm — start radio:** Automatically starts playing a selected station from your favourites at the specified time. Choose a station and enter the time in HH:MM format.
+**Alarme — démarrer la radio:** Commence automatiquement la lecture d'une station sélectionnée parmi vos favoris à l'heure spécifiée. Choisissez une station et entrez l'heure en format HH:MM.
 
-**Sleep — stop radio:** Stops playback at the specified time. When the timer fires, volume is gradually reduced over 60 seconds before playback stops. No station selection is needed; just enter the time.
+**Mise en veille — arrêter la radio:** Arrête la lecture à l'heure spécifiée. Lorsque la minuterie se déclenche, le volume est progressivement réduit sur 60 secondes avant l'arrêt de la lecture. Aucune sélection de station n'est nécessaire ; entrez simplement l'heure.
 
-For both types, if the entered time has already passed the action is scheduled for the following day. Pending timers are listed in the tab; select one and press the Remove Selected Timer button to cancel it.
+Pour les deux types, si l'heure saisie est déjà dépassée, l'action est planifiée pour le lendemain. Les minuteries en attente sont répertoriées dans l'onglet ; sélectionnez-en un et appuyez sur le bouton Supprimer la minuterie sélectionnée pour l'annuler.
 
-## Settings
+## Paramètres
 
-The following options can be configured from NVDA Menu → Preferences → Settings → FreeRadio:
+Les options suivantes peuvent être configurées à partir de NVDA Menu → Préférences → Paramètres → FreeRadio:
 
 | Option | Description |
 |---|---|
-| Audio output device (BASS backend) | Sets the audio output device for radio playback. The list includes all BASS-compatible devices on the system plus a "System default" option. Changes are applied immediately on save; if the selected device is disconnected, the add-on automatically falls back to the system default and announces the change. Only active when the BASS backend is in use. |
-| Volume | Sets the add-on's starting volume (0–200). Changes made during playback with `Ctrl+Win+↑` / `Ctrl+Win+↓` are also reflected here. |
-| Default audio effect | Sets the audio effect applied when NVDA starts or a station begins playing. The selected effect corresponds to the Effects list in the Station Browser. Only active when the BASS backend is in use. |
-| Station switch transition (BASS backend) | Controls the transition behaviour when switching between stations. **Instant cut** (default) stops the previous station immediately before the new one starts. **Short crossfade (1 second)** and **Normal crossfade (2 seconds)** start the new station immediately with no gap, then gradually fade out the previous station in the background once the new stream is confirmed active. Has no effect and no performance impact when set to Instant cut. Only available when the BASS backend is in use. |
-| Resume last station on NVDA startup | When enabled, the last played station automatically restarts every time NVDA starts. |
-| Auto-announce track changes (ICY metadata) | When enabled, NVDA automatically reads the new track name each time it changes on a station that broadcasts ICY metadata. The first track is also announced immediately when switching to a new station. Disabled by default. |
-| Mute notifications | When enabled, NVDA does not announce station changes, playback state changes (play, pause, stop), or recording events (started, stopped, finished). Error messages, favourites feedback, music recognition results, and update notifications are not affected. Can also be toggled on the fly via an unassigned input gesture. Disabled by default. |
-| Save liked songs to a text file | When enabled, track info copied to the clipboard by pressing `Ctrl+Win+I` three times is also appended to `Documents\FreeRadio Recordings\likedSongs.txt`. If no ICY metadata is available, the Shazam recognition result is saved to the same file. Disabled by default. |
-| When Ctrl+Win+P is pressed with no active playback | Determines what happens when this shortcut is pressed and nothing is playing: start the last station or open the favourites list. |
-| When Ctrl+Win+P is pressed twice | Selects what happens when the shortcut is pressed twice in quick succession: do nothing, open the favourites list, open the recording tab or open the timer tab. When "do nothing" is selected, the first press responds instantly with no delay. |
-| When Ctrl+Win+P is pressed three times | Selects what happens when the shortcut is pressed three times in quick succession: do nothing, open the favourites list, open the search tab, open the recording tab or open the timer tab. |
-| Check for updates automatically | When enabled, a background update check runs each time NVDA starts; you are notified if a new version is found. When disabled, automatic checks stop but manual checks remain available. |
-| ffmpeg.exe path | Path to the ffmpeg.exe used for music recognition. If left blank, an ffmpeg.exe in the add-on folder is used automatically. |
-| VLC path | If VLC is not installed or is in a non-standard location, the full path to the executable can be entered here. |
-| wmplayer.exe path | Enter the path to Windows Media Player here if needed. |
-| PotPlayer path | If PotPlayer is in a non-standard location, its path can be entered here. |
-| Recordings folder | Sets the folder where recorded files are saved. If left blank, the default location `Documents\FreeRadio Recordings\` is used. A Browse button lets you select the folder interactively. Changes take effect immediately after saving. |
-| Disable internet connectivity check before playing | Recommended for users who experience a delay before a station starts playing. Also useful when DNS is blocked. |
+| Périphérique de sortie audio (BASS backend) | Définit  le périphérique de sortie audio pour la lecture de la radio. La liste comprend tous les périphériques sur le système BASS-compatible plus une option "valeur système par défaut". Les modifications sont appliquées immédiatement lors de l'enregistrement ; si le périphérique sélectionné est déconnecté, l'extension revient automatiquement au valeur système par défaut et annonce le changement. Actif uniquement lorsque le BASS backend est utilisé. |
+| Volume | Définit le volume au démarrage de l'extension (0–200). Modifications apportées pendant la lecture avec `Ctrl+Win+↑` / `Ctrl+Win+↓` se reflètent également ici. |
+| Effet audio par défaut | Définit l'effet audio appliqué au démarrage de NVDA ou une station commence à jouer. L'effet sélectionné correspond à la liste des effets dans le navigateur de stations. Actif uniquement lorsque le BASS backend est utilisé. |
+| Transition de changement de station (BASS backend) | Contrôle le comportement de transition lors de la commutation entre les stations. **Coupe instantanée ** (par défaut) arrête la station précédente juste avant le début de la nouvelle. **Fondu enchaîné court (1 seconde)** et **Fondu enchaîné normal (2 secondes)** démarre immédiatement la nouvelle station sans interruption, puis faites disparaître progressivement la station précédente en arrière-plan une fois que le nouveau flux est confirmé actif. N'a aucun effet et aucun impact sur les performances lorsqu'il est réglé sur Coupe instantanée. Uniquement disponible lorsque le BASS backend est en cours d'utilisation. |
+| Reprendre la dernière station au démarrage de NVDA | Lorsqu'elle est activée, la dernière station écoutée redémarre automatiquement à chaque démarrage de NVDA. |
+| Annoncer automatiquement les changements de piste (métadonnées ICY) | Lorsqu'il est activé, NVDA lit automatiquement le nouveau nom de la piste à chaque fois qu'il change sur une station qui diffuse des métadonnées ICY. Le premier morceau est également annoncé immédiatement lors du passage à une nouvelle station. Désactivé par défaut. |
+| Notifications muettes | Lorsqu'il est activé, NVDA n'annonce pas les changements de station, changements d'état de lecture (lecture, pause, arrêt) ou événements d'enregistrement (démarré, arrêté, terminé). Les messages d'erreur, les commentaires sur les favoris, les résultats de la reconnaissance musicale et les notifications de mise à jour ne sont pas affectés. Peut également être activé à la volée via un geste de commande non assigné. Désactivé par défaut. |
+| Enregistrer les morceaux aimés dans un fichier texte | Lorsqu'il est activé, les informations de piste sont copiées dans le presse-papiers en appuyant sur `Ctrl+Win+I` trois fois est également ajouté à `Documents\FreeRadio Recordings\likedSongs.txt`. Si aucune métadonnée ICY n'est disponible, le résultat de la reconnaissance Shazam est enregistré dans le même fichier. Désactivé par défaut. |
+| Lorsque Ctrl+Win+P est appuyé sans lecture active | Détermine ce qui se passe lorsque ce raccourci est appuyé et que rien n'est joué: démarrer la dernière station ou ouvrir la liste des favoris. |
+| Lorsque Ctrl+Win+P est appuyé deux fois | Sélectionne ce qui se passe lorsque le raccourci est appuyé deux fois de suite rapidement: ne rien faire, ouvrir la liste des favoris, ouvrir l'onglet d'enregistrement ou ouvrir l'onglet minuterie. Lorsque "Ne rien faire " est sélectionné, la première pulsation répond instantanément sans délai. |
+| Lorsque Ctrl+Win+P est appuyé trois fois | Sélectionne ce qui se passe lorsque le raccourci est appuyé trois fois de suite rapidement: ne rien faire, ouvrir la liste des favoris, ouvrir la recherche de stations, ouvrir l'onglet d'enregistrement ou ouvrir l'onglet minuterie. |
+| Rechercher automatiquement les mises à jour au démarrage | Lorsqu'elle est activée, une vérification de mise à jour en arrière-plan s'exécute à chaque démarrage de NVDA; vous êtes averti si une nouvelle version est trouvée. Lorsqu'il est désactivé, les contrôles automatiques s'arrêtent mais les contrôles manuels restent disponibles. |
+| Chemin ffmpeg.exe | Chemin d'accès au ffmpeg.exe utilisé pour la reconnaissance musicale. S'il est laissé vide, un ffmpeg.exe dans le dossier d'extension est utilisé automatiquement. |
+| Chemin VLC | Si VLC n'est pas installé ou se trouve dans un emplacement non standard, le chemin complet vers l'exécutable peut être saisi ici. |
+| Chemin wmplayer.exe | Entrez le chemin d'accès à Windows Media Player ici si nécessaire. |
+| Chemin PotPlayer | Si PotPlayer se trouve dans un emplacement non standard, son chemin peut être saisi ici. |
+| Dossier des enregistrements | Définit le dossier dans lequel les fichiers enregistrés sont sauvegardés. Si laissé vide, l'emplacement par défaut `Documents\FreeRadio Recordings\` est utilisé. Un bouton Explorer le dossier vous permet de sélectionner le dossier de manière interactive. Les modifications prennent effet immédiatement après l'enregistrement. |
+| Désactiver la vérification de la connectivité Internet avant de la lecture | Recommandé pour les utilisateurs qui subissent un délai avant le début de la lecture d'une station. Également utile lorsque le DNS est bloqué. |
 
-## Mute Notifications
+## Notifications Muettes
 
-When **Mute notifications** is enabled in Settings, NVDA silences the following automatic announcements:
+Lorsque **Notifications muettes ** est activé dans les Paramètres, NVDA fait taire les annonces automatiques suivantes:
 
-- Station name when a new station starts playing
-- Playback state changes: play, pause, stop
-- Recording events: started, stopped, finished (instant, song and scheduled recordings)
-- ICY track change announcements, even when **Auto-announce track changes** is also enabled
+- Nom de la station quand une nouvelle station commence à jouer
+- Changements d'état de lecture : lecture, pause, arrêt
+- Événements d'enregistrement : démarré, arrêté, terminé (enregistrements instantanés, de morceaux et planifiés)
+- Annonces de changement de piste ICY, même lorsque **Annoncer automatiquement les changements de piste** est également activé
 
-The following announcements are intentionally **not** affected: error messages, favourites feedback (added / already in list), music recognition results, and update notifications.
+Les annonces suivantes ne sont intentionnellement **pas** affectées : messages d'erreur, commentaires sur les favoris (ajouté/déjà dans la liste), résultats de reconnaissance musicale et notifications de mise à jour.
 
-The setting can be toggled from NVDA Menu → Preferences → Settings → FreeRadio, or instantly at any time via an unassigned input gesture (assign one from NVDA Menu → Preferences → Input Gestures → FreeRadio). When toggled, NVDA announces "Notifications muted" or "Notifications unmuted" once to confirm the change.
+Le paramètre peut être basculé depuis NVDA Menu → Préférences → Paramètres → FreeRadio, ou instantanément à tout moment via un geste de commande non assigné (en assigner un à partir de NVDA Menu → Préférences → Gestes de commandes → FreeRadio). Lorsqu'il est activé, NVDA annonce une fois "Notifications muettes" ou "Notifications réactivées" pour confirmer le changement.
 
-## Auto-announce Track Changes
+## Annoncer automatiquement les changements de piste
 
-When the **Auto-announce track changes** option is enabled in Settings, FreeRadio checks the active station's ICY metadata stream in the background approximately every 5 seconds. When the track changes, the new title is automatically read by NVDA — no keypress required.
+Lorsque l'option **Annoncer automatiquement les changements de piste** est activé dans les Paramètres, FreeRadio vérifie le flux de métadonnées ICY de la station active en arrière-plan environ toutes les 5 secondes. Lorsque la piste change, le nouveau titre est automatiquement lu par NVDA — aucune pulsation de touche n'est requise.
 
-When switching to a new station, the first track info is announced as soon as the connection is established. If you switch to a station that does not broadcast ICY metadata, the system stays silent and the previous station's track info is not repeated.
+Lors du passage à une nouvelle station, les premières informations sur la piste sont annoncées dès que la connexion est établie. Si vous passez à une station qui ne diffuse pas de métadonnées ICY, le système reste silencieux et les informations sur la piste de la station précédente ne sont pas répétées.
 
-This feature is disabled by default and can be toggled from NVDA Menu → Preferences → Settings → FreeRadio.
+Cette fonctionnalité est désactivée par défaut et peut être basculée depuis NVDA Menu → Préférences → Paramètres → FreeRadio.
 
-## Liked Songs
+## Morceaux aimés
 
-When the **Save liked songs to a text file** option is enabled, track info copied to the clipboard by pressing `Ctrl+Win+I` three times is also appended line by line to `Documents\FreeRadio Recordings\likedSongs.txt`.
+Lorsque l'option **Enregistrer les morceaux aimés dans un fichier texte** est activée, les informations sur la piste copiées dans le presse-papiers en appuyant trois fois sur `Ctrl+Win+I` sont également ajoutées ligne par ligne à `Documents\FreeRadio Recordings\likedSongs.txt`.
 
-On stations that broadcast ICY metadata, the track title and artist are saved directly. On stations without ICY metadata, the Shazam recognition result is saved to the same file — both sources share the same list. The file is created automatically if it does not exist; each entry is appended to the end of the file and previous entries are never deleted.
+Sur les stations qui diffusent des métadonnées ICY, le titre de la piste et l'artiste sont directement enregistrés. Sur les stations sans métadonnées ICY, le résultat de la reconnaissance Shazam est enregistré dans le même fichier — les deux sources partagent la même liste. Le fichier est créé automatiquement s'il n'existe pas ; chaque entrée est ajoutée à la fin du fichier et les entrées précédentes ne sont jamais supprimées.
 
-## Liked Songs Tab
+## Onglet Morceaux aimés
 
-The **Liked Songs** tab in the station browser displays all tracks saved in `likedSongs.txt`. The list is automatically reloaded from the file each time the tab is opened.
+L'onglet **Morceaux aimés** dans le navigateur de stations affiche toutes les pistes enregistrées dans `likedSongs.txt`. La liste est automatiquement rechargée depuis le fichier à chaque ouverture de l'onglet.
 
-Selecting a track from the list enables the following actions:
+La sélection d'une piste dans la liste permet les actions suivantes:
 
-- **Play on Spotify:** Tries to open the Spotify desktop app directly. If the app is not installed, falls back to the Spotify website and automatically starts playing the first result.
-- **Play on YouTube (`Alt+O`):** Searches YouTube for the selected track and opens the results in the default browser.
-- **Remove (`Alt+M`):** Deletes the selected track from `likedSongs.txt` and updates the list. The `Delete` key also triggers this button when the list is focused.
-- **Refresh (`Alt+E`):** Reloads the list from the file.
+- **Lire sur Spotify:** Essaie d'ouvrir directement l'application de bureau Spotify. Si l'application n'est pas installée, revient au site Web Spotify et commence automatiquement à lire le premier résultat.
+- **Lire sur YouTube (`Alt+O`):** Recherche sur YouTube la piste sélectionnée et ouvre les résultats dans le navigateur par défaut.
+- **Supprimer (`Alt+M`):** Supprime la piste sélectionnée de `likedSongs.txt` et met à jour la liste. La touche `Supprimer` déclenche également ce bouton lorsque la liste est focalisé.
+- **Rafraîchir (`Alt+E`):** Recharge la liste à partir du fichier.
 
-The Spotify, YouTube, and Remove buttons are only enabled when a real track is selected in the list.
+Les boutons Spotify, YouTube et Supprimer ne sont activés que lorsqu'une vraie piste est sélectionnée dans la liste.
 
-## Playback
+## Lecture
 
-The add-on selects a playback backend using the following priority order:
+L'extension sélectionne un backend de lecture en utilisant l'ordre de priorité suivant:
 
-1. **BASS** — the default and primary backend. No separate installation is required; it is bundled with the add-on. BASS sends audio directly to the Windows audio stack and appears in the Windows volume mixer as an independent audio source named "pythonw.exe", separate from NVDA. This means FreeRadio audio flows on a completely separate channel from NVDA speech: the radio does not cut out, mix with, or get affected by NVDA's own audio settings while NVDA is speaking. The user can adjust the radio volume independently from NVDA in the Windows Volume Mixer. Supports HTTP, HTTPS and most embedded stream formats. Audio mirroring is only available with this backend.
-2. **VLC** — takes over if BASS fails. Searched automatically in common installation locations, user profile folders and the system PATH.
-3. **PotPlayer** — tried if VLC is not found. Searched automatically in common installation locations.
-4. **Windows Media Player** — used as a last resort; requires the WMP component to be installed on the system.
+1. **BASS** — le backend par défaut et principalthe . Aucune installation séparée n'est requise; il est fourni avec l'extension. BASS envoie l'audio directement à la pile audio Windows et apparaît dans le mélangeur de volume Windows en tant que source audio indépendante nommée "pythonw.exe", séparé de NVDA. Cela signifie que l'audio FreeRadio circule sur un canal complètement distinct de la parole de NVDA : la radio n'est pas coupée, mélangée ou affectée par les propres paramètres audio de NVDA pendant que NVDA parle. L'utilisateur peut régler le volume de la radio indépendamment de NVDA dans le Mélangeur de volume Windows. Prend en charge  HTTP, HTTPS et la plupart des formats de flux intégrés. La mise en miroir audio n'est disponible qu'avec ce backend.
+2. **VLC** — prend le relais si le BASS échoue. Recherche automatique dans les emplacements d'installation courants, les dossiers de profil utilisateur et le CHEMIN du système.
+3. **PotPlayer** — essayé si VLC n'est pas trouvé. Recherche automatique dans les emplacements d'installation courants.
+4. **Windows Media Player** — utilisé en dernier recours; nécessite le composant  WMP à installer sur le système.
 
-## Update Check
+## Vérification des mises à jour
 
-FreeRadio automatically checks for new versions via GitHub.
+FreeRadio vérifie automatiquement les nouvelles versions via GitHub.
 
-**Automatic check:** Runs silently in the background 15 seconds after NVDA starts. If a new version is found, you are notified; if none is found, no message is shown.
+**Vérification automatique:** S'exécute silencieusement en arrière-plan 15 secondes après le démarrage de NVDA. Si une nouvelle version est trouvée, vous en êtes averti ; si aucun n'est trouvé, aucun message n'est affiché.
 
-**Manual check:** Can be triggered on demand from NVDA Tools → FreeRadio → **Check for Updates…**. When started this way, the result is announced even if the version is up to date.
+**Vérification manuelle:** Peut être déclenché sur demande depuis Outils NVDA → FreeRadio → **Rechercher des mises à jour…**. Au démarrage, le résultat est annoncé même si la version est à jour.
 
-**When an update is found:** A dialog opens showing the version number and your installed version.
+**Lorsqu'une mise à jour est trouvée:** Une boîte de dialogue s'ouvre affichant le numéro de version et votre version installée.
 
-- If a directly downloadable `.nvda-addon` file is available on the GitHub release, a **Download and Install** button is shown. Once confirmed, the file is downloaded in the background, NVDA announces when the download starts, and NVDA's own installation screen opens automatically.
-- If no direct download link is available, an **Open Page** button is shown and the GitHub release page opens in the default browser.
+- Si un fichier `.nvda-addon` directement téléchargeable est disponible sur la release de GitHub, un bouton **Télécharger  et Installer** est affiché. Une fois confirmé, le fichier est téléchargé en arrière-plan, NVDA annonce le démarrage du téléchargement et l'écran d'installation de NVDA s'ouvre automatiquement.
+- Si aucun lien de téléchargement direct n'est disponible, un bouton **Ouvrir la page** s'affiche et la page de la release sur GitHub s'ouvre dans le navigateur par défaut.
 
-**To disable automatic checks:** Turn off the **Check for updates automatically** option from NVDA Menu → Preferences → Settings → FreeRadio.
+**Pour désactiver les vérifications automatiques:** Désactivez l'option **Rechercher automatiquement les mises à jour au démarrage** depuis NVDA Menu → Préférences  → Paramètres → FreeRadio.
 
-## License
+## Licence
 
 GPL v2
 
