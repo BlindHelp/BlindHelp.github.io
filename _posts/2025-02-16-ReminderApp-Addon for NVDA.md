@@ -6,7 +6,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Dimanche 17 Mai 2026</footer>
+<footer> Publié le Dimanche 16 Février 2025 - Dernière mise à jour le Mercredi 3 Juin 2026</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
@@ -17,7 +17,7 @@ Je viens de le traduire en français et en espagnol pour le fun, et l'auteur m'a
 # Informations sur l'extension ReminderApp: #
 
 * Auteur: <span lang="it">Adriano Barbieri</span>
-* Version actuelle: 2.6
+* Version actuelle: 2.7
 * Compatibilité avec NVDA: 2020.4 au-delà
 * Langues supportées: Espagnol, Français,et plusieurs autres langues
 * Description:    
@@ -39,11 +39,11 @@ Vous pouvez choisir parmi différentes mélodies pour les célébrations ou les 
 
 Télécharger la dernière version stable en cliquant [ici][1]
 
-[1]: https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.6.nvda-addon
+[1]: https://raw.githubusercontent.com/Adriano-Barbieri62/ReminderApp-Addon/main/ReminderApp-2.7.nvda-addon
 
-Version: 2.6    
+Version: 2.7    
 Copyright (c) 2024 - 2026 par Adriano Barbieri.    
-Dernière modification: Dimanche 17 Mai 2026    
+Dernière modification: Mercredi 3 Juin 2026    
 
 Salutations    
 Adriano    
