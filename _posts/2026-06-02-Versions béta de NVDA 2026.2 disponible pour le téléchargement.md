@@ -6,30 +6,38 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mardi 2 Juin 2026</footer>
+<footer>Publié le Mardi 2 Juin 2026 - Dernière mise à jour le Mercredi 10 Juin 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-NV Access vient de publier la béta 1 de NVDA 2026.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2026-2beta1) le Mardi 02.06.2026.    
+NV Access vient de publier la béta 2 de NVDA 2026.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2026-2beta2) le Mercredi 10.06.2026 à 10:44.    
 
-Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette première béta et à faire part de ses commentaires.    
+Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette deuxième béta et à faire part de ses commentaires.    
 
 Lorsque vous utilisez la version béta, vous choisirez le canal béta  et ne recevrez que des notifications sur les mises à jour disponibles pour les versions béta  et rc. La dernière version rc publiée avant une version stable sera identique à cette version stable.
 
 Pour revenir au canal stable, mettez à jour manuellement NVDA vers la dernière version stable.
 
-Les changements introduits dans cette première version bêta sont consultables  à partir du lien du post (en anglais) publié par [NV Access](https://www.nvaccess.org/) le Mardi 2 Juin 2026 à 11:05 ci-dessous. Merci.
+#### Changements introduits dans la béta 2:
+
+Les changements introduits dans cette deuxième version béta sont consultables  à partir du lien du post (en anglais) ci-dessous publié par [NV Access](https://www.nvaccess.org/) le Mercredi 10 Juin 2026 à 10:44. Merci.
+
+[<span lang="en">NVDA 2026.2beta2 available for testing</span>](https://www.nvaccess.org/post/nvda-2026-2beta2/)
+
+#### Changements introduits dans la béta 1:
+
+Les changements introduits dans cette première version béta sont consultables  à partir du lien du post (en anglais) ci-dessous publié par [NV Access](https://www.nvaccess.org/) le Mardi 2 Juin 2026 à 11:05. Merci.
 
 [<span lang="en">NVDA 2026.2beta1 available for testing</span>](https://www.nvaccess.org/post/nvda-2026-2beta1/)
 
 ### Liens utiles de NV Access
 
-- [NVDA 2026.2beta1 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2026.2beta1/nvda_2026.2beta1.exe)
-   - SHA256 sum: 25b0f893f6a45017d4e8f1388e45feb8707052baafc47af713332de6fde5dd48
+- [NVDA 2026.2beta2 peut être téléchargée en cliquant sur ce lien officiel fourni par NV Access](https://download.nvaccess.org/releases/2026.2beta2/nvda_2026.2beta2.exe)
+   - SHA256 sum: b4358aa76f86d1b84b3a02a4d4d74bf6456a2b3b7b4557d82c5ad9c94896e779
 - [Quoi de Neuf](https://download.nvaccess.org/documentation/fr/changes.html)
 - Vous pouvez commenter les erreurs de cette version sur la [page d'incidences en GitHub](https://github.com/nvaccess/nvda/issues)
 
-Veuillez noter que NVDA 2026.2 béta 1 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
+Veuillez noter que NVDA 2026.2 béta 2 doit être testée en version portable ou installée dans un environnement expérimental. Elle n'est pas destinée à une utilisation de tous les jours.    
 
 Si vous avez l'extension [Sélecteur du canal de mise à jour de NVDA](https://blindhelp.github.io/updateChannel/), vous pouvez mettre à jour cette nouvelle version bêta en choisissant "Canal de mise à jour RC et bêta" et en allant à l'option "Rechercher une mise à jour..." dans le menu Aide. Si vous préférez télécharger le programme d'installation et mettre à jour manuellement, utilisez le lien ci-dessus.
 
