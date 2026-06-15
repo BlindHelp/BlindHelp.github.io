@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Dimanche 14 Juin 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -34,22 +34,22 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.19.8
+* Version installée : 2026.19.9
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.19.8/freeradio-2026.19.8.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.19.9/freeradio-2026.19.9.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date d'installation : 07/06/2026
-* Date de publication : 07/06/2026
-* Résultats de l'analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 66).
-* URL de l'analyse par VirusTotal : <https://www.virustotal.com/gui/file/a257978c94148dbd7ccf7e2aac50022368e1b6481f7f546bc1e6f0baf5a5aa43>
+* Date d'installation : 14/06/2026
+* Date de publication : 14/06/2026
+* Résultats de l'analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
+* URL de l'analyse par VirusTotal : <https://www.virustotal.com/gui/file/26d46da109d909ca3d5fd1baf91e325097c82ae1a988d8fb641dbbde05dc3d58>
 
-Et pour conclure, vous trouverez après ma signature la documentation de l'extension FreeRadio en français de la nouvelle version 2026.19.8 publiée le Dimanche 7 Juin 2026 traduit par mes soins.
+Et pour conclure, vous trouverez après ma signature la documentation de l'extension FreeRadio en français de la nouvelle version 2026.19.9 publiée le Dimanche 14 Juin 2026 traduit par mes soins.
 
 Voilà c'est fini, 🔐    
 Sur ce, je vous souhaite une bonne utilisation de cette nouvelle extension FreeRadio pour NVDA :)    
