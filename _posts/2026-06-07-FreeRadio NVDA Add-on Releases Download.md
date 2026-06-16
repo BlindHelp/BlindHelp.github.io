@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Dimanche 14 Juin 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mardi 16 Juin 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -13,7 +13,7 @@ Une nouvelle version de l'extension FreeRadio vient d'être publié.
 Avertissement: 💀    
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension FreeRadio téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension FreeRadio téléchargé est à vos risques et périls. ☠
 
-Les langues disponibles pour cette extension jusqu'à la date d'aujourd'hui sont l'anglais, l'arabe, le tchèque, l'espagnol, le français, l'italien, le khmer (Cambodge), le portugais, le russe et le turc.
+Les langues disponibles pour cette extension jusqu'à la date d'aujourd'hui sont l'anglais (en), l'arabe (ar), le tchèque (cs), l'espagnol (es), le français (fr), l'italien (it), le khmer (Cambodge) (km), le polonais (pl), le portugais (pt), le russe (ru), le turc (tr) et l'ukrainien (uk).
 
 Vous trouverez cette extension à partir de l'Add-on Store.
 
@@ -34,22 +34,22 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.19.9
+* Version installée : 2026.20.0
 * Version minimale de NVDA : 2024.1
-* Dernière version NVDA testée : 2026.1
+* Dernière version NVDA testée : 2026.1.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.19.9/freeradio-2026.19.9.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.20.0/freeradio-2026.20.0.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date d'installation : 14/06/2026
-* Date de publication : 14/06/2026
-* Résultats de l'analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
-* URL de l'analyse par VirusTotal : <https://www.virustotal.com/gui/file/26d46da109d909ca3d5fd1baf91e325097c82ae1a988d8fb641dbbde05dc3d58>
+* Date d'installation : 16/06/2026
+* Date de publication : 16/06/2026
+* Résultats de l'analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 57).
+* URL de l'analyse par VirusTotal : <https://www.virustotal.com/gui/file/e431048bb0107f49c64540c0651af752eca1362d0aa98411af7dc1b53dfa93df>
 
-Et pour conclure, vous trouverez après ma signature la documentation de l'extension FreeRadio en français de la nouvelle version 2026.19.9 publiée le Dimanche 14 Juin 2026 traduit par mes soins.
+Et pour conclure, vous trouverez après ma signature la documentation de l'extension FreeRadio en français de la nouvelle version 2026.20.0 publiée le Mardi 16 Juin 2026 traduit par mes soins.
 
 Voilà c'est fini, 🔐    
 Sur ce, je vous souhaite une bonne utilisation de cette nouvelle extension FreeRadio pour NVDA :)    
@@ -109,6 +109,7 @@ Tous les raccourcis peuvent être réassignés depuis le Menu NVDA → Préfére
 | `Ctrl+Win+E` | Enregistrement instantané | Appuyez une fois pour commencer à enregistrer la station actuelle ; appuyez à nouveau pour arrêter. Appuyez **deux fois** pour démarrer un **enregistrement d'un morceau**: le fichier porte le nom de la piste actuelle et l'enregistrement s'arrête automatiquement lorsque la piste change. Appuyez à nouveau deux fois pendant qu'un enregistrement d'un morceau est actif pour l'arrêter plus tôt. La lecture continue sans interruption dans tous les modes d'enregistrement. Uniquement disponible pour les stations qui diffusent des métadonnées ICY. |
 | `Ctrl+Win+W` | Ouvrir le dossier des enregistrements | Ouvre le dossier contenant les fichiers enregistrés dans l'Explorateur de fichiers. |
 | *(non assigné)* | Activer/désactiver les notifications muettes | Active/désactive le paramètre Muet des notifications à la volée. Assigner une combinaison de touches via NVDA Menu → Préférences → Gestes de commandes → FreeRadio. |
+| *(non assigné)* | Lire une station favorite directement | Chaque station de la liste des favoris apparaît comme une entrée distincte dans le Menu NVDA → Préférences → Gestes de commandes → **FreeRadio Stations**. Assignez un raccourci clavier à n'importe quelle station pour la démarrer instantanément depuis n'importe où, sans ouvrir le navigateur. |
 
 Les raccourcis suivant/précédent parcourent uniquement la liste des favoris ; ils ne fonctionnent pas avec la liste de toutes les stations. Quand une liste ayant le focus dans la fenêtre du navigateur, les touches fléchées gauche et droite ont le même objectif — voir la section Raccourcis dans la boîte de dialogue.
 
@@ -191,6 +192,19 @@ Pour supprimer une station de la liste des favoris, sélectionnez-la et appuyez 
 ### Réorganisation des Favoris
 
 Une station étant sélectionnée dans l'onglet Favoris, appuyez sur la `virgule` pour entrer en mode déplacement — vous entendrez un bip. Accédez à la position cible avec les touches fléchées, puis appuyez à nouveau sur la `virgule`. La station est placée à l'emplacement choisi et la nouvelle organisation est immédiatement enregistrée. En appuyant à nouveau sur la `virgule` à la même position annule le déplacement.
+
+### Raccourcis Clavier Directs pour les Stations Favorites
+
+Chaque station de la liste des favoris est enregistrée comme un script distinct dans la boîte de dialogue Gestes de commandes de NVDA, sous la catégorie **FreeRadio Stations**. Vous pouvez assigner n'importe quel raccourci clavier à n'importe quelle station et l'utiliser depuis n'importe où — sans avoir à ouvrir la fenêtre du navigateur.
+
+Pour assigner un raccourci :
+
+1. Ouvrez le Menu NVDA → Préférences → Gestes de commandes.
+2. Développez la catégorie **FreeRadio Stations**.
+3. Trouvez la station par son nom, sélectionnez-la et appuyez sur **Ajouter**.
+4. Appuyez sur la combinaison de touches souhaitée et confirmez.
+
+Le raccourci démarre la station immédiatement. Si la station est retirée des favoris, son entrée disparaît de la catégorie et tout raccourci assigné est automatiquement supprimé par NVDA. Lorsqu'une nouvelle station est ajoutée aux favoris, elle apparaît immédiatement dans la catégorie — il n'est pas nécessaire de rouvrir la boîte de dialogue Gestes de commandes.
 
 ### Ajout d'une Station Personnalisée
 
