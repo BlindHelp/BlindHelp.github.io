@@ -12,7 +12,7 @@ Je viens de découvrir qu'il existe une application pour Windows appelée MediaA
 
 ## Lien pour télécharger l'application pour Windows appelée MediaAccess
 
-Télécharger le programme d'installation (Setup) version 2.11 (celui-ci était le numéro de version lorsque j'ai publié ledit article)    
+Télécharger le programme d'installation (Setup) version 2.32 (celui-ci était le numéro de version lorsque j'ai publié ledit article à propos de cette application)    
 <https://github.com/reaperaccessible/MediaAccess/releases/latest/download/MediaAccessInstaller.exe>    
 Dans tous les cas, en cliquant sur ce même lien permettra de télécharger la dernière version actuelle de l'application pour Windows appelée MediaAccess.    
 
