@@ -34,7 +34,7 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.20.0
+* Version installée : 2026.20.1
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1.1
 * Canal : Stables
