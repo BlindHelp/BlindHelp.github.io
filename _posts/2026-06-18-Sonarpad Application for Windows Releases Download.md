@@ -65,6 +65,7 @@ Consulter le dépôt sur GitHub à partir du lien ci-dessous.
 
 Consulter le site en anglais de l'application pour Windows appelée Sonarpad à partir du lien ci-dessous.    
 <https://sonarpad.com/>    
+👉 Création du site officiel sonarpad.com, un nouveau point de référence pour suivre les dernières nouveautés, télécharger la dernière version du programme, lire les commentaires des visiteurs et, à l’avenir, écouter également tous les podcasts de Sonarpad. L’entrée « Visiter sonarpad.com » a également été ajoutée au menu Aide, afin d’ouvrir rapidement le site officiel.    
 
 ## Obtenir de l'aide
 
@@ -84,6 +85,48 @@ Pour permettre au programme de s'exécuter quand même avec Windows Defender, il
 Cela doit être fait chaque fois que le nouveau fichier exécutable .exe est installé dans le dossier de l'application.    
 
 👉 À savoir que: Pendant l'installation du programme la boîte de dialogue est affichée en anglais cependant, une fois cette installation terminée l'interface du programme sera en français.    
+
+👉 À savoir que: Pour les utilisateurs de lecteurs d'écran NVDA, un petit ajustement devra être effectué dans les options du programme.    
+
+Pour cela voir dans l'interface du programme:    
+
+`Outils sous-Menu Alt+ o`    
+Flèche haut ou bas.    
+Recherchez l'élément intitulé:    
+`Options...	Ctrl+Shift+O o`    
+Appuyez sur Entrée sur cet élément.    
+
+contrôle+tab pour vous déplacer entre les onglets de Sonarpad et recherchez l'onglet suivant appelé:    
+`Éditeur onglet`    
+Flèche haut ou bas.    
+Recherchez l'élément intitulé:    
+`Déplacer le curseur pendant la lecture case à cocher non coché`    
+Barre d'espace pour la cocher.    
+Appuyer sur OK pour valider ledit choix.    
+
+👉 À savoir que: Vous devrez peut-être configurer plus de choses dans chaque onglet, c'est pourquoi je vous recommande fortement de lire l'aide du programme dans son intégralité.
+
+## Naviguer avec Sonarpad depuis l'Explorateur de fichiers
+
+Si vous avez installé la version installable de Sonarpad, et si nous avons le curseur situé sur un des fichiers intégrés à lire avec Sonarpad, lequel nous voulons ouvrir avec celui-ci, lorsque nous cliquons sur la touche applications, nous aurons les informations suivantes si nous disposons du lecteur d'écran NVDA :    
+`Fenêtre contextuelle`    
+`Afficher d’autres options Alt,  R`    
+Appuyez sur Entrée sur cet élément.    
+`Vue d’éléments liste`    
+`Contexte menu`    
+Vous pouvez utiliser les flèches haut ou bas pour entendre les différents choix possibles, mais celui qui nous intéresse est le suivant:    
+`Open with Sonarpad`    
+Appuyez sur Entrée sur cet élément.    
+
+👉 À savoir que: Le chemin pour une installation sous un Windows 10 ou 11 est:    
+`C:\Users\Votre Nom Utilisateur\AppData\Local\Sonarpad\sonarpad.exe`    
+
+Ce fichier permet de lancer le programme depuis le raccourci bureau appelé Sonarpad.    
+
+Dans ce même chemin nous aurons le fichier appelé:    
+`uninstall.exe`    
+
+Vous pouvez utiliser ce fichier pour désinstaller le programme Sonarpad si vous pensez qu'il ne vous donne pas entière satisfaction. 😞    
 
 Voilà c'est fini, 🔐    
 Sur ce, je vous souhaite une bonne utilisation de cette nouvelle application pour Windows appelée Sonarpad complètement accessible :)    
