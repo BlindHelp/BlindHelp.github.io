@@ -10,6 +10,9 @@ author: BlindHelp
 Coucou mes amis du blog de BlindHelp!    
 Je viens de découvrir qu'il existe une application pour Windows appelée Sonarpad complètement accessible, ci-dessous je colle le lien de téléchargement et sa petite description en français et autres informations pertinentes.    
 
+Avertissement: 💀    
+Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de Sonarpad téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de Sonarpad téléchargé est à vos risques et périls. ☠    
+
 Sonarpad un couteau suisse indispensable!    
 
 ## Petite description de cette application pour Windows
@@ -34,7 +37,7 @@ Il est accessible à 100%.
 Y compris bien d'autres choses, par exemple vous pouvez rechercher une station de radio et la lire, la mettre dans vos favoris, etc.…
 
 Voir dans le programme: Outils sous-Menu 
-Radios du monde entier (Alt+Maj+R) : ouvre la fenêtre permettant de rechercher et d’écouter des radios en ligne de différents pays. Il est possible de rechercher des radios par nom, pays, langue et genre. Dans la liste des résultats, appuyez sur Entrée pour lancer la lecture de la radio sélectionnée. Vous pouvez aussi ajouter une radio aux favoris afin de la retrouver plus facilement par la suite. Sonarpad permet également d’ajouter des radios locales à la base de données partagée du programme, afin que les autres utilisateurs puissent les trouver et les écouter. Lors de l’ajout d’une radio, il faut indiquer au minimum le nom de la radio et l’adresse du flux.    
+Radios du monde entier (Alt+Maj+R) : ouvre la fenêtre permettant de rechercher et d'écouter des radios en ligne de différents pays. Il est possible de rechercher des radios par nom, pays, langue et genre. Dans la liste des résultats, appuyez sur Entrée pour lancer la lecture de la radio sélectionnée. Vous pouvez aussi ajouter une radio aux favoris afin de la retrouver plus facilement par la suite. Sonarpad permet également d'ajouter des radios locales à la base de données partagée du programme, afin que les autres utilisateurs puissent les trouver et les écouter. Lors de l'ajout d'une radio, il faut indiquer au minimum le nom de la radio et l'adresse du flux.    
 
 Auteur : <span lang="it">Ambrogio Riili</span> 🇮🇹    
 
@@ -65,7 +68,7 @@ Consulter le dépôt sur GitHub à partir du lien ci-dessous.
 
 Consulter le site en anglais de l'application pour Windows appelée Sonarpad à partir du lien ci-dessous.    
 <https://sonarpad.com/>    
-👉 Création du site officiel sonarpad.com, un nouveau point de référence pour suivre les dernières nouveautés, télécharger la dernière version du programme, lire les commentaires des visiteurs et, à l’avenir, écouter également tous les podcasts de Sonarpad. L’entrée « Visiter sonarpad.com » a également été ajoutée au menu Aide, afin d’ouvrir rapidement le site officiel.    
+👉 Création du site officiel sonarpad.com, un nouveau point de référence pour suivre les dernières nouveautés, télécharger la dernière version du programme, lire les commentaires des visiteurs et, à l'avenir, écouter également tous les podcasts de Sonarpad. L'entrée « Visiter sonarpad.com » a également été ajoutée au menu Aide, afin d'ouvrir rapidement le site officiel.    
 
 ## Obtenir de l'aide
 
@@ -78,7 +81,7 @@ Vous pouvez trouver celle-ci dans le `Menu Aide` en cliquant sur l'élément :
 
 👉 N'oubliez pas que vous devrez autoriser l'antivirus Windows Defender à utiliser le programme Sonarpad, c'est-à-dire lorsque vous exécutez son fichier appelé sonarpad.exe pour la version portable ou sonarpad_x64-setup.exe pour la version installable, qui sera déclaré faux positif par votre antivirus lors de son exécution pour la première fois !    
 
-Comment autoriser l’antivirus Windows Defender à exécuter le programme quand même ?    
+Comment autoriser l'antivirus Windows Defender à exécuter le programme quand même ?    
 
 Pour permettre au programme de s'exécuter quand même avec Windows Defender, il faut cliquer sur "Informations complémentaires". Un bouton "Exécuter quand même" apparaît alors, il suffit de cliquer dessus pour lancer l'exécution du programme sur Windows.    
 
@@ -104,19 +107,46 @@ Recherchez l'élément intitulé:
 Barre d'espace pour la cocher.    
 Appuyer sur OK pour valider ledit choix.    
 
-👉 À savoir que: Vous devrez peut-être configurer plus de choses dans chaque onglet, c'est pourquoi je vous recommande fortement de lire l'aide du programme dans son intégralité.
+👉 À savoir que: Vous devrez peut-être configurer plus de choses dans chaque onglet, c'est pourquoi je vous recommande fortement de lire l'aide du programme dans son intégralité.    
 
 ## Naviguer avec Sonarpad depuis l'Explorateur de fichiers
 
 Si vous avez installé la version installable de Sonarpad, et si nous avons le curseur situé sur un des fichiers intégrés à lire avec Sonarpad, lequel nous voulons ouvrir avec celui-ci, lorsque nous cliquons sur la touche applications, nous aurons les informations suivantes si nous disposons du lecteur d'écran NVDA :    
 `Fenêtre contextuelle`    
-`Afficher d’autres options Alt,  R`    
+`Afficher d'autres options Alt,  R`    
 Appuyez sur Entrée sur cet élément.    
-`Vue d’éléments liste`    
+`Vue d'éléments liste`    
 `Contexte menu`    
 Vous pouvez utiliser les flèches haut ou bas pour entendre les différents choix possibles, mais celui qui nous intéresse est le suivant:    
 `Open with Sonarpad`    
 Appuyez sur Entrée sur cet élément.    
+
+👉 Si cet élément est en anglais, un petit ajustement devra être effectué dans les options du programme.    
+
+Pour cela voir dans l'interface du programme:    
+
+`Outils sous-Menu Alt+ o`    
+Flèche haut ou bas.    
+Recherchez l'élément intitulé:    
+`Options...	Ctrl+Shift+O o`    
+Appuyez sur Entrée sur cet élément.    
+
+contrôle+tab pour vous déplacer entre les onglets de Sonarpad et recherchez l'onglet suivant appelé:    
+`Général onglet sélectionné`    
+Recherchez l'élément intitulé:    
+`Ajouter "Ouvrir avec Sonarpad" au menu contextuel case à cocher non coché`    
+Barre d'espace pour la cocher.    
+Appuyer sur OK pour valider ledit choix.    
+
+👉 Maintenant si on fait la même procédure déjà évoquée plus haut, on retrouvera deux éléments, l'un en anglais et l'autre en français, mais je pense que c'est pareil !    
+
+`Open with Sonarpad`    
+Appuyez sur Entrée sur cet élément.    
+
+`Ouvrir avec Sonarpad`    
+Appuyez sur Entrée sur cet élément.    
+
+👉 À savoir que: Vous devrez peut-être configurer plus de choses dans chaque onglet, c'est pourquoi je vous recommande fortement de lire l'aide du programme dans son intégralité.    
 
 👉 À savoir que: Le chemin pour une installation sous un Windows 10 ou 11 est:    
 `C:\Users\Votre Nom Utilisateur\AppData\Local\Sonarpad\sonarpad.exe`    
