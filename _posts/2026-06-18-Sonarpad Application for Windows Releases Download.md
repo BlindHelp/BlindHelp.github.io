@@ -158,6 +158,45 @@ Dans ce même chemin nous aurons le fichier appelé:
 
 Vous pouvez utiliser ce fichier pour désinstaller le programme Sonarpad si vous pensez qu'il ne vous donne pas entière satisfaction. 😞    
 
+# Remarques très importantes lors de l'enregistrement de fichiers avec Sonarpad!
+
+Lorsque vous êtes dans la fenêtre principale de Sonarpad dans la zone de texte (Sans titre  - Sonarpad), et vous l'avez rempli avec un texte écrit, par exemple, lors de l'enregistrement il faudra être très prudent puisqu'à la fin de l'extension .txt apparaissent quatre signes `\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
+affiché comme ceci:    
+`Guide du programme.txt\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
+Une fois que vous aurez supprimé les quatre signes à la fin de l'extension `.txt\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`, puis enregistré le fichier l’extension .txt apparaîtra ainsi :    
+`Guide du programme.txt - Sonarpad`    
+
+J'ai remarqué ce même problème, par exemple, si vous allez enregistrer le texte comme  livre audio, Les quatre signes apparaîtront à la fin de l’extension .mp3 comme ceci:    
+`Guide du programme.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
+
+Ces quatre signes à la fin de l'extension `.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée` devront être supprimés pour procéder à la conversion du texte en audio mp3 et éviter le message d'erreur.    
+Une fois que vous aurez supprimé les quatre signes à la fin de l'extension `.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`, puis enregistré le fichier audio l’extension .mp3 apparaîtra ainsi :    
+`Guide du programme.mp3`    
+
+Je suppose que ce même problème apparaît lors de l'enregistrement d'un fichier avec une autre extension, mais soyez prudent.    
+
+Lorsque vous aurez fini d'enregistrer des documents ou des livres audio avec Sonarpad, un dossier sera créé dans Documents sous un Windows 10 ou 11 et dont le chemin est le suivant:    
+
+`C:\Users\Votre Nom Utilisateur\Documents\Sonarpad`    
+
+Une fois que vous ouvrez le dossier nommé Sonarpad, vous trouverez deux dossiers supplémentaires tels que:    
+* `Audiobooks`    
+Ce dossier une fois ouvert, par exemple, contiendra le fichier que nous avons enregistré de texte à audio comme nom:    
+`Guide du programme.mp3`    
+* `Documents`    
+Ce dossier une fois ouvert, par exemple, contiendra le fichier texte que nous avons enregistré avec l'extension .txt comme nom:    
+`Guide du programme.txt`    
+
+C'est pourquoi je le répète, soyez très prudent lorsque vous enregistrez un fichier pris en charge par le programme Sonarpad pour éviter les messages d'erreur.    
+
+## Téléchargement des fichiers Guide du programme.txt et .mp3 pour Sonarpad
+
+Vous pouvez télécharger ces fichiers depuis votre espace via GitHub    
+[BlindHelp.github.io](https://blindhelp.github.io)                    
+en cliquant [ici](https://blindhelp.github.io/Guide-du-programme-Sonarpad-fichiers-texte-audio.zip)    
+
+Je vous souhaite une bonne lecture ou écoute de ces fichiers  avec Sonarpad! 😉    
+
 Voilà c'est fini, 🔐    
 Sur ce, je vous souhaite une bonne utilisation de cette nouvelle application pour Windows appelée Sonarpad complètement accessible :)    
 À la prochaine sur un autre post!    
