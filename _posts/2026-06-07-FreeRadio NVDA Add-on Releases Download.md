@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Vendredi 19 Juin 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Dimanche 21 Juin 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -34,22 +34,21 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.20.1
+* Version installée : 2026.20.2
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.20.1/freeradio-2026.20.1.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.20.2/freeradio-2026.20.2.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
-* URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date d'installation : 19/06/2026
-* Date de publication : 19/06/2026
-* Résultats de l'analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 63).
-* URL de l'analyse par VirusTotal : <https://www.virustotal.com/gui/file/e911df9f364f724a30529cb48aa9eb7d33502edf43f1da7fda6477fde3b3bea8>
+* URL des avis : https://github.com/nvaccess/addon-datastore/discussions/8952
+* Date de publication : 21/06/2026
+* Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 61).
+* URL de l’analyse par VirusTotal : https://www.virustotal.com/gui/file/1f0587cb4be5ef0a4b9dfb9171e64f80a77d3f0ffe0e37b7bf80a5db32c97099
 
-Et pour conclure, vous trouverez après ma signature la documentation de l'extension FreeRadio en français de la nouvelle version 2026.20.1 publiée le Vendredi 19 Juin 2026 traduit par mes soins.
+Et pour conclure, vous trouverez après ma signature la documentation de l'extension FreeRadio en français de la nouvelle version 2026.20.2 publiée le Dimanche 21 Juin 2026 traduit par mes soins.
 
 Voilà c'est fini, 🔐    
 Sur ce, je vous souhaite une bonne utilisation de cette nouvelle extension FreeRadio pour NVDA :)    
@@ -252,12 +251,19 @@ Les enregistrements sont enregistrés par défaut dans `Documents\FreeRadio Reco
 
 **Enregistrement du morceau :** Appuyez sur `Ctrl+Win+E` **deux fois** de suite pendant qu'une station qui diffuse des métadonnées ICY est en cours de lecture. L'enregistrement démarre immédiatement et porte le nom du titre de la piste actuelle. Lorsque la piste change, l'enregistrement s'arrête automatiquement et NVDA annonce le nom du fichier enregistré. Si vous souhaitez terminer l'enregistrement plus tôt avant la fin de la piste, appuyez à nouveau deux fois sur `Ctrl+Win+E`. Si la station actuelle ne diffuse pas de métadonnées ICY, l'enregistrement du morceau n'est pas disponible et NVDA vous en informera.
 
-**Enregistrement planifié:** Ouvrez l'onglet Enregistrement dans le navigateur. Sélectionnez une station parmi vos favoris, entrez l'heure de début en format HH:MM et la durée en minutes, puis choisissez un mode d'enregistrement:
+**Enregistrement planifié:** Ouvrez l'onglet Enregistrement dans le navigateur. Sélectionnez une station parmi vos favoris, entrez l'heure de début en format HH:MM et la durée en minutes, sélectionnez un ou plusieurs jours actifs, puis choisissez le mode de répétition et le mode d'enregistrement:
 
+**Jours actifs:** Cochez un ou plusieurs jours de la semaine. En mode enregistrement unique, une entrée distincte est créée pour chaque jour sélectionné, placée à la prochaine occurrence de ce jour. En mode récurrent, l'enregistrement se répète uniquement les jours cochés. Si aucun jour n'est sélectionné, l'enregistrement n'est pas limité à des jours spécifiques.
+
+**Mode de répétition:**
+- **Enregistrer une fois** — crée un enregistrement unique pour chaque jour sélectionné. Chaque entrée est placée à la prochaine occurrence de ce jour; si l'heure d'aujourd'hui est déjà dépassée, l'entrée est automatiquement reportée à la semaine suivante.
+- **Répéter chaque semaine** — se répète chaque semaine les jours actifs sélectionnés jusqu'à sa suppression de la liste de planification.
+
+**Mode d'enregistrement:**
 - **Enregistrer pendant l'écoute** — joue et enregistre simultanément. Un backend de lecture est démarré en utilisant l'ordre de priorité BASS → VLC → PotPlayer → Windows Media Player.
 - **Enregistrer seulement** — enregistre silencieusement en arrière-plan sans aucune sortie audio; le moteur d'enregistrement se connecte directement au flux.
 
-Si l'heure saisie est déjà dépassée, l'enregistrement est planifié pour le lendemain. NVDA annonce quand un enregistrement commence et quand il se termine.
+NVDA annonce quand un enregistrement commence et quand il se termine. Si NVDA est redémarré pendant qu'un enregistrement planifié est actif, l'enregistrement reprend automatiquement au démarrage.
 
 ## Minuterie
 
@@ -267,7 +273,7 @@ Ouvrez l'onglet Minuterie dans le navigateur de stations (`Alt+4`). Deux types d
 
 **Mise en veille — arrêter la radio:** Arrête la lecture à l'heure spécifiée. Lorsque la minuterie se déclenche, le volume est progressivement réduit sur 60 secondes avant l'arrêt de la lecture. Aucune sélection de station n'est nécessaire ; entrez simplement l'heure.
 
-Pour les deux types, si l'heure saisie est déjà dépassée, l'action est planifiée pour le lendemain. Les minuteries en attente sont répertoriées dans l'onglet ; sélectionnez-en un et appuyez sur le bouton Supprimer la minuterie sélectionnée pour l'annuler.
+Pour les deux types, si l'heure saisie est déjà dépassée, l'action est planifiée pour le lendemain. Si une minuterie existe déjà à la même heure (quel que soit son type), l'ajout d'une nouvelle minuterie est bloqué ; l'utilisateur est informé du conflit et invité à supprimer d'abord l'entrée existante. Les minuteries en attente sont répertoriées dans l'onglet ; sélectionnez-en un et appuyez sur le bouton Supprimer la minuterie sélectionnée pour l'annuler.
 
 ## Paramètres
 
