@@ -118,6 +118,7 @@ Appuyez sur Entrée sur cet élément.
 `Vue d'éléments liste`    
 `Contexte menu`    
 Vous pouvez utiliser les flèches haut ou bas pour entendre les différents choix possibles, mais celui qui nous intéresse est le suivant:    
+🇬🇧 English    
 `Open with Sonarpad`    
 Appuyez sur Entrée sur cet élément.    
 
@@ -138,11 +139,13 @@ Recherchez l'élément intitulé:
 Barre d'espace pour la cocher.    
 Appuyer sur OK pour valider ledit choix.    
 
-👉 Maintenant si on fait la même procédure déjà évoquée plus haut, on retrouvera deux éléments, l'un en anglais et l'autre en français, mais je pense que c'est pareil !    
+👉 Maintenant si on fait la même procédure déjà évoquée plus haut, on retrouvera deux éléments, l'un en anglais et l'autre en français, mais je pense que lorsque le PC redémarrera et que vous ouvrirez le programme Sonarpad vous ne trouverez que le nom de l'élément dans votre propre langue, dans notre cas ce sera le français.    
 
+🇬🇧 English    
 `Open with Sonarpad`    
 Appuyez sur Entrée sur cet élément.    
 
+🇫🇷     
 `Ouvrir avec Sonarpad`    
 Appuyez sur Entrée sur cet élément.    
 
