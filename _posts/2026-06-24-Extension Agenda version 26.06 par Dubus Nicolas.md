@@ -44,7 +44,8 @@ Cette extension est compatible avec les versions de NVDA 2014.3 et au-delà.
 * Mise à jour de lastTestedNVDAVersion vers 2023.1.
 
 
-[1]: https://github.com/ndubus/agenda/releases/download/v26.06/ agenda-26.06.nvda-addon
+[1]: https://github.com/ndubus/agenda/releases/download/v26.06/agenda-26.06.nvda-addon
+
 
 Amitiés.    
 
