@@ -163,7 +163,7 @@ Vous pouvez utiliser ce fichier pour désinstaller le programme Sonarpad si vous
 
 # Remarques très importantes lors de l'enregistrement de fichiers avec Sonarpad!
 
-Lorsque vous êtes dans la fenêtre principale de Sonarpad dans la zone de texte (Sans titre 1 - Sonarpad), et vous l'avez rempli avec un texte écrit, par exemple, lors de l'enregistrement il faudra être très prudent puisqu'à la fin de l'extension .txt apparaissent quatre signes `\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
+Lorsque vous êtes dans la fenêtre principale de Sonarpad dans la zone de texte (Sans titre 1.txt - Sonarpad), et vous l'avez rempli avec un texte écrit, par exemple, lors de l'enregistrement il faudra être très prudent puisqu'à la fin de l'extension .txt apparaissent quatre signes `\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
 affiché comme ceci:    
 `Guide du programme.txt\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
 Une fois que vous aurez supprimé manuellement à l'aide de la touche retour arrière les quatre signes à la fin de l'extension `.txt\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`, puis enregistré le fichier l’extension .txt apparaîtra ainsi :    
@@ -178,7 +178,7 @@ Une fois que vous aurez supprimé manuellement à l'aide de la touche retour arr
 
 En conclusion vous devez placer le curseur à la fin du dernier signe `\` `barre oblique inversée` et faire quatre appuis avec la touche retour arrière pour supprimer les quatre signes `\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée` qui apparaissent après l'extension.txt et toute extension prise en charge par le programme Sonarpad    
 
-Quand je parle de la touche retour arrière c'est la même touche connue  en anglais avec le nom de backspace    
+Quand je parle de la touche retour arrière c'est la même touche connue en anglais avec le nom de backspace    
 
 Je suppose que ce même problème apparaît lors de l'enregistrement d'un fichier avec une autre extension, mais soyez prudent.    
 
