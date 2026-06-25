@@ -1,11 +1,8 @@
-\---
+---
 
 title: Télécharger les versions les plus anciennes pour NVDA via NV Access
-
 permalink: "/NV-Access-Download-oldest-versions-for-NVDA/"
-
 layout: post
-
 author: BlindHelp
 
 ---
