@@ -163,18 +163,22 @@ Vous pouvez utiliser ce fichier pour désinstaller le programme Sonarpad si vous
 
 # Remarques très importantes lors de l'enregistrement de fichiers avec Sonarpad!
 
-Lorsque vous êtes dans la fenêtre principale de Sonarpad dans la zone de texte (Sans titre  - Sonarpad), et vous l'avez rempli avec un texte écrit, par exemple, lors de l'enregistrement il faudra être très prudent puisqu'à la fin de l'extension .txt apparaissent quatre signes `\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
+Lorsque vous êtes dans la fenêtre principale de Sonarpad dans la zone de texte (Sans titre 1 - Sonarpad), et vous l'avez rempli avec un texte écrit, par exemple, lors de l'enregistrement il faudra être très prudent puisqu'à la fin de l'extension .txt apparaissent quatre signes `\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
 affiché comme ceci:    
 `Guide du programme.txt\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
-Une fois que vous aurez supprimé les quatre signes à la fin de l'extension `.txt\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`, puis enregistré le fichier l’extension .txt apparaîtra ainsi :    
+Une fois que vous aurez supprimé manuellement à l'aide de la touche retour arrière les quatre signes à la fin de l'extension `.txt\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`, puis enregistré le fichier l’extension .txt apparaîtra ainsi :    
 `Guide du programme.txt - Sonarpad`    
 
 J'ai remarqué ce même problème, par exemple, si vous allez enregistrer le texte comme  livre audio, Les quatre signes apparaîtront à la fin de l’extension .mp3 comme ceci:    
 `Guide du programme.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`    
 
-Ces quatre signes à la fin de l'extension `.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée` devront être supprimés pour procéder à la conversion du texte en audio mp3 et éviter le message d'erreur.    
-Une fois que vous aurez supprimé les quatre signes à la fin de l'extension `.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`, puis enregistré le fichier audio l’extension .mp3 apparaîtra ainsi :    
+Ces quatre signes à la fin de l'extension `.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée` devront être supprimés manuellement à l'aide de la touche retour arrière pour procéder à la conversion du texte en audio mp3 et éviter le message d'erreur.    
+Une fois que vous aurez supprimé manuellement à l'aide de la touche retour arrière les quatre signes à la fin de l'extension `.mp3\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée`, puis enregistré le fichier audio l’extension .mp3 apparaîtra ainsi :    
 `Guide du programme.mp3`    
+
+En conclusion vous devez placer le curseur à la fin du dernier signe `\` `barre oblique inversée` et faire quatre appuis avec la touche retour arrière pour supprimer les quatre signes `\\\\` `barre oblique inversée barre oblique inversée barre oblique inversée barre oblique inversée` qui apparaissent après l'extension.txt et toute extension prise en charge par le programme Sonarpad    
+
+Quand je parle de la touche retour arrière c'est la même touche connue  en anglais avec le nom de backspace    
 
 Je suppose que ce même problème apparaît lors de l'enregistrement d'un fichier avec une autre extension, mais soyez prudent.    
 
