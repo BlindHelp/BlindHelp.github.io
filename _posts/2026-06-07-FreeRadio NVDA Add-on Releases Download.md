@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mardi 23 Juin 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Vendredi 26 Juin 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -34,21 +34,21 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.20.3
+* Version installée : 2026.20.4
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.20.3/freeradio-2026.20.3.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.20.4/freeradio-2026.20.4.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : https://github.com/nvaccess/addon-datastore/discussions/8952
-* Date de publication : 23/06/2026
-* Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 64).
-* URL de l’analyse par VirusTotal : https://www.virustotal.com/gui/file/2590a98a3360580c679b4119033938ee36502f77768ad3cb269e7711abdfee6a
+* Date de publication : 26/06/2026
+* Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
+* URL de l’analyse par VirusTotal : https://www.virustotal.com/gui/file/262f3aa10f3a2773dda6596d7d983b9601d9f83e8175f1df181421fe0fd83682
 
-Et pour conclure, vous trouverez après ma signature la documentation de l'extension FreeRadio en français de la nouvelle version 2026.20.3 publiée le Mardi 23 Juin 2026 traduit par mes soins.
+Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
 Voilà c'est fini, 🔐    
 Sur ce, je vous souhaite une bonne utilisation de cette nouvelle extension FreeRadio pour NVDA :)    
@@ -187,6 +187,21 @@ La liste des favoris est une collection de stations personnelles stockée en per
 Les favoris peuvent être lus avec `Ctrl+Win+→` et `Ctrl+Win+←`; ces raccourcis fonctionnent même lorsque la fenêtre du navigateur n'est pas ouverte.
 
 Pour supprimer une station de la liste des favoris, sélectionnez-la et appuyez sur le bouton **Supprimer la station** ou sur la touche `Supprimer`. Après la suppression, le focus et la sélection passent automatiquement à la station suivante dans la liste. Si la station supprimée était la dernière, le focus se déplace sur la station précédente. Si la liste devient vide, le focus se déplace vers le bouton Lecture.
+
+### Exportation et Importation des Favoris
+
+L'onglet Favoris comprend deux boutons pour sauvegarder et restaurer votre liste de stations :
+
+**Exporter les favoris…** — enregistre toute votre liste de favoris dans un fichier. Une boîte de dialogue vous permet de choisir entre deux formats :
+- **JSON** (`.json`) — une sauvegarde complète préservant les noms des stations, les URL des flux et toutes les métadonnées. Recommandé pour restaurer votre liste ultérieurement ou la déplacer vers un autre ordinateur.
+- **Liste de lecture M3U** (`.m3u`) — un format de liste de lecture standard compatible avec la plupart des lecteurs multimédias et applications radio. Notez que le format M3U ne stocke pas toutes les métadonnées des stations, de sorte que la restauration depuis un fichier M3U peut contenir moins de détails qu'une sauvegarde JSON.
+
+**Importer les favoris…** — charge des stations depuis un fichier JSON ou M3U précédemment exporté. Après avoir sélectionné le fichier, vous êtes invité à choisir comment ajouter les stations :
+- **Oui (Fusionner)** — ajoute les stations importées à votre liste existante sans supprimer les favoris actuels. Les stations en double ne sont pas ajoutées deux fois.
+- **Non (Remplacer)** — efface entièrement votre liste de favoris actuelle et la remplace par le contenu du fichier importé.
+- **Annuler** — retourne au navigateur sans effectuer de modifications.
+
+Après une importation réussie, la liste de favoris, la liste des stations d'enregistrement planifié et la liste des stations du minuteur sont toutes actualisées automatiquement.
 
 ### Réorganisation des Favoris
 
@@ -330,16 +345,32 @@ Sur les stations qui diffusent des métadonnées ICY, le titre de la piste et l'
 
 ## Onglet Morceaux aimés
 
-L'onglet **Morceaux aimés** dans le navigateur de stations affiche toutes les pistes enregistrées dans `likedSongs.txt`. La liste est automatiquement rechargée depuis le fichier à chaque ouverture de l'onglet.
+L'onglet **Morceaux aimés** du navigateur de stations affiche toutes les pistes enregistrées dans `likedSongs.txt`. La liste est automatiquement rechargée depuis le fichier à chaque ouverture de l'onglet.
 
-La sélection d'une piste dans la liste permet les actions suivantes:
+Un champ **Filtre** au-dessus de la liste vous permet de réduire les pistes affichées en temps réel. Saisissez n'importe quelle partie d'un titre de chanson ou d'un nom d'artiste et la liste se met à jour instantanément à chaque frappe. NVDA annonce le nombre de résultats correspondants après chaque modification. Appuyez sur la flèche `Bas` depuis le champ de filtre pour déplacer le focus directement vers la liste.
 
-- **Lire sur Spotify:** Essaie d'ouvrir directement l'application de bureau Spotify. Si l'application n'est pas installée, revient au site Web Spotify et commence automatiquement à lire le premier résultat.
-- **Lire sur YouTube (`Alt+O`):** Recherche sur YouTube la piste sélectionnée et ouvre les résultats dans le navigateur par défaut.
-- **Supprimer (`Alt+M`):** Supprime la piste sélectionnée de `likedSongs.txt` et met à jour la liste. La touche `Supprimer` déclenche également ce bouton lorsque la liste est focalisé.
-- **Rafraîchir (`Alt+E`):** Recharge la liste à partir du fichier.
+La sélection d'une piste dans la liste active les actions suivantes :
 
-Les boutons Spotify, YouTube et Supprimer ne sont activés que lorsqu'une vraie piste est sélectionnée dans la liste.
+- **Écouter sur Spotify :** Tente d'ouvrir directement l'application de bureau Spotify. Si l'application n'est pas installée, bascule vers le site Spotify et lance automatiquement la lecture du premier résultat.
+- **Écouter sur YouTube (`Alt+O`) :** Recherche la piste sélectionnée sur YouTube et ouvre les résultats dans le navigateur par défaut.
+- **Afficher les paroles :** Récupère et affiche les paroles de la piste sélectionnée. Les paroles sont récupérées depuis [lrclib.net](https://lrclib.net) (gratuit, sans compte requis). Un court message « Récupération des paroles… » est annoncé pendant que la recherche s'exécute en arrière-plan. Si des paroles sont trouvées, elles s'ouvrent dans une boîte de dialogue en lecture seule où vous pouvez les lire avec NVDA et les copier dans le presse-papiers. Si aucune parole n'est trouvée, NVDA l'annonce. Le bouton est temporairement désactivé pendant une récupération en cours pour éviter les requêtes en double.
+- **Supprimer (`Alt+M`) :** Supprime la piste sélectionnée de `likedSongs.txt` et met à jour la liste. La touche `Suppr` déclenche également ce bouton lorsque la liste est focalisée.
+- **Actualiser (`Alt+E`) :** Recharge la liste depuis le fichier.
+
+Les boutons Spotify, YouTube, Afficher les paroles et Supprimer ne sont actifs que lorsqu'une vraie piste est sélectionnée dans la liste.
+
+### Service de paroles
+
+FreeRadio utilise [lrclib.net](https://lrclib.net) pour récupérer les paroles — une base de données gratuite et ouverte ne nécessitant ni clé API ni compte. Le processus de recherche analyse la chaîne de piste stockée dans `likedSongs.txt` et essaie des requêtes progressivement plus larges jusqu'à trouver des paroles :
+
+1. Correspondance exacte avec le nom d'artiste complet et le titre nettoyé (les suffixes parasites tels que « Remastered », « Live » ou les balises d'année sont supprimés avant la recherche).
+2. Correspondance exacte avec le nom d'artiste complet et le titre original (si le nettoyage l'a modifié).
+3. Correspondance exacte avec seulement le premier nom d'artiste et le titre nettoyé (pour les chaînes multi-artistes telles que « Artiste A & Artiste B »).
+4. Recherche approximative avec le premier nom d'artiste et le titre nettoyé.
+5. Recherche approximative avec la chaîne de piste brute en dernier recours.
+
+Quand des paroles en texte brut sont disponibles, elles sont affichées telles quelles. Quand seules des paroles LRC synchronisées dans le temps sont disponibles, les horodatages sont supprimés et le texte brut est affiché. Les pistes instrumentales sont signalées comme introuvables.
+
 
 ## Lecture
 
