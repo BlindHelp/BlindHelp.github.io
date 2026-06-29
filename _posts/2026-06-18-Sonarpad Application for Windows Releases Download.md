@@ -19,7 +19,7 @@ Sonarpad un couteau suisse indispensable!
 
 Sonarpad est un éditeur de texte pour Windows avec prise en charge de plusieurs formats. Il ouvre les fichiers TXT, PDF, DOCX, EPUB et les feuilles de calcul ; lit le texte avec TTS, crée des audiolivres MP3 et lit les audiolivres.    
 
-⚠ Il faut aussi noter que le programme Sonarpad dans sa version installable et peut-être portable, une fois exécuté toutes les extensions des fichiers supportés par Sonarpad, si vous cliquez sur l'un d'eux Windows vous demandera avec quel programme vous voulez les ouvrir, il est évident que vous devriez choisir votre programme habituel pour l'ouvrir, sauf si vous voulez l'ouvrir avec Sonarpad, au moins vous êtes déjà prévenu et vous saurez quoi faire, soit l'ouvrir avec votre programme habituel soit choisir Sonar pad pour ouvrir vos fichiers avec les extensions supportées par lui.    
+⚠ Il faut aussi noter que le programme Sonarpad dans sa version installable et peut-être portable, une fois exécuté toutes les extensions des fichiers supportés par Sonarpad, si vous cliquez sur l'un d'eux Windows vous demandera avec quel programme vous voulez les ouvrir, il est évident que vous devriez choisir votre programme habituel pour l'ouvrir, sauf si vous voulez l'ouvrir avec Sonarpad, au moins vous êtes déjà prévenu et vous saurez quoi faire, soit l'ouvrir avec votre programme habituel soit choisir Sonarpad pour ouvrir vos fichiers avec les extensions supportées par lui.    
 
 ## Principales caractéristiques
 
