@@ -21,7 +21,15 @@ Sonarpad est un éditeur de texte pour Windows avec prise en charge de plusieurs
 
 ⚠ Il faut aussi noter que le programme Sonarpad dans sa version installable et peut-être portable, une fois exécuté toutes les extensions des fichiers supportés par Sonarpad, si vous cliquez sur l'un d'eux Windows vous demandera avec quel programme vous voulez les ouvrir, il est évident que vous devriez choisir votre programme habituel pour l'ouvrir, sauf si vous voulez l'ouvrir avec Sonarpad, au moins vous êtes déjà prévenu et vous saurez quoi faire, soit l'ouvrir avec votre programme habituel soit choisir Sonarpad pour ouvrir vos fichiers avec les extensions supportées par lui.    
 
-## Principales caractéristiques
+## Comment fonctionne l'option Windows Ouvrir avec ?
+
+Pour utiliser Ouvrir avec, il suffit de cliquer avec le bouton droit de la souris sur le fichier que vous souhaitez ouvrir et de sélectionner Ouvrir avec dans le menu contextuel. À partir de là, vous pouvez choisir le programme ou l'application que vous souhaitez utiliser pour ouvrir le fichier.    
+
+Les personnes aveugles ou malvoyantes peuvent également consulter cet  article à partir du lien ci-dessous réalisé par l'Association Valentin Haüy    
+
+[La commande `"Ouvrir avec"`.](https://sensibiliser.avh.asso.fr/fiches-informatique-adaptee/fiches_nvda/w11/w11_ouvrir_avec.htm)    
+
+## Principales caractéristiques de Sonarpad
 
 * Accessibilité de pointe:    
 Il est accessible à 100%.    
