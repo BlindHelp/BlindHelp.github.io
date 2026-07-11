@@ -13,7 +13,7 @@ Une nouvelle version de l'extension FreeRadio vient d'être publié.
 Avertissement: 💀    
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de l'extension FreeRadio téléchargé ni des informations ce trouvant sur la documentation dédié et l'utilisation de l'extension FreeRadio téléchargé est à vos risques et périls. ☠
 
-Les langues disponibles pour cette extension jusqu'à la date d'aujourd'hui sont l'anglais (en), l'arabe (ar), le tchèque (cs), l'espagnol (es), le français (fr), l'italien (it), le khmer (Cambodge) (km), le polonais (pl), le portugais (pt), le russe (ru), le turc (tr) et l'ukrainien (uk).
+Les langues disponibles pour cette extension jusqu'à la date d'aujourd'hui sont l'anglais (en), l'arabe (ar), le tchèque (cs), l'espagnol (es), le français (fr), l'italien (it), le khmer (Cambodge) (km), le polonais (pl), le portugais (pt), le russe (ru), le turc (tr), l'ukrainien (uk) et le chinois (simplifié) (zh_CN).
 
 Vous trouverez cette extension à partir de l'Add-on Store.
 
