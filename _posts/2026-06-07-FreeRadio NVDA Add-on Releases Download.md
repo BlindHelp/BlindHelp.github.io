@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Vendredi 26 Juin 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Samedi 11 Juillet 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -34,19 +34,19 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.20.4
+* Version installée : 2026.20.6
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.20.4/freeradio-2026.20.4.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.20.6/freeradio-2026.20.6.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
-* URL des avis : https://github.com/nvaccess/addon-datastore/discussions/8952
-* Date de publication : 26/06/2026
+* URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
+* Date de publication : 11/07/2026
 * Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
-* URL de l’analyse par VirusTotal : https://www.virustotal.com/gui/file/262f3aa10f3a2773dda6596d7d983b9601d9f83e8175f1df181421fe0fd83682
+* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/68971ed8c9ddf662b50e3f07687a0ff37634e860f5fd43f45d21d48d51b24657>
 
 Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
@@ -100,15 +100,18 @@ Tous les raccourcis peuvent être réassignés depuis le Menu NVDA → Préfére
 | `Ctrl+Win+S` | Arrêter | Arrête complètement la station actuelle et réinitialise le lecteur. |
 | `Ctrl+Win+→` | Suivant favori | Passe à la station suivante dans la liste des favoris. Revient  au début et à la fin de la liste. |
 | `Ctrl+Win+←` | Favoris précédent | Passe à la station précédente dans la liste des favoris. Saute à la fin quand on est au début. |
-| `Ctrl+Win+↑` | Augmenter le volume | Augmente le volume de 5 ; maximum 100. |
+| `Ctrl+Win+↑` | Augmenter le volume | Augmente le volume de 5 ; maximum 200. |
 | `Ctrl+Win+↓` | Diminuer le volume | Diminue le volume de 5 ; minimum 0. |
 | `Ctrl+Win+V` | Ajouter aux favoris | Ajoute la station en cours de lecture à la liste des favoris. Annonce si la station est déjà dans la liste. |
 | `Ctrl+Win+I` | Informations sur la Station | Annonce le nom de la station en cours de lecture. Appuyez deux fois pour afficher des détails tels que le pays, le genre et le bitrate dans un dialogue. Appuyez trois fois pour copier les informations de la piste actuelle (métadonnées ICY) dans le presse-papiers si disponible ; si aucune métadonnée n'est présente, démarre la reconnaissance musicale Shazam à la place. Appuyez quatre fois pour forcer la reconnaissance musicale en cas de métadonnées ICY erronées. |
 | `Ctrl+Win+M` | Miroir audio | Mettre en miroir le flux actuel vers un périphérique de sortie audio supplémentaire simultanément. Appuyez à nouveau pour arrêter la mise en miroir. |
 | `Ctrl+Win+E` | Enregistrement instantané | Appuyez une fois pour commencer à enregistrer la station actuelle ; appuyez à nouveau pour arrêter. Appuyez **deux fois** pour démarrer un **enregistrement d'un morceau**: le fichier porte le nom de la piste actuelle et l'enregistrement s'arrête automatiquement lorsque la piste change. Appuyez à nouveau deux fois pendant qu'un enregistrement d'un morceau est actif pour l'arrêter plus tôt. La lecture continue sans interruption dans tous les modes d'enregistrement. Uniquement disponible pour les stations qui diffusent des métadonnées ICY. |
 | `Ctrl+Win+W` | Ouvrir le dossier des enregistrements | Ouvre le dossier contenant les fichiers enregistrés dans l'Explorateur de fichiers. |
+| `Ctrl+Win+J` | Retour en arrière (décalage temporel) | Recule la radio en direct de 15 secondes. La première pulsation entre en mode décalage temporel ; chaque pulsation supplémentaire recule de 15 secondes de plus, jusqu'à la limite de la mémoire tampon (~10 minutes). Nécessite que la mémoire tampon de décalage temporel soit activée dans les Paramètres. |
+| `Ctrl+Win+K` | Avance rapide (décalage temporel) | Avance de 15 secondes en mode décalage temporel. Une fois le bord du direct atteint, la lecture revient automatiquement au direct et cette commande est sans effet jusqu'au prochain retour en arrière. |
+| `Ctrl+Win+T` | Basculer la mémoire tampon de décalage temporel | Active ou désactive la mémoire tampon de décalage temporel instantanément, reflétant la case à cocher dans les Paramètres. La désactiver renvoie immédiatement au direct si vous étiez en mode décalage et arrête la capture en arrière-plan. |
 | *(non assigné)* | Activer/désactiver les notifications muettes | Active/désactive le paramètre Muet des notifications à la volée. Assigner une combinaison de touches via NVDA Menu → Préférences → Gestes de commandes → FreeRadio. |
-| *(non assigné)* | Lire une station favorite directement | Chaque station de la liste des favoris apparaît comme une entrée distincte dans le Menu NVDA → Préférences → Gestes de commandes → **FreeRadio Stations**. Assignez un raccourci clavier à n'importe quelle station pour la démarrer instantanément depuis n'importe où, sans ouvrir le navigateur. |
+| *(non assigné)* | Lire une station favorite directement | Chaque station de la liste des favoris apparaît comme une entrée distincte dans le Menu NVDA → Préférences → Gestes de commandes → **Stations FreeRadio**. Assigner n'importe quel raccourci clavier à une station pour la démarrer instantanément depuis n'importe où, sans ouvrir le navigateur. |
 
 Les raccourcis suivant/précédent parcourent uniquement la liste des favoris ; ils ne fonctionnent pas avec la liste de toutes les stations. Quand une liste ayant le focus dans la fenêtre du navigateur, les touches fléchées gauche et droite ont le même objectif — voir la section Raccourcis dans la boîte de dialogue.
 
@@ -196,12 +199,12 @@ L'onglet Favoris comprend deux boutons pour sauvegarder et restaurer votre liste
 - **JSON** (`.json`) — une sauvegarde complète préservant les noms des stations, les URL des flux et toutes les métadonnées. Recommandé pour restaurer votre liste ultérieurement ou la déplacer vers un autre ordinateur.
 - **Liste de lecture M3U** (`.m3u`) — un format de liste de lecture standard compatible avec la plupart des lecteurs multimédias et applications radio. Notez que le format M3U ne stocke pas toutes les métadonnées des stations, de sorte que la restauration depuis un fichier M3U peut contenir moins de détails qu'une sauvegarde JSON.
 
-**Importer les favoris…** — charge des stations depuis un fichier JSON ou M3U précédemment exporté. Après avoir sélectionné le fichier, vous êtes invité à choisir comment ajouter les stations :
-- **Oui (Fusionner)** — ajoute les stations importées à votre liste existante sans supprimer les favoris actuels. Les stations en double ne sont pas ajoutées deux fois.
-- **Non (Remplacer)** — efface entièrement votre liste de favoris actuelle et la remplace par le contenu du fichier importé.
+**Importer les favoris…** — charge les stations depuis un fichier JSON ou M3U précédemment exporté. Après avoir sélectionné le fichier, vous êtes invité à choisir comment ajouter les stations :
+- **Oui ((Fusionner)** — ajoute les stations importées à votre liste existante sans supprimer les favoris actuels. Les stations en double ne sont pas ajoutées deux fois.
+- **Non ((Remplacer)** — efface entièrement votre liste de favoris actuelle et la remplace par le contenu du fichier importé.
 - **Annuler** — retourne au navigateur sans effectuer de modifications.
 
-Après une importation réussie, la liste de favoris, la liste des stations d'enregistrement planifié et la liste des stations du minuteur sont toutes actualisées automatiquement.
+Après une importation réussie, la liste de favoris, la liste des stations à enregistrement planifié et la liste des stations du minuteur sont toutes actualisées automatiquement.
 
 ### Réorganisation des Favoris
 
@@ -209,12 +212,12 @@ Une station étant sélectionnée dans l'onglet Favoris, appuyez sur la `virgule
 
 ### Raccourcis Clavier Directs pour les Stations Favorites
 
-Chaque station de la liste des favoris est enregistrée comme un script distinct dans la boîte de dialogue Gestes de commandes de NVDA, sous la catégorie **FreeRadio Stations**. Vous pouvez assigner n'importe quel raccourci clavier à n'importe quelle station et l'utiliser depuis n'importe où — sans avoir à ouvrir la fenêtre du navigateur.
+Chaque station de la liste des favoris est enregistrée comme un script distinct dans la boîte de dialogue Gestes de commandes de NVDA, sous la catégorie **Stations FreeRadio**. Vous pouvez assigner n'importe quel raccourci clavier à n'importe quelle station et l'utiliser depuis n'importe où — sans avoir à ouvrir la fenêtre du navigateur.
 
 Pour assigner un raccourci :
 
 1. Ouvrez le Menu NVDA → Préférences → Gestes de commandes.
-2. Développez la catégorie **FreeRadio Stations**.
+2. Développez la catégorie **Stations FreeRadio**.
 3. Trouvez la station par son nom, sélectionnez-la et appuyez sur **Ajouter**.
 4. Appuyez sur la combinaison de touches souhaitée et confirmez.
 
@@ -266,11 +269,11 @@ Les enregistrements sont enregistrés par défaut dans `Documents\FreeRadio Reco
 
 **Enregistrement du morceau :** Appuyez sur `Ctrl+Win+E` **deux fois** de suite pendant qu'une station qui diffuse des métadonnées ICY est en cours de lecture. L'enregistrement démarre immédiatement et porte le nom du titre de la piste actuelle. Lorsque la piste change, l'enregistrement s'arrête automatiquement et NVDA annonce le nom du fichier enregistré. Si vous souhaitez terminer l'enregistrement plus tôt avant la fin de la piste, appuyez à nouveau deux fois sur `Ctrl+Win+E`. Si la station actuelle ne diffuse pas de métadonnées ICY, l'enregistrement du morceau n'est pas disponible et NVDA vous en informera.
 
-**Enregistrement planifié:** Ouvrez l'onglet Enregistrement dans le navigateur. Sélectionnez une station parmi vos favoris, entrez l'heure de début en format HH:MM et la durée en minutes, sélectionnez un ou plusieurs jours actifs, puis choisissez le mode de répétition et le mode d'enregistrement:
+**Enregistrement planifié:** Ouvrez l'onglet Enregistrement dans le navigateur. Sélectionnez une station parmi vos favoris, entrez l'heure de début en format HH:MM et la durée en minutes, sélectionnez un ou plusieurs jours actifs, puis choisissez le mode de récurrence et le mode d'enregistrement:
 
-**Jours actifs:** Cochez un ou plusieurs jours de la semaine. En mode enregistrement unique, une entrée distincte est créée pour chaque jour sélectionné, placée à la prochaine occurrence de ce jour. En mode récurrent, l'enregistrement se répète uniquement les jours cochés. Si aucun jour n'est sélectionné, l'enregistrement n'est pas limité à des jours spécifiques.
+**Jours actifs:** Cochez un ou plusieurs jours de la semaine. En mode Enregistrer seulement, une entrée distincte est créée pour chaque jour sélectionné, placée à la prochaine occurrence de ce jour. En mode Récurrence, l'enregistrement se répète uniquement pour les jours cochés. Si aucun jour n'est sélectionné, l'enregistrement n'est pas limité à des jours spécifiques.
 
-**Mode de répétition:**
+**Mode de récurrence:**
 - **Enregistrer une fois** — crée un enregistrement unique pour chaque jour sélectionné. Chaque entrée est placée à la prochaine occurrence de ce jour; si l'heure d'aujourd'hui est déjà dépassée, l'entrée est automatiquement reportée à la semaine suivante.
 - **Répéter chaque semaine** — se répète chaque semaine les jours actifs sélectionnés jusqu'à sa suppression de la liste de planification.
 
@@ -278,7 +281,45 @@ Les enregistrements sont enregistrés par défaut dans `Documents\FreeRadio Reco
 - **Enregistrer pendant l'écoute** — joue et enregistre simultanément. Un backend de lecture est démarré en utilisant l'ordre de priorité BASS → VLC → PotPlayer → Windows Media Player.
 - **Enregistrer seulement** — enregistre silencieusement en arrière-plan sans aucune sortie audio; le moteur d'enregistrement se connecte directement au flux.
 
-NVDA annonce quand un enregistrement commence et quand il se termine. Si NVDA est redémarré pendant qu'un enregistrement planifié est actif, l'enregistrement reprend automatiquement au démarrage.
+NVDA annonce quand un enregistrement commence et quand il se termine. Si NVDA est redémarré alors qu'un enregistrement planifié est actif, l'enregistrement reprend automatiquement au démarrage.
+
+## Décalage temporel (retour en arrière sur la radio en direct)
+
+Le décalage temporel vous permet de rembobiner la station que vous écoutez, comme un DVR ou une cassette : suspendez le moment, revenez quelques minutes en arrière et rattrapez le direct quand vous le souhaitez. La lecture n'a pas besoin de s'arrêter : le retour en arrière et l'avance rapide se font instantanément sur le même flux audio.
+
+Cette fonctionnalité est **désactivée par défaut**. Activez-la depuis le Menu NVDA → Préférences → Paramètres → FreeRadio → **Activer la mémoire tampon de décalage temporel (retour en arrière sur la radio en direct, ~10 minutes)**, ou basculez-la instantanément à tout moment avec `Ctrl+Win+T`.
+
+### Comment ça fonctionne
+
+Une fois activé, FreeRadio capture en continu la station en cours de lecture dans une mémoire tampon locale tournante en arrière-plan. Celle-ci contient environ les **10 dernières minutes** d'audio ; l'audio le plus ancien est automatiquement supprimé à mesure que le nouveau arrive, de sorte que la mémoire tampon représente toujours le « passé récent » par rapport au bord du direct.
+
+- **`Ctrl+Win+J`** — Reculer de 15 secondes. La première pulsation vous fait passer de la lecture en direct à la lecture en décalage temporel, en commençant 15 secondes derrière le bord du direct. Chaque pulsation supplémentaire recule de 15 secondes supplémentaires.
+- **`Ctrl+Win+K`** — Avancer de 15 secondes en mode décalage temporel. Une fois le bord du direct atteint, la lecture revient automatiquement au flux en direct et NVDA annonce "Retour au direct".
+- **`Ctrl+Win+T`** — Active ou désactive toute la fonctionnalité. La désactiver en mode décalage temporel vous renvoie immédiatement au direct et arrête la capture en arrière-plan pour la station actuelle.
+
+La capture en arrière-plan continue de fonctionner tout le temps que vous êtes en décalage temporel, de sorte que le bord du direct continue d'avancer même pendant que vous écoutez quelque chose de quelques minutes plus tôt — exactement comme un vrai DVR.
+
+### Activation et préchauffage de la mémoire tampon
+
+La mémoire tampon commence à se remplir dès qu'une station commence à jouer (une fois la fonctionnalité activée) ou au moment où vous activez la fonctionnalité tout en écoutant déjà une station. Pour cette raison, le retour en arrière n'est possible qu'une fois que quelques secondes d'audio ont réellement été capturées — si vous appuyez sur `Ctrl+Win+J` immédiatement après avoir changé de station, NVDA vous indique qu'il n'y a pas encore assez d'audio dans la mémoire tampon. Attendez simplement quelques secondes et réessayez.
+
+Passer à une station différente redémarre toujours la mémoire tampon pour la nouvelle station ; l'audio de la station précédente est supprimé.
+
+### Flux pris en charge
+
+Le décalage temporel fonctionne avec la même gamme de flux déjà prise en charge par FreeRadio :
+
+- Flux HTTP/HTTPS simples (MP3, AAC, OGG, etc.), y compris les serveurs de type Shoutcast/Icecast.
+- **Flux HLS (`.m3u8`)** — FreeRadio résout la liste de lecture principale de la station, suit la liste de lecture média et télécharge les segments en arrière-plan pour maintenir la mémoire tampon remplie.
+
+Dans le cas rare où la liste de lecture d'une station ne peut pas du tout être lue (par exemple un manifeste `.m3u8` cassé ou inaccessible), NVDA vous indique que le retour en arrière n'est pas disponible pour cette station particulière.
+
+### Exigences et limitations
+
+- **Nécessite le BASS backend.** Le décalage temporel n'est pas disponible lorsque le BASS est désactivé.
+- La mémoire tampon dure environ 10 minutes ; vous ne pouvez pas rembobiner au-delà.
+- La mémoire tampon est par station : changer de station, arrêter la lecture ou redémarrer NVDA l'efface et repart de zéro.
+- La lecture en décalage temporel utilise son propre fichier de mémoire tampon local et ne produit pas d'enregistrement sauvegardé — si vous souhaitez conserver l'audio de façon permanente, utilisez également l'Enregistrement instantané (`Ctrl+Win+E`).
 
 ## Minuterie
 
@@ -288,7 +329,7 @@ Ouvrez l'onglet Minuterie dans le navigateur de stations (`Alt+4`). Deux types d
 
 **Mise en veille — arrêter la radio:** Arrête la lecture à l'heure spécifiée. Lorsque la minuterie se déclenche, le volume est progressivement réduit sur 60 secondes avant l'arrêt de la lecture. Aucune sélection de station n'est nécessaire ; entrez simplement l'heure.
 
-Pour les deux types, si l'heure saisie est déjà dépassée, l'action est planifiée pour le lendemain. Si une minuterie existe déjà à la même heure (quel que soit son type), l'ajout d'une nouvelle minuterie est bloqué ; l'utilisateur est informé du conflit et invité à supprimer d'abord l'entrée existante. Les minuteries en attente sont répertoriées dans l'onglet ; sélectionnez-en un et appuyez sur le bouton Supprimer la minuterie sélectionnée pour l'annuler.
+Pour les deux types, si l'heure saisie est déjà dépassée, l'action est planifiée pour le lendemain. L'ajout d'une minuterie est bloquée si une autre minuterie  — de n'importe quel type — existe déjà en même temps ; un message vous informe du conflit et vous invite à supprimer d'abord l'entrée existante. Les minuteries en attente sont répertoriées dans l'onglet ; sélectionnez-en un et appuyez sur le bouton Supprimer la minuterie sélectionnée pour l'annuler.
 
 ## Paramètres
 
@@ -304,6 +345,7 @@ Les options suivantes peuvent être configurées à partir de NVDA Menu → Pré
 | Reprendre la dernière station au démarrage de NVDA | Lorsqu'elle est activée, la dernière station écoutée redémarre automatiquement à chaque démarrage de NVDA. |
 | Annoncer automatiquement les changements de piste (métadonnées ICY) | Lorsqu'il est activé, NVDA lit automatiquement le nouveau nom de la piste à chaque fois qu'il change sur une station qui diffuse des métadonnées ICY. Le premier morceau est également annoncé immédiatement lors du passage à une nouvelle station. Désactivé par défaut. |
 | Notifications muettes | Lorsqu'il est activé, NVDA n'annonce pas les changements de station, changements d'état de lecture (lecture, pause, arrêt) ou événements d'enregistrement (démarré, arrêté, terminé). Les messages d'erreur, les commentaires sur les favoris, les résultats de la reconnaissance musicale et les notifications de mise à jour ne sont pas affectés. Peut également être activé à la volée via un geste de commande non assigné. Désactivé par défaut. |
+| Activer la mémoire tampon de décalage temporel (retour en arrière sur la radio en direct, ~10 minutes) | Active ou désactive la fonctionnalité de décalage temporel. Lorsqu'elle est activée, la station en cours de lecture est capturée en continu en arrière-plan afin de pouvoir la rembobiner avec `Ctrl+Win+J` et avancer avec `Ctrl+Win+K`. Peut également être basculée instantanément avec `Ctrl+Win+T`. Nécessite le BASS backend. Désactivée par défaut. |
 | Enregistrer les morceaux aimés dans un fichier texte | Lorsqu'il est activé, les informations de piste sont copiées dans le presse-papiers en appuyant sur `Ctrl+Win+I` trois fois est également ajouté à `Documents\FreeRadio Recordings\likedSongs.txt`. Si aucune métadonnée ICY n'est disponible, le résultat de la reconnaissance Shazam est enregistré dans le même fichier. Désactivé par défaut. |
 | Lorsque Ctrl+Win+P est appuyé sans lecture active | Détermine ce qui se passe lorsque ce raccourci est appuyé et que rien n'est joué: démarrer la dernière station ou ouvrir la liste des favoris. |
 | Lorsque Ctrl+Win+P est appuyé deux fois | Sélectionne ce qui se passe lorsque le raccourci est appuyé deux fois de suite rapidement: ne rien faire, ouvrir la liste des favoris, ouvrir l'onglet d'enregistrement ou ouvrir l'onglet minuterie. Lorsque "Ne rien faire " est sélectionné, la première pulsation répond instantanément sans délai. |
@@ -345,32 +387,31 @@ Sur les stations qui diffusent des métadonnées ICY, le titre de la piste et l'
 
 ## Onglet Morceaux aimés
 
-L'onglet **Morceaux aimés** du navigateur de stations affiche toutes les pistes enregistrées dans `likedSongs.txt`. La liste est automatiquement rechargée depuis le fichier à chaque ouverture de l'onglet.
+L'onglet **Morceaux aimés** dans le navigateur de stations affiche toutes les pistes enregistrées dans `likedSongs.txt`. La liste est automatiquement rechargée depuis le fichier à chaque ouverture de l'onglet.
 
-Un champ **Filtre** au-dessus de la liste vous permet de réduire les pistes affichées en temps réel. Saisissez n'importe quelle partie d'un titre de chanson ou d'un nom d'artiste et la liste se met à jour instantanément à chaque frappe. NVDA annonce le nombre de résultats correspondants après chaque modification. Appuyez sur la flèche `Bas` depuis le champ de filtre pour déplacer le focus directement vers la liste.
+Un champ **Filtrer** au-dessus de la liste vous permet de réduire les pistes affichées en temps réel. Saisissez n'importe quelle partie d'un titre d'un morceau ou du nom d'un artiste et la liste se met à jour instantanément à chaque frappe. NVDA annonce le nombre de résultats correspondants après chaque modification. Appuyez sur la flèche `Bas` depuis le champ Filtrer pour déplacer le focus directement vers la liste.
 
-La sélection d'une piste dans la liste active les actions suivantes :
+La sélection d'une piste dans la liste permet les actions suivantes:
 
-- **Écouter sur Spotify :** Tente d'ouvrir directement l'application de bureau Spotify. Si l'application n'est pas installée, bascule vers le site Spotify et lance automatiquement la lecture du premier résultat.
-- **Écouter sur YouTube (`Alt+O`) :** Recherche la piste sélectionnée sur YouTube et ouvre les résultats dans le navigateur par défaut.
-- **Afficher les paroles :** Récupère et affiche les paroles de la piste sélectionnée. Les paroles sont récupérées depuis [lrclib.net](https://lrclib.net) (gratuit, sans compte requis). Un court message « Récupération des paroles… » est annoncé pendant que la recherche s'exécute en arrière-plan. Si des paroles sont trouvées, elles s'ouvrent dans une boîte de dialogue en lecture seule où vous pouvez les lire avec NVDA et les copier dans le presse-papiers. Si aucune parole n'est trouvée, NVDA l'annonce. Le bouton est temporairement désactivé pendant une récupération en cours pour éviter les requêtes en double.
-- **Supprimer (`Alt+M`) :** Supprime la piste sélectionnée de `likedSongs.txt` et met à jour la liste. La touche `Suppr` déclenche également ce bouton lorsque la liste est focalisée.
-- **Actualiser (`Alt+E`) :** Recharge la liste depuis le fichier.
+- **Lire sur Spotify:** Essaie d'ouvrir directement l'application de bureau Spotify. Si l'application n'est pas installée, revient au site Web Spotify et commence automatiquement à lire le premier résultat.
+- **Lire sur YouTube (`Alt+O`):** Recherche sur YouTube la piste sélectionnée et ouvre les résultats dans le navigateur par défaut.
+- **Afficher les Paroles:** Récupère et affiche les paroles de la piste sélectionnée. Les paroles sont récupérées depuis [lrclib.net](https://lrclib.net) (gratuit, sans compte requis). Un court message "Récupération des paroles…" est annoncé pendant que la recherche s'exécute en arrière-plan. Si des paroles sont trouvées, elles s'ouvrent dans une boîte de dialogue en lecture seule où vous pouvez les lire avec NVDA et les copier dans le presse-papiers. Si aucune parole n'est trouvée, NVDA l'annonce. Le bouton est temporairement désactivé pendant une récupération en cours pour éviter les requêtes en double.
+- **Supprimer (`Alt+M`):** Supprime la piste sélectionnée de `likedSongs.txt` et met à jour la liste. La touche `Supprimer` déclenche également ce bouton lorsque la liste est focalisé.
+- **Rafraîchir (`Alt+E`):** Recharge la liste à partir du fichier.
 
-Les boutons Spotify, YouTube, Afficher les paroles et Supprimer ne sont actifs que lorsqu'une vraie piste est sélectionnée dans la liste.
+Les boutons Spotify, YouTube, Afficher les Paroles et Supprimer ne sont activés que lorsqu'une vraie piste est sélectionnée dans la liste.
 
-### Service de paroles
+### Service de Paroles
 
 FreeRadio utilise [lrclib.net](https://lrclib.net) pour récupérer les paroles — une base de données gratuite et ouverte ne nécessitant ni clé API ni compte. Le processus de recherche analyse la chaîne de piste stockée dans `likedSongs.txt` et essaie des requêtes progressivement plus larges jusqu'à trouver des paroles :
 
-1. Correspondance exacte avec le nom d'artiste complet et le titre nettoyé (les suffixes parasites tels que « Remastered », « Live » ou les balises d'année sont supprimés avant la recherche).
-2. Correspondance exacte avec le nom d'artiste complet et le titre original (si le nettoyage l'a modifié).
-3. Correspondance exacte avec seulement le premier nom d'artiste et le titre nettoyé (pour les chaînes multi-artistes telles que « Artiste A & Artiste B »).
-4. Recherche approximative avec le premier nom d'artiste et le titre nettoyé.
+1. Correspondance exacte avec le nom de l'artiste complet et le titre nettoyé (les suffixes parasites tels que "Remastered", "Live" ou les balises d'année sont supprimés avant la recherche).
+2. Correspondance exacte avec le nom de l'artiste complet et le titre original (si le nettoyage l'a modifié).
+3. Correspondance exacte avec seulement le premier nom de l'artiste et le titre nettoyé (pour les chaînes multi-artistes telles que "Artist A & Artist B").
+4. Recherche approximative avec le premier nom de l'artiste et le titre nettoyé.
 5. Recherche approximative avec la chaîne de piste brute en dernier recours.
 
 Quand des paroles en texte brut sont disponibles, elles sont affichées telles quelles. Quand seules des paroles LRC synchronisées dans le temps sont disponibles, les horodatages sont supprimés et le texte brut est affiché. Les pistes instrumentales sont signalées comme introuvables.
-
 
 ## Lecture
 
