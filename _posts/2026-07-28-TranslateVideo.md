@@ -8,12 +8,12 @@ author: BlindHelp
 ---
 
 
-<footer>Publié le Mardi 28 Juillet 2026</footer>
+<footer>Publié le Mardi 28 Juillet 2026 - Dernière mise à jour le Mercredi 29 Juillet 2026</footer>
 
 
 Coucou mes amis du blog de BlindHelp!    
 
-Voici un outil de préparation de vidéos et de fichiers audio, avec traduction de l’anglais, de l’espagnol, de l’italien, de l’allemand et du néerlandais vers le français. Ce programme s'appelle TranslateVideo  et a été développé par notre ami Luc Rasschaert 👈🏻, et vous pouvez lire la description faite par lui ci-dessous suivie du lien de téléchargement de sa dernière version disponible au moment où j'ai écrit ce post.
+Voici un outil de préparation de vidéos et de fichiers audio, avec traduction de l’anglais, de l’espagnol, de l’italien, de l’allemand et du néerlandais vers le français. Ce programme s'appelle TranslateVideo  et a été développé par notre ami Luc Rasschaert 👈🏻, et vous pouvez lire la description faite par lui ci-dessous suivie du lien de téléchargement de sa dernière version disponible au moment où j'ai fait la dernière mise à jour de ce post.
 
 # TranslateVideo
 
@@ -242,9 +242,9 @@ Le premier traitement peut être plus long en raison du téléchargement et de l
 ---
 
 
-## Lien de téléchargement de la version 2.13.4 de l'application pour Windows appelée TranslateVideo publié le Mardi 28 Juillet 2026 par l'auteur
+## Lien de téléchargement de la dernière version de TranslateVideo mise à jour du Mercredi 29 Juillet 2026
 
-Luc Rasschaert 👈🏻, le concepteur du programme, m'a remis le lien pour la dernière version que vous pouvez télécharger en cliquant [ici](https://www.hebergement-courte-duree.com/translate-video/TranslateVideo_Setup_V2_13_4.exe)
+Luc Rasschaert 👈🏻, le concepteur du programme TranslateVideo, m'a remis le lien pour télécharger la dernière version 2.14.12 dont vous pouvez l'obtenir en cliquant [ici](https://www.hebergement-courte-duree.com/translate-video/TranslateVideo_Setup_V2_14_12.exe)
 
 
 ---
