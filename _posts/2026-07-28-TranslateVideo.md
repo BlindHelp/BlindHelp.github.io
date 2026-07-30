@@ -244,7 +244,7 @@ Le premier traitement peut être plus long en raison du téléchargement et de l
 
 ## Lien de téléchargement de la dernière version de TranslateVideo mise à jour du Mercredi 29 Juillet 2026
 
-Luc Rasschaert 👈🏻, le concepteur du programme TranslateVideo, m'a remis le lien pour télécharger la dernière version 2.14.12 dont vous pouvez l'obtenir en cliquant [ici](https://www.hebergement-courte-duree.com/translate-video/TranslateVideo_Setup_V2_14_12.exe)
+Luc Rasschaert 👈🏻, le concepteur du programme TranslateVideo, m'a remis le lien pour télécharger la dernière version 2.14.12 dont vous pouvez l'obtenir en cliquant [ici](https://www.hebergement-courte-duree.com/translate-video/download_update.php?file=TranslateVideo_Setup_V2_14_12.exe)
 
 
 ---
