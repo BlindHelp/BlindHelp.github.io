@@ -6,7 +6,7 @@ author: BlindHelp
 
 ---
 
-<footer>Publié le Mardi 2 Juin 2026 - Dernière mise à jour le Mardi 28 Juillet 2026</footer>
+<footer>Publié le Mardi 2 Juin 2026 - Dernière mise à jour le Jeudi 6 Août 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
