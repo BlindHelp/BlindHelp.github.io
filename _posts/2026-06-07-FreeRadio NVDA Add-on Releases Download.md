@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Dimanche 2 Août 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mercredi 5 Août 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -34,19 +34,19 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.21.1
+* Version installée : 2026.21.2
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.21.1/freeradio-2026.21.1.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.21.2/freeradio-2026.21.2.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date de publication : 02/08/2026
-* Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 65).
-* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/4822fd612d4e24098eb16918d542c13f5a0b002737016f596ef591dcbbf8c509>
+* Date de publication : 05/08/2026
+* Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
+* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/8577aa24a8c80b1d49f9d312417c497e8fa9c8972a2a3ae290f1bfb389e8a817>
 
 Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
@@ -385,7 +385,7 @@ Les options suivantes peuvent être configurées à partir de NVDA Menu → Pré
 | Volume | Définit le volume au démarrage de l'extension (0–200). Modifications apportées pendant la lecture avec `Ctrl+Win+↑` / `Ctrl+Win+↓` se reflètent également ici. |
 | Effet audio par défaut | Définit l'effet audio appliqué au démarrage de NVDA ou une station commence à jouer. L'effet sélectionné correspond à la liste des effets dans le navigateur de stations. Actif uniquement lorsque le BASS backend est utilisé. |
 | Gain EQ (Bass / Treble / Vocal) | Définit le niveau de gain en dB pour chaque bande EQ (−15 à +15). Ces valeurs s'appliquent lorsque l'effet EQ correspondant est actif et sont enregistrées globalement. Les remplacements par station peuvent être stockés à l'aide du bouton **Enregistrer le profil audio** dans l'onglet Favoris. Actif uniquement lorsque le BASS backend est utilisé. |
-| Transition de changement de station (BASS backend) | Contrôle le comportement de transition lors de la commutation entre les stations. **Coupe instantanée ** (par défaut) arrête la station précédente juste avant le début de la nouvelle. **Fondu enchaîné court (1 seconde)** et **Fondu enchaîné normal (2 secondes)** démarre immédiatement la nouvelle station sans interruption, puis faites disparaître progressivement la station précédente en arrière-plan une fois que le nouveau flux est confirmé actif. N'a aucun effet et aucun impact sur les performances lorsqu'il est réglé sur Coupe instantanée. Uniquement disponible lorsque le BASS backend est en cours d'utilisation. |
+| Transition de changement de station (BASS backend) | Contrôle le comportement de transition lors de la commutation entre les stations. **Coupe instantanée ** (par défaut) arrête la station précédente juste avant le début de la nouvelle. **Fondu enchaîné court (1 seconde)** et **Fondu enchaîné normal (2 secondes)** démarre immédiatement la nouvelle station sans interruption, puis faites disparaître progressivement la station précédente en arrière-plan une fois que le nouveau flux est confirmé actif. **Effet sonore de syntonisation de station** arrête immédiatement la station précédente et joue un effet sonore de syntonisation avant que la nouvelle ne commence. N'a aucun effet et aucun impact sur les performances lorsqu'il est réglé sur Coupe instantanée. Uniquement disponible lorsque le BASS backend est en cours d'utilisation. |
 | Reprendre la dernière station au démarrage de NVDA | Lorsqu'elle est activée, la dernière station écoutée redémarre automatiquement à chaque démarrage de NVDA. |
 | Annoncer automatiquement les changements de piste (métadonnées ICY) | Lorsqu'il est activé, NVDA lit automatiquement le nouveau nom de la piste à chaque fois qu'il change sur une station qui diffuse des métadonnées ICY. Le premier morceau est également annoncé immédiatement lors du passage à une nouvelle station. Désactivé par défaut. |
 | Notifications muettes | Lorsqu'il est activé, NVDA n'annonce pas les changements de station, changements d'état de lecture (lecture, pause, arrêt) ou événements d'enregistrement (démarré, arrêté, terminé). Les messages d'erreur, les commentaires sur les favoris, les résultats de la reconnaissance musicale et les notifications de mise à jour ne sont pas affectés. Peut également être activé à la volée via un geste de commande non assigné. Désactivé par défaut. |
