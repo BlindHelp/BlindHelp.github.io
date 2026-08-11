@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mercredi 5 Août 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mardi 11 Août 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -34,19 +34,19 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version installée : 2026.21.2
+* Version installée : 2026.22.0
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.1.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.21.2/freeradio-2026.21.2.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.22.0/freeradio-2026.22.0.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date de publication : 05/08/2026
-* Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
-* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/8577aa24a8c80b1d49f9d312417c497e8fa9c8972a2a3ae290f1bfb389e8a817>
+* Date de publication : 11/08/2026
+* Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 66).
+* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/a16f1d26318cd3bd8f861d6a07e7c2b0bf99997eedfc34b9ebb26edc605c7ec0>
 
 Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
