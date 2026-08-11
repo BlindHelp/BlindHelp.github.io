@@ -10,7 +10,6 @@ author: BlindHelp
 
 Coucou mes amis du blog de BlindHelp!    
 Aujourd'hui, je vous apporte une nouvelle toute fraîche fournie ce matin par Sean Budd (NV Access), donc la voici :    
-
 NV Access vient de publier la béta 10 de NVDA 2026.2 signalé par [eux-mêmes sur ce poste (en anglais)](https://www.nvaccess.org/post/nvda-2026-2beta10) le Jeudi 06.08.2026 à 11:11.    
 
 Toute personne intéressée par ce qu'offrira la prochaine version de NVDA est invitée à télécharger cette dixième béta et à faire part de ses commentaires.    
