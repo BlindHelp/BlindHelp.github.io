@@ -46,7 +46,7 @@ FreeRadio est une extension de radio Internet pour NVDA qui offre un accès cont
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
 * Date de publication : 23/08/2026
 * Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
-* URL de l’analyse par VirusTotal : https://www.virustotal.com/gui/file/35e8912c95ff82c02c4916ce71c8cd33d0a7a770a0de392ff4e574231bc87591
+* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/35e8912c95ff82c02c4916ce71c8cd33d0a7a770a0de392ff4e574231bc87591>
 
 Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
