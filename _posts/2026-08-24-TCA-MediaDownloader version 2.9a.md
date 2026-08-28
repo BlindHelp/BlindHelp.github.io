@@ -66,7 +66,7 @@ J'espère que vous l'apprécierez. Cette solution fonctionne en Août 2026 : si
 <p>Vous pouvez  utiliser le lien ci-dessous pour visualiser la video sur YouTube.</p>
 <p><span lang="es">TCA-MediaDownloader versión 2.9a: 🚀Se acabaron los problemas!</span><br />
 Lien direct :<br />
-<a href="https://www.youtube.com/watch?v=NJ3H2gaxs-o</a></p>
+<a href="https://www.youtube.com/watch?v=NJ3H2gaxs-o">https://www.youtube.com/watch?v=NJ3H2gaxs-o</a></p>
 <p>Et finalement, vous pouvez cliquer sur le lien ci-dessous pour consulter son blog en espagnol.<br />
 <a href="https://tecnoconocimientoaccesible.blogspot.com/"><span lang="es">TecnoConocimientoAccesible</span></a><br />
 <span lang="es">Si buscabas un blog con tutoriales, programas, tiflotecnología y mucho más, ¡Éste es tu blog!</span></p>
