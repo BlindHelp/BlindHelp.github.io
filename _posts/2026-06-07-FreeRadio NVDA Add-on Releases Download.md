@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Vendredi 4 Septembre 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mardi 8 Septembre 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -36,17 +36,17 @@ FreeRadio est une extension de radio Internet, podcast et livre audio pour NVDA 
 * ID : freeradio
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.2
-* Version disponible : 2026.23.5
+* Version disponible : 2026.23.6
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.23.5/freeradio-2026.23.5.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.23.6/freeradio-2026.23.6.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date de publication : 04/09/2026
+* Date de publication : 08/09/2026
 * Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
-* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/bcd7df3ab8631f19a968ff246b58efd50d210a20dfe893fb7379919fe425ec03>
+* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/ff12ce50190264b7946f9bc6e10375e61c0e4a6a0e9b6e09a2310143fcd6a859>
 
 Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
