@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mardi 8 Septembre 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Lundi 14 Septembre 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -36,17 +36,17 @@ FreeRadio est une extension de radio Internet, podcast et livre audio pour NVDA 
 * ID : freeradio
 * Version minimale de NVDA : 2024.1
 * Dernière version NVDA testée : 2026.2
-* Version disponible : 2026.23.6
+* Version disponible : 2026.24.0
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.23.6/freeradio-2026.23.6.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.24.0/freeradio-2026.24.0.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date de publication : 08/09/2026
+* Date de publication : 14/09/2026
 * Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
-* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/ff12ce50190264b7946f9bc6e10375e61c0e4a6a0e9b6e09a2310143fcd6a859>
+* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/8e748f2be361e590a5af737cbb08d131f8bd9721e871592d9a03314898f514e9>
 
 Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
@@ -65,10 +65,12 @@ FreeRadio est une extension complète pour le lecteur d'écran NVDA, comprenant 
 - **Radio Internet** — Parcourez et recherchez plus de 50 000 stations à partir de l'annuaire [Radio Browser](https://www.radio-browser.info/), Résultats complétés par TuneIn et iHeartRadio. Enregistrez vos favoris, réorganisez-les et accédez-y directement grâce à un raccourci clavier global depuis n'importe où dans Windows — consultez les sections [L'Annuaire de Radio Browser](#radio-browser-directory) et [Favoris](#favourites).
 - **Podcasts** — Abonnez-vous à un flux RSS/Atom ou parcourez l'annuaire de podcasts d'Apple et écoutez des extraits avant de vous abonner. La position de lecture est enregistrée automatiquement et reprend là où vous vous étiez arrêté — consultez la section [Podcasts](#podcasts).
 - **Livres audio** — Recherchez, lisez en streaming ou téléchargez des livres à partir des deux sources: [GETEM](https://getem.boun.edu.tr/), la bibliothèque numérique de l'Université Boğaziçi pour les personnes malvoyantes, et [LibriVox](https://librivox.org/), le projet de livres audio du domaine public lus par des bénévoles (aucun compte requis), avec reprise automatique pour les œuvres en plusieurs parties — consultez la section [Livres audio (GETEM et LibriVox)](#audio-books-getem-and-librivox).
+- **Jukebox Local** — Recherchez des fichiers audio stockés sur n'importe quel disque connecté par leur nom, ou créez une bibliothèque personnelle de fichiers et de dossiers, et écoutez-les avec les mêmes outils de reprise, de recherche, de vitesse et de tonalité que les podcasts et les livres audio utilisent — consultez la section [Jukebox Local](#local-jukebox).
 - **Enregistrement** — Enregistrez instantanément ce qui est diffusé, capturez automatiquement un morceau au début et à la fin de sa lecture, ou planifiez des enregistrements ponctuels ou récurrents, le tout sans interrompre la lecture — consultez la section [Enregistrement](#recording).
 - **Décalage temporel (retour en arrière sur la radio en direct)** — Mettez en pause et revenez en arrière sur une chaîne en direct comme avec un enregistreur numérique, puis reprenez le direct quand vous le souhaitez — consultez la section [Décalage temporel (retour en arrière sur la radio en direct)](#time-shift-rewind-live-radio).
 - **Reconnaissance musicale et morceaux aimés** — Identifiez les morceaux sans métadonnées à l'aide de Shazam basée sur la reconnaissance, enregistrez les morceaux aimés dans un fichier texte et consultez leurs paroles — consultez les sections [Reconnaissance Musicale](#music-recognition) et [Morceaux aimés](#liked-songs).
-- **Profils audio et effets** — Enregistrez des réglages distincts de volume, d'effets, d'égalisation et de vitesse de lecture pour chaque station, podcast ou livre audio, et appliquez des effets en temps réel (Chœur, Réverbération, EQ boosts, et plus encore) à travers du BASS backend — consultez la section [Profil Audio de la Station](#station-audio-profile).
+- **Profils audio et effets** — Enregistrez des réglages distincts de volume, d'effets, d'égalisation et de vitesse de lecture par station, par podcast, par livre audio ou par morceau du jukebox, et appliquez des effets en temps réel (Chœur, Réverbération, EQ boosts, et plus encore) à travers du BASS backend — consultez la section [Profil Audio de la Station](#station-audio-profile).
+- **Transposition (changement de la hauteur)** — Modifiez la hauteur des podcasts, des livres audio et des morceaux du jukebox vers le haut ou vers le bas sans changer leur vitesse, en utilisant le composant `bass_fx` intégré — consultez la section [Transposition (Changement de la Hauteur)](#transpose-pitch-shift).
 - **Miroir audio** — Diffuser le même flux audio simultanément vers deux périphériques de sortie, tels que des haut-parleurs et écouteurs — consultez la section [Miroir Audio](#audio-mirror).
 - **Mode Obligato (musique de fond)** — Diffuser discrètement une station favorite en arrière-plan, sur son propre périphérique de sortie et à son propre volume, quel que soit le média principal diffusé (ou non) — consultez la section [Mode Obligato](#obligato-mode).
 - **Minuteries** — Planifiez le démarrage d'une station favorite ou l'arrêt de la lecture à une heure précise — consultez la section [Minuterie](#timer).
@@ -114,23 +116,26 @@ Tous les raccourcis peuvent être réassignés depuis le Menu NVDA → Préfére
 | `Ctrl+Win+R` | Ouvrir le navigateur de stations | Ouvre la fenêtre du navigateur si elle est fermée, ou la met au premier plan si elle est déjà ouverte. |
 | `Ctrl+Win+O` | Ouvrir l'onglet Podcasts | Ouvre le navigateur de stations (s'il est fermé) ou le met au premier plan, et bascule directement vers l'onglet **Podcasts**. |
 | `Ctrl+Win+L` | Ouvrir l'onglet Livres audio | Ouvre le navigateur de stations (s'il est fermé) ou le met au premier plan, et bascule directement vers l'onglet **Livres audio**. |
+| `Ctrl+Win+U` | Ouvrir l'onglet Jukebox | Ouvre le navigateur de stations (s'il est fermé) ou le met au premier plan, et bascule directement vers l'onglet **Jukebox**, focalisé sur la boîte de recherche du disque. |
 | `Ctrl+Win+P` | Mettre en pause / reprendre | Met en pause la station actuelle si elle est en cours de lecture ; reprend en cas de pause. Si rien ne joue, démarre la dernière station ou ouvre la liste des favoris en fonction de votre réglage. En appuyant deux fois de suite, vous accédez directement à un onglet de votre choix. Appuyer trois fois peut déclencher une action distincte en fonction de votre réglage. |
 | `Ctrl+Win+S` | Arrêter | Arrête complètement la station actuelle et réinitialise le lecteur. |
 | `Ctrl+Win+→` | Suivant favori | Passe à la station suivante dans la liste des favoris. Revient  au début et à la fin de la liste. |
 | `Ctrl+Win+←` | Favoris précédent | Passe à la station précédente dans la liste des favoris. Saute à la fin quand on est au début. |
 | `Ctrl+Win+↑` | Augmenter le volume | Augmente le volume de 5 ; maximum 200. |
 | `Ctrl+Win+↓` | Diminuer le volume | Diminue le volume de 5 ; minimum 0. |
-| `Ctrl+Win+V` | Ajouter aux favoris | Ajoute la station en cours de lecture à la liste des favoris. Annonce si la station est déjà dans la liste. |
-| `Ctrl+Win+Shift+K` | Augmenter la vitesse de lecture | Augmente la vitesse de lecture d'un épisode de podcast de 0.1x (préservation de la hauteur). Gamme: 0.5x à 2.0x. Nécessite le `bass_fx.dll` pour le placer dans le dossier de l'extension. |
-| `Ctrl+Win+Shift+J` | Diminuer la vitesse de lecture | Diminue la vitesse de lecture d'un épisode de podcast de 0.1x. Nécessite le `bass_fx.dll`. |
-| `Ctrl+Win+I` | Informations sur la Station | Annonce le nom de la station en cours de lecture. Appuyez deux fois pour afficher des détails tels que le pays, le genre et le bitrate dans un dialogue. Appuyez trois fois pour copier les informations de la piste actuelle (métadonnées ICY) dans le presse-papiers si disponible ; si aucune métadonnée n'est présente, démarre la reconnaissance musicale Shazam à la place. Appuyez quatre fois pour forcer la reconnaissance musicale en cas de métadonnées ICY erronées. |
+| `Ctrl+Win+V` | Ajouter aux favoris / Télécharger le média | Ajoute la station en cours de lecture à la liste des favoris ou télécharge l'épisode de podcast ou le livre audio en cours de lecture. Annonce si la station est déjà dans la liste ou si le média avait déjà été téléchargé. Non applicable lorsqu'un morceau du jukebox est en cours de lecture: FreeRadio vous indique que ce raccourci est uniquement valable pour les stations, les podcasts ou les livres audio. |
+| `Ctrl+Win+Shift+K` | Augmenter la vitesse de lecture | Augmente la vitesse de lecture d'un épisode de podcast, d'un livre audio ou d'un morceau du jukebox de 0.1x (préservation de la hauteur). Gamme: 0.5x à 2.0x. Nécessite le `bass_fx.dll` pour le placer dans le dossier de l'extension. |
+| `Ctrl+Win+Shift+J` | Diminuer la vitesse de lecture | Diminue la vitesse de lecture d'un épisode de podcast, d'un livre audio ou d'un morceau du jukebox de 0.1x. Nécessite le `bass_fx.dll`. |
+| `Shift+Win+K` | Transposition vers le haut | Augmente la hauteur d'un épisode de podcast, d'un livre audio ou d'un morceau du jukebox par pas de 1/8 de ton entier (0.25 demi-ton), sans changer sa vitesse. Gamme: −12.00 à +12.00 demi-tons. Nécessite le `bass_fx.dll`. Consultez la section [Transposition (Changement de la Hauteur)](#transpose-pitch-shift). |
+| `Shift+Win+J` | Transposition vers le bas | Diminue la hauteur par pas de 1/8 de ton entier, sans modifier la vitesse. Nécessite le `bass_fx.dll`. |
+| `Ctrl+Win+I` | Informations sur la Station | Annonce le nom de la station en cours de lecture, épisode de podcast, livre audio ou morceau du jukebox. Appuyez deux fois pour afficher des détails tels que le pays, le genre et le bitrate dans un dialogue. Appuyez trois fois pour copier les informations de la piste actuelle (métadonnées ICY) dans le presse-papiers si disponible ; si aucune métadonnée n'est présente, démarre la reconnaissance musicale Shazam à la place. Appuyez quatre fois pour forcer la reconnaissance musicale en cas de métadonnées ICY erronées. |
 | `Ctrl+Win+M` | Miroir audio | Mettre en miroir le flux actuel ou média vers un périphérique de sortie audio supplémentaire simultanément. Appuyez à nouveau pour arrêter la mise en miroir. |
 | `Ctrl+Win+Shift+M` | Mode Obligato (musique de fond) | Diffuse en boucle une station favorite choisie en arrière-plan, discrètement, sur son propre périphérique de sortie et à son propre volume, quel que soit le média principal diffusé. Lorsque vous appuyez  pour la première fois, une boîte de dialogue s'ouvrira permettant de sélectionner la station, le périphérique de sortie et le volume. Appuyez de nouveau pour l'arrêter. |
 | `Ctrl+Win+E` | Enregistrement instantané | Appuyez une fois pour commencer à enregistrer la station actuelle ; appuyez à nouveau pour arrêter. Appuyez **deux fois** pour démarrer un **enregistrement d'un morceau**: le fichier porte le nom de la piste actuelle et l'enregistrement s'arrête automatiquement lorsque la piste change. Appuyez à nouveau deux fois pendant qu'un enregistrement d'un morceau est actif pour l'arrêter plus tôt. La lecture continue sans interruption dans tous les modes d'enregistrement. Uniquement disponible pour les stations qui diffusent des métadonnées ICY. |
 | `Ctrl+Win+W` | Ouvrir le dossier des enregistrements | Ouvre le dossier contenant les fichiers enregistrés dans l'Explorateur de fichiers. |
-| `Ctrl+Win+J` | Retour en arrière du décalage temporel / podcast & livre audio chercher en arrière | Pour la radio en direct: recule de 15 secondes. La première pulsation entre en mode décalage temporel ; chaque pulsation supplémentaire recule de 15 secondes de plus, jusqu'à la limite de la mémoire tampon défini dans les paramètres de FreeRadio. Nécessite que la mémoire tampon de décalage temporel soit activée dans les Paramètres.Pour un podcast ou un livre audio, cette touche permet de naviguer dans le fichier, et la durée de la recherche dépend de la pulsation exercée : **maintenir la touche enfoncée** permet de revenir en arrière de 5 secondes par répétition, comme auparavant ; **une simple pulsation** permet de revenir en arrière de 12 secondes ; **deux pulsations rapides** permettent de revenir en arrière d'une minute ; **trois pulsations ou plus** permettent de revenir en arrière de 5 minutes. Une seule recherche est effectuée par séquence de pulsations, la durée correspondant au nombre de pulsations effectuées (les pulsations ne s'additionnent pas). Fonctionne quel que soit le réglage du décalage temporel. |
-| `Ctrl+Win+K` | Avance rapide du décalage temporel / podcast & livre audio chercher en avant | Pour la radio en direct: avance de 15 secondes en mode décalage temporel. Une fois le bord du direct atteint, la lecture revient automatiquement au direct et cette commande est sans effet jusqu'au prochain retour en arrière. Pour un podcast ou un livre audio, cette touche permet de faire défiler le fichier en utilisant la même échelle de pulsation/maintien que `Ctrl+Win+J` ci-dessus (maintien = 5 secondes par répétition ; 1 pulsation = 12 secondes ; 2 pulsations = 1 minute ; 3 pulsations ou plus = 5 minutes). Une seule recherche est effectuée par séquence de pulsations, dimensionnée en fonction du nombre de pulsations effectués (les pulsations ne s'additionnent pas). Fonctionne quel que soit le réglage du décalage temporel. |
-| `Ctrl+Win+T` | Basculer la mémoire tampon de décalage temporel | Active ou désactive la mémoire tampon de décalage temporel instantanément, reflétant la case à cocher dans les Paramètres. La désactiver renvoie immédiatement au direct si vous étiez en mode décalage et arrête la capture en arrière-plan. |
+| `Ctrl+Win+J` | Retour en arrière du décalage temporel / podcast, livre audio & jukebox chercher en arrière | Pour la radio en direct: recule de 15 secondes. La première pulsation entre en mode décalage temporel ; chaque pulsation supplémentaire recule de 15 secondes de plus, jusqu'à la limite de la mémoire tampon défini dans les paramètres de FreeRadio. Nécessite que la mémoire tampon de décalage temporel soit activée dans les Paramètres. Pour un podcast, un livre audio ou un morceau du jukebox, cette touche permet de naviguer dans le fichier, et la durée de la recherche dépend de la pulsation exercée : **maintenir la touche enfoncée** permet de revenir en arrière de 5 secondes par répétition, comme auparavant ; **une simple pulsation** permet de revenir en arrière de 12 secondes ; **deux pulsations rapides** permettent de revenir en arrière d'une minute ; **trois pulsations ou plus** permettent de revenir en arrière de 5 minutes. Une seule recherche est effectuée par séquence de pulsations, la durée correspondant au nombre de pulsations effectuées (les pulsations ne s'additionnent pas). Fonctionne quel que soit le réglage du décalage temporel. |
+| `Ctrl+Win+K` | Avance rapide du décalage temporel / podcast, livre audio & jukebox chercher en avant | Pour la radio en direct: avance de 15 secondes en mode décalage temporel. Une fois le bord du direct atteint, la lecture revient automatiquement au direct et cette commande est sans effet jusqu'au prochain retour en arrière. Pour un podcast, un livre audio ou un morceau du jukebox, cette touche permet de faire défiler le fichier en utilisant la même échelle de pulsation/maintien que `Ctrl+Win+J` ci-dessus (maintien = 5 secondes par répétition ; 1 pulsation = 12 secondes ; 2 pulsations = 1 minute ; 3 pulsations ou plus = 5 minutes). Une seule recherche est effectuée par séquence de pulsations, dimensionnée en fonction du nombre de pulsations effectués (les pulsations ne s'additionnent pas). Fonctionne quel que soit le réglage du décalage temporel. |
+| `Ctrl+Win+T` | Basculer la mémoire tampon de décalage temporel | Active ou désactive la mémoire tampon de décalage temporel instantanément, reflétant la case à cocher dans les Paramètres. La désactiver renvoie immédiatement au direct si vous étiez en mode décalage et arrête la capture en arrière-plan. Aucun effet sur la lecture de podcasts, de livres audio ou du jukebox. |
 | *(non assigné)* | Sélectionner le périphérique de sortie | Ouvre une liste à la demande des principaux périphériques de sortie disponibles. La liste s'affiche uniquement lorsque le BASS détecte plus d'un périphérique de sortie physique. Assigner une combinaison de touches via NVDA Menu → Préférences → Gestes de commandes → FreeRadio. |
 | *(non assigné)* | Activer/désactiver les notifications muettes | Active/désactive le paramètre Muet des notifications à la volée. Assigner une combinaison de touches via NVDA Menu → Préférences → Gestes de commandes → FreeRadio. |
 | *(non assigné)* | Lire une station favorite directement | Chaque station de la liste des favoris apparaît comme une entrée distincte dans le Menu NVDA → Préférences → Gestes de commandes → **Stations FreeRadio**. Assigner n'importe quel raccourci clavier à une station pour la démarrer instantanément depuis n'importe où, sans ouvrir le navigateur. |
@@ -141,7 +146,7 @@ Les raccourcis suivant/précédent parcourent uniquement la liste des favoris ; 
 
 FreeRadio ajoute également un sous-menu **FreeRadio** au menu Outils NVDA. De là, vous pouvez ouvrir directement le Navigateur de Stations et les Paramètres de FreeRadio.
 
-La fenêtre ouverte avec `Ctrl+Win+R` contient sept onglets : Toutes les stations, Favoris, Enregistrement, Minuterie, Morceaux aimés, Podcasts et Livres audio. Vous pouvez naviguer entre les onglets avec `Ctrl+Tab` ou en utilisant `Alt+1` à `Alt+7`.
+La fenêtre ouverte avec `Ctrl+Win+R` contient huit onglets : Toutes les stations, Favoris, Enregistrement, Minuterie, Morceaux aimés, Podcasts, Livres audio et Jukebox. Vous pouvez naviguer entre les onglets avec `Ctrl+Tab` ou en utilisant `Alt+1` à `Alt+8`.
 
 Lorsque l'onglet Toutes les stations s'ouvre, le top 1 000 des stations les plus votées sont automatiquement chargées à partir de Radio Browser. La sélection d'un pays dans la liste déroulante met à jour la liste pour montrer les stations de ce pays. Taper dans le champ de recherche effectue instantanément une recherche complète dans toute la base de données de Radio Browser simultanément par nom, pays et genre.
 
@@ -181,10 +186,10 @@ Les touches suivantes fonctionnent uniquement lorsque la fenêtre Navigateur de 
 |---|---|---|
 | `F1` | Guide d'aide | Ouvre le fichier d'aide de l'extension dans le navigateur par défaut. Le guide de la langue de NVDA actif est recherché en premier ; s'il n'est pas trouvé, le guide par défaut est ouvert. |
 | `F2` | Qu'est-ce qui se joue | Annonce la station en cours de lecture et le nom de la piste. Appuyez deux fois pour afficher des détails tels que le pays, le genre et le bitrate dans un dialogue. Appuyez trois fois pour copier les informations de la piste actuelle (métadonnées ICY) dans le presse-papiers si disponible ; si aucune métadonnée n'est présente, démarre la reconnaissance musicale Shazam à la place. Appuyez quatre fois pour forcer la reconnaissance musicale en cas de métadonnées ICY erronées. |
-| `F3` | Élément précédent | Dans l'onglet Toutes les stations ou Favoris: passe à la station précédente et commence la lecture immédiatement. Dans l'onglet Podcasts: passe à l'épisode précédent dans la liste des épisodes et le lit. |
-| `F4` | Élément suivant | Dans l'onglet Toutes les stations ou Favoris: passe à la station suivante et commence la lecture immédiatement. Dans l'onglet Podcasts: passe à l'épisode suivant et le lit. |
-| `Shift+F3` | Flux précédent | Dans l'onglet Podcasts uniquement: monte un flux dans la liste des abonnements. |
-| `Shift+F4` | Flux suivant | Dans l'onglet Podcasts uniquement: descend un flux dans la liste des abonnements. |
+| `F3` | Élément précédent | Dans l'onglet Toutes les stations ou Favoris: passe à la station précédente et commence la lecture immédiatement. Dans l'onglet Podcasts: passe à l'épisode précédent dans la liste des épisodes et le lit. Dans l'onglet Livres audio: passe au livre précédent et commence la lecture. Dans l'onglet Jukebox: passe au morceau précédent dans l'élément sélectionné du jukebox et le lit. |
+| `F4` | Élément suivant | Dans l'onglet Toutes les stations ou Favoris: passe à la station suivante et commence la lecture immédiatement. Dans l'onglet Podcasts: passe à l'épisode suivant et le lit. Dans l'onglet Livres audio: passe au livre suivant et commence la lecture. Dans l'onglet Jukebox: passe au morceau suivant dans l'élément sélectionné du jukebox et le lit. |
+| `Shift+F3` | Flux précédent / partie / élément | Dans l'onglet Podcasts: monte d'un flux dans la liste des abonnements. Dans l'onglet Livres audio: passe à la partie précédente du livre en cours de lecture. Dans l'onglet Jukebox: monte d'une entrée dans la liste principale du jukebox (fichier ou dossier). |
+| `Shift+F4` | Flux suivant / partie / élément | Dans l'onglet Podcasts: descend d'un flux dans la liste des abonnements. Dans l'onglet Livres audio: passe à la partie suivante du livre en cours de lecture. Dans l'onglet Jukebox: descend d'une entrée dans la liste principale du jukebox. |
 | `F5` | Diminuer le volume | Diminue le volume de 5 (minimum 0). |
 | `F6` | Augmenter le volume | Augmente le volume de 5 (maximum 200). |
 | `F7` | Mettre en pause / reprendre | Met en pause la station actuelle si elle est en cours de lecture ; reprend en cas de pause et le média est chargé. |
@@ -198,11 +203,11 @@ Les touches suivantes fonctionnent uniquement lorsque la fenêtre Navigateur de 
 |---|---|---|
 | `→` | Élément suivant | Lorsqu'une liste de stations est focalisée (Toutes les stations / Favoris), passe à la station suivante et la joue immédiatement. Lorsque la liste des épisodes est focalisée (Podcasts), passe à l'épisode suivant et le joue. Revient au début et à la fin de la liste. |
 | `←` | Élément précédent | Lorsqu'une liste de stations est focalisée, passe à la station précédente et la joue immédiatement. Lorsque la liste des épisodes est focalisée, passe à l'épisode précédent et le joue. Saute à la fin quand on est au début. |
-| `Ctrl+→` | Épisode suivant | Lorsque l'onglet Podcasts est actif, passe à l'épisode suivant et le joue (identique à `→` pendant que la liste des épisodes est focalisée). |
-| `Ctrl+←` | Épisode précédent | Lorsque l'onglet Podcasts est actif, passe à l'épisode précédent et le joue (identique à `←` pendant que la liste des épisodes est focalisée). |
-| `Entrée` | Lecture | Lorsqu'une liste de stations ou d'épisodes est  focalisée, commence à jouer immédiatement l'élément sélectionné. Passe à la station sélectionnée même si une autre station est déjà en cours de lecture. |
-| `Espace` | Lecture / Pause | Met en pause si une station est en cours de lecture ; sinon, commence la lecture de l'élément sélectionné. |
-| `Ctrl+Tab` | Onglet suivant | Passe à l'onglet suivant (Toutes les stations → Favoris → Enregistrement → Minuterie → Morceaux aimés → Podcasts → Livres audio). |
+| `Ctrl+→` | Épisode suivant / livre / morceau | Dans l'onglet Podcasts: passe à l'épisode suivant et le joue. Dans l'onglet Livres audio (liste de la bibliothèque focalisée): passe au livre suivant. Dans l'onglet Jukebox (liste des entrées ou liste des morceaux focalisés): passe au morceau suivant dans l'élément sélectionné du jukebox et le joue. |
+| `Ctrl+←` | Épisode précédent / livre / morceau | Dans l'onglet Podcasts: passe à l'épisode précédent et le joue. Dans l'onglet Livres audio: passe au livre précédent. Dans l'onglet Jukebox: passe au morceau précédent dans l'élément sélectionné du jukebox et le joue. |
+| `Entrée` | Lecture / Ajouter | Dans une liste de stations ou d'épisodes: commence immédiatement la lecture de l'élément sélectionné. Dans les résultats de recherche de l'onglet Jukebox: ajoute le fichier sélectionné au jukebox. Dans la liste des entrées ou des morceaux de l'onglet Jukebox: commence directement la lecture de l'élément focalisé. |
+| `Espace` | Lecture / Pause / Aperçu | Met en pause si quelque chose est en train de jouer ; sinon, commence la lecture de l'élément sélectionné. Dans l'onglet Jukebox, dans les résultats de recherche de l'onglet Jukebox: active/désactive l'aperçu (lecture/arrêter) du fichier sélectionné. Dans la liste des entrées ou des morceaux de l'onglet Jukebox: met en pause la lecture si elle est en cours ; sinon, commence la lecture de l'élément focalisé. |
+| `Ctrl+Tab` | Onglet suivant | Passe à l'onglet suivant (Toutes les stations → Favoris → Enregistrement → Minuterie → Morceaux aimés → Podcasts → Livres audio → Jukebox). |
 | `Ctrl+Shift+Tab` | Onglet précédent | Passe à l'onglet précédent. |
 | `Echap` | Cacher | Cache la fenêtre ; l'extension continue de jouer en arrière-plan. |
 
@@ -243,6 +248,7 @@ Chaque raccourci reflète cocher ou décocher dans l'entrée correspondante dans
 | `Alt+5` | Morceaux aimés | Passe à l'onglet Morceaux aimés. |
 | `Alt+6` | Podcasts | Passe à l'onglet Podcasts. |
 | `Alt+7` | Livres audio | Passe à l'onglet Livres audio. |
+| `Alt+8` | Jukebox | Passe à l'onglet Jukebox, focalisé sur la boîte de recherche du disque. |
 | `Alt+K` | Fermer | Ferme la fenêtre ; l'extension continue de jouer en arrière-plan. |
 
 ## Favoris
@@ -328,7 +334,7 @@ Au premier appui, une boîte de dialogue de sélection répertoriant les périph
 - **Multi-pièces** — Jouez simultanément via un haut-parleur Bluetooth et le haut-parleur intégré ; aucun logiciel supplémentaire n'est nécessaire pour transporter l'audio dans une autre pièce.
 - **Surveillance à distance** — Dans une session de partage d'écran ou de bureau à distance, les côtés local et distant peuvent entendre le même flux simultanément.
 
-> **Note:** La mise en miroir audio n'est disponible que lorsque le BASS backend est actif. Si le volume est modifié alors que la mise en miroir est active, les deux sorties sont mises à jour simultanément.
+> **Remarque:** La mise en miroir audio n'est disponible que lorsque le BASS backend est actif. Si le volume est modifié alors que la mise en miroir est active, les deux sorties sont mises à jour simultanément.
 
 ## Mode Obligato
 
@@ -532,9 +538,11 @@ Les épisodes de podcast sont lus à l'aide du **BASS backend** (le même moteur
 
 Un appui long est maintenu un bref instant avant le lancement de la recherche, au cas où un autre appui serait encore nécessaire. Une seule recherche est effectuée par séquence d'appuis, sa durée étant adaptée au nombre d'appuis réalisés, et non à la somme de leurs durées respectives. Après une recherche, NVDA annonce la position écoulée/restante dans l'épisode, et non simplement "X secondes en avant/en arrière".
 
-**Vitesse de lecture:** Vous pouvez régler la vitesse de lecture des épisodes du podcast en utilisant `Ctrl+Win+Shift+K` (plus rapide) et `Ctrl+Win+Shift+J` (plus lent). La vitesse change par incréments de 0.1x, allant de 0.5x à 2.0x, avec la hauteur préservée. Cela nécessite que la bibliothèque facultative `bass_fx.dll` soit placée dans le dossier de l'extension. Si la bibliothèque est manquante, NVDA vous informera que la fonctionnalité n'est pas disponible.
+**Vitesse de lecture:** Vous pouvez régler la vitesse de lecture des épisodes du podcast, des livres audio et des morceaux du jukebox en utilisant `Ctrl+Win+Shift+K` (plus rapide) et `Ctrl+Win+Shift+J` (plus lent). La vitesse change par incréments de 0.1x, allant de 0.5x à 2.0x, avec la hauteur préservée. Cela nécessite que la bibliothèque facultative `bass_fx.dll` soit placée dans le dossier de l'extension. Si la bibliothèque est manquante, NVDA vous informera que la fonctionnalité n'est pas disponible.
 
-> **Note:** `bass_fx.dll` n'est pas fourni avec FreeRadio par défaut. Vous pouvez le télécharger depuis la [page BASS FX](https://www.un4seen.com/bass-fx.html) et placez-le dans le dossier  de l'extension `bass/x64` (pour NVDA 64 bits) ou `bass` (pour NVDA 32 bits) pour activer cette fonctionnalité.
+**Transposition (changement de la hauteur):** Indépendamment de la vitesse de lecture, vous pouvez modifier la hauteur d'un épisode de podcast, d'un livre audio ou d'un morceau du jukebox vers le haut ou vers le bas avec `Shift+Win+K` / `Shift+Win+J` — consultez la section [Transposition (Changement de la Hauteur)](#transpose-pitch-shift). La transposition nécessite également le `bass_fx.dll`.
+
+> **Remarque:** `bass_fx.dll` n'est pas fourni avec FreeRadio par défaut. Vous pouvez le télécharger depuis la [page BASS FX](https://www.un4seen.com/bass-fx.html) et placez-le dans le dossier  de l'extension `bass/x64` (pour NVDA 64 bits) ou `bass` (pour NVDA 32 bits) pour activer cette fonctionnalité.
 
 **Reprise de l'effet sonore:** Lorsqu'un épisode reprend à partir d'une position enregistrée, FreeRadio diffuse brièvement un léger bruitage de chargement de cassette sur un canal séparé pendant qu'il retrouve votre point de lecture, au lieu de laisser l'audio de l'épisode se poursuivre normalement depuis 0:00. Ce comportement est automatique lorsque le BASS backend est actif et est indépendant du paramètre **Transition de changement de station** — ce paramètre uniquement affecte le passage entre les stations de radio en direct, et non la reprise des podcasts ou des livres audio.
 
@@ -622,7 +630,7 @@ Une œuvre en plusieurs parties est traitée comme un élément unique dans le l
 
 Lorsque chaque partie est terminée, FreeRadio lance automatiquement la partie suivante du même livre — vous n'avez pas besoin de le sélectionner manuellement. Cela se produit même si la fenêtre du navigateur de stations est fermée à ce moment-là ; la partie "Maintenant en cours de lecture" apparaîtra dans la liste de la bibliothèque et sera resynchronisé automatiquement la prochaine fois que la fenêtre sera ouverte.
 
-La lecture est diffusée via un petit relais local plutôt que de télécharger d'abord la totalité de la partie, de sorte que l'écoute commence dès l'arrivée des premiers octets — le même comportement de démarrage immédiat que celui utilisé par les podcasts. Tous les contrôles habituels du lecteur (pause, volume, décalage temporel, vitesse de lecture, périphérique de sortie, etc.) fonctionnent sur un livre audio exactement comme elles le feraient sur une station ou un épisode de podcast.
+La lecture est diffusée via un petit relais local plutôt que de télécharger d'abord la totalité de la partie, de sorte que l'écoute commence dès l'arrivée des premiers octets — le même comportement de démarrage immédiat que celui utilisé par les podcasts. Tous les contrôles habituels du lecteur (pause, volume, décalage temporel, vitesse de lecture, transposition, périphérique de sortie, etc.) fonctionnent sur un livre audio exactement comme elles le feraient sur une station ou un épisode de podcast.
 
 Comme pour les podcasts, la reprise d'un livre audio à partir de sa position de lecture est accompagnée d'un bref bruitage de chargement de cassette pendant que FreeRadio recherche l'endroit où vous vous êtes arrêté — consultez la note **Reprise de l'effet sonore** dans la section [Détails de la Lecture du Podcast](#podcast-playback-details).
 
@@ -639,6 +647,75 @@ Sélectionnez un livre dans votre bibliothèque et choisissez **Télécharger le
 ### Stockage de Données de Livres audio
 
 Chaque source conserve son propre fichier de bibliothèque, même si elles sont affichées fusionnées dans l'onglet Livres audio. Votre bibliothèque GETEM (les livres ajoutés et leur progression d'écoute) est stockée dans `freeradio_getem_library.json` et votre bibliothèque LibriVox est stockée séparément dans `freeradio_librivox_library.json`, les deux dans dans le dossier de configuration utilisateur de NVDA. Vos informations d'identification GETEM cryptées sont stockées séparément dans `freeradio_getem_credentials.bin` au même emplacement et ne peuvent être déchiffrées que par le même compte d'utilisateur Windows qui les a enregistrées. LibriVox ne possède pas de fichier d'identification, puisqu'il ne nécessite aucun compte.
+
+## Jukebox Local
+
+L'onglet **Jukebox** de FreeRadio propose deux façons de lire les fichiers audio déjà présents sur votre ordinateur: rechercher des fichiers par nom sur tous les disques connectés ou créer une bibliothèque personnelle de fichiers et de dossiers. La lecture se déroule comme pour un podcast ou un livre audio — reprise automatique, avance/retour rapide par niveau, vitesse de lecture, transposition de la hauteur  et profils audio par élément fonctionnent exactement de la même manière.
+
+### Accéder à l'Onglet Jukebox
+
+Ouvrez le navigateur de stations avec `Ctrl+Win+R` et passez à l'onglet **Jukebox** avec `Ctrl+Tab` ou `Alt+8`, ou ouvrez-le directement depuis n'importe où avec le raccourci global `Ctrl+Win+U`. L'onglet est organisé en trois zones principales:
+
+1. **Recherche sur disque** — un champ de texte qui recherche les fichiers audio sur tous les disques connectés localement et prêts à l'emploi dont le nom contient le texte saisi. Appuyez sur `Entrée` pour lancer la recherche.
+2. **Résultats de la recherche** — liste affichant les fichiers correspondants une fois la recherche terminée. Elle reste masquée jusque-là, afin que l'onglet demeure vide lorsqu'aucune recherche n'est effectuée.
+3. **Jukebox et Morceaux** — liste permanente des éléments ajoutés, suivie de la liste des morceaux de l'entrée sélectionnée (pour une entrée de fichier, juste ce fichier ; pour une entrée de dossier, chaque fichier audio trouvé à l'intérieur).
+
+Les boutons **Ajouter un fichier…**, **Ajouter un dossier…** et **Supprimer** se trouvent sous la liste des morceaux.
+
+### Recherche de Fichiers sur le Disque
+
+Saisissez une partie d'un nom de fichier dans le champ **Recherche sur disque** et appuyez sur `Entrée`. FreeRadio recherche sur tous les périphériques connectés localement — disques durs, clés USB, cartes mémoire, lecteurs réseau mappés — à la recherche de fichiers audio (`.mp3`, `.wav`, `.ogg`, `.flac`, `.m4a`, `.m4b`, `.aac`, `.wma`, `.opus`, et plusieurs autres) dont le nom de fichier contient le texte recherché. La recherche s'effectue en arrière-plan, NVDA continue donc de fonctionner sans problème.
+
+- **Espace** sur un résultat de recherche pour le prévisualiser — et lancez la lecture avec le lecteur habituel. Appuyez de nouveau sur **Espace** sur le même fichier pour arrêter l'aperçu.
+- **Entrée** sur un résultat de recherche pour l'ajouter à votre jukebox.
+- Le menu contextuel (Touche Applications / `Shift+F10`, ou clic droit) propose les deux mêmes actions: **Aperçu** / **Arrêter l'aperçu** et **Ajouter au Jukebox**.
+- Lancer une nouvelle recherche annule toutes les recherches en cours, ainsi, une recherche lente sur un disque de grande capacité n'interrompt jamais une nouvelle recherche.
+
+### Créer Votre Jukebox
+
+La liste du Jukebox est votre bibliothèque personnelle permanente. Vous pouvez y ajouter deux types d'éléments:
+
+- **Ajouter un fichier…** — ouvre un sélecteur de fichiers vous permettant d'ajouter un ou plusieurs fichiers audio. Tous les fichiers sélectionnés sont ajoutés simultanément.
+- **Ajouter un dossier…** — ouvre un sélecteur de dossiers. Chaque fichier audio du dossier sélectionné, y compris ses sous-dossiers, est considéré comme un des **morceaux** de ce dossier. Le dossier lui-même constitue une entrée unique dans votre liste du Jukebox ; les fichiers qu'il contient s'affichent dans la liste des morceaux lorsque le dossier est sélectionné.
+- **Supprimer** — supprime l'entrée actuellement sélectionnée de votre Jukebox. La suppression d'une entrée de dossier ne supprime aucun fichier de votre disque ; elle oublie tout simplement le dossier.
+
+Votre liste du Jukebox est automatiquement enregistrée et conservée même après le redémarrage de NVDA. Le contenu des dossiers est analysé à la demande et mis en cache, ce qui rend l'ajout d'un dossier instantané, même pour les collections volumineuses — une analyse complète est effectuée lors de la première sélection du dossier. Si vous ajoutez des fichiers à un dossier en dehors de FreeRadio, utilisez l'élément **Réanalyser le dossier** du menu contextuel du dossier pour les inclure.
+
+### Lecture depuis le Jukebox
+
+- **Entrée** sur une entrée du Jukebox pour la lire directement: s'il s'agit d'une entrée de fichier, le fichier lui-même ; pour une entrée de dossier, son premier morceau.
+- **Espace** sur une entrée du Jukebox pour mettre la lecture en pause s'il y a quelque chose  déjà en cours de lecture ; sinon, l'entrée focalisée est lue.
+- **Entrée** ou **Espace** sur la liste des morceaux pour lire le morceau focalisé. **Espace** pause d'abord s'il y a quelque chose  déjà en cours de lecture.
+- **F3 / F4** dans l'onglet Jukebox pour se déplacer entre les morceaux dans l'entrée actuellement sélectionnée et lancer la lecture immédiatement.
+- **Shift+F3 / Shift+F4** pour se déplacer entre les entrées de la liste de Jukebox (fichiers et dossiers), de la même manière que ces touches permettent de se déplacer entre les flux dans l'onglet Podcasts.
+- **Ctrl+← / Ctrl+→** lorsque la liste des entrées ou des morceaux est focalisé remplit la même fonction que F3/F4 dans la liste des morceaux — morceau précédent/suivant.
+
+### Détails de Lecture du Jukebox
+
+Chaque morceau lue  depuis le Jukebox bénéficie d'un traitement du médias local complet:
+
+- **Reprendre:** FreeRadio mémorise votre position dans chaque morceau, la sauvegarde lors de la pause et périodiquement pendant la lecture, et reprend à partir de ce point quand vous y rejouez — même après le redémarrage de NVDA.
+- **Recherche par niveaux:** `Ctrl+Win+J` / `Ctrl+Win+K` permet de rechercher dans le morceau en utilisant la même échelle de pulsation/maintenir enfoncée comme pour les podcasts et les livres audio — maintenir pour 5 secondes par répétition, une pulsation pour 12 secondes, deux pulsations pour 1 minute, trois pulsations ou plus pour 5 minutes.
+- **Vitesse de lecture:** `Ctrl+Win+Shift+J` / `Ctrl+Win+Shift+K` ajuste la vitesse par incréments de 0.1x depuis 0.5x à 2.0x, en conservant la hauteur. Nécessite le `bass_fx.dll`.
+- **Transposition:** `Shift+Win+J` / `Shift+Win+K` modifie la hauteur sans changer la vitesse — consultez la section [Transposition (Changement de la Hauteur)](#transpose-pitch-shift). Nécessite également le `bass_fx.dll`.
+- **Profil audio:** Le volume, les effets, l'égalisation et la vitesse d'un morceau peuvent être enregistrés globalement en jouant un morceau pendant que les paramètres appropriés sont définis — le Jukebox ne propose actuellement pas de menu de profil par morceau, les paramètres globaux actuels sont donc appliqués.
+
+> **Remarque:** La mémoire tampon de décalage temporel (utilisée pour rembobiner la radio en direct) **n'est pas** initialisée pour les morceaux du Jukebox — ces derniers étant déjà des fichiers locaux consultables, la capture en arrière-plan est inutile et consommerait inutilement de l'espace disque. Le retour en arrière et avance rapide fonctionnent toujours car ils agissent directement sur le fichier en cours de lecture.
+
+## Transposition (Changement de la Hauteur)
+
+La transposition modifie **la hauteur** du morceau en cours de lecture, vers le haut ou vers le bas, sans en changer la **vitesse** — c'est l'inverse de l'effet de "grésillement" que l'on obtient en accélérant une piste. C'est utile pour adapter la tessiture naturelle d'un narrateur particulier, transposer une musique dans une tonalité plus agréable, ou simplement ajuster un enregistrement pour qu'il soit plus confortable à l'écoute.
+
+La transposition est disponible pour les **podcasts**, les **livres audio** et les **morceaux du jukebox** — le même "local, recherche, médias avec capacité de tempo" auxquels les raccourcis de vitesse de lecture s'appliquent déjà. Ne sont pas disponibles pour les stations de radio en direct, puisqu'ils n'ont pas de hauteur fixe qui puisse être modifiée.
+
+- **`Shift+Win+K`** — Augmente la hauteur d'un pas.
+- **`Shift+Win+J`** — Diminue la hauteur d'un pas.
+
+Chaque pas correspond à **un huitième de ton entier** — soit, **0.25 demi-tons** (un ton entier équivaut à 2 demi-tons, soit, 8 pas constituent un ton entier, et 48 pas constituent une octave). La gamme est de **−12.00 à +12.00 demi-tons**, c'est-à-dire une octave complète vers le haut ou vers le bas. NVDA annonce la nouvelle valeur après chaque pas, par exemple, "**+1.25 demi-tons**" ; lors du retour à 0.0 il annonce  "**Hauteur normale**".
+
+La transposition est mémorisée pour tous les morceaux, de la même manière que la vitesse de lecture: la définir une fois pendant la lecture d'un  morceau signifie que le prochain morceau avec capacité de tempo que vous jouerez commencera par le même changement, sauf si le profil audio enregistré propre à ce morceau le remplace. La lecture d'un morceau sans valeur de transposition enregistrée réinitialise le changement à 0.0 (Hauteur normale), tout comme la même règle s'applique déjà à la vitesse.
+
+**Exigence:** Comme pour la vitesse de lecture, la transposition nécessite la présence de la bibliothèque optionnelle **`bass_fx.dll`** laquel doit être placé dans le dossier `bass/x64` (NVDA 64 bits) ou `bass` (NVDA 32 bits) de l'extension. Si la bibliothèque est manquante, NVDA vous indique que la fonctionnalité est indisponible, mais la valeur que vous avez définie est tout de même mémorisée pour le prochain flux avec capacité de tempo.
 
 ## Morceaux aimés
 
@@ -735,7 +812,7 @@ FreeRadio utilise **BASS** comme unique moteur de lecture pour tous ses contenus
 
 BASS envoie l'audio directement à la pile audio Windows et apparaît dans le mélangeur de volume Windows en tant que source audio indépendante nommée "pythonw.exe", séparé de NVDA. Cela signifie que l'audio FreeRadio circule sur un canal complètement distinct de la parole de NVDA : la radio n'est pas coupée, mélangée ou affectée par les propres paramètres audio de NVDA pendant que NVDA parle. L'utilisateur peut régler le volume de la radio indépendamment de NVDA dans le Mélangeur de volume Windows. Prend en charge  HTTP, HTTPS et la plupart des formats de flux intégrés.
 
-Les épisodes de podcasts et les chapitres de livres audio sont lus via BASS, car celui-ci peut ouvrir le flux comme un fichier consultable (même pendant le téléchargement), permettant ainsi un suivi précis de la position, un retour rapide/un retour en arrière par paliers, et la reprise de la lecture. La mise en miroir audio , le décalage temporel, ainsi que la recherche et la reprise des podcasts et des livres audio dépendent de BASS et sont toujours disponibles.
+Les épisodes de podcasts, les chapitres de livres audio et les morceaux du jukebox sont lus via BASS, car celui-ci peut ouvrir le flux comme un fichier consultable (même pendant le téléchargement), permettant ainsi un suivi précis de la position, un retour rapide/un retour en arrière par paliers, vitesse de lecture, transposition de la hauteur, et la reprise. La mise en miroir audio , le décalage temporel, ainsi que la recherche et la reprise des podcasts/des livres audio/jukebox dépendent de BASS et sont toujours disponibles.
 
 ## Vérification des mises à jour
 
