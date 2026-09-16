@@ -5,7 +5,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Lundi 14 Septembre 2026</footer>
+<footer>Publié le Dimanche 7 Juin 2026 - Dernière mise à jour le Mercredi 16 Septembre 2026</footer>
 
 Coucou mes amis du blog de BlindHelp!    
 Une nouvelle version de l'extension FreeRadio vient d'être publié.    
@@ -25,28 +25,30 @@ Sélectionnez l'extension freeradio dans l'onglet "Extensions disponibles" ensui
 
 Voici les informations en français trouvés dans l'Add-on Store à propos de cette extension:
 
+# freeRadio : Radio et plus encore
+
 # Description :
 
-FreeRadio est une extension de radio Internet, podcast et livre audio pour NVDA qui offre un accès continu à des milliers de stations via l'annuaire ouvert de Radio Browser , les flux RSS/Atom de podcasts et libriVox+ la bibliothèque numérique GETEM pour les personnes malvoyantes. Il dispose d'un navigateur de stations entièrement accessible avec recherche, filtre de pays, gestion des favoris et profils audio par station, par podcast et par livre audio. Les épisodes de podcasts et les chapitres de livres audio reprennent automatiquement là où vous les avez laissés, avec une vitesse de lecture ajustable qui préserve la tonalité. La lecture est gérée par BASS, avec prise en charge du contrôle du volume, des effets audio, de la sélection du périphérique de sortie et de la mise en miroir audio simultanée sur un deuxième périphérique. Les fonctionnalités supplémentaires incluent l'enregistrement instantané et planifié, décalage temporel retour en arrière sur la radio, minuteries de mise en veille et d'alarme, des annonces automatiques de métadonnées ICY, une reconnaissance musicale basée sur Shazam et un journal des morceaux aimés avec recherche des paroles. Tous les contrôles et raccourcis sont conçus pour l'accessibilité de NVDA.
+FreeRadio est une extension de radio Internet, podcast, livre audio et musique locale pour NVDA qui offre un accès continu à des milliers de stations via l'annuaire ouvert de Radio Browser , les flux RSS/Atom de podcasts, libriVox+ la bibliothèque numérique GETEM pour les personnes malvoyantes et vos propres fichiers et dossiers audio locaux via le jukebox intégré. Il dispose d'un navigateur de stations entièrement accessible avec recherche, filtre de pays, gestion des favoris et profils audio par station, par podcast, par livre audio et par morceau du jukebox. Les épisodes de podcasts, les chapitres de livres audio et  les morceaux du jukebox reprennent automatiquement là où vous les avez laissés - les dossiers du jukebox reprennent même le dernier morceau que vous écoutiez -avec une vitesse de lecture ajustable qui préserve la hauteur et le changement de la hauteur indépendant (transposition d'un demi-ton). La lecture est gérée par BASS, avec prise en charge du contrôle du volume, des effets audio, de la sélection du périphérique de sortie et de la mise en miroir audio simultanée sur un deuxième périphérique. Les fonctionnalités supplémentaires incluent l'enregistrement instantané et planifié, décalage temporel retour en arrière sur la radio, minuteries de mise en veille et d'alarme, des annonces automatiques de métadonnées ICY, une reconnaissance musicale basée sur Shazam et un journal des morceaux aimés avec recherche des paroles. Tous les contrôles et raccourcis sont conçus pour l'accessibilité de NVDA.
 
 # Autres détails :
 
 * Éditeur : Çağrı Doğan <cagrid@hotmail.com>
 * Auteur : Çağrı Doğan <cagrid@hotmail.com>
 * ID : freeradio
-* Version minimale de NVDA : 2024.1
+* Version minimale de NVDA : 2025.1
 * Dernière version NVDA testée : 2026.2
-* Version disponible : 2026.24.0
+* Version disponible : 2026.24.1
 * Canal : Stables
 * Page web : <https://github.com/Surveyor123/freeradio>
 * Licence : GPL v2
 * URL de la Licence : <https://www.gnu.org/licenses/gpl-2.0.html>
-* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.24.0/freeradio-2026.24.0.nvda-addon>
+* URL de téléchargement : <https://github.com/Surveyor123/freeradio/releases/download/v2026.24.1/freeradio-2026.24.1.nvda-addon>
 * URL du code source : <https://github.com/Surveyor123/freeradio>
 * URL des avis : <https://github.com/nvaccess/addon-datastore/discussions/8952>
-* Date de publication : 14/09/2026
+* Date de publication : 16/09/2026
 * Résultats de l’analyse par VirusTotal : 0 analyseur de logiciels malveillants a détecté cette extension comme potentiellement malveillante (sur 0).
-* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/8e748f2be361e590a5af737cbb08d131f8bd9721e871592d9a03314898f514e9>
+* URL de l’analyse par VirusTotal : <https://www.virustotal.com/gui/file/40ffa39341ebf5825cde236e278a7fc43b782aa3eef21897ff78204ef16781d7>
 
 Et pour conclure, vous trouverez après ma signature la dernière documentation de l'extension FreeRadio en français traduite par mes soins de la dernière version publiée à ce jour.    
 
