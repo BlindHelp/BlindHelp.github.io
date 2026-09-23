@@ -130,90 +130,87 @@ Testé avec le lecteur d'écran NVDA 2026.2 sur un ordinateur de bureau Windows 
 Faites tabulation.    
 
 NVDA m'annonce les valeurs suivantes :    
-``
-arborescence    
-Onglet CDDB distant    
-CDDB distant page de propriété Serveur distant    
-Adresse mail    
-Port du Proxy    
-Mot de passe    
-Timeout (secondes)    
-Adresse    
-Chemin    
-Protocole    
-Localisation    
-Port    
-liste déroulante localhost http  80 ( localserver ) réduit    
-édition sélectionné  localserver    
-édition sélectionné  localhost    
-édition sélectionné  /~cddb/cddb.cgi    
-liste déroulante HTTP (port par défaut 80) réduit    
-édition sélectionné  80    
-édition sélectionné  remyruiz@gmail.com    
-édition sélectionné  20    
-Utiliser un Proxy case à cocher non coché    
-Authentification case à cocher non coché    
-Se connecter automatiquement à CDDB case à cocher coché    
-Ajouter un site bouton    
-Récupérer des sites bouton    
-Tout réinitialiser bouton    
-Options d'envoi bouton    
-OK bouton    
-``
+
+`arborescence`    
+`Onglet CDDB distant`    
+`CDDB distant page de propriété Serveur distant`    
+`Adresse mail`    
+`Port du Proxy`    
+`Mot de passe`    
+`Timeout (secondes)`    
+`Adresse`    
+`Chemin`    
+`Protocole`    
+`Localisation`    
+`Port`    
+`liste déroulante localhost http  80 ( localserver ) réduit`    
+`édition sélectionné  localserver`    
+`édition sélectionné  localhost`    
+`édition sélectionné  /~cddb/cddb.cgi`    
+`liste déroulante HTTP (port par défaut 80) réduit`    
+`édition sélectionné  80`    
+`édition sélectionné  remyruiz@gmail.com`    
+`édition sélectionné  20`    
+`Utiliser un Proxy case à cocher non coché`    
+`Authentification case à cocher non coché`    
+`Se connecter automatiquement à CDDB case à cocher coché`    
+`Ajouter un site bouton`    
+`Récupérer des sites bouton`    
+`Tout réinitialiser bouton`    
+`Options d'envoi bouton`    
+`OK bouton`    
 
 Comme je l'ai expliqué plus haut, nous devrons modifier les valeurs par défaut, qui sont désormais obsolètes, et les remplacer par ces nouvelles valeurs qui fonctionnent actuellement avec CDex 2.24 :    
 
 Faites tabulation.    
 
-``
-arborescence    
-Onglet CDDB distant    
-CDDB distant page de propriété Serveur distant    
-Adresse mail    
-Port du Proxy    
-Mot de passe    
-Timeout (secondes)    
-Adresse    
-Chemin    
-Protocole    
-Localisation    
-Port    
-Configuration d'avant :    
-liste déroulante localhost http  80 ( localserver ) réduit    
-Changé par :    
-liste déroulante gnudb.gnudb.org cddbp  8880  (GNUDB) réduit    
-Configuration d'avant :    
-édition sélectionné  localserver    
-Changé par :    
-édition sélectionné  GNUDB    
-Configuration d'avant :    
-édition sélectionné  localhost    
-Changé par :    
-édition sélectionné  gnudb.gnudb.org    
-Le champ d'édition suivant restera inchangé :    
-édition sélectionné  /~cddb/cddb.cgi    
-Configuration d'avant :    
-liste déroulante HTTP (port par défaut 80) réduit    
-Appuyez sur flèche haut et modifiez la valeur comme suit :    
-liste déroulante CDDB ( port par défaut 888 or 8880) réduit    
-Configuration d'avant :    
-édition sélectionné  80    
-Changé par :    
-édition sélectionné  8880    
-Votre adresse électronique doit apparaître dans le suivant champ d'édition :    
-édition sélectionné  remyruiz@gmail.com    
-Le champ d'édition suivant restera inchangé :    
-édition sélectionné  20    
-Les cases à cocher suivantes doivent être cochées comme suit :    
-Utiliser un Proxy case à cocher non coché    
-Authentification case à cocher non coché    
-Se connecter automatiquement à CDDB case à cocher coché    
-Ajouter un site bouton    
-Récupérer des sites bouton    
-Tout réinitialiser bouton    
-Options d'envoi bouton    
-OK bouton    
-``
+`arborescence`    
+`Onglet CDDB distant`    
+`CDDB distant page de propriété Serveur distant`    
+`Adresse mail`    
+`Port du Proxy`    
+`Mot de passe`    
+`Timeout (secondes)`    
+`Adresse`    
+`Chemin`    
+`Protocole`    
+`Localisation`    
+`Port`    
+`Configuration d'avant :`    
+`liste déroulante localhost http  80 ( localserver ) réduit`    
+`Changé par :`    
+`liste déroulante gnudb.gnudb.org cddbp  8880  (GNUDB) réduit`    
+`Configuration d'avant :`    
+`édition sélectionné  localserver`    
+`Changé par :`    
+`édition sélectionné  GNUDB`    
+`Configuration d'avant :`    
+`édition sélectionné  localhost`    
+`Changé par :`    
+`édition sélectionné  gnudb.gnudb.org`    
+`Le champ d'édition suivant restera inchangé :`    
+`édition sélectionné  /~cddb/cddb.cgi`    
+`Configuration d'avant :`    
+`liste déroulante HTTP (port par défaut 80) réduit`    
+`Appuyez sur flèche haut et modifiez la valeur comme suit :`    
+`liste déroulante CDDB ( port par défaut 888 or 8880) réduit`    
+`Configuration d'avant :`    
+`édition sélectionné  80`    
+`Changé par :`    
+`édition sélectionné  8880`    
+`Votre adresse électronique doit apparaître dans le suivant champ d'édition :`    
+`édition sélectionné  remyruiz@gmail.com`    
+`Le champ d'édition suivant restera inchangé :`    
+`édition sélectionné  20`    
+`Les cases à cocher suivantes doivent être cochées comme suit :`    
+`Utiliser un Proxy case à cocher non coché`    
+`Authentification case à cocher non coché`    
+`Se connecter automatiquement à CDDB case à cocher coché`    
+`Ajouter un site bouton`    
+`Récupérer des sites bouton`    
+`Tout réinitialiser bouton`    
+`Options d'envoi bouton`    
+`OK bouton`    
 
 Appuyez sur le bouton « Ok » et pressez la touche entrée pour enregistrer les modifications.    
 
