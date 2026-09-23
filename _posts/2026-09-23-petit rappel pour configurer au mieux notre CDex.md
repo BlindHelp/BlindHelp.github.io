@@ -130,36 +130,35 @@ Testé avec le lecteur d'écran NVDA 2026.2 sur un ordinateur de bureau Windows 
 Faites tabulation.    
 
 NVDA m'annonce les valeurs suivantes :    
-
 ``
-arborescence
-Onglet CDDB distant
-CDDB distant page de propriété Serveur distant
-Adresse mail
-Port du Proxy
-Mot de passe
-Timeout (secondes)
-Adresse
-Chemin
-Protocole
-Localisation
-Port
-liste déroulante localhost http  80 ( localserver ) réduit
-édition sélectionné  localserver
-édition sélectionné  localhost
-édition sélectionné  /~cddb/cddb.cgi
-liste déroulante HTTP (port par défaut 80) réduit
-édition sélectionné  80
-édition sélectionné  remyruiz@gmail.com
-édition sélectionné  20
-Utiliser un Proxy case à cocher non coché
-Authentification case à cocher non coché
-Se connecter automatiquement à CDDB case à cocher coché
-Ajouter un site bouton
-Récupérer des sites bouton
-Tout réinitialiser bouton
-Options d'envoi bouton
-OK bouton
+arborescence    
+Onglet CDDB distant    
+CDDB distant page de propriété Serveur distant    
+Adresse mail    
+Port du Proxy    
+Mot de passe    
+Timeout (secondes)    
+Adresse    
+Chemin    
+Protocole    
+Localisation    
+Port    
+liste déroulante localhost http  80 ( localserver ) réduit    
+édition sélectionné  localserver    
+édition sélectionné  localhost    
+édition sélectionné  /~cddb/cddb.cgi    
+liste déroulante HTTP (port par défaut 80) réduit    
+édition sélectionné  80    
+édition sélectionné  remyruiz@gmail.com    
+édition sélectionné  20    
+Utiliser un Proxy case à cocher non coché    
+Authentification case à cocher non coché    
+Se connecter automatiquement à CDDB case à cocher coché    
+Ajouter un site bouton    
+Récupérer des sites bouton    
+Tout réinitialiser bouton    
+Options d'envoi bouton    
+OK bouton    
 ``
 
 Comme je l'ai expliqué plus haut, nous devrons modifier les valeurs par défaut, qui sont désormais obsolètes, et les remplacer par ces nouvelles valeurs qui fonctionnent actuellement avec CDex 2.24 :    
@@ -167,53 +166,53 @@ Comme je l'ai expliqué plus haut, nous devrons modifier les valeurs par défaut
 Faites tabulation.    
 
 ``
-arborescence
-Onglet CDDB distant
-CDDB distant page de propriété Serveur distant
-Adresse mail
-Port du Proxy
-Mot de passe
-Timeout (secondes)
-Adresse
-Chemin
-Protocole
-Localisation
-Port
-Configuration d'avant :
-liste déroulante localhost http  80 ( localserver ) réduit
-Changé par :
-liste déroulante gnudb.gnudb.org cddbp  8880  (GNUDB) réduit
-Configuration d'avant :
-édition sélectionné  localserver
-Changé par :
-édition sélectionné  GNUDB
-Configuration d'avant :
-édition sélectionné  localhost
-Changé par :
-édition sélectionné  gnudb.gnudb.org
-Le champ d'édition suivant restera inchangé :
-édition sélectionné  /~cddb/cddb.cgi
-Configuration d'avant :
-liste déroulante HTTP (port par défaut 80) réduit
-Appuyez sur flèche haut et modifiez la valeur comme suit :
-liste déroulante CDDB ( port par défaut 888 or 8880) réduit
-Configuration d'avant :
-édition sélectionné  80
-Changé par :
-édition sélectionné  8880
-Votre adresse électronique doit apparaître dans le suivant champ d'édition :
-édition sélectionné  remyruiz@gmail.com
-Le champ d'édition suivant restera inchangé :
-édition sélectionné  20
-Les cases à cocher suivantes doivent être cochées comme suit :
-Utiliser un Proxy case à cocher non coché
-Authentification case à cocher non coché
-Se connecter automatiquement à CDDB case à cocher coché
-Ajouter un site bouton
-Récupérer des sites bouton
-Tout réinitialiser bouton
-Options d'envoi bouton
-OK bouton
+arborescence    
+Onglet CDDB distant    
+CDDB distant page de propriété Serveur distant    
+Adresse mail    
+Port du Proxy    
+Mot de passe    
+Timeout (secondes)    
+Adresse    
+Chemin    
+Protocole    
+Localisation    
+Port    
+Configuration d'avant :    
+liste déroulante localhost http  80 ( localserver ) réduit    
+Changé par :    
+liste déroulante gnudb.gnudb.org cddbp  8880  (GNUDB) réduit    
+Configuration d'avant :    
+édition sélectionné  localserver    
+Changé par :    
+édition sélectionné  GNUDB    
+Configuration d'avant :    
+édition sélectionné  localhost    
+Changé par :    
+édition sélectionné  gnudb.gnudb.org    
+Le champ d'édition suivant restera inchangé :    
+édition sélectionné  /~cddb/cddb.cgi    
+Configuration d'avant :    
+liste déroulante HTTP (port par défaut 80) réduit    
+Appuyez sur flèche haut et modifiez la valeur comme suit :    
+liste déroulante CDDB ( port par défaut 888 or 8880) réduit    
+Configuration d'avant :    
+édition sélectionné  80    
+Changé par :    
+édition sélectionné  8880    
+Votre adresse électronique doit apparaître dans le suivant champ d'édition :    
+édition sélectionné  remyruiz@gmail.com    
+Le champ d'édition suivant restera inchangé :    
+édition sélectionné  20    
+Les cases à cocher suivantes doivent être cochées comme suit :    
+Utiliser un Proxy case à cocher non coché    
+Authentification case à cocher non coché    
+Se connecter automatiquement à CDDB case à cocher coché    
+Ajouter un site bouton    
+Récupérer des sites bouton    
+Tout réinitialiser bouton    
+Options d'envoi bouton    
+OK bouton    
 ``
 
 Appuyez sur le bouton « Ok » et pressez la touche entrée pour enregistrer les modifications.    
@@ -364,7 +363,7 @@ Vous êtes de retour dans la fenêtre principale de CDex.
 
 Activez le menu déroulant avec ALT, flèche droite jusqu'à « Conversions » puis flèche basse jusqu'à atteindre « Ré-encoder MPEG » et pressez la touche entrée.    
 
-Dans la fenêtre qui apparaît à l'écran, faites tabulation pour atteindre la liste du contenu du dossier « Ma musique ». Sélectionnez les fichiers à convertir,    
+Dans la fenêtre qui apparaît à l'écran, faites tabulation pour atteindre la liste du contenu du dossier « Ma musique » ou « Musique ». Sélectionnez les fichiers à convertir,    
 dans le cas ou vous souhaiteriez sélectionner le contenu entier du dossier, faites tabulation jusqu'au bouton intitulé « Tout sélectionner » et pressez    
 la touche entrée.    
 
@@ -403,24 +402,22 @@ Ce dossier MP3 est facultatif, mais sa création facilitera la recherche de vos 
 ## CDex — Premier dialogue après la configuration de CDex Version 2.24 dans l'onglet CDDB distant
 
 Après avoir correctement rempli les champs obligatoires lors de la configuration de CDex Version 2.24 dans l'onglet CDDB distant et inséré votre CD audio provenant du magasin où vous l'avez légitimement acheté, vous recevrez le message suivant en anglais :    
-``
-Connexion en cours
-Ouverture de la connexion
-OK Réponse
+`Connexion en cours`    
+`Ouverture de la connexion`    
+`OK Réponse`    
 
-Envoi de la requête
-Found inexact match, please select a match and press the next button
-Or press the Cancel button  to abort
+`Envoi de la requête`    
+`Found inexact match, please select a match and press the next button`    
+`Or press the Cancel button  to abort`    
 
-Dans notre belle langue le français Cela se traduit par :
-Correspondance inexacte trouvée, veuillez sélectionner une correspondance et appuyer sur le bouton suivant
-Ou appuyez sur le bouton Annuler pour interrompre.
+Dans notre belle langue le français Cela se traduit par :    
+`Correspondance inexacte trouvée, veuillez sélectionner une correspondance et appuyer sur le bouton suivant`    
+`Ou appuyez sur le bouton Annuler pour interrompre.`    
 
-When selecting a code page other than UTF-8  is recommended to re-submit the CDDB entry.
+`When selecting a code page other than UTF-8  is recommended to re-submit the CDDB entry.`    
 
-Dans notre belle langue le français Cela se traduit par :
-Lorsqu'on sélectionne une page de codes autre que UTF-8, il est recommandé de soumettre à nouveau l'entrée CDDB.
-``
+Dans notre belle langue le français Cela se traduit par :    
+`Lorsqu'on sélectionne une page de codes autre que UTF-8, il est recommandé de soumettre à nouveau l'entrée CDDB.`    
 
 Ce message provient généralement du logiciel CDex (un outil populaire pour extraire les pistes d'un CD audio en fichiers MP3 ou WAV).    
 Il signifie que le logiciel a cherché les informations de votre CD (titres des chansons, artiste, album) sur une base de données en ligne (comme freedb ou gnudb), mais qu'il a trouvé plusieurs albums correspondants ou une correspondance incomplète.    
@@ -445,20 +442,18 @@ Ou le nom du dossier attribué par CDex selon le nom du CD audio utilisé pendan
 
 Les principaux raccourcis clavier du logiciel d'extraction audio CDex reposent essentiellement sur les touches de fonction (F4 à F12) :    
 
-``
-"F8" : copie intégralement le CD en Wav sur le Disque;
-"F9" : copie le CD en Mp3;
-"F10" : permet de copier sélectivement une partie du CD;
-"F11" : permet d'encoder n'importe quel fichier Wav se trouvant sur le disque dur en Mp3;
-"F12" : permet d'encoder des fichiers Mp3 se trouvant sur le disque dur en Wav;
-"F2" : permet de renommer une Piste;
-"F4" : permet de Configurer CDex;
-"F5" : Rafraîchit la liste des pistes (relecture de la Table des Matières et des informations CDDB);
-``
-
-Un grand merci à notre regretté formateur Philippe BOULANGER 🙏 pour avoir partagé cette fiche d'information dédiée au programme CDex pendant sa formation et aussi à tous mes amis qui m'ont laissé un commentaire sur la liste de diffusion ou en privé. (handshake)
+"F8" : copie intégralement le CD en Wav sur le Disque;    
+"F9" : copie le CD en Mp3;    
+"F10" : permet de copier sélectivement une partie du CD;    
+"F11" : permet d'encoder n'importe quel fichier Wav se trouvant sur le disque dur en Mp3;    
+"F12" : permet d'encoder des fichiers Mp3 se trouvant sur le disque dur en Wav;    
+"F2" : permet de renommer une Piste;    
+"F4" : permet de Configurer CDex;    
+"F5" : Rafraîchit la liste des pistes (relecture de la Table des Matières et des informations CDDB);    
 
 Voilà, je pense avoir fait le tour de comment utiliser  et configurer au mieux notre CDex    
+
+Un grand merci à notre regretté formateur Philippe BOULANGER 🙏 pour avoir partagé cette fiche d'information dédiée au programme CDex pendant sa formation et aussi à tous mes amis qui m'ont laissé un commentaire sur la liste de diffusion ou en privé. (handshake)    
 
 C'est fini ce rappel pour configurer au mieux notre CDex! 🔐    
 À la prochaine sur un autre post!    
