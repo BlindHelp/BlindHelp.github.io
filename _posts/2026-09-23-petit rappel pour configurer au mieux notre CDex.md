@@ -50,7 +50,7 @@ Lors de l'installation de CDex 2.24, vous devez choisir les options par défaut.
 
 Cette version de CDex inclut le pack de langues, dont le français.    
 
-## CDEX — Changer la langue en français
+## CDex — Changer la langue en français
 
 Si l'interface n'est pas en français, faire comme sui :    
 Lorsque nous avons ouvert notre programme CDex à partir de l'icône sur le bureau, si nous allons à    
