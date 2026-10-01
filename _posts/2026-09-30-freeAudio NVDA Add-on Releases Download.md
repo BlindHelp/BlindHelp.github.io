@@ -60,15 +60,16 @@ Voici le message affiché par NVDA après l'installation de la nouvelle extensio
 
 `L'ancienne version de cette extension, FreeRadio, est toujours installée en même temps que freeAudio. Leur exécution simultanée entraîne un conflit d'accès aux raccourcis et au périphérique audio. Vos paramètres et données ont été copiés dans freeAudio. Veuillez désinstaller FreeRadio (NVDA menu, Outils, Add-on Store ou Gestionnaire d'Extensions) et redémarrer NVDA.`    
 
-Remarque concernant le dossier d'enregistrements de l'extension FreeRadio 2026.24.2 ou versions précédentes
+## Remarque concernant le dossier d'enregistrements de l'extension FreeRadio 2026.24.2 ou versions précédentes
 
 Les enregistrements sont enregistrés par défaut dans son dossier correspondant  (à condition que vous ayez enregistré quelque chose avec l'extension FreeRadio 2026.24.2 ou versions précédentes, sinon, ignorez l'avertissement ci-dessous).    
 
-Remarque : Si vous aviez précédemment le dossier par défaut: `Documents\FreeRadio Recordings\`    
-Que ce dossier contienne ou non des enregistrements, vous devrez le renommer avec son nouveau nom au cas où cela ne se ferait pas automatiquement après la suppression de la version précédente de l'extension comme nom FreeRadio, ledit nom du dossier on le trouve au début comme ça : freeAudio si vous n'avez pas modifié son chemin par défaut :    
+Remarque : Si vous aviez précédemment le dossier par défaut ayant pour nom:    
+`Documents\FreeRadio Recordings\`    
+Que ce dossier contienne ou non des enregistrements, vous devrez le renommer avec son nouveau nom au cas où cela ne se ferait pas automatiquement après la suppression de la version précédente de l'extension ayant pour nom FreeRadio, ledit nouveau nom du dossier on le trouve au début comme : freeAudio si vous n'avez pas modifié son chemin par défaut :    
 `Documents\freeAudio Recordings`    
 
-Si vous n'avez pas encore effectué d'enregistrements avec l'ancienne extension FreeRadio 2026.24.2 ou versions précédentes et que vous avez installé la nouvelle extension freeAudio 2026.25.0 (anciennement freeradio), ce dossier sera créé après votre premier enregistrement dans le chemin par défaut.    
+Si vous n'avez pas encore effectué d'enregistrements avec l'ancienne extension ayant pour nom FreeRadio 2026.24.2 ou versions précédentes et que vous avez installé la nouvelle extension freeAudio 2026.25.0 (anciennement freeradio), ce dossier sera créé après votre premier enregistrement dans le chemin par défaut.    
 `Documents\freeAudio Recordings`    
 
 Voilà pour cette mise en garde à ne pas négliger pour s'éviter de mauvaises surprises lors du passage à cette nouvelle mise à jour avec le changement de nom dans l'extension pour NVDA appelée maintenant freeAudio (anciennement freeradio).
