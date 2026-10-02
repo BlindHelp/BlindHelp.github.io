@@ -164,7 +164,7 @@ etc, etc.
 
 <https://blindhelp.github.io/csv_to_m3u_script_python.zip>
 
-Vous trouverez également dans le fichier zip le fichier appelé :    
+Vous trouverez également dans l'archive zip le fichier appelé :    
 `csv_to_m3u_script_python_aide.txt`    
 Ce fichier texte résume les points les plus importants abordés dans ce post.
 
