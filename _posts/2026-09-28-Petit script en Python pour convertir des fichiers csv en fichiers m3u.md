@@ -77,6 +77,8 @@ Celui-ci contient les fichiers :
 `ma_liste.csv`    
 `ma_playlist.m3u`    
 
+Vous pouvez utiliser ce script Python à condition de supprimer les commentaires de votre fichier CSV ; sinon, vous obtiendrez un message d’erreur.
+
 ## 🚀 Comment l'utiliser
 
 Ouvrez votre terminal et lancez la commande suivante :    
@@ -126,6 +128,14 @@ Celui-ci contient les fichiers :
 `ma_liste.csv`    
 `ma_playlist.m3u`    
 
+Je vous recommande d'utiliser plutôt ce nouveau script Python, car il est mieux structuré que l'ancien script Python vu précédemment.
+
+Comme mentionné précédemment le nouveau script Python va :    
+
+* Ignorer les lignes de commentaires (qui commencent par `#`).
+* Détecter si une ligne contient l'en-tête officiel (`name,url...`).
+* Utiliser `csv.reader` proprement pour extraire la colonne du nom (titre) et celle de l'URL (généralement les colonnes 0 et 1).
+
 ## 🚀 Comment l'utiliser
 
 Ouvrez votre terminal et lancez la commande suivante :    
@@ -153,6 +163,10 @@ etc, etc.
 ## 🛠 Télecharger le script en Python pour convertir des fichiers csv en fichiers m3u dans un seul archive zip depuis l'espace sur BlindHelp.github.io
 
 <https://blindhelp.github.io/csv_to_m3u_script_python.zip>
+
+Vous trouverez également dans le fichier zip le fichier appelé :    
+`csv_to_m3u_script_python_aide.txt`    
+Ce fichier texte résume les points les plus importants abordés dans ce post.
 
 ### 🖥️ Prérequis indispensable pour que le script Python fonctionne
 
