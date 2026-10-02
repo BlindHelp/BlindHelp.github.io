@@ -11,17 +11,23 @@ author: BlindHelp
 
 
 Coucou mes amis du blog de BlindHelp!    
-Aujourd'hui, je vous présente ce post dédié au petit script en Python pour convertir des fichiers .csv en fichiers .m3u, à savoir que ledit script a été créé par l'IA Gemini.
+Aujourd'hui, je vous présente ce post dédié au petit script en Python pour convertir des fichiers .csv en fichiers .m3u, à savoir que ledit script a été créé par l'IA 🤖 Gemini.
 
-Le fait que ce script ait été généré par l'IA Gemini est une excellente information, car cela permet de mieux comprendre sa structure type et d'anticiper d'éventuels ajustements, et cela a été fait en demandant de l'aide sur la liste de discussion francophone appelée "progliste".
+Le fait que ce script ait été généré par l'IA 🤖 Gemini est une excellente information, car cela permet de mieux comprendre sa structure type et d'anticiper d'éventuels ajustements, et cela a été fait en demandant de l'aide sur la liste de discussion francophone appelée "progliste".
 
-Un membre de la liste a fait la demande en mon nom auprès de Gemini, qui a répondu de manière satisfaisante à mes attentes.
+Un membre de la liste a fait la demande en mon nom auprès de l'IA 🤖 Gemini, qui a répondu de manière satisfaisante à mes attentes.
+
+Voici Gemini, l'assistant IA 🤖 de Google. Faites-vous aider pour rédiger, planifier, trouver des idées et plus encore. Découvrez la puissance de l'IA 🤖…
+
+[Google Gemini](https://gemini.google.com)    
+
+Je ne suis pas programmeur en Python ni dans aucun autre langage de programmation, je suis simplement une personne curieuse qui aime découvrir des choses et les partager ici.
 
 Avertissement: 💀    
 
 Le blog de BlindHelp n'est pas responsable des dommages causés par une mauvaise utilisation de ce script Python téléchargé ni des informations ce trouvant sur  ce post dédié et l'utilisation de ce script Python téléchargé est à vos risques et périls. ☠
 
-Le fin mot de l'histoire est que j'avais déjà un script  en Python pour convertir des fichiers csv en fichiers m3u donné par une IA, mais malheureusement il me donnait un message d'erreur car le fichier csv était tronqué de commentaires et je ne l'avais pas fait le nettoyage avant d'exécuter le script mentionné.
+Le fin mot de l'histoire est que j'avais déjà un script  en Python pour convertir des fichiers csv en fichiers m3u (Recommandé pour automatiser) donné par une IA 🤖, mais malheureusement il me donnait un message d'erreur car le fichier csv était tronqué de commentaires et je ne l'avais pas fait le nettoyage avant d'exécuter le script mentionné.
 
 Après avoir envoyé un message pour demander de l'aide concernant ce problème sur la liste progliste, l'idée m'est venue de supprimer les `#` commentaires du fichier ma_liste.csv :    
 `# PyRadio Playlist File - Format:`    
@@ -41,6 +47,8 @@ Après avoir fait cela, j'ai lancé la ligne de commande suivante :
 
 Et le nouveau fichier ma_playlist.m3u a été généré.    
 
+## 📋 Structure attendue pour votre fichier M3U
+
 Voici la syntaxe correcte pour que le fichier ma_playlist.m3u fonctionne sur n'importe quel lecteur :    
 
 `#EXTM3U`    
@@ -53,9 +61,13 @@ Voici la syntaxe correcte pour que le fichier ma_playlist.m3u fonctionne sur n'i
 
 etc, etc.    
 
+## 📋 Structure attendue pour votre fichier PY
+
 Vous pouvez trouver son code dans l'ancien fichier py    
 
 Je n'ai pas inclus le code Python dans cet article car il pourrait être tronqué par contre je l'ai compressé dans un archive zip pour que vous puissiez le télécharger et le consulter à votre guise.    
+
+Vous trouverez ci-dessous le lien de téléchargement de ces fichiers dans un seul archive zip.    
 
 Une fois décompressé vous pourrez voir le contenu du dossier nommé : csv2m3u(ancienne_version)
 
@@ -65,7 +77,7 @@ Celui-ci contient les fichiers :
 `ma_liste.csv`    
 `ma_playlist.m3u`    
 
-## Comment l'utiliser
+## 🚀 Comment l'utiliser
 
 Ouvrez votre terminal et lancez la commande suivante :    
 `python csv_to_m3u.py ma_liste.csv ma_playlist.m3u`    
@@ -77,11 +89,9 @@ De plus, les deux fichiers mentionnés ci-dessous ne sont que des exemples desti
 `ma_liste.csv`    
 `ma_playlist.m3u`    
 
-Vous trouverez ci-dessous le lien de téléchargement de ces fichiers dans un seul archive zip.    
+Nous allons maintenant passer à la réponse donnée par l'IA 🤖 de Gemini.    
 
-Nous allons maintenant passer à la réponse donnée par Gemini.    
-
-## Réponse Gemini
+## 🪄 Réponse Gemini
 
 Ce fichier CSV fournit une information précieuse : il s'agit d'un format de playlist **PyRadio** (qui utilise des lignes de commentaires commençant par `#` pour documenter le format et la liste des colonnes).    
 
@@ -100,9 +110,13 @@ Le script va :
 * Détecter si une ligne contient l'en-tête officiel (`name,url...`).
 * Utiliser `csv.reader` proprement pour extraire la colonne du nom (titre) et celle de l'URL (généralement les colonnes 0 et 1).
 
+## 📋 Structure attendue pour votre fichier PY
+
 Vous pouvez trouver son code mis à jour dans le nouveau fichier py    
 
 Je n'ai pas inclus le code Python dans cet article car il pourrait être tronqué par contre je l'ai compressé dans un archive zip pour que vous puissiez le télécharger et le consulter à votre guise.    
+
+Vous trouverez ci-dessous le lien de téléchargement de ces fichiers dans un seul archive zip.    
 
 Une fois décompressé vous pourrez voir le contenu du dossier nommé : csv2m3u(nouvelle_version)    
 
@@ -112,7 +126,7 @@ Celui-ci contient les fichiers :
 `ma_liste.csv`    
 `ma_playlist.m3u`    
 
-## Comment l'utiliser
+## 🚀 Comment l'utiliser
 
 Ouvrez votre terminal et lancez la commande suivante :    
 `python csv_to_m3u.py ma_liste.csv ma_playlist.m3u`    
@@ -123,8 +137,6 @@ De plus, les deux fichiers mentionnés ci-dessous ne sont que des exemples desti
 
 `ma_liste.csv`    
 `ma_playlist.m3u`    
-
-Vous trouverez ci-dessous le lien de téléchargement de ces fichiers dans un seul archive zip.    
 
 ### Ce que produira ce nouveau script pour  ce fichier :
 
@@ -138,15 +150,15 @@ Il générera un fichier M3U parfaitement conforme et propre, sans crochets ni i
 
 etc, etc.
 
-## Télecharger le script en Python pour convertir des fichiers csv en fichiers m3u dans un seul archive zip depuis l'espace sur BlindHelp.github.io
+## 🛠 Télecharger le script en Python pour convertir des fichiers csv en fichiers m3u dans un seul archive zip depuis l'espace sur BlindHelp.github.io
 
 <https://blindhelp.github.io/csv_to_m3u_script_python.zip>
 
-### Prérequis indispensable pour que le script Python fonctionne
+### 🖥️ Prérequis indispensable pour que le script Python fonctionne
 
 L'installation de Python est le prérequis indispensable sur Windows 10 et 11 pour exécuter des scripts, et vous pouvez le télécharger directement depuis le site officiel de [Python](https://www.python.org/downloads/).
 
-### Prérequis : Installation de Python sur Windows 10/11
+### 🖥️ Prérequis : Installation de Python sur Windows 10/11
 
 Pour installer Python correctement sur votre ordinateur :
 
