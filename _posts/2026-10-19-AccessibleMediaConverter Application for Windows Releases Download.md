@@ -33,7 +33,7 @@ Dans tous les cas, en cliquant sur ce même lien permettra de télécharger la d
 Pour cloner le dépôt depuis  GitHub utilisez la commande git suivante:    
 `git clone https://github.com/math65/accessible-media-converter.git`    
 
-Et pour conclure, je voulez vous dire que cette application Windows appelée [AccessibleMediaConverter](https://github.com/math65/accessible-media-converter/) est  le compagnon idéal de l'autre application Windows appelée [DownAccess](https://github.com/math65/downaccess/), créée par le même auteur, qui, une fois installés, peuvent fonctionner ensemble.
+Et pour conclure, je voulez vous dire que cette application Windows appelée [AccessibleMediaConverter](https://github.com/math65/accessible-media-converter/) est  le compagnon idéal de l'autre application Windows appelée [DownAccess](https://github.com/math65/downaccess/), créée par le même auteur, qui, une fois installés, peuvent fonctionner ensemble.    
 Merci à @math65 🙇    
 Voilà c'est fini, 🔐    
 Sur ce, je vous souhaite une bonne utilisation de cette nouvelle application pour Windows appelée AccessibleMediaConverter complètement accessible :)    
