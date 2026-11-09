@@ -17,7 +17,7 @@ L'auteur m'a demandé en privé de traduire cette nouvelle extension en espagnol
 Un grand merci à Çağrı Doğan le développeur de cette magnifique extension pour NVDA grâce à laquelle nous pouvons exécuter des commandes NVDA et des actions courantes de Windows à la voix grâce à un moteur de reconnaissance vocale hors ligne ([Vosk](https://alphacephei.com/vosk/) par défaut, ou un modèle [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) que vous choisissez, compare ce texte aux descriptions (ainsi qu'aux phrases que vous définissez vous-même), puis exécute la commande la plus appropriée. Votre voix est traitée sur votre ordinateur et n'en sort jamais.    
 Enjoy! 😃    
 
-Les langues disponibles pour cette extension au moment de la rédaction de ce post sont l'anglais, l'espagnol, le français et le turc.
+Les langues disponibles pour cette extension au moment de la rédaction de ce post sont l'anglais (en), l'espagnol (es), le français (fr) et le turc (tr).
 
 Vous trouverez cette extension à partir de l'Add-on Store. Veuillez consulter mes explications ci-dessous. Merci.
 
@@ -32,7 +32,7 @@ Voici les informations en français trouvés dans l'Add-on Store à propos de ce
 
 # Description :
 
-L'extension **voiceCommands** Exécute les commandes NVDA et les actions Windows courantes par la voix, grâce au moteur de reconnaissance vocale hors ligne (Vosk ou sherpa-onnx); votre voix reste toujours sur votre ordinateur. Vous pouvez prononcer n'importe quelle commande depuis la boîte de dialogue Gestes de commandes, les commandes Windows intégrées telles que  "afficher le bureau", "afficher la barre des tâches" ou "coller", ainsi que vos propres commandes pour ouvrir un programme, un fichier, un dossier ou une adresse web, ou pour appuyer sur une combinaison de touches. Un modèle vocal pour votre langue de NVDA est téléchargé lors de la première utilisation. Assignez des touches dans la boîte de dialogue Gestes de commandes, sous la catégorie Commandes Vocales.
+Exécute les commandes NVDA et les actions Windows courantes par la voix, grâce au moteur de reconnaissance vocale hors ligne (Vosk ou sherpa-onnx); votre voix reste toujours sur votre ordinateur. Vous pouvez prononcer n'importe quelle commande depuis la boîte de dialogue Gestes de commandes, les commandes Windows intégrées telles que  "afficher le bureau", "afficher la barre des tâches" ou "coller", ainsi que vos propres commandes pour ouvrir un programme, un fichier, un dossier ou une adresse web, ou pour appuyer sur une combinaison de touches. Un modèle vocal pour votre langue de NVDA est téléchargé lors de la première utilisation. Assignez des touches dans la boîte de dialogue Gestes de commandes, sous la catégorie Commandes Vocales.
 
 # Autres détails :
 
